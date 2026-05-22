@@ -1,0 +1,2466 @@
+{
+  "generatedAt": "2026-05-22T17:23:24.264Z",
+  "cadenceMinutes": 60,
+  "nextUpdateHint": "2026-05-22T18:23:24.264Z",
+  "stats": {
+    "total": 140,
+    "sourceCount": 15,
+    "sourcesSucceeded": 15,
+    "sourcesFailed": 0,
+    "windowHours": 240,
+    "latestPublishedAt": "2026-05-22T17:18:58.000Z"
+  },
+  "topics": [
+    {
+      "name": "AI动态",
+      "count": 79,
+      "heat": 84
+    },
+    {
+      "name": "监管安全",
+      "count": 16,
+      "heat": 84
+    },
+    {
+      "name": "产品应用",
+      "count": 15,
+      "heat": 89
+    },
+    {
+      "name": "模型发布",
+      "count": 14,
+      "heat": 93
+    },
+    {
+      "name": "算力芯片",
+      "count": 13,
+      "heat": 90
+    },
+    {
+      "name": "投融资",
+      "count": 11,
+      "heat": 91
+    },
+    {
+      "name": "端侧AI",
+      "count": 7,
+      "heat": 91
+    },
+    {
+      "name": "研究论文",
+      "count": 4,
+      "heat": 87
+    },
+    {
+      "name": "机器人",
+      "count": 1,
+      "heat": 91
+    },
+    {
+      "name": "多模态",
+      "count": 1,
+      "heat": 83
+    }
+  ],
+  "sources": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "type": "official",
+      "language": "en",
+      "ok": true,
+      "itemCount": 972
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "type": "official",
+      "language": "en",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "url": "https://research.google/blog/rss/",
+      "type": "official",
+      "language": "en",
+      "ok": true,
+      "itemCount": 100
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "type": "official",
+      "language": "en",
+      "ok": true,
+      "itemCount": 784
+    },
+    {
+      "id": "microsoft-ai-blog",
+      "name": "Microsoft AI Blog",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "type": "official",
+      "language": "en",
+      "ok": true,
+      "itemCount": 10
+    },
+    {
+      "id": "nvidia-ai-blog",
+      "name": "NVIDIA AI Blog",
+      "url": "https://feeds.feedburner.com/nvidiablog",
+      "type": "official",
+      "language": "en",
+      "ok": true,
+      "itemCount": 16
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "type": "media",
+      "language": "en",
+      "ok": true,
+      "itemCount": 20
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "type": "media",
+      "language": "en",
+      "ok": true,
+      "itemCount": 7
+    },
+    {
+      "id": "mit-tr-ai",
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "type": "media",
+      "language": "en",
+      "ok": true,
+      "itemCount": 10
+    },
+    {
+      "id": "the-decoder",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/",
+      "type": "media",
+      "language": "en",
+      "ok": true,
+      "itemCount": 10
+    },
+    {
+      "id": "google-news-ai-zh",
+      "name": "Google News: AI 中文",
+      "url": "https://news.google.com/rss/search?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20OR%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%20OR%20ChatGPT%20OR%20OpenAI%20OR%20Claude%20OR%20Gemini%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "type": "search",
+      "language": "zh",
+      "ok": true,
+      "itemCount": 100
+    },
+    {
+      "id": "google-news-ai-global",
+      "name": "Google News: Global AI",
+      "url": "https://news.google.com/rss/search?q=artificial%20intelligence%20OR%20OpenAI%20OR%20Anthropic%20OR%20DeepMind%20OR%20Nvidia%20AI%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "type": "search",
+      "language": "en",
+      "ok": true,
+      "itemCount": 98
+    },
+    {
+      "id": "google-news-ai-regulation",
+      "name": "Google News: AI Regulation",
+      "url": "https://news.google.com/rss/search?q=AI%20regulation%20OR%20AI%20safety%20OR%20AI%20policy%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
+      "type": "search",
+      "language": "en",
+      "ok": true,
+      "itemCount": 98
+    },
+    {
+      "id": "google-news-ai-chips",
+      "name": "Google News: AI Chips",
+      "url": "https://news.google.com/rss/search?q=AI%20chips%20OR%20Nvidia%20GPU%20OR%20AI%20accelerator%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
+      "type": "search",
+      "language": "en",
+      "ok": true,
+      "itemCount": 52
+    },
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv cs.AI",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "type": "research",
+      "language": "en",
+      "ok": true,
+      "itemCount": 389
+    }
+  ],
+  "failures": [],
+  "items": [
+    {
+      "id": "the-decoder-deepseek-reportedly-prioritizes-agi-research-over-quick-profits-",
+      "title": "Deepseek reportedly prioritizes AGI research over quick profits despite billions in funding",
+      "url": "https://the-decoder.com/deepseek-reportedly-prioritizes-agi-research-over-quick-profits-despite-billions-in-funding/",
+      "source": "The Decoder",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T17:18:58.000Z",
+      "summary": "Deepseek is about to raise around $10 billion, which would value the Chinese AI startup at roughly $45 billion. Founder Liang Wenfeng is telling investors he's putting AGI research ahead...",
+      "topics": [
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-文博会观察可讲解可创作可陪伴ai让文化产业-上大分-ai眼镜-qwen-千问-ai玩具-展馆-手机新浪网-新浪财经",
+      "title": "文博会观察可讲解可创作可陪伴AI让文化产业“上大分”|AI眼镜|Qwen|千问|AI玩具|展馆_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNX1p6dm15VlgyZVhkR1dJV211bkI3NEtzSkxPTUFrNklrSDdoZUpTRU1fZkF5cWhYbnJPbnlOS2hDVDB1d1RxbWxCeG02X01MZ0tsRmtPZkExcXRxenhxYXJKQ3F2VlE2bm9uZ0VIeGEtaTdMekZUcmxVcXhGZjN6cXJkTk5QaWQ3bVFVdExqRFRPSmlLVjJTRXowQ0JmUnVGOGZXVFFUSllMMkhzMUE5Q0RkOUZQUmlkSmVMOEtWbE9qb2U5OFMzU3NSS1NHYW9EYTBveFdLdFpTbnpuVlM0TEhJZ1F0Qmx2VUFNaU1GWXl1eUM4V0t6bGktcENfemRZOTh5ZW1QOU9RTEQzLXpMZjRYdUw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T17:06:54.000Z",
+      "summary": "文博会观察可讲解可创作可陪伴AI让文化产业“上大分”|AI眼镜|Qwen|千问|AI玩具|展馆_手机新浪网 新浪财经",
+      "topics": [
+        "端侧AI"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-openai-appshots-turn-any-mac-window-into-context-codex",
+      "title": "OpenAI Appshots turn any Mac window into context for Codex",
+      "url": "https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/",
+      "source": "The Decoder",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:56:20.000Z",
+      "summary": "With the new Codex feature Appshots, Mac users can send the contents of any app window to OpenAI's coding assistant Codex at the press of a button, giving it the context it needs for a t...",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-trump-canceled-ai-safety-testing-eo-after-snub-tech-ceos-ars-tec",
+      "title": "Trump canceled AI safety testing EO after snub from tech CEOs - Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOamNYZl9lbTFqSUx4b3cwTnlyTG1EeEMzeFJhM2Q5MUc3Q0lnZjVUUzItNi1WMHAzb3Jjd25HMUhNWE9xbEJiZnpBM1JKaDQ0UW1GMXZIOHozY0NBUlg1NGF2amVPWlhJdzctdXpsNGQ3Y2kzbFdwM1hyZ3VWY1B1UHU3bFFqLXpySjJONUt2b1h1RlI1UVB0T2MwY2o0enQ0X2Zka21yb0FYZw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:51:40.000Z",
+      "summary": "Trump canceled AI safety testing EO after snub from tech CEOs Ars Technica",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-5月21日科创创业人工智能etf鹏华-588410-份额增加200-00万份-最新份额1-07亿份-最新规模1-45亿元-新浪财",
+      "title": "5月21日科创创业人工智能ETF鹏华（588410）份额增加200.00万份，最新份额1.07亿份，最新规模1.45亿元 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNb1VPQ3hrM0dfa2M2ZWp5Sm00eXdhZEtCdmpXdjduZkhtMmJ1eDE0aS0wengtaExwaTgybGdHazM2OHRQTE9LWGp1Ulk4R0pEZ2dneE5JOXpFb1BIaFd6Q192M3ZWcXhTdEpZZ2tZY0lOZW5GQzlKUW9ON0hENkdMZFZqenlzaVllaUhLcnFPRnRDdlJoS3RSWDduRjdQNGFxZFB6YmRrRE1KRFNoT1lvQVhFdXZ5M3hINWF5bDNtdGVoLXRGVzY0NmlYd0NlbjEtQVlpc1VTRTR5REJyV1BoMVBSUEpBbF9HeXdFVWJR?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T16:49:59.000Z",
+      "summary": "5月21日科创创业人工智能ETF鹏华（588410）份额增加200.00万份，最新份额1.07亿份，最新规模1.45亿元 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-td-s-ai-just-made-mortgage-waiting-obsolete-pymnts-com",
+      "title": "TD’s AI Just Made Mortgage Waiting Obsolete - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc0Y2WUlHUTNTaGhhQ3JwUXJMaTNRdl91NGxWSkFJVkk4ZDR2ZjJvcXppRS10eXA5MkNGaUE3eWtDb3FSd3VUYmgtaHpmbVRqRGZTVUtoVWVGZXRxa01hWmQxRk9nSDA1SFp4NktnTTJmVGhaUC1Ec1gzbENoQlVuOWlwZmpBODJSTnk5Y044WnQ1d09PN1RIZGZvc0NGUQ?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:39:30.000Z",
+      "summary": "TD’s AI Just Made Mortgage Waiting Obsolete PYMNTS.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-ai-leaders-see-mass-job-loss-coming-they-want-government-s-help-",
+      "title": "AI leaders see mass job loss coming. They want government’s help solving it. - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUTRiMTF6THVucWh0c3I5OEg4Wkd4TUZOMmItYVY5bTR3bDRnZ1B5dmtrNUFPZ0FqNVNYRmdvRFJuVWlLQ1JuLVB6VEtsa1dRaTFQTDZJOTZkOW5ROElZRmVOb2lZTGd0QWFHZThyOXJRczJtX0VodVpraXF0NVVBQW1ZS3ktbTgydU5YX3B6djZDSUlSYVJMT1VjZ21QUVhSeF9JRFBZY1hmQ0hE?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:38:50.000Z",
+      "summary": "AI leaders see mass job loss coming. They want government’s help solving it. The Washington Post",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-cbs-news-poll-finds-most-americans-doubt-u-s-government-will-ens",
+      "title": "CBS News poll finds most Americans doubt U.S. government will ensure AI is used appropriately - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OS2dEazNjQ0xIZFltMnVNYzVoYjhuZzQ5aldpOC1DVG8yb1VJbktiVG9uazk2WFp3Ri1UeHNpWTlMNWZ4SE5jdDFRX0lkMGV5OWVKeFl2b09aUDRZVkNJRjI4UUxVRE5ETnhyb2xn0gFzQVVfeXFMUFdGM2RQRjh2MVJEZjVEVlNhMi1Zb3JxNkVuUmxCbzRMRFVsU2x4MmlmbkcxNThHblk1Z0lDSDlxR0VtU2Z2UEJ3dDcyYW9SQ2I0OG1YVzYyaWJRY0czMXAya1ZtZTl2WDVRcXAxR3dTOWlKMA?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:26:00.000Z",
+      "summary": "CBS News poll finds most Americans doubt U.S. government will ensure AI is used appropriately CBS News",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-how-utah-s-ai-prescribing-experiment-going-so-far-endpoints-news",
+      "title": "How Utah’s AI prescribing experiment is going so far - Endpoints News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUU04bFF0QktHMnl6R0lRNzBIUUs4bkUzbkctU2ozQmhNLTVEamVhb3B4Nm5BZXlULU1kTjZpNTR0aWVneElxQXk1UmVHX0JPa1l3aFkzMy1naEFYOTlqeXRYV1RKVnFaSUFsV0hacGlzS0ZmLXV5WnFhbU55aHkyeQ?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:25:00.000Z",
+      "summary": "How Utah’s AI prescribing experiment is going so far Endpoints News",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-基金业共话ai时代的-进-与-守-新浪财经",
+      "title": "基金业共话AI时代的“进”与“守” - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVHphNzE5SnpoRUZEQjNDWllxdXc1WERWN1lPQkxpVGktVTE3UG5Wem1NTjZWMEw1WFc4MUttT3I4Vk11Ykk3eW1SUTRfX1Bia1ZhcVNKZk01N1VTWXBMU21MMVFlaHAxcTBvemxzcWh5QTIzMmZjc2pkeDkwQnczWUoyb2tkMi1MZENjMHVmR1J1NGs5Q3V4UGZGZFNkZVIzMThFZEU1Sk5zTUIzNGx3OVcwZWppZDN2V0FTUDZDekV5WUdDU3dnNXRSNGZLN1lTRDd3aWtBS1NUQ1d1OFQtcmpJQjExc29iS3RNc3B2SWtOWklwRko3cGo2SHdXQQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T16:23:34.000Z",
+      "summary": "基金业共话AI时代的“进”与“守” 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-spotify-s-ai-bet-more-everything-less-what-you-want-techcrunch",
+      "title": "Spotify’s AI bet: more of everything, less of what you want - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbkxJN05DWWxqMnNhSFAyY2tLMVdHMFNBYjViSzBQd1VvMThkNnI1blBFM2UxUHMyTFpIekxUWUFUYS1lZDc0blVHMnBUUVJiN2tfMlFyMTdCdU9GTmJoX2ZRb1hVbWozQmJITXdHQmJpV1NUOGR4dzNYdFp0VVVReFFDZFQzU25sNGJfWDY1MTZrdmRlUGc?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:18:10.000Z",
+      "summary": "Spotify’s AI bet: more of everything, less of what you want TechCrunch",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-you-can-no-longer-google-word-disregard",
+      "title": "You can no longer Google the word ‘disregard’",
+      "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
+      "source": "TechCrunch AI",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:16:48.000Z",
+      "summary": "After Google Search's AI update, the word \"disregard\" now effectively breaks the search interface.",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-salesforce-ceo-defends-ai-ads-as-standard-tech-marketing-pymnts-",
+      "title": "Salesforce CEO Defends AI Ads as Standard Tech Marketing - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTnVrUTNsU2RLbkVwdUdtYTRaQXZZVkhLZTluOUVrWll4QUliOGZUaENraDVUSTVROGlvMEU4Q0VVZ3lIbzJYc3plSVBPT2xpUV80dlFKTkkwRjV4dlBwVVBsNnJTLVVaZlBvUlRSeHFZbGtzdHhzUmEyZS1Ga2JPQWxCY0JRMWl3azNyZFdsTjF0N3RsVVJzeGdyd0tQLUZxalRPZ3Z5U2VsbXNnNVN6NUNib1o?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:09:31.000Z",
+      "summary": "Salesforce CEO Defends AI Ads as Standard Tech Marketing PYMNTS.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-ai-闪亮西洽会-新浪财经",
+      "title": "AI+闪亮西洽会 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPYnEwZzd0RGJWSWhlY0R3MWtiWE1vSTFKU1ZWdl8tU0oyNVJNb0ctbUlIME9QaW5jVXBZOVY1OUFId2xQLVkxZDZMX0pqMUE0ZDV0aXRCeG51TjNleFBLSkpybGxFczMwRS16eEl4TzVscWxsRFlzcnZXXzF4aDFSRUpwUkRUSGJSWE51eHRZOEdUcXUyeEo0YWVpdVNDaVl3bzhObXlyWUpoOWRrdGZINkVWZnNLWGdvZlhxdjRVbkFOMFl6QnFSNHh5WDBWMFBpVEpSZjdBb0g0clVIYnhobE9jOUVqeEU1al9LenFHSGNkQnpKbVhyakVzdExyTjREMzY2Yg?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T16:06:18.000Z",
+      "summary": "AI+闪亮西洽会 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-openai-leads-ai-coding-agents-startuphub-ai",
+      "title": "OpenAI Leads in AI Coding Agents - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVctbmZNMllOSnlObmZfZUdtNEFpSnZvcmZ3eWdXYWZNUWJiSEtaQ2V2VDFmM0Y4R0lfS0J2aFZwMXNpUFhkTEVLcGhtY3RqaTBTTWlsN1BENjJLRW16eWl1QWVLZDVzTEp6aEtwbEV4WVE1V3V6ZmtVME5hUTcxTzl6eEZBMkxNWDlMZzFodjRzNUw3UWdVWVFIdw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:03:57.000Z",
+      "summary": "OpenAI Leads in AI Coding Agents StartupHub.ai",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ross-gerber-ai-efficiency-gains-amazing-startuphub-ai",
+      "title": "Ross Gerber: AI Efficiency Gains Are 'Amazing' - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjdBbjNwYW1uanlRaC1VR0ItS2FWeU5oMXB5TkdsOG9MR2JOLWZHbENIMDhuNWZBV09DSE9VdTRURnN0UjQyT0JoaU9Ba0hVcEtfSVBpck9NOWYxZlNlbmp3UWUyQVdndzlfSlkyZEFaSHpod1Z4M0NjWU9Fc1NEXzFHeXVsTFpiZktVdjMtUmt0bGlkcVlLQnFmOFR1bUVlSDZXOC11Nlgwdw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:02:57.000Z",
+      "summary": "Ross Gerber: AI Efficiency Gains Are 'Amazing' StartupHub.ai",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-how-ai-cyber-threats-influencing-cyber-insurance-premium-costs-c",
+      "title": "How AI Cyber Threats are influencing Cyber Insurance Premium Costs - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN2JjSkNQQjVrTnM1OVptQ0E1SW5mbjBBbGR3SUJHZWl2QzNFZ2pHUlp1V3N1d2Y5YTFuQVNuWHF6Y3JpcXN0U1RJcmtRVWNCLVJhLVdZS2NzdmdrcHBoRVE1ZzVFMHo1WlQ2cW45Z0trU1N0OTl1RTliZFluaE1fSVdFc05WVnBWVFJ3VEhra0FPTU5DbjRKSl95d1dGZVkwUWlwTThFQnVnUQ?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:00:59.000Z",
+      "summary": "How AI Cyber Threats are influencing Cyber Insurance Premium Costs Cybersecurity Insiders",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-education-ministry-launches-ai-talent-ark-taipei-times",
+      "title": "Education ministry launches AI Talent Ark - Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nVFg2b1piNnk0N0c4elZrcG1LTTQ0eEtKMDdyVWc1UHV3aFpPQU9YbnQ2R1BRRmppaDJUV0NKUURSQlIzVFpELWpGZ0tpZFJZUm93UGViODVmUTB5aE9sdkZXdFdfZzRxYU93bHFOUHdoancxNVdkLQ?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T16:00:00.000Z",
+      "summary": "Education ministry launches AI Talent Ark Taipei Times",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-retail-media-networks-evolve-as-ai-agents-shop-pymnts-com",
+      "title": "Retail Media Networks Evolve as AI Agents Shop - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN2szZnlpSmZXLUx4a1ZoVlVPXzdQa2VmN05sRW5YVUttbkxMeWRpR2FNanh6dVVNNnlNMy12SGtWazQwcVo3QlIxUktHdUNfQXp5cnA3ZUlHcF9tX0drNDlGQkNKSlRfWDdEN2ZfR1A4NHlGemFTQmt2Q2pJd3ItcUdOY3Q1VHJQM3htSUdvZFgwLVp5ZmU3QU9Zd29JSW1XTExN?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:59:38.000Z",
+      "summary": "Retail Media Networks Evolve as AI Agents Shop PYMNTS.com",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-secure-generative-ai-starts-work-facility-executive-magazine",
+      "title": "Secure Generative AI Starts With The Work - Facility Executive Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZVVlIb0J4SktTZTdMMkY5UTYtZ25FWkxtZ0tfY1RGWHAzTXp4cVJyRE1qV3pUX19kMVJXOXpHOWNOMkNaVHpId1RQYmZpZlQtLWx0SlhvYkNKcVpfUmxvSjRiSTd6dHpCQy1Ka29VSzlmcVFqbXdmU0g3VXM?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:56:00.000Z",
+      "summary": "Secure Generative AI Starts With The Work Facility Executive Magazine",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-openai第一季度营收约为-57亿美元-每日经济新闻",
+      "title": "OpenAI第一季度营收约为 57亿美元 - 每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VUXViMGQwRGVxNXktYVMzeVNieE9VQXVyNTNvZjNycjhHUUtQcWdWYlZNVVgwcUhxeG1HRXhhdnhCZW5KdTk2TlgwbnN2aXZmOUF2S1FTd1BhX3BEamRMeVNmMA?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T15:55:00.000Z",
+      "summary": "OpenAI第一季度营收约为 57亿美元 每日经济新闻",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-what-kenya-s-ai-bill-gets-wrong-about-political-expression-tech-",
+      "title": "What Kenya's AI Bill Gets Wrong About Political Expression - Tech Policy Press",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdXBqbjR3R2ZhYlpKR09ueFM4cl9JaVhLdklaMmJZUWM1LWxaU096Y1Q4WkF0QlZNZlJVa3VXYjlKbVFNQ2c0VGotcGZqaVV3TXd2NndiakVQZjBqVTE4aEZKYktlb01FU01rLXJNWUhPVEFFSkxncDRIbUc3bFktb3Z0RmZtMWE3TjY4aE4tVUY?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:53:21.000Z",
+      "summary": "What Kenya's AI Bill Gets Wrong About Political Expression Tech Policy Press",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ai-powered-nonlinear-optical-imaging-reveals-protein-spatial-hom",
+      "title": "AI-powered nonlinear optical imaging reveals protein spatial homogenization as an indicator of impaired bone quality in type 2 diabetes - EurekAlert!",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBlMlFnSGpSeHlsQkw3ME1lb0NMMXo5SDB2R0MyTTMzOUl4cXpDZDhiUDRFSFAzcldwcVlld1lDdHBLaFhTWWFVX0JlR0pBcno3UHptTGg4dG1mc1VD?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:53:16.000Z",
+      "summary": "AI-powered nonlinear optical imaging reveals protein spatial homogenization as an indicator of impaired bone quality in type 2 diabetes EurekAlert!",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-zetrix-ai-shenzhen-data-exchange-unlock-value-asean-china-data-t",
+      "title": "Zetrix AI, Shenzhen Data Exchange to Unlock Value of ASEAN-China Data Through Cross-Border Trading Platform - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOb2JfM0ZHU05IWUhPNDVQMkxnNW9DMVMtYjA4Q0ZxZ2lXcXZmWHNFZ1k5a3NTTTAwUi05T08tTDJTc3VtaXRNcDM2WjZmQVY1eEJBOUg5ZkJBZWw4YmxjTWU2Tmt4bHZwUC03TGp4My05VGtPQ2M1S2dxeFVfWEVhS2JrVkh4N2tqejhqcWxJaG41RXlsakZwd0E0U0dMMGdsbTNucVVmQ2REY3R6TGVfRUh6THdvbXp1YjN4b1ozckRJVGxxLVlWa3JOVkFHOGMtMGNqQ0hlOElQdTdyNDFfN3R2RE9FM2JnZHFJNEFPTFRROUpS?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:53:00.000Z",
+      "summary": "Zetrix AI, Shenzhen Data Exchange to Unlock Value of ASEAN-China Data Through Cross-Border Trading Platform PR Newswire",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-taxi-driver-screenwriter-paul-schrader-says-ai-girlfriend-dumped",
+      "title": "‘Taxi Driver’ screenwriter Paul Schrader says AI girlfriend dumped him - Washington Times",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcy1iYkEyWk92NnRoZUNZOWFsczZaa1V1WmVzN25HdzcyOTlxT2txRTNpVElIWkl1eFhIME1XTnYzb0U4MTI5NFhkM3BJWUNMbHJWYmxUd3Q2dDc0QVQ3cF92LUFXZGdWY1dNeEZ2NmlxOVVKQmVtMEtnVk9pMWZKamhFbll0clVRa2NBSzlJbnl6RXNwLWR5cmhlNVJMeF9qWXhFdGVqQTNLUkZoQ0x4amItU20?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:51:37.000Z",
+      "summary": "‘Taxi Driver’ screenwriter Paul Schrader says AI girlfriend dumped him Washington Times",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-judge-says-lawyers-ai-use-risks-career-altering-consequences-reu",
+      "title": "Judge says lawyers' AI use risks ‘career-altering’ consequences - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUmM4Y2pQODVaVElTdG9fR3dKR2pKaEw3UDFXOG42aW85c3c5cTVhWC1sTVVIRkxYZGJjMW13WDBKTWJLRWtwNkhQZG1SNl9VcjRJd1VCU3Nhd2Rqd19jMWhXcjdCT280S0hkemQxVk5LLWtQVkVUQUg1RU9YUldnSWtvUkFpRGhPV2ZJX3BQTEk4RUV2U0dIM1YyNmpodGJQVzl5Y2JmTy1NdTA0ZWtiaUtxaw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:48:35.000Z",
+      "summary": "Judge says lawyers' AI use risks ‘career-altering’ consequences Reuters",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-technology-executive-role-expanding-under-ai-pressure-national-c",
+      "title": "The Technology Executive Role Is Expanding Under AI Pressure - The National CIO Review",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbDVCQlR6LUlWQTNHZTNTc05qRGdNVV9xeUl6c1JCYXRWbS0tNkxWVVZ3Z1pzdGFQSWpFbXFhdkJ0WURWbmJ2N0xRM1VYMTNCcWZ3TFJEMHdzOEJVN1FuZDRnWHBoRzNoQ0RneTBKeE9PalpBOWY2ekVNZ2RHUmNxU0R2QkNXU1lSdlRqMHljM25CM1ZFby11VEFzV2pUZ3d3UF94UWdGcURFYWxzbzYyOWpWNlNUUkZaWXg0eFNn?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:45:00.000Z",
+      "summary": "The Technology Executive Role Is Expanding Under AI Pressure The National CIO Review",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-狂拉逾6-华宝基金港股通信息技术etf全天领跑-英伟达链强者恒强-创业板人工智能强势回血-新浪财经",
+      "title": "狂拉逾6%，华宝基金港股通信息技术ETF全天领跑！英伟达链强者恒强，创业板人工智能强势回血 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTjlNNElLa3QxYzk0OUlwb1JLSmRMcWN6Zm5CelVpdGVyQTZ6bHQ4V1hjTHJrQzBtQnRXeXJPaURHdjJ5TVF5OEtqSWU2LWV4eE1YSnpjMWFRNk5HNndLcGNIeG15SkxDaGZJdDFUeTBYZG9zMlJ2Q1IwUXhIVlNtWURya3ZsMFdyYUdDSDF3TlJWTGVFd0NXZ2VoN0JxMXp5TTdYYzJfWU9haFhaYUNLTHhLUXI1cXFranNodzlySC1DMjRRMjBwQUQycTdfYnZHR2VQMGh0SnhiZUlPRWZ2OW45R256U3BObGlVVUxBOEYxWm1ZZFRWM05YUkE2ZGF3UWstYQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T15:40:52.000Z",
+      "summary": "狂拉逾6%，华宝基金港股通信息技术ETF全天领跑！英伟达链强者恒强，创业板人工智能强势回血 新浪财经",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-trump-scrapped-major-ai-safety-plan-here-s-why-that-matters-chat",
+      "title": "Trump scrapped a major AI safety plan — here’s why that matters for ChatGPT users - Tom's Guide",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2l1eGhEcFNCd0NNNUFaY3pHdXVVWnNyZl9YR3lVWWlhT2hfUXJxclE0SGlIeHFxTTVlUkVkZUtvOW95TXFpOGJRdnhsRUdoclhDcWg5eU1ram9Ya3U1aEZfdXRCa1NYUExuRkZ3MW9pYi00SzBpZC1WNjlubWdQVTFMdFZVYlBwczE5YlpJUFNRTDlHQldnRmtaWmxNMWNUNFpBcnNqUGFlLVk?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:38:51.000Z",
+      "summary": "Trump scrapped a major AI safety plan — here’s why that matters for ChatGPT users Tom's Guide",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-we-tried-google-s-ai-glasses-they-re-almost-there",
+      "title": "We tried Google’s AI glasses and they’re almost there",
+      "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+      "source": "TechCrunch AI",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:37:15.000Z",
+      "summary": "Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-知情人士-宁德时代计划投资deepseek-数据中心-人工智能-京东-人民币-运营商-手机新浪网-新浪财经",
+      "title": "知情人士：宁德时代计划投资DeepSeek|数据中心|人工智能|京东|人民币|运营商_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNUNtWmxQMEdMZ1MwOEhIT2E5Q2d4MURQSldvd1JhM3Z4bHVoZWlvRGFzelFvZ1FZNzRSNk1XOFpwTHlKYU9pUTNDSGJtazRPRXpiX291ekRETWZrNEdNcEtxcTYwTjhnOHdiVzFrZEtJWkhidnMzUG5kREVBU1VvZ3g1c0lhNElQRGNUVVBSbmgxTm1pSnRRcmJiU0trdGtaNFhOLUgxbWo4LXY2SzI2WFFFZl9GX1R5dXRQbWQ4SVVhb2syazc1cHMzOUplTktRRUFmR3hYbXJIcDdqQ2ZfYW44LWlfUmhaNE9RTTJmcG8yeUE3WHRnUHBIcW03SFFQajlGLWNYNjF1WVFrR1E?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T15:36:49.000Z",
+      "summary": "知情人士：宁德时代计划投资DeepSeek|数据中心|人工智能|京东|人民币|运营商_手机新浪网 新浪财经",
+      "topics": [
+        "投融资",
+        "端侧AI"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-5月21日科创人工智能etf南方-589230-份额减少750-00万份-最新份额2-56亿份-最新规模2-71亿元-新浪财经",
+      "title": "5月21日科创人工智能ETF南方（589230）份额减少750.00万份，最新份额2.56亿份，最新规模2.71亿元 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOc28tV2M2TzZDWHVRVmZ1ODZ4ZWZSWE1OZ1dObS1oSGdvWlBFS2pyOXE2Qnp4NHFsU2czdDQ1Si1CMUloN3gydW9wWUxUY2JoUi1LZmp6ZWRZTzZMWjFDVzZHWTlOZG1yRkw2VDgwWVBINFpzM0V1N09oZ0NFTWZWYjJSenZfY244QkR0ZmtSQ2R4UTQwdEFvUGxUbmtISEdmemhkZEk2dlNtalFlMWdQVi1nU2lTejdrV25RV25ZLXNfUHdpYUJBVWpHYkNobHp0MWU4eDRkN2swYzBaSFMwU1doTkxNSHZZeWt4ZlNR?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T15:34:33.000Z",
+      "summary": "5月21日科创人工智能ETF南方（589230）份额减少750.00万份，最新份额2.56亿份，最新规模2.71亿元 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-norm-ai-launches-compliance-agent-microsoft-365-fintech-global",
+      "title": "Norm Ai launches compliance agent for Microsoft 365 - FinTech Global",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSlhpUzRQQzB0eUlpMDNTTXN3SWF0bFhfNnlYeGwxT3FIZnVfLW9IdE5kZEpRSUJCMnA4X0ZpMEVtOGk1V19tSzJPUGhYRjhLYVhCYlE5c2J5NENtZWxiZ2ZJWHdDcDc1b2pHUTBzQUpVcDJhRXJ6elFranhjU21MMHNOeGFxN0tLLWVwa0xYQQ?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:30:24.000Z",
+      "summary": "Norm Ai launches compliance agent for Microsoft 365 FinTech Global",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-城事-让ai-干活-在荒漠中植入小草-shobserver-com",
+      "title": "【城事】让AI“干活”，在荒漠中植入小草 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWOFEwdmNKZHpHQU1VUldaLUw4Wk5qOS1rb25Jb3ZRaHMxQzJ3R0wzNnZFZk0yRG5wLXJFazdxSVQwckltZ0ZscHpLX1RmdlR2N2xfZXdEQUp1S3JEekE?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T15:29:00.000Z",
+      "summary": "【城事】让AI“干活”，在荒漠中植入小草 shobserver.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-read-trump-s-unsigned-ai-executive-order-politico",
+      "title": "Read Trump's unsigned AI executive order - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2pQMFlGektfYXBfTmMxM205ZEx0ZjF1ZHVnQ2R0ZjNfaFRUdm43TDJNSWxZMExWcWh2S3J1SWRTSmRpYldoLVhEb0dvOHk3VEkyN0RNeVp6VWM1S1FFYUVtVVMxNzk4V2VSWWZoM0NYUGFJZ3FJdDMwRUpuZm5GSDZxLUNfdm5jWlJzMm1tRkF3aHZIQ3A0WXR1bUR1OVd4clVF?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:26:50.000Z",
+      "summary": "Read Trump's unsigned AI executive order Politico",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ai-talent-war-heats-up-as-openai-co-founder-joins-anthropic-ai-m",
+      "title": "AI Talent War Heats up as OpenAI Co-Founder Joins Anthropic - AI Magazine",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50Rlh2ZUFacGg0VUd3SXRZVHFvYXB4TVBxSVozQ0o5UjVIYml5Sm0yaFBVRXRCam5hMU9NQmpLanVrd3ZXMUNHOWdJTXE2QlZ0U1NFRjRHclVvOERzOWw0OVZPbG1oMm1JclBj?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:26:27.000Z",
+      "summary": "AI Talent War Heats up as OpenAI Co-Founder Joins Anthropic AI Magazine",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-specialization-beats-scale-strategic-variable-most-ai-procuremen",
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "source": "Hugging Face Blog",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:25:59.000Z",
+      "summary": "来自公开新闻源的 AI 相关动态，点击原文查看完整报道。",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-anticipating-encyclical-artificial-intelligence-pope-will-show-e",
+      "title": "Anticipating the Encyclical on Artificial Intelligence: Pope will show an ethical code for AI is not enough, head of papal academy says – Catholic Saskatoon News - Catholic Saskatoon News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nNDhDWk5uTEJtelZhYkQyUE5Xd0VQVXcyVVJobTFfclZqYVpkNzBLaGVxNUZzN2t1WGlQVGFFb0lJTXJFdnBMRWpJTmJGcXJIU2ZjdlE5YmVsblo2RVBJc2pBRXBkbGN5RTRjT2tLd1Q?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:24:02.000Z",
+      "summary": "Anticipating the Encyclical on Artificial Intelligence: Pope will show an ethical code for AI is not enough, head of papal academy says – Catholic Saskatoon News Catholic Saskatoon News",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-ai竞争进入下半场-从-卷参数-到-卷单价-gemini-3-google-谷歌-ai代码生成-gemini-手机新浪网-新浪财",
+      "title": "AI竞争进入下半场：从“卷参数”到“卷单价”|Gemini 3|Google|谷歌|AI代码生成|Gemini_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZmFuMVJZbGFnU1paY1lMQ09IdE5kZ3JMTy1WVVgxUDcxUVpLeFlJZm9nbHRlaDk1VEUxM3Ria2gzaUdGYUotYTh1TnVoWHdLU0EySnlPMllNbXk2RTloVGNvcG9kcTRaOEd0QVpJWnhWMTAxYkY4OGM0ZDNpc0t0c2NTLTdtSWFScThqc2RSUVdtRkkzVEFWWnc4U1k3YnhJRjd6bWM1YVdaanFQTU05Wm53VFZVRzdlUTZlTGhGRUR3TFFuV29tMjNsZFRlSEhsZHNZZU5xOGlrRlhiTG1ZY1RrYjFCdkF3RHI5Y20tX1hUSUFJSlRCVVJDUmtjX0U2YmlJTFM1X054bTdjWTk4VnlnYw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T15:22:30.000Z",
+      "summary": "AI竞争进入下半场：从“卷参数”到“卷单价”|Gemini 3|Google|谷歌|AI代码生成|Gemini_手机新浪网 新浪财经",
+      "topics": [
+        "模型发布",
+        "端侧AI"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-workers-face-growing-automation-anxiety-as-tech-layoffs-surge-ai",
+      "title": "Workers face growing 'automation anxiety' as tech layoffs surge, AI adoption accelerates - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTDM4RDJuUEllTkpkdzRvWTdJRUVvYk9EbFMwNGRrekdqYjNjblpZTzlaS3hYVjJWSHBmZVdVRU9keE5SQk5tYW5kQno4bjkyQWQtNkNNOXpad0I1bUYtS3V4ZENtRGdJM2tWZ29jTU45ZlptOVJfazFMZ2Z1NThFVF9Lb0RJV1ZtWTlrekN3LUx2STJJYVExM29TUkF2RXN2cUQyUEZ0cUJwRDIxZUI0LWl5V1NNTHZhUFHSAb8BQVVfeXFMUDdsS1dGcmVfbXhRU3lEU0Z5bFIwRGxFMmp6Wi1idm9EaWFYX3ZzMkw4NG9NUG83bklqVUpiQVM2MEhrYk9lUlE2Rjd6cnV4T2daRDMwYXp5elNUOHJWZmxuS1RsQlgtUFVoQ2dBSkw0OEV6ajgxZ3BiRnp6d3BMOUJJNUw0eG9XWF91TzJRcjZlM0F5dEFudUlNUUpqU0dVbnRvblJMc3AzSUxfT1BVci1Bd2NKMjZHU21ZOXp4a28?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:14:00.000Z",
+      "summary": "Workers face growing 'automation anxiety' as tech layoffs surge, AI adoption accelerates Fox Business",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-victory-politico-agrees-shut-down-both-ai-tools-at-center-landma",
+      "title": "VICTORY: POLITICO agrees to shut down both AI tools at center of landmark arbitration - The NewsGuild - CWA",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQemJRZ21IRW1BY3ZBN3d0RnJZZWZvTVdLN0prTTBRMVVtTnJfWVlORmRxcGlmZWtoTTBpMVJQSVhCUTJBMEdXd3RtMFpEQnhOeDR1MEtuaUltOFJWUHZHeW5aZ3RKaElFRnFzTHpsRzlQeXlGWjFKMjJuR0tGeG5aeHZVTGZzOE9rbHpfVE1xcnRuQ0JmNDlKRWxWTWFIX1FpUGVTaXp6RW5jQjg?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:14:00.000Z",
+      "summary": "VICTORY: POLITICO agrees to shut down both AI tools at center of landmark arbitration The NewsGuild - CWA",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-amid-heavy-ai-use-workers-say-their-skills-atrophying-hr-dive",
+      "title": "Amid heavy AI use, workers say their skills are atrophying - HR Dive",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbzBGM3JjUzJYNWhnc3lTX2N2bkFDbmlUU2dsekdjbDh4ZmVrZ1Q0OTFKakh5MW1jWnhkM0EzSzdMZGpza3FHVXhNbmNsN3NUdzRPeVBYdnZrQ19fdXdfY1FKODIyMktpbjl6OEpWRFN4OG1WOS11NUJTSVdvOFB4UTdLeWMxcTZENFhz?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:06:49.000Z",
+      "summary": "Amid heavy AI use, workers say their skills are atrophying HR Dive",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-why-good-companies-go-bad-ries-incorruptibility-startuphub-ai",
+      "title": "Why Good Companies Go Bad: Ries on Incorruptibility - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0tZT0RtRk02cjlsLWVRYmJhTkc0ekJUZXhodEI3NmljX3Q5b3ZZTWs2dTJwMkFZQ2E2ZzFNX3RMZExTbDFSa2lNQzFVdUZrdWFkSjFfQ2ozaTVqVFNDbGI3NllNdTl0TnJhY1lOdWFkTHV3LXFKZ0RhcnFfM2VvRlBrTXQwWUlYYWFadWdtYThmVVlBTzR1UThfTEtIVXZkY25TTmtWbG1qSFdKOHlpc0lYVQ?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:04:42.000Z",
+      "summary": "Why Good Companies Go Bad: Ries on Incorruptibility StartupHub.ai",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-workday-extends-sana-ai-itsm-after-hr-finance-cio-com",
+      "title": "Workday extends Sana AI to ITSM after HR, finance - cio.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYmU1LXVSNWNxMXlTS3MzUmpXU01vcXp1aDlBNTlqWVF1aWFadTZYY2lTenBaWDJyQlkyQlp5YlhnRllabVMwNzdfd01rdU5fT0huQThYYlBucTgyamJsWDFOalAzR1BXaXQyVTViWmZrTkNhWmVJb3hralhXaG9ZeW5kcEp1MHdjLWRwclZQejlNdHM?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:04:38.000Z",
+      "summary": "Workday extends Sana AI to ITSM after HR, finance cio.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-cisco-leverages-openai-s-codex-ai-defense-startuphub-ai",
+      "title": "Cisco Leverages OpenAI's Codex for AI Defense - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQW4wNV91UzBFSzJZTUswclF6OWxtcUJaLVUyTjhIeFJud05uOVBYeWtXeEprNDFMSDJMT00tMXhQRG1ZSmlpM2kxRTQ3czNRb21MNGJPalJyOFJBVnRVYlI3TnNneXpad0pUbkdScU5CemxCbjZvcUVoYkV6aEtRcnRKbi16LTM0VktNd3BEcG55N3NDaVI1Zmp1RlVxYzFScnNHRV9FUi03dHJN?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:03:21.000Z",
+      "summary": "Cisco Leverages OpenAI's Codex for AI Defense StartupHub.ai",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-trump-delays-ai-security-executive-order-maintain-tech-lead-over",
+      "title": "Trump Delays AI Security Executive Order to Maintain Tech Lead Over China - Android Headlines",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaVVkeWFBbGdlczNOdFU5WVI1clprbmswU1VYWmJYTHdpVG9ZTHNMbnlGMS04cUQwVS1tVjRsLWNSSE9OcjdUbEk2YW13N1BEa3NiUmNsSnpSOEFqd0hieEkzbWpTOUdhYXJ3SmNRU1RQSWVRd3dsZFpLM3VRVTBXdW42VVpwMU5KSERHYkdfdms2b29fcjRn?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:01:37.000Z",
+      "summary": "Trump Delays AI Security Executive Order to Maintain Tech Lead Over China Android Headlines",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-opinion-class-2026-rains-boos-down-ai-globe-mail",
+      "title": "Opinion: The Class of 2026 rains boos down on AI - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG45eXVhejF6dU54LXc1RUNhQlhUTi1QN241bURoUUpwMEM2UjJueXpuZU9uWm5xRkx2WF90TUZ5emVsODFyeWlBdmxON1pzdnVNZFl1UVY4UUVfaVItSWpZY3VvUW5SM09MNlgtenF2OVhBUWNTa2JfSFdkTl9KMkRjazJFd3ZwOTlGeWE0X1h1V0wxaXNjcHFpeUF2UThSeGpLMDlFRQ?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:00:00.000Z",
+      "summary": "Opinion: The Class of 2026 rains boos down on AI The Globe and Mail",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-wa-schools-ai-policy-doesn-t-take-stakes-seriously-enough-seattl",
+      "title": "WA schools’ AI policy doesn’t take the stakes seriously enough - The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFNhNVhXT0g5Z2MtSi1wMU9mdzRVUXdNYWx0cXhwSUpFZU5OenhmQi1ZRVdybnE5eXJUZjJOVTRGNFk0UjdMeV8yeXlibHRZMU95MzQ5V0tqc3lldzhSTXhKeFpOZkpWVDR4cGZJdExZcEZXYldDaWVPa2diNW1qTlRZeVJZRGFPMVZKVy12V3FYNXpabTBsWXVKZWNSN0E?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:00:00.000Z",
+      "summary": "WA schools’ AI policy doesn’t take the stakes seriously enough The Seattle Times",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-three-debt-brands-dominate-america-s-ai-answers-pr-newswire",
+      "title": "Three Debt Brands Dominate America's AI Answers - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONV85bDlPZ2xZQlRoTWlaMmp3M01uRERYY3F6b0xtYzdjeXpJWWZzTzdqdU8teFNhbGdHT0J6RFczTUlXQV90NXJnYUtfeUlGNWRXTE9qUWxfY29ZNVNyaVFfRDRRTWVqSm9pSzhENTF0a1NzeWs3WXQ0eTlqRTFDdlNrNU1oanNYYjZGSGxaOVhZeER5TVJSN0lTbnZhSUo3VXk4ag?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T15:00:00.000Z",
+      "summary": "Three Debt Brands Dominate America's AI Answers PR Newswire",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-谁在给ai-投毒-新浪财经",
+      "title": "谁在给AI“投毒”？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR092SlhZcENBYWdaM2J5a19CTUQ1Zm5FbnFhTjhTaVk0b3BWcGh5T1hOaWpaOEdZU1dKSENHYTBFeVVWMjhpaFJxT0ZKMWZfc0RXTndqNGZYV3RZdTd1MlpOSzB1T0h0OUlEMnRub3VoeXlJYTRoc25XVVZrc3BLQXJ3VDJmbU1mNGctVkVDSXNlRzEyZE1RQWF3NV9mdVEzNVk5ZkZrcw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T14:54:12.000Z",
+      "summary": "谁在给AI“投毒”？ 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-stc-graduate-helps-shape-ai-future-manufacturing-south-texas-col",
+      "title": "STC graduate helps shape AI future in manufacturing - South Texas College",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRnltcVlVY2FZY09qSHRlWDNkZXpXODdOWGhZajBGUjZTTENRMGdIaVpGaks1ZHQwSkNfaWtCN1hudTZ5V3hjYUNhRXNWY21BemlHbUpsaExoTEZESkl6ZEJVdmU3WEJyV2lfN01YTllQTnozOFVGeGdZVzBZejVjTUNlRFRvVFNXZUNVcmhlZzY?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:47:08.000Z",
+      "summary": "STC graduate helps shape AI future in manufacturing South Texas College",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-chips-nvidia-quietly-drops-gaming-as-standalone-segment-its-investor-r",
+      "title": "Nvidia quietly drops gaming as a standalone segment in its investor reports - spilled.gg",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nVnQ1c1FNR3V0OTVJOWNYSU9FU1c3c21nc09OYmpod2pqVXJSaFdaaWQyT21JUDluNWhncENrMTR3TW15eUFNaGdUZUNYQjdpREhJNzQ4U3c1cm1vZTBOTU1FRnhpME4wcXc?oc=5",
+      "source": "Google News: AI Chips",
+      "sourceId": "google-news-ai-chips",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:40:51.000Z",
+      "summary": "Nvidia quietly drops gaming as a standalone segment in its investor reports spilled.gg",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-trump-s-ai-security-delay-exposes-policy-rift-ai-certs",
+      "title": "Trump’s AI Security Delay Exposes Policy Rift - AI CERTs",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WU3RLeEoxbVNYVU5sVUhiWVlPdUVnUlZXa043RUlva2FGOTloaWpGRTJMNjBDTnFacHV1ZFJqa1NkTWtkWW5lb3dZLWZvMzFWanhGRWV4ZFhHbnFybE1sUVJHOGRXbXEwSEFGdmItTFBHVzQ0cWMxakN5WTRJZw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:35:05.000Z",
+      "summary": "Trump’s AI Security Delay Exposes Policy Rift AI CERTs",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-why-trump-ai-executive-order-debacle-matters-transformer-substac",
+      "title": "Why the Trump AI executive order debacle matters - Transformer | Substack",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0hjZmx4dXZFcFFQcjFKWnNJMXBDSDVnZmhuUzZCdllDRTlEQlBUdU5BUTZmZFFhM0FwUm9ualEzeFFwVXl5emltdTZHWW5VZDUtWUJOMDYwN290ZF8wXzNTOEV4VF9YVnNnWVNscVR6RGtmdmc3MG13YnlnajJjOWNvM283VF9xbERrMHpnNHlVWFE0VGhpLTBPSQ?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:30:35.000Z",
+      "summary": "Why the Trump AI executive order debacle matters Transformer | Substack",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-south-dakota-board-regents-announces-systemwide-strategic-object",
+      "title": "South Dakota Board of Regents Announces Systemwide Strategic Objectives for Artificial Intelligence Integration - mykxlg.com",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQRTY3ZVlURl9QTjhiUDFkcjBZRW44OFotTnRxS2FqMUdqTm1wcXluMzFESElLN3Jwel9FSWY1N3NibWNPSGtCSDFTUU1zY0NZUHdKLVQ4Nkg1S0pXaUFNbk9YcklOZ1VjcWdIMWhOQmotRV9TcFF5eGxVekt3a3VNeVpZTHFTM0QycWtGb2tuTGlRbGJvangwc1FUcnktRnB0Y0xXU2pWUTQzdWczQWMzbE54Rjhid0xoZjgxMkwtaG56LUNOLTRuc3FXZ2tOTUZuQUExcGdYLTI4dHU3MTJUUjZQTkFXR2ktLXRYejYtbW94UnJJaG52WGR3dUR3QUFQQlBEOUJ5OXN1NDFUcS1wN3Y4WHFnOExhWnVacElYaHE?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:30:00.000Z",
+      "summary": "South Dakota Board of Regents Announces Systemwide Strategic Objectives for Artificial Intelligence Integration mykxlg.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-commonwealth-prize-controversy-shows-literary-world-isn-t-prepar",
+      "title": "The Commonwealth Prize controversy shows the literary world isn’t prepared for AI - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KbEFGRjZiLXRZNkExZVhoUUlBdExHQkZfLTNEWjJ1ZEE3a1RPbndIU19MYWlvVmVzTEFIUWZzT1FjbXluVDZhT0ZMbXB1QUR6WUh0dlpaS2w3Nk9wOGdBNTllWVBhMnd6WmNIbjFlTFB4RU0xQ3BaVDJXSnJBUQ?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:30:00.000Z",
+      "summary": "The Commonwealth Prize controversy shows the literary world isn’t prepared for AI The Verge",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-当铜价跟随ai算力产业链起舞-铜与全球ai热潮的命运已然绑定-新浪财经",
+      "title": "当铜价跟随AI算力产业链起舞 铜与全球AI热潮的命运已然绑定 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeFhkVFhBbUN6RkEyS25iM0NSMVMyelhpTEJ4ZlFvNUxVdDhocmJTRnA4dTdDandpdjhzRzFQbTJtdmVtNWJtVTdTNGFRSDU4VmpwUnZVQ01xM1M2LWFQZG5jT2tPQm54YkZqXzk0VWQ3WHQ4LU0yMUQwU3E3ejM5aHNEVGhyN3NrQUtRVmZhS2NfWW8yd3piSEFGUFZDdVNIRUFTV0NZNA?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T14:26:05.000Z",
+      "summary": "当铜价跟随AI算力产业链起舞 铜与全球AI热潮的命运已然绑定 新浪财经",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-coreweave-vs-nebius-which-artificial-intelligence-ai-infrastruct",
+      "title": "CoreWeave vs. Nebius: Which Artificial Intelligence (AI) Infrastructure Stock Is a Better Buy in 2026? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTFFBSTZDWXFNMFR6bGpvUXBuNDhXeklHYkJkRDhhdFE1VWQ2VnFLcy16MzVQcVNySUZSUTFLNlIwMS1ncm5lUnNad283cE04VEtJTzRMSC1sWXNqOEpKYlRpdXZTVUdoTHRBUDlscmYyMlcwWmVmY3JqZXp6VHJ1U0J3RGp4dENhd2tnUjYtcWNDM1JTcDRkME9EdXdRZ2Q3YVJ6ZGx6cFN0d1Azd0p5UFJ6ZnI2NmRwZ2RoUTZhZm5VZ0JaTmEyd2k0Q1RzX1dsLUlTLW82eF93a2VKODNLaVFXUHc?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:25:00.000Z",
+      "summary": "CoreWeave vs. Nebius: Which Artificial Intelligence (AI) Infrastructure Stock Is a Better Buy in 2026? The Motley Fool",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-view-dc-two-sided-market-ai-deception-iapp",
+      "title": "A view from DC: A two-sided market of AI deception - IAPP",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBIX19uaVFNT2tFZnN4a3pYUzk2RDA3N3gtdmIzdHBWcjA0T2ZhSlBHeWlwb1Y0dGM5RmduNHMxN2ZuTzFCRV9oQ2VtaWQwWURhdXhqc2hpbU5hcFpNMmhDR21tMU9XSnhxb1pUUmQ5bXNQbll5RnZZX2VYWXJJdw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:19:25.000Z",
+      "summary": "A view from DC: A two-sided market of AI deception IAPP",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-openai-burned-through-1-22-per-dollar-earned-even-after-strippin",
+      "title": "OpenAI burned through $1.22 per dollar earned even after stripping out stock-based compensation",
+      "url": "https://the-decoder.com/openai-burned-through-1-22-per-dollar-earned-even-after-stripping-out-stock-based-compensation/",
+      "source": "The Decoder",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:18:32.000Z",
+      "summary": "OpenAI pulled in about $5.7 billion in Q1 2026 revenue but still lost $1.22 for every dollar earned, putting its adjusted operating margin at minus 122 percent. The article OpenAI burned...",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-harlow-sex-offender-used-ai-make-indecent-child-images-bbc",
+      "title": "Harlow sex offender used AI to make indecent child images - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yQUJaMVpwUWptRjlvQldoazdNUHBwWWR6U2FmZS1zWms0N04tYjI3ajRyYW9WZXF6aXMyZGR1UVEwUzY5WFBUeVBRWGVGUDFnRFFhRFBFSnRCQQ?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:16:25.000Z",
+      "summary": "Harlow sex offender used AI to make indecent child images BBC",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-best-artificial-intelligence-ai-stocks-buy-1-000-right-now-aol-c",
+      "title": "The Best Artificial Intelligence (AI) Stocks to Buy With $1,000 Right Now - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTVJqTDFMNUZqSmVpOEhOX0VKczZlVzRkQzJrOWRJOXl6dnhxY3hMa2ZLVXFjQ1c0UWVsUGpXTUg5M2xvc3U3Z1BTLW1hWE5LcDhtVGZ5ZDJrbnJ5MUpzN0U5Vkk5c1ZFZFQxLW5ESUFxYnNXaEJJVkFIRnEwUGUxWEVpLXljMUxCQlE?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:14:33.000Z",
+      "summary": "The Best Artificial Intelligence (AI) Stocks to Buy With $1,000 Right Now AOL.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-ai-put-synthetic-quotes-his-book-but-this-author-wants-keep-usin",
+      "title": "AI put \"synthetic quotes\" in his book. But this author wants to keep using it. - Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYUU2ZVBYemJjZzB6V0VJQV8yMFhfclNaT2VfbWxxLWZ1ZkVzamxyR252YzdZZzhnZDB4SlFhYmZLTEpOSTJjd0dyalNzLWZxWkJMUVA2TmEwSUw4SzAxLXhGQWZrSXVJbEFmM2s5OGVwRFQ2R0RNc3FINUhYUGkwR0tNcjBNN3lzbGFBTjN0Q2tNbnp1T1l0MmJwck5HZ2piSnkxXzZCODZWSzF4QVIw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:05:56.000Z",
+      "summary": "AI put \"synthetic quotes\" in his book. But this author wants to keep using it. Ars Technica",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-artificial-intelligence-data-sovereignty-african-union-horn-revi",
+      "title": "Artificial Intelligence, Data Sovereignty and the African Union - horn review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjB4Ny0zUGU3QTlaOGl5RURaZXQzQ3l1anRQTGVpT3FiM1RWdVNheHl5VXFicHFuNXNCUDFDVzZVaFVoMWZxWEo0a3lWcFVHcm9JaEgxd21QLXFobXB4RlctRjdLMGpUVG1IMHpqZWY0dmdHNjJuRVBybVJMN3BBZl8tNVYwYkR3UnFfSUNIZFdBR296LWRkLXdDZEhpdw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:05:50.000Z",
+      "summary": "Artificial Intelligence, Data Sovereignty and the African Union horn review",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-artificial-intelligence-ai-update-may-22-2026-ai-news-views-past",
+      "title": "Artificial Intelligence - AI Update, May 22, 2026: AI News and Views From the Past Week - MarketingProfs",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVBTcVlqQk9HMnh2TzN4cTNDMEVwRDh0YWV2V3ZvLXNsaU5YTFdUUVJSUjdocU5aTVFSSHNObUJzMXI2SWdyQ0hWd2NKNzZiZkNtTWpzUnA1d0M4Qk1wR3JjU2VoRU1aU2pjQm9sYVdxYnA5Z1R3elR6SDIwcm9JVmZHLVJSUENxU1JZbmhTcjdheWRHSGtJcFVVcl9vc2ctM3R4bzdnOGpYOEJpdmc?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:02:15.000Z",
+      "summary": "Artificial Intelligence - AI Update, May 22, 2026: AI News and Views From the Past Week MarketingProfs",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-mega-ai-ipos-incoming-google-s-agentic-blitz-nvidia-s-next-big-b",
+      "title": "Mega AI IPOs incoming, Google’s agentic blitz and Nvidia’s next big business - SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPamhfWnhQWmZUVi1fSXhMTVpWb3JmNURBenZqZl9MNmZHeTBlQUVCU1BuZmNjQnhvYVFNYjlMeGFOdVV6ckNLUDJWVjdPUmlfQVlQZ2d0UzRpTnRPSmZIV3pFN1RBMVBCdEFpR1MtSWNMVUFpdlFiLUFGWEZ1XzRsU1hNalpQejRvSXNKR2JmTmZnY25TelNRY3VUYlJVZ3pwd3BjWXlfeGd3QQ?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T14:00:18.000Z",
+      "summary": "Mega AI IPOs incoming, Google’s agentic blitz and Nvidia’s next big business SiliconANGLE",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ai-summit-highlights-classroom-uses-artificial-intelligence-scho",
+      "title": "AI Summit highlights classroom uses for artificial intelligence - School News Network",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcExlZEZwMWRRQzBqQ19VLUtIMGRWS2h5YmhndXB1QldNRm9XOVRyemh1SzQtQWdvZy1ibV91UzlDOEhxTmhYaE9zSjlzenNRX05GR3R1TTdCQjhNMDhUSFE0RzFlOW92SG01VG5YVVNyeDhSazk3cGdoTTlMNUprMldhQlRkbS1tTTV1TndMRlAwcTJ6NVJ3bGM5aXJ0QzFLNmY3eVBGdmxOT0U4U1E?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:59:50.000Z",
+      "summary": "AI Summit highlights classroom uses for artificial intelligence School News Network",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-浙大联合腾讯让ai-看懂-三维世界-混元-腾讯混元-qwen-模型-编码器-手机新浪网-新浪财经",
+      "title": "浙大联合腾讯让AI\"看懂\"三维世界|混元|腾讯混元|Qwen|模型|编码器_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWXMtb1hJQ21zTUpEOVF5amNrSTd1cXRfREhuRXlpd0tPcXE2X21fNi1WSlB3RU5IV2oybUFhbFd1dzZhc0FSOXY2ejJSbHdhUUozUHltZ3QzTWNPV2FRdUdBQmJHSWNPTzhQSVVUUnRVU3RneXFaZFRDZnYwT0pPSnBQT19ocWhfSFgwUFVVeFhfcGdGUHJiZDZUY2ZhODdkY293VUZmOA?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:55:57.000Z",
+      "summary": "浙大联合腾讯让AI\"看懂\"三维世界|混元|腾讯混元|Qwen|模型|编码器_手机新浪网 新浪财经",
+      "topics": [
+        "端侧AI"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-centre-brings-together-independent-evidence-how-ai-shaping-socie",
+      "title": "The Centre brings together independent evidence on how AI is shaping society, supporting better decision-making in the public interest at a time of rapid technological change. - Ipsos",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMFZfbURXeC1wNEo3UnFVMHBIZ1Uzdms0Z2tIYlM4R3pJX2plSEhHMm9PZWJvUzQ1R2RjX0U2SGQ1MXowYmkxTVE1RUhrc0hBdmlWOEwtVmhKOHhQVFZuLXRvWXFBTFMtekV0QnlrWjJKNlhXbU4tMHVXeVdMa0RaUFFiUlR5WFUxZld4RnZVbU4tcXVUUW8xakc4bElIUEd3ZkNoWncweGJ3NDNtWW92MXcxY1F0SFJGbldjaDB5Q1B2ZnVfcHc?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:53:05.000Z",
+      "summary": "The Centre brings together independent evidence on how AI is shaping society, supporting better decision-making in the public interest at a time of rapid technological change. Ipsos",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ai-starting-out-design-chip-engineers-narrow-areas-as-llms-accel",
+      "title": "AI is starting to out-design chip engineers in narrow areas as LLMs accelerate software chip design tool development — \"There is still a lot of human guidance\" says Berkley researcher - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxOVTExYkJsRHI0Y1cxd0NRUG5iM09scDc1ZkxmcEhpWXEyb1IyS1dnd1hNempwNGRFY2ExV2p1SWxXSVJqcXVkM2N1RjRMZ3hXdENVMm9ESXlIcnc2X1pWYWlSTnBOQjJDMDFGc2h1clJ4NWw0M0oxdWVLdzE3VVI4clEyMkVWb2ZSSU0zcm5YVkhfWUd0cnFlS3pUS1FXa01QelUtdVNpZkFpakUyYkZDckY1LWNxeGpzV1V4OXRUbmI2T01qMkNzSHlnaHR1ZEFRb19aQndhYzFtanFmV3NwTXE5SWxmLWdCUnBlOTJnZ0pwTmpTQk1QV1k5MXhrbkdkQk55dUVCN2J4dWoyVlJzbmcyd3pIcUpOeEdmVW1jZVhuQ0lzX2VBWDhTYWNzOTJ6MDhya29PSlVES3dlZ0NUYnVINnl2TTVuZHVHcVQ2bDQ1dXZEVTVQN3gzejdZS1NrRHZwVw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:51:51.000Z",
+      "summary": "AI is starting to out-design chip engineers in narrow areas as LLMs accelerate software chip design tool development — \"There is still a lot of human guidance\" says Berkley researcher To...",
+      "topics": [
+        "算力芯片",
+        "研究论文"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-colorado-ai-act-amended-effective-date-delayed-hunton-andrews-ku",
+      "title": "Colorado AI Act Amended and Effective Date Delayed - Hunton Andrews Kurth LLP",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNkVmaXNMUE4zRDR0MUJnc2VjZWV3NjhXYlViOEU2ekFBMzJFdnE3UWdkUUdGenRPVnFJUW9id1dMMDNJcjByaWZ0ak1fa0N6c05VV2I0cnR5ekRJMGJ0UzdBMmxtT3NhWWxlRTVIZVNKdVAwNUl6eUlOdTNGclNGYXl2Tm9BRDRGUy00bEJOUzBYcGVrTTRQZk5QMnNZNjZJSHZfMTduaXJORzhY?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:50:45.000Z",
+      "summary": "Colorado AI Act Amended and Effective Date Delayed Hunton Andrews Kurth LLP",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-newsom-signs-executive-order-prepare-workers-businesses-potentia",
+      "title": "Newsom signs executive order to prepare workers and businesses for potential AI disruption - Lake County Record-Bee",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUko5cUFsWm5GWTU2ZlI5ek1LbFJuWHNsSEhvVlFfMWhhODJGVGlCZVNac1V2QTVSU2xqNHpGZTRFVzYtel9FaHQxZlBObU5qYUtGb1k3eHVuVUNNTWJ3d3ZwWEw4X2F0akZxaUZqTm5zMEpmVnEwWjZPejNLXzF6bnRTLVNTMFc4blZIaGVKc20yYkU0MzNmYzlqS0VVVy1jaEJoMHBKYy01NjhBVEVQd1VrYmdJajExcE1JVHI2Z09GZFc5Rm9TRw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:50:32.000Z",
+      "summary": "Newsom signs executive order to prepare workers and businesses for potential AI disruption Lake County Record-Bee",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-所见即ai-在文博会看到未来文化生活的模样-文博产业观-荆楚网",
+      "title": "所见即AI，在文博会看到未来文化生活的模样｜文博产业观 - 荆楚网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kem1zMm5RTF9nSWI2SXU1eWw5M2pDdTV4R01iWC1oQUdaNHRVRkRIbkpFNm92TklyMlplWVhCd05KbnN0SFhGUzR5TzJhZkZ0VEZiTW9yX3FzTm5hOGk0a0drbzc1Z1lDQk1fci0zWnl3Zw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:50:00.000Z",
+      "summary": "所见即AI，在文博会看到未来文化生活的模样｜文博产业观 荆楚网",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-职业院校人工智能应用指引-2026版-智慧城市行业分析",
+      "title": "职业院校人工智能应用指引（2026版） - 智慧城市行业分析",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxON0lCRmNPR0JRa0M4QUFXNlRKLTJGU1BJbUgyV1NaRGRabjFiN3BhWml2X2Y3Y01TZUpyRWllSS1seTI0RFNuR00wVWFNMW9CdnNCU1ZOSk16NENIZWE2b2JEVTNXU1loXzcyZklKY2R1R2d5UXhMaVMydjVMR2xjQlNXYWlWRGx4UzdzM090dF9QYU9fQTE5eE9OQ2FBZ3JzS3ZfR29YOUVnQWFZZmtDT0VVN1kyN2RXcEJ5RzVQZ0N3MmVVZmQxMHU1alpLd3VQLWtVX010NzM5QTJvNHNheEZUNVBXbTc1aEE2ckwtSG9FeUhjVlZmN2tPM2JNM2g3ajFKdXZQb0hYOVQtZVg4azh5bzVWemdTV1VHdTZnWnd6TXBaQlJobDRnNWU?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:46:00.000Z",
+      "summary": "职业院校人工智能应用指引（2026版） 智慧城市行业分析",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-bumble-replaces-swipe-ai-matchmaker-pymnts-com",
+      "title": "Bumble Replaces the Swipe With an AI Matchmaker - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMENBZFh6RjE3NE5lVWtoUC1wUVZ0ZDJoY0lXNUdNOS1mVW4tYUlJeG1sUzNKRTJoVVBzb2hrbXRKazVDQkx4MUw0NHA2bEFISXpnVFlKbDc3REJqY3packxtU1VmbFhqcllDSjFFY1NxRW40U3hXdTV5d2FYa1FMb2k2UFFERlVpakpBT0h1cHZONHItRTFfc1BKaFZESW5qNEt6Tg?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:44:30.000Z",
+      "summary": "Bumble Replaces the Swipe With an AI Matchmaker PYMNTS.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-文化从业者如何破解ai焦虑-人主导创意与价值-让ai作纸和笔-21财经",
+      "title": "文化从业者如何破解AI焦虑？人主导创意与价值，让AI作纸和笔 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS242T2V6a0tua3JSQk0wQ1dlU01SQWlva21UV1RSczdfY05jYi1BOUNzRllXQ1pvRFZ6bElUT19SdDBCNURYRXo3MEJIZk0wbnQxSVphRnZwb01RTlRvQ01OaDBVMU54MEFFbjBvQTh0LXNpMWxHSHlsTHZrYVZiNXNZM3VWU2RZdEgyc1ZnQQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:44:00.000Z",
+      "summary": "文化从业者如何破解AI焦虑？人主导创意与价值，让AI作纸和笔 21财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-prediction-helium-crunch-will-accelerate-reshoring-artificial-in",
+      "title": "Prediction: The Helium Crunch Will Accelerate the Reshoring of Artificial Intelligence (AI) Chip Manufacturing. Here Are the Best Growth Stocks to Own. - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYzc5VEUwTEpfWGt5Qk9SUXREVERFNlVfdllNY1Jrc3ZfMzk4SC1NemUxSEJjeFRCMF9ESUZOc2FWS0plQ1ZNRy1wRGU0YVUybkxncmJUVGNvdTRxR2RWSVN3b2ZocGVSZFYtY1hlaVpLZUdPTmtDSUpIUFRjRDRiam1GNWVJU0hVamZhSlF1dUt0dDg?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:41:31.000Z",
+      "summary": "Prediction: The Helium Crunch Will Accelerate the Reshoring of Artificial Intelligence (AI) Chip Manufacturing. Here Are the Best Growth Stocks to Own. AOL.com",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-oversight-commission-asks-residents-shape-policereport-writing-a",
+      "title": "Oversight Commission Asks Residents to Shape PoliceReport-Writing AI Policy in Survey - Pasadena Now",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHRfY2NDbDFNaklreFRWMDRvc1hEXzVjekhCSlFob1Rxdi1uZzJMZmU2Tm9oV3ZNYzVWU2hiVmNPaG9WVDE4Y0szLXdTeDJWZEdYdVZkTUVWdW9HeG9TV0VHbDR2YURKTnJXeEFzQW5TU3pRaUlSQ0U0S3JXdDJYRkdmUk9PZ0xsTk9kZy1EV3h2SmFDUnpwV3ZiaGpzcXFMZXZjY0hTeEhINFBsaEw5dzl2a3M?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:41:15.000Z",
+      "summary": "Oversight Commission Asks Residents to Shape PoliceReport-Writing AI Policy in Survey Pasadena Now",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-precision-medicine-data-age-10-takeaways-our-wha79-roundtable-he",
+      "title": "Precision Medicine in the Data Age: 10 Takeaways from Our WHA79 Roundtable on Health Data Governance, Trusted AI, and Equitable Access - Access Partnership",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPX2lqcWJNdlI3NjhEV19ENTU0QkxxY1dKU3NaVnlyX2ZfNXRWMlloMGJJMDNLeFRKM0t5TGo4eGhyQ2Q3TmN3SzNiZjN5LU9jelNrZnNYTmFzVzZ0THJ1THVFQTg4RTl1azV1a3IxeTlHX19VZDlhbzNPNkFtMnBFWU5iNFg1cm9yVjVDUDlTZXZya1h6LWVfWUpWdVZkb3UzYjdkX291TkJPTWtxa0ptY0N4a3V0RjdrWktyaG9OYnA0R0dwNXFWUF9URUhuS2g4VWFxUGhINUh0R2NfaXh3eXEydGhpYnZ2WTJ2UlprdnNadnc4ckJIZHpZSWF6Q28?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:40:22.000Z",
+      "summary": "Precision Medicine in the Data Age: 10 Takeaways from Our WHA79 Roundtable on Health Data Governance, Trusted AI, and Equitable Access Access Partnership",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-how-much-water-do-ai-data-centers-really-use-wisconsin-researche",
+      "title": "How much water do AI data centers really use? Wisconsin researchers look for answers. - WPR",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XQ3FQU2QxOE85ZDlhcHZ4ZS1FNkZXanRKR2ZyNWphcWtqSDJ2LTNnYXJzWVpGX25NS2JOeER4Z0s4WDA4bXY0YkJmZ1RrZnlZdlZhRGhxTGtSRldyQ3REdy1jNXdRaFRQMEFEdnVxUUkzTDA?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:40:07.000Z",
+      "summary": "How much water do AI data centers really use? Wisconsin researchers look for answers. WPR",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-人工智能时代文化人才的培养之路-jingjiribao-cn",
+      "title": "人工智能时代文化人才的培养之路 - jingjiribao.cn",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jQmhqbVpSZmhpNFZsWVlJbVdESy1ZTHVQczhialNyUWlYYWpfTWpoYlltZ2doRV9aOGhzM3hWdENwNEQtNmNsX3RDU1NiQ3ZjR2V4bWZTRmZvaXR0dTB4Q1JlOA?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:37:49.000Z",
+      "summary": "人工智能时代文化人才的培养之路 jingjiribao.cn",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-california-governor-signs-first-us-executive-order-protect-worke",
+      "title": "California governor signs first US executive order to protect workers from AI job loss",
+      "url": "https://the-decoder.com/california-governor-signs-first-us-executive-order-to-protect-workers-from-ai-job-loss/",
+      "source": "The Decoder",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:36:27.000Z",
+      "summary": "California's governor just signed the first executive order by a US governor aimed at protecting workers from AI-driven job loss. The article California governor signs first US executive...",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-iren联合创始人表示-人工智能最大的瓶颈是基础设施-而非芯片-moomoo",
+      "title": "IREN联合创始人表示，人工智能最大的瓶颈是基础设施，而非芯片 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObXpESnRNUzJJcUY2b3ZxR1M0SXRiMGxJMjZsb3lYX21VcDhrT29WaWVmb0UzMno4UlZTQkFsY1g1bWFPWE5BR2RZcF84Wk5LMGFWV0NYVlIzNHRDSzZRZGpncW9fUHJ1MG1jTkQ3UXNCVWp0VHFSUzRiWWE2T0FobzNyckVOMmFDUUdvQWNMMk9wM0lGSkF6cXlYWVRzcjNWTG9EQTVINXB3aFg1eGc?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:34:27.000Z",
+      "summary": "IREN联合创始人表示，人工智能最大的瓶颈是基础设施，而非芯片 Moomoo",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ai-digital-health-early-detection-responsible-deployment-medcity",
+      "title": "AI in Digital Health, From Early Detection to Responsible Deployment - MedCity News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdzBwNm1PYXVQaUd4dEdpN3lqeTZNMHktYU1tSUNyd1hUdTR6NlRhZTZSQ3JIbzNmSkNya0tSNGE4QzNBaFhyX09uQi1HeE0xQkc1RmNuaTV1ZUxfTzliNXFqd1BaTDBUOVVobkhZeXpWSUoyelBUSE9ORjZwWGdRUXM3WUI3U3o1NEVYdUJNZFZoaW9UTm1lUks2OHpzWVdnbnc?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:32:58.000Z",
+      "summary": "AI in Digital Health, From Early Detection to Responsible Deployment MedCity News",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-ai-serpent-literary-grove-compactmag-com",
+      "title": "The AI Serpent in the Literary Grove - compactmag.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MVk1SY1VncDdCNjljX040UDk3NkJaRU9oU0hHWE04cS1xWFdPNnl3aDBlOGk5dmhDVFZCamI4Z3puWU8zTVM4T093RVJUeGlTSVZoNkZ5bTY4ZXVBOHhjbmhacXZWeE5YTFFhT0N4RXprNHgtQjM3cVM2Y0w?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:29:18.000Z",
+      "summary": "The AI Serpent in the Literary Grove compactmag.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-5-q-s-ari-isaak-founder-photometrics-ai-center-data-innovation",
+      "title": "5 Q’s with Ari Isaak, Founder of Photometrics AI - Center for Data Innovation",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaGV6bHh4ZlFIcTFuYUl3QmxqUnBycW5XNlhoNUZPSDhSY2NzZDk2cUNMazZnQnY1a0JvazhWTW40eHlzQ2NrR2J4dDdjVGYyb1Ewa0ZJN0dnUzF2MkFfV0ctM2llYjFvVzhtRDB6bGgyc3QzanB3RWFERktBRG5FQ1J1VUJtcWhETnc?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:24:06.000Z",
+      "summary": "5 Q’s with Ari Isaak, Founder of Photometrics AI Center for Data Innovation",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-why-artificial-intelligence-ai-won-t-destroy-software-companies-",
+      "title": "Why Artificial Intelligence (AI) Won't Destroy Software Companies, According to This Microsoft Executive - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNGZJUmtTaU5ubWh5QlJ5alpzRjM2T0VraFpoQkt0b2xGUVJSR3VidDByRHBZakNwaHFVaE9PMU54VDFVYlJiUEtoTDFVRWZIX09SR0lyVU1wamFrUXprb0Z2TjNycjVJelJ4SUx0U2diTl9JR2ZHeU8xVXlWbUVPWA?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:22:31.000Z",
+      "summary": "Why Artificial Intelligence (AI) Won't Destroy Software Companies, According to This Microsoft Executive AOL.com",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-uc-berkeley-law-school-restricts-use-ai-students-aba-journal",
+      "title": "UC Berkeley Law School restricts use of AI by students - ABA Journal",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVG9lUktJelNOZWQ0M1Q0Q2VrTFozTWZmc0ExQjZWRURZTHV3X3hjWm13MnkzSDhuRVhadVJjZWk0Z3EzWlZHb01uV0RvdTVwWThLenM4SFphQVFzcDJXb3NYTGpaX1FuMjNpMGN6NjBhRjFXYVJNX2ZuVFhZZHR4bDR2V1ZDR1dCdGFGZHFabDlNeWw2ejk5aENB?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:22:00.000Z",
+      "summary": "UC Berkeley Law School restricts use of AI by students ABA Journal",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-日总务相呼吁各方加强网络防御以应对ai威胁-共同网",
+      "title": "日总务相呼吁各方加强网络防御以应对AI威胁 - 共同网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53bE5sMVZiOW90UE12MnlaVFRzblpkeGl3Nm9rMVVmUUhDWlc3V2ZKTUpiS0JOTk9QZlRnLXhnVlJRQm54Z0hydC0wN1FqY2s0UFd6OE5zSQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:13:43.000Z",
+      "summary": "日总务相呼吁各方加强网络防御以应对AI威胁 共同网",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-阿里安全agi-lab网络安全垂域大模型-伏渊-息壤-cyber表现超越9倍尺寸模型-智源社区",
+      "title": "阿里安全AGI Lab网络安全垂域大模型「伏渊-息壤」，Cyber表现超越9倍尺寸模型 - 智源社区",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8yLVZhMnppN3JnLVZxLTNrU2NVUS1pTmJRNnhFUmVja29EOW1sb3Z4UTAwTTZQMzhtU1JzaGRqR281X0d2OTVaUA?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:10:00.000Z",
+      "summary": "阿里安全AGI Lab网络安全垂域大模型「伏渊-息壤」，Cyber表现超越9倍尺寸模型 智源社区",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-中国用户的cowork首选-不再是claude-阿里qoderwork震撼上新-智源社区",
+      "title": "中国用户的Cowork首选，不再是Claude！阿里QoderWork震撼上新 - 智源社区",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MZFZDZVVNVzFBYjVveUowWlhFTlJWcl80NzdzQnl2aWdPQkJZYW9FTXU5Q3BJZVBZZFpmZS12MnpQU0dTWmVPRQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:10:00.000Z",
+      "summary": "中国用户的Cowork首选，不再是Claude！阿里QoderWork震撼上新 智源社区",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-大厂出手-ai大模型加速金融落地-新浪财经",
+      "title": "大厂出手，AI大模型加速金融落地 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83RGFZRTJGWjYtOFEtcC1yMm83VGFHci1acVo3bzN2SXgtWHdhQjRXRjdETkxkd0xHQ2hhb0k4ODc2OG1BaDZROXdxTkJOc24wQ011ZHFBMG5TVy1QYzhOZ0s1N1ZMcklaWEpSeWJGbUxzS0VDSUE?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:06:00.000Z",
+      "summary": "大厂出手，AI大模型加速金融落地 新浪财经",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-media-company-s-ai-sprint-upskilling-future-startuphub-ai",
+      "title": "Media Company's AI Sprint: Upskilling for the Future - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeHN2ZzU5MlZXMUJIUjd0bTVZc09JUF9wM3VLV0xQbmNVNmVtY21ObDZqN3BzVUlrb18yMGdWUW1UeGVBbWRtM2RSMWlEZEhkNDRudkZhTUJ6YjVzRkFvZlpSb3llUHU0V29ERm53Zm1JNGRGTWVtMWFYdVg4OWt6NWRsNkJmRnZlMndYeXlxZ3A5WVotY3VzUTFFZk5PaVB3ME5YSC0tUDNIY2s3QXF4aEpRTS0?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:01:20.000Z",
+      "summary": "Media Company's AI Sprint: Upskilling for the Future StartupHub.ai",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-capcut联手谷歌gemini-一个app里生成-剪辑-出片全包了-google-智能体-模型-合作-工具-手机新浪网-新浪财",
+      "title": "CapCut联手谷歌Gemini，一个APP里生成、剪辑、出片全包了|Google|智能体|模型|合作|工具_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFdSbUdsY2pzeUU5R05sUHY2QXBZSTM0LTNxQ25yUkJqZGJzelBQS3VOblUxN3BTSEpMcDF2N0lrR29BWlVjaFdYc0xBcVBEcnhNVk1qMGxFVm1ZQ3NRLVktWWV3dTVMZWI4ZGRoZU1ZeklXUVk1cW1GcDVzNng0YU9fQzdnVE1TUkJpTlVzSFNyUkxyZkZwZV9PRENvZFhGeURoLWRWVQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T13:01:11.000Z",
+      "summary": "CapCut联手谷歌Gemini，一个APP里生成、剪辑、出片全包了|Google|智能体|模型|合作|工具_手机新浪网 新浪财经",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧AI"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-can-ca-help-its-workers-survive-ai-disruption-calmatters",
+      "title": "Can CA help its workers survive the AI disruption? - CalMatters",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMEpIem9XZk00YmxDaXVoZm03TVlHQ0ZORDFucEd0V0NscnF6SE96NV9HRzJTVnNZOFRfZGFSaFdWZEdMZC1WbVFxaU5DbmFIRjVsVW5FNmw0RC0tVUozOVBLajhZWmxReWNCc01qLXM1VUw1eEQ3OUNRTHppQ29OS1ZROFU?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:00:00.000Z",
+      "summary": "Can CA help its workers survive the AI disruption? CalMatters",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-labor-leaders-see-newsom-s-ai-workforce-eo-as-softer-than-advert",
+      "title": "Labor leaders see Newsom’s AI workforce EO as softer than advertised - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGZOcl8xQzNZZHFRVHpfdGo0dnNub19nTms0b0RTd2x6VzdwWFNqam1aSWY4V1lkSWhLQnNrdFVnUUdESVNOYkRrY0txTDcxRWJaSnNRSGg3Y2NSbFlOWkhzTXNnRy12a3l1ckxlQTEwdzJmQWFQZ2VMWkdZWWp0WUNuZ1pnR3JHSFpFcDA3NlJ1c2R5M3VGMnJqT1oxVVdDNDNobVhaTXZCVTVYMFkwQUw4MEJRdk1q?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T13:00:00.000Z",
+      "summary": "Labor leaders see Newsom’s AI workforce EO as softer than advertised Politico",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-把大模型塞进耳朵-安克发布静音舱系列耳机-ai算力提升150倍-安克创新-降噪耳机-深圳市-打印机-广东省-手机新浪网-新浪财经",
+      "title": "把大模型塞进耳朵！安克发布静音舱系列耳机：AI算力提升150倍|安克创新|降噪耳机|深圳市|打印机|广东省_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMDNKVmwyZGxmRE5wcFl0NE1fVGZVUGlFSHNITV8xTnBwTmJHQWlDVWZRSWxuMmdTYzdBSnU4THJNWWI3RUpMNDkzdU5ET2tpbUtTMTZFaXRvazY3SGFnRlBWdHMzNHRybFpKM1pGWjRqRlg1b1JXSjNRc2RyTHZUU3lKSm84eTN1WWdXbG1zc2FFSS1UcWswZWFyS09ucXVZeFgzMHByZkZaYXFLZmhmOExn?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:58:38.000Z",
+      "summary": "把大模型塞进耳朵！安克发布静音舱系列耳机：AI算力提升150倍|安克创新|降噪耳机|深圳市|打印机|广东省_手机新浪网 新浪财经",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "端侧AI"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-how-bedding-industry-making-most-ai-furniture-today",
+      "title": "How is the bedding industry making the most of AI? - Furniture Today",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS2ZMX3g4TVprZHpfM3pLOEE3ZUdRUU5GWk1aODRWMWlZTlNubzk4NTVBQVNFU1oteEZ1aGtMYU1Zb1JicGtLVTF5TXdmelJfdHBZM3NRT1lGQjFselNMX1VXcHQ3R3JMUThwTjVhSjc2bGtuOHJSUFVwZzRYSU16SElrNWY2TElTRmNhZWl0X0R4UWltVGR6em1EbXpWQmVtYmF4YndNbE1Va2t0?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:58:02.000Z",
+      "summary": "How is the bedding industry making the most of AI? Furniture Today",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-文博会上嘉宾共话人工智能与媒体变革-四川分享省域智媒底座建设经验-每日经济新闻",
+      "title": "文博会上嘉宾共话人工智能与媒体变革 四川分享省域智媒底座建设经验 - 每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tM3BKekgyMFVMbnl5MUstSnl5MDhFblNPRTRlQ1ZqMWJZX1VKcVZpcy1nOVFGbXNqUm5GcGlpelo0WUZvUUttVGY3bjdINGVlQUV3V0cxMnAwUWx4ZXUwZTJ0X2cyZw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:58:00.000Z",
+      "summary": "文博会上嘉宾共话人工智能与媒体变革 四川分享省域智媒底座建设经验 每日经济新闻",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-浙江企业一线的-ai实战派-在温州同台竞技-新浪财经",
+      "title": "浙江企业一线的“AI实战派”在温州同台竞技 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkc3JqT2hUSWQ0b1JFdk5oWUgxN0Y1Ul9kTFBkMm5Qc1cxQzhqOXVCY1JISUx3b2l6YXRhU3Eta21ET2F3NE5kWG5kUVo3T0cwVF9MUVdCaUY5cTVqdEhKN1JiNzFpU05paGdVaFdrSzZlaU1qTk1iRQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:58:00.000Z",
+      "summary": "浙江企业一线的“AI实战派”在温州同台竞技 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-ai岗位需求激增-年轻人抢抓转型新机遇-21财经",
+      "title": "AI岗位需求激增，年轻人抢抓转型新机遇 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZzhxd19FbGVRY09HMzRzTlprcHdoU0VBUWtxTXVHMkt4WjhyQklBZU5ueU5paHNqTGl5MHBGN0tSeUViZ0VfVmNhOHpNdURIY1BSSmVEZ0lzZVZ0ZG1tQVlBbm9LOS12bW9tN2pxUkQwRjFucVFWSV8yWDFFTHZoWXp4bEZ4UmZNaGo2YnR4bw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:40:00.000Z",
+      "summary": "AI岗位需求激增，年轻人抢抓转型新机遇 21财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-建邺高新区-人工智能-招商交流会圆满落幕-中国江苏网",
+      "title": "建邺高新区“人工智能+”招商交流会圆满落幕 - 中国江苏网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWXQyT3JsN05NQTVRVXNVam41MnZDenkzTG9jWk5Ic1FUejFQSkE1SEluRHFTdzRUb2VWM3BLVTNkTlc1dEtiWHZKdU00SDhJbnY4VU1sdUdWQUUzQUVMX01nU0RNMktzdzZ3ajhGbHNZTWkxUW91dkdEcnFubWZ4MGJ5WDZtS0wyWmJR?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:37:00.000Z",
+      "summary": "建邺高新区“人工智能+”招商交流会圆满落幕 中国江苏网",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-gemini-3-5深夜登场-谷歌ceo劈柴亲自算账-速度快4倍-一年还省超10亿美元-曝内部已被颠覆-infoq-cn",
+      "title": "Gemini 3.5深夜登场，谷歌CEO劈柴亲自算账：速度快4倍、一年还省超10亿美元，曝内部已被颠覆 - Infoq.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KSnhSUzJvRjFVY3pHcUJwNDJ4RUlEU2V4TGpCbGthR3pac0xPam1vMXhVM2NKTW1KSWs1QXpUWXFwODJ2N2dBM0JrdFJDazFPNENkcENmSjUzMzlpVUE?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:32:04.000Z",
+      "summary": "Gemini 3.5深夜登场，谷歌CEO劈柴亲自算账：速度快4倍、一年还省超10亿美元，曝内部已被颠覆 Infoq.cn",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-uc-berkeley-law-school-adopts-new-strict-ban-ai-use-students-for",
+      "title": "UC Berkeley Law School Adopts New, Strict Ban On AI Use By Students - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRGYxQkNQOUZSQVVNQkJVa3E1ZnBXOWkxRW5DT1BLejJNbjlGSUhOR3VVWFhPSHJLVTRpdDFVZFhzNmVHMkZKNEdfVHR2akxTMHVpazlpSFZHUHB0YWtkYVZjYlhFRnJMNDVTRGpaLWZfMEdhcmowWk1NRU5mWXRibEhIWE90WmRDT18xY2ZTakFvb045WUlLS1B0am10UFU1MzJnU21Cb3RvQ1B4RDBtTldodTZwQVZLZUpIcjV3REM?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:26:03.000Z",
+      "summary": "UC Berkeley Law School Adopts New, Strict Ban On AI Use By Students Forbes",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-ai-kazakh-universities-institutions-not-ready-chatgpt-era-times-",
+      "title": "AI in Kazakh Universities: Institutions Are Not Ready for the ChatGPT Era - The Times Of Central Asia",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OcUc3cUtWcWU4N055Wmd3MF9PaFotVWY4VXY4aGktZEtPQlQtajVUaFc3N0J4NGp1Z2R6OFpLbnowNTVPd3RLcGpwNk1kXzJ5d3B2eEk3cVpQdw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:18:45.000Z",
+      "summary": "AI in Kazakh Universities: Institutions Are Not Ready for the ChatGPT Era The Times Of Central Asia",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-do-atliens-come-peace-ai-atlanta-regional-commission",
+      "title": "Do ATLiens Come in Peace with AI? - Atlanta Regional Commission",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX1JKVXVTUWYzMjBVTy11NWRqOEpUbVMwME5mSFdsa2lkellTaElBOWRSYVZFRUduOGV2aG5QOGl2VVNRcEwtYXhkeGd1QXlIbktDdTJVdnU3YVFHN3B3eWR1Yi1NNmJYM3dzc0JISjZXWW5NSWVIX2IzcElXdnRnMWFUcGVyTzA?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:08:14.000Z",
+      "summary": "Do ATLiens Come in Peace with AI? Atlanta Regional Commission",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-全球ai融资潮下的中国竞速-高层密集调研人形机器人-算力网-国家人工智能产业投资基金出手-新浪财经",
+      "title": "全球AI融资潮下的中国竞速：高层密集调研人形机器人、算力网，国家人工智能产业投资基金出手 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1heGx5WVFpa0lTd2VjVmZ0UUVlRlRCMk9qX1FESTlsTXYzT2o0d0tUcHh1bG43VTJZLWVJZFNaUEJPdE94aFplZVE0Tnl4UTBmcjIxaENGQU9aVEQ1QUo0TWhSQTlYLW10cWs1M3piZVQwRDV2OVlpNQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T12:05:00.000Z",
+      "summary": "全球AI融资潮下的中国竞速：高层密集调研人形机器人、算力网，国家人工智能产业投资基金出手 新浪财经",
+      "topics": [
+        "算力芯片",
+        "投融资",
+        "机器人"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-artificial-intelligence-revolution-that-businesses-cannot-ignore",
+      "title": "Artificial Intelligence: a revolution that businesses cannot ignore - Università della Svizzera italiana | USI",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE43Z3ZaeUVpNkdTTlZJUTN6NzMyd1Y1VUdib3JrVGJJa3dYaFRZcUZIVEVqTEliZldCX1hCN2xVNmhRcmZ2bk5OZw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:01:37.000Z",
+      "summary": "Artificial Intelligence: a revolution that businesses cannot ignore Università della Svizzera italiana | USI",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-giving-workers-stake-i-gains-traction-new-york-times",
+      "title": "Giving Workers a Stake in A.I. Gains Traction - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMXNtV0dPXzE3R1ZCdTdCbzMwaGY2dHBUUVNfenZtQ2o4THZIVnhmdXY3bmJEXy0xeDVhOU55ckZzOUFhMVRyLWNLSnVSd2NYd3REWUtZWnNBTW14QzZadndzMGJtZGxRM2VsaG9mVE9hOEV3TXVraDI4bUw1MVlJQ2pDQ0VUMGpEQVJUc01NOENvMDBieVE?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:00:33.000Z",
+      "summary": "Giving Workers a Stake in A.I. Gains Traction The New York Times",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-can-ai-really-simulate-human-thinking-research-casts-doubt-influ",
+      "title": "Can AI really simulate human thinking? Research casts doubt on an influential study, suggesting an advanced model was just really good at memorizing patterns. - Live Science",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOYXR0WnN0SUdSNW9RVC1YNXhIWGprZm5XVWpOclJ2SGNPMndVaEVMSV9HMFJubHJ5UEhoZFBlczVqaG1OWnV0bk9QY25UNnBYcjJQWElQUjU1OFJkZXVPYXJ0TFd4VE8wUlFsdFJIdmlCWFJadFVMX3Y0VzU0cTdpRVRGSkhZckJoY3NLNjl1a3pZeW5rV2loRnVOczdmQ1dKS1FFXzktdnI5NEt0b2pjcEZaWFI4U1pjTUQ0aUVHdFhmTUNnZWZZWTVObnpHRzJpNV9hMGlvQVBveHFZYUhncGZTWnBtUThzTnJVNDBuQ2J1YVZEWVRGMHlibWg1bjFnaVR1MjJVMkkzenlxS0NMenhDREtVNWpwUXRRZ1VrR2s1a0l3Qjd0R3pEbzVNaWlTdzNGSXBrZTU4UDhuZExr?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:00:00.000Z",
+      "summary": "Can AI really simulate human thinking? Research casts doubt on an influential study, suggesting an advanced model was just really good at memorizing patterns. Live Science",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-addepar-advances-its-ai-innovation-across-agents-data-workflow-c",
+      "title": "Addepar Advances its AI Innovation across Agents, Data and Workflow Capabilities - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSVF4eEF0UWtRNEFqejlsTkdFWERpUm9kdXp2bERNbDNNNERjSXlodUJFVUxmTEFzbVJBUUNTU3pMUGdWQmRNdUhyekxYMEY0VHo2OGMtTnFEaDVqZkdnMnZhY2JkcmVFUW5NWjBNR0RLNWZ1SDA2Q0tsSS1yMlRMTDB6b0NSdVkwUUNyZWdkNVM4X043SDFQT1pEVlRIWGFNeVVTdlJuOXNzb0lYSXF4c25kVVYzWUsyd25rXy13UlExTGpuTFFBN1BWVm5UUllO?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T12:00:00.000Z",
+      "summary": "Addepar Advances its AI Innovation across Agents, Data and Workflow Capabilities PR Newswire",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-多位高校校长齐聚江西-热议人工智能赋能教育变革-新浪财经",
+      "title": "多位高校校长齐聚江西 热议人工智能赋能教育变革 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzLUFjeWlTd3IxRE5wZFBqOS02Y0tncjNoaXVoaXRKdFc2WG9lYzdtV1lhUkFGRWVDY1Q5SWZydXFQX1ItWDd6S3RTODdHc0VaRnd4Q2RFdDFoNWY1RmFuMjVUOEdJc2l5SjdXWlN2ZHRVbHFXUkhPNw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:52:00.000Z",
+      "summary": "多位高校校长齐聚江西 热议人工智能赋能教育变革 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-charlotte-attorney-bridges-tech-law-as-companies-race-adopt-ai-b",
+      "title": "Charlotte attorney bridges tech and law as companies race to adopt AI - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZjhqWVNnMWhDR3QzVXNFbmRWbThid0dVUWJWaENpX1NCT3RObTQ2SXU5UVVENFNyTmdySXB5ZXJWVVl0MF92XzE5OHF2OUZjNHp3ekNKQThia1N6UWlSRTNiNWE0MG1WN0UxUHFIQ0poZ1V1NnpSZl9COHotek9wRXdPT1d4cUg3RE53VzF0Tmp5aTUtQVVGLUs5b1N2ZUd6aUV6cjZ3?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:52:00.000Z",
+      "summary": "Charlotte attorney bridges tech and law as companies race to adopt AI The Business Journals",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-chips-aetina-s-edge-ai-innovations-at-computex-2026-security-news-secu",
+      "title": "Aetina's Edge AI Innovations At COMPUTEX 2026 | Security News - Security Informed",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQejhyYTk5d1pvZl9CMGUtTzRILTVKSmFIMm9Za3RUSlBOQkNLam44cEFOUFgyM3dVSU5QbzVwWUtWbTI3a04tVjZ0UXhRdFZ3OVJZTFpRNXJNcU9NQk0tSEhnNWZxbmtXeGh0RDNid1hJVnVKamZ1WlpsRVpreHptWW9Lb3oyZjFUZFZnNmN0TTBmd0pEVEJOcHlqUGtTWnRQcWZNVUE3RjBLOTZsTGtraXlVNA?oc=5",
+      "source": "Google News: AI Chips",
+      "sourceId": "google-news-ai-chips",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:50:11.000Z",
+      "summary": "Aetina's Edge AI Innovations At COMPUTEX 2026 | Security News Security Informed",
+      "topics": [
+        "端侧AI"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-microsoft-reportedly-considering-supplying-anthropic-ai-chips-in",
+      "title": "Microsoft Reportedly Considering Supplying Anthropic With AI Chips - International Business Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb25iR0luMXRQNnNHWFk2U01wUW85Y2luRWQ1WW9EcXBDaklIalllOXQ0Vk5tYTNXV0tZMUtENk0yeldWNkpVNmstaDRpTnVTM3pUNnFEYnNjRklzRFk5cmNIbEN1aGpodUNFc3FSbUhYZDIyd1VTWGZqczIwNG1ENkRJWW9Bc21ndk1FUEZBQjUxZmNUYUlrcA?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:48:24.000Z",
+      "summary": "Microsoft Reportedly Considering Supplying Anthropic With AI Chips International Business Times",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-u-s-pushes-its-ai-china-asia-after-trump-xi-meeting-cnbc",
+      "title": "U.S. pushes its AI in China and Asia after Trump-Xi meeting - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WRFRaRDFlTUg2UzVNTXpRX0VxTmhjMmFQaENxdFJBNEVRaTRwaWQ4MjZCaERvTTRLbzRhSjBnZ3daUEVaUGJHT0Ixbks0RFpZQzJENjVlVi1tZTFqaTlleHVzSFpVMjROOVHSAW9BVV95cUxPU0ZlUzdtWEI4U2dfcHM0bUp1UE96SzBBbzlrZFYyN2pIRHVoNFN4SFdMU1gxdU9adDF3b3ZJUUpDWmdQaU5iblJmX0twNmdrQjhfNjA4aER2V3pjS1dnYWlzeWE3MnFPSUh5aTh6Rkk?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:45:23.000Z",
+      "summary": "U.S. pushes its AI in China and Asia after Trump-Xi meeting CNBC",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-谷歌2026年q1净利润达626亿美元-全面转向智能体时代-虎嗅",
+      "title": "谷歌2026年Q1净利润达626亿美元，全面转向智能体时代 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BVVNOS183bVhZU2kwUHZPcHg5Ml9YM3M3NkZfZWExeFJTcldWZ00xY2RWRWpFb1dEOWtNcDNHTWVtNUdjRlN4X0txTlVBTUlTanY0dg?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:40:35.000Z",
+      "summary": "谷歌2026年Q1净利润达626亿美元，全面转向智能体时代 虎嗅",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-这次不一样-千亿市值ai-大公司-领涨港股-21财经",
+      "title": "这次不一样，千亿市值AI“大公司”领涨港股 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRE5XZlNrR1otdHllSHMtODZtVDhoeHVqRGNDQnZaeWhfZ09mNVpERDY0MzNjVDBnNUtXd0RTd2o2TXRDQUxyQ09qQUFLclFXNnRZSVVEamdUd2gzSEg0aXVUbl9HS015Sk80WGptem5oSGNXZm15R1g4aE8yak9sOE9Pek5pYXYtcE52X19scw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:38:00.000Z",
+      "summary": "这次不一样，千亿市值AI“大公司”领涨港股 21财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-chips-gpu-supply-crisis-nvidia-blackwell-cuts-shake-market-ai-certs",
+      "title": "GPU Supply Crisis: NVIDIA Blackwell Cuts Shake Market - AI CERTs",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSGthOVllcHVKVkxmaWZORnNPYXVxZ3gwOHRVU3IwMzR6cENOYTlTTE5JQUJlaC1PR1NRVTh1TDJGVS05dmxVa180M2dxc016VmhrdnpBODMzcDZVNHFYR1lrY1M0Y1lBOFNVSG1TTENvazNDNUIzWE5QbGZxcko3SFBob0UxUVJ6?oc=5",
+      "source": "Google News: AI Chips",
+      "sourceId": "google-news-ai-chips",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:35:36.000Z",
+      "summary": "GPU Supply Crisis: NVIDIA Blackwell Cuts Shake Market AI CERTs",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-人工智能如何助力媒体变革-这场论坛释放最新信号-京报网",
+      "title": "人工智能如何助力媒体变革？这场论坛释放最新信号 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WWXFLVk1DM1JnVnU4RDR5dnExc3laSnc5eGpLZC05eFRYblJmbUpNbXU4MHk0d1k2cTluN2RhSGlOU20tTFp6RGg2TkNpTEpZVFlpRVY0RU1zRS11N0E?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:35:00.000Z",
+      "summary": "人工智能如何助力媒体变革？这场论坛释放最新信号 京报网",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-could-your-ceo-be-weakest-link-when-it-comes-ai-security-techrad",
+      "title": "Could your CEO be the weakest link when it comes to AI security? - TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPZEw2VTF0ZUFqWkh0dzJTdzA3SlA1OUE2OW90bnVNejZoMmVmRjZ2UGxXTWJUVnJZMlBsV1VMaXp2YllwenFFNlQzQUVUQ193TmJLa0VONjUzSHY0bmlkV3RaTkxUZnRWU1o5ZWFCc1FwNURzRk9xMWRWNlJWU1cyWGlLdDRiWE1NdkhVS3U3X3FsSi1ya1dpeUMyd3EteUw0bE5QSFRIWFNGdmpIemwweFpFSG5jNHVXdmdwRTV3eTZLUUw1dUFPbF85UFd4YnJ2ZFF5NWhnajFnSmFtN0V4cFREZVJqMFQ4dVVSMkJoLUhKaFZyM3FPbjNJSmV6dGMxQzY4T0NQTEtGbGVDS2dnUUExeEVmVzlCemF6c0FaazMySVJQZ3c4M3M1bEs3Ymg2TWlN?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:35:00.000Z",
+      "summary": "Could your CEO be the weakest link when it comes to AI security? TechRadar",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-trump-pulls-ai-safety-order-after-last-minute-calls-musk-zuckerb",
+      "title": "Trump pulls AI safety order after last-minute calls from Musk, Zuckerberg, and Sacks",
+      "url": "https://the-decoder.com/trump-pulls-ai-safety-order-after-last-minute-calls-from-musk-zuckerberg-and-sacks/",
+      "source": "The Decoder",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:26:47.000Z",
+      "summary": "Trump killed an executive order on AI safety at the last minute after calls from Elon Musk, Mark Zuckerberg, and former advisor David Sacks. The order would have created a voluntary revi...",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-南京江北新区新增2款已完成备案的生成式人工智能服务-人民网-江苏频道",
+      "title": "南京江北新区新增2款已完成备案的生成式人工智能服务 - 人民网－江苏频道",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14R1I1SHhoUkxLamdIV1FCUEZrRWNXaHNrcm84bzRURC02YnBYeTA3RUdsTjV5UE5wTWhlS2ZDWllBVlBqMnpHQ3dSWm5BQk1QMGlFSTA3aEFZbklnb3NhSS1STnFlSGRnUlE?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:26:00.000Z",
+      "summary": "南京江北新区新增2款已完成备案的生成式人工智能服务 人民网－江苏频道",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-openai-赚一块亏一块二-anthropic已开始赚钱-华尔街见闻",
+      "title": "OpenAI“赚一块亏一块二”，Anthropic已开始赚钱 - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VVDJJU2JyeEZ5TUN6aEs0WG04NGpTZk52MC1kXzkxV0R4WmhRZ1hIUTB3RERZaGRfcWY4cG44T2xpS3FHZDJkSG5mWDgxSXJjNlY4?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:20:53.000Z",
+      "summary": "OpenAI“赚一块亏一块二”，Anthropic已开始赚钱 华尔街见闻",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-everyone-ai-cop-now-what-happens-when-ai-generated-story-wins-pr",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize - Literary Hub",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWEhGNWE2UmJsNHdyalhTUmF3eEp5TjBuLS1TNnpSLXJSN0tCei00T0pTdTBVcGVPRnAzTW4xU1Z1YU5vV2sxN21kZUZJTV9ZekZueUR0bWhkWFZ5MmMtcXdOYUJFUkVGV2FSbFQyM3ZNS2s5Q2RCSFN4RllwUG8zS2FaUnBNanhpeDcxR05LWGxfeFJnZUlXaWUzNTNmdWRfdHVoZkpHbTJUVlUwRWtz?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:17:18.000Z",
+      "summary": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize Literary Hub",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-微软-claude-code的token-我也烧不起了-华尔街见闻",
+      "title": "微软：Claude Code的token，我也烧不起了 - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1TUFqUVVGai1QRnY3R1VST3BvVEw4NENXQXllR0pSTDVuUFIycjg0TnFBd3NhbkhpSFl5VWltY25XQmFEbG5sRWM1enNIM3M0TU9v?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:12:10.000Z",
+      "summary": "微软：Claude Code的token，我也烧不起了 华尔街见闻",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-uc-berkeley-law-school-bans-most-ai-use-following-plagiarism-iss",
+      "title": "UC Berkeley Law School bans most AI use following plagiarism issues - San Francisco Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRk81TkVTLU1JTDVQSkd1VG4xNF9CeTB1T2V6b0FrblBkZGJLWHgtOENmcEg1ai1Ka1hOcHVHdk9SeWtIMGZqQ1pCYjExNURidUlaZzNuMnJYbjV2Y2hvOWQxa3gxdGlxeTRLMmxiRGZVcjB6WDJBa1IwQkdLN0VreXlwZGtfeERlT0NF?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:10:35.000Z",
+      "summary": "UC Berkeley Law School bans most AI use following plagiarism issues San Francisco Chronicle",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-chips-anthropic-may-rent-microsoft-ai-chips-weeks-after-agreeing-spend",
+      "title": "Anthropic may rent Microsoft AI chips weeks after agreeing to spend $200 billion on Google's cloud and TPUs - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQc2UyZGxZMHd0dW43YlZ1Z09mWWo3elB4WnJ3NE5YdXVmUXVkbnVBTDRTMk9fa3VwWmNic0dnTUFxazZzdTVwRjZia2I0eWFKU09ZamFkLUR5QkswYlRWaEZ5OXpEOWxhR0x3MWVrY0tTQlJQSGcwWk44U21qMFRtU3ZNc0FNcXB4eUlVSEhzYTUzUjRBQnJZVEJHWEo3d0xrdnJhcHVySm5RdVZ3NF9wUFlXZi0xcWk1WDg1TzJOMHdnc2Y1VWpEeGdKZTJFTkh0OXUzRDdaRW5wdnlsUjVLXzBYcm5jVm1HVVE?oc=5",
+      "source": "Google News: AI Chips",
+      "sourceId": "google-news-ai-chips",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:09:00.000Z",
+      "summary": "Anthropic may rent Microsoft AI chips weeks after agreeing to spend $200 billion on Google's cloud and TPUs MSN",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-当agent进入财务和合同系统-中小企业的ai安全盲区暴露了-安全内参",
+      "title": "当Agent进入财务和合同系统：中小企业的AI安全盲区暴露了 - 安全内参",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBMR1Y2ZE1BX044b25KcFF2b2MwZDBweVBJVktMeW0xZ1cxTVUycUxxdjFvMDA4Z01yZFk4a2RYLXc4cEpQVEhyRGlRaFFyQQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T11:04:15.000Z",
+      "summary": "当Agent进入财务和合同系统：中小企业的AI安全盲区暴露了 安全内参",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-ai-at-graduations-claude-s-blackmail-tactics-startuphub-ai",
+      "title": "AI at Graduations & Claude's Blackmail Tactics - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa19fWmdXWXpBdzhGYTJhQ0lMLVVDcmp5bEtQZ2Q4YW91ZDlMQUQ2U01naW5ENWFZRlpkR0x2VmE1Zm5md2hybmJKWHdvSnl1dXBqMnozOWEwQUw4LVc1ckNoeXRPc294WV9yVFRhblFoRnJKZFVpYWdqV3RNQXg5ZUhqS2xYRkF3RTM3aHVtUXFsN2FXRVRsOHZBY1lVYi1IZzN6RFVwNlVzR0E?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:01:41.000Z",
+      "summary": "AI at Graduations & Claude's Blackmail Tactics StartupHub.ai",
+      "topics": [
+        "模型发布",
+        "投融资"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-tunisian-customs-integrates-artificial-intelligence-into-nationa",
+      "title": "Tunisian Customs Integrates Artificial Intelligence into National Screening System - TechAfrica News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNkp6M3pWWHlUQTlEcXlub251T0ctejhCSkJEYm9PaFdDajI1dkxjczczX1U1OVFPTDlsTVY5aFIwSDNQSHNWN2p0VFA2eG15MERiNEJ6MFkyMVZOcHNaUnFtdFhTc0M4a3d4eDdjajhRdThKY2JWT29tTVJEMlVWV0phZ1pYSVhWZU9ZN3poQ1MwWjBMYW5NOHhtRjlaamVxUkpOdjY4WmpZeWZBV293SUUwd3NQRnNJRnc0OVJn?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T11:01:29.000Z",
+      "summary": "Tunisian Customs Integrates Artificial Intelligence into National Screening System TechAfrica News",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-美国网军加快拥抱ai-推动超级模型-顶级攻防能力全面融合-安全内参",
+      "title": "美国网军加快拥抱AI，推动超级模型+顶级攻防能力全面融合 - 安全内参",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GeHNxNGpBWWVYSkdBTW13V0wwS3FZMk11Q2pSMVhlZzdPZ3VKOFU2TjhRU0NHelliOWZpOGNnRUpuYkNvbkZHMUtaUmNnZw?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T10:59:13.000Z",
+      "summary": "美国网军加快拥抱AI，推动超级模型+顶级攻防能力全面融合 安全内参",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-腾讯再参展文博会-以-好用的ai-激活数字文化创新力-经济参考报",
+      "title": "腾讯再参展文博会 以“好用的AI”激活数字文化创新力 - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWE1rQzBTcTVUU2lvS3RxNVpjTmNtLTdKamZvSV9JSXpwRWJJNy1LemhHYVg2a3k3MDNQazZXWHpFbWNxSEFVd2cxVEpEMDZCZXBZYlE5TVc4UnZwLTFGXzdpN01XdE0wcHkzNkIyRTBaOE1LUEx5M1RPbU84dHF3MA?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T10:57:37.000Z",
+      "summary": "腾讯再参展文博会 以“好用的AI”激活数字文化创新力 经济参考报",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-believe-it-or-not-government-adopting-ai-make-your-life-easier-b",
+      "title": "Believe It Or Not, The Government Is Adopting AI to Make Your Life Easier - Big Technology | Alex Kantrowitz",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jd3JtRHpOQVpNUFRXMVhjN0ZPODVaNVpzTkh0ZFVxdG1jaW5Ua1dLbmRMQ29uRTJJWmtLQ2JFX1psRG1TYllHRWg5NWNLamdDaU5SdEduR2xDT2VzbEMwUndYV3NWTGxueVhwbmpiNzlCZw?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T10:57:34.000Z",
+      "summary": "Believe It Or Not, The Government Is Adopting AI to Make Your Life Easier Big Technology | Alex Kantrowitz",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-regulation-scott-bessent-has-been-raising-alarm-ai-policy-but-delays-keep-c",
+      "title": "Scott Bessent has been raising the alarm on AI policy. But the delays keep coming. - E&E News by POLITICO",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGJhTG5WdTZUc1NnY3IzS1B3LWxOSWc5ZXZZaWJkZl85eU8tVXgyOWhtbE5yazFPSTdKakkwOGRLNXkzWGtyNnp0ZFR0SzQwQXJDVkw2VzFLMkRnX01hUlpXNHlMSGhyVExfU21EY3lhZUV3WGFtaTk3OUl0NlFuTE5XNGdsSzNkRHJDeWdyYTV4LU1PYmkzenVaeVdVUTJUZGhHazFUT04tSmk3T1dybWRGRQ?oc=5",
+      "source": "Google News: AI Regulation",
+      "sourceId": "google-news-ai-regulation",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T10:57:00.000Z",
+      "summary": "Scott Bessent has been raising the alarm on AI policy. But the delays keep coming. E&E News by POLITICO",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-正大职通-人工智能推介官-实训营正式开营-工作动态-pudong-gov-cn",
+      "title": "“正大职通·人工智能推介官”实训营正式开营！_工作动态 - pudong.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EY3JPRDZSWXdHOW9xbmdJX21JSnUzcVIxbWw1RC1mVkhqaEpxaEZCRE1jeU9mU2pfZF9yQkRwUHQ0VW8yUk1aaWlLWTNaMmdEdElTMXNTbGl6NEFvQ1ZRT05XdWtZRlk?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T10:56:01.000Z",
+      "summary": "“正大职通·人工智能推介官”实训营正式开营！_工作动态 pudong.gov.cn",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-龚政文-拥抱ai-驾驭ai-新浪财经",
+      "title": "龚政文：拥抱AI，驾驭AI - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wRUpaVnE3S2plUEtZMi1udUZQWEhMdHBHMWlMMW51enNWY0tzaVlpaEFNaUczdWlBUDA2V0lFckt3WTFkVUdVLXlTUXczU1R4Y2Mya2tJWnBMMXZLeHA0cTIzdUhVTE9rRGo4QThmRkQzR2k5WVE?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T10:49:00.000Z",
+      "summary": "龚政文：拥抱AI，驾驭AI 新浪财经",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-别再骂-claude-限速了-anthropic-boris-亲口承认-最挑剔的用户-反而最离不开我们-infoq-cn",
+      "title": "别再骂 Claude 限速了，Anthropic Boris 亲口承认：最挑剔的用户，反而最离不开我们 - Infoq.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44M3U1OWFhMC1vQ0YxRUNpaF8zczFvSGRaTkhWUGxhcWIxc3lJeEFuXzlnX3pmTzdiZjB2blNZNWlCT2FtN1FoZ2VpUDAzamRscjF5dkwwclhoVU9oQXc?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T10:44:05.000Z",
+      "summary": "别再骂 Claude 限速了，Anthropic Boris 亲口承认：最挑剔的用户，反而最离不开我们 Infoq.cn",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-zh-重庆-模力高地-人工智能创新孵化生态社区启动袁家军会见出席活动重要嘉宾并见证签约和揭牌-重庆市人民政府",
+      "title": "重庆“模力高地”人工智能创新孵化生态社区启动袁家军会见出席活动重要嘉宾并见证签约和揭牌 - 重庆市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92bVBHRDBZRUpqT0RLelhLMEFpVGl4WDhGR2JDQVV3WnFLNnJBd0dDbTB5S0R3M1FtajgzLWVXSEhVbFMwbTJqdGVaS2tnRTZFQ2xwUzZFRTVhOHRhRHZyMUJUbXkyYUhDQ1dtUW8xUQ?oc=5",
+      "source": "Google News: AI 中文",
+      "sourceId": "google-news-ai-zh",
+      "sourceType": "search",
+      "language": "zh",
+      "publishedAt": "2026-05-22T10:44:00.000Z",
+      "summary": "重庆“模力高地”人工智能创新孵化生态社区启动袁家军会见出席活动重要嘉宾并见证签约和揭牌 重庆市人民政府",
+      "topics": [
+        "AI动态"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "google-news-ai-global-anthropic-may-use-microsoft-ai-chips-over-nvidia-yourstory-com",
+      "title": "Anthropic May Use Microsoft AI Chips Over Nvidia - YourStory.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iOHlCMzdzUHJCaUNzMmdLME9SWjFRMi1Tc21iYTZ3cWxRVVhteDdCVzM4NUgydG50M0NPSDJoT0EzY05VdDRlcDcteWhkRkdoeTUxV3R0dWtGUDlMa3RNajRCQUFtMlloUi1kdmZfakVab3ljdHh6eUxmYw?oc=5",
+      "source": "Google News: Global AI",
+      "sourceId": "google-news-ai-global",
+      "sourceType": "search",
+      "language": "en",
+      "publishedAt": "2026-05-22T10:43:02.000Z",
+      "summary": "Anthropic May Use Microsoft AI Chips Over Nvidia YourStory.com",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 88,
+      "image": ""
+    }
+  ]
+}
