@@ -42,15 +42,11 @@ EOF
 }
 
 tmp_caddy="$(mktemp)"
-if dig +short "$DOMAIN" A | grep -Fxq "$SERVER_IP"; then
-  {
-    write_site_block "$DOMAIN"
-    echo
-    write_site_block "http://$SERVER_IP"
-  } > "$tmp_caddy"
-else
-  write_site_block ":80" > "$tmp_caddy"
-fi
+{
+  write_site_block "$DOMAIN"
+  echo
+  write_site_block "http://$SERVER_IP"
+} > "$tmp_caddy"
 
 caddy fmt --overwrite "$tmp_caddy" >/dev/null
 if [ ! -f "$CADDYFILE" ] || ! cmp -s "$tmp_caddy" "$CADDYFILE"; then
