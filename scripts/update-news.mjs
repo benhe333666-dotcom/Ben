@@ -6,7 +6,8 @@ const OUTPUT_PATH = new URL("../public/news.json", import.meta.url);
 const SOURCES_PATH = new URL("../public/sources.json", import.meta.url);
 const MAX_ITEMS = Number.parseInt(process.env.MAX_ITEMS || "140", 10);
 const WINDOW_HOURS = Number.parseInt(process.env.WINDOW_HOURS || "168", 10);
-const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "12000", 10);
+const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "20000", 10);
+const FETCH_RETRIES = Number.parseInt(process.env.FETCH_RETRIES || "2", 10);
 const CADENCE_MINUTES = Number.parseInt(process.env.CADENCE_MINUTES || "30", 10);
 
 const CHINA_REACHABLE_HOSTS = [
@@ -370,7 +371,9 @@ const summarize = (raw, title) => {
   return cleaned.length > 190 ? `${cleaned.slice(0, 186)}...` : cleaned;
 };
 
-const fetchWithTimeout = async (source) => {
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const fetchOnce = async (source) => {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   try {
@@ -386,6 +389,19 @@ const fetchWithTimeout = async (source) => {
   } finally {
     clearTimeout(timeout);
   }
+};
+
+const fetchWithTimeout = async (source) => {
+  let lastError;
+  for (let attempt = 0; attempt <= FETCH_RETRIES; attempt += 1) {
+    try {
+      return await fetchOnce(source);
+    } catch (error) {
+      lastError = error;
+      if (attempt < FETCH_RETRIES) await sleep(800 * (attempt + 1));
+    }
+  }
+  throw lastError;
 };
 
 const normalizeItem = (item, source) => {
