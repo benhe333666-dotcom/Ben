@@ -8,6 +8,16 @@ const MAX_ITEMS = Number.parseInt(process.env.MAX_ITEMS || "140", 10);
 const WINDOW_HOURS = Number.parseInt(process.env.WINDOW_HOURS || "240", 10);
 const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "12000", 10);
 
+const CHINA_REACHABLE_HOSTS = [
+  "36kr.com",
+  "cnblogs.com",
+  "ithome.com",
+  "leiphone.com",
+  "my.oschina.net",
+  "oschina.net",
+  "qbitai.com"
+];
+
 const AI_KEYWORDS = [
   "ai",
   "aigc",
@@ -89,6 +99,15 @@ const ROUND_LABELS = {
 };
 
 const DISPLAY_REPLACEMENTS = [
+  [/\b2D\b/gi, "二维"],
+  [/\b3D\b/gi, "三维"],
+  [/\b88\s*VIP\b/gi, "会员"],
+  [/\bVIP\b/gi, "会员"],
+  [/\b3C\b/gi, "消费电子"],
+  [/\bUSB\s*Type\s*-?\s*C\b/gi, "通用串行总线丙型接口"],
+  [/\bType\s*-?\s*C\b/gi, "丙型接口"],
+  [/\bUSB\b/gi, "通用串行总线"],
+  [/\bWi\s*-?\s*Fi\b/gi, "无线网络"],
   [/\bArtificial Intelligence\b/gi, "人工智能"],
   [/\bGenerative AI\b/gi, "生成式人工智能"],
   [/\bOpen Source\b/gi, "开源"],
@@ -187,7 +206,18 @@ const localizeDisplayText = (value) => {
   text = text.replace(/IT之家/g, "科技之家");
   text = text.replace(/\b([A-H])轮/g, (_, round) => `${ROUND_LABELS[round] || round}融资`);
   text = text.replace(/\bV(\d+)\b/gi, (_, version) => `第${version}代`);
+  text = text.replace(/(\d+(?:\.\d+)?)\s*mAh\b/gi, "$1 毫安时");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*Wh\b/gi, "$1 瓦时");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*kWh\b/gi, "$1 千瓦时");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*GHz\b/gi, "$1 吉赫兹");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*MHz\b/gi, "$1 兆赫兹");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*Hz\b/gi, "$1 赫兹");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*W\b/g, "$1 瓦");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*cm\b/gi, "$1 厘米");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*mm\b/gi, "$1 毫米");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*MP\b/gi, "$1 百万像素");
   text = text.replace(/(\d+(?:\.\d+)?)\s*g\b/gi, "$1 克");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*MB\b/gi, "$1 兆字节");
   text = text.replace(/(\d+(?:\.\d+)?)\s*GB\b/gi, "$1 吉字节");
   text = text.replace(/(\d+(?:\.\d+)?)\s*TB\b/gi, "$1 太字节");
   text = text.replace(/(\d+(?:\.\d+)?)\s*TOPS\b/gi, "$1 万亿次运算");
@@ -266,6 +296,15 @@ const canonicalUrl = (rawUrl) => {
   }
 };
 
+const isChinaReachableUrl = (rawUrl) => {
+  try {
+    const hostname = new URL(rawUrl).hostname.replace(/^www\./, "");
+    return CHINA_REACHABLE_HOSTS.some((host) => hostname === host || hostname.endsWith(`.${host}`));
+  } catch {
+    return false;
+  }
+};
+
 const pickLink = (item) => {
   if (typeof item.link === "string") return item.link;
   if (Array.isArray(item.link)) {
@@ -290,36 +329,7 @@ const extractItems = (xml) => {
   return [];
 };
 
-const extractAnthropicItems = (html) => {
-  const items = [];
-  const blockPattern = /<a href="(\/news\/[^"]+)"[\s\S]*?<\/a>/g;
-  const seen = new Set();
-  let match;
-
-  while ((match = blockPattern.exec(html)) && items.length < 28) {
-    const block = match[0];
-    const path = match[1];
-    if (seen.has(path)) continue;
-
-    const title = stripHtml(block.match(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/)?.[1]);
-    const description = stripHtml(block.match(/<p[^>]*>([\s\S]*?)<\/p>/)?.[1]);
-    const pubDate = stripHtml(block.match(/<time[^>]*>([\s\S]*?)<\/time>/)?.[1]);
-
-    if (!title) continue;
-    seen.add(path);
-    items.push({
-      title,
-      description,
-      pubDate,
-      link: `https://www.anthropic.com${path}`
-    });
-  }
-
-  return items;
-};
-
 const extractSourceItems = (body, source) => {
-  if (source.parser === "anthropic-html") return extractAnthropicItems(body);
   return extractItems(body);
 };
 
@@ -382,7 +392,7 @@ const normalizeItem = (item, source) => {
   const summary = localizeDisplayText(rawSummary);
   const text = `${rawTitle} ${rawSummary} ${title} ${summary}`;
 
-  if (!title || !link || !hasAiSignal(text, source.aiFocused)) return null;
+  if (!title || !link || !isChinaReachableUrl(link) || !hasAiSignal(text, source.aiFocused)) return null;
 
   const topics = inferTopics(text);
   return {
@@ -405,7 +415,7 @@ const dedupeItems = (items) => {
   const seen = new Map();
   for (const item of items) {
     const titleKey = normalizeTitle(item.title);
-    const key = item.url.includes("news.google.com") ? titleKey.slice(0, 96) : item.url;
+    const key = item.url || titleKey.slice(0, 96);
     const previous = seen.get(key);
     if (!previous || item.heat > previous.heat) {
       seen.set(key, item);

@@ -1,4 +1,4 @@
-name: Build and deploy AI news timeline
+name: 构建并发布人工智能新闻时间线
 
 on:
   push:
@@ -20,28 +20,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: 配置 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: npm ci
 
-      - name: Update news data
+      - name: 更新新闻数据
         run: npm run update
 
-      - name: Build site
+      - name: 构建网站
         run: npm run build
 
-      - name: Configure Pages
+      - name: 配置 Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: 上传发布产物
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -53,6 +53,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 发布到 Pages
         id: deployment
         uses: actions/deploy-pages@v4
