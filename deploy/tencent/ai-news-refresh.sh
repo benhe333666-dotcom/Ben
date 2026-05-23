@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP_DIR="${APP_DIR:-/opt/ai-news-site}"
+DOMAIN="${DOMAIN:-news.ben1067190.top}"
+SERVER_IP="${SERVER_IP:-122.51.163.190}"
+LOG_DIR="${LOG_DIR:-/var/log/ai-news}"
+LOCK_FILE="${LOCK_FILE:-/var/lock/ai-news-refresh.lock}"
+CADDYFILE="${CADDYFILE:-/etc/caddy/Caddyfile}"
+
+mkdir -p "$LOG_DIR"
+exec 9>"$LOCK_FILE"
+if ! flock -n 9; then
+  echo "已有更新任务在运行，本次跳过。"
+  exit 0
+fi
+
+cd "$APP_DIR"
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+export npm_config_registry="${npm_config_registry:-https://mirrors.tencentyun.com/npm/}"
+
+if [ ! -d node_modules ] || [ package-lock.json -nt node_modules/.package-lock.json ]; then
+  npm ci
+fi
+
+npm run update
+npm run build
+
+write_site_block() {
+  local label="$1"
+  cat <<EOF
+$label {
+	root * $APP_DIR/dist
+	encode zstd gzip
+	header /news.json Cache-Control "no-store, no-cache, must-revalidate"
+	header /sources.json Cache-Control "no-store, no-cache, must-revalidate"
+	try_files {path} /index.html
+	file_server
+}
+EOF
+}
+
+tmp_caddy="$(mktemp)"
+if dig +short "$DOMAIN" A | grep -Fxq "$SERVER_IP"; then
+  {
+    write_site_block "$DOMAIN"
+    echo
+    write_site_block "http://$SERVER_IP"
+  } > "$tmp_caddy"
+else
+  write_site_block ":80" > "$tmp_caddy"
+fi
+
+caddy fmt --overwrite "$tmp_caddy" >/dev/null
+if [ ! -f "$CADDYFILE" ] || ! cmp -s "$tmp_caddy" "$CADDYFILE"; then
+  install -m 0644 "$tmp_caddy" "$CADDYFILE"
+  rm -f "$tmp_caddy"
+  systemctl reload caddy 2>/dev/null || systemctl restart caddy
+else
+  rm -f "$tmp_caddy"
+fi
+
+node -e "const fs=require('fs'); const n=JSON.parse(fs.readFileSync('public/news.json','utf8')); console.log(JSON.stringify({generatedAt:n.generatedAt,total:n.items?.length||0,nextUpdateHint:n.nextUpdateHint||null}, null, 2));"

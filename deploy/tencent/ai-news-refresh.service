@@ -1,0 +1,11 @@
+[Unit]
+Description=刷新 AI 新闻时间轴网站
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=APP_DIR=/opt/ai-news-site
+Environment=HOME=/root
+ExecStart=/usr/local/bin/ai-news-refresh
+WorkingDirectory=/opt/ai-news-site

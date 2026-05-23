@@ -1,0 +1,11 @@
+[Unit]
+Description=每 30 分钟刷新 AI 新闻时间轴网站
+
+[Timer]
+OnBootSec=2min
+OnCalendar=*-*-* *:00,30:00
+AccuracySec=30s
+Persistent=true
+
+[Install]
+WantedBy=timers.target
