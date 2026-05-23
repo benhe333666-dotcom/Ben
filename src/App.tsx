@@ -22,16 +22,7 @@ type SortMode = "latest" | "hot";
 
 const sourceTypeOptions = [
   { label: "全部来源", value: "全部" },
-  { label: "官方", value: "official" },
-  { label: "媒体", value: "media" },
-  { label: "全网", value: "search" },
-  { label: "论文", value: "research" }
-];
-
-const languageOptions = [
-  { label: "全部语言", value: "全部" },
-  { label: "中文", value: "zh" },
-  { label: "英文", value: "en" }
+  { label: "中文媒体", value: "media" }
 ];
 
 const topicTone: Record<string, string> = {
@@ -42,9 +33,10 @@ const topicTone: Record<string, string> = {
   研究论文: "tone-ink",
   投融资: "tone-lime",
   多模态: "tone-mint",
-  端侧AI: "tone-gold",
+  端侧智能: "tone-gold",
   开源生态: "tone-sage",
-  机器人: "tone-rust"
+  机器人: "tone-rust",
+  人工智能动态: "tone-mint"
 };
 
 const heatLabel = (heat: number) => {
@@ -165,7 +157,6 @@ function App() {
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState("全部");
   const [sourceType, setSourceType] = useState("全部");
-  const [language, setLanguage] = useState("全部");
   const [sort, setSort] = useState<SortMode>("latest");
   const timelineRef = useRef<HTMLDivElement>(null);
 
@@ -173,8 +164,8 @@ function App() {
 
   const filteredItems = useMemo(() => {
     if (!data) return [];
-    return filterItems(data.items, query, topic, sourceType, language, sort);
-  }, [data, language, query, sort, sourceType, topic]);
+    return filterItems(data.items, query, topic, sourceType, "全部", sort);
+  }, [data, query, sort, sourceType, topic]);
 
   const groups = useMemo(() => groupByDate(filteredItems), [filteredItems]);
 
@@ -192,11 +183,11 @@ function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="/" aria-label="AI 热点时间线首页">
-          <span className="brand-mark">AI</span>
+        <a className="brand" href="/" aria-label="人工智能热点时间线首页">
+          <span className="brand-mark">智</span>
           <span>
-            <strong>AI 热点时间线</strong>
-            <small>Hourly intelligence feed</small>
+            <strong>人工智能热点时间线</strong>
+            <small>每小时自动更新</small>
           </span>
         </a>
 
@@ -218,7 +209,7 @@ function App() {
         <section className="command-panel" aria-label="新闻筛选">
           <div className="search-box">
             <Search size={18} />
-            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索 OpenAI、芯片、监管、智能体..." />
+            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索大模型、芯片、监管、智能体..." />
           </div>
 
           <select value={topic} onChange={(event) => setTopic(event.target.value)}>
@@ -231,14 +222,6 @@ function App() {
 
           <select value={sourceType} onChange={(event) => setSourceType(event.target.value)}>
             {sourceTypeOptions.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
-
-          <select value={language} onChange={(event) => setLanguage(event.target.value)}>
-            {languageOptions.map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
               </option>
@@ -263,17 +246,17 @@ function App() {
         </section>
 
         <div className="content-grid">
-          <section className="timeline-panel" aria-label="AI 新闻时间轴">
+          <section className="timeline-panel" aria-label="人工智能新闻时间轴">
             <div className="panel-heading">
               <div>
-                <h1>实时 AI 新闻时间轴</h1>
+                <h1>实时人工智能新闻时间轴</h1>
                 <p>
                   {data
                     ? `${filteredItems.length} 条匹配结果，覆盖最近 ${data.stats.windowHours} 小时公开来源`
                     : "正在聚合公开来源"}
                 </p>
               </div>
-              <span className="scan-badge">LIVE</span>
+              <span className="scan-badge">实时</span>
             </div>
 
             {error ? <div className="error-banner">{error}</div> : null}

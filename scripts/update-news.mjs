@@ -10,6 +10,7 @@ const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "12
 
 const AI_KEYWORDS = [
   "ai",
+  "aigc",
   "artificial intelligence",
   "openai",
   "chatgpt",
@@ -28,22 +29,39 @@ const AI_KEYWORDS = [
   "xai",
   "grok",
   "agent",
+  "agents",
   "machine learning",
   "neural",
   "nvidia",
   "gpu",
+  "deepseek",
+  "qwen",
+  "kimi",
+  "doubao",
+  "ernie",
   "人工智能",
+  "智能",
   "大模型",
   "模型",
   "生成式",
+  "生成式人工智能",
   "智能体",
+  "智能助手",
+  "通义",
+  "千问",
+  "文心",
+  "豆包",
+  "月之暗面",
+  "深度求索",
   "算力",
   "英伟达",
   "多模态",
   "芯片",
   "机器人",
   "自动驾驶",
-  "监管"
+  "监管",
+  "具身",
+  "李飞飞"
 ];
 
 const TOPIC_RULES = [
@@ -54,10 +72,137 @@ const TOPIC_RULES = [
   { name: "研究论文", keys: ["research", "paper", "benchmark", "arxiv", "研究", "论文", "基准"] },
   { name: "投融资", keys: ["funding", "startup", "valuation", "invest", "ipo", "融资", "估值", "投资"] },
   { name: "多模态", keys: ["video", "image", "audio", "multimodal", "sora", "vision", "多模态", "视频", "图像", "语音"] },
-  { name: "端侧AI", keys: ["device", "edge", "phone", "pc", "laptop", "端侧", "手机", "本地"] },
+  { name: "端侧智能", keys: ["device", "edge", "phone", "pc", "laptop", "端侧", "手机", "本地"] },
   { name: "开源生态", keys: ["open source", "hugging face", "github", "apache", "开源"] },
   { name: "机器人", keys: ["robot", "robotics", "humanoid", "机器人", "具身"] }
 ];
+
+const ROUND_LABELS = {
+  A: "第一轮",
+  B: "第二轮",
+  C: "第三轮",
+  D: "第四轮",
+  E: "第五轮",
+  F: "第六轮",
+  G: "第七轮",
+  H: "第八轮"
+};
+
+const DISPLAY_REPLACEMENTS = [
+  [/\bArtificial Intelligence\b/gi, "人工智能"],
+  [/\bGenerative AI\b/gi, "生成式人工智能"],
+  [/\bOpen Source\b/gi, "开源"],
+  [/\bMachine Learning\b/gi, "机器学习"],
+  [/\bDeep Learning\b/gi, "深度学习"],
+  [/\bLarge Language Model(s)?\b/gi, "大语言模型"],
+  [/\bDeepSeek\b/gi, "深度求索"],
+  [/\bWindows\b/gi, "视窗系统"],
+  [/\bStellantis\b/gi, "斯特兰蒂斯"],
+  [/\bQualcomm\b/gi, "高通"],
+  [/\bSnapdragon\b/gi, "骁龙"],
+  [/\bOPPO\b/gi, "欧珀"],
+  [/\bEnco\b/gi, "声学耳机"],
+  [/\bAirPods\b/gi, "苹果耳机"],
+  [/\biPhone\b/gi, "苹果手机"],
+  [/\biPad\b/gi, "苹果平板"],
+  [/\bMac\b/gi, "苹果电脑"],
+  [/\bHarmonyOS\b/gi, "鸿蒙系统"],
+  [/\bAndroid\b/gi, "安卓"],
+  [/\biOS\b/gi, "苹果移动系统"],
+  [/\bSoC\b/gi, "系统级芯片"],
+  [/\bPro\b/gi, "专业版"],
+  [/\bMax\b/gi, "旗舰版"],
+  [/\bMini\b/gi, "小型版"],
+  [/\bOpenAI\b/gi, "开放人工智能公司"],
+  [/\bAnthropic\b/gi, "人工智能安全公司"],
+  [/\bChatGPT\b/gi, "智能聊天助手"],
+  [/\bClaude\b/gi, "克劳德模型"],
+  [/\bGemini\b/gi, "双子座模型"],
+  [/\bDeepMind\b/gi, "深度思维"],
+  [/\bGoogle\b/gi, "谷歌"],
+  [/\bMicrosoft\b/gi, "微软"],
+  [/\bNVIDIA\b/gi, "英伟达"],
+  [/\bApple\b/gi, "苹果"],
+  [/\bMeta\b/gi, "元宇宙平台公司"],
+  [/\bTesla\b/gi, "特斯拉"],
+  [/\bByteDance\b/gi, "字节跳动"],
+  [/\bAlibaba\b/gi, "阿里巴巴"],
+  [/\bBaidu\b/gi, "百度"],
+  [/\bTencent\b/gi, "腾讯"],
+  [/\bQwen\b/gi, "通义千问"],
+  [/\bKimi\b/gi, "月之暗面"],
+  [/\bDoubao\b/gi, "豆包"],
+  [/\bErnie\b/gi, "文心"],
+  [/\bLlama\b/gi, "开源大语言模型"],
+  [/\bMistral\b/gi, "欧洲大模型"],
+  [/\bCopilot\b/gi, "智能副驾"],
+  [/\bImageNet\b/gi, "图像网络数据集"],
+  [/\bSora\b/gi, "视频生成模型"],
+  [/\bAIGC\b/gi, "生成式人工智能"],
+  [/\bAI\b/gi, "人工智能"],
+  [/\bAGI\b/gi, "通用人工智能"],
+  [/\bLLM(s)?\b/gi, "大语言模型"],
+  [/\bGPU(s)?\b/gi, "图形处理器"],
+  [/\bCPU(s)?\b/gi, "中央处理器"],
+  [/\bTPU(s)?\b/gi, "张量处理器"],
+  [/\bAPI(s)?\b/gi, "接口"],
+  [/\bSDK(s)?\b/gi, "开发工具包"],
+  [/\bIT\b/gi, "信息技术"],
+  [/\bPC(s)?\b/gi, "电脑"],
+  [/\bApp(s)?\b/gi, "应用"],
+  [/\bAgent(s)?\b/gi, "智能体"],
+  [/\bToken(s)?\b/gi, "词元"],
+  [/\bCode\b/gi, "代码"],
+  [/\bCoding\b/gi, "编程"],
+  [/\bModel(s)?\b/gi, "模型"],
+  [/\bBenchmark(s)?\b/gi, "基准测试"],
+  [/\bRobot(s|ics)?\b/gi, "机器人"],
+  [/\bHumanoid\b/gi, "人形机器人"],
+  [/\bVision\b/gi, "视觉"],
+  [/\bCloud\b/gi, "云服务"],
+  [/\bChip(s)?\b/gi, "芯片"],
+  [/\bFunding\b/gi, "融资"],
+  [/\bStartup(s)?\b/gi, "创业公司"],
+  [/\bIPO\b/gi, "首次公开募股"],
+  [/\bCEO\b/gi, "首席执行官"],
+  [/\bACM\b/gi, "国际计算机学会"],
+  [/\bGitHub\b/gi, "代码托管平台"],
+  [/\bApache\b/gi, "阿帕奇"],
+  [/\bComing\b/gi, "即将推出"],
+  [/\bReportedly\b/gi, "据报道"],
+  [/\bResearch\b/gi, "研究"],
+  [/\bSafety\b/gi, "安全"],
+  [/\bPolicy\b/gi, "政策"],
+  [/\bRegulation\b/gi, "监管"],
+  [/\bWorkflow\b/gi, "工作流"],
+  [/\bData\b/gi, "数据"],
+  [/\bSecurity\b/gi, "安全"],
+  [/\bNews\b/gi, "新闻"],
+  [/\bReview\b/gi, "评测"],
+  [/\bLive\b/gi, "实时"]
+];
+
+const localizeDisplayText = (value) => {
+  let text = stripHtml(value);
+  text = text.replace(/IT之家/g, "科技之家");
+  text = text.replace(/\b([A-H])轮/g, (_, round) => `${ROUND_LABELS[round] || round}融资`);
+  text = text.replace(/\bV(\d+)\b/gi, (_, version) => `第${version}代`);
+  text = text.replace(/(\d+(?:\.\d+)?)\s*g\b/gi, "$1 克");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*GB\b/gi, "$1 吉字节");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*TB\b/gi, "$1 太字节");
+  text = text.replace(/(\d+(?:\.\d+)?)\s*TOPS\b/gi, "$1 万亿次运算");
+  for (const [pattern, replacement] of DISPLAY_REPLACEMENTS) {
+    text = text.replace(pattern, replacement);
+  }
+  return text
+    .replace(/\b[A-Za-z][A-Za-z0-9+._-]*\b/g, "相关名称")
+    .replace(/\s+-\s+/g, "，来源：")
+    .replace(/\s+\|\s+/g, "，")
+    .replace(/相关名称(\s*相关名称)+/g, "相关名称")
+    .replace(/\s+/g, " ")
+    .replace(/([，。！？；：])\s+/g, "$1")
+    .trim();
+};
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -189,7 +334,7 @@ const inferTopics = (text) => {
   const topics = TOPIC_RULES.filter((rule) => rule.keys.some((key) => lower.includes(key.toLowerCase()))).map(
     (rule) => rule.name
   );
-  return topics.length ? topics.slice(0, 3) : ["AI动态"];
+  return topics.length ? topics.slice(0, 3) : ["人工智能动态"];
 };
 
 const heatScore = ({ publishedAt, source, topics, text }) => {
@@ -197,7 +342,7 @@ const heatScore = ({ publishedAt, source, topics, text }) => {
   const recency = Math.max(0, 48 - ageHours) * 0.85;
   const sourceBoost = source.weight * 18;
   const topicBoost = Math.min(18, topics.length * 5);
-  const titleBoost = /openai|anthropic|google|deepmind|nvidia|claude|gemini|gpt|监管|大模型|英伟达/i.test(text)
+  const titleBoost = /openai|anthropic|google|deepmind|nvidia|claude|gemini|gpt|deepseek|qwen|kimi|监管|大模型|英伟达|深度求索|通义|千问|月之暗面/i.test(text)
     ? 8
     : 0;
   return Math.max(28, Math.min(99, Math.round(24 + recency + sourceBoost + topicBoost + titleBoost)));
@@ -205,7 +350,7 @@ const heatScore = ({ publishedAt, source, topics, text }) => {
 
 const summarize = (raw, title) => {
   const cleaned = stripHtml(raw);
-  if (!cleaned || cleaned === title) return "来自公开新闻源的 AI 相关动态，点击原文查看完整报道。";
+  if (!cleaned || cleaned === title) return "来自公开中文新闻源的人工智能相关动态，点击原文查看完整报道。";
   return cleaned.length > 190 ? `${cleaned.slice(0, 186)}...` : cleaned;
 };
 
@@ -216,7 +361,7 @@ const fetchWithTimeout = async (source) => {
     const response = await fetch(source.url, {
       signal: controller.signal,
       headers: {
-        "user-agent": "AI-News-Timeline/0.1 (+https://github.com)",
+        "user-agent": "Mozilla/5.0 (compatible; Chinese-AI-News-Timeline/0.2)",
         accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"
       }
     });
@@ -228,12 +373,14 @@ const fetchWithTimeout = async (source) => {
 };
 
 const normalizeItem = (item, source) => {
-  const title = stripHtml(item.title);
+  const rawTitle = stripHtml(item.title);
   const link = canonicalUrl(pickLink(item));
   const rawPublished = item.pubDate || item.published || item.updated || item["dc:date"] || item.created;
   const publishedAt = new Date(getText(rawPublished) || Date.now()).toISOString();
-  const summary = summarize(item.description || item.summary || item.content || item["content:encoded"], title);
-  const text = `${title} ${summary}`;
+  const title = localizeDisplayText(rawTitle);
+  const rawSummary = summarize(item.description || item.summary || item.content || item["content:encoded"], rawTitle);
+  const summary = localizeDisplayText(rawSummary);
+  const text = `${rawTitle} ${rawSummary} ${title} ${summary}`;
 
   if (!title || !link || !hasAiSignal(text, source.aiFocused)) return null;
 
@@ -245,7 +392,7 @@ const normalizeItem = (item, source) => {
     source: source.name,
     sourceId: source.id,
     sourceType: source.type,
-    language: source.language,
+    language: "zh",
     publishedAt,
     summary,
     topics,
