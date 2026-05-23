@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import type { NewsPayload } from "../types/news";
 
+const REFRESH_INTERVAL_MS = 30_000;
+const UPDATE_HINT_GRACE_MS = 5_000;
+
 interface NewsState {
   data: NewsPayload | null;
   loading: boolean;
@@ -49,10 +52,38 @@ export const useNewsFeed = () => {
   useEffect(() => {
     const interval = window.setInterval(() => {
       void load(true);
-    }, 60_000);
+    }, REFRESH_INTERVAL_MS);
 
     return () => window.clearInterval(interval);
   }, [load]);
+
+  useEffect(() => {
+    const refreshWhenActive = () => {
+      if (!document.hidden) void load(true);
+    };
+
+    document.addEventListener("visibilitychange", refreshWhenActive);
+    window.addEventListener("focus", refreshWhenActive);
+    window.addEventListener("online", refreshWhenActive);
+
+    return () => {
+      document.removeEventListener("visibilitychange", refreshWhenActive);
+      window.removeEventListener("focus", refreshWhenActive);
+      window.removeEventListener("online", refreshWhenActive);
+    };
+  }, [load]);
+
+  useEffect(() => {
+    const nextUpdateAt = state.data?.nextUpdateHint ? new Date(state.data.nextUpdateHint).getTime() : 0;
+    if (!Number.isFinite(nextUpdateAt) || nextUpdateAt <= 0) return undefined;
+
+    const delay = Math.max(REFRESH_INTERVAL_MS, nextUpdateAt - Date.now() + UPDATE_HINT_GRACE_MS);
+    const timeout = window.setTimeout(() => {
+      void load(true);
+    }, delay);
+
+    return () => window.clearTimeout(timeout);
+  }, [load, state.data?.nextUpdateHint]);
 
   return {
     ...state,

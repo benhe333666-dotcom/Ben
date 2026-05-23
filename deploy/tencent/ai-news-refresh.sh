@@ -32,8 +32,9 @@ write_site_block() {
 $label {
 	root * $APP_DIR/dist
 	encode zstd gzip
-	header /news.json Cache-Control "no-store, no-cache, must-revalidate"
-	header /sources.json Cache-Control "no-store, no-cache, must-revalidate"
+	header Cache-Control "no-store, no-cache, must-revalidate"
+	header Pragma "no-cache"
+	header Expires "0"
 	try_files {path} /index.html
 	file_server
 }

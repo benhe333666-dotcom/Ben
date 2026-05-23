@@ -179,6 +179,11 @@ function App() {
     () => filteredItems.reduce<NewsItem | null>((best, item) => (!best || item.heat > best.heat ? item : best), null),
     [filteredItems]
   );
+  const coverageWindow = data
+    ? data.stats.windowHours >= 24 && data.stats.windowHours % 24 === 0
+      ? `${data.stats.windowHours / 24} 天`
+      : `${data.stats.windowHours} 小时`
+    : "";
 
   return (
     <div className="app-shell">
@@ -194,9 +199,10 @@ function App() {
         <div className="topbar-status">
           <span className="live-indicator">
             <Radio size={15} />
-            自动检查
+            30 秒检查
           </span>
           <span>{data ? `最近生成 ${formatDateTime(data.generatedAt)}` : "正在读取新闻源"}</span>
+          <span>{data ? `下次更新 ${formatClock(data.nextUpdateHint)}` : "等待更新时间"}</span>
           <span>{lastCheckedAt ? `检查 ${formatClock(lastCheckedAt)}` : "等待首次检查"}</span>
           <button className="refresh-button" onClick={() => void reload()} disabled={loading}>
             <RefreshCcw size={16} className={refreshing ? "spin-icon" : ""} />
@@ -252,7 +258,7 @@ function App() {
                 <h1>实时人工智能新闻时间轴</h1>
                 <p>
                   {data
-                    ? `${filteredItems.length} 条匹配结果，覆盖最近 ${data.stats.windowHours} 小时公开来源`
+                    ? `${filteredItems.length} 条匹配结果，覆盖最近 ${coverageWindow}公开来源`
                     : "正在聚合公开来源"}
                 </p>
               </div>

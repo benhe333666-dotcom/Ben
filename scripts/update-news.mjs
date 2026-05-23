@@ -5,8 +5,9 @@ import { SOURCE_DEFINITIONS } from "./sources.mjs";
 const OUTPUT_PATH = new URL("../public/news.json", import.meta.url);
 const SOURCES_PATH = new URL("../public/sources.json", import.meta.url);
 const MAX_ITEMS = Number.parseInt(process.env.MAX_ITEMS || "140", 10);
-const WINDOW_HOURS = Number.parseInt(process.env.WINDOW_HOURS || "240", 10);
+const WINDOW_HOURS = Number.parseInt(process.env.WINDOW_HOURS || "168", 10);
 const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "12000", 10);
+const CADENCE_MINUTES = Number.parseInt(process.env.CADENCE_MINUTES || "30", 10);
 
 const CHINA_REACHABLE_HOSTS = [
   "36kr.com",
@@ -275,6 +276,11 @@ const stripHtml = (value) =>
     .replace(/\s+/g, " ")
     .trim();
 
+const nextCadenceTimestamp = (base = Date.now()) => {
+  const cadenceMs = CADENCE_MINUTES * 60 * 1000;
+  return new Date(Math.ceil((base + 1000) / cadenceMs) * cadenceMs).toISOString();
+};
+
 const normalizeTitle = (title) =>
   title
     .toLowerCase()
@@ -486,8 +492,8 @@ const main = async () => {
 
   const payload = {
     generatedAt,
-    cadenceMinutes: 30,
-    nextUpdateHint: new Date(Date.now() + 30 * 60 * 1000).toISOString(),
+    cadenceMinutes: CADENCE_MINUTES,
+    nextUpdateHint: nextCadenceTimestamp(),
     stats: {
       total: items.length,
       sourceCount: SOURCE_DEFINITIONS.length,
