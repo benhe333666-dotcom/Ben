@@ -486,8 +486,8 @@ const main = async () => {
 
   const payload = {
     generatedAt,
-    cadenceMinutes: 60,
-    nextUpdateHint: new Date(Date.now() + 60 * 60 * 1000).toISOString(),
+    cadenceMinutes: 30,
+    nextUpdateHint: new Date(Date.now() + 30 * 60 * 1000).toISOString(),
     stats: {
       total: items.length,
       sourceCount: SOURCE_DEFINITIONS.length,

@@ -187,7 +187,7 @@ function App() {
           <span className="brand-mark">智</span>
           <span>
             <strong>人工智能热点时间线</strong>
-            <small>每小时自动更新</small>
+            <small>每半小时自动更新</small>
           </span>
         </a>
 
