@@ -1,0 +1,17 @@
+[Unit]
+Description=AI 新闻时间轴本机源站服务
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=APP_DIR=/opt/ai-news-site
+Environment=ORIGIN_HOST=127.0.0.1
+Environment=ORIGIN_PORT=8787
+ExecStart=/usr/bin/node /opt/ai-news-site/deploy/tencent/ai-news-origin.mjs
+Restart=always
+RestartSec=2
+WorkingDirectory=/opt/ai-news-site
+
+[Install]
+WantedBy=multi-user.target

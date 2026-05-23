@@ -4,6 +4,8 @@ set -euo pipefail
 APP_DIR="${APP_DIR:-/opt/ai-news-site}"
 DOMAIN="${DOMAIN:-news.ben1067190.top}"
 SERVER_IP="${SERVER_IP:-122.51.163.190}"
+ORIGIN_HOST="${ORIGIN_HOST:-127.0.0.1}"
+ORIGIN_PORT="${ORIGIN_PORT:-8787}"
 LOG_DIR="${LOG_DIR:-/var/log/ai-news}"
 LOCK_FILE="${LOCK_FILE:-/var/lock/ai-news-refresh.lock}"
 CADDYFILE="${CADDYFILE:-/etc/caddy/Caddyfile}"
@@ -30,13 +32,11 @@ write_site_block() {
   local label="$1"
   cat <<EOF
 $label {
-	root * $APP_DIR/dist
 	encode zstd gzip
 	header Cache-Control "no-store, no-cache, must-revalidate"
 	header Pragma "no-cache"
 	header Expires "0"
-	try_files {path} /index.html
-	file_server
+	reverse_proxy $ORIGIN_HOST:$ORIGIN_PORT
 }
 EOF
 }
