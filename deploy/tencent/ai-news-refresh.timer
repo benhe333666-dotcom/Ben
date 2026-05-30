@@ -1,9 +1,9 @@
 [Unit]
-Description=每 30 分钟同步并发布 AI 新闻时间轴网站
+Description=每 5 分钟同步并发布 AI 新闻时间轴网站
 
 [Timer]
 OnBootSec=2min
-OnCalendar=*-*-* *:20,50:00
+OnCalendar=*-*-* *:00/5:00
 AccuracySec=30s
 Persistent=true
 
