@@ -456,10 +456,11 @@ function App() {
                   <a
                     key={source.id}
                     className={`${source.ok ? "is-ok" : "is-down"} ${sourceId === source.id ? "is-active" : ""}`}
+                    title={`已展示 ${source.displayedCount ?? source.itemCount} 条，抓取 ${source.itemCount} 条`}
                     {...linkFor({ query: "", topic: "全部", sourceType: source.type, sourceId: source.id })}
                   >
                     {source.name}
-                    <small>{source.itemCount}</small>
+                    <small>{source.displayedCount ?? source.itemCount}</small>
                   </a>
                 ))}
               </div>

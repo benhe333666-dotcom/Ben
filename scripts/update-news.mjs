@@ -77,6 +77,16 @@ const AI_KEYWORDS = [
   "生成式人工智能",
   "智能体",
   "智能助手",
+  "机器学习",
+  "深度学习",
+  "神经网络",
+  "自然语言处理",
+  "计算机视觉",
+  "强化学习",
+  "扩散模型",
+  "语音识别",
+  "图像生成",
+  "视频生成",
   "通义",
   "千问",
   "文心",
@@ -93,6 +103,8 @@ const AI_KEYWORDS = [
   "具身",
   "李飞飞"
 ];
+
+const WEAK_AI_KEYWORDS = new Set(["智能", "模型", "芯片", "监管"]);
 
 const TOPIC_RULES = [
   { name: "模型发布", keys: ["gpt", "claude", "gemini", "llama", "mistral", "model", "大模型", "模型发布"] },
@@ -692,6 +704,17 @@ const normalizeTitle = (title) =>
     .replace(/\s+/g, " ")
     .trim();
 
+const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+const isLatinKeyword = (value) => /^[a-z0-9+._\-\s]+$/i.test(value);
+
+const keywordMatches = (text, keyword) => {
+  if (isLatinKeyword(keyword)) {
+    return new RegExp(`(?<![a-z0-9])${escapeRegExp(keyword.toLowerCase())}(?![a-z0-9])`, "i").test(text);
+  }
+  return text.includes(keyword.toLowerCase());
+};
+
 const canonicalUrl = (rawUrl) => {
   try {
     const url = new URL(rawUrl);
@@ -755,7 +778,7 @@ const extractSourceItems = (body, source) => {
 const hasAiSignal = (text, source) => {
   if (source.aiFocused) return true;
   const lower = text.toLowerCase();
-  return AI_KEYWORDS.some((keyword) => lower.includes(keyword.toLowerCase()));
+  return AI_KEYWORDS.some((keyword) => !WEAK_AI_KEYWORDS.has(keyword) && keywordMatches(lower, keyword));
 };
 
 const inferTopics = (text) => {
@@ -916,12 +939,58 @@ const dedupeItems = (items) => {
   }
 
   for (const item of seen.values()) {
-    const duplicateIndex = selected.findIndex((existing) => similarity(existing.title, item.title) >= 0.82);
+    const duplicateIndex = selected.findIndex(
+      (existing) => existing.sourceId === item.sourceId && similarity(existing.title, item.title) >= 0.82
+    );
     if (duplicateIndex === -1) {
       selected.push(item);
     } else if (item.heat > selected[duplicateIndex].heat) {
       selected[duplicateIndex] = item;
     }
+  }
+
+  return selected;
+};
+
+const compareItemsByFreshness = (a, b) => {
+  const timeDiff = new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+  if (timeDiff !== 0) return timeDiff;
+  return b.heat - a.heat;
+};
+
+const diversifyItemsBySource = (items, maxItems) => {
+  const buckets = new Map();
+  for (const item of [...items].sort(compareItemsByFreshness)) {
+    if (!buckets.has(item.sourceId)) buckets.set(item.sourceId, []);
+    buckets.get(item.sourceId).push(item);
+  }
+
+  const sourceOrder = [...buckets.keys()];
+  const sortSourcesByNextItem = () => {
+    sourceOrder.sort((left, right) => {
+      const leftItem = buckets.get(left)?.[0];
+      const rightItem = buckets.get(right)?.[0];
+      if (!leftItem && !rightItem) return 0;
+      if (!leftItem) return 1;
+      if (!rightItem) return -1;
+      return compareItemsByFreshness(leftItem, rightItem);
+    });
+  };
+
+  const selected = [];
+  sortSourcesByNextItem();
+
+  while (selected.length < maxItems) {
+    let added = false;
+    for (const sourceId of sourceOrder) {
+      const bucket = buckets.get(sourceId);
+      if (!bucket?.length) continue;
+      selected.push(bucket.shift());
+      added = true;
+      if (selected.length >= maxItems) break;
+    }
+    if (!added) break;
+    sortSourcesByNextItem();
   }
 
   return selected;
@@ -970,14 +1039,23 @@ const main = async () => {
   }
 
   const cutoff = Date.now() - WINDOW_HOURS * 36e5;
-  const items = dedupeItems(successes.flatMap((entry) => entry.items))
-    .filter((item) => new Date(item.publishedAt).getTime() >= cutoff)
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, MAX_ITEMS);
+  const eligibleItems = dedupeItems(successes.flatMap((entry) => entry.items)).filter(
+    (item) => new Date(item.publishedAt).getTime() >= cutoff
+  );
+  const items = diversifyItemsBySource(eligibleItems, MAX_ITEMS);
+
+  const displayedBySource = items.reduce((acc, item) => {
+    const current = acc.get(item.sourceId) || { count: 0, latest: item.publishedAt };
+    current.count += 1;
+    if (new Date(item.publishedAt).getTime() > new Date(current.latest).getTime()) current.latest = item.publishedAt;
+    acc.set(item.sourceId, current);
+    return acc;
+  }, new Map());
 
   const generatedAt = new Date().toISOString();
   const sourceHealth = SOURCE_DEFINITIONS.map((source) => {
     const success = successes.find((entry) => entry.source.id === source.id);
+    const displayed = displayedBySource.get(source.id);
     return {
       id: source.id,
       name: source.name,
@@ -986,7 +1064,10 @@ const main = async () => {
       language: source.language,
       originLanguage: source.originLanguage || source.language,
       ok: Boolean(success),
-      itemCount: success?.items.length || 0
+      itemCount: success?.items.length || 0,
+      displayedCount: displayed?.count || 0,
+      latestFetchedAt: success?.items[0]?.publishedAt || "",
+      latestDisplayedAt: displayed?.latest || ""
     };
   });
 

@@ -23,16 +23,17 @@ export const filterItems = (
     return queryMatch && topicMatch && sourceMatch && sourceIdMatch && languageMatch;
   });
 
-  return filtered.sort((a, b) => {
-    if (sort === "hot") return b.heat - a.heat || +new Date(b.publishedAt) - +new Date(a.publishedAt);
-    return +new Date(b.publishedAt) - +new Date(a.publishedAt) || b.heat - a.heat;
-  });
+  if (sort === "hot") {
+    return [...filtered].sort((a, b) => b.heat - a.heat || +new Date(b.publishedAt) - +new Date(a.publishedAt));
+  }
+
+  return filtered;
 };
 
 export const groupByDate = (items: NewsItem[]) =>
   items.reduce<Array<{ date: string; items: NewsItem[] }>>((groups, item) => {
     const date = new Date(item.publishedAt).toISOString().slice(0, 10);
-    const group = groups.find((entry) => entry.date === date);
+    const group = groups[groups.length - 1]?.date === date ? groups[groups.length - 1] : null;
     if (group) group.items.push(item);
     else groups.push({ date, items: [item] });
     return groups;

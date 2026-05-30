@@ -30,6 +30,9 @@ export interface SourceHealth {
   originLanguage?: string;
   ok: boolean;
   itemCount: number;
+  displayedCount?: number;
+  latestFetchedAt?: string;
+  latestDisplayedAt?: string;
 }
 
 export interface NewsPayload {
