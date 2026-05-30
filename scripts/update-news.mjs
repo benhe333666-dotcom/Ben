@@ -23,6 +23,7 @@ const CHINA_REACHABLE_HOSTS = [
 
 const ALLOWED_EXTERNAL_HOSTS = [
   "arxiv.org",
+  "arstechnica.com",
   "azure.microsoft.com",
   "blog.google",
   "blogs.microsoft.com",
@@ -31,7 +32,11 @@ const ALLOWED_EXTERNAL_HOSTS = [
   "github.blog",
   "huggingface.co",
   "openai.com",
-  "research.google"
+  "research.google",
+  "techcrunch.com",
+  "technologyreview.com",
+  "the-decoder.com",
+  "theverge.com"
 ];
 
 const AI_KEYWORDS = [
@@ -165,6 +170,12 @@ const DISPLAY_REPLACEMENTS = [
   [/\bDeepSeek\b/gi, "深度求索"],
   [/\bWindows\b/gi, "视窗系统"],
   [/\bStellantis\b/gi, "斯特兰蒂斯"],
+  [/\bTechCrunch\b/gi, "科技创投媒体"],
+  [/\bArs Technica\b/gi, "技术深度媒体"],
+  [/\bThe Decoder\b/gi, "人工智能解码媒体"],
+  [/\bThe Verge\b/gi, "前沿科技媒体"],
+  [/\bMIT Technology Review\b/gi, "麻省理工科技评论"],
+  [/\bTechnology Review\b/gi, "科技评论"],
   [/\bQualcomm\b/gi, "高通"],
   [/\bSnapdragon\b/gi, "骁龙"],
   [/\bOPPO\b/gi, "欧珀"],

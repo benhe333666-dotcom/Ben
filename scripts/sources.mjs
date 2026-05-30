@@ -96,6 +96,66 @@ export const SOURCE_DEFINITIONS = [
     maxItems: 8
   },
   {
+    id: "techcrunch-ai",
+    name: "科技创投媒体人工智能",
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.18,
+    maxItems: 10
+  },
+  {
+    id: "ars-technica-ai",
+    name: "技术深度媒体人工智能",
+    url: "https://arstechnica.com/tag/ai/feed/",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.16,
+    maxItems: 10
+  },
+  {
+    id: "the-verge-ai",
+    name: "前沿科技媒体人工智能",
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.14,
+    maxItems: 10
+  },
+  {
+    id: "mit-tech-review-ai",
+    name: "麻省理工科技评论人工智能",
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.12,
+    maxItems: 10
+  },
+  {
+    id: "the-decoder",
+    name: "人工智能解码媒体",
+    url: "https://the-decoder.com/feed/",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.1,
+    maxItems: 10
+  },
+  {
     id: "arxiv-cs-ai",
     name: "论文预印本：人工智能",
     url: "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=24",
