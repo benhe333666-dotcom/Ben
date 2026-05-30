@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { ReactNode } from "react";
+import type { MouseEvent, ReactNode } from "react";
 import {
   Activity,
   ArrowUpRight,
@@ -19,6 +19,18 @@ import { useNewsFeed } from "./hooks/useNewsFeed";
 import type { NewsItem, TopicStat } from "./types/news";
 
 type SortMode = "latest" | "hot";
+type FilterTarget = {
+  query?: string;
+  topic?: string;
+  sourceType?: string;
+  sourceId?: string;
+  sort?: SortMode;
+};
+
+type LinkFactory = (target: FilterTarget) => {
+  href: string;
+  onClick: (event: MouseEvent<HTMLAnchorElement>) => void;
+};
 
 const sourceTypeOptions = [
   { label: "全部来源", value: "全部" },
@@ -105,22 +117,41 @@ const StatCard = ({ icon, label, value }: { icon: ReactNode; label: string; valu
   </div>
 );
 
-const TopicRank = ({ topics }: { topics: TopicStat[] }) => (
+const TopicRank = ({
+  topics,
+  activeTopic,
+  linkFor
+}: {
+  topics: TopicStat[];
+  activeTopic: string;
+  linkFor: LinkFactory;
+}) => (
   <div className="topic-rank">
-    {topics.slice(0, 8).map((topic, index) => (
-      <div className="rank-row" key={topic.name}>
-        <span className="rank-index">{String(index + 1).padStart(2, "0")}</span>
-        <div>
-          <strong>{topic.name}</strong>
-          <small>{topic.count} 条动态</small>
-        </div>
-        <HeatMeter value={topic.heat} />
-      </div>
-    ))}
+    {topics.slice(0, 8).map((topic, index) => {
+      const link = linkFor({ query: "", topic: topic.name, sourceType: "全部", sourceId: "全部" });
+      return (
+        <a className={`rank-row ${activeTopic === topic.name ? "is-active" : ""}`} key={topic.name} {...link}>
+          <span className="rank-index">{String(index + 1).padStart(2, "0")}</span>
+          <div>
+            <strong>{topic.name}</strong>
+            <small>{topic.count} 条动态</small>
+          </div>
+          <HeatMeter value={topic.heat} />
+        </a>
+      );
+    })}
   </div>
 );
 
-const DistributionBars = ({ items }: { items: NewsItem[] }) => {
+const DistributionBars = ({
+  items,
+  activeSourceType,
+  linkFor
+}: {
+  items: NewsItem[];
+  activeSourceType: string;
+  linkFor: LinkFactory;
+}) => {
   const distribution = sourceDistribution(items);
   const total = Math.max(1, items.length);
   const rows = sourceTypeOptions
@@ -134,13 +165,17 @@ const DistributionBars = ({ items }: { items: NewsItem[] }) => {
   return (
     <div className="distribution">
       {rows.map((row) => (
-        <div className="distribution-row" key={row.value}>
+        <a
+          className={`distribution-row ${activeSourceType === row.value ? "is-active" : ""}`}
+          key={row.value}
+          {...linkFor({ query: "", topic: "全部", sourceType: row.value, sourceId: "全部" })}
+        >
           <span>{row.label}</span>
           <div className="distribution-track">
             <i style={{ width: `${row.ratio}%` }} />
           </div>
           <strong>{row.count}</strong>
-        </div>
+        </a>
       ))}
     </div>
   );
@@ -159,15 +194,75 @@ function App() {
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState("全部");
   const [sourceType, setSourceType] = useState("全部");
+  const [sourceId, setSourceId] = useState("全部");
   const [sort, setSort] = useState<SortMode>("latest");
+  const timelinePanelRef = useRef<HTMLElement>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
+  const hydratedUrlFilters = useRef(false);
 
   const topicOptions = useMemo(() => ["全部", ...(data?.topics.map((item) => item.name) || [])], [data?.topics]);
+  const activeSourceName = useMemo(
+    () => data?.sources.find((source) => source.id === sourceId)?.name || "",
+    [data?.sources, sourceId]
+  );
+  const activeFilterLabel = useMemo(
+    () =>
+      [
+        query ? `关键词：${query}` : "",
+        topic !== "全部" ? `主题：${topic}` : "",
+        sourceId !== "全部" && activeSourceName
+          ? `来源：${activeSourceName}`
+          : sourceType !== "全部"
+            ? `来源：${sourceTypeLabel(sourceType)}`
+            : ""
+      ]
+        .filter(Boolean)
+        .join(" / "),
+    [activeSourceName, query, sourceId, sourceType, topic]
+  );
+
+  const buildFilterHref = (target: Required<FilterTarget>) => {
+    const params = new URLSearchParams();
+    if (target.query) params.set("q", target.query);
+    if (target.topic !== "全部") params.set("topic", target.topic);
+    if (target.sourceType !== "全部") params.set("sourceType", target.sourceType);
+    if (target.sourceId !== "全部") params.set("source", target.sourceId);
+    if (target.sort !== "latest") params.set("sort", target.sort);
+    const queryString = params.toString();
+    return `${window.location.pathname}${queryString ? `?${queryString}` : ""}#timeline`;
+  };
+
+  const applyFilterTarget = (target: Required<FilterTarget>) => {
+    setQuery(target.query);
+    setTopic(target.topic);
+    setSourceType(target.sourceType);
+    setSourceId(target.sourceId);
+    setSort(target.sort);
+    window.history.pushState(null, "", buildFilterHref(target));
+    window.setTimeout(() => timelinePanelRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 0);
+  };
+
+  const linkFor: LinkFactory = (target) => {
+    const resolved = {
+      query: target.query ?? query,
+      topic: target.topic ?? topic,
+      sourceType: target.sourceType ?? sourceType,
+      sourceId: target.sourceId ?? sourceId,
+      sort: target.sort ?? sort
+    };
+    return {
+      href: buildFilterHref(resolved),
+      onClick: (event) => {
+        event.preventDefault();
+        applyFilterTarget(resolved);
+      }
+    };
+  };
 
   const filteredItems = useMemo(() => {
     if (!data) return [];
-    return filterItems(data.items, query, topic, sourceType, "全部", sort);
-  }, [data, query, sort, sourceType, topic]);
+    return filterItems(data.items, query, topic, sourceType, sourceId, "全部", sort);
+  }, [data, query, sort, sourceId, sourceType, topic]);
 
   const groups = useMemo(() => groupByDate(filteredItems), [filteredItems]);
 
@@ -175,6 +270,27 @@ function App() {
     if (!timelineRef.current || loading) return undefined;
     return mountTimelineMotion(timelineRef.current);
   }, [filteredItems.length, loading, sort]);
+
+  useEffect(() => {
+    if (!data || hydratedUrlFilters.current) return;
+    const params = new URLSearchParams(window.location.search);
+    const nextTopic = params.get("topic");
+    const nextSourceType = params.get("sourceType");
+    const nextSourceId = params.get("source");
+    const nextSort = params.get("sort");
+    const nextQuery = params.get("q");
+
+    if (nextQuery) setQuery(nextQuery);
+    if (nextTopic && topicOptions.includes(nextTopic)) setTopic(nextTopic);
+    if (nextSourceType && sourceTypeOptions.some((option) => option.value === nextSourceType)) setSourceType(nextSourceType);
+    if (nextSourceId && data.sources.some((source) => source.id === nextSourceId)) {
+      const selectedSource = data.sources.find((source) => source.id === nextSourceId);
+      setSourceId(nextSourceId);
+      if (selectedSource) setSourceType(selectedSource.type);
+    }
+    if (nextSort === "hot" || nextSort === "latest") setSort(nextSort);
+    hydratedUrlFilters.current = true;
+  }, [data, topicOptions]);
 
   const latestItem = filteredItems[0];
   const hottestItem = useMemo(
@@ -228,7 +344,13 @@ function App() {
             ))}
           </select>
 
-          <select value={sourceType} onChange={(event) => setSourceType(event.target.value)}>
+          <select
+            value={sourceType}
+            onChange={(event) => {
+              setSourceType(event.target.value);
+              setSourceId("全部");
+            }}
+          >
             {sourceTypeOptions.map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
@@ -254,13 +376,13 @@ function App() {
         </section>
 
         <div className="content-grid">
-          <section className="timeline-panel" aria-label="人工智能新闻时间轴">
+          <section className="timeline-panel" id="timeline" ref={timelinePanelRef} aria-label="人工智能新闻时间轴">
             <div className="panel-heading">
               <div>
                 <h1>实时人工智能新闻时间轴</h1>
                 <p>
                   {data
-                    ? `${filteredItems.length} 条匹配结果，覆盖最近 ${coverageWindow}公开来源`
+                    ? `${filteredItems.length} 条匹配结果，覆盖最近 ${coverageWindow}公开来源${activeFilterLabel ? `，${activeFilterLabel}` : ""}`
                     : "正在聚合公开来源"}
                 </p>
               </div>
@@ -308,7 +430,7 @@ function App() {
                   主题排行
                 </span>
               </div>
-              <TopicRank topics={data?.topics || []} />
+              <TopicRank topics={data?.topics || []} activeTopic={topic} linkFor={linkFor} />
             </section>
 
             <section className="rail-block">
@@ -318,7 +440,7 @@ function App() {
                   来源结构
                 </span>
               </div>
-              <DistributionBars items={filteredItems} />
+              <DistributionBars items={filteredItems} activeSourceType={sourceType} linkFor={linkFor} />
             </section>
 
             <section className="rail-block source-health">
@@ -330,11 +452,15 @@ function App() {
                 <strong>{data ? `${data.stats.sourcesSucceeded}/${data.stats.sourceCount}` : "-"}</strong>
               </div>
               <div className="health-list">
-                {(data?.sources || []).slice(0, 7).map((source) => (
-                  <span key={source.id} className={source.ok ? "is-ok" : "is-down"}>
+                {(data?.sources || []).map((source) => (
+                  <a
+                    key={source.id}
+                    className={`${source.ok ? "is-ok" : "is-down"} ${sourceId === source.id ? "is-active" : ""}`}
+                    {...linkFor({ query: "", topic: "全部", sourceType: source.type, sourceId: source.id })}
+                  >
                     {source.name}
                     <small>{source.itemCount}</small>
-                  </span>
+                  </a>
                 ))}
               </div>
             </section>

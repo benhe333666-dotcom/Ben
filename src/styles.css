@@ -586,6 +586,26 @@ a {
   grid-template-columns: 30px minmax(0, 1fr);
   gap: 10px;
   align-items: center;
+  margin: -4px;
+  padding: 4px;
+  border-radius: 8px;
+  color: inherit;
+  outline: 0;
+  transition: background 160ms ease, box-shadow 160ms ease;
+}
+
+.rank-row:hover,
+.rank-row:focus-visible,
+.distribution-row:hover,
+.distribution-row:focus-visible {
+  background: rgba(155, 239, 199, 0.07);
+  box-shadow: inset 0 0 0 1px rgba(155, 239, 199, 0.13);
+}
+
+.rank-row.is-active,
+.distribution-row.is-active {
+  background: rgba(155, 239, 199, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(155, 239, 199, 0.26);
 }
 
 .rank-index {
@@ -642,8 +662,13 @@ a {
   grid-template-columns: 42px minmax(0, 1fr) 24px;
   gap: 9px;
   align-items: center;
+  margin: -4px;
+  padding: 4px;
+  border-radius: 8px;
   color: var(--muted);
   font-size: 12px;
+  outline: 0;
+  transition: background 160ms ease, box-shadow 160ms ease;
 }
 
 .distribution-row strong {
@@ -657,7 +682,7 @@ a {
   gap: 7px;
 }
 
-.health-list span {
+.health-list a {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -668,6 +693,8 @@ a {
   color: var(--muted);
   background: rgba(151, 175, 166, 0.07);
   font-size: 11px;
+  outline: 0;
+  transition: border-color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .health-list small {
@@ -683,6 +710,14 @@ a {
 .health-list .is-down {
   border-color: rgba(255, 138, 107, 0.28);
   color: var(--danger);
+}
+
+.health-list a:hover,
+.health-list a:focus-visible,
+.health-list a.is-active {
+  background: rgba(155, 239, 199, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(155, 239, 199, 0.2);
+  transform: translateY(-1px);
 }
 
 .error-banner,

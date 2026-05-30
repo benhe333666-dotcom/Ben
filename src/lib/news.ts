@@ -5,6 +5,7 @@ export const filterItems = (
   query: string,
   topic: string,
   sourceType: string,
+  sourceId: string,
   language: string,
   sort: "latest" | "hot"
 ) => {
@@ -17,8 +18,9 @@ export const filterItems = (
         .includes(normalizedQuery);
     const topicMatch = topic === "全部" || item.topics.includes(topic);
     const sourceMatch = sourceType === "全部" || item.sourceType === sourceType;
+    const sourceIdMatch = sourceId === "全部" || item.sourceId === sourceId;
     const languageMatch = language === "全部" || item.language === language;
-    return queryMatch && topicMatch && sourceMatch && languageMatch;
+    return queryMatch && topicMatch && sourceMatch && sourceIdMatch && languageMatch;
   });
 
   return filtered.sort((a, b) => {
