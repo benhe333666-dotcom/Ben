@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-05-30T21:28:47.789Z",
+  "generatedAt": "2026-05-30T21:58:36.477Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-05-30T21:30:00.000Z",
+  "nextUpdateHint": "2026-05-30T22:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 21,
-    "sourcesSucceeded": 21,
-    "sourcesFailed": 0,
+    "sourcesSucceeded": 19,
+    "sourcesFailed": 2,
     "windowHours": 168,
     "latestPublishedAt": "2026-05-30T16:42:48.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 73,
-      "heat": 74
+      "count": 70,
+      "heat": 75
     },
     {
       "name": "模型发布",
-      "count": 52,
-      "heat": 76
+      "count": 48,
+      "heat": 78
     },
     {
       "name": "算力芯片",
-      "count": 24,
+      "count": 25,
       "heat": 85
     },
     {
       "name": "监管安全",
-      "count": 25,
-      "heat": 76
-    },
-    {
-      "name": "研究论文",
-      "count": 24,
-      "heat": 71
+      "count": 26,
+      "heat": 77
     },
     {
       "name": "多模态",
-      "count": 18,
-      "heat": 78
+      "count": 20,
+      "heat": 76
     },
     {
       "name": "人工智能动态",
-      "count": 21,
-      "heat": 64
+      "count": 22,
+      "heat": 62
+    },
+    {
+      "name": "研究论文",
+      "count": 15,
+      "heat": 76
     },
     {
       "name": "端侧智能",
-      "count": 12,
+      "count": 13,
       "heat": 79
     },
     {
@@ -59,7 +59,7 @@
     {
       "name": "投融资",
       "count": 10,
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "机器人",
@@ -244,11 +244,11 @@
       "type": "research",
       "language": "zh",
       "originLanguage": "en",
-      "ok": true,
-      "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-05-28T17:59:59.000Z",
-      "latestDisplayedAt": "2026-05-28T17:59:59.000Z"
+      "ok": false,
+      "itemCount": 0,
+      "displayedCount": 0,
+      "latestFetchedAt": "",
+      "latestDisplayedAt": ""
     },
     {
       "id": "arxiv-cs-lg",
@@ -257,11 +257,11 @@
       "type": "research",
       "language": "zh",
       "originLanguage": "en",
-      "ok": true,
-      "itemCount": 8,
-      "displayedCount": 4,
-      "latestFetchedAt": "2026-05-28T17:59:53.000Z",
-      "latestDisplayedAt": "2026-05-28T17:59:53.000Z"
+      "ok": false,
+      "itemCount": 0,
+      "displayedCount": 0,
+      "latestFetchedAt": "",
+      "latestDisplayedAt": ""
     },
     {
       "id": "qbitai",
@@ -285,7 +285,7 @@
       "originLanguage": "zh",
       "ok": true,
       "itemCount": 18,
-      "displayedCount": 16,
+      "displayedCount": 18,
       "latestFetchedAt": "2026-05-30T10:49:00.000Z",
       "latestDisplayedAt": "2026-05-30T10:49:00.000Z"
     },
@@ -311,7 +311,7 @@
       "originLanguage": "zh",
       "ok": true,
       "itemCount": 20,
-      "displayedCount": 17,
+      "displayedCount": 20,
       "latestFetchedAt": "2026-05-30T15:16:22.000Z",
       "latestDisplayedAt": "2026-05-30T15:16:22.000Z"
     },
@@ -324,7 +324,7 @@
       "originLanguage": "zh",
       "ok": true,
       "itemCount": 20,
-      "displayedCount": 16,
+      "displayedCount": 20,
       "latestFetchedAt": "2026-05-29T10:25:22.000Z",
       "latestDisplayedAt": "2026-05-29T10:25:22.000Z"
     },
@@ -342,7 +342,10 @@
       "latestDisplayedAt": "2026-05-30T16:42:48.000Z"
     }
   ],
-  "failures": [],
+  "failures": [
+    "arxiv-cs-ai: HTTP 406",
+    "arxiv-cs-lg: HTTP 406"
+  ],
   "items": [
     {
       "id": "cnblogs-news-创意设计版相关技术来了-腾讯发布智能体创意工作室相关技术",
@@ -375,7 +378,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -462,7 +465,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -478,7 +481,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
     },
     {
@@ -510,7 +513,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -526,7 +529,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -542,7 +545,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -576,42 +579,6 @@
       ],
       "heat": 50,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2207567240-1152x648.jpg"
-    },
-    {
-      "id": "arxiv-cs-ai-论文新进展-智能体-知识工程方向研究",
-      "title": "论文新进展：智能体、知识工程方向研究",
-      "url": "https://arxiv.org/abs/2605.30353v1",
-      "source": "论文预印本：人工智能",
-      "sourceId": "arxiv-cs-ai",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:59.000Z",
-      "summary": "这篇论文关注智能体、知识工程，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-多模态-模型安全-机器人-工程仿真方向研究",
-      "title": "论文新进展：多模态、模型安全、机器人、工程仿真方向研究",
-      "url": "https://arxiv.org/abs/2605.30350v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:53.000Z",
-      "summary": "这篇论文关注多模态、模型安全、机器人、工程仿真，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "监管安全",
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 60,
-      "image": ""
     },
     {
       "id": "nvidia-blog-英伟达研究相关技术机器人来自仿真向现实世界",
@@ -747,7 +714,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp"
     },
     {
@@ -763,7 +730,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -779,7 +746,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -797,43 +764,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 75,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-扩散模型-多模态方向研究",
-      "title": "论文新进展：大语言模型、扩散模型、多模态方向研究",
-      "url": "https://arxiv.org/abs/2605.30351v1",
-      "source": "论文预印本：人工智能",
-      "sourceId": "arxiv-cs-ai",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:57.000Z",
-      "summary": "这篇论文关注大语言模型、扩散模型、多模态，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-大语言模型方向研究",
-      "title": "论文新进展：大语言模型方向研究",
-      "url": "https://arxiv.org/abs/2605.30337v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:01.000Z",
-      "summary": "这篇论文关注大语言模型，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
+      "heat": 74,
       "image": ""
     },
     {
@@ -933,7 +864,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -986,7 +917,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1020,7 +951,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1036,7 +967,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
     },
     {
@@ -1052,7 +983,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1085,42 +1016,6 @@
         "模型发布"
       ],
       "heat": 67,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-模型评测-自然语言处理方向研究",
-      "title": "论文新进展：大语言模型、模型评测、自然语言处理方向研究",
-      "url": "https://arxiv.org/abs/2605.30348v1",
-      "source": "论文预印本：人工智能",
-      "sourceId": "arxiv-cs-ai",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:53.000Z",
-      "summary": "这篇论文关注大语言模型、模型评测、自然语言处理，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-模型安全-模型评测方向研究",
-      "title": "论文新进展：模型安全、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2605.30336v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:58:57.000Z",
-      "summary": "这篇论文关注模型安全、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 60,
       "image": ""
     },
     {
@@ -1221,7 +1116,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1256,7 +1151,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1273,7 +1168,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1306,7 +1201,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1340,43 +1235,7 @@
         "模型发布",
         "投融资"
       ],
-      "heat": 70,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体方向研究",
-      "title": "论文新进展：大语言模型、智能体方向研究",
-      "url": "https://arxiv.org/abs/2605.30345v1",
-      "source": "论文预印本：人工智能",
-      "sourceId": "arxiv-cs-ai",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:50.000Z",
-      "summary": "这篇论文关注大语言模型、智能体，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-扩散模型-多模态方向研究",
-      "title": "论文新进展：扩散模型、多模态方向研究",
-      "url": "https://arxiv.org/abs/2605.30330v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:57:46.000Z",
-      "summary": "这篇论文关注扩散模型、多模态，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1494,7 +1353,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1528,7 +1387,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1545,7 +1404,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1561,7 +1420,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -1577,25 +1436,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 55,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-多模态-模型评测方向研究",
-      "title": "论文新进展：大语言模型、多模态、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2605.30344v1",
-      "source": "论文预印本：人工智能",
-      "sourceId": "arxiv-cs-ai",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T17:59:50.000Z",
-      "summary": "这篇论文关注大语言模型、多模态、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1645,7 +1486,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1713,7 +1554,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1781,7 +1622,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1798,7 +1639,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1815,7 +1656,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1831,7 +1672,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1849,7 +1690,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1930,7 +1771,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1983,7 +1824,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2031,7 +1872,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2047,7 +1888,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2098,7 +1939,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2149,7 +1990,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2184,7 +2025,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2270,7 +2111,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2306,7 +2147,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2324,7 +2165,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2392,7 +2233,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2409,7 +2250,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2480,7 +2321,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2620,7 +2461,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2669,7 +2510,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2687,7 +2528,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2721,6 +2562,158 @@
         "机器人"
       ],
       "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "leiphone-相关技术总裁郭于晨-人工智能眼镜终于开始像眼镜了",
+      "title": "相关技术总裁郭于晨：人工智能眼镜终于开始像眼镜了",
+      "url": "https://www.leiphone.com/category/industrynews/nO4Ge8W6iXwTVO4n.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T07:13:00.000Z",
+      "summary": "智能眼镜行业长期以来的最大困境，就是用户走不出极客人群画像。而心眸科技（苏州）有限公司旗下品牌相关技术总裁郭于晨认为，人工智能眼镜的问题并不在人工智能能力，而在于大多数厂商忽略了眼镜最基础的一件事：“它首先得是一副可以被长期佩戴的眼镜。” 近日，郭于晨就人工智能眼镜市场困境、相关技术的产品理念和市场策略接受了媒体采访，阐述了其对重量、人工智能原生等的思考。他表示，人工智能眼镜……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 74,
+      "image": ""
+    },
+    {
+      "id": "oschina-相关技术改进人工智能生成内容标签-更醒目位置-自动检测机制上线",
+      "title": "相关技术改进人工智能生成内容标签：更醒目位置 + 自动检测机制上线",
+      "url": "https://www.oschina.net/news/447546",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-28T10:31:47.000Z",
+      "summary": "相关技术日前宣布对人工智能生成内容标签体系进行重大升级。此次更新的核心目标，是让观众和创作者都能更直观地获取关于内容真实性的准确信息，同时简化创作者的披露流程。更醒目的标签位置此次最明显的变化是标签展示位置的调整。对于长视频，人工智能生成标签从原来的位置移至视频播放器下方、描述区域上方——这是一个极为显。",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 46,
+      "image": ""
+    },
+    {
+      "id": "ithome-抢攻亚太地区企业级人工智能市场-开放人工智能公司与日本云服务商数据相关技术达成战略合作",
+      "title": "抢攻亚太地区企业级人工智能市场，开放人工智能公司与日本云服务商数据相关技术达成战略合作",
+      "url": "https://www.ithome.com/0/957/550.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T09:03:07.000Z",
+      "summary": "科技之家 5 月 30 日消息，日本云服务提供商数据相关技术昨天宣布与美国人工智能初创公司开放人工智能公司达成战略合作，抢攻企业级人工智能市场。据悉，数据相关技术已在日本、泰国、马来西亚、澳大利亚和美国部署英伟达图形处理器集群数据中心，并将通过其企业级人工智能工作流平台相关技术，在符合监管要求和企业治理的框架下，为亚太地区客户提供开放人工智能公司模型。本次合作被外界视为开放人……",
+      "topics": [
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "leiphone-探享-相关型号-生活新境界-五新-实力加持-全新猛士相关型号-37万元起正式预售",
+      "title": "探享“相关型号”生活新境界！“五新”实力加持，全新猛士相关型号 37万元起正式预售！",
+      "url": "https://www.leiphone.com/category/industrynews/2wObUYnAtBiM4YrH.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T06:58:00.000Z",
+      "summary": "智野添猛将，探享新境界！5月29日，猛士汽车与华为乾崑联手打造的“智能越野第一车”全新猛士相关型号，完成全球首秀并正式开启预售，官方预售价37万元起，即刻下订锁单，即可尊享官方专属预售权益。全新猛士相关型号共实现296项实力进化，集原创雄魂美学、赛级同源动力、军工级全维安全、华为乾崑黑科技、百万级舒享于一身，全方位适配用户多元出行需求：五天工作日，可在职场与生活之间从容切换；……",
+      "topics": [
+        "监管安全",
+        "多模态"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
+      "id": "oschina-双子座模型-3-5-删除了近-3-万行代码-搞垮生产环境-并撰写了一篇虚假的事故分析报告",
+      "title": "双子座模型 3.5 删除了近 3 万行代码，搞垮生产环境，并撰写了一篇虚假的事故分析报告",
+      "url": "https://www.oschina.net/news/447532",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-28T09:56:07.000Z",
+      "summary": "一位开发者在相关技术发帖详细复盘了一起双子座模型 3.5 导致的严重生产事故：该模型在一次人工智能辅助开发任务中删除了 28，745 行代码，导致服务中断 33 分钟，并生成了一份虚假的\"事后分析报告\"声称自己\"修复了问题\"。这名开发者当时正在使用一款集成了双子座模型 3.5 的智能体相关技术（配备了第三方规则包），让人工智能协助完成代码。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 59,
+      "image": ""
+    },
+    {
+      "id": "ithome-微信鸿蒙版应用获-8-0-18-34-尝鲜升级",
+      "title": "微信鸿蒙版应用获 8.0.18.34 尝鲜升级",
+      "url": "https://www.ithome.com/0/957/547.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T09:01:20.000Z",
+      "summary": "科技之家 5 月 30 日消息，微信鸿蒙版应用今日在华为应用市场（应用相关技术）发布了 8.0.18.34（8393250）版本尝鲜升级（如果未抢到尝鲜版本，须等待官方“补货”）测试时间为 2026/5/30-2026/6/29。和往常一样，本次更新的说明依旧为“修复了一些已知问题”。科技之家整理近期新增特性如下：登录界面手机号选择国家 / 地区有所增加；聊天界面图片 / 视……",
+      "topics": [
+        "产品应用",
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "oschina-小米上线招聘智能体",
+      "title": "小米上线招聘智能体",
+      "url": "https://www.oschina.net/news/447528",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-28T09:52:35.000Z",
+      "summary": "小米招聘智能体宣布正式上线，依托相关技术大模型，在小米招聘官网为求职者提供政策解答、职位智能推荐、招聘进展查询等服务。根据介绍，该智能助手可充当资深相关技术的角色，为用户整理招聘节点和时间线。用户上传简历后，智能体还会自动解析教育背景、项目经历、技能栈，基于小米在招岗位进行精准推荐。“不用再逐。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 59,
+      "image": ""
+    },
+    {
+      "id": "ithome-全新梅赛德斯-相关技术纯电四门跑车欧洲价格公布-15-47-万-20-81-万欧元",
+      "title": "全新梅赛德斯-相关技术纯电四门跑车欧洲价格公布：15.47 万-20.81 万欧元",
+      "url": "https://www.ithome.com/0/957/533.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T08:49:54.000Z",
+      "summary": "科技之家 5 月 30 日消息，据外媒相关型号报道，2026 年 5 月的争议新车，一辆接一辆纷至沓来。全新法拉利相关技术发布后吐槽不断，更早之前的全新纯电相关技术四门版也未能赢得所有人的认可。不过，不管外界喜欢还是反感，全新相关技术四门版有一点已经很明确：价格一定不便宜。奔驰日前公布了新车的欧洲售价。2027 款相关技术四门版起售价为 154700 欧元 （科技之家注：现汇……",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "oschina-相关技术专业版第6代-0-2-发布",
+      "title": "相关技术专业版第6代.0.2 发布",
+      "url": "https://www.oschina.net/news/447485/ant-design-pro-6-0-2-released",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-28T08:58:47.000Z",
+      "summary": "相关技术专业版第6代.0.2 现已发布。升级相关技术至 6.4.2，更新主题色至相关技术第6代默认配色，新增人工智能辅助升级能力，并持续优化依赖与相关技术流程。新功能人工智能辅助升级 (专业版-相关技术)：新增 /专业版-相关技术技能，可自动对比最新模板并合并框架变更，支持任意版本跨度升级 (#11801) 相关技术修复修复相关技术警告 (#1178。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 46,
       "image": ""
     }
   ]
