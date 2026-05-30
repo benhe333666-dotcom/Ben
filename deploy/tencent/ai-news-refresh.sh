@@ -9,6 +9,7 @@ ORIGIN_PORT="${ORIGIN_PORT:-8787}"
 LOG_DIR="${LOG_DIR:-/var/log/ai-news}"
 LOCK_FILE="${LOCK_FILE:-/var/lock/ai-news-refresh.lock}"
 CADDYFILE="${CADDYFILE:-/etc/caddy/Caddyfile}"
+RUN_SERVER_UPDATE="${RUN_SERVER_UPDATE:-0}"
 
 mkdir -p "$LOG_DIR"
 exec 9>"$LOCK_FILE"
@@ -29,7 +30,11 @@ if [ ! -d node_modules ] || [ package-lock.json -nt node_modules/.package-lock.j
   npm ci
 fi
 
-npm run update
+if [ "$RUN_SERVER_UPDATE" = "1" ]; then
+  npm run update
+else
+  echo "跳过腾讯云本机抓取，使用 GitHub 同步的完整新闻数据。"
+fi
 npm run build
 
 write_site_block() {

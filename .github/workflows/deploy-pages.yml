@@ -8,7 +8,7 @@ on:
     - cron: "17,47 * * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,6 +34,18 @@ jobs:
 
       - name: 更新新闻数据
         run: npm run update
+
+      - name: 同步新闻数据到仓库
+        run: |
+          if git diff --quiet -- public/news.json public/sources.json; then
+            echo "新闻数据没有变化，跳过提交。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/news.json public/sources.json
+          git commit -m "Refresh news data [skip ci]"
+          git push
 
       - name: 构建网站
         run: npm run build

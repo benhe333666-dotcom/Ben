@@ -47,8 +47,10 @@ npm run deploy:check
 
 ## 更新机制
 
-- GitHub Actions：保留每半小时构建，用于同步仓库和备份发布产物。
-- 腾讯云轻量应用服务器：由系统定时任务每 30 分钟抓取和构建一次，再由 Caddy 提供 `dist` 静态目录。
+- GitHub Actions：每半小时抓取完整来源、去重并生成中文新闻数据，同时把 `public/news.json` 和 `public/sources.json` 同步回仓库。
+- 腾讯云轻量应用服务器：由系统定时任务每 30 分钟先拉取 GitHub 最新数据，再构建静态网页并由 Caddy 提供 `dist` 目录。
+
+腾讯云默认不直接抓取国外来源，因为部分国外站点在中国境内服务器上不可稳定访问；如需让服务器本机尝试抓取，可在服务环境中设置 `RUN_SERVER_UPDATE=1`。
 
 ## 域名
 
