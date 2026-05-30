@@ -1,12 +1,133 @@
 export const SOURCE_DEFINITIONS = [
   {
+    id: "openai-news",
+    name: "开放人工智能公司",
+    url: "https://openai.com/news/rss.xml",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.42,
+    maxItems: 12
+  },
+  {
+    id: "google-ai-blog",
+    name: "谷歌人工智能博客",
+    url: "https://blog.google/technology/ai/rss/",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.36,
+    maxItems: 10
+  },
+  {
+    id: "google-research",
+    name: "谷歌研究院",
+    url: "https://research.google/blog/rss/",
+    type: "research",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.3,
+    maxItems: 8
+  },
+  {
+    id: "github-blog",
+    name: "代码托管平台官方博客",
+    url: "https://github.blog/feed/",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.24,
+    maxItems: 8
+  },
+  {
+    id: "github-changelog",
+    name: "代码托管平台更新日志",
+    url: "https://github.blog/changelog/feed/",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.2,
+    maxItems: 8
+  },
+  {
+    id: "nvidia-blog",
+    name: "英伟达官方博客",
+    url: "https://blogs.nvidia.com/feed/",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.28,
+    maxItems: 8
+  },
+  {
+    id: "microsoft-ai-blog",
+    name: "微软人工智能博客",
+    url: "https://blogs.microsoft.com/ai/feed/",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.26,
+    maxItems: 8
+  },
+  {
+    id: "huggingface-blog",
+    name: "模型社区博客",
+    url: "https://huggingface.co/blog/feed.xml",
+    type: "official",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.18,
+    maxItems: 8
+  },
+  {
+    id: "arxiv-cs-ai",
+    name: "论文预印本：人工智能",
+    url: "https://export.arxiv.org/rss/cs.AI",
+    type: "research",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.16,
+    maxItems: 8
+  },
+  {
+    id: "arxiv-cs-lg",
+    name: "论文预印本：机器学习",
+    url: "https://export.arxiv.org/rss/cs.LG",
+    type: "research",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 1.14,
+    maxItems: 8
+  },
+  {
     id: "qbitai",
     name: "量子位",
     url: "https://www.qbitai.com/feed",
     type: "media",
     language: "zh",
     aiFocused: false,
-    weight: 1.15
+    weight: 1.15,
+    maxItems: 24
   },
   {
     id: "leiphone",
@@ -15,7 +136,8 @@ export const SOURCE_DEFINITIONS = [
     type: "media",
     language: "zh",
     aiFocused: false,
-    weight: 1.08
+    weight: 1.08,
+    maxItems: 24
   },
   {
     id: "thirty-six-kr",
@@ -24,7 +146,8 @@ export const SOURCE_DEFINITIONS = [
     type: "media",
     language: "zh",
     aiFocused: false,
-    weight: 1.02
+    weight: 1.02,
+    maxItems: 20
   },
   {
     id: "ithome",
@@ -33,7 +156,8 @@ export const SOURCE_DEFINITIONS = [
     type: "media",
     language: "zh",
     aiFocused: false,
-    weight: 0.98
+    weight: 0.98,
+    maxItems: 24
   },
   {
     id: "oschina",
@@ -42,7 +166,8 @@ export const SOURCE_DEFINITIONS = [
     type: "media",
     language: "zh",
     aiFocused: false,
-    weight: 0.94
+    weight: 0.94,
+    maxItems: 20
   },
   {
     id: "cnblogs-news",
@@ -51,6 +176,7 @@ export const SOURCE_DEFINITIONS = [
     type: "media",
     language: "zh",
     aiFocused: false,
-    weight: 0.9
+    weight: 0.9,
+    maxItems: 16
   }
 ];

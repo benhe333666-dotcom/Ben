@@ -27,6 +27,7 @@ export interface SourceHealth {
   url: string;
   type: SourceType;
   language: string;
+  originLanguage?: string;
   ok: boolean;
   itemCount: number;
 }

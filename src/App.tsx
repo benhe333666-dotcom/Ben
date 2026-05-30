@@ -22,6 +22,8 @@ type SortMode = "latest" | "hot";
 
 const sourceTypeOptions = [
   { label: "全部来源", value: "全部" },
+  { label: "官方来源", value: "official" },
+  { label: "研究论文", value: "research" },
   { label: "中文媒体", value: "media" }
 ];
 

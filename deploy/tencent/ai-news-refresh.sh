@@ -21,6 +21,10 @@ cd "$APP_DIR"
 export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
 export npm_config_registry="${npm_config_registry:-https://mirrors.tencentyun.com/npm/}"
 
+if [ -d .git ]; then
+  git pull --ff-only || echo "代码自动拉取失败，继续使用服务器当前版本构建。"
+fi
+
 if [ ! -d node_modules ] || [ package-lock.json -nt node_modules/.package-lock.json ]; then
   npm ci
 fi
