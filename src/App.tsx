@@ -130,7 +130,13 @@ const TopicRank = ({
     {topics.slice(0, 8).map((topic, index) => {
       const link = linkFor({ query: "", topic: topic.name, sourceType: "全部", sourceId: "全部" });
       return (
-        <a className={`rank-row ${activeTopic === topic.name ? "is-active" : ""}`} key={topic.name} {...link}>
+        <a
+          className={`rank-row ${activeTopic === topic.name ? "is-active" : ""}`}
+          key={topic.name}
+          aria-label={`查看${topic.name}主题新闻`}
+          title={`筛选${topic.name}主题`}
+          {...link}
+        >
           <span className="rank-index">{String(index + 1).padStart(2, "0")}</span>
           <div>
             <strong>{topic.name}</strong>
@@ -168,6 +174,8 @@ const DistributionBars = ({
         <a
           className={`distribution-row ${activeSourceType === row.value ? "is-active" : ""}`}
           key={row.value}
+          aria-label={`查看${row.label}新闻`}
+          title={`筛选${row.label}`}
           {...linkFor({ query: "", topic: "全部", sourceType: row.value, sourceId: "全部" })}
         >
           <span>{row.label}</span>
@@ -395,8 +403,8 @@ function App() {
               {loading && !data ? (
                 Array.from({ length: 5 }).map((_, index) => <div className="skeleton-card" key={index} />)
               ) : groups.length ? (
-                groups.map((group) => (
-                  <section className="timeline-group" key={group.date}>
+                groups.map((group, index) => (
+                  <section className="timeline-group" key={`${group.date}-${index}`}>
                     <div className="group-date">{formatGroupDate(group.items[0].publishedAt)}</div>
                     <div className="group-items">
                       {group.items.map((item) => (
@@ -412,7 +420,12 @@ function App() {
           </section>
 
           <aside className="insight-rail" aria-label="今日热度">
-            <section className="rail-block">
+            <a
+              className={`rail-block rail-block-link ${sort === "hot" ? "is-active" : ""}`}
+              aria-label={hottestItem ? `查看最热动态：${hottestItem.title}` : "查看最热动态"}
+              title="按热度排序查看新闻时间线"
+              {...linkFor({ query: "", topic: "全部", sourceType: "全部", sourceId: "全部", sort: "hot" })}
+            >
               <div className="rail-heading">
                 <span>
                   <Flame size={17} />
@@ -421,7 +434,7 @@ function App() {
                 <strong>{hottestItem?.heat ?? "-"}</strong>
               </div>
               <p>{hottestItem ? hottestItem.title : "等待新闻数据生成"}</p>
-            </section>
+            </a>
 
             <section className="rail-block">
               <div className="rail-heading">
@@ -456,6 +469,7 @@ function App() {
                   <a
                     key={source.id}
                     className={`${source.ok ? "is-ok" : "is-down"} ${sourceId === source.id ? "is-active" : ""}`}
+                    aria-label={`查看${source.name}新闻`}
                     title={`已展示 ${source.displayedCount ?? source.itemCount} 条，抓取 ${source.itemCount} 条`}
                     {...linkFor({ query: "", topic: "全部", sourceType: source.type, sourceId: source.id })}
                   >
