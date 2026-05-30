@@ -197,6 +197,8 @@ const EmptyState = () => (
   </div>
 );
 
+const sourceCountLabel = (displayed = 0, fetched = 0) => (displayed === fetched ? String(displayed) : `${displayed}/${fetched}`);
+
 function App() {
   const { data, loading, refreshing, error, lastCheckedAt, reload } = useNewsFeed();
   const [query, setQuery] = useState("");
@@ -474,7 +476,7 @@ function App() {
                     {...linkFor({ query: "", topic: "全部", sourceType: source.type, sourceId: source.id })}
                   >
                     {source.name}
-                    <small>{source.displayedCount ?? source.itemCount}</small>
+                    <small>{sourceCountLabel(source.displayedCount ?? source.itemCount, source.itemCount)}</small>
                   </a>
                 ))}
               </div>

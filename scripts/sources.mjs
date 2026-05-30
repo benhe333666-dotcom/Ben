@@ -73,12 +73,12 @@ export const SOURCE_DEFINITIONS = [
   },
   {
     id: "microsoft-ai-blog",
-    name: "微软人工智能博客",
-    url: "https://blogs.microsoft.com/ai/feed/",
+    name: "微软云与人工智能博客",
+    url: "https://azure.microsoft.com/en-us/blog/feed/",
     type: "official",
     language: "zh",
     originLanguage: "en",
-    aiFocused: true,
+    aiFocused: false,
     allowExternal: true,
     weight: 1.26,
     maxItems: 8
@@ -98,7 +98,7 @@ export const SOURCE_DEFINITIONS = [
   {
     id: "arxiv-cs-ai",
     name: "论文预印本：人工智能",
-    url: "https://export.arxiv.org/rss/cs.AI",
+    url: "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=24",
     type: "research",
     language: "zh",
     originLanguage: "en",
@@ -110,7 +110,7 @@ export const SOURCE_DEFINITIONS = [
   {
     id: "arxiv-cs-lg",
     name: "论文预印本：机器学习",
-    url: "https://export.arxiv.org/rss/cs.LG",
+    url: "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=24",
     type: "research",
     language: "zh",
     originLanguage: "en",
@@ -172,7 +172,7 @@ export const SOURCE_DEFINITIONS = [
   {
     id: "cnblogs-news",
     name: "博客园新闻",
-    url: "https://www.cnblogs.com/news/rss",
+    url: "https://feed.cnblogs.com/news/rss",
     type: "media",
     language: "zh",
     aiFocused: false,

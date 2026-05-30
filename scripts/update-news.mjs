@@ -23,6 +23,7 @@ const CHINA_REACHABLE_HOSTS = [
 
 const ALLOWED_EXTERNAL_HOSTS = [
   "arxiv.org",
+  "azure.microsoft.com",
   "blog.google",
   "blogs.microsoft.com",
   "blogs.nvidia.com",
@@ -939,9 +940,11 @@ const dedupeItems = (items) => {
   }
 
   for (const item of seen.values()) {
-    const duplicateIndex = selected.findIndex(
-      (existing) => existing.sourceId === item.sourceId && similarity(existing.title, item.title) >= 0.82
-    );
+    const duplicateIndex = selected.findIndex((existing) => {
+      const score = similarity(existing.title, item.title);
+      if (existing.sourceId === item.sourceId) return score >= 0.82;
+      return existing.sourceType === "media" && item.sourceType === "media" && score >= 0.96;
+    });
     if (duplicateIndex === -1) {
       selected.push(item);
     } else if (item.heat > selected[duplicateIndex].heat) {

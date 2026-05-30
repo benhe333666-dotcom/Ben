@@ -24,7 +24,7 @@ export npm_config_registry="${npm_config_registry:-https://mirrors.tencentyun.co
 
 if [ -d .git ]; then
   if command -v timeout >/dev/null 2>&1; then
-    GIT_TERMINAL_PROMPT=0 timeout 45s git pull --ff-only || echo "代码自动拉取失败，继续使用服务器当前版本构建。"
+    GIT_TERMINAL_PROMPT=0 timeout 120s git pull --ff-only || echo "代码自动拉取失败，继续使用服务器当前版本构建。"
   else
     GIT_TERMINAL_PROMPT=0 git pull --ff-only || echo "代码自动拉取失败，继续使用服务器当前版本构建。"
   fi

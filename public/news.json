@@ -1,40 +1,50 @@
 {
-  "generatedAt": "2026-05-30T09:37:32.701Z",
+  "generatedAt": "2026-05-30T09:48:21.031Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-05-30T10:00:00.000Z",
   "stats": {
-    "total": 97,
+    "total": 120,
     "sourceCount": 16,
     "sourcesSucceeded": 16,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-05-30T09:31:13.000Z"
+    "latestPublishedAt": "2026-05-30T09:33:10.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 52,
-      "heat": 78
+      "count": 61,
+      "heat": 77
     },
     {
       "name": "模型发布",
-      "count": 36,
-      "heat": 83
+      "count": 50,
+      "heat": 81
     },
     {
       "name": "监管安全",
-      "count": 20,
-      "heat": 85
+      "count": 27,
+      "heat": 84
+    },
+    {
+      "name": "研究论文",
+      "count": 22,
+      "heat": 76
     },
     {
       "name": "算力芯片",
-      "count": 14,
+      "count": 18,
       "heat": 86
     },
     {
       "name": "多模态",
-      "count": 14,
+      "count": 16,
       "heat": 79
+    },
+    {
+      "name": "开源生态",
+      "count": 14,
+      "heat": 75
     },
     {
       "name": "人工智能动态",
@@ -42,19 +52,9 @@
       "heat": 66
     },
     {
-      "name": "开源生态",
-      "count": 13,
-      "heat": 74
-    },
-    {
       "name": "端侧智能",
       "count": 8,
       "heat": 88
-    },
-    {
-      "name": "研究论文",
-      "count": 9,
-      "heat": 78
     },
     {
       "name": "投融资",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 3,
-      "heat": 88
+      "count": 5,
+      "heat": 82
     }
   ],
   "sources": [
@@ -148,15 +148,15 @@
     },
     {
       "id": "microsoft-ai-blog",
-      "name": "微软人工智能博客",
-      "url": "https://blogs.microsoft.com/ai/feed/",
+      "name": "微软云与人工智能博客",
+      "url": "https://azure.microsoft.com/en-us/blog/feed/",
       "type": "official",
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "itemCount": 7,
+      "itemCount": 5,
       "displayedCount": 0,
-      "latestFetchedAt": "2022-12-06T17:29:09.000Z",
+      "latestFetchedAt": "2026-05-20T16:00:00.000Z",
       "latestDisplayedAt": ""
     },
     {
@@ -175,28 +175,28 @@
     {
       "id": "arxiv-cs-ai",
       "name": "论文预印本：人工智能",
-      "url": "https://export.arxiv.org/rss/cs.AI",
+      "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=24",
       "type": "research",
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "itemCount": 0,
-      "displayedCount": 0,
-      "latestFetchedAt": "",
-      "latestDisplayedAt": ""
+      "itemCount": 8,
+      "displayedCount": 5,
+      "latestFetchedAt": "2026-05-28T17:59:59.000Z",
+      "latestDisplayedAt": "2026-05-28T17:59:59.000Z"
     },
     {
       "id": "arxiv-cs-lg",
       "name": "论文预印本：机器学习",
-      "url": "https://export.arxiv.org/rss/cs.LG",
+      "url": "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=24",
       "type": "research",
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "itemCount": 0,
-      "displayedCount": 0,
-      "latestFetchedAt": "",
-      "latestDisplayedAt": ""
+      "itemCount": 8,
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-05-28T17:59:53.000Z",
+      "latestDisplayedAt": "2026-05-28T17:59:53.000Z"
     },
     {
       "id": "qbitai",
@@ -207,9 +207,9 @@
       "originLanguage": "zh",
       "ok": true,
       "itemCount": 10,
-      "displayedCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-05-30T06:43:26.000Z",
-      "latestDisplayedAt": "2026-05-30T06:43:26.000Z"
+      "latestDisplayedAt": "2026-05-30T06:33:58.000Z"
     },
     {
       "id": "leiphone",
@@ -266,19 +266,36 @@
     {
       "id": "cnblogs-news",
       "name": "博客园新闻",
-      "url": "https://www.cnblogs.com/news/rss",
+      "url": "https://feed.cnblogs.com/news/rss",
       "type": "media",
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "itemCount": 0,
-      "displayedCount": 0,
-      "latestFetchedAt": "",
-      "latestDisplayedAt": ""
+      "itemCount": 16,
+      "displayedCount": 15,
+      "latestFetchedAt": "2026-05-30T09:33:10.000Z",
+      "latestDisplayedAt": "2026-05-30T09:33:10.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "cnblogs-news-帮双子座模型拿下相关技术金牌的关键先生-差点成了职业钢琴家",
+      "title": "帮双子座模型拿下相关技术金牌的关键先生，差点成了职业钢琴家",
+      "url": "https://news.cnblogs.com/n/823161/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T09:33:10.000Z",
+      "summary": "听雨发自凹非寺量子位，公众号相关技术原来大模型圈里，还有这么会弹钢琴的人！视频地址：相关技术://相关技术/相关技术/相关型号一首肖邦的《幻想即兴曲》，弹的是行云流水、如痴如醉。高难度琶音，双手交错，情绪张力直接拉满了。并本文链接",
+      "topics": [
+        "模型发布",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "ithome-消息称三星正研发手机液冷散热系统-有望解决相关技术系列机型发热问题",
       "title": "消息称三星正研发手机液冷散热系统，有望解决相关技术系列机型发热问题",
@@ -298,19 +315,20 @@
       "image": ""
     },
     {
-      "id": "qbitai-帮双子座模型拿下相关技术金牌的关键先生-差点成了职业钢琴家",
-      "title": "帮双子座模型拿下相关技术金牌的关键先生，差点成了职业钢琴家",
-      "url": "https://www.qbitai.com/2026/05/426706.html",
+      "id": "qbitai-英伟达清华团队提出相关技术-世界模型从-一个人玩-到-多人共处",
+      "title": "英伟达清华团队提出相关技术：世界模型从「一个人玩」到「多人共处」",
+      "url": "https://www.qbitai.com/2026/05/426662.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-30T06:43:26.000Z",
-      "summary": "（可能是）大模型圈里最会弹钢琴的人",
+      "publishedAt": "2026-05-30T06:33:58.000Z",
+      "summary": "让世界模型迈向多智能体交互仿真",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
     },
     {
@@ -413,6 +431,42 @@
       "image": ""
     },
     {
+      "id": "arxiv-cs-ai-论文新进展-智能体-知识工程方向研究",
+      "title": "论文新进展：智能体、知识工程方向研究",
+      "url": "https://arxiv.org/abs/2605.30353v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:59.000Z",
+      "summary": "这篇论文关注智能体、知识工程，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-多模态-模型安全-机器人-工程仿真方向研究",
+      "title": "论文新进展：多模态、模型安全、机器人、工程仿真方向研究",
+      "url": "https://arxiv.org/abs/2605.30350v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:53.000Z",
+      "summary": "这篇论文关注多模态、模型安全、机器人、工程仿真，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "监管安全",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 66,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-英伟达研究相关技术机器人来自仿真向现实世界",
       "title": "英伟达研究相关技术机器人来自仿真向现实世界",
       "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
@@ -448,20 +502,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-英伟达清华团队提出相关技术-世界模型从-一个人玩-到-多人共处",
-      "title": "英伟达清华团队提出相关技术：世界模型从「一个人玩」到「多人共处」",
-      "url": "https://www.qbitai.com/2026/05/426662.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
+      "id": "cnblogs-news-1400亿智能体入场-流量-这条护城河要塌了",
+      "title": "1400亿智能体入场，“流量”这条护城河要塌了",
+      "url": "https://news.cnblogs.com/n/823159/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-30T06:33:58.000Z",
-      "summary": "让世界模型迈向多智能体交互仿真",
+      "publishedAt": "2026-05-30T09:05:53.000Z",
+      "summary": "衡宇发自杭州量子位，公众号相关技术昨天在支付宝人工智能生态大会现场，有别于大多数“技术改变一切”的开场白，蚂蚁集团首席执行官韩歆毅第一句话就点明了核心基调：人工智能会带来很多改变，但归根结底，人工智能服务于人，人掌握着最终决策权。他明确提出，智能体时代并非“人工智能推翻一切重来”，本文链接",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 85,
       "image": ""
     },
     {
@@ -478,7 +531,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp"
     },
     {
@@ -497,6 +550,22 @@
         "监管安全"
       ],
       "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "qbitai-4-纳米-比亚迪自研人工智能芯片来了-制程对齐英伟达-算力拉爆特斯拉",
+      "title": "4 纳米！比亚迪自研人工智能芯片来了：制程对齐英伟达，算力拉爆特斯拉",
+      "url": "https://www.qbitai.com/2026/05/426557.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T14:30:20.000Z",
+      "summary": "智驾出事，比亚迪兜底",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -531,6 +600,42 @@
         "多模态"
       ],
       "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-扩散模型-多模态方向研究",
+      "title": "论文新进展：大语言模型、扩散模型、多模态方向研究",
+      "url": "https://arxiv.org/abs/2605.30351v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:57.000Z",
+      "summary": "这篇论文关注大语言模型、扩散模型、多模态，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 67,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-大语言模型方向研究",
+      "title": "论文新进展：大语言模型方向研究",
+      "url": "https://arxiv.org/abs/2605.30337v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:01.000Z",
+      "summary": "这篇论文关注大语言模型，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -603,6 +708,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-新一代语言模型反杀克劳德模型登顶-人工智能编码旧榜不准了",
+      "title": "新一代语言模型反杀克劳德模型登顶，人工智能编码旧榜不准了？",
+      "url": "https://news.cnblogs.com/n/823158/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T02:32:54.000Z",
+      "summary": "新智元报道一个号称「零污染」的新基准相关技术，用 113 道原创题撕开了旧编程榜单的遮羞布。代码评测圈，一把新量尺落下。就在刚刚，相关技术推出了新基准相关技术。相关技术联合创始人、首席执行官相关技术在相关技术上说，推出相关技术，是为了还原开本文链接",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "leiphone-绑定中通-无人车战略分野-佑驾创新下了盘大棋",
       "title": "绑定中通！无人车战略分野，佑驾创新下了盘大棋",
       "url": "https://www.leiphone.com/category/industrynews/jz5to5DmlbMM9D38.html",
@@ -616,22 +738,6 @@
         "产品应用"
       ],
       "heat": 73,
-      "image": ""
-    },
-    {
-      "id": "qbitai-4-纳米-比亚迪自研人工智能芯片来了-制程对齐英伟达-算力拉爆特斯拉",
-      "title": "4 纳米！比亚迪自研人工智能芯片来了：制程对齐英伟达，算力拉爆特斯拉",
-      "url": "https://www.qbitai.com/2026/05/426557.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-29T14:30:20.000Z",
-      "summary": "智驾出事，比亚迪兜底",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 82,
       "image": ""
     },
     {
@@ -649,6 +755,22 @@
       ],
       "heat": 76,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "qbitai-光帆科技与腾讯出行服务达成战略合作开启新一轮预售",
+      "title": "光帆科技与腾讯出行服务达成战略合作开启新一轮预售",
+      "url": "https://www.qbitai.com/2026/05/426552.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T11:27:07.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 72,
+      "image": ""
     },
     {
       "id": "oschina-人工智能智能运维平台-本周更新-人工智能工作流新增记忆节点-支持灵活读写记忆-编排确定性场景",
@@ -680,6 +802,42 @@
         "模型发布"
       ],
       "heat": 77,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-模型评测-自然语言处理方向研究",
+      "title": "论文新进展：大语言模型、模型评测、自然语言处理方向研究",
+      "url": "https://arxiv.org/abs/2605.30348v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:53.000Z",
+      "summary": "这篇论文关注大语言模型、模型评测、自然语言处理，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 67,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-模型安全-模型评测方向研究",
+      "title": "论文新进展：模型安全、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2605.30336v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:58:57.000Z",
+      "summary": "这篇论文关注模型安全、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -751,6 +909,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-8-99万的人形机器人来了-中国版相关技术发力-价格打穿地板",
+      "title": "8.99万的人形机器人来了！中国版相关技术发力，价格打穿地板",
+      "url": "https://news.cnblogs.com/n/823157/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T02:21:24.000Z",
+      "summary": "新智元报道 8。99 万元操作天花板，6 月发货，具身智能的「苹果时刻」！中国版相关技术，星尘智能自研「人工智能模型-具身相关技术-绳驱本体」三位一体架构，用击穿底线的定价，推动相关技术人工智能落地。一句话：今年必相关技术！刚刚，被业界称为「中国版相关技术」的星尘智能震撼发布本文链接",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
       "id": "leiphone-相关技术相关型号系列的星光发布会-想讲的不止手机",
       "title": "相关技术相关型号系列的星光发布会，想讲的不止手机",
       "url": "https://www.leiphone.com/category/industrynews/pAtBiYw3rnGoJZ0L.html",
@@ -769,19 +943,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-光帆科技与腾讯出行服务达成战略合作开启新一轮预售",
-      "title": "光帆科技与腾讯出行服务达成战略合作开启新一轮预售",
-      "url": "https://www.qbitai.com/2026/05/426552.html",
+      "id": "qbitai-相关技术入选非凡产研-2026-相关技术人工智能-100-以人工智能实力领跑出海新浪潮",
+      "title": "相关技术入选非凡产研「2026 相关技术人工智能 100」，以人工智能实力领跑出海新浪潮",
+      "url": "https://www.qbitai.com/2026/05/426548.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T11:27:07.000Z",
+      "publishedAt": "2026-05-29T11:24:57.000Z",
       "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -816,6 +990,42 @@
         "投融资"
       ],
       "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体方向研究",
+      "title": "论文新进展：大语言模型、智能体方向研究",
+      "url": "https://arxiv.org/abs/2605.30345v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:50.000Z",
+      "summary": "这篇论文关注大语言模型、智能体，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 67,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-扩散模型-多模态方向研究",
+      "title": "论文新进展：扩散模型、多模态方向研究",
+      "url": "https://arxiv.org/abs/2605.30330v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:57:46.000Z",
+      "summary": "这篇论文关注扩散模型、多模态，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -887,19 +1097,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-相关技术入选非凡产研-2026-相关技术人工智能-100-以人工智能实力领跑出海新浪潮",
-      "title": "相关技术入选非凡产研「2026 相关技术人工智能 100」，以人工智能实力领跑出海新浪潮",
-      "url": "https://www.qbitai.com/2026/05/426548.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
+      "id": "cnblogs-news-老黄不只卖铲子了-英伟达要当人工智能产业链的-收租人",
+      "title": "老黄不只卖铲子了！英伟达要当人工智能产业链的「收租人」",
+      "url": "https://news.cnblogs.com/n/823156/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T11:24:57.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "publishedAt": "2026-05-30T02:08:53.000Z",
+      "summary": "新智元报道刚刚，英伟达再次甩出一份炸裂财报：单季营收 816 亿美元，光数据中心一项就占了 92%。但真正应当注意的，是财报中一个一年翻了近 29 倍的数字。它背后，是英伟达正在悄悄完成的身份转换：从「卖铲子的人」，变成整条人工智能产业链的「收租人」。英伟达，正在不动声色地换身份。5 月 20 本文链接",
       "topics": [
-        "人工智能动态"
+        "算力芯片"
       ],
-      "heat": 72,
+      "heat": 87,
       "image": ""
     },
     {
@@ -921,6 +1131,23 @@
       "image": ""
     },
     {
+      "id": "qbitai-面壁智能-开源周-一场定义端侧人工智能终局的系统性-亮剑",
+      "title": "面壁智能「开源周」：一场定义端侧人工智能终局的系统性「亮剑」",
+      "url": "https://www.qbitai.com/2026/05/426542.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T09:13:24.000Z",
+      "summary": "端侧人工智能是一个系统性工程",
+      "topics": [
+        "端侧智能",
+        "开源生态"
+      ],
+      "heat": 75,
+      "image": ""
+    },
+    {
       "id": "oschina-人工智能导购在相关技术官网的落地实践",
       "title": "人工智能导购在相关技术官网的落地实践",
       "url": "https://my.oschina.net/vivotech/blog/19686035",
@@ -937,6 +1164,24 @@
       "image": ""
     },
     {
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-多模态-模型评测方向研究",
+      "title": "论文新进展：大语言模型、多模态、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2605.30344v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T17:59:50.000Z",
+      "summary": "这篇论文关注大语言模型、多模态、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 67,
+      "image": ""
+    },
+    {
       "id": "openai-news-恩达瓦公司构建智能体化组织借助智能编程工具",
       "title": "恩达瓦公司构建智能体化组织借助智能编程工具",
       "url": "https://openai.com/index/endava",
@@ -949,7 +1194,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -985,6 +1230,24 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-新一代语言模型彻底击穿300个黑客评测任务-仅需5000万词元",
+      "title": "新一代语言模型彻底击穿300个黑客评测任务，仅需5000万词元！",
+      "url": "https://news.cnblogs.com/n/823155/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T02:01:11.000Z",
+      "summary": "新智元报道新一代语言模型把进攻性网络安全最难的 7 个基准全部打穿，92.4% 正确率，评估体系直接失灵。人工智能黑客能力每 6 个月翻一倍，而衡量它有多危险的尺子，已经先被干碎了。316 道进攻性网络安全任务，新一代语言模型解出了 292 道，正确率高达 92.4%！5 月 27 日，澳大本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "leiphone-相关技术-2026-深度学习的-标准件-正在被逐个拆掉",
       "title": "相关技术 2026：深度学习的「标准件」，正在被逐个拆掉",
       "url": "https://www.leiphone.com/category/ai/nKjaz04ZsOd72e42.html",
@@ -1003,20 +1266,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-面壁智能-开源周-一场定义端侧人工智能终局的系统性-亮剑",
-      "title": "面壁智能「开源周」：一场定义端侧人工智能终局的系统性「亮剑」",
-      "url": "https://www.qbitai.com/2026/05/426542.html",
+      "id": "qbitai-5亿词元白送-全球首个商用人工智能主机发布-终于能放开烧词元了",
+      "title": "5亿词元白送！全球首个商用人工智能主机发布，终于能放开烧词元了",
+      "url": "https://www.qbitai.com/2026/05/426479.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T09:13:24.000Z",
-      "summary": "端侧人工智能是一个系统性工程",
+      "publishedAt": "2026-05-29T09:05:30.000Z",
+      "summary": "这是这个时代的印刷机",
       "topics": [
-        "端侧智能",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1034,7 +1296,7 @@
         "投融资",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1072,6 +1334,24 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-相关技术决战-开放人工智能公司与人工智能安全公司双雄争霸",
+      "title": "相关技术决战！开放人工智能公司与人工智能安全公司双雄争霸",
+      "url": "https://news.cnblogs.com/n/823154/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T01:57:36.000Z",
+      "summary": "新智元研究算力帝国相关技术企业刺客，开放人工智能公司与人工智能安全公司的相关技术终极对决已经开打。几周前，人工智能江湖出现了一个标志性事件。那个曾经天天挥舞着相关技术、扬言要挑战开放人工智能公司的马斯克，突然把自己手里最醒目的算力王牌——相关技术 1，租给了人工智能安全公司。本文链接",
+      "topics": [
+        "算力芯片",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "leiphone-昇腾-减负-鲲鹏-铺路-中国计算产业生态如何填平开发者的-踩坑-时代",
       "title": "昇腾「减负」、鲲鹏「铺路」：中国计算产业生态如何填平开发者的「踩坑」时代？",
       "url": "https://www.leiphone.com/category/chips/DAav04SREqHlYPhU.html",
@@ -1090,19 +1370,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-5亿词元白送-全球首个商用人工智能主机发布-终于能放开烧词元了",
-      "title": "5亿词元白送！全球首个商用人工智能主机发布，终于能放开烧词元了",
-      "url": "https://www.qbitai.com/2026/05/426479.html",
+      "id": "qbitai-下限零基础-上限肝大作-腾讯这个人工智能游戏创作平台-太野了",
+      "title": "下限零基础，上限肝大作！腾讯这个人工智能游戏创作平台，太野了",
+      "url": "https://www.qbitai.com/2026/05/426447.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T09:05:30.000Z",
-      "summary": "这是这个时代的印刷机",
+      "publishedAt": "2026-05-29T08:50:10.000Z",
+      "summary": "下一波人工智能创作浪潮正在游戏领域发生",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1154,6 +1434,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-新一代语言模型翻倍-双子座模型涨3倍-这波涨价游戏还能玩多久",
+      "title": "新一代语言模型翻倍，双子座模型涨3倍：这波涨价游戏还能玩多久？",
+      "url": "https://news.cnblogs.com/n/823153/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T01:52:17.000Z",
+      "summary": "新智元报道相关技术人工智能最新测算揭开一个残酷现实：把全球所有相关技术芯片拉满，也喂不饱词元洪流。前沿大模型的涨价游戏，还能玩多久？今年 1 月至今，图形处理器租赁价格上涨超过两倍。根据相关技术 2 月发布的《内存价格追踪报告》，2026 年第一季度本文链接",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "leiphone-全球首款视觉感知人工智能耳机发布-腾讯出行服务提供全栈人工智能能力",
       "title": "全球首款视觉感知人工智能耳机发布，腾讯出行服务提供全栈人工智能能力",
       "url": "https://www.leiphone.com/category/industrynews/4qMrROFjt0wuLQMC.html",
@@ -1167,21 +1464,21 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
-      "id": "qbitai-下限零基础-上限肝大作-腾讯这个人工智能游戏创作平台-太野了",
-      "title": "下限零基础，上限肝大作！腾讯这个人工智能游戏创作平台，太野了",
-      "url": "https://www.qbitai.com/2026/05/426447.html",
+      "id": "qbitai-创意设计版相关技术来了-腾讯发布智能体创意工作室相关技术",
+      "title": "创意设计版相关技术来了！腾讯发布智能体创意工作室相关技术",
+      "url": "https://www.qbitai.com/2026/05/426400.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T08:50:10.000Z",
-      "summary": "下一波人工智能创作浪潮正在游戏领域发生",
+      "publishedAt": "2026-05-29T08:32:52.000Z",
+      "summary": "一个人拥有整个创意工作室",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 69,
       "image": ""
@@ -1235,6 +1532,24 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-小龙虾彻底凉了-清华团队连夜开源智能体神器-词元成本狂降70",
+      "title": "小龙虾彻底凉了？清华团队连夜开源智能体神器，词元成本狂降70%！",
+      "url": "https://news.cnblogs.com/n/823152/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T01:37:12.000Z",
+      "summary": "新智元报道刚刚，清华团队开源硬核智能体系统相关技术，在开发者圈已经传疯了。项目独立建舱，记忆可视可改，词元还能省一大半。从此，一个人，就是一支人工智能军团！龙虾凉了？曾经 2026 年初爆火全国的相关技术，已经降温了。身边曾经通宵魔改相关技术本文链接",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "leiphone-独家解读-人工智能安全公司估值再翻倍逼近万亿-登顶全球人工智能第一的-秘密-是什么",
       "title": "独家解读｜人工智能安全公司估值再翻倍逼近万亿，登顶全球人工智能第一的“秘密”是什么？",
       "url": "https://www.leiphone.com/category/ai/3bJjZs6OI76QGKNw.html",
@@ -1250,22 +1565,6 @@
         "算力芯片"
       ],
       "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "qbitai-创意设计版相关技术来了-腾讯发布智能体创意工作室相关技术",
-      "title": "创意设计版相关技术来了！腾讯发布智能体创意工作室相关技术",
-      "url": "https://www.qbitai.com/2026/05/426400.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-29T08:32:52.000Z",
-      "summary": "一个人拥有整个创意工作室",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 69,
       "image": ""
     },
     {
@@ -1338,6 +1637,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-克劳德模型代码首发-自愈-功能-一锤砸碎开发者6大噩梦",
+      "title": "克劳德模型代码首发「自愈」功能！一锤砸碎开发者6大噩梦",
+      "url": "https://news.cnblogs.com/n/823151/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T08:24:00.000Z",
+      "summary": "新智元报道刚刚，克劳德模型代码迎来史上最大规模底层升级！人工智能安全公司直击开发者最痛的 6 大顽疾：终端闪烁、思考假死、玄学报错、上下文死锁、连接不稳、会话崩溃。一夜之间，人工智能编程工具从「聪明外挂」进化为「可靠伙伴」。刚刚，克劳德模型代码迎来了一次底层逻辑升级，直击开本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 77,
+      "image": ""
+    },
+    {
       "id": "oschina-阿里开源相关技术人工智能自主韧性测试智能体",
       "title": "阿里开源相关技术人工智能自主韧性测试智能体",
       "url": "https://www.oschina.net/news/447829",
@@ -1386,7 +1702,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1405,6 +1721,23 @@
         "算力芯片"
       ],
       "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-克劳德模型旗舰模型-4-8实测封神-强到离谱-也贵到肉痛",
+      "title": "克劳德模型旗舰模型 4.8实测封神！强到离谱，也贵到肉痛",
+      "url": "https://news.cnblogs.com/n/823147/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T07:50:00.000Z",
+      "summary": "新智元报道传说中的克劳德模型旗舰模型 4.8，性能真的如此强大吗？有人高呼封神，直言这是旗舰模型 5，有人吐槽太拉了，还不如旗舰模型 4.7，技术大佬也来拆台。是夯爆了还是拉完了？一文深度看透。人工智能安全公司王者归来！深夜，人工智能安全公司全新发布克劳德模型旗舰模型本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 77,
       "image": ""
     },
     {
@@ -1473,7 +1806,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-1个人工智能天才值1亿美元-元宇宙平台公司抢人不是疯-45年前一篇论文早算清了",
+      "title": "1个人工智能天才值1亿美元？元宇宙平台公司抢人不是疯，45年前一篇论文早算清了",
+      "url": "https://news.cnblogs.com/n/823146/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T07:40:00.000Z",
+      "summary": "新智元报道元宇宙平台公司曾被曝出向开放人工智能公司研究员开出「1 亿美元量级」薪酬包。奥特曼在播客里曝出这个数字时，硅谷一度怀疑自己听错了。普通博士后年薪不过 5 万美元，顶尖研究员年薪据报道超过 1000 万美元：差距接近 200 倍。这个数字背后，是 45 年前一篇经济学论文早已算清的逻辑。1 本文链接",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 72,
       "image": ""
     },
     {
@@ -1490,7 +1839,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1540,6 +1889,22 @@
         "人工智能动态"
       ],
       "heat": 67,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-世界模型接棒语言模型-极佳视界首创物理通用人工智能-双金字塔-体系",
+      "title": "世界模型接棒语言模型，极佳视界首创物理通用人工智能“双金字塔”体系",
+      "url": "https://news.cnblogs.com/n/823145/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T07:30:00.000Z",
+      "summary": "允中发自凹非寺量子位，公众号相关技术后空翻、跑酷、单手抓举几十公斤…… 过去两年，人形机器人最出圈的高光时刻，几乎都发生在精心布光的舞台上。但镜头之外，有一个更朴素的问题始终悬而未决：它到底什么时候能走进你家，稳稳端起一杯水、收好一桌碗筷、把脏衣篮抱进洗手间？5 月 20 日，极佳本文链接",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 64,
       "image": ""
     },
     {
@@ -1597,6 +1962,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-刚刚-国产人工智能自己造了人工智能-全球首例",
+      "title": "刚刚，国产人工智能自己造了人工智能，全球首例！",
+      "url": "https://news.cnblogs.com/n/823144/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T07:20:00.000Z",
+      "summary": "金磊发自凹非寺量子位，公众号相关技术造人工智能这件事，现在的主角变成了人工智能。因为就在刚刚，一个国产人工智能先自己写出了一套大模型预训练框架，然后再用这套预训练框架，训练出了一个新的小尺寸模型！这就是面壁智能搞出来的相关技术新闻。这套由人工智能写出来的预训练框架叫做相关技术本文链接",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 71,
+      "image": ""
+    },
+    {
       "id": "oschina-阶跃星辰开源相关技术-3-7-相关技术",
       "title": "阶跃星辰开源相关技术 3.7 相关技术",
       "url": "https://www.oschina.net/news/447775",
@@ -1647,6 +2028,22 @@
         "研究论文"
       ],
       "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-深度求索第4代芯模协同背后-国产算力生态开始飞轮加速",
+      "title": "深度求索第4代芯模协同背后，国产算力生态开始飞轮加速",
+      "url": "https://news.cnblogs.com/n/823143/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-29T07:10:00.000Z",
+      "summary": "相关技术发自凹非寺量子位，公众号相关技术深度求索第4代发布，比模型本身更受关注的，是一个根本性的转变：国产算力生态正在从过去“芯片被动适配模型”的单向奔赴，迈向“芯模协同”的新阶段。之前，昇腾与不少模型进行过协同探索，但第4代是第一次在大规模、高强度、工程化的尺度上本文链接",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 71,
       "image": ""
     },
     {
@@ -1748,7 +2145,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
