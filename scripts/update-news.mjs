@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
 import { SOURCE_DEFINITIONS } from "./sources.mjs";
 
@@ -10,6 +10,8 @@ const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "20
 const FETCH_RETRIES = Number.parseInt(process.env.FETCH_RETRIES || "2", 10);
 const CADENCE_MINUTES = Number.parseInt(process.env.CADENCE_MINUTES || "30", 10);
 const DEFAULT_SOURCE_ITEM_LIMIT = Number.parseInt(process.env.SOURCE_ITEM_LIMIT || "24", 10);
+const ARXIV_SOURCE_INITIAL_DELAY_MS = Number.parseInt(process.env.ARXIV_SOURCE_INITIAL_DELAY_MS || "2500", 10);
+const ARXIV_SOURCE_SPACING_MS = Number.parseInt(process.env.ARXIV_SOURCE_SPACING_MS || "4500", 10);
 
 const CHINA_REACHABLE_HOSTS = [
   "36kr.com",
@@ -36,6 +38,7 @@ const ALLOWED_EXTERNAL_HOSTS = [
   "producthunt.com",
   "research.google",
   "reddit.com",
+  "rss.arxiv.org",
   "techcrunch.com",
   "technologyreview.com",
   "the-decoder.com",
@@ -981,7 +984,7 @@ const pickLink = (item) => {
     const alternate = item.link.find((link) => link["@_rel"] === "alternate") || item.link[0];
     return alternate?.["@_href"] || getText(alternate);
   }
-  return item.link?.["@_href"] || item.guid?.["#text"] || getText(item.guid) || "";
+  return item.link?.["@_href"] || getText(item.link) || item.guid?.["#text"] || getText(item.guid) || "";
 };
 
 const pickImage = (item) => {
@@ -1058,6 +1061,33 @@ const buildResearchSummary = (rawTitle, rawSummary, source) => {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+const loadPreviousPayload = async () => {
+  try {
+    return JSON.parse(await readFile(OUTPUT_PATH, "utf8"));
+  } catch {
+    return null;
+  }
+};
+
+const previousItemsForSource = (payload, source, reason) => {
+  if (!payload?.items?.length) return null;
+  const cutoff = Date.now() - WINDOW_HOURS * 36e5;
+  const items = payload.items
+    .filter((item) => item.sourceId === source.id && new Date(item.publishedAt).getTime() >= cutoff)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, source.maxItems || DEFAULT_SOURCE_ITEM_LIMIT);
+  if (!items.length) return null;
+  return { source, items, fallback: true, fallbackReason: reason };
+};
+
+const parseRetryAfterMs = (value) => {
+  if (!value) return 0;
+  const seconds = Number.parseInt(value, 10);
+  if (Number.isFinite(seconds)) return seconds * 1000;
+  const timestamp = Date.parse(value);
+  return Number.isFinite(timestamp) ? Math.max(0, timestamp - Date.now()) : 0;
+};
+
 const fetchOnce = async (source) => {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
@@ -1069,7 +1099,12 @@ const fetchOnce = async (source) => {
         accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"
       }
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) {
+      const error = new Error(`HTTP ${response.status}`);
+      error.status = response.status;
+      error.retryAfterMs = parseRetryAfterMs(response.headers.get("retry-after"));
+      throw error;
+    }
     return await response.text();
   } finally {
     clearTimeout(timeout);
@@ -1083,7 +1118,10 @@ const fetchWithTimeout = async (source) => {
       return await fetchOnce(source);
     } catch (error) {
       lastError = error;
-      if (attempt < FETCH_RETRIES) await sleep(800 * (attempt + 1));
+      if (attempt < FETCH_RETRIES) {
+        const retryAfterMs = error?.status === 429 ? Math.max(error.retryAfterMs || 0, 8000 * (attempt + 1)) : 800 * (attempt + 1);
+        await sleep(retryAfterMs);
+      }
     }
   }
   throw lastError;
@@ -1244,19 +1282,36 @@ const buildTopicStats = (items) => {
 
 const main = async () => {
   await mkdir(new URL("../public", import.meta.url), { recursive: true });
+  const previousPayload = await loadPreviousPayload();
+
+  let arxivIndex = 0;
+  const sourceJobs = SOURCE_DEFINITIONS.map((source) => {
+    const delayMs = isResearchPaperSource(source)
+      ? ARXIV_SOURCE_INITIAL_DELAY_MS + arxivIndex++ * ARXIV_SOURCE_SPACING_MS
+      : 0;
+    return { source, delayMs };
+  });
 
   const settled = await Promise.allSettled(
-    SOURCE_DEFINITIONS.map(async (source) => {
+    sourceJobs.map(async ({ source, delayMs }) => {
       try {
+        if (delayMs) await sleep(delayMs);
         const xml = await fetchWithTimeout(source);
         const normalized = extractSourceItems(xml, source)
           .map((item) => normalizeItem(item, source))
           .filter(Boolean)
           .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
           .slice(0, source.maxItems || DEFAULT_SOURCE_ITEM_LIMIT);
-        return { source, items: normalized };
+        if (!normalized.length) {
+          const fallback = previousItemsForSource(previousPayload, source, "live feed returned no usable items");
+          if (fallback) return fallback;
+        }
+        return { source, items: normalized, fallback: false, fallbackReason: "" };
       } catch (error) {
-        throw new Error(`${source.id}: ${error instanceof Error ? error.message : String(error)}`);
+        const message = error instanceof Error ? error.message : String(error);
+        const fallback = previousItemsForSource(previousPayload, source, message);
+        if (fallback) return fallback;
+        throw new Error(`${source.id}: ${message}`);
       }
     })
   );
@@ -1294,6 +1349,9 @@ const main = async () => {
       language: source.language,
       originLanguage: source.originLanguage || source.language,
       ok: Boolean(success),
+      liveOk: Boolean(success && !success.fallback),
+      fallback: Boolean(success?.fallback),
+      fallbackReason: success?.fallbackReason || "",
       itemCount: success?.items.length || 0,
       displayedCount: displayed?.count || 0,
       latestFetchedAt: success?.items[0]?.publishedAt || "",
@@ -1338,6 +1396,10 @@ const main = async () => {
   );
 
   console.log(`Generated ${items.length} AI news items from ${successes.length}/${SOURCE_DEFINITIONS.length} sources.`);
+  const fallbackMessages = successes
+    .filter((entry) => entry.fallback)
+    .map((entry) => `${entry.source.id}: ${entry.fallbackReason}`);
+  if (fallbackMessages.length) console.log(`Fallbacks: ${fallbackMessages.join(" | ")}`);
   if (failures.length) console.log(`Failures: ${failures.join(" | ")}`);
 };
 
