@@ -31,12 +31,17 @@ const ALLOWED_EXTERNAL_HOSTS = [
   "export.arxiv.org",
   "github.blog",
   "huggingface.co",
+  "news.ycombinator.com",
   "openai.com",
+  "producthunt.com",
   "research.google",
+  "reddit.com",
   "techcrunch.com",
   "technologyreview.com",
   "the-decoder.com",
-  "theverge.com"
+  "theverge.com",
+  "towardsdatascience.com",
+  "wired.com"
 ];
 
 const AI_KEYWORDS = [
@@ -176,6 +181,13 @@ const DISPLAY_REPLACEMENTS = [
   [/\bThe Verge\b/gi, "前沿科技媒体"],
   [/\bMIT Technology Review\b/gi, "麻省理工科技评论"],
   [/\bTechnology Review\b/gi, "科技评论"],
+  [/\bWIRED\b/gi, "连线杂志"],
+  [/\bWired\b/gi, "连线杂志"],
+  [/\bTowards Data Science\b/gi, "数据科学实战社区"],
+  [/\bHacker News\b/gi, "技术社区热榜"],
+  [/\bReddit\b/gi, "社区论坛"],
+  [/\bProduct Hunt\b/gi, "产品发现平台"],
+  [/\bMedium\b/gi, "内容平台"],
   [/\bQualcomm\b/gi, "高通"],
   [/\bSnapdragon\b/gi, "骁龙"],
   [/\bOPPO\b/gi, "欧珀"],
@@ -282,6 +294,54 @@ const DISPLAY_REPLACEMENTS = [
 ];
 
 const ENGLISH_PHRASE_REPLACEMENTS = [
+  [/\bWe Asked the ["']?Future of Truth["']? Author to Explain How He Used AI\. It Didn'?t Go Well\b/gi, "我们请《真相的未来》作者解释他如何使用人工智能，结果并不顺利"],
+  [/\bSoftBank says it will invest up to €75 billion to build French data centers?\b/gi, "软银称将投资最高 750 亿欧元建设法国数据中心"],
+  [/\bGitHub Copilot(?:'s|’s)? new token-based billing spurs consternation among devs\b/gi, "代码托管平台智能编程助手的新词元计费引发开发者担忧"],
+  [/\bMeta is reportedly developing an AI pendant\b/gi, "元宇宙平台公司据称正在开发人工智能吊坠"],
+  [/\bI put Google(?:'s|’s)? 24\/7 AI assistant Gemini Spark to work, and it(?:'s|’s)? actually pretty useful\b/gi, "我试用了谷歌全天候人工智能助手双子座火花，实际体验相当有用"],
+  [/\bCoders are refusing to work without AI\b/gi, "程序员开始拒绝在没有人工智能的情况下工作"],
+  [/\bAI grifters are creating fake Black people to sell Shein junk\b/gi, "人工智能骗子正在生成虚假黑人形象来销售快时尚商品"],
+  [/\bThis AI startup will clean your home for free to train future robots\b/gi, "这家人工智能创业公司愿意免费打扫住宅，以训练未来机器人"],
+  [/\bLLMs believe false statements even after explicit warnings that they(?:'re| are)? false\b/gi, "大语言模型即使被明确提醒仍会相信虚假陈述"],
+  [/\bHow the Pope(?:'s|’s)? Magnifica Humanitas offers a template for individuals to meet the AI moment\b/gi, "教宗的《伟大人性》为个人应对人工智能时代提供模板"],
+  [/\bFuture of Truth\b/gi, "《真相的未来》"],
+  [/\bGoogle Security Engineer\b/gi, "谷歌安全工程师"],
+  [/\bPolymarket Trading Scheme\b/gi, "预测市场交易计划"],
+  [/\bVatican(?:'s|’s)? Man Inside Anthropic\b/gi, "梵蒂冈在人工智能安全公司的内部联系人"],
+  [/\bChinese Startup\b/gi, "中国创业公司"],
+  [/\bData Centers?\b/gi, "数据中心"],
+  [/\bTechnical Problem\b/gi, "技术难题"],
+  [/\bAI Safety Bill\b/gi, "人工智能安全法案"],
+  [/\bCoding Jobs?\b/gi, "编程岗位"],
+  [/\bMeta-Cognitive Regulation\b/gi, "元认知调节"],
+  [/\bEmbeddings?\b/gi, "向量嵌入"],
+  [/\bFailure Modes?\b/gi, "失败模式"],
+  [/\bRAG Retrieval\b/gi, "检索增强生成检索"],
+  [/\bRetrieval Augmented Generation\b/gi, "检索增强生成"],
+  [/\bRetrieval-Augmented Generation\b/gi, "检索增强生成"],
+  [/\bTurboQuant\b/gi, "高速量化技术"],
+  [/\bSilver Bullet\b/gi, "万能解法"],
+  [/\bBaseline Enterprise RAG\b/gi, "企业级检索增强生成基线方案"],
+  [/\bHighlighted Answer\b/gi, "高亮答案"],
+  [/\bCost Control Layer\b/gi, "成本控制层"],
+  [/\bGradient Descent\b/gi, "梯度下降"],
+  [/\bTime Series Foundation Model\b/gi, "时间序列基础模型"],
+  [/\bPope Leo\b/gi, "利奥教宗"],
+  [/\bLethal AI Weapons?\b/gi, "致命人工智能武器"],
+  [/\bUsage Limits?\b/gi, "使用额度限制"],
+  [/\bLlama Surgery\b/gi, "开源大语言模型压缩手术"],
+  [/\bContinuous Sparsification\b/gi, "连续稀疏化"],
+  [/\bPre-Trained Language Models?\b/gi, "预训练语言模型"],
+  [/\bDifferentiable Ultrametric Topology Injection\b/gi, "可微超度量拓扑注入"],
+  [/\bDay-to-Day Life\b/gi, "日常生活"],
+  [/\bDestroy AI\b/gi, "摧毁人工智能"],
+  [/\bApple Silicon\b/gi, "苹果芯片"],
+  [/\bLocal LLM Coding Agent\b/gi, "本地大语言模型编程智能体"],
+  [/\b3D Objects?\b/gi, "三维物体"],
+  [/\bInternal Assembly\b/gi, "内部结构"],
+  [/\bAgent A by Ahrefs\b/gi, "Ahrefs 推出的智能体 A"],
+  [/\bOpenstatus MCP Health Checker\b/gi, "模型上下文协议健康检查工具"],
+  [/\bEmbedded Analytics\b/gi, "嵌入式分析"],
   [/\bGoogle AI Studio\b/gi, "谷歌人工智能工作室"],
   [/\bGoogle Beam\b/gi, "谷歌光束会议服务"],
   [/\bGoogle I\/O\b/gi, "谷歌开发者大会"],
@@ -370,6 +430,130 @@ const ENGLISH_PHRASE_REPLACEMENTS = [
 ];
 
 const ENGLISH_WORD_REPLACEMENTS = [
+  [/\bwe(?:'re| are)?\b/gi, "我们"],
+  [/\bjust\b/gi, "只是"],
+  [/\bgetting\b/gi, "得到"],
+  [/\bcrumbs\b/gi, "很少补偿"],
+  [/\bhere\b/gi, "这里"],
+  [/\bcontractor(?:s)?\b/gi, "承包商"],
+  [/\bprotest(?:s|ed|ing)?\b/gi, "抗议"],
+  [/\blayoff(?:s)?\b/gi, "裁员"],
+  [/\beuropean\b/gi, "欧洲"],
+  [/\bheadquarters\b/gi, "总部"],
+  [/\basked?\b/gi, "询问"],
+  [/\bfuture\b/gi, "未来"],
+  [/\btruth\b/gi, "真相"],
+  [/\bauthor(?:s)?\b/gi, "作者"],
+  [/\bexplain(?:s|ed|ing)?\b/gi, "解释"],
+  [/\bdid(?:n| not|n't)?\b/gi, "没有"],
+  [/\bwell\b/gi, "顺利"],
+  [/\bvatican\b/gi, "梵蒂冈"],
+  [/\binside\b/gi, "内部"],
+  [/\bbillion\b/gi, "十亿"],
+  [/\bchinese\b/gi, "中国"],
+  [/\btrying\b/gi, "试图"],
+  [/\bhand(?:s)?\b/gi, "机械手"],
+  [/\bevery\b/gi, "每个"],
+  [/\bmom(?:s)?\b/gi, "母亲"],
+  [/\breturn(?:s|ed|ing)?\b/gi, "回归"],
+  [/\bradically\b/gi, "大幅"],
+  [/\breshape(?:s|d|ing)?\b/gi, "重塑"],
+  [/\bamazon\b/gi, "亚马逊"],
+  [/\bthink(?:s|ing)?\b/gi, "认为"],
+  [/\bdepends?\b/gi, "取决于"],
+  [/\bproblem(?:s)?\b/gi, "问题"],
+  [/\bsolve(?:s|d|ing)?\b/gi, "解决"],
+  [/\billinois\b/gi, "伊利诺伊州"],
+  [/\blawmaker(?:s)?\b/gi, "立法者"],
+  [/\bpassed?\b/gi, "通过"],
+  [/\bamerica(?:'s|’s)?\b/gi, "美国"],
+  [/\bstrongest\b/gi, "最严格"],
+  [/\bbill(?:s)?\b/gi, "法案"],
+  [/\bengineer(?:s)?\b/gi, "工程师"],
+  [/\barrest(?:s|ed)?\b/gi, "被捕"],
+  [/\bmillion\b/gi, "百万"],
+  [/\bdollar\b/gi, "美元"],
+  [/\btrading\b/gi, "交易"],
+  [/\bscheme\b/gi, "计划"],
+  [/\bcognitive\b/gi, "认知"],
+  [/\bregulation\b/gi, "调节"],
+  [/\bmight\b/gi, "可能"],
+  [/\bmost\b/gi, "最"],
+  [/\bimportant\b/gi, "重要"],
+  [/\bskill(?:s)?\b/gi, "技能"],
+  [/\bnobody\b/gi, "很少有人"],
+  [/\btalking\b/gi, "讨论"],
+  [/\bembedding(?:s)?\b/gi, "向量嵌入"],
+  [/\bmagic\b/gi, "魔法"],
+  [/\bpredictable\b/gi, "可预测"],
+  [/\bfailure\b/gi, "失败"],
+  [/\bmode(?:s)?\b/gi, "模式"],
+  [/\brag\b/gi, "检索增强生成"],
+  [/\bretrieval\b/gi, "检索"],
+  [/\bexplained\b/gi, "解析"],
+  [/\bbaseline\b/gi, "基线"],
+  [/\bpdf\b/gi, "文档"],
+  [/\bhighlight(?:s|ed|ing)?\b/gi, "高亮"],
+  [/\banswer(?:s)?\b/gi, "答案"],
+  [/\bburning\b/gi, "消耗"],
+  [/\bmoney\b/gi, "资金"],
+  [/\bbuilt\b/gi, "构建"],
+  [/\bfix(?:es|ed|ing)?\b/gi, "修复"],
+  [/\bwhy\b/gi, "为什么"],
+  [/\bbecame\b/gi, "变成"],
+  [/\bstochastic\b/gi, "随机式"],
+  [/\blineage\b/gi, "血缘关系"],
+  [/\bfive\b/gi, "五个"],
+  [/\bquestion(?:s)?\b/gi, "问题"],
+  [/\babout\b/gi, "关于"],
+  [/\btime\b/gi, "时间"],
+  [/\bseries\b/gi, "序列"],
+  [/\bpope\b/gi, "教宗"],
+  [/\bright\b/gi, "正确"],
+  [/\bcall(?:s|ed|ing)?\b/gi, "呼吁"],
+  [/\beu\b/gi, "欧盟"],
+  [/\bdisarm\b/gi, "解除"],
+  [/\blethal\b/gi, "致命"],
+  [/\bweapon(?:s)?\b/gi, "武器"],
+  [/\bmystery\b/gi, "神秘"],
+  [/\baccidentally\b/gi, "意外"],
+  [/\bblew\b/gi, "花掉"],
+  [/\bsingle\b/gi, "单个"],
+  [/\bmonth\b/gi, "月"],
+  [/\bfailed\b/gi, "未能"],
+  [/\bput\b/gi, "设置"],
+  [/\blicense(?:s)?\b/gi, "许可"],
+  [/\bemployee(?:s)?\b/gi, "员工"],
+  [/\bsurgery\b/gi, "压缩手术"],
+  [/\bcontinuous\b/gi, "连续"],
+  [/\bsparsification\b/gi, "稀疏化"],
+  [/\bpre(?:-|\s*)trained\b/gi, "预训练"],
+  [/\bdifferentiable\b/gi, "可微"],
+  [/\bultrametric\b/gi, "超度量"],
+  [/\btopology\b/gi, "拓扑"],
+  [/\binjection\b/gi, "注入"],
+  [/\bactually\b/gi, "实际"],
+  [/\bbenefit(?:s|ed)?\b/gi, "帮助"],
+  [/\blife\b/gi, "生活"],
+  [/\bharvard\b/gi, "哈佛"],
+  [/\bgraduate(?:s)?\b/gi, "毕业生"],
+  [/\bcheer(?:s|ed)?\b/gi, "欢呼"],
+  [/\bkeep\b/gi, "持续"],
+  [/\barguing\b/gi, "争论"],
+  [/\btoaster\b/gi, "烤面包机"],
+  [/\banecdotal\b/gi, "个人经历式"],
+  [/\bdiscussion\b/gi, "讨论"],
+  [/\bdivergence\b/gi, "分歧"],
+  [/\blocal\b/gi, "本地"],
+  [/\bobject(?:s)?\b/gi, "物体"],
+  [/\bassembled\b/gi, "组装"],
+  [/\bseparate\b/gi, "独立"],
+  [/\blogical\b/gi, "逻辑化"],
+  [/\bpart(?:s)?\b/gi, "部件"],
+  [/\bmicrowave\b/gi, "微波炉"],
+  [/\bdoor\b/gi, "门"],
+  [/\bswing(?:s)?\b/gi, "打开"],
+  [/\bopen\b/gi, "打开"],
   [/\bquiz(?:zes)?\b/gi, "测验"],
   [/\bvibe\b/gi, "氛围式"],
   [/\bcoded\b/gi, "编写"],
@@ -570,6 +754,37 @@ const ENGLISH_WORD_REPLACEMENTS = [
 
 const containsChinese = (value) => /[\u3400-\u9fff]/.test(value);
 
+const INFORMATIVE_TERMS = [
+  "人工智能",
+  "大语言模型",
+  "智能体",
+  "机器人",
+  "芯片",
+  "数据中心",
+  "模型",
+  "安全",
+  "监管",
+  "论文",
+  "开源",
+  "编程",
+  "融资",
+  "产品",
+  "工具",
+  "谷歌",
+  "微软",
+  "英伟达",
+  "开放人工智能公司"
+];
+
+const isLowInformationText = (value) => {
+  const cjk = value.replace(/[^\u3400-\u9fff]/g, "");
+  if (!cjk) return true;
+  if (INFORMATIVE_TERMS.some((term) => value.includes(term))) return false;
+  if (cjk.length < 6) return true;
+  const remainder = cjk.replace(/(相关技术|信息技术|来自|面向|作为|关于|首个|只是|这里|我们|这个|那个|使用|进入|构建|发布|推出|新增|问题|顺利|在|向|由|和|的|了|是|用)/g, "");
+  return remainder.length < 3;
+};
+
 const compactText = (value, maxLength = 190) => {
   const text = value
     .replace(/,\s*/g, "，")
@@ -604,8 +819,7 @@ const translateEnglishEssence = (value) => {
   }
 
   return text
-    .replace(/\b[A-Za-z][A-Za-z0-9+._-]*\b/g, "相关技术")
-    .replace(/相关技术(\s*相关技术)+/g, "相关技术")
+    .replace(/\b[A-Za-z][A-Za-z0-9+._-]*\b/g, "")
     .replace(/["'()[\]{}<>]/g, " ")
     .replace(/\s*[|/]\s*/g, "，")
     .replace(/\s*-\s*/g, "，")
@@ -648,7 +862,7 @@ const localizeDisplayText = (value, options = {}) => {
   }
   text = text
     .replace(/\b(?=[A-Za-z0-9+._-]*[A-Za-z])(?=[A-Za-z0-9+._-]*\d)[A-Za-z0-9+._-]+\b/g, "相关型号")
-    .replace(/\b[A-Za-z][A-Za-z0-9+._-]*\b/g, "相关技术")
+    .replace(/\b[A-Za-z][A-Za-z0-9+._-]*\b/g, "")
     .replace(/\s+-\s+/g, "，来源：")
     .replace(/\s+\|\s+/g, "，")
     .replace(/相关技术(\s*相关技术)+/g, "相关技术")
@@ -657,7 +871,9 @@ const localizeDisplayText = (value, options = {}) => {
     .trim();
 
   text = compactText(text, options.maxLength || 190);
-  if (!containsChinese(text)) return options.fallback || "来自权威公开来源的人工智能相关动态。";
+  if (!containsChinese(text) || isLowInformationText(text)) {
+    return options.fallback || "来自权威公开来源的人工智能相关动态。";
+  }
   return text;
 };
 

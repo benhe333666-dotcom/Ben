@@ -126,7 +126,7 @@ export const SOURCE_DEFINITIONS = [
     type: "media",
     language: "zh",
     originLanguage: "en",
-    aiFocused: true,
+    aiFocused: false,
     allowExternal: true,
     weight: 1.14,
     maxItems: 10
@@ -154,6 +154,66 @@ export const SOURCE_DEFINITIONS = [
     allowExternal: true,
     weight: 1.1,
     maxItems: 10
+  },
+  {
+    id: "wired-ai",
+    name: "连线杂志人工智能",
+    url: "https://www.wired.com/feed/category/business/latest/rss",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.09,
+    maxItems: 10
+  },
+  {
+    id: "towards-data-science",
+    name: "数据科学实战社区",
+    url: "https://towardsdatascience.com/feed",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 1.07,
+    maxItems: 10
+  },
+  {
+    id: "hacker-news-ai",
+    name: "技术社区人工智能热榜",
+    url: "https://news.ycombinator.com/rss",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: false,
+    allowExternal: true,
+    weight: 0.96,
+    maxItems: 8
+  },
+  {
+    id: "reddit-artificial",
+    name: "人工智能社区热议",
+    url: "https://www.reddit.com/r/artificial/.rss",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 0.88,
+    maxItems: 8
+  },
+  {
+    id: "product-hunt-ai",
+    name: "人工智能产品发现",
+    url: "https://www.producthunt.com/feed?topic=artificial-intelligence",
+    type: "media",
+    language: "zh",
+    originLanguage: "en",
+    aiFocused: true,
+    allowExternal: true,
+    weight: 0.86,
+    maxItems: 8
   },
   {
     id: "arxiv-cs-ai",
