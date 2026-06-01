@@ -1,40 +1,45 @@
 {
-  "generatedAt": "2026-06-01T13:03:49.364Z",
+  "generatedAt": "2026-06-01T13:33:55.317Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-01T13:30:00.000Z",
+  "nextUpdateHint": "2026-06-01T14:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-01T12:52:58.000Z"
+    "latestPublishedAt": "2026-06-01T13:32:51.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 71,
-      "heat": 78
+      "heat": 79
     },
     {
       "name": "模型发布",
       "count": 47,
-      "heat": 80
+      "heat": 81
     },
     {
       "name": "算力芯片",
-      "count": 30,
-      "heat": 94
+      "count": 33,
+      "heat": 95
     },
     {
       "name": "研究论文",
-      "count": 27,
-      "heat": 73
+      "count": 26,
+      "heat": 74
     },
     {
       "name": "监管安全",
-      "count": 20,
-      "heat": 76
+      "count": 18,
+      "heat": 75
+    },
+    {
+      "name": "投融资",
+      "count": 17,
+      "heat": 78
     },
     {
       "name": "人工智能动态",
@@ -42,17 +47,12 @@
       "heat": 66
     },
     {
-      "name": "投融资",
-      "count": 16,
-      "heat": 78
+      "name": "端侧智能",
+      "count": 12,
+      "heat": 87
     },
     {
       "name": "多模态",
-      "count": 12,
-      "heat": 83
-    },
-    {
-      "name": "端侧智能",
       "count": 11,
       "heat": 85
     },
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-06-01T08:47:33.000Z",
-      "latestDisplayedAt": "2026-06-01T08:47:33.000Z"
+      "latestFetchedAt": "2026-06-01T13:32:51.000Z",
+      "latestDisplayedAt": "2026-06-01T13:32:51.000Z"
     },
     {
       "id": "wired-ai",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "This operation was aborted",
+      "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-05-29T17:59:50.000Z",
       "latestDisplayedAt": "2026-05-29T17:59:50.000Z"
@@ -380,10 +380,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "This operation was aborted",
+      "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-05-29T17:58:01.000Z",
       "latestDisplayedAt": "2026-05-29T17:58:01.000Z"
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-06-01T12:49:14.000Z",
-      "latestDisplayedAt": "2026-06-01T12:49:14.000Z"
+      "latestFetchedAt": "2026-06-01T13:27:07.000Z",
+      "latestDisplayedAt": "2026-06-01T13:27:07.000Z"
     },
     {
       "id": "oschina",
@@ -479,7 +479,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
+      "itemCount": 11,
       "displayedCount": 9,
       "latestFetchedAt": "2026-06-01T07:28:00.000Z",
       "latestDisplayedAt": "2026-06-01T07:28:00.000Z"
@@ -487,6 +487,42 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "the-decoder-英伟达-3-打开模型",
+      "title": "英伟达 3 打开模型",
+      "url": "https://the-decoder.com/nvidias-nemotron-3-ultra-becomes-the-smartest-open-us-model-but-china-still-leads/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T13:32:51.000Z",
+      "summary": "向基准测试平台，英伟达新 3 最打开人工智能模型来自向。英伟达 3 打开模型，首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-华硕发布相关型号-相关型号笔记本-英伟达芯片-1-人工智能性能-相关型号-相关型号屏幕",
+      "title": "华硕发布相关型号/相关型号笔记本：英伟达芯片、1 人工智能性能，相关型号/相关型号屏幕",
+      "url": "https://www.ithome.com/0/958/420.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T13:27:07.000Z",
+      "summary": "科技之家 6 月 1 日消息，华硕今天在台北电脑展 2026 期间推出全新相关型号（相关型号）/相关型号（相关型号）笔记本电脑，新品搭载英伟达芯片，号称将在个人人工智能智能体时代“重新定义视窗系统电脑”。科技之家在此援引官方新闻稿，这两款笔记本是全球首批专为个人人工智能智能体打造的视窗系统电脑，可提供 1 （千万亿次浮点运算）的人工智能性能，可让创作者渲染超 90 吉字节的大……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "thirty-six-kr-美股大型科技股盘前涨跌不一-涨超10",
       "title": "美股大型科技股盘前涨跌不一，涨超10%",
@@ -501,22 +537,6 @@
         "算力芯片"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "ithome-消息称人工智能安全公司将向欧盟网络安全局开放模型",
-      "title": "消息称人工智能安全公司将向欧盟网络安全局开放模型",
-      "url": "https://www.ithome.com/0/958/413.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T12:49:14.000Z",
-      "summary": "科技之家 6 月 1 日消息，据彭博社今日援引知情人士消息，人工智能初创公司人工智能安全公司即将向欧盟网络安全机构开放模型访问权限。由于部分官员担心该系统可能被有心人士利用，成为利用漏洞的工具，因此整个过程一直受到高度关注。知情人士透露，人工智能安全公司计划允许欧盟网络安全局（）加入“玻璃之翼（科技之家注：）”计划。让重要机构在大规模发布前测试。据悉，人工智能安全公司已在上周……",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 95,
       "image": ""
     },
     {
@@ -550,7 +570,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": "https://preview.redd.it/vd9yyzkpzn4h1.png?width=140&height=93&auto=webp&s=13158855c7166aa0e2d88156004a3f7532a36426"
     },
     {
@@ -582,7 +602,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6a15c83805d6069616b25809/master/pass/Norse-Atlantic-Airways-Went-Tech-First-With-Customer-Service-Business-2151560857.jpg"
     },
     {
@@ -599,24 +619,6 @@
         "模型发布",
         "产品应用",
         "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司借助基础设施机器人目标是面向机器人",
-      "title": "开放人工智能公司借助基础设施机器人目标是面向机器人",
-      "url": "https://the-decoder.com/openai-starts-with-infrastructure-robots-but-aims-for-everyone-having-a-personal-robot-doing-anything-they-need/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T08:47:33.000Z",
-      "summary": "开放人工智能公司构建机器人团队，五个。团队仿真研究。首席执行官，术语 : 机器人面向。在术语，机器人帮助构建基础设施。开放人工智能公司借助基础设施机器人目标是面向机器人首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "多模态"
       ],
       "heat": 99,
       "image": ""
@@ -871,21 +873,38 @@
       "image": ""
     },
     {
-      "id": "ithome-消息称追觅开放融资-单笔投资门槛最低-3-5-亿-首次公开募股轮投前估值或-700-亿",
-      "title": "消息称追觅开放融资：单笔投资门槛最低 3.5 亿，-首次公开募股轮投前估值或 700 亿",
-      "url": "https://www.ithome.com/0/958/412.htm",
+      "id": "the-decoder-英伟达在人工智能在借助新模型-和打开人形机器人",
+      "title": "英伟达在人工智能在借助新模型，和打开人形机器人",
+      "url": "https://the-decoder.com/nvidia-bets-big-on-physical-ai-at-gtc-taipei-with-a-new-world-model-driving-brain-and-open-humanoid-robot/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T13:26:35.000Z",
+      "summary": "英伟达使用向推出序列模型面向机器人，和视频。新模型 3，模型呼吁 2，和打开平台面向人形机器人。英伟达在人工智能在借助新模型，和打开人形机器人首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-乐道马磊-现款和新款全系纯视觉版本车型-将在三季度迎来重大迭代",
+      "title": "乐道马磊：现款和新款全系纯视觉版本车型，将在三季度迎来重大迭代",
+      "url": "https://www.ithome.com/0/958/416.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T12:43:39.000Z",
-      "summary": "科技之家 6 月 1 日消息，据蓝鲸科技今日消息，知情人士透露，追觅近期开放直接融资窗口，计划释放部分 -首次公开募股份额。本轮投前估值或锁定约 700 亿元人民币，单笔投资最低门槛高达 3.5 亿元，整个融资窗口预计于 7 月初关闭。另外，此次整体释放的份额区间为 5% 至 10%，若按 700 亿元估值计算，对应融资规模约在 35 亿至 70 亿元之间。知情人士表示，“ ……",
+      "publishedAt": "2026-06-01T13:14:24.000Z",
+      "summary": "科技之家 6 月 1 日消息，乐道品牌营销传播负责人马磊今日发文分享了乐道汽车的销售情况及后续安排：1，乐道相关型号 / 相关型号首月交付破万，相关型号上市 15 天交付近 6000 台，应该是纯电大五座交付最快的了。2，超过 60% 的相关型号用户选择了搭载神玑芯片与蔚来世界模型的旗舰版+ 版型，蔚来旗舰智能体验用户认可度很高。3，相关型号现款清库接近尾声，新乐道相关型号将……",
       "topics": [
-        "算力芯片",
-        "研究论文",
-        "投融资"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 97,
+      "heat": 92,
       "image": ""
     },
     {
@@ -901,7 +920,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -955,7 +974,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1024,24 +1043,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能借助和答案取决于在信息技术来自",
-      "title": "人工智能借助和答案取决于在信息技术来自",
-      "url": "https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-31T11:37:20.000Z",
-      "summary": "借助，创业公司。人工智能人工智能模型首个向独立。训练在 4.14 百万在和，回归。模型和更好。人工智能借助和答案取决于在信息技术来自首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-软银称将投资最高-750-亿欧元建设法国数据中心",
       "title": "软银称将投资最高 750 亿欧元建设法国数据中心",
       "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
@@ -1054,7 +1055,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1071,7 +1072,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1243,20 +1244,37 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Private_analytics_via_zero-trust_aggregation_hero_final.png"
     },
     {
-      "id": "ithome-王兴-美团人工智能智能体-小美-与腾讯元宝即将深度合作-用户订单无缝连接",
-      "title": "王兴：美团人工智能智能体“小美”与腾讯元宝即将深度合作，用户订单无缝连接",
-      "url": "https://www.ithome.com/0/958/410.htm",
+      "id": "the-decoder-英伟达作为芯片本地人工智能智能体在视窗系统",
+      "title": "英伟达作为芯片本地人工智能智能体在视窗系统",
+      "url": "https://the-decoder.com/nvidia-pitches-rtx-spark-as-the-chip-that-finally-makes-local-ai-agents-practical-on-windows-devices/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T13:17:03.000Z",
+      "summary": "英伟达苹果芯片和高通在视窗系统借助。芯片图形处理器借助中央处理器和向 128 分享记忆，借助 1，000 在，微软，和向交付首个来自 2026。英伟达作为芯片本地人工智能智能体在视窗系统首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-红杉中国沈南鹏向母校上海交通大学捐资-3-亿元-设立-红杉书院建设基金",
+      "title": "红杉中国沈南鹏向母校上海交通大学捐资 3 亿元，设立“红杉书院建设基金”",
+      "url": "https://www.ithome.com/0/958/414.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T12:34:05.000Z",
-      "summary": "科技之家 6 月 1 日消息，美团今日发布 2026 年第一季度财报，营业总收入 910.39 亿元，同比增长 5.61%；归母净利润 -68.27 亿元，同比由盈转亏。据每日经济新闻消息，在财报发布后的电话会上，美团创始人、董事长兼首席执行官王兴透露，美团人工智能智能体（智能体）“小美”与腾讯元宝即将深度合作。科技之家获悉，当用户在腾讯元宝中提交本地服务需求时，系统将无缝连……",
+      "publishedAt": "2026-06-01T13:03:14.000Z",
+      "summary": "科技之家 6 月 1 日消息，据上海交通大学官方今日消息，值上海交通大学建校 130 周年之际，1985 级首届教改试点班杰出校友、红杉中国创始及执行合伙人沈南鹏先生慷慨捐资 3 亿元，设立“红杉书院建设基金”。科技之家注：红杉中国是专注于投资科技、医疗健康、消费三大领域的私募股权投资机构。红杉中国投资超 1，600 家企业，最成功的案例包括京东、拼多多、美团网、唯品会、泡泡……",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "投融资"
       ],
-      "heat": 92,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1377,23 +1395,6 @@
       ],
       "heat": 99,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/Taiwan-AI-Infra-blog-KV-still.jpg"
-    },
-    {
-      "id": "the-decoder-人工智能安全公司人工智能工具向查看实际认为",
-      "title": "人工智能安全公司人工智能工具向查看实际认为",
-      "url": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-31T10:10:14.000Z",
-      "summary": "人工智能安全公司人工智能和向五个技能，和认为。向 $850，000，和 $4，600 面向由人工智能公司员工。人工智能安全公司人工智能工具向查看实际认为首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 80,
-      "image": ""
     },
     {
       "id": "techcrunch-ai-代码托管平台智能编程助手的新词元计费引发开发者担忧",
@@ -1548,19 +1549,19 @@
       "image": ""
     },
     {
-      "id": "ithome-清理违规视频-8000-余条-5-月-人工智能魔改-视频专项治理成果公布",
-      "title": "清理违规视频 8000 余条，5 月“人工智能魔改”视频专项治理成果公布",
-      "url": "https://www.ithome.com/0/958/409.htm",
+      "id": "ithome-消息称人工智能安全公司将向欧盟网络安全局开放模型",
+      "title": "消息称人工智能安全公司将向欧盟网络安全局开放模型",
+      "url": "https://www.ithome.com/0/958/413.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T12:33:29.000Z",
-      "summary": "科技之家 6 月 1 日消息，据央视新闻今天报道，国家广播电视总局从 2 月 1 日开始常态化、制度化开展“人工智能魔改”视频治理工作，进一步巩固今年 1 月的专项治理工作。据报道，广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“人工智能魔改”的违法视频内容。科技之家从原报道获悉，各平台……",
+      "publishedAt": "2026-06-01T12:49:14.000Z",
+      "summary": "科技之家 6 月 1 日消息，据彭博社今日援引知情人士消息，人工智能初创公司人工智能安全公司即将向欧盟网络安全机构开放模型访问权限。由于部分官员担心该系统可能被有心人士利用，成为利用漏洞的工具，因此整个过程一直受到高度关注。知情人士透露，人工智能安全公司计划允许欧盟网络安全局（）加入“玻璃之翼（科技之家注：）”计划。让重要机构在大规模发布前测试。据悉，人工智能安全公司已在上周……",
       "topics": [
-        "多模态"
+        "监管安全"
       ],
-      "heat": 87,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1634,6 +1635,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-开放人工智能公司借助基础设施机器人目标是面向机器人",
+      "title": "开放人工智能公司借助基础设施机器人目标是面向机器人",
+      "url": "https://the-decoder.com/openai-starts-with-infrastructure-robots-but-aims-for-everyone-having-a-personal-robot-doing-anything-they-need/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T08:47:33.000Z",
+      "summary": "开放人工智能公司构建机器人团队，五个。团队仿真研究。首席执行官，术语 : 机器人面向。在术语，机器人帮助构建基础设施。开放人工智能公司借助基础设施机器人目标是面向机器人首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-对话云鲸创始人张峻彬-2年之后-扫地机器人就有-手-干更多活了",
       "title": "对话云鲸创始人张峻彬：2年之后，扫地机器人就有「手」干更多活了",
       "url": "https://news.cnblogs.com/n/823241/",
@@ -1678,26 +1697,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/Featured-image.png"
-    },
-    {
-      "id": "the-decoder-人工智能安全公司使用人工智能编程智能体作为作为在科学研究",
-      "title": "人工智能安全公司使用人工智能编程智能体作为作为在科学研究",
-      "url": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-31T09:42:11.000Z",
-      "summary": "研究借助使用编程智能体作为作为借助，和，向人工智能安全公司。在 39，教育研究在只是。面向编程智能体面向人工智能使用。人工智能安全公司使用人工智能编程智能体作为作为在科学研究首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 84,
-      "image": ""
     },
     {
       "id": "arxiv-cs-ai-论文新进展-智能体-自然语言处理方向研究",
@@ -1836,19 +1837,19 @@
       "image": ""
     },
     {
-      "id": "ithome-微信安卓版-8-0-74-测试版更新-朋友圈改版-合并发多图等功能还在灰度",
-      "title": "微信安卓版 8.0.74 测试版更新：朋友圈改版 / 合并发多图等功能还在灰度",
-      "url": "https://www.ithome.com/0/958/408.htm",
+      "id": "ithome-消息称追觅开放融资-单笔投资门槛最低-3-5-亿-首次公开募股轮投前估值或-700-亿",
+      "title": "消息称追觅开放融资：单笔投资门槛最低 3.5 亿，-首次公开募股轮投前估值或 700 亿",
+      "url": "https://www.ithome.com/0/958/412.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T12:25:10.000Z",
-      "summary": "从 8.0.72 直接到 8.0.74，在落后两个大版本的情况下，微信安卓版通过一次跳远，实现了版本号追齐苹果移动系统。在 5 月 29 日晚间，微信安卓平台迎来 8.0.74 测试版，然而几小时后便撤包，直到昨晚（5 月 31 日）又重新发布链接，恢复正常下载。经实测发现，本次微信安卓最新内测的重心不在于上线新花样，而是以灰度功能覆盖为主。具体的更新情况，科技之家小编接下来……",
+      "publishedAt": "2026-06-01T12:43:39.000Z",
+      "summary": "科技之家 6 月 1 日消息，据蓝鲸科技今日消息，知情人士透露，追觅近期开放直接融资窗口，计划释放部分 -首次公开募股份额。本轮投前估值或锁定约 700 亿元人民币，单笔投资最低门槛高达 3.5 亿元，整个融资窗口预计于 7 月初关闭。另外，此次整体释放的份额区间为 5% 至 10%，若按 700 亿元估值计算，对应融资规模约在 35 亿至 70 亿元之间。知情人士表示，“ ……",
       "topics": [
-        "产品应用",
-        "多模态",
-        "端侧智能"
+        "算力芯片",
+        "研究论文",
+        "投融资"
       ],
       "heat": 97,
       "image": ""
@@ -1975,20 +1976,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-75-十亿人工智能数据中心在",
-      "title": "75 十亿人工智能数据中心在",
-      "url": "https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/",
+      "id": "the-decoder-人工智能借助和答案取决于在信息技术来自",
+      "title": "人工智能借助和答案取决于在信息技术来自",
+      "url": "https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-31T08:45:46.000Z",
-      "summary": "向构建人工智能数据中心借助向 5 在，公司人工智能基础设施投资在，在向 75 十亿。由 2031，值得 45 十亿向在在。持续，向。75 十亿人工智能数据中心在首个在人工智能解码媒体。",
+      "publishedAt": "2026-05-31T11:37:20.000Z",
+      "summary": "借助，创业公司。人工智能人工智能模型首个向独立。训练在 4.14 百万在和，回归。模型和更好。人工智能借助和答案取决于在信息技术来自首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
         "投融资"
       ],
-      "heat": 71,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2109,20 +2111,20 @@
       "image": ""
     },
     {
-      "id": "ithome-庆祝玩家国度诞生二十周年-华硕推出-20-系列硬件",
-      "title": "庆祝玩家国度诞生二十周年，华硕推出 20 系列硬件",
-      "url": "https://www.ithome.com/0/958/396.htm",
+      "id": "ithome-王兴-美团人工智能智能体-小美-与腾讯元宝即将深度合作-用户订单无缝连接",
+      "title": "王兴：美团人工智能智能体“小美”与腾讯元宝即将深度合作，用户订单无缝连接",
+      "url": "https://www.ithome.com/0/958/410.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T11:15:44.000Z",
-      "summary": "科技之家 6 月 1 日消息，华硕 () 今日在 2026 展前记者会上正式揭晓 20 系列新品。该系列产品配色融合影曜黑、红、澈影透、矅金光，形成独特“黑透金”视觉效果。1、相关型号 20 作为此次的主打主板产品，相关型号 20 搭载 24+2+2 相供电，可扩展出 9 个相关型号盘位，最多拥有 26 个通用串行总线接口。此外其采用整合式一体式水冷架构，配套采用相关型号相关……",
+      "publishedAt": "2026-06-01T12:34:05.000Z",
+      "summary": "科技之家 6 月 1 日消息，美团今日发布 2026 年第一季度财报，营业总收入 910.39 亿元，同比增长 5.61%；归母净利润 -68.27 亿元，同比由盈转亏。据每日经济新闻消息，在财报发布后的电话会上，美团创始人、董事长兼首席执行官王兴透露，美团人工智能智能体（智能体）“小美”与腾讯元宝即将深度合作。科技之家获悉，当用户在腾讯元宝中提交本地服务需求时，系统将无缝连……",
       "topics": [
-        "算力芯片",
+        "产品应用",
         "端侧智能"
       ],
-      "heat": 91,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2229,21 +2231,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能智能体实际",
-      "title": "人工智能智能体实际",
-      "url": "https://the-decoder.com/ai-search-agents-often-confirm-what-they-already-know-instead-of-actually-researching-the-web/",
+      "id": "the-decoder-人工智能安全公司人工智能工具向查看实际认为",
+      "title": "人工智能安全公司人工智能工具向查看实际认为",
+      "url": "https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-31T07:48:41.000Z",
-      "summary": "人工智能智能体和月之暗面向研究在基准测试。只是使用向训练。研究在新时间，基准测试呼吁，关于来自 90。模型在记忆，性能和。人工智能智能体实际首个在人工智能解码媒体。",
+      "publishedAt": "2026-05-31T10:10:14.000Z",
+      "summary": "人工智能安全公司人工智能和向五个技能，和认为。向 $850，000，和 $4，600 面向由人工智能公司员工。人工智能安全公司人工智能工具向查看实际认为首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 83,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2332,20 +2333,19 @@
       "image": ""
     },
     {
-      "id": "ithome-闲鱼二手平台惊现陕西历史博物馆镇馆之宝-回应称人工智能误识别图片-不会自动上传用户照片",
-      "title": "闲鱼二手平台惊现陕西历史博物馆镇馆之宝，回应称人工智能误识别图片、不会自动上传用户照片",
-      "url": "https://www.ithome.com/0/958/391.htm",
+      "id": "ithome-清理违规视频-8000-余条-5-月-人工智能魔改-视频专项治理成果公布",
+      "title": "清理违规视频 8000 余条，5 月“人工智能魔改”视频专项治理成果公布",
+      "url": "https://www.ithome.com/0/958/409.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T11:01:04.000Z",
-      "summary": "科技之家 6 月 1 日消息，二手交易平台闲鱼因将用户手机内照片“自动上架”一事在近日引发广泛关注。有江苏网友发现其闲鱼账号的待售主页被自动挂出了一件陕西历史博物馆的镇馆之宝“唐鎏金舞马衔杯纹皮囊式银壶”的照片，并标价 6000 元。6 月 1 日，据新黄河大鱼财经报道，针对上述情况，闲鱼方面有关负责人回应记者称，经核查，相关商品系人工智能将图片识别为普通文玩商品，并生成建议……",
+      "publishedAt": "2026-06-01T12:33:29.000Z",
+      "summary": "科技之家 6 月 1 日消息，据央视新闻今天报道，国家广播电视总局从 2 月 1 日开始常态化、制度化开展“人工智能魔改”视频治理工作，进一步巩固今年 1 月的专项治理工作。据报道，广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“人工智能魔改”的违法视频内容。科技之家从原报道获悉，各平台……",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2397,7 +2397,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2417,21 +2417,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-微软和英伟达据报道团队在人工智能电脑智能体智能副驾",
-      "title": "微软和英伟达据报道团队在人工智能电脑智能体智能副驾",
-      "url": "https://the-decoder.com/microsoft-and-nvidia-reportedly-team-up-on-ai-pcs-that-run-actual-agents-instead-of-copilot/",
+      "id": "the-decoder-人工智能安全公司使用人工智能编程智能体作为作为在科学研究",
+      "title": "人工智能安全公司使用人工智能编程智能体作为作为在科学研究",
+      "url": "https://the-decoder.com/anthropic-study-finds-men-use-ai-coding-agents-more-than-twice-as-often-as-women-in-social-science-research/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-30T16:18:56.000Z",
-      "summary": "英伟达进入电脑借助芯片作为。首个视窗系统来自和微软向发布在和构建。微软新软件在人工智能智能体任务在视窗系统电脑，智能副驾+ 电脑。微软和英伟达据报道团队在人工智能电脑智能体智能副驾首个在人工智能解码媒体。",
+      "publishedAt": "2026-05-31T09:42:11.000Z",
+      "summary": "研究借助使用编程智能体作为作为借助，和，向人工智能安全公司。在 39，教育研究在只是。面向编程智能体面向人工智能使用。人工智能安全公司使用人工智能编程智能体作为作为在科学研究首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 70,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2503,19 +2503,21 @@
       "image": "https://media.wired.com/photos/6a15ed31ceac52c54a0384c0/master/pass/Model-Behavior-Ex-Google-Apple-AI-Researchers-Want-to-Make-AI-That-Gets-Smarter-as-You-Use-It-Business.jpg"
     },
     {
-      "id": "ithome-外媒上手-15-笔记本-八核-3-01-吉赫兹骁龙中央处理器-拥有主动散热",
-      "title": "外媒上手 15 笔记本：八核 3.01 吉赫兹骁龙中央处理器、拥有主动散热",
-      "url": "https://www.ithome.com/0/958/389.htm",
+      "id": "ithome-微信安卓版-8-0-74-测试版更新-朋友圈改版-合并发多图等功能还在灰度",
+      "title": "微信安卓版 8.0.74 测试版更新：朋友圈改版 / 合并发多图等功能还在灰度",
+      "url": "https://www.ithome.com/0/958/408.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T10:52:55.000Z",
-      "summary": "科技之家 6 月 1 日消息，外媒 ' 今天发布博文，分享宏碁 15 笔记本电脑的上手体验。该产品定位入门市场，采用高通骁龙平台，预计售价 300 美元（科技之家注：现汇率约合 2032 元人民币）。据报道，该媒体在台北电脑展 2026 期间见到了 15。但该产品被严密地锁在玻璃展柜内，只可远观不可亵玩。不过幸运的是，某位高通员工曾短暂地允许该媒体打开一台样机，并启动视窗系统……",
+      "publishedAt": "2026-06-01T12:25:10.000Z",
+      "summary": "从 8.0.72 直接到 8.0.74，在落后两个大版本的情况下，微信安卓版通过一次跳远，实现了版本号追齐苹果移动系统。在 5 月 29 日晚间，微信安卓平台迎来 8.0.74 测试版，然而几小时后便撤包，直到昨晚（5 月 31 日）又重新发布链接，恢复正常下载。经实测发现，本次微信安卓最新内测的重心不在于上线新花样，而是以灰度功能覆盖为主。具体的更新情况，科技之家小编接下来……",
       "topics": [
-        "算力芯片"
+        "产品应用",
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 86,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2588,20 +2590,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能向-规模",
-      "title": "人工智能向，规模",
-      "url": "https://the-decoder.com/making-ai-chatbots-helpful-weakens-their-ability-to-simulate-human-behavior-large-scale-study-finds/",
+      "id": "the-decoder-75-十亿人工智能数据中心在",
+      "title": "75 十亿人工智能数据中心在",
+      "url": "https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-30T12:44:12.000Z",
-      "summary": "规模 208，000 和 26 百万训练转化语言模型进入向。借助新模型，模型，带来帮助面向。人工智能向，规模首个在人工智能解码媒体。",
+      "publishedAt": "2026-05-31T08:45:46.000Z",
+      "summary": "向构建人工智能数据中心借助向 5 在，公司人工智能基础设施投资在，在向 75 十亿。由 2031，值得 45 十亿向在在。持续，向。75 十亿人工智能数据中心在首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "投融资"
       ],
-      "heat": 54,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2672,17 +2674,17 @@
       "image": "https://media.wired.com/photos/6a15cbcd37553f2c38327fce/master/pass/2278118480"
     },
     {
-      "id": "ithome-消息称豆包预计在-6-月下旬正式上线付费内容-并加速打通抖音电商",
-      "title": "消息称豆包预计在 6 月下旬正式上线付费内容，并加速打通抖音电商",
-      "url": "https://www.ithome.com/0/958/386.htm",
+      "id": "ithome-庆祝玩家国度诞生二十周年-华硕推出-20-系列硬件",
+      "title": "庆祝玩家国度诞生二十周年，华硕推出 20 系列硬件",
+      "url": "https://www.ithome.com/0/958/396.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T10:45:07.000Z",
-      "summary": "科技之家 6 月 1 日消息，据 36 氪今日消息，知情人士透露，豆包预计将在 6 月下旬正式上线付费内容，并于同期举行的大会上更新相关功能。之所以选择这一时间节点，是因为电脑端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。报道称若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。这些动作，皆是为了面向 ……",
+      "publishedAt": "2026-06-01T11:15:44.000Z",
+      "summary": "科技之家 6 月 1 日消息，华硕 () 今日在 2026 展前记者会上正式揭晓 20 系列新品。该系列产品配色融合影曜黑、红、澈影透、矅金光，形成独特“黑透金”视觉效果。1、相关型号 20 作为此次的主打主板产品，相关型号 20 搭载 24+2+2 相供电，可扩展出 9 个相关型号盘位，最多拥有 26 个通用串行总线接口。此外其采用整合式一体式水冷架构，配套采用相关型号相关……",
       "topics": [
-        "产品应用",
+        "算力芯片",
         "端侧智能"
       ],
       "heat": 90,
@@ -2759,21 +2761,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能带来向面向首个时间在",
-      "title": "人工智能带来向面向首个时间在",
-      "url": "https://the-decoder.com/terence-tao-argues-ai-could-bring-division-of-labor-to-math-for-the-first-time-in-history/",
+      "id": "the-decoder-人工智能智能体实际",
+      "title": "人工智能智能体实际",
+      "url": "https://the-decoder.com/ai-search-agents-often-confirm-what-they-already-know-instead-of-actually-researching-the-web/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-30T12:04:25.000Z",
-      "summary": "人工智能重塑研究由面向首个时间，研究向每个，来自问题向。: 人工智能，支持团队，借助面向。人工智能带来向面向首个时间在首个在人工智能解码媒体。",
+      "publishedAt": "2026-05-31T07:48:41.000Z",
+      "summary": "人工智能智能体和月之暗面向研究在基准测试。只是使用向训练。研究在新时间，基准测试呼吁，关于来自 90。模型在记忆，性能和。人工智能智能体实际首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "研究论文",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 59,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2809,21 +2811,20 @@
       "image": "https://media.wired.com/photos/6a15ce296bb944abda95a6f4/master/pass/2277573822"
     },
     {
-      "id": "ithome-普渡机器人新一代相关型号发布-最高-14-千克承重-支持边工作边学习",
-      "title": "普渡机器人新一代相关型号发布：最高 14 千克承重，支持边工作边学习",
-      "url": "https://www.ithome.com/0/958/380.htm",
+      "id": "ithome-闲鱼二手平台惊现陕西历史博物馆镇馆之宝-回应称人工智能误识别图片-不会自动上传用户照片",
+      "title": "闲鱼二手平台惊现陕西历史博物馆镇馆之宝，回应称人工智能误识别图片、不会自动上传用户照片",
+      "url": "https://www.ithome.com/0/958/391.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T10:25:54.000Z",
-      "summary": "科技之家 6 月 1 日消息，普渡机器人今日发布新一代工业级类人形机器人 —— 相关型号。作为面向工业制造场景打造的新一代具身智能机器人，相关型号聚焦工厂真实作业需求，推动工业机器人从固定自动化设备迈向可持续学习、自主进化的工业智能体。据普渡机器人官方介绍，不同于传统工业机器人依赖固定程序与预设流程，相关型号基于 1.0 具身智能大模型构建，能够在真实工业环境中持续理解任务、……",
+      "publishedAt": "2026-06-01T11:01:04.000Z",
+      "summary": "科技之家 6 月 1 日消息，二手交易平台闲鱼因将用户手机内照片“自动上架”一事在近日引发广泛关注。有江苏网友发现其闲鱼账号的待售主页被自动挂出了一件陕西历史博物馆的镇馆之宝“唐鎏金舞马衔杯纹皮囊式银壶”的照片，并标价 6000 元。6 月 1 日，据新黄河大鱼财经报道，针对上述情况，闲鱼方面有关负责人回应记者称，经核查，相关商品系人工智能将图片识别为普通文玩商品，并生成建议……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "监管安全"
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 90,
       "image": ""
     },
     {
