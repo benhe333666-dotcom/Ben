@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-06-01T18:33:40.494Z",
+  "generatedAt": "2026-06-01T19:03:39.808Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-01T19:00:00.000Z",
+  "nextUpdateHint": "2026-06-01T19:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-01T18:19:53.000Z"
+    "latestPublishedAt": "2026-06-01T18:49:53.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 65,
+      "count": 64,
       "heat": 80
     },
     {
       "name": "模型发布",
-      "count": 49,
+      "count": 47,
       "heat": 83
     },
     {
@@ -27,14 +27,14 @@
       "heat": 93
     },
     {
-      "name": "投融资",
-      "count": 20,
-      "heat": 80
+      "name": "人工智能动态",
+      "count": 24,
+      "heat": 68
     },
     {
-      "name": "人工智能动态",
-      "count": 23,
-      "heat": 68
+      "name": "投融资",
+      "count": 19,
+      "heat": 79
     },
     {
       "name": "研究论文",
@@ -63,8 +63,8 @@
     },
     {
       "name": "端侧智能",
-      "count": 8,
-      "heat": 86
+      "count": 7,
+      "heat": 90
     }
   ],
   "sources": [
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-05-29T12:00:00.000Z",
       "latestDisplayedAt": "2026-05-29T12:00:00.000Z"
     },
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-06-01T17:30:00.000Z",
-      "latestDisplayedAt": "2026-06-01T17:30:00.000Z"
+      "latestFetchedAt": "2026-06-01T18:49:53.000Z",
+      "latestDisplayedAt": "2026-06-01T18:49:53.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 4,
+      "itemCount": 5,
       "displayedCount": 2,
-      "latestFetchedAt": "2026-06-01T16:33:59.000Z",
-      "latestDisplayedAt": "2026-06-01T15:00:48.000Z"
+      "latestFetchedAt": "2026-06-01T18:41:40.000Z",
+      "latestDisplayedAt": "2026-06-01T18:41:40.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -336,8 +336,8 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-06-01T18:15:09.000Z",
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-06-01T18:55:54.000Z",
       "latestDisplayedAt": "2026-06-01T18:15:09.000Z"
     },
     {
@@ -488,6 +488,38 @@
   "failures": [],
   "items": [
     {
+      "id": "towards-data-science-检索增强生成机器学习-和解决问题",
+      "title": "检索增强生成机器学习，和解决问题",
+      "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T18:49:53.000Z",
+      "summary": "企业智能 #3，为什么，训练，解决问题，和向使用检索增强生成机器学习，和解决问题首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://www.wired.com/2008/11/sec-charges-mar/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T18:41:40.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-访问风险在首次公开募股",
       "title": "访问风险在首次公开募股",
       "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
@@ -500,7 +532,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -534,23 +566,6 @@
         "机器人"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向克劳德模型代码和智能编程工具面向编程驱动",
-      "title": "向克劳德模型代码和智能编程工具面向编程驱动",
-      "url": "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T17:30:00.000Z",
-      "summary": "最编程模型向编程向克劳德模型代码和智能编程工具面向编程驱动首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -618,23 +633,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://news.ycombinator.com/item?id=48357725",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T15:00:48.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
+      "heat": 88,
       "image": ""
     },
     {
@@ -716,7 +715,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -748,7 +747,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -782,7 +781,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -919,6 +918,23 @@
       "image": "https://external-preview.redd.it/7CQdBk7senvXvnDSOxfEsD4KJloO6dfXYiT7NGJIrA4.jpeg?width=640&crop=smart&auto=webp&s=a98a77bcecb134447750f97f4f32a5c5a1d00438"
     },
     {
+      "id": "towards-data-science-向克劳德模型代码和智能编程工具面向编程驱动",
+      "title": "向克劳德模型代码和智能编程工具面向编程驱动",
+      "url": "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T17:30:00.000Z",
+      "summary": "最编程模型向编程向克劳德模型代码和智能编程工具面向编程驱动首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "the-decoder-生成式人工智能科学",
       "title": "生成式人工智能科学",
       "url": "https://the-decoder.com/turing-award-winner-richard-sutton-says-pure-generative-ai-cant-do-real-science/",
@@ -965,7 +981,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -982,23 +998,6 @@
         "产品应用"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T13:30:00.000Z",
-      "summary": "研究在人工智能信息技术我们，信息技术？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 90,
       "image": ""
     },
     {
@@ -1047,7 +1046,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1081,7 +1080,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1097,7 +1096,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1312,7 +1311,7 @@
         "模型发布",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1346,7 +1345,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1365,6 +1364,23 @@
         "多模态"
       ],
       "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T13:30:00.000Z",
+      "summary": "研究在人工智能信息技术我们，信息技术？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -1417,7 +1433,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1484,23 +1500,6 @@
         "算力芯片"
       ],
       "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-元认知调节可能最重要人工智能技能很少有人讨论关于",
-      "title": "元认知调节可能最重要人工智能技能很少有人讨论关于",
-      "url": "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-30T17:00:00.000Z",
-      "summary": "作为人工智能更智能，顺利认为。元认知调节可能最重要人工智能技能很少有人讨论关于首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 53,
       "image": ""
     },
     {
@@ -1652,7 +1651,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1686,7 +1685,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1826,6 +1825,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-元认知调节可能最重要人工智能技能很少有人讨论关于",
+      "title": "元认知调节可能最重要人工智能技能很少有人讨论关于",
+      "url": "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-05-30T17:00:00.000Z",
+      "summary": "作为人工智能更智能，顺利认为。元认知调节可能最重要人工智能技能很少有人讨论关于首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 53,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-智能体-自然语言处理方向研究",
       "title": "论文新进展：智能体、自然语言处理方向研究",
       "url": "https://arxiv.org/abs/2605.31581v1",
@@ -1858,22 +1874,6 @@
         "研究论文"
       ],
       "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-检索增强生成消耗资金-构建成本控制层向修复信息技术",
-      "title": "检索增强生成消耗资金，构建成本控制层向修复信息技术",
-      "url": "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-29T16:30:00.000Z",
-      "summary": "最检索增强生成面向答案质量，成本，和。在，成本控制层，词元，和，85% 在大语言模型成本答案质量。检索增强生成消耗资金，构建成本控制层向修复信息技术首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -1960,24 +1960,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-为什么我们构建-面向-人工智能",
-      "title": "为什么我们构建 : 面向，人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1ttw9vb/why_we_are_building_eve_without_vcs_the_case_for/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T15:48:03.000Z",
-      "summary": "社区论坛，每个重要人工智能实验室向构建。在，人工智能，模型接口，和。人工智能向和。我们构建我们未来人工智能向，人工智能大语言模型进入单个。单个模型，使用，智能体向，代码，和解决问题。: : 由。我们融资，词元，和。我们，和，:，在首个，和向探索和任务。: 代码，和扩展在，和向时间。我们在。通用人工智能这里。我们交付和单个。人工智能和向构建向，查看和查看本地向由由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 93,
-      "image": ""
-    },
-    {
       "id": "ithome-惠普推出迷你主机-英特尔酷睿-3-处理器-支持雷电共享功能",
       "title": "惠普推出迷你主机：英特尔酷睿 3 处理器，支持雷电共享功能",
       "url": "https://www.ithome.com/0/958/439.htm",
@@ -1992,7 +1974,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2064,7 +2046,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2080,7 +2062,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2114,7 +2096,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/computex-2026-nv-blog-1280x680-1.jpg"
     },
     {
@@ -2130,7 +2112,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2184,20 +2166,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-五个问题关于-时间序列基础模型",
-      "title": "五个问题关于，时间序列基础模型",
-      "url": "https://towardsdatascience.com/five-questions-about-chronos-2-the-time-series-foundation-model/",
+      "id": "towards-data-science-检索增强生成消耗资金-构建成本控制层向修复信息技术",
+      "title": "检索增强生成消耗资金，构建成本控制层向修复信息技术",
+      "url": "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T12:00:00.000Z",
-      "summary": "部件 1:，和。五个问题关于，时间序列基础模型首个在数据科学实战社区。",
+      "publishedAt": "2026-05-29T16:30:00.000Z",
+      "summary": "最检索增强生成面向答案质量，成本，和。在，成本控制层，词元，和，85% 在大语言模型成本答案质量。检索增强生成消耗资金，构建成本控制层向修复信息技术首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2369,7 +2350,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2385,7 +2366,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2456,21 +2437,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-基础设施本地大语言模型智能体实际",
-      "title": "基础设施本地大语言模型智能体实际",
-      "url": "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
+      "id": "towards-data-science-五个问题关于-时间序列基础模型",
+      "title": "五个问题关于，时间序列基础模型",
+      "url": "https://towardsdatascience.com/five-questions-about-chronos-2-the-time-series-foundation-model/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-28T15:00:00.000Z",
-      "summary": "来自构建，智能体借助本地打开，模型，和，上下文基础设施基础设施本地大语言模型智能体实际首个在数据科学实战社区。",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "summary": "部件 1:，和。五个问题关于，时间序列基础模型首个在数据科学实战社区。",
       "topics": [
         "模型发布",
-        "产品应用",
-        "端侧智能"
+        "产品应用"
       ],
-      "heat": 58,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2588,7 +2568,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2624,7 +2604,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2776,7 +2756,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2845,6 +2825,22 @@
         "人工智能动态"
       ],
       "heat": 50,
+      "image": ""
+    },
+    {
+      "id": "openai-news-思科和开放人工智能公司重新定义企业工程借助智能编程工具",
+      "title": "思科和开放人工智能公司重新定义企业工程借助智能编程工具",
+      "url": "https://openai.com/index/cisco",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-05-27T11:00:00.000Z",
+      "summary": "思科和开放人工智能公司企业工程借助智能编程工具，帮助思科规模人工智能原生，加速人工智能，和自动化。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 63,
       "image": ""
     }
   ]
