@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T22:13:13.071Z",
+  "generatedAt": "2026-06-02T22:26:45.474Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-06-02T22:30:00.000Z",
   "stats": {
@@ -8,7 +8,7 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-02T21:55:23.000Z"
+    "latestPublishedAt": "2026-06-02T22:00:58.000Z"
   },
   "topics": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "监管安全",
-      "count": 34,
+      "count": 35,
       "heat": 85
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 20,
+      "count": 21,
       "heat": 89
     },
     {
@@ -43,13 +43,13 @@
     },
     {
       "name": "人工智能动态",
-      "count": 20,
-      "heat": 70
+      "count": 19,
+      "heat": 71
     },
     {
       "name": "投融资",
       "count": 15,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "开源生态",
@@ -161,8 +161,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-02T19:00:08.000Z",
-      "latestDisplayedAt": "2026-06-02T19:00:08.000Z"
+      "latestFetchedAt": "2026-06-02T22:00:58.000Z",
+      "latestDisplayedAt": "2026-06-02T22:00:58.000Z"
     },
     {
       "id": "microsoft-ai-blog",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 6,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 6,
       "latestFetchedAt": "2026-06-01T17:59:46.000Z",
       "latestDisplayedAt": "2026-06-01T17:59:46.000Z"
@@ -488,6 +488,23 @@
   "failures": [],
   "items": [
     {
+      "id": "nvidia-blog-软件构建保障安全-人工智能工程师借助英伟达",
+      "title": "软件构建保障安全，人工智能工程师借助英伟达",
+      "url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T22:00:58.000Z",
+      "summary": "加速，仿真来自向。在，向，工作流 :，仿真和，作为顺利作为和。在在，英伟达和软件 …",
+      "topics": [
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-1.jpg"
+    },
+    {
       "id": "reddit-artificial-人工智能图像面向",
       "title": "人工智能图像面向？",
       "url": "https://www.reddit.com/r/artificial/comments/1tv5i4a/whats_the_best_ai_image_generator_for_fine_art/",
@@ -536,24 +553,6 @@
       ],
       "heat": 88,
       "image": ""
-    },
-    {
-      "id": "nvidia-blog-英伟达合作伙伴借助微软在面向人工智能-来自视窗系统向云服务向本地",
-      "title": "英伟达合作伙伴借助微软在面向人工智能，来自视窗系统向云服务向本地",
-      "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T19:00:08.000Z",
-      "summary": "人工智能时刻，交付在模型。信息技术，保障安全，数据和模型面向推理能力。英伟达和微软带来向开发者视窗系统，云服务和本地。在微软构建，英伟达 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-corp-blog-microsoft-1280x680-4999350.png"
     },
     {
       "id": "hacker-news-ai-推出-人工智能面向承包商",
@@ -750,7 +749,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -767,7 +766,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -819,7 +818,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -853,7 +852,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
@@ -919,7 +918,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -955,6 +954,24 @@
       ],
       "heat": 93,
       "image": ""
+    },
+    {
+      "id": "nvidia-blog-英伟达合作伙伴借助微软在面向人工智能-来自视窗系统向云服务向本地",
+      "title": "英伟达合作伙伴借助微软在面向人工智能，来自视窗系统向云服务向本地",
+      "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T19:00:08.000Z",
+      "summary": "人工智能时刻，交付在模型。信息技术，保障安全，数据和模型面向推理能力。英伟达和微软带来向开发者视窗系统，云服务和本地。在微软构建，英伟达 …",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-corp-blog-microsoft-1280x680-4999350.png"
     },
     {
       "id": "the-verge-ai-微软首个高级推理能力人工智能这里",
@@ -1125,22 +1142,6 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-为什么在基础模型向构建智能",
-      "title": "为什么在基础模型向构建智能",
-      "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T06:00:36.000Z",
-      "summary": "构建人工智能: 模型，模型，和风险。任务，模型，信息技术由。来自。作为企业持续，…",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 79,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/fsi-press-new-payments-kv-1920x1080-5150250-1.jpg"
-    },
-    {
       "id": "towards-data-science-检索增强生成机器学习-和解决问题",
       "title": "检索增强生成机器学习，和解决问题",
       "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
@@ -1171,7 +1172,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1404,7 +1405,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1440,7 +1441,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1475,7 +1476,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1495,22 +1496,20 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-英伟达带来人工智能向",
-      "title": "英伟达带来人工智能向",
-      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "id": "nvidia-blog-为什么在基础模型向构建智能",
+      "title": "为什么在基础模型向构建智能",
+      "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-02T02:00:40.000Z",
-      "summary": "人工智能得到。在在，英伟达宣布英伟达 7.2 和英伟达支持在英伟达。7.2 带来人工智能技能，支持，英伟达 13 在英伟达，性能在 32 吉字节和图形处理器支持在英伟达 …",
+      "publishedAt": "2026-06-02T06:00:36.000Z",
+      "summary": "构建人工智能: 模型，模型，和风险。任务，模型，信息技术由。来自。作为企业持续，…",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
+        "模型发布"
       ],
-      "heat": 94,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/robotics-press-jetson-agentic-ready-cptx26-1920x1080-5180550.jpg"
+      "heat": 79,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/fsi-press-new-payments-kv-1920x1080-5150250-1.jpg"
     },
     {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-模型评测-知识工程方向研究",
@@ -1527,7 +1526,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1562,7 +1561,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1578,7 +1577,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1697,7 +1696,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1785,7 +1784,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1836,8 +1835,26 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
+    },
+    {
+      "id": "nvidia-blog-英伟达带来人工智能向",
+      "title": "英伟达带来人工智能向",
+      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T02:00:40.000Z",
+      "summary": "人工智能得到。在在，英伟达宣布英伟达 7.2 和英伟达支持在英伟达。7.2 带来人工智能技能，支持，英伟达 13 在英伟达，性能在 32 吉字节和图形处理器支持在英伟达 …",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 93,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/robotics-press-jetson-agentic-ready-cptx26-1920x1080-5180550.jpg"
     },
     {
       "id": "openai-news-智能编程工具工具面向",
@@ -1872,7 +1889,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1892,24 +1909,6 @@
       ],
       "heat": 76,
       "image": ""
-    },
-    {
-      "id": "nvidia-blog-英伟达人工智能云服务生态扩展向全球人工智能需求",
-      "title": "英伟达人工智能云服务生态扩展向全球人工智能需求",
-      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-01T05:00:56.000Z",
-      "summary": "英伟达人工智能云服务生态全球人工智能基础设施。合作伙伴向需求来自，创业公司，人工智能实验室和开发者人工智能。英伟达人工智能生态，构建词元需求最人工智能。…",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 76,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/partner-social-ncp-ai-factory-announcement-1920x1080-1.jpg"
     },
     {
       "id": "huggingface-blog-英伟达-3-首个打开-模型面向人工智能推理能力和",
@@ -2026,7 +2025,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2197,7 +2196,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2232,24 +2231,26 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
-      "id": "nvidia-blog-英伟达新人工智能",
-      "title": "英伟达新人工智能",
-      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+      "id": "nvidia-blog-英伟达人工智能云服务生态扩展向全球人工智能需求",
+      "title": "英伟达人工智能云服务生态扩展向全球人工智能需求",
+      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-01T05:00:47.000Z",
-      "summary": "作为来自向智能，人工智能实时，质量，和运营进入决策。在在，英伟达宣布英伟达，面向构建 …",
+      "publishedAt": "2026-06-01T05:00:56.000Z",
+      "summary": "英伟达人工智能云服务生态全球人工智能基础设施。合作伙伴向需求来自，创业公司，人工智能实验室和开发者人工智能。英伟达人工智能生态，构建词元需求最人工智能。…",
       "topics": [
-        "算力芯片"
+        "产品应用",
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 66,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/robotics-factory-ai-computer-1280x680-5259650.jpg"
+      "heat": 76,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/partner-social-ncp-ai-factory-announcement-1920x1080-1.jpg"
     },
     {
       "id": "towards-data-science-检索增强生成消耗资金-构建成本控制层向修复信息技术",
@@ -2484,7 +2485,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2519,7 +2520,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2557,21 +2558,20 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-人工智能基础设施借助英伟达",
-      "title": "人工智能基础设施借助英伟达",
-      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+      "id": "nvidia-blog-英伟达新人工智能",
+      "title": "英伟达新人工智能",
+      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-01T05:00:41.000Z",
-      "summary": "向 500 英伟达生态合作伙伴。1 百万英伟达面向英伟达基础设施在，来自 25。作为进入向驱动人工智能工厂，生态，来自 …",
+      "publishedAt": "2026-06-01T05:00:47.000Z",
+      "summary": "作为来自向智能，人工智能实时，质量，和运营进入决策。在在，英伟达宣布英伟达，面向构建 …",
       "topics": [
-        "产品应用",
         "算力芯片"
       ],
-      "heat": 71,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/Taiwan-AI-Infra-blog-KV-still.jpg"
+      "heat": 66,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/robotics-factory-ai-computer-1280x680-5259650.jpg"
     },
     {
       "id": "wired-ai-伊利诺伊州立法者只是通过美国最严格人工智能安全法案",
@@ -2809,7 +2809,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2827,24 +2827,25 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "nvidia-blog-3-帮助人工智能认为信息技术",
-      "title": "3 帮助人工智能认为信息技术",
-      "url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
+      "id": "nvidia-blog-人工智能基础设施借助英伟达",
+      "title": "人工智能基础设施借助英伟达",
+      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-01T04:45:07.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "publishedAt": "2026-06-01T05:00:41.000Z",
+      "summary": "向 500 英伟达生态合作伙伴。1 百万英伟达面向英伟达基础设施在，来自 25。作为进入向驱动人工智能工厂，生态，来自 …",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 58,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/Featured-image.png"
+      "heat": 71,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/Taiwan-AI-Infra-blog-KV-still.jpg"
     },
     {
       "id": "wired-ai-谷歌和苹果研究推出创业公司向构建人工智能",
