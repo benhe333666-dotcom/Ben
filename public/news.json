@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-06-03T11:44:31.412Z",
+  "generatedAt": "2026-06-03T12:14:58.070Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-03T12:00:00.000Z",
+  "nextUpdateHint": "2026-06-03T12:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-03T11:39:32.000Z"
+    "latestPublishedAt": "2026-06-03T12:04:56.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 70,
+      "count": 69,
       "heat": 85
     },
     {
       "name": "模型发布",
-      "count": 43,
+      "count": 42,
       "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 34,
-      "heat": 84
+      "count": 33,
+      "heat": 83
     },
     {
       "name": "研究论文",
@@ -33,7 +33,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 22,
+      "count": 21,
       "heat": 90
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "name": "机器人",
-      "count": 6,
+      "count": 7,
       "heat": 85
     }
   ],
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-06-02T14:13:23.000Z",
       "latestDisplayedAt": "2026-06-02T14:13:23.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
+      "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-05-28T21:29:43.000Z",
       "latestDisplayedAt": "2026-05-28T21:29:43.000Z"
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 5,
-      "latestFetchedAt": "2026-06-02T16:30:00.000Z",
-      "latestDisplayedAt": "2026-06-02T16:30:00.000Z"
+      "latestFetchedAt": "2026-06-03T12:00:00.000Z",
+      "latestDisplayedAt": "2026-06-03T12:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-06-02T18:51:09.000Z",
-      "latestDisplayedAt": "2026-06-02T18:51:09.000Z"
+      "latestFetchedAt": "2026-06-03T12:00:18.000Z",
+      "latestDisplayedAt": "2026-06-03T12:00:18.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -366,7 +366,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "This operation was aborted",
       "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-06-02T17:59:17.000Z",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 15,
+      "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-03T11:39:32.000Z",
-      "latestDisplayedAt": "2026-06-03T11:39:32.000Z"
+      "latestFetchedAt": "2026-06-03T12:04:56.000Z",
+      "latestDisplayedAt": "2026-06-03T12:04:56.000Z"
     },
     {
       "id": "ithome",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 20,
+      "itemCount": 21,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-03T11:35:40.000Z",
-      "latestDisplayedAt": "2026-06-03T11:35:40.000Z"
+      "latestFetchedAt": "2026-06-03T11:53:14.000Z",
+      "latestDisplayedAt": "2026-06-03T11:53:14.000Z"
     },
     {
       "id": "oschina",
@@ -488,35 +488,66 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-两连板实益达-间接持有宇树科技约0-01-股权-不涉及机器人业务",
-      "title": "两连板实益达：间接持有宇树科技约0.01%股权，不涉及机器人业务",
-      "url": "https://36kr.com/newsflashes/3837374828529920?f=rss",
+      "id": "thirty-six-kr-宏利香港与阿里云达成战略合作-加速保险业人工智能规模化落地",
+      "title": "宏利香港与阿里云达成战略合作，加速保险业人工智能规模化落地",
+      "url": "https://36kr.com/newsflashes/3837399803906569?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:39:32.000Z",
-      "summary": "36氪获悉，实益达公告，针对网络上提及公司间接投资了宇树科技，关于此项投资事项，具体情况说明如下：公司全资子公司持有浙江容腾创业投资合伙企业（有限合伙）（简称“容腾”）0.8333%股权，容腾持有宇树科技1.1868%股权，股权穿透后，公司持有宇树科技约0.01%股权，公司持股比例较低。宇树科技不属于公司合并报表范围，公司（含合并报表范围内的控股公司）目前不涉及机器人业务。",
+      "publishedAt": "2026-06-03T12:04:56.000Z",
+      "summary": "36氪获悉，6月2日，宏利旗下宏利人寿保险（国际）有限公司与阿里云智能集团在香港签署战略合作备忘录。未来，双方将围绕保险业务全场景，加速人工智能技术的规模化应用，共同探索保险行业智能化升级新路径。",
       "topics": [
-        "投融资",
-        "机器人"
+        "产品应用"
       ],
-      "heat": 93,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "ithome-比亚迪入局人形机器人-若认为能走向家庭-就通过经销商网络开卖",
-      "title": "比亚迪入局人形机器人：若认为能走向家庭，就通过经销商网络开卖",
-      "url": "https://www.ithome.com/0/959/531.htm",
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://news.ycombinator.com/item?id=48382853",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T12:00:18.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-人工智能智能体在",
+      "title": "人工智能智能体在",
+      "url": "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "summary": "向规则持续智能体和人工智能智能体在首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "ithome-何小鹏回应海外热度-未公布定价已获中东千辆盲订-全球相关型号自动驾驶明年相关型号实施",
+      "title": "何小鹏回应海外热度：未公布定价已获中东千辆盲订，全球相关型号自动驾驶明年相关型号实施",
+      "url": "https://www.ithome.com/0/959/535.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:35:40.000Z",
-      "summary": "科技之家 6 月 3 日消息，据第一财经，比亚迪集团执行副总裁李柯在一档访谈节目中明确表示：“比亚迪也在开发人形机器人。机器人的竞争在于谁有最强的制造能力、软件和硬件，而汽车相关人工智能能力与机器人有同源性，如果有一天我们认为机器人可以走向家庭，就可以通过经销商网络售卖比亚迪的机器人。” 李柯提到，比亚迪可以做一个开放的平台，既可以是比亚迪自己做机器人，也可以是跟其他企业合作……",
+      "publishedAt": "2026-06-03T11:53:14.000Z",
+      "summary": "科技之家 6 月 3 日消息，今日晚间，小鹏集团董事长、首席执行官何小鹏现身小鹏智造工厂直播间，就新车上市及交付等相关问题与网友进行交流。在直播中，何小鹏透露，小鹏在海外市场的关注度超出预期，自北京车展首次公开亮相以来，该车型在未公布任何海外定价的情况下，已获得来自以中东为代表的海外市场共计 1000 笔盲订订单。何小鹏表示，海外至少四大区域都对这款车型存在需求，当前的重点是……",
       "topics": [
-        "算力芯片",
-        "机器人"
+        "模型发布",
+        "产品应用"
       ],
       "heat": 99,
       "image": ""
@@ -551,7 +582,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -568,7 +599,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -652,7 +683,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -668,7 +699,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -723,22 +754,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-1.jpg"
     },
     {
-      "id": "hacker-news-ai-推出-人工智能面向承包商",
-      "title": "推出 :，人工智能面向承包商",
-      "url": "https://news.ycombinator.com/item?id=48374528",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T18:51:09.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-多模态-模型评测-自然语言处理方向研究",
       "title": "论文新进展：大语言模型、多模态、模型评测、自然语言处理方向研究",
       "url": "https://arxiv.org/abs/2606.03988v1",
@@ -788,23 +803,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:30:00.000Z",
-      "summary": "向构建。向，和实际代码。首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 73,
+      "heat": 81,
       "image": ""
     },
     {
@@ -907,38 +906,36 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GR_at_IO_hero.png"
     },
     {
-      "id": "thirty-six-kr-高德纳-到2026年-75-的新增风险投资将流向人工智能原生公司",
-      "title": "高德纳：到2026年，75%的新增风险投资将流向人工智能原生公司",
-      "url": "https://36kr.com/newsflashes/3837369693341961?f=rss",
+      "id": "thirty-six-kr-胜通能源-要约收购已完成-控股股东变更为七腾机器人",
+      "title": "胜通能源：要约收购已完成，控股股东变更为七腾机器人",
+      "url": "https://36kr.com/newsflashes/3837392726067461?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:34:18.000Z",
-      "summary": "36氪获悉，近日，高德纳 2026大中华区科技行业高管交流大会在上海举办。会上，高德纳研究副总裁孙志勇发表《不可不知的中国五大科技与创新趋势》演讲，提出人工智能原生、智能体驱动的新生态、智能体产出即服务、人工智能隐私计算、具身智能五大趋势。高德纳预测，到2026年，75%的新增风险投资将流向人工智能原生公司。",
+      "publishedAt": "2026-06-03T11:57:44.000Z",
+      "summary": "36氪获悉，胜通能源公告，七腾机器人有限公司要约收购公司股份已全部完成过户，公司控股股东变更为七腾机器人，实际控制人变更为朱冬。截至公告披露日，七腾机器人及其一致行动人合计持有公司1.27亿股股份，占上市公司总股本的44.8441%。",
       "topics": [
-        "产品应用",
-        "研究论文",
-        "投融资"
+        "机器人"
       ],
-      "heat": 98,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "ithome-猫头鹰推出旗下首款水冷散热器-240-毫米起价-219-9-欧元-最高提供-420-毫米版本可选",
-      "title": "猫头鹰推出旗下首款水冷散热器：240 毫米起价 219.9 欧元，最高提供 420 毫米版本可选",
-      "url": "https://www.ithome.com/0/959/530.htm",
+      "id": "ithome-比亚迪入局人形机器人-若认为能走向家庭-就通过经销商网络开卖",
+      "title": "比亚迪入局人形机器人：若认为能走向家庭，就通过经销商网络开卖",
+      "url": "https://www.ithome.com/0/959/531.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:31:05.000Z",
-      "summary": "科技之家 6 月 3 日消息，据等多个媒体报道，猫头鹰（）在 2026 上正式推出了其首款一体式水冷散热器，同时展示了下一代风冷散热器、工作站散热器，以及多款联名产品。猫头鹰相关型号系列水冷将于 6 月 16 日在欧洲上市，提供 240 毫米、360 毫米和 420 毫米三种规格，定价分别为 219.90 欧元（科技之家注：现汇率约合 1733 元人民币）、249.90 欧元……",
+      "publishedAt": "2026-06-03T11:35:40.000Z",
+      "summary": "科技之家 6 月 3 日消息，据第一财经，比亚迪集团执行副总裁李柯在一档访谈节目中明确表示：“比亚迪也在开发人形机器人。机器人的竞争在于谁有最强的制造能力、软件和硬件，而汽车相关人工智能能力与机器人有同源性，如果有一天我们认为机器人可以走向家庭，就可以通过经销商网络售卖比亚迪的机器人。” 李柯提到，比亚迪可以做一个开放的平台，既可以是比亚迪自己做机器人，也可以是跟其他企业合作……",
       "topics": [
         "算力芯片",
-        "端侧智能"
+        "机器人"
       ],
-      "heat": 92,
+      "heat": 99,
       "image": ""
     },
     {
@@ -972,7 +969,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -988,7 +985,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1006,7 +1003,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1040,7 +1037,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1056,7 +1053,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1072,7 +1069,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": "https://media.wired.com/photos/6a1f478c129210b5a418cdf8/master/pass/British-MPs-Warn-Dangers-of-Palantir-Business.jpg"
     },
     {
@@ -1106,7 +1103,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-corp-blog-microsoft-1280x680-4999350.png"
     },
     {
@@ -1163,6 +1160,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-02T16:30:00.000Z",
+      "summary": "向构建。向，和实际代码。首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 72,
+      "image": ""
+    },
+    {
       "id": "openai-news-智能编程工具面向每个-工具-和工作流",
       "title": "智能编程工具面向每个，工具，和工作流",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
@@ -1175,7 +1188,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1193,22 +1206,6 @@
         "研究论文"
       ],
       "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-检索增强生成机器学习-和解决问题",
-      "title": "检索增强生成机器学习，和解决问题",
-      "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-01T18:49:53.000Z",
-      "summary": "企业智能 #3，为什么，训练，解决问题，和向使用检索增强生成机器学习，和解决问题首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 54,
       "image": ""
     },
     {
@@ -1261,36 +1258,37 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Private_analytics_via_zero-trust_aggregation_hero_1.png"
     },
     {
-      "id": "ithome-阅文集团约-4-亿元增持艺画开天-28-22-股权-持股比例将升至-59-7",
-      "title": "阅文集团约 4 亿元增持艺画开天 28.22% 股权，持股比例将升至 59.7%",
-      "url": "https://www.ithome.com/0/959/529.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T11:21:23.000Z",
-      "summary": "科技之家 6 月 3 日消息，阅文集团于 6 月 2 日晚在港交所发布关联交易公告，拟以约人民币 4 亿元战略投资艺画开天 28.22% 股权。公告发布时，阅文集团持有艺画开天约 31.48% 股权；交易完成后，持股比例将升至 59.7%。科技之家注：艺画开天成立于 2015 年，主营动画及游戏内容开发与运营，持有核心 《灵笼》。公告指出，艺画开天与阅文在价值链中具备垂直互补……",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-豆包-对于广大用户日常使用的豆包功能-将保持目前的免费服务",
-      "title": "豆包：对于广大用户日常使用的豆包功能，将保持目前的免费服务",
-      "url": "https://36kr.com/newsflashes/3837352575481223?f=rss",
+      "id": "thirty-six-kr-两连板实益达-间接持有宇树科技约0-01-股权-不涉及机器人业务",
+      "title": "两连板实益达：间接持有宇树科技约0.01%股权，不涉及机器人业务",
+      "url": "https://36kr.com/newsflashes/3837374828529920?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:16:54.000Z",
-      "summary": "36氪获悉，豆包发布《关于豆包即将推出专业版的说明》。一、针对专业人群的生产力需求，豆包计划推出豆包专业版，将包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。二、对于广大用户日常使用的豆包功能，包含搜索问答、写作生图、以及语音和视频对话等，我们将保持目前的免费服务，保证用户使用体验和习惯不受影响。我们也会不断为免费用户提供新的模型、能力和更好的体验……",
+      "publishedAt": "2026-06-03T11:39:32.000Z",
+      "summary": "36氪获悉，实益达公告，针对网络上提及公司间接投资了宇树科技，关于此项投资事项，具体情况说明如下：公司全资子公司持有浙江容腾创业投资合伙企业（有限合伙）（简称“容腾”）0.8333%股权，容腾持有宇树科技1.1868%股权，股权穿透后，公司持有宇树科技约0.01%股权，公司持股比例较低。宇树科技不属于公司合并报表范围，公司（含合并报表范围内的控股公司）目前不涉及机器人业务。",
       "topics": [
-        "研究论文",
-        "多模态"
+        "投融资",
+        "机器人"
       ],
       "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "ithome-猫头鹰推出旗下首款水冷散热器-240-毫米起价-219-9-欧元-最高提供-420-毫米版本可选",
+      "title": "猫头鹰推出旗下首款水冷散热器：240 毫米起价 219.9 欧元，最高提供 420 毫米版本可选",
+      "url": "https://www.ithome.com/0/959/530.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T11:31:05.000Z",
+      "summary": "科技之家 6 月 3 日消息，据等多个媒体报道，猫头鹰（）在 2026 上正式推出了其首款一体式水冷散热器，同时展示了下一代风冷散热器、工作站散热器，以及多款联名产品。猫头鹰相关型号系列水冷将于 6 月 16 日在欧洲上市，提供 240 毫米、360 毫米和 420 毫米三种规格，定价分别为 219.90 欧元（科技之家注：现汇率约合 1733 元人民币）、249.90 欧元……",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -1359,7 +1357,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1394,7 +1392,7 @@
         "投融资",
         "开源生态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1411,7 +1409,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1464,7 +1462,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1480,7 +1478,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1512,24 +1510,23 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/fsi-press-new-payments-kv-1920x1080-5150250-1.jpg"
     },
     {
-      "id": "towards-data-science-向克劳德模型代码和智能编程工具面向编程驱动",
-      "title": "向克劳德模型代码和智能编程工具面向编程驱动",
-      "url": "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
+      "id": "towards-data-science-检索增强生成机器学习-和解决问题",
+      "title": "检索增强生成机器学习，和解决问题",
+      "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-01T17:30:00.000Z",
-      "summary": "最编程模型向编程向克劳德模型代码和智能编程工具面向编程驱动首个在数据科学实战社区。",
+      "publishedAt": "2026-06-01T18:49:53.000Z",
+      "summary": "企业智能 #3，为什么，训练，解决问题，和向使用检索增强生成机器学习，和解决问题首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1598,34 +1595,35 @@
       "image": ""
     },
     {
-      "id": "ithome-豆包-计划针对专业人群生产力需求推出豆包专业版-基础功能保持免费",
-      "title": "豆包：计划针对专业人群生产力需求推出豆包专业版，基础功能保持免费",
-      "url": "https://www.ithome.com/0/959/528.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T11:20:22.000Z",
-      "summary": "科技之家 6 月 3 日消息，3 日（今天）傍晚，豆包通过官方公众号发布《关于豆包即将推出专业版的说明》。科技之家附上声明原文如下：一、针对专业人群的生产力需求，豆包计划推出豆包专业版，将包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。二、对于广大用户日常使用的豆包功能，包含搜索问答、写作生图、以及语音和视频对话等，我们将保持目前的免费服务，保证用……",
-      "topics": [
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-数据港-拟采购不超过8亿元的科学计算设备的算力服务",
-      "title": "数据港：拟采购不超过8亿元的科学计算设备的算力服务",
-      "url": "https://36kr.com/newsflashes/3837332082078855?f=rss",
+      "id": "thirty-six-kr-高德纳-到2026年-75-的新增风险投资将流向人工智能原生公司",
+      "title": "高德纳：到2026年，75%的新增风险投资将流向人工智能原生公司",
+      "url": "https://36kr.com/newsflashes/3837369693341961?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:56:03.000Z",
-      "summary": "36氪获悉，数据港公告，公司拟采购专门用于科学计算设备（非图形处理器设备）的算力服务尚未签署正式采购合同。本次采购金额预计不超过8亿元，旨在落地双轮驱动战略，优化业务结构、提升综合竞争力。",
+      "publishedAt": "2026-06-03T11:34:18.000Z",
+      "summary": "36氪获悉，近日，高德纳 2026大中华区科技行业高管交流大会在上海举办。会上，高德纳研究副总裁孙志勇发表《不可不知的中国五大科技与创新趋势》演讲，提出人工智能原生、智能体驱动的新生态、智能体产出即服务、人工智能隐私计算、具身智能五大趋势。高德纳预测，到2026年，75%的新增风险投资将流向人工智能原生公司。",
       "topics": [
-        "算力芯片"
+        "产品应用",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "ithome-阅文集团约-4-亿元增持艺画开天-28-22-股权-持股比例将升至-59-7",
+      "title": "阅文集团约 4 亿元增持艺画开天 28.22% 股权，持股比例将升至 59.7%",
+      "url": "https://www.ithome.com/0/959/529.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T11:21:23.000Z",
+      "summary": "科技之家 6 月 3 日消息，阅文集团于 6 月 2 日晚在港交所发布关联交易公告，拟以约人民币 4 亿元战略投资艺画开天 28.22% 股权。公告发布时，阅文集团持有艺画开天约 31.48% 股权；交易完成后，持股比例将升至 59.7%。科技之家注：艺画开天成立于 2015 年，主营动画及游戏内容开发与运营，持有核心 《灵笼》。公告指出，艺画开天与阅文在价值链中具备垂直互补……",
+      "topics": [
+        "投融资"
       ],
       "heat": 87,
       "image": ""
@@ -1661,7 +1659,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1778,7 +1776,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1795,7 +1793,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1811,7 +1809,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1847,7 +1845,24 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 76,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向克劳德模型代码和智能编程工具面向编程驱动",
+      "title": "向克劳德模型代码和智能编程工具面向编程驱动",
+      "url": "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-01T17:30:00.000Z",
+      "summary": "最编程模型向编程向克劳德模型代码和智能编程工具面向编程驱动首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -1865,23 +1880,6 @@
         "算力芯片"
       ],
       "heat": 63,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-元认知调节可能最重要人工智能技能很少有人讨论关于",
-      "title": "元认知调节可能最重要人工智能技能很少有人讨论关于",
-      "url": "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-05-30T17:00:00.000Z",
-      "summary": "作为人工智能更智能，顺利认为。元认知调节可能最重要人工智能技能很少有人讨论关于首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 53,
       "image": ""
     },
     {
@@ -1933,36 +1931,37 @@
       "image": ""
     },
     {
-      "id": "ithome-内存产业相关型号营收环比增长-81",
-      "title": "内存产业相关型号营收环比增长 81%",
-      "url": "https://www.ithome.com/0/959/525.htm",
+      "id": "ithome-豆包-计划针对专业人群生产力需求推出豆包专业版-基础功能保持免费",
+      "title": "豆包：计划针对专业人群生产力需求推出豆包专业版，基础功能保持免费",
+      "url": "https://www.ithome.com/0/959/528.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:07:11.000Z",
-      "summary": "科技之家 6 月 3 日消息，（集邦咨询）本月 1 日指出，内存产业的整体营收在相关型号环比实现 81.0% 的巨幅增长，总额来到 970 亿美元（科技之家注：现汇率约合 6575.21 亿元人民币）。随着人工智能应用由大语言模型训练逐步转至人工智能推理，云服务供应商正开始加速建设通用型服务器，各容量规格的产品均迎来强劲需求。产能挤占效应导致一般型合约价格加速上涨，单季度几乎……",
+      "publishedAt": "2026-06-03T11:20:22.000Z",
+      "summary": "科技之家 6 月 3 日消息，3 日（今天）傍晚，豆包通过官方公众号发布《关于豆包即将推出专业版的说明》。科技之家附上声明原文如下：一、针对专业人群的生产力需求，豆包计划推出豆包专业版，将包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。二、对于广大用户日常使用的豆包功能，包含搜索问答、写作生图、以及语音和视频对话等，我们将保持目前的免费服务，保证用……",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "研究论文",
+        "多模态"
       ],
       "heat": 92,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-阶跃星辰接连增资",
-      "title": "阶跃星辰接连增资",
-      "url": "https://36kr.com/newsflashes/3837310670451840?f=rss",
+      "id": "thirty-six-kr-豆包-对于广大用户日常使用的豆包功能-将保持目前的免费服务",
+      "title": "豆包：对于广大用户日常使用的豆包功能，将保持目前的免费服务",
+      "url": "https://36kr.com/newsflashes/3837352575481223?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:34:16.000Z",
-      "summary": "36氪获悉天眼查应用显示，近日，上海阶跃星辰智能科技股份有限公司发生工商变更，注册资本由约6052万人民币增至约6362万人民币。该公司成立于2023年4月，法定代表人为印奇，经营范围包括人工智能行业应用系统集成服务、人工智能应用软件开发、信息系统集成服务等。值得一提的是，该公司曾接连增资。",
+      "publishedAt": "2026-06-03T11:16:54.000Z",
+      "summary": "36氪获悉，豆包发布《关于豆包即将推出专业版的说明》。一、针对专业人群的生产力需求，豆包计划推出豆包专业版，将包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。二、对于广大用户日常使用的豆包功能，包含搜索问答、写作生图、以及语音和视频对话等，我们将保持目前的免费服务，保证用户使用体验和习惯不受影响。我们也会不断为免费用户提供新的模型、能力和更好的体验……",
       "topics": [
-        "产品应用"
+        "研究论文",
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1978,7 +1977,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2029,7 +2028,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2099,7 +2098,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2117,7 +2116,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2190,19 +2189,20 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/partner-social-ncp-ai-factory-announcement-1920x1080-1.jpg"
     },
     {
-      "id": "towards-data-science-检索增强生成消耗资金-构建成本控制层向修复信息技术",
-      "title": "检索增强生成消耗资金，构建成本控制层向修复信息技术",
-      "url": "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
+      "id": "towards-data-science-元认知调节可能最重要人工智能技能很少有人讨论关于",
+      "title": "元认知调节可能最重要人工智能技能很少有人讨论关于",
+      "url": "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-05-29T16:30:00.000Z",
-      "summary": "最检索增强生成面向答案质量，成本，和。在，成本控制层，词元，和，85% 在大语言模型成本答案质量。检索增强生成消耗资金，构建成本控制层向修复信息技术首个在数据科学实战社区。",
+      "publishedAt": "2026-05-30T17:00:00.000Z",
+      "summary": "作为人工智能更智能，顺利认为。元认知调节可能最重要人工智能技能很少有人讨论关于首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 48,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2255,20 +2255,36 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-黄仁勋喊话亿万富豪家族-人工智能投资或带来-疯狂-回报-疯子-才会质疑",
-      "title": "黄仁勋喊话亿万富豪家族：人工智能投资或带来“疯狂”回报，“疯子”才会质疑",
-      "url": "https://www.ithome.com/0/959/523.htm",
+      "id": "ithome-内存产业相关型号营收环比增长-81",
+      "title": "内存产业相关型号营收环比增长 81%",
+      "url": "https://www.ithome.com/0/959/525.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:01:52.000Z",
-      "summary": "科技之家 6 月 3 日消息，据彭博社 3 日（今天）下午报道，英伟达首席执行官黄仁勋喊话，押注人工智能热潮的投资者有望获得“疯狂”回报，旨在回应外界对人工智能巨额投入和长期盈利能力的疑虑。2 日晚，黄仁勋在一场闭门活动上面对数百名金融机构和富裕家族办公室代表发表讲话：人工智能已经创造出数万亿美元价值，质疑人工智能回报的人才是“疯狂”的人。“就在过去六个月，（科技之家注：投资……",
+      "publishedAt": "2026-06-03T11:07:11.000Z",
+      "summary": "科技之家 6 月 3 日消息，（集邦咨询）本月 1 日指出，内存产业的整体营收在相关型号环比实现 81.0% 的巨幅增长，总额来到 970 亿美元（科技之家注：现汇率约合 6575.21 亿元人民币）。随着人工智能应用由大语言模型训练逐步转至人工智能推理，云服务供应商正开始加速建设通用型服务器，各容量规格的产品均迎来强劲需求。产能挤占效应导致一般型合约价格加速上涨，单季度几乎……",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-数据港-拟采购不超过8亿元的科学计算设备的算力服务",
+      "title": "数据港：拟采购不超过8亿元的科学计算设备的算力服务",
+      "url": "https://36kr.com/newsflashes/3837332082078855?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T10:56:03.000Z",
+      "summary": "36氪获悉，数据港公告，公司拟采购专门用于科学计算设备（非图形处理器设备）的算力服务尚未签署正式采购合同。本次采购金额预计不超过8亿元，旨在落地双轮驱动战略，优化业务结构、提升综合竞争力。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -2302,7 +2318,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2322,24 +2338,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪独家-火山引擎提升营收目标至全年150亿元-2-0单月营收已超10亿元",
-      "title": "36氪独家，火山引擎提升营收目标至全年150亿元，2.0单月营收已超10亿元",
-      "url": "https://36kr.com/p/3836973710423429?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T05:28:20.000Z",
-      "summary": "文｜邓咏仪编辑｜张雨忻杨轩 36 氪独家获悉，字节跳动火山引擎在今年 4 月已将业务营收目标上调至 150 亿元，且这个营收目标几乎每月都在上调。而在 2025 年底，这一目标还是 100 亿元。36 氪了解到，在 2025 年，火山全年的收入约 15 亿元左右，等于截止目前 2026 年的营收目标是去年实际营收的 10 倍。可以说，火山这一波营收增长几乎都归功于 2.0 的……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-以小博大登顶全球榜单-一款中国世界模型凭什么跑赢谷歌和英伟达",
       "title": "以小博大登顶全球榜单：一款中国世界模型凭什么跑赢谷歌和英伟达？",
       "url": "https://news.cnblogs.com/n/823382/",
@@ -2354,7 +2352,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2422,7 +2420,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2510,18 +2508,18 @@
       "image": "https://media.wired.com/photos/6a0b7d9d4db62c986283e838/master/pass/Business_TheWomenWhoWentonMaternityLeaveandReturnedtoanOfficeReshapedbyAI_v2.jpg"
     },
     {
-      "id": "ithome-撼与双显卡雷电-5-扩展坞亮相-内置超千瓦-3-1-电源",
-      "title": "撼与双显卡雷电 5 扩展坞亮相，内置超千瓦 3.1 电源",
-      "url": "https://www.ithome.com/0/959/518.htm",
+      "id": "ithome-黄仁勋喊话亿万富豪家族-人工智能投资或带来-疯狂-回报-疯子-才会质疑",
+      "title": "黄仁勋喊话亿万富豪家族：人工智能投资或带来“疯狂”回报，“疯子”才会质疑",
+      "url": "https://www.ithome.com/0/959/523.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:51:14.000Z",
-      "summary": "科技之家 6 月 3 日消息，（撼与）在 2026 上展出了多款产品，而其中一款名为的设备吸引了科技之家的注意：仔细观察展板上的小字可以发现，其拥有 2 条插槽，可安装两块显卡，摆脱了传统外置显卡坞仅能容纳单一显卡的限制。此外其支持雷电 5 连接，内置相关型号瓦（可能是 1850 瓦或 1650 瓦） 3.1 电源。其旁边的 850 此前已有过展出。该型号同样支持雷电 5 规……",
+      "publishedAt": "2026-06-03T11:01:52.000Z",
+      "summary": "科技之家 6 月 3 日消息，据彭博社 3 日（今天）下午报道，英伟达首席执行官黄仁勋喊话，押注人工智能热潮的投资者有望获得“疯狂”回报，旨在回应外界对人工智能巨额投入和长期盈利能力的疑虑。2 日晚，黄仁勋在一场闭门活动上面对数百名金融机构和富裕家族办公室代表发表讲话：人工智能已经创造出数万亿美元价值，质疑人工智能回报的人才是“疯狂”的人。“就在过去六个月，（科技之家注：投资……",
       "topics": [
         "算力芯片",
-        "端侧智能"
+        "投融资"
       ],
       "heat": 99,
       "image": ""
@@ -2555,7 +2553,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2577,6 +2575,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-36氪独家-火山引擎提升营收目标至全年150亿元-2-0单月营收已超10亿元",
+      "title": "36氪独家，火山引擎提升营收目标至全年150亿元，2.0单月营收已超10亿元",
+      "url": "https://36kr.com/p/3836973710423429?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T05:28:20.000Z",
+      "summary": "文｜邓咏仪编辑｜张雨忻杨轩 36 氪独家获悉，字节跳动火山引擎在今年 4 月已将业务营收目标上调至 150 亿元，且这个营收目标几乎每月都在上调。而在 2025 年底，这一目标还是 100 亿元。36 氪了解到，在 2025 年，火山全年的收入约 15 亿元左右，等于截止目前 2026 年的营收目标是去年实际营收的 10 倍。可以说，火山这一波营收增长几乎都归功于 2.0 的……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-逗你玩-腾讯大跌-目前无法确定微信人工智能智能体何时推出",
       "title": "逗你玩？腾讯大跌：目前无法确定微信人工智能智能体何时推出",
       "url": "https://news.cnblogs.com/n/823381/",
@@ -2591,24 +2607,6 @@
         "监管安全"
       ],
       "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-深圳具身公司星尘智能完成超10亿第二轮融资融资-估值破百亿-硬氪首发",
-      "title": "深圳具身公司星尘智能完成超10亿第二轮融资融资，估值破百亿｜硬氪首发",
-      "url": "https://36kr.com/p/3836068296209537?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T01:30:00.000Z",
-      "summary": "作者｜黄楠编辑｜袁斯来硬氪获悉，绳驱人工智能机器人公司星尘智能（）近日完成第二轮融资系列融资，三个月内三轮累计融资额超10亿元，投资方包括梁溪科创产业二期母基金（博华资本管理）、扬州龙投芯粒、中博聚力、中科创达、科德教育、某头部上市企业及国科投资等老股东持续追投。目前星尘智能估值已突破百亿元，这也是深圳诞生的又一家具身智能百亿独角兽。此前，公司投资方阵容中已出现了腾讯、阿里、……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 97,
       "image": ""
     },
     {
@@ -2642,7 +2640,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2659,7 +2657,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2748,19 +2746,18 @@
       "image": "https://media.wired.com/photos/6a1769e135f75a644600c4ac/master/pass/Illionois-AI-Safetry-Bill-Business-2270597563.jpg"
     },
     {
-      "id": "ithome-中兴与腾讯达成合作-将发布搭载混元大模型的人工智能云电脑",
-      "title": "中兴与腾讯达成合作，将发布搭载混元大模型的人工智能云电脑",
-      "url": "https://www.ithome.com/0/959/517.htm",
+      "id": "ithome-撼与双显卡雷电-5-扩展坞亮相-内置超千瓦-3-1-电源",
+      "title": "撼与双显卡雷电 5 扩展坞亮相，内置超千瓦 3.1 电源",
+      "url": "https://www.ithome.com/0/959/518.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:38:25.000Z",
-      "summary": "科技之家 6 月 3 日消息，在今天的人工智能云电脑体验日活动中，中兴通讯透露，公司已与腾讯达成深度战略合作，将推出搭载腾讯原生的人工智能云电脑。该产品将融合腾讯云的算力和混元大模型的能力，定位为面向学生、职场人士、小微团队的新一代生产力工具。该活动中，中兴通讯副总裁华新海表示，当前我国家庭电脑拥有率为 67.5%，但 20% 设备长期闲置。云电脑作为共享经济在算力领域的应用……",
+      "publishedAt": "2026-06-03T10:51:14.000Z",
+      "summary": "科技之家 6 月 3 日消息，（撼与）在 2026 上展出了多款产品，而其中一款名为的设备吸引了科技之家的注意：仔细观察展板上的小字可以发现，其拥有 2 条插槽，可安装两块显卡，摆脱了传统外置显卡坞仅能容纳单一显卡的限制。此外其支持雷电 5 连接，内置相关型号瓦（可能是 1850 瓦或 1650 瓦） 3.1 电源。其旁边的 850 此前已有过展出。该型号同样支持雷电 5 规……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
@@ -2779,7 +2776,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2835,19 +2832,19 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪首发-浙大教授团队获财通-商汤投资-做高危场景具身机器人大脑",
-      "title": "36氪首发，浙大教授团队获财通、商汤投资，做高危场景具身机器人大脑",
-      "url": "https://36kr.com/p/3836744788014208?f=rss",
+      "id": "thirty-six-kr-深圳具身公司星尘智能完成超10亿第二轮融资融资-估值破百亿-硬氪首发",
+      "title": "深圳具身公司星尘智能完成超10亿第二轮融资融资，估值破百亿｜硬氪首发",
+      "url": "https://36kr.com/p/3836068296209537?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T01:10:00.000Z",
-      "summary": "作者丨欧雪编辑丨袁斯来硬氪获悉，高危作业领域具身智能公司杭州旷行科技有限公司（以下简称“旷行科技”）近期已完成数千万元市场化第一轮融资（-第一轮融资），由财通资本和商汤国香投资。本轮资金将主要用于算法研发、产品矩阵完善及市场拓展。旷行科技2025年成立于杭州，是一家专注为高危工业工程领域（资源矿山、能源电力、油气化工、交通城建）提供“机器人+人工智能大脑”运维解决方案的具身智……",
+      "publishedAt": "2026-06-03T01:30:00.000Z",
+      "summary": "作者｜黄楠编辑｜袁斯来硬氪获悉，绳驱人工智能机器人公司星尘智能（）近日完成第二轮融资系列融资，三个月内三轮累计融资额超10亿元，投资方包括梁溪科创产业二期母基金（博华资本管理）、扬州龙投芯粒、中博聚力、中科创达、科德教育、某头部上市企业及国科投资等老股东持续追投。目前星尘智能估值已突破百亿元，这也是深圳诞生的又一家具身智能百亿独角兽。此前，公司投资方阵容中已出现了腾讯、阿里、……",
       "topics": [
         "模型发布",
         "产品应用",
-        "监管安全"
+        "算力芯片"
       ],
       "heat": 97,
       "image": ""
