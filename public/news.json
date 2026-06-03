@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-03T17:15:46.799Z",
+  "generatedAt": "2026-06-03T17:45:49.051Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-03T17:30:00.000Z",
+  "nextUpdateHint": "2026-06-03T18:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-03T17:01:46.000Z"
+    "latestPublishedAt": "2026-06-03T17:39:53.000Z"
   },
   "topics": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "模型发布",
-      "count": 43,
+      "count": 44,
       "heat": 85
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "name": "研究论文",
-      "count": 23,
-      "heat": 85
+      "count": 22,
+      "heat": 86
     },
     {
       "name": "算力芯片",
@@ -54,7 +54,7 @@
     {
       "name": "开源生态",
       "count": 10,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "端侧智能",
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 7,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-03T12:55:11.000Z",
       "latestDisplayedAt": "2026-06-03T12:55:11.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 403",
-      "itemCount": 1,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 10,
       "displayedCount": 1,
       "latestFetchedAt": "2026-05-28T21:29:43.000Z",
       "latestDisplayedAt": "2026-05-28T21:29:43.000Z"
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-03T13:40:16.000Z",
-      "latestDisplayedAt": "2026-06-03T13:40:16.000Z"
+      "latestFetchedAt": "2026-06-03T17:20:21.000Z",
+      "latestDisplayedAt": "2026-06-03T17:20:21.000Z"
     },
     {
       "id": "wired-ai",
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 2,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-06-03T16:04:42.000Z",
-      "latestDisplayedAt": "2026-06-03T16:04:42.000Z"
+      "itemCount": 3,
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-06-03T17:39:53.000Z",
+      "latestDisplayedAt": "2026-06-03T17:39:53.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-06-03T17:01:46.000Z",
-      "latestDisplayedAt": "2026-06-03T17:01:46.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-06-03T17:38:38.000Z",
+      "latestDisplayedAt": "2026-06-03T17:38:38.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -382,7 +382,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "This operation was aborted",
+      "fallbackReason": "HTTP 429",
       "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-06-02T17:56:57.000Z",
@@ -488,20 +488,53 @@
   "failures": [],
   "items": [
     {
-      "id": "reddit-artificial-人工智能使用人工智能向论文面向由人工智能",
-      "title": "人工智能使用人工智能向论文面向由人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvvkma/top_ai_conference_uses_ai_detector_to_reject/",
+      "id": "hacker-news-ai-推出-公司面向人工智能智能体和",
+      "title": "推出 :，公司面向人工智能智能体和",
+      "url": "https://news.ycombinator.com/item?id=48387095",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T17:39:53.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-呼吁人工智能智能体和信息技术得到",
+      "title": "呼吁人工智能智能体和信息技术得到",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvwo0t/everything_is_being_called_an_ai_agent_now_and/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T17:01:46.000Z",
-      "summary": "2026 使用人工智能，向论文面向人工智能，政策，在。作者论文由论文进入和人工智能得分，69%，45%，36%，和 24% 人工智能。由",
+      "publishedAt": "2026-06-03T17:38:38.000Z",
+      "summary": "信息技术每个人工智能工具借助和呼吁智能体。信息技术实际，信息技术只是借助访问向工具。认为。工具，助手。智能体向。人工智能，人工智能，人工智能，和人工智能持续任务时间设置在存储桶。面向，实际任务。只是，使用正确工具，和信息技术。信息技术向和只是人工智能借助更好。由",
       "topics": [
-        "监管安全",
-        "研究论文"
+        "产品应用"
       ],
-      "heat": 90,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-新人工智能公司向模型面向政府安全",
+      "title": "新人工智能公司向模型面向政府安全",
+      "url": "https://the-decoder.com/trumps-new-executive-order-wants-ai-companies-to-voluntarily-submit-models-for-government-safety-reviews/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T17:20:21.000Z",
+      "summary": "和向强化借助人工智能工具 30。人工智能开发者模型面向安全，规则。政府在人工智能公司，打开问题。新人工智能公司向模型面向政府安全首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -538,23 +571,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-4-12-十亿-多模态模型",
-      "title": "4 12 十亿:，多模态模型",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T16:04:42.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "模型发布",
-        "多模态"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "ithome-马斯克上市在即-多名白宫官员被曝持股-预计可带来数百万美元账面收益",
       "title": "马斯克上市在即：多名白宫官员被曝持股，预计可带来数百万美元账面收益",
       "url": "https://www.ithome.com/0/959/581.htm",
@@ -584,7 +600,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -641,23 +657,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-宣布人工智能在云服务",
-      "title": "宣布人工智能在云服务",
-      "url": "https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T13:40:16.000Z",
-      "summary": "宣布人工智能模型在借助云服务模型和任务。宣布人工智能在云服务首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "github-changelog-代码托管平台智能编程助手在代码-发布",
       "title": "代码托管平台智能编程助手在代码，发布",
       "url": "https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases",
@@ -705,7 +704,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
     },
     {
@@ -721,7 +720,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -874,7 +873,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -910,6 +909,40 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GR_at_IO_hero.png"
     },
     {
+      "id": "reddit-artificial-人工智能使用人工智能向论文面向由人工智能",
+      "title": "人工智能使用人工智能向论文面向由人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvvkma/top_ai_conference_uses_ai_detector_to_reject/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T17:01:46.000Z",
+      "summary": "2026 使用人工智能，向论文面向人工智能，政策，在。作者论文由论文进入和人工智能得分，69%，45%，36%，和 24% 人工智能。由",
+      "topics": [
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-4-12-十亿-多模态模型",
+      "title": "4 12 十亿:，多模态模型",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T16:04:42.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "模型发布",
+        "多模态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "ithome-拼好饭上-岛-窥屏保护实装等-荣耀相关型号系列手机-10-0-0-160-版本开推",
       "title": "拼好饭上“岛”、窥屏保护实装等：荣耀相关型号系列手机 10.0.0.160 版本开推",
       "url": "https://www.ithome.com/0/959/580.htm",
@@ -926,24 +959,6 @@
       ],
       "heat": 96,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-我们人工智能作为模型规模-低于-3-5-十亿-推理能力和-信息技术-2-论文-7",
-      "title": "我们人工智能作为模型规模。低于 3.5 十亿，推理能力和。信息技术。2 论文 + + 7",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvtbs7/we_measured_how_ai_capabilities_interact_as/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T15:46:51.000Z",
-      "summary": "论文 1: 只是低于规模 ~3.5 十亿面向，推理能力和 : =，0.989。训练模型向更好，和信息技术。规模，信息技术。这里面向 : 规模。信息技术: 数据 : 在 1 十亿 10 十亿，训练。数据质量 ≈ 相关型号模型规模。: 由模型面向。: 在 4 十亿 13 十亿+，训练。~10:1。模型，信息技术训练。实时？内部模型。38，40 模型。在，模型。: 新增真相，在 6……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": "https://preview.redd.it/wgddk465935h1.png?width=640&crop=smart&auto=webp&s=cb0fa278283ccf42c252a96af9905721670f850b"
     },
     {
       "id": "nvidia-blog-英伟达人工智能研究借助智能体技能面向-机器人和视觉人工智能",
@@ -1014,19 +1029,20 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
+      "id": "the-decoder-宣布人工智能在云服务",
+      "title": "宣布人工智能在云服务",
+      "url": "https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T13:33:00.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-03T13:40:16.000Z",
+      "summary": "宣布人工智能模型在借助云服务模型和任务。宣布人工智能在云服务首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1042,7 +1058,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1058,7 +1074,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1077,23 +1093,6 @@
         "监管安全"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-人工智能创业公司向-5-4-十亿重要在",
-      "title": "人工智能创业公司向 $5.4 十亿重要在",
-      "url": "https://the-decoder.com/ai-music-startup-suno-doubles-its-valuation-to-5-4-billion-while-fighting-major-record-labels-in-court/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T11:21:11.000Z",
-      "summary": "人工智能创业公司 $400 百万在 $5.4 十亿。人工智能创业公司向 $5.4 十亿重要在首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 90,
       "image": ""
     },
     {
@@ -1158,7 +1157,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1176,7 +1175,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1245,7 +1244,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1265,20 +1264,22 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "reddit-artificial-帮助借助视频人工智能",
-      "title": "帮助借助视频人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvtb2t/need_help_with_dubbing_a_video_using_ai/",
+      "id": "reddit-artificial-我们人工智能作为模型规模-低于-3-5-十亿-推理能力和-信息技术-2-论文-7",
+      "title": "我们人工智能作为模型规模。低于 3.5 十亿，推理能力和。信息技术。2 论文 + + 7",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvtbs7/we_measured_how_ai_capabilities_interact_as/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T15:46:09.000Z",
-      "summary": "和视频在中国。借助服务向人工智能工具帮助？面向工具由",
+      "publishedAt": "2026-06-03T15:46:51.000Z",
+      "summary": "论文 1: 只是低于规模 ~3.5 十亿面向，推理能力和 : =，0.989。训练模型向更好，和信息技术。规模，信息技术。这里面向 : 规模。信息技术: 数据 : 在 1 十亿 10 十亿，训练。数据质量 ≈ 相关型号模型规模。: 由模型面向。: 在 4 十亿 13 十亿+，训练。~10:1。模型，信息技术训练。实时？内部模型。38，40 模型。在，模型。: 新增真相，在 6……",
       "topics": [
-        "多模态"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 84,
-      "image": ""
+      "heat": 99,
+      "image": "https://preview.redd.it/wgddk465935h1.png?width=640&crop=smart&auto=webp&s=cb0fa278283ccf42c252a96af9905721670f850b"
     },
     {
       "id": "ithome-今年-4000-名新人入职美国银行-将面对正被人工智能改写的华尔街",
@@ -1314,6 +1315,22 @@
       "image": ""
     },
     {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T13:33:00.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-构建-图形处理器",
       "title": "构建 ++ 图形处理器",
       "url": "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
@@ -1327,7 +1344,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1343,7 +1360,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1360,22 +1377,22 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "the-decoder-研究发布-打开-来源人工智能智能体面向每个平台",
-      "title": "研究发布，打开，来源人工智能智能体面向每个平台",
-      "url": "https://the-decoder.com/nous-research-releases-hermes-desktop-an-open-source-ai-agent-for-every-platform/",
+      "id": "the-decoder-人工智能创业公司向-5-4-十亿重要在",
+      "title": "人工智能创业公司向 $5.4 十亿重要在",
+      "url": "https://the-decoder.com/ai-music-startup-suno-doubles-its-valuation-to-5-4-billion-while-fighting-major-record-labels-in-court/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:56:38.000Z",
-      "summary": "研究发布，打开，来源人工智能智能体应用许可。研究发布，打开，来源人工智能智能体面向每个平台首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-03T11:21:11.000Z",
+      "summary": "人工智能创业公司 $400 百万在 $5.4 十亿。人工智能创业公司向 $5.4 十亿重要在首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "研究论文"
+        "投融资"
       ],
       "heat": 89,
       "image": ""
@@ -1393,7 +1410,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1530,7 +1547,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1600,6 +1617,22 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-帮助借助视频人工智能",
+      "title": "帮助借助视频人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvtb2t/need_help_with_dubbing_a_video_using_ai/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T15:46:09.000Z",
+      "summary": "和视频在中国。借助服务向人工智能工具帮助？面向工具由",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "ithome-我国科学家攻克作物花期冷害难题-可挽回超-50-低温减产损失",
       "title": "我国科学家攻克作物花期冷害难题，可挽回超 50% 低温减产损失",
       "url": "https://www.ithome.com/0/959/578.htm",
@@ -1615,23 +1648,6 @@
         "研究论文"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能工具面向-面向语言",
-      "title": "人工智能工具面向，面向语言？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvsi0d/ai_tools_for_hearing_difficulties_helpful_or/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T15:18:27.000Z",
-      "summary": "和实时在面向。在，在，25，35%。在群组，信息技术向 0，2%。信息技术和。人工智能帮助日常生活。面向，信息技术进入智能聊天助手，和信息技术向借助，和在在。问题:，在人工智能生活面向借助，面向得到使用向和技能？可能训练和成为在和实际向语言，工具。面向支持。由",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 97,
       "image": ""
     },
     {
@@ -1680,25 +1696,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "the-decoder-构建-2026-微软谷歌在图像生成回顾-在推理能力",
-      "title": "构建 2026: 微软谷歌在图像生成回顾，在推理能力",
-      "url": "https://the-decoder.com/build-2026-microsoft-tops-google-in-image-generation-while-playing-catch-up-on-reasoning/",
+      "id": "the-decoder-研究发布-打开-来源人工智能智能体面向每个平台",
+      "title": "研究发布，打开，来源人工智能智能体面向每个平台",
+      "url": "https://the-decoder.com/nous-research-releases-hermes-desktop-an-open-source-ai-agent-for-every-platform/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:48:19.000Z",
-      "summary": "在构建 2026，微软宣布新人工智能模型在，首个推理能力模型。公司新和智能体。构建 2026: 微软谷歌在图像生成回顾，在推理能力首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-03T10:56:38.000Z",
+      "summary": "研究发布，打开，来源人工智能智能体应用许可。研究发布，打开，来源人工智能智能体面向每个平台首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1936,6 +1951,23 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能工具面向-面向语言",
+      "title": "人工智能工具面向，面向语言？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvsi0d/ai_tools_for_hearing_difficulties_helpful_or/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T15:18:27.000Z",
+      "summary": "和实时在面向。在，在，25，35%。在群组，信息技术向 0，2%。信息技术和。人工智能帮助日常生活。面向，信息技术进入智能聊天助手，和信息技术向借助，和在在。问题:，在人工智能生活面向借助，面向得到使用向和技能？可能训练和成为在和实际向语言，工具。面向支持。由",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "ithome-谷歌-11-全系机型官方壁纸抢先看",
       "title": "谷歌 11 全系机型官方壁纸抢先看",
       "url": "https://www.ithome.com/0/959/573.htm",
@@ -1950,25 +1982,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvroex/anyone_tried_memrith/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T14:50:57.000Z",
-      "summary": "和信息技术。记忆在和向模型。关于信息技术。向查看使用信息技术？由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 94,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1980,7 +1994,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-03T13:02:51.000Z",
-      "summary": "序列在 $1.6 十亿和。",
+      "summary": "基础设施作为人工智能进入，需求面向工具，和运营数据向持续。",
       "topics": [
         "产品应用"
       ],
@@ -2001,6 +2015,24 @@
         "算力芯片"
       ],
       "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-构建-2026-微软谷歌在图像生成回顾-在推理能力",
+      "title": "构建 2026: 微软谷歌在图像生成回顾，在推理能力",
+      "url": "https://the-decoder.com/build-2026-microsoft-tops-google-in-image-generation-while-playing-catch-up-on-reasoning/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T10:48:19.000Z",
+      "summary": "在构建 2026，微软宣布新人工智能模型在，首个推理能力模型。公司新和智能体。构建 2026: 微软谷歌在图像生成回顾，在推理能力首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -2068,24 +2100,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 77,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司扩展智能编程工具借助向构建应用面向-开发者",
-      "title": "开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者",
-      "url": "https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T18:34:15.000Z",
-      "summary": "开放人工智能公司智能编程工具借助面向数据，和投资。五个百万使用工具，和在五个开发者，公司，开发者群组更快开发者，开放人工智能公司智能编程工具作为应用。开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 83,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2186,7 +2201,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/fsi-press-new-payments-kv-1920x1080-5150250-1.jpg"
     },
     {
@@ -2202,7 +2217,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -2268,23 +2283,25 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "reddit-artificial-最人工智能",
-      "title": "最人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvrjm6/does_anyone_else_feel_most_ai_tooling_is_becoming/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvroex/anyone_tried_memrith/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T14:46:13.000Z",
-      "summary": "最人工智能得到？时间，和构建。信息技术生态信息技术向在时刻。只是实际借助。和最时间和和人工智能人工智能向相关型号由",
+      "publishedAt": "2026-06-03T14:50:57.000Z",
+      "summary": "和信息技术。记忆在和向模型。关于信息技术。向查看使用信息技术？由",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 84,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2300,7 +2317,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2317,7 +2334,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2351,7 +2368,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2368,6 +2385,23 @@
         "投融资"
       ],
       "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-开放人工智能公司扩展智能编程工具借助向构建应用面向-开发者",
+      "title": "开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者",
+      "url": "https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-02T18:34:15.000Z",
+      "summary": "开放人工智能公司智能编程工具借助面向数据，和投资。五个百万使用工具，和在五个开发者，公司，开发者群组更快开发者，开放人工智能公司智能编程工具作为应用。开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -2424,24 +2458,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司向-150-合作伙伴-15-向软件",
-      "title": "人工智能安全公司向 150 合作伙伴 15 向软件",
-      "url": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:29:42.000Z",
-      "summary": "人工智能安全公司借助 150 新合作伙伴 15，克劳德模型预览向基础设施面向安全。合作伙伴在 10，000。在时间，人工智能安全公司修复借助克劳德模型安全，来自问题。人工智能安全公司向 150 合作伙伴 15 向软件首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "qbitai-橡木果发布-本能驱动-技术路线-开辟自下而上具身智能新范式",
       "title": "橡木果发布“本能驱动”技术路线，开辟自下而上具身智能新范式",
       "url": "https://www.qbitai.com/2026/06/428413.html",
@@ -2454,7 +2470,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2579,15 +2595,15 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-建设者规则面向智能体",
-      "title": "建设者规则面向智能体。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvqwvl/a_builder_set_one_rule_for_their_agent_then_they/",
+      "id": "reddit-artificial-最人工智能",
+      "title": "最人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tvrjm6/does_anyone_else_feel_most_ai_tooling_is_becoming/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T14:24:25.000Z",
-      "summary": "构建首个规则智能体。信息技术。信息技术只是上下文。:，上下文。规则。面向。智能体上下文，在信息技术，在时刻。:，上下文和。规则。面向。智能体上下文，和询问面向在任务。:，上下文，和向。在规则向。智能体。关于。规则。向在。智能体更智能。实际。规则。新增向。由，最，智能体，7566",
+      "publishedAt": "2026-06-03T14:46:13.000Z",
+      "summary": "最人工智能得到？时间，和构建。信息技术生态信息技术向在时刻。只是实际借助。和最时间和和人工智能人工智能向相关型号由",
       "topics": [
         "产品应用"
       ],
@@ -2658,7 +2674,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2690,7 +2706,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2711,21 +2727,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-由元宇宙平台公司人工智能向",
-      "title": "由元宇宙平台公司人工智能向",
-      "url": "https://the-decoder.com/hackers-hijacked-high-profile-instagram-accounts-by-simply-asking-metas-ai-chatbot-to-change-the-email/",
+      "id": "the-decoder-人工智能安全公司向-150-合作伙伴-15-向软件",
+      "title": "人工智能安全公司向 150 合作伙伴 15 向软件",
+      "url": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-02T11:31:29.000Z",
-      "summary": "由元宇宙平台公司人工智能支持向在。元宇宙平台公司，安全研究在。由元宇宙平台公司人工智能向首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-02T16:29:42.000Z",
+      "summary": "人工智能安全公司借助 150 新合作伙伴 15，克劳德模型预览向基础设施面向安全。合作伙伴在 10，000。在时间，人工智能安全公司修复借助克劳德模型安全，来自问题。人工智能安全公司向 150 合作伙伴 15 向软件首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 74,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2830,22 +2846,6 @@
       ],
       "heat": 95,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-微软-人工智能智能体借助",
-      "title": "微软 : 人工智能智能体借助",
-      "url": "https://www.reddit.com/r/artificial/comments/1tvq6ot/microsoft_assert_test_ai_agents_with_plain_text/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T13:58:42.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 83,
-      "image": "https://external-preview.redd.it/diIoUq7h_HaleEkAr62ppjd9pYZg9UmWbkve5u5bAzg.jpeg?width=640&crop=smart&auto=webp&s=9a08f94b46eb088254b776456c40f42a0a811ffd"
     }
   ]
 }
