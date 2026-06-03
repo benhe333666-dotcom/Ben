@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-06-03T11:15:03.521Z",
+  "generatedAt": "2026-06-03T11:44:31.412Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-03T11:30:00.000Z",
+  "nextUpdateHint": "2026-06-03T12:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-03T11:07:11.000Z"
+    "latestPublishedAt": "2026-06-03T11:39:32.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 71,
+      "count": 70,
       "heat": 85
     },
     {
       "name": "模型发布",
-      "count": 44,
-      "heat": 88
+      "count": 43,
+      "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 35,
-      "heat": 85
+      "count": 34,
+      "heat": 84
+    },
+    {
+      "name": "研究论文",
+      "count": 24,
+      "heat": 87
     },
     {
       "name": "算力芯片",
@@ -32,14 +37,9 @@
       "heat": 90
     },
     {
-      "name": "研究论文",
-      "count": 21,
-      "heat": 86
-    },
-    {
       "name": "投融资",
-      "count": 15,
-      "heat": 82
+      "count": 17,
+      "heat": 84
     },
     {
       "name": "人工智能动态",
@@ -58,13 +58,13 @@
     },
     {
       "name": "多模态",
-      "count": 8,
-      "heat": 89
+      "count": 9,
+      "heat": 88
     },
     {
       "name": "机器人",
       "count": 6,
-      "heat": 83
+      "heat": 85
     }
   ],
   "sources": [
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 5,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 5,
       "latestFetchedAt": "2026-06-02T14:13:23.000Z",
       "latestDisplayedAt": "2026-06-02T14:13:23.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 403",
-      "itemCount": 1,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 10,
       "displayedCount": 1,
       "latestFetchedAt": "2026-05-28T21:29:43.000Z",
       "latestDisplayedAt": "2026-05-28T21:29:43.000Z"
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-03T10:56:38.000Z",
-      "latestDisplayedAt": "2026-06-03T10:56:38.000Z"
+      "latestFetchedAt": "2026-06-03T11:21:11.000Z",
+      "latestDisplayedAt": "2026-06-03T11:21:11.000Z"
     },
     {
       "id": "wired-ai",
@@ -366,7 +366,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "This operation was aborted",
+      "fallbackReason": "HTTP 429",
       "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-06-02T17:59:17.000Z",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 14,
+      "itemCount": 15,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-03T11:01:26.000Z",
-      "latestDisplayedAt": "2026-06-03T11:01:26.000Z"
+      "latestFetchedAt": "2026-06-03T11:39:32.000Z",
+      "latestDisplayedAt": "2026-06-03T11:39:32.000Z"
     },
     {
       "id": "ithome",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 18,
+      "itemCount": 20,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-03T11:07:11.000Z",
-      "latestDisplayedAt": "2026-06-03T11:07:11.000Z"
+      "latestFetchedAt": "2026-06-03T11:35:40.000Z",
+      "latestDisplayedAt": "2026-06-03T11:35:40.000Z"
     },
     {
       "id": "oschina",
@@ -488,51 +488,52 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-内存产业相关型号营收环比增长-81",
-      "title": "内存产业相关型号营收环比增长 81%",
-      "url": "https://www.ithome.com/0/959/525.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T11:07:11.000Z",
-      "summary": "科技之家 6 月 3 日消息，（集邦咨询）本月 1 日指出，内存产业的整体营收在相关型号环比实现 81.0% 的巨幅增长，总额来到 970 亿美元（科技之家注：现汇率约合 6575.21 亿元人民币）。随着人工智能应用由大语言模型训练逐步转至人工智能推理，云服务供应商正开始加速建设通用型服务器，各容量规格的产品均迎来强劲需求。产能挤占效应导致一般型合约价格加速上涨，单季度几乎……",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-比亚迪入局人形机器人",
-      "title": "比亚迪入局人形机器人",
-      "url": "https://36kr.com/newsflashes/3837337385760128?f=rss",
+      "id": "thirty-six-kr-两连板实益达-间接持有宇树科技约0-01-股权-不涉及机器人业务",
+      "title": "两连板实益达：间接持有宇树科技约0.01%股权，不涉及机器人业务",
+      "url": "https://36kr.com/newsflashes/3837374828529920?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T11:01:26.000Z",
-      "summary": "近日，比亚迪集团执行副总裁李柯在一档访谈节目中明确表示：“比亚迪也在开发（人形机器人）。机器人的竞争在于谁有最强的制造能力、软件能力和硬件能力，而汽车相关人工智能能力与机器人有同源性，如果有一天我们认为机器人可以走向家庭，就可以通过经销商网络售卖比亚迪的机器人。”她还表示，比亚迪可以做一个开放的平台，既可以是比亚迪自己做机器人，也可以是跟其他企业合作的机器人。6月3日，据接近……",
+      "publishedAt": "2026-06-03T11:39:32.000Z",
+      "summary": "36氪获悉，实益达公告，针对网络上提及公司间接投资了宇树科技，关于此项投资事项，具体情况说明如下：公司全资子公司持有浙江容腾创业投资合伙企业（有限合伙）（简称“容腾”）0.8333%股权，容腾持有宇树科技1.1868%股权，股权穿透后，公司持有宇树科技约0.01%股权，公司持股比例较低。宇树科技不属于公司合并报表范围，公司（含合并报表范围内的控股公司）目前不涉及机器人业务。",
       "topics": [
+        "投融资",
         "机器人"
       ],
-      "heat": 88,
+      "heat": 93,
       "image": ""
     },
     {
-      "id": "the-decoder-研究发布-打开-来源人工智能智能体面向每个平台",
-      "title": "研究发布，打开，来源人工智能智能体面向每个平台",
-      "url": "https://the-decoder.com/nous-research-releases-hermes-desktop-an-open-source-ai-agent-for-every-platform/",
+      "id": "ithome-比亚迪入局人形机器人-若认为能走向家庭-就通过经销商网络开卖",
+      "title": "比亚迪入局人形机器人：若认为能走向家庭，就通过经销商网络开卖",
+      "url": "https://www.ithome.com/0/959/531.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T11:35:40.000Z",
+      "summary": "科技之家 6 月 3 日消息，据第一财经，比亚迪集团执行副总裁李柯在一档访谈节目中明确表示：“比亚迪也在开发人形机器人。机器人的竞争在于谁有最强的制造能力、软件和硬件，而汽车相关人工智能能力与机器人有同源性，如果有一天我们认为机器人可以走向家庭，就可以通过经销商网络售卖比亚迪的机器人。” 李柯提到，比亚迪可以做一个开放的平台，既可以是比亚迪自己做机器人，也可以是跟其他企业合作……",
+      "topics": [
+        "算力芯片",
+        "机器人"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能创业公司向-5-4-十亿重要在",
+      "title": "人工智能创业公司向 $5.4 十亿重要在",
+      "url": "https://the-decoder.com/ai-music-startup-suno-doubles-its-valuation-to-5-4-billion-while-fighting-major-record-labels-in-court/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:56:38.000Z",
-      "summary": "研究发布，打开，来源人工智能智能体应用许可。研究发布，打开，来源人工智能智能体面向每个平台首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-03T11:21:11.000Z",
+      "summary": "人工智能创业公司 $400 百万在 $5.4 十亿。人工智能创业公司向 $5.4 十亿重要在首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "研究论文"
+        "投融资"
       ],
       "heat": 94,
       "image": ""
@@ -701,7 +702,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -718,7 +719,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-1.jpg"
     },
     {
@@ -770,7 +771,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -820,7 +821,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -836,7 +837,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -854,7 +855,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -870,7 +871,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
@@ -906,54 +907,55 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GR_at_IO_hero.png"
     },
     {
-      "id": "ithome-黄仁勋喊话亿万富豪家族-人工智能投资或带来-疯狂-回报-疯子-才会质疑",
-      "title": "黄仁勋喊话亿万富豪家族：人工智能投资或带来“疯狂”回报，“疯子”才会质疑",
-      "url": "https://www.ithome.com/0/959/523.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T11:01:52.000Z",
-      "summary": "科技之家 6 月 3 日消息，据彭博社 3 日（今天）下午报道，英伟达首席执行官黄仁勋喊话，押注人工智能热潮的投资者有望获得“疯狂”回报，旨在回应外界对人工智能巨额投入和长期盈利能力的疑虑。2 日晚，黄仁勋在一场闭门活动上面对数百名金融机构和富裕家族办公室代表发表讲话：人工智能已经创造出数万亿美元价值，质疑人工智能回报的人才是“疯狂”的人。“就在过去六个月，（科技之家注：投资……",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-数据港-拟采购不超过8亿元的科学计算设备的算力服务",
-      "title": "数据港：拟采购不超过8亿元的科学计算设备的算力服务",
-      "url": "https://36kr.com/newsflashes/3837332082078855?f=rss",
+      "id": "thirty-six-kr-高德纳-到2026年-75-的新增风险投资将流向人工智能原生公司",
+      "title": "高德纳：到2026年，75%的新增风险投资将流向人工智能原生公司",
+      "url": "https://36kr.com/newsflashes/3837369693341961?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:56:03.000Z",
-      "summary": "36氪获悉，数据港公告，公司拟采购专门用于科学计算设备（非图形处理器设备）的算力服务尚未签署正式采购合同。本次采购金额预计不超过8亿元，旨在落地双轮驱动战略，优化业务结构、提升综合竞争力。",
+      "publishedAt": "2026-06-03T11:34:18.000Z",
+      "summary": "36氪获悉，近日，高德纳 2026大中华区科技行业高管交流大会在上海举办。会上，高德纳研究副总裁孙志勇发表《不可不知的中国五大科技与创新趋势》演讲，提出人工智能原生、智能体驱动的新生态、智能体产出即服务、人工智能隐私计算、具身智能五大趋势。高德纳预测，到2026年，75%的新增风险投资将流向人工智能原生公司。",
       "topics": [
-        "算力芯片"
+        "产品应用",
+        "研究论文",
+        "投融资"
       ],
-      "heat": 88,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "the-decoder-构建-2026-微软谷歌在图像生成回顾-在推理能力",
-      "title": "构建 2026: 微软谷歌在图像生成回顾，在推理能力",
-      "url": "https://the-decoder.com/build-2026-microsoft-tops-google-in-image-generation-while-playing-catch-up-on-reasoning/",
+      "id": "ithome-猫头鹰推出旗下首款水冷散热器-240-毫米起价-219-9-欧元-最高提供-420-毫米版本可选",
+      "title": "猫头鹰推出旗下首款水冷散热器：240 毫米起价 219.9 欧元，最高提供 420 毫米版本可选",
+      "url": "https://www.ithome.com/0/959/530.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T11:31:05.000Z",
+      "summary": "科技之家 6 月 3 日消息，据等多个媒体报道，猫头鹰（）在 2026 上正式推出了其首款一体式水冷散热器，同时展示了下一代风冷散热器、工作站散热器，以及多款联名产品。猫头鹰相关型号系列水冷将于 6 月 16 日在欧洲上市，提供 240 毫米、360 毫米和 420 毫米三种规格，定价分别为 219.90 欧元（科技之家注：现汇率约合 1733 元人民币）、249.90 欧元……",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-研究发布-打开-来源人工智能智能体面向每个平台",
+      "title": "研究发布，打开，来源人工智能智能体面向每个平台",
+      "url": "https://the-decoder.com/nous-research-releases-hermes-desktop-an-open-source-ai-agent-for-every-platform/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:48:19.000Z",
-      "summary": "在构建 2026，微软宣布新人工智能模型在，首个推理能力模型。公司新和智能体。构建 2026: 微软谷歌在图像生成回顾，在推理能力首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-03T10:56:38.000Z",
+      "summary": "研究发布，打开，来源人工智能智能体应用许可。研究发布，打开，来源人工智能智能体面向每个平台首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1140,7 +1142,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1190,7 +1192,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1206,7 +1208,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1222,7 +1224,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1259,36 +1261,54 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Private_analytics_via_zero-trust_aggregation_hero_1.png"
     },
     {
-      "id": "ithome-撼与双显卡雷电-5-扩展坞亮相-内置超千瓦-3-1-电源",
-      "title": "撼与双显卡雷电 5 扩展坞亮相，内置超千瓦 3.1 电源",
-      "url": "https://www.ithome.com/0/959/518.htm",
+      "id": "ithome-阅文集团约-4-亿元增持艺画开天-28-22-股权-持股比例将升至-59-7",
+      "title": "阅文集团约 4 亿元增持艺画开天 28.22% 股权，持股比例将升至 59.7%",
+      "url": "https://www.ithome.com/0/959/529.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:51:14.000Z",
-      "summary": "科技之家 6 月 3 日消息，（撼与）在 2026 上展出了多款产品，而其中一款名为的设备吸引了科技之家的注意：仔细观察展板上的小字可以发现，其拥有 2 条插槽，可安装两块显卡，摆脱了传统外置显卡坞仅能容纳单一显卡的限制。此外其支持雷电 5 连接，内置相关型号瓦（可能是 1850 瓦或 1650 瓦） 3.1 电源。其旁边的 850 此前已有过展出。该型号同样支持雷电 5 规……",
+      "publishedAt": "2026-06-03T11:21:23.000Z",
+      "summary": "科技之家 6 月 3 日消息，阅文集团于 6 月 2 日晚在港交所发布关联交易公告，拟以约人民币 4 亿元战略投资艺画开天 28.22% 股权。公告发布时，阅文集团持有艺画开天约 31.48% 股权；交易完成后，持股比例将升至 59.7%。科技之家注：艺画开天成立于 2015 年，主营动画及游戏内容开发与运营，持有核心 《灵笼》。公告指出，艺画开天与阅文在价值链中具备垂直互补……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "投融资"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-阶跃星辰接连增资",
-      "title": "阶跃星辰接连增资",
-      "url": "https://36kr.com/newsflashes/3837310670451840?f=rss",
+      "id": "thirty-six-kr-豆包-对于广大用户日常使用的豆包功能-将保持目前的免费服务",
+      "title": "豆包：对于广大用户日常使用的豆包功能，将保持目前的免费服务",
+      "url": "https://36kr.com/newsflashes/3837352575481223?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:34:16.000Z",
-      "summary": "36氪获悉天眼查应用显示，近日，上海阶跃星辰智能科技股份有限公司发生工商变更，注册资本由约6052万人民币增至约6362万人民币。该公司成立于2023年4月，法定代表人为印奇，经营范围包括人工智能行业应用系统集成服务、人工智能应用软件开发、信息系统集成服务等。值得一提的是，该公司曾接连增资。",
+      "publishedAt": "2026-06-03T11:16:54.000Z",
+      "summary": "36氪获悉，豆包发布《关于豆包即将推出专业版的说明》。一、针对专业人群的生产力需求，豆包计划推出豆包专业版，将包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。二、对于广大用户日常使用的豆包功能，包含搜索问答、写作生图、以及语音和视频对话等，我们将保持目前的免费服务，保证用户使用体验和习惯不受影响。我们也会不断为免费用户提供新的模型、能力和更好的体验……",
       "topics": [
-        "产品应用"
+        "研究论文",
+        "多模态"
       ],
-      "heat": 88,
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-构建-2026-微软谷歌在图像生成回顾-在推理能力",
+      "title": "构建 2026: 微软谷歌在图像生成回顾，在推理能力",
+      "url": "https://the-decoder.com/build-2026-microsoft-tops-google-in-image-generation-while-playing-catch-up-on-reasoning/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T10:48:19.000Z",
+      "summary": "在构建 2026，微软宣布新人工智能模型在，首个推理能力模型。公司新和智能体。构建 2026: 微软谷歌在图像生成回顾，在推理能力首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -1304,7 +1324,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1357,7 +1377,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1375,23 +1395,6 @@
         "开源生态"
       ],
       "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司扩展智能编程工具借助向构建应用面向-开发者",
-      "title": "开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者",
-      "url": "https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T18:34:15.000Z",
-      "summary": "开放人工智能公司智能编程工具借助面向数据，和投资。五个百万使用工具，和在五个开发者，公司，开发者群组更快开发者，开放人工智能公司智能编程工具作为应用。开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -1526,7 +1529,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1542,7 +1545,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": ""
     },
     {
@@ -1595,37 +1598,36 @@
       "image": ""
     },
     {
-      "id": "ithome-中兴与腾讯达成合作-将发布搭载混元大模型的人工智能云电脑",
-      "title": "中兴与腾讯达成合作，将发布搭载混元大模型的人工智能云电脑",
-      "url": "https://www.ithome.com/0/959/517.htm",
+      "id": "ithome-豆包-计划针对专业人群生产力需求推出豆包专业版-基础功能保持免费",
+      "title": "豆包：计划针对专业人群生产力需求推出豆包专业版，基础功能保持免费",
+      "url": "https://www.ithome.com/0/959/528.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:38:25.000Z",
-      "summary": "科技之家 6 月 3 日消息，在今天的人工智能云电脑体验日活动中，中兴通讯透露，公司已与腾讯达成深度战略合作，将推出搭载腾讯原生的人工智能云电脑。该产品将融合腾讯云的算力和混元大模型的能力，定位为面向学生、职场人士、小微团队的新一代生产力工具。该活动中，中兴通讯副总裁华新海表示，当前我国家庭电脑拥有率为 67.5%，但 20% 设备长期闲置。云电脑作为共享经济在算力领域的应用……",
+      "publishedAt": "2026-06-03T11:20:22.000Z",
+      "summary": "科技之家 6 月 3 日消息，3 日（今天）傍晚，豆包通过官方公众号发布《关于豆包即将推出专业版的说明》。科技之家附上声明原文如下：一、针对专业人群的生产力需求，豆包计划推出豆包专业版，将包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。二、对于广大用户日常使用的豆包功能，包含搜索问答、写作生图、以及语音和视频对话等，我们将保持目前的免费服务，保证用……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "研究论文",
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-瑞典人工智能初创公司与谷歌云服务扩大多年期合作",
-      "title": "瑞典人工智能初创公司与谷歌云服务扩大多年期合作",
-      "url": "https://36kr.com/newsflashes/3837278177014914?f=rss",
+      "id": "thirty-six-kr-数据港-拟采购不超过8亿元的科学计算设备的算力服务",
+      "title": "数据港：拟采购不超过8亿元的科学计算设备的算力服务",
+      "url": "https://36kr.com/newsflashes/3837332082078855?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:01:13.000Z",
-      "summary": "据报道，瑞典人工智能初创公司扩大了与谷歌云服务的多年期合作，以整合双子座模型模型和人工智能优化基础设施，从而向全球用户扩展其人工智能驱动的软件开发服务。（界面）",
+      "publishedAt": "2026-06-03T10:56:03.000Z",
+      "summary": "36氪获悉，数据港公告，公司拟采购专门用于科学计算设备（非图形处理器设备）的算力服务尚未签署正式采购合同。本次采购金额预计不超过8亿元，旨在落地双轮驱动战略，优化业务结构、提升综合竞争力。",
       "topics": [
-        "模型发布"
+        "算力芯片"
       ],
-      "heat": 95,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1675,7 +1677,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1691,7 +1693,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-开放人工智能公司扩展智能编程工具借助向构建应用面向-开发者",
+      "title": "开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者",
+      "url": "https://the-decoder.com/openai-expands-codex-with-role-specific-plugins-to-build-a-general-purpose-app-for-non-developers/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-02T18:34:15.000Z",
+      "summary": "开放人工智能公司智能编程工具借助面向数据，和投资。五个百万使用工具，和在五个开发者，公司，开发者群组更快开发者，开放人工智能公司智能编程工具作为应用。开放人工智能公司扩展智能编程工具借助向构建应用面向，开发者首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -1707,7 +1726,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1723,7 +1742,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1780,24 +1799,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司向-150-合作伙伴-15-向软件",
-      "title": "人工智能安全公司向 150 合作伙伴 15 向软件",
-      "url": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:29:42.000Z",
-      "summary": "人工智能安全公司借助 150 新合作伙伴 15，克劳德模型预览向基础设施面向安全。合作伙伴在 10，000。在时间，人工智能安全公司修复借助克劳德模型安全，来自问题。人工智能安全公司向 150 合作伙伴 15 向软件首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "qbitai-头部厂商集体买单-全球人工智能原生达人营销头号平台正在诞生",
       "title": "头部厂商集体买单，全球人工智能原生达人营销头号平台正在诞生！",
       "url": "https://www.qbitai.com/2026/06/427922.html",
@@ -1828,7 +1829,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/robotics-press-jetson-agentic-ready-cptx26-1920x1080-5180550.jpg"
     },
     {
@@ -1932,35 +1933,36 @@
       "image": ""
     },
     {
-      "id": "ithome-消息称阿里副总裁张凯夫离职创业-方向为构建面向市场的世界模型",
-      "title": "消息称阿里副总裁张凯夫离职创业，方向为构建面向市场的世界模型",
-      "url": "https://www.ithome.com/0/959/512.htm",
+      "id": "ithome-内存产业相关型号营收环比增长-81",
+      "title": "内存产业相关型号营收环比增长 81%",
+      "url": "https://www.ithome.com/0/959/525.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T10:29:49.000Z",
-      "summary": "科技之家 6 月 3 日消息，《科创板日报》3 日（今天）发布消息称，阿里集团副总裁兼搜推智能产品事业部总裁张凯夫已经离职创业，方向是构建面向市场的世界模型。张凯夫在社交媒体发文称，预测集体人类行为，尤其是市场行为，是人工智能尚未征服的终极超能力挑战之一。他相信目前正是启程之时，并招募相关人才加入。张凯夫在阿里任职近十年，是阿里电商与人工智能业务的重要操盘手，深度参与淘宝商家……",
+      "publishedAt": "2026-06-03T11:07:11.000Z",
+      "summary": "科技之家 6 月 3 日消息，（集邦咨询）本月 1 日指出，内存产业的整体营收在相关型号环比实现 81.0% 的巨幅增长，总额来到 970 亿美元（科技之家注：现汇率约合 6575.21 亿元人民币）。随着人工智能应用由大语言模型训练逐步转至人工智能推理，云服务供应商正开始加速建设通用型服务器，各容量规格的产品均迎来强劲需求。产能挤占效应导致一般型合约价格加速上涨，单季度几乎……",
       "topics": [
-        "投融资"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 95,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-美银-英伟达2027财年下半年中央处理器销售额有望达200亿美元",
-      "title": "美银：英伟达2027财年下半年中央处理器销售额有望达200亿美元",
-      "url": "https://36kr.com/newsflashes/3837260393444481?f=rss",
+      "id": "thirty-six-kr-阶跃星辰接连增资",
+      "title": "阶跃星辰接连增资",
+      "url": "https://36kr.com/newsflashes/3837310670451840?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T09:43:07.000Z",
-      "summary": "美银分析师团队更新了英伟达研报。该机构测算2027财年下半年中央处理器销售额有望达200亿美元；下一财年产品年化营收规模将突破500亿美元，英伟达有望跻身全球头部服务器中央处理器供应商。（新浪财经）",
+      "publishedAt": "2026-06-03T10:34:16.000Z",
+      "summary": "36氪获悉天眼查应用显示，近日，上海阶跃星辰智能科技股份有限公司发生工商变更，注册资本由约6052万人民币增至约6362万人民币。该公司成立于2023年4月，法定代表人为印奇，经营范围包括人工智能行业应用系统集成服务、人工智能应用软件开发、信息系统集成服务等。值得一提的是，该公司曾接连增资。",
       "topics": [
-        "算力芯片"
+        "产品应用"
       ],
-      "heat": 95,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1992,7 +1994,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2061,7 +2063,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2119,6 +2121,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-人工智能安全公司向-150-合作伙伴-15-向软件",
+      "title": "人工智能安全公司向 150 合作伙伴 15 向软件",
+      "url": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-02T16:29:42.000Z",
+      "summary": "人工智能安全公司借助 150 新合作伙伴 15，克劳德模型预览向基础设施面向安全。合作伙伴在 10，000。在时间，人工智能安全公司修复借助克劳德模型安全，来自问题。人工智能安全公司向 150 合作伙伴 15 向软件首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "qbitai-橡木果发布-本能驱动-技术路线-开辟自下而上具身智能新范式",
       "title": "橡木果发布“本能驱动”技术路线，开辟自下而上具身智能新范式",
       "url": "https://www.qbitai.com/2026/06/428413.html",
@@ -2131,25 +2151,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-由元宇宙平台公司人工智能向",
-      "title": "由元宇宙平台公司人工智能向",
-      "url": "https://the-decoder.com/hackers-hijacked-high-profile-instagram-accounts-by-simply-asking-metas-ai-chatbot-to-change-the-email/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-02T11:31:29.000Z",
-      "summary": "由元宇宙平台公司人工智能支持向在。元宇宙平台公司，安全研究在。由元宇宙平台公司人工智能向首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 79,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2253,20 +2255,20 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-英特尔相关型号芯片被曝供货不足-多个品牌均反映-供应紧张",
-      "title": "英特尔相关型号芯片被曝供货不足，多个品牌均反映“供应紧张”",
-      "url": "https://www.ithome.com/0/959/482.htm",
+      "id": "ithome-黄仁勋喊话亿万富豪家族-人工智能投资或带来-疯狂-回报-疯子-才会质疑",
+      "title": "黄仁勋喊话亿万富豪家族：人工智能投资或带来“疯狂”回报，“疯子”才会质疑",
+      "url": "https://www.ithome.com/0/959/523.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T09:59:07.000Z",
-      "summary": "科技之家 6 月 3 日消息，据报道，英特尔基于相关型号制程的新一代和芯片正面临供应短缺，英特尔方面也未能向客户给出短缺缓解的明确时间表。多家厂商对未来的供应稳定性表示担忧。和是英特尔在相关型号节点上的唯二两款消费级产品，第三款则是刚刚发布的数据中心处理器 （至强 6+）。分析师蒂姆 · 库尔潘（ ）表示，有多个主要电脑品牌、小型笔记本电脑制造商以及系统组装商均反映供应紧张。……",
+      "publishedAt": "2026-06-03T11:01:52.000Z",
+      "summary": "科技之家 6 月 3 日消息，据彭博社 3 日（今天）下午报道，英伟达首席执行官黄仁勋喊话，押注人工智能热潮的投资者有望获得“疯狂”回报，旨在回应外界对人工智能巨额投入和长期盈利能力的疑虑。2 日晚，黄仁勋在一场闭门活动上面对数百名金融机构和富裕家族办公室代表发表讲话：人工智能已经创造出数万亿美元价值，质疑人工智能回报的人才是“疯狂”的人。“就在过去六个月，（科技之家注：投资……",
       "topics": [
         "算力芯片",
-        "端侧智能"
+        "投融资"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2283,7 +2285,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2369,7 +2371,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2424,21 +2426,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司转化智能聊天助手进入平台借助和",
-      "title": "开放人工智能公司转化智能聊天助手进入平台借助和",
-      "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/",
+      "id": "the-decoder-由元宇宙平台公司人工智能向",
+      "title": "由元宇宙平台公司人工智能向",
+      "url": "https://the-decoder.com/hackers-hijacked-high-profile-instagram-accounts-by-simply-asking-metas-ai-chatbot-to-change-the-email/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-02T10:40:22.000Z",
-      "summary": "开放人工智能公司转化智能聊天助手进入工具: 新功能来自，和。创建在智能聊天助手和向。开放人工智能公司转化智能聊天助手进入平台借助和首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-02T11:31:29.000Z",
+      "summary": "由元宇宙平台公司人工智能支持向在。元宇宙平台公司，安全研究在。由元宇宙平台公司人工智能向首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "端侧智能"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2456,7 +2458,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2508,21 +2510,20 @@
       "image": "https://media.wired.com/photos/6a0b7d9d4db62c986283e838/master/pass/Business_TheWomenWhoWentonMaternityLeaveandReturnedtoanOfficeReshapedbyAI_v2.jpg"
     },
     {
-      "id": "ithome-不法分子为博流量利用人工智能工具造谣传谣-网警公布数起典型案例",
-      "title": "不法分子为博流量利用人工智能工具造谣传谣，网警公布数起典型案例",
-      "url": "https://www.ithome.com/0/959/466.htm",
+      "id": "ithome-撼与双显卡雷电-5-扩展坞亮相-内置超千瓦-3-1-电源",
+      "title": "撼与双显卡雷电 5 扩展坞亮相，内置超千瓦 3.1 电源",
+      "url": "https://www.ithome.com/0/959/518.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T09:36:21.000Z",
-      "summary": "科技之家 6 月 3 日消息，随着人工智能技术近年来的迅猛发展，一些不法分子为博取流量、吸引关注，利用人工智能工具编造虚假信息，严重破坏网络生态，扰乱社会秩序。山西网警今日集中曝光数起近期查处的利用人工智能技术制造传播网络谣言的典型案例。为博流量虚构“工厂爆炸”场景，企业员工被依法查处近日，大同网安部门在工作中发现，有网民在某平台发布视频称：“山西大同一车间内发生爆炸，现场只……",
+      "publishedAt": "2026-06-03T10:51:14.000Z",
+      "summary": "科技之家 6 月 3 日消息，（撼与）在 2026 上展出了多款产品，而其中一款名为的设备吸引了科技之家的注意：仔细观察展板上的小字可以发现，其拥有 2 条插槽，可安装两块显卡，摆脱了传统外置显卡坞仅能容纳单一显卡的限制。此外其支持雷电 5 连接，内置相关型号瓦（可能是 1850 瓦或 1650 瓦） 3.1 电源。其旁边的 850 此前已有过展出。该型号同样支持雷电 5 规……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "多模态"
+        "算力芯片",
+        "端侧智能"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2589,7 +2590,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2607,7 +2608,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2662,20 +2663,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-10-十亿在人工智能基础设施",
-      "title": "$10 十亿在人工智能基础设施",
-      "url": "https://the-decoder.com/warren-buffetts-berkshire-hathaway-bets-10-billion-on-alphabets-ai-infrastructure-buildout/",
+      "id": "the-decoder-开放人工智能公司转化智能聊天助手进入平台借助和",
+      "title": "开放人工智能公司转化智能聊天助手进入平台借助和",
+      "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-02T10:15:30.000Z",
-      "summary": "$80 十亿向规模人工智能基础设施，由 $10 十亿投资来自。公司向 $190 十亿在 2026。$10 十亿在人工智能基础设施首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-02T10:40:22.000Z",
+      "summary": "开放人工智能公司转化智能聊天助手进入工具: 新功能来自，和。创建在智能聊天助手和向。开放人工智能公司转化智能聊天助手进入平台借助和首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "投融资"
+        "端侧智能"
       ],
-      "heat": 73,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2691,7 +2693,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2746,20 +2748,21 @@
       "image": "https://media.wired.com/photos/6a1769e135f75a644600c4ac/master/pass/Illionois-AI-Safetry-Bill-Business-2270597563.jpg"
     },
     {
-      "id": "ithome-获无锡自动驾驶路测许可-今年将在全球多城落地高阶智驾",
-      "title": "获无锡自动驾驶路测许可，今年将在全球多城落地高阶智驾",
-      "url": "https://www.ithome.com/0/959/463.htm",
+      "id": "ithome-中兴与腾讯达成合作-将发布搭载混元大模型的人工智能云电脑",
+      "title": "中兴与腾讯达成合作，将发布搭载混元大模型的人工智能云电脑",
+      "url": "https://www.ithome.com/0/959/517.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-03T09:32:59.000Z",
-      "summary": "科技之家 6 月 3 日消息，昨日宣布已获得江苏省无锡市智能网联汽车道路测试与示范应用许可，并于今年 1 月起在当地启动相关测试工作。表示，该公司计划在 2026 年内于全球多个新城市及区域落地高阶自动驾驶，重点推进技术场景验证与民生出行服务探索。科技之家从官方获悉，此前已在国内上海、苏州等城市开展运营，在海外则覆盖了德国慕尼黑、阿联酋阿布扎比等地，并正积极拓展欧洲其他地区、……",
+      "publishedAt": "2026-06-03T10:38:25.000Z",
+      "summary": "科技之家 6 月 3 日消息，在今天的人工智能云电脑体验日活动中，中兴通讯透露，公司已与腾讯达成深度战略合作，将推出搭载腾讯原生的人工智能云电脑。该产品将融合腾讯云的算力和混元大模型的能力，定位为面向学生、职场人士、小微团队的新一代生产力工具。该活动中，中兴通讯副总裁华新海表示，当前我国家庭电脑拥有率为 67.5%，但 20% 设备长期闲置。云电脑作为共享经济在算力领域的应用……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "机器人"
+        "算力芯片"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2810,7 +2813,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://external-preview.redd.it/6OUiOuCVwtPxYWaVnS-2QorXcFJpsVyev7uiVajLQCs.jpeg?width=640&crop=smart&auto=webp&s=ed87212e7af843cd3643cc94543b97569b26d10e"
     },
     {
@@ -2828,7 +2831,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2846,7 +2849,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     }
   ]
