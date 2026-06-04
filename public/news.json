@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T11:18:07.145Z",
+  "generatedAt": "2026-06-04T11:27:11.941Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-06-04T11:30:00.000Z",
   "stats": {
@@ -13,13 +13,13 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 69,
-      "heat": 79
+      "count": 66,
+      "heat": 81
     },
     {
       "name": "模型发布",
-      "count": 53,
-      "heat": 85
+      "count": 50,
+      "heat": 86
     },
     {
       "name": "监管安全",
@@ -28,23 +28,33 @@
     },
     {
       "name": "算力芯片",
-      "count": 21,
+      "count": 22,
       "heat": 90
     },
     {
       "name": "研究论文",
       "count": 20,
-      "heat": 86
+      "heat": 85
     },
     {
       "name": "多模态",
-      "count": 15,
+      "count": 16,
       "heat": 86
     },
     {
       "name": "投融资",
-      "count": 13,
-      "heat": 85
+      "count": 15,
+      "heat": 83
+    },
+    {
+      "name": "人工智能动态",
+      "count": 14,
+      "heat": 74
+    },
+    {
+      "name": "端侧智能",
+      "count": 12,
+      "heat": 84
     },
     {
       "name": "机器人",
@@ -52,19 +62,9 @@
       "heat": 90
     },
     {
-      "name": "人工智能动态",
-      "count": 13,
-      "heat": 72
-    },
-    {
-      "name": "端侧智能",
-      "count": 11,
-      "heat": 83
-    },
-    {
       "name": "开源生态",
-      "count": 8,
-      "heat": 70
+      "count": 9,
+      "heat": 68
     }
   ],
   "sources": [
@@ -160,7 +160,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 6,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-03T15:00:57.000Z",
       "latestDisplayedAt": "2026-06-03T15:00:57.000Z"
     },
@@ -175,10 +175,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 7,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-06-02T19:15:57.000Z",
-      "latestDisplayedAt": "2026-06-02T19:15:57.000Z"
+      "itemCount": 6,
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-05-22T15:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -193,8 +193,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-06-03T12:55:11.000Z",
-      "latestDisplayedAt": "2026-06-03T12:55:11.000Z"
+      "latestFetchedAt": "2026-06-04T11:24:53.000Z",
+      "latestDisplayedAt": "2026-06-04T11:24:53.000Z"
     },
     {
       "id": "techcrunch-ai",
@@ -380,12 +380,12 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 5,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 5,
-      "latestFetchedAt": "2026-06-03T17:53:33.000Z",
+      "latestFetchedAt": "2026-06-03T17:59:36.000Z",
       "latestDisplayedAt": "2026-06-03T17:53:33.000Z"
     },
     {
@@ -431,8 +431,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 17,
-      "displayedCount": 7,
+      "itemCount": 16,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-04T11:11:16.000Z",
       "latestDisplayedAt": "2026-06-04T11:11:16.000Z"
     },
@@ -448,9 +448,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 24,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-04T11:08:57.000Z",
-      "latestDisplayedAt": "2026-06-04T11:08:57.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-06-04T11:21:55.000Z",
+      "latestDisplayedAt": "2026-06-04T11:21:55.000Z"
     },
     {
       "id": "oschina",
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-04T10:20:39.000Z",
       "latestDisplayedAt": "2026-06-04T10:20:39.000Z"
     },
@@ -480,7 +480,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 16,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-04T06:30:00.000Z",
       "latestDisplayedAt": "2026-06-04T06:30:00.000Z"
     }
@@ -505,6 +505,38 @@
       "image": ""
     },
     {
+      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
+      "title": "模型社区博客发布人工智能相关动态。",
+      "url": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-04T11:24:53.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "ithome-奕境曾清林谈-武汉首例醉酒辅助驾驶司机被判刑-事件本质是醉驾-不是智驾",
+      "title": "奕境曾清林谈“武汉首例醉酒辅助驾驶司机被判刑”：事件本质是醉驾，不是智驾",
+      "url": "https://www.ithome.com/0/960/104.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T11:21:55.000Z",
+      "summary": "科技之家 6 月 4 日消息，去年 10 月，一司机醉酒后驾驶开启辅助驾驶的车辆上路，最后停在武汉光谷一条主干道上酣睡不醒。目前，武汉东湖新技术开发区人民检察院以危险驾驶罪对王某提起公诉，司机被判处拘役一个月十五日，并处罚金三千元。该案也是武汉市首例因利用辅助驾驶系统实施醉驾行为而被判刑的案件。该案件结果宣判后引起了网友讨论，汽车博主 @吴佩认为这件事真的有很大的信息偏差，虽……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-深圳-要在新型基础设施规划建设上谋项目强投资-加快算力网-新一代通信网等建设",
       "title": "深圳：要在新型基础设施规划建设上谋项目强投资，加快算力网、新一代通信网等建设",
       "url": "https://36kr.com/newsflashes/3838762629384706?f=rss",
@@ -523,24 +555,6 @@
       "image": ""
     },
     {
-      "id": "ithome-马斯克正式敲定首次公开募股计划-每股-135-美元-向公众发行-555-555-555-股类普通股",
-      "title": "马斯克正式敲定首次公开募股计划：每股 135 美元，向公众发行 555，555，555 股类普通股",
-      "url": "https://www.ithome.com/0/960/102.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T11:08:57.000Z",
-      "summary": "科技之家 6 月 4 日消息，马斯克旗下的太空探索技术公司（）已正式敲定首次公开募股（首次公开募股）计划。根据当地时间 6 月 3 日向美国证券交易委员会（）提交的更新招股文件，该公司预计将于 6 月 12 日在纳斯达克全球精选市场及纳斯达克得克萨斯交易所同步挂牌上市，股票代码定为“”。在定价策略上，罕见地打破了华尔街延续已久的惯例。不同于企业通常先划定发行价格区间、再通过路……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-借助人工智能-生成",
       "title": "借助人工智能，生成",
       "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
@@ -553,7 +567,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -604,7 +618,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -720,7 +734,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -772,7 +786,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 85,
       "image": ""
     },
     {
@@ -822,7 +836,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/CVPR_blog_still-scaled.png"
     },
     {
@@ -859,39 +873,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
     },
     {
-      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
-      "title": "模型社区博客发布人工智能相关动态。",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-03T12:55:11.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-人工智能企业-信息技术",
-      "title": "人工智能企业。信息技术。",
-      "url": "https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T19:15:57.000Z",
-      "summary": "我们构建智能体平台: 支持模型，打开，和在每个。人工智能企业。信息技术。首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 63,
-      "image": ""
-    },
-    {
       "id": "github-blog-代码托管平台智能编程助手应用-智能体",
       "title": "代码托管平台智能编程助手应用: 智能体",
       "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
@@ -905,7 +886,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -925,19 +906,21 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-2207567240-1152x648.jpg"
     },
     {
-      "id": "ithome-华为智慧屏相关型号专业版亮相-65-75-85-英寸三种尺寸-支持灵犀指向遥控-6299-元起",
-      "title": "华为智慧屏相关型号专业版亮相：65 / 75 / 85 英寸三种尺寸、支持灵犀指向遥控，6299 元起",
-      "url": "https://www.ithome.com/0/960/101.htm",
+      "id": "ithome-正式敲定首次公开募股计划-每股-135-美元-马斯克拥有超-82-投票权",
+      "title": "正式敲定首次公开募股计划：每股 135 美元，马斯克拥有超 82% 投票权",
+      "url": "https://www.ithome.com/0/960/102.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T11:07:00.000Z",
-      "summary": "科技之家 6 月 4 日消息，华为智慧屏相关型号专业版已现身华为官网，新品拥有 65 / 75 / 85 英寸三种尺寸、支持灵犀指向遥控、超薄零贴墙、鸿蒙人工智能，定价 6299 元起。65 英寸：6299 元 75 英寸：7999 元 85 英寸：10999 元据介绍，华为智慧屏相关型号专业版配备千级背光分区屏幕（ 分辨率 3840×2160；游戏模式倍频刷新率 288 赫……",
+      "publishedAt": "2026-06-04T11:08:57.000Z",
+      "summary": "科技之家 6 月 4 日消息，马斯克旗下的太空探索技术公司（）已正式敲定首次公开募股（首次公开募股）计划。根据当地时间 6 月 3 日向美国证券交易委员会（）提交的更新招股文件，该公司计划于 6 月 12 日在纳斯达克挂牌上市，股票代码定为“”。计划出售 5.556 亿股股票，募资额将达 750 亿美元。承销商有权以首次公开募股价格额外购买 8333 万股股票，价值 112 ……",
       "topics": [
-        "端侧智能"
+        "产品应用",
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1125,7 +1108,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 82,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1177,7 +1160,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/cvpr-product-blog-still-1920x1080-1.jpg"
     },
     {
@@ -1210,7 +1193,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1245,22 +1228,6 @@
         "开源生态"
       ],
       "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-宣布微软正式可用和微软应用预览",
-      "title": "宣布微软正式可用和微软应用预览",
-      "url": "https://azure.microsoft.com/en-us/blog/announcing-microsoft-discovery-general-availability-and-microsoft-discovery-app-preview/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T18:15:00.000Z",
-      "summary": "在微软构建，我们宣布微软可用面向组织，平台面向构建和人工智能工作流。宣布微软正式可用和微软应用预览首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 58,
       "image": ""
     },
     {
@@ -1314,20 +1281,19 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GR_at_IO_hero.png"
     },
     {
-      "id": "ithome-人工智能辅助编程引发谷歌双子座模型-人工智能安全公司克劳德模型代码热潮-黑客借此设计钓鱼网站散播恶意木马",
-      "title": "人工智能辅助编程引发谷歌双子座模型 / 人工智能安全公司克劳德模型代码热潮，黑客借此设计钓鱼网站散播恶意木马",
-      "url": "https://www.ithome.com/0/960/100.htm",
+      "id": "ithome-华为智慧屏相关型号专业版亮相-65-75-85-英寸三种尺寸-支持灵犀指向遥控-6299-元起",
+      "title": "华为智慧屏相关型号专业版亮相：65 / 75 / 85 英寸三种尺寸、支持灵犀指向遥控，6299 元起",
+      "url": "https://www.ithome.com/0/960/101.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T10:59:49.000Z",
-      "summary": "科技之家 6 月 4 日消息，随着人工智能辅助编程快速普及，双子座模型与克劳德模型代码等开发工具近期热度持续攀升，而黑客也开始借此针对开发者发动新一轮攻击。网络安全公司日前发布报告称，有大量黑客正在伪造双子座模型与克劳德模型代码网站，并利用竞价排名方式提升山寨网站搜索权重，诱骗开发者下载被植入木马的安装程序，最终执行恶意指令。科技之家参考通报获悉，黑客注册了多个与官方页面高度……",
+      "publishedAt": "2026-06-04T11:07:00.000Z",
+      "summary": "科技之家 6 月 4 日消息，华为智慧屏相关型号专业版已现身华为官网，新品拥有 65 / 75 / 85 英寸三种尺寸、支持灵犀指向遥控、超薄零贴墙、鸿蒙人工智能，定价 6299 元起。65 英寸：6299 元 75 英寸：7999 元 85 英寸：10999 元据介绍，华为智慧屏相关型号专业版配备千级背光分区屏幕（ 分辨率 3840×2160；游戏模式倍频刷新率 288 赫……",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1449,7 +1415,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1517,7 +1483,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1551,7 +1517,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1568,7 +1534,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1604,22 +1570,6 @@
       ],
       "heat": 61,
       "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-微软构建-2026-构建应用借助微软和微软",
-      "title": "微软构建 2026: 构建应用借助微软和微软",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-build-2026-building-agentic-apps-with-microsoft-fabric-and-microsoft-databases/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:59:00.000Z",
-      "summary": "微软构建 2026 高亮在应用借助微软和微软，数据和人工智能平台面向。微软构建 2026: 构建应用借助微软和微软首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 57,
-      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/4009252-OneLake-Foundry-Integration-Demo"
     },
     {
       "id": "huggingface-blog-本地使用智能体",
@@ -1672,18 +1622,18 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-2026-年-5-月软硬件报告出炉-3060-登上显卡榜榜首-相关型号显示器仍是主流",
-      "title": "2026 年 5 月软硬件报告出炉：3060 登上显卡榜榜首、相关型号显示器仍是主流",
-      "url": "https://www.ithome.com/0/960/098.htm",
+      "id": "ithome-人工智能辅助编程引发谷歌双子座模型-人工智能安全公司克劳德模型代码热潮-黑客借此设计钓鱼网站散播恶意木马",
+      "title": "人工智能辅助编程引发谷歌双子座模型 / 人工智能安全公司克劳德模型代码热潮，黑客借此设计钓鱼网站散播恶意木马",
+      "url": "https://www.ithome.com/0/960/100.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T10:49:19.000Z",
-      "summary": "科技之家 6 月 4 日消息，平台今天公布了 2026 年 5 月玩家硬件报告，本月英伟达的 3060 登上显卡榜的榜首，玩家仍惯用 16 吉字节、相关型号分辨率产品。科技之家参考相应数据获悉，本月英伟达的 3060 升至第一，份额为 3.85%，后续排行分别为相关型号 （3.77%）、相关型号（3.55%）、相关型号（3.10%）、相关型号（2.92%）。操作系统方面，本月……",
+      "publishedAt": "2026-06-04T10:59:49.000Z",
+      "summary": "科技之家 6 月 4 日消息，随着人工智能辅助编程快速普及，双子座模型与克劳德模型代码等开发工具近期热度持续攀升，而黑客也开始借此针对开发者发动新一轮攻击。网络安全公司日前发布报告称，有大量黑客正在伪造双子座模型与克劳德模型代码网站，并利用竞价排名方式提升山寨网站搜索权重，诱骗开发者下载被植入木马的安装程序，最终执行恶意指令。科技之家参考通报获悉，黑客注册了多个与官方页面高度……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -1840,7 +1790,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1857,7 +1807,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1942,7 +1892,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-corp-blog-microsoft-1280x680-4999350.png"
     },
     {
@@ -1960,22 +1910,6 @@
         "开源生态"
       ],
       "heat": 61,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-新-200-交付-50-性能-面向人工智能",
-      "title": "新 200 交付 50% 性能，面向人工智能",
-      "url": "https://azure.microsoft.com/en-us/blog/new-azure-cobalt-200-vms-deliver-50-performance-improvement-fully-optimized-for-modern-agentic-ai-workloads/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:30:09.000Z",
-      "summary": "我们宣布访问预览面向 200，面向人工智能。新 200 交付 50% 性能，面向人工智能首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 56,
       "image": ""
     },
     {
@@ -2028,20 +1962,20 @@
       "image": ""
     },
     {
-      "id": "ithome-一条短信即可-远程自毁-十铨展出相关型号移动硬盘",
-      "title": "一条短信即可“远程自毁”：十铨展出相关型号移动硬盘",
-      "url": "https://www.ithome.com/0/960/090.htm",
+      "id": "ithome-2026-年-5-月软硬件报告出炉-3060-登上显卡榜榜首-相关型号显示器仍是主流",
+      "title": "2026 年 5 月软硬件报告出炉：3060 登上显卡榜榜首、相关型号显示器仍是主流",
+      "url": "https://www.ithome.com/0/960/098.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T10:31:53.000Z",
-      "summary": "科技之家 6 月 4 日消息，据 '，十铨（）在 2026 上展示了一款支持“远程自毁”功能的新型移动固态硬盘相关型号。据介绍，该硬盘支持 4 克联网，确保即使在未连接无线网络或其他设备的情况下也能收到远程指令。如果存有重要数据的移动硬盘不幸丢失，用户仅需发送一条短信即可远程执行“深度逻辑擦除”，随后实现物理销毁（高电压击穿硬件），以确保数据无法被恢复。科技之家注意到，十铨去……",
+      "publishedAt": "2026-06-04T10:49:19.000Z",
+      "summary": "科技之家 6 月 4 日消息，平台今天公布了 2026 年 5 月玩家硬件报告，本月英伟达的 3060 登上显卡榜的榜首，玩家仍惯用 16 吉字节、相关型号分辨率产品。科技之家参考相应数据获悉，本月英伟达的 3060 升至第一，份额为 3.85%，后续排行分别为相关型号 （3.77%）、相关型号（3.55%）、相关型号（3.10%）、相关型号（2.92%）。操作系统方面，本月……",
       "topics": [
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2125,7 +2059,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://external-preview.redd.it/FZO_VtU2n-mtqc6h9y5uILKwIDBOIBB8t1HS5PzBHEE.png?width=640&crop=smart&auto=webp&s=96f2dcf59ffd7ab936a46c19326fa09dd168a3e5"
     },
     {
@@ -2177,7 +2111,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2195,7 +2129,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2259,23 +2193,6 @@
       "topics": [
         "产品应用",
         "开源生态"
-      ],
-      "heat": 61,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-开发者指南向模型-成本和质量在微软",
-      "title": "开发者指南向模型，成本和质量在微软",
-      "url": "https://azure.microsoft.com/en-us/blog/a-developers-guide-to-managing-models-cost-and-quality-in-microsoft-foundry/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:00:00.000Z",
-      "summary": "微软帮助团队模型访问向人工智能在规模，和模型。开发者指南向模型，成本和质量在微软首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
       ],
       "heat": 61,
       "image": ""
@@ -2363,19 +2280,20 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-科技之家开箱-华硕破晓开箱图赏-一体成型陶瓷铝机身-简约-降噪-设计",
-      "title": "【科技之家开箱】华硕破晓开箱图赏：一体成型陶瓷铝机身，简约“降噪”设计",
-      "url": "https://www.ithome.com/0/960/080.htm",
+      "id": "ithome-一条短信即可-远程自毁-十铨展出相关型号移动硬盘",
+      "title": "一条短信即可“远程自毁”：十铨展出相关型号移动硬盘",
+      "url": "https://www.ithome.com/0/960/090.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T10:25:42.000Z",
-      "summary": "今年 3 月 10 日，华硕破晓系列重磅旗舰新品华硕破晓正式发售，它搭载最新英特尔第三代酷睿处理器，配备相关型号双层串联触控屏和至高 64 吉字节 + 2 太字节大存储，还将机身重量控制在 1.1 千克，厚度薄至 10.9 毫米。科技之家近期拿到了这款产品，下面就让我们通过一组图赏抢先来欣赏它的颜值吧。华硕破晓机身采用纳米陶瓷铝工艺打造，一体成型的面拥有如自然岩石般粗犷又细腻……",
+      "publishedAt": "2026-06-04T10:31:53.000Z",
+      "summary": "科技之家 6 月 4 日消息，据 '，十铨（）在 2026 上展示了一款支持“远程自毁”功能的新型移动固态硬盘相关型号。据介绍，该硬盘支持 4 克联网，确保即使在未连接无线网络或其他设备的情况下也能收到远程指令。如果存有重要数据的移动硬盘不幸丢失，用户仅需发送一条短信即可远程执行“深度逻辑擦除”，随后实现物理销毁（高电压击穿硬件），以确保数据无法被恢复。科技之家注意到，十铨去……",
       "topics": [
-        "人工智能动态"
+        "算力芯片",
+        "端侧智能"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2409,7 +2327,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2459,7 +2377,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2495,7 +2413,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2600,23 +2518,6 @@
       "image": ""
     },
     {
-      "id": "huggingface-blog-英伟达-3-首个打开-模型面向人工智能推理能力和",
-      "title": "英伟达 3: 首个打开，模型面向人工智能推理能力和",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-01T04:44:55.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "模型发布",
-        "算力芯片"
-      ],
-      "heat": 63,
-      "image": ""
-    },
-    {
       "id": "wired-ai-我们请-真相的未来-作者解释他如何使用人工智能-结果并不顺利",
       "title": "我们请《真相的未来》作者解释他如何使用人工智能，结果并不顺利",
       "url": "https://www.wired.com/story/future-of-truth-ai-interview/",
@@ -2631,6 +2532,22 @@
       ],
       "heat": 49,
       "image": "https://media.wired.com/photos/6a173332faa2148b4ab454b6/master/pass/Business_AIBookAuthorUsedAItoWriteHisBook_v1.jpg"
+    },
+    {
+      "id": "huggingface-blog-性能分析在开源深度学习框架部件-1-入门指南向性能分析工具",
+      "title": "性能分析在开源深度学习框架部件 1 : 入门指南向性能分析工具",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-05-29T00:00:00.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "开源生态"
+      ],
+      "heat": 50,
+      "image": ""
     },
     {
       "id": "google-ai-blog-回顾-12-重要开发者大会-2026-时刻",
@@ -2649,21 +2566,19 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-科技之家评测室-华硕破晓评测-第三代酷睿处理器-双层触控屏-刷新商务本体验上限",
-      "title": "【科技之家评测室】华硕破晓评测：第三代酷睿处理器 + 双层触控屏，刷新商务本体验上限",
-      "url": "https://www.ithome.com/0/960/076.htm",
+      "id": "ithome-科技之家开箱-华硕破晓开箱图赏-一体成型陶瓷铝机身-简约-降噪-设计",
+      "title": "【科技之家开箱】华硕破晓开箱图赏：一体成型陶瓷铝机身，简约“降噪”设计",
+      "url": "https://www.ithome.com/0/960/080.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T10:17:27.000Z",
-      "summary": "今年 3 月 10 日，华硕旗下破晓系列发售了一款全新超轻薄人工智能笔记本，华硕破晓。其最大特色就是在 1.1 千克超薄机身内塞入了英特尔第 3 代酷睿相关型号处理器相关型号，相关型号 120 赫兹触控屏和 70 瓦时电池，致力于打造一款标杆级别的商务轻薄本。当然，它的价格也非常的旗舰，32 吉字节+1 太字节存储组合版本当前价格 14999 元。科技之家最近体验了这款产品，……",
+      "publishedAt": "2026-06-04T10:25:42.000Z",
+      "summary": "今年 3 月 10 日，华硕破晓系列重磅旗舰新品华硕破晓正式发售，它搭载最新英特尔第三代酷睿处理器，配备相关型号双层串联触控屏和至高 64 吉字节 + 2 太字节大存储，还将机身重量控制在 1.1 千克，厚度薄至 10.9 毫米。科技之家近期拿到了这款产品，下面就让我们通过一组图赏抢先来欣赏它的颜值吧。华硕破晓机身采用纳米陶瓷铝工艺打造，一体成型的面拥有如自然岩石般粗犷又细腻……",
       "topics": [
-        "模型发布",
-        "算力芯片",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2848,6 +2763,92 @@
         "投融资"
       ],
       "heat": 55,
+      "image": ""
+    },
+    {
+      "id": "nvidia-blog-英伟达人工智能云服务生态扩展向全球人工智能需求",
+      "title": "英伟达人工智能云服务生态扩展向全球人工智能需求",
+      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-01T05:00:56.000Z",
+      "summary": "英伟达人工智能云服务生态全球人工智能基础设施。合作伙伴向需求来自，创业公司，人工智能实验室和开发者人工智能。英伟达人工智能生态，构建词元需求最人工智能。…",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 70,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/partner-social-ncp-ai-factory-announcement-1920x1080-1.jpg"
+    },
+    {
+      "id": "ithome-科技之家评测室-华硕破晓评测-第三代酷睿处理器-双层触控屏-刷新商务本体验上限",
+      "title": "【科技之家评测室】华硕破晓评测：第三代酷睿处理器 + 双层触控屏，刷新商务本体验上限",
+      "url": "https://www.ithome.com/0/960/076.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T10:17:27.000Z",
+      "summary": "今年 3 月 10 日，华硕旗下破晓系列发售了一款全新超轻薄人工智能笔记本，华硕破晓。其最大特色就是在 1.1 千克超薄机身内塞入了英特尔第 3 代酷睿相关型号处理器相关型号，相关型号 120 赫兹触控屏和 70 瓦时电池，致力于打造一款标杆级别的商务轻薄本。当然，它的价格也非常的旗舰，32 吉字节+1 太字节存储组合版本当前价格 14999 元。科技之家最近体验了这款产品，……",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-英伟达官宣推出全球首款完全开放的全模态物理人工智能模型英伟达-3",
+      "title": "英伟达官宣推出全球首款完全开放的全模态物理人工智能模型英伟达 3",
+      "url": "https://36kr.com/newsflashes/3838675420875270?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T09:42:34.000Z",
+      "summary": "英伟达正式官宣产品英伟达 3，这款面向物理人工智能的开放世界基础模型，凭借全新混合架构，打通视觉推理、世界生成、动作预测三大核心能力，成为全球首款完全开放的全模态物理人工智能模型。与此同时，英伟达牵头成立全球开发者协作联盟。（财联社）",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "oschina-宣布重组裁员-14",
+      "title": "宣布重组裁员 14%",
+      "url": "https://www.oschina.net/news/451937",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T07:26:03.000Z",
+      "summary": "作为上月公布的广泛重组计划的一部分，已裁员约 14%，即约 350 名员工。该公司在 5 月份表示，将退出 22 个国家/地区，精简管理层级，并投资基础设施以扩展其平台，应对人工智能工作流带来的流量增长，公司将裁减员工，同时更加专注于研发工作。首席执行官在周二的电话会议上表示，人工智能工作负载。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-手机厂商语音助手可直接调动微信-腾讯客服回应",
+      "title": "手机厂商语音助手可直接调动微信？腾讯客服回应",
+      "url": "https://news.cnblogs.com/n/823459/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T05:11:00.000Z",
+      "summary": "腾讯旗下的社交应用微信正与多家手机厂商展开深度合作，允许用户直接通过手机系统人工智能助手发起微信音视频通话或发送消息。腾讯客服方面对第一财经确认，目前微信正在与华为、小米、荣耀、欧珀、等多家手机厂商合作推出相关型号（智能体--智能体）助手能力，目前已有手机厂商完成接入。该本文链接",
+      "topics": [
+        "产品应用",
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 91,
       "image": ""
     }
   ]
