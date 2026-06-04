@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-04T22:18:56.428Z",
+  "generatedAt": "2026-06-04T22:49:12.307Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-04T22:30:00.000Z",
+  "nextUpdateHint": "2026-06-04T23:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-04T21:30:00.000Z"
+    "latestPublishedAt": "2026-06-04T22:43:26.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 72,
-      "heat": 84
+      "count": 75,
+      "heat": 82
     },
     {
       "name": "模型发布",
-      "count": 46,
-      "heat": 84
+      "count": 44,
+      "heat": 83
     },
     {
       "name": "监管安全",
@@ -28,8 +28,8 @@
     },
     {
       "name": "算力芯片",
-      "count": 25,
-      "heat": 85
+      "count": 23,
+      "heat": 84
     },
     {
       "name": "研究论文",
@@ -38,8 +38,8 @@
     },
     {
       "name": "人工智能动态",
-      "count": 19,
-      "heat": 77
+      "count": 17,
+      "heat": 75
     },
     {
       "name": "投融资",
@@ -52,11 +52,6 @@
       "heat": 81
     },
     {
-      "name": "机器人",
-      "count": 9,
-      "heat": 85
-    },
-    {
       "name": "开源生态",
       "count": 9,
       "heat": 81
@@ -64,7 +59,12 @@
     {
       "name": "端侧智能",
       "count": 8,
-      "heat": 82
+      "heat": 81
+    },
+    {
+      "name": "机器人",
+      "count": 7,
+      "heat": 83
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-05-22T15:00:00.000Z",
-      "latestDisplayedAt": ""
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-06-02T19:15:57.000Z",
+      "latestDisplayedAt": "2026-06-02T19:15:57.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-04T21:30:00.000Z",
-      "latestDisplayedAt": "2026-06-04T21:30:00.000Z"
+      "latestFetchedAt": "2026-06-04T22:43:26.000Z",
+      "latestDisplayedAt": "2026-06-04T22:43:26.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -321,8 +321,8 @@
       "fallbackReason": "",
       "itemCount": 2,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-06-04T19:39:19.000Z",
-      "latestDisplayedAt": "2026-06-04T19:39:19.000Z"
+      "latestFetchedAt": "2026-06-04T13:28:59.000Z",
+      "latestDisplayedAt": "2026-06-04T13:28:59.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-04T21:07:12.000Z",
-      "latestDisplayedAt": "2026-06-04T21:07:12.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-06-04T22:27:26.000Z",
+      "latestDisplayedAt": "2026-06-04T22:27:26.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -366,7 +366,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "This operation was aborted",
       "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-03T17:57:04.000Z",
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-04T13:38:00.000Z",
       "latestDisplayedAt": "2026-06-04T13:38:00.000Z"
     },
@@ -432,7 +432,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 14,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-04T12:57:06.000Z",
       "latestDisplayedAt": "2026-06-04T12:57:06.000Z"
     },
@@ -448,7 +448,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 17,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-04T15:32:47.000Z",
       "latestDisplayedAt": "2026-06-04T15:32:47.000Z"
     },
@@ -488,34 +488,34 @@
   "failures": [],
   "items": [
     {
-      "id": "techcrunch-ai-人工智能-和舞台在在-18",
-      "title": "人工智能，和舞台在在 18",
-      "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
+      "id": "techcrunch-ai-首次公开募股-人工智能安全公司关于人工智能回归",
+      "title": "首次公开募股，人工智能安全公司关于人工智能回归",
+      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T21:30:00.000Z",
-      "summary": "在，18，在，和面向最，人工智能，和高级。保障安全。",
+      "publishedAt": "2026-06-04T22:43:26.000Z",
+      "summary": "人工智能解释为什么公司面向和为什么。",
       "topics": [
         "监管安全",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-高级人工智能",
-      "title": "高级人工智能。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx0kye/highly_advanced_ais/",
+      "id": "reddit-artificial-人工智能技能访问向人工智能",
+      "title": "人工智能技能访问向人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx2nun/what_ai_skill_will_still_matter_when_everyone_has/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T21:07:12.000Z",
-      "summary": "人工智能信息技术向信息技术借助？由",
+      "publishedAt": "2026-06-04T22:27:26.000Z",
+      "summary": "使用人工智能工具，技能实际独立。信息技术？和？向？工作流？人工智能更快，信息技术。指南，和人工智能顺利成为向生成。技能认为最在？由",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 85,
       "image": ""
@@ -555,22 +555,6 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/rPPG-2-final.png"
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://news.ycombinator.com/item?id=48403614",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T19:39:19.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-3-5-安全-多模态安全面向全球企业人工智能",
       "title": "3.5 安全: 多模态安全面向全球企业人工智能",
       "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
@@ -600,7 +584,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -633,7 +617,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -651,7 +635,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -689,6 +673,22 @@
       "image": ""
     },
     {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://news.ycombinator.com/item?id=48398358",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T13:28:59.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 79,
+      "image": ""
+    },
+    {
       "id": "qbitai-重估比亚迪-从智驾开始",
       "title": "重估比亚迪，从智驾开始",
       "url": "https://www.qbitai.com/2026/06/429192.html",
@@ -701,7 +701,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -767,7 +767,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -801,7 +801,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -874,6 +874,23 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
     },
     {
+      "id": "microsoft-ai-blog-人工智能企业-信息技术",
+      "title": "人工智能企业。信息技术。",
+      "url": "https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T19:15:57.000Z",
+      "summary": "我们构建智能体平台: 支持模型，打开，和在每个。人工智能企业。信息技术。首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "github-blog-代码托管平台智能编程助手应用-智能体",
       "title": "代码托管平台智能编程助手应用: 智能体",
       "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
@@ -891,20 +908,36 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-向推出新人工智能实验室",
+      "title": "向推出新人工智能实验室",
+      "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T22:29:50.000Z",
+      "summary": "首席执行官信息技术大语言模型产品。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx0gyz/kevin_olearys_two_data_centres_are_so_big_they/",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx2nlt/cloudflare_warns_bot_and_agentic_traffic_has/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T21:03:01.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-04T22:27:11.000Z",
+      "summary": "人工智能人工智能，顺利，在。由",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 85,
-      "image": "https://external-preview.redd.it/vVS1hi14aFSQDuDXYnjCpIQNhZtIJ_03Xw6JG_pQu4E.jpeg?width=640&crop=smart&auto=webp&s=79ba8047f13acd27aba300bf6fb3cdd5377eb22c"
+      "image": ""
     },
     {
       "id": "github-changelog-智能体任务接口现已可用面向智能副驾专业版-专业版-和旗舰版",
@@ -921,22 +954,6 @@
         "开源生态"
       ],
       "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-元宇宙平台公司来自特斯拉和构建数据中心在",
-      "title": "元宇宙平台公司来自特斯拉和构建数据中心在",
-      "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T19:33:09.000Z",
-      "summary": "元宇宙平台公司向数据中心法案:。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 89,
       "image": ""
     },
     {
@@ -969,7 +986,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1037,7 +1054,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1069,7 +1086,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1152,7 +1169,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CHMI_open_sourcing_1.png"
     },
     {
@@ -1209,6 +1226,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/CVPR_blog_still-scaled.png"
     },
     {
+      "id": "microsoft-ai-blog-宣布微软正式可用和微软应用预览",
+      "title": "宣布微软正式可用和微软应用预览",
+      "url": "https://azure.microsoft.com/en-us/blog/announcing-microsoft-discovery-general-availability-and-microsoft-discovery-app-preview/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T18:15:00.000Z",
+      "summary": "在微软构建，我们宣布微软可用面向组织，平台面向构建和人工智能工作流。宣布微软正式可用和微软应用预览首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "mit-tech-review-ai-全球护理借助人工智能",
       "title": "全球护理借助人工智能",
       "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
@@ -1243,36 +1276,36 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "reddit-artificial-由-2035-人工智能创建新",
-      "title": "由 2035: 人工智能创建新？",
-      "url": "https://www.reddit.com/r/artificial/comments/1twz2pk/whats_more_likely_by_2035_ai_creates_new_careers/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T20:11:03.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/NnQwN2diamVwYjVoMWBUWFir2sSGrJ9NTYC6HBLVgI_TAPgukvbjomvyyCMy.png?width=640&crop=smart&auto=webp&s=dac7b3b93a353db39586c10997b3b96de99868d0"
-    },
-    {
-      "id": "techcrunch-ai-苹果作为首个人工智能智能体在面向企业平台",
-      "title": "苹果作为首个人工智能智能体在面向企业平台",
-      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "id": "techcrunch-ai-人工智能-和舞台在在-18",
+      "title": "人工智能，和舞台在在 18",
+      "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T19:20:58.000Z",
-      "summary": "创业公司使用人工智能智能体，成为首个人工智能智能体面向苹果面向企业平台。",
+      "publishedAt": "2026-06-04T21:30:00.000Z",
+      "summary": "在，18，在，和面向最，人工智能，和高级。保障安全。",
       "topics": [
-        "产品应用",
+        "监管安全",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-高级人工智能",
+      "title": "高级人工智能。",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx0kye/highly_advanced_ais/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T21:07:12.000Z",
+      "summary": "人工智能信息技术向信息技术借助？由",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -1339,7 +1372,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1356,7 +1389,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1372,7 +1405,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1388,7 +1421,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1422,7 +1455,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1458,7 +1491,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1547,6 +1580,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/cvpr-product-blog-still-1920x1080-1.jpg"
     },
     {
+      "id": "microsoft-ai-blog-微软构建-2026-构建应用借助微软和微软",
+      "title": "微软构建 2026: 构建应用借助微软和微软",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-build-2026-building-agentic-apps-with-microsoft-fabric-and-microsoft-databases/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T16:59:00.000Z",
+      "summary": "微软构建 2026 高亮在应用借助微软和微软，数据和人工智能平台面向。微软构建 2026: 构建应用借助微软和微软首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/4009252-OneLake-Foundry-Integration-Demo"
+    },
+    {
       "id": "mit-tech-review-ai-企业人工智能",
       "title": "企业人工智能",
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
@@ -1580,35 +1629,35 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "reddit-artificial-面向向使用人工智能",
-      "title": "面向向使用人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1twyvk2/looking_for_ideas_how_to_use_ai/",
+      "id": "reddit-artificial-由-2035-人工智能创建新",
+      "title": "由 2035: 人工智能创建新？",
+      "url": "https://www.reddit.com/r/artificial/comments/1twz2pk/whats_more_likely_by_2035_ai_creates_new_careers/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T20:03:42.000Z",
-      "summary": "作为软件工程师。在范围人工智能关于信息技术。向在和向借助信息技术和使用信息技术。使用信息技术在向？向信息技术？由",
+      "publishedAt": "2026-06-04T20:11:03.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
-      "image": ""
+      "heat": 83,
+      "image": "https://external-preview.redd.it/NnQwN2diamVwYjVoMWBUWFir2sSGrJ9NTYC6HBLVgI_TAPgukvbjomvyyCMy.png?width=640&crop=smart&auto=webp&s=dac7b3b93a353db39586c10997b3b96de99868d0"
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司新人工智能助手在",
-      "title": "元宇宙平台公司新人工智能助手在",
-      "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "id": "techcrunch-ai-元宇宙平台公司来自特斯拉和构建数据中心在",
+      "title": "元宇宙平台公司来自特斯拉和构建数据中心在",
+      "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T16:32:48.000Z",
-      "summary": "向和向性能，借助新人工智能助手，答案向问题？和在？",
+      "publishedAt": "2026-06-04T19:33:09.000Z",
+      "summary": "元宇宙平台公司向数据中心法案:。",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1625,7 +1674,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1709,7 +1758,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1741,7 +1790,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1757,7 +1806,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1861,7 +1910,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1880,6 +1929,22 @@
       ],
       "heat": 65,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-2.jpg"
+    },
+    {
+      "id": "microsoft-ai-blog-新-200-交付-50-性能-面向人工智能",
+      "title": "新 200 交付 50% 性能，面向人工智能",
+      "url": "https://azure.microsoft.com/en-us/blog/new-azure-cobalt-200-vms-deliver-50-performance-improvement-fully-optimized-for-modern-agentic-ai-workloads/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T16:30:09.000Z",
+      "summary": "我们宣布访问预览面向 200，面向人工智能。新 200 交付 50% 性能，面向人工智能首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
     },
     {
       "id": "google-ai-blog-9-演示双子座全能模型和双子座模型-3-5-实战",
@@ -1932,19 +1997,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-向来自-2026-和苹果智能更新",
-      "title": "向来自 2026: 和苹果智能更新",
-      "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "id": "techcrunch-ai-苹果作为首个人工智能智能体在面向企业平台",
+      "title": "苹果作为首个人工智能智能体在面向企业平台",
+      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T16:31:12.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-04T19:20:58.000Z",
+      "summary": "创业公司使用人工智能智能体，成为首个人工智能智能体面向苹果面向企业平台。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "投融资"
       ],
-      "heat": 86,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1961,7 +2027,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1979,7 +2045,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1997,7 +2063,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2032,7 +2098,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2048,7 +2114,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2150,7 +2216,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2184,7 +2250,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://media.wired.com/photos/6a1f6880163032d6de40fd16/master/pass/Exchange-Home-for-Anthropic-Stock-Business.jpg"
     },
     {
@@ -2200,7 +2266,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": ""
     },
     {
@@ -2255,20 +2321,19 @@
       "image": "https://external-preview.redd.it/eWMxNXBqYTAzYjVoMWHgZlZECWAYzglDIaDZ_ewnM3sxNebXq1nH7jJs_s1O.png?width=640&crop=smart&auto=webp&s=6843cc92403ee5e22491bd979936f4d2ff354861"
     },
     {
-      "id": "techcrunch-ai-向设置机器人在-机器人",
-      "title": "向设置机器人在？机器人。",
-      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "id": "techcrunch-ai-元宇宙平台公司新人工智能助手在",
+      "title": "元宇宙平台公司新人工智能助手在",
+      "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T15:05:00.000Z",
-      "summary": "创业公司发布机器人。",
+      "publishedAt": "2026-06-04T16:32:48.000Z",
+      "summary": "向和向性能，借助新人工智能助手，答案向问题？和在？",
       "topics": [
-        "投融资",
-        "机器人"
+        "产品应用"
       ],
-      "heat": 90,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2303,7 +2368,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2321,7 +2386,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2339,7 +2404,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2387,7 +2452,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2422,7 +2487,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2454,7 +2519,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2527,35 +2592,19 @@
       "image": "https://media.wired.com/photos/6a1db04538f4e0fcb2641f17/master/pass/Anthropic-Goes-Public-Business-2274306161.jpg"
     },
     {
-      "id": "reddit-artificial-克劳德模型模型面向",
-      "title": "克劳德模型模型面向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1twuw7i/best_claude_model_for_rp/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T17:43:41.000Z",
-      "summary": "旗舰模型 4.6 4.6 面向在专业版正确向在术语，在，记忆，和旗舰模型 4.6 信息技术限制面向使用面向和更好面向？更好。由",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-苹果-1-4-在应用和-90",
-      "title": "苹果 $1.4 在应用和，90%",
-      "url": "https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/",
+      "id": "techcrunch-ai-向来自-2026-和苹果智能更新",
+      "title": "向来自 2026: 和苹果智能更新",
+      "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T14:05:58.000Z",
-      "summary": "苹果应用生成 $1.4 在，来自 $1.3，借助 $149 十亿在面向。",
+      "publishedAt": "2026-06-04T16:31:12.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2571,7 +2620,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2589,7 +2638,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2605,7 +2654,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2640,7 +2689,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2712,7 +2761,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2745,7 +2794,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2797,60 +2846,6 @@
         "模型发布"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "ithome-微软内部文件曝光-声称希望用户对新智能体-上瘾",
-      "title": "微软内部文件曝光，声称希望用户对新智能体 “上瘾”",
-      "url": "https://www.ithome.com/0/960/130.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T13:13:47.000Z",
-      "summary": "科技之家 6 月 4 日消息，外媒 404 获得的一份内部文件显示，微软明确希望让用户对新款个人助理人工智能智能体 “上瘾”。这份文件介绍了微软的产品计划。微软打算把更主流、更容易上手的人工智能智能体嵌入微软 365 软件套件，并把推进过程分成“三个阶段”。科技之家获悉，第一阶段写得非常直接：“ 让人上瘾 …… 继续推出独立版体验。试点，扩大用户基础，并建立技能和工具生态系统……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "机器人"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-氪星晚报-开放人工智能公司首席财务官谈公司人工智能设备-今年年底前将正式发布-腾讯客服回应与华为-小米等合作-香港推出首个生产力",
-      "title": "氪星晚报 ｜开放人工智能公司首席财务官谈公司人工智能设备：今年年底前将正式发布；腾讯客服回应与华为、小米等合作；香港推出首个生产力级超级智能体",
-      "url": "https://36kr.com/p/3838652242823687?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T09:37:38.000Z",
-      "summary": "大公司：开放人工智能公司首席财务官谈公司人工智能设备：今年年底前将正式发布开放人工智能公司首席财务官日前在受访时透露，已经亲自体验过开放人工智能公司的人工智能设备。她表示到“今年年底之前”开放人工智能公司将正式发布这款产品。此前，开放人工智能公司曾在一份文件中表示，预计最早也要到2027年2月才会开始发货。（财联社） 计划扩建半导体基板工厂将于下月开始扩建其位于越南的半导体基……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "leiphone-蓝信发布2026全栈人工智能新品-打造100-国产化政企智能办公新范式",
-      "title": "蓝信发布2026全栈人工智能新品，打造100%国产化政企智能办公新范式",
-      "url": "https://www.leiphone.com/category/industrynews/PcfF7wBxcwTGztOS.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T08:17:00.000Z",
-      "summary": "北京，2026年6月2日——“知行无界・智启未来——蓝信 2026 人工智能新品发布会暨生态渠道大会” 在北京国家会议中心隆重召开。蓝信现场重磅发布听蓝人工智能录音卡、蓝域智能体平台、知行人工智能超级助理三款原生人工智能产品，并发起成立政企智能办公生态联盟，以全链路、国产化、高安全属性的智能办公体系，正式定义政企人工智能办公新范式，开启政企智能办公新征程。北京市西城区人民政府……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 95,
       "image": ""
     }
   ]
