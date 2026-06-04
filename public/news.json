@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T19:39:30.761Z",
+  "generatedAt": "2026-06-04T19:48:10.704Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-06-04T20:00:00.000Z",
   "stats": {
@@ -8,13 +8,13 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-04T19:33:09.000Z"
+    "latestPublishedAt": "2026-06-04T19:47:12.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 74,
-      "heat": 82
+      "count": 73,
+      "heat": 83
     },
     {
       "name": "模型发布",
@@ -22,14 +22,14 @@
       "heat": 86
     },
     {
-      "name": "监管安全",
+      "name": "研究论文",
       "count": 26,
       "heat": 84
     },
     {
-      "name": "研究论文",
-      "count": 25,
-      "heat": 83
+      "name": "监管安全",
+      "count": 26,
+      "heat": 84
     },
     {
       "name": "算力芯片",
@@ -52,19 +52,19 @@
       "heat": 74
     },
     {
+      "name": "端侧智能",
+      "count": 9,
+      "heat": 84
+    },
+    {
       "name": "机器人",
       "count": 8,
       "heat": 86
     },
     {
       "name": "开源生态",
-      "count": 9,
-      "heat": 74
-    },
-    {
-      "name": "端侧智能",
       "count": 8,
-      "heat": 83
+      "heat": 76
     }
   ],
   "sources": [
@@ -112,9 +112,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-06-03T18:37:32.000Z",
-      "latestDisplayedAt": "2026-06-03T18:37:32.000Z"
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-06-04T19:47:12.000Z",
+      "latestDisplayedAt": "2026-06-04T19:47:12.000Z"
     },
     {
       "id": "github-blog",
@@ -144,7 +144,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 7,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-06-04T18:45:04.000Z",
       "latestDisplayedAt": "2026-06-04T18:45:04.000Z"
     },
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 7,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 6,
       "latestFetchedAt": "2026-06-04T18:57:45.000Z",
       "latestDisplayedAt": "2026-06-04T18:57:45.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 403",
-      "itemCount": 1,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 10,
       "displayedCount": 1,
       "latestFetchedAt": "2026-05-28T21:29:43.000Z",
       "latestDisplayedAt": "2026-05-28T21:29:43.000Z"
@@ -239,7 +239,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
+      "itemCount": 10,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-04T14:15:44.000Z",
       "latestDisplayedAt": "2026-06-04T14:15:44.000Z"
@@ -488,6 +488,23 @@
   "failures": [],
   "items": [
     {
+      "id": "google-research-谷歌研究院发布人工智能相关动态",
+      "title": "谷歌研究院发布人工智能相关动态。",
+      "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera/",
+      "source": "谷歌研究院",
+      "sourceId": "google-research",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-06-04T19:47:12.000Z",
+      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "研究论文",
+        "端侧智能"
+      ],
+      "heat": 98,
+      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/rPPG-2-final.png"
+    },
+    {
       "id": "techcrunch-ai-元宇宙平台公司来自特斯拉和构建数据中心在",
       "title": "元宇宙平台公司来自特斯拉和构建数据中心在",
       "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
@@ -534,7 +551,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -805,22 +822,6 @@
       "image": ""
     },
     {
-      "id": "google-research-在-打开谷歌",
-      "title": "在 : 打开谷歌",
-      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
-      "source": "谷歌研究院",
-      "sourceId": "google-research",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-06-03T18:37:32.000Z",
-      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "研究论文"
-      ],
-      "heat": 80,
-      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CHMI_open_sourcing_1.png"
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-模型评测方向研究",
       "title": "论文新进展：大语言模型、智能体、模型评测方向研究",
       "url": "https://arxiv.org/abs/2606.05158v1",
@@ -1055,7 +1056,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1172,6 +1173,22 @@
       ],
       "heat": 99,
       "image": ""
+    },
+    {
+      "id": "google-research-在-打开谷歌",
+      "title": "在 : 打开谷歌",
+      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
+      "source": "谷歌研究院",
+      "sourceId": "google-research",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-06-03T18:37:32.000Z",
+      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 80,
+      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CHMI_open_sourcing_1.png"
     },
     {
       "id": "arxiv-cs-ai-论文新进展-强化学习-模型评测方向研究",
@@ -1292,22 +1309,6 @@
       ],
       "heat": 61,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "google-research-新-谷歌研究在开发者大会-2026",
-      "title": "新 : 谷歌研究在开发者大会 2026",
-      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
-      "source": "谷歌研究院",
-      "sourceId": "google-research",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-05-28T20:58:00.000Z",
-      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "研究论文"
-      ],
-      "heat": 60,
-      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GR_at_IO_hero.png"
     },
     {
       "id": "reddit-artificial-克劳德模型模型面向",
@@ -1506,7 +1507,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1540,7 +1541,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1610,7 +1611,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1661,6 +1662,22 @@
       ],
       "heat": 61,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "google-research-新-谷歌研究在开发者大会-2026",
+      "title": "新 : 谷歌研究在开发者大会 2026",
+      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+      "source": "谷歌研究院",
+      "sourceId": "google-research",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-05-28T20:58:00.000Z",
+      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 60,
+      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GR_at_IO_hero.png"
     },
     {
       "id": "reddit-artificial-相关型号在人工智能-95",
@@ -1742,7 +1759,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1842,7 +1859,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1859,7 +1876,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": "https://media.wired.com/photos/6a1f67f31c7b696a4249008a/master/pass/AI-Lab-Nvidia-Unitree-Frankenstein-Humanoid-Robot-Business.jpg"
     },
     {
@@ -2100,7 +2117,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2220,7 +2237,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2240,15 +2257,15 @@
       "image": ""
     },
     {
-      "id": "openai-news-面向人工智能",
-      "title": "面向人工智能",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "id": "openai-news-开放人工智能公司政策",
+      "title": "开放人工智能公司政策",
+      "url": "https://openai.com/index/public-policy-agenda",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-06-03T10:00:00.000Z",
-      "summary": "开放人工智能公司面向。人工智能，面向安全，和安全。",
+      "summary": "开放人工智能公司政策面向人工智能，安全，和全球向人工智能帮助。",
       "topics": [
         "监管安全"
       ],
@@ -2544,15 +2561,15 @@
       "image": ""
     },
     {
-      "id": "openai-news-开放人工智能公司政策",
-      "title": "开放人工智能公司政策",
-      "url": "https://openai.com/index/public-policy-agenda",
+      "id": "openai-news-面向人工智能",
+      "title": "面向人工智能",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-06-03T10:00:00.000Z",
-      "summary": "开放人工智能公司政策面向人工智能，安全，和全球向人工智能帮助。",
+      "summary": "开放人工智能公司面向。人工智能，面向安全，和安全。",
       "topics": [
         "监管安全"
       ],
@@ -2832,23 +2849,6 @@
         "算力芯片"
       ],
       "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-智能编程助手命令行工具-改进-和",
-      "title": "智能编程助手命令行工具: 改进，和",
-      "url": "https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T17:27:00.000Z",
-      "summary": "代码托管平台智能编程助手得到重要在微软构建 2026。和可用，和和新 … 智能编程助手命令行工具: 改进，和首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
       "image": ""
     }
   ]
