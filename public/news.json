@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-05T08:20:22.739Z",
+  "generatedAt": "2026-06-05T08:49:54.449Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-05T08:30:00.000Z",
+  "nextUpdateHint": "2026-06-05T09:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-05T08:16:57.000Z"
+    "latestPublishedAt": "2026-06-05T08:39:36.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 63,
+      "count": 66,
       "heat": 79
     },
     {
@@ -23,48 +23,48 @@
     },
     {
       "name": "模型发布",
-      "count": 32,
+      "count": 33,
       "heat": 82
     },
     {
       "name": "研究论文",
       "count": 21,
-      "heat": 85
-    },
-    {
-      "name": "算力芯片",
-      "count": 19,
       "heat": 84
     },
     {
+      "name": "算力芯片",
+      "count": 20,
+      "heat": 85
+    },
+    {
       "name": "人工智能动态",
-      "count": 21,
+      "count": 20,
       "heat": 75
     },
     {
       "name": "端侧智能",
-      "count": 13,
-      "heat": 87
-    },
-    {
-      "name": "机器人",
-      "count": 12,
+      "count": 14,
       "heat": 87
     },
     {
       "name": "投融资",
-      "count": 11,
+      "count": 13,
+      "heat": 87
+    },
+    {
+      "name": "开源生态",
+      "count": 10,
+      "heat": 78
+    },
+    {
+      "name": "机器人",
+      "count": 9,
       "heat": 86
     },
     {
       "name": "多模态",
-      "count": 10,
-      "heat": 82
-    },
-    {
-      "name": "开源生态",
       "count": 9,
-      "heat": 77
+      "heat": 81
     }
   ],
   "sources": [
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-05T08:10:44.000Z",
-      "latestDisplayedAt": "2026-06-05T08:10:44.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-06-05T08:32:45.000Z",
+      "latestDisplayedAt": "2026-06-05T08:32:45.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -380,10 +380,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 2,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 2,
       "latestFetchedAt": "2026-06-04T17:59:55.000Z",
       "latestDisplayedAt": "2026-06-04T17:59:55.000Z"
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 19,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-05T05:46:00.000Z",
       "latestDisplayedAt": "2026-06-05T05:46:00.000Z"
     },
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 17,
+      "itemCount": 15,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T08:16:57.000Z",
-      "latestDisplayedAt": "2026-06-05T08:16:57.000Z"
+      "latestFetchedAt": "2026-06-05T08:39:36.000Z",
+      "latestDisplayedAt": "2026-06-05T08:39:36.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T08:08:14.000Z",
-      "latestDisplayedAt": "2026-06-05T08:08:14.000Z"
+      "latestFetchedAt": "2026-06-05T08:29:53.000Z",
+      "latestDisplayedAt": "2026-06-05T08:29:53.000Z"
     },
     {
       "id": "oschina",
@@ -465,8 +465,8 @@
       "fallbackReason": "",
       "itemCount": 20,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T07:36:49.000Z",
-      "latestDisplayedAt": "2026-06-05T07:36:49.000Z"
+      "latestFetchedAt": "2026-06-05T08:34:20.000Z",
+      "latestDisplayedAt": "2026-06-05T08:34:20.000Z"
     },
     {
       "id": "cnblogs-news",
@@ -479,7 +479,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 14,
+      "itemCount": 13,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-05T05:37:00.000Z",
       "latestDisplayedAt": "2026-06-05T05:37:00.000Z"
@@ -488,54 +488,70 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-新石器无人车在安徽成立新科技公司-注册资本500万",
-      "title": "新石器无人车在安徽成立新科技公司，注册资本500万",
-      "url": "https://36kr.com/newsflashes/3840006834784512?f=rss",
+      "id": "thirty-six-kr-智美科技-完成近2亿元战略轮融资",
+      "title": "“智美科技”完成近2亿元战略轮融资",
+      "url": "https://36kr.com/newsflashes/3840029113469188?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:16:57.000Z",
-      "summary": "36氪获悉，天眼查应用显示，近日，安徽新石器科技有限公司成立，法定代表人为李子夷，注册资本500万人民币，经营范围包括智能机器人销售、工业机器人销售、服务消费机器人销售、智能机器人的研发等，由新石器无人车关联公司新石器慧通（北京）科技有限公司全资持股。",
+      "publishedAt": "2026-06-05T08:39:36.000Z",
+      "summary": "36氪获悉，“智美科技”宣布完成近2亿元战略轮融资，本轮融资由麦澜德、国石智达资本、老股东共同投资。本轮资金将主要用于深化“皮肤全球大模型”的研发及三维皮肤智能设备的迭代升级，加速与全球产业链伙伴的商业化落地合作，构建皮肤人工智能智能设备生态体系。",
       "topics": [
-        "产品应用",
-        "机器人"
+        "模型发布",
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-2-0-打开-面向人工智能向和",
-      "title": "2.0 打开，面向人工智能向和",
-      "url": "https://www.reddit.com/r/artificial/comments/1txellk/creaibo_20_beta_is_open_looking_for_ai_content/",
+      "id": "oschina-腾讯混元联合人大高瓴开源",
+      "title": "腾讯混元联合人大高瓴开源",
+      "url": "https://www.oschina.net/news/452603",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T08:34:20.000Z",
+      "summary": "腾讯混元团队近日联合中国人民大学高瓴人工智能学院等机构推出并开源：一个面向大语言模型规划能力评测与训练的可扩展、可验证数据生成框架。根据介绍，从真实规划场景出发，系统抽象任务、约束与难度因素，构建覆盖30+规划任务类型的数据生成与验证体系，既能评测模型是否真的“会规划”。",
+      "topics": [
+        "开源生态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能安全公司全球人工智能-关于向首次公开募股在-1",
+      "title": "人工智能安全公司全球人工智能。关于向首次公开募股在 $1。",
+      "url": "https://www.reddit.com/r/artificial/comments/1txeysy/anthropic_wants_a_global_ai_freeze_theyre_also/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:10:44.000Z",
-      "summary": "我们 2.0，和向来自社区？人工智能，驱动工具面向图像，视频，和。我们在工作流单个，任务。人工智能助手内部产品。为什么这里？这里实际使用工具和。我们构建在人工智能工具在任务在上下文。我们面向在 : 借助人工智能，视频，图像，在。: 向。这里: :，我们新演示向查看工具实际 : :，视频，向答案问题在。由",
+      "publishedAt": "2026-06-05T08:32:45.000Z",
+      "summary": "人工智能安全公司只是呼吁面向全球在人工智能，模型和控制。关于实际在这里。人工智能安全公司据报道 $1 + 首次公开募股，和只是向呼吁面向向构建。只是关于。信息技术 : 帮助人工智能安全公司持续和分享。和这里信息技术 : 80% 代码在人工智能安全公司由克劳德模型。向设置。很少有人讨论关于。成为，向，我们，我们，帮助规则。通过向借助，在，安全基准测试，评测。成本，开源，和。信息……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "ithome-中国基于阿里千问打造首个官方大模型-可解读球员位置-得分等核心数据",
-      "title": "中国基于阿里千问打造首个官方大模型，可解读球员位置、得分等核心数据",
-      "url": "https://www.ithome.com/0/960/548.htm",
+      "id": "ithome-消息称腾讯内部调整人工智能词元额度-改为按工作任务动态调配-看产出不看消耗",
+      "title": "消息称腾讯内部调整人工智能词元额度：改为按工作任务动态调配，看产出不看消耗",
+      "url": "https://www.ithome.com/0/960/556.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:08:14.000Z",
-      "summary": "科技之家 6 月 5 日消息，阿里云今天（5 日）通过公众号宣布，总决赛开赛之际，中国携手阿里巴巴打造的首个官方大模型“ ” 正式上线，用户可在“ 中国”应用中体验。据悉，的模型底座是阿里千问大模型，结合丰富的数字资产进行微调，包括篮球历史数据、球员深度分析等。目前，可为球迷提供智能篮球问答服务，后续将持续升级智能体能力。比如，所支持球队的场上战术没看懂，可以随时找它拆解；巅……",
+      "publishedAt": "2026-06-05T08:29:53.000Z",
+      "summary": "科技之家 6 月 5 日消息，据大厂青年公众号今日消息，腾讯已在内部宣布调整人工智能词元额度。核心的变化是全员统一额度改为按工作任务动态调配。通知明确表示，总投入只增不减，对能用人工智能带来显著提效和价值产出的同学，保障词元额度，不搞词元消耗量排名，不贩卖焦虑。消息称一位腾讯员工跑出来的代码量是其他人的 3 倍，但管理机制升级后，他反馈自己未受任何影响，反而老板主动给他增加了……",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -551,23 +567,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "oschina-2026-前瞻-从人工智能功能-到人工智能系统",
-      "title": "2026 前瞻：从人工智能功能，到人工智能系统",
-      "url": "https://www.oschina.net/news/452565",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T07:36:49.000Z",
-      "summary": "过去一年，人工智能行业几乎都在围绕模型能力展开竞争：更强的推理、更长的上下文、更完整的智能体能力、更深入的自动化工作流。但面对下周即将召开的，大家期待的东西似乎又有些不一样。相比“模型到底强了多少”，人们更关注的是，苹果会如何把人工智能重新带回具体的产品体验里。这是苹果一直以来非常典型的产品语境。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 86,
+      "heat": 89,
       "image": ""
     },
     {
@@ -583,7 +583,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -636,7 +636,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -685,7 +685,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -702,7 +702,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/rPPG-2-final.png"
     },
     {
@@ -719,7 +719,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -752,7 +752,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": "https://media.wired.com/photos/6a20a487d5b5f5af30a6fa53/master/pass/Uncanny-Valley-AI-IPO-Race-Business-1189366547.jpg"
     },
     {
@@ -769,7 +769,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -852,7 +852,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -906,70 +906,70 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-开放人工智能公司词元",
-      "title": "开放人工智能公司词元",
-      "url": "https://www.reddit.com/r/artificial/comments/1txeled/openai_gives_free_daily_tokens_if_you_do_this/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "thirty-six-kr-词元大战中-华为云选择了第三条路-最前线",
+      "title": "词元大战中，华为云选择了第三条路｜最前线",
+      "url": "https://36kr.com/p/3840016255126016?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:10:23.000Z",
-      "summary": "在开放人工智能公司和关于信息技术信息技术呼吁数据。向接口，数据控制，在。信息技术。词元每个单个。向 2.5 百万词元在模型，小型版，小型版，小型版。面向模型信息技术相关型号词元。和使用由开放人工智能公司向训练模型。使用信息技术面向面向，… 得到接口访问每个只是面向。信息技术和信息技术只是面向最由",
+      "publishedAt": "2026-06-05T08:28:25.000Z",
+      "summary": "作者，邓咏仪编辑，张雨忻 “在国产化算力供应受限的情况下，华为云现在不太在乎词元总量是多少，也不太在乎收入的总量是多少，在乎的是国产化的算力系统所生产出来的词元的健康度，并且要代表着生产力提升，而不仅仅是情绪价值。” 6月5日，2026华为云创想者大会在上海开幕，华为云首席执行官周跃峰表示。他举了个例子：一个人闲来无事在手机上问人工智能一个问题，也会产生词元，但这种词元的价值……",
       "topics": [
-        "模型发布"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "ithome-面向多屏用户-映泰发布-730-及-500-系列显卡新品-支持最多-6-路输出",
-      "title": "面向多屏用户：映泰发布 730 及 500 系列显卡新品，支持最多 6 路输出",
-      "url": "https://www.ithome.com/0/960/547.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T08:04:33.000Z",
-      "summary": "科技之家 6 月 5 日消息，据今日报道，映泰（）在 2026 台北国际电脑展上推出了其专为多屏用户打造的特殊显卡，并展示了全新的相关型号主板。在显卡方面，映泰针对多显示器用户推出了三款产品。首先是基于英伟达 730 的型号，该产品采用单槽设计和被动散热方案，配备 4 吉字节相关型号显存，显存位宽为 64 位，并提供四个接口，无需外接供电即可运行。第二款产品为相关型号。正如其……",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-英特尔与日立公司合作-推动芯片等制造设施的自动化",
-      "title": "英特尔与日立公司合作，推动芯片等制造设施的自动化",
-      "url": "https://36kr.com/newsflashes/3839983620901378?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
+      "id": "ithome-英伟达黄仁勋-三星-海力士-美光通过认证-有资格供应相关型号内存",
+      "title": "英伟达黄仁勋：三星、海力士、美光通过认证，有资格供应相关型号内存",
+      "url": "https://www.ithome.com/0/960/551.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:01:12.000Z",
-      "summary": "英特尔将与日本日立公司合作，提高制造设施的机器人良率和能源效率，其中包括这家美国芯片制造商自身的工厂。两家公司周五在声明中表示，英特尔的晶圆厂将使用日立的人工智能服务。（新浪财经）",
+      "publishedAt": "2026-06-05T08:19:51.000Z",
+      "summary": "科技之家 6 月 5 日消息，据彭博社报道，英伟达公司首席执行官黄仁勋首次确认，英伟达已对三家最大的内存芯片制造商进行了认证，允许其为英伟达的人工智能（人工智能）加速器供应其最先进的高带宽产品。黄仁勋表示，已批准三星电子、海力士和美光科技供应相关型号（高带宽内存、），这是英伟达用于人工智能工作的下一代平台不可或缺的组件。这三家公司共同主导着全球计算机存储半导体市场，目前正为了……",
       "topics": [
-        "算力芯片",
-        "机器人"
+        "算力芯片"
       ],
-      "heat": 93,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "oschina-开源中国发布人工智能相关动态",
-      "title": "开源中国发布人工智能相关动态。",
-      "url": "https://www.oschina.net/news/452524/php-8-5-7-released",
+      "id": "reddit-artificial-2-0-打开-面向人工智能向和",
+      "title": "2.0 打开，面向人工智能向和",
+      "url": "https://www.reddit.com/r/artificial/comments/1txellk/creaibo_20_beta_is_open_looking_for_ai_content/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T08:10:44.000Z",
+      "summary": "我们 2.0，和向来自社区？人工智能，驱动工具面向图像，视频，和。我们在工作流单个，任务。人工智能助手内部产品。为什么这里？这里实际使用工具和。我们构建在人工智能工具在任务在上下文。我们面向在 : 借助人工智能，视频，图像，在。: 向。这里: :，我们新演示向查看工具实际 : :，视频，向答案问题在。由",
+      "topics": [
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "oschina-2026-前瞻-从人工智能功能-到人工智能系统",
+      "title": "2026 前瞻：从人工智能功能，到人工智能系统",
+      "url": "https://www.oschina.net/news/452565",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T06:55:30.000Z",
-      "summary": "8.5.7 现已发布，这是一个漏洞修复版本。建议所有 8.5 用户升级到此版本：修复了相关型号（() 可选值过时）：修复了相关型号（ 中的整数溢出）：修复了相关型号（自定义函数中的 ）：修复了在观察到的用户函数调用期间处理中。",
+      "publishedAt": "2026-06-05T07:36:49.000Z",
+      "summary": "过去一年，人工智能行业几乎都在围绕模型能力展开竞争：更强的推理、更长的上下文、更完整的智能体能力、更深入的自动化工作流。但面对下周即将召开的，大家期待的东西似乎又有些不一样。相比“模型到底强了多少”，人们更关注的是，苹果会如何把人工智能重新带回具体的产品体验里。这是苹果一直以来非常典型的产品语境。",
       "topics": [
-        "端侧智能",
-        "开源生态"
+        "产品应用"
       ],
-      "heat": 91,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1001,7 +1001,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1036,7 +1036,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1053,7 +1053,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1070,7 +1070,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1106,7 +1106,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1157,7 +1157,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1173,7 +1173,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1222,7 +1222,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1292,70 +1292,71 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-法拉利拒绝全自动驾驶-不会把一切交给电脑-享受驾驶乐趣的是人",
-      "title": "法拉利拒绝全自动驾驶：不会把一切交给电脑，享受驾驶乐趣的是人",
-      "url": "https://www.ithome.com/0/960/546.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T07:57:25.000Z",
-      "summary": "科技之家 6 月 5 日消息，法拉利首席执行官贝内代托 · 维尼亚明确排除了推出完全自动驾驶法拉利的可能。他甚至反问，如果车主不能亲自驾驶，买法拉利还有什么意义？当地时间 5 月 31 日，维尼亚在接受澳媒《》采访时承诺，法拉利每一款车都会保留方向盘，让车主享受驾驶，而不是把一切交给电脑。维尼亚表示：“我们不会制造完全自动驾驶汽车，这一点非常明确。我们希望享受乐趣的是人，而不……",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-百度健康人工智能智慧门诊落地中科大附一院",
-      "title": "百度健康人工智能智慧门诊落地中科大附一院",
-      "url": "https://36kr.com/newsflashes/3839978405841415?f=rss",
+      "id": "thirty-six-kr-中国入境游距离-世界第一-还有多远",
+      "title": "中国入境游距离「世界第一」还有多远？",
+      "url": "https://36kr.com/p/3840001908361472?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:56:14.000Z",
-      "summary": "36氪获悉，6月5日，百度健康与中国科学技术大学附属第一医院正式达成战略合作。双方将围绕人工智能智慧门诊、医生打造、全病程管理等领域展开深度合作。截至目前，百度健康人工智能智慧门诊已在华中、江浙、华南地区落地了十余家三甲医院。",
+      "publishedAt": "2026-06-05T08:25:49.000Z",
+      "summary": "“曾有外国友人让我推荐中国的最佳旅行目的地，我的回答是：你应该看看中国的山。” 最近的一场入境游研讨会，携程集团联合创始人兼董事局主席梁建章这样回答。在他的表述中，中国有世界最高的山——喜马拉雅；全世界最美的山，则在中国南方最独特的喀斯特地貌——桂林。与此同时，他正将这份“私藏推荐”转化为全球旅行者的实际行动。近期，携程集团宣布了一项新的战略计划：未来五年，公司将引入2亿人次……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "投融资",
+        "端侧智能"
       ],
-      "heat": 88,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "reddit-artificial-谷歌人工智能面向",
-      "title": "谷歌人工智能面向",
-      "url": "https://www.reddit.com/r/artificial/comments/1txdphj/cma_orders_google_ai_search_optout_for_publishers/",
+      "id": "reddit-artificial-开放人工智能公司词元",
+      "title": "开放人工智能公司词元",
+      "url": "https://www.reddit.com/r/artificial/comments/1txeled/openai_gives_free_daily_tokens_if_you_do_this/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:17:24.000Z",
-      "summary": "和首个向独立来自人工智能训练数据在和，谷歌人工智能，人工智能模式，双子座模型，和人工智能，借助 : 控制由 2026 和控制由 2027。谷歌在即将推出，和信息技术谷歌。谷歌来自在，人工智能推出在在 2025，30% 在和本地新闻。术语向独立，和信息技术向在。: :，谷歌，人工智能，面向，由",
+      "publishedAt": "2026-06-05T08:10:23.000Z",
+      "summary": "在开放人工智能公司和关于信息技术信息技术呼吁数据。向接口，数据控制，在。信息技术。词元每个单个。向 2.5 百万词元在模型，小型版，小型版，小型版。面向模型信息技术相关型号词元。和使用由开放人工智能公司向训练模型。使用信息技术面向面向，… 得到接口访问每个只是面向。信息技术和信息技术只是面向最由",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "ithome-中国基于阿里千问打造首个官方大模型-可解读球员位置-得分等核心数据",
+      "title": "中国基于阿里千问打造首个官方大模型，可解读球员位置、得分等核心数据",
+      "url": "https://www.ithome.com/0/960/548.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T08:08:14.000Z",
+      "summary": "科技之家 6 月 5 日消息，阿里云今天（5 日）通过公众号宣布，总决赛开赛之际，中国携手阿里巴巴打造的首个官方大模型“ ” 正式上线，用户可在“ 中国”应用中体验。据悉，的模型底座是阿里千问大模型，结合丰富的数字资产进行微调，包括篮球历史数据、球员深度分析等。目前，可为球迷提供智能篮球问答服务，后续将持续升级智能体能力。比如，所支持球队的场上战术没看懂，可以随时找它拆解；巅……",
       "topics": [
         "模型发布",
-        "监管安全",
-        "端侧智能"
+        "产品应用"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "oschina-人工智能安全公司认为人工智能自我改进已达临界点-称内部代码自动化率突破-80",
-      "title": "人工智能安全公司认为人工智能自我改进已达临界点，称内部代码自动化率突破 80%",
-      "url": "https://www.oschina.net/news/452519",
+      "id": "oschina-开源中国发布人工智能相关动态",
+      "title": "开源中国发布人工智能相关动态。",
+      "url": "https://www.oschina.net/news/452524/php-8-5-7-released",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T06:46:55.000Z",
-      "summary": "人工智能安全公司在其官方网站上发布了一篇关于\"递归自我改进\"的研究文章，描述了人工智能在编写和改进自身代码方面的进展。这篇文章的发布时间正值人工智能能力快速提升的关键节点，也是人工智能安全公司首次系统性地向公众阐述这一趋势的规模和速度。文章开篇明确了一个核心观点：人工智能能力的提升速度正在加快。在公开基准测试中，任务完成。",
+      "publishedAt": "2026-06-05T06:55:30.000Z",
+      "summary": "8.5.7 现已发布，这是一个漏洞修复版本。建议所有 8.5 用户升级到此版本：修复了相关型号（() 可选值过时）：修复了相关型号（ 中的整数溢出）：修复了相关型号（自定义函数中的 ）：修复了在观察到的用户函数调用期间处理中。",
       "topics": [
-        "监管安全",
-        "研究论文"
+        "端侧智能",
+        "开源生态"
       ],
-      "heat": 98,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1423,7 +1424,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1440,7 +1441,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1474,7 +1475,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1524,7 +1525,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://media.wired.com/photos/6a209f600b0d0bfc18ec9c17/master/pass/LannaApisukh_Flourish_AI-0242.jpg"
     },
     {
@@ -1540,7 +1541,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1556,7 +1557,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1574,7 +1575,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/CVPR_blog_still-scaled.png"
     },
     {
@@ -1627,70 +1628,72 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-英伟达未发售的桌面端-3050-显卡现身-相关型号-6-吉字节",
-      "title": "英伟达未发售的桌面端 3050 显卡现身：相关型号 + 6 吉字节",
-      "url": "https://www.ithome.com/0/960/545.htm",
+      "id": "thirty-six-kr-新石器无人车在安徽成立新科技公司-注册资本500万",
+      "title": "新石器无人车在安徽成立新科技公司，注册资本500万",
+      "url": "https://36kr.com/newsflashes/3840006834784512?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T08:16:57.000Z",
+      "summary": "36氪获悉，天眼查应用显示，近日，安徽新石器科技有限公司成立，法定代表人为李子夷，注册资本500万人民币，经营范围包括智能机器人销售、工业机器人销售、服务消费机器人销售、智能机器人的研发等，由新石器无人车关联公司新石器慧通（北京）科技有限公司全资持股。",
+      "topics": [
+        "产品应用",
+        "机器人"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "ithome-面向多屏用户-映泰发布-730-及-500-系列显卡新品-支持最多-6-路输出",
+      "title": "面向多屏用户：映泰发布 730 及 500 系列显卡新品，支持最多 6 路输出",
+      "url": "https://www.ithome.com/0/960/547.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:57:07.000Z",
-      "summary": "科技之家 6 月 5 日消息，消息人士 @白给的盖欧卡今日在社交平台发布了英伟达（英伟达）未曾推出过的桌面端 3050 显卡的实物照片、软件信息识别结果、基准测试成绩。▲ 图源：@白给的盖欧卡可以看到该显卡的代号为 \"相关型号 40\"，图形处理器核心代号为 \"相关型号\"，拥有 3328 个核心 (相关型号)，配套 48 个和 104 个；显存部分为相关型号位宽、1750 兆赫……",
+      "publishedAt": "2026-06-05T08:04:33.000Z",
+      "summary": "科技之家 6 月 5 日消息，据今日报道，映泰（）在 2026 台北国际电脑展上推出了其专为多屏用户打造的特殊显卡，并展示了全新的相关型号主板。在显卡方面，映泰针对多显示器用户推出了三款产品。首先是基于英伟达 730 的型号，该产品采用单槽设计和被动散热方案，配备 4 吉字节相关型号显存，显存位宽为 64 位，并提供四个接口，无需外接供电即可运行。第二款产品为相关型号。正如其……",
       "topics": [
         "算力芯片",
-        "研究论文",
         "端侧智能"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-爱彼迎首席执行官计划创办一家新的人工智能公司",
-      "title": "爱彼迎首席执行官计划创办一家新的人工智能公司",
-      "url": "https://36kr.com/newsflashes/3839959478995461?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T07:28:46.000Z",
-      "summary": "据多位知情人士称，爱彼迎首席执行官正在筹建一家新的人工智能（人工智能）实验室，这标志着他首次涉足全球人工智能竞赛。计划创办一家人工智能公司以开发人工智能模型，并正在考虑将重点放在用户交互和设计上。（财联社）",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能安全公司作为面向首次公开募股-呼吁面向向人工智能",
-      "title": "人工智能安全公司作为面向首次公开募股，呼吁面向向人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1txdiok/anthropic_president_cites_high_capital_needs_as/",
+      "id": "reddit-artificial-谷歌人工智能面向",
+      "title": "谷歌人工智能面向",
+      "url": "https://www.reddit.com/r/artificial/comments/1txdphj/cma_orders_google_ai_search_optout_for_publishers/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:06:32.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-05T07:17:24.000Z",
+      "summary": "和首个向独立来自人工智能训练数据在和，谷歌人工智能，人工智能模式，双子座模型，和人工智能，借助 : 控制由 2026 和控制由 2027。谷歌在即将推出，和信息技术谷歌。谷歌来自在，人工智能推出在在 2025，30% 在和本地新闻。术语向独立，和信息技术向在。: :，谷歌，人工智能，面向，由",
       "topics": [
+        "模型发布",
         "监管安全",
-        "投融资"
+        "端侧智能"
       ],
-      "heat": 98,
-      "image": "https://external-preview.redd.it/M3utst2Oji1hCt3m8AnFj_FOc4JYhqto5p-e1VjQqZA.png?width=640&crop=smart&auto=webp&s=641a8817634855993c154b179669f09255883d86"
+      "heat": 99,
+      "image": ""
     },
     {
-      "id": "oschina-人工智能-3-9-正式发布-为任意人工智能训练框架提供加速能力",
-      "title": "人工智能 3.9 正式发布：为任意人工智能训练框架提供加速能力",
-      "url": "https://my.oschina.net/u/5904778/blog/19695024",
+      "id": "oschina-人工智能安全公司认为人工智能自我改进已达临界点-称内部代码自动化率突破-80",
+      "title": "人工智能安全公司认为人工智能自我改进已达临界点，称内部代码自动化率突破 80%",
+      "url": "https://www.oschina.net/news/452519",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T06:15:51.000Z",
-      "summary": "这种下游效应会不断叠加并产生复合影响。写后即读的下游场景 —— 任务重启恢复、微调续训、评估任务读取刚写完的 —— 都会重复同样的高延迟问题。",
+      "publishedAt": "2026-06-05T06:46:55.000Z",
+      "summary": "人工智能安全公司在其官方网站上发布了一篇关于\"递归自我改进\"的研究文章，描述了人工智能在编写和改进自身代码方面的进展。这篇文章的发布时间正值人工智能能力快速提升的关键节点，也是人工智能安全公司首次系统性地向公众阐述这一趋势的规模和速度。文章开篇明确了一个核心观点：人工智能能力的提升速度正在加快。在公开基准测试中，任务完成。",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 85,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1741,7 +1744,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1792,7 +1795,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1824,7 +1827,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1857,7 +1860,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": "https://media.wired.com/photos/6a1f67f31c7b696a4249008a/master/pass/AI-Lab-Nvidia-Unitree-Frankenstein-Humanoid-Robot-Business.jpg"
     },
     {
@@ -1875,7 +1878,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/cvpr-product-blog-still-1920x1080-1.jpg"
     },
     {
@@ -1892,7 +1895,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1961,55 +1964,69 @@
       "image": ""
     },
     {
-      "id": "ithome-就改用词元计费致歉-公布订阅权益保护与档位迁移方案",
-      "title": "就改用词元计费致歉，公布订阅权益保护与档位迁移方案",
-      "url": "https://www.ithome.com/0/960/544.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T07:56:20.000Z",
-      "summary": "科技之家 6 月 5 日消息，发布词元升级与权益调整说明，就相关型号模型上线后的词元计费切换、订阅权益保护与档位迁移方案进行说明。表示：我们收到大家关于词元的许多反馈。本次调整未能提前与大家充分沟通并详细说明相关型号对应的词元计费和套餐变化，是我们工作不到位。在老用户周限额等问题上处理也不够妥当，给一直支持我们的用户带来了困扰，请大家见谅。相关型号是一个更大尺寸、更加智能、多……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "多模态"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-腾讯会议多项人工智能功能升级-元宝纪要月使用时长增长近5倍",
-      "title": "腾讯会议多项人工智能功能升级，元宝纪要月使用时长增长近5倍",
-      "url": "https://36kr.com/newsflashes/3839952120154373?f=rss",
+      "id": "thirty-six-kr-英特尔与日立公司合作-推动芯片等制造设施的自动化",
+      "title": "英特尔与日立公司合作，推动芯片等制造设施的自动化",
+      "url": "https://36kr.com/newsflashes/3839983620901378?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:21:17.000Z",
-      "summary": "36氪获悉，6月5日，2026腾讯云人工智能产业应用大会现场，腾讯会议多项人工智能功能升级，打造智能体友好的通讯产品。通过智能录制、元宝纪要、问元宝等能力，把会议变为可回溯、可理解、可行动的内容，不仅让可以在腾讯会议中被灵活调用，也让每一场沟通都能被智能体读懂。从2025年9月上线到今年5月，腾讯会议内的元宝纪要月使用时长已增长近5倍。",
+      "publishedAt": "2026-06-05T08:01:12.000Z",
+      "summary": "英特尔将与日本日立公司合作，提高制造设施的机器人良率和能源效率，其中包括这家美国芯片制造商自身的工厂。两家公司周五在声明中表示，英特尔的晶圆厂将使用日立的人工智能服务。（新浪财经）",
       "topics": [
-        "产品应用"
+        "算力芯片",
+        "机器人"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "ithome-法拉利拒绝全自动驾驶-不会把一切交给电脑-享受驾驶乐趣的是人",
+      "title": "法拉利拒绝全自动驾驶：不会把一切交给电脑，享受驾驶乐趣的是人",
+      "url": "https://www.ithome.com/0/960/546.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T07:57:25.000Z",
+      "summary": "科技之家 6 月 5 日消息，法拉利首席执行官贝内代托 · 维尼亚明确排除了推出完全自动驾驶法拉利的可能。他甚至反问，如果车主不能亲自驾驶，买法拉利还有什么意义？当地时间 5 月 31 日，维尼亚在接受澳媒《》采访时承诺，法拉利每一款车都会保留方向盘，让车主享受驾驶，而不是把一切交给电脑。维尼亚表示：“我们不会制造完全自动驾驶汽车，这一点非常明确。我们希望享受乐趣的是人，而不……",
+      "topics": [
+        "算力芯片"
       ],
       "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能数据-得分-8-5-10-最得分-6-5-10",
-      "title": "人工智能数据: 得分 8.5，10 最得分 6.5，10",
-      "url": "https://www.reddit.com/r/artificial/comments/1txdgih/oc_uk_ai_exposure_data_clerical_workers_score/",
+      "id": "reddit-artificial-人工智能安全公司作为面向首次公开募股-呼吁面向向人工智能",
+      "title": "人工智能安全公司作为面向首次公开募股，呼吁面向向人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1txdiok/anthropic_president_cites_high_capital_needs_as/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:03:08.000Z",
-      "summary": "数据向查看最向人工智能。最这里。数据向，人工智能得分在任务由模型和。得分软件。信息技术支持。8.5，10 3 百万。助手，客户服务，数据，呼吁，和。进入任务。大语言模型在: 检索客户工作流借助。6.5，10，工程师，和软件开发者。和。人工智能向。客户，支持借助人工智能减少，风险向。和 2.0 和 2.5。人工智能讨论在模型代码。首个和支持工作流和向自动化。这里得分风险。和工具……",
+      "publishedAt": "2026-06-05T07:06:32.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 95,
+      "heat": 97,
+      "image": "https://external-preview.redd.it/M3utst2Oji1hCt3m8AnFj_FOc4JYhqto5p-e1VjQqZA.png?width=640&crop=smart&auto=webp&s=641a8817634855993c154b179669f09255883d86"
+    },
+    {
+      "id": "oschina-人工智能-3-9-正式发布-为任意人工智能训练框架提供加速能力",
+      "title": "人工智能 3.9 正式发布：为任意人工智能训练框架提供加速能力",
+      "url": "https://my.oschina.net/u/5904778/blog/19695024",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T06:15:51.000Z",
+      "summary": "这种下游效应会不断叠加并产生复合影响。写后即读的下游场景 —— 任务重启恢复、微调续训、评估任务读取刚写完的 —— 都会重复同样的高延迟问题。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
       "image": ""
     },
     {
@@ -2026,24 +2043,6 @@
         "机器人"
       ],
       "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "oschina-之外的另一个选择-原生自托管-会记忆能进化的轻量级智能体平台",
-      "title": "之外的另一个选择：—— 原生自托管、会记忆能进化的轻量级智能体平台",
-      "url": "https://www.oschina.net/news/452437",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T03:49:08.000Z",
-      "summary": "由和团队联合打造的开源人工智能智能体平台今日正式发布第1代.0。基于规则引擎和人工智能智能体框架构建，用语言从零打造。核心理念是：规则链即智能体，智能体即服务——自主干活，有记忆，懂团队协作。自主干活：给一个目标，拆解执行的设计哲学是执行优先——智能。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 93,
       "image": ""
     },
     {
@@ -2127,7 +2126,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2144,7 +2143,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2177,7 +2176,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2247,52 +2246,55 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-台积电首席执行官魏哲家-三星-10-年内想超越我们-那是-做梦",
-      "title": "台积电首席执行官魏哲家：三星 10 年内想超越我们，那是“做梦”",
-      "url": "https://www.ithome.com/0/960/541.htm",
+      "id": "ithome-英伟达未发售的桌面端-3050-显卡现身-相关型号-6-吉字节",
+      "title": "英伟达未发售的桌面端 3050 显卡现身：相关型号 + 6 吉字节",
+      "url": "https://www.ithome.com/0/960/545.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:48:05.000Z",
-      "summary": "科技之家 6 月 5 日消息，据新加坡《联合早报》报道，台积电董事长兼首席执行官魏哲家在 4 日举行的股东会上说，台积电未来几年非常好，“如果预计要买股，请继续 ”。魏哲家指出，尽管总体经济的不确定性持续存在，但人工智能相关需求强劲，半导体需求具备根本性支撑，而台积电作为技术与制造的基础，将持续受惠于人工智能等应用的长期增长，预估今年美元营收增幅仍将超过 30%。股东对来自特……",
+      "publishedAt": "2026-06-05T07:57:07.000Z",
+      "summary": "科技之家 6 月 5 日消息，消息人士 @白给的盖欧卡今日在社交平台发布了英伟达（英伟达）未曾推出过的桌面端 3050 显卡的实物照片、软件信息识别结果、基准测试成绩。▲ 图源：@白给的盖欧卡可以看到该显卡的代号为 \"相关型号 40\"，图形处理器核心代号为 \"相关型号\"，拥有 3328 个核心 (相关型号)，配套 48 个和 104 个；显存部分为相关型号位宽、1750 兆赫……",
       "topics": [
-        "产品应用"
+        "算力芯片",
+        "研究论文",
+        "端侧智能"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-金山办公推出人工智能笔记产品笔记",
-      "title": "金山办公推出人工智能笔记产品笔记",
-      "url": "https://36kr.com/newsflashes/3839944336886272?f=rss",
+      "id": "thirty-six-kr-百度健康人工智能智慧门诊落地中科大附一院",
+      "title": "百度健康人工智能智慧门诊落地中科大附一院",
+      "url": "https://36kr.com/newsflashes/3839978405841415?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:13:22.000Z",
-      "summary": "36氪获悉，6月5日，金山办公正式发布人工智能笔记产品笔记。据介绍，作为一款面向个人知识管理场景的人工智能原生多模态笔记产品，笔记支持语音、图片、文字、网页等多种信息录入方式，并将人工智能能力贯穿从记录到复用的全过程。该产品已于今年3月开启内测。",
+      "publishedAt": "2026-06-05T07:56:14.000Z",
+      "summary": "36氪获悉，6月5日，百度健康与中国科学技术大学附属第一医院正式达成战略合作。双方将围绕人工智能智慧门诊、医生打造、全病程管理等领域展开深度合作。截至目前，百度健康人工智能智慧门诊已在华中、江浙、华南地区落地了十余家三甲医院。",
       "topics": [
-        "多模态"
+        "人工智能动态"
       ],
       "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-试图向自动化工作流-更好",
-      "title": "试图向自动化工作流，更好",
-      "url": "https://www.reddit.com/r/artificial/comments/1txbcwb/trying_to_automate_too_early_made_my_workflows/",
+      "id": "reddit-artificial-人工智能数据-得分-8-5-10-最得分-6-5-10",
+      "title": "人工智能数据: 得分 8.5，10 最得分 6.5，10",
+      "url": "https://www.reddit.com/r/artificial/comments/1txdgih/oc_uk_ai_exposure_data_clerical_workers_score/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T05:08:03.000Z",
-      "summary": "借助工作流。持续进入试图向自动化实际。在首个信息技术 :，新增规则，新增，工具时间信息技术只是转化进入:，修复，新增向在问题，信息技术没有向借助。和向在术语，: 规则，修复，信息技术只是更快。进入信息技术。由",
+      "publishedAt": "2026-06-05T07:03:08.000Z",
+      "summary": "数据向查看最向人工智能。最这里。数据向，人工智能得分在任务由模型和。得分软件。信息技术支持。8.5，10 3 百万。助手，客户服务，数据，呼吁，和。进入任务。大语言模型在: 检索客户工作流借助。6.5，10，工程师，和软件开发者。和。人工智能向。客户，支持借助人工智能减少，风险向。和 2.0 和 2.5。人工智能讨论在模型代码。首个和支持工作流和向自动化。这里得分风险。和工具……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 88,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2309,23 +2311,25 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "oschina-直播预告-上市两个月-一次关于人工智能硬件的真实复盘",
-      "title": "【直播预告】 上市两个月：一次关于人工智能硬件的真实复盘",
-      "url": "https://my.oschina.net/u/4806939/blog/19695060",
+      "id": "oschina-之外的另一个选择-原生自托管-会记忆能进化的轻量级智能体平台",
+      "title": "之外的另一个选择：—— 原生自托管、会记忆能进化的轻量级智能体平台",
+      "url": "https://www.oschina.net/news/452437",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T03:30:21.000Z",
-      "summary": "上市两个月：一次关于人工智能硬件的真实复盘",
+      "publishedAt": "2026-06-05T03:49:08.000Z",
+      "summary": "由和团队联合打造的开源人工智能智能体平台今日正式发布第1代.0。基于规则引擎和人工智能智能体框架构建，用语言从零打造。核心理念是：规则链即智能体，智能体即服务——自主干活，有记忆，懂团队协作。自主干活：给一个目标，拆解执行的设计哲学是执行优先——智能。",
       "topics": [
-        "监管安全"
+        "产品应用",
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 83,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2518,36 +2522,54 @@
       "image": "https://media.wired.com/photos/6a1db04538f4e0fcb2641f17/master/pass/Anthropic-Goes-Public-Business-2274306161.jpg"
     },
     {
-      "id": "ithome-雷军-小米机器人团队拿下两大国际赛事冠军-大幅领先第二名",
-      "title": "雷军：小米机器人团队拿下两大国际赛事冠军，大幅领先第二名",
-      "url": "https://www.ithome.com/0/960/509.htm",
+      "id": "ithome-就改用词元计费致歉-公布订阅权益保护与档位迁移方案",
+      "title": "就改用词元计费致歉，公布订阅权益保护与档位迁移方案",
+      "url": "https://www.ithome.com/0/960/544.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:25:46.000Z",
-      "summary": "科技之家 6 月 5 日消息，今天下午，小米创办人、董事长兼首席执行官雷军发文宣布：小米机器人团队，在最近两大国际赛事中拿下双料冠军，而且大幅领先第二名。2026 中，小米匿名参赛模型「相关型号」以 40.89% 成功率位列总榜第一，是本届唯一突破 40% 的模型。2026 中，小米机器人综合得分 99.2 分（接近满分），整体成功率 94%，领先第二名 10 个百分点。雷军……",
+      "publishedAt": "2026-06-05T07:56:20.000Z",
+      "summary": "科技之家 6 月 5 日消息，发布词元升级与权益调整说明，就相关型号模型上线后的词元计费切换、订阅权益保护与档位迁移方案进行说明。表示：我们收到大家关于词元的许多反馈。本次调整未能提前与大家充分沟通并详细说明相关型号对应的词元计费和套餐变化，是我们工作不到位。在老用户周限额等问题上处理也不够妥当，给一直支持我们的用户带来了困扰，请大家见谅。相关型号是一个更大尺寸、更加智能、多……",
       "topics": [
-        "模型发布",
-        "机器人"
+        "产品应用",
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-股三大指数集体收跌-机器人概念逆势走强",
-      "title": "股三大指数集体收跌，机器人概念逆势走强",
-      "url": "https://36kr.com/newsflashes/3839932925282563?f=rss",
+      "id": "thirty-six-kr-爱彼迎首席执行官计划创办一家新的人工智能公司",
+      "title": "爱彼迎首席执行官计划创办一家新的人工智能公司",
+      "url": "https://36kr.com/newsflashes/3839959478995461?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:01:46.000Z",
-      "summary": "36氪获悉，股三大指数集体收跌，沪指跌0.74%，深成指跌2.21%，创业板指跌3.2%；半导体、光模块集体调整，中际旭创、澜起科技、胜宏科技跌超7%，中芯国际、长电科技跌超5%；机器人概念逆势走强，中大力德、绿的谐波涨停；商业航天涨幅居前，中天火箭涨停，航天电子涨超9%。",
+      "publishedAt": "2026-06-05T07:28:46.000Z",
+      "summary": "据多位知情人士称，爱彼迎首席执行官正在筹建一家新的人工智能（人工智能）实验室，这标志着他首次涉足全球人工智能竞赛。计划创办一家人工智能公司以开发人工智能模型，并正在考虑将重点放在用户交互和设计上。（财联社）",
       "topics": [
-        "机器人"
+        "人工智能动态"
       ],
       "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-试图向自动化工作流-更好",
+      "title": "试图向自动化工作流，更好",
+      "url": "https://www.reddit.com/r/artificial/comments/1txbcwb/trying_to_automate_too_early_made_my_workflows/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T05:08:03.000Z",
+      "summary": "借助工作流。持续进入试图向自动化实际。在首个信息技术 :，新增规则，新增，工具时间信息技术只是转化进入:，修复，新增向在问题，信息技术没有向借助。和向在术语，: 规则，修复，信息技术只是更快。进入信息技术。由",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -2563,39 +2585,21 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx911k/what_is_the_worst_thing_you_can_imagine_yourself/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T03:10:44.000Z",
-      "summary": "向。首个，驱动人工智能在。驱动，关于在。信息技术关于开源大语言模型。信息技术关于驱动。和。向认为查看借助人工智能，在时刻在生活。实际。人工智能。向和向在在生活向最。答案。向信息技术。信息技术向。和向信息技术。向安全。向向可能借助。很少有人，我们向保护作为？由",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "oschina-加拿大政府发布-全民人工智能-国家战略",
-      "title": "加拿大政府发布“全民人工智能”国家战略",
-      "url": "https://www.oschina.net/news/452401",
+      "id": "oschina-直播预告-上市两个月-一次关于人工智能硬件的真实复盘",
+      "title": "【直播预告】 上市两个月：一次关于人工智能硬件的真实复盘",
+      "url": "https://my.oschina.net/u/4806939/blog/19695060",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T03:06:28.000Z",
-      "summary": "加拿大政府在周四公布的人工智能国家战略中提及，为了推动本土人工智能企业加速壮大并留在本国发展，该国准备选择一批最有前途的本土人工智能公司入股，打造所谓的加拿大本土人工智能“冠军企业”。在卡尼政府周四公布的“全民人工智能”（人工智能 ）战略文件中，加拿大政府表示，该国有完善的科研机构和人才培养体系，近年来也诞生过一。",
+      "publishedAt": "2026-06-05T03:30:21.000Z",
+      "summary": "上市两个月：一次关于人工智能硬件的真实复盘",
       "topics": [
-        "人工智能动态"
+        "监管安全"
       ],
       "heat": 82,
       "image": ""
@@ -2629,7 +2633,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2647,7 +2651,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2664,7 +2668,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2749,33 +2753,33 @@
       "image": ""
     },
     {
-      "id": "ithome-台积电首席执行官魏哲家-在下一代芯片制造领域-我们并未落后",
-      "title": "台积电首席执行官魏哲家：在下一代芯片制造领域，我们并未落后",
-      "url": "https://www.ithome.com/0/960/497.htm",
+      "id": "ithome-台积电首席执行官魏哲家-三星-10-年内想超越我们-那是-做梦",
+      "title": "台积电首席执行官魏哲家：三星 10 年内想超越我们，那是“做梦”",
+      "url": "https://www.ithome.com/0/960/541.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T07:19:19.000Z",
-      "summary": "科技之家 6 月 5 日消息，据《华尔街日报》4 日报道，台积电首席执行官魏哲家在年度股东大会上表示，台积电在下一代芯片制造领域并未落后。对于外界认为台积电在极昂贵先进设备导入方面落后于竞争对手、因而可能处于劣势的担忧，魏哲家予以否认。阿斯麦是此类设备的独家制造商，外界普遍认为，阿斯麦设备对继续推进先进芯片制造极限至关重要。魏哲家说明了台积电对阿斯麦设备的立场。“事实是，我们……",
+      "publishedAt": "2026-06-05T07:48:05.000Z",
+      "summary": "科技之家 6 月 5 日消息，据新加坡《联合早报》报道，台积电董事长兼首席执行官魏哲家在 4 日举行的股东会上说，台积电未来几年非常好，“如果预计要买股，请继续 ”。魏哲家指出，尽管总体经济的不确定性持续存在，但人工智能相关需求强劲，半导体需求具备根本性支撑，而台积电作为技术与制造的基础，将持续受惠于人工智能等应用的长期增长，预估今年美元营收增幅仍将超过 30%。股东对来自特……",
       "topics": [
-        "算力芯片"
+        "产品应用"
       ],
       "heat": 87,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-创始人陈安妮牵头-快看漫画推出人工智能数字生命产品",
-      "title": "创始人陈安妮牵头，快看漫画推出人工智能数字生命产品",
-      "url": "https://36kr.com/newsflashes/3839918689650952?f=rss",
+      "id": "thirty-six-kr-腾讯会议多项人工智能功能升级-元宝纪要月使用时长增长近5倍",
+      "title": "腾讯会议多项人工智能功能升级，元宝纪要月使用时长增长近5倍",
+      "url": "https://36kr.com/newsflashes/3839952120154373?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T06:47:17.000Z",
-      "summary": "36氪获悉，近日，快看漫画推出人工智能数字生命产品。该产品由快看漫画创始人陈安妮亲自牵头。商业模式上，或将从传统的章节付费、会员订阅，转向“体验付费”和“关系付费”，上限弹性明显提升。",
+      "publishedAt": "2026-06-05T07:21:17.000Z",
+      "summary": "36氪获悉，6月5日，2026腾讯云人工智能产业应用大会现场，腾讯会议多项人工智能功能升级，打造智能体友好的通讯产品。通过智能录制、元宝纪要、问元宝等能力，把会议变为可回溯、可理解、可行动的内容，不仅让可以在腾讯会议中被灵活调用，也让每一场沟通都能被智能体读懂。从2025年9月上线到今年5月，腾讯会议内的元宝纪要月使用时长已增长近5倍。",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 87,
       "image": ""
@@ -2797,37 +2801,37 @@
       "image": ""
     },
     {
-      "id": "oschina-人工智能安全公司开源自主化代码漏洞发现与修复智能体框架",
-      "title": "人工智能安全公司开源自主化代码漏洞发现与修复智能体框架",
-      "url": "https://www.oschina.net/news/452400",
-      "source": "开源中国",
-      "sourceId": "oschina",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx911k/what_is_the_worst_thing_you_can_imagine_yourself/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T03:06:09.000Z",
-      "summary": "人工智能安全公司在代码托管平台上开源了名为\" 代码 \"的项目，提供了一套基于克劳德模型的自主化漏洞发现与修复的参考实现。这不是一款面向普通用户的商业产品，而是一套与安全团队合作后的技术复盘与经验沉淀——它以代码和文档的形式开放，供安全研究者和人工智能智能体开发者参考和定制。项目的核心是一套。",
+      "publishedAt": "2026-06-05T03:10:44.000Z",
+      "summary": "向。首个，驱动人工智能在。驱动，关于在。信息技术关于开源大语言模型。信息技术关于驱动。和。向认为查看借助人工智能，在时刻在生活。实际。人工智能。向和向在在生活向最。答案。向信息技术。信息技术向。和向信息技术。向安全。向向可能借助。很少有人，我们向保护作为？由",
       "topics": [
-        "模型发布",
         "产品应用",
-        "监管安全"
+        "监管安全",
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "leiphone-最新数据-追觅扫地机全球销量-销额双第一",
-      "title": "最新数据：追觅扫地机全球销量、销额双第一",
-      "url": "https://www.leiphone.com/category/industrynews/5ebVp8fij4XglzKO.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
+      "id": "oschina-加拿大政府发布-全民人工智能-国家战略",
+      "title": "加拿大政府发布“全民人工智能”国家战略",
+      "url": "https://www.oschina.net/news/452401",
+      "source": "开源中国",
+      "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T02:25:00.000Z",
-      "summary": "国际数据公司在 6 月 4 日正式发布《全球家用智能扫地机器人市场季度跟踪报告》，2026 年第一季度，追觅扫地机强势拿下全球销量与销额双第一。如今追觅扫地机已进入全球 120 个国家和地区市场，并在全球 30 个国家斩获市占第一，10 个国家市场份额超 50%。“要么不做，要么只做第一”的价值观，支撑追觅扫地机超百项全球首创技术持续落地：仿生机械臂、仿生机械足、嵌入式基站设……",
+      "publishedAt": "2026-06-05T03:06:28.000Z",
+      "summary": "加拿大政府在周四公布的人工智能国家战略中提及，为了推动本土人工智能企业加速壮大并留在本国发展，该国准备选择一批最有前途的本土人工智能公司入股，打造所谓的加拿大本土人工智能“冠军企业”。在卡尼政府周四公布的“全民人工智能”（人工智能 ）战略文件中，加拿大政府表示，该国有完善的科研机构和人才培养体系，近年来也诞生过一。",
       "topics": [
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 82,
       "image": ""
     }
   ]
