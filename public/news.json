@@ -1,40 +1,35 @@
 {
-  "generatedAt": "2026-06-05T14:51:15.442Z",
+  "generatedAt": "2026-06-05T15:21:34.301Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-05T15:00:00.000Z",
+  "nextUpdateHint": "2026-06-05T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-05T14:49:12.000Z"
+    "latestPublishedAt": "2026-06-05T15:12:36.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 69,
-      "heat": 81
+      "count": 67,
+      "heat": 82
     },
     {
       "name": "模型发布",
-      "count": 36,
-      "heat": 84
+      "count": 35,
+      "heat": 85
     },
     {
       "name": "监管安全",
-      "count": 30,
+      "count": 32,
       "heat": 86
     },
     {
       "name": "人工智能动态",
-      "count": 25,
-      "heat": 77
-    },
-    {
-      "name": "研究论文",
-      "count": 21,
-      "heat": 84
+      "count": 27,
+      "heat": 78
     },
     {
       "name": "算力芯片",
@@ -42,9 +37,14 @@
       "heat": 87
     },
     {
+      "name": "研究论文",
+      "count": 20,
+      "heat": 84
+    },
+    {
       "name": "投融资",
       "count": 13,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "开源生态",
@@ -54,17 +54,17 @@
     {
       "name": "端侧智能",
       "count": 9,
+      "heat": 83
+    },
+    {
+      "name": "机器人",
+      "count": 7,
       "heat": 84
     },
     {
       "name": "多模态",
-      "count": 8,
-      "heat": 78
-    },
-    {
-      "name": "机器人",
-      "count": 6,
-      "heat": 81
+      "count": 7,
+      "heat": 77
     }
   ],
   "sources": [
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-04T12:00:00.000Z",
       "latestDisplayedAt": "2026-06-04T12:00:00.000Z"
     },
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 4,
-      "latestFetchedAt": "2026-06-02T19:15:57.000Z",
-      "latestDisplayedAt": "2026-06-02T19:15:57.000Z"
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-05-22T15:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-05T14:49:12.000Z",
       "latestDisplayedAt": "2026-06-05T14:49:12.000Z"
     },
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-05T12:10:26.000Z",
       "latestDisplayedAt": "2026-06-05T12:10:26.000Z"
     },
@@ -289,7 +289,7 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-06-05T10:30:00.000Z",
+      "latestFetchedAt": "2026-06-05T15:00:00.000Z",
       "latestDisplayedAt": "2026-06-05T10:30:00.000Z"
     },
     {
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-05T13:30:00.000Z",
-      "latestDisplayedAt": "2026-06-05T13:30:00.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-06-05T15:00:00.000Z",
+      "latestDisplayedAt": "2026-06-05T15:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T13:59:20.000Z",
-      "latestDisplayedAt": "2026-06-05T13:59:20.000Z"
+      "latestFetchedAt": "2026-06-05T15:12:36.000Z",
+      "latestDisplayedAt": "2026-06-05T15:12:36.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -366,7 +366,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "This operation was aborted",
+      "fallbackReason": "HTTP 429",
       "itemCount": 4,
       "displayedCount": 4,
       "latestFetchedAt": "2026-06-04T17:59:50.000Z",
@@ -382,7 +382,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "This operation was aborted",
       "itemCount": 2,
       "displayedCount": 2,
       "latestFetchedAt": "2026-06-04T17:59:55.000Z",
@@ -417,8 +417,8 @@
       "fallbackReason": "",
       "itemCount": 18,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T12:13:00.000Z",
-      "latestDisplayedAt": "2026-06-05T12:13:00.000Z"
+      "latestFetchedAt": "2026-06-05T12:51:00.000Z",
+      "latestDisplayedAt": "2026-06-05T12:51:00.000Z"
     },
     {
       "id": "thirty-six-kr",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T14:36:45.000Z",
-      "latestDisplayedAt": "2026-06-05T14:36:45.000Z"
+      "latestFetchedAt": "2026-06-05T15:12:35.000Z",
+      "latestDisplayedAt": "2026-06-05T15:12:35.000Z"
     },
     {
       "id": "oschina",
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-05T10:41:37.000Z",
       "latestDisplayedAt": "2026-06-05T10:41:37.000Z"
     },
@@ -479,14 +479,63 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
-      "displayedCount": 7,
+      "itemCount": 7,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-06-05T07:08:00.000Z",
       "latestDisplayedAt": "2026-06-05T07:08:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "reddit-artificial-数据中心",
+      "title": "数据中心？",
+      "url": "https://www.reddit.com/r/artificial/comments/1txnrkw/who_are_prominent_peoplegroups_opposing_data/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T15:12:36.000Z",
+      "summary": "在和我们我们和数据中心。我们面向。组织和顺利和值得？由",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "ithome-谷歌首席执行官皮查伊力捧人工智能-员工内部疯狂吐槽",
+      "title": "谷歌首席执行官皮查伊力捧人工智能，员工内部疯狂吐槽",
+      "url": "https://www.ithome.com/0/960/749.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T15:12:35.000Z",
+      "summary": "科技之家 6 月 5 日消息，当地时间周四，外媒 404 获得的内部消息显示，谷歌员工正在猛烈嘲讽人工智能工具，其中也包括谷歌自家的人工智能编程工具。员工抱怨这些工具不够可靠，反而让工作更难做。今年 4 月，谷歌首席执行官桑达尔 · 皮查伊曾表示，公司当前有 75% 的新代码由人工智能生成。但谷歌内部流传的“反人工智能”梗图显示，部分员工并不觉得这有什么好炫耀。这些讽刺图片发……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-在强化学习-在-政策-政策",
+      "title": "在强化学习: 在‑政策。‑政策",
+      "url": "https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-policy-vs-off-policy/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T15:00:00.000Z",
+      "summary": "安全，和在强化学习: 在‑政策。‑政策首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 94,
+      "image": ""
+    },
     {
       "id": "techcrunch-ai-词元法案-内部向人工智能成本",
       "title": "词元法案 : 内部向人工智能成本",
@@ -520,41 +569,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-微软-365-安卓版被曝低级漏洞-因误开模式-任意第三方应用均可静默窃取账户登录凭证",
-      "title": "微软 365 安卓版被曝低级漏洞：因误开模式，任意第三方应用均可静默窃取账户登录凭证",
-      "url": "https://www.ithome.com/0/960/743.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T14:36:45.000Z",
-      "summary": "科技之家 6 月 5 日消息，安全研究团队于当地时间 6 月 2 日发文，披露了微软 365 安卓应用中存在的一项严重漏洞。好消息是这一漏洞在披露前便已被修复。安全研究人员表示，微软旗下的多款安卓移动应用在发布过程中由于开发人员的疏忽，不慎将一个用于测试流程的调试标记（ ）带入了正式生产版本中。这一低级失误直接导致其安全校验机制失效，使得安装在同一设备上的任何第三方应用，都能……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能-顺利-我们",
-      "title": "人工智能？顺利，我们！",
-      "url": "https://www.reddit.com/r/artificial/comments/1txlrvs/are_you_sick_of_ai_well_so_are_we/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T13:59:20.000Z",
-      "summary": "我们向使用人工智能，信息技术和，信息技术时间。问题借助 : 信息技术时间我们向数据我们向人工智能，安全，我们信息技术时间。问题我们信息技术 ; 我们信息技术向公司隐私。讨论关于向人工智能。关于，和查看。问题借助人工智能信息技术，信息技术信息技术隐私。为什么我们创建，向数据信息技术向人工智能。信息技术创建借助 ; 信息技术。95% 在数据来自和，和我们向作为作为。向和，🙏 ☀……",
-      "topics": [
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 90,
-      "image": "https://preview.redd.it/4bt2ibn10h5h1.png?width=640&crop=smart&auto=webp&s=23fd3f3e8cdd9fd7209469e8eaa7a3ab5b810df4"
-    },
-    {
       "id": "the-verge-ai-人工智能创业公司信息技术",
       "title": "人工智能创业公司信息技术",
       "url": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
@@ -568,23 +582,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-自动化大语言模型",
-      "title": "自动化大语言模型",
-      "url": "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T13:30:00.000Z",
-      "summary": "向创建，评估，和自动化大语言模型首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
+      "heat": 94,
       "image": ""
     },
     {
@@ -621,21 +619,21 @@
       "image": ""
     },
     {
-      "id": "leiphone-他用笔记-把人工智能报错变成了可复用的-避坑指南",
-      "title": "他用笔记，把人工智能报错变成了可复用的“避坑指南”",
-      "url": "https://www.leiphone.com/category/industrynews/my3uIlmkVcHIKgu3.html",
+      "id": "leiphone-比亚迪重磅发布中国首款4-纳米制程智驾芯片布局高等级自动驾驶",
+      "title": "比亚迪重磅发布中国首款4 纳米制程智驾芯片布局高等级自动驾驶",
+      "url": "https://www.leiphone.com/category/transportation/7dY2VaaFzmB8aCxi.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T12:13:00.000Z",
-      "summary": "“人工智能编程最大的风险不是写不出代码，而是忘记了自己为什么做出某个判断。” 这不是一句抽象判断，而是工程师曹健在反复处理人工智能报错后得到的真实体会。6月5日，在金山办公旗下「 人工智能 」活动现场，他从自己的人工智能编程工作流讲起，分享了使用笔记沉淀技术经验的故事。当天发布的笔记，是一款面向个人知识管理场景的人工智能原生多模态笔记产品，主张“随心记录，轻松有序”。对曹健来……",
+      "publishedAt": "2026-06-05T12:51:00.000Z",
+      "summary": "2026年5月28日，比亚迪召开“敢为”智能化战略发布会，董事长王传福表示：“电动化上半场看电池，智能化下半场看芯片。”由此，比亚迪重磅发布中国首款 4 纳米制程智驾芯片 ——璇玑相关型号，加速推进智能化下半场进程，引领全球汽车行业智能化变革。此外，继为智能泊车安全兜底后，比亚迪再次率先承诺为城市领航安全兜底 1年，并宣布全系车型均可搭载天神之眼辅助驾驶激光版，选装价格120……",
       "topics": [
-        "模型发布",
+        "产品应用",
         "算力芯片",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
@@ -685,7 +683,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://media.wired.com/photos/6a1f7877452f8f7907d948a3/master/pass/Nearly-Half-of-Investors-Have-Stakes-in-Both-OpenAI-and-Anthropic-Business.jpg"
     },
     {
@@ -718,7 +716,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -871,24 +869,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-人工智能企业-信息技术",
-      "title": "人工智能企业。信息技术。",
-      "url": "https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T19:15:57.000Z",
-      "summary": "我们构建智能体平台: 支持模型，打开，和在每个。人工智能企业。信息技术。首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 57,
+      "heat": 85,
       "image": ""
     },
     {
@@ -909,36 +890,55 @@
       "image": ""
     },
     {
-      "id": "ithome-十部门-2028-年底前-高速公路服务区新建-改建相关型号以上功率充电设施-3-万个",
-      "title": "十部门：2028 年底前，高速公路服务区新建、改建相关型号以上功率充电设施 3 万个",
-      "url": "https://www.ithome.com/0/960/742.htm",
+      "id": "ithome-黄仁勋与多位韩企掌门人在烤肉店共进晚餐-称英伟达已着手在韩国新建人工智能技术中心项目",
+      "title": "黄仁勋与多位韩企掌门人在烤肉店共进晚餐，称英伟达已着手在韩国新建人工智能技术中心项目",
+      "url": "https://www.ithome.com/0/960/747.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:30:47.000Z",
-      "summary": "科技之家 6 月 5 日消息，交通运输部等十部门于 6 月 1 日印发《促进小微型客车租赁高质量发展三年行动方案》，方案提出，完善停车充电等配套服务设施。具体来看，方案提到，鼓励租赁企业投放新能源汽车。加快推动高速公路服务区充电设施建设，2028 年底前高速公路服务区新建改建 60 千瓦以上功率电动汽车充电设施 3 万个，围绕旅游公路、国省干线、“四好农村路”等规划布局充换电……",
+      "publishedAt": "2026-06-05T15:07:48.000Z",
+      "summary": "科技之家 6 月 5 日消息，据韩联社今日报道，英伟达首席执行官黄仁勋今晚在首尔麻浦区弘大入口站附近的一家韩式烤肉店与韩国集团会长崔泰源、集团会长具光谟、董事会主席李海珍共进晚餐。当晚的菜品为烤五花肉与韩国烧酒。黄仁勋在抵达聚会地点后接受媒体采访时表示，他为韩国带来了英伟达的四项新业务，作为一份“惊喜”。据黄仁勋介绍，“四大业务”包括英伟达下一代人工智能（人工智能）超级芯片平……",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "算力芯片",
+        "研究论文",
+        "机器人"
       ],
-      "heat": 92,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-开放人工智能公司智能编程工具进入-2",
-      "title": "开放人工智能公司智能编程工具进入，2",
-      "url": "https://www.reddit.com/r/artificial/comments/1txl658/openais_codex_chains_decadeold_dos_techniques/",
+      "id": "reddit-artificial-人工智能-生成三维实际",
+      "title": "人工智能，生成三维实际",
+      "url": "https://www.reddit.com/r/artificial/comments/1txnidt/feel_like_aigenerated_3d_assets_are_changing_what/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T13:35:22.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-05T15:03:27.000Z",
+      "summary": "在人工智能和。认为关于人工智能，生成三维模型可能。在最在，和。借助人工智能三维成为更快。认为。生成模型更快取决于在？规则向创建物体借助向创建，实际。向在人工智能，生成三维。认为在在和？由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-自动化大语言模型",
+      "title": "自动化大语言模型",
+      "url": "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T13:30:00.000Z",
+      "summary": "向创建，评估，和自动化大语言模型首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -954,7 +954,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -975,18 +975,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
+      "id": "leiphone-他用笔记-把人工智能报错变成了可复用的-避坑指南",
+      "title": "他用笔记，把人工智能报错变成了可复用的“避坑指南”",
+      "url": "https://www.leiphone.com/category/industrynews/my3uIlmkVcHIKgu3.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T12:00:00.000Z",
-      "summary": "面向欧洲大模型 3.1 在训练向 15 在向面向首个在数据科学实战社区。",
+      "publishedAt": "2026-06-05T12:13:00.000Z",
+      "summary": "“人工智能编程最大的风险不是写不出代码，而是忘记了自己为什么做出某个判断。” 这不是一句抽象判断，而是工程师曹健在反复处理人工智能报错后得到的真实体会。6月5日，在金山办公旗下「 人工智能 」活动现场，他从自己的人工智能编程工作流讲起，分享了使用笔记沉淀技术经验的故事。当天发布的笔记，是一款面向个人知识管理场景的人工智能原生多模态笔记产品，主张“随心记录，轻松有序”。对曹健来……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "算力芯片",
+        "多模态"
       ],
       "heat": 99,
       "image": ""
@@ -1005,24 +1006,6 @@
         "模型发布",
         "产品应用",
         "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "leiphone-曹子昂教授团队-破解三维标注成本难题-只需一张图片丨-2026",
-      "title": "曹子昂教授团队：破解三维标注成本难题，只需一张图片丨 2026",
-      "url": "https://www.leiphone.com/category/ai/gOCTM6K2fNwaBttQ.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T11:02:00.000Z",
-      "summary": "可从一张照片自动生成可用于机器人训练的物理三维资产。作者丨郑佳美、樊天骄编辑丨郑佳美在生成式人工智能进入三维内容生产之后，行业最先解决的是“看起来像不像”的问题：一个模型能不能从文字或图片生成外观完整、纹理逼真、形状合理的三维物体。但随着机器人、具身智能、数字孪生、/ 和工业仿真的发展，真正制约应用落地的矛盾已经变了。现实世界中的物体不是静态摆件，而是带有尺度、材料、重量、关……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -1192,7 +1175,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/gfn-thursday-6-4-nv-blog-1280x680-logo-1.jpg"
     },
     {
@@ -1208,7 +1191,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1257,7 +1240,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CHMI_open_sourcing_1.png"
     },
     {
@@ -1277,52 +1260,37 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
     },
     {
-      "id": "microsoft-ai-blog-宣布微软正式可用和微软应用预览",
-      "title": "宣布微软正式可用和微软应用预览",
-      "url": "https://azure.microsoft.com/en-us/blog/announcing-microsoft-discovery-general-availability-and-microsoft-discovery-app-preview/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T18:15:00.000Z",
-      "summary": "在微软构建，我们宣布微软可用面向组织，平台面向构建和人工智能工作流。宣布微软正式可用和微软应用预览首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
-      "id": "ithome-加南相关型号智能眼镜发布-25-8-克重-32-百万像素摄像头-2350-元",
-      "title": "加南相关型号智能眼镜发布：25.8 克重、32 百万像素摄像头，2350 元",
-      "url": "https://www.ithome.com/0/960/740.htm",
+      "id": "ithome-剑桥大学团队人工智能设计通用疫苗完成首次人类临床试验-未来有望提前-拦截-大流行病",
+      "title": "剑桥大学团队人工智能设计通用疫苗完成首次人类临床试验，未来有望提前“拦截”大流行病",
+      "url": "https://www.ithome.com/0/960/746.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:23:00.000Z",
-      "summary": "科技之家 6 月 5 日消息，加南科技今日发布了相关型号智能眼镜，售价 2350 元。这款眼镜重 25.8 克，官方宣称为亚洲脸型而生；镜框采用欧洲进口超轻尼龙材料，耳挂最薄 5.5 毫米。这款智能眼镜搭载 32 百万像素摄像头，光圈 /2.4，支持拍摄相关型号相关型号视频，支持 +人工智能双重防抖，可拍摄实时。官方表示，这款智能眼镜搭载专为人工智能眼镜打造的操作系统，最快支……",
+      "publishedAt": "2026-06-05T14:55:30.000Z",
+      "summary": "科技之家 6 月 5 日消息，剑桥大学 5 日（今天）宣布，研究团队利用人工智能技术研发出一种“通用疫苗”，目标是在未来大流行真正暴发前提前拦截风险。这也是人类临床试验首次使用活性成分完全由计算机设计的疫苗，试验结果未发现明显副作用。研究人员在英国南安普敦和剑桥两家医疗机构，为 39 名 18 岁至 50 岁的健康志愿者接种了这款疫苗。据悉，疫苗主要针对冠状病毒，关键活性成分……",
       "topics": [
-        "多模态"
+        "研究论文"
       ],
       "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能-ı-在",
-      "title": "人工智能 ı 在",
-      "url": "https://www.reddit.com/r/artificial/comments/1txji14/symphonic_metal_ai_pusulan%C4%B1n_tersine_on_spotify/",
+      "id": "reddit-artificial-人工智能-顺利-我们",
+      "title": "人工智能？顺利，我们！",
+      "url": "https://www.reddit.com/r/artificial/comments/1txlrvs/are_you_sick_of_ai_well_so_are_we/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T12:26:47.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-05T13:59:20.000Z",
+      "summary": "我们向使用人工智能，信息技术和，信息技术时间。问题借助 : 信息技术时间我们向数据我们向人工智能，安全，我们信息技术时间。问题我们信息技术 ; 我们信息技术向公司隐私。讨论关于向人工智能。关于，和查看。问题借助人工智能信息技术，信息技术信息技术隐私。为什么我们创建，向数据信息技术向人工智能。信息技术创建借助 ; 信息技术。95% 在数据来自和，和我们向作为作为。向和，🙏 ☀……",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/MsHYG6bsWcsLkKjHJK0_0trCoALeFmsriDhUr6s9TnU.jpeg?width=640&crop=smart&auto=webp&s=67f7b41003fcafd68886ea65eab4ff231c828871"
+      "heat": 89,
+      "image": "https://preview.redd.it/4bt2ibn10h5h1.png?width=640&crop=smart&auto=webp&s=23fd3f3e8cdd9fd7209469e8eaa7a3ab5b810df4"
     },
     {
       "id": "thirty-six-kr-可灵人工智能两周年-全球用户突破1亿-企业客户近5万家",
@@ -1342,19 +1310,36 @@
       "image": ""
     },
     {
-      "id": "leiphone-从创想者大会看华为云-它正在人工智能时代给自己找一个更清晰的位置",
-      "title": "从创想者大会看华为云：它正在人工智能时代给自己找一个更清晰的位置",
-      "url": "https://www.leiphone.com/category/CorporateServices/93NsFoqxglrbXa26.html",
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T12:00:00.000Z",
+      "summary": "面向欧洲大模型 3.1 在训练向 15 在向面向首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "leiphone-曹子昂教授团队-破解三维标注成本难题-只需一张图片丨-2026",
+      "title": "曹子昂教授团队：破解三维标注成本难题，只需一张图片丨 2026",
+      "url": "https://www.leiphone.com/category/ai/gOCTM6K2fNwaBttQ.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T10:58:00.000Z",
-      "summary": "今年上半年，外界看华为云在人工智能上的战略，常常会有一种模糊感。过去6个月，云厂商的人工智能叙事变得越来越具体：阿里云、火山引擎都在讲模型调用量，讲收入，腾讯云目前在讲爆款应用。相比之下，华为云在人工智能时代究竟要把自己的核心位置放在哪里，外界此前并不总是看得很清楚。这一次华为云创想者大会给了一个很好的观察窗口。从这次大会来看，华为云正在把自己的位置讲得更清楚：向下，它要做智……",
+      "publishedAt": "2026-06-05T11:02:00.000Z",
+      "summary": "可从一张照片自动生成可用于机器人训练的物理三维资产。作者丨郑佳美、樊天骄编辑丨郑佳美在生成式人工智能进入三维内容生产之后，行业最先解决的是“看起来像不像”的问题：一个模型能不能从文字或图片生成外观完整、纹理逼真、形状合理的三维物体。但随着机器人、具身智能、数字孪生、/ 和工业仿真的发展，真正制约应用落地的矛盾已经变了。现实世界中的物体不是静态摆件，而是带有尺度、材料、重量、关……",
       "topics": [
         "模型发布",
         "产品应用",
-        "算力芯片"
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -1438,7 +1423,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1491,22 +1476,6 @@
       ],
       "heat": 71,
       "image": "https://media.wired.com/photos/6a1f68eadc480920e3bdc38e/master/pass/Made-In-China-TikTok-Will-Never-Die-Business.jpg"
-    },
-    {
-      "id": "towards-data-science-向来自工具向工作流-人工智能",
-      "title": "向来自工具向工作流，人工智能",
-      "url": "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T17:04:27.000Z",
-      "summary": "人工智能和面向人工智能工作流向来自工具向工作流，人工智能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 71,
-      "image": ""
     },
     {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
@@ -1575,22 +1544,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/CVPR_blog_still-scaled.png"
     },
     {
-      "id": "microsoft-ai-blog-微软构建-2026-构建应用借助微软和微软",
-      "title": "微软构建 2026: 构建应用借助微软和微软",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-build-2026-building-agentic-apps-with-microsoft-fabric-and-microsoft-databases/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:59:00.000Z",
-      "summary": "微软构建 2026 高亮在应用借助微软和微软，数据和人工智能平台面向。微软构建 2026: 构建应用借助微软和微软首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/4009252-OneLake-Foundry-Integration-Demo"
-    },
-    {
       "id": "mit-tech-review-ai-全球护理借助人工智能",
       "title": "全球护理借助人工智能",
       "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
@@ -1625,39 +1578,37 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-古尔曼称苹果新版不会被宣传为完成品-内部将其标记为-版",
-      "title": "古尔曼称苹果新版不会被宣传为完成品，内部将其标记为“ 版”",
-      "url": "https://www.ithome.com/0/960/739.htm",
+      "id": "ithome-微软-365-安卓版被曝低级漏洞-因误开模式-任意第三方应用均可静默窃取账户登录凭证",
+      "title": "微软 365 安卓版被曝低级漏洞：因误开模式，任意第三方应用均可静默窃取账户登录凭证",
+      "url": "https://www.ithome.com/0/960/743.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:21:03.000Z",
-      "summary": "科技之家 6 月 5 日消息，今天晚间，彭博社记者马克 · 古尔曼爆料称，苹果内部将新版标记为“”版，表明该助手不会被宣传为完全完成的产品。古尔曼还提出了另一种可能：苹果可能借鉴苹果首次推出时使用过的方式，会为想要尝试新功能的用户设置某种形式的等待清单。古尔曼披露了苹果移动系统 27 的部分细微之处的新细节：通知到达时有重新设计的效果，因为通知中心手势移到了左上角；“查找”应……",
+      "publishedAt": "2026-06-05T14:36:45.000Z",
+      "summary": "科技之家 6 月 5 日消息，安全研究团队于当地时间 6 月 2 日发文，披露了微软 365 安卓应用中存在的一项严重漏洞。好消息是这一漏洞在披露前便已被修复。安全研究人员表示，微软旗下的多款安卓移动应用在发布过程中由于开发人员的疏忽，不慎将一个用于测试流程的调试标记（ ）带入了正式生产版本中。这一低级失误直接导致其安全校验机制失效，使得安装在同一设备上的任何第三方应用，都能……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能构建持续",
-      "title": "人工智能构建持续",
-      "url": "https://www.reddit.com/r/artificial/comments/1txjf8n/six_places_our_ai_builds_keep_breaking/",
+      "id": "reddit-artificial-开放人工智能公司智能编程工具进入-2",
+      "title": "开放人工智能公司智能编程工具进入，2",
+      "url": "https://www.reddit.com/r/artificial/comments/1txl658/openais_codex_chains_decadeold_dos_techniques/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T12:23:19.000Z",
-      "summary": "我们人工智能团队面向关于。部件向模型。问题成本最在上下文。我们客户，访问向企业，信息技术向答案。试图向修复信息技术在。上下文没有，和没有，信息技术只是信息技术未能向向信息技术。失败向人工智能构建。我们五个，和和团队在。首个，来自人工智能向团队人工智能，分享上下文创建试图向。决策记忆，作为记忆为什么，和新团队答案来自推理能力。在，和失败模式每个构建 : 生活。在时刻，和重要，向……",
+      "publishedAt": "2026-06-05T13:35:22.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
+        "人工智能动态"
       ],
-      "heat": 94,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1678,19 +1629,19 @@
       "image": ""
     },
     {
-      "id": "leiphone-编程能力-正在颠覆大模型的估值逻辑",
-      "title": "编程能力，正在颠覆大模型的估值逻辑",
-      "url": "https://www.leiphone.com/category/industrynews/bwyozCVtFIOJynck.html",
+      "id": "leiphone-从创想者大会看华为云-它正在人工智能时代给自己找一个更清晰的位置",
+      "title": "从创想者大会看华为云：它正在人工智能时代给自己找一个更清晰的位置",
+      "url": "https://www.leiphone.com/category/CorporateServices/93NsFoqxglrbXa26.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T10:53:00.000Z",
-      "summary": "大模型赛道的估值逻辑，正在被一个变量粗暴重构。它不是参数，不是月活，不是多模态，是你能不能做好编程。把四家中国大模型公司的数据拉出来，这条线清晰得不需要统计检验：编程能力突出的深度求索正在洽谈国内人工智能公司史上最大单笔融资 70 亿美元，估值或达 590亿美元。月之暗面在月之暗面相关型号把编程能力拉满之后，20 天收入超 2025 全年，3 个月冲到 2 亿美元，半年内四轮……",
+      "publishedAt": "2026-06-05T10:58:00.000Z",
+      "summary": "今年上半年，外界看华为云在人工智能上的战略，常常会有一种模糊感。过去6个月，云厂商的人工智能叙事变得越来越具体：阿里云、火山引擎都在讲模型调用量，讲收入，腾讯云目前在讲爆款应用。相比之下，华为云在人工智能时代究竟要把自己的核心位置放在哪里，外界此前并不总是看得很清楚。这一次华为云创想者大会给了一个很好的观察窗口。从这次大会来看，华为云正在把自己的位置讲得更清楚：向下，它要做智……",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -1708,7 +1659,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1724,7 +1675,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1740,7 +1691,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1773,7 +1724,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1795,21 +1746,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-五个向-时间序列基础模型",
-      "title": "五个向，时间序列基础模型",
-      "url": "https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/",
+      "id": "towards-data-science-向来自工具向工作流-人工智能",
+      "title": "向来自工具向工作流，人工智能",
+      "url": "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T16:30:00.000Z",
-      "summary": "在部件 1 序列，我们，时间，序列基础模型。我们机械手由案例研究和，借助训练。作为我们在部件 1。在 … 五个向，时间序列基础模型首个在数据科学实战社区。",
+      "publishedAt": "2026-06-04T17:04:27.000Z",
+      "summary": "人工智能和面向人工智能工作流向来自工具向工作流，人工智能首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "产品应用"
       ],
-      "heat": 80,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1826,7 +1775,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1842,7 +1791,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1913,22 +1862,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-新-200-交付-50-性能-面向人工智能",
-      "title": "新 200 交付 50% 性能，面向人工智能",
-      "url": "https://azure.microsoft.com/en-us/blog/new-azure-cobalt-200-vms-deliver-50-performance-improvement-fully-optimized-for-modern-agentic-ai-workloads/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-02T16:30:09.000Z",
-      "summary": "我们宣布访问预览面向 200，面向人工智能。新 200 交付 50% 性能，面向人工智能首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-企业人工智能",
       "title": "企业人工智能",
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
@@ -1962,22 +1895,37 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-谷歌-149-稳定版发布-允许用户删除已下载的端侧人工智能模型",
-      "title": "谷歌 149 稳定版发布，允许用户删除已下载的端侧人工智能模型",
-      "url": "https://www.ithome.com/0/960/738.htm",
+      "id": "ithome-十部门-2028-年底前-高速公路服务区新建-改建相关型号以上功率充电设施-3-万个",
+      "title": "十部门：2028 年底前，高速公路服务区新建、改建相关型号以上功率充电设施 3 万个",
+      "url": "https://www.ithome.com/0/960/742.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:17:23.000Z",
-      "summary": "科技之家 6 月 5 日消息，谷歌于 6 月 2 日开始陆续推送最新的 149 版本，支持视窗系统、苹果电脑和平台，包含 429 项安全修复。150 预计于 6 月 30 日发布。对于需要更长更新周期的用户，还提供分支，提供八周的支持覆盖。149 最引人注目的变化是在系统设置中新增了端侧人工智能模型管理选项。用户现可主动拒绝浏览器下载人工智能模型，也可以直接移除此前已下载的所……",
+      "publishedAt": "2026-06-05T14:30:47.000Z",
+      "summary": "科技之家 6 月 5 日消息，交通运输部等十部门于 6 月 1 日印发《促进小微型客车租赁高质量发展三年行动方案》，方案提出，完善停车充电等配套服务设施。具体来看，方案提到，鼓励租赁企业投放新能源汽车。加快推动高速公路服务区充电设施建设，2028 年底前高速公路服务区新建改建 60 千瓦以上功率电动汽车充电设施 3 万个，围绕旅游公路、国省干线、“四好农村路”等规划布局充换电……",
       "topics": [
-        "模型发布",
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能-ı-在",
+      "title": "人工智能 ı 在",
+      "url": "https://www.reddit.com/r/artificial/comments/1txji14/symphonic_metal_ai_pusulan%C4%B1n_tersine_on_spotify/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T12:26:47.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 83,
+      "image": "https://external-preview.redd.it/MsHYG6bsWcsLkKjHJK0_0trCoALeFmsriDhUr6s9TnU.jpeg?width=640&crop=smart&auto=webp&s=67f7b41003fcafd68886ea65eab4ff231c828871"
     },
     {
       "id": "thirty-six-kr-麦捷科技-模块产品收入占公司营业总收入比例较小",
@@ -1997,37 +1945,19 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-构建大语言模型平台在-查看每个人工智能呼吁-成本和在",
-      "title": "构建大语言模型平台在，查看每个人工智能呼吁，成本和在",
-      "url": "https://www.reddit.com/r/artificial/comments/1txhn2y/i_built_an_llm_observability_platform_in_a/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T10:59:55.000Z",
-      "summary": "交付人工智能应用借助，在，即将推出，成本，和进入信息技术。构建。新增代码和信息技术每个单个人工智能呼吁应用，词元，和成本，在。借助人工智能安全公司和开放人工智能公司，在，开发工具包人工智能安全公司 = 新人工智能安全公司，:，信息技术，每个呼吁构建在 ~48 克劳德模型代码。访问这里: 大语言模型。应用，功能实际使用向？由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "leiphone-2026现场直击-与机器人的物理结界被彻底打破",
-      "title": "2026现场直击：与机器人的物理结界被彻底打破",
-      "url": "https://www.leiphone.com/category/ai/SajB6MXFYXjJPEry.html",
+      "id": "leiphone-编程能力-正在颠覆大模型的估值逻辑",
+      "title": "编程能力，正在颠覆大模型的估值逻辑",
+      "url": "https://www.leiphone.com/category/industrynews/bwyozCVtFIOJynck.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T10:47:00.000Z",
-      "summary": "6月4日，当维也纳多瑙河畔的 2026 进入正会的最后一天，大洋彼岸的美国丹佛科罗拉多会议中心（ ）已经人声鼎沸。许多我们前几天还在维也纳见到的熟悉面孔，各大顶尖高校的学者和硬科技企业的高管，此刻都正拖着行李箱，马不停蹄地出现在丹佛的街头。这种罕见的“全球双城赶场”现象背后，是计算机视觉（）与机器人（）两大顶会赛道正在发生的史诗级大融合。今年的在丹佛当地时间 6月3日至4日率……",
+      "publishedAt": "2026-06-05T10:53:00.000Z",
+      "summary": "大模型赛道的估值逻辑，正在被一个变量粗暴重构。它不是参数，不是月活，不是多模态，是你能不能做好编程。把四家中国大模型公司的数据拉出来，这条线清晰得不需要统计检验：编程能力突出的深度求索正在洽谈国内人工智能公司史上最大单笔融资 70 亿美元，估值或达 590亿美元。月之暗面在月之暗面相关型号把编程能力拉满之后，20 天收入超 2025 全年，3 个月冲到 2 亿美元，半年内四轮……",
       "topics": [
         "模型发布",
         "产品应用",
-        "算力芯片"
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -2078,7 +2008,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2111,7 +2041,25 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-五个向-时间序列基础模型",
+      "title": "五个向，时间序列基础模型",
+      "url": "https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T16:30:00.000Z",
+      "summary": "在部件 1 序列，我们，时间，序列基础模型。我们机械手由案例研究和，借助训练。作为我们在部件 1。在 … 五个向，时间序列基础模型首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 80,
       "image": ""
     },
     {
@@ -2128,25 +2076,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-论文",
-      "title": "论文 :",
-      "url": "https://towardsdatascience.com/fpn-paper-walkthrough-leveraging-the-internal-pyramid/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T13:30:00.000Z",
-      "summary": "深度学习模型物体和向信息技术来自论文 : 首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 78,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2250,21 +2180,37 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-微软首席执行官夏尔马谈为何砍掉智能副驾主机游戏伴侣-玩家没兴趣",
-      "title": "微软首席执行官夏尔马谈为何砍掉智能副驾主机游戏伴侣：玩家没兴趣",
-      "url": "https://www.ithome.com/0/960/737.htm",
+      "id": "ithome-加南相关型号智能眼镜发布-25-8-克重-32-百万像素摄像头-2350-元",
+      "title": "加南相关型号智能眼镜发布：25.8 克重、32 百万像素摄像头，2350 元",
+      "url": "https://www.ithome.com/0/960/740.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:09:46.000Z",
-      "summary": "科技之家 6 月 5 日消息，微软首席执行官阿莎 · 夏尔马进一步解释了微软为何取消主机端智能副驾人工智能伴侣：玩家并不期待在主机上获得这种体验。微软此前一直尝试在游戏中智能副驾人工智能助手。两年前，微软曾演示一种设想：玩家游玩时，智能副驾可以直接与玩家对话。去年，微软更是进一步宣布将把智能副驾带到主机。微软当时把智能副驾称为人工智能驱动的伙伴，目标是“成为你的个性化游戏伴侣……",
+      "publishedAt": "2026-06-05T14:23:00.000Z",
+      "summary": "科技之家 6 月 5 日消息，加南科技今日发布了相关型号智能眼镜，售价 2350 元。这款眼镜重 25.8 克，官方宣称为亚洲脸型而生；镜框采用欧洲进口超轻尼龙材料，耳挂最薄 5.5 毫米。这款智能眼镜搭载 32 百万像素摄像头，光圈 /2.4，支持拍摄相关型号相关型号视频，支持 +人工智能双重防抖，可拍摄实时。官方表示，这款智能眼镜搭载专为人工智能眼镜打造的操作系统，最快支……",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能构建持续",
+      "title": "人工智能构建持续",
+      "url": "https://www.reddit.com/r/artificial/comments/1txjf8n/six_places_our_ai_builds_keep_breaking/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T12:23:19.000Z",
+      "summary": "我们人工智能团队面向关于。部件向模型。问题成本最在上下文。我们客户，访问向企业，信息技术向答案。试图向修复信息技术在。上下文没有，和没有，信息技术只是信息技术未能向向信息技术。失败向人工智能构建。我们五个，和和团队在。首个，来自人工智能向团队人工智能，分享上下文创建试图向。决策记忆，作为记忆为什么，和新团队答案来自推理能力。在，和失败模式每个构建 : 生活。在时刻，和重要，向……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 93,
       "image": ""
     },
     {
@@ -2280,43 +2226,25 @@
       "topics": [
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "leiphone-银河通用创始人王鹤-具身智能正迈向专属的-时刻-与-智能聊天助手时刻-2026",
-      "title": "银河通用创始人王鹤：具身智能正迈向专属的「时刻」与「智能聊天助手时刻」，2026",
-      "url": "https://www.leiphone.com/category/robot/DZhbEoMS7u3gvJIO.html",
+      "id": "leiphone-2026现场直击-与机器人的物理结界被彻底打破",
+      "title": "2026现场直击：与机器人的物理结界被彻底打破",
+      "url": "https://www.leiphone.com/category/ai/SajB6MXFYXjJPEry.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T10:22:00.000Z",
-      "summary": "具身智能正在敲开通用人工智能的大门，全面引爆属于通用机器人的第四次工业革命。作者丨岑峰编辑丨马晓宁 2026年6月3日，国际机器人与自动化会议（ 2026）在奥地利维也纳进入正会的第二天。在这一天的“行业主题演讲”环节（ ），具身智能领域知名学者、银河通用（）创始人和王鹤发表了题为《 智能聊天助手人工智能》的主题演讲。在演讲中，王鹤指出，具身智能正迈向专属的“时刻”与“智能聊……",
+      "publishedAt": "2026-06-05T10:47:00.000Z",
+      "summary": "6月4日，当维也纳多瑙河畔的 2026 进入正会的最后一天，大洋彼岸的美国丹佛科罗拉多会议中心（ ）已经人声鼎沸。许多我们前几天还在维也纳见到的熟悉面孔，各大顶尖高校的学者和硬科技企业的高管，此刻都正拖着行李箱，马不停蹄地出现在丹佛的街头。这种罕见的“全球双城赶场”现象背后，是计算机视觉（）与机器人（）两大顶会赛道正在发生的史诗级大融合。今年的在丹佛当地时间 6月3日至4日率……",
       "topics": [
         "模型发布",
         "产品应用",
         "算力芯片"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能安全公司全球人工智能-关于向首次公开募股在-1",
-      "title": "人工智能安全公司全球人工智能。关于向首次公开募股在 $1。",
-      "url": "https://www.reddit.com/r/artificial/comments/1txeysy/anthropic_wants_a_global_ai_freeze_theyre_also/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T08:32:45.000Z",
-      "summary": "人工智能安全公司只是呼吁面向全球在人工智能，模型和控制。关于实际在这里。人工智能安全公司据报道 $1 + 首次公开募股，和只是向呼吁面向向构建。只是关于。信息技术 : 帮助人工智能安全公司持续和分享。和这里信息技术 : 80% 代码在人工智能安全公司由克劳德模型和使用向克劳德模型。向设置。很少有人讨论关于。成为，向，我们，我们，帮助规则。通过向借助，在，安全基准测试，评测。成……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 98,
       "image": ""
     },
     {
@@ -2349,7 +2277,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2365,7 +2293,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2402,19 +2330,21 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-在人工智能",
-      "title": "在人工智能？",
-      "url": "https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/",
+      "id": "towards-data-science-论文",
+      "title": "论文 :",
+      "url": "https://towardsdatascience.com/fpn-paper-walkthrough-leveraging-the-internal-pyramid/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "在毕业生人工智能，数据借助机器学习工程师在人工智能？首个在数据科学实战社区。",
+      "publishedAt": "2026-06-04T13:30:00.000Z",
+      "summary": "深度学习模型物体和向信息技术来自论文 : 首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 66,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2521,21 +2451,21 @@
       "image": ""
     },
     {
-      "id": "ithome-元宇宙平台公司智能眼镜应用被曝暗藏人工智能人脸识别功能相关代码-影响超-5000-万设备-公司回应称仅为探索而已",
-      "title": "元宇宙平台公司智能眼镜应用被曝暗藏人工智能人脸识别功能相关代码：影响超 5000 万设备，公司回应称仅为探索而已",
-      "url": "https://www.ithome.com/0/960/735.htm",
+      "id": "ithome-古尔曼称苹果新版不会被宣传为完成品-内部将其标记为-版",
+      "title": "古尔曼称苹果新版不会被宣传为完成品，内部将其标记为“ 版”",
+      "url": "https://www.ithome.com/0/960/739.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T13:59:37.000Z",
-      "summary": "科技之家 6 月 5 日消息，据《连线》今日报道，其对元宇宙平台公司软件进行解包后发现，元宇宙平台公司已通过多次应用更新，将一套用于人脸识别技术的代码推送到其智能眼镜配套应用中。不过，这段代码目前并未启用。该功能内部代号为“”，能够识别智能眼镜摄像头拍摄到的人脸，并在识别成功时向佩戴者发送提醒。该应用下载量超 5000 万次，是使用雷朋、欧克利等元宇宙平台公司智能眼镜关键功能……",
+      "publishedAt": "2026-06-05T14:21:03.000Z",
+      "summary": "科技之家 6 月 5 日消息，今天晚间，彭博社记者马克 · 古尔曼爆料称，苹果内部将新版标记为“”版，表明该助手不会被宣传为完全完成的产品。古尔曼还提出了另一种可能：苹果可能借鉴苹果首次推出时使用过的方式，会为想要尝试新功能的用户设置某种形式的等待清单。古尔曼披露了苹果移动系统 27 的部分细微之处的新细节：通知到达时有重新设计的效果，因为通知中心手势移到了左上角；“查找”应……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "研究论文"
+        "算力芯片"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2551,19 +2481,19 @@
       "topics": [
         "投融资"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "leiphone-华人学者闪耀维也纳-胡瑞珍-石冠亚-王晓龙等斩获核心大奖-2026",
-      "title": "华人学者闪耀维也纳，胡瑞珍、石冠亚、王晓龙等斩获核心大奖，2026",
-      "url": "https://www.leiphone.com/category/robot/vXUDbgmmjD4EH4Ys.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
+      "id": "reddit-artificial-构建大语言模型平台在-查看每个人工智能呼吁-成本和在",
+      "title": "构建大语言模型平台在，查看每个人工智能呼吁，成本和在",
+      "url": "https://www.reddit.com/r/artificial/comments/1txhn2y/i_built_an_llm_observability_platform_in_a/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T10:12:00.000Z",
-      "summary": "中国学者的智慧，正在拼凑出现代物理人工智能的最完整版图。作者丨岑峰编辑丨马晓宁 2026年6月，全球机器人与自动化领域的顶级学术盛会—— 国际机器人与自动化大会（ 2026）在奥地利维也纳盛大举行。作为机器人界的“奥斯卡”，每年的颁奖典礼都是全行业瞩目的焦点，它不仅是对过去一年乃至数十年顶尖科研成果的表彰，更是未来技术发展的风向标。在刚刚结束的颁奖典礼上，无论是在极具分量的个……",
+      "publishedAt": "2026-06-05T10:59:55.000Z",
+      "summary": "交付人工智能应用借助，在，即将推出，成本，和进入信息技术。构建。新增代码和信息技术每个单个人工智能呼吁应用，词元，和成本，在。借助人工智能安全公司和开放人工智能公司，在，开发工具包人工智能安全公司 = 新人工智能安全公司，:，信息技术，每个呼吁构建在 ~48 克劳德模型代码。访问这里: 大语言模型。应用，功能实际使用向？由",
       "topics": [
         "模型发布",
         "产品应用",
@@ -2573,20 +2503,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-2-0-打开-面向人工智能向和",
-      "title": "2.0 打开，面向人工智能向和",
-      "url": "https://www.reddit.com/r/artificial/comments/1txellk/creaibo_20_beta_is_open_looking_for_ai_content/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "leiphone-银河通用创始人王鹤-具身智能正迈向专属的-时刻-与-智能聊天助手时刻-2026",
+      "title": "银河通用创始人王鹤：具身智能正迈向专属的「时刻」与「智能聊天助手时刻」，2026",
+      "url": "https://www.leiphone.com/category/robot/DZhbEoMS7u3gvJIO.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:10:44.000Z",
-      "summary": "我们 2.0，和向来自社区？人工智能，驱动工具面向图像，视频，和。我们在工作流单个，任务。人工智能助手内部产品。为什么这里？这里实际使用工具和。我们构建在人工智能工具在任务在上下文。我们面向在 : 借助人工智能，视频，图像，在。: 向。这里: :，我们新演示向查看工具实际 : :，视频，向答案问题在。由",
+      "publishedAt": "2026-06-05T10:22:00.000Z",
+      "summary": "具身智能正在敲开通用人工智能的大门，全面引爆属于通用机器人的第四次工业革命。作者丨岑峰编辑丨马晓宁 2026年6月3日，国际机器人与自动化会议（ 2026）在奥地利维也纳进入正会的第二天。在这一天的“行业主题演讲”环节（ ），具身智能领域知名学者、银河通用（）创始人和王鹤发表了题为《 智能聊天助手人工智能》的主题演讲。在演讲中，王鹤指出，具身智能正迈向专属的“时刻”与“智能聊……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "多模态"
+        "算力芯片"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2622,23 +2553,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-跑得最快的人工智能安全公司-突然发文劝同行一起刹车-这是演给谁看",
-      "title": "跑得最快的人工智能安全公司，突然发文劝同行一起刹车：这是演给谁看？",
-      "url": "https://news.cnblogs.com/n/823527/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T05:37:00.000Z",
-      "summary": "出品，网易智能作者，小小编辑，王凤枝跑得最快的人，开始喊大家一起刹车了。北京时间 6 月 5 日凌晨，人工智能安全公司发了一篇长文，呼吁全球前沿人工智能实验室考虑集体放慢研发速度，给社会治理和安全研究留出时间。这话听起来很像一次负责任的预警。但说这话的不是旁观者，也不是监本文链接",
-      "topics": [
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-元宇宙平台公司来自特斯拉和构建数据中心在",
       "title": "元宇宙平台公司来自特斯拉和构建数据中心在",
       "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
@@ -2651,7 +2565,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2671,6 +2585,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-在人工智能",
+      "title": "在人工智能？",
+      "url": "https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "在毕业生人工智能，数据借助机器学习工程师在人工智能？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 66,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-亚马逊人工智能-生成产品",
       "title": "亚马逊人工智能，生成产品",
       "url": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
@@ -2684,23 +2614,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-为什么人工智能",
-      "title": "为什么人工智能",
-      "url": "https://towardsdatascience.com/why-ai-is-not-stealing-your-job/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-03T15:00:00.000Z",
-      "summary": "人工智能。公司。为什么人工智能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2769,21 +2683,21 @@
       "image": ""
     },
     {
-      "id": "ithome-英特尔与鸿海战略合作-携手推动人工智能机柜-边缘与物理人工智能发展",
-      "title": "英特尔与鸿海战略合作，携手推动人工智能机柜、边缘与物理人工智能发展",
-      "url": "https://www.ithome.com/0/960/733.htm",
+      "id": "ithome-谷歌-149-稳定版发布-允许用户删除已下载的端侧人工智能模型",
+      "title": "谷歌 149 稳定版发布，允许用户删除已下载的端侧人工智能模型",
+      "url": "https://www.ithome.com/0/960/738.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T13:51:16.000Z",
-      "summary": "科技之家 6 月 5 日消息，鸿海科技集团昨日宣布将与英特尔进行战略合作，结合英特尔在处理器、硅光子技术与软件生态系统的优势及鸿海在全球制造、系统整合与人工智能数据中心部署能力上的深厚基础。双方将共同探索从芯片、机柜（机架）、系统到应用的全方位人工智能解决方案，并加速由人工智能驱动的技术推动边缘和 （物理 / 实体）人工智能应用。首先，在人工智能机柜（机架）领域，两家企业将探……",
+      "publishedAt": "2026-06-05T14:17:23.000Z",
+      "summary": "科技之家 6 月 5 日消息，谷歌于 6 月 2 日开始陆续推送最新的 149 版本，支持视窗系统、苹果电脑和平台，包含 429 项安全修复。150 预计于 6 月 30 日发布。对于需要更长更新周期的用户，还提供分支，提供八周的支持覆盖。149 最引人注目的变化是在系统设置中新增了端侧人工智能模型管理选项。用户现可主动拒绝浏览器下载人工智能模型，也可以直接移除此前已下载的所……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2800,41 +2714,127 @@
         "投融资",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "leiphone-波恩大学教授-让机器人在遮挡世界中主动获取信息-2026",
-      "title": "波恩大学教授：让机器人在遮挡世界中主动获取信息，2026",
-      "url": "https://www.leiphone.com/category/ai/Y65BpmoLEhUaqnNS.html",
+      "id": "leiphone-华人学者闪耀维也纳-胡瑞珍-石冠亚-王晓龙等斩获核心大奖-2026",
+      "title": "华人学者闪耀维也纳，胡瑞珍、石冠亚、王晓龙等斩获核心大奖，2026",
+      "url": "https://www.leiphone.com/category/robot/vXUDbgmmjD4EH4Ys.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-05T10:12:00.000Z",
-      "summary": "机器人不能只会“看见”。作者丨郑佳美编辑丨马晓宁 2026 年 6 月 4 日，在 2026 “机器人人工智能” 上，波恩大学教授发表了关于主动感知机器人的演讲，直指真实机器人部署中的一个基本困境：机器人面对的世界往往是杂乱、持续变化且只能部分观测的，仅靠被动观察无法完成可靠理解。的核心判断是：机器人要真正进入家庭、农业和服务场景，不能只把感知当作“看一眼”的过程，而必须把感……",
+      "summary": "中国学者的智慧，正在拼凑出现代物理人工智能的最完整版图。作者丨岑峰编辑丨马晓宁 2026年6月，全球机器人与自动化领域的顶级学术盛会—— 国际机器人与自动化大会（ 2026）在奥地利维也纳盛大举行。作为机器人界的“奥斯卡”，每年的颁奖典礼都是全行业瞩目的焦点，它不仅是对过去一年乃至数十年顶尖科研成果的表彰，更是未来技术发展的风向标。在刚刚结束的颁奖典礼上，无论是在极具分量的个……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "研究论文",
-        "投融资"
+        "监管安全"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-开放人工智能公司词元",
-      "title": "开放人工智能公司词元",
-      "url": "https://www.reddit.com/r/artificial/comments/1txeled/openai_gives_free_daily_tokens_if_you_do_this/",
+      "id": "reddit-artificial-人工智能安全公司全球人工智能-关于向首次公开募股在-1",
+      "title": "人工智能安全公司全球人工智能。关于向首次公开募股在 $1。",
+      "url": "https://www.reddit.com/r/artificial/comments/1txeysy/anthropic_wants_a_global_ai_freeze_theyre_also/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T08:10:23.000Z",
-      "summary": "在开放人工智能公司和关于信息技术信息技术呼吁数据。向接口，数据控制，在。信息技术。词元每个单个。向 2.5 百万词元在模型，小型版，小型版，小型版。面向模型信息技术相关型号词元。和使用由开放人工智能公司向训练模型。使用信息技术面向面向，… 得到接口访问每个只是面向。信息技术和信息技术只是面向最由",
+      "publishedAt": "2026-06-05T08:32:45.000Z",
+      "summary": "人工智能安全公司只是呼吁面向全球在人工智能，模型和控制。关于实际在这里。人工智能安全公司据报道 $1 + 首次公开募股，和只是向呼吁面向向构建。只是关于。信息技术 : 帮助人工智能安全公司持续和分享。和这里信息技术 : 80% 代码在人工智能安全公司由克劳德模型和使用向克劳德模型。向设置。很少有人讨论关于。成为，向，我们，我们，帮助规则。通过向借助，在，安全基准测试，评测。成……",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 88,
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "oschina-之外的另一个选择-原生自托管-会记忆能进化的轻量级智能体平台",
+      "title": "之外的另一个选择：—— 原生自托管、会记忆能进化的轻量级智能体平台",
+      "url": "https://www.oschina.net/news/452437",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T03:49:08.000Z",
+      "summary": "由和团队联合打造的开源人工智能智能体平台今日正式发布第1代.0。基于规则引擎和人工智能智能体框架构建，用语言从零打造。核心理念是：规则链即智能体，智能体即服务——自主干活，有记忆，懂团队协作。自主干活：给一个目标，拆解执行的设计哲学是执行优先——智能。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "端侧智能"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-苹果作为首个人工智能智能体在面向企业平台",
+      "title": "苹果作为首个人工智能智能体在面向企业平台",
+      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T19:20:58.000Z",
+      "summary": "创业公司使用人工智能智能体，成为首个人工智能智能体面向苹果面向企业平台。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 79,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能-和向在安全",
+      "title": "人工智能，和向在安全",
+      "url": "https://the-decoder.com/ai-can-now-coach-amateur-virologists-and-top-tech-leaders-want-congress-to-act-on-dna-security/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-04T10:07:51.000Z",
+      "summary": "和政府向。人工智能在实验室，风险面向武器。人工智能，和向在安全首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 70,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-为什么人工智能",
+      "title": "为什么人工智能",
+      "url": "https://towardsdatascience.com/why-ai-is-not-stealing-your-job/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-03T15:00:00.000Z",
+      "summary": "人工智能。公司。为什么人工智能首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
+      "image": ""
+    },
+    {
+      "id": "openai-news-人工智能-驱动借助开放人工智能公司",
+      "title": "人工智能，驱动借助开放人工智能公司",
+      "url": "https://openai.com/index/travelers",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "summary": "构建人工智能，驱动助手借助开放人工智能公司向指南客户，24，7 支持，和规模需求。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 63,
       "image": ""
     }
   ]
