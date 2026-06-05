@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-06-05T00:48:57.773Z",
+  "generatedAt": "2026-06-05T01:19:39.740Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-05T01:00:00.000Z",
+  "nextUpdateHint": "2026-06-05T01:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-05T00:43:18.000Z"
+    "latestPublishedAt": "2026-06-05T01:16:34.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 75,
-      "heat": 83
-    },
-    {
-      "name": "模型发布",
-      "count": 44,
-      "heat": 83
-    },
-    {
-      "name": "监管安全",
-      "count": 30,
-      "heat": 82
-    },
-    {
-      "name": "算力芯片",
-      "count": 22,
-      "heat": 85
-    },
-    {
-      "name": "研究论文",
-      "count": 22,
+      "count": 73,
       "heat": 80
     },
     {
-      "name": "人工智能动态",
+      "name": "模型发布",
+      "count": 45,
+      "heat": 82
+    },
+    {
+      "name": "监管安全",
+      "count": 31,
+      "heat": 83
+    },
+    {
+      "name": "研究论文",
+      "count": 23,
+      "heat": 81
+    },
+    {
+      "name": "算力芯片",
       "count": 18,
-      "heat": 75
+      "heat": 82
+    },
+    {
+      "name": "人工智能动态",
+      "count": 17,
+      "heat": 74
     },
     {
       "name": "投融资",
       "count": 14,
-      "heat": 83
+      "heat": 85
     },
     {
       "name": "多模态",
@@ -54,17 +54,17 @@
     {
       "name": "开源生态",
       "count": 10,
-      "heat": 82
+      "heat": 81
+    },
+    {
+      "name": "端侧智能",
+      "count": 9,
+      "heat": 85
     },
     {
       "name": "机器人",
       "count": 7,
-      "heat": 82
-    },
-    {
-      "name": "端侧智能",
-      "count": 6,
-      "heat": 80
+      "heat": 84
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-05-22T15:00:00.000Z",
-      "latestDisplayedAt": ""
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-06-02T19:15:57.000Z",
+      "latestDisplayedAt": "2026-06-02T19:15:57.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-04T22:43:26.000Z",
       "latestDisplayedAt": "2026-06-04T22:43:26.000Z"
     },
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-06-05T00:43:18.000Z",
-      "latestDisplayedAt": "2026-06-05T00:43:18.000Z"
+      "displayedCount": 5,
+      "latestFetchedAt": "2026-06-05T01:15:16.000Z",
+      "latestDisplayedAt": "2026-06-05T01:15:16.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -382,7 +382,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "This operation was aborted",
       "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-06-03T17:53:33.000Z",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 14,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T00:35:40.000Z",
-      "latestDisplayedAt": "2026-06-05T00:35:40.000Z"
+      "itemCount": 13,
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-06-05T01:10:12.000Z",
+      "latestDisplayedAt": "2026-06-05T01:10:12.000Z"
     },
     {
       "id": "ithome",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 17,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-06-05T00:23:26.000Z",
-      "latestDisplayedAt": "2026-06-05T00:23:26.000Z"
+      "itemCount": 19,
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-06-05T01:16:34.000Z",
+      "latestDisplayedAt": "2026-06-05T01:16:34.000Z"
     },
     {
       "id": "oschina",
@@ -488,51 +488,56 @@
   "failures": [],
   "items": [
     {
-      "id": "reddit-artificial-工具生成来自",
-      "title": "工具生成来自？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx5th7/what_tools_can_generate_output_from_two_inputs/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T00:43:18.000Z",
-      "summary": "向人工智能向评测和信息技术向，评估，向信息技术，和向取决于在。向信息技术在独立，向借助面向，和，信息技术和。工具任务和在？由",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-算力租赁市场热度提升-上市公司抢抓机遇",
-      "title": "算力租赁市场热度提升，上市公司抢抓机遇",
-      "url": "https://36kr.com/newsflashes/3839553373751554?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T00:35:40.000Z",
-      "summary": "进入6月份，算力租赁行业从零散签约迈入批量落地的景气兑现窗口期。“纵观二季度，算力相关上市公司密集落地大额中长期合约，长协订单规模化落地。”深圳市湾众咨询管理有限公司首席经济学家邱思甥表示，受益于人工智能落地、产业升级、政策扶持，行业竞争从囤货赚差价，转变为比拼技术、运维与整体解决方案。（证券日报）",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "ithome-曝谷歌云服务部门再掀裁员潮-安全团队也未能幸免",
-      "title": "曝谷歌云服务部门再掀裁员潮，安全团队也未能幸免",
-      "url": "https://www.ithome.com/0/960/204.htm",
+      "id": "ithome-人工智能安全公司称最新一代人工智能模型已显现可能脱离人类控制迹象-呼吁全球暂停人工智能开发",
+      "title": "人工智能安全公司称最新一代人工智能模型已显现可能脱离人类控制迹象，呼吁全球暂停人工智能开发",
+      "url": "https://www.ithome.com/0/960/218.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T00:23:26.000Z",
-      "summary": "科技之家 6 月 5 日消息，据《商业内幕》今日援引知情人士消息，谷歌已在过去两周内，对其云服务部门（谷歌云服务）进行新一轮裁员。两名知情人士透露，本次裁员波及多个团队，其中包括威胁情报小组。该团队长期负责追踪全球黑客活动、分析网络攻击事件。消息人士称该团队已于周四遭遇裁员，目前已有部分员工在领英平台公开讨论被裁经历。科技之家在此援引《商业内幕》，本次裁员的影响范围还包括等部……",
+      "publishedAt": "2026-06-05T01:16:34.000Z",
+      "summary": "科技之家 6 月 5 日消息，据《华尔街日报》报道，美国人工智能公司人工智能安全公司昨日发布报告，称最新人工智能模型已开始显现脱离人类控制迹象，全球各大企业应考虑放缓乃至暂停开发先进人工智能系统。该公司表示，全球各大公司放缓前沿人工智能开发“很可能是好事”，但如果只有一家公司停下来的话，竞争对手就会加速前进。人工智能安全公司对此表示：“我们认为，这个世界应有减缓或暂时停止前沿……",
       "topics": [
-        "监管安全"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 95,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx6j8c/anyone_else_just_sticking_to_nano_banana_2_kling/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T01:15:16.000Z",
+      "summary": "人工智能面向和只是在 2 面向图像和 3.0 面向视频。: 3.1，2.0，图像 1.5，视频生成模型 2，向。实际模型向最和只是。3.1 实际值得试图？和使用工具？由",
+      "topics": [
+        "模型发布",
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-原力灵机-完成新一轮融资",
+      "title": "“原力灵机”完成新一轮融资",
+      "url": "https://36kr.com/newsflashes/3839587324037637?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T01:10:12.000Z",
+      "summary": "36氪获悉，具身智能企业“原力灵机”近期完成新一轮融资，资方主要为数家大模型公司，包括智谱、阶跃星辰、商汤科技、阿里。此外，华勤、上汽恒旭等产业投资方持续加注。",
+      "topics": [
+        "模型发布",
+        "投融资",
+        "机器人"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -548,7 +553,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -632,7 +637,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -699,7 +704,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -715,7 +720,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -731,7 +736,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/gfn-thursday-6-4-nv-blog-1280x680-logo-1.jpg"
     },
     {
@@ -816,7 +821,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -868,8 +873,25 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "microsoft-ai-blog-人工智能企业-信息技术",
+      "title": "人工智能企业。信息技术。",
+      "url": "https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T19:15:57.000Z",
+      "summary": "我们构建智能体平台: 支持模型，打开，和在每个。人工智能企业。信息技术。首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
     },
     {
       "id": "github-blog-代码托管平台智能编程助手应用-智能体",
@@ -889,54 +911,54 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-中信证券-科创板-1-6-改革成效显著-生态形成良性闭环",
-      "title": "中信证券：科创板“1+6”改革成效显著，生态形成良性闭环",
-      "url": "https://36kr.com/newsflashes/3839550250682629?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T00:32:29.000Z",
-      "summary": "36氪获悉，中信证券研报认为，回顾“1+6”改革一周年，投融资生态已形成良性闭环，在融资、并购、企业生态等多维度助力相关企业的高效发展。当前节点来看，改革已跨过制度宣示阶段，进入生态验证阶段，后续值得关注的是盈利转化能力及业绩兑现能力等中长期趋势，进行线路的验证及反哺。分赛道来看，细分赛道的政策传导已经呈现出清晰梯度，生物医药率先完成验证，人工智能正在加速接棒，良好的发展态势……",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "ithome-浏览器选择联盟致信纳德拉-已忍无可忍-微软别在相关型号-相关型号强推了",
-      "title": "浏览器选择联盟致信纳德拉：已忍无可忍，微软别在相关型号/相关型号强推了",
-      "url": "https://www.ithome.com/0/960/203.htm",
+      "id": "ithome-小米相关型号专业版手机官宣搭载天玑-9500-旗舰芯-6-月-8-日发布",
+      "title": "小米相关型号专业版手机官宣搭载天玑 9500 旗舰芯，6 月 8 日发布",
+      "url": "https://www.ithome.com/0/960/215.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T00:21:13.000Z",
-      "summary": "科技之家 6 月 5 日消息，科技媒体今天（6 月 5 日）发布博文，报道称浏览器选择联盟公开致信微软首席执行官萨提亚 · 纳德拉（ ），要求微软停止在视窗系统 10、视窗系统 11 内强推浏览器，并简化默认浏览器切换流程。科技之家附上相关截图如下：浏览器选择联盟在公开信中，对微软推广浏览器的手段“忍无可忍”，指出视窗系统 10、视窗系统 11 平台上存在多种引导用户回流的做……",
+      "publishedAt": "2026-06-05T01:11:12.000Z",
+      "summary": "科技之家 6 月 5 日消息，小米今日官宣，全新小米相关型号专业版手机搭载天玑 9500 旗舰芯片，3 纳米工艺制程，第三代架构，八核全大核设计，对比上一代图形处理器性能大幅提升 33%，功耗降低 42%，光追渲染性能提升 199%。小米相关型号系列手机将于 6 月 8 日 14:00 发布，标准版采用 6.59 英寸，专业版版采用 6.83 英寸。全系四曲包裹式中框、二维直……",
       "topics": [
-        "产品应用",
+        "算力芯片",
         "端侧智能"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-硬氪独家-唐文斌-原力灵机-并购物流机器人公司-并获智谱-商汤-阶跃等投资",
+      "title": "硬氪独家，唐文斌「原力灵机」并购物流机器人公司，并获智谱、商汤、阶跃等投资",
+      "url": "https://36kr.com/p/3838835333253385?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T01:00:00.000Z",
+      "summary": "作者，邱晓芬编辑，袁斯来硬氪独家获悉，具身智能企业「原力灵机」近期完成新一轮融资，资方主要为数家大模型公司，包括智谱、阶跃星辰、商汤科技。此外，华勤、上汽恒旭等产业投资方持续加注。「原力灵机」 是一家通用具身大模型公司，2025年3月由旷视科技联合创始人兼唐文斌创立，团队核心创始成员为旷视科技原班人马。有意思的是，此次融资也是商汤、旷视这两家曾经的对手，在具身智能的热潮中罕见……",
+      "topics": [
+        "模型发布",
+        "监管安全",
+        "投融资"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-借助人工智能作为部件-和信息技术-信息技术向向",
-      "title": "借助人工智能作为部件，和信息技术。信息技术向向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx56d7/i_am_now_negotiating_with_ai_as_part_of_my_job/",
+      "id": "reddit-artificial-工具生成来自",
+      "title": "工具生成来自？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx5th7/what_tools_can_generate_output_from_two_inputs/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T00:15:01.000Z",
-      "summary": "人工智能向借助。和实时在，人工智能和呼吁向面向。面向借助，由面向在，和在。和。客户，和公司，和向。客户，和信息技术，客户面向，人工智能呼吁和即将推出来自，和在。向向，和，模型。和在，在。问题，我们向时间向查看数据。我们，借助。我们，在客户。人工智能借助。向在转化，我们我们向借助。打开向，我们人工智能向和在借助？试图向，只是向时间由人工智能。由",
+      "publishedAt": "2026-06-05T00:43:18.000Z",
+      "summary": "向人工智能向评测和信息技术向，评估，向信息技术，和向取决于在。向信息技术在独立，向借助面向，和，信息技术和。工具任务和在？由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 95,
+      "heat": 85,
       "image": ""
     },
     {
@@ -952,7 +974,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -985,7 +1007,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1001,7 +1023,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": "https://media.wired.com/photos/6a1f68eadc480920e3bdc38e/master/pass/Made-In-China-TikTok-Will-Never-Die-Business.jpg"
     },
     {
@@ -1018,7 +1040,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1084,7 +1106,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1102,7 +1124,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1151,7 +1173,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1167,7 +1189,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CHMI_open_sourcing_1.png"
     },
     {
@@ -1224,6 +1246,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/CVPR_blog_still-scaled.png"
     },
     {
+      "id": "microsoft-ai-blog-宣布微软正式可用和微软应用预览",
+      "title": "宣布微软正式可用和微软应用预览",
+      "url": "https://azure.microsoft.com/en-us/blog/announcing-microsoft-discovery-general-availability-and-microsoft-discovery-app-preview/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T18:15:00.000Z",
+      "summary": "在微软构建，我们宣布微软可用面向组织，平台面向构建和人工智能工作流。宣布微软正式可用和微软应用预览首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "mit-tech-review-ai-全球护理借助人工智能",
       "title": "全球护理借助人工智能",
       "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
@@ -1258,55 +1296,54 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "thirty-six-kr-国家队下场做人工智能虚拟细胞-百曜科技-完成数千万元新一轮融资-36氪首发",
-      "title": "国家队下场做人工智能虚拟细胞，「百曜科技」完成数千万元新一轮融资｜36氪首发",
-      "url": "https://36kr.com/p/3835460873385348?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T00:30:00.000Z",
-      "summary": "文｜胡香赟编辑｜海若镜 36氪获悉，人工智能虚拟细胞（）平台公司「百曜科技」近期已完成数千万元新一轮融资。本轮融资由国家级国有资本运营平台中国国新旗下的国新创投基金领投，道彤资本和云启资本跟投，老股东峰瑞资本和百度风投追加投资。募集资金将主要用于全新一代虚拟细胞算法模型迭代、独家数据收集平台建设以及加速产业化落地。百曜科技是36氪持续追踪报道的企业（ 附链接 ），公司创始团队……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "ithome-相关型号争议后遗症-微软最强人工智能笔记本淡化智能副驾-电脑标签宣传",
-      "title": "相关型号争议后遗症：微软最强人工智能笔记本淡化智能副驾+ 电脑标签宣传",
-      "url": "https://www.ithome.com/0/960/201.htm",
+      "id": "ithome-微软原生改造相关型号-先从开始菜单切入-减少依赖网页技术",
+      "title": "微软原生改造相关型号：先从开始菜单切入，减少依赖网页技术",
+      "url": "https://www.ithome.com/0/960/211.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T00:02:54.000Z",
-      "summary": "科技之家 6 月 5 日消息，科技媒体视窗系统今天（6 月 5 日）发布博文，报道称微软发布搭载的笔记本时，刻意淡化了智能副驾+ 电脑（也称视窗系统 11 人工智能+ 电脑）标签。科技之家注：微软于 2024 年推出智能副驾+ 电脑，要求设备集成神经处理单元（），最低 16 吉字节内存和 256 吉字节，人工智能算力超过 40 万亿次运算。首批产品以高通骁龙和处理器为核心，卖……",
+      "publishedAt": "2026-06-05T00:53:22.000Z",
+      "summary": "科技之家 6 月 5 日消息，科技媒体视窗系统昨日（6 月 4 日）发布博文，报道称在 2026 年开发者大会上，微软调整视窗系统 11 的底层路线，确认会用原生代码重写视窗系统 11 的核心部分，并减少系统里依赖网页技术的界面层。微软在大会上表示，视窗系统 11 系统过去几年的界面调整，不少都建立在 （跨平台桌面框架）、（跨平台界面框架）和方案上，带来内存占用偏高、启动偏慢……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "开源生态"
       ],
-      "heat": 97,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能技能访问向人工智能",
-      "title": "人工智能技能访问向人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx2nun/what_ai_skill_will_still_matter_when_everyone_has/",
+      "id": "thirty-six-kr-中信证券-建议以-人工智能-能化-的新杠铃结构作为兼顾降波与收益的战略解",
+      "title": "中信证券：建议以“人工智能+能化”的新杠铃结构作为兼顾降波与收益的战略解",
+      "url": "https://36kr.com/newsflashes/3839569952066055?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T00:52:31.000Z",
+      "summary": "36氪获悉，中信证券研报表示，当前股资金缩圈与虹吸、个股收益率分化均已触及历史极值，头部资产与长尾资产的收益率相关系数正逼近0.5的背离临界点。复盘历史，极致缩圈见顶并不决定大盘方向，但相关性背离往往预示着前期抱团的主线步入休整，资金行为与市场情绪面临结构性切换。展望后市，市场能否从极致分化走向系统性收敛，取决于宏观基本面增长与全球流动性能否实现顺畅接力。在宏观外部靴子落地前……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-借助人工智能作为部件-和信息技术-信息技术向向",
+      "title": "借助人工智能作为部件，和信息技术。信息技术向向？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx56d7/i_am_now_negotiating_with_ai_as_part_of_my_job/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T22:27:26.000Z",
-      "summary": "使用人工智能工具，技能实际独立。信息技术？和？向？工作流？人工智能更快，信息技术。指南，和人工智能顺利成为向生成。技能认为最在？由",
+      "publishedAt": "2026-06-05T00:15:01.000Z",
+      "summary": "人工智能向借助。和实时在，人工智能和呼吁向面向。面向借助，由面向在，和在。和。客户，和公司，和向。客户，和信息技术，客户面向，人工智能呼吁和即将推出来自，和在。向向，和，模型。和在，在。问题，我们向时间向查看数据。我们，借助。我们，在客户。人工智能借助。向在转化，我们我们向借助。打开向，我们人工智能向和在借助？试图向，只是向时间由人工智能。由",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 84,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1390,7 +1427,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1406,7 +1443,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1440,7 +1477,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1565,6 +1602,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/cvpr-product-blog-still-1920x1080-1.jpg"
     },
     {
+      "id": "microsoft-ai-blog-微软构建-2026-构建应用借助微软和微软",
+      "title": "微软构建 2026: 构建应用借助微软和微软",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-build-2026-building-agentic-apps-with-microsoft-fabric-and-microsoft-databases/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T16:59:00.000Z",
+      "summary": "微软构建 2026 高亮在应用借助微软和微软，数据和人工智能平台面向。微软构建 2026: 构建应用借助微软和微软首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/4009252-OneLake-Foundry-Integration-Demo"
+    },
+    {
       "id": "mit-tech-review-ai-企业人工智能",
       "title": "企业人工智能",
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
@@ -1598,15 +1651,33 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "thirty-six-kr-华泰证券-光模块设备市场迎增长加速拐点-看好产业链相关企业发展",
-      "title": "华泰证券：光模块设备市场迎增长加速拐点，看好产业链相关企业发展",
-      "url": "https://36kr.com/newsflashes/3839536989210889?f=rss",
+      "id": "ithome-七彩虹灵创相关型号游戏本发售-锐龙人工智能旗舰版-395-配相关型号核显-23999-元起",
+      "title": "七彩虹灵创相关型号游戏本发售：锐龙人工智能旗舰版+ 395 配相关型号核显，23999 元起",
+      "url": "https://www.ithome.com/0/960/210.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T00:53:20.000Z",
+      "summary": "科技之家 6 月 5 日消息，七彩虹旗下灵创相关型号游戏本将于今天 10 点首销，该机可选锐龙人工智能旗舰版+ 395 处理器，定价 23999 元，科技之家整理价格如下：64 吉字节 + 1 太字节：23999 元，国补后 22499 元 128 吉字节 + 2 太字节：27999 元，国补后 26499 元京东七彩虹灵创相关型号笔记本券后 23999 元起领 1000 元……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-算力租赁市场热度提升-上市公司抢抓机遇",
+      "title": "算力租赁市场热度提升，上市公司抢抓机遇",
+      "url": "https://36kr.com/newsflashes/3839553373751554?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T00:19:00.000Z",
-      "summary": "36氪获悉，华泰证券研报表示，光模块需求持续高景气，技术进步有望推动设备市场增长加速。人工智能算力需求持续增长驱动高速光模块加速放量，同时相关型号/相关型号高速率升级及等技术迭代推动光模块封装复杂度与性能要求持续提升，带动上游设备行业进入“量增+价升”共振阶段。光模块设备市场迎增长加速拐点，看好产业链相关企业发展。",
+      "publishedAt": "2026-06-05T00:35:40.000Z",
+      "summary": "进入6月份，算力租赁行业从零散签约迈入批量落地的景气兑现窗口期。“纵观二季度，算力相关上市公司密集落地大额中长期合约，长协订单规模化落地。”深圳市湾众咨询管理有限公司首席经济学家邱思甥表示，受益于人工智能落地、产业升级、政策扶持，行业竞争从囤货赚差价，转变为比拼技术、运维与整体解决方案。（证券日报）",
       "topics": [
         "算力芯片"
       ],
@@ -1614,37 +1685,19 @@
       "image": ""
     },
     {
-      "id": "ithome-中国信通院-三大运营商-词元产品-服务上架中国算力平台",
-      "title": "中国信通院：三大运营商“词元产品”服务上架中国算力平台",
-      "url": "https://www.ithome.com/0/960/199.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T23:52:02.000Z",
-      "summary": "科技之家 6 月 5 日消息，6 月 3 日，中国信通院宣布中国电信、中国移动、中国联通的“词元产品”服务已正式登陆中国算力平台。据介绍，词元（词元）是大模型处理信息的最小信息单元，具有智能时代可计量、可定价、可交易的特征。当下，围绕词元的调用、分发与结算，一套新的价值体系正在加速演进形成，并成为人工智能产业商业化的重要路径。为满足用户日益增长的算力使用需求、大幅降低人工智能……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx2nlt/cloudflare_warns_bot_and_agentic_traffic_has/",
+      "id": "reddit-artificial-人工智能技能访问向人工智能",
+      "title": "人工智能技能访问向人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tx2nun/what_ai_skill_will_still_matter_when_everyone_has/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T22:27:11.000Z",
-      "summary": "人工智能人工智能，顺利，在。由",
+      "publishedAt": "2026-06-04T22:27:26.000Z",
+      "summary": "使用人工智能工具，技能实际独立。信息技术？和？向？工作流？人工智能更快，信息技术。指南，和人工智能顺利成为向生成。技能认为最在？由",
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1660,7 +1713,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1677,7 +1730,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1727,7 +1780,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1759,7 +1812,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1775,7 +1828,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1879,7 +1932,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1898,6 +1951,22 @@
       ],
       "heat": 65,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-2.jpg"
+    },
+    {
+      "id": "microsoft-ai-blog-新-200-交付-50-性能-面向人工智能",
+      "title": "新 200 交付 50% 性能，面向人工智能",
+      "url": "https://azure.microsoft.com/en-us/blog/new-azure-cobalt-200-vms-deliver-50-performance-improvement-fully-optimized-for-modern-agentic-ai-workloads/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T16:30:09.000Z",
+      "summary": "我们宣布访问预览面向 200，面向人工智能。新 200 交付 50% 性能，面向人工智能首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
     },
     {
       "id": "google-ai-blog-9-演示双子座全能模型和双子座模型-3-5-实战",
@@ -1933,37 +2002,35 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-中信建投-金刚石散热持续迭代-金刚石热沉片-金刚石铜复合材料商业化落地最快",
-      "title": "中信建投：金刚石散热持续迭代，金刚石热沉片、金刚石铜复合材料商业化落地最快",
-      "url": "https://36kr.com/newsflashes/3839528917879040?f=rss",
+      "id": "thirty-six-kr-中信证券-科创板-1-6-改革成效显著-生态形成良性闭环",
+      "title": "中信证券：科创板“1+6”改革成效显著，生态形成良性闭环",
+      "url": "https://36kr.com/newsflashes/3839550250682629?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T00:10:47.000Z",
-      "summary": "36氪获悉，中信建投研报认为，算力产业持续扩容带动芯片集成度与功率密度大幅提升，高热流密度下传统铜基散热材料已达瓶颈。金刚石热导率远超铜、银、硅、碳化硅等材料，是突破高端芯片散热瓶颈的关键方向。目前金刚石散热材料包括金刚石基复合材料、单晶金刚石、多晶金刚石三大路线，技术路线尚未完全定型，其中金刚石铜复合材料兼顾性能与成本，产业化节奏领先。应用上包含金刚石衬底、金刚石热沉片、金……",
+      "publishedAt": "2026-06-05T00:32:29.000Z",
+      "summary": "36氪获悉，中信证券研报认为，回顾“1+6”改革一周年，投融资生态已形成良性闭环，在融资、并购、企业生态等多维度助力相关企业的高效发展。当前节点来看，改革已跨过制度宣示阶段，进入生态验证阶段，后续值得关注的是盈利转化能力及业绩兑现能力等中长期趋势，进行线路的验证及反哺。分赛道来看，细分赛道的政策传导已经呈现出清晰梯度，生物医药率先完成验证，人工智能正在加速接棒，良好的发展态势……",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "ithome-微软演示人工智能定制相关型号-一句话整机联动-调整壁纸-主题色-键盘灯效等",
-      "title": "微软演示人工智能定制相关型号：一句话整机联动，调整壁纸、主题色、键盘灯效等",
-      "url": "https://www.ithome.com/0/960/198.htm",
+      "id": "ithome-曝谷歌云服务部门再掀裁员潮-安全团队也未能幸免",
+      "title": "曝谷歌云服务部门再掀裁员潮，安全团队也未能幸免",
+      "url": "https://www.ithome.com/0/960/204.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T23:50:35.000Z",
-      "summary": "科技之家 6 月 5 日消息，科技媒体视窗系统今天（6 月 5 日）发布博文，报道称在 2026 年开发者大会期间，微软展示视窗系统 11 个性化新方面，让人工智能智能体基于用户自然语言描述，定制整套系统。微软强调未来视窗系统 11 的开发重心，不再以“外挂”形式，在系统中集成更多人工智能智能体，改为针对工作流融合到系统层面。开发者可以利用这些现成的视窗系统接口（应用程序编程……",
+      "publishedAt": "2026-06-05T00:23:26.000Z",
+      "summary": "科技之家 6 月 5 日消息，据《商业内幕》今日援引知情人士消息，谷歌已在过去两周内，对其云服务部门（谷歌云服务）进行新一轮裁员。两名知情人士透露，本次裁员波及多个团队，其中包括威胁情报小组。该团队长期负责追踪全球黑客活动、分析网络攻击事件。消息人士称该团队已于周四遭遇裁员，目前已有部分员工在领英平台公开讨论被裁经历。科技之家在此援引《商业内幕》，本次裁员的影响范围还包括等部……",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1979,7 +2046,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2013,7 +2080,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2048,7 +2115,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2166,7 +2233,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2254,52 +2321,39 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "thirty-six-kr-核心驱动力并未动摇-五大券商把脉股下半年机遇",
-      "title": "核心驱动力并未动摇，五大券商把脉股下半年机遇",
-      "url": "https://36kr.com/newsflashes/3839508667631875?f=rss",
+      "id": "thirty-six-kr-国家队下场做人工智能虚拟细胞-百曜科技-完成数千万元新一轮融资-36氪首发",
+      "title": "国家队下场做人工智能虚拟细胞，「百曜科技」完成数千万元新一轮融资｜36氪首发",
+      "url": "https://36kr.com/p/3835460873385348?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T23:50:11.000Z",
-      "summary": "进入年中时点，各大券商机构对于股下半年行情走势的研判陆续出炉，相关内容成为投资者提前布局、捕捉市场机遇的重要参考。就在近期，国泰海通、中信证券、中金公司、华泰证券、中信建投等多家头部券商陆续发布2026年股中期策略报告，受到市场各方重视。在前述券商看来，当前推动本轮市场上行、中国资产重估的核心驱动力并未发生根本性动摇，市场整体估值合理，但部分高估值板块需警惕出现波动风险；对于……",
+      "publishedAt": "2026-06-05T00:30:00.000Z",
+      "summary": "文｜胡香赟编辑｜海若镜 36氪获悉，人工智能虚拟细胞（）平台公司「百曜科技」近期已完成数千万元新一轮融资。本轮融资由国家级国有资本运营平台中国国新旗下的国新创投基金领投，道彤资本和云启资本跟投，老股东峰瑞资本和百度风投追加投资。募集资金将主要用于全新一代虚拟细胞算法模型迭代、独家数据收集平台建设以及加速产业化落地。百曜科技是36氪持续追踪报道的企业（ 附链接 ），公司创始团队……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "ithome-戴尔专业版-3-16-笔记本发布-至高-64-吉字节内存-锐龙人工智能-7-专业版-450-处理器",
-      "title": "戴尔专业版 3 16 笔记本发布：至高 64 吉字节内存、锐龙人工智能 7 专业版 450 处理器",
-      "url": "https://www.ithome.com/0/960/196.htm",
+      "id": "ithome-浏览器选择联盟致信纳德拉-已忍无可忍-微软别在相关型号-相关型号强推了",
+      "title": "浏览器选择联盟致信纳德拉：已忍无可忍，微软别在相关型号/相关型号强推了",
+      "url": "https://www.ithome.com/0/960/203.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T23:39:51.000Z",
-      "summary": "科技之家 6 月 5 日消息，戴尔专业版 3 16（相关型号）笔记本现已在海外市场发布，新机全系标配锐龙人工智能专业版 400 系列处理器、16 英寸屏幕，面向商务用户打造。据介绍，这款笔记本可选 5 架构的锐龙人工智能 5 专业版 435、人工智能 7 450 或人工智能 7 专业版 450 处理器。内存则是可选 16 吉字节/32 吉字节/64 吉字节，均为相关型号速率。……",
+      "publishedAt": "2026-06-05T00:21:13.000Z",
+      "summary": "科技之家 6 月 5 日消息，科技媒体今天（6 月 5 日）发布博文，报道称浏览器选择联盟公开致信微软首席执行官萨提亚 · 纳德拉（ ），要求微软停止在视窗系统 10、视窗系统 11 内强推浏览器，并简化默认浏览器切换流程。科技之家附上相关截图如下：浏览器选择联盟在公开信中，对微软推广浏览器的手段“忍无可忍”，指出视窗系统 10、视窗系统 11 平台上存在多种引导用户回流的做……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-由-2035-人工智能创建新",
-      "title": "由 2035: 人工智能创建新？",
-      "url": "https://www.reddit.com/r/artificial/comments/1twz2pk/whats_more_likely_by_2035_ai_creates_new_careers/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T20:11:03.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 82,
-      "image": "https://external-preview.redd.it/NnQwN2diamVwYjVoMWBUWFir2sSGrJ9NTYC6HBLVgI_TAPgukvbjomvyyCMy.png?width=640&crop=smart&auto=webp&s=dac7b3b93a353db39586c10997b3b96de99868d0"
     },
     {
       "id": "techcrunch-ai-元宇宙平台公司新人工智能助手在",
@@ -2332,7 +2386,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2382,7 +2436,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2398,7 +2452,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2433,7 +2487,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2538,37 +2592,35 @@
       "image": "https://media.wired.com/photos/6a1db04538f4e0fcb2641f17/master/pass/Anthropic-Goes-Public-Business-2274306161.jpg"
     },
     {
-      "id": "thirty-six-kr-8点1氪丨分析师曝苹果视觉专业版产品线被移除-黄仁勋将首次亮相综艺节目-粉笔首席执行官就骂人大学生-活该找不到工作-道歉",
-      "title": "8点1氪丨分析师曝苹果视觉专业版产品线被移除；黄仁勋将首次亮相综艺节目；粉笔首席执行官就骂人大学生“活该找不到工作”道歉",
-      "url": "https://36kr.com/p/3839505332161026?f=rss",
+      "id": "thirty-six-kr-华泰证券-光模块设备市场迎增长加速拐点-看好产业链相关企业发展",
+      "title": "华泰证券：光模块设备市场迎增长加速拐点，看好产业链相关企业发展",
+      "url": "https://36kr.com/newsflashes/3839536989210889?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T23:46:55.000Z",
-      "summary": "今日热点导览微信正与手机厂商合作推出智能体--智能体助手能力擅用“”相近标识商业推广，泡泡玛特告奈雪的茶获赔32万腾讯客服回应与华为、小米等合作神农旅游集团就国道收费进行道歉苹果智能眼镜推迟至2029年，无显示屏人工智能眼镜仍将于2027年推出 3 大新闻分析师曝苹果视觉专业版产品线被移除，2027年推人工智能眼镜知名苹果分析师郭明錤发布最新供应链调查称，苹果已正式从其头显与……",
+      "publishedAt": "2026-06-05T00:19:00.000Z",
+      "summary": "36氪获悉，华泰证券研报表示，光模块需求持续高景气，技术进步有望推动设备市场增长加速。人工智能算力需求持续增长驱动高速光模块加速放量，同时相关型号/相关型号高速率升级及等技术迭代推动光模块封装复杂度与性能要求持续提升，带动上游设备行业进入“量增+价升”共振阶段。光模块设备市场迎增长加速拐点，看好产业链相关企业发展。",
       "topics": [
-        "模型发布",
-        "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "ithome-苹果批准首个人工智能智能体-可回邮件也能设提醒",
-      "title": "苹果批准首个人工智能智能体，可回邮件也能设提醒",
-      "url": "https://www.ithome.com/0/960/194.htm",
+      "id": "ithome-相关型号争议后遗症-微软最强人工智能笔记本淡化智能副驾-电脑标签宣传",
+      "title": "相关型号争议后遗症：微软最强人工智能笔记本淡化智能副驾+ 电脑标签宣传",
+      "url": "https://www.ithome.com/0/960/201.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-04T23:31:55.000Z",
-      "summary": "科技之家 6 月 5 日消息，科技媒体昨日（6 月 4 日）发布博文，报道称苹果批准成为首个接入苹果 （苹果商务消息）平台的第三方人工智能智能体。苹果原本服务企业客服沟通的通道，苹果调整后开始承载更主动的人工智能助手能力，让从通信工具向任务入口扩展。科技之家援引博文介绍，由加州初创公司打造，已在 2026 年 3 月公开发布。按照官方演示，用户可直接在苹果应用里让回复邮件、协……",
+      "publishedAt": "2026-06-05T00:02:54.000Z",
+      "summary": "科技之家 6 月 5 日消息，科技媒体视窗系统今天（6 月 5 日）发布博文，报道称微软发布搭载的笔记本时，刻意淡化了智能副驾+ 电脑（也称视窗系统 11 人工智能+ 电脑）标签。科技之家注：微软于 2024 年推出智能副驾+ 电脑，要求设备集成神经处理单元（），最低 16 吉字节内存和 256 吉字节，人工智能算力超过 40 万亿次运算。首批产品以高通骁龙和处理器为核心，卖……",
       "topics": [
         "产品应用",
-        "多模态",
-        "开源生态"
+        "算力芯片",
+        "监管安全"
       ],
       "heat": 96,
       "image": ""
@@ -2637,7 +2689,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2709,7 +2761,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2794,59 +2846,6 @@
         "模型发布"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "ithome-信息技术早报-0605-马斯克有望成为首个万亿美元富豪-苹果输入法你上过学没有-登上热搜-央视揭秘乘用车为何越造越重-微软重押相",
-      "title": "信息技术早报 0605：马斯克有望成为首个万亿美元富豪；“苹果输入法你上过学没有”登上热搜；央视揭秘乘用车为何越造越重；微软重押相关型号原生应用。",
-      "url": "https://www.ithome.com/0/960/193.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T23:30:36.000Z",
-      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 6 月 5 日星期五，今天的重要科技资讯有：1、下周即将首次公开募股，马斯克有望成为首个万亿美元富豪即将于下周上市，若按 1.77 万亿美元估值，马斯克所持股权价值将达 8665 亿美元。加上特斯拉等资产，其个人净资产有望突破万亿美元大关，成为人类历史上首位万亿富豪。>> 查看详情 2、“苹果输入法你上过学没有”登上热搜，网……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-向设置机器人在-机器人",
-      "title": "向设置机器人在？机器人。",
-      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T15:05:00.000Z",
-      "summary": "创业公司发布机器人。",
-      "topics": [
-        "投融资",
-        "机器人"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-00后创业者站上位-36氪离线聚会第二期",
-      "title": "00后创业者站上位，「 」｜36氪离线聚会第二期",
-      "url": "https://36kr.com/p/3838702884604421?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T10:12:58.000Z",
-      "summary": "“妨碍真理发现过程的，不是谎言，而是极其精辟的错误见解。”德国物理学家兼讽刺作家利希滕贝格在面对启蒙运动中的种种愚昧时，戏谑式地写下了这一句名言。许多误判之所以危险，恰恰因为它们看上去过于正确。它们能在一个短周期里解释世界，也容易在世界已经变化之后，继续以“共识”的面貌停留在原地。人工智能也曾经历类似的混沌阶段。过去两年，人们习惯用一些简单指标理解这场变化：谁拥有更多图形处理……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 94,
       "image": ""
     }
   ]
