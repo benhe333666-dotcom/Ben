@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-06T23:23:37.646Z",
+  "generatedAt": "2026-06-06T23:52:25.461Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-06T23:30:00.000Z",
+  "nextUpdateHint": "2026-06-07T00:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
-    "sourcesSucceeded": 26,
-    "sourcesFailed": 0,
+    "sourcesSucceeded": 25,
+    "sourcesFailed": 1,
     "windowHours": 168,
     "latestPublishedAt": "2026-06-06T23:22:54.000Z"
   },
@@ -19,7 +19,7 @@
     {
       "name": "模型发布",
       "count": 43,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "监管安全",
@@ -29,7 +29,7 @@
     {
       "name": "算力芯片",
       "count": 25,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "研究论文",
@@ -39,17 +39,17 @@
     {
       "name": "人工智能动态",
       "count": 21,
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "投融资",
       "count": 13,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "多模态",
       "count": 11,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "端侧智能",
@@ -64,7 +64,7 @@
     {
       "name": "机器人",
       "count": 4,
-      "heat": 76
+      "heat": 75
     }
   ],
   "sources": [
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-06T19:02:33.000Z",
       "latestDisplayedAt": "2026-06-06T19:02:33.000Z"
@@ -219,13 +219,13 @@
       "type": "media",
       "language": "zh",
       "originLanguage": "en",
-      "ok": true,
-      "liveOk": true,
+      "ok": false,
+      "liveOk": false,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 0,
       "displayedCount": 0,
-      "latestFetchedAt": "2026-05-28T21:29:43.000Z",
+      "latestFetchedAt": "",
       "latestDisplayedAt": ""
     },
     {
@@ -485,7 +485,9 @@
       "latestDisplayedAt": "2026-06-06T11:13:30.000Z"
     }
   ],
-  "failures": [],
+  "failures": [
+    "ars-technica-ai: HTTP 403"
+  ],
   "items": [
     {
       "id": "ithome-信息技术早报-0607-字节跳动否认造车传闻-比亚迪腾势超跑-黑武士-实车曝光-减少礼貌用语可让人工智能能耗降低-25-曝苹果苹",
@@ -519,7 +521,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": "https://preview.redd.it/c4dgxw22lq5h1.png?width=140&height=78&auto=webp&s=d3725af21762df7a9955061aa68980c9230a4e49"
     },
     {
@@ -568,7 +570,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -636,7 +638,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -652,7 +654,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -668,7 +670,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -684,7 +686,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -734,7 +736,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://media.wired.com/photos/6a1db6a207caca13402b54cb/master/pass/Wired%20Greenwashing%20FINAL.jpg"
     },
     {
@@ -750,7 +752,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
     },
     {
@@ -768,7 +770,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -786,7 +788,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgenticRAG_Cover.png"
     },
     {
@@ -941,7 +943,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://external-preview.redd.it/jnK9dtt9ySIXEMs4AsuhLmIWq1m9mrdw8Js3RASg01c.png?width=640&crop=smart&auto=webp&s=b03386c25c729ccf678e177aa6b229f3916d2d2b"
     },
     {
@@ -957,7 +959,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -989,7 +991,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1006,7 +1008,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1022,7 +1024,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1038,7 +1040,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1071,7 +1073,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1105,7 +1107,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1410,7 +1412,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1476,7 +1478,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1510,7 +1512,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -1729,7 +1731,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1798,7 +1800,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1831,7 +1833,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2033,7 +2035,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2050,7 +2052,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2084,7 +2086,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2100,7 +2102,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2118,7 +2120,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2135,7 +2137,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2169,7 +2171,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2338,7 +2340,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2372,7 +2374,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2543,7 +2545,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2559,7 +2561,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2593,7 +2595,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2611,7 +2613,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2745,7 +2747,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2763,7 +2765,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2797,7 +2799,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
