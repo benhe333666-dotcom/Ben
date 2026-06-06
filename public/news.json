@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-06-06T17:24:34.839Z",
+  "generatedAt": "2026-06-06T17:54:06.195Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-06T17:30:00.000Z",
+  "nextUpdateHint": "2026-06-06T18:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-06T17:13:17.000Z"
+    "latestPublishedAt": "2026-06-06T17:42:15.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 70,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "模型发布",
       "count": 44,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "监管安全",
-      "count": 30,
-      "heat": 76
-    },
-    {
-      "name": "算力芯片",
-      "count": 24,
-      "heat": 78
+      "count": 29,
+      "heat": 77
     },
     {
       "name": "研究论文",
-      "count": 25,
-      "heat": 74
+      "count": 26,
+      "heat": 73
+    },
+    {
+      "name": "算力芯片",
+      "count": 23,
+      "heat": 78
     },
     {
       "name": "人工智能动态",
@@ -49,7 +49,7 @@
     {
       "name": "投融资",
       "count": 14,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "多模态",
@@ -64,7 +64,7 @@
     {
       "name": "机器人",
       "count": 4,
-      "heat": 80
+      "heat": 79
     }
   ],
   "sources": [
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-06T16:17:21.000Z",
-      "latestDisplayedAt": "2026-06-06T16:17:21.000Z"
+      "latestFetchedAt": "2026-06-06T17:42:15.000Z",
+      "latestDisplayedAt": "2026-06-06T17:42:15.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -380,11 +380,11 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "This operation was aborted",
-      "itemCount": 2,
-      "displayedCount": 2,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
+      "displayedCount": 4,
       "latestFetchedAt": "2026-06-04T17:59:55.000Z",
       "latestDisplayedAt": "2026-06-04T17:59:55.000Z"
     },
@@ -432,7 +432,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 13,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-06T08:50:27.000Z",
       "latestDisplayedAt": "2026-06-06T08:50:27.000Z"
     },
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-06T11:49:12.000Z",
       "latestDisplayedAt": "2026-06-06T11:49:12.000Z"
     },
@@ -487,6 +487,22 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "techcrunch-ai-作为人工智能",
+      "title": "作为人工智能",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-06T17:42:15.000Z",
+      "summary": "据报道新向人工智能政策。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 91,
+      "image": ""
+    },
     {
       "id": "reddit-artificial-使用模型-认为人工智能-部件值得向",
       "title": "使用模型，认为人工智能，部件值得向",
@@ -517,23 +533,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-可能在开放人工智能公司",
-      "title": "可能在开放人工智能公司",
-      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-06T16:17:21.000Z",
-      "summary": "帮助来自人工智能。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 98,
+      "heat": 88,
       "image": ""
     },
     {
@@ -566,7 +566,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -650,7 +650,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -666,7 +666,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -682,7 +682,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -732,7 +732,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://media.wired.com/photos/6a1db6a207caca13402b54cb/master/pass/Wired%20Greenwashing%20FINAL.jpg"
     },
     {
@@ -748,7 +748,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
     },
     {
@@ -784,7 +784,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgenticRAG_Cover.png"
     },
     {
@@ -927,6 +927,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-可能在开放人工智能公司",
+      "title": "可能在开放人工智能公司",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-06T16:17:21.000Z",
+      "summary": "帮助来自人工智能。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "ithome-马斯克将出席阿斯麦闭门技术研讨会-讨论项目",
       "title": "马斯克将出席阿斯麦闭门技术研讨会，讨论项目",
       "url": "https://www.ithome.com/0/960/988.htm",
@@ -973,7 +989,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -990,7 +1006,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1006,7 +1022,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1022,7 +1038,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1055,7 +1071,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1076,24 +1092,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T20:00:00.000Z",
-      "summary": "面向创业公司 200 在 8，11:59。保障安全在在舞台在科技创投媒体 2026 在。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-人工智能查看-构建",
       "title": "人工智能查看，构建",
       "url": "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
@@ -1107,7 +1105,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1142,7 +1140,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -1176,7 +1174,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1193,7 +1191,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://media.wired.com/photos/6a20a487d5b5f5af30a6fa53/master/pass/Uncanny-Valley-AI-IPO-Race-Business-1189366547.jpg"
     },
     {
@@ -1215,19 +1213,19 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-智能体-强化学习方向研究",
-      "title": "论文新进展：智能体、强化学习方向研究",
-      "url": "https://arxiv.org/abs/2606.06480v1",
+      "id": "arxiv-cs-lg-论文新进展-模型评测-自然语言处理方向研究",
+      "title": "论文新进展：模型评测、自然语言处理方向研究",
+      "url": "https://arxiv.org/abs/2606.06481v1",
       "source": "论文预印本：机器学习",
       "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-06-04T17:58:01.000Z",
-      "summary": "这篇论文关注智能体、强化学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-06-04T17:58:05.000Z",
+      "summary": "这篇论文关注模型评测、自然语言处理，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "产品应用",
-        "监管安全",
-        "研究论文"
+        "研究论文",
+        "投融资"
       ],
       "heat": 60,
       "image": ""
@@ -1328,7 +1326,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1345,7 +1343,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1412,7 +1410,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1432,20 +1430,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-最创业公司正确向",
-      "title": "最创业公司正确向",
-      "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T17:17:06.000Z",
-      "summary": "人工智能，构建在。只是资金面向，创业公司在带来在，和。用户向。人工智能，只是，…",
+      "publishedAt": "2026-06-05T20:00:00.000Z",
+      "summary": "面向创业公司 200 在 8，11:59。保障安全在在舞台在科技创投媒体 2026 在。",
       "topics": [
-        "投融资",
-        "端侧智能"
+        "产品应用",
+        "监管安全",
+        "投融资"
       ],
-      "heat": 76,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1479,7 +1478,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1513,7 +1512,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1549,6 +1548,24 @@
         "研究论文"
       ],
       "heat": 61,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-智能体-强化学习方向研究",
+      "title": "论文新进展：智能体、强化学习方向研究",
+      "url": "https://arxiv.org/abs/2606.06480v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-06-04T17:58:01.000Z",
+      "summary": "这篇论文关注智能体、强化学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 60,
       "image": ""
     },
     {
@@ -1696,7 +1713,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1799,23 +1816,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-词元法案-内部向人工智能成本",
-      "title": "词元法案 : 内部向人工智能成本",
-      "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+      "id": "techcrunch-ai-最创业公司正确向",
+      "title": "最创业公司正确向",
+      "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:49:12.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-05T17:17:06.000Z",
+      "summary": "人工智能，构建在。只是资金面向，创业公司在带来在，和。用户向。人工智能，只是，…",
       "topics": [
-        "人工智能动态"
+        "投融资",
+        "端侧智能"
       ],
-      "heat": 68,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1882,7 +1900,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1900,6 +1918,23 @@
         "开源生态"
       ],
       "heat": 58,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-大语言模型方向研究",
+      "title": "论文新进展：大语言模型方向研究",
+      "url": "https://arxiv.org/abs/2606.06479v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-06-04T17:57:33.000Z",
+      "summary": "这篇论文关注大语言模型，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 55,
       "image": ""
     },
     {
@@ -2083,11 +2118,11 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-06T05:08:52.000Z",
-      "summary": "6月6日，字节跳动官微发布声明，我们注意到，近期有部分报道将“赛豆”解读为“豆包汽车品牌”或“字节跳动造车”：1。相关说法不准确，字节跳动没有造车或推出汽车品牌的计划。2。赛豆不是字节跳动或豆包推出的汽车品牌，字节和赛豆没有股权合作。3。豆包、火山引擎与汽车行业伙伴的合作，主要是给行业伙伴提供豆包大模型、智能座舱等技术服务，帮助合作伙伴提升车载智能交互体验。（每日经济新闻）",
+      "summary": "6月6日，字节跳动官微发布声明，我们注意到，近期有部分报道将“赛豆”解读为“豆包汽车品牌”或“字节跳动造车”：1。相关说法不准确，字节跳动没有造车或推出汽车品牌的计划。2。赛豆不是字节跳动或豆包推出的汽车品牌，字节和赛豆没有股权合作。3。豆包、火山引擎与汽车行业伙���的合作，主要是给行业伙伴提供豆包大模型、智能座舱等技术服务，帮助合作伙伴提升车载智能交互体验。（每日经济新闻）",
       "topics": [
         "模型发布"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2120,21 +2155,21 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-可能最创业公司-2026",
-      "title": "可能最创业公司 2026",
-      "url": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
+      "id": "techcrunch-ai-词元法案-内部向人工智能成本",
+      "title": "词元法案 : 内部向人工智能成本",
+      "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T14:00:00.000Z",
-      "summary": "人工智能，构建在。只是资金面向，创业公司在带来在，和。用户向。人工智能，只是，…",
+      "publishedAt": "2026-06-05T14:49:12.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "投融资"
+        "人工智能动态"
       ],
       "heat": 68,
       "image": ""
@@ -2153,7 +2188,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2187,7 +2222,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2204,7 +2239,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -2356,7 +2391,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2378,17 +2413,17 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-30-十亿向构建相关型号人工智能数据中心在",
-      "title": "$30 十亿向构建相关型号人工智能数据中心在",
-      "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
+      "id": "techcrunch-ai-可能最创业公司-2026",
+      "title": "可能最创业公司 2026",
+      "url": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-05T13:03:10.000Z",
-      "summary": "数据中心向相关型号在。",
+      "publishedAt": "2026-06-05T14:00:00.000Z",
+      "summary": "人工智能，构建在。只是资金面向，创业公司在带来在，和。用户向。人工智能，只是，…",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
       "heat": 67,
       "image": ""
@@ -2407,7 +2442,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2563,7 +2598,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2579,7 +2614,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-30-十亿向构建相关型号人工智能数据中心在",
+      "title": "$30 十亿向构建相关型号人工智能数据中心在",
+      "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-05T13:03:10.000Z",
+      "summary": "数据中心向相关型号在。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 67,
       "image": ""
     },
     {
@@ -2596,7 +2647,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2614,7 +2665,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2630,7 +2681,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2648,23 +2699,6 @@
         "开源生态"
       ],
       "heat": 62,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-首次公开募股-人工智能安全公司关于人工智能回归",
-      "title": "首次公开募股，人工智能安全公司关于人工智能回归",
-      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T22:43:26.000Z",
-      "summary": "人工智能安全公司在。公司宣布 $47 十亿在，来自 $9 十亿在 2025。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 68,
       "image": ""
     },
     {
@@ -2765,7 +2799,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2801,7 +2835,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2818,41 +2852,6 @@
         "人工智能动态"
       ],
       "heat": 63,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-词元大战中-华为云选择了第三条路-最前线",
-      "title": "词元大战中，华为云选择了第三条路｜最前线",
-      "url": "https://36kr.com/p/3840016255126016?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T08:28:25.000Z",
-      "summary": "作者，邓咏仪编辑，张雨忻 “在当前国产化算力正在成长的情况下，华为云现在不太在乎词元总量是多少，也不太在乎收入的总量是多少，在乎的是国产化的算力系统所生产出来的词元的健康度，并且要代表着生产力提升，而不仅仅是情绪价值。” 6月5日，2026华为云创想者大会在上海开幕，华为云首席执行官周跃峰表示。他举了个例子：一个人闲来无事在手机上问人工智能一个问题，也会产生词元，但这种词元的……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "oschina-人工智能安全公司认为人工智能自我改进已达临界点-称内部代码自动化率突破-80",
-      "title": "人工智能安全公司认为人工智能自我改进已达临界点，称内部代码自动化率突破 80%",
-      "url": "https://www.oschina.net/news/452519",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-05T06:46:55.000Z",
-      "summary": "人工智能安全公司在其官方网站上发布了一篇关于\"递归自我改进\"的研究文章，描述了人工智能在编写和改进自身代码方面的进展。这篇文章的发布时间正值人工智能能力快速提升的关键节点，也是人工智能安全公司首次系统性地向公众阐述这一趋势的规模和速度。文章开篇明确了一个核心观点：人工智能能力的提升速度正在加快。在公开基准测试中，任务完成。",
-      "topics": [
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 70,
       "image": ""
     }
   ]
