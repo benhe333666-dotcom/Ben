@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-06T15:00:14.976Z",
+  "generatedAt": "2026-06-06T15:23:09.334Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-06-06T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
-    "sourcesSucceeded": 26,
-    "sourcesFailed": 0,
+    "sourcesSucceeded": 25,
+    "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-06T14:54:36.000Z"
+    "latestPublishedAt": "2026-06-06T15:20:28.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 70,
-      "heat": 76
+      "count": 73,
+      "heat": 77
     },
     {
       "name": "模型发布",
@@ -23,18 +23,18 @@
     },
     {
       "name": "监管安全",
-      "count": 33,
+      "count": 31,
       "heat": 78
     },
     {
-      "name": "算力芯片",
+      "name": "研究论文",
       "count": 26,
-      "heat": 80
+      "heat": 76
     },
     {
-      "name": "研究论文",
+      "name": "算力芯片",
       "count": 25,
-      "heat": 76
+      "heat": 79
     },
     {
       "name": "人工智能动态",
@@ -42,24 +42,24 @@
       "heat": 69
     },
     {
-      "name": "端侧智能",
-      "count": 14,
-      "heat": 76
-    },
-    {
       "name": "投融资",
       "count": 13,
       "heat": 76
     },
     {
+      "name": "端侧智能",
+      "count": 13,
+      "heat": 75
+    },
+    {
       "name": "多模态",
-      "count": 10,
+      "count": 11,
       "heat": 84
     },
     {
       "name": "开源生态",
       "count": 10,
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "机器人",
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-04T12:00:00.000Z",
       "latestDisplayedAt": "2026-06-04T12:00:00.000Z"
     },
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-04T18:57:45.000Z",
       "latestDisplayedAt": "2026-06-04T18:57:45.000Z"
@@ -219,13 +219,13 @@
       "type": "media",
       "language": "zh",
       "originLanguage": "en",
-      "ok": true,
-      "liveOk": true,
+      "ok": false,
+      "liveOk": false,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 0,
       "displayedCount": 0,
-      "latestFetchedAt": "2026-05-28T21:29:43.000Z",
+      "latestFetchedAt": "",
       "latestDisplayedAt": ""
     },
     {
@@ -239,8 +239,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
-      "displayedCount": 6,
+      "itemCount": 7,
+      "displayedCount": 5,
       "latestFetchedAt": "2026-06-06T14:00:00.000Z",
       "latestDisplayedAt": "2026-06-06T14:00:00.000Z"
     },
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-06T13:00:00.000Z",
-      "latestDisplayedAt": "2026-06-06T13:00:00.000Z"
+      "latestFetchedAt": "2026-06-06T15:00:00.000Z",
+      "latestDisplayedAt": "2026-06-06T15:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -319,7 +319,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 5,
+      "itemCount": 4,
       "displayedCount": 3,
       "latestFetchedAt": "2026-06-06T14:00:52.000Z",
       "latestDisplayedAt": "2026-06-06T14:00:52.000Z"
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-06T14:54:36.000Z",
-      "latestDisplayedAt": "2026-06-06T14:54:36.000Z"
+      "latestFetchedAt": "2026-06-06T15:20:28.000Z",
+      "latestDisplayedAt": "2026-06-06T15:20:28.000Z"
     },
     {
       "id": "oschina",
@@ -485,23 +485,41 @@
       "latestDisplayedAt": "2026-06-06T11:13:30.000Z"
     }
   ],
-  "failures": [],
+  "failures": [
+    "ars-technica-ai: HTTP 403"
+  ],
   "items": [
     {
-      "id": "ithome-无核显移动处理器-英特尔酷睿-7-相关型号与酷睿-5-相关型号获确认-隶属系列",
-      "title": "无核显移动处理器：英特尔酷睿 7 相关型号与酷睿 5 相关型号获确认，隶属系列",
-      "url": "https://www.ithome.com/0/960/982.htm",
+      "id": "ithome-消息称百度组织架构调整-数字人创新业务部升级独立部门-合并商业部与电商事业部",
+      "title": "消息称百度组织架构调整：数字人创新业务部升级独立部门，合并商业部与电商事业部",
+      "url": "https://www.ithome.com/0/960/985.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T14:54:36.000Z",
-      "summary": "科技之家 6 月 6 日消息，发现，英特尔官网已经为上个月曝光的两款酷睿相关型号系列处理器添加了产品页面，正式确认酷睿 7 相关型号和酷睿 5 相关型号的存在。这两款芯片上个月已随铭瑄新款主板而被曝光。虽然命名为酷睿 200 系列，但它们并非架构的产品，而是隶属于家族，于 2026 年第一季度发布。这两款新品最显著的变化在于核显。产品页面上均标注“集成显卡已禁用”，且页面中也……",
+      "publishedAt": "2026-06-06T15:20:28.000Z",
+      "summary": "科技之家 6 月 6 日消息，据新浪科技消息，百度 （科技之家注，移动生态事业群组，是百度的核心业务线）进行了新的一轮组织调整：合并商业部与电商事业部，成立大商业事业部，数字人创新业务部也升级为独立部门。科技之家获悉，在 5 月 13 日举办的 2026 百度人工智能开发者大会上，百度宣布旗下数字人品牌“慧播星”升级为“百度一镜”，并推出了“一镜海外版”。百度表示，“百度一镜……",
       "topics": [
-        "算力芯片",
+        "产品应用",
         "多模态"
       ],
       "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-06T15:00:00.000Z",
+      "summary": "构建来自，和 10，000 2026？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -573,22 +591,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-06T13:00:00.000Z",
-      "summary": "信息技术成本，信息技术和推理: 首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "oschina-第1代-5-0-发布-大语言模型自维护与多人记忆隔离",
       "title": "第1代.5.0 发布、大语言模型自维护与多人记忆隔离",
       "url": "https://www.oschina.net/news/453257",
@@ -618,7 +620,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -734,7 +736,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
     },
     {
@@ -770,7 +772,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgenticRAG_Cover.png"
     },
     {
@@ -912,6 +914,24 @@
       "image": ""
     },
     {
+      "id": "ithome-体育主播暂时不用担心失业了-研究称人工智能模型分析球赛-几乎靠猜",
+      "title": "体育主播暂时不用担心失业了：研究称人工智能模型分析球赛“几乎靠猜”",
+      "url": "https://www.ithome.com/0/960/983.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-06T15:03:58.000Z",
+      "summary": "科技之家 6 月 6 日消息，据外媒今天（6 日）晚间报道，北卡罗来纳大学教堂山分校和美国东北大学研究人员的一项新研究发现，主流人工智能模型在分析职业体育比赛时表现很差。这项研究目标是考察热门人工智能模型在感知、推理、模拟和自主行动能力四个方面的表现，现有测试方法很难准确评估这些能力。不过需要注意的是，其尚未经过同行评审。为测试人工智能在这些方面究竟能做到何种程度，研究人员把……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-帮助人工智能认为人工智能作为作为",
       "title": "帮助人工智能认为人工智能作为作为。",
       "url": "https://www.reddit.com/r/artificial/comments/1tyi9r2/help_me_understand_ai_a_bit_more_because_i_dont/",
@@ -930,23 +950,6 @@
       "image": ""
     },
     {
-      "id": "ithome-微软想让用户对自家智能体上瘾-首席执行官纳德拉否认",
-      "title": "微软想让用户对自家智能体上瘾？首席执行官纳德拉否认",
-      "url": "https://www.ithome.com/0/960/975.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-06T13:49:46.000Z",
-      "summary": "科技之家 6 月 6 日消息，微软在 2026 上与高通联合发布。主打“智能体优先计算”，系统内部运行智能体，并能动态加载、调整多个基于云端的人工智能智能体。微软首席执行官萨提亚 · 纳德拉表示：人工智能智能体已经不再只是普通人工智能助手。“真正的平台转变正在发生。我们正在从为应用构建操作系统和设备，转向为智能体构建操作系统和设备。” 微软此前已经披露，视窗系统 11 最终将……",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
       "title": "前沿科技媒体人工智能发布人工智能相关动态。",
       "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
@@ -959,7 +962,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -976,7 +979,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -992,7 +995,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1008,7 +1011,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1057,7 +1060,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1142,7 +1145,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1176,7 +1179,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": "https://media.wired.com/photos/6a20a487d5b5f5af30a6fa53/master/pass/Uncanny-Valley-AI-IPO-Race-Business-1189366547.jpg"
     },
     {
@@ -1313,21 +1316,20 @@
       "image": ""
     },
     {
-      "id": "ithome-联合国大学报告-精简人工智能指令中-谢谢-等礼貌用语-可让智能聊天助手能耗降低-25",
-      "title": "联合国大学报告：精简人工智能指令中“谢谢”等礼貌用语，可让智能聊天助手能耗降低 25%",
-      "url": "https://www.ithome.com/0/960/974.htm",
+      "id": "ithome-无核显移动处理器-英特尔酷睿-7-相关型号与酷睿-5-相关型号获确认-隶属系列",
+      "title": "无核显移动处理器：英特尔酷睿 7 相关型号与酷睿 5 相关型号获确认，隶属系列",
+      "url": "https://www.ithome.com/0/960/982.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T13:29:06.000Z",
-      "summary": "科技之家 6 月 6 日消息，据中国科学报昨日报道，联合国大学水、环境与健康研究所（）近日发布的一份报告显示，精简提示中的礼貌用语，可让智能聊天助手能耗降低 25%。报告测算，删掉指令中“请”“谢谢”等不必要的礼貌用语，每年可节约 87 至 98 吉瓦时的电能。这相当于撒哈拉以南非洲地区 76 万人全年的生活用电总量。科技之家注意到，研究人员建议，为了减少人工智能能耗与碳足迹……",
+      "publishedAt": "2026-06-06T14:54:36.000Z",
+      "summary": "科技之家 6 月 6 日消息，发现，英特尔官网已经为上个月曝光的两款酷睿相关型号系列处理器添加了产品页面，正式确认酷睿 7 相关型号和酷睿 5 相关型号的存在。这两款芯片上个月已随铭瑄新款主板而曝光。虽然命名为酷睿 200 系列，但它们并非架构的产品，而是隶属于家族，于 2026 年第一季度发布。这两款新品最显著的变化在于核显。科技之家注意到，英特尔产品页面上均标注“集成显卡……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1396,7 +1398,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1429,7 +1431,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1463,7 +1465,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1480,7 +1482,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1514,7 +1516,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1531,7 +1533,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1685,21 +1687,20 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-米哈游-绝区零-6-月-17-日正式支持英伟达帧生成与光线追踪技术-多帧生成功能后续推出",
-      "title": "米哈游《绝区零》6 月 17 日正式支持英伟达帧生成与光线追踪技术，多帧生成功能后续推出",
-      "url": "https://www.ithome.com/0/960/973.htm",
+      "id": "ithome-微软想让用户对自家智能体上瘾-首席执行官纳德拉否认",
+      "title": "微软想让用户对自家智能体上瘾？首席执行官纳德拉否认",
+      "url": "https://www.ithome.com/0/960/975.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T13:25:44.000Z",
-      "summary": "科技之家 6 月 6 日消息，在今晚的前瞻直播中，米哈游宣布《绝区零》3.0 版本将于 6 月 17 日上线，同步支持英伟达帧生成与光线追踪技术。另外，英伟达多帧生成功能将在后续版本中推出，敬请期待。米哈游还公布了一段《绝区零》 帧生成与光线追踪技术演示视频，演示平台采用了相关型号相关型号搭配英伟达 5070 在相关型号分辨率下录制。据官方介绍，《绝区零》3.0 版本「某个梦……",
+      "publishedAt": "2026-06-06T13:49:46.000Z",
+      "summary": "科技之家 6 月 6 日消息，微软在 2026 上与高通联合发布。主打“智能体优先计算”，系统内部运行智能体，并能动态加载、调整多个基于云端的人工智能智能体。微软首席执行官萨提亚 · 纳德拉表示：人工智能智能体已经不再只是普通人工智能助手。“真正的平台转变正在发生。我们正在从为应用构建操作系统和设备，转向为智能体构建操作系统和设备。” 微软此前已经披露，视窗系统 11 最终将……",
       "topics": [
-        "算力芯片",
-        "多模态",
-        "端侧智能"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1784,7 +1785,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1867,7 +1868,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2007,20 +2008,21 @@
       "image": ""
     },
     {
-      "id": "ithome-雷克沙澳新区域经理-价格到年底预计翻倍-商家促销是为了给高价新货腾空间",
-      "title": "雷克沙澳新区域经理：价格到年底预计翻倍，商家促销是为了给高价新货腾空间",
-      "url": "https://www.ithome.com/0/960/972.htm",
+      "id": "ithome-联合国大学报告-精简人工智能指令中-谢谢-等礼貌用语-可让智能聊天助手能耗降低-25",
+      "title": "联合国大学报告：精简人工智能指令中“谢谢”等礼貌用语，可让智能聊天助手能耗降低 25%",
+      "url": "https://www.ithome.com/0/960/974.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T13:23:17.000Z",
-      "summary": "科技之家 6 月 6 日消息，据外媒 ' 今天（6 日）晚间报道，雷克沙澳大利亚和新西兰区域经理克里斯 · 夏表示，价格预计会在今年年底前翻倍。近期部分模组价格看似企稳，也有零售商通过打折或与其他电脑零部件捆绑的方式促销，但在他看来，这更多是商家清理库存、为更贵新货腾出空间的手段。据科技之家了解，人工智能基础设施建设正在吞噬内存芯片供应。三星、海力士和美光三大传统供应商的产能……",
+      "publishedAt": "2026-06-06T13:29:06.000Z",
+      "summary": "科技之家 6 月 6 日消息，据中国科学报昨日报道，联合国大学水、环境与健康研究所（）近日发布的一份报告显示，精简提示中的礼貌用语，可让智能聊天助手能耗降低 25%。报告测算，删掉指令中“请”“谢谢”等不必要的礼貌用语，每年可节约 87 至 98 吉瓦时的电能。这相当于撒哈拉以南非洲地区 76 万人全年的生活用电总量。科技之家注意到，研究人员建议，为了减少人工智能能耗与碳足迹……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2072,7 +2074,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2104,7 +2106,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2121,7 +2123,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2172,7 +2174,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2258,19 +2260,19 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-2.jpg"
     },
     {
-      "id": "ithome-5-发布-升级全新引擎-原生支持大模型",
-      "title": "5 发布：升级全新引擎、原生支持大模型",
-      "url": "https://www.ithome.com/0/960/969.htm",
+      "id": "ithome-米哈游-绝区零-6-月-17-日正式支持英伟达帧生成与光线追踪技术-多帧生成功能后续推出",
+      "title": "米哈游《绝区零》6 月 17 日正式支持英伟达帧生成与光线追踪技术，多帧生成功能后续推出",
+      "url": "https://www.ithome.com/0/960/973.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T12:48:12.000Z",
-      "summary": "科技之家 6 月 6 日消息，团队本周正式发布了 5。据介绍，二十多年来，一直是计算机视觉研究、机器人技术、嵌入式视觉、人工智能应用、工业检测、/、医学成像以及无数生产系统的基础。如今，该库在代码托管平台上拥有超过 86，000 颗，每天的安装量超过一百万次，并且拥有世界上最庞大的计算机视觉算法集合之一。5 在此基础之上，对该库进行了重大的现代化改造。它带来了全新的引擎、更强……",
+      "publishedAt": "2026-06-06T13:25:44.000Z",
+      "summary": "科技之家 6 月 6 日消息，在今晚的前瞻直播中，米哈游宣布《绝区零》3.0 版本将于 6 月 17 日上线，同步支持英伟达帧生成与光线追踪技术。另外，英伟达多帧生成功能将在后续版本中推出，敬请期待。米哈游还公布了一段《绝区零》 帧生成与光线追踪技术演示视频，演示平台采用了相关型号相关型号搭配英伟达 5070 在相关型号分辨率下录制。据官方介绍，《绝区零》3.0 版本「某个梦……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "算力芯片",
+        "多模态",
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
@@ -2326,7 +2328,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2377,7 +2379,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2429,7 +2431,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2447,22 +2449,6 @@
         "开源生态"
       ],
       "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-人工智能呼吁面向人工智能",
-      "title": "人工智能呼吁面向人工智能",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-04T12:12:12.000Z",
-      "summary": "人工智能设置，面向 : 信息技术面向向使用向武器。在打开向立法者，向规则 …",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 50,
       "image": ""
     },
     {
@@ -2517,20 +2503,20 @@
       "image": ""
     },
     {
-      "id": "ithome-东风发布无人物流车品牌-载重最大-13-6-吨-预计-8-月交付",
-      "title": "东风发布无人物流车品牌：载重最大 13.6 吨，预计 8 月交付",
-      "url": "https://www.ithome.com/0/960/965.htm",
+      "id": "ithome-雷克沙澳新区域经理-价格到年底预计翻倍-商家促销是为了给高价新货腾空间",
+      "title": "雷克沙澳新区域经理：价格到年底预计翻倍，商家促销是为了给高价新货腾空间",
+      "url": "https://www.ithome.com/0/960/972.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T12:17:46.000Z",
-      "summary": "科技之家 6 月 6 日消息，东风汽车无人物流车品牌“东风 ”6 日（今天）正式发布，四款东风全场景无人物流车产品亮相。发布会现场，东风汽车综合物流、新能源运营、装备制造、城市服务及零售配送等多元领域的行业龙头企业签约，签约订单超过 4000 台，预计将于 8 月进行交付。根据介绍，东风具备“智慧大脑”“安全骨骼”和“数字神经”。东风汽车联手九识智能自研大模型智驾“九识智驾 ……",
+      "publishedAt": "2026-06-06T13:23:17.000Z",
+      "summary": "科技之家 6 月 6 日消息，据外媒 ' 今天（6 日）晚间报道，雷克沙澳大利亚和新西兰区域经理克里斯 · 夏表示，价格预计会在今年年底前翻倍。近期部分模组价格看似企稳，也有零售商通过打折或与其他电脑零部件捆绑的方式促销，但在他看来，这更多是商家清理库存、为更贵新货腾出空间的手段。据科技之家了解，人工智能基础设施建设正在吞噬内存芯片供应。三星、海力士和美光三大传统供应商的产能……",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "算力芯片",
+        "端侧智能"
       ],
-      "heat": 98,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2564,7 +2550,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2615,7 +2601,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2649,7 +2635,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2719,20 +2705,21 @@
       "image": ""
     },
     {
-      "id": "ithome-模组厂商谈长鑫相关型号内存-供应端有优势-但价格并不比三大原厂明显便宜",
-      "title": "模组厂商谈长鑫相关型号内存：供应端有优势，但价格并不比三大原厂明显便宜",
-      "url": "https://www.ithome.com/0/960/963.htm",
+      "id": "ithome-5-发布-升级全新引擎-原生支持大模型",
+      "title": "5 发布：升级全新引擎、原生支持大模型",
+      "url": "https://www.ithome.com/0/960/969.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T11:47:45.000Z",
-      "summary": "科技之家 6 月 6 日消息，随着市场持续受到涨价因素影响，有不少用户寄希望于长鑫存储，希望看到长鑫牺牲自我利益去拉低相关型号内存价格、缓解消费级内存市场压力。不过，在 2026 期间，多家内存模组厂商向透露，长鑫存储相关型号颗粒的采购价并不像外界预期那样低，实际与三星、海力士、美光同类产品不相上下，并不存在明显价格优势。他们指出，长鑫存储目前最大的竞争力并非来自低价，而是来……",
+      "publishedAt": "2026-06-06T12:48:12.000Z",
+      "summary": "科技之家 6 月 6 日消息，团队本周正式发布了 5。据介绍，二十多年来，一直是计算机视觉研究、机器人技术、嵌入式视觉、人工智能应用、工业检测、/、医学成像以及无数生产系统的基础。如今，该库在代码托管平台上拥有超过 86，000 颗，每天的安装量超过一百万次，并且拥有世界上最庞大的计算机视觉算法集合之一。5 在此基础之上，对该库进行了重大的现代化改造。它带来了全新的引擎、更强……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 90,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2749,7 +2736,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2785,7 +2772,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2852,7 +2839,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 57,
+      "heat": 56,
+      "image": ""
+    },
+    {
+      "id": "openai-news-人工智能-驱动借助开放人工智能公司",
+      "title": "人工智能，驱动借助开放人工智能公司",
+      "url": "https://openai.com/index/travelers",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "summary": "构建人工智能，驱动助手借助开放人工智能公司向指南客户，24，7 支持，和规模需求。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 63,
       "image": ""
     }
   ]
