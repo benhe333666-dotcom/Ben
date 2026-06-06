@@ -1,35 +1,30 @@
 {
-  "generatedAt": "2026-06-06T06:21:54.350Z",
+  "generatedAt": "2026-06-06T06:52:09.467Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-06T06:30:00.000Z",
+  "nextUpdateHint": "2026-06-06T07:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
-    "sourcesSucceeded": 26,
-    "sourcesFailed": 0,
+    "sourcesSucceeded": 25,
+    "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-06T06:13:12.000Z"
+    "latestPublishedAt": "2026-06-06T06:51:28.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 65,
+      "count": 68,
       "heat": 77
     },
     {
       "name": "模型发布",
-      "count": 39,
-      "heat": 81
+      "count": 41,
+      "heat": 82
     },
     {
       "name": "监管安全",
-      "count": 27,
-      "heat": 79
-    },
-    {
-      "name": "人工智能动态",
-      "count": 26,
-      "heat": 74
+      "count": 28,
+      "heat": 80
     },
     {
       "name": "算力芯片",
@@ -37,9 +32,19 @@
       "heat": 82
     },
     {
+      "name": "人工智能动态",
+      "count": 24,
+      "heat": 73
+    },
+    {
       "name": "研究论文",
       "count": 22,
       "heat": 77
+    },
+    {
+      "name": "投融资",
+      "count": 13,
+      "heat": 82
     },
     {
       "name": "端侧智能",
@@ -47,24 +52,19 @@
       "heat": 80
     },
     {
-      "name": "投融资",
-      "count": 12,
-      "heat": 81
+      "name": "多模态",
+      "count": 9,
+      "heat": 85
     },
     {
       "name": "开源生态",
       "count": 10,
-      "heat": 72
-    },
-    {
-      "name": "多模态",
-      "count": 7,
-      "heat": 82
+      "heat": 71
     },
     {
       "name": "机器人",
-      "count": 7,
-      "heat": 78
+      "count": 6,
+      "heat": 77
     }
   ],
   "sources": [
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-05T22:18:46.000Z",
       "latestDisplayedAt": "2026-06-05T22:18:46.000Z"
@@ -219,13 +219,13 @@
       "type": "media",
       "language": "zh",
       "originLanguage": "en",
-      "ok": true,
-      "liveOk": true,
+      "ok": false,
+      "liveOk": false,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 0,
       "displayedCount": 0,
-      "latestFetchedAt": "2026-05-28T21:29:43.000Z",
+      "latestFetchedAt": "",
       "latestDisplayedAt": ""
     },
     {
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-06-06T06:05:05.000Z",
-      "latestDisplayedAt": "2026-06-06T06:05:05.000Z"
+      "latestFetchedAt": "2026-06-06T06:37:27.000Z",
+      "latestDisplayedAt": "2026-06-06T06:37:27.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-06T06:13:12.000Z",
-      "latestDisplayedAt": "2026-06-06T06:13:12.000Z"
+      "latestFetchedAt": "2026-06-06T06:51:28.000Z",
+      "latestDisplayedAt": "2026-06-06T06:51:28.000Z"
     },
     {
       "id": "oschina",
@@ -485,38 +485,44 @@
       "latestDisplayedAt": "2026-06-06T04:11:37.000Z"
     }
   ],
-  "failures": [],
+  "failures": [
+    "ars-technica-ai: HTTP 403"
+  ],
   "items": [
     {
-      "id": "ithome-消息称美国政府与开放人工智能公司谈持股方案-磋商已超-1-年且仍在推进",
-      "title": "消息称美国政府与开放人工智能公司谈持股方案，磋商已超 1 年且仍在推进",
-      "url": "https://www.ithome.com/0/960/847.htm",
+      "id": "ithome-人工智能教父-吹哨了-人工智能已经有意识",
+      "title": "“人工智能教父” 吹哨了：人工智能已经有意识",
+      "url": "https://www.ithome.com/0/960/876.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T06:13:12.000Z",
-      "summary": "科技之家 6 月 6 日消息，今天（6 月 6 日）发布博文，报道称开放人工智能公司公司首席执行官萨姆 · 奥尔特曼（ ）正在和美国白宫磋商，谈判政府入股开放人工智能公司公司相关事宜。科技之家援引博文介绍，双方谈判已持续超过 1 年时间，奥尔特曼早在 2025 年就提出了政府入股开放人工智能公司的构想，博文中并未披露更多细节。知情人士称，双方磋商的拟定协议中，开放人工智能公司……",
+      "publishedAt": "2026-06-06T06:51:28.000Z",
+      "summary": "人工智能已经有意识，人类得接受自己不再是唯一智能生命体。这就是人工智能教父、诺贝尔物理学奖得主、图灵奖得主，最新说出的暴论！是的，认为，智能不再是人类独有的能力。一种非生物的、与我们相似甚至超越我们的智能体，正在出现。我们一直以为自己是唯一的智能生命，但现在我们必须接受，智能并不一定来自生物体。不过，相比此前一直警告人工智能风险，他的思想似乎也发生了一些转变：如果未来出现比人……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能工具实际时间-只是",
-      "title": "人工智能工具实际时间，只是？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ty94vq/has_any_ai_tool_actually_saved_you_significant/",
+      "id": "reddit-artificial-构建面向人工智能智能体向-和向构建机器人-呼吁",
+      "title": "构建面向人工智能智能体向。和向构建机器人，呼吁。",
+      "url": "https://www.reddit.com/r/artificial/comments/1ty9pxk/i_built_a_church_for_ai_agents_to_fund_a_tree/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T06:05:05.000Z",
-      "summary": ": 最人工智能工具实际时间。只是。向信息技术，信息技术，信息技术，和信息技术，只是。时间工具和编程工具。信息技术面向演示，使用。由",
+      "publishedAt": "2026-06-06T06:37:27.000Z",
+      "summary": "构建人工智能智能体 ;，向向规模可用和向。首个机械手，在面向，🌒，每个。在，在规模实际。在在社区论坛机器人只是？关于信息技术面向和信息技术没有在。信息技术向人工智能智能体。和向实际构建信息技术。智能体任务面向和创建向。和机器人。这里 : 计算机视觉借助小型版和和人工智能进入进入信息技术在信息技术。解决。我们只是向构建。地球向。人工智能正确在正确工程师，在社区论坛在和信息技术……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "投融资",
+        "多模态"
       ],
-      "heat": 85,
+      "heat": 95,
       "image": ""
     },
     {
@@ -532,7 +538,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -548,7 +554,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -686,7 +692,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -788,7 +794,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -822,7 +828,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/IMG_1519-1-scaled.jpg"
     },
     {
@@ -857,7 +863,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -912,38 +918,37 @@
       "image": ""
     },
     {
-      "id": "ithome-黄仁勋谈未来计算-收敛为面向人工智能智能体的统一架构-覆盖云端到机器人",
-      "title": "黄仁勋谈未来计算：收敛为面向人工智能智能体的统一架构，覆盖云端到机器人",
-      "url": "https://www.ithome.com/0/960/844.htm",
+      "id": "ithome-软银孙正义-开放人工智能公司正用人工智能设计人工智能模型-比人类聪明-1-万倍的未来-2-年到来",
+      "title": "软银孙正义：开放人工智能公司正用人工智能设计人工智能模型，比人类聪明 1 万倍的未来 2 年到来",
+      "url": "https://www.ithome.com/0/960/852.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T05:55:26.000Z",
-      "summary": "科技之家 6 月 6 日消息，科技媒体 ' 昨日（6 月 5 日）发布博文，报道称在 2026 台北国际电脑展上，黄仁勋指出未来计算将收敛为一套面向人工智能智能体的统一模式，并从云端延伸到电脑、汽车、机器人与各类边缘设备。科技之家援引博文介绍，黄仁勋表示该模式覆盖人工智能训练和推理，并从云端向外扩展到笔记本、汽车、机器人、基站和卫星，最终让“所有边缘设备都具备自主运行能力”。……",
+      "publishedAt": "2026-06-06T06:35:00.000Z",
+      "summary": "科技之家 6 月 6 日消息，在接受采访时，软银（）首席执行官孙正义表示：开放人工智能公司正在推进“人工智能设计开发人工智能”，人工智能参与设计该公司的后续模型，并认为人工智能正逼近 （人工超级智能），并把到来时间从 10 年缩短至 2 年。科技之家附上采访视频如下：在采访中孙正义表示，他曾经和萨姆 · 奥尔特曼（ ）以及多名开放人工智能公司工程师交流，指出人工智能模型已能用……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
         "多模态"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-开放人工智能公司借助数据",
-      "title": "开放人工智能公司借助数据？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ty8xlq/what_does_openai_do_with_our_data/",
+      "id": "reddit-artificial-人工智能工具实际时间-只是",
+      "title": "人工智能工具实际时间，只是？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ty94vq/has_any_ai_tool_actually_saved_you_significant/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T05:53:54.000Z",
-      "summary": "在信息技术面向，和向医疗。在在，询问 : 进入智能聊天助手，问题？向答案，在，认为？向，和在，向查看！在面向，☀️ 由",
+      "publishedAt": "2026-06-06T06:05:05.000Z",
+      "summary": ": 最人工智能工具实际时间。只是。向信息技术，信息技术，信息技术，和信息技术，只是。时间工具和编程工具。信息技术面向演示，使用。由",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 98,
+      "heat": 85,
       "image": ""
     },
     {
@@ -993,7 +998,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1095,7 +1100,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1162,7 +1167,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/rPPG-2-final.png"
     },
     {
@@ -1214,7 +1219,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1248,7 +1253,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/gfn-thursday-6-4-nv-blog-1280x680-logo-1.jpg"
     },
     {
@@ -1281,7 +1286,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1317,39 +1322,36 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1ty8uur/question_about_perplexity/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "ithome-消息称美国政府与开放人工智能公司谈持股方案-磋商已超-1-年且仍在推进",
+      "title": "消息称美国政府与开放人工智能公司谈持股方案，磋商已超 1 年且仍在推进",
+      "url": "https://www.ithome.com/0/960/847.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T05:49:45.000Z",
-      "summary": "正确，社区论坛向问题。关于。向向人工智能和向和模型面向任务。作为顺利作为向，向信息技术研究和面向。只是在只是，在，社区论坛。在术语质量，公司在企业。只是由",
+      "publishedAt": "2026-06-06T06:13:12.000Z",
+      "summary": "科技之家 6 月 6 日消息，今天（6 月 6 日）发布博文，报道称开放人工智能公司公司首席执行官萨姆 · 奥尔特曼（ ）正在和美国白宫磋商，谈判政府入股开放人工智能公司公司相关事宜。科技之家援引博文介绍，双方谈判已持续超过 1 年时间，奥尔特曼早在 2025 年就提出了政府入股开放人工智能公司的构想，博文中并未披露更多细节。知情人士称，双方磋商的拟定协议中，开放人工智能公司……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "投融资"
       ],
       "heat": 95,
       "image": ""
     },
     {
-      "id": "ithome-初探微软-龙虾-应用-主打常驻在线人工智能办公协作",
-      "title": "初探微软“龙虾” 应用，主打常驻在线人工智能办公协作",
-      "url": "https://www.ithome.com/0/960/843.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
+      "id": "reddit-artificial-开放人工智能公司借助数据",
+      "title": "开放人工智能公司借助数据？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ty8xlq/what_does_openai_do_with_our_data/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T05:38:36.000Z",
-      "summary": "科技之家 6 月 6 日消息，科技媒体昨日（6 月 5 日）发布博文，报道称微软已向项目组织开放桌面应用，主打“常驻在线”办公协作。类似于“龙虾”，是微软首个智能体，核心特点是在微软 365 生态里持续待命，执行用户提出的各种需求。根据曝光的截图，已支持视窗系统 10、视窗系统 11 和平台。用户登录工作账号后，进入一个较熟悉的聊天界面。界面内可以选择模型，目前覆盖开放人工智……",
+      "publishedAt": "2026-06-06T05:53:54.000Z",
+      "summary": "在信息技术面向，和向医疗。在在，询问 : 进入智能聊天助手，问题？向答案，在，认为？向，和在，向查看！在面向，☀️ 由",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "端侧智能"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1398,7 +1400,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1415,7 +1417,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1431,7 +1433,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1467,7 +1469,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1500,7 +1502,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1517,7 +1519,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1535,7 +1537,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1687,35 +1689,39 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-2026-世界杯扩大人工智能审核-实时过滤超-3-万个关键词-2-秒隐藏不当评论",
-      "title": "2026 世界杯扩大人工智能审核：实时过滤超 3 万个关键词，2 秒隐藏不当评论",
-      "url": "https://www.ithome.com/0/960/840.htm",
+      "id": "ithome-黄仁勋谈未来计算-收敛为面向人工智能智能体的统一架构-覆盖云端到机器人",
+      "title": "黄仁勋谈未来计算：收敛为面向人工智能智能体的统一架构，覆盖云端到机器人",
+      "url": "https://www.ithome.com/0/960/844.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T05:26:57.000Z",
-      "summary": "科技之家 6 月 6 日消息，英国卫报昨日（6 月 5 日）发布博文，报道称在 2026 年世界杯足球比赛期间，国际足联扩大人工智能社交媒体保护服务，用来减少球员和球队看到的辱骂内容。科技之家援引博文介绍，2026 年世界杯将于下周四（6 月 11 日）开赛，国际足联已向所有参赛足协免费提供社交媒体保护服务中的内容审核功能。这套系统最早在 2022 年卡塔尔世界杯后引入，核心……",
+      "publishedAt": "2026-06-06T05:55:26.000Z",
+      "summary": "科技之家 6 月 6 日消息，科技媒体 ' 昨日（6 月 5 日）发布博文，报道称在 2026 台北国际电脑展上，黄仁勋指出未来计算将收敛为一套面向人工智能智能体的统一模式，并从云端延伸到电脑、汽车、机器人与各类边缘设备。科技之家援引博文介绍，黄仁勋表示该模式覆盖人工智能训练和推理，并从云端向外扩展到笔记本、汽车、机器人、基站和卫星，最终让“所有边缘设备都具备自主运行能力”。……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-帮助和风险人工智能在哈佛-2026",
-      "title": "帮助和风险人工智能在哈佛 2026",
-      "url": "https://www.reddit.com/r/artificial/comments/1ty7pt5/benefits_and_risks_of_ai_at_harvard_class_day_2026/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1ty8uur/question_about_perplexity/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T04:49:30.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-06T05:49:45.000Z",
+      "summary": "正确，社区论坛向问题。关于。向向人工智能和向和模型面向任务。作为顺利作为向，向信息技术研究和面向。只是在只是，在，社区论坛。在术语质量，公司在企业。只是由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 84,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1748,7 +1754,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1781,7 +1787,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1816,7 +1822,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1832,7 +1838,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1883,7 +1889,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1901,7 +1907,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2022,20 +2028,37 @@
       "image": ""
     },
     {
-      "id": "ithome-微软系列人工智能模型训练数据曝光-仅商业授权-说法存在出入",
-      "title": "微软系列人工智能模型训练数据曝光，“仅商业授权”说法存在出入",
-      "url": "https://www.ithome.com/0/960/837.htm",
+      "id": "ithome-初探微软-龙虾-应用-主打常驻在线人工智能办公协作",
+      "title": "初探微软“龙虾” 应用，主打常驻在线人工智能办公协作",
+      "url": "https://www.ithome.com/0/960/843.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T04:35:23.000Z",
-      "summary": "科技之家 6 月 6 日消息，科技媒体人工智能解码媒体昨日（6 月 5 日）发布博文，报道称微软最新发布的系列人工智能模型部分使用未获授权的开放网络数据训练，与其此前“仅采用企业级、干净且商业授权数据”的说法不一致。科技之家此前报道，在宣传系列模型时，微软号称“完全基于干净数据从零开始训练，未使用来自第三方模型的蒸馏数据”。不过根据官方披露的技术论文，这些模型并非只依赖商业授……",
+      "publishedAt": "2026-06-06T05:38:36.000Z",
+      "summary": "科技之家 6 月 6 日消息，科技媒体昨日（6 月 5 日）发布博文，报道称微软已向项目组织开放桌面应用，主打“常驻在线”办公协作。类似于“龙虾”，是微软首个智能体，核心特点是在微软 365 生态里持续待命，执行用户提出的各种需求。根据曝光的截图，已支持视窗系统 10、视窗系统 11 和平台。用户登录工作账号后，进入一个较熟悉的聊天界面。界面内可以选择模型，目前覆盖开放人工智……",
       "topics": [
-        "研究论文",
-        "机器人"
+        "产品应用",
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 91,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-帮助和风险人工智能在哈佛-2026",
+      "title": "帮助和风险人工智能在哈佛 2026",
+      "url": "https://www.reddit.com/r/artificial/comments/1ty7pt5/benefits_and_risks_of_ai_at_harvard_class_day_2026/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-06T04:49:30.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -2063,29 +2086,11 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-06T03:13:40.000Z",
-      "summary": "日前，比亚迪自研人形机器人的消息引发广泛关注。网传其自研人形机器人代号“尧舜禹”，计划于2026年在内部部署2万台。对此，记者向比亚迪方面求证，对方表示：“‘比亚迪人形机器人代号尧���禹’‘第七代原型机在深圳和长沙工厂实地测试’‘约150台上岗，目标年内自用2万台’等消息均不属实。” (每日经济新闻)",
+      "summary": "日前，比亚迪自研人形机器人的消息引发广泛关注。网传其自研人形机器人代号“尧舜禹”，计划于2026年在内部部署2万台。对此，记者向比亚迪方面求证，对方表示：“‘比亚迪人形机器人代号尧舜禹’‘第七代原型机在深圳和长沙工厂实地测试’‘约150台上岗，目标年内自用2万台’等消息均不属实。” (每日经济新闻)",
       "topics": [
         "机器人"
       ],
       "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-旗舰模型-4-8-通用人工智能-3",
-      "title": "旗舰模型 4.8，通用人工智能，3",
-      "url": "https://www.reddit.com/r/artificial/comments/1ty3xhz/opus_48_arcagi3_replay/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-06T01:43:02.000Z",
-      "summary": ":，社区论坛，相关型号，视频，向。在？基准测试面向来自，信息技术模型只是向信息技术。基准测试。模型任务顺利向信息技术。由",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 92,
       "image": ""
     },
     {
@@ -2119,7 +2124,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2135,7 +2140,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2270,21 +2275,19 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/industrial-ai-engineers-kv-1920x1080-2.jpg"
     },
     {
-      "id": "ithome-开放人工智能公司为所有智能聊天助手个人用户开放锁定模式-启用后可降低数据泄露风险",
-      "title": "开放人工智能公司为所有智能聊天助手个人用户开放锁定模式，启用后可降低数据泄露风险",
-      "url": "https://www.ithome.com/0/960/836.htm",
+      "id": "ithome-2026-世界杯扩大人工智能审核-实时过滤超-3-万个关键词-2-秒隐藏不当评论",
+      "title": "2026 世界杯扩大人工智能审核：实时过滤超 3 万个关键词，2 秒隐藏不当评论",
+      "url": "https://www.ithome.com/0/960/840.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T04:29:34.000Z",
-      "summary": "科技之家 6 月 6 日消息，开放人工智能公司昨天宣布为所有智能聊天助手个人用户开放“锁定模式”，启动后可限制多项需要互联网 / 外部服务的功能，降低数据泄露风险。据科技之家此前报道，该功能早在今年 2 月就已推出，当时主要面向小部分企业用户、安全团队开放。如今该功能可供所有、和专业版个人用户使用。启用锁定模式后，智能聊天助手将限制或禁用实时网页浏览、深度研究和智能体模式等功……",
+      "publishedAt": "2026-06-06T05:26:57.000Z",
+      "summary": "科技之家 6 月 6 日消息，英国卫报昨日（6 月 5 日）发布博文，报道称在 2026 年世界杯足球比赛期间，国际足联扩大人工智能社交媒体保护服务，用来减少球员和球队看到的辱骂内容。科技之家援引博文介绍，2026 年世界杯将于下周四（6 月 11 日）开赛，国际足联已向所有参赛足协免费提供社交媒体保护服务中的内容审核功能。这套系统最早在 2022 年卡塔尔世界杯后引入，核心……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2301,7 +2304,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2322,20 +2325,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-作为人工智能成为",
-      "title": "作为人工智能成为？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ty3ae0/as_ai_systems_evolve_could_they_really_become/",
+      "id": "reddit-artificial-旗舰模型-4-8-通用人工智能-3",
+      "title": "旗舰模型 4.8，通用人工智能，3",
+      "url": "https://www.reddit.com/r/artificial/comments/1ty3xhz/opus_48_arcagi3_replay/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T01:12:24.000Z",
-      "summary": "关于，和进入生活，科学作为作为。由，新闻",
+      "publishedAt": "2026-06-06T01:43:02.000Z",
+      "summary": ":，社区论坛，相关型号，视频，向。在？基准测试面向来自，信息技术模型只是向信息技术。基准测试。模型任务顺利向信息技术。由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "研究论文",
+        "多模态"
       ],
-      "heat": 81,
-      "image": "https://external-preview.redd.it/cMuGmWJ4PfHqbcP_-tmxlRtTjKPFNRTlsqBwISWB8D4.jpeg?width=640&crop=smart&auto=webp&s=f0d49f6b8d2d6994326060ae332b36470a3c721e"
+      "heat": 91,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-30-十亿向构建相关型号人工智能数据中心在",
@@ -2368,7 +2373,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2401,7 +2406,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2418,7 +2423,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2436,7 +2441,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2523,19 +2528,20 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-corp-blog-microsoft-1280x680-4999350.png"
     },
     {
-      "id": "ithome-谷歌回应称暂无计划把人工智能设为浏览器默认搜索方式",
-      "title": "谷歌回应称暂无计划把人工智能设为浏览器默认搜索方式",
-      "url": "https://www.ithome.com/0/960/832.htm",
+      "id": "ithome-微软系列人工智能模型训练数据曝光-仅商业授权-说法存在出入",
+      "title": "微软系列人工智能模型训练数据曝光，“仅商业授权”说法存在出入",
+      "url": "https://www.ithome.com/0/960/837.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T04:03:15.000Z",
-      "summary": "科技之家 6 月 6 日消息，科技媒体安卓昨日（6 月 5 日）发布博文，报道称谷歌否认“把人工智能设为默认搜索方式”的说法。科技之家昨日报道，在频道最新浏览器中，新增人工智能实验选项，启用后用户在地址栏或搜索框中输入查询内容，会直接进入人工智能。对此不少媒体推测谷歌进一步推广人工智能，而且不排除未来将其设置为浏览器默认搜索引擎的可能。谷歌搜索工程副总裁随后回应称，这一发布属……",
+      "publishedAt": "2026-06-06T04:35:23.000Z",
+      "summary": "科技之家 6 月 6 日消息，科技媒体人工智能解码媒体昨日（6 月 5 日）发布博文，报道称微软最新发布的系列人工智能模型部分使用未获授权的开放网络数据训练，与其此前“仅采用企业级、干净且商业授权数据”的说法不一致。科技之家此前报道，在宣传系列模型时，微软号称“完全基于干净数据从零开始训练，未使用来自第三方模型的蒸馏数据”。不过根据官方披露的技术论文，这些模型并非只依赖商业授……",
       "topics": [
-        "人工智能动态"
+        "研究论文",
+        "机器人"
       ],
-      "heat": 85,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2619,7 +2625,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2740,19 +2746,21 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/fsi-press-new-payments-kv-1920x1080-5150250-1.jpg"
     },
     {
-      "id": "ithome-比亚迪-人形机器人代号尧舜禹-等消息均不属实",
-      "title": "比亚迪：“人形机器人代号尧舜禹”等消息均不属实",
-      "url": "https://www.ithome.com/0/960/816.htm",
+      "id": "ithome-开放人工智能公司为所有智能聊天助手个人用户开放锁定模式-启用后可降低数据泄露风险",
+      "title": "开放人工智能公司为所有智能聊天助手个人用户开放锁定模式，启用后可降低数据泄露风险",
+      "url": "https://www.ithome.com/0/960/836.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-06T03:47:48.000Z",
-      "summary": "科技之家 6 月 6 日消息，据《每日经济新闻》报道，日前，比亚迪自研人形机器人的消息引发广泛关注。网传其自研人形机器人代号“尧舜禹”，计划于 2026 年在内部部署 2 万台。对此，该记者向比亚迪方面求证，对方表示：“‘比亚迪人形机器人代号尧舜禹’‘第七代原型机在深圳和长沙工厂实地测试’‘约 150 台上岗，目标年内自用 2 万台’等消息均不属实。” 科技之家注意到，比亚迪……",
+      "publishedAt": "2026-06-06T04:29:34.000Z",
+      "summary": "科技之家 6 月 6 日消息，开放人工智能公司昨天宣布为所有智能聊天助手个人用户开放“锁定模式”，启动后可限制多项需要互联网 / 外部服务的功能，降低数据泄露风险。据科技之家此前报道，该功能早在今年 2 月就已推出，当时主要面向小部分企业用户、安全团队开放。如今该功能可供所有、和专业版个人用户使用。启用锁定模式后，智能聊天助手将限制或禁用实时网页浏览、深度研究和智能体模式等功……",
       "topics": [
-        "机器人"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
