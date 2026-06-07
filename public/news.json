@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-07T20:56:00.152Z",
+  "generatedAt": "2026-06-07T21:26:26.123Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-07T21:00:00.000Z",
+  "nextUpdateHint": "2026-06-07T21:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -13,12 +13,12 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 78,
+      "count": 77,
       "heat": 71
     },
     {
       "name": "模型发布",
-      "count": 37,
+      "count": 38,
       "heat": 75
     },
     {
@@ -43,8 +43,8 @@
     },
     {
       "name": "开源生态",
-      "count": 13,
-      "heat": 59
+      "count": 14,
+      "heat": 62
     },
     {
       "name": "端侧智能",
@@ -64,7 +64,7 @@
     {
       "name": "机器人",
       "count": 7,
-      "heat": 80
+      "heat": 79
     }
   ],
   "sources": [
@@ -321,8 +321,8 @@
       "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-06-07T01:37:11.000Z",
-      "latestDisplayedAt": "2026-06-07T01:37:11.000Z"
+      "latestFetchedAt": "2026-06-07T18:54:55.000Z",
+      "latestDisplayedAt": "2026-06-07T18:54:55.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -396,9 +396,9 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-07T12:07:44.000Z",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 18,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-05T12:51:00.000Z",
       "latestDisplayedAt": "2026-06-05T12:51:00.000Z"
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 21,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-07T15:51:31.000Z",
       "latestDisplayedAt": "2026-06-07T15:51:31.000Z"
@@ -500,7 +500,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -516,7 +516,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -533,6 +533,22 @@
         "人工智能动态"
       ],
       "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-大语言模型",
+      "title": "大语言模型",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-07T18:54:55.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
       "image": ""
     },
     {
@@ -616,7 +632,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -687,22 +703,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/jhh-t1-group-photo-1920x1080-1.jpg"
     },
     {
-      "id": "hacker-news-ai-词元使用在软件工程",
-      "title": ": 词元使用在软件工程",
-      "url": "https://arxiv.org/abs/2601.14470",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-07T01:37:11.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 71,
-      "image": ""
-    },
-    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/free-job-postings-api",
@@ -715,7 +715,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -732,7 +732,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -925,20 +925,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tzkzsk/kpop_fans_are_calling_out_creepy_deepfakes_of/",
+      "id": "reddit-artificial-生成人工智能在相关型号-在只是",
+      "title": "生成人工智能在相关型号，在只是？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tzki46/generated_a_fully_ai_creator_walking_out_of_a/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-07T19:07:35.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-07T18:49:41.000Z",
+      "summary": "借助人工智能，生成，生成使用。人工智能。持续，新增，和。作为 ;，作为。社区 : 人工智能面向，\\ ** 人工智能进入？向分享工作流信息技术向。由",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/TlK1eI4vZPX50kvan-RhQa2FbDN64xRN7VJwhYNq0Xs.jpeg?width=640&crop=smart&auto=webp&s=4b103405322a8ec69d5b8791245e575541c9454b"
+      "heat": 83,
+      "image": "https://external-preview.redd.it/dHozM2JyemhwdzVoMZ6NMTGZYLj8cVnAEL690J3Y0prGrL07O6Lx9vbKrUyZ.png?width=640&crop=smart&auto=webp&s=38ae95c6ab38a4e7782bf73de0cd519b45bef7ad"
     },
     {
       "id": "techcrunch-ai-访问向人工智能安全公司服务",
@@ -1038,7 +1038,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1313,20 +1313,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-生成人工智能在相关型号-在只是",
-      "title": "生成人工智能在相关型号，在只是？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tzki46/generated_a_fully_ai_creator_walking_out_of_a/",
+      "id": "reddit-artificial-智能聊天助手面向信息技术",
+      "title": "智能聊天助手面向信息技术。",
+      "url": "https://www.reddit.com/r/artificial/comments/1tzjsb5/chatgpt_has_a_different_personality_when_youre/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-07T18:49:41.000Z",
-      "summary": "借助人工智能，生成，生成使用。人工智能。持续，新增，和。作为 ;，作为。社区 : 人工智能面向，\\ ** 人工智能进入？向分享工作流信息技术向。由",
+      "publishedAt": "2026-06-07T18:23:22.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/dHozM2JyemhwdzVoMZ6NMTGZYLj8cVnAEL690J3Y0prGrL07O6Lx9vbKrUyZ.png?width=640&crop=smart&auto=webp&s=38ae95c6ab38a4e7782bf73de0cd519b45bef7ad"
+      "heat": 96,
+      "image": "https://preview.redd.it/h273tq2vkw5h1.png?width=216&crop=smart&auto=webp&s=62275e7381b5c6ff2f0a2646511ce5273ed02a9f"
     },
     {
       "id": "techcrunch-ai-开放人工智能公司在应用",
@@ -1376,7 +1377,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1409,7 +1410,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1662,21 +1663,21 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
     },
     {
-      "id": "reddit-artificial-智能聊天助手面向信息技术",
-      "title": "智能聊天助手面向信息技术。",
-      "url": "https://www.reddit.com/r/artificial/comments/1tzjsb5/chatgpt_has_a_different_personality_when_youre/",
+      "id": "reddit-artificial-人工智能只是",
+      "title": "人工智能只是？",
+      "url": "https://www.reddit.com/r/artificial/comments/1tzgsp6/what_would_make_ai_spm_useful_instead_of_just/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-07T18:23:22.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-07T16:31:15.000Z",
+      "summary": "面向企业人工智能，安全团队，人工智能只是？重要部件人工智能数据访问，智能体，数据，政策？由",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 96,
-      "image": "https://preview.redd.it/h273tq2vkw5h1.png?width=216&crop=smart&auto=webp&s=62275e7381b5c6ff2f0a2646511ce5273ed02a9f"
+      "heat": 86,
+      "image": ""
     },
     {
       "id": "ithome-高考首日机器人现身考场-穿大红旗袍跳舞-与考生碰拳花式助考",
@@ -1725,7 +1726,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1741,7 +1742,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1982,21 +1983,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能只是",
-      "title": "人工智能只是？",
-      "url": "https://www.reddit.com/r/artificial/comments/1tzgsp6/what_would_make_ai_spm_useful_instead_of_just/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1tzfm7l/the_harsh_truth/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-07T16:31:15.000Z",
-      "summary": "面向企业人工智能，安全团队，人工智能只是？重要部件人工智能数据访问，智能体，数据，政策？由",
+      "publishedAt": "2026-06-07T15:46:23.000Z",
+      "summary": "信息技术转化进入在代码托管平台，人工智能编程和克劳德模型代码。由",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "模型发布",
+        "开源生态"
       ],
-      "heat": 87,
-      "image": ""
+      "heat": 94,
+      "image": "https://preview.redd.it/aw9qj5wosv5h1.png?width=640&crop=smart&auto=webp&s=31aca2c65a9b12d44a53ed9bcabb85d16bda7c58"
     },
     {
       "id": "ithome-支持调用深度求索-月之暗面等模型-华为云入口-智果园-发布",
@@ -2031,7 +2032,7 @@
         "投融资",
         "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2061,7 +2062,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-07T06:00:11.000Z",
-      "summary": "随着全国算力基建规模化、标准化不断提速，多家算力价格也迎来持续普惠。让曾经昂贵的“高端稀缺资源”变身为各行各业可普惠使用的“数字水电”。前不久，多家模型厂商宣布永久下调算力价格，其中深度求索与小米降价尤为显著，最高降���接近99%。极大降低了用户日常高频问答、网页设计、代码编程等多场景人工智能使用成本，让各类轻量化、常态化人工智能应用告别高门槛、高成本的制约。（央视新闻）",
+      "summary": "随着全国算力基建规模化、标准化不断提速，多家算力价格也迎来持续普惠。让曾经昂贵的“高端稀缺资源”变身为各行各业可普惠使用的“数字水电”。前不久，多家模型厂商宣布永久下调算力价格，其中深度求索与小米降价尤为显著，最高降幅接近99%。极大降低了用户日常高频问答、网页设计、代码编程等多场景人工智能使用成本，让各类轻量化、常态化人工智能应用告别高门槛、高成本的制约。（央视新闻）",
       "topics": [
         "产品应用",
         "算力芯片"
@@ -2303,7 +2304,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2354,7 +2355,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2585,7 +2586,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2637,7 +2638,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2772,7 +2773,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
