@@ -1,35 +1,40 @@
 {
-  "generatedAt": "2026-06-09T11:59:23.552Z",
+  "generatedAt": "2026-06-09T12:29:25.482Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-09T12:00:00.000Z",
+  "nextUpdateHint": "2026-06-09T12:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-09T11:49:34.000Z"
+    "latestPublishedAt": "2026-06-09T12:27:52.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 80,
+      "count": 81,
       "heat": 80
     },
     {
       "name": "模型发布",
-      "count": 46,
+      "count": 48,
       "heat": 88
     },
     {
       "name": "研究论文",
-      "count": 25,
+      "count": 26,
       "heat": 85
     },
     {
       "name": "监管安全",
-      "count": 24,
-      "heat": 84
+      "count": 23,
+      "heat": 83
+    },
+    {
+      "name": "算力芯片",
+      "count": 19,
+      "heat": 85
     },
     {
       "name": "人工智能动态",
@@ -37,24 +42,19 @@
       "heat": 73
     },
     {
-      "name": "算力芯片",
-      "count": 18,
-      "heat": 85
-    },
-    {
       "name": "开源生态",
       "count": 12,
       "heat": 72
     },
     {
-      "name": "多模态",
-      "count": 10,
-      "heat": 86
+      "name": "投融资",
+      "count": 9,
+      "heat": 84
     },
     {
-      "name": "投融资",
-      "count": 10,
-      "heat": 86
+      "name": "多模态",
+      "count": 9,
+      "heat": 84
     },
     {
       "name": "端侧智能",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 4,
-      "heat": 86
+      "count": 5,
+      "heat": 88
     }
   ],
   "sources": [
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-09T01:56:48.000Z",
-      "latestDisplayedAt": "2026-06-09T01:56:48.000Z"
+      "latestFetchedAt": "2026-06-09T12:00:00.000Z",
+      "latestDisplayedAt": "2026-06-09T12:00:00.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -239,7 +239,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
+      "itemCount": 8,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-08T22:14:17.000Z",
       "latestDisplayedAt": "2026-06-08T22:14:17.000Z"
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 5,
-      "latestFetchedAt": "2026-06-09T05:53:28.000Z",
-      "latestDisplayedAt": "2026-06-09T05:53:28.000Z"
+      "latestFetchedAt": "2026-06-09T12:00:00.000Z",
+      "latestDisplayedAt": "2026-06-09T12:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-09T11:49:34.000Z",
-      "latestDisplayedAt": "2026-06-09T11:49:34.000Z"
+      "latestFetchedAt": "2026-06-09T12:27:52.000Z",
+      "latestDisplayedAt": "2026-06-09T12:27:52.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -431,7 +431,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 11,
+      "itemCount": 9,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-09T11:37:42.000Z",
       "latestDisplayedAt": "2026-06-09T11:37:42.000Z"
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 24,
+      "itemCount": 23,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-09T11:36:23.000Z",
-      "latestDisplayedAt": "2026-06-09T11:36:23.000Z"
+      "latestFetchedAt": "2026-06-09T11:59:59.000Z",
+      "latestDisplayedAt": "2026-06-09T11:59:59.000Z"
     },
     {
       "id": "oschina",
@@ -465,8 +465,8 @@
       "fallbackReason": "",
       "itemCount": 20,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-09T10:46:31.000Z",
-      "latestDisplayedAt": "2026-06-09T10:46:31.000Z"
+      "latestFetchedAt": "2026-06-09T11:58:19.000Z",
+      "latestDisplayedAt": "2026-06-09T11:58:19.000Z"
     },
     {
       "id": "cnblogs-news",
@@ -488,22 +488,87 @@
   "failures": [],
   "items": [
     {
-      "id": "reddit-artificial-由双子座模型专业版",
-      "title": "由双子座模型专业版",
-      "url": "https://www.reddit.com/r/artificial/comments/1u12pru/crazy_statement_by_gemini_pro/",
+      "id": "reddit-artificial-只是智能体-信息技术向协调-信息技术面向",
+      "title": "只是智能体。信息技术向协调。信息技术面向。",
+      "url": "https://www.reddit.com/r/artificial/comments/1u13k14/i_just_retired_one_of_my_agents_it_was_supposed/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T11:49:34.000Z",
-      "summary": "双子座模型 3.1 专业版在认为模式借助模式面向借助关于和信息技术创建信息技术向创建和信息技术生成和询问为什么信息技术信息技术，面向！在和意外关于应用代码。和询问和信息技术向，信息技术作为上下文，意外面向用户，面向，和信息技术进入。信息技术罕见在基础设施，和面向！由",
+      "publishedAt": "2026-06-09T12:27:52.000Z",
+      "summary": ":，任务智能体，持续来自。信息技术访问向。克劳德模型。在在。智能体。智能体和。很少有人。信息技术。没有。信息技术。部件持续认为关于: 智能体向新增实际新增向。新增和信息技术向。问题只是问题智能体单个。智能体实际关于。在。信息技术。由，最，智能体，7566",
       "topics": [
         "模型发布",
-        "产品应用",
-        "研究论文"
+        "产品应用"
       ],
       "heat": 99,
-      "image": "https://preview.redd.it/8wrejc0kw86h1.jpeg?width=640&crop=smart&auto=webp&s=ed927670f6bf11f2cb8c0927ffb9f2b4a2a2308c"
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-5-百万向构建数据中心",
+      "title": "$5 百万向构建数据中心",
+      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T12:00:00.000Z",
+      "summary": "构建 250，000 在。向推出 10，000 数据中心。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-full-breakdown/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T12:00:00.000Z",
+      "summary": "向构建构建向在 2026 首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "ithome-赛豆首款概念车亮相-量产首车相关型号将于年内发布",
+      "title": "赛豆首款概念车亮相，量产首车相关型号将于年内发布",
+      "url": "https://www.ithome.com/0/962/087.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T11:59:59.000Z",
+      "summary": "科技之家 6 月 9 日消息，在今天晚间的赛豆科技品牌发布会上，赛豆发布首款概念车，并宣布首款量产车型相关型号将于年内发布，全系车型将覆盖 20 万元以上主流市场。科技之家从官方介绍获悉，将呈现“物理人工智能汽车生命体”的前瞻想象。新车“以大模型为起点”，号称要让人工智能从数字世界中走出来，成为“看得见、摸得着、能感知、会回应”的具身人工智能生命体。形态上，新车是一款跨界，配……",
+      "topics": [
+        "模型发布",
+        "机器人"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "oschina-给人工智能加一点-苹果",
+      "title": "给人工智能加一点“苹果”",
+      "url": "https://www.oschina.net/news/454979",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T11:58:19.000Z",
+      "summary": "过去三年，人工智能几乎重塑了整个科技行业。从智能聊天助手到双子座模型，从智能体到人工智能编程，新的产品形态层出不穷，几乎所有科技巨头都在重新定义人与计算机的交互方式。相比之下，苹果的节奏显得有些缓慢。苹果自 2024 年亮相以来，经历了多次延期与调整，外界对于苹果人工智能战略的质疑也从未停止。直到。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "thirty-six-kr-中科闻歌通过港交所聆讯",
@@ -523,23 +588,6 @@
       "image": ""
     },
     {
-      "id": "ithome-苹果苹果手机国行机型升级苹果移动系统-27-后可使用人工智能壁纸扩图功能",
-      "title": "苹果苹果手机国行机型升级苹果移动系统 27 后可使用人工智能壁纸扩图功能",
-      "url": "https://www.ithome.com/0/962/084.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T11:36:23.000Z",
-      "summary": "科技之家 6 月 9 日消息，据科技之家小伙伴投稿，苹果苹果手机国行机型在升级苹果移动系统 27 1（开发者预览版）系统后，可使用人工智能壁纸扩图功能。从实测视频中我们可以看到，这项功能可以通过长按锁屏壁纸、选择一张新照片然后捏一下屏幕激活，选定照片主体后点击“扩展”，然后等待一会就能看到人工智能扩充后的照片。",
-      "topics": [
-        "多模态",
-        "端侧智能"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "the-decoder-苹果智能借助帮助来自谷歌和英伟达",
       "title": "苹果智能借助帮助来自谷歌和英伟达",
       "url": "https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/",
@@ -555,22 +603,6 @@
         "算力芯片"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "oschina-协作空间-3-7-发布-支持文件生成-新增人工智能智能体提供商-更智能的表单-房间分组等",
-      "title": "协作空间 3.7 发布：支持文件生成 & 新增人工智能智能体提供商、更智能的表单、房间分组等",
-      "url": "https://www.oschina.net/news/454946",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T10:46:31.000Z",
-      "summary": "协作空间3.7已经发布，几乎涵盖了平台的每个板块。此版本添加了新的人工智能提供商和工具，重新设计的表单填写体验，文档和房间管理的改进，以及更多功能。阅读下文了解所有新增功能。在人工智能聊天中生成、和在协作空间，您可以连接人工智能提供商并激活智能体来帮助：分析文件、生成内容。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -603,7 +635,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -635,7 +667,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -689,22 +721,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T05:53:28.000Z",
-      "summary": "构建在机器学习？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/kimi-ai-assistant",
@@ -717,23 +733,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-为什么苹果-和-人工智能向",
-      "title": "为什么苹果，和，人工智能向",
-      "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T01:56:48.000Z",
-      "summary": "苹果新人工智能设置向信息技术，重要？",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 83,
+      "heat": 85,
       "image": ""
     },
     {
@@ -749,7 +749,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -784,7 +784,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-6-1152x648.png"
     },
     {
@@ -836,7 +836,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -925,35 +925,38 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-实际人工智能面向决策信息技术只是",
-      "title": "实际人工智能面向决策信息技术只是？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u12oj9/is_anyone_actually_using_ai_for_hiring_decisions/",
+      "id": "reddit-artificial-由双子座模型专业版",
+      "title": "由双子座模型专业版",
+      "url": "https://www.reddit.com/r/artificial/comments/1u12pru/crazy_statement_by_gemini_pro/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T11:47:59.000Z",
-      "summary": "持续人工智能工具最向，只是更快。我们面向和信息技术面向信息技术实际帮助。在面向我们工具。和。由",
+      "publishedAt": "2026-06-09T11:49:34.000Z",
+      "summary": "双子座模型 3.1 专业版在认为模式借助模式面向借助关于和信息技术创建信息技术向创建和信息技术生成和询问为什么信息技术信息技术，面向！在和意外关于应用代码。和询问和信息技术向，信息技术作为上下文，意外面向用户，面向，和信息技术进入。信息技术罕见在基础设施，和面向！由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 85,
-      "image": ""
+      "heat": 99,
+      "image": "https://preview.redd.it/8wrejc0kw86h1.jpeg?width=640&crop=smart&auto=webp&s=ed927670f6bf11f2cb8c0927ffb9f2b4a2a2308c"
     },
     {
-      "id": "ithome-科大讯飞将于-6-月-10-日发布智能空间架构",
-      "title": "科大讯飞将于 6 月 10 日发布智能空间架构",
-      "url": "https://www.ithome.com/0/962/083.htm",
+      "id": "ithome-苹果苹果手机国行机型升级苹果移动系统-27-后可使用人工智能壁纸扩图功能",
+      "title": "苹果苹果手机国行机型升级苹果移动系统 27 后可使用人工智能壁纸扩图功能",
+      "url": "https://www.ithome.com/0/962/084.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T11:33:19.000Z",
-      "summary": "科技之家 6 月 9 日消息，6 月 10 日，科大讯飞将在香港举办 2026 全球发布会，率先发布智能空间架构 ——。根据科大讯飞的预告，他们将发布智能空间架构，让人工智能真正走进家庭、酒店、办公等真实空间。可以说是空间人工智能大脑，能感知、理解、决策、执行，让空间不只听指令，还能越来越懂你。根据官方的介绍，该架构让智能空间具备自主思考、真实记忆和自学习能力，开辟智能空间智……",
+      "publishedAt": "2026-06-09T11:36:23.000Z",
+      "summary": "科技之家 6 月 9 日消息，据科技之家小伙伴投稿，部分苹果苹果手机国行机型在升级苹果移动系统 27 1（开发者预览版）系统后，可使用人工智能壁纸扩图功能。从实测视频中我们可以看到，这项功能可以通过长按锁屏壁纸、选择一张新照片然后捏一下屏幕激活，选定照片主体后点击“扩展”，然后等待一会就能看到人工智能扩充后的照片。",
       "topics": [
-        "产品应用"
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
@@ -970,6 +973,22 @@
         "产品应用"
       ],
       "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "oschina-协作空间-3-7-发布-支持文件生成-新增人工智能智能体提供商-更智能的表单-房间分组等",
+      "title": "协作空间 3.7 发布：支持文件生成 & 新增人工智能智能体提供商、更智能的表单、房间分组等",
+      "url": "https://www.oschina.net/news/454946",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T10:46:31.000Z",
+      "summary": "协作空间3.7已经发布，几乎涵盖了平台的每个板块。此版本添加了新的人工智能提供商和工具，重新设计的表单填写体验，文档和房间管理的改进，以及更多功能。阅读下文了解所有新增功能。在人工智能聊天中生成、和在协作空间，您可以连接人工智能提供商并激活智能体来帮助：分析文件、生成内容。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 85,
       "image": ""
     },
     {
@@ -990,22 +1009,6 @@
       "image": ""
     },
     {
-      "id": "oschina-人工智能又立一功-倒逼内核清理历史包袱",
-      "title": "人工智能又立一功？倒逼内核清理历史包袱",
-      "url": "https://my.oschina.net/u/4487475/blog/19698372",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T10:26:19.000Z",
-      "summary": "内核 3000 万行代码，是第一个被人工智能加速淘汰的接口，当然不会是最后一个。内核里功能小众、攻击面巨大的接口有多少？没人能精确统计，但人工智能正在逐个把它们挖出来，帮内核社区甩掉那些早就该甩掉的历史包袱。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-五个向关于人工智能",
       "title": "五个向关于人工智能",
       "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
@@ -1018,7 +1021,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1073,17 +1076,17 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
+      "id": "techcrunch-ai-为什么苹果-和-人工智能向",
+      "title": "为什么苹果，和，人工智能向",
+      "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T00:45:56.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-09T01:56:48.000Z",
+      "summary": "苹果新人工智能设置向信息技术，重要？",
       "topics": [
-        "投融资"
+        "产品应用"
       ],
       "heat": 82,
       "image": ""
@@ -1219,7 +1222,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/kr-visit-lg-group-1920x1080-no-credit.png"
     },
     {
@@ -1236,7 +1239,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1340,71 +1343,51 @@
       "image": ""
     },
     {
-      "id": "ithome-国家互联网应急中心提醒-部分智能体技能包-存在越狱和挖矿风险",
-      "title": "国家互联网应急中心提醒：部分智能体技能包（）存在越狱和挖矿风险",
-      "url": "https://www.ithome.com/0/962/082.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T11:30:53.000Z",
-      "summary": "科技之家 6 月 9 日消息，国家互联网应急中心（）6 月 9 日（今天）发布公告称，近期综合研判发现，部分智能体技能包（）以“大模型越狱”、“挖矿赚钱”等名义公开传播，诱导用户突破大模型安全限制或占用设备资源进行非法挖矿。此类恶意可能导致模型生成违法信息、用户账号被依法封禁、设备性能下降，甚至使用户被动卷入洗钱等违法犯罪活动，严重侵害个人合法权益，危害网络安全。提醒广大用户……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u11nr4/is_ecogpt_ecological/",
+      "id": "reddit-artificial-实际人工智能面向决策信息技术只是",
+      "title": "实际人工智能面向决策信息技术只是？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u12oj9/is_anyone_actually_using_ai_for_hiring_decisions/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:57:17.000Z",
-      "summary": ": 首个语言关于信息技术！关于？视频关于信息技术和信息技术 … 信息技术？由",
+      "publishedAt": "2026-06-09T11:47:59.000Z",
+      "summary": "持续人工智能工具最向，只是更快。我们面向和信息技术面向信息技术实际帮助。在面向我们工具。和。由",
       "topics": [
-        "模型发布",
-        "多模态"
+        "人工智能动态"
       ],
-      "heat": 98,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-欧盟回应苹果人工智能争议-法律不可谈判-苹果未能达到互操作性要求",
-      "title": "欧盟回应苹果人工智能争议：法律不可谈判，苹果未能达到互操作性要求",
-      "url": "https://36kr.com/newsflashes/3845825792887040?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
+      "id": "ithome-科大讯飞将于-6-月-10-日发布智能空间架构",
+      "title": "科大讯飞将于 6 月 10 日发布智能空间架构",
+      "url": "https://www.ithome.com/0/962/083.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:56:18.000Z",
-      "summary": "6月9日，欧盟委员会负责数字经济事务的发言人托马斯·雷尼耶就苹果人工智能事件作出回应，表示委员会此前与苹果就人工智能互操作性要求有过多次接触，但苹果未能达到《数字市场法》（）规定的相关要求。雷尼耶表示，苹果曾申请至少18个月的互操作性要求豁免期，但委员会拒绝了这一请求，强调欧盟法律“不可谈判”。他同时指出，并不禁止苹果推出新产品，但“任何守门人都不得封闭市场”。此前苹果宣称，……",
+      "publishedAt": "2026-06-09T11:33:19.000Z",
+      "summary": "科技之家 6 月 9 日消息，6 月 10 日，科大讯飞将在香港举办 2026 全球发布会，率先发布智能空间架构 ——。根据科大讯飞的预告，他们将发布智能空间架构，让人工智能真正走进家庭、酒店、办公等真实空间。可以说是空间人工智能大脑，能感知、理解、决策、执行，让空间不只听指令，还能越来越懂你。根据官方的介绍，该架构让智能空间具备自主思考、真实记忆和自学习能力，开辟智能空间智……",
       "topics": [
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 95,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "oschina-一个用编写的图形处理器加速跨平台框架",
-      "title": "一个用编写的图形处理器加速跨平台框架",
-      "url": "https://www.oschina.net/news/454881",
+      "id": "oschina-人工智能又立一功-倒逼内核清理历史包袱",
+      "title": "人工智能又立一功？倒逼内核清理历史包袱",
+      "url": "https://my.oschina.net/u/4487475/blog/19698372",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T09:32:54.000Z",
-      "summary": "在系统编程领域，框架一直是块难啃的骨头。有和，有，而语言社区长期缺乏一个生产级的方案。是近期出现在代码托管平台上的一个实验性项目，试图改变这一现状——它是一个完全用编写的图形处理器加速跨平台框架，支持 （）、（/）和浏览器。",
+      "publishedAt": "2026-06-09T10:26:19.000Z",
+      "summary": "内核 3000 万行代码，是第一个被人工智能加速淘汰的接口，当然不会是最后一个。内核里功能小众、攻击面巨大的接口有多少？没人能精确统计，但人工智能正在逐个把它们挖出来，帮内核社区甩掉那些早就该甩掉的历史包袱。",
       "topics": [
-        "算力芯片",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1421,6 +1404,24 @@
         "产品应用",
         "监管安全",
         "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-登顶代码托管平台技术社区热榜-这个开源项目让人工智能编程成本降低-98-涌现新项目",
+      "title": "登顶代码托管平台技术社区热榜，这个开源项目让人工智能编程成本降低 98%｜涌现新项目",
+      "url": "https://36kr.com/p/3845645258541319?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T07:53:19.000Z",
+      "summary": "文｜李嘉星编辑｜周鑫雨一句话介绍是一款专为人工智能编程打造的上下文优化 （人工智能安全公司发布的模型上下文协议）插件。它解决了开发者在长周期开发中遭遇的“模型失忆”与“词元过多消耗”的核心痛点。据团队表示，在编程场景下，能够让人工智能编程的成本降低 98%，同时将大模型的记忆力从30分钟提升至 3 小时。团队背景的背后是一支背景多元的跨国初创团队。目前团队的核心成员分布在土耳……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -1454,7 +1455,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1475,19 +1476,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-作为开放人工智能公司面向首次公开募股-公司裁员",
-      "title": "作为开放人工智能公司面向首次公开募股，公司裁员",
-      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-08T22:41:45.000Z",
-      "summary": "工具面向，公司，据报道向生成和。",
+      "publishedAt": "2026-06-09T00:45:56.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "投融资"
       ],
-      "heat": 88,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1540,7 +1541,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": "https://media.wired.com/photos/6a26d742255fdba4ebd668f3/master/pass/GettyImages-2267728396.jpg"
     },
     {
@@ -1556,7 +1557,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1711,70 +1712,55 @@
       "image": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/4009252-OneLake-Foundry-Integration-Demo"
     },
     {
-      "id": "ithome-欧盟回应人工智能-缺席-苹果未达互操作性要求-且没有拿出合规方案",
-      "title": "欧盟回应人工智能“缺席”：苹果未达互操作性要求，且没有拿出合规方案",
-      "url": "https://www.ithome.com/0/962/081.htm",
+      "id": "ithome-国家互联网应急中心提醒-部分智能体技能包-存在越狱和挖矿风险",
+      "title": "国家互联网应急中心提醒：部分智能体技能包（）存在越狱和挖矿风险",
+      "url": "https://www.ithome.com/0/962/082.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T11:22:37.000Z",
-      "summary": "科技之家 6 月 9 日消息，据路透社 9 日（今天）傍晚报道，欧盟委员会发言人托马斯 · 雷尼耶表示，苹果在申请豁免人工智能互操作性义务未果后，决定不在欧盟推出新的人工智能工具。科技之家获悉，雷尼耶对此回应称：“不在欧盟推出人工智能，是苹果自己的决定，也完全只是苹果自己的决定。苹果只是没能开发出符合欧盟基本隐私和安全标准的互操作性方案。而且，苹果没有尝试寻找合适的合规方案，……",
+      "publishedAt": "2026-06-09T11:30:53.000Z",
+      "summary": "科技之家 6 月 9 日消息，国家互联网应急中心（）6 月 9 日（今天）发布公告称，近期综合研判发现，部分智能体技能包（）以“大模型越狱”、“挖矿赚钱”等名义公开传播，诱导用户突破大模型安全限制或占用设备资源进行非法挖矿。此类恶意可能导致模型生成违法信息、用户账号被依法封禁、设备性能下降，甚至使用户被动卷入洗钱等违法犯罪活动，严重侵害个人合法权益，危害网络安全。提醒广大用户……",
       "topics": [
-        "监管安全"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-苹果宣布新版人工智能因监管分歧无缘欧盟苹果移动系统-27-上线时间表未定",
-      "title": "苹果宣布新版人工智能因监管分歧无缘欧盟苹果移动系统 27，上线时间表未定",
-      "url": "https://36kr.com/newsflashes/3845824907020551?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T10:55:24.000Z",
-      "summary": "苹果公司当地时间6月8日宣布，全新人工智能将随苹果移动系统 27及 27发布，但受《数字市场法》（）影响，欧盟用户届时无法在苹果手机及苹果平板上使用该功能，27亦受连带影响。欧盟用户可在 27及 27上访问人工智能。苹果软件工程高级副总裁克雷格·费德里吉表示，过去数月间苹果向欧盟监管机构提交了多项解决方案，但均遭欧盟委员会拒绝，目前尚无人工智能在欧盟苹果移动系统及上线的时间表……",
-      "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "多模态"
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-苹果修复和信息技术",
-      "title": "苹果修复和信息技术",
-      "url": "https://www.reddit.com/r/artificial/comments/1u11k81/apple_finally_fixed_siri_and_honestly_it_looks/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1u11nr4/is_ecogpt_ecological/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:51:59.000Z",
-      "summary": "只是和新人工智能实际时间信息技术在，应用。更好。信息技术驱动由谷歌双子座模型没有查看即将推出信息技术面向面向可能实际认为试图信息技术信息技术？由",
+      "publishedAt": "2026-06-09T10:57:17.000Z",
+      "summary": ": 首个语言关于信息技术！关于？视频关于信息技术和信息技术 … 信息技术？由",
       "topics": [
         "模型发布",
-        "产品应用"
+        "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "oschina-我了一个工具",
-      "title": "我了一个工具",
-      "url": "https://www.oschina.net/news/454854",
+      "id": "oschina-一个用编写的图形处理器加速跨平台框架",
+      "title": "一个用编写的图形处理器加速跨平台框架",
+      "url": "https://www.oschina.net/news/454881",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T08:55:06.000Z",
-      "summary": "你说我搁这搁这呢？先别急，请看：你看，我就说你没用过吧！现在我们程序员都用这个工具来提高工作效率，没用过你怎么找工作？好吧，快进到我再也不玩抽象了。今年以来人工智能工具的爆发确实解放了极大的生产力，自「开源中国人工智能提效部」成立以来，已经发掘了不少员工利用自己做的人工智能工具「摸鱼」的案例。",
+      "publishedAt": "2026-06-09T09:32:54.000Z",
+      "summary": "在系统编程领域，框架一直是块难啃的骨头。有和，有，而语言社区长期缺乏一个生产级的方案。是近期出现在代码托管平台上的一个实验性项目，试图改变这一现状——它是一个完全用编写的图形处理器加速跨平台框架，支持 （）、（/）和浏览器。",
       "topics": [
+        "算力芯片",
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1814,6 +1800,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-硬氪观察-2026-苹果终于在人工智能上迈出一小步-国内苹果手机还是用不上",
+      "title": "硬氪观察，2026：苹果终于在人工智能上迈出一小步，国内苹果手机还是用不上",
+      "url": "https://36kr.com/p/3845356968839680?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T03:01:37.000Z",
+      "summary": "作者，邱晓芬编辑，袁斯来 6月9日，位于加州库比蒂诺的苹果总部被标志性的暖色系渐变背景填满，熟悉的倒计时欢呼声依旧，但 2026选了一条更克制的路线—— 这次，苹果没有如往常一般发布新硬件，也不预热万众瞩目的折叠屏，而是把一个多小时演讲的最大篇幅，留给了软件与人工智能。显然，苹果正试图把过去两年的\"人工智能迟到者\"的标签，编译成另一套叙事。在发布会上，苹果软件工程高级副总裁克……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "qbitai-国产通用大模型第一梯队-来新人了",
       "title": "国产通用大模型第一梯队，来新人了！",
       "url": "https://www.qbitai.com/2026/06/432747.html",
@@ -1826,24 +1830,23 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-苹果人工智能演示-250-百万",
-      "title": "苹果人工智能演示 $250 百万",
-      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "id": "techcrunch-ai-作为开放人工智能公司面向首次公开募股-公司裁员",
+      "title": "作为开放人工智能公司面向首次公开募股，公司裁员",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-08T22:39:57.000Z",
-      "summary": "氛围式苹果 2026。: 人工智能演示，在机械手。",
+      "publishedAt": "2026-06-08T22:41:45.000Z",
+      "summary": "工具面向，公司，据报道向生成和。",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "投融资"
       ],
-      "heat": 85,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1897,7 +1900,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1913,7 +1916,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": "https://media.wired.com/photos/6a26baa814f2ec6e95bd841b/master/pass/GettyImages-2235451108.jpg"
     },
     {
@@ -1946,7 +1949,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2050,73 +2053,52 @@
       "image": ""
     },
     {
-      "id": "ithome-赛豆科技发布品牌-总裁李博解释品牌命名和寓意",
-      "title": "赛豆科技发布品牌，总裁李博解释品牌命名和寓意",
-      "url": "https://www.ithome.com/0/962/080.htm",
+      "id": "ithome-欧盟回应人工智能-缺席-苹果未达互操作性要求-且没有拿出合规方案",
+      "title": "欧盟回应人工智能“缺席”：苹果未达互操作性要求，且没有拿出合规方案",
+      "url": "https://www.ithome.com/0/962/081.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T11:20:41.000Z",
-      "summary": "6 月 9 日晚间消息，在赛豆科技品牌发布会上，总裁、产品经理李博发表演讲。他表示，每一次重大的技术进步，本质上都做到了同一件事：让人从重复劳动中解放出来，从而拥有更多属于自己的时间。他认为，人工智能将大幅提升社会运行效率，让人们获得更多可支配的自由时间。人工智能将会重塑人与汽车的关系，车从工具变成一个懂你的伙伴。他介绍了品牌的命名来源，取自人工智能，寓意人工智能陪伴用户一路……",
+      "publishedAt": "2026-06-09T11:22:37.000Z",
+      "summary": "科技之家 6 月 9 日消息，据路透社 9 日（今天）傍晚报道，欧盟委员会发言人托马斯 · 雷尼耶表示，苹果在申请豁免人工智能互操作性义务未果后，决定不在欧盟推出新的人工智能工具。科技之家获悉，雷尼耶对此回应称：“不在欧盟推出人工智能，是苹果自己的决定，也完全只是苹果自己的决定。苹果只是没能开发出符合欧盟基本隐私和安全标准的互操作性方案。而且，苹果没有尝试寻找合适的合规方案，……",
       "topics": [
-        "监管安全",
-        "机器人"
+        "监管安全"
       ],
-      "heat": 92,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "reddit-artificial-模型和向使用向创建",
-      "title": "模型和向使用向创建 :？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u11cnt/model_and_prompt_to_use_to_create_a_tldr/",
+      "id": "reddit-artificial-苹果修复和信息技术",
+      "title": "苹果修复和信息技术",
+      "url": "https://www.reddit.com/r/artificial/comments/1u11k81/apple_finally_fixed_siri_and_honestly_it_looks/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:40:30.000Z",
-      "summary": "向创建创建 : 面向讨论。使用 :相关型号向创建 : 面向 380 向。入门正确模型面向。信息技术向在只是 ~20。向向人工智能借助单个和 : 作为。向模型？生成借助智能聊天助手关于向人工智能 : 助手。任务:，向，作为作为，高亮决策和，在。重要:，创建 : ## 和。讨论。: 借助 : 内容平台。8，15。和。用户: \\。信息技术向人工智能在？由",
+      "publishedAt": "2026-06-09T10:51:59.000Z",
+      "summary": "只是和新人工智能实际时间信息技术在，应用。更好。信息技术驱动由谷歌双子座模型没有查看即将推出信息技术面向面向可能实际认为试图信息技术信息技术？由",
       "topics": [
         "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "oschina-阿里巴巴升级大模型组织架构-成立词元事业部",
-      "title": "阿里巴巴升级大模型组织架构，成立词元事业部",
-      "url": "https://www.oschina.net/news/454842",
+      "id": "oschina-我了一个工具",
+      "title": "我了一个工具",
+      "url": "https://www.oschina.net/news/454854",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T08:38:24.000Z",
-      "summary": "阿里巴巴宣布对人工智能业务组织架构进行重大升级，合并通义大模型事业部与未来生活实验室，正式成立词元事业部，由集团首席执行官吴泳铭直接负责。同时，阿里巴巴合伙人周靖人出任阿里巴巴首席科学家，牵头成立阿里巴巴人工智能未来研究院，专注于前沿人工智能科技的探索与突破。此外，郑波将带领。",
+      "publishedAt": "2026-06-09T08:55:06.000Z",
+      "summary": "你说我搁这搁这呢？先别急，请看：你看，我就说你没用过吧！现在我们程序员都用这个工具来提高工作效率，没用过你怎么找工作？好吧，快进到我再也不玩抽象了。今年以来人工智能工具的爆发确实解放了极大的生产力，自「开源中国人工智能提效部」成立以来，已经发掘了不少员工利用自己做的人工智能工具「摸鱼」的案例。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "开源生态"
       ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-登顶代码托管平台技术社区热榜-这个开源项目让人工智能编程成本降低-98-涌现新项目",
-      "title": "登顶代码托管平台技术社区热榜，这个开源项目让人工智能编程成本降低 98%｜涌现新项目",
-      "url": "https://36kr.com/p/3845645258541319?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T07:53:19.000Z",
-      "summary": "文｜李嘉星编辑｜周鑫雨一句话介绍是一款专为人工智能编程打造的上下文优化 （人工智能安全公司发布的模型上下文协议）插件。它解决了开发者在长周期开发中遭遇的“模型失忆”与“词元过多消耗”的核心痛点。据团队表示，在编程场景下，能够让人工智能编程的成本降低 98%，同时将大模型的记忆力从30分钟提升至 3 小时。团队背景的背后是一支背景多元的跨国初创团队。目前团队的核心成员分布在土耳……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2166,24 +2148,42 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司面向首次公开募股-人工智能安全公司",
-      "title": "开放人工智能公司面向首次公开募股，人工智能安全公司",
-      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "id": "thirty-six-kr-36氪首发-国内唯一材料产业化团队再创业-布局消费电子与人工智能芯片散热-技术积累全球领先",
+      "title": "36氪首发，国内唯一材料产业化团队再创业，布局消费电子与人工智能芯片散热，技术积累全球领先",
+      "url": "https://36kr.com/p/3845295918909954?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T01:58:22.000Z",
+      "summary": "作者，乔钰杰编辑，袁斯来硬氪获悉，苏州墨锋新材料科技有限公司（下称“墨锋科技”）近日完成新一轮千万元融资，由险峰基金、成都科创投集团投资，资金将主要用于产线扩建与产能扩张。墨锋科技成立于2023年，技术源自四川大学近20年高分子材料研究成果，聚焦高性能（聚芳噁二唑）薄膜产业化。作为一种耐高温聚合物，早在上世纪六七十年代便受到关注，但由于加工成型过程中的工艺问题和设备腐蚀问题，……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "研究论文"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-苹果人工智能演示-250-百万",
+      "title": "苹果人工智能演示 $250 百万",
+      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-08T21:29:57.000Z",
-      "summary": "人工智能安全公司，向，人工智能。",
+      "publishedAt": "2026-06-08T22:39:57.000Z",
+      "summary": "氛围式苹果 2026。: 人工智能演示，在机械手。",
       "topics": [
-        "监管安全",
-        "投融资"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 92,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2219,7 +2219,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2237,7 +2237,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2254,7 +2254,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2356,52 +2356,55 @@
       "image": ""
     },
     {
-      "id": "ithome-前钉钉副总裁马锐拉发文-置身钉外-告别阿里-称越来越难确认是在创造产品还是消耗身体追赶节奏",
-      "title": "前钉钉副总裁马锐拉发文《置身钉外》告别阿里，称越来越难确认是在创造产品还是消耗身体追赶节奏",
-      "url": "https://www.ithome.com/0/962/078.htm",
+      "id": "ithome-赛豆科技发布品牌-总裁李博解释品牌命名和寓意",
+      "title": "赛豆科技发布品牌，总裁李博解释品牌命名和寓意",
+      "url": "https://www.ithome.com/0/962/080.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T11:05:51.000Z",
-      "summary": "科技之家 6 月 9 日消息，前钉钉副总裁、人工智能产品负责人马锐拉昨日在个人公众号上发布题为《置身钉外》的文章，称他已于 5 月 15 日办完离职手续，正式告别三年阿里生涯，离开钉钉。马锐拉在文中提到了自己看完《置身钉内》后的感想，称心疼那些在钉钉认真想过、认真做过、认真挣扎过的同学。一个这么有想法的年轻产品，最后需要用七万字，把自己从一个系统里打捞出来寻求解放。科技之家查……",
+      "publishedAt": "2026-06-09T11:20:41.000Z",
+      "summary": "6 月 9 日晚间消息，在赛豆科技品牌发布会上，总裁、产品经理李博发表演讲。他表示，每一次重大的技术进步，本质上都做到了同一件事：让人从重复劳动中解放出来，从而拥有更多属于自己的时间。他认为，人工智能将大幅提升社会运行效率，让人们获得更多可支配的自由时间。人工智能将会重塑人与汽车的关系，车从工具变成一个懂你的伙伴。他介绍了品牌的命名来源，取自人工智能，寓意人工智能陪伴用户一路……",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "机器人"
       ],
-      "heat": 87,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "reddit-artificial-为什么在人工智能",
-      "title": "为什么在人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u10zqo/why_judgement_matters_more_than_prompts_in_the/",
+      "id": "reddit-artificial-模型和向使用向创建",
+      "title": "模型和向使用向创建 :？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u11cnt/model_and_prompt_to_use_to_create_a_tldr/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:20:50.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "oschina-智能聊天助手史上最大改版-开放人工智能公司正在抹去-聊天",
-      "title": "智能聊天助手史上最大改版：开放人工智能公司正在抹去“聊天”",
-      "url": "https://www.oschina.net/news/454826",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T08:20:51.000Z",
-      "summary": "五天前智能聊天助手月活刚突破 10 亿。开放人工智能公司转手就要把那个陪你聊天的对话框拆了。6 月 8 日，英国《金融时报》曝光了一份来自十余名开放人工智能公司现任和前任员工的集体爆料，揭开了智能聊天助手自 2022 年上线以来最大规模的产品改版。简单说就是一句话：「 」—— 聊天框还在，但已经不是产品了。接下来几周。",
+      "publishedAt": "2026-06-09T10:40:30.000Z",
+      "summary": "向创建创建 : 面向讨论。使用 :相关型号向创建 : 面向 380 向。入门正确模型面向。信息技术向在只是 ~20。向向人工智能借助单个和 : 作为。向模型？生成借助智能聊天助手关于向人工智能 : 助手。任务:，向，作为作为，高亮决策和，在。重要:，创建 : ## 和。讨论。: 借助 : 内容平台。8，15。和。用户: \\。信息技术向人工智能在？由",
       "topics": [
         "模型发布",
         "产品应用"
       ],
       "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "oschina-阿里巴巴升级大模型组织架构-成立词元事业部",
+      "title": "阿里巴巴升级大模型组织架构，成立词元事业部",
+      "url": "https://www.oschina.net/news/454842",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T08:38:24.000Z",
+      "summary": "阿里巴巴宣布对人工智能业务组织架构进行重大升级，合并通义大模型事业部与未来生活实验室，正式成立词元事业部，由集团首席执行官吴泳铭直接负责。同时，阿里巴巴合伙人周靖人出任阿里巴巴首席科学家，牵头成立阿里巴巴人工智能未来研究院，专注于前沿人工智能科技的探索与突破。此外，郑波将带领。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -2423,21 +2426,21 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-硬氪观察-2026-苹果终于在人工智能上迈出一小步-国内苹果手机还是用不上",
-      "title": "硬氪观察，2026：苹果终于在人工智能上迈出一小步，国内苹果手机还是用不上",
-      "url": "https://36kr.com/p/3845356968839680?f=rss",
+      "id": "thirty-six-kr-36氪首发-人工智能芯片处理器公司完成近亿元融资-核心团队来自-等顶尖半导体公司",
+      "title": "36氪首发，人工智能芯片处理器公司完成近亿元融资，核心团队来自、等顶尖半导体公司",
+      "url": "https://36kr.com/p/3845293120621057?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T03:01:37.000Z",
-      "summary": "作者，邱晓芬编辑，袁斯来 6月9日，位于加州库比蒂诺的苹果总部被标志性的暖色系渐变背景填满，熟悉的倒计时欢呼声依旧，但 2026选了一条更克制的路线—— 这次，苹果没有如往常一般发布新硬件，也不预热万众瞩目的折叠屏，而是把一个多小时演讲的最大篇幅，留给了软件与人工智能。显然，苹果正试图把过去两年的\"人工智能迟到者\"的标签，编译成另一套叙事。在发布会上，苹果软件工程高级副总裁克……",
+      "publishedAt": "2026-06-09T01:56:31.000Z",
+      "summary": "作者，乔钰杰编辑，袁斯来硬氪获悉，隼瞻科技有限公司（下称“隼瞻科技”）近日完成近亿元天使+轮融资。本轮融资引入英飞尼迪资本、白云金控、深圳中小担创投、厚天资本、华盖资本、嘉誉创投等多家战略投资人，老股东毅达资本、达泰资本持续加持。隼瞻科技成立于2023年初，专注芯片处理器模块及开发平台，致力于打造基于“”的新一代处理器设计体系，公司希望通过“货架+工具链”的模式，降低人工智能……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2453,23 +2456,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-苹果人工智能开发者",
-      "title": "苹果人工智能开发者",
-      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "id": "techcrunch-ai-开放人工智能公司面向首次公开募股-人工智能安全公司",
+      "title": "开放人工智能公司面向首次公开募股，人工智能安全公司",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-08T20:53:55.000Z",
-      "summary": "作为人工智能，苹果云服务接口成本面向开发者借助 2 百万首个，时间应用。",
+      "publishedAt": "2026-06-08T21:29:57.000Z",
+      "summary": "人工智能安全公司，向，人工智能。",
       "topics": [
-        "产品应用"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 78,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2502,7 +2506,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2625,53 +2629,52 @@
       "image": ""
     },
     {
-      "id": "ithome-人工智能企业-无论人工智能安全公司与开放人工智能公司表现如何-公司计划-2028-年首次公开募股",
-      "title": "人工智能企业：无论人工智能安全公司与开放人工智能公司表现如何，公司计划 2028 年首次公开募股",
-      "url": "https://www.ithome.com/0/962/068.htm",
+      "id": "ithome-前钉钉副总裁马锐拉发文-置身钉外-告别阿里-称越来越难确认是在创造产品还是消耗身体追赶节奏",
+      "title": "前钉钉副总裁马锐拉发文《置身钉外》告别阿里，称越来越难确认是在创造产品还是消耗身体追赶节奏",
+      "url": "https://www.ithome.com/0/962/078.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:14:48.000Z",
-      "summary": "科技之家 6 月 9 日消息，人工智能企业首席执行官亚拉文 · 斯里尼瓦斯（ ）昨天向表示，公司计划 2028 年上市。这名首席执行官表示：“无论人工智能安全公司和开放人工智能公司表现如何，我们原本就计划 2028 年发起首次公开募股，因此这一计划依然没有改变”。值得注意的是，美国人工智能公司人工智能安全公司已经在上周秘密提交首次公开募股（首次公开募股）申请，虽然具体发行价格……",
+      "publishedAt": "2026-06-09T11:05:51.000Z",
+      "summary": "科技之家 6 月 9 日消息，前钉钉副总裁、人工智能产品负责人马锐拉昨日在个人公众号上发布题为《置身钉外》的文章，称他已于 5 月 15 日办完离职手续，正式告别三年阿里生涯，离开钉钉。马锐拉在文中提到了自己看完《置身钉内》后的感想，称心疼那些在钉钉认真想过、认真做过、认真挣扎过的同学。一个这么有想法的年轻产品，最后需要用七万字，把自己从一个系统里打捞出来寻求解放。科技之家查……",
       "topics": [
-        "监管安全",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "reddit-artificial-部件人工智能智能体很少有人构建和",
-      "title": "部件人工智能智能体很少有人构建和",
-      "url": "https://www.reddit.com/r/artificial/comments/1u10t7w/the_boring_part_of_ai_agents_nobody_builds_and/",
+      "id": "reddit-artificial-为什么在人工智能",
+      "title": "为什么在人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u10zqo/why_judgement_matters_more_than_prompts_in_the/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:10:33.000Z",
-      "summary": "人工智能在公司 62 百万在。我们交付智能体向。和。实时。部件 80% 时间模型。数据。信息技术工作流。智能体？信息技术？智能体只是在。我们月。智能体。信息技术面向。相关型号在。向很少有人。我们构建呼吁。分享上下文每个智能体来自和向。借助。规则。演示。演示人工智能智能体魔法。20% 模型和 80%。决策。智能体，智能体只是。由",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "oschina-2026-用参考图引导的扩散模型提升重选封面帧画质",
-      "title": "2026，用参考图引导的扩散模型提升重选封面帧画质",
-      "url": "https://my.oschina.net/vivotech/blog/19694164",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-09T08:17:44.000Z",
-      "summary": "我们团队提出了，这是首个专门针对实时重选封面帧画质修复的解决方案，已被 2026 录用。针对用户重选封面时面临的画质降级痛点，我们利用实时自带的原始高清封面作为参考，构建了一个包含运动对齐模块的参考引导扩散模型。该方法有效解决了两帧之间因时间偏移产生的运动错位问题，成。",
+      "publishedAt": "2026-06-09T10:20:50.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
       "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "oschina-智能聊天助手史上最大改版-开放人工智能公司正在抹去-聊天",
+      "title": "智能聊天助手史上最大改版：开放人工智能公司正在抹去“聊天”",
+      "url": "https://www.oschina.net/news/454826",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-09T08:20:51.000Z",
+      "summary": "五天前智能聊天助手月活刚突破 10 亿。开放人工智能公司转手就要把那个陪你聊天的对话框拆了。6 月 8 日，英国《金融时报》曝光了一份来自十余名开放人工智能公司现任和前任员工的集体爆料，揭开了智能聊天助手自 2022 年上线以来最大规模的产品改版。简单说就是一句话：「 」—— 聊天框还在，但已经不是产品了。接下来几周。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -2689,41 +2692,41 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪首发-国内唯一材料产业化团队再创业-布局消费电子与人工智能芯片散热-技术积累全球领先",
-      "title": "36氪首发，国内唯一材料产业化团队再创业，布局消费电子与人工智能芯片散热，技术积累全球领先",
-      "url": "https://36kr.com/p/3845295918909954?f=rss",
+      "id": "thirty-six-kr-生殖学博士入局脑机接口-想做一款缓解女性经期情绪问题的脑机-发箍-早期项目",
+      "title": "生殖学博士入局脑机接口，想做一款缓解女性经期情绪问题的脑机\"发箍\"｜早期项目",
+      "url": "https://36kr.com/p/3843971153267208?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-09T01:58:22.000Z",
-      "summary": "作者，乔钰杰编辑，袁斯来硬氪获悉，苏州墨锋新材料科技有限公司（下称“墨锋科技”）近日完成新一轮千万元融资，由险峰基金、成都科创投集团投资，资金将主要用于产线扩建与产能扩张。墨锋科技成立于2023年，技术源自四川大学近20年高分子材料研究成果，聚焦高性能（聚芳噁二唑）薄膜产业化。作为一种耐高温聚合物，早在上世纪六七十年代便受到关注，但由于加工成型过程中的工艺问题和设备腐蚀问题，……",
+      "publishedAt": "2026-06-09T01:00:00.000Z",
+      "summary": "文｜胡香赟编辑｜海若镜对许多女性而言，经期不只是一次生理周期的重复，更是一场身心双重的考验。腹痛、头痛、疲劳、焦虑、易怒……这些经前期综合征（）带来的不适，严重时甚至会影响工作和生活。然而，目前主流的缓解方式仍然高度依赖止痛药，长期服药存在副作用风险，而物理热敷、休息调整固然能带来一定舒缓，却效果有限。有没有一种更温和、无创的方式，能安全有效地缓解经期不适？这一市场痛点，吸引……",
       "topics": [
         "产品应用",
-        "算力芯片",
+        "监管安全",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-2026-宣布在人工智能-苹果移动系统-27-苹果智能和",
-      "title": "2026: 宣布在人工智能，苹果移动系统 27，苹果智能和",
-      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "id": "techcrunch-ai-苹果人工智能开发者",
+      "title": "苹果人工智能开发者",
+      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-08T19:41:32.000Z",
-      "summary": "苹果面向改进借助助手，最帮助人工智能。",
+      "publishedAt": "2026-06-08T20:53:55.000Z",
+      "summary": "作为人工智能，苹果云服务接口成本面向开发者借助 2 百万首个，时间应用。",
       "topics": [
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2758,7 +2761,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2776,7 +2779,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
