@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-10T22:21:31.319Z",
+  "generatedAt": "2026-06-10T22:33:16.649Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-10T22:30:00.000Z",
+  "nextUpdateHint": "2026-06-10T23:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -18,13 +18,13 @@
     },
     {
       "name": "模型发布",
-      "count": 60,
+      "count": 62,
       "heat": 88
     },
     {
       "name": "监管安全",
-      "count": 34,
-      "heat": 83
+      "count": 35,
+      "heat": 85
     },
     {
       "name": "算力芯片",
@@ -42,14 +42,14 @@
       "heat": 75
     },
     {
-      "name": "多模态",
-      "count": 14,
-      "heat": 84
-    },
-    {
       "name": "投融资",
       "count": 13,
-      "heat": 84
+      "heat": 85
+    },
+    {
+      "name": "多模态",
+      "count": 13,
+      "heat": 85
     },
     {
       "name": "开源生态",
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-06-02T19:15:57.000Z",
-      "latestDisplayedAt": ""
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-06-09T17:00:00.000Z",
+      "latestDisplayedAt": "2026-06-09T17:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-09T19:38:28.000Z",
       "latestDisplayedAt": "2026-06-09T19:38:28.000Z"
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-10T20:19:31.000Z",
-      "latestDisplayedAt": "2026-06-10T20:19:31.000Z"
+      "latestFetchedAt": "2026-06-10T22:31:19.000Z",
+      "latestDisplayedAt": "2026-06-10T22:31:19.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
+      "itemCount": 2,
       "displayedCount": 2,
       "latestFetchedAt": "2026-06-08T19:30:05.000Z",
       "latestDisplayedAt": "2026-06-08T19:30:05.000Z"
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-10T11:37:32.000Z",
       "latestDisplayedAt": "2026-06-10T11:37:32.000Z"
     },
@@ -504,6 +504,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-工程师关于安全-新",
+      "title": "工程师关于安全，新",
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-10T22:31:19.000Z",
+      "summary": "工程师公司和，面向人工智能安全关于首次公开募股。",
+      "topics": [
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能和信息技术",
       "title": "人工智能和信息技术",
       "url": "https://www.reddit.com/r/artificial/comments/1u2g6nz/i_let_an_ai_read_my_bank_statement_and_it_roasted/",
@@ -535,22 +552,6 @@
         "开源生态"
       ],
       "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-亚马逊-17-5-十亿来自作为人工智能",
-      "title": "亚马逊 $17.5 十亿来自作为人工智能",
-      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-10T20:19:31.000Z",
-      "summary": "公司消耗资金向持续在人工智能。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 89,
       "image": ""
     },
     {
@@ -769,7 +770,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -785,7 +786,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -855,6 +856,24 @@
         "模型发布",
         "产品应用",
         "研究论文"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "microsoft-ai-blog-克劳德模型-5-可用在微软-驱动智能体",
+      "title": "克劳德模型 5 可用在微软 : 驱动智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/claude-fable-5-is-now-available-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "summary": "克劳德模型 5，人工智能安全公司前沿模型，可用在微软，驱动智能体在代码托管平台智能编程助手和智能体服务。克劳德模型 5 可用在微软 : 驱动智能体首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
       "heat": 85,
       "image": ""
@@ -926,6 +945,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-亚马逊-17-5-十亿来自作为人工智能",
+      "title": "亚马逊 $17.5 十亿来自作为人工智能",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-10T20:19:31.000Z",
+      "summary": "公司消耗资金向持续在人工智能。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "ithome-小米代码第0代-1-0-探索性人工智能编程助手发布并开源-基于二次开发-采用协议",
       "title": "小米代码第0代.1.0 探索性人工智能编程助手发布并开源：基于二次开发，采用协议",
       "url": "https://www.ithome.com/0/962/693.htm",
@@ -939,6 +974,23 @@
         "产品应用",
         "多模态",
         "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "openai-news-访问开放人工智能公司模型和智能编程工具云服务",
+      "title": "访问开放人工智能公司模型和智能编程工具云服务",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-10T20:00:00.000Z",
+      "summary": "访问开放人工智能公司模型和智能编程工具云服务，向构建和人工智能借助企业安全和。",
+      "topics": [
+        "模型发布",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -978,22 +1030,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能-7-500-员工月在人工智能",
-      "title": "人工智能，$7，500 员工月在人工智能",
-      "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-10T17:07:35.000Z",
-      "summary": "最人工智能，$7，500 员工在人工智能，人工智能。工程师。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-向训练模型在人工智能",
       "title": "向训练模型在人工智能",
       "url": "https://towardsdatascience.com/how-to-train-a-scoring-model-in-the-age-of-artificial-intelligence/",
@@ -1023,7 +1059,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1041,23 +1077,6 @@
         "开源生态"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "openai-news-人工智能在",
-      "title": "人工智能在",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-10T12:00:00.000Z",
-      "summary": "新来自开放人工智能公司人工智能向，数据中心，和关于智能聊天助手。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1107,7 +1126,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1176,7 +1195,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/nvidia-confidential-computing-apple-pcc.jpeg"
     },
     {
@@ -1368,6 +1387,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-人工智能-7-500-员工月在人工智能",
+      "title": "人工智能，$7，500 员工月在人工智能",
+      "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-10T17:07:35.000Z",
+      "summary": "最人工智能，$7，500 员工在人工智能，人工智能。工程师。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "ithome-苹果苹果手机-18-标准版有望升级-12-吉字节内存-但代价是退回相关型号-屏幕面板",
       "title": "苹果苹果手机 18 标准版有望升级 12 吉字节内存，但代价是退回相关型号+ 屏幕面板",
       "url": "https://www.ithome.com/0/962/691.htm",
@@ -1386,23 +1421,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-记忆工具人工智能模型",
-      "title": "记忆工具人工智能模型",
-      "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-10T16:11:08.000Z",
-      "summary": "新研究人工智能记忆模型性能和。",
-      "topics": [
-        "模型发布",
-        "研究论文"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
       "title": "数据科学实战社区发布人工智能相关动态。",
       "url": "https://towardsdatascience.com/bayesian-networks-and-markov-networks-an-intuitive-guide-to-structured-uncertainty/",
@@ -1415,7 +1433,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "openai-news-人工智能在",
+      "title": "人工智能在",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "summary": "新来自开放人工智能公司人工智能向，数据中心，和关于智能聊天助手。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -1482,7 +1517,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1519,22 +1554,6 @@
         "多模态"
       ],
       "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "openai-news-来自数据向决策-人工智能",
-      "title": "来自数据向决策: 人工智能",
-      "url": "https://openai.com/index/lseg",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-10T00:00:00.000Z",
-      "summary": "查看使用开放人工智能公司向规模人工智能全球企业，发布，和 4，000 员工。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
       "image": ""
     },
     {
@@ -1672,7 +1691,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://preview.redd.it/kdo9vytzfi6h1.png?width=140&height=105&auto=webp&s=78876918965e94bf3e855f337d92dbe98ee03b25"
     },
     {
@@ -1693,6 +1712,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-记忆工具人工智能模型",
+      "title": "记忆工具人工智能模型",
+      "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-10T16:11:08.000Z",
+      "summary": "新研究人工智能记忆模型性能和。",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "ithome-鸿蒙-7-发布已板上钉-ì-钉-华为-2026-开发者大会议题公布-将带来全新",
       "title": "鸿蒙 7 发布已板上钉（ì）钉：华为 2026 开发者大会议题公布，将带来全新",
       "url": "https://www.ithome.com/0/962/688.htm",
@@ -1706,24 +1742,6 @@
         "产品应用"
       ],
       "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-研究关于在人工智能安全公司",
-      "title": "研究关于在人工智能安全公司",
-      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-10T15:41:22.000Z",
-      "summary": "研究人工智能安全公司新模型面向。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1846,6 +1864,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-来自数据向决策-人工智能",
+      "title": "来自数据向决策: 人工智能",
+      "url": "https://openai.com/index/lseg",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "summary": "查看使用开放人工智能公司向规模人工智能全球企业，发布，和 4，000 员工。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-lg-论文新进展-工程仿真-自然语言处理方向研究",
       "title": "论文新进展：工程仿真、自然语言处理方向研究",
       "url": "https://arxiv.org/abs/2606.11162v1",
@@ -1897,24 +1931,6 @@
         "研究论文"
       ],
       "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "openai-news-工程师在使用智能编程工具向构建限制",
-      "title": "工程师在使用智能编程工具向构建限制",
-      "url": "https://openai.com/index/nextdoor",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "工程师在使用智能编程工具借助新一代语言模型向，向，构建平台，和在产品。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 84,
       "image": ""
     },
     {
@@ -2038,21 +2054,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-推出人工智能编程创业公司在人工智能-在",
-      "title": "推出人工智能编程创业公司在人工智能，在",
-      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "id": "techcrunch-ai-研究关于在人工智能安全公司",
+      "title": "研究关于在人工智能安全公司",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-10T15:00:00.000Z",
-      "summary": "人工智能编程智能体创业公司 $7 百万来自。信息技术公司驱动，在借助模型。",
+      "publishedAt": "2026-06-10T15:41:22.000Z",
+      "summary": "研究人工智能安全公司新模型面向。",
       "topics": [
         "模型发布",
         "产品应用",
-        "投融资"
+        "监管安全"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2088,7 +2104,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2178,19 +2194,21 @@
       "image": ""
     },
     {
-      "id": "openai-news-智能编程工具解锁面向",
-      "title": "智能编程工具解锁面向",
-      "url": "https://openai.com/index/notion",
+      "id": "openai-news-工程师在使用智能编程工具向构建限制",
+      "title": "工程师在使用智能编程工具向构建限制",
+      "url": "https://openai.com/index/nextdoor",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "summary": "使用智能编程工具向，构建人工智能面向，和驱动团队。",
+      "publishedAt": "2026-06-09T12:00:00.000Z",
+      "summary": "工程师在使用智能编程工具借助新一代语言模型向，向，构建平台，和在产品。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 64,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2275,7 +2293,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": "https://external-preview.redd.it/YxIxKcXOCXgBCtSuAJrhd6vQGn-26r9-J4JXnj9OJcY.jpeg?width=640&crop=smart&auto=webp&s=4127113177e62fe4811fd5709d28f9d38e122b8a"
     },
     {
@@ -2311,19 +2329,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-首次公开募股",
-      "title": "首次公开募股",
-      "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
+      "id": "techcrunch-ai-推出人工智能编程创业公司在人工智能-在",
+      "title": "推出人工智能编程创业公司在人工智能，在",
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-10T14:48:01.000Z",
-      "summary": "最在首次公开募股呼吁在公司数据中心。",
+      "publishedAt": "2026-06-10T15:00:00.000Z",
+      "summary": "人工智能编程智能体创业公司 $7 百万来自。信息技术公司驱动，在借助模型。",
       "topics": [
+        "模型发布",
+        "产品应用",
         "投融资"
       ],
-      "heat": 85,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2341,7 +2361,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2428,19 +2448,19 @@
       "image": ""
     },
     {
-      "id": "openai-news-政策面向智能",
-      "title": "政策面向智能",
-      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "id": "openai-news-智能编程工具解锁面向",
+      "title": "智能编程工具解锁面向",
+      "url": "https://openai.com/index/notion",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-09T00:00:00.000Z",
-      "summary": "探索，首个政策面向人工智能在，和构建作为高级智能。",
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "summary": "使用智能编程工具向，构建人工智能面向，和驱动团队。",
       "topics": [
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 56,
+      "heat": 64,
       "image": ""
     },
     {
@@ -2564,20 +2584,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能创业公司人工智能",
-      "title": "人工智能创业公司人工智能",
-      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+      "id": "techcrunch-ai-首次公开募股",
+      "title": "首次公开募股",
+      "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-10T14:31:30.000Z",
-      "summary": "目标是向更好使用在人工智能，生成面向训练人工智能模型。",
+      "publishedAt": "2026-06-10T14:48:01.000Z",
+      "summary": "最在首次公开募股呼吁在公司数据中心。",
       "topics": [
-        "模型发布",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2611,7 +2630,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2628,7 +2647,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2662,7 +2681,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2700,6 +2719,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-政策面向智能",
+      "title": "政策面向智能",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "summary": "探索，首个政策面向人工智能在，和构建作为高级智能。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "wired-ai-元宇宙平台公司来自应用连线杂志",
       "title": "元宇宙平台公司来自应用连线杂志",
       "url": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
@@ -2730,23 +2765,6 @@
         "产品应用"
       ],
       "heat": 61,
-      "image": ""
-    },
-    {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-08T01:30:00.000Z",
-      "summary": "视觉面向未来人工智能，在访问，安全，和分享作为开放人工智能公司向通用人工智能帮助。",
-      "topics": [
-        "监管安全",
-        "多模态"
-      ],
-      "heat": 68,
       "image": ""
     },
     {
@@ -2816,17 +2834,17 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-24-百万向帮助公司人工智能智能体借助上下文在企业",
-      "title": "$24 百万向帮助公司人工智能智能体借助上下文在企业",
-      "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+      "id": "techcrunch-ai-人工智能创业公司人工智能",
+      "title": "人工智能创业公司人工智能",
+      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-10T13:33:09.000Z",
-      "summary": "融资由，借助来自，合作伙伴，和。作为战略。",
+      "publishedAt": "2026-06-10T14:31:30.000Z",
+      "summary": "目标是向更好使用在人工智能，生成面向训练人工智能模型。",
       "topics": [
-        "产品应用",
+        "模型发布",
         "投融资"
       ],
       "heat": 89,
@@ -2848,22 +2866,6 @@
         "监管安全"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "oschina-电商搜索相关型号提升人工智能-编程质量实践",
-      "title": "电商搜索相关型号提升人工智能-编程质量实践 &",
-      "url": "https://my.oschina.net/u/4939618/blog/19693981",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-10T02:58:00.000Z",
-      "summary": "人工智能-编程时代，质量管理的核心从 “是否管” 转向 “如何管”。通过建立工程基础设施与全栈能力组织形态，结合三层约束框架（输入 / 生成 / 输出），可系统化提升人工智能生成代码的质量与可控性。与的协作目标对齐为 “让人工智能代码安全上线”，协作模式从线性交接升级为闭环共建，左移至标准制定阶段。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 70,
       "image": ""
     }
   ]
