@@ -1,40 +1,45 @@
 {
-  "generatedAt": "2026-06-12T09:29:28.426Z",
+  "generatedAt": "2026-06-12T09:59:49.522Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-12T09:30:00.000Z",
+  "nextUpdateHint": "2026-06-12T10:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-12T09:28:16.000Z"
+    "latestPublishedAt": "2026-06-12T09:55:54.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 66,
+      "count": 65,
       "heat": 81
     },
     {
       "name": "模型发布",
-      "count": 51,
-      "heat": 87
+      "count": 48,
+      "heat": 86
     },
     {
       "name": "监管安全",
-      "count": 26,
-      "heat": 86
-    },
-    {
-      "name": "研究论文",
-      "count": 26,
-      "heat": 86
+      "count": 24,
+      "heat": 85
     },
     {
       "name": "算力芯片",
-      "count": 22,
+      "count": 23,
       "heat": 87
+    },
+    {
+      "name": "研究论文",
+      "count": 23,
+      "heat": 85
+    },
+    {
+      "name": "多模态",
+      "count": 16,
+      "heat": 90
     },
     {
       "name": "人工智能动态",
@@ -52,13 +57,8 @@
       "heat": 83
     },
     {
-      "name": "多模态",
-      "count": 13,
-      "heat": 89
-    },
-    {
       "name": "投融资",
-      "count": 10,
+      "count": 11,
       "heat": 80
     },
     {
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-06-11T00:00:00.000Z",
       "latestDisplayedAt": "2026-06-11T00:00:00.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
+      "itemCount": 2,
       "displayedCount": 2,
       "latestFetchedAt": "2026-06-08T19:30:05.000Z",
       "latestDisplayedAt": "2026-06-08T19:30:05.000Z"
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-12T09:26:18.000Z",
-      "latestDisplayedAt": "2026-06-12T09:13:05.000Z"
+      "latestFetchedAt": "2026-06-12T09:48:20.000Z",
+      "latestDisplayedAt": "2026-06-12T09:48:20.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -433,8 +433,8 @@
       "fallbackReason": "",
       "itemCount": 9,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-06-12T09:16:23.000Z",
-      "latestDisplayedAt": "2026-06-12T09:16:23.000Z"
+      "latestFetchedAt": "2026-06-12T09:55:54.000Z",
+      "latestDisplayedAt": "2026-06-12T09:55:54.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 13,
-      "latestFetchedAt": "2026-06-12T09:28:16.000Z",
-      "latestDisplayedAt": "2026-06-12T09:28:16.000Z"
+      "latestFetchedAt": "2026-06-12T09:54:22.000Z",
+      "latestDisplayedAt": "2026-06-12T09:54:22.000Z"
     },
     {
       "id": "oschina",
@@ -479,62 +479,62 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
+      "itemCount": 11,
       "displayedCount": 11,
-      "latestFetchedAt": "2026-06-12T06:28:00.000Z",
-      "latestDisplayedAt": "2026-06-12T06:28:00.000Z"
+      "latestFetchedAt": "2026-06-12T07:38:00.000Z",
+      "latestDisplayedAt": "2026-06-12T07:38:00.000Z"
     }
   ],
   "failures": [],
   "items": [
     {
-      "id": "ithome-长安总经理赵非-呼吁行业不要夸大宣传辅助驾驶功能-不要误导用户",
-      "title": "长安总经理赵非：呼吁行业不要夸大宣传辅助驾驶功能，不要误导用户",
-      "url": "https://www.ithome.com/0/963/615.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T09:28:16.000Z",
-      "summary": "科技之家 6 月 12 日消息，在今天的 2026 中国汽车重庆论坛上，中国长安汽车集团有限公司总经理赵非在发言中提到，科技创新必须解决真实痛点。赵非直言，过去一些科技创新脱离了实际使用场景，用户感知不到价值，甚至还有“反人类的设计”。“我们必须清醒地认识到，科技必须解决真实痛点，为用户的日常出行带来体验升级，让用户从不敢用、用得别扭到用得放心、用得舒心。” 赵非重申，公司始……",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-腾讯云-下调相关型号与相关型号-专业版模型价格",
-      "title": "腾讯云：下调相关型号与相关型号-专业版模型价格",
-      "url": "https://36kr.com/newsflashes/3849974304117760?f=rss",
+      "id": "thirty-six-kr-金山云-人工智能算力相关产品服务上调约15-50",
+      "title": "金山云：人工智能算力相关产品服务上调约15%-50%",
+      "url": "https://36kr.com/newsflashes/3850013147256064?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T09:16:23.000Z",
-      "summary": "36氪获悉，腾讯云公告，大模型服务平台将于北京时间2026年6月15日起下调相关型号模型价格，推理输入、推理输出及缓存命中费用均下调50%。大模型服务平台将于北京时间2026年6月12日起下调相关型号-专业版模型价格，输入价格下调66.67%、输出价格下调55.56%。",
+      "publishedAt": "2026-06-12T09:55:54.000Z",
+      "summary": "36氪获悉，据金山云官网，因全球人工智能算力需求攀升，硬件成本上涨，将对部分产品价格进行调整。人工智能算力相关产品服务价格上调约15%-50%，文件存储相关产品服务价格上调约30%-50%。调整将于北京时间2026年7月12日00:00:00起生效。存量订单在当前计费周期内不受影响，新价格在下一个计费周期开始时适用。",
       "topics": [
-        "模型发布"
+        "算力芯片"
       ],
-      "heat": 96,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "reddit-artificial-5-在-48-这里实际面向构建客户-人工智能",
-      "title": "5 在 48。这里实际面向构建客户，人工智能。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3q6hu/fable_5s_guardrails_got_bypassed_in_48_hours/",
+      "id": "ithome-推出液冷散热器-圆形数显冷头屏-可选-240-360-规格",
+      "title": "推出液冷散热器：圆形数显冷头屏，可选 240 / 360 规格",
+      "url": "https://www.ithome.com/0/963/633.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T09:54:22.000Z",
+      "summary": "科技之家 6 月 12 日消息，电脑机电散品牌本周宣布推出处理器一体式 () 液冷散热器新品。这一型号包含 240 与 360 两种规格，均可选黑色或白色外观。液冷的冷头三维 75×75×54 ()，集成了一款圆形的数显屏幕，可同时显示中央处理器温度、图形处理器温度、中央处理器利用率和利用率 4 项数据，用户无需屏幕上的软件叠加层即可快速掌握电脑运行状态。兼容英特尔 1851……",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-生成图像在借助-图像-2",
+      "title": "生成图像在借助，图像 2？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3qrlf/how_do_i_generated_images_in_a_controlled_way/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T09:13:05.000Z",
-      "summary": "信息技术: 人工智能安全公司克劳德模型 5 在 48 在，人工智能安全公司推出克劳德模型 5，首个可用模型。信息技术交付借助在模型和，向旗舰模型 4.8 借助。人工智能安全公司据报道 1，000 推出和。信息技术在 48。使用值得 : 和向，上下文向和和持续即将推出向，信息技术进入。在，信息技术。模型进入作为单个。评估。问题新增向。和。来自数据在。在 : 上下文向构建。风险在……",
+      "publishedAt": "2026-06-12T09:48:20.000Z",
+      "summary": "工作流和解决在正确。: 谷歌面向图像生成面向，图像 2 访问接口来自开放人工智能公司，试图向工作流向，图像 2 接口平台。控制，时间借助，图像 2 在，向构建图像工作流信息技术，: 最顺利面向，图像，工作流借助: 接口支持，图像 2 访问图像，首个，图像生成和面向平台。试图向支持工作流，最，图像 2 接口构建。面向图像接口平台？由",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -554,6 +554,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-吴泳铭投出来的-开始正面迎战阿里",
+      "title": "吴泳铭投出来的，开始正面迎战阿里",
+      "url": "https://news.cnblogs.com/n/823994/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T07:38:00.000Z",
+      "summary": "文，新立场专业版 6 月 8 日，一段视频被上传到官方社区，有用户戴着上了飞机，把春秋航空的空姐拍进了镜头，并上传至网络，当事人毫不知情。事件发生第二天，南方都市报记者进入人工智能社区，发现里面存在大量类似内容，地铁、公园、商圈，全是路本文链接",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "qbitai-人工智能安全公司老大的唯一-1-就是人工智能股神的未婚妻",
       "title": "人工智能安全公司老大的唯一 -1，就是人工智能股神的未婚妻",
       "url": "https://www.qbitai.com/2026/06/433717.html",
@@ -566,7 +582,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -604,22 +620,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-大厂人工智能的-包身工困境",
-      "title": "大厂人工智能的“包身工困境”",
-      "url": "https://news.cnblogs.com/n/823987/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T06:28:00.000Z",
-      "summary": "文，智械岛，作者，沈怀铮一个朴素的问题：人工智能到底为谁服务？七万多字离职长文《置身钉内》，从阿里内网流传至外部被广泛阅读；腾讯云人工智能产业应用大会上，腾讯云负责人汤道生问腾讯人工智能负责人姚顺雨“腾讯人工智能是不是慢了？”，结果被反问“感觉应该是我问你的问题”。前者代表大厂里那些沉默本文链接",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-只是-85-百万向构建机器人在",
       "title": "只是 $85 百万向构建机器人在",
       "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
@@ -632,7 +632,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -665,7 +665,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
     },
     {
@@ -701,7 +701,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -733,7 +733,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -785,7 +785,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -907,56 +907,70 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-6-1152x648.png"
     },
     {
-      "id": "ithome-哈啰电助力车用上海思谛听模组-交互屏集成开源鸿蒙-星闪-人工智能-高精定位-4-克通信",
-      "title": "哈啰电助力车用上海思谛听模组，交互屏集成开源鸿蒙、星闪、人工智能、高精定位、4 克通信",
-      "url": "https://www.ithome.com/0/963/612.htm",
+      "id": "ithome-广告引证内容执法指南-出台-进一步遏制-大字吸睛-小字免责-等违法广告",
+      "title": "《广告引证内容执法指南》出台，进一步遏制“大字吸睛、小字免责”等违法广告",
+      "url": "https://www.ithome.com/0/963/628.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T09:19:17.000Z",
-      "summary": "科技之家 6 月 12 日消息，据上海海思今日消息，哈啰骑行把手表级的高清屏塞进了电助力车，亮相 2026 华为开发者大会。这块哈啰相关型号电助力车载交互屏，让两轮车升级为一台集开源鸿蒙、星闪、人工智能、高精定位、4 克通信为一体的轻智能终端。该交互屏搭载一颗上海海思谛听模组 （以下简称“海思谛听模组”），集成了轻量化三维图形处理器，仪表盘能够呈现三维动态效果，随时升级表盘“……",
+      "publishedAt": "2026-06-12T09:41:37.000Z",
+      "summary": "科技之家 6 月 12 日消息，市场监管总局聚焦商业广告引证内容，出台《广告引证内容执法指南》（以下简称《指南》），旨在进一步完善广告监管制度体系，规范市场监管部门广告引证内容监管工作，帮助广告活动主体提升广告引证内容合规能力。明确适用范围。《指南》明确“广告引证内容”“引证广告”等概念及其应当遵守的一般性原则，强调广告主依法应当对引证内容等广告内容的真实性、准确性、合法性负……",
       "topics": [
-        "产品应用",
-        "算力芯片",
+        "监管安全",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-双子座模型-3-5-内容平台",
-      "title": "双子座模型 3.5 内容平台",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3pluw/gemini_35_flash_medium_going_insane_unexpectedly/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T08:38:49.000Z",
-      "summary": "在，: 信息技术和信息技术！和向。: 和查看信息技术在实时。信息技术在质量。转化。向查看信息技术创业公司。转化。向查看。转化。转化。转化，向向人工智能。上下文: 修复向应用，和双子座模型代码作为，双子座模型，转化和？面向在查看作为。由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": "https://preview.redd.it/kby9z66hct6h1.png?width=320&crop=smart&auto=webp&s=87304bbfa822aeda9f426cfd68f06256aadbfe74"
-    },
-    {
-      "id": "thirty-six-kr-万马股份-机器人电缆从互联集成线缆向本体线缆和线束延伸并实现批量交付",
-      "title": "万马股份：机器人电缆从互联集成线缆向本体线缆和线束延伸并实现批量交付",
-      "url": "https://36kr.com/newsflashes/3849929188119813?f=rss",
+      "id": "thirty-six-kr-腾讯云-下调相关型号与相关型号-专业版模型价格",
+      "title": "腾讯云：下调相关型号与相关型号-专业版模型价格",
+      "url": "https://36kr.com/newsflashes/3849974304117760?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:30:29.000Z",
-      "summary": "36氪获悉，万马股份公告，目前，公司特种智能装备线缆已成熟应用于工业机器人领域，同时成功进入人形机器人、机器狗等新兴具身智能领域。在市场合作方面，公司已与国际知名机器人制造商及国内工控领域头部企业合作。公司的机器人电缆从互联集成线缆向本体线缆和线束延伸并实现批量交付，拖链动态线缆成功实现进口替代；新能源精密设备用线缆线束产能规模持续提升。公司成功从核心零部件供应商升级为面向终……",
+      "publishedAt": "2026-06-12T09:16:23.000Z",
+      "summary": "36氪获悉，腾讯云公告，大模型服务平台将于北京时间2026年6月15日起下调相关型号模型价格，推理输入、推理输出及缓存命中费用均下调50%。大模型服务平台将于北京时间2026年6月12日起下调相关型号-专业版模型价格，输入价格下调66.67%、输出价格下调55.56%。",
       "topics": [
-        "产品应用",
-        "机器人"
+        "模型发布"
       ],
-      "heat": 92,
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-5-在-48-这里实际面向构建客户-人工智能",
+      "title": "5 在 48。这里实际面向构建客户，人工智能。",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3q6hu/fable_5s_guardrails_got_bypassed_in_48_hours/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T09:13:05.000Z",
+      "summary": "信息技术: 人工智能安全公司克劳德模型 5 在 48 在，人工智能安全公司推出克劳德模型 5，首个可用模型。信息技术交付借助在模型和，向旗舰模型 4.8 借助。人工智能安全公司据报道 1，000 推出和。信息技术在 48。使用值得 : 和向，上下文向和和持续即将推出向，信息技术进入。在，信息技术。模型进入作为单个。评估。问题新增向。和。来自数据在。在 : 上下文向构建。风险在……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-钉钉火线换帅-阿里自我迭代",
+      "title": "钉钉火线换帅，阿里自我迭代",
+      "url": "https://news.cnblogs.com/n/823993/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T07:30:00.000Z",
+      "summary": "“人工智能时代，当机器可以代替很多人可以做的事，人成为了我们最宝贵的财富。” 6 月 10 日，阿里内网贴文《有情有义有成长，才是阿里文化》刷屏。这篇署名合伙人委员会的文章回应了此前《置身钉内》引发的争议，不乏措辞严厉之处。而更重要的，则是为人工智能时代的阿里文化和组织管理方式定调。其中谈到，“相互本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -972,7 +986,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1007,22 +1021,6 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-选择暴力-克劳德模型走向独裁-人工智能的虚拟社会有多可怕",
-      "title": "选择暴力，克劳德模型走向独裁：人工智能的虚拟社会有多可怕",
-      "url": "https://news.cnblogs.com/n/823986/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T06:20:00.000Z",
-      "summary": "文，摩登人工智能在一场美国实验室发起的人工智能生存实验中，同一套生存规则下，五种大模型跑出了五种截然不同的文明命运。实验开始第 5 天，相关型号的社会因暴力失导致毁灭，后台记录了 183 起犯罪。与此同时，克劳德模型管理的社会 15 天零犯罪；双子座模型的世界 683 起纵火却本文链接",
-      "topics": [
-        "模型发布"
-      ],
       "heat": 91,
       "image": ""
     },
@@ -1055,7 +1053,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1072,7 +1070,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1090,7 +1088,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1125,7 +1123,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1176,7 +1174,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/diffusiongemma-nv-blog-1280x680-1.jpg"
     },
     {
@@ -1193,7 +1191,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1279,34 +1277,52 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgenticRAG_Cover.png"
     },
     {
-      "id": "ithome-腾讯代理国服-弧光猎人-开启首次测试招募-6-月-24-日开启首测",
-      "title": "腾讯代理国服《弧光猎人》开启首次测试招募，6 月 24 日开启首测",
-      "url": "https://www.ithome.com/0/963/607.htm",
+      "id": "ithome-美的全屋智能接入微信人工智能生态-已完成空调-热水器-洗衣机等全屋家电接入适配",
+      "title": "美的全屋智能接入微信人工智能生态，已完成空调、热水器、洗衣机等全屋家电接入适配",
+      "url": "https://www.ithome.com/0/963/619.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:57:13.000Z",
-      "summary": "科技之家 6 月 12 日消息，由腾讯代理发行的第三人称撤离射击冒险游戏《 》国服版本《弧光猎人》今日正式开启首测【弧光测试】招募报名（截至 6 月 18 日 23:59:59），将于 6 月 24 日开始测试。此次测试属于删档 · 不付费测试，仅限电脑平台，配置要求英特尔酷睿相关型号或相关型号 1600 处理器及以上、至少 12 吉字节内存，显卡最低要求英伟达 1050、5……",
+      "publishedAt": "2026-06-12T09:33:41.000Z",
+      "summary": "科技之家 6 月 12 日消息，美的集团 12 日（今天）宣布，美的作为首批全屋智能内测企业，已完成空调、热水器、洗衣机、空气净化器、烟机等核心全屋家电接入适配，并持续拓展冰箱、电风扇、扫地机器人等品类接入。通过微信人工智能智能体为用户提供自然语言控制能力，用户可以实现美的设备开关、模式调节、状态查询等高频场景。美的方面称，未来，双方将进一步拓展更多全屋智控场景、探索售前、简……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "产品应用",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能实际-信息技术在",
-      "title": "人工智能实际，信息技术在",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3o1rl/has_an_ai_ever_actually_made_you_feel_understood/",
+      "id": "reddit-artificial-双子座模型-3-5-内容平台",
+      "title": "双子座模型 3.5 内容平台",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3pluw/gemini_35_flash_medium_going_insane_unexpectedly/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T07:05:56.000Z",
-      "summary": "人工智能时刻模型更好。和信息技术只是，由，和。信息技术。面向信息技术，信息技术问题在每个信息技术。信息技术向修复只是向信息技术。实际信息技术？向。面向。由",
+      "publishedAt": "2026-06-12T08:38:49.000Z",
+      "summary": "在，: 信息技术和信息技术！和向。: 和查看信息技术在实时。信息技术在质量。转化。向查看信息技术创业公司。转化。向查看。转化。转化。转化，向向人工智能。上下文: 修复向应用，和双子座模型代码作为，双子座模型，转化和？面向在查看作为。由",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": "https://preview.redd.it/kby9z66hct6h1.png?width=320&crop=smart&auto=webp&s=87304bbfa822aeda9f426cfd68f06256aadbfe74"
+    },
+    {
+      "id": "cnblogs-news-赛豆-赛力斯的出路-火山引擎的标杆",
+      "title": "赛豆：赛力斯的出路，火山引擎的标杆",
+      "url": "https://news.cnblogs.com/n/823992/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T07:20:00.000Z",
+      "summary": "文，光锥智能，作者｜白鸽，编辑｜王一粟从最高点腰斩，市值蒸发超 1500 亿元的赛力斯，正在积极寻找一个新的估值叙事。现在，这个新的估值叙事，被赛力斯押注在了赛豆科技上。6 月 9 日，赛豆科技在北京正式亮相，发布全新汽车品牌——（简称艾娃），并提出了“人工智能定义汽车，先有人工智能本文链接",
+      "topics": [
+        "投融资"
       ],
       "heat": 84,
       "image": ""
@@ -1343,23 +1359,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-人工智能给土豆编了一门学科-我去查了查-它竟然是真的",
-      "title": "人工智能给土豆编了一门学科，我去查了查，它竟然是真的",
-      "url": "https://news.cnblogs.com/n/823983/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T05:55:00.000Z",
-      "summary": "一颗土豆，表皮上爬满发光电路，焦黄的皮和银色走线贴在一起，像是英伟达和肯德基联名了。标题端端正正：芯片 ——一颗土豆如何颠覆半导体行业。这是我们给人工智能出的题：「做一份《土豆芯片科技峰会：一颗土豆如何颠覆半导体行业》的英文，20-25 页，面向大本文链接",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 91,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1427,7 +1427,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1479,7 +1479,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1497,7 +1497,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1553,20 +1553,51 @@
       "image": ""
     },
     {
-      "id": "ithome-商汤开源相关型号图文交错生成增强版模型-支持多页连续创作-角色风格不-跑偏",
-      "title": "商汤开源相关型号图文交错生成增强版模型：支持多页连续创作，角色风格不“跑偏”",
-      "url": "https://www.ithome.com/0/963/606.htm",
+      "id": "ithome-长安总经理赵非-呼吁行业不要夸大宣传辅助驾驶功能-不要误导用户",
+      "title": "长安总经理赵非：呼吁行业不要夸大宣传辅助驾驶功能，不要误导用户",
+      "url": "https://www.ithome.com/0/963/615.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:56:37.000Z",
-      "summary": "科技之家 6 月 12 日消息，商汤科技今日宣布开源商汤日日新相关型号系列新成员 —— 相关型号十亿- 图文交错增强版模型。官方表示，该模型面向图文交错创作与生成（ ）场景进行了专项强化，更好地支持绘本、故事书、多页、图文教程等连续内容创作，解决传统多模态模型“多轮生成后角色形象飘移、画风断裂、图文脱节”等痛点。据介绍，该模型核心升级主要体现在四个方面：叙事一致性与角色连贯性……",
+      "publishedAt": "2026-06-12T09:28:16.000Z",
+      "summary": "科技之家 6 月 12 日消息，在今天的 2026 中国汽车重庆论坛上，中国长安汽车集团有限公司总经理赵非在发言中提到，科技创新必须解决真实痛点。赵非直言，过去一些科技创新脱离了实际使用场景，用户感知不到价值，甚至还有“反人类的设计”。“我们必须清醒地认识到，科技必须解决真实痛点，为用户的日常出行带来体验升级，让用户从不敢用、用得别扭到用得放心、用得舒心。” 赵非重申，公司始……",
       "topics": [
-        "多模态",
-        "开源生态"
+        "监管安全"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-10个亿的高考报考小生意-大厂为何抢破头",
+      "title": "10个亿的高考报考小生意，大厂为何抢破头？",
+      "url": "https://news.cnblogs.com/n/823991/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T07:10:00.000Z",
+      "summary": "文，财经故事荟高考结束了，大厂开战了。阿里、百度、腾讯，已经开始抢考生了。6 月 10 日，千问上线高考志愿填报智能体，自称国内首款全周期高考志愿填报智能体，要为每位考生配备一位人工智能高考志愿填报专家。就在同一天，百度号称高考服务全面升级方案，推出全新的人工智能志愿报告，并引入业本文链接",
+      "topics": [
+        "产品应用"
       ],
       "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能实际-信息技术在",
+      "title": "人工智能实际，信息技术在",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3o1rl/has_an_ai_ever_actually_made_you_feel_understood/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T07:05:56.000Z",
+      "summary": "人工智能时刻模型更好。和信息技术只是，由，和。信息技术。面向信息技术，信息技术问题在每个信息技术。信息技术向修复只是向信息技术。实际信息技术？向。面向。由",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -1583,23 +1614,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-用了两天苹果移动系统-27-我-人工智能-上了",
-      "title": "用了两天苹果移动系统 27，我「人工智能」上了",
-      "url": "https://news.cnblogs.com/n/823982/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T05:48:00.000Z",
-      "summary": "周四晚上，我在床上举着苹果手机，在对话框里打下了一个从来没问过的问题？（，你觉得我怎么样？） 苹果移动系统 27 的等待音响了几秒钟，就给出了回答：’ 本文链接",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 83,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1619,22 +1634,6 @@
       ],
       "heat": 99,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-相关型号-100-人工智能-生成-没有",
-      "title": "相关型号 100% 人工智能，生成。: 没有？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3lmrn/this_2000s_photo_is_100_aigenerated_be_honest_how/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T04:52:30.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 82,
-      "image": "https://preview.redd.it/6s39nfwv8s6h1.jpeg?width=640&crop=smart&auto=webp&s=01fa1fafd9f0437ef3e2b14dbc2752e9c87181a6"
     },
     {
       "id": "qbitai-杀入具身智能-跨维把机器人数据带上快车道",
@@ -1719,7 +1718,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1736,7 +1735,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1752,7 +1751,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1789,38 +1788,54 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/london-tech-week-2026-key-visual.jpeg"
     },
     {
-      "id": "ithome-鸿蒙鸿蒙系统-7-正式发布-从-万物互联-正式迈进-智能体时代-华为相关型号系列今秋首发搭载",
-      "title": "鸿蒙鸿蒙系统 7 正式发布：从“万物互联”正式迈进“智能体时代”，华为相关型号系列今秋首发搭载",
-      "url": "https://www.ithome.com/0/963/594.htm",
+      "id": "ithome-哈啰电助力车用上海思谛听模组-交互屏集成开源鸿蒙-星闪-人工智能-高精定位-4-克通信",
+      "title": "哈啰电助力车用上海思谛听模组，交互屏集成开源鸿蒙、星闪、人工智能、高精定位、4 克通信",
+      "url": "https://www.ithome.com/0/963/612.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:31:37.000Z",
-      "summary": "科技之家 6 月 12 日消息，在今日举行的华为开发者大会 2026（ 2026）上，华为常务董事、产品投资评审委员会主任、终端董事长余承东推出了全新的鸿蒙系统 7 全场景智能操作系统。华为相关型号系列首发搭载鸿蒙系统 7 正式版，将于今年秋季发布（同时还将首发基于 τ 定律的麒麟 2026 芯片）。届时，鸿蒙系统 7 正式版也将面向其他设备开放。鸿蒙系统 7 主打人工智能智……",
+      "publishedAt": "2026-06-12T09:19:17.000Z",
+      "summary": "科技之家 6 月 12 日消息，据上海海思今日消息，哈啰骑行把手表级的高清屏塞进了电助力车，亮相 2026 华为开发者大会。这块哈啰相关型号电助力车载交互屏，让两轮车升级为一台集开源鸿蒙、星闪、人工智能、高精定位、4 克通信为一体的轻智能终端。该交互屏搭载一颗上海海思谛听模组 （以下简称“海思谛听模组”），集成了轻量化三维图形处理器，仪表盘能够呈现三维动态效果，随时升级表盘“……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "cnblogs-news-豆包专业版开放灰度测试-最高档年费超五千元",
-      "title": "豆包专业版开放灰度测试，最高档年费超五千元",
-      "url": "https://news.cnblogs.com/n/823981/",
+      "id": "cnblogs-news-大厂人工智能的-包身工困境",
+      "title": "大厂人工智能的“包身工困境”",
+      "url": "https://news.cnblogs.com/n/823987/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T05:40:00.000Z",
-      "summary": "6 月 10 日消息，字节跳动旗下人工智能应用豆包已针对付费订阅开放灰度测试，今日有多位用户反馈在使用豆包专家模式时收到了“豆包专业版”付费订阅提醒。而根据 36 氪爆料，豆包预计将在 6 月下旬正式上线付费订阅服务，并于同期举行的大会上公布相关功能更新。信息技术之家此前报道，早在今本文链接",
+      "publishedAt": "2026-06-12T06:28:00.000Z",
+      "summary": "文，智械岛，作者，沈怀铮一个朴素的问题：人工智能到底为谁服务？七万多字离职长文《置身钉内》，从阿里内网流传至外部被广泛阅读；腾讯云人工智能产业应用大会上，腾讯云负责人汤道生问腾讯人工智能负责人姚顺雨“腾讯人工智能是不是慢了？”，结果被反问“感觉应该是我问你的问题”。前者代表大厂里那些沉默本文链接",
       "topics": [
         "产品应用"
       ],
       "heat": 83,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-相关型号-100-人工智能-生成-没有",
+      "title": "相关型号 100% 人工智能，生成。: 没有？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3lmrn/this_2000s_photo_is_100_aigenerated_be_honest_how/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T04:52:30.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 81,
+      "image": "https://preview.redd.it/6s39nfwv8s6h1.jpeg?width=640&crop=smart&auto=webp&s=01fa1fafd9f0437ef3e2b14dbc2752e9c87181a6"
     },
     {
       "id": "leiphone-6月15日上会-燧原科技营收三年高增-盈利拐点渐近",
@@ -1841,22 +1856,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-认为上下文智能体在",
-      "title": "认为上下文智能体在",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3kemd/i_think_long_context_agents_are_failing_in_a_very/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T03:48:50.000Z",
-      "summary": "认为上下文实际。面向，相关型号词元记忆。信息技术只是智能体向。: 信息技术，工具，信息技术借助任务。智能体上下文 : 向，向，向，和向。由",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 81,
-      "image": ""
-    },
-    {
       "id": "oschina-人工智能生成网站正在-化",
       "title": "人工智能生成网站正在“ 化”",
       "url": "https://www.oschina.net/news/457263",
@@ -1869,7 +1868,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1923,7 +1922,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1939,7 +1938,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1971,7 +1970,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2027,57 +2026,53 @@
       "image": ""
     },
     {
-      "id": "ithome-2027-款丰田赛那上市-搭载华为与小米车端硬件接口-权益价-24-28-万元起",
-      "title": "2027 款丰田赛那上市：搭载华为与小米车端硬件接口，权益价 24.28 万元起",
-      "url": "https://www.ithome.com/0/963/590.htm",
+      "id": "ithome-腾讯代理国服-弧光猎人-开启首次测试招募-6-月-24-日开启首测",
+      "title": "腾讯代理国服《弧光猎人》开启首次测试招募，6 月 24 日开启首测",
+      "url": "https://www.ithome.com/0/963/607.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:29:33.000Z",
-      "summary": "科技之家 6 月 12 日消息，广汽丰田今日宣布，2027 款赛那正式上市，官方称之为“ 蓝牌新能源 ”，入门等级新增四驱可选，权益价 24.28 万元起：舒适版：权益价 24.28 万元起四驱舒适版：权益价 25.48 万元起光辉版：权益价 31.68 万元起新车外观整体延续老款赛那设计，车身尺寸为长宽高 5165/1995/1765 毫米，轴距 3060 毫米；中控屏尺寸……",
+      "publishedAt": "2026-06-12T08:57:13.000Z",
+      "summary": "科技之家 6 月 12 日消息，由腾讯代理发行的第三人称撤离射击冒险游戏《 》国服版本《弧光猎人》今日正式开启首测【弧光测试】招募报名（截至 6 月 18 日 23:59:59），将于 6 月 24 日开始测试。此次测试属于删档 · 不付费测试，仅限电脑平台，配置要求英特尔酷睿相关型号或相关型号 1600 处理器及以上、至少 12 吉字节内存，显卡最低要求英伟达 1050、5……",
       "topics": [
-        "模型发布",
         "算力芯片",
-        "多模态"
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "cnblogs-news-具身智能数据基建升级-神经腕带-全景头环-补全物理操作信号",
-      "title": "具身智能数据基建升级！神经腕带+全景头环，补全物理操作信号",
-      "url": "https://news.cnblogs.com/n/823977/",
+      "id": "cnblogs-news-选择暴力-克劳德模型走向独裁-人工智能的虚拟社会有多可怕",
+      "title": "选择暴力，克劳德模型走向独裁：人工智能的虚拟社会有多可怕",
+      "url": "https://news.cnblogs.com/n/823986/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T05:15:00.000Z",
-      "summary": "新智元报道具身智能正在从实验室演示走向真实场景。越往真实世界走，数据问题越明显：视频能看到动作结果，动捕能记录轨迹，机器人日志能记录执行，但它们往往很难完整捕捉人类操作背后的意图、发力趋势、微控制和反馈修正。围绕这一缺口，一类新的人类操控数据基建正在出现。过去几年，大模型证明了一件事：数据不仅是本文链接",
+      "publishedAt": "2026-06-12T06:20:00.000Z",
+      "summary": "文，摩登人工智能在一场美国实验室发起的人工智能生存实验中，同一套生存规则下，五种大模型跑出了五种截然不同的文明命运。实验开始第 5 天，相关型号的社会因暴力失导致毁灭，后台记录了 183 起犯罪。与此同时，克劳德模型管理的社会 15 天零犯罪；双子座模型的世界 683 起纵火却本文链接",
       "topics": [
-        "模型发布",
-        "多模态",
-        "机器人"
+        "模型发布"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "reddit-artificial-谷歌-3-转化进入打开探索-信息技术-未来-演示",
-      "title": "谷歌 3 转化进入打开探索。信息技术。未来，演示？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3jlw6/googles_genie_3_turns_a_text_prompt_into_a/",
+      "id": "reddit-artificial-认为上下文智能体在",
+      "title": "认为上下文智能体在",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3kemd/i_think_long_context_agents_are_failing_in_a_very/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T03:07:41.000Z",
-      "summary": "谷歌全球和认为关于信息技术，图像，和信息技术生成打开实际在，在实时。代码。打开和只是信息技术，借助和。: 信息技术。正确信息技术演示，和。持续和。: 面向。向。: 模型，物体，面向。信息技术演示面向。生成部件新，来自演示向实际和可能作为作为，向在？和首个生成？由",
+      "publishedAt": "2026-06-12T03:48:50.000Z",
+      "summary": "认为上下文实际。面向，相关型号词元记忆。信息技术只是智能体向。: 信息技术，工具，信息技术借助任务。智能体上下文 : 向，向，向，和向。由",
       "topics": [
-        "模型发布",
-        "多模态"
+        "产品应用"
       ],
-      "heat": 93,
-      "image": "https://external-preview.redd.it/eHoyamNrbHFvcjZoMdM0swacNg8swtFtlc5PuhCir1xBxCxHbrhe1RvFGwbp.png?width=640&crop=smart&auto=webp&s=d889f06d781e97176e66b7c386174a2857cb8583"
+      "heat": 80,
+      "image": ""
     },
     {
       "id": "oschina-公布自动化人工智能研究首批成果-三项基准测试均超越此前最优",
@@ -2126,7 +2121,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2199,55 +2194,54 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/jhh-t1-group-photo-1920x1080-1.jpg"
     },
     {
-      "id": "ithome-咪咕视频华为鸿蒙首发手机直播专业体育赛事-用于中超-苏超-粤超",
-      "title": "咪咕视频华为鸿蒙首发手机直播专业体育赛事，用于中超、苏超、粤超",
-      "url": "https://www.ithome.com/0/963/569.htm",
+      "id": "ithome-商汤开源相关型号图文交错生成增强版模型-支持多页连续创作-角色风格不-跑偏",
+      "title": "商汤开源相关型号图文交错生成增强版模型：支持多页连续创作，角色风格不“跑偏”",
+      "url": "https://www.ithome.com/0/963/606.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:19:31.000Z",
-      "summary": "科技之家 6 月 12 日消息，在今日的华为开发者大会 2026 主题演讲中，咪咕视频宣布与华为鸿蒙高清直播合作，首发手机直播专业体育赛事。咪咕视频演示了用鸿蒙手机直播乒乓球比赛，带来相关型号@相关型号画质，以及全链路高保真空间音频。科技之家从大会获悉，双方未来将扩展合作，把鸿蒙手机直播带到中超、苏超、粤超等足球赛事中。此外，鸿蒙版咪咕视频也进行了多项专门适配，包括三维动态卡……",
+      "publishedAt": "2026-06-12T08:56:37.000Z",
+      "summary": "科技之家 6 月 12 日消息，商汤科技今日宣布开源商汤日日新相关型号系列新成员 —— 相关型号十亿- 图文交错增强版模型。官方表示，该模型面向图文交错创作与生成（ ）场景进行了专项强化，更好地支持绘本、故事书、多页、图文教程等连续内容创作，解决传统多模态模型“多轮生成后角色形象飘移、画风断裂、图文脱节”等痛点。据介绍，该模型核心升级主要体现在四个方面：叙事一致性与角色连贯性……",
       "topics": [
         "多模态",
-        "端侧智能"
+        "开源生态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-人工智能给土豆编了一门学科-我去查了查-它竟然是真的",
+      "title": "人工智能给土豆编了一门学科，我去查了查，它竟然是真的",
+      "url": "https://news.cnblogs.com/n/823983/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T05:55:00.000Z",
+      "summary": "一颗土豆，表皮上爬满发光电路，焦黄的皮和银色走线贴在一起，像是英伟达和肯德基联名了。标题端端正正：芯片 ——一颗土豆如何颠覆半导体行业。这是我们给人工智能出的题：「做一份《土豆芯片科技峰会：一颗土豆如何颠覆半导体行业》的英文，20-25 页，面向大本文链接",
+      "topics": [
+        "算力芯片"
       ],
       "heat": 91,
       "image": ""
     },
     {
-      "id": "cnblogs-news-北大联手让人工智能跨界-造物-业界最强复合纤维诞生",
-      "title": "北大联手让人工智能跨界「造物」，业界最强复合纤维诞生！",
-      "url": "https://news.cnblogs.com/n/823976/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T05:08:00.000Z",
-      "summary": "新智元报道人工智能不仅写代码，连做实验也包揽了！基于闭环智能体架构，机器自主完成了碳材料寻优。告别低效人肉试错，人工智能「物质编译」直接撕裂材料黑箱。微观惊艳、宏观平庸，这道「跨尺度性能退化」的难题困扰材料界数十年。如何扭转这一局面？鼎犀智创（™）联合北京本文链接",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u3j2j0/what_if_we_succeed_in_creating_asi_but_it_does/",
+      "id": "reddit-artificial-谷歌-3-转化进入打开探索-信息技术-未来-演示",
+      "title": "谷歌 3 转化进入打开探索。信息技术。未来，演示？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u3jlw6/googles_genie_3_turns_a_text_prompt_into_a/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T02:41:45.000Z",
-      "summary": "我们借助信息技术带来在地球，我们关于？​ 我们智能向，智能和独立。成为值得。​ 智能体，决策。可能模型每个向。来自帮助创建，问题创建新问题和未来。政策向信息技术。​ 向，摘要，问题向。我们为什么。​ 可能最向。​ 在，可能认为，信息技术。由",
+      "publishedAt": "2026-06-12T03:07:41.000Z",
+      "summary": "谷歌全球和认为关于信息技术，图像，和信息技术生成打开实际在，在实时。代码。打开和只是信息技术，借助和。: 信息技术。正确信息技术演示，和。持续和。: 面向。向。: 模型，物体，面向。信息技术演示面向。生成部件新，来自演示向实际和可能作为作为，向在？和首个生成？由",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "多模态"
       ],
-      "heat": 90,
-      "image": ""
+      "heat": 93,
+      "image": "https://external-preview.redd.it/eHoyamNrbHFvcjZoMdM0swacNg8swtFtlc5PuhCir1xBxCxHbrhe1RvFGwbp.png?width=640&crop=smart&auto=webp&s=d889f06d781e97176e66b7c386174a2857cb8583"
     },
     {
       "id": "leiphone-让人工智能回归工具-萤石开放平台2-0如何用-双平台-破解落地难题",
@@ -2282,7 +2276,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2300,7 +2294,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2317,7 +2311,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2353,37 +2347,37 @@
       "image": ""
     },
     {
-      "id": "ithome-抖音-开展-恶意营销号-治理-累计处置违规账号-387-4-万个",
-      "title": "抖音：开展“恶意营销号”治理，累计处置违规账号 387.4 万个",
-      "url": "https://www.ithome.com/0/963/559.htm",
+      "id": "ithome-鸿蒙鸿蒙系统-7-正式发布-从-万物互联-正式迈进-智能体时代-华为相关型号系列今秋首发搭载",
+      "title": "鸿蒙鸿蒙系统 7 正式发布：从“万物互联”正式迈进“智能体时代”，华为相关型号系列今秋首发搭载",
+      "url": "https://www.ithome.com/0/963/594.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:14:40.000Z",
-      "summary": "科技之家 6 月 12 日消息，抖音集团 12 日（今天）公布“恶意营销号”治理十大案例。抖音称，近一年来，抖音持续治理工业化生产同质化内容、低质虚假、诱骗互动、不当蹭热等“恶意营销号”相关违规行为。一年来，平台上的恶意营销类违规内容占比下降 41.24%。依托相关治理规范及“账号健康分”制度，平台累计处置违规账号 387.4 万个。同时，共有 232 万个账号通过参与合规学……",
+      "publishedAt": "2026-06-12T08:31:37.000Z",
+      "summary": "科技之家 6 月 12 日消息，在今日举行的华为开发者大会 2026（ 2026）上，华为常务董事、产品投资评审委员会主任、终端董事长余承东推出了全新的鸿蒙系统 7 全场景智能操作系统。华为相关型号系列首发搭载鸿蒙系统 7 正式版，将于今年秋季发布（同时还将首发基于 τ 定律的麒麟 2026 芯片）。届时，鸿蒙系统 7 正式版也将面向其他设备开放。鸿蒙系统 7 主打人工智能智……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "cnblogs-news-王坚谈-如何让别人相信你的相信-不要先问资源-先问自己是否愿意坚持",
-      "title": "王坚谈“如何让别人相信你的相信”：不要先问资源，先问自己是否愿意坚持",
-      "url": "https://news.cnblogs.com/n/823975/",
+      "id": "cnblogs-news-用了两天苹果移动系统-27-我-人工智能-上了",
+      "title": "用了两天苹果移动系统 27，我「人工智能」上了",
+      "url": "https://news.cnblogs.com/n/823982/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T05:01:00.000Z",
-      "summary": "2026 智源大会现场，当被问及“如何让别人相信你的相信”时，之江实验室主任、阿里云创始人王坚院士给出的答案，与资源、融资和支持体系无关。提问者提到，阿里云早年能够获得连续多年大规模投入，背后离不开长期资源支持。而在今天的大模型时代，算力和资金进一步向头部集中，年轻研究者探索新路线往往面临资源约束本文链接",
+      "publishedAt": "2026-06-12T05:48:00.000Z",
+      "summary": "周四晚上，我在床上举着苹果手机，在对话框里打下了一个从来没问过的问题？（，你觉得我怎么样？） 苹果移动系统 27 的等待音响了几秒钟，就给出了回答：’ 本文链接",
       "topics": [
-        "模型发布",
-        "算力芯片",
-        "研究论文"
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2436,7 +2430,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2452,7 +2446,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2468,7 +2462,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2490,36 +2484,37 @@
       "image": ""
     },
     {
-      "id": "ithome-华为鸿蒙鸿蒙系统-7-沉浸光感更沉浸-科技之家登上-2026",
-      "title": "华为鸿蒙鸿蒙系统 7 沉浸光感更沉浸，科技之家登上 2026",
-      "url": "https://www.ithome.com/0/963/554.htm",
+      "id": "ithome-2027-款丰田赛那上市-搭载华为与小米车端硬件接口-权益价-24-28-万元起",
+      "title": "2027 款丰田赛那上市：搭载华为与小米车端硬件接口，权益价 24.28 万元起",
+      "url": "https://www.ithome.com/0/963/590.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:04:01.000Z",
-      "summary": "科技之家 6 月 12 日消息，在今天的华为开发者大会 2026 上，鸿蒙鸿蒙系统 7 系统正式登场并发布，带来了更沉浸的沉浸光感视效。科技之家也凭借优秀的适配效果登上了 2026 的大屏幕 [狗头斜眼]。值得一提的是，科技之家今日还发布了鸿蒙 8.20 版本更新，主要围绕显示效果、界面质感、悬浮工具栏交互和稳定性做了一轮升级。设置、关于等页面适配渐变模糊视觉样式，观感更加细……",
+      "publishedAt": "2026-06-12T08:29:33.000Z",
+      "summary": "科技之家 6 月 12 日消息，广汽丰田今日宣布，2027 款赛那正式上市，官方称之为“ 蓝牌新能源 ”，入门等级新增四驱可选，权益价 24.28 万元起：舒适版：权益价 24.28 万元起四驱舒适版：权益价 25.48 万元起光辉版：权益价 31.68 万元起新车外观整体延续老款赛那设计，车身尺寸为长宽高 5165/1995/1765 毫米，轴距 3060 毫米；中控屏尺寸……",
       "topics": [
-        "监管安全",
-        "端侧智能"
+        "模型发布",
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "cnblogs-news-钉钉发布豆蔻医生版人工智能设备定价999元",
-      "title": "钉钉发布豆蔻医生版人工智能设备定价999元",
-      "url": "https://news.cnblogs.com/n/823974/",
+      "id": "cnblogs-news-豆包专业版开放灰度测试-最高档年费超五千元",
+      "title": "豆包专业版开放灰度测试，最高档年费超五千元",
+      "url": "https://news.cnblogs.com/n/823981/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T04:52:00.000Z",
-      "summary": "6 月 12 日消息，钉钉正式发布相关型号豆蔻医生版，该产品是一款专为医生群体设计的人工智能硬件，售价为 999 元，计划于 6 月 15 日在钉钉天猫官方旗舰店开售。据了解，相关型号豆蔻医生版是钉钉在相关型号硬件基础上针对医疗场景的定制版本。其核心是搭载了豆蔻医疗大模型及豆蔻医生本文链接",
+      "publishedAt": "2026-06-12T05:40:00.000Z",
+      "summary": "6 月 10 日消息，字节跳动旗下人工智能应用豆包已针对付费订阅开放灰度测试，今日有多位用户反馈在使用豆包专家模式时收到了“豆包专业版”付费订阅提醒。而根据 36 氪爆料，豆包预计将在 6 月下旬正式上线付费订阅服务，并于同期举行的大会上公布相关功能更新。信息技术之家此前报道，早在今本文链接",
       "topics": [
-        "模型发布"
+        "产品应用"
       ],
-      "heat": 90,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2590,37 +2585,36 @@
       "image": ""
     },
     {
-      "id": "ithome-相关型号搭载全新电脑模式-连上大屏界面更接近电脑-手机能变触控板",
-      "title": "相关型号搭载全新电脑模式：连上大屏界面更接近电脑，手机能变触控板",
-      "url": "https://www.ithome.com/0/963/552.htm",
+      "id": "ithome-咪咕视频华为鸿蒙首发手机直播专业体育赛事-用于中超-苏超-粤超",
+      "title": "咪咕视频华为鸿蒙首发手机直播专业体育赛事，用于中超、苏超、粤超",
+      "url": "https://www.ithome.com/0/963/569.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:02:51.000Z",
-      "summary": "科技之家 6 月 12 日消息，据产品总监 @百奇透露，相关型号折叠屏手机带来了全新的「电脑模式」，该模式不是简单投屏，而是让手机在需要的时候，变成一个随身工作站。据介绍，手机连上大屏后，会进入一套更接近电脑的桌面界面：应用以窗口形态展开，表格、文档都能在大屏上处理。此外，手机也能变成触控板，直接完成点击、滑动和拖拽。接上鼠标键盘后，操作逻辑就更像一台电脑。据科技之家此前报道……",
+      "publishedAt": "2026-06-12T08:19:31.000Z",
+      "summary": "科技之家 6 月 12 日消息，在今日的华为开发者大会 2026 主题演讲中，咪咕视频宣布与华为鸿蒙高清直播合作，首发手机直播专业体育赛事。咪咕视频演示了用鸿蒙手机直播乒乓球比赛，带来相关型号@相关型号画质，以及全链路高保真空间音频。科技之家从大会获悉，双方未来将扩展合作，把鸿蒙手机直播带到中超、苏超、粤超等足球赛事中。此外，鸿蒙版咪咕视频也进行了多项专门适配，包括三维动态卡……",
       "topics": [
-        "产品应用",
-        "算力芯片",
+        "多模态",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "cnblogs-news-克劳德模型-5-翻车-后-人工智能安全公司终于承认-我们沟通出问题了",
-      "title": "克劳德模型 5“翻车”后，人工智能安全公司终于承认：我们沟通出问题了",
-      "url": "https://news.cnblogs.com/n/823973/",
+      "id": "cnblogs-news-具身智能数据基建升级-神经腕带-全景头环-补全物理操作信号",
+      "title": "具身智能数据基建升级！神经腕带+全景头环，补全物理操作信号",
+      "url": "https://news.cnblogs.com/n/823977/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T04:46:00.000Z",
-      "summary": "6 月 12 日消息，据和报道，人工智能安全公司近日向公众推出 5。上线后，安全研究员和开发者批评该模型护栏过于敏感，会把正常工作请求也挡在外面；同时，模型在部分场景下会静默回退到旧版本处理，而人工智能安全公司最本文链接",
+      "publishedAt": "2026-06-12T05:15:00.000Z",
+      "summary": "新智元报道具身智能正在从实验室演示走向真实场景。越往真实世界走，数据问题越明显：视频能看到动作结果，动捕能记录轨迹，机器人日志能记录执行，但它们往往很难完整捕捉人类操作背后的意图、发力趋势、微控制和反馈修正。围绕这一缺口，一类新的人类操控数据基建正在出现。过去几年，大模型证明了一件事：数据不仅是本文链接",
       "topics": [
         "模型发布",
-        "监管安全",
-        "研究论文"
+        "多模态",
+        "机器人"
       ],
       "heat": 99,
       "image": ""
@@ -2676,33 +2670,33 @@
       "image": ""
     },
     {
-      "id": "ithome-赛力斯张兴海-有人说增程是脱裤子放屁-数据证明它解决了用户的充电难和里程焦虑",
-      "title": "赛力斯张兴海：有人说增程是脱裤子放屁，数据证明它解决了用户的充电难和里程焦虑",
-      "url": "https://www.ithome.com/0/963/551.htm",
+      "id": "ithome-抖音-开展-恶意营销号-治理-累计处置违规账号-387-4-万个",
+      "title": "抖音：开展“恶意营销号”治理，累计处置违规账号 387.4 万个",
+      "url": "https://www.ithome.com/0/963/559.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:02:36.000Z",
-      "summary": "科技之家 6 月 12 日消息，今日，在重庆悦来国际会议中心开幕的 2026 中国汽车重庆论坛上，赛力斯集团董事长（创始人）张兴海发表了主题演讲。张兴海在演讲中着重强调了安全技术对于新能源汽车发展的基础性作用。他认为，从传统汽车向智能电动汽车演进的过程中，车辆所面临的安全维度正逐步拓宽。电动化与智能化的融合，将传统的物理安全范畴延伸至涵盖电动系统安全、软件安全、网络安全以及人……",
+      "publishedAt": "2026-06-12T08:14:40.000Z",
+      "summary": "科技之家 6 月 12 日消息，抖音集团 12 日（今天）公布“恶意营销号”治理十大案例。抖音称，近一年来，抖音持续治理工业化生产同质化内容、低质虚假、诱骗互动、不当蹭热等“恶意营销号”相关违规行为。一年来，平台上的恶意营销类违规内容占比下降 41.24%。依托相关治理规范及“账号健康分”制度，平台累计处置违规账号 387.4 万个。同时，共有 232 万个账号通过参与合规学……",
       "topics": [
-        "监管安全"
+        "人工智能动态"
       ],
       "heat": 86,
       "image": ""
     },
     {
-      "id": "cnblogs-news-阿里云创始人王坚-我坚定地不相信人工智能会替代人",
-      "title": "阿里云创始人王坚：我坚定地不相信人工智能会替代人",
-      "url": "https://news.cnblogs.com/n/823971/",
+      "id": "cnblogs-news-北大联手让人工智能跨界-造物-业界最强复合纤维诞生",
+      "title": "北大联手让人工智能跨界「造物」，业界最强复合纤维诞生！",
+      "url": "https://news.cnblogs.com/n/823976/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T04:32:00.000Z",
-      "summary": "6 月 12 日消息，据新浪科技报道，在今日举办的 2026 第八届北京智源大会上，之江实验室主任、阿里云创始人王坚分享表示：“我是一个坚定的不相信人工智能会替代人的人”。“狗的鼻子比人灵很多，但这并不会对我们造成伤害。”王坚直言，今天，我们都在讲人工智能，但这其实都有意无意地被人工智能这个词给限本文链接",
+      "publishedAt": "2026-06-12T05:08:00.000Z",
+      "summary": "新智元报道人工智能不仅写代码，连做实验也包揽了！基于闭环智能体架构，机器自主完成了碳材料寻优。告别低效人肉试错，人工智能「物质编译」直接撕裂材料黑箱。微观惊艳、宏观平庸，这道「跨尺度性能退化」的难题困扰材料界数十年。如何扭转这一局面？鼎犀智创（™）联合北京本文链接",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 82,
       "image": ""
@@ -2738,7 +2732,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2758,19 +2752,20 @@
       "image": ""
     },
     {
-      "id": "ithome-人工智能指纹识别-九种开锁方式-小米智能门锁相关型号国补后-1099-358-元",
-      "title": "人工智能指纹识别 + 九种开锁方式：小米智能门锁相关型号国补后 1099 → 358 元",
-      "url": "https://www.ithome.com/0/963/547.htm",
+      "id": "ithome-华为鸿蒙鸿蒙系统-7-沉浸光感更沉浸-科技之家登上-2026",
+      "title": "华为鸿蒙鸿蒙系统 7 沉浸光感更沉浸，科技之家登上 2026",
+      "url": "https://www.ithome.com/0/963/554.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T08:00:11.000Z",
-      "summary": "小米 3 月 10 日上架“小米智能门锁相关型号”，其主打人工智能指纹识别、9 种开锁方式，定价为 1099 元，本月日常秒杀价 529 元（ 点此查看 ）。今日天猫自营“天猫优品官方旗舰店”开启 618 狂促：普通用户大概率能领到 400-40 元消费券 → 实付 375 元会员能领 480-60 元消费券 → 实付 358 元有需求的小伙伴可以试试看，价格实属破冰新低。点……",
+      "publishedAt": "2026-06-12T08:04:01.000Z",
+      "summary": "科技之家 6 月 12 日消息，在今天的华为开发者大会 2026 上，鸿蒙鸿蒙系统 7 系统正式登场并发布，带来了更沉浸的沉浸光感视效。科技之家也凭借优秀的适配效果登上了 2026 的大屏幕 [狗头斜眼]。值得一提的是，科技之家今日还发布了鸿蒙 8.20 版本更新，主要围绕显示效果、界面质感、悬浮工具栏交互和稳定性做了一轮升级。设置、关于等页面适配渐变模糊视觉样式，观感更加细……",
       "topics": [
-        "产品应用"
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 86,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2804,24 +2799,25 @@
         "投融资",
         "多模态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
-      "id": "ithome-数据-台积电晶圆代工市占率相关型号达-72-3",
-      "title": "数据：台积电晶圆代工市占率相关型号达 72.3%",
-      "url": "https://www.ithome.com/0/963/546.htm",
+      "id": "ithome-相关型号搭载全新电脑模式-连上大屏界面更接近电脑-手机能变触控板",
+      "title": "相关型号搭载全新电脑模式：连上大屏界面更接近电脑，手机能变触控板",
+      "url": "https://www.ithome.com/0/963/552.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T07:59:42.000Z",
-      "summary": "科技之家 6 月 12 日消息，（集邦）今日根据其最新晶圆代工产业研究表示，晶圆代工服务市场 2026 年第 1 季度整体呈现“淡季不淡”，十大市场参与者合计营收达 479.53 亿美元，环比 +3.7%、同比 +31.7%。从数据层面来看，十大晶圆代工业者的营收排名没有发生变化。五家相关业务营收出现环比增长，另有五家出现环比缩水。市场占有方面，体量最大、环比增速最快的台积电……",
+      "publishedAt": "2026-06-12T08:02:51.000Z",
+      "summary": "科技之家 6 月 12 日消息，据产品总监 @百奇透露，相关型号折叠屏手机带来了全新的「电脑模式」，该模式不是简单投屏，而是让手机在需要的时候，变成一个随身工作站。据介绍，手机连上大屏后，会进入一套更接近电脑的桌面界面：应用以窗口形态展开，表格、文档都能在大屏上处理。此外，手机也能变成触控板，直接完成点击、滑动和拖拽。接上鼠标键盘后，操作逻辑就更像一台电脑。据科技之家此前报道……",
       "topics": [
-        "研究论文",
+        "产品应用",
+        "算力芯片",
         "端侧智能"
       ],
-      "heat": 91,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2837,7 +2833,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
