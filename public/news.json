@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-13T19:02:35.495Z",
+  "generatedAt": "2026-06-13T19:32:57.437Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-13T19:30:00.000Z",
+  "nextUpdateHint": "2026-06-13T20:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-13T18:41:17.000Z"
+    "latestPublishedAt": "2026-06-13T19:11:41.000Z"
   },
   "topics": [
     {
@@ -18,12 +18,12 @@
     },
     {
       "name": "模型发布",
-      "count": 49,
+      "count": 50,
       "heat": 78
     },
     {
       "name": "监管安全",
-      "count": 27,
+      "count": 26,
       "heat": 79
     },
     {
@@ -38,13 +38,13 @@
     },
     {
       "name": "算力芯片",
-      "count": 18,
+      "count": 17,
       "heat": 80
     },
     {
       "name": "投融资",
-      "count": 16,
-      "heat": 75
+      "count": 15,
+      "heat": 74
     },
     {
       "name": "开源生态",
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-06-12T15:56:10.000Z",
       "latestDisplayedAt": "2026-06-12T15:56:10.000Z"
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-13T16:47:18.000Z",
-      "latestDisplayedAt": "2026-06-13T16:47:18.000Z"
+      "latestFetchedAt": "2026-06-13T19:11:41.000Z",
+      "latestDisplayedAt": "2026-06-13T19:11:41.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
+      "itemCount": 4,
       "displayedCount": 4,
       "latestFetchedAt": "2026-06-12T18:45:40.000Z",
       "latestDisplayedAt": "2026-06-12T18:45:40.000Z"
@@ -268,10 +268,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 500",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-13T17:00:19.000Z",
       "latestDisplayedAt": "2026-06-13T17:00:19.000Z"
@@ -336,8 +336,8 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-13T18:41:17.000Z",
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-06-13T19:13:06.000Z",
       "latestDisplayedAt": "2026-06-13T18:41:17.000Z"
     },
     {
@@ -480,13 +480,30 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 14,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-13T11:50:00.000Z",
       "latestDisplayedAt": "2026-06-13T11:50:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "techcrunch-ai-亚马逊首席执行官据报道人工智能安全公司模型政府",
+      "title": "亚马逊首席执行官据报道人工智能安全公司模型政府",
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-13T19:11:41.000Z",
+      "summary": "亚马逊首席执行官来源安全人工智能安全公司向访问向模型在。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "reddit-artificial-旗舰模型-4-8-在旗舰版试图-5-在旗舰版面向",
       "title": "旗舰模型 4.8 在旗舰版试图 5 在旗舰版面向？",
@@ -519,22 +536,6 @@
         "多模态"
       ],
       "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-开放人工智能公司来自",
-      "title": "开放人工智能公司来自",
-      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-13T16:47:18.000Z",
-      "summary": "信息技术，关于来自开放人工智能公司向数据。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 97,
       "image": ""
     },
     {
@@ -583,7 +584,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -615,7 +616,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -647,7 +648,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": "https://media.wired.com/photos/6a2c41ce14f8a13c2f9c4aac/master/pass/googleAI.jpg"
     },
     {
@@ -697,7 +698,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -714,7 +715,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -781,7 +782,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DermAI_Hero.png"
     },
     {
@@ -938,6 +939,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-开放人工智能公司来自",
+      "title": "开放人工智能公司来自",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-13T16:47:18.000Z",
+      "summary": "信息技术，关于来自开放人工智能公司向数据。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "ithome-全球首条百万片级体全息光波导自动化产线在天津投产-消费级核心显示技术重大量产突破",
       "title": "全球首条百万片级体全息光波导自动化产线在天津投产，消费级核心显示技术重大量产突破",
       "url": "https://www.ithome.com/0/963/988.htm",
@@ -1016,7 +1033,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1031,22 +1048,6 @@
       "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
         "人工智能动态"
-      ],
-      "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-认为创业公司成本",
-      "title": "认为创业公司成本",
-      "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-13T04:14:19.000Z",
-      "summary": "面向，和认为创业公司资金。",
-      "topics": [
-        "投融资"
       ],
       "heat": 78,
       "image": ""
@@ -1115,7 +1116,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1163,7 +1164,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1387,7 +1388,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1407,20 +1408,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司安全只是-政府在最人工智能",
-      "title": "人工智能安全公司安全只是，政府在最人工智能",
-      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "id": "techcrunch-ai-认为创业公司成本",
+      "title": "认为创业公司成本",
+      "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-13T02:26:30.000Z",
-      "summary": "人工智能安全公司。我们面向模型向，公司在。",
+      "publishedAt": "2026-06-13T04:14:19.000Z",
+      "summary": "面向，和认为创业公司资金。",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "投融资"
       ],
-      "heat": 90,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1487,7 +1487,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1503,7 +1503,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1661,23 +1661,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-6-1152x648.png"
     },
     {
-      "id": "reddit-artificial-保障安全借助新智能体控制",
-      "title": "保障安全借助新智能体控制",
-      "url": "https://www.reddit.com/r/artificial/comments/1u4vrfn/rain_secures_agentic_payments_with_new_agent/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-13T16:45:43.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
       "id": "ithome-智谱人工智能编程工具-3-0-版本发布-切换自研智能体内核-深度适配相关型号",
       "title": "智谱人工智能编程工具 3.0 版本发布：切换自研智能体内核，深度适配相关型号",
       "url": "https://www.ithome.com/0/963/985.htm",
@@ -1692,6 +1675,22 @@
         "开源生态"
       ],
       "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-模型-5-在-时间",
+      "title": "模型 5 在。时间。",
+      "url": "https://www.reddit.com/r/artificial/comments/1u4qb2e/if_these_models_are_so_good_fable_5_at_this_point/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-13T12:57:17.000Z",
+      "summary": "教育正确认知，访问认为和我们在信息技术？由",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 80,
       "image": ""
     },
     {
@@ -1741,7 +1740,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1761,20 +1760,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-首次公开募股-实时更新在向",
-      "title": "首次公开募股: 实时更新在向",
-      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "id": "techcrunch-ai-人工智能安全公司安全只是-政府在最人工智能",
+      "title": "人工智能安全公司安全只是，政府在最人工智能",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T23:15:14.000Z",
-      "summary": "科技创投媒体，和来自。和我们这里面向。首次公开募股向和，首次公开募股，和内部。",
+      "publishedAt": "2026-06-13T02:26:30.000Z",
+      "summary": "人工智能安全公司。我们面向模型向，公司在。",
       "topics": [
-        "产品应用",
-        "投融资"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 79,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1790,7 +1789,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://media.wired.com/photos/6a2c555e0473de232b255ae6/master/pass/Meta-Employee-Interrupts-AI-Training-Business-2261841192.jpg"
     },
     {
@@ -1822,7 +1821,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2016,19 +2015,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-模型-5-在-时间",
-      "title": "模型 5 在。时间。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u4qb2e/if_these_models_are_so_good_fable_5_at_this_point/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1u4oj79/website_analysis_and_personalized_outreach/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-13T12:57:17.000Z",
-      "summary": "教育正确认知，访问认为和我们在信息技术？由",
+      "publishedAt": "2026-06-13T11:29:50.000Z",
+      "summary": "认为试图向在企业面向借助。面向，和每个借助。为什么，答案。实际时间向在和改进只是面向新。面向。企业。向试图向。每个，在，和。时间向。自动化。使用工具呼吁企业在和生成在信息技术，问题。使用在。顺利最。由，限制企业。向在规模。在，关于。信息技术关于向更智能。由",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 80,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2067,19 +2067,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司人工智能-工程师内部信息技术",
-      "title": "元宇宙平台公司人工智能，工程师内部信息技术",
-      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "id": "techcrunch-ai-首次公开募股-实时更新在向",
+      "title": "首次公开募股: 实时更新在向",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T23:00:54.000Z",
-      "summary": "新，6，500，在前沿科技媒体。",
+      "publishedAt": "2026-06-12T23:15:14.000Z",
+      "summary": "科技创投媒体，和来自。和我们这里面向。首次公开募股向和，首次公开募股，和内部。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "投融资"
       ],
-      "heat": 74,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2129,7 +2130,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2146,7 +2147,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2318,21 +2319,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u4oj79/website_analysis_and_personalized_outreach/",
+      "id": "reddit-artificial-开放人工智能公司作为需求在安全和用户",
+      "title": "开放人工智能公司作为需求在安全和用户",
+      "url": "https://www.reddit.com/r/artificial/comments/1u4nhfs/openai_faces_multistate_probe_as_us_attorneys/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-13T11:29:50.000Z",
-      "summary": "认为试图向在企业面向借助。面向，和每个借助。为什么，答案。实际时间向在和改进只是面向新。面向。企业。向试图向。每个，在，和。时间向。自动化。使用工具呼吁企业在和生成在信息技术，问题。使用在。顺利最。由，限制企业。向在规模。在，关于。信息技术关于向更智能。由",
+      "publishedAt": "2026-06-13T10:31:58.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "产品应用",
         "监管安全"
       ],
-      "heat": 84,
-      "image": ""
+      "heat": 86,
+      "image": "https://external-preview.redd.it/2ZllBmtpeX9cTvAU9svRiIXCy7s0MeAT8nzSUU2xq58.jpeg?width=640&crop=smart&auto=webp&s=091c6984472ee4b05e44bd718b0a0c3715927d8a"
     },
     {
       "id": "the-decoder-元宇宙平台公司来自向词元作为人工智能成本据报道",
@@ -2369,19 +2369,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-中国使用人工智能向由谷歌",
-      "title": "中国使用人工智能向由谷歌",
-      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "id": "techcrunch-ai-元宇宙平台公司人工智能-工程师内部信息技术",
+      "title": "元宇宙平台公司人工智能，工程师内部信息技术",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T20:38:09.000Z",
-      "summary": "群组呼吁企业使用人工智能向，2.5 百万。",
+      "publishedAt": "2026-06-12T23:00:54.000Z",
+      "summary": "新，6，500，在前沿科技媒体。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2398,7 +2398,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2449,7 +2449,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2481,7 +2481,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": "https://media.wired.com/photos/6a29de1c2286375b80445272/master/pass/Uncanny-Valley-SpaceX-IPO-Business-2280020800.jpg"
     },
     {
@@ -2566,24 +2566,8 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-开放人工智能公司作为需求在安全和用户",
-      "title": "开放人工智能公司作为需求在安全和用户",
-      "url": "https://www.reddit.com/r/artificial/comments/1u4nhfs/openai_faces_multistate_probe_as_us_attorneys/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-13T10:31:58.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 86,
-      "image": "https://external-preview.redd.it/2ZllBmtpeX9cTvAU9svRiIXCy7s0MeAT8nzSUU2xq58.jpeg?width=640&crop=smart&auto=webp&s=091c6984472ee4b05e44bd718b0a0c3715927d8a"
     },
     {
       "id": "the-decoder-打开模型月之暗面代码新一代语言模型和克劳德模型由向相关型号在词元",
@@ -2622,20 +2606,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-欧洲大模型向-3-十亿在-20-十亿",
-      "title": "欧洲大模型向 €3 十亿在 €20 十亿",
-      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "id": "techcrunch-ai-中国使用人工智能向由谷歌",
+      "title": "中国使用人工智能向由谷歌",
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T17:38:11.000Z",
-      "summary": "融资公司在 €20 十亿关于 $23.15 十亿，序列 €11.7 十亿。",
+      "publishedAt": "2026-06-12T20:38:09.000Z",
+      "summary": "群组呼吁企业使用人工智能向，2.5 百万。",
       "topics": [
-        "模型发布",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2686,7 +2669,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": ""
     },
     {
@@ -2703,7 +2686,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": "https://media.wired.com/photos/6a29dcf7d0be49584df640a0/master/pass/Model-Behavior-OpenAI-Codex-Lead-Tibo-Sottiaux-Business.jpg"
     },
     {
@@ -2824,25 +2807,40 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司-和开放人工智能公司首次公开募股",
-      "title": "人工智能安全公司，和开放人工智能公司首次公开募股",
-      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "id": "techcrunch-ai-欧洲大模型向-3-十亿在-20-十亿",
+      "title": "欧洲大模型向 €3 十亿在 €20 十亿",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-12T16:23:25.000Z",
-      "summary": "首次公开募股，和信息技术公司，新 :，元宇宙平台公司微软，在，人工智能安全公司，英伟达，谷歌，开放人工智能公司，和。向在，和信息技术面向，面向，和面向 …",
+      "publishedAt": "2026-06-12T17:38:11.000Z",
+      "summary": "融资公司在 €20 十亿关于 $23.15 十亿，序列 €11.7 十亿。",
       "topics": [
-        "算力芯片",
-        "监管安全",
+        "模型发布",
         "投融资"
       ],
-      "heat": 86,
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-抖音上线人工智能反网暴系统日均识别风险人群增91-5",
+      "title": "抖音上线人工智能反网暴系统日均识别风险人群增91.5%",
+      "url": "https://news.cnblogs.com/n/824005/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-12T11:41:53.000Z",
+      "summary": "6 月 12 日消息，抖音宣布推出人工智能反网暴行动，上线“人工智能反网暴智能体”，旨在从“被动处置”向“主动保护”转型。据介绍，该智能体结合了升级后的网暴识别模型与网暴研判模型，并与人工协同，构建了覆盖风险发现、事件研判、主动治理与外呼救助的全流程治理体系。此举使平台日均识别出的潜在被网暴风险本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 59,
       "image": ""
     }
   ]
