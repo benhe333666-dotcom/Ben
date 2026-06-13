@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T15:32:14.622Z",
+  "generatedAt": "2026-06-13T16:02:31.607Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-13T16:00:00.000Z",
+  "nextUpdateHint": "2026-06-13T16:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -34,7 +34,7 @@
     {
       "name": "算力芯片",
       "count": 18,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "人工智能动态",
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-06-09T17:00:00.000Z",
-      "latestDisplayedAt": "2026-06-09T17:00:00.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-06-11T19:00:00.000Z",
+      "latestDisplayedAt": "2026-06-11T19:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-06-12T15:56:10.000Z",
       "latestDisplayedAt": "2026-06-12T15:56:10.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
+      "itemCount": 4,
       "displayedCount": 4,
       "latestFetchedAt": "2026-06-12T18:45:40.000Z",
       "latestDisplayedAt": "2026-06-12T18:45:40.000Z"
@@ -480,7 +480,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 14,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-13T11:50:00.000Z",
       "latestDisplayedAt": "2026-06-13T11:50:00.000Z"
     }
@@ -501,7 +501,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://external-preview.redd.it/WqSyIYgc9RenIXep7gCKOj52U6HMy2KAjqHb9qtGCNk.jpeg?width=640&crop=smart&auto=webp&s=a5cb91861e30be54d628e0cc894cbdce7bfe117c"
     },
     {
@@ -567,7 +567,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -599,7 +599,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -631,7 +631,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": "https://media.wired.com/photos/6a2c41ce14f8a13c2f9c4aac/master/pass/googleAI.jpg"
     },
     {
@@ -697,7 +697,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -714,7 +714,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -781,7 +781,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DermAI_Hero.png"
     },
     {
@@ -852,6 +852,22 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
     },
     {
+      "id": "microsoft-ai-blog-3-向来自微软构建-2026",
+      "title": "3 向来自微软构建 2026",
+      "url": "https://azure.microsoft.com/en-us/blog/3-things-leaders-need-to-know-from-microsoft-build-2026/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-11T19:00:00.000Z",
+      "summary": "在微软构建 2026，人工智能来自向来自工具向在企业数据。组织人工智能工作流，规模信息技术，和信息技术进入更快，成本，和更好客户。3 向来自微软构建 2026 首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 54,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-强化学习-模型评测-自然语言处理方向研究",
       "title": "论文新进展：大语言模型、强化学习、模型评测、自然语言处理方向研究",
       "url": "https://arxiv.org/abs/2606.13680v1",
@@ -882,7 +898,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": ""
     },
     {
@@ -901,24 +917,6 @@
         "研究论文"
       ],
       "heat": 67,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-克劳德模型-5-可用在微软-驱动智能体",
-      "title": "克劳德模型 5 可用在微软 : 驱动智能体",
-      "url": "https://azure.microsoft.com/en-us/blog/claude-fable-5-is-now-available-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-09T17:00:00.000Z",
-      "summary": "克劳德模型 5，人工智能安全公司前沿模型，可用在微软，驱动智能体在代码托管平台智能编程助手和智能体服务。克劳德模型 5 可用在微软 : 驱动智能体首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 70,
       "image": ""
     },
     {
@@ -1019,7 +1017,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1035,7 +1033,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1052,7 +1050,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1119,7 +1117,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1167,7 +1165,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1185,7 +1183,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1221,7 +1219,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1238,7 +1236,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1272,6 +1270,24 @@
         "开源生态"
       ],
       "heat": 50,
+      "image": ""
+    },
+    {
+      "id": "microsoft-ai-blog-克劳德模型-5-可用在微软-驱动智能体",
+      "title": "克劳德模型 5 可用在微软 : 驱动智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/claude-fable-5-is-now-available-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "summary": "克劳德模型 5，人工智能安全公司前沿模型，可用在微软，驱动智能体在代码托管平台智能编程助手和智能体服务。克劳德模型 5 可用在微软 : 驱动智能体首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 70,
       "image": ""
     },
     {
@@ -1371,7 +1387,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1471,7 +1487,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1487,7 +1503,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1726,7 +1742,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1774,7 +1790,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": "https://media.wired.com/photos/6a2c555e0473de232b255ae6/master/pass/Meta-Employee-Interrupts-AI-Training-Business-2261841192.jpg"
     },
     {
@@ -1806,7 +1822,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1893,7 +1909,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -2028,7 +2044,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2112,7 +2128,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2129,7 +2145,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2384,7 +2400,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2467,7 +2483,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": "https://media.wired.com/photos/6a29de1c2286375b80445272/master/pass/Uncanny-Valley-SpaceX-IPO-Business-2280020800.jpg"
     },
     {
@@ -2552,7 +2568,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2570,7 +2586,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://external-preview.redd.it/N3dueG9iM2F1MDdoMV7BI0Jix1UjaUutOuiZrmz3OJ3jzEPtPUjGX4V6c24n.png?width=640&crop=smart&auto=webp&s=738bdf600f9a8386f948cf8e89908fa8e24147d5"
     },
     {
@@ -2675,7 +2691,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2692,7 +2708,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": "https://media.wired.com/photos/6a29dcf7d0be49584df640a0/master/pass/Model-Behavior-OpenAI-Codex-Lead-Tibo-Sottiaux-Business.jpg"
     },
     {
@@ -2813,7 +2829,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2831,23 +2847,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-抖音上线人工智能反网暴系统日均识别风险人群增91-5",
-      "title": "抖音上线人工智能反网暴系统日均识别风险人群增91.5%",
-      "url": "https://news.cnblogs.com/n/824005/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-12T11:41:53.000Z",
-      "summary": "6 月 12 日消息，抖音宣布推出人工智能反网暴行动，上线“人工智能反网暴智能体”，旨在从“被动处置”向“主动保护”转型。据介绍，该智能体结合了升级后的网暴识别模型与网暴研判模型，并与人工协同，构建了覆盖风险发现、事件研判、主动治理与外呼救助的全流程治理体系。此举使平台日均识别出的潜在被网暴风险本文链接",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 62,
+      "heat": 88,
       "image": ""
     }
   ]
