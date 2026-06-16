@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-15T23:37:33.778Z",
+  "generatedAt": "2026-06-16T00:07:43.078Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-16T00:00:00.000Z",
+  "nextUpdateHint": "2026-06-16T00:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-15T23:37:21.000Z"
+    "latestPublishedAt": "2026-06-15T23:58:40.000Z"
   },
   "topics": [
     {
@@ -18,23 +18,23 @@
     },
     {
       "name": "模型发布",
-      "count": 44,
+      "count": 46,
       "heat": 80
     },
     {
       "name": "监管安全",
-      "count": 31,
-      "heat": 84
+      "count": 28,
+      "heat": 83
     },
     {
       "name": "算力芯片",
-      "count": 18,
-      "heat": 87
+      "count": 21,
+      "heat": 88
     },
     {
       "name": "开源生态",
-      "count": 20,
-      "heat": 69
+      "count": 19,
+      "heat": 70
     },
     {
       "name": "研究论文",
@@ -43,28 +43,28 @@
     },
     {
       "name": "人工智能动态",
-      "count": 15,
-      "heat": 70
-    },
-    {
-      "name": "端侧智能",
-      "count": 14,
-      "heat": 71
+      "count": 16,
+      "heat": 72
     },
     {
       "name": "投融资",
-      "count": 11,
-      "heat": 75
+      "count": 13,
+      "heat": 78
+    },
+    {
+      "name": "端侧智能",
+      "count": 13,
+      "heat": 71
     },
     {
       "name": "多模态",
-      "count": 9,
-      "heat": 87
+      "count": 7,
+      "heat": 85
     },
     {
       "name": "机器人",
-      "count": 5,
-      "heat": 77
+      "count": 6,
+      "heat": 81
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-06-09T17:00:00.000Z",
-      "latestDisplayedAt": "2026-06-09T17:00:00.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-06-11T19:00:00.000Z",
+      "latestDisplayedAt": "2026-06-11T19:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -192,7 +192,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 4,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-06-12T15:56:10.000Z",
       "latestDisplayedAt": "2026-06-12T15:56:10.000Z"
     },
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-15T21:50:21.000Z",
-      "latestDisplayedAt": "2026-06-15T21:50:21.000Z"
+      "latestFetchedAt": "2026-06-15T23:51:44.000Z",
+      "latestDisplayedAt": "2026-06-15T23:51:44.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-15T23:37:21.000Z",
-      "latestDisplayedAt": "2026-06-15T23:37:21.000Z"
+      "itemCount": 14,
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-06-15T23:56:18.000Z",
+      "latestDisplayedAt": "2026-06-15T23:56:18.000Z"
     },
     {
       "id": "ithome",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 21,
+      "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-15T23:30:06.000Z",
-      "latestDisplayedAt": "2026-06-15T23:30:06.000Z"
+      "latestFetchedAt": "2026-06-15T23:58:40.000Z",
+      "latestDisplayedAt": "2026-06-15T23:58:40.000Z"
     },
     {
       "id": "oschina",
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-15T09:45:58.000Z",
       "latestDisplayedAt": "2026-06-15T09:45:58.000Z"
     },
@@ -488,36 +488,55 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-电子特气生产企业爆单",
-      "title": "电子特气生产企业爆单",
-      "url": "https://36kr.com/newsflashes/3854584022013186?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T23:37:21.000Z",
-      "summary": "随着人工智能产业景气度不断攀升，人工智能芯片、高端存储芯片的需求旺盛。而这些芯片的生产中，离不开一种特殊的耗材——电子特种气体。电子特种气体，是纯度高于‌99.99%‌的电子级气体，属于电子化学品领域的核心材料，也被称为半导体产业的血液。在下游强劲需求的推动下，电子特气市场多款核心产品目前供不应求。多家特气生产企业负责人表示，在手订单大幅增加，产线处于高负荷运转状态。据企业负……",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "ithome-升级-等-为用户创作整合更多人工智能能力",
-      "title": "升级、等，为用户创作整合更多人工智能能力",
-      "url": "https://www.ithome.com/0/964/624.htm",
+      "id": "ithome-马斯克再败诉-美法官驳回指控开放人工智能公司窃取商业机密的诉讼",
+      "title": "马斯克再败诉：美法官驳回指控开放人工智能公司窃取商业机密的诉讼",
+      "url": "https://www.ithome.com/0/964/631.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:30:06.000Z",
-      "summary": "科技之家 6 月 16 日消息，昨日（6 月 15 日）发布公告，宣布升级云服务套件，涵盖、与，为用户创作流程整合更多人工智能能力。方面，新版加入辅助筛选工具，用户可按“睁眼”与“眼部清晰度”等条件快速过滤照片，此外照片转视频功能则可把静态照片转成带人工智能运动效果的补充镜头或短视频内容。科技之家援引博文介绍，在图像质量处理上，新增人工智能锐化功能，采用的噪声感知锐化模型，可……",
+      "publishedAt": "2026-06-15T23:58:40.000Z",
+      "summary": "科技之家 6 月 16 日消息，据路透社报道，美国一名联邦法官于当地时间周一驳回了埃隆 · 马斯克旗下人工智能企业提起的诉讼。该诉讼指控竞争对手萨姆 · 奥尔特曼创办的开放人工智能公司窃取聊天机器人的商业机密。旧金山联邦地区法官丽塔 · 林表示，未能拿出证据证明开放人工智能公司诱使其前高级工程师李雪辰（，音译）泄露与自家聊天机器人相关的机密信息，也无法证实开放人工智能公司的工……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "多模态"
+        "机器人"
       ],
-      "heat": 92,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-8点1氪-山姆总部因食品安全问题被约谈-智谱股价暴涨-创上市以来单日成交新高-美伊确认达成协议-国际油价显著下跌",
+      "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
+      "url": "https://36kr.com/p/3855082873476102?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T23:56:18.000Z",
+      "summary": "今日热点导览国内品牌金饰价格普涨小红书公布世界杯开赛数据阿里巴巴达摩院退出旗下科技公司罗马仕接连变更法定代表人遇见小面创始人向“渝见小面”致歉相关型号大新闻针对多发食品安全问题，市场监管总局约谈山姆总部记者15日了解到，针对一段时期以来监管发现和媒体曝光的山姆线下门店及线上网店多发的食品安全问题，近日，市场监管总局依法对沃尔玛（中国）投资有限公司（即山姆总部）负责人进行了责任……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-在谷歌",
+      "title": "在谷歌",
+      "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T23:51:44.000Z",
+      "summary": "人工智能在抗议，时间面向使用在谷歌。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -538,23 +557,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-政府人工智能安全公司模型关于人工智能",
-      "title": "政府人工智能安全公司模型关于人工智能",
-      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T21:50:21.000Z",
-      "summary": "决策人工智能安全公司向模型，: 人工智能来自。政府。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "wired-ai-元宇宙平台公司公司人工智能",
       "title": "元宇宙平台公司公司人工智能",
       "url": "https://www.wired.com/story/andrew-bosworth-meta-employees-unrest/",
@@ -567,7 +569,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6a3066677da677701d8b62cd/master/pass/Andrew-Bosworth-Urges-Employees-Business-2235573265.jpg"
     },
     {
@@ -584,7 +586,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -633,7 +635,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -650,7 +652,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -717,7 +719,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -751,7 +753,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -784,7 +786,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -907,53 +909,67 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-克劳德模型-5-可用在微软-驱动智能体",
-      "title": "克劳德模型 5 可用在微软 : 驱动智能体",
-      "url": "https://azure.microsoft.com/en-us/blog/claude-fable-5-is-now-available-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
+      "id": "microsoft-ai-blog-3-向来自微软构建-2026",
+      "title": "3 向来自微软构建 2026",
+      "url": "https://azure.microsoft.com/en-us/blog/3-things-leaders-need-to-know-from-microsoft-build-2026/",
       "source": "微软云与人工智能博客",
       "sourceId": "microsoft-ai-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-09T17:00:00.000Z",
-      "summary": "克劳德模型 5，人工智能安全公司前沿模型，可用在微软，驱动智能体在代码托管平台智能编程助手和智能体服务。克劳德模型 5 可用在微软 : 驱动智能体首个在微软。",
+      "publishedAt": "2026-06-11T19:00:00.000Z",
+      "summary": "在微软构建 2026，人工智能来自向来自工具向在企业数据。组织人工智能工作流，规模信息技术，和信息技术进入更快，成本，和更好客户。3 向来自微软构建 2026 首个在微软。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 70,
+      "heat": 52,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-人工智能电脑出货量持续增长-产业链公司加紧布局",
-      "title": "人工智能电脑出货量持续增长，产业链公司加紧布局",
-      "url": "https://36kr.com/newsflashes/3855026521412608?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T23:33:37.000Z",
-      "summary": "近期，人工智能电脑产业迭代提速，各大科技厂商密集推出新品，行业加速商业化落地。业内人士称，受益于电脑换机周期与端侧人工智能渗透双重红利，人工智能电脑有望成为消费电子高确定性增长赛道。记者采访及梳理发现，产业风口下，芯片架构竞争态势凸显，代工、电池、精密结构件等上下游产业链同步迎来扩容升级窗口期，多家股上市公司加速切入赛道或加码布局业务，抢抓行业规模化爆发带来的新机遇。(上证报)",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "ithome-信息技术早报-0616-华为朱懂东否认鸿蒙套壳安卓-市监总局就食品安全问题约谈山姆总部-菜鸟辟谣-解散-传闻-浙江联通全面退出-",
-      "title": "信息技术早报 0616：华为朱懂东否认鸿蒙套壳安卓；市监总局就食品安全问题约谈山姆总部；菜鸟辟谣“解散”传闻；浙江联通全面退出 3 克服务。",
-      "url": "https://www.ithome.com/0/964/622.htm",
+      "id": "ithome-消息称高通洽谈收购-旨在提升人工智能芯片研发实力",
+      "title": "消息称高通洽谈收购，旨在提升人工智能芯片研发实力",
+      "url": "https://www.ithome.com/0/964/630.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:22:04.000Z",
-      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 6 月 16 日星期二，今天的重要科技资讯有：1、华为朱懂东谈“鸿蒙套壳安卓”：套壳拿不到最高安全可靠等级 Ⅱ 级权威认证朱懂东介绍称，鸿蒙系统第1代.0 已通过国家安全可靠 Ⅱ 评测认证。这个认证可以证明鸿蒙套壳安卓的言论是假的，如果是套壳，拿不到这个证书的。>> 查看详情 2、针对多发食品安全问题，市场监管总局约谈山姆总……",
+      "publishedAt": "2026-06-15T23:54:14.000Z",
+      "summary": "科技之家 6 月 16 日消息，据外媒报道，高通正洽谈收购人工智能芯片设计初创企业，双方商讨的收购对价区间至少在 80 亿至 100 亿美元（科技之家注：现汇率约合 541.53 亿至 676.91 亿元人民币），相较于上一轮估值存在大幅溢价。作为比较，该公司去年底完成超过 6.93 亿美元轮融资，当时估值约为 26 亿美元（现汇率约合 176 亿元人民币）。目前尚不清楚这笔……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-华泰证券-人工智能正在推动游戏行业从内容工业向智能互动工业演进",
+      "title": "华泰证券：人工智能正在推动游戏行业从内容工业向智能互动工业演进",
+      "url": "https://36kr.com/newsflashes/3855073091752966?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T23:53:04.000Z",
+      "summary": "36氪获悉，华泰证券研报称，人工智能正在推动游戏行业从内容工业向智能互动工业演进，华泰证券认为行业核心受益方向如下：1。人工智能驱动研发工业化升级，通过全链路提效降低研发成本。建议关注具备人工智能工业化布局的头部厂商；2。人工智能原生玩法创新推动交互体验与付费模式变革。建议关注在人工智能玩法上快速验证的标的；3。人工智能降低开发门槛后，平台与全球化发行体系有望受益于供给扩容。……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-政府人工智能安全公司模型关于人工智能",
+      "title": "政府人工智能安全公司模型关于人工智能",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T21:50:21.000Z",
+      "summary": "决策人工智能安全公司向模型，: 人工智能来自。政府。",
       "topics": [
         "模型发布",
-        "产品应用",
         "监管安全"
       ],
       "heat": 99,
@@ -972,7 +988,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1011,22 +1027,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司新人工智能模式在来自平台",
-      "title": "元宇宙平台公司新人工智能模式在来自平台",
-      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T18:30:58.000Z",
-      "summary": "元宇宙平台公司宣布信息技术新人工智能功能在，公司向回顾在人工智能和持续用户在平台。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "the-decoder-英伟达人工智能借助-20-十亿",
       "title": "英伟达人工智能借助 $20 十亿",
       "url": "https://the-decoder.com/nvidia-joins-ai-debt-boom-with-20-billion-bond-sale/",
@@ -1058,7 +1058,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1076,7 +1076,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1108,7 +1108,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1331,35 +1331,55 @@
       "image": ""
     },
     {
-      "id": "ithome-收购-为人工智能负载吃内存寻找降本新路径",
-      "title": "收购，为人工智能负载吃内存寻找降本新路径",
-      "url": "https://www.ithome.com/0/964/621.htm",
+      "id": "microsoft-ai-blog-克劳德模型-5-可用在微软-驱动智能体",
+      "title": "克劳德模型 5 可用在微软 : 驱动智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/claude-fable-5-is-now-available-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-09T17:00:00.000Z",
+      "summary": "克劳德模型 5，人工智能安全公司前沿模型，可用在微软，驱动智能体在代码托管平台智能编程助手和智能体服务。克劳德模型 5 可用在微软 : 驱动智能体首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 70,
+      "image": ""
+    },
+    {
+      "id": "ithome-外媒实测相关型号-相关型号新版-打开通知邮件需约-10-秒-而经典版近乎秒开",
+      "title": "外媒实测相关型号/相关型号新版：打开通知邮件需约 10 秒，而经典版近乎秒开",
+      "url": "https://www.ithome.com/0/964/629.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:18:47.000Z",
-      "summary": "科技之家 6 月 16 日消息，公司昨日（6 月 15 日）发布公告，宣布收购内存优化技术公司，目标是缓解数据中心日益突出的内存瓶颈。科技之家援引博文介绍，在人工智能、数据分析、虚拟化和高性能计算负载持续膨胀后，现代数据中心普遍面临内存资源紧张的问题。对云服务商和企业客户来说，内存已成为影响性能、效率和部署速度的重要约束。公司主要技术优势在于把闪存扩展为应用可用的“近内存层”……",
+      "publishedAt": "2026-06-15T23:54:00.000Z",
+      "summary": "科技之家 6 月 16 日消息，科技媒体视窗系统昨日（6 月 15 日）发布博文，报道称适用于视窗系统 10、视窗系统 11 系统的新版存在打开通知邮件延迟问题。在通知响应速度上，该媒体测试指出点击视窗系统 11 邮件通知后，新版需约 10 秒才能显示目标邮件，而经典版几乎秒开。该媒体还指出手动打开应用查找邮件仅需 5 秒，比点击通知还快。科技之家附上相关视频如下：新版和经典……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-人工智能安全公司将就相关纠纷与特朗普政府展开会晤",
-      "title": "人工智能安全公司将就相关纠纷与特朗普政府展开会晤",
-      "url": "https://36kr.com/newsflashes/3854586699715840?f=rss",
+      "id": "thirty-six-kr-高通据悉洽谈收购人工智能芯片初创企业",
+      "title": "高通据悉洽谈收购人工智能芯片初创企业",
+      "url": "https://36kr.com/newsflashes/3855070663464192?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:10:12.000Z",
-      "summary": "一名接近人工智能安全公司公司的消息人士透露，公司多名高层管理人员将于周一在华盛顿特区同特朗普政府官员会面，力求化解这家人工智能企业近期与美国政府爆发的重大纠纷。一份声明显示，人工智能安全公司上周五收到一份出口管制指令，文件援引国家安全相关部门的要求，勒令该公司全面禁止所有外籍人士使用其最新两款人工智能模型 5与 5，无论外籍人士身处美国境内还是海外。（财联社）",
+      "publishedAt": "2026-06-15T23:48:04.000Z",
+      "summary": "6月16日，据报道，高通正在洽谈收购初创公司，两家公司讨论的价格至少在80亿至100亿美元之间，谈判仍在进行，价格可能会有调整，磋商也有可能会破裂。（界面）",
       "topics": [
-        "监管安全"
+        "算力芯片"
       ],
-      "heat": 96,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1380,20 +1400,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-向-首次公开募股",
-      "title": ": 向，首次公开募股",
-      "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+      "id": "techcrunch-ai-元宇宙平台公司新人工智能模式在来自平台",
+      "title": "元宇宙平台公司新人工智能模式在来自平台",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T18:30:34.000Z",
-      "summary": "科技创投媒体，和来自。和我们这里面向。首次公开募股向和，首次公开募股，和内部。",
+      "publishedAt": "2026-06-15T18:30:58.000Z",
+      "summary": "元宇宙平台公司宣布信息技术新人工智能功能在，公司向回顾在人工智能和持续用户在平台。",
       "topics": [
-        "产品应用",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 92,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1410,7 +1429,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1511,7 +1530,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1669,37 +1688,38 @@
       "image": ""
     },
     {
-      "id": "ithome-项目负责人揭秘为何苹果人工智能版姗姗来迟-推倒重来-彻底重构",
-      "title": "项目负责人揭秘为何苹果人工智能版姗姗来迟：推倒重来，彻底重构",
-      "url": "https://www.ithome.com/0/964/620.htm",
+      "id": "ithome-人工智能安全公司高管与美政府展开谈判-寻求解除人工智能模型-5-出口禁令",
+      "title": "人工智能安全公司高管与美政府展开谈判，寻求解除人工智能模型 5 出口禁令",
+      "url": "https://www.ithome.com/0/964/628.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:16:58.000Z",
-      "summary": "科技之家 6 月 16 日消息，苹果移动系统 27 全新人工智能版相比旧版实现了跨越式升级，但其上线耗时远超预期。迈克 · 罗克韦尔道出了新迟迟未能推出的背后原因。科技之家注意到，苹果全球开发者大会（）主题演讲结束后的上周，苹果面向媒体举办了一场聚焦与苹果智能（苹果 ）的技术分享会。迈克 · 罗克韦尔也出席了本次分享会，他从去年才开始接手项目的整体管理工作。罗克韦尔补充了全新……",
+      "publishedAt": "2026-06-15T23:49:37.000Z",
+      "summary": "科技之家 6 月 16 日消息，多名政府官员、一名知晓谈判内情人士及一名接近该公司的消息人士向网站透露，人工智能安全公司公司员工于当地时间周一与特朗普政府高级官员举行了面对面会谈。此前，美国联邦政府出台出口禁令，迫使这家人工智能初创企业在上周五晚间将其最新模型下架。一名白宫高级官员表示，想要拿出能解除政府上周五管控措施的解决方案，耗时大概率不止短短几天。此次禁令禁止人工智能安……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "多模态"
+        "监管安全",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-美股三大指数集体收涨-大涨超19",
-      "title": "美股三大指数集体收涨，大涨超19%",
-      "url": "https://36kr.com/newsflashes/3855024655455232?f=rss",
+      "id": "thirty-six-kr-英伟达时隔5年再发债-拟募资超200亿美元",
+      "title": "英伟达时隔5年再发债，拟募资超200亿美元",
+      "url": "https://36kr.com/newsflashes/3855060489753600?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:00:00.000Z",
-      "summary": "36氪获悉，6月15日收盘，美股三大指数集体上涨，纳指涨3.07%，道指涨0.92%，标普500指数涨1.66%。大涨19.6%，总市值跃升至2.52万亿美元。芯片股走强，西部数据涨超16%，美光科技涨超10%，希捷科技涨超9%，英伟达涨超3%。热门中概股多数上涨，拼多多涨超2%，百度、京东、网易、理想汽车小幅上涨，阿里巴巴、蔚来、哔哩哔哩小幅下跌。",
+      "publishedAt": "2026-06-15T23:41:15.000Z",
+      "summary": "英伟达周一向美国证券交易委员会（）提交文件，披露本轮融资计划，但并未公布具体融资规模。据知情人士透露，英伟达计划发行至少200亿美元债券，这也是这家芯片厂商自人工智能产业热潮兴起以来，首次开展债券融资。英伟达股价周一上涨3.5%，年内累计涨幅约14%。（第一财经）",
       "topics": [
-        "算力芯片"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1716,7 +1736,24 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-向-首次公开募股",
+      "title": ": 向，首次公开募股",
+      "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T18:30:34.000Z",
+      "summary": "科技创投媒体，和来自。和我们这里面向。首次公开募股向和，首次公开募股，和内部。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 91,
       "image": ""
     },
     {
@@ -1734,24 +1771,6 @@
         "监管安全"
       ],
       "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-抗议政府在人工智能安全公司最模型",
-      "title": "抗议政府在人工智能安全公司最模型",
-      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T15:29:51.000Z",
-      "summary": "群组向，控制在人工智能安全公司和模型，争论向限制向保障安全软件和产品。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1997,36 +2016,36 @@
       "image": ""
     },
     {
-      "id": "huggingface-blog-代码托管平台向",
-      "title": "代码托管平台向",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-09T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "开源生态"
-      ],
-      "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "ithome-26-4-为何拦截部分终端命令-苹果解释背后安全触发机制",
-      "title": "26.4 为何拦截部分终端命令？苹果解释背后安全触发机制",
-      "url": "https://www.ithome.com/0/964/616.htm",
+      "id": "ithome-承销商全额行使超额配售权-史上最大首次公开募股募资总额达-857-亿美元",
+      "title": "承销商全额行使超额配售权，史上最大首次公开募股募资总额达 857 亿美元",
+      "url": "https://www.ithome.com/0/964/625.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T23:07:51.000Z",
-      "summary": "科技之家 6 月 16 日消息，苹果公司昨日（6 月 15 日）更新支持文档，解释称在 26.4 系统中，若用户不常用终端（），且命令来自网站、聊天智能体、消息或邮件应用，系统可能阻止粘贴。科技媒体相关型号指出，用户此前终端里粘贴命令后，系统会先给出安全警告，提示内容可能含有恶意代码。很多人只知道有这个拦截机制，但不清楚它的触发机制。在最新官方支持文档中，苹果公司表示如果用户……",
+      "publishedAt": "2026-06-15T23:37:31.000Z",
+      "summary": "科技之家 6 月 16 日消息，具有里程碑意义的首次公开募股（首次公开募股）规模大幅扩大，此次承销商全额行使超额配售权，认购上限额度股票，募资总额由此增至 857 亿美元（科技之家注：现汇率约合 5801.15 亿元人民币）。埃隆 · 马斯克旗下这家航天与人工智能企业最初募资 750 亿美元，该规模已是史上最高首次公开募股募资额。表示，本次首次公开募股募集资金将用于多项业务布……",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "算力芯片",
+        "投融资"
       ],
       "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-电子特气生产企业爆单",
+      "title": "电子特气生产企业爆单",
+      "url": "https://36kr.com/newsflashes/3854584022013186?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T23:37:21.000Z",
+      "summary": "随着人工智能产业景气度不断攀升，人工智能芯片、高端存储芯片的需求旺盛。而这些芯片的生产中，离不开一种特殊的耗材——电子特种气体。电子特种气体，是纯度高于‌99.99%‌的电子级气体，属于电子化学品领域的核心材料，也被称为半导体产业的血液。在下游强劲需求的推动下，电子特气市场多款核心产品目前供不应求。多家特气生产企业负责人表示，在手订单大幅增加，产线处于高负荷运转状态。据企业负……",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -2047,37 +2066,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能客户服务平台面向-3-6-十亿",
-      "title": "人工智能客户服务平台面向 $3.6 十亿",
-      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "id": "techcrunch-ai-抗议政府在人工智能安全公司最模型",
+      "title": "抗议政府在人工智能安全公司最模型",
+      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T14:34:45.000Z",
-      "summary": "信息技术向使用团队和向改进，企业平台企业使用向构建人工智能智能体自动化任务。",
+      "publishedAt": "2026-06-15T15:29:51.000Z",
+      "summary": "群组向，控制在人工智能安全公司和模型，争论向限制向保障安全软件和产品。",
       "topics": [
-        "产品应用"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-相关型号双摄来了-手机影像之外-大疆正在重做一台-口袋电影机",
-      "title": "相关型号双摄来了：手机影像之外，大疆正在重做一台“口袋电影机”",
-      "url": "https://36kr.com/p/3854510160549124?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T14:13:11.000Z",
-      "summary": "在手机影像能力不断逼近专业设备的今天，一个问题变得越来越尖锐：独立影像设备，还有存在的必要吗？6月15日，大疆正式发布相关型号，将这台口袋云台相机推向更专业的创作场景。作为系列的新一代旗舰产品，相关型号定位为“装进口袋里的电影机”，搭载双摄系统、17级动态范围与 2 专业色彩曲线，试图在口袋级设备中进一步容纳专业影像能力。相关型号以 3799元起售，多平台预订量持续走高。对于……",
-      "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 90,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2094,7 +2097,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2112,7 +2115,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2178,7 +2181,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2283,21 +2286,37 @@
       "image": ""
     },
     {
-      "id": "ithome-招商银行推出-运通工程师信用卡-新用户办卡提供-专属人工智能权益-单月可享-18-亿词元相关型号用量",
-      "title": "招商银行推出“运通工程师信用卡”，新用户办卡提供“专属人工智能权益”单月可享 18 亿词元相关型号用量",
-      "url": "https://www.ithome.com/0/964/614.htm",
+      "id": "thirty-six-kr-人工智能电脑出货量持续增长-产业链公司加紧布局",
+      "title": "人工智能电脑出货量持续增长，产业链公司加紧布局",
+      "url": "https://36kr.com/newsflashes/3855026521412608?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T23:33:37.000Z",
+      "summary": "近期，人工智能电脑产业迭代提速，各大科技厂商密集推出新品，行业加速商业化落地。业内人士称，受益于电脑换机周期与端侧人工智能渗透双重红利，人工智能电脑有望成为消费电子高确定性增长赛道。记者采访及梳理发现，产业风口下，芯片架构竞争态势凸显，代工、电池、精密结构件等上下游产业链同步迎来扩容升级窗口期，多家股上市公司加速切入赛道或加码布局业务，抢抓行业规模化爆发带来的新机遇。(上证报)",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "ithome-升级-等-为用户创作整合更多人工智能能力",
+      "title": "升级、等，为用户创作整合更多人工智能能力",
+      "url": "https://www.ithome.com/0/964/624.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T22:59:02.000Z",
-      "summary": "科技之家 6 月 16 日消息，招商银行宣布推出一款“运通工程师信用卡”，强调相应信用卡拥有“专属人工智能权益”。科技之家参考官方介绍获悉，新用户办卡首次参与活动达标后，至高可享每月 18 亿词元相关型号用量，可直接用于文档、图像、音视频等多模态模型调用，以及龙虾部署等人工智能高频场景。具体来看，相应信用卡“人工智能权益体系”提供三种方案可选：面向频繁使用人工智能工具的专业开……",
+      "publishedAt": "2026-06-15T23:30:06.000Z",
+      "summary": "科技之家 6 月 16 日消息，昨日（6 月 15 日）发布公告，宣布升级云服务套件，涵盖、与，为用户创作流程整合更多人工智能能力。方面，新版加入辅助筛选工具，用户可按“睁眼”与“眼部清晰度”等条件快速过滤照片，此外照片转视频功能则可把静态照片转成带人工智能运动效果的补充镜头或短视频内容。科技之家援引博文介绍，在图像质量处理上，新增人工智能锐化功能，采用的噪声感知锐化模型，可……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2317,35 +2336,17 @@
       "image": "https://preview.redd.it/pojkhxpwnh7h1.png?width=640&crop=smart&auto=webp&s=700337f960580f3d4a40a47965f87a722e9b7acd"
     },
     {
-      "id": "thirty-six-kr-氪星晚报-我国成功发射吉星高分相关型号星等8颗卫星-小红书或已准备好本月在香港提交首次公开募股申请-智谱-公司已推出最新一代旗舰",
-      "title": "氪星晚报 ｜我国成功发射吉星高分相关型号星等8颗卫星；小红书或已准备好本月在香港提交首次公开募股申请；智谱：公司已推出最新一代旗舰模型相关型号",
-      "url": "https://36kr.com/p/3854486447510535?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T13:48:20.000Z",
-      "summary": "大公司：支付宝：政务人工智能助手“晓政”服务突破1亿次 36氪获悉，支付宝宣布，旗下政务人工智能助手“晓政”累计服务次数突破1亿次。截至目前，“晓政”服务已覆盖16000项服务事项，成功落地助力70余家部委及省级政务机构，业务场景全面覆盖公积金、人社、公安、不动产等民生领域。小雨智造与地瓜机器人正式宣布达成战略合作 36氪获悉，6月12日，小雨智造与地瓜机器人正式宣布达成战略……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能借助-234-百万融资由",
-      "title": "人工智能借助 $234 百万融资由",
-      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "id": "techcrunch-ai-人工智能客户服务平台面向-3-6-十亿",
+      "title": "人工智能客户服务平台面向 $3.6 十亿",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T13:46:08.000Z",
-      "summary": "信息技术服务公司 $150 百万在创业公司。",
+      "publishedAt": "2026-06-15T14:34:45.000Z",
+      "summary": "信息技术向使用团队和向改进，企业平台企业使用向构建人工智能智能体自动化任务。",
       "topics": [
-        "投融资"
+        "产品应用"
       ],
       "heat": 83,
       "image": ""
@@ -2365,7 +2366,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2397,7 +2398,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2413,7 +2414,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2553,21 +2554,21 @@
       "image": ""
     },
     {
-      "id": "ithome-古尔曼-苹果有望推出人工智能智能体-让自主操作苹果手机和苹果电脑软件",
-      "title": "古尔曼：苹果有望推出人工智能智能体，让自主操作苹果手机和苹果电脑软件",
-      "url": "https://www.ithome.com/0/964/612.htm",
+      "id": "ithome-信息技术早报-0616-华为朱懂东否认鸿蒙套壳安卓-市监总局就食品安全问题约谈山姆总部-菜鸟辟谣-解散-传闻-浙江联通全面退出-",
+      "title": "信息技术早报 0616：华为朱懂东否认鸿蒙套壳安卓；市监总局就食品安全问题约谈山姆总部；菜鸟辟谣“解散”传闻；浙江联通全面退出 3 克服务。",
+      "url": "https://www.ithome.com/0/964/622.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T22:56:45.000Z",
-      "summary": "科技之家 6 月 16 日消息，彭博社记者马克 · 古尔曼认为，苹果最终可能推出一款产品，直接对标 —— 这是一套智能体人工智能系统，能够代用户自主操作各类软件。古尔曼在其专栏《 》中撰文表示，他预计苹果会研发一套系统，可全权代表用户操作苹果手机、苹果平板与苹果电脑端的各类软件。这一预测的依据，是苹果工程主管迈克 · 罗克韦尔在上周苹果全球开发者大会（）主题演讲结束后发表的相……",
+      "publishedAt": "2026-06-15T23:22:04.000Z",
+      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 6 月 16 日星期二，今天的重要科技资讯有：1、华为朱懂东谈“鸿蒙套壳安卓”：套壳拿不到最高安全可靠等级 Ⅱ 级权威认证朱懂东介绍称，鸿蒙系统第1代.0 已通过国家安全可靠 Ⅱ 评测认证。这个认证可以证明鸿蒙套壳安卓的言论是假的，如果是套壳，拿不到这个证书的。>> 查看详情 2、针对多发食品安全问题，市场监管总局约谈山姆总……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2585,42 +2586,41 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-作为人工智能智能体成为员工-借助-66-百万向",
-      "title": "作为人工智能智能体成为员工，借助 $66 百万向",
-      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T13:00:00.000Z",
-      "summary": "在企业安全人工智能智能体。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-从一个想法到一个产品-年轻开发者把生活观察写进代码",
-      "title": "从一个想法到一个产品，年轻开发者把生活观察写进代码",
-      "url": "https://36kr.com/p/3854243718550528?f=rss",
+      "id": "thirty-six-kr-相关型号双摄来了-手机影像之外-大疆正在重做一台-口袋电影机",
+      "title": "相关型号双摄来了：手机影像之外，大疆正在重做一台“口袋电影机”",
+      "url": "https://36kr.com/p/3854510160549124?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T09:46:34.000Z",
-      "summary": "6月14日，鸿蒙系统创新赛·极客赛道决赛在华为开发者大会（ 2026）落下帷幕。此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用鸿蒙系统 7，围绕人工智能、三维空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。翻开参赛作品的名单，我们意……",
+      "publishedAt": "2026-06-15T14:13:11.000Z",
+      "summary": "在手机影像能力不断逼近专业设备的今天，一个问题变得越来越尖锐：独立影像设备，还有存在的必要吗？6月15日，大疆正式发布相关型号，将这台口袋云台相机推向更专业的创作场景。作为系列的新一代旗舰产品，相关型号定位为“装进口袋里的电影机”，搭载双摄系统、17级动态范围与 2 专业色彩曲线，试图在口袋级设备中进一步容纳专业影像能力。相关型号以 3799元起售，多平台预订量持续走高。对于……",
       "topics": [
         "产品应用",
-        "研究论文",
+        "算力芯片",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能借助-234-百万融资由",
+      "title": "人工智能借助 $234 百万融资由",
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T13:46:08.000Z",
+      "summary": "信息技术服务公司 $150 百万在创业公司。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -2669,7 +2669,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2702,7 +2702,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2773,6 +2773,22 @@
       "image": ""
     },
     {
+      "id": "ithome-收购-为人工智能负载吃内存寻找降本新路径",
+      "title": "收购，为人工智能负载吃内存寻找降本新路径",
+      "url": "https://www.ithome.com/0/964/621.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-15T23:18:47.000Z",
+      "summary": "科技之家 6 月 16 日消息，公司昨日（6 月 15 日）发布公告，宣布收购内存优化技术公司，目标是缓解数据中心日益突出的内存瓶颈。科技之家援引博文介绍，在人工智能、数据分析、虚拟化和高性能计算负载持续膨胀后，现代数据中心普遍面临内存资源紧张的问题。对云服务商和企业客户来说，内存已成为影响性能、效率和部署速度的重要约束。公司主要技术优势在于把闪存扩展为应用可用的“近内存层”……",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
       "url": "https://www.reddit.com/r/artificial/comments/1u6lqi2/aide_dans_mon_travail/",
@@ -2785,40 +2801,42 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
-      "id": "ithome-消息称英伟达时隔五年重返债市-拟发债筹集-200-亿美元",
-      "title": "消息称英伟达时隔五年重返债市：拟发债筹集 200 亿美元",
-      "url": "https://www.ithome.com/0/964/602.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
+      "id": "thirty-six-kr-氪星晚报-我国成功发射吉星高分相关型号星等8颗卫星-小红书或已准备好本月在香港提交首次公开募股申请-智谱-公司已推出最新一代旗舰",
+      "title": "氪星晚报 ｜我国成功发射吉星高分相关型号星等8颗卫星；小红书或已准备好本月在香港提交首次公开募股申请；智谱：公司已推出最新一代旗舰模型相关型号",
+      "url": "https://36kr.com/p/3854486447510535?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T15:32:36.000Z",
-      "summary": "科技之家 6 月 15 日消息，据路透社报道，知情人士透露，英伟达计划通过在美国发行债券筹集 200 亿美元 （现汇率约合 1353.83 亿元人民币）。英伟达上一次进入投资级债券市场是在 2021 年 6 月，当时融资规模为 50 亿美元（科技之家注：现汇率约合 338.46 亿元人民币）。报道称英伟达拟发行七档债券，最晚将于 2056 年到期。消息人士称募资所得将用于一般……",
+      "publishedAt": "2026-06-15T13:48:20.000Z",
+      "summary": "大公司：支付宝：政务人工智能助手“晓政”服务突破1亿次 36氪获悉，支付宝宣布，旗下政务人工智能助手“晓政”累计服务次数突破1亿次。截至目前，“晓政”服务已覆盖16000项服务事项，成功落地助力70余家部委及省级政务机构，业务场景全面覆盖公积金、人社、公安、不动产等民生领域。小雨智造与地瓜机器人正式宣布达成战略合作 36氪获悉，6月12日，小雨智造与地瓜机器人正式宣布达成战略……",
       "topics": [
+        "产品应用",
         "算力芯片",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 89,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+      "id": "techcrunch-ai-作为人工智能智能体成为员工-借助-66-百万向",
+      "title": "作为人工智能智能体成为员工，借助 $66 百万向",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-15T12:00:00.000Z",
-      "summary": "在，面向首个时间，地球观测信息技术面向，在。",
+      "publishedAt": "2026-06-15T13:00:00.000Z",
+      "summary": "在企业安全人工智能智能体。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 81,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2834,23 +2852,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "oschina-人工智能桌面硬件大赏-来源-终端的赛博朋克多功能工具",
-      "title": "🔥🔥【人工智能桌面硬件大赏】，来源：终端的赛博朋克多功能工具",
-      "url": "https://www.oschina.net/ai-creation/details/2806",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T06:04:17.000Z",
-      "summary": "可以将终端变成个人工具包。它包含计时器、电脑状态、/无线网络扫描器、声呐、等功能。",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     }
   ]
