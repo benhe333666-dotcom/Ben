@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-06-17T14:42:49.233Z",
+  "generatedAt": "2026-06-17T15:12:59.337Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-17T15:00:00.000Z",
+  "nextUpdateHint": "2026-06-17T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-17T14:30:22.000Z"
+    "latestPublishedAt": "2026-06-17T15:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 73,
-      "heat": 80
+      "count": 72,
+      "heat": 81
     },
     {
       "name": "模型发布",
-      "count": 43,
+      "count": 42,
       "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 29,
+      "count": 28,
       "heat": 83
     },
     {
       "name": "算力芯片",
-      "count": 22,
-      "heat": 89
+      "count": 23,
+      "heat": 90
     },
     {
       "name": "研究论文",
-      "count": 21,
-      "heat": 81
+      "count": 23,
+      "heat": 83
     },
     {
       "name": "人工智能动态",
@@ -42,19 +42,14 @@
       "heat": 74
     },
     {
-      "name": "开源生态",
-      "count": 17,
-      "heat": 70
-    },
-    {
       "name": "投融资",
       "count": 15,
       "heat": 77
     },
     {
-      "name": "端侧智能",
-      "count": 12,
-      "heat": 75
+      "name": "开源生态",
+      "count": 15,
+      "heat": 67
     },
     {
       "name": "多模态",
@@ -62,8 +57,13 @@
       "heat": 91
     },
     {
+      "name": "端侧智能",
+      "count": 10,
+      "heat": 71
+    },
+    {
       "name": "机器人",
-      "count": 5,
+      "count": 6,
       "heat": 91
     }
   ],
@@ -96,9 +96,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-06-15T15:00:00.000Z",
-      "latestDisplayedAt": "2026-06-15T15:00:00.000Z"
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-06-17T15:00:00.000Z",
+      "latestDisplayedAt": "2026-06-17T15:00:00.000Z"
     },
     {
       "id": "google-research",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-17T14:15:22.000Z",
-      "latestDisplayedAt": "2026-06-17T14:15:22.000Z"
+      "latestFetchedAt": "2026-06-17T15:00:00.000Z",
+      "latestDisplayedAt": "2026-06-17T15:00:00.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-17T14:30:22.000Z",
-      "latestDisplayedAt": "2026-06-17T14:30:22.000Z"
+      "latestFetchedAt": "2026-06-17T14:55:28.000Z",
+      "latestDisplayedAt": "2026-06-17T14:55:28.000Z"
     },
     {
       "id": "wired-ai",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-17T13:30:00.000Z",
-      "latestDisplayedAt": "2026-06-16T16:30:00.000Z"
+      "latestFetchedAt": "2026-06-17T15:00:00.000Z",
+      "latestDisplayedAt": "2026-06-17T15:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-06-17T03:25:51.000Z",
@@ -400,7 +400,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 9,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-17T13:07:48.000Z",
       "latestDisplayedAt": "2026-06-17T13:07:48.000Z"
     },
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 17,
+      "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-17T13:52:01.000Z",
-      "latestDisplayedAt": "2026-06-17T13:52:01.000Z"
+      "latestFetchedAt": "2026-06-17T14:58:00.000Z",
+      "latestDisplayedAt": "2026-06-17T14:58:00.000Z"
     },
     {
       "id": "oschina",
@@ -488,19 +488,86 @@
   "failures": [],
   "items": [
     {
-      "id": "the-decoder-开放人工智能公司研究向人工智能模型推出",
-      "title": "开放人工智能公司研究向人工智能模型推出",
-      "url": "https://the-decoder.com/openai-researchers-want-to-predict-how-often-ai-models-will-fail-before-launch/",
+      "id": "google-ai-blog-新研究-人工智能-帮助",
+      "title": "新研究，人工智能，帮助。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "谷歌人工智能博客",
+      "sourceId": "google-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "summary": "研究在人工智能护理在疾病。",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 94,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "summary": "为什么人工智能智能体和，和帮助向和 : 首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-机器人训练数据-人工智能实验室向信息技术",
+      "title": "机器人训练数据。人工智能实验室向信息技术",
+      "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "summary": "人工智能向大语言模型，数据问题向解决。",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "ithome-深度求索以-4000-亿元估值完成首轮外部融资-510-亿元到账-投资方含梁文锋-腾讯-宁德时代-京东-网易等",
+      "title": "深度求索以 4000 亿元估值完成首轮外部融资：510 亿元到账，投资方含梁文锋、腾讯、宁德时代、京东、网易等",
+      "url": "https://www.ithome.com/0/965/686.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T14:58:00.000Z",
+      "summary": "科技之家 6 月 17 日消息，企查查数据显示，杭州深度求索人工智能基础技术研究有限公司已于 2026 年 6 月 16 日完成首轮外部融资，整体融资规模约 510 亿元，企业估值近 4000 亿元。本轮融资的投资方阵容涵盖了产业资本、互联网巨头与国家队，具体投资方包括创始人梁文锋、腾讯、宁德时代、网易、京东、砺思资本、资本、正心谷投资、拾象科技以及国家人工智能产业投资基金合……",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-英伟达研究机器人训练人工智能编程智能体",
+      "title": "英伟达研究机器人训练人工智能编程智能体",
+      "url": "https://the-decoder.com/nvidia-research-shows-robots-that-train-themselves-through-ai-coding-agents/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T14:30:22.000Z",
-      "summary": "开放人工智能公司研究面向新人工智能模型发布。信息技术由安全。开放人工智能公司研究向人工智能模型推出首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-17T14:55:28.000Z",
+      "summary": "研究来自英伟达，和人工智能编程智能体向机器人在现实世界。机器人向 99 在任务。英伟达研究机器人训练人工智能编程智能体首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "监管安全"
+        "算力芯片",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -524,22 +591,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-实验室-27-百万来自向带来向人工智能",
-      "title": "实验室 $27 百万来自向带来向人工智能",
-      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T14:15:22.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-开放人工智能公司亲曝相关型号越狱逃出沙箱-感觉像通用人工智能降临",
       "title": "开放人工智能公司亲曝相关型号越狱逃出沙箱：感觉像通用人工智能降临",
       "url": "https://news.cnblogs.com/n/824273/",
@@ -553,22 +604,6 @@
         "人工智能动态"
       ],
       "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "ithome-谷歌用-4000-行代码重写-安卓-17-引入无线网络-2-0-彻底重写无线调试堆栈解决断连痛点",
-      "title": "谷歌用 4000 行代码重写：安卓 17 引入无线网络 2.0，彻底重写无线调试堆栈解决断连痛点",
-      "url": "https://www.ithome.com/0/965/668.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T13:52:01.000Z",
-      "summary": "科技之家 6 月 17 日消息，谷歌在安卓 17 中对无线功能进行了大幅重写，并推出了全新的无线网络 2.0，旨在解决自安卓 11 引入无线调试功能以来长期困扰开发者的稳定性和易用性问题。即安卓调试桥，是让用户从电脑端控制安卓设备的命令行工具。虽然支持有线与无线两种连接方式，但多数用户更倾向使用有线连接，因为无线模式一直存在多种不便。谷歌技术负责人在安卓大会上详细解释了第一代……",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 87,
       "image": ""
     },
     {
@@ -616,7 +651,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -633,7 +668,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -737,7 +772,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/claude37_header-1152x648.jpg"
     },
     {
@@ -772,7 +807,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -792,22 +827,6 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/pixels-to-planning-2.png"
     },
     {
-      "id": "towards-data-science-进入人工智能",
-      "title": "进入人工智能",
-      "url": "https://towardsdatascience.com/drilling-into-ais-financial-sustainability/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-16T16:30:00.000Z",
-      "summary": "面向人工智能词元，进入人工智能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 70,
-      "image": ""
-    },
-    {
       "id": "wired-ai-词元在人工智能",
       "title": "词元在人工智能",
       "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/",
@@ -820,7 +839,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": "https://media.wired.com/photos/6a28a1a365e0fc8f488095dc/master/pass/How-Software-Company-Is-Saving-Money-By-Spending-Big-on-Claude-Business.jpg"
     },
     {
@@ -836,7 +855,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -892,22 +911,6 @@
       "image": ""
     },
     {
-      "id": "google-ai-blog-我们强化在新投资和社区支持",
-      "title": "我们强化在新投资和社区支持。",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "source": "谷歌人工智能博客",
-      "sourceId": "google-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-15T15:00:00.000Z",
-      "summary": "谷歌宣布 $1.5 十亿投资面向 2026 和 2027 向扩展数据中心在。2019 在 …",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 62,
-      "image": ""
-    },
-    {
       "id": "microsoft-ai-blog-3-向来自微软构建-2026",
       "title": "3 向来自微软构建 2026",
       "url": "https://azure.microsoft.com/en-us/blog/3-things-leaders-need-to-know-from-microsoft-build-2026/",
@@ -921,6 +924,40 @@
         "产品应用"
       ],
       "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-开放人工智能公司研究向人工智能模型推出",
+      "title": "开放人工智能公司研究向人工智能模型推出",
+      "url": "https://the-decoder.com/openai-researchers-want-to-predict-how-often-ai-models-will-fail-before-launch/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T14:30:22.000Z",
+      "summary": "开放人工智能公司研究面向新人工智能模型发布。信息技术由安全。开放人工智能公司研究向人工智能模型推出首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-实验室-27-百万来自向带来向人工智能",
+      "title": "实验室 $27 百万来自向带来向人工智能",
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T14:15:22.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -940,37 +977,19 @@
       "image": "https://external-preview.redd.it/A4Zb7J8PrDS_wc419mLZ-EWRR3kr40SO2a3TOh7dPOY.jpeg?width=640&crop=smart&auto=webp&s=f7cd5bf5b57ed9bf3bb996eabc1d7bf6d314a9a7"
     },
     {
-      "id": "ithome-谷歌推出新一代谷歌智能音箱-搭载双子座模型人工智能助手-售-100-美元",
-      "title": "谷歌推出新一代谷歌智能音箱：搭载双子座模型人工智能助手，售 100 美元",
-      "url": "https://www.ithome.com/0/965/667.htm",
+      "id": "ithome-谷歌用-4000-行代码重写-安卓-17-引入无线网络-2-0-彻底重写无线调试堆栈解决断连痛点",
+      "title": "谷歌用 4000 行代码重写：安卓 17 引入无线网络 2.0，彻底重写无线调试堆栈解决断连痛点",
+      "url": "https://www.ithome.com/0/965/668.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T13:50:08.000Z",
-      "summary": "科技之家 6 月 17 日消息，谷歌今天宣布推出新一代谷歌智能音箱，新品搭载双子座模型人工智能语音助手，支持自然语言交流与多步骤语音指令，6 月 25 日上市，定价 100 美元（科技之家注：现汇率约合 677 元人民币）。据介绍，这款智能音箱采用球形设计，可提供均衡的 360° 环绕音效。具备先进麦克风系统，可根据环境自动调整从而准确识别用户声音。支持与谷歌电视盒配合使用，……",
+      "publishedAt": "2026-06-17T13:52:01.000Z",
+      "summary": "科技之家 6 月 17 日消息，谷歌在安卓 17 中对无线功能进行了大幅重写，并推出了全新的无线网络 2.0，旨在解决自安卓 11 引入无线调试功能以来长期困扰开发者的稳定性和易用性问题。即安卓调试桥，是让用户从电脑端控制安卓设备的命令行工具。虽然支持有线与无线两种连接方式，但多数用户更倾向使用有线连接，因为无线模式一直存在多种不便。谷歌技术负责人在安卓大会上详细解释了第一代……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
+        "端侧智能"
       ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-向人工智能-数据中心",
-      "title": "向人工智能，数据中心",
-      "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T12:38:09.000Z",
-      "summary": "8.2% 在，15 数据中心。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 89,
+      "heat": 86,
       "image": ""
     },
     {
@@ -986,7 +1005,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1022,23 +1041,6 @@
         "开源生态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-向人工智能来自",
-      "title": "向人工智能来自",
-      "url": "https://the-decoder.com/hyperscalers-may-soon-be-unable-to-fund-their-ai-buildout-from-cash-flow-alone/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T10:54:41.000Z",
-      "summary": "向人工智能，微软，亚马逊，元宇宙平台公司，和人工智能基础设施由关于 70，在 23，作为作为 2026。公司融资。向人工智能来自首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 91,
       "image": ""
     },
     {
@@ -1121,7 +1123,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/26tx-coherent-factory-DEB30838-DL-edit-1-scaled.jpg"
     },
     {
@@ -1157,25 +1159,23 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "towards-data-science-本地大语言模型借助在苹果电脑小型版",
-      "title": "本地大语言模型借助在苹果电脑小型版",
-      "url": "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
+      "id": "towards-data-science-进入人工智能",
+      "title": "进入人工智能",
+      "url": "https://towardsdatascience.com/drilling-into-ais-financial-sustainability/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T15:00:00.000Z",
-      "summary": "接口法案？指南向，性能本地大语言模型在苹果电脑小型版。本地大语言模型借助在苹果电脑小型版首个在数据科学实战社区。",
+      "publishedAt": "2026-06-16T16:30:00.000Z",
+      "summary": "面向人工智能词元，进入人工智能首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "端侧智能"
+        "产品应用"
       ],
-      "heat": 79,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1243,7 +1243,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "google-ai-blog-我们强化在新投资和社区支持",
+      "title": "我们强化在新投资和社区支持。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "谷歌人工智能博客",
+      "sourceId": "google-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-15T15:00:00.000Z",
+      "summary": "谷歌宣布 $1.5 十亿投资面向 2026 和 2027 向扩展数据中心在。2019 在 …",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 61,
       "image": ""
     },
     {
@@ -1296,21 +1312,22 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DermAI_Hero.png"
     },
     {
-      "id": "google-ai-blog-新社区投资在支持本地和扩展",
-      "title": "新社区投资在支持本地和扩展。",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "source": "谷歌人工智能博客",
-      "sourceId": "google-ai-blog",
-      "sourceType": "official",
+      "id": "ithome-谷歌推出新一代谷歌智能音箱-搭载双子座模型人工智能助手-售-100-美元",
+      "title": "谷歌推出新一代谷歌智能音箱：搭载双子座模型人工智能助手，售 100 美元",
+      "url": "https://www.ithome.com/0/965/667.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-11T20:00:00.000Z",
-      "summary": "来自谷歌人工智能博客的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-17T13:50:08.000Z",
+      "summary": "科技之家 6 月 17 日消息，谷歌今天宣布推出新一代谷歌智能音箱，新品搭载双子座模型人工智能语音助手，支持自然语言交流与多步骤语音指令，6 月 25 日上市，定价 100 美元（科技之家注：现汇率约合 677 元人民币）。据介绍，这款智能音箱采用球形设计，可提供均衡的 360° 环绕音效。具备先进麦克风系统，可根据环境自动调整从而准确识别用户声音。支持与谷歌电视盒配合使用，……",
       "topics": [
-        "投融资",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "多模态"
       ],
-      "heat": 58,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "reddit-artificial-59-视频新人工智能",
@@ -1325,38 +1342,21 @@
       "topics": [
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "ithome-预计-2030-年产能达-50-万台套-京津冀首个万台级具身智能机器人超级工厂规模投用",
-      "title": "预计 2030 年产能达 50 万台套：京津冀首个万台级具身智能机器人超级工厂规模投用",
-      "url": "https://www.ithome.com/0/965/666.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T13:42:51.000Z",
-      "summary": "科技之家 6 月 17 日消息，据北京亦庄微信公众号今日消息，京津冀首个万台级具身智能机器人超级工厂（领益智造北京具身智能超级工厂）近日规模投用。根据规划，该工厂年产能将逐步爬坡，预计 2030 年产能达 50 万台套。科技之家附京津冀首个万台级具身智能机器人超级工厂特性如下：制造能力方面工厂覆盖从核心零部件、模组到整机组装与测试的全链条制造服务，客户无需在多供应商间协调即可……",
-      "topics": [
-        "监管安全",
-        "机器人"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-面向实时-音频和",
-      "title": "面向实时，音频和",
-      "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/",
+      "id": "techcrunch-ai-向人工智能-数据中心",
+      "title": "向人工智能，数据中心",
+      "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T12:14:44.000Z",
-      "summary": "借助，在向扩展。企业。",
+      "publishedAt": "2026-06-17T12:38:09.000Z",
+      "summary": "8.2% 在，15 数据中心。",
       "topics": [
-        "多模态"
+        "人工智能动态"
       ],
       "heat": 89,
       "image": ""
@@ -1412,6 +1412,23 @@
       "image": ""
     },
     {
+      "id": "the-decoder-向人工智能来自",
+      "title": "向人工智能来自",
+      "url": "https://the-decoder.com/hyperscalers-may-soon-be-unable-to-fund-their-ai-buildout-from-cash-flow-alone/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T10:54:41.000Z",
+      "summary": "向人工智能，微软，亚马逊，元宇宙平台公司，和人工智能基础设施由关于 70，在 23，作为作为 2026。公司融资。向人工智能来自首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "leiphone-理想汽车举办软件与具身智能发布会",
       "title": "理想汽车举办软件与具身智能发布会",
       "url": "https://www.leiphone.com/category/transportation/iKKAYzqzrW0294JG.html",
@@ -1443,23 +1460,6 @@
         "产品应用"
       ],
       "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-微软智能副驾向和深度求索",
-      "title": "微软智能副驾向和深度求索",
-      "url": "https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-16T19:32:38.000Z",
-      "summary": "微软深度求索作为模型面向智能副驾。公司向，智能副驾。在。微软智能副驾向和深度求索首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -1512,7 +1512,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1533,20 +1533,21 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-press-hpe-1600x900-4603000.png"
     },
     {
-      "id": "towards-data-science-大语言模型智能体-构建",
-      "title": "大语言模型智能体，构建",
-      "url": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
+      "id": "towards-data-science-本地大语言模型借助在苹果电脑小型版",
+      "title": "本地大语言模型借助在苹果电脑小型版",
+      "url": "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T13:30:00.000Z",
-      "summary": "大语言模型限制只是智能体模型。构建，模型，和。大语言模型智能体，构建首个在数据科学实战社区。",
+      "publishedAt": "2026-06-16T15:00:00.000Z",
+      "summary": "接口法案？指南向，性能本地大语言模型在苹果电脑小型版。本地大语言模型借助在苹果电脑小型版首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 73,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1649,6 +1650,23 @@
       "image": ""
     },
     {
+      "id": "google-ai-blog-新社区投资在支持本地和扩展",
+      "title": "新社区投资在支持本地和扩展。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "谷歌人工智能博客",
+      "sourceId": "google-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-11T20:00:00.000Z",
+      "summary": "来自谷歌人工智能博客的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "投融资",
+        "端侧智能"
+      ],
+      "heat": 58,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
+    },
+    {
       "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
       "title": "代码托管平台更新日志发布人工智能相关动态。",
       "url": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
@@ -1685,20 +1703,20 @@
       "image": ""
     },
     {
-      "id": "ithome-技嘉-40-周年纪念版-5090-上架-售价-5299-美元约为公版-2-6-倍",
-      "title": "技嘉 40 周年纪念版 5090 上架，售价 5299 美元约为公版 2.6 倍",
-      "url": "https://www.ithome.com/0/965/665.htm",
+      "id": "ithome-预计-2030-年产能达-50-万台套-京津冀首个万台级具身智能机器人超级工厂规模投用",
+      "title": "预计 2030 年产能达 50 万台套：京津冀首个万台级具身智能机器人超级工厂规模投用",
+      "url": "https://www.ithome.com/0/965/666.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T13:41:16.000Z",
-      "summary": "科技之家 6 月 17 日消息，发现技嘉 5090 已经在上架，且仅限到店自提。如图所示，这款显卡标价 5299.99 美元（科技之家注：现汇率约合 35880 元人民币），相当于 5090 官方定价（1999 美元）的 2.65 倍。是技嘉为品牌成立 40 周年推出的限量版设计，采用双风扇布局及双向贯通式散热器，配备隐藏式散热风扇、复合金属导热膏和超导热管，核心频率为 27……",
+      "publishedAt": "2026-06-17T13:42:51.000Z",
+      "summary": "科技之家 6 月 17 日消息，据北京亦庄微信公众号今日消息，京津冀首个万台级具身智能机器人超级工厂（领益智造北京具身智能超级工厂）近日规模投用。根据规划，该工厂年产能将逐步爬坡，预计 2030 年产能达 50 万台套。科技之家附京津冀首个万台级具身智能机器人超级工厂特性如下：制造能力方面工厂覆盖从核心零部件、模组到整机组装与测试的全链条制造服务，客户无需在多供应商间协调即可……",
       "topics": [
-        "算力芯片",
-        "多模态"
+        "监管安全",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1716,6 +1734,22 @@
       ],
       "heat": 84,
       "image": "https://external-preview.redd.it/cmM1cnhuNnBjdTdoMRZMY_dGJVhlGvFmjZAT8WEwdY2mFNcFtsFak4H2mfyX.png?width=640&crop=smart&auto=webp&s=8e200eea19229196dd5cc3ca1c4d42eff59c38c7"
+    },
+    {
+      "id": "techcrunch-ai-面向实时-音频和",
+      "title": "面向实时，音频和",
+      "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T12:14:44.000Z",
+      "summary": "借助，在向扩展。企业。",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 89,
+      "image": ""
     },
     {
       "id": "thirty-six-kr-微软正考虑接入深度求索模型赋能智能副驾协同办公工具",
@@ -1753,22 +1787,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-推出人工智能应用呼吁",
-      "title": "推出人工智能应用呼吁",
-      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T11:00:00.000Z",
-      "summary": "推出，人工智能，驱动应用用户和。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "qbitai-算苗三维正式流片引领国产人工智能云端大算力芯片再升级",
       "title": "算苗三维正式流片引领国产人工智能云端大算力芯片再升级",
       "url": "https://www.qbitai.com/2026/06/436213.html",
@@ -1782,7 +1800,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1820,19 +1838,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-规则谷歌人工智能只是新",
-      "title": "规则谷歌人工智能只是新",
-      "url": "https://the-decoder.com/berlin-court-rules-googles-ai-overviews-are-just-a-new-search-format-not-original-content/",
+      "id": "the-decoder-微软智能副驾向和深度求索",
+      "title": "微软智能副驾向和深度求索",
+      "url": "https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T18:19:40.000Z",
-      "summary": "谷歌人工智能，生成只是新和谷歌。公司人工智能和向。决策谷歌面向人工智能。规则谷歌人工智能只是新，首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-16T19:32:38.000Z",
+      "summary": "微软深度求索作为模型面向智能副驾。公司向，智能副驾。在。微软智能副驾向和深度求索首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1850,7 +1869,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1885,8 +1904,25 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/end-to-end-corp-blog-best-models-trained-1280x680-4660123.jpg"
+    },
+    {
+      "id": "towards-data-science-大语言模型智能体-构建",
+      "title": "大语言模型智能体，构建",
+      "url": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-16T13:30:00.000Z",
+      "summary": "大语言模型限制只是智能体模型。构建，模型，和。大语言模型智能体，构建首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 72,
+      "image": ""
     },
     {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
@@ -1903,23 +1939,6 @@
         "投融资"
       ],
       "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向借助克劳德模型代码",
-      "title": "向借助克劳德模型代码",
-      "url": "https://towardsdatascience.com/how-to-effectively-align-with-claude-code/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-15T16:30:00.000Z",
-      "summary": "借助大语言模型向借助克劳德模型代码首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 63,
       "image": ""
     },
     {
@@ -2021,20 +2040,20 @@
       "image": ""
     },
     {
-      "id": "ithome-2999-元-联想人工智能主机小型版开售-号称-人工智能原生个人家庭边缘设备-预装天禧",
-      "title": "2999 元：联想人工智能主机小型版开售，号称“人工智能原生个人家庭边缘设备”、预装天禧",
-      "url": "https://www.ithome.com/0/965/662.htm",
+      "id": "ithome-技嘉-40-周年纪念版-5090-上架-售价-5299-美元约为公版-2-6-倍",
+      "title": "技嘉 40 周年纪念版 5090 上架，售价 5299 美元约为公版 2.6 倍",
+      "url": "https://www.ithome.com/0/965/665.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T13:32:56.000Z",
-      "summary": "科技之家 6 月 17 日消息，联想人工智能主机小型版现已开售，新品号称是“人工智能原生个人家庭边缘设备”，支持开箱即用、一键养虾，采用此芯相关型号处理器，售价 2999 元。京东联想（）人工智能主机小型版 2999 元直达链接据介绍，这款迷你主机采用此芯相关型号（科技之家注：相关型号）处理器，使用 6 纳米制程工艺，集成 12 核相关型号中央处理器、10 核相关型号图形处理……",
+      "publishedAt": "2026-06-17T13:41:16.000Z",
+      "summary": "科技之家 6 月 17 日消息，发现技嘉 5090 已经在上架，且仅限到店自提。如图所示，这款显卡标价 5299.99 美元（科技之家注：现汇率约合 35880 元人民币），相当于 5090 官方定价（1999 美元）的 2.65 倍。是技嘉为品牌成立 40 周年推出的限量版设计，采用双风扇布局及双向贯通式散热器，配备隐藏式散热风扇、复合金属导热膏和超导热管，核心频率为 27……",
       "topics": [
         "算力芯片",
-        "监管安全"
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2068,7 +2087,23 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-推出人工智能应用呼吁",
+      "title": "推出人工智能应用呼吁",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T11:00:00.000Z",
+      "summary": "推出，人工智能，驱动应用用户和。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -2084,7 +2119,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2120,7 +2155,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2142,37 +2177,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司借助实际帮助信息技术-数据",
-      "title": "人工智能安全公司借助实际帮助信息技术，数据",
-      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-16T22:34:17.000Z",
-      "summary": "人工智能安全公司借助企业用户顺利借助政府可能实际信息技术，数据来自。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-60-十亿在向回顾开放人工智能公司和人工智能安全公司",
-      "title": "$60 十亿在向回顾开放人工智能公司和人工智能安全公司",
-      "url": "https://the-decoder.com/spacex-bets-60-billion-on-cursor-to-catch-openai-and-anthropic/",
+      "id": "the-decoder-规则谷歌人工智能只是新",
+      "title": "规则谷歌人工智能只是新",
+      "url": "https://the-decoder.com/berlin-court-rules-googles-ai-overviews-are-just-a-new-search-format-not-original-content/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T15:16:08.000Z",
-      "summary": "只是交易首次公开募股，人工智能编程创业公司。向帮助回顾借助人工智能安全公司和开放人工智能公司。$60 十亿在向回顾开放人工智能公司和人工智能安全公司首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-16T18:19:40.000Z",
+      "summary": "谷歌人工智能，生成只是新和谷歌。公司人工智能和向。决策谷歌面向人工智能。规则谷歌人工智能只是新，首个在人工智能解码媒体。",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 88,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2193,20 +2210,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-4-在克劳德模型技能",
-      "title": "4 在克劳德模型技能",
-      "url": "https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/",
+      "id": "towards-data-science-向借助克劳德模型代码",
+      "title": "向借助克劳德模型代码",
+      "url": "https://towardsdatascience.com/how-to-effectively-align-with-claude-code/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-14T17:00:00.000Z",
-      "summary": "克劳德模型。4 在克劳德模型技能首个在数据科学实战社区。",
+      "publishedAt": "2026-06-15T16:30:00.000Z",
+      "summary": "借助大语言模型向借助克劳德模型代码首个在数据科学实战社区。",
       "topics": [
         "模型发布",
         "产品应用"
       ],
-      "heat": 61,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2295,18 +2312,18 @@
       "image": ""
     },
     {
-      "id": "ithome-阿里发布世界模型快乐生蚝-1-0-一句话生成可实时交互的数字世界",
-      "title": "阿里发布世界模型快乐生蚝 1.0：一句话生成可实时交互的数字世界",
-      "url": "https://www.ithome.com/0/965/652.htm",
+      "id": "ithome-2999-元-联想人工智能主机小型版开售-号称-人工智能原生个人家庭边缘设备-预装天禧",
+      "title": "2999 元：联想人工智能主机小型版开售，号称“人工智能原生个人家庭边缘设备”、预装天禧",
+      "url": "https://www.ithome.com/0/965/662.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T12:46:59.000Z",
-      "summary": "科技之家 6 月 17 日消息，阿里云今晚宣布推出可实时构建和交互的开放式世界模型产品 1.0（快乐生蚝 1.0）。一句话，即可生成一个完整、可演绎、可探索、可互动的数字世界。据介绍，该产品深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。基于原生多模态架构，支持多模态输入与音视频联合生成。区别于传统 \" 写 → 等渲染 → 收到成片……",
+      "publishedAt": "2026-06-17T13:32:56.000Z",
+      "summary": "科技之家 6 月 17 日消息，联想人工智能主机小型版现已开售，新品号称是“人工智能原生个人家庭边缘设备”，支持开箱即用、一键养虾，采用此芯相关型号处理器，售价 2999 元。京东联想（）人工智能主机小型版 2999 元直达链接据介绍，这款迷你主机采用此芯相关型号（科技之家注：相关型号）处理器，使用 6 纳米制程工艺，集成 12 核相关型号中央处理器、10 核相关型号图形处理……",
       "topics": [
-        "产品应用",
-        "多模态"
+        "算力芯片",
+        "监管安全"
       ],
       "heat": 91,
       "image": ""
@@ -2412,36 +2429,37 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-向-相关型号-亚马逊",
-      "title": "向 $相关型号，亚马逊",
-      "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+      "id": "techcrunch-ai-人工智能安全公司借助实际帮助信息技术-数据",
+      "title": "人工智能安全公司借助实际帮助信息技术，数据",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T20:11:00.000Z",
-      "summary": "由 $1 分享交易在。",
+      "publishedAt": "2026-06-16T22:34:17.000Z",
+      "summary": "人工智能安全公司借助企业用户顺利借助政府可能实际信息技术，数据来自。",
       "topics": [
-        "投融资"
+        "监管安全"
       ],
-      "heat": 75,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "the-decoder-安全向在",
-      "title": "安全向在",
-      "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit/",
+      "id": "the-decoder-60-十亿在向回顾开放人工智能公司和人工智能安全公司",
+      "title": "$60 十亿在向回顾开放人工智能公司和人工智能安全公司",
+      "url": "https://the-decoder.com/spacex-bets-60-billion-on-cursor-to-catch-openai-and-anthropic/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T13:23:33.000Z",
-      "summary": "呼吁向。安全向在首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-16T15:16:08.000Z",
+      "summary": "只是交易首次公开募股，人工智能编程创业公司。向帮助回顾借助人工智能安全公司和开放人工智能公司。$60 十亿在向回顾开放人工智能公司和人工智能安全公司首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "监管安全"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 73,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2461,20 +2479,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-图形处理器时间-面向大语言模型智能体在",
-      "title": "图形处理器时间，面向大语言模型智能体在",
-      "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
+      "id": "towards-data-science-4-在克劳德模型技能",
+      "title": "4 在克劳德模型技能",
+      "url": "https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-14T13:00:00.000Z",
-      "summary": "进入成本图形处理器时间，和信息技术实际成本向人工智能。图形处理器时间，面向大语言模型智能体在首个在数据科学实战社区。",
+      "publishedAt": "2026-06-14T17:00:00.000Z",
+      "summary": "克劳德模型。4 在克劳德模型技能首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 53,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2529,21 +2547,20 @@
       "image": ""
     },
     {
-      "id": "ithome-曝字节跳动加码国产算力-洽谈采购天数智芯-5-万颗推理芯片-互联网大厂竞速算力基建",
-      "title": "曝字节跳动加码国产算力：洽谈采购天数智芯 5 万颗推理芯片，互联网大厂竞速算力基建",
-      "url": "https://www.ithome.com/0/965/642.htm",
+      "id": "ithome-阿里发布世界模型快乐生蚝-1-0-一句话生成可实时交互的数字世界",
+      "title": "阿里发布世界模型快乐生蚝 1.0：一句话生成可实时交互的数字世界",
+      "url": "https://www.ithome.com/0/965/652.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T12:21:25.000Z",
-      "summary": "科技之家 6 月 17 日消息，路透社前天报道称，字节跳动正与上海人工智能芯片企业天数智芯洽谈采购人工智能芯片，主要用于推理工作负载。在此基础上，第一财经今日带来了更详细的爆料。第一财经表示，字节本次洽谈涉及的芯片主要为天数智芯智铠系列云端推理图形处理器，训练场景则使用天垓系列；预计天数智芯今年可能向字节跳动交付至少 5 万颗芯片，用于支持字节跳动旗下人工智能聊天机器人“豆包……",
+      "publishedAt": "2026-06-17T12:46:59.000Z",
+      "summary": "科技之家 6 月 17 日消息，阿里云今晚宣布推出可实时构建和交互的开放式世界模型产品 1.0（快乐生蚝 1.0）。一句话，即可生成一个完整、可演绎、可探索、可互动的数字世界。据介绍，该产品深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。基于原生多模态架构，支持多模态输入与音视频联合生成。区别于传统 \" 写 → 等渲染 → 收到成片……",
       "topics": [
-        "模型发布",
-        "算力芯片",
-        "研究论文"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2591,7 +2608,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2629,39 +2646,36 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-安卓-17-推出借助新工具作为谷歌扩展双子座模型功能",
-      "title": "安卓 17 推出借助新工具作为谷歌扩展双子座模型功能",
-      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "id": "techcrunch-ai-向-相关型号-亚马逊",
+      "title": "向 $相关型号，亚马逊",
+      "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T18:00:00.000Z",
-      "summary": "谷歌发布安卓 17 和 7，推出新功能，控制，安全工具，和。推出由带来谷歌人工智能模型向。",
+      "publishedAt": "2026-06-16T20:11:00.000Z",
+      "summary": "由 $1 分享交易在。",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "端侧智能"
+        "投融资"
       ],
-      "heat": 91,
+      "heat": 75,
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能模型-新基准测试",
-      "title": "人工智能模型？新基准测试",
-      "url": "https://the-decoder.com/how-easily-can-russian-propaganda-fool-ai-models-a-new-benchmark-finds-out/",
+      "id": "the-decoder-安全向在",
+      "title": "安全向在",
+      "url": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T11:28:13.000Z",
-      "summary": "语言发布基准测试人工智能语言模型向。人工智能模型？新基准测试首个在人工智能解码媒体。",
+      "publishedAt": "2026-06-16T13:23:33.000Z",
+      "summary": "呼吁向。安全向在首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 76,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2682,19 +2696,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-相关型号问题人工智能",
-      "title": "相关型号问题人工智能",
-      "url": "https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/",
+      "id": "towards-data-science-图形处理器时间-面向大语言模型智能体在",
+      "title": "图形处理器时间，面向大语言模型智能体在",
+      "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-13T13:00:00.000Z",
-      "summary": "数据科学认为问题相关型号问题人工智能首个在数据科学实战社区。",
+      "publishedAt": "2026-06-14T13:00:00.000Z",
+      "summary": "进入成本图形处理器时间，和信息技术实际成本向人工智能。图形处理器时间，面向大语言模型智能体在首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 48,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2748,19 +2763,19 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/diffusiongemma-nv-blog-1280x680-1.jpg"
     },
     {
-      "id": "ithome-20-开源跨平台发布-支持接入人工智能智能体",
-      "title": "20 开源跨平台发布，支持接入人工智能智能体",
-      "url": "https://www.ithome.com/0/965/639.htm",
+      "id": "ithome-曝字节跳动加码国产算力-洽谈采购天数智芯-5-万颗推理芯片-互联网大厂竞速算力基建",
+      "title": "曝字节跳动加码国产算力：洽谈采购天数智芯 5 万颗推理芯片，互联网大厂竞速算力基建",
+      "url": "https://www.ithome.com/0/965/642.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T12:11:17.000Z",
-      "summary": "科技之家 6 月 17 日消息，据科技媒体今天报道，20 开源跨平台现已发布，加入人工智能智能体支持。据介绍，20 引入全新 （科技之家注：智能体 ）框架，可兼容克劳德模型代码、开放人工智能公司智能编程工具等主流大语言模型和人工智能助手，以及其他支持协议的人工智能服务。开发者可直接在应用内的聊天面板，与人工智能智能体进行交互。同时，19 此前已引入协议，本次更新则是进一步扩展……",
+      "publishedAt": "2026-06-17T12:21:25.000Z",
+      "summary": "科技之家 6 月 17 日消息，路透社前天报道称，字节跳动正与上海人工智能芯片企业天数智芯洽谈采购人工智能芯片，主要用于推理工作负载。在此基础上，第一财经今日带来了更详细的爆料。第一财经表示，字节本次洽谈涉及的芯片主要为天数智芯智铠系列云端推理图形处理器，训练场景则使用天垓系列；预计天数智芯今年可能向字节跳动交付至少 5 万颗芯片，用于支持字节跳动旗下人工智能聊天机器人“豆包……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "开源生态"
+        "算力芯片",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -2832,24 +2847,6 @@
         "研究论文"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "qbitai-头部具身大脑公司再获数亿美元融资-世界模型路线-15家抢着投",
-      "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家抢着投",
-      "url": "https://www.qbitai.com/2026/06/436148.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T06:22:39.000Z",
-      "summary": "半年三连发：从开源到端侧再到训练场",
-      "topics": [
-        "投融资",
-        "端侧智能",
-        "开源生态"
-      ],
-      "heat": 93,
       "image": ""
     }
   ]
