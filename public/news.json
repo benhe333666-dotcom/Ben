@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T06:41:44.750Z",
+  "generatedAt": "2026-06-17T06:53:36.545Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-06-17T07:00:00.000Z",
   "stats": {
@@ -8,7 +8,7 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-17T06:38:39.000Z"
+    "latestPublishedAt": "2026-06-17T06:52:31.000Z"
   },
   "topics": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "模型发布",
-      "count": 41,
+      "count": 43,
       "heat": 88
     },
     {
@@ -33,38 +33,38 @@
     },
     {
       "name": "投融资",
-      "count": 17,
-      "heat": 79
-    },
-    {
-      "name": "人工智能动态",
       "count": 19,
-      "heat": 68
+      "heat": 81
     },
     {
       "name": "算力芯片",
       "count": 15,
-      "heat": 86
-    },
-    {
-      "name": "开源生态",
-      "count": 17,
-      "heat": 71
+      "heat": 85
     },
     {
       "name": "端侧智能",
-      "count": 14,
-      "heat": 81
+      "count": 15,
+      "heat": 82
+    },
+    {
+      "name": "人工智能动态",
+      "count": 17,
+      "heat": 67
+    },
+    {
+      "name": "开源生态",
+      "count": 16,
+      "heat": 69
     },
     {
       "name": "多模态",
       "count": 5,
-      "heat": 92
+      "heat": 94
     },
     {
       "name": "机器人",
-      "count": 4,
-      "heat": 91
+      "count": 5,
+      "heat": 93
     }
   ],
   "sources": [
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 2,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 2,
       "latestFetchedAt": "2026-06-12T15:56:10.000Z",
       "latestDisplayedAt": "2026-06-12T15:56:10.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 403",
-      "itemCount": 4,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 10,
       "displayedCount": 4,
       "latestFetchedAt": "2026-06-16T21:00:35.000Z",
       "latestDisplayedAt": "2026-06-16T21:00:35.000Z"
@@ -321,8 +321,8 @@
       "fallbackReason": "",
       "itemCount": 4,
       "displayedCount": 2,
-      "latestFetchedAt": "2026-06-17T05:29:26.000Z",
-      "latestDisplayedAt": "2026-06-17T05:29:26.000Z"
+      "latestFetchedAt": "2026-06-17T03:42:02.000Z",
+      "latestDisplayedAt": "2026-06-17T03:42:02.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-06-17T06:37:22.000Z",
-      "latestDisplayedAt": "2026-06-17T06:15:32.000Z"
+      "latestFetchedAt": "2026-06-17T06:52:31.000Z",
+      "latestDisplayedAt": "2026-06-17T06:52:31.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -354,7 +354,7 @@
       "itemCount": 8,
       "displayedCount": 1,
       "latestFetchedAt": "2026-06-16T06:14:11.000Z",
-      "latestDisplayedAt": "2026-06-16T06:14:11.000Z"
+      "latestDisplayedAt": "2026-06-16T00:36:06.000Z"
     },
     {
       "id": "arxiv-cs-ai",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 15,
+      "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-17T06:38:39.000Z",
-      "latestDisplayedAt": "2026-06-17T06:38:39.000Z"
+      "latestFetchedAt": "2026-06-17T06:44:53.000Z",
+      "latestDisplayedAt": "2026-06-17T06:44:53.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-17T06:30:03.000Z",
-      "latestDisplayedAt": "2026-06-17T06:30:03.000Z"
+      "latestFetchedAt": "2026-06-17T06:51:05.000Z",
+      "latestDisplayedAt": "2026-06-17T06:51:05.000Z"
     },
     {
       "id": "oschina",
@@ -479,7 +479,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 15,
+      "itemCount": 14,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-17T04:30:00.000Z",
       "latestDisplayedAt": "2026-06-17T04:30:00.000Z"
@@ -488,55 +488,51 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-乐聚机器人等在合肥成立具身基金",
-      "title": "乐聚机器人等在合肥成立具身基金",
-      "url": "https://36kr.com/newsflashes/3856897144116488?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T06:38:39.000Z",
-      "summary": "36氪获悉，天眼查应用显示，近日，合肥具身壹号股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为合肥市瑶海区网谷创新创业投资有限公司、合肥兴泰资本管理有限公司，出资额5000万人民币，经营范围为以私募基金从事股权投资、投资管理、资产管理等活动，创业投资。合伙人信息显示，该基金由合肥兴泰资本管理有限公司、合肥市瑶海区网谷创新创业投资有限公司、合肥市瑶海区科技创新投资基金合伙……",
-      "topics": [
-        "产品应用",
-        "投融资",
-        "机器人"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "ithome-韩国兴起-多巴胺网站-假装点餐-购物缓解焦虑",
-      "title": "韩国兴起“多巴胺网站”：假装点餐、购物缓解焦虑",
-      "url": "https://www.ithome.com/0/965/386.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T06:30:03.000Z",
-      "summary": "科技之家 6 月 17 日消息，电脑和智能手机催生出无数打发无聊的方式，打游戏、刷社交软件、聊天发表情包应有尽有。最近爆火的线上解压玩法，是模拟各类日常琐事，比如点外卖、摸鱼抽烟，全程不用真的吃东西，也不用真的抽烟。不少年轻人，尤其是韩国年轻人，开始光顾所谓的“多巴胺网站”，背后的心理和大家漫无目的地刷手机消磨时间如出一辙。这股新风潮，或许是当下网络文化愈发追求即时快感的最新……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-和人工智能-开放人工智能公司",
-      "title": "和人工智能: 开放人工智能公司",
-      "url": "https://www.reddit.com/r/artificial/comments/1u823r9/the_rise_and_fall_of_sunbuddy_ai_how_openais/",
+      "id": "reddit-artificial-人工智能只是分享演示视频-人工智能-和向上下文在实时",
+      "title": "人工智能只是分享演示视频，人工智能，和向上下文在实时",
+      "url": "https://www.reddit.com/r/artificial/comments/1u82qws/mel_ai_just_shared_a_demo_of_videonative_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T06:15:32.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-17T06:52:31.000Z",
+      "summary": ":，社区论坛，相关型号，视频，人工智能，由谷歌，开发者和，作为。可能更好。信息技术可能，时间视频。人工智能分享演示人工智能视频，和部件 :，和只是。向上下文。用户在在，和向上下文。视频生成在实时驱动由，信息技术来自人工智能。人工智能需求面向人工智能。信息技术关于人工智能在实时。由",
       "topics": [
-        "监管安全"
+        "多模态"
       ],
-      "heat": 93,
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "ithome-消息称谷歌-考虑委托三星晶圆代工生产未来中央处理器处理器",
+      "title": "消息称谷歌、考虑委托三星晶圆代工生产未来中央处理器处理器",
+      "url": "https://www.ithome.com/0/965/405.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T06:51:05.000Z",
+      "summary": "科技之家 6 月 17 日消息，据《日经亚洲》消息，有匿名消息人士指出称谷歌、有意委托三星晶圆代工生产预计 2028 年推出的未来中央处理器处理器。谷歌在持续推进自研人工智能加速器芯片张量处理器的同时也在推动通用处理器的自主化，其在 2024 年宣布了企业首款数据中心定制中央处理器产品。而谷歌正与三星电子洽谈预计 2028 年发布的后续中央处理器的合同代工事宜。此外，早前亦有……",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-计划进一步扩产基板",
+      "title": "计划进一步扩产基板",
+      "url": "https://36kr.com/newsflashes/3856903267816712?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T06:44:53.000Z",
+      "summary": "封装解决方案事业部负责人赵智泰16日表示，将投资1万亿韩元在越南建设半导体基板厂，这是其扩展封装基板业务部门的第一阶段投资；公司还在与客户洽谈第二阶段投资，以扩大用于人工智能服务器的产能，“讨论已经取得了实质性进展，我们很快就能公布规模。” 此外，还计划在韩国庆尚北道龟尾市工厂进一步扩产，除了此前宣布的6000亿韩元投资外，公司还计划根据与客户约定的产量，继续扩大生产规模。（……",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -549,22 +545,6 @@
       "language": "zh",
       "publishedAt": "2026-06-17T05:51:10.000Z",
       "summary": "昆仑万维宣布正式推出 3.1，带来两项新能力：以画布承载设计的，以及调度多智能体并行的。根据介绍，把设计工作从对话框搬到一张可以无限延展的画布上。智能体在画布上工作，最终沉淀的是一个可持续修改、随业务生长的完整项目。用户提出需求，比如\"做一款健康管。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/06/16/apple-plans-to-change-its-hide-my-email-privacy-feature-that-could-make-it-less-effective/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T05:29:26.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "产品应用"
       ],
@@ -603,6 +583,22 @@
         "端侧智能"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-和安全",
+      "title": "和安全",
+      "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T03:42:02.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -803,23 +799,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
-      "url": "https://www.producthunt.com/products/handover-4",
+      "url": "https://www.producthunt.com/products/whoburnedmore",
       "source": "人工智能产品发现",
       "sourceId": "product-hunt-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T06:14:11.000Z",
-      "summary": "来自人工智能产品发现的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-16T00:36:06.000Z",
+      "summary": "面向克劳德模型，智能编程工具 &。讨论",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 64,
+      "heat": 73,
       "image": ""
     },
     {
@@ -887,7 +884,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -924,56 +921,55 @@
       "image": ""
     },
     {
-      "id": "ithome-人工智能安全公司安抚人工智能开发者-搁置克劳德模型智能体开发工具包基于词元计费变更计划",
-      "title": "人工智能安全公司安抚人工智能开发者，搁置克劳德模型智能体开发工具包基于词元计费变更计划",
-      "url": "https://www.ithome.com/0/965/372.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T06:16:14.000Z",
-      "summary": "科技之家 6 月 17 日消息，科技媒体技术深度媒体昨日（6 月 16 日）发布博文，报道称人工智能安全公司为缓解开发者的不满情绪，宣布搁置克劳德模型智能体开发工具包基于词元的计费变更计划。科技之家注：克劳德模型智能体开发工具包是人工智能安全公司推出的开源开发框架，支持开发者在或应用程序中，直接调用驱动克劳德模型代码的底层能力，让人工智能自主使用工具和完成复杂任务。人工智能安……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-硬氪专访-罗剑岚-机器人真正的-发生在真实部署闭环里",
-      "title": "硬氪专访，罗剑岚：机器人真正的，发生在真实部署闭环里",
-      "url": "https://36kr.com/p/3856871787189252?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T06:14:08.000Z",
-      "summary": "作者，邱晓芬编辑，袁斯来过去半年，国内具身智能赛道经历了一场静悄悄的重心转移：聚光灯从硬件本体的“自由度竞赛”，逐渐移向决定机器人智能上限的深水区。只是，当行业反复讨论“机器人能否通过暴力堆数据复刻大语言模型 ”时，上海创智学院副教授、智元机器人首席科学家罗剑岚，给出了一个并不随大流的判断：具身智能不能简单照搬大语言模型的发展路径。罗剑岚的表达风格极具辨识度。他习惯在中英文专……",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-科学信息技术更快最",
-      "title": "科学信息技术更快最",
-      "url": "https://www.reddit.com/r/artificial/comments/1u80egb/recovery_science_feels_like_its_evolving_faster/",
+      "id": "reddit-artificial-在人工智能机器人-和作为人工智能助手",
+      "title": "在人工智能机器人，和作为人工智能助手",
+      "url": "https://www.reddit.com/r/artificial/comments/1u82q5t/working_on_a_weebo_like_ai_sentient_robot_which/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T04:42:54.000Z",
-      "summary": "在，和研究。最查看。和创建。信息技术我们在。由",
+      "publishedAt": "2026-06-17T06:51:15.000Z",
+      "summary": "关于，在低于: 1，相关型号相关型号，相关型号 : 1，相关型号相关型号借助驱动借助，模式无线网络和丙型接口借助和 550 毫安时相关型号相关型号借助，2.0 面向和 4！由",
       "topics": [
         "产品应用",
-        "研究论文"
+        "投融资",
+        "端侧智能"
       ],
-      "heat": 89,
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "ithome-证监会主席吴清-积极支持人工智能企业上市",
+      "title": "证监会主席吴清：积极支持人工智能企业上市",
+      "url": "https://www.ithome.com/0/965/403.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T06:47:58.000Z",
+      "summary": "科技之家 6 月 17 日消息，据科技日报消息，在今天上午举行的 2026 陆家嘴论坛上，中国证监会主席吴清表示，科创板和创业板是资本市场服务新质生产力的重要平台，将加强持续深化相关改革举措。科技之家获悉，吴清表示近期科创板层面还将抓紧推进两项改革措施：一是扩大科创板第五套标准适用范围到人工智能大模型领域，积极支持人工智能企业上市。二是落实发展未来产业战略部署，支持量子科技、……",
+      "topics": [
+        "模型发布",
+        "机器人"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-北京-积极推动人工智能-机器人-自动驾驶等新技术新产品在物流场景中的示范应用",
+      "title": "北京：积极推动人工智能、机器人、自动驾驶等新技术新产品在物流场景中的示范应用",
+      "url": "https://36kr.com/newsflashes/3856901275030785?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T06:42:51.000Z",
+      "summary": "36氪获悉，北京市经济和信息化局印发《北京市关于支持工业企业提质增效若干措施》，其中提出，提升物流数智化水平。积极推动人工智能、机器人、自动驾驶等新技术新产品在物流场景中的示范应用，有效降低物流成本。围绕精密电子、生物医药、高端快消等产品专业仓储需求，加快重点物流基地升级改造，扩大高标准仓库、智慧立体仓储有效供给。",
+      "topics": [
+        "产品应用",
+        "机器人"
+      ],
+      "heat": 93,
       "image": ""
     },
     {
@@ -994,19 +990,19 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-和安全",
-      "title": "和安全",
-      "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://arxiv.org/abs/2606.14806",
       "source": "技术社区人工智能热榜",
       "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T03:42:02.000Z",
+      "publishedAt": "2026-06-17T03:25:51.000Z",
       "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1023,7 +1019,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1073,7 +1069,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/26tx-coherent-factory-DEB30838-DL-edit-1-scaled.jpg"
     },
     {
@@ -1193,7 +1189,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg"
     },
     {
@@ -1330,53 +1326,56 @@
       "image": ""
     },
     {
-      "id": "ithome-给智能体留的指定-办事钱包-微信支付人工智能专属卡发布-实现从智能推荐到下单支付的自动化消费",
-      "title": "给智能体留的指定“办事钱包”：微信支付人工智能专属卡发布，实现从智能推荐到下单支付的自动化消费",
-      "url": "https://www.ithome.com/0/965/370.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T06:14:53.000Z",
-      "summary": "科技之家 6 月 17 日消息，微信支付今日宣布，正式发布人工智能专属卡。官方表示，授权接入智能体后，用户只需在对话中提出消费需求，就能体验从智能推荐到下单支付的自动化消费。微信表示，人工智能专属卡，说白了就是你给智能体留的指定“办事钱包”。毕竟找人办事，总不能事情办到一半，再回来找你要钱。科技之家获悉，目前，人工智能专属卡已支持在里通过使用美团服务，未来将支持更多平台和商家……",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-微信支付发布人工智能专属卡",
-      "title": "微信支付发布人工智能专属卡",
-      "url": "https://36kr.com/newsflashes/3856862891037699?f=rss",
+      "id": "thirty-six-kr-乐聚机器人等在合肥成立具身基金",
+      "title": "乐聚机器人等在合肥成立具身基金",
+      "url": "https://36kr.com/newsflashes/3856897144116488?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T06:03:49.000Z",
-      "summary": "36氪获悉，6月17日，微信支付正式发布“人工智能专属卡”。据介绍，这是一款专为人工智能智能体支付场景设计、内置于微信零钱内的产品功能。同时，腾讯桌面办公效率智能体宣布接入微信支付，并与美团进一步深化生态合作。美团为开发专属能力支持购买团购，同时提供专属优惠券。",
+      "publishedAt": "2026-06-17T06:38:39.000Z",
+      "summary": "36氪获悉，天眼查应用显示，近日，合肥具身壹号股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为合肥市瑶海区网谷创新创业投资有限公司、合肥兴泰资本管理有限公司，出资额5000万人民币，经营范围为以私募基金从事股权投资、投资管理、资产管理等活动，创业投资。合伙人信息显示，该基金由合肥兴泰资本管理有限公司、合肥市瑶海区网谷创新创业投资有限公司、合肥市瑶海区科技创新投资基金合伙……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "投融资",
+        "机器人"
       ],
-      "heat": 88,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能在",
-      "title": "人工智能在",
-      "url": "https://www.reddit.com/r/artificial/comments/1u7zl0o/ai_usage_on_mobile_devices_survey/",
+      "id": "ithome-韩国兴起-多巴胺网站-假装点餐-购物缓解焦虑",
+      "title": "韩国兴起“多巴胺网站”：假装点餐、购物缓解焦虑",
+      "url": "https://www.ithome.com/0/965/386.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T06:30:03.000Z",
+      "summary": "科技之家 6 月 17 日消息，电脑和智能手机催生出无数打发无聊的方式，打游戏、刷社交软件、聊天发表情包应有尽有。最近爆火的线上解压玩法，是模拟各类日常琐事，比如点外卖、摸鱼抽烟，全程不用真的吃东西，也不用真的抽烟。不少年轻人，尤其是韩国年轻人，开始光顾所谓的“多巴胺网站”，背后的心理和大家漫无目的地刷手机消磨时间如出一辙。这股新风潮，或许是当下网络文化愈发追求即时快感的最新……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-和人工智能-开放人工智能公司",
+      "title": "和人工智能: 开放人工智能公司",
+      "url": "https://www.reddit.com/r/artificial/comments/1u823r9/the_rise_and_fall_of_sunbuddy_ai_how_openais/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T04:00:36.000Z",
+      "publishedAt": "2026-06-17T06:15:32.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 83,
-      "image": "https://external-preview.redd.it/RjJKxCYYkZuOb2iNIgw6TqpkuljEClCo8tDEaH0_j4Y.png?width=640&crop=smart&auto=webp&s=abd98abacac1e678870c891ba724b0e1a29340d5"
+      "heat": 93,
+      "image": ""
     },
     {
       "id": "cnblogs-news-成本高企倒逼转向-微软考虑以深度求索替换昂贵的美国人工智能模型",
@@ -1688,37 +1687,56 @@
       "image": ""
     },
     {
-      "id": "ithome-整个-618-就看这波-30-秒速读-6-月-17-日-20-00-闭眼买攻略-持续更新",
-      "title": "整个 618 就看这波：30 秒速读 6 月 17 日 20:00 闭眼买攻略，持续更新",
-      "url": "https://www.ithome.com/0/965/367.htm",
+      "id": "ithome-人工智能安全公司安抚人工智能开发者-搁置克劳德模型智能体开发工具包基于词元计费变更计划",
+      "title": "人工智能安全公司安抚人工智能开发者，搁置克劳德模型智能体开发工具包基于词元计费变更计划",
+      "url": "https://www.ithome.com/0/965/372.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T06:10:43.000Z",
-      "summary": "618 将在今晚 20 点（6 月 17 日 20:00）迎来年中高潮狂促，全场基本年内探底好价。整个活动仅限 28 小时，有需求的需蹲点拼手速哦。京东无门槛红包至高 26618 元，每天抽 3 次：点此抽取。京东 20:00~20:20 加码抽 1 轮，1.18 元红包 20 分钟不限量，且追加大量 5.2 元、6.18 元红包。淘宝无门槛红包至高 26888 元，每天抽 ……",
+      "publishedAt": "2026-06-17T06:16:14.000Z",
+      "summary": "科技之家 6 月 17 日消息，科技媒体技术深度媒体昨日（6 月 16 日）发布博文，报道称人工智能安全公司为缓解开发者的不满情绪，宣布搁置克劳德模型智能体开发工具包基于词元的计费变更计划。科技之家注：克劳德模型智能体开发工具包是人工智能安全公司推出的开源开发框架，支持开发者在或应用程序中，直接调用驱动克劳德模型代码的底层能力，让人工智能自主使用工具和完成复杂任务。人工智能安……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "多模态",
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-觅蜂科技-获数亿元天使-轮融资",
-      "title": "“觅蜂科技”获数亿元天使+轮融资",
-      "url": "https://36kr.com/newsflashes/3856851363042566?f=rss",
+      "id": "thirty-six-kr-硬氪专访-罗剑岚-机器人真正的-发生在真实部署闭环里",
+      "title": "硬氪专访，罗剑岚：机器人真正的，发生在真实部署闭环里",
+      "url": "https://36kr.com/p/3856871787189252?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T05:52:05.000Z",
-      "summary": "36氪获悉，近日，一站式物理人工智能数据服务平台“觅蜂科技”完成新一轮数亿元天使 + 轮战略融资。本轮由国方创投领投，孚腾资本、上海电科基金、元启创新等跟投，老股东均普智能、鼎晖持续超额追加投资。本轮融资将主要用于系列硬件量产、全链路数据治理技术迭代、全球采集网络布局、蜂巢生态扩容，进一步夯实无本体采集技术壁垒，加速标准化数据体系落地。",
+      "publishedAt": "2026-06-17T06:14:08.000Z",
+      "summary": "作者，邱晓芬编辑，袁斯来过去半年，国内具身智能赛道经历了一场静悄悄的重心转移：聚光灯从硬件本体的“自由度竞赛”，逐渐移向决定机器人智能上限的深水区。只是，当行业反复讨论“机器人能否通过暴力堆数据复刻大语言模型 ”时，上海创智学院副教授、智元机器人首席科学家罗剑岚，给出了一个并不随大流的判断：具身智能不能简单照搬大语言模型的发展路径。罗剑岚的表达风格极具辨识度。他习惯在中英文专……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-科学信息技术更快最",
+      "title": "科学信息技术更快最",
+      "url": "https://www.reddit.com/r/artificial/comments/1u80egb/recovery_science_feels_like_its_evolving_faster/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T04:42:54.000Z",
+      "summary": "在，和研究。最查看。和创建。信息技术我们在。由",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -1734,7 +1752,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1774,24 +1792,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能安全公司只是数据来自相关型号克劳德模型代码-和",
-      "title": "人工智能安全公司只是数据来自相关型号克劳德模型代码，和 :",
-      "url": "https://www.reddit.com/r/artificial/comments/1u7u9ju/anthropic_just_published_data_from_400k_claude/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-16T23:52:32.000Z",
-      "summary": "发布研究论文 ~400，000 克劳德模型代码。和关于。实际 :，和在编程任务 7 软件工程师。软件工程师，和，最帮助，用户技能由在 7，任务 ~27% 在 7 部件 :。信息技术编程。信息技术。向作为在，代码，: 问题。代码。认为关于实际。每个公司工程师面向向企业问题进入代码。和即将推出面向由向代码，由向。和人工智能安全公司在相关型号数据，和？: 软件工程师。由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-工程仿真方向研究",
       "title": "论文新进展：工程仿真方向研究",
       "url": "https://arxiv.org/abs/2606.18208v1",
@@ -1806,7 +1806,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1858,7 +1858,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/end-to-end-corp-blog-best-models-trained-1280x680-4660123.jpg"
     },
     {
@@ -1924,7 +1924,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1940,7 +1940,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": "https://media.wired.com/photos/6a2eafa954889dc704dfed38/master/pass/2280926802"
     },
     {
@@ -2010,38 +2010,53 @@
       "image": ""
     },
     {
-      "id": "ithome-谷歌推送-7-续航提升-10-升级人工智能交互",
-      "title": "谷歌推送 7：续航提升 10%、升级人工智能交互",
-      "url": "https://www.ithome.com/0/965/351.htm",
+      "id": "ithome-给智能体留的指定-办事钱包-微信支付人工智能专属卡发布-实现从智能推荐到下单支付的自动化消费",
+      "title": "给智能体留的指定“办事钱包”：微信支付人工智能专属卡发布，实现从智能推荐到下单支付的自动化消费",
+      "url": "https://www.ithome.com/0/965/370.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T05:56:19.000Z",
-      "summary": "科技之家 6 月 17 日消息，科技媒体安卓发布博文，报道称在 2026 年 / 开发者大会上发布后，谷歌今天面向 2、3 以及 4 智能手表，正式推送 7 更新。续航方面，官方表示 7 通过优化系统功耗管理，相比较 6 系统，续航提升 10%。交互体验方面，7 引入手机端的“实时更新”（实时 ）功能，用户可在手表端实时追踪外卖、快递等状态信息。科技之家附上相关截图如下：音频……",
+      "publishedAt": "2026-06-17T06:14:53.000Z",
+      "summary": "科技之家 6 月 17 日消息，微信支付今日宣布，正式发布人工智能专属卡。官方表示，授权接入智能体后，用户只需在对话中提出消费需求，就能体验从智能推荐到下单支付的自动化消费。微信表示，人工智能专属卡，说白了就是你给智能体留的指定“办事钱包”。毕竟找人办事，总不能事情办到一半，再回来找你要钱。科技之家获悉，目前，人工智能专属卡已支持在里通过使用美团服务，未来将支持更多平台和商家……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-九识智能增资至2-13亿",
-      "title": "九识智能增资至2.13亿",
-      "url": "https://36kr.com/newsflashes/3856765827634177?f=rss",
+      "id": "thirty-six-kr-微信支付发布人工智能专属卡",
+      "title": "微信支付发布人工智能专属卡",
+      "url": "https://36kr.com/newsflashes/3856862891037699?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T05:45:00.000Z",
-      "summary": "36氪获悉，天眼查应用显示，近日，九识（苏州）智能科技有限公司发生工商变更，注册资本由1.93亿人民币增至2.13亿人民币。该公司成立于2021年8月，法定代表人为崔霄，经营范围包括人工智能应用软件开发、人工智能硬件销售、人工智能理论与算法软件开发等，由。全资持股。",
+      "publishedAt": "2026-06-17T06:03:49.000Z",
+      "summary": "36氪获悉，6月17日，微信支付正式发布“人工智能专属卡”。据介绍，这是一款专为人工智能智能体支付场景设计、内置于微信零钱内的产品功能。同时，腾讯桌面办公效率智能体宣布接入微信支付，并与美团进一步深化生态合作。美团为开发专属能力支持购买团购，同时提供专属优惠券。",
       "topics": [
         "产品应用"
       ],
       "heat": 87,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能在",
+      "title": "人工智能在",
+      "url": "https://www.reddit.com/r/artificial/comments/1u7zl0o/ai_usage_on_mobile_devices_survey/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T04:00:36.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "端侧智能"
+      ],
+      "heat": 83,
+      "image": "https://external-preview.redd.it/RjJKxCYYkZuOb2iNIgw6TqpkuljEClCo8tDEaH0_j4Y.png?width=640&crop=smart&auto=webp&s=abd98abacac1e678870c891ba724b0e1a29340d5"
     },
     {
       "id": "cnblogs-news-南大团队提出等本位和轨迹-揭示大语言模型算术错误的几何机制",
@@ -2056,7 +2071,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2075,22 +2090,6 @@
         "开源生态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u7u35e/petition_to_change_youtube/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-16T23:44:30.000Z",
-      "summary": ":，向。在和在自动化，和。我们，帮助保护由。信息技术向。我们平台更好面向和。由",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 80,
       "image": ""
     },
     {
@@ -2281,37 +2280,37 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-4-3现已在上正式可用",
-      "title": "4.3现已在上正式可用",
-      "url": "https://36kr.com/newsflashes/3856842720187393?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T05:43:18.000Z",
-      "summary": "36氪获悉，6月17日，亚马逊云科技宣布的 4.3模型现已在上正式可用。此次发布标志着正式成为的模型供应商之一，为企业在跨越推理、智能体以及企业工作流构建生成式人工智能应用时提供更多选择。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "ithome-消息称开放人工智能公司今年一季度现金消耗达-37-亿美元-超同期收入的一半",
-      "title": "消息称开放人工智能公司今年一季度现金消耗达 37 亿美元，超同期收入的一半",
-      "url": "https://www.ithome.com/0/965/335.htm",
+      "id": "ithome-整个-618-就看这波-30-秒速读-6-月-17-日-20-00-闭眼买攻略-持续更新",
+      "title": "整个 618 就看这波：30 秒速读 6 月 17 日 20:00 闭眼买攻略，持续更新",
+      "url": "https://www.ithome.com/0/965/367.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T04:55:33.000Z",
-      "summary": "科技之家 6 月 17 日消息，据科技媒体《 》援引一份向股东披露的文件报道，开放人工智能公司在 2026 年第一季度现金消耗达 37 亿美元（科技之家注：现汇率约合 250.48 亿元人民币），这一金额超过了其同期 57 亿美元收入的一半。这组数据直观体现出，即便当下人工智能服务需求持续暴涨，研发、规模化落地人工智能大模型仍要承担巨额成本。上述巨额现金消耗曝光之际，开放人工……",
+      "publishedAt": "2026-06-17T06:10:43.000Z",
+      "summary": "618 将在今晚 20 点（6 月 17 日 20:00）迎来年中高潮狂促，全场基本年内探底好价。整个活动仅限 28 小时，有需求的需蹲点拼手速哦。京东无门槛红包至高 26618 元，每天抽 3 次：点此抽取。京东 20:00~20:20 加码抽 1 轮，1.18 元红包 20 分钟不限量，且追加大量 5.2 元、6.18 元红包。淘宝无门槛红包至高 26888 元，每天抽 ……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-觅蜂科技-获数亿元天使-轮融资",
+      "title": "“觅蜂科技”获数亿元天使+轮融资",
+      "url": "https://36kr.com/newsflashes/3856851363042566?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T05:52:05.000Z",
+      "summary": "36氪获悉，近日，一站式物理人工智能数据服务平台“觅蜂科技”完成新一轮数亿元天使 + 轮战略融资。本轮由国方创投领投，孚腾资本、上海电科基金、元启创新等跟投，老股东均普智能、鼎晖持续超额追加投资。本轮融资将主要用于系列硬件量产、全链路数据治理技术迭代、全球采集网络布局、蜂巢生态扩容，进一步夯实无本体采集技术壁垒，加速标准化数据体系落地。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -2350,20 +2349,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-公司在人工智能",
-      "title": "公司在人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1u7ta74/your_company_is_probably_spending_more_on_coffee/",
+      "id": "reddit-artificial-人工智能安全公司只是数据来自相关型号克劳德模型代码-和",
+      "title": "人工智能安全公司只是数据来自相关型号克劳德模型代码，和 :",
+      "url": "https://www.reddit.com/r/artificial/comments/1u7u9ju/anthropic_just_published_data_from_400k_claude/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-16T23:09:40.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-16T23:52:32.000Z",
+      "summary": "发布研究论文 ~400，000 克劳德模型代码。和关于。实际 :，和在编程任务 7 软件工程师。软件工程师，和，最帮助，用户技能由在 7，任务 ~27% 在 7 部件 :。信息技术编程。信息技术。向作为在，代码，: 问题。代码。认为关于实际。每个公司工程师面向向企业问题进入代码。和即将推出面向由向代码，由向。和人工智能安全公司在相关型号数据，和？: 软件工程师。由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 79,
-      "image": "https://preview.redd.it/93zn3tly7q7h1.png?width=640&crop=smart&auto=webp&s=bcd963eee97e6939b857041ca20df562b6c2c51a"
+      "heat": 98,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-在-10-裁员人工智能信息技术",
@@ -2378,7 +2379,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2429,7 +2430,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2518,36 +2519,37 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-摩尔线程完成智谱相关型号相关型号适配",
-      "title": "摩尔线程完成智谱相关型号相关型号适配",
-      "url": "https://36kr.com/newsflashes/3856820367480065?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-17T05:20:33.000Z",
-      "summary": "36氪获悉，6月17日，摩尔线程宣布在人工智能训推一体全功能图形处理器智算卡相关型号上，完成对智谱新一代开源旗舰模型相关型号的相关型号极速适配。此次适配延续了摩尔线程在相关型号长上下文与/异构分离推理场景中的优化积累，并面向相关型号超长上下文与复杂推理负载，进一步释放相关型号在长输入阶段的高吞吐优势。",
-      "topics": [
-        "算力芯片",
-        "开源生态"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "ithome-寻影会议摄像头发布-一体化翻折设计-搭索尼-1-2-英寸传感器-599-元",
-      "title": "寻影会议摄像头发布：一体化翻折设计、搭索尼 1/2 英寸传感器，599 元",
-      "url": "https://www.ithome.com/0/965/332.htm",
+      "id": "ithome-谷歌推送-7-续航提升-10-升级人工智能交互",
+      "title": "谷歌推送 7：续航提升 10%、升级人工智能交互",
+      "url": "https://www.ithome.com/0/965/351.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T04:46:40.000Z",
-      "summary": "科技之家 6 月 17 日消息，寻影宣布推出一款相关型号人工智能会议摄像头，该产品采用一体化翻折设计，面向职场沟通、移动办公、在线教育及远程面试场景，官方建议零售价 699 元，首发优惠价 599 元。京东寻影摄像头 599 元点此访问该产品整机仅重 37.7 克，机身采用树脂材质，带有金属转轴。搭载索尼 1/2 英寸堆栈式传感器，支持相关型号@相关型号输出，同时内置全像素相……",
+      "publishedAt": "2026-06-17T05:56:19.000Z",
+      "summary": "科技之家 6 月 17 日消息，科技媒体安卓发布博文，报道称在 2026 年 / 开发者大会上发布后，谷歌今天面向 2、3 以及 4 智能手表，正式推送 7 更新。续航方面，官方表示 7 通过优化系统功耗管理，相比较 6 系统，续航提升 10%。交互体验方面，7 引入手机端的“实时更新”（实时 ）功能，用户可在手表端实时追踪外卖、快递等状态信息。科技之家附上相关截图如下：音频……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 86,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-九识智能增资至2-13亿",
+      "title": "九识智能增资至2.13亿",
+      "url": "https://36kr.com/newsflashes/3856765827634177?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-17T05:45:00.000Z",
+      "summary": "36氪获悉，天眼查应用显示，近日，九识（苏州）智能科技有限公司发生工商变更，注册资本由1.93亿人民币增至2.13亿人民币。该公司成立于2021年8月，法定代表人为崔霄，经营范围包括人工智能应用软件开发、人工智能硬件销售、人工智能理论与算法软件开发等，由。全资持股。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -2633,7 +2635,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2720,36 +2722,37 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/diffusiongemma-nv-blog-1280x680-1.jpg"
     },
     {
-      "id": "thirty-six-kr-成都银河通用机器人公司变更法定代表人",
-      "title": "成都银河通用机器人公司变更法定代表人",
-      "url": "https://36kr.com/newsflashes/3856765027668996?f=rss",
+      "id": "thirty-six-kr-4-3现已在上正式可用",
+      "title": "4.3现已在上正式可用",
+      "url": "https://36kr.com/newsflashes/3856842720187393?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T05:00:10.000Z",
-      "summary": "36氪获悉，天眼查应用显示，近日，成都银河通用机器人有限公司发生工商变更，姚腾洲卸任法定代表人，由曾辉接任。该公司成立于2025年9月，注册资本100万人民币，经营范围包括服务消费机器人制造、服务消费机器人销售、软件销售等，由北京银河通用机器人商业有限公司全资持股。",
+      "publishedAt": "2026-06-17T05:43:18.000Z",
+      "summary": "36氪获悉，6月17日，亚马逊云科技宣布的 4.3模型现已在上正式可用。此次发布标志着正式成为的模型供应商之一，为企业在跨越推理、智能体以及企业工作流构建生成式人工智能应用时提供更多选择。",
       "topics": [
-        "产品应用",
-        "机器人"
+        "产品应用"
       ],
-      "heat": 92,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "ithome-1-5-模型正式上线-生成-6-秒相关型号视频仅需-25-秒",
-      "title": "1.5 模型正式上线：生成 6 秒相关型号视频仅需 25 秒",
-      "url": "https://www.ithome.com/0/965/330.htm",
+      "id": "ithome-消息称开放人工智能公司今年一季度现金消耗达-37-亿美元-超同期收入的一半",
+      "title": "消息称开放人工智能公司今年一季度现金消耗达 37 亿美元，超同期收入的一半",
+      "url": "https://www.ithome.com/0/965/335.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-17T04:41:10.000Z",
-      "summary": "科技之家 6 月 17 日消息，马斯克旗下公司今天（6 月 17 日）发布公告，宣布正式上线 1.5 模型，并在接口中结束预览正式上线。于 2026 年 6 月 3 日推出 1.5 预览版，主打“静态图一键生成带同步音频的短视频”，相比前代，主要升级音画同步、运动真实性和生成速度。在音画同步方面，该模型在单次生成中同时输出音效、环境音和对话，精准对齐音频与画面动作。该模型大幅……",
+      "publishedAt": "2026-06-17T04:55:33.000Z",
+      "summary": "科技之家 6 月 17 日消息，据科技媒体《 》援引一份向股东披露的文件报道，开放人工智能公司在 2026 年第一季度现金消耗达 37 亿美元（科技之家注：现汇率约合 250.48 亿元人民币），这一金额超过了其同期 57 亿美元收入的一半。这组数据直观体现出，即便当下人工智能服务需求持续暴涨，研发、规模化落地人工智能大模型仍要承担巨额成本。上述巨额现金消耗曝光之际，开放人工……",
       "topics": [
-        "多模态"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
