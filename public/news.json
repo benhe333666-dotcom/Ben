@@ -1,54 +1,49 @@
 {
-  "generatedAt": "2026-06-19T11:18:34.601Z",
+  "generatedAt": "2026-06-19T11:48:35.818Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-19T11:30:00.000Z",
+  "nextUpdateHint": "2026-06-19T12:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-19T11:07:37.000Z"
+    "latestPublishedAt": "2026-06-19T11:44:32.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 66,
-      "heat": 81
+      "count": 65,
+      "heat": 80
     },
     {
       "name": "模型发布",
-      "count": 49,
+      "count": 46,
       "heat": 85
     },
     {
       "name": "监管安全",
-      "count": 30,
+      "count": 29,
       "heat": 84
     },
     {
       "name": "研究论文",
       "count": 22,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "算力芯片",
-      "count": 20,
+      "count": 21,
       "heat": 79
     },
     {
       "name": "人工智能动态",
-      "count": 19,
-      "heat": 72
+      "count": 21,
+      "heat": 73
     },
     {
       "name": "投融资",
-      "count": 17,
-      "heat": 80
-    },
-    {
-      "name": "机器人",
-      "count": 12,
+      "count": 16,
       "heat": 80
     },
     {
@@ -57,9 +52,14 @@
       "heat": 72
     },
     {
+      "name": "机器人",
+      "count": 11,
+      "heat": 78
+    },
+    {
       "name": "端侧智能",
-      "count": 9,
-      "heat": 73
+      "count": 10,
+      "heat": 75
     },
     {
       "name": "多模态",
@@ -240,9 +240,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 9,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-06-18T14:00:00.000Z",
-      "latestDisplayedAt": ""
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-06-19T04:49:33.000Z",
+      "latestDisplayedAt": "2026-06-19T04:49:33.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-06-18T12:44:09.000Z",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-19T10:39:59.000Z",
-      "latestDisplayedAt": "2026-06-19T10:39:59.000Z"
+      "latestFetchedAt": "2026-06-19T11:44:32.000Z",
+      "latestDisplayedAt": "2026-06-19T11:44:32.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-06-18T15:53:00.000Z",
       "latestDisplayedAt": "2026-06-18T15:53:00.000Z"
     },
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 19,
+      "itemCount": 18,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-06-19T11:07:37.000Z",
-      "latestDisplayedAt": "2026-06-19T11:07:37.000Z"
+      "latestFetchedAt": "2026-06-19T11:43:58.000Z",
+      "latestDisplayedAt": "2026-06-19T11:43:58.000Z"
     },
     {
       "id": "oschina",
@@ -488,21 +488,37 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-福耀科技大学校长王树国谈院系自负盈亏-自己都养活不了-说明没真本事",
-      "title": "福耀科技大学校长王树国谈院系自负盈亏：自己都养活不了，说明没真本事",
-      "url": "https://www.ithome.com/0/966/382.htm",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9zrex/how_to_stay_ahead_of_deepfake_evolution_in_2026/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T11:44:32.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": "https://external-preview.redd.it/_y9939PIYHkhJgfnFJDw40ElByIeZqnm_56MzCpETbE.jpeg?width=640&crop=smart&auto=webp&s=899fa5220fcc4b9f0aadd35c2c4c089156fc04d7"
+    },
+    {
+      "id": "ithome-微软推出预览版-旨在统一解决-英伟达-英特尔显卡驱动崩溃诊断难题-将随相关型号相关型号推送",
+      "title": "微软推出预览版：旨在统一解决 / 英伟达 / 英特尔显卡驱动崩溃诊断难题，将随相关型号相关型号推送",
+      "url": "https://www.ithome.com/0/966/386.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T11:07:37.000Z",
-      "summary": "科技之家 6 月 19 日消息，福耀科技大学官微 6 月 17 日发布了校长王树国接受中国教育在线总编辑、创新人才教育研究会副会长陈志文采访的文字稿。采访中，陈志文向王树国提问：“曹德旺理事长提出，学校各院系要逐步实现自负盈亏，自己养活自己。为什么？” 王树国对此回应称：“如果连自己都养活不了，说明没有真本事，如果你研究的是真问题怎么会养活不了自己？你的成果没有落地转化，要么……",
+      "publishedAt": "2026-06-19T11:43:58.000Z",
+      "summary": "科技之家 6 月 19 日消息，微软正在着手解决一个长期困扰视窗系统用户的痛点 —— 图形驱动崩溃问题，并且这一次的改进方案有望同时惠及、英伟达和三大图形处理器阵营。微软于当地时间 6 月 18 日宣布面向开发者推出 （ 转储文件）的公开预览版。这一核心功能最初在今年的游戏开发者大会（）上公布，旨在将主机级别的图形处理器开发工具引入视窗系统平台，作为在视窗系统上进行图形处理器……",
       "topics": [
+        "产品应用",
         "算力芯片",
-        "研究论文",
-        "机器人"
+        "端侧智能"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -521,22 +537,6 @@
       ],
       "heat": 94,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能-信息技术人工智能访问",
-      "title": "人工智能？信息技术人工智能访问？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9yjr3/how_is_this_ai_does_it_really_give_these_many_ai/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T10:39:59.000Z",
-      "summary": "人工智能面向在和值得信息技术？由",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": "https://preview.redd.it/g9d4s8r8x78h1.jpeg?width=640&crop=smart&auto=webp&s=2da9f48db4b4518b456ead16149728fa378ee086"
     },
     {
       "id": "the-decoder-开放人工智能公司研究训练人工智能模型和向",
@@ -641,6 +641,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-在开放人工智能公司只是五个",
+      "title": "在开放人工智能公司只是五个",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T04:49:33.000Z",
+      "summary": "五个回归向开放人工智能公司，公司企业人工智能，前沿科技媒体。回归向开放人工智能公司在作为和认为实验室，人工智能公司由开放人工智能公司。回归 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/midjourney",
@@ -671,7 +687,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -687,7 +703,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2025/09/nvidiaheadquarters.jpg"
     },
     {
@@ -704,7 +720,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -756,7 +772,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -773,7 +789,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -790,7 +806,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -807,7 +823,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -841,7 +857,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -857,7 +873,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp"
     },
     {
@@ -895,22 +911,38 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/pixels-to-planning-2.png"
     },
     {
-      "id": "ithome-广东-加快形成联通港澳的低空跨境物流网络",
-      "title": "广东：加快形成联通港澳的低空跨境物流网络",
-      "url": "https://www.ithome.com/0/966/381.htm",
+      "id": "ithome-福耀科技大学校长王树国谈院系自负盈亏-自己都养活不了-说明没真本事",
+      "title": "福耀科技大学校长王树国谈院系自负盈亏：自己都养活不了，说明没真本事",
+      "url": "https://www.ithome.com/0/966/382.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T11:06:25.000Z",
-      "summary": "科技之家 6 月 19 日消息，广东省人民政府 19 日（今天）印发《广东省推进服务业扩能提质实施方案》提出，发挥龙头网络货运平台优势，支持全国性、全球性道路运输企业在粤布局经营，推动传统公路货运企业向仓储管理、流通加工、订单管理、供应链服务等增值服务延伸，发展网络货运等高效集约运输业务。加强与全球知名航空、航运物流企业对接合作，积极拓展国际航线网络，支持大型物流企业建设前置……",
+      "publishedAt": "2026-06-19T11:07:37.000Z",
+      "summary": "科技之家 6 月 19 日消息，福耀科技大学官微 6 月 17 日发布了校长王树国接受中国教育在线总编辑、创新人才教育研究会副会长陈志文采访的文字稿。采访中，陈志文向王树国提问：“曹德旺理事长提出，学校各院系要逐步实现自负盈亏，自己养活自己。为什么？” 王树国对此回应称：“如果连自己都养活不了，说明没有真本事，如果你研究的是真问题怎么会养活不了自己？你的成果没有落地转化，要么……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "算力芯片",
+        "研究论文",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能-信息技术人工智能访问",
+      "title": "人工智能？信息技术人工智能访问？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9yjr3/how_is_this_ai_does_it_really_give_these_many_ai/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T10:39:59.000Z",
+      "summary": "人工智能面向在和值得信息技术？由",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": "https://preview.redd.it/g9d4s8r8x78h1.jpeg?width=640&crop=smart&auto=webp&s=2da9f48db4b4518b456ead16149728fa378ee086"
     },
     {
       "id": "the-decoder-谷歌信息技术面向人工智能-生成",
@@ -940,22 +972,6 @@
       "summary": "6 月 18 日消息，“硬氪”今天下午爆料称，追觅系各大业务单元（）正在收缩和调整，现有将合并为四大主营业务板块，分别为全屋智能清洁（室内 + 室外庭院）、智能家电、智慧出行、人工智能具身智能，一些未开展实际业务落地及人员落地的将直接取消。当前在追觅四大核心业务板块里，智能清洁板块人员近本文链接",
       "topics": [
         "机器人"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-我们人工智能在企业",
-      "title": "我们人工智能在企业？",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9vab1/are_we_using_ai_correctly_in_the_business_world/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T07:26:03.000Z",
-      "summary": "在平台人工智能和我们未来，由得到人工智能。向在公司。首席执行官向决策在。人工智能公司，使用向和向可能在。向关于人工智能和面向。信息技术只是问题。向。由",
-      "topics": [
-        "产品应用"
       ],
       "heat": 82,
       "image": ""
@@ -989,7 +1005,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1040,7 +1056,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1075,7 +1091,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1092,7 +1108,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1125,7 +1141,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/cannes-lions-featured-visual-still-1920x1080-1.jpg"
     },
     {
@@ -1141,7 +1157,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1159,7 +1175,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1282,20 +1298,21 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DermAI_Hero.png"
     },
     {
-      "id": "ithome-消息称估值冲至-90-亿美元-赴港首次公开募股剑指-10-亿美元募资",
-      "title": "消息称估值冲至 90 亿美元，赴港首次公开募股剑指 10 亿美元募资",
-      "url": "https://www.ithome.com/0/966/379.htm",
+      "id": "ithome-广东-加快形成联通港澳的低空跨境物流网络",
+      "title": "广东：加快形成联通港澳的低空跨境物流网络",
+      "url": "https://www.ithome.com/0/966/381.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T10:59:37.000Z",
-      "summary": "科技之家 6 月 19 日消息，据《华尔街日报》援引知情人士消息称，中国自动驾驶公司估值已达到约 90 亿美元（科技之家注：现汇率约合 610.52 亿元人民币），正准备赴港上市，计划通过首次公开募股募资约 10 亿美元（现汇率约合 67.84 亿元人民币）。将自身定位为自动驾驶汽车的“大脑”，主要向车企提供驾驶辅助解决方案。中国证监会 18 日公布了一份日期为 6 月 10……",
+      "publishedAt": "2026-06-19T11:06:25.000Z",
+      "summary": "科技之家 6 月 19 日消息，广东省人民政府 19 日（今天）印发《广东省推进服务业扩能提质实施方案》提出，发挥龙头网络货运平台优势，支持全国性、全球性道路运输企业在粤布局经营，推动传统公路货运企业向仓储管理、流通加工、订单管理、供应链服务等增值服务延伸，发展网络货运等高效集约运输业务。加强与全球知名航空、航运物流企业对接合作，积极拓展国际航线网络，支持大型物流企业建设前置……",
       "topics": [
-        "投融资",
-        "机器人"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 92,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1316,15 +1333,15 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-代码-编程智能体",
-      "title": "代码，编程智能体",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9urrk/mlxcode_a_coding_agent_that_speaks_git_natively/",
+      "id": "reddit-artificial-我们人工智能在企业",
+      "title": "我们人工智能在企业？",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9vab1/are_we_using_ai_correctly_in_the_business_world/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T06:55:52.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-19T07:26:03.000Z",
+      "summary": "在平台人工智能和我们未来，由得到人工智能。向在公司。首席执行官向决策在。人工智能公司，使用向和向可能在。向关于人工智能和面向。信息技术只是问题。向。由",
       "topics": [
         "产品应用"
       ],
@@ -1344,7 +1361,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1361,7 +1378,7 @@
         "模型发布",
         "机器人"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1411,7 +1428,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1428,7 +1445,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1446,7 +1463,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1464,7 +1481,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1481,7 +1498,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1497,7 +1514,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1636,37 +1653,36 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PhoneClusterComputing2_Animation.gif"
     },
     {
-      "id": "ithome-马斯克预测中国大模型-2027-年相关型号追上人工智能安全公司-智谱创始人唐杰回应-用不了那么久",
-      "title": "马斯克预测中国大模型 2027 年相关型号追上人工智能安全公司，智谱创始人唐杰回应“用不了那么久”",
-      "url": "https://www.ithome.com/0/966/377.htm",
+      "id": "ithome-消息称估值冲至-90-亿美元-赴港首次公开募股剑指-10-亿美元募资",
+      "title": "消息称估值冲至 90 亿美元，赴港首次公开募股剑指 10 亿美元募资",
+      "url": "https://www.ithome.com/0/966/379.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T10:51:06.000Z",
-      "summary": "科技之家 6 月 19 日消息，北京时间 6 月 17 日，智谱正式上线并开源了新一代旗舰大模型相关型号。在技术评测方面，相关型号在编程基准测试中得分 74.4，超过了开放人工智能公司新一代语言模型，仅落后人工智能安全公司顶级闭源模型克劳德模型旗舰模型 4.8 约 1 个百分点。因此，一位网友昨晚在上发帖提问：“中国大模型预计何时能够达到人工智能安全公司水平？相关型号无疑缩短……",
+      "publishedAt": "2026-06-19T10:59:37.000Z",
+      "summary": "科技之家 6 月 19 日消息，据《华尔街日报》援引知情人士消息称，中国自动驾驶公司估值已达到约 90 亿美元（科技之家注：现汇率约合 610.52 亿元人民币），正准备赴港上市，计划通过首次公开募股募资约 10 亿美元（现汇率约合 67.84 亿元人民币）。将自身定位为自动驾驶汽车的“大脑”，主要向车企提供驾驶辅助解决方案。中国证监会 18 日公布了一份日期为 6 月 10……",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
+        "投融资",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "reddit-artificial-为什么没有谷歌人工智能-解释",
-      "title": "为什么没有谷歌人工智能？解释",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9tz1l/why_did_google_ai_forget_explain_this_phenomenon/",
+      "id": "reddit-artificial-代码-编程智能体",
+      "title": "代码，编程智能体",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9urrk/mlxcode_a_coding_agent_that_speaks_git_natively/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T06:10:06.000Z",
-      "summary": "谷歌人工智能向研究 & 信息技术。和构建在。询问 & 信息技术向，信息技术这里 : 面向在部件; 分享。​ 作为向为什么 & 人工智能。解释？由",
+      "publishedAt": "2026-06-19T06:55:52.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "研究论文"
+        "产品应用"
       ],
-      "heat": 89,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1682,7 +1698,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1734,7 +1750,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1752,7 +1768,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1819,7 +1835,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1835,7 +1851,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1851,7 +1867,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": "https://media.wired.com/photos/6a31de8a8b1536f155402681/master/pass/AI-Lab-Operating-Humanoid-With-Your-Body-is-Hot-Job-in-China-Hardware-Capital-Business.jpg"
     },
     {
@@ -1958,33 +1974,35 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1240294200-1024x648.jpg"
     },
     {
-      "id": "ithome-法拉利首席执行官预告-7-月-4-日发布新品-将继续推出燃油-混动和纯电车型-选择权交给消费者",
-      "title": "法拉利首席执行官预告 7 月 4 日发布新品：将继续推出燃油、混动和纯电车型，选择权交给消费者",
-      "url": "https://www.ithome.com/0/966/370.htm",
+      "id": "ithome-马斯克预测中国大模型-2027-年相关型号追上人工智能安全公司-智谱创始人唐杰回应-用不了那么久",
+      "title": "马斯克预测中国大模型 2027 年相关型号追上人工智能安全公司，智谱创始人唐杰回应“用不了那么久”",
+      "url": "https://www.ithome.com/0/966/377.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T09:33:28.000Z",
-      "summary": "科技之家 6 月 19 日消息，据，法拉利首席执行官贝内代托 · 维尼亚（ ）在美国拉斯维加斯举行的一场经销商大会上表示，法拉利计划于今年 7 月 4 日发布一款全新车型。维尼亚在介绍公司关于软件、人工智能、业务效率及客户选择等话题时，多次提及即将到来的新车发布。他表示，这款新车将融合品牌传统与未来发展方向，体现法拉利长期坚持的创新理念。几周之后，如果你们能耐心等一等，就会看……",
+      "publishedAt": "2026-06-19T10:51:06.000Z",
+      "summary": "科技之家 6 月 19 日消息，北京时间 6 月 17 日，智谱正式上线并开源了新一代旗舰大模型相关型号。在技术评测方面，相关型号在编程基准测试中得分 74.4，超过了开放人工智能公司新一代语言模型，仅落后人工智能安全公司顶级闭源模型克劳德模型旗舰模型 4.8 约 1 个百分点。因此，一位网友昨晚在上发帖提问：“中国大模型预计何时能够达到人工智能安全公司水平？相关型号无疑缩短……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-3-开放人工智能公司-深度思维-人工智能安全公司",
-      "title": "3，开放人工智能公司 =，深度思维 =，人工智能安全公司 =",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9tghb/the_big_3_openai_drake_deepmind_kendrick/",
+      "id": "reddit-artificial-为什么没有谷歌人工智能-解释",
+      "title": "为什么没有谷歌人工智能？解释",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9tz1l/why_did_google_ai_forget_explain_this_phenomenon/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T05:41:32.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-06-19T06:10:06.000Z",
+      "summary": "谷歌人工智能向研究 & 信息技术。和构建在。询问 & 信息技术向，信息技术这里 : 面向在部件; 分享。​ 作为向为什么 & 人工智能。解释？由",
       "topics": [
-        "监管安全"
+        "研究论文"
       ],
       "heat": 89,
       "image": ""
@@ -1998,7 +2016,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-19T03:23:56.000Z",
-      "summary": "据报道，人工智能安全公司高管向商务��长霍华德·卢特尼克提交一份方案，承诺与白宫展开更深度合作，力求尽快消除各类安全隐患；正是相关安全问题，使得该公司高性能人工智能模型“”与“”遭到监管整治。一位知情人士周四透露，双方仍在进行整改磋商，人工智能安全公司在会谈中承诺将加强与特朗普政府的沟通，未来更快处置各类安全风险。（新浪财经）",
+      "summary": "据报道，人工智能安全公司高管向商务部长霍华德·卢特尼克提交一份方案，承诺与白宫展开更深度合作，力求尽快消除各类安全隐患；正是相关安全问题，使得该公司高性能人工智能模型“”与“”遭到监管整治。一位知情人士周四透露，双方仍在进行整改磋商，人工智能安全公司在会谈中承诺将加强与特朗普政府的沟通，未来更快处置各类安全风险。（新浪财经）",
       "topics": [
         "监管安全"
       ],
@@ -2020,7 +2038,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2088,7 +2106,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2139,7 +2157,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2226,40 +2244,36 @@
       "image": ""
     },
     {
-      "id": "ithome-苹果-20-周年版苹果手机-相关型号专业版被曝独享台积电相关型号制程-标准版相关型号延续相关型号工艺",
-      "title": "苹果“20 周年版苹果手机”相关型号专业版被曝独享台积电相关型号制程，标准版相关型号延续相关型号工艺",
-      "url": "https://www.ithome.com/0/966/368.htm",
+      "id": "ithome-法拉利首席执行官预告-7-月-4-日发布新品-将继续推出燃油-混动和纯电车型-选择权交给消费者",
+      "title": "法拉利首席执行官预告 7 月 4 日发布新品：将继续推出燃油、混动和纯电车型，选择权交给消费者",
+      "url": "https://www.ithome.com/0/966/370.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T09:14:47.000Z",
-      "summary": "科技之家 6 月 19 日消息，台积电 2 纳米工艺（相关型号）已如期于 2025 年第四季度实现量产，预计今年下半年还将推出优化版的相关型号制程。据中国台湾《工商时报》今日报道，台积电相关型号今年将率先被高通和联发科采用，两家公司希望借此在今年晚些时候的新品上抢占相对于苹果的技术优势。苹果预计会在 2027 年的相关型号专业版芯片上导入相关型号制程，以保持与安卓阵营旗舰芯片……",
+      "publishedAt": "2026-06-19T09:33:28.000Z",
+      "summary": "科技之家 6 月 19 日消息，据，法拉利首席执行官贝内代托 · 维尼亚（ ）在美国拉斯维加斯举行的一场经销商大会上表示，法拉利计划于今年 7 月 4 日发布一款全新车型。维尼亚在介绍公司关于软件、人工智能、业务效率及客户选择等话题时，多次提及即将到来的新车发布。他表示，这款新车将融合品牌传统与未来发展方向，体现法拉利长期坚持的创新理念。几周之后，如果你们能耐心等一等，就会看……",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 96,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "reddit-artificial-双子座模型帮助",
-      "title": "双子座模型帮助",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9t7mp/gemini_helped_me_get_scammed/",
+      "id": "reddit-artificial-3-开放人工智能公司-深度思维-人工智能安全公司",
+      "title": "3，开放人工智能公司 =，深度思维 =，人工智能安全公司 =",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9tghb/the_big_3_openai_drake_deepmind_kendrick/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T05:28:16.000Z",
-      "summary": "首个和向由双子座模型在。​ 在借助试图向信息技术向在时间向借助，面向 24 试图向。向面向 5。询问双子座模型向解释向向面向向。在，双子座模型面向。呼吁和智能体解释在面向 $230。在。和向在借助智能体在。信息技术变成向借助智能体在。双子座模型和！和。和向借助！由",
+      "publishedAt": "2026-06-19T05:41:32.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
         "监管安全"
       ],
-      "heat": 99,
-      "image": "https://preview.redd.it/h69y3ffnd68h1.png?width=640&crop=smart&auto=webp&s=a4e32e1a8aa269159f12fb685b4b90dd545a9025"
+      "heat": 88,
+      "image": ""
     },
     {
       "id": "thirty-six-kr-数说故事递表港交所",
@@ -2274,7 +2288,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2292,7 +2306,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2308,7 +2322,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2324,7 +2338,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2342,7 +2356,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2358,7 +2372,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2448,39 +2462,40 @@
       "image": ""
     },
     {
-      "id": "ithome-因批评人工智能数据中心迅速扩张-多名亚马逊工程师遭内部调查",
-      "title": "因批评人工智能数据中心迅速扩张，多名亚马逊工程师遭内部调查",
-      "url": "https://www.ithome.com/0/966/364.htm",
+      "id": "ithome-苹果-20-周年版苹果手机-相关型号专业版被曝独享台积电相关型号制程-标准版相关型号延续相关型号工艺",
+      "title": "苹果“20 周年版苹果手机”相关型号专业版被曝独享台积电相关型号制程，标准版相关型号延续相关型号工艺",
+      "url": "https://www.ithome.com/0/966/368.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T08:44:07.000Z",
-      "summary": "科技之家 6 月 19 日消息，据美国当地时间 18 日报道，多名亚马逊工程师声称，自己因公开批评人工智能数据中心迅速扩张，并呼吁政府加强监管后，遭到亚马逊内部调查。本月早些时候，5 名亚马逊员工在西雅图市议会会议上作证。当时，西雅图正在就是否暂停新建大型数据中心一年征求公众意见，希望利用暂停期制定监管措施。6 月 9 日，西雅图市议会一致通过暂停令。这些员工批评科技公司在人……",
+      "publishedAt": "2026-06-19T09:14:47.000Z",
+      "summary": "科技之家 6 月 19 日消息，台积电 2 纳米工艺（相关型号）已如期于 2025 年第四季度实现量产，预计今年下半年还将推出优化版的相关型号制程。据中国台湾《工商时报》今日报道，台积电相关型号今年将率先被高通和联发科采用，两家公司希望借此在今年晚些时候的新品上抢占相对于苹果的技术优势。苹果预计会在 2027 年的相关型号专业版芯片上导入相关型号制程，以保持与安卓阵营旗舰芯片……",
       "topics": [
-        "监管安全",
+        "产品应用",
+        "算力芯片",
         "投融资"
       ],
-      "heat": 98,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能和机器人风险面向-70-5-百万和",
-      "title": "人工智能和机器人风险面向 70.5 百万和",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9sntk/oc_i_mapped_ai_exposure_and_robotics_risk_for/",
+      "id": "reddit-artificial-双子座模型帮助",
+      "title": "双子座模型帮助",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9t7mp/gemini_helped_me_get_scammed/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T04:59:22.000Z",
-      "summary": "最人工智能在人工智能。转化向。和任务，人工智能模型，在 70.5 百万。人工智能每个我们。支持在借助 8.5，10 得分，得分 6.5，10，和。机器人。和得分只是 3.0，10 在人工智能，7.5，10 在机器人风险。得分 3.0 在人工智能 6.5 在机器人。服务人工智能，在 3.5，机器人向 4.5。人工智能实际，在 4.92，10。部件，和机器人在。作为和作为。得分我……",
+      "publishedAt": "2026-06-19T05:28:16.000Z",
+      "summary": "首个和向由双子座模型在。​ 在借助试图向信息技术向在时间向借助，面向 24 试图向。向面向 5。询问双子座模型向解释向向面向向。在，双子座模型面向。呼吁和智能体解释在面向 $230。在。和向在借助智能体在。信息技术变成向借助智能体在。双子座模型和！和。和向借助！由",
       "topics": [
         "模型发布",
         "产品应用",
-        "机器人"
+        "监管安全"
       ],
-      "heat": 90,
-      "image": ""
+      "heat": 98,
+      "image": "https://preview.redd.it/h69y3ffnd68h1.png?width=640&crop=smart&auto=webp&s=a4e32e1a8aa269159f12fb685b4b90dd545a9025"
     },
     {
       "id": "thirty-six-kr-安踏发布-折纸科技-试图从结构设计寻找跑鞋缓震新方向",
@@ -2546,7 +2561,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2564,7 +2579,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2596,7 +2611,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2633,36 +2648,38 @@
       "image": ""
     },
     {
-      "id": "ithome-因用人工智能编造证据材料-英国一警员面临刑事调查",
-      "title": "因用人工智能编造证据材料，英国一警员面临刑事调查",
-      "url": "https://www.ithome.com/0/966/360.htm",
+      "id": "ithome-因批评人工智能数据中心迅速扩张-多名亚马逊工程师遭内部调查",
+      "title": "因批评人工智能数据中心迅速扩张，多名亚马逊工程师遭内部调查",
+      "url": "https://www.ithome.com/0/966/364.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T08:04:56.000Z",
-      "summary": "科技之家 6 月 19 日消息，英国德比郡一名警员涉嫌利用生成式人工智能在多起案件中制作证据材料，目前正因涉嫌妨碍司法公正接受刑事调查。各国执法机构近年来纷纷引入人工智能，希望加快办案速度、提高结案率，但不断增加的人脸识别误捕事件表明，速度并不等于准确。据英国当地时间 13 日报道，德比郡有关部门已对一名警员展开调查，涉事警员被指使用生成式人工智能在多起案件中制作证据材料。涉……",
+      "publishedAt": "2026-06-19T08:44:07.000Z",
+      "summary": "科技之家 6 月 19 日消息，据美国当地时间 18 日报道，多名亚马逊工程师声称，自己因公开批评人工智能数据中心迅速扩张，并呼吁政府加强监管后，遭到亚马逊内部调查。本月早些时候，5 名亚马逊员工在西雅图市议会会议上作证。当时，西雅图正在就是否暂停新建大型数据中心一年征求公众意见，希望利用暂停期制定监管措施。6 月 9 日，西雅图市议会一致通过暂停令。这些员工批评科技公司在人……",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 85,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1u9r14p/meilleur_ia_pour_technique_et_proc%C3%A9d%C3%A9_industriel/",
+      "id": "reddit-artificial-人工智能和机器人风险面向-70-5-百万和",
+      "title": "人工智能和机器人风险面向 70.5 百万和",
+      "url": "https://www.reddit.com/r/artificial/comments/1u9sntk/oc_i_mapped_ai_exposure_and_robotics_risk_for/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T03:34:56.000Z",
-      "summary": "智能聊天助手，双子座模型 à é è éé é é？由",
+      "publishedAt": "2026-06-19T04:59:22.000Z",
+      "summary": "最人工智能在人工智能。转化向。和任务，人工智能模型，在 70.5 百万。人工智能每个我们。支持在借助 8.5，10 得分，得分 6.5，10，和。机器人。和得分只是 3.0，10 在人工智能，7.5，10 在机器人风险。得分 3.0 在人工智能 6.5 在机器人。服务人工智能，在 3.5，机器人向 4.5。人工智能实际，在 4.92，10。部件，和机器人在。作为和作为。得分我……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "机器人"
       ],
-      "heat": 92,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2678,7 +2695,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2694,7 +2711,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2745,7 +2762,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2761,25 +2778,23 @@
       "topics": [
         "机器人"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
-      "id": "ithome-全球首个人形机器人通用小脑模型-银河通用发布-0-5",
-      "title": "全球首个人形机器人通用小脑模型：银河通用发布 0.5",
-      "url": "https://www.ithome.com/0/966/355.htm",
+      "id": "ithome-因用人工智能编造证据材料-英国一警员面临刑事调查",
+      "title": "因用人工智能编造证据材料，英国一警员面临刑事调查",
+      "url": "https://www.ithome.com/0/966/360.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T07:38:43.000Z",
-      "summary": "科技之家 6 月 19 日消息，“银河通用机器人”官方公众号今天（6 月 19 日）发布博文，宣布推出全球首个人形机器人通用小脑基础模型 0.5，采用全球最大规模 2 万小时人类动作数据训练，8040 万参数规模。0.5 首次构建起面向人形机器人全身实时运动控制的通用基础模型，使用 2 万小时人类动作数据进行训练，参数规模达 8040 万，是行业首个达到相关型号量级的人形机器……",
+      "publishedAt": "2026-06-19T08:04:56.000Z",
+      "summary": "科技之家 6 月 19 日消息，英国德比郡一名警员涉嫌利用生成式人工智能在多起案件中制作证据材料，目前正因涉嫌妨碍司法公正接受刑事调查。各国执法机构近年来纷纷引入人工智能，希望加快办案速度、提高结案率，但不断增加的人脸识别误捕事件表明，速度并不等于准确。据英国当地时间 13 日报道，德比郡有关部门已对一名警员展开调查，涉事警员被指使用生成式人工智能在多起案件中制作证据材料。涉……",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2832,24 +2847,6 @@
         "监管安全"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "leiphone-钛动科技战略投资布局加速-以全球渠道与数据能力赋能创新企业",
-      "title": "钛动科技战略投资布局加速：以全球渠道与数据能力赋能创新企业",
-      "url": "https://www.leiphone.com/category/industrynews/0rp35cG1uA9fwKCY.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-18T05:49:00.000Z",
-      "summary": "6月17日，在关于人工智能创业与投资逻辑的行业讨论中，钛动科技释放出持续加码人工智能应用与智能体赛道的明确信号。据雷峰网了解，钛动近年在该相关领域来已形成较为清晰的战投布局，方向覆盖智能体、/ 智能体、人工智能及商业基础设施等。值得一提的是，这些布局大多发生在第一轮融资之前——种子轮、天使轮才是其真正的主战场，显示出钛动更关注具备明确场景切口和商业化潜力的人工智能原生项目。在……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 82,
       "image": ""
     }
   ]
