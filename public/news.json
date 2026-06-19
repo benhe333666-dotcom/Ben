@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-19T16:19:24.290Z",
+  "generatedAt": "2026-06-19T16:49:28.010Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-19T16:30:00.000Z",
+  "nextUpdateHint": "2026-06-19T17:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-19T16:08:17.000Z"
+    "latestPublishedAt": "2026-06-19T16:41:43.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 65,
-      "heat": 78
+      "heat": 79
     },
     {
       "name": "模型发布",
@@ -24,7 +24,7 @@
     {
       "name": "监管安全",
       "count": 26,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "研究论文",
@@ -32,14 +32,19 @@
       "heat": 78
     },
     {
-      "name": "人工智能动态",
-      "count": 21,
-      "heat": 72
+      "name": "算力芯片",
+      "count": 20,
+      "heat": 77
     },
     {
-      "name": "算力芯片",
-      "count": 19,
-      "heat": 76
+      "name": "人工智能动态",
+      "count": 21,
+      "heat": 71
+    },
+    {
+      "name": "开源生态",
+      "count": 14,
+      "heat": 73
     },
     {
       "name": "投融资",
@@ -47,18 +52,13 @@
       "heat": 77
     },
     {
-      "name": "开源生态",
-      "count": 14,
-      "heat": 71
+      "name": "多模态",
+      "count": 10,
+      "heat": 79
     },
     {
       "name": "端侧智能",
       "count": 10,
-      "heat": 78
-    },
-    {
-      "name": "多模态",
-      "count": 9,
       "heat": 78
     },
     {
@@ -145,8 +145,8 @@
       "fallbackReason": "",
       "itemCount": 5,
       "displayedCount": 5,
-      "latestFetchedAt": "2026-06-18T23:58:34.000Z",
-      "latestDisplayedAt": "2026-06-18T23:58:34.000Z"
+      "latestFetchedAt": "2026-06-19T16:23:29.000Z",
+      "latestDisplayedAt": "2026-06-19T16:23:29.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 5,
-      "latestFetchedAt": "2026-06-19T15:00:00.000Z",
-      "latestDisplayedAt": "2026-06-19T15:00:00.000Z"
+      "latestFetchedAt": "2026-06-19T16:30:00.000Z",
+      "latestDisplayedAt": "2026-06-19T16:30:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-06-18T12:44:09.000Z",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-19T15:47:34.000Z",
-      "latestDisplayedAt": "2026-06-19T15:47:34.000Z"
+      "latestFetchedAt": "2026-06-19T16:41:43.000Z",
+      "latestDisplayedAt": "2026-06-19T16:41:43.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -488,6 +488,57 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-人工智能向来自-这里我们信息技术",
+      "title": "人工智能向来自。这里我们信息技术。",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua6yez/ai_learned_to_be_a_villain_from_hollywood_heres/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T16:41:43.000Z",
+      "summary": "借助，和，规模向问题，来自向。推出未来视觉，$3.5 百万向生成新科学。: 科学我们构建，和为什么认为我们关于人工智能正确克劳德模型训练数据和人工智能未来视觉生成新科学向训练人工智能在为什么关于在和，认为信息技术，和为什么数据成本公司和赋能向构建视觉为什么认为教育面向未来，和信息技术由",
+      "topics": [
+        "模型发布",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": "https://external-preview.redd.it/HxdyjFNsgKgjsCW4fidBMWErGEC4iDCKiflhRDsmRfo.png?width=640&crop=smart&auto=webp&s=b690c338abc4e1e4bca5a32d9fedcd76dfb54750"
+    },
+    {
+      "id": "towards-data-science-构建面向英伟达",
+      "title": "构建面向英伟达",
+      "url": "https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T16:30:00.000Z",
+      "summary": "为什么推理在？构建面向英伟达首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-人工智能用户在智能编程助手使用指标接口",
+      "title": "人工智能用户在智能编程助手使用指标接口",
+      "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-19T16:23:29.000Z",
+      "summary": "智能编程助手使用指标接口人工智能用户，来自人工智能数据使用在接口。… 人工智能用户在智能编程助手使用指标接口首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-政府人工智能安全公司意外帮助",
       "title": "政府人工智能安全公司意外帮助？",
       "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
@@ -519,7 +570,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -538,38 +589,6 @@
         "端侧智能"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能在帮助-2-000-在-2-000-在-96",
-      "title": "人工智能在帮助 2，000 在 2，000 在 96",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua5j2y/the_pentagons_ai_chief_swore_in_a_court_filing/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T15:47:34.000Z",
-      "summary": "来自和人工智能构建，连线杂志进入，帮助 2，000 2，000 96。信息技术信息技术 : 在数据中心，争论安全。在实时作为。来源 : :，由",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T15:00:00.000Z",
-      "summary": "问题转化向问题首个向。这里没有。首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -601,7 +620,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -706,24 +725,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-旗舰模型-4-6",
-      "title": "旗舰模型 4.6",
-      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-18T23:58:34.000Z",
-      "summary": "我们旗舰模型 4.6 代码托管平台智能编程助手智能副驾，和智能体模式，和代码，在相关型号，2026: 模型 … 旗舰模型 4.6 首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-英伟达官方博客发布人工智能相关动态",
       "title": "英伟达官方博客发布人工智能相关动态。",
       "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
@@ -736,7 +737,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2025/09/nvidiaheadquarters.jpg"
     },
     {
@@ -771,7 +772,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -806,7 +807,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -929,17 +930,17 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-编程智能体记忆",
-      "title": "编程智能体记忆。",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua5h4l/maybe_coding_agents_dont_need_a_bigger_memory/",
+      "id": "reddit-artificial-人工智能在帮助-2-000-在-2-000-在-96",
+      "title": "人工智能在帮助 2，000 在 2，000 在 96",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua5j2y/the_pentagons_ai_chief_swore_in_a_court_filing/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T15:45:25.000Z",
-      "summary": "作为只是在为什么编程智能体，和为什么仓库正确向信息技术。信息技术向真相，信息技术只是关于认为关于进入编程借助智能体？信息技术在！面向！由",
+      "publishedAt": "2026-06-19T15:47:34.000Z",
+      "summary": "来自和人工智能构建，连线杂志进入，帮助 2，000 2，000 96。信息技术信息技术 : 在数据中心，争论安全。在实时作为。来源 : :，由",
       "topics": [
-        "产品应用"
+        "监管安全"
       ],
       "heat": 85,
       "image": ""
@@ -957,7 +958,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T15:00:00.000Z",
+      "summary": "问题转化向问题首个向。这里没有。首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -979,24 +996,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-图形处理器-面向检索增强生成-构建检索图形处理器",
-      "title": "图形处理器，面向检索增强生成: 构建检索图形处理器",
-      "url": "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T12:00:00.000Z",
-      "summary": "推理。这里构建中央处理器向解锁。图形处理器，面向检索增强生成: 构建检索图形处理器首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-消息称追觅系生态大调整-收缩-合并后回归四大主营业务",
       "title": "消息称追觅系生态大调整：收缩、合并后回归四大主营业务",
       "url": "https://news.cnblogs.com/n/824347/",
@@ -1009,7 +1008,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1025,7 +1024,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1037,11 +1036,11 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-06-19T03:59:17.000Z",
-      "summary": "宣布召回数千辆自动驾驶出租车，隐患为车辆可能高速闯入高速公路施工路段。这家隶属于字母表集团、与谷歌同属兄弟企业的自动驾驶公司，针对旗下部分搭载第五代自动驾驶系统的车辆发起召回。此前已发生多起安全事件：车辆未能识别匝道封闭标识，径直驶入规划中的高速公路施工区域。（新浪财经）",
+      "summary": "宣布召回数千辆自动驾驶出租车，隐患为车辆可能高速闯入高速公路施工路段。这家隶属于字母表集团、与谷歌同属兄弟企业的自动驾驶公司，针对旗下部分搭载第五代自动驾驶系统的车辆发起召回。此前已发生多起安全事件：车辆未能识别匝道��闭标识，径直驶入规划中的高速公路施工区域。（新浪财经）",
       "topics": [
         "监管安全"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1057,7 +1056,25 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-旗舰模型-4-6",
+      "title": "旗舰模型 4.6",
+      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-18T23:58:34.000Z",
+      "summary": "我们旗舰模型 4.6 代码托管平台智能编程助手智能副驾，和智能体模式，和代码，在相关型号，2026: 模型 … 旗舰模型 4.6 首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -1076,24 +1093,6 @@
       ],
       "heat": 86,
       "image": "https://media.wired.com/photos/6a342bff039398b1addb3ba2/master/pass/Model-Behavior-SB.jpg"
-    },
-    {
-      "id": "github-changelog-代码-1-可用在智能副驾",
-      "title": "代码，1，可用在智能副驾",
-      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-18T20:11:24.000Z",
-      "summary": "‑代码‑1‑，微软 ‑构建编程模型，现已可用代码托管平台智能编程助手。‑代码‑1‑ 使用在: 智能编程助手命令行工具代码托管平台智能编程助手应用智能副驾在代码托管平台 …，代码，1，可用在智能副驾首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 84,
-      "image": ""
     },
     {
       "id": "product-hunt-ai-由谷歌",
@@ -1144,7 +1143,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1177,7 +1176,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/cannes-lions-featured-visual-still-1920x1080-1.jpg"
     },
     {
@@ -1247,7 +1246,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1316,20 +1315,19 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DermAI_Hero.png"
     },
     {
-      "id": "reddit-artificial-为什么人工智能向在",
-      "title": "为什么人工智能向在？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua5feg/why_do_ai_systems_still_struggle_to_interpret/",
+      "id": "reddit-artificial-编程智能体记忆",
+      "title": "编程智能体记忆。",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua5h4l/maybe_coding_agents_dont_need_a_bigger_memory/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T15:43:32.000Z",
-      "summary": "持续在人工智能在。顺利和，成为用户。在最，作为信息技术，在，和在，在最语言。问题关于人工智能 : 在，向更好。认为，和实际改进信息技术？由",
+      "publishedAt": "2026-06-19T15:45:25.000Z",
+      "summary": "作为只是在为什么编程智能体，和为什么仓库正确向信息技术。信息技术向真相，信息技术只是关于认为关于进入编程借助智能体？信息技术在！面向！由",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1365,6 +1363,24 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-图形处理器-面向检索增强生成-构建检索图形处理器",
+      "title": "图形处理器，面向检索增强生成: 构建检索图形处理器",
+      "url": "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T12:00:00.000Z",
+      "summary": "推理。这里构建中央处理器向解锁。图形处理器，面向检索增强生成: 构建检索图形处理器首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "the-decoder-开放人工智能公司研究训练人工智能模型和向",
       "title": "开放人工智能公司研究训练人工智能模型和向",
       "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
@@ -1395,7 +1411,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1412,7 +1428,25 @@
         "模型发布",
         "机器人"
       ],
-      "heat": 93,
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-代码-1-可用在智能副驾",
+      "title": "代码，1，可用在智能副驾",
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-18T20:11:24.000Z",
+      "summary": "‑代码‑1‑，微软 ‑构建编程模型，现已可用代码托管平台智能编程助手。‑代码‑1‑ 使用在: 智能编程助手命令行工具代码托管平台智能编程助手应用智能副驾在代码托管平台 …，代码，1，可用在智能副驾首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -1428,25 +1462,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://media.wired.com/photos/6a3308960b213b93014c14d7/master/pass/Uncanny-Valley-Meta%E2%80%99s%20Internal%20Unit%20Spiral-v1.jpg"
-    },
-    {
-      "id": "github-changelog-智能副驾代码评测-智能体-支持和",
-      "title": "智能副驾代码评测: 智能体。支持和",
-      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-18T19:11:51.000Z",
-      "summary": "智能副驾代码评测支持仓库，智能体，和信息技术向评测来自智能副驾在借助。… 智能副驾代码评测: 智能体。支持和首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 78,
-      "image": ""
     },
     {
       "id": "product-hunt-ai-克劳德模型代码",
@@ -1462,23 +1479,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-借助大语言模型-模式-呼吁-和向使用",
-      "title": "借助大语言模型: 模式，呼吁，和向使用",
-      "url": "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-18T18:00:00.000Z",
-      "summary": "得到，大语言模型，和工具向面向借助大语言模型: 模式，呼吁，和向使用首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 70,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1546,7 +1547,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1581,7 +1582,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1597,7 +1598,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1615,7 +1616,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/5383050-vivatech26-digital-nv-blog-image-1920x1080-1.jpg"
     },
     {
@@ -1631,7 +1632,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1702,6 +1703,23 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PhoneClusterComputing2_Animation.gif"
     },
     {
+      "id": "reddit-artificial-为什么人工智能向在",
+      "title": "为什么人工智能向在？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua5feg/why_do_ai_systems_still_struggle_to_interpret/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T15:43:32.000Z",
+      "summary": "持续在人工智能在。顺利和，成为用户。在最，作为信息技术，在，和在，在最语言。问题关于人工智能 : 在，向更好。认为，和实际改进信息技术？由",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "ithome-应对人工智能耗电激增-美国要求-6-家电网运营商加速给数据中心供电",
       "title": "应对人工智能耗电激增，美国要求 6 家电网运营商加速给数据中心供电",
       "url": "https://www.ithome.com/0/966/435.htm",
@@ -1717,22 +1735,6 @@
       ],
       "heat": 99,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-新人工智能-这里为什么没有信息技术",
-      "title": "新人工智能。这里为什么没有信息技术",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua3waq/yes_i_enjoyed_las_new_ai_museum_heres_why_i_still/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T14:44:09.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/0DjLbQXcErDAF6Me64rUwT8o1Ps7-fK9HKjN7JRXmP4.jpeg?width=640&crop=smart&auto=webp&s=d85ef21483ceb1b81ed423bcd5e59e17e2920223"
     },
     {
       "id": "techcrunch-ai-首席执行官新人工智能-员工",
@@ -1779,7 +1781,40 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-智能副驾代码评测-智能体-支持和",
+      "title": "智能副驾代码评测: 智能体。支持和",
+      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-18T19:11:51.000Z",
+      "summary": "智能副驾代码评测支持仓库，智能体，和信息技术向评测来自智能副驾在借助。… 智能副驾代码评测: 智能体。支持和首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 78,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-借助大语言模型-模式-呼吁-和向使用",
+      "title": "借助大语言模型: 模式，呼吁，和向使用",
+      "url": "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-18T18:00:00.000Z",
+      "summary": "得到，大语言模型，和工具向面向借助大语言模型: 模式，呼吁，和向使用首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 70,
       "image": ""
     },
     {
@@ -1816,40 +1851,6 @@
         "监管安全"
       ],
       "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-克劳德模型-5-面向编程",
-      "title": "克劳德模型 5 面向编程？",
-      "url": "https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-18T16:30:00.000Z",
-      "summary": "了解关于和克劳德模型 5 克劳德模型 5 面向编程？首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-智能副驾-在作者",
-      "title": "智能副驾，在作者",
-      "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-18T16:24:05.000Z",
-      "summary": "面向作者: 由智能副驾云服务智能体在用户。面向，借助作者:@ 在代码托管平台，回归 … 智能副驾，在作者首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 76,
       "image": ""
     },
     {
@@ -1915,7 +1916,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1932,7 +1933,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2038,20 +2039,20 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1240294200-1024x648.jpg"
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua3h7x/scout_prebeta_hopes_expectations/",
+      "id": "reddit-artificial-新人工智能-这里为什么没有信息技术",
+      "title": "新人工智能。这里为什么没有信息技术",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua3waq/yes_i_enjoyed_las_new_ai_museum_heres_why_i_still/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T14:27:32.000Z",
-      "summary": "​ 作为向，试图向了解实际来自。​ 设置 6，问题 : 帮助借助，向，重要记忆和可能关于人工智能向 ​ 信息技术，和在推出。​ ​ ​ 向，更好！👍 ​ ​ 由",
+      "publishedAt": "2026-06-19T14:44:09.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
       "heat": 84,
-      "image": "https://external-preview.redd.it/Sorct-p_6GU7fDLF7spXPDJwkErqSyPzkSXHXQhJR0c.jpeg?width=640&crop=smart&auto=webp&s=19b399c4ca5f1f76b7e3676393a3c9f82b1a51b2"
+      "image": "https://external-preview.redd.it/0DjLbQXcErDAF6Me64rUwT8o1Ps7-fK9HKjN7JRXmP4.jpeg?width=640&crop=smart&auto=webp&s=d85ef21483ceb1b81ed423bcd5e59e17e2920223"
     },
     {
       "id": "ithome-人形机器人成功登顶海拔-6200-米火山-基于宇树相关型号改装-目标挑战珠峰",
@@ -2084,7 +2085,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2138,6 +2139,40 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-克劳德模型-5-面向编程",
+      "title": "克劳德模型 5 面向编程？",
+      "url": "https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-18T16:30:00.000Z",
+      "summary": "了解关于和克劳德模型 5 克劳德模型 5 面向编程？首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-智能副驾-在作者",
+      "title": "智能副驾，在作者",
+      "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-18T16:24:05.000Z",
+      "summary": "面向作者: 由智能副驾云服务智能体在用户。面向，借助作者:@ 在代码托管平台，回归 … 智能副驾，在作者首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 76,
+      "image": ""
+    },
+    {
       "id": "qbitai-香港特区政府财政司司长陈茂波一行到访",
       "title": "香港特区政府财政司司长陈茂波一行到访",
       "url": "https://www.qbitai.com/2026/06/436751.html",
@@ -2168,24 +2203,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-生成发布面向智能副驾",
-      "title": "生成发布面向智能副驾",
-      "url": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-18T09:30:02.000Z",
-      "summary": "生成发布面向新发布，生成发布。面向关于发布… 生成发布面向智能副驾首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 70,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2272,22 +2290,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/26tx-coherent-factory-DEB30838-DL-edit-1-scaled.jpg"
     },
     {
-      "id": "towards-data-science-进入人工智能",
-      "title": "进入人工智能",
-      "url": "https://towardsdatascience.com/drilling-into-ais-financial-sustainability/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-16T16:30:00.000Z",
-      "summary": "面向人工智能词元，进入人工智能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
-      "image": ""
-    },
-    {
       "id": "wired-ai-词元在人工智能",
       "title": "词元在人工智能",
       "url": "https://www.wired.com/story/claude-tokens-compute-cost-code-8x8/",
@@ -2322,6 +2324,22 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua3h7x/scout_prebeta_hopes_expectations/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-19T14:27:32.000Z",
+      "summary": "​ 作为向，试图向了解实际来自。​ 设置 6，问题 : 帮助借助，向，重要记忆和可能关于人工智能向 ​ 信息技术，和在推出。​ ​ ​ 向，更好！👍 ​ ​ 由",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
+      "image": "https://external-preview.redd.it/Sorct-p_6GU7fDLF7spXPDJwkErqSyPzkSXHXQhJR0c.jpeg?width=640&crop=smart&auto=webp&s=19b399c4ca5f1f76b7e3676393a3c9f82b1a51b2"
+    },
+    {
       "id": "ithome-与开放人工智能公司合作生变-亚马逊放弃奥尔特曼传记电影-正在为其寻找新东家",
       "title": "与开放人工智能公司合作生变：亚马逊放弃奥尔特曼传记电影《》，正在为其寻找新东家",
       "url": "https://www.ithome.com/0/966/426.htm",
@@ -2339,23 +2357,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-视频人工智能",
-      "title": "视频人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua18ex/video_creator_ai/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-19T12:54:03.000Z",
-      "summary": "和向分享视频在。面向，向视频关于借助和和在，和。和在，人工智能向创建和视频面向。在，和人工智能。平台面向？由",
-      "topics": [
-        "多模态",
-        "端侧智能"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "thirty-six-kr-数说故事递表港交所",
       "title": "数说故事递表港交所",
       "url": "https://36kr.com/newsflashes/3859406436783112?f=rss",
@@ -2368,7 +2369,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2384,7 +2385,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2401,7 +2402,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2417,7 +2418,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -2451,7 +2452,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2571,23 +2572,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能模型-上下文",
-      "title": "人工智能模型，上下文",
-      "url": "https://www.reddit.com/r/artificial/comments/1ua0vtj/testing_how_different_ai_models_handle/",
+      "id": "reddit-artificial-视频人工智能",
+      "title": "视频人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1ua18ex/video_creator_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-19T12:37:39.000Z",
-      "summary": "人工智能模型和在。模型面向 20，30 转化。顺利。在。由",
+      "publishedAt": "2026-06-19T12:54:03.000Z",
+      "summary": "和向分享视频在。面向，向视频关于借助和和在，和。和在，人工智能向创建和视频面向。在，和人工智能。平台面向？由",
       "topics": [
-        "模型发布"
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 83,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2621,7 +2623,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2639,7 +2641,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2689,7 +2691,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2822,7 +2824,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2840,7 +2842,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     }
   ]
