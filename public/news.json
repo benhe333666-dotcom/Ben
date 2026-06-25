@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-06-25T17:37:11.841Z",
+  "generatedAt": "2026-06-25T18:07:19.685Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-25T18:00:00.000Z",
+  "nextUpdateHint": "2026-06-25T18:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-25T16:55:08.000Z"
+    "latestPublishedAt": "2026-06-25T18:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 70,
+      "count": 71,
       "heat": 84
     },
     {
       "name": "模型发布",
       "count": 47,
-      "heat": 84
-    },
-    {
-      "name": "算力芯片",
-      "count": 29,
-      "heat": 83
-    },
-    {
-      "name": "监管安全",
-      "count": 28,
       "heat": 85
     },
     {
+      "name": "监管安全",
+      "count": 29,
+      "heat": 85
+    },
+    {
+      "name": "算力芯片",
+      "count": 28,
+      "heat": 83
+    },
+    {
       "name": "研究论文",
-      "count": 23,
-      "heat": 87
+      "count": 24,
+      "heat": 86
     },
     {
       "name": "投融资",
-      "count": 16,
+      "count": 15,
       "heat": 82
     },
     {
       "name": "人工智能动态",
-      "count": 13,
+      "count": 14,
       "heat": 71
     },
     {
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T16:55:00.000Z",
-      "latestDisplayedAt": "2026-06-25T16:55:00.000Z"
+      "latestFetchedAt": "2026-06-25T17:38:27.000Z",
+      "latestDisplayedAt": "2026-06-25T17:38:27.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T16:30:00.000Z",
-      "latestDisplayedAt": "2026-06-25T16:30:00.000Z"
+      "latestFetchedAt": "2026-06-25T18:00:00.000Z",
+      "latestDisplayedAt": "2026-06-25T18:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-06-24T17:47:00.000Z",
-      "latestDisplayedAt": "2026-06-24T17:47:00.000Z"
+      "latestFetchedAt": "2026-06-25T01:11:10.000Z",
+      "latestDisplayedAt": "2026-06-25T01:11:10.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -334,7 +334,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 403",
+      "fallbackReason": "HTTP 429",
       "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-25T16:41:23.000Z",
@@ -488,6 +488,41 @@
   "failures": [],
   "items": [
     {
+      "id": "towards-data-science-向-智能体-基准测试",
+      "title": "向，智能体 : 基准测试",
+      "url": "https://towardsdatascience.com/the-hot-path-belongs-to-gbdts-agents-own-the-cold-path-a-payment-fraud-benchmark/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T18:00:00.000Z",
+      "summary": "基准测试在，成本，和，和智能体实际持续。向，智能体 : 基准测试首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能安全公司克劳德模型-由智能聊天助手",
+      "title": "人工智能安全公司克劳德模型，由智能聊天助手",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T17:38:27.000Z",
+      "summary": "智能聊天助手，面向人工智能人工智能安全公司克劳德模型，数据。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-微软宣布主机-8-月-1-日起全球涨价-512-吉字节版上调-100-美元-2-太字节型号停产",
       "title": "微软宣布主机 8 月 1 日起全球涨价：512 吉字节版上调 100 美元，2 太字节型号停产",
       "url": "https://www.ithome.com/0/968/726.htm",
@@ -500,24 +535,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-2-3-十亿视频训练人工智能智能体面向现实世界",
-      "title": "$2.3 十亿视频训练人工智能智能体面向现实世界",
-      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T16:55:00.000Z",
-      "summary": "$320 百万向规模人工智能训练在，数据帮助人工智能向。",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 95,
+      "heat": 86,
       "image": ""
     },
     {
@@ -537,22 +555,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/beyond-the-straight-line-choosing-between-ols-interaction-terms-and-tweedie-regression/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T16:30:00.000Z",
-      "summary": "向，术语，向取决于在数据和。:，术语，和首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-词元模型更好",
       "title": "词元模型更好？",
       "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
@@ -565,7 +567,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -685,7 +687,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -701,7 +703,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/gfn-thursday-6-25-no-copy-kv-1536x920-1.jpg"
     },
     {
@@ -717,7 +719,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": "https://media.wired.com/photos/6a3af3254463dc1b6f7e6031/master/pass/WorldCup-Teams-in-Race-for-AI-Dominance.jpg"
     },
     {
@@ -733,7 +735,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LinearElasticCaching_Hero.png"
     },
     {
@@ -767,7 +769,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -799,7 +801,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -820,6 +822,22 @@
       "image": ""
     },
     {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://arxiv.org/abs/2603.15855",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T01:11:10.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 73,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-强化学习-多模态-模型安全方向研究",
       "title": "论文新进展：大语言模型、强化学习、多模态、模型安全方向研究",
       "url": "https://arxiv.org/abs/2606.26095v1",
@@ -834,7 +852,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -853,22 +871,6 @@
         "监管安全"
       ],
       "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-开放人工智能公司发布首个芯片-构建由",
-      "title": "开放人工智能公司发布首个芯片，构建由",
-      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-24T17:47:00.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 75,
       "image": ""
     },
     {
@@ -905,19 +907,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能认为人工智能驱动法案由-1-相关型号",
-      "title": "人工智能认为人工智能驱动法案由 1，相关型号",
-      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "id": "techcrunch-ai-2-3-十亿视频训练人工智能智能体面向现实世界",
+      "title": "$2.3 十亿视频训练人工智能智能体面向现实世界",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T16:48:11.000Z",
-      "summary": "图像，工具面向首个时间公司人工智能。",
+      "publishedAt": "2026-06-25T16:55:00.000Z",
+      "summary": "$320 百万向规模人工智能训练在，数据帮助人工智能向。",
       "topics": [
+        "产品应用",
         "多模态"
       ],
-      "heat": 90,
+      "heat": 95,
       "image": ""
     },
     {
@@ -939,6 +942,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/beyond-the-straight-line-choosing-between-ols-interaction-terms-and-tweedie-regression/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T16:30:00.000Z",
+      "summary": "向，术语，向取决于在数据和。:，术语，和首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-核心研究员接连离职后-消息称谷歌重组人工智能编程小组试图追赶人工智能安全公司",
       "title": "核心研究员接连离职后，消息称谷歌重组人工智能编程小组试图追赶人工智能安全公司",
       "url": "https://www.ithome.com/0/968/722.htm",
@@ -957,23 +976,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-3-智能体-3-大语言模型-1-图形处理器-推理在",
-      "title": "3 智能体。3 大语言模型。1 图形处理器: 推理在",
-      "url": "https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T15:00:00.000Z",
-      "summary": "8 吉字节限制。了解向大语言模型在单个 8 吉字节图形处理器 ++ 和控制。3 智能体。3 大语言模型。1 图形处理器: 推理在首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "the-decoder-转化向生成式人工智能面向-和在",
       "title": "转化向生成式人工智能面向，和在",
       "url": "https://the-decoder.com/insurers-turn-to-generative-ai-for-catastrophe-modeling-but-hallucinations-and-sales-logic-could-get-in-the-way/",
@@ -988,7 +990,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1052,7 +1054,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1070,7 +1072,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1086,7 +1088,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1120,7 +1122,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1222,7 +1224,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-tech-blog-aws-1920x1080-2.jpg"
     },
     {
@@ -1259,6 +1261,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-人工智能认为人工智能驱动法案由-1-相关型号",
+      "title": "人工智能认为人工智能驱动法案由 1，相关型号",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T16:48:11.000Z",
+      "summary": "图像，工具面向首个时间公司人工智能。",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-向使用作为面向人工智能智能体",
       "title": "向使用作为面向人工智能智能体",
       "url": "https://www.reddit.com/r/artificial/comments/1ufesgh/linux_foundation_wants_to_use_dns_as_the_identity/",
@@ -1275,19 +1293,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-15-百万序列来自向帮助人工智能实时更快",
-      "title": "$15 百万序列来自向帮助人工智能实时更快",
-      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "towards-data-science-3-智能体-3-大语言模型-1-图形处理器-推理在",
+      "title": "3 智能体。3 大语言模型。1 图形处理器: 推理在",
+      "url": "https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T14:55:38.000Z",
-      "summary": "软件在，和平台帮助减少时间信息技术向实时。",
+      "publishedAt": "2026-06-25T15:00:00.000Z",
+      "summary": "8 吉字节限制。了解向大语言模型在单个 8 吉字节图形处理器 ++ 和控制。3 智能体。3 大语言模型。1 图形处理器: 推理在首个在数据科学实战社区。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 89,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1323,22 +1342,6 @@
         "监管安全"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-大语言模型正确检索增强生成-在检索",
-      "title": "大语言模型正确检索增强生成 : 在检索",
-      "url": "https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T13:30:00.000Z",
-      "summary": "企业智能 #相关型号，大语言模型呼吁借助。物体大语言模型正确检索增强生成 : 在检索首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -1405,7 +1408,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1421,7 +1424,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1439,7 +1442,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1457,7 +1460,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1473,7 +1476,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1490,7 +1493,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": "https://media.wired.com/photos/6a3bc8bcb0d9ff58f6121983/master/pass/GettyImages-2204326766.jpg"
     },
     {
@@ -1506,7 +1509,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -1597,6 +1600,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-15-百万序列来自向帮助人工智能实时更快",
+      "title": "$15 百万序列来自向帮助人工智能实时更快",
+      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T14:55:38.000Z",
+      "summary": "软件在，和平台帮助减少时间信息技术向实时。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-2026-上海世界移动通信大会开幕-华为携手运营商发布多项创新成果",
       "title": "2026 上海世界移动通信大会开幕，华为携手运营商发布多项创新成果",
       "url": "https://www.ithome.com/0/968/698.htm",
@@ -1611,23 +1630,23 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-2-向向-190-1-000-和在科技创投媒体",
-      "title": "2 向向 $190: 1，000+ 和在科技创投媒体",
-      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "towards-data-science-大语言模型正确检索增强生成-在检索",
+      "title": "大语言模型正确检索增强生成 : 在检索",
+      "url": "https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T14:00:00.000Z",
-      "summary": "向在在科技创投媒体 2026 和向 $190 在 26 在 11:59。",
+      "publishedAt": "2026-06-25T13:30:00.000Z",
+      "summary": "企业智能 #相关型号，大语言模型呼吁借助。物体大语言模型正确检索增强生成 : 在检索首个在数据科学实战社区。",
       "topics": [
-        "投融资"
+        "产品应用"
       ],
-      "heat": 88,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1645,7 +1664,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1697,7 +1716,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1748,23 +1767,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-首个任务作为数据工程师在新公司",
-      "title": "首个任务作为数据工程师在新公司？",
-      "url": "https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-24T16:30:00.000Z",
-      "summary": "数据工作流面向，自动化，和人工智能。首个任务作为数据工程师在新公司？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 68,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1780,7 +1783,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1919,20 +1922,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-图像和视频工具实验室",
-      "title": "图像和视频工具实验室",
-      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+      "id": "techcrunch-ai-2-向向-190-1-000-和在科技创投媒体",
+      "title": "2 向向 $190: 1，000+ 和在科技创投媒体",
+      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T13:30:00.000Z",
-      "summary": "信息技术实验室工具应用。",
+      "publishedAt": "2026-06-25T14:00:00.000Z",
+      "summary": "向在在科技创投媒体 2026 和向 $190 在 26 在 11:59。",
       "topics": [
-        "产品应用",
-        "多模态"
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1950,7 +1952,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2019,7 +2021,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2035,7 +2037,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2057,6 +2059,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-首个任务作为数据工程师在新公司",
+      "title": "首个任务作为数据工程师在新公司？",
+      "url": "https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-24T16:30:00.000Z",
+      "summary": "数据工作流面向，自动化，和人工智能。首个任务作为数据工程师在新公司？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 67,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-开放人工智能公司首个人工智能-ñ",
       "title": "开放人工智能公司首个人工智能 : ñ",
       "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
@@ -2072,22 +2090,6 @@
         "算力芯片"
       ],
       "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-为什么智能体和构建-智能体",
-      "title": "为什么智能体和构建，智能体",
-      "url": "https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipeline-instead/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-24T13:30:00.000Z",
-      "summary": "向，作为为什么智能体和构建，智能体首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 65,
       "image": ""
     },
     {
@@ -2189,19 +2191,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-亚马逊借助-13-十亿人工智能基础设施投资",
-      "title": "亚马逊借助 $13 十亿人工智能基础设施投资",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "id": "techcrunch-ai-图像和视频工具实验室",
+      "title": "图像和视频工具实验室",
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T12:00:38.000Z",
-      "summary": "亚马逊投资作为全球公司向扩展人工智能基础设施在。",
+      "publishedAt": "2026-06-25T13:30:00.000Z",
+      "summary": "信息技术实验室工具应用。",
       "topics": [
-        "投融资"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 86,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2285,7 +2288,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2301,7 +2304,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2323,19 +2326,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-面向检索增强生成-大语言模型呼吁在",
-      "title": "面向检索增强生成:，大语言模型呼吁在",
-      "url": "https://towardsdatascience.com/anchor-detection-for-rag-parallel-detectors-then-one-llm-call-at-the-end/",
+      "id": "towards-data-science-为什么智能体和构建-智能体",
+      "title": "为什么智能体和构建，智能体",
+      "url": "https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipeline-instead/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-24T12:00:00.000Z",
-      "summary": "企业智能 #7 十亿，检索在 : 首个，向量嵌入面向检索增强生成:，大语言模型呼吁在首个在数据科学实战社区。",
+      "publishedAt": "2026-06-24T13:30:00.000Z",
+      "summary": "向，作为为什么智能体和构建，智能体首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2458,6 +2461,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-亚马逊借助-13-十亿人工智能基础设施投资",
+      "title": "亚马逊借助 $13 十亿人工智能基础设施投资",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T12:00:38.000Z",
+      "summary": "亚马逊投资作为全球公司向扩展人工智能基础设施在。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-腾讯云登顶产品发现平台日榜",
       "title": "腾讯云登顶产品发现平台日榜",
       "url": "https://36kr.com/newsflashes/3868498700440583?f=rss",
@@ -2558,36 +2577,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-在芯片",
-      "title": "在芯片",
-      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T00:08:36.000Z",
-      "summary": "作为首席执行官科技创投媒体在，工具，首个交付关于，设置，限制。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向创建在克劳德模型代码",
-      "title": "向创建在克劳德模型代码",
-      "url": "https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/",
+      "id": "towards-data-science-面向检索增强生成-大语言模型呼吁在",
+      "title": "面向检索增强生成:，大语言模型呼吁在",
+      "url": "https://towardsdatascience.com/anchor-detection-for-rag-parallel-detectors-then-one-llm-call-at-the-end/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-23T18:00:00.000Z",
-      "summary": "了解关于向驱动编程智能体。向创建在克劳德模型代码首个在数据科学实战社区。",
+      "publishedAt": "2026-06-24T12:00:00.000Z",
+      "summary": "企业智能 #7 十亿，检索在 : 首个，向量嵌入面向检索增强生成:，大语言模型呼吁在首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2737,7 +2739,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2777,17 +2779,17 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-新创业公司向信息技术服务",
-      "title": "新创业公司向信息技术服务",
-      "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+      "id": "techcrunch-ai-在芯片",
+      "title": "在芯片",
+      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-24T23:26:52.000Z",
-      "summary": "由和，新带来来自，和。",
+      "publishedAt": "2026-06-25T00:08:36.000Z",
+      "summary": "作为首席执行官科技创投媒体在，工具，首个交付关于，设置，限制。",
       "topics": [
-        "投融资"
+        "算力芯片"
       ],
       "heat": 76,
       "image": ""
@@ -2809,15 +2811,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-在数据任务双子座模型",
-      "title": "在数据任务双子座模型",
-      "url": "https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/",
+      "id": "towards-data-science-向创建在克劳德模型代码",
+      "title": "向创建在克劳德模型代码",
+      "url": "https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-23T16:30:00.000Z",
-      "summary": "双子座模型解决问题在，和为什么数据科学向在数据任务双子座模型首个在数据科学实战社区。",
+      "publishedAt": "2026-06-23T18:00:00.000Z",
+      "summary": "了解关于向驱动编程智能体。向创建在克劳德模型代码首个在数据科学实战社区。",
       "topics": [
         "模型发布",
         "产品应用"
