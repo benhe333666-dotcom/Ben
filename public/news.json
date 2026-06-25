@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-25T08:35:42.632Z",
+  "generatedAt": "2026-06-25T09:05:52.441Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-25T09:00:00.000Z",
+  "nextUpdateHint": "2026-06-25T09:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-25T08:34:01.000Z"
+    "latestPublishedAt": "2026-06-25T09:03:10.000Z"
   },
   "topics": [
     {
@@ -18,48 +18,53 @@
     },
     {
       "name": "模型发布",
-      "count": 52,
+      "count": 54,
       "heat": 86
     },
     {
       "name": "算力芯片",
-      "count": 31,
-      "heat": 85
+      "count": 28,
+      "heat": 84
     },
     {
       "name": "监管安全",
-      "count": 24,
+      "count": 22,
       "heat": 85
     },
     {
       "name": "研究论文",
-      "count": 21,
-      "heat": 90
+      "count": 20,
+      "heat": 89
     },
     {
       "name": "人工智能动态",
-      "count": 17,
-      "heat": 72
+      "count": 16,
+      "heat": 73
     },
     {
       "name": "投融资",
-      "count": 14,
-      "heat": 83
+      "count": 12,
+      "heat": 81
     },
     {
       "name": "开源生态",
       "count": 12,
-      "heat": 69
+      "heat": 70
+    },
+    {
+      "name": "端侧智能",
+      "count": 9,
+      "heat": 81
     },
     {
       "name": "多模态",
       "count": 7,
-      "heat": 90
+      "heat": 91
     },
     {
-      "name": "端侧智能",
-      "count": 7,
-      "heat": 79
+      "name": "机器人",
+      "count": 2,
+      "heat": 90
     }
   ],
   "sources": [
@@ -76,8 +81,8 @@
       "fallbackReason": "",
       "itemCount": 12,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-06-24T06:00:00.000Z",
-      "latestDisplayedAt": "2026-06-24T06:00:00.000Z"
+      "latestFetchedAt": "2026-06-25T02:00:00.000Z",
+      "latestDisplayedAt": "2026-06-25T02:00:00.000Z"
     },
     {
       "id": "google-ai-blog",
@@ -327,9 +332,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
       "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-25T08:24:15.000Z",
@@ -412,8 +417,8 @@
       "fallbackReason": "",
       "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T02:55:00.000Z",
-      "latestDisplayedAt": "2026-06-25T02:55:00.000Z"
+      "latestFetchedAt": "2026-06-25T06:49:00.000Z",
+      "latestDisplayedAt": "2026-06-25T06:49:00.000Z"
     },
     {
       "id": "thirty-six-kr",
@@ -428,8 +433,8 @@
       "fallbackReason": "",
       "itemCount": 17,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T08:33:33.000Z",
-      "latestDisplayedAt": "2026-06-25T08:33:33.000Z"
+      "latestFetchedAt": "2026-06-25T08:59:26.000Z",
+      "latestDisplayedAt": "2026-06-25T08:59:26.000Z"
     },
     {
       "id": "ithome",
@@ -442,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 17,
+      "itemCount": 19,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T08:19:35.000Z",
-      "latestDisplayedAt": "2026-06-25T08:19:35.000Z"
+      "latestFetchedAt": "2026-06-25T09:03:10.000Z",
+      "latestDisplayedAt": "2026-06-25T09:03:10.000Z"
     },
     {
       "id": "oschina",
@@ -474,14 +479,47 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 13,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T04:00:00.000Z",
-      "latestDisplayedAt": "2026-06-25T04:00:00.000Z"
+      "latestFetchedAt": "2026-06-25T05:00:00.000Z",
+      "latestDisplayedAt": "2026-06-25T04:50:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "ithome-联想问天超节点解决方案发布-单节点可搭-40-张图形处理器-相关型号算力超-28",
+      "title": "联想问天超节点解决方案发布：单节点可搭 40 张图形处理器，相关型号算力超 28",
+      "url": "https://www.ithome.com/0/968/604.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T09:03:10.000Z",
+      "summary": "科技之家 6 月 25 日消息，联想昨日在北京举行发布会，联想集团副总裁、中国基础设施业务群总经理陈振宽宣布，2027 年，联想中国基础设施群将锚定 1000 亿元人民币的目标，并剑指中国服务器市场第一。科技之家获悉，联想在本次发布会发布了联想问天超节点算力解决方案，具备四大特点：强算力：单节点可搭载 40 张图形处理器，相关型号算力超 28，显存突破 5.76 太字节，满足……",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-高考出分三日-千问志愿大模型为考生生成500万份志愿报告",
+      "title": "高考出分三日，千问志愿大模型为考生生成500万份志愿报告",
+      "url": "https://36kr.com/newsflashes/3868360154027013?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T08:59:26.000Z",
+      "summary": "6月25日，全国多省份高考成绩密集公布，高招季进入志愿填报高峰期。数据显示，高考出分前后，千问高考咨询量连续6日增长超过100%，截至发稿，咨询量涨幅超过1000%。高考出分三日，千问志愿大模型已为用户累计生成超500万份志愿报告。该报告可为用户推荐完整的志愿填报列表，并对专业情况、就业发展等进行详细分析。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 96,
+      "image": ""
+    },
     {
       "id": "oschina-文心一言发布服务升级公告-数据迁移即将开启",
       "title": "文心一言发布服务升级公告，数据迁移即将开启",
@@ -494,24 +532,6 @@
       "summary": "文心一言正式发布服务升级公告，宣告其平台架构与服务入口的深度整合。根据公告，自2026年6月25日零时起，文心一言官网的提问入口已正式开启升级。未来用户若想继续使用智能对话、创意写作、高效办公辅助以及专业信息查询等人工智能功能，并将体验最新的文心大模型强大算力，需统一迁移至百度文心网站进行操作。为了确保用。",
       "topics": [
         "模型发布",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-商汤股东大会披露-企业级词元单月使用量迅速增长7倍",
-      "title": "商汤股东大会披露：企业级词元单月使用量迅速增长7倍",
-      "url": "https://36kr.com/newsflashes/3868334704464897?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T08:33:33.000Z",
-      "summary": "36氪获悉，商汤科技在股东大会上首度公开披露企业级词元最新运营数据：自2026年5月正式上线以来，商汤\"日日新\"大模型企业级词元使用量在单月内实现7倍迅速增长。在产品生态数据方面，根据披露，桌面智能体小浣熊（）总服务人数已达2000万，服务超万家企业客户，达到210万；人工智能内容创作平台服务个人创作者超80万（同比增长4倍），企业客户逾1300家。依托4万+ 自有算力集群，……",
-      "topics": [
-        "模型发布",
-        "产品应用",
         "算力芯片"
       ],
       "heat": 99,
@@ -534,23 +554,6 @@
       "image": ""
     },
     {
-      "id": "ithome-追加-130-亿美元-亚马逊宣布-2030-年前将在印度投资-480-亿美元",
-      "title": "追加 130 亿美元，亚马逊宣布 2030 年前将在印度投资 480 亿美元",
-      "url": "https://www.ithome.com/0/968/544.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T08:19:35.000Z",
-      "summary": "科技之家 6 月 25 日消息，亚马逊今日宣布，亚马逊首席执行官安迪 · 贾西（ ）与印度总理莫迪在新德里会面，宣布将追加 130 亿美元 （现汇率约合 886.3 亿元人民币）用于在印度扩建人工智能及云基础设施，投资期限至 2030 年。据科技之家此前报道，2025 年底，亚马逊曾宣布五年内在印度投资 350 亿美元。2026 年至 2030 年，亚马逊将在印度总投资达 4……",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "qbitai-跟克劳德模型谈个恋爱怎么了-最新研究-真能给人聊傻了",
       "title": "跟克劳德模型谈个恋爱怎么了？最新研究：真能给人聊傻了",
       "url": "https://www.qbitai.com/2026/06/438365.html",
@@ -568,6 +571,22 @@
       "image": ""
     },
     {
+      "id": "leiphone-央视起底高报乱象-千问吴嘉发声-免费志愿服务不应被高价倒卖",
+      "title": "央视起底高报乱象，千问吴嘉发声：免费志愿服务不应被高价倒卖",
+      "url": "https://www.leiphone.com/category/industrynews/aLhjASxiKohg7Fuf.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T06:49:00.000Z",
+      "summary": "6月25日，央视关于高考志愿填报行业乱象的调查报道引发全网关注。这些机构通过虚构资历、夸大宣传、制造焦虑等方式，向考生和家长售卖高价志愿填报服务；其所谓“一对一定制方案”，大量依赖千问的免费人工智能服务生成，再经过包装后，以数千元甚至上万元的价格转卖给家长。千问总裁吴嘉在采访中回应，千问连续提供免费的高考志愿服务，就是为了帮助更多家长学生消除信息差，免费的志愿服务不应被高价倒……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/figma",
@@ -580,40 +599,40 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "cnblogs-news-百度文心网站升级-成为统一超级入口",
-      "title": "百度文心网站升级，成为统一超级入口",
-      "url": "https://news.cnblogs.com/n/824641/",
+      "id": "cnblogs-news-成立人工智能新部门-狂飙-美团能否挤上人工智能牌桌",
+      "title": "成立人工智能新部门、狂飙，美团能否挤上人工智能牌桌？",
+      "url": "https://news.cnblogs.com/n/824648/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "summary": "新京报贝壳财经讯（记者罗亦丹）6 月 25 日，百度宣布对百度文心相关网站进行合并升级，统一整合为全新的百度文心网站，打造一站式人工智能服务入口。此次升级将分散的人工智能服务入口集中聚合，以更强大的技术底座和更丰富的功能矩阵，为用户带来全面升级的人工智能体验。升级后，百度文心网站成为统一超级入口，本文链接",
+      "publishedAt": "2026-06-25T04:50:00.000Z",
+      "summary": "来源，星球文| 林京美团核心本地商业（）组织架构近日调整，新成立人工智能部门，与外卖、闪购等部门平行，由前大众点评总经理牧遥负责，汇报关系从美团高级副总裁、平台负责人李树斌调整为向美团核心本地商业首席执行官王莆中。这也是继阿里成立词元本文链接",
       "topics": [
-        "产品应用"
+        "端侧智能"
       ],
       "heat": 82,
       "image": ""
     },
     {
-      "id": "leiphone-马斯克悄悄改了战场-0-2-60-剑指智能体",
-      "title": "马斯克悄悄改了战场：0.2.60 剑指智能体",
-      "url": "https://www.leiphone.com/category/ai/9NVnWMuqKHrViS35.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
+      "id": "openai-news-智能体",
+      "title": "智能体",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-06-25T02:55:00.000Z",
-      "summary": "一次不炫技、但很关键的更新。作者丨樊天骄、郑佳美编辑丨郑佳美 2026 年 6 月 21 日，悄悄发布了 0.2.60 版本更新。消息最早由平台技术博主披露。与常见的大版本发布不同，这次更新既没有推出新的模型能力，也没有刷新任何基准测试，而是将重心放在会话恢复、上下文压缩、工具输出等一系列细节上。这些改动或许不如模型升级那样引人注目，却恰恰指向了人工智能编程工具竞争的新焦点。……",
+      "publishedAt": "2026-06-25T02:00:00.000Z",
+      "summary": "新开放人工智能公司研究论文人工智能智能体，任务和。",
       "topics": [
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 99,
       "image": ""
     },
     {
@@ -629,7 +648,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -645,7 +664,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -662,7 +681,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -694,7 +713,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": "https://media.wired.com/photos/6a3af3bc66e0743c653aa81f/master/pass/AI-Lab-America-China-Have-No-Choice-But-to-Work-Together-to-Secure-AI-Open-Frontier-Business.jpg"
     },
     {
@@ -730,7 +749,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -746,7 +765,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Thinking-to-recall-1.png"
     },
     {
@@ -817,22 +836,6 @@
       "image": ""
     },
     {
-      "id": "openai-news-开放人工智能公司和发布大语言模型-推理芯片",
-      "title": "开放人工智能公司和发布大语言模型，推理芯片",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-24T06:00:00.000Z",
-      "summary": "开放人工智能公司和 ñ，人工智能芯片构建面向大语言模型推理向改进性能，和规模人工智能。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 81,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-英伟达和向带来人工智能向在规模",
       "title": "英伟达和向带来人工智能向在规模",
       "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
@@ -862,7 +865,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2212917669-1152x648.jpg"
     },
     {
@@ -883,15 +886,33 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-联想发布全球首款人工智能可信一体机",
-      "title": "联想发布全球首款人工智能可信一体机",
-      "url": "https://36kr.com/newsflashes/3868316392871170?f=rss",
+      "id": "ithome-中兴通讯董事长方榕-新一代人工智能手机近期上市-听得懂-能干活",
+      "title": "中兴通讯董事长方榕：新一代人工智能手机近期上市，“听得懂、能干活”",
+      "url": "https://www.ithome.com/0/968/598.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T08:57:56.000Z",
+      "summary": "科技之家 6 月 25 日消息，6 月 23 日至 6 月 25 日，世界经济论坛第十七届新领军者年会在大连举行。据“观察者网”，在“人工智能与未来增长”午餐会上，中兴通讯董事长方榕表示：“人工智能的终极意义，在于让科技普惠经济社会。” 方榕透露，中兴通讯新一代人工智能手机即将在近期上市。这是中兴通讯将智能能力从云端推向端侧的重要一步，将提供 “听得懂、能干活”的交互体验，从……",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "端侧智能"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-中兴通讯董事长方榕-新一代人工智能手机即将在近期上市",
+      "title": "中兴通讯董事长方榕：新一代人工智能手机即将在近期上市",
+      "url": "https://36kr.com/newsflashes/3868353131631616?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T08:32:08.000Z",
-      "summary": "36氪获悉，2026 上海期间，联想联合中国移动旗下芯昇科技、熠序科技发布全球首款人工智能可信一体机。此外，联想在大会上推出了支持的多款智能终端，如联想手机、联想拯救者电竞手机，以及联想小新、拯救者等多款人工智能平板。",
+      "publishedAt": "2026-06-25T08:52:17.000Z",
+      "summary": "6月23日至6月25日，世界经济论坛第十七届新领军者年会（2026夏季达沃斯论坛）在大连举行。在“人工智能与未来增长”午餐会上，中兴通讯董事长方榕表示：“人工智能的终极意义，在于让科技普惠经济社会。”方榕介绍，中兴通讯新一代人工智能手机即将在近期上市。这是中兴通讯将智能能力从云端推向端侧的重要一步，将提供“听得懂、能干活”的交互体验，从而带动整个终端生态的增长潜力。（上证报）",
       "topics": [
         "端侧智能"
       ],
@@ -916,24 +937,6 @@
       "image": ""
     },
     {
-      "id": "ithome-消息称商汤科技正研发新图像模型-代号相关型号专业版-内部称对标开放人工智能公司",
-      "title": "消息称商汤科技正研发新图像模型：代号相关型号专业版，内部称对标开放人工智能公司",
-      "url": "https://www.ithome.com/0/968/517.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T08:02:35.000Z",
-      "summary": "6 月 25 日下午消息，新浪科技独家获悉，商汤科技近期正秘密研发一款多模态大模型，该模型主要面向“设计”场景打造，由商汤科技联合创始人、首席科学家林达华牵头负责，意在对标开放人工智能公司旗下 2，打造一款“会思考”的图像生成模型。目前，该模型在内部代号为“相关型号专业版”，由商汤研究院推进研发，属于商汤日日新模型家族成员。预计今年 7 月该模型将启动内部邀请测试，并向客户提……",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "reddit-artificial-借助-和指南和大语言模型在克劳德模型-智能聊天助手和双子座模型",
       "title": "借助，和指南和大语言模型在克劳德模型，智能聊天助手和双子座模型？",
       "url": "https://www.reddit.com/r/artificial/comments/1uf31qr/with_proper_writing_instructions_voice_and_tone/",
@@ -951,6 +954,40 @@
       "image": ""
     },
     {
+      "id": "leiphone-106-追踪视觉词元的演化轨迹-实现无损压缩与-60-推理加速-2026",
+      "title": "106｜追踪视觉词元的演化轨迹，实现无损压缩与 60% 推理加速｜ 2026",
+      "url": "https://www.leiphone.com/category/private/9IjCJPRm9ILMDOSE.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T06:45:00.000Z",
+      "summary": "从“谁被关注”到“谁在变化”，重新定义词元的重要性。作者丨李傲中国人民大学近年来，以、通义千问系列为代表的大视觉语言模型（）推动了多模态智能的发展，在视觉理解与推理任务中展现不错的表现。然而，其伴随着高昂的推理成本。面对高分辨率图像或者视频时，模型往往需要处理大量视觉词元，而这些词元会在整个推理过程中持续参与计算，成为制约模型效率的重要瓶颈。因此，如何识别并保留真正重要的视觉……",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-黄仁勋-正在过时-才是新范式",
+      "title": "黄仁勋：正在过时，才是新范式",
+      "url": "https://news.cnblogs.com/n/824646/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T04:33:00.000Z",
+      "summary": "已死，当立这就是最近网上热传热议，然后老黄黄仁勋给人工智能新趋势画的新重点。（现在根本没有人写了，新时代的核心工作本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
       "id": "qbitai-不靠单款爆款吃红利-中国人工智能应用首现3亿独角兽-腾讯顺为红杉继续加码",
       "title": "不靠单款爆款吃红利，中国人工智能应用首现3亿独角兽！腾讯顺为红杉继续加码",
       "url": "https://www.qbitai.com/2026/06/438336.html",
@@ -964,42 +1001,6 @@
         "产品应用"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-人工智能安全公司致信白宫指控同义千问-蒸馏-克劳德模型阿里尚未回应",
-      "title": "人工智能安全公司致信白宫指控同义千问\"蒸馏\"克劳德模型阿里尚未回应",
-      "url": "https://news.cnblogs.com/n/824640/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T03:50:00.000Z",
-      "summary": "出品，网易智能作者，小爪编辑，王凤枝彭博 6 月 25 日报道，人工智能安全公司致信多名美国参议员和白宫官员。信中指控，与阿里巴巴通义千问（通义千问）人工智能实验室有关联的操作者，大规模、未经授权地访问克劳德模型，意在获取其软件工程和智能体推理等能力。彭博援引知情人士和其看本文链接",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "leiphone-7-年谷歌老兵写出爆款工具被开除-转头官方发同款-之父下场抢人",
-      "title": "7 年谷歌老兵写出爆款工具被开除，转头官方发同款？之父下场抢人",
-      "url": "https://www.leiphone.com/category/yanxishe/TYljaPgp8leEjNRY.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T02:49:00.000Z",
-      "summary": "谷歌最强工具爆火代码托管平台，被打标签“非官方”。作者丨高允毅编辑丨马晓宁 01 到底发生了什么？今早，硅谷爆出了一个让人工智能工程师集体破防的大瓜，直接引来200多万吃瓜群众。一位在谷歌干了近7年的资深开发工程师，在今年3月初，利用业余时间搞了个爆款小工具，直接登上了技术社区热榜的热搜第一，几天内就在代码托管平台上收获数千颗星标，并迅速积累起成千上万名实际用户。这本来是个好……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1051,7 +1052,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1119,7 +1120,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1156,6 +1157,22 @@
       "image": "https://media.wired.com/photos/6a3bc8bcb0d9ff58f6121983/master/pass/GettyImages-2204326766.jpg"
     },
     {
+      "id": "openai-news-开放人工智能公司和发布大语言模型-推理芯片",
+      "title": "开放人工智能公司和发布大语言模型，推理芯片",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-24T06:00:00.000Z",
+      "summary": "开放人工智能公司和 ñ，人工智能芯片构建面向大语言模型推理向改进性能，和规模人工智能。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-推出-在现实世界",
       "title": "推出 : 在现实世界",
       "url": "https://huggingface.co/blog/ffasr-leaderboard",
@@ -1172,23 +1189,6 @@
       "image": ""
     },
     {
-      "id": "openai-news-帮助解决-3-神秘",
-      "title": "帮助解决 3，神秘",
-      "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T17:00:00.000Z",
-      "summary": "专业版帮助解决 3，神秘，进入。支持和研究。",
-      "topics": [
-        "模型发布",
-        "研究论文"
-      ],
-      "heat": 75,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-企业构建人工智能",
       "title": "企业构建人工智能",
       "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
@@ -1202,7 +1202,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/agentic-ai-agent-toolkit-kv-r3b-1920x1080-2.png"
     },
     {
@@ -1218,7 +1218,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -1239,35 +1239,38 @@
       "image": ""
     },
     {
-      "id": "ithome-索尼宣布人工智能机器狗相关型号将在日本停售-将继续开发新产品与服务",
-      "title": "索尼宣布人工智能机器狗相关型号将在日本停售，将继续开发新产品与服务",
-      "url": "https://www.ithome.com/0/968/512.htm",
+      "id": "ithome-月之暗面黄震昕-月之暗面的目标是和海外那三家模型掰手腕-端业务占比正在持续提升",
+      "title": "月之暗面黄震昕：月之暗面的目标是和海外那三家模型掰手腕，端业务占比正在持续提升",
+      "url": "https://www.ithome.com/0/968/589.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:57:13.000Z",
-      "summary": "科技之家 6 月 25 日消息，索尼今日宣布，旗下人工智能机器狗 （相关型号/ 象牙白款）将在现有库存售罄后，停止在日本的销售。是索尼公司于 1999 年首次推出的电子机器宠物。2017 年，索尼宣布推出新型“”机器狗，搭载人工智能技术，可自主靠近主人并发出个性化叫声。索尼表示，基础套餐、高级套餐、护理支持服务、相关配件及零部件销售、应用程序、维修服务及等配套服务将继续维持，……",
+      "publishedAt": "2026-06-25T08:51:27.000Z",
+      "summary": "科技之家 6 月 25 日消息，据界面新闻报道，在亚马逊云科技中国峰会上，月之暗面端（企业）负责人黄震昕透露，月之暗面端业务占比正在持续提升，互联网、金融、制造、教育、医疗等行业，都已经成为公司重要企业客户来源，海外业务同时也在快速增长。截至目前，月之暗面员工规模只有 300 多人，且资源配置的最高优先级仍然在模型研发层。黄震昕表示，最终还是希望探索智能的上限，希望能和海外那……",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "开源生态"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-黄仁勋计划回馈股东50-自由现金流",
-      "title": "黄仁勋计划回馈股东50%自由现金流",
-      "url": "https://36kr.com/newsflashes/3868289071289605?f=rss",
+      "id": "thirty-six-kr-商汤股东大会披露-企业级词元单月使用量迅速增长7倍",
+      "title": "商汤股东大会披露：企业级词元单月使用量迅速增长7倍",
+      "url": "https://36kr.com/newsflashes/3868334704464897?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:54:26.000Z",
-      "summary": "当地时间24日，美国芯片巨头英伟达举行年度股东大会。公司首席执行官黄仁勋在会上表示，有用的人工智能已经到来，并且已经能够赚钱。人工智能数据中心是“制造词元”的工厂，词元可以变成代码、答案、设计、行动和服务，因此每个词元都是利润单位。黄仁勋强调，英伟达系统可能不是采购价格最低的，但能产生最低成本的词元、最高的词元吞吐量以及最高的收入。除了人工智能工厂，黄仁勋还将“物理人工智能”……",
+      "publishedAt": "2026-06-25T08:33:33.000Z",
+      "summary": "36氪获悉，商汤科技在股东大会上首度公开披露企业级词元最新运营数据：自2026年5月正式上线以来，商汤\"日日新\"大模型企业级词元使用量在单月内实现7倍迅速增长。在产品生态数据方面，根据披露，桌面智能体小浣熊（）总服务人数已达2000万，服务超万家企业客户，达到210万；人工智能内容创作平台服务个人创作者超80万（同比增长4倍），企业客户逾1300家。依托4万+ 自有算力集群，……",
       "topics": [
+        "模型发布",
+        "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1287,6 +1290,24 @@
       "image": ""
     },
     {
+      "id": "leiphone-105-离线强化学习新突破-破解对抗式模型学习-过保守-训不稳-深层困局-2026",
+      "title": "105｜离线强化学习新突破——：破解对抗式模型学习「过保守、训不稳」深层困局｜ 2026",
+      "url": "https://www.leiphone.com/category/private/wq3t2DJ8GSWtIl9w.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T06:42:00.000Z",
+      "summary": "离线强化学习新突破，探索对抗式模型学习范式全新实现路径，破解保守性难控与训练不稳的深层困局。作者丨乔钟健离线强化学习（ ）的目标，是在不与环境继续交互的前提下，仅依赖已有数据集学习策略。相比无模型（模型-）方法，基于模型的离线强化学习（模型- ） 会额外训练一个环境动力学模型，让策略在该模型上生成轨迹，借此扩展离线训练数据、提升算法的样本效率与泛化能力。然而，基于模型的离线强……",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "机器人"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-双子座模型在模型",
       "title": ": 双子座模型在模型，&",
       "url": "https://www.reddit.com/r/artificial/comments/1uf2d3n/summary_gemini_colead_on_world_models_rls_next/",
@@ -1303,15 +1324,15 @@
       "image": "https://external-preview.redd.it/ozoxyoP7enurAWZD-UDoRs_wrmHzdXC2EMRxhCgJeB8.png?width=640&crop=smart&auto=webp&s=be2f0e955b65969560769cf0946af0b585ddcb6c"
     },
     {
-      "id": "cnblogs-news-元宇宙平台公司撤销强制工程师加入人工智能专项组要求-尊重员工自主选择",
-      "title": "元宇宙平台公司撤销强制工程师加入人工智能专项组要求，尊重员工自主选择",
-      "url": "https://news.cnblogs.com/n/824636/",
+      "id": "cnblogs-news-传音发布-多语言智能体-6-0",
+      "title": "传音发布“多语言智能体” 6.0",
+      "url": "https://news.cnblogs.com/n/824645/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T03:24:00.000Z",
-      "summary": "6 月 25 日消息，据获取的一份内部备忘录以及四位知情人士透露，元宇宙平台公司公司正在收回此前强制工程师加入人工智能训练专项工作组的相关要求。上个月，元宇宙平台公司调动 7000 名员工，分派至应用人工智能专项工作组等部门，助力研发该公司新一代人工智能模型。当地时间本文链接",
+      "publishedAt": "2026-06-25T04:26:00.000Z",
+      "summary": "北京商报讯（记者陶凤王天逸）6 月 25 日，传音控股发文称，由公司自主研发、全球累计用户超 8 亿的多语言沟通应用正式发布 6.0 版本，标志着产品完成了从工具属性向智能体能力的全面升级。新版本从一款依赖用户手动操作的翻译工具，升级为可主动记录、处理并沉淀多语言信息的\" 本文链接",
       "topics": [
         "产品应用"
       ],
@@ -1335,24 +1356,6 @@
       "image": ""
     },
     {
-      "id": "leiphone-百度文心网站全面升级-功能矩阵再扩容",
-      "title": "百度文心网站全面升级，功能矩阵再扩容",
-      "url": "https://www.leiphone.com/category/industrynews/dHP54vx4BZ4KfRHp.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T02:03:00.000Z",
-      "summary": "6月25日，百度宣布对百度文心相关网站进行合并升级，统一整合为全新的百度文心网站，打造一站式人工智能服务入口。此次升级将分散的人工智能服务入口集中聚合，以更强大的技术底座和更丰富的功能矩阵，为用户带来全面升级的人工智能体验。升级后，百度文心网站成为统一超级入口，功能矩阵全面扩容。用户可在一个平台内便捷使用全部人工智能功能，大幅降低使用门槛，提升交互效率。合并升级后的百度文心网……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-作为首席执行官",
       "title": "作为首席执行官",
       "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
@@ -1366,7 +1369,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1466,7 +1469,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
+      "image": ""
+    },
+    {
+      "id": "openai-news-帮助解决-3-神秘",
+      "title": "帮助解决 3，神秘",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-23T17:00:00.000Z",
+      "summary": "专业版帮助解决 3，神秘，进入。支持和研究。",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 74,
       "image": ""
     },
     {
@@ -1487,24 +1507,6 @@
       "image": ""
     },
     {
-      "id": "openai-news-帮助构建分享面向高级人工智能",
-      "title": "帮助构建分享面向高级人工智能",
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T13:00:00.000Z",
-      "summary": "开放人工智能公司帮助构建分享面向高级人工智能，支持评测，安全，和全球。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 76,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-构建应用-在工具链",
       "title": "构建应用 : 在工具链",
       "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
@@ -1517,7 +1519,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -1588,35 +1590,35 @@
       "image": ""
     },
     {
-      "id": "ithome-谷歌前首席执行官施密特批中国人工智能开源-不受我们控制-我很不喜欢",
-      "title": "谷歌前首席执行官施密特批中国人工智能开源：不受我们控制，我很不喜欢",
-      "url": "https://www.ithome.com/0/968/511.htm",
+      "id": "ithome-上汽奥迪相关型号获推-1-3-0-旁车加塞碰撞安全性能提升-5-倍",
+      "title": "上汽奥迪相关型号获推 1.3.0：旁车加塞碰撞安全性能提升 5 倍",
+      "url": "https://www.ithome.com/0/968/566.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:57:11.000Z",
-      "summary": "科技之家 6 月 25 日消息，“ 谷歌前首席执行官批中国人工智能开源 ”话题今日登上热搜，有博主晒出一段谷歌前首席执行官埃里克 · 施密特的谈话视频，引发网络热议。科技之家查询发现，这一视频确实是真的，来自今年 5 月美国华盛顿智库“特别竞争研究计划”（）主办的第二届国家竞争力人工智能博览会。施密特作为前任主席，在一场面向未来的炉边谈话中谈到了“中美人工智能竞赛与深度求索”……",
+      "publishedAt": "2026-06-25T08:36:29.000Z",
+      "summary": "科技之家 6 月 25 日消息，官方今日宣布，奥迪相关型号获推 1.3.0，即日起陆续开启推送。官方表示，车辆升级后旁车加塞碰撞安全性能提升 5 倍，不合理变道、误制动及城区接管表现均提升 2 倍。科技之家附本次升级主要内容如下：升级至强化学习大模型智能辅助驾驶功能搭载全新强化学习大模型提升对复杂路况的实时应对水平新增百度地图导航手车同步功能车机端和手机端的百度地图应用登录同……",
       "topics": [
-        "算力芯片",
-        "研究论文",
-        "多模态"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-索尼宣布在日本停售人工智能机器狗相关型号",
-      "title": "索尼宣布在日本停售人工智能机器狗相关型号",
-      "url": "https://36kr.com/newsflashes/3868286241215748?f=rss",
+      "id": "thirty-six-kr-联想发布全球首款人工智能可信一体机",
+      "title": "联想发布全球首款人工智能可信一体机",
+      "url": "https://36kr.com/newsflashes/3868316392871170?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:50:27.000Z",
-      "summary": "索尼6月25日宣布，旗下智能机器狗（相关型号/象牙白款）将于库存售罄后终止在日本国内销售。公司表示，基础套餐、高级套餐、护理支持服务、相关配件及零部件销售、应用程序、维修服务及等配套服务将继续维持，不受销售终止影响。索尼同时表示将继续开发新产品与服务，支持与用户共同成长。（界面）",
+      "publishedAt": "2026-06-25T08:32:08.000Z",
+      "summary": "36氪获悉，2026 上海期间，联想联合中国移动旗下芯昇科技、熠序科技发布全球首款人工智能可信一体机。此外，联想在大会上推出了支持的多款智能终端，如联想手机、联想拯救者电竞手机，以及联想小新、拯救者等多款人工智能平板。",
       "topics": [
-        "产品应用"
+        "端侧智能"
       ],
       "heat": 88,
       "image": ""
@@ -1640,6 +1642,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-对话小湃科技王晓晖-智能体到家-摄像头将成为全屋智能的眼睛",
+      "title": "对话小湃科技王晓晖：智能体到家，摄像头将成为全屋智能的眼睛",
+      "url": "https://news.cnblogs.com/n/824643/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T04:14:00.000Z",
+      "summary": "常接触智能家居、全屋智能设备的朋友，应该都发现了这么一个问题：智能家居发展到今天，已经不缺设备，也不缺控制入口。但在大多数时候，这些设备只不过是知道该怎么把「活」做好，真正决定让哪个硬件出来干活的，依旧是用户自己。打个比方，过去几年语音开灯、应用开空调、回家自动拉窗帘，本文链接",
+      "topics": [
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
       "id": "oschina-谷歌将能力原生集成到双子座模型-3-5",
       "title": "谷歌将能力原生集成到双子座模型 3.5",
       "url": "https://www.oschina.net/news/467115/introducing-computer-use-gemini-3-5-flash",
@@ -1657,39 +1676,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-谷歌再失人工智能人才-两名双子座模型核心骨干转投人工智能安全公司",
-      "title": "谷歌再失人工智能人才，两名双子座模型核心骨干转投人工智能安全公司",
-      "url": "https://news.cnblogs.com/n/824634/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T03:11:00.000Z",
-      "summary": "信息技术之家 6 月 25 日消息，据彭博社消息，顶尖人工智能研究员乔纳斯 · 阿德勒（ ）与亚历山大 · 普里策尔（ ）即将离开谷歌，加入人工智能安全公司公司。报道称，阿德勒与普里策尔是谷歌双子座模型大模型研发工作中的核心骨干。谷歌两本文链接",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "leiphone-赛那德完成-3-亿元轮融资-加速物理人工智能物流场景规模化落地",
-      "title": "赛那德完成 3 亿元轮融资，加速物理人工智能物流场景规模化落地",
-      "url": "https://www.leiphone.com/category/industrynews/0EXFJiJBlvQ7Bi9w.html",
+      "id": "leiphone-马斯克悄悄改了战场-0-2-60-剑指智能体",
+      "title": "马斯克悄悄改了战场：0.2.60 剑指智能体",
+      "url": "https://www.leiphone.com/category/ai/9NVnWMuqKHrViS35.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T01:50:00.000Z",
-      "summary": "近日，全球顶尖的物流具身平台「赛那德」（）宣布完成3亿元人民币第三轮融资融资。本轮融资引进了全球领先的智慧物流生态平台满帮集团（），以及海通开元、元禾璞华、华义创投、元禾厚望等一线机构，老股东达晨财智、长石资本、初辉资本持续超额跟投。此前，赛那德已获得了包括招商局创投、招商局租赁、中国外运（相关型号）、阿里巴巴（相关型号）等一线产业方和达晨财智、长石资本、初辉资本、普华资本、……",
+      "publishedAt": "2026-06-25T02:55:00.000Z",
+      "summary": "一次不炫技、但很关键的更新。作者丨樊天骄、郑佳美编辑丨郑佳美 2026 年 6 月 21 日，悄悄发布了 0.2.60 版本更新。消息最早由平台技术博主披露。与常见的大版本发布不同，这次更新既没有推出新的模型能力，也没有刷新任何基准测试，而是将重心放在会话恢复、上下文压缩、工具输出等一系列细节上。这些改动或许不如模型升级那样引人注目，却恰恰指向了人工智能编程工具竞争的新焦点。……",
       "topics": [
         "产品应用",
-        "投融资",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 93,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1705,7 +1705,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1791,7 +1791,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1807,7 +1807,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
+      "image": ""
+    },
+    {
+      "id": "openai-news-帮助构建分享面向高级人工智能",
+      "title": "帮助构建分享面向高级人工智能",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-23T13:00:00.000Z",
+      "summary": "开放人工智能公司帮助构建分享面向高级人工智能，支持评测，安全，和全球。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 76,
       "image": ""
     },
     {
@@ -1844,22 +1862,6 @@
       ],
       "heat": 65,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/telco-tm-forum-1920x1080-1.jpg"
-    },
-    {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/index/omio",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "summary": "使用开放人工智能公司向驱动，加速产品，和进入人工智能原生公司。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 63,
-      "image": ""
     },
     {
       "id": "huggingface-blog-交付每个借助人工智能-打开工具-和在",
@@ -1911,37 +1913,36 @@
       "image": "https://media.wired.com/clips/6a3152d700a8d83a0988a040/master/pass/FIFABig_Lead.mp4"
     },
     {
-      "id": "thirty-six-kr-千问吴嘉-继续提供好的人工智能产品-帮助考生公平获取信息",
-      "title": "千问吴嘉：继续提供好的人工智能产品，帮助考生公平获取信息",
-      "url": "https://36kr.com/newsflashes/3868287473013769?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T07:45:30.000Z",
-      "summary": "6月25日，央视关于高考志愿填报行业乱象的调查报道引发全网关注。这些机构通过虚构资历、夸大宣传、制造焦虑等方式，向考生和家长售卖高价志愿填报服务；其所谓“一对一定制方案”，大量依赖千问的免费人工智能服务生成，再经过包装后，以数千元甚至上万元的价格转卖给家长。千问总裁吴嘉在采访中回应，千问连续提供免费的高考志愿服务，就是为了帮助更多家长学生消除信息差，免费的志愿服务不应被高价倒……",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "ithome-百度开源模型-基于深度求索-解析文档告别人工智能越生成越慢",
-      "title": "百度开源模型：基于深度求索，解析文档告别人工智能越生成越慢",
-      "url": "https://www.ithome.com/0/968/496.htm",
+      "id": "ithome-追加-130-亿美元-亚马逊宣布-2030-年前将在印度投资-480-亿美元",
+      "title": "追加 130 亿美元，亚马逊宣布 2030 年前将在印度投资 480 亿美元",
+      "url": "https://www.ithome.com/0/968/544.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:42:11.000Z",
-      "summary": "科技之家 6 月 25 日消息，百度于 6 月 22 日开源推出模型，总参数量 30 亿，推理时仅激活 5 亿参数，目标解决在解析长文档时，端到端模型越生成越慢的问题。科技之家注：端到端模型是统一神经网络架构系统，融合检测图像中的文本和字符识别，摒弃了传统“先检测文字框、再单独识别”的繁琐流程，直接从输入图像映射到文本序列输出，从而减少信息丢失和计算冗余。主流端到端模型每生成……",
+      "publishedAt": "2026-06-25T08:19:35.000Z",
+      "summary": "科技之家 6 月 25 日消息，亚马逊今日宣布，亚马逊首席执行官安迪 · 贾西（ ）与印度总理莫迪在新德里会面，宣布将追加 130 亿美元 （现汇率约合 886.3 亿元人民币）用于在印度扩建人工智能及云基础设施，投资期限至 2030 年。据科技之家此前报道，2025 年底，亚马逊曾宣布五年内在印度投资 350 亿美元。2026 年至 2030 年，亚马逊将在印度总投资达 4……",
       "topics": [
         "算力芯片",
-        "研究论文",
-        "多模态"
+        "投融资"
       ],
-      "heat": 99,
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-黄仁勋计划回馈股东50-自由现金流",
+      "title": "黄仁勋计划回馈股东50%自由现金流",
+      "url": "https://36kr.com/newsflashes/3868289071289605?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T07:54:26.000Z",
+      "summary": "当地时间24日，美国芯片巨头英伟达举行年度股东大会。公司首席执行官黄仁勋在会上表示，有用的人工智能已经到来，并且已经能够赚钱。人工智能数据中心是“制造词元”的工厂，词元可以变成代码、答案、设计、行动和服务，因此每个词元都是利润单位。黄仁勋强调，英伟达系统可能不是采购价格最低的，但能产生最低成本的词元、最高的词元吞吐量以及最高的收入。除了人工智能工厂，黄仁勋还将“物理人工智能”……",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 95,
       "image": ""
     },
     {
@@ -1963,20 +1964,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-高通正式杀入人工智能数据中心-元宇宙平台公司成首批客户-2029年销售目标150亿美元",
-      "title": "高通正式杀入人工智能数据中心：元宇宙平台公司成首批客户，2029年销售目标150亿美元",
-      "url": "https://news.cnblogs.com/n/824633/",
+      "id": "cnblogs-news-追觅俞浩受邀出席2026年夏季达沃斯畅谈机器人产业落地",
+      "title": "追觅俞浩受邀出席2026年夏季达沃斯畅谈机器人产业落地",
+      "url": "https://news.cnblogs.com/n/824642/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T03:04:00.000Z",
-      "summary": "6 月 25 日，高通周三在投资者日上发布面向数据中心的产品线。元宇宙平台公司将使用其中的相关型号中央处理器，成为首批客户之一。高通同时宣布收购人工智能基础设施创业公司，以补齐软件生态。据报道，高通还把 2029 财年非手机业务收本文链接",
+      "publishedAt": "2026-06-25T04:07:00.000Z",
+      "summary": "6 月 23 日-25 日，世界经济论坛第十七届新领军者年会（即 2026 夏季达沃斯论坛）在辽宁大连举办，追觅科技创始人兼首席执行官俞浩受邀参加，并在“机器人走进千家万户”专题讨论环节，分享了对机器人等新技术浪潮规模化落地的思考。2026 年夏季达沃斯论坛以“规模化创新”为主题，围绕“如何在不断本文链接",
       "topics": [
-        "投融资",
-        "端侧智能"
+        "机器人"
       ],
-      "heat": 86,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1996,6 +1996,24 @@
       "image": ""
     },
     {
+      "id": "leiphone-7-年谷歌老兵写出爆款工具被开除-转头官方发同款-之父下场抢人",
+      "title": "7 年谷歌老兵写出爆款工具被开除，转头官方发同款？之父下场抢人",
+      "url": "https://www.leiphone.com/category/yanxishe/TYljaPgp8leEjNRY.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T02:49:00.000Z",
+      "summary": "谷歌最强工具爆火代码托管平台，被打标签“非官方”。作者丨高允毅编辑丨马晓宁 01 到底发生了什么？今早，硅谷爆出了一个让人工智能工程师集体破防的大瓜，直接引来200多万吃瓜群众。一位在谷歌干了近7年的资深开发工程师，在今年3月初，利用业余时间搞了个爆款小工具，直接登上了技术社区热榜的热搜第一，几天内就在代码托管平台上收获数千颗星标，并迅速积累起成千上万名实际用户。这本来是个好……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "qbitai-世界模型混战-率先冲刺首次公开募股",
       "title": "世界模型混战，率先冲刺首次公开募股",
       "url": "https://www.qbitai.com/2026/06/438179.html",
@@ -2008,7 +2026,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2025,7 +2043,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2044,24 +2062,6 @@
         "监管安全"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "leiphone-物理人工智能的船票-藏在世界模型里",
-      "title": "物理人工智能的船票，藏在世界模型里",
-      "url": "https://www.leiphone.com/category/transportation/G2qSdvIbBYQ13ERf.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-24T14:05:00.000Z",
-      "summary": "物理人工智能的核心是“数据和商业，二者形成正向反馈”。而目前唯一同时实现这两者的，正是自动驾驶。作者，黄华丹编辑，田哲 1943年，苏格兰心理学家肯尼斯·克雷克（ ）在他的著作《解释的本质》中，提出了一个影响深远的论断——人类大脑在认知外部世界时，并非被动地接收信息，而是会主动构建一个“现实的内部小模型”。借助这个“小模型”，我们可以在脑海中模拟不同行动的结果，从而在真实世界……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 92,
       "image": ""
     },
     {
@@ -2115,6 +2115,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
+      "title": "开放人工智能公司发布人工智能相关动态。",
+      "url": "https://openai.com/index/omio",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "使用开放人工智能公司向驱动，加速产品，和进入人工智能原生公司。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 63,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
       "title": "模型社区博客发布人工智能相关动态。",
       "url": "https://huggingface.co/blog/cross-origin-storage",
@@ -2165,23 +2181,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/hpc-corp-blog-isc26-julich-supercomputer-1280x680-5359150.png"
     },
     {
-      "id": "openai-news-工具面向每个组织在",
-      "title": ": 工具面向每个组织在",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "开放人工智能公司新工具，智能编程工具安全和新一代语言模型，向帮助组织，和在规模。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
       "id": "wired-ai-规则面向人工智能在实时",
       "title": "规则面向人工智能在实时",
       "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/",
@@ -2199,38 +2198,53 @@
       "image": "https://media.wired.com/photos/6a342bff039398b1addb3ba2/master/pass/Model-Behavior-SB.jpg"
     },
     {
-      "id": "thirty-six-kr-机器科学发布通用具身大模型-实现跨本体-跨物体-跨任务-最前线",
-      "title": "机器科学发布通用具身大模型，实现跨本体、跨物体、跨任务｜最前线",
-      "url": "https://36kr.com/p/3868276479710466?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
+      "id": "ithome-消息称商汤科技正研发新图像模型-代号相关型号专业版-内部称对标开放人工智能公司",
+      "title": "消息称商汤科技正研发新图像模型：代号相关型号专业版，内部称对标开放人工智能公司",
+      "url": "https://www.ithome.com/0/968/517.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:42:21.000Z",
-      "summary": "作者｜黄楠编辑｜袁斯来 6月24日，通用具身智能企业机器科学通用具身大模型发布，首次完整披露自研大模型的技术架构（视觉-），并展示了模型在家具拼装、灵巧抓取、动态流水线等多项真实场景的应用。大语言模型有标准的文本词元，自动驾驶有统一的视觉或点云表征，这些基础格式的确定，让数据和模型可以在不同场景之间复用。但具身智能至今没有一个被行业公认的基础表征单元，其决定了数据如何采、模型……",
+      "publishedAt": "2026-06-25T08:02:35.000Z",
+      "summary": "6 月 25 日下午消息，新浪科技独家获悉，商汤科技近期正秘密研发一款多模态大模型，该模型主要面向“设计”场景打造，由商汤科技联合创始人、首席科学家林达华牵头负责，意在对标开放人工智能公司旗下 2，打造一款“会思考”的图像生成模型。目前，该模型在内部代号为“相关型号专业版”，由商汤研究院推进研发，属于商汤日日新模型家族成员。预计今年 7 月该模型将启动内部邀请测试，并向客户提……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "投融资"
+        "研究论文",
+        "多模态"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "ithome-康宁推出玻璃基光互连技术-瞄准下一代人工智能数据中心架构",
-      "title": "康宁推出玻璃基光互连技术，瞄准下一代人工智能数据中心架构",
-      "url": "https://www.ithome.com/0/968/493.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
+      "id": "thirty-six-kr-索尼宣布在日本停售人工智能机器狗相关型号",
+      "title": "索尼宣布在日本停售人工智能机器狗相关型号",
+      "url": "https://36kr.com/newsflashes/3868286241215748?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:41:12.000Z",
-      "summary": "科技之家 6 月 25 日消息，康宁公司昨日在首尔举行的“人工智能数据中心光通信与互连技术大会”上推出了面向下一代人工智能数据中心架构的玻璃基光互连技术“ ”。该技术旨在直接连接光子集成电路（）与光纤，用于共封装光学（）和玻璃芯半导体封装等前沿架构。据介绍，是一种玻璃光学连接器，可将光子芯片与光纤直接耦合。当前片上光波导宽度为数百纳米，而光纤纤芯达数微米，两者尺寸相差数十倍。……",
+      "publishedAt": "2026-06-25T07:50:27.000Z",
+      "summary": "索尼6月25日宣布，旗下智能机器狗（相关型号/象牙白款）将于库存售罄后终止在日本国内销售。公司表示，基础套餐、高级套餐、护理支持服务、相关配件及零部件销售、应用程序、维修服务及等配套服务将继续维持，不受销售终止影响。索尼同时表示将继续开发新产品与服务，支持与用户共同成长。（界面）",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-百度文心网站升级-成为统一超级入口",
+      "title": "百度文心网站升级，成为统一超级入口",
+      "url": "https://news.cnblogs.com/n/824641/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "新京报贝壳财经讯（记者罗亦丹）6 月 25 日，百度宣布对百度文心相关网站进行合并升级，统一整合为全新的百度文心网站，打造一站式人工智能服务入口。此次升级将分散的人工智能服务入口集中聚合，以更强大的技术底座和更丰富的功能矩阵，为用户带来全面升级的人工智能体验。升级后，百度文心网站成为统一超级入口，本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -2248,25 +2262,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-深度思维老兵-正在离开伦敦",
-      "title": "深度思维老兵，正在离开伦敦",
-      "url": "https://news.cnblogs.com/n/824631/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T02:48:00.000Z",
-      "summary": "机器之心编辑部谷歌又又又有大神离职了。据报道，顶尖人工智能研究员和计划离开谷歌，加入人工智能安全公司。报道称，两人均被谷歌内部视为双子座模型模型的重要贡献者。其中，本文链接",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2288,6 +2284,24 @@
       "image": ""
     },
     {
+      "id": "leiphone-百度文心网站全面升级-功能矩阵再扩容",
+      "title": "百度文心网站全面升级，功能矩阵再扩容",
+      "url": "https://www.leiphone.com/category/industrynews/dHP54vx4BZ4KfRHp.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T02:03:00.000Z",
+      "summary": "6月25日，百度宣布对百度文心相关网站进行合并升级，统一整合为全新的百度文心网站，打造一站式人工智能服务入口。此次升级将分散的人工智能服务入口集中聚合，以更强大的技术底座和更丰富的功能矩阵，为用户带来全面升级的人工智能体验。升级后，百度文心网站成为统一超级入口，功能矩阵全面扩容。用户可在一个平台内便捷使用全部人工智能功能，大幅降低使用门槛，提升交互效率。合并升级后的百度文心网……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-记忆芯片面向公司",
       "title": "记忆芯片面向公司",
       "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
@@ -2300,7 +2314,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2318,25 +2332,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "leiphone-别让人工智能碰生产环境-社区论坛火爆血泪贴-痛诉人工智能如何一刀切断数据库生命线",
-      "title": "别让人工智能碰生产环境！社区论坛火爆血泪贴，痛诉人工智能如何一刀切断数据库生命线",
-      "url": "https://www.leiphone.com/category/yanxishe/oG2mZO3y4nGNbORu.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-24T11:10:00.000Z",
-      "summary": "人工智能提效有多爽，炸库就有多痛。作者丨高允毅编辑丨马晓宁 “别再盲信人工智能了！你以为是资深专家，其实是炸库高手！” 6月22日，全球极客聚集的社区论坛的板块，一位资深数据工程师发了一篇血泪帖《 大语言模型，》（关于本地大语言模型的警示，尤其是在智能体智能体场景中），控诉人工智能的“伪装”已经进化到了人类肉眼难以察觉的危险地步。01 完美的伪装与静默的雪崩发帖人日常工作是和……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 89,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2369,7 +2365,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2385,7 +2381,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -2439,19 +2435,20 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/nairr.png"
     },
     {
-      "id": "openai-news-向支持开源",
-      "title": ": 向支持开源",
-      "url": "https://openai.com/index/patch-the-planet",
+      "id": "openai-news-工具面向每个组织在",
+      "title": ": 工具面向每个组织在",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "开放人工智能公司，帮助打开，来源，和修复借助人工智能和评测。",
+      "summary": "开放人工智能公司新工具，智能编程工具安全和新一代语言模型，向帮助组织，和在规模。",
       "topics": [
-        "开源生态"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 63,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2488,35 +2485,53 @@
       "image": "https://media.wired.com/photos/6a3308960b213b93014c14d7/master/pass/Uncanny-Valley-Meta%E2%80%99s%20Internal%20Unit%20Spiral-v1.jpg"
     },
     {
-      "id": "ithome-亚马逊业务首席执行官加曼-半数白领工作或因人工智能而改变-而非被淘汰",
-      "title": "亚马逊业务首席执行官加曼：半数白领工作或因人工智能而改变，而非被淘汰",
-      "url": "https://www.ithome.com/0/968/477.htm",
+      "id": "ithome-索尼宣布人工智能机器狗相关型号将在日本停售-将继续开发新产品与服务",
+      "title": "索尼宣布人工智能机器狗相关型号将在日本停售，将继续开发新产品与服务",
+      "url": "https://www.ithome.com/0/968/512.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:26:22.000Z",
-      "summary": "科技之家 6 月 25 日消息，据《商业内幕》25 日（今天）报道，亚马逊云科技（）业务首席执行官马特 · 加曼认为，人工智能将导致大规模失业的末日论被严重夸大。人工智能可能改变大量白领岗位，但“改变”并不等于“消失”。加曼反驳了人工智能会大规模取代劳动者的说法。他预计，约一半白领岗位可能因人工智能而改变，但不会因此全部消失。他以微软为例指出，新技术往往会重塑工作方式，而不是……",
+      "publishedAt": "2026-06-25T07:57:13.000Z",
+      "summary": "科技之家 6 月 25 日消息，索尼今日宣布，旗下人工智能机器狗 （相关型号/ 象牙白款）将在现有库存售罄后，停止在日本的销售。是索尼公司于 1999 年首次推出的电子机器宠物。2017 年，索尼宣布推出新型“”机器狗，搭载人工智能技术，可自主靠近主人并发出个性化叫声。索尼表示，基础套餐、高级套餐、护理支持服务、相关配件及零部件销售、应用程序、维修服务及等配套服务将继续维持，……",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 86,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-2026全球独角兽榜单出炉深度求索以3400亿元价值跻身前15名",
-      "title": "2026全球独角兽榜单出炉深度求索以3400亿元价值跻身前15名",
-      "url": "https://36kr.com/newsflashes/3868256355193860?f=rss",
+      "id": "thirty-six-kr-千问吴嘉-继续提供好的人工智能产品-帮助考生公平获取信息",
+      "title": "千问吴嘉：继续提供好的人工智能产品，帮助考生公平获取信息",
+      "url": "https://36kr.com/newsflashes/3868287473013769?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:13:51.000Z",
-      "summary": "6月25日，胡润研究院发布的《2026全球独角兽榜》显示，作为全球308家新晋独角兽企业的榜首，深度求索以3400亿元的价值跻身全球独角兽企业前15名。（证券时报）",
+      "publishedAt": "2026-06-25T07:45:30.000Z",
+      "summary": "6月25日，央视关于高考志愿填报行业乱象的调查报道引发全网关注。这些机构通过虚构资历、夸大宣传、制造焦虑等方式，向考生和家长售卖高价志愿填报服务；其所谓“一对一定制方案”，大量依赖千问的免费人工智能服务生成，再经过包装后，以数千元甚至上万元的价格转卖给家长。千问总裁吴嘉在采访中回应，千问连续提供免费的高考志愿服务，就是为了帮助更多家长学生消除信息差，免费的志愿服务不应被高价倒……",
       "topics": [
-        "研究论文"
+        "人工智能动态"
       ],
       "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-人工智能安全公司致信白宫指控同义千问-蒸馏-克劳德模型阿里尚未回应",
+      "title": "人工智能安全公司致信白宫指控同义千问\"蒸馏\"克劳德模型阿里尚未回应",
+      "url": "https://news.cnblogs.com/n/824640/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T03:50:00.000Z",
+      "summary": "出品，网易智能作者，小爪编辑，王凤枝彭博 6 月 25 日报道，人工智能安全公司致信多名美国参议员和白宫官员。信中指控，与阿里巴巴通义千问（通义千问）人工智能实验室有关联的操作者，大规模、未经授权地访问克劳德模型，意在获取其软件工程和智能体推理等能力。彭博援引知情人士和其看本文链接",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -2532,23 +2547,25 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
-      "id": "cnblogs-news-通义千问发布首个原生语言世界模型通义千问",
-      "title": "通义千问发布首个原生语言世界模型通义千问-",
-      "url": "https://news.cnblogs.com/n/824627/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
+      "id": "leiphone-赛那德完成-3-亿元轮融资-加速物理人工智能物流场景规模化落地",
+      "title": "赛那德完成 3 亿元轮融资，加速物理人工智能物流场景规模化落地",
+      "url": "https://www.leiphone.com/category/industrynews/0EXFJiJBlvQ7Bi9w.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T02:24:00.000Z",
-      "summary": "通义千问团队昨日发布通义千问-，官方称其为首个原生语言世界模型（）。它能预测人工智能智能体执行某个操作后环境会作何反应，覆盖、安卓七大领域，用一个模型即可模拟这些交互场景。性能方面，通义千问- 本文链接",
+      "publishedAt": "2026-06-25T01:50:00.000Z",
+      "summary": "近日，全球顶尖的物流具身平台「赛那德」（）宣布完成3亿元人民币第三轮融资融资。本轮融资引进了全球领先的智慧物流生态平台满帮集团（），以及海通开元、元禾璞华、华义创投、元禾厚望等一线机构，老股东达晨财智、长石资本、初辉资本持续超额跟投。此前，赛那德已获得了包括招商局创投、招商局租赁、中国外运（相关型号）、阿里巴巴（相关型号）等一线产业方和达晨财智、长石资本、初辉资本、普华资本、……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "投融资",
+        "多模态"
       ],
-      "heat": 89,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2583,24 +2600,6 @@
         "产品应用"
       ],
       "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "leiphone-百度智能云发布百度千帆词元企业版-提供相关型号等模型",
-      "title": "百度智能云发布百度千帆词元企业版，提供相关型号等模型",
-      "url": "https://www.leiphone.com/category/industrynews/He2ajsw4G5vP9m2R.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-24T10:58:00.000Z",
-      "summary": "6月24日消息，百度智能云正式发布企业级人工智能生产力订阅服务——百度千帆词元企业版，面向企业提供统一采购、统一管理、统一运营的人工智能资源服务，帮助企业以固定预算、统一管理的方式高效使用人工智能能力，加速人工智能在组织内部的规模化落地。据介绍，百度千帆已率先完成智谱相关型号适配并接入词元企业版服务体系，企业用户和开发者无需复杂部署与调优，即可在长程任务处理、复杂推理、编程等……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 89,
       "image": ""
     },
     {
@@ -2688,6 +2687,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/vera-cpu-lanl-1920x1080-1.jpg"
     },
     {
+      "id": "openai-news-向支持开源",
+      "title": ": 向支持开源",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "开放人工智能公司，帮助打开，来源，和修复借助人工智能和评测。",
+      "topics": [
+        "开源生态"
+      ],
+      "heat": 63,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-我们本地模型向面向",
       "title": "我们本地模型向面向！*",
       "url": "https://huggingface.co/blog/local-models-pr-triage",
@@ -2706,52 +2721,55 @@
       "image": ""
     },
     {
-      "id": "openai-news-智能编程工具-面向",
-      "title": "智能编程工具，面向",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "了解使用智能编程工具向上下文，和帮助单个。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 55,
-      "image": ""
-    },
-    {
-      "id": "ithome-代码托管平台取消智能副驾与计划的手动模型选择功能-仅能由系统自动分配",
-      "title": "代码托管平台取消智能副驾与计划的手动模型选择功能，仅能由系统自动分配",
-      "url": "https://www.ithome.com/0/968/475.htm",
+      "id": "ithome-谷歌前首席执行官施密特批中国人工智能开源-不受我们控制-我很不喜欢",
+      "title": "谷歌前首席执行官施密特批中国人工智能开源：不受我们控制，我很不喜欢",
+      "url": "https://www.ithome.com/0/968/511.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:26:09.000Z",
-      "summary": "科技之家 6 月 25 日消息，代码托管平台于当地时间 6 月 24 日宣布，智能副驾与计划现已将智能副驾自动模型选择作为默认且唯一的模型选择方式。代码托管平台宣称，自动模式会为各项任务动态挑选最佳模型，免去了用户手动选择的繁琐。在受限于各套餐规则的前提下，自动模式允许用户访问来自多个模型系列的模型。官方表示，其任务优化技术会结合模型健康状况和可用性的实时信息，综合评估请求的……",
+      "publishedAt": "2026-06-25T07:57:11.000Z",
+      "summary": "科技之家 6 月 25 日消息，“ 谷歌前首席执行官批中国人工智能开源 ”话题今日登上热搜，有博主晒出一段谷歌前首席执行官埃里克 · 施密特的谈话视频，引发网络热议。科技之家查询发现，这一视频确实是真的，来自今年 5 月美国华盛顿智库“特别竞争研究计划”（）主办的第二届国家竞争力人工智能博览会。施密特作为前任主席，在一场面向未来的炉边谈话中谈到了“中美人工智能竞赛与深度求索”……",
       "topics": [
-        "产品应用",
-        "开源生态"
+        "算力芯片",
+        "研究论文",
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-股三大指数集体收涨-全市场超4200股飘绿",
-      "title": "股三大指数集体收涨，全市场超4200股飘绿",
-      "url": "https://36kr.com/newsflashes/3868245230769157?f=rss",
+      "id": "thirty-six-kr-机器科学发布通用具身大模型-实现跨本体-跨物体-跨任务-最前线",
+      "title": "机器科学发布通用具身大模型，实现跨本体、跨物体、跨任务｜最前线",
+      "url": "https://36kr.com/p/3868276479710466?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T07:02:32.000Z",
-      "summary": "36氪获悉，股三大指数集体收涨，沪指涨0.23%，深成指涨1.82%，创业板指涨2.84%；图形处理器、大涨，德明利、长电科技涨停，佰维存储涨超15%，新易盛、兆易创新涨超9%；培育钻石概念走强，沃尔德、惠丰钻石涨超10%；贵金属、油气走弱，紫金矿业跌超6%，赤峰黄金、中国海油跌超5%；个股跌多涨少，全市场超4200股飘绿。",
+      "publishedAt": "2026-06-25T07:42:21.000Z",
+      "summary": "作者｜黄楠编辑｜袁斯来 6月24日，通用具身智能企业机器科学通用具身大模型发布，首次完整披露自研大模型的技术架构（视觉-），并展示了模型在家具拼装、灵巧抓取、动态流水线等多项真实场景的应用。大语言模型有标准的文本词元，自动驾驶有统一的视觉或点云表征，这些基础格式的确定，让数据和模型可以在不同场景之间复用。但具身智能至今没有一个被行业公认的基础表征单元，其决定了数据如何采、模型……",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 87,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-元宇宙平台公司撤销强制工程师加入人工智能专项组要求-尊重员工自主选择",
+      "title": "元宇宙平台公司撤销强制工程师加入人工智能专项组要求，尊重员工自主选择",
+      "url": "https://news.cnblogs.com/n/824636/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T03:24:00.000Z",
+      "summary": "6 月 25 日消息，据获取的一份内部备忘录以及四位知情人士透露，元宇宙平台公司公司正在收回此前强制工程师加入人工智能训练专项工作组的相关要求。上个月，元宇宙平台公司调动 7000 名员工，分派至应用人工智能专项工作组等部门，助力研发该公司新一代人工智能模型。当地时间本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 81,
       "image": ""
     },
     {
@@ -2769,23 +2787,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-高管-人工智能已提升工作室创造力-可减少开发流程阻力",
-      "title": "高管：人工智能已提升工作室创造力，可减少开发流程阻力",
-      "url": "https://news.cnblogs.com/n/824626/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T02:18:00.000Z",
-      "summary": "据报道，企业发展总裁劳拉・米耶勒在日前期间的《 实时》活动上表示，人工智能工具已经在旗下工作室带来「真正的创造力提升」，部分环节或能缩短游戏开发周期。在被问及人工智能工具的兴起是否会带来更短开发周期本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 81,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2823,21 +2825,21 @@
       "image": ""
     },
     {
-      "id": "leiphone-京东与魔法原子达成战略合作共拓具身智能产业化新范式",
-      "title": "京东与魔法原子达成战略合作共拓具身智能产业化新范式",
-      "url": "https://www.leiphone.com/category/industrynews/xqROkc70MtjJFKJ4.html",
+      "id": "leiphone-物理人工智能的船票-藏在世界模型里",
+      "title": "物理人工智能的船票，藏在世界模型里",
+      "url": "https://www.leiphone.com/category/transportation/G2qSdvIbBYQ13ERf.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-24T10:31:00.000Z",
-      "summary": "近日，魔法原子与京东正式签署战略合作协议。双方将围绕消费级具身产品，以及教育、巡检、导览等重点场景展开深度合作，以技术共研、产品共创、场景共拓、生态共建为核心，打造覆盖研发创新、产品孵化、场景落地、渠道销售与服务运营的全生命周期合作体系，共同推动具身智能机器人规模化商业落地。双方同意在合作期间，共同投入产品、供应链和资源，力争实现魔法原子品牌产品在京东平台的销售额规模达到10……",
+      "publishedAt": "2026-06-24T14:05:00.000Z",
+      "summary": "物理人工智能的核心是“数据和商业，二者形成正向反馈”。而目前唯一同时实现这两者的，正是自动驾驶。作者，黄华丹编辑，田哲 1943年，苏格兰心理学家肯尼斯·克雷克（ ）在他的著作《解释的本质》中，提出了一个影响深远的论断——人类大脑在认知外部世界时，并非被动地接收信息，而是会主动构建一个“现实的内部小模型”。借助这个“小模型”，我们可以在脑海中模拟不同行动的结果，从而在真实世界……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "多模态"
+        "算力芯片"
       ],
-      "heat": 80,
+      "heat": 91,
       "image": ""
     }
   ]
