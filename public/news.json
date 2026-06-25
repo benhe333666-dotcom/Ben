@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-25T19:37:27.733Z",
+  "generatedAt": "2026-06-25T20:50:04.523Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-25T20:00:00.000Z",
+  "nextUpdateHint": "2026-06-25T21:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-25T19:04:57.000Z"
+    "latestPublishedAt": "2026-06-26T00:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 71,
+      "count": 72,
       "heat": 84
     },
     {
@@ -24,47 +24,47 @@
     {
       "name": "监管安全",
       "count": 29,
-      "heat": 85
-    },
-    {
-      "name": "算力芯片",
-      "count": 28,
-      "heat": 83
-    },
-    {
-      "name": "研究论文",
-      "count": 25,
       "heat": 86
     },
     {
+      "name": "算力芯片",
+      "count": 27,
+      "heat": 82
+    },
+    {
+      "name": "研究论文",
+      "count": 26,
+      "heat": 85
+    },
+    {
       "name": "投融资",
-      "count": 15,
+      "count": 17,
       "heat": 81
     },
     {
       "name": "人工智能动态",
       "count": 13,
-      "heat": 70
+      "heat": 72
     },
     {
       "name": "多模态",
       "count": 10,
-      "heat": 90
+      "heat": 89
     },
     {
       "name": "端侧智能",
-      "count": 8,
-      "heat": 79
+      "count": 7,
+      "heat": 81
     },
     {
       "name": "开源生态",
-      "count": 8,
-      "heat": 68
+      "count": 7,
+      "heat": 69
     },
     {
       "name": "机器人",
       "count": 5,
-      "heat": 89
+      "heat": 88
     }
   ],
   "sources": [
@@ -143,8 +143,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 6,
-      "displayedCount": 3,
+      "itemCount": 5,
+      "displayedCount": 2,
       "latestFetchedAt": "2026-06-25T16:46:09.000Z",
       "latestDisplayedAt": "2026-06-25T16:46:09.000Z"
     },
@@ -192,9 +192,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T16:11:42.000Z",
-      "latestDisplayedAt": "2026-06-25T16:11:42.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-06-26T00:00:00.000Z",
+      "latestDisplayedAt": "2026-06-26T00:00:00.000Z"
     },
     {
       "id": "techcrunch-ai",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T17:38:27.000Z",
-      "latestDisplayedAt": "2026-06-25T17:38:27.000Z"
+      "latestFetchedAt": "2026-06-25T20:19:25.000Z",
+      "latestDisplayedAt": "2026-06-25T20:19:25.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-06-25T01:11:10.000Z",
@@ -334,7 +334,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "HTTP 403",
       "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-06-25T16:41:23.000Z",
@@ -432,7 +432,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 17,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-06-25T13:42:26.000Z",
       "latestDisplayedAt": "2026-06-25T13:42:26.000Z"
     },
@@ -480,13 +480,47 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 16,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-06-25T14:01:00.000Z",
       "latestDisplayedAt": "2026-06-25T14:01:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
+      "title": "模型社区博客发布人工智能相关动态。",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能-50-百万向构建人工智能智能体",
+      "title": "人工智能 $50 百万向构建人工智能智能体",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T20:19:25.000Z",
+      "summary": "智能体，创业公司人工智能，由元宇宙平台公司人工智能研究，需求。",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "ars-technica-ai-应用最用户使用人工智能智能体",
       "title": "应用最用户使用人工智能智能体",
@@ -500,7 +534,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2230437159-1024x648.jpg"
     },
     {
@@ -517,25 +551,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司克劳德模型-由智能聊天助手",
-      "title": "人工智能安全公司克劳德模型，由智能聊天助手",
-      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T17:38:27.000Z",
-      "summary": "智能聊天助手，面向人工智能人工智能安全公司克劳德模型，数据。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
@@ -551,7 +567,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -568,7 +584,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -585,22 +601,6 @@
         "多模态"
       ],
       "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "huggingface-blog-词元模型更好",
-      "title": "词元模型更好？",
-      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-25T16:11:42.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -634,7 +634,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp"
     },
     {
@@ -668,7 +668,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 84,
       "image": ""
     },
     {
@@ -685,7 +685,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -703,7 +703,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -719,7 +719,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/gfn-thursday-6-25-no-copy-kv-1536x920-1.jpg"
     },
     {
@@ -735,7 +735,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://media.wired.com/photos/6a3af3254463dc1b6f7e6031/master/pass/WorldCup-Teams-in-Race-for-AI-Dominance.jpg"
     },
     {
@@ -751,7 +751,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LinearElasticCaching_Hero.png"
     },
     {
@@ -767,7 +767,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -785,7 +785,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -801,7 +801,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -817,7 +817,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -834,7 +834,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -868,7 +868,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -886,7 +886,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -920,24 +920,25 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-2-3-十亿视频训练人工智能智能体面向现实世界",
-      "title": "$2.3 十亿视频训练人工智能智能体面向现实世界",
-      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "id": "techcrunch-ai-人工智能安全公司克劳德模型-由智能聊天助手",
+      "title": "人工智能安全公司克劳德模型，由智能聊天助手",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T16:55:00.000Z",
-      "summary": "$320 百万向规模人工智能训练在，数据帮助人工智能向。",
+      "publishedAt": "2026-06-25T17:38:27.000Z",
+      "summary": "智能聊天助手，面向人工智能人工智能安全公司克劳德模型，数据。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 94,
+      "heat": 99,
       "image": ""
     },
     {
@@ -956,6 +957,22 @@
         "端侧智能"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-词元模型更好",
+      "title": "词元模型更好？",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-25T16:11:42.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -991,7 +1008,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1007,7 +1024,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1023,7 +1040,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1039,7 +1056,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1055,7 +1072,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1073,7 +1090,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1089,7 +1106,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1105,7 +1122,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://media.wired.com/photos/6a3af3bc66e0743c653aa81f/master/pass/AI-Lab-America-China-Have-No-Choice-But-to-Work-Together-to-Secure-AI-Open-Frontier-Business.jpg"
     },
     {
@@ -1123,7 +1140,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1141,7 +1158,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1157,7 +1174,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Thinking-to-recall-1.png"
     },
     {
@@ -1175,24 +1192,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "huggingface-blog-借助英伟达",
-      "title": "借助英伟达",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-24T16:00:13.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "模型发布",
-        "算力芯片"
-      ],
-      "heat": 81,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1208,7 +1208,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1225,7 +1225,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/logo-lockup-tech-blog-aws-1920x1080-2.jpg"
     },
     {
@@ -1278,19 +1278,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能认为人工智能驱动法案由-1-相关型号",
-      "title": "人工智能认为人工智能驱动法案由 1，相关型号",
-      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "id": "techcrunch-ai-2-3-十亿视频训练人工智能智能体面向现实世界",
+      "title": "$2.3 十亿视频训练人工智能智能体面向现实世界",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T16:48:11.000Z",
-      "summary": "图像，工具面向首个时间公司人工智能。",
+      "publishedAt": "2026-06-25T16:55:00.000Z",
+      "summary": "$320 百万向规模人工智能训练在，数据帮助人工智能向。",
       "topics": [
+        "产品应用",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1306,7 +1307,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1340,7 +1341,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1357,7 +1358,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1373,7 +1374,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1391,7 +1392,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1408,7 +1409,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1424,7 +1425,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1440,7 +1441,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1458,7 +1459,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1476,7 +1477,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1492,7 +1493,24 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-借助英伟达",
+      "title": "借助英伟达",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-24T16:00:13.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 80,
       "image": ""
     },
     {
@@ -1509,24 +1527,8 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://media.wired.com/photos/6a3bc8bcb0d9ff58f6121983/master/pass/GettyImages-2204326766.jpg"
-    },
-    {
-      "id": "huggingface-blog-推出-在现实世界",
-      "title": "推出 : 在现实世界",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-24T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "研究论文"
-      ],
-      "heat": 54,
-      "image": ""
     },
     {
       "id": "openai-news-帮助解决-3-神秘",
@@ -1543,23 +1545,6 @@
         "研究论文"
       ],
       "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-智能编程助手命令行工具-新可用",
-      "title": "智能编程助手命令行工具: 新可用",
-      "url": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T16:35:45.000Z",
-      "summary": "面向代码托管平台智能编程助手我们在微软构建 2026 可用。面向借助代码托管平台来自… 智能编程助手命令行工具: 新可用首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
       "image": ""
     },
     {
@@ -1598,6 +1583,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-人工智能认为人工智能驱动法案由-1-相关型号",
+      "title": "人工智能认为人工智能驱动法案由 1，相关型号",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T16:48:11.000Z",
+      "summary": "图像，工具面向首个时间公司人工智能。",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-在模型-克劳德模型",
       "title": "在模型，克劳德模型。",
       "url": "https://www.reddit.com/r/artificial/comments/1ufe9bf/on_model_failures_gpt_claude_etc/",
@@ -1629,23 +1630,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-15-百万序列来自向帮助人工智能实时更快",
-      "title": "$15 百万序列来自向帮助人工智能实时更快",
-      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T14:55:38.000Z",
-      "summary": "软件在，和平台帮助减少时间信息技术向实时。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1663,7 +1648,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1681,7 +1666,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1698,7 +1683,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1716,7 +1701,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1733,7 +1718,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1749,7 +1734,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1766,7 +1751,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1784,7 +1769,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1800,7 +1785,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-推出-在现实世界",
+      "title": "推出 : 在现实世界",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 53,
       "image": ""
     },
     {
@@ -1819,22 +1820,6 @@
         "投融资"
       ],
       "heat": 73,
-      "image": ""
-    },
-    {
-      "id": "huggingface-blog-构建应用-在工具链",
-      "title": "构建应用 : 在工具链",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T12:51:55.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 50,
       "image": ""
     },
     {
@@ -1887,6 +1872,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-15-百万序列来自向帮助人工智能实时更快",
+      "title": "$15 百万序列来自向帮助人工智能实时更快",
+      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T14:55:38.000Z",
+      "summary": "软件在，和平台帮助减少时间信息技术向实时。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
       "url": "https://www.reddit.com/r/artificial/comments/1ufc50v/does_anyone_else_gets_this_email/",
@@ -1921,22 +1922,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-2-向向-190-1-000-和在科技创投媒体",
-      "title": "2 向向 $190: 1，000+ 和在科技创投媒体",
-      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T14:00:00.000Z",
-      "summary": "向在在科技创投媒体 2026 和向 $190 在 26 在 11:59。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-大语言模型作为在检索增强生成检索-正确借助",
       "title": "大语言模型作为在检索增强生成检索: 正确借助",
       "url": "https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/",
@@ -1949,7 +1934,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1967,7 +1952,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1984,7 +1969,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2002,7 +1987,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2019,7 +2004,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2036,7 +2021,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2052,7 +2037,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2070,7 +2055,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2088,7 +2073,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 84,
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-构建应用-在工具链",
+      "title": "构建应用 : 在工具链",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-23T12:51:55.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -2125,22 +2126,6 @@
       "image": ""
     },
     {
-      "id": "huggingface-blog-交付每个借助人工智能-打开工具-和在",
-      "title": "交付每个借助人工智能，打开工具，和在",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 50,
-      "image": ""
-    },
-    {
       "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
       "title": "连线杂志人工智能发布人工智能相关动态。",
       "url": "https://www.wired.com/story/biggest-world-cup-travel-flights-hotels-costs/",
@@ -2173,6 +2158,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-2-向向-190-1-000-和在科技创投媒体",
+      "title": "2 向向 $190: 1，000+ 和在科技创投媒体",
+      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T14:00:00.000Z",
+      "summary": "向在在科技创投媒体 2026 和向 $190 在 26 在 11:59。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
       "id": "ithome-交出超强劲业绩后-美光科技市值首超元宇宙平台公司-短暂超过特斯拉",
       "title": "交出超强劲业绩后，美光科技市值首超元宇宙平台公司、短暂超过特斯拉",
       "url": "https://www.ithome.com/0/968/692.htm",
@@ -2186,24 +2187,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-图像和视频工具实验室",
-      "title": "图像和视频工具实验室",
-      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T13:30:00.000Z",
-      "summary": "信息技术实验室工具应用。",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 91,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2238,7 +2222,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2254,7 +2238,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2270,7 +2254,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2287,7 +2271,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2303,7 +2287,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2321,7 +2305,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2337,7 +2321,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2353,13 +2337,13 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
-      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
-      "title": "模型社区博客发布人工智能相关动态。",
-      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "id": "huggingface-blog-交付每个借助人工智能-打开工具-和在",
+      "title": "交付每个借助人工智能，打开工具，和在",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
       "source": "模型社区博客",
       "sourceId": "huggingface-blog",
       "sourceType": "official",
@@ -2456,23 +2440,24 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-亚马逊借助-13-十亿人工智能基础设施投资",
-      "title": "亚马逊借助 $13 十亿人工智能基础设施投资",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "id": "techcrunch-ai-图像和视频工具实验室",
+      "title": "图像和视频工具实验室",
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T12:00:38.000Z",
-      "summary": "亚马逊投资作为全球公司向扩展人工智能基础设施在。",
+      "publishedAt": "2026-06-25T13:30:00.000Z",
+      "summary": "信息技术实验室工具应用。",
       "topics": [
-        "投融资"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 85,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2489,7 +2474,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2505,7 +2490,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2522,7 +2507,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2540,7 +2525,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2556,7 +2541,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2572,7 +2557,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2588,7 +2573,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2674,6 +2659,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-亚马逊借助-13-十亿人工智能基础设施投资",
+      "title": "亚马逊借助 $13 十亿人工智能基础设施投资",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T12:00:38.000Z",
+      "summary": "亚马逊投资作为全球公司向扩展人工智能基础设施在。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-氪星晚报-阿福-科学减重1亿斤-行动正式上线-站-预计到明年-视频播客日均播放时长有望达到3亿分钟",
       "title": "氪星晚报 ｜阿福“科学减重1亿斤”行动正式上线；站：预计到明年，视频播客日均播放时长有望达到3亿分钟",
       "url": "https://36kr.com/p/3868502221018370?f=rss",
@@ -2688,7 +2689,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2706,7 +2707,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2722,7 +2723,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2740,7 +2741,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2758,23 +2759,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-在芯片",
-      "title": "在芯片",
-      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T00:08:36.000Z",
-      "summary": "作为首席执行官科技创投媒体在，工具，首个交付关于，设置，限制。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 74,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2792,24 +2777,6 @@
         "产品应用"
       ],
       "heat": 61,
-      "image": ""
-    },
-    {
-      "id": "huggingface-blog-我们本地模型向面向",
-      "title": "我们本地模型向面向！*",
-      "url": "https://huggingface.co/blog/local-models-pr-triage",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 60,
       "image": ""
     },
     {
@@ -2842,7 +2809,41 @@
         "监管安全",
         "机器人"
       ],
-      "heat": 95,
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-空中云汇-完成3-2亿美元第八轮融资融资-估值达110亿美元",
+      "title": "“空中云汇”完成3.2亿美元第八轮融资融资，估值达110亿美元",
+      "url": "https://36kr.com/newsflashes/3868515817772039?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T11:37:47.000Z",
+      "summary": "36氪获悉，“空中云汇”宣布完成3.2亿美元的第八轮融资融资。此轮融资后，其估值将达到110亿美元。本轮融资由老股东领投。以及 （美国运通风险投资基金）等现有股东及新晋投资者跟投。本轮资金将用于加速空中云汇在财务智能化和智能体商业领域的产品研发、拓展新市场的全球基础设施与合规布局，并持续扩充团队，打造下一代人工智能原生金融软件。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-5即将复活-代码已曝光-人工智能安全公司首席执行官被白宫踢出来了",
+      "title": "5即将复活，代码已曝光？人工智能安全公司首席执行官被白宫踢出来了！",
+      "url": "https://news.cnblogs.com/n/824660/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T06:40:00.000Z",
+      "summary": "新智元报道刚被「封印」，5 就要满血复活？最近，克劳德模型 5 代码痕迹曝光，开发者圈一片欢呼，而外媒爆料，人工智能安全公司最近一路顺利，背后竟是因为首席执行官被白宫赶下谈判桌！就在刚刚，好消息传来，5 很可能要回归了！已经有敏锐的开发者，在最新代码中本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 87,
       "image": ""
     }
   ]
