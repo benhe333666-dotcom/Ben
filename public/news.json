@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-06-26T11:39:37.480Z",
+  "generatedAt": "2026-06-26T12:09:57.171Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-26T12:00:00.000Z",
+  "nextUpdateHint": "2026-06-26T12:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-26T11:18:07.000Z"
+    "latestPublishedAt": "2026-06-26T12:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 73,
-      "heat": 83
+      "count": 74,
+      "heat": 84
     },
     {
       "name": "模型发布",
-      "count": 49,
+      "count": 50,
       "heat": 88
     },
     {
       "name": "算力芯片",
-      "count": 26,
+      "count": 25,
       "heat": 81
     },
     {
       "name": "监管安全",
-      "count": 22,
+      "count": 23,
       "heat": 88
     },
     {
@@ -38,33 +38,33 @@
     },
     {
       "name": "开源生态",
-      "count": 17,
-      "heat": 81
+      "count": 18,
+      "heat": 82
     },
     {
       "name": "投融资",
       "count": 15,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "人工智能动态",
       "count": 13,
-      "heat": 78
+      "heat": 77
     },
     {
       "name": "机器人",
-      "count": 10,
+      "count": 9,
       "heat": 89
-    },
-    {
-      "name": "端侧智能",
-      "count": 6,
-      "heat": 87
     },
     {
       "name": "多模态",
       "count": 6,
       "heat": 82
+    },
+    {
+      "name": "端侧智能",
+      "count": 4,
+      "heat": 84
     }
   ],
   "sources": [
@@ -128,9 +128,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 7,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-06-25T22:59:45.000Z",
-      "latestDisplayedAt": "2026-06-25T22:59:45.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-06-26T12:00:00.000Z",
+      "latestDisplayedAt": "2026-06-26T12:00:00.000Z"
     },
     {
       "id": "github-changelog",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-06-25T18:37:53.000Z",
-      "latestDisplayedAt": "2026-06-25T18:37:53.000Z"
+      "latestFetchedAt": "2026-06-26T12:00:00.000Z",
+      "latestDisplayedAt": "2026-06-26T12:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -332,9 +332,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
       "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-26T10:27:57.000Z",
@@ -448,9 +448,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 18,
-      "displayedCount": 9,
-      "latestFetchedAt": "2026-06-26T11:16:59.000Z",
-      "latestDisplayedAt": "2026-06-26T11:16:59.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-06-26T11:47:51.000Z",
+      "latestDisplayedAt": "2026-06-26T11:47:51.000Z"
     },
     {
       "id": "oschina",
@@ -488,6 +488,57 @@
   "failures": [],
   "items": [
     {
+      "id": "github-blog-代码托管平台官方博客发布人工智能相关动态",
+      "title": "代码托管平台官方博客发布人工智能相关动态。",
+      "url": "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-26T12:00:00.000Z",
+      "summary": "代码托管平台和帮助帮助。作为首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-26T12:00:00.000Z",
+      "summary": "向数据，向数据和首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "ithome-上海人工智能应用乱象整治首阶段收官-处置违规账号-1-8-万余个-下架智能体-1-4-万余个",
+      "title": "上海人工智能应用乱象整治首阶段收官：处置违规账号 1.8 万余个，下架智能体 1.4 万余个",
+      "url": "https://www.ithome.com/0/969/225.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-26T11:47:51.000Z",
+      "summary": "科技之家 6 月 26 日消息，上海市委网信办今日发文，针对“清朗 · 整治人工智能应用乱象”专项行动第一阶段工作进行了公告。自 2026 年 4 月下旬起，上海市委网信办根据中央网信办统一部署，启动“清朗 · 整治人工智能应用乱象”专项行动第一阶段工作，聚焦未按规定履行大模型备案登记义务、安全审核能力不足、大模型训练语料安全、人工智能数据投毒、生成合成内容标识落实不到位、滥……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能安全公司工程师向人工智能和",
       "title": "人工智能安全公司工程师向人工智能和",
       "url": "https://the-decoder.com/anthropic-doesnt-need-junior-engineers-anymore-thanks-to-ai-and-warns-of-an-economic-shock-when-other-industries-follow/",
@@ -505,23 +556,6 @@
       "image": ""
     },
     {
-      "id": "ithome-优必选发布轮式工业人形机器人相关型号-在欧珀供应链技术展首秀",
-      "title": "优必选发布轮式工业人形机器人相关型号，在欧珀供应链技术展首秀",
-      "url": "https://www.ithome.com/0/969/219.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-26T11:16:59.000Z",
-      "summary": "科技之家 6 月 26 日消息，欧珀技术发布会暨供应链技术展昨日举行，优必选旗下相关型号轮式工业人形机器人迎来首次公开亮相，展示料箱拆垛、码垛全流程。官方表示，这款机器人重点攻克各类料箱、纸箱、物料上下料和分拣等柔性作业难点，直击传统自动化设备物料轻微偏移即停机、换产调试周期漫长、仅能执行单一工序等制造行业核心痛点。相关型号搭载国产算力芯片地瓜相关型号和相关型号系列，搭载 3……",
-      "topics": [
-        "算力芯片",
-        "机器人"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "thirty-six-kr-发布首款人工智能智能眼镜系统",
       "title": "发布首款人工智能智能眼镜系统",
       "url": "https://36kr.com/newsflashes/3869905580168196?f=rss",
@@ -534,7 +568,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -551,7 +585,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -635,7 +669,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -717,25 +751,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "github-blog-性能和代码托管平台智能编程助手工具链模型和任务",
-      "title": "性能和代码托管平台智能编程助手工具链模型和任务",
-      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-25T22:59:45.000Z",
-      "summary": "探索代码托管平台智能编程助手工具链交付基准测试和词元，向 20 模型。性能和代码托管平台智能编程助手工具链模型和任务首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 91,
+      "heat": 93,
       "image": ""
     },
     {
@@ -751,25 +767,8 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2230437159-1024x648.jpg"
-    },
-    {
-      "id": "towards-data-science-检索增强生成-构建上下文面向-智能体记忆",
-      "title": "检索增强生成，构建上下文面向，智能体记忆",
-      "url": "https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T18:37:53.000Z",
-      "summary": "检索增强生成，和上下文在，智能体。在检索。检索增强生成，构建上下文面向，智能体记忆首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 80,
-      "image": ""
     },
     {
       "id": "arxiv-cs-lg-论文新进展-强化学习-扩散模型-多模态-自然语言处理方向研究",
@@ -804,7 +803,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -820,7 +819,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp"
     },
     {
@@ -836,7 +835,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/gfn-thursday-6-25-no-copy-kv-1536x920-1.jpg"
     },
     {
@@ -868,7 +867,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -885,7 +884,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -905,6 +904,23 @@
       "image": ""
     },
     {
+      "id": "ithome-优必选发布轮式工业人形机器人相关型号-在欧珀供应链技术展首秀",
+      "title": "优必选发布轮式工业人形机器人相关型号，在欧珀供应链技术展首秀",
+      "url": "https://www.ithome.com/0/969/219.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-26T11:16:59.000Z",
+      "summary": "科技之家 6 月 26 日消息，欧珀技术发布会暨供应链技术展昨日举行，优必选旗下相关型号轮式工业人形机器人迎来首次公开亮相，展示料箱拆垛、码垛全流程。官方表示，这款机器人重点攻克各类料箱、纸箱、物料上下料和分拣等柔性作业难点，直击传统自动化设备物料轻微偏移即停机、换产调试周期漫长、仅能执行单一工序等制造行业核心痛点。相关型号搭载国产算力芯片地瓜相关型号和相关型号系列，搭载 3……",
+      "topics": [
+        "算力芯片",
+        "机器人"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-向推出开源人工智能模型-首席执行官",
       "title": "向推出开源人工智能模型，首席执行官",
       "url": "https://www.reddit.com/r/artificial/comments/1ug2y9p/italys_domyn_to_launch_open_source_frontier_ai/",
@@ -919,24 +935,6 @@
         "开源生态"
       ],
       "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "ithome-微博工具正式上线-专为开发者和人工智能智能体打造-超-70-接口一键调用",
-      "title": "微博工具正式上线：专为开发者和人工智能智能体打造，超 70 接口一键调用",
-      "url": "https://www.ithome.com/0/969/170.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-26T10:13:28.000Z",
-      "summary": "科技之家 6 月 26 日消息，微博开放平台 6 月 22 日正式上线了其官方命令行工具“”。这款开源工具专为开发者和人工智能智能体设计，支持在终端环境中直接调用微博平台的各项能力，涵盖内容发布、互动管理、数据检索与趋势分析等核心业务场景。基于开发，要求运行环境为 18 及以上版本。用户可通过执行，来源：@-人工智能 / 完成全局安装。安装后，使用命令即可通过浏览器完成授权认……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 96,
       "image": ""
     },
     {
@@ -1055,8 +1053,26 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://media.wired.com/photos/6a3c48825cdc2b309c97a195/master/pass/Uncanny-Valley-AI-Hollywood-Business.jpg"
+    },
+    {
+      "id": "github-blog-性能和代码托管平台智能编程助手工具链模型和任务",
+      "title": "性能和代码托管平台智能编程助手工具链模型和任务",
+      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-25T22:59:45.000Z",
+      "summary": "探索代码托管平台智能编程助手工具链交付基准测试和词元，向 20 模型。性能和代码托管平台智能编程助手工具链模型和任务首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 91,
+      "image": ""
     },
     {
       "id": "github-changelog-智能副驾代码评测-和更新",
@@ -1072,7 +1088,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1094,15 +1110,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-向-智能体-基准测试",
-      "title": "向，智能体 : 基准测试",
-      "url": "https://towardsdatascience.com/the-hot-path-belongs-to-gbdts-agents-own-the-cold-path-a-payment-fraud-benchmark/",
+      "id": "towards-data-science-检索增强生成-构建上下文面向-智能体记忆",
+      "title": "检索增强生成，构建上下文面向，智能体记忆",
+      "url": "https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T18:00:00.000Z",
-      "summary": "基准测试在，成本，和，和智能体实际持续。向，智能体 : 基准测试首个在数据科学实战社区。",
+      "publishedAt": "2026-06-25T18:37:53.000Z",
+      "summary": "检索增强生成，和上下文在，智能体。在检索。检索增强生成，构建上下文面向，智能体记忆首个在数据科学实战社区。",
       "topics": [
         "产品应用",
         "研究论文"
@@ -1143,7 +1159,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1176,7 +1192,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1208,7 +1224,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Thinking-to-recall-1.png"
     },
     {
@@ -1261,23 +1277,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2212917669-1152x648.jpg"
     },
     {
-      "id": "github-blog-代码托管平台面向修复向人工智能向保护开源",
-      "title": "代码托管平台面向修复向人工智能向保护开源",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-23T15:48:00.000Z",
-      "summary": "我们呼吁面向向借助开源和借助。代码托管平台面向修复向人工智能向保护开源首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-向人工智能安全公司借助政府",
       "title": "向人工智能安全公司借助政府",
       "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
@@ -1313,20 +1312,21 @@
       "image": "https://external-preview.redd.it/bWo4YzJueWFzbDloMZuy_VtagojulpqCqDa7hOnrfasPTWUReBvSlqMi9fE0.png?width=640&crop=smart&auto=webp&s=9737249d5b06c7f4cdee75f8545caea66f8f470f"
     },
     {
-      "id": "ithome-中国治污见效-我国河流缺氧事件从-170-次骤降至-25-次",
-      "title": "中国治污见效：我国河流缺氧事件从 170 次骤降至 25 次",
-      "url": "https://www.ithome.com/0/969/112.htm",
+      "id": "ithome-微博工具正式上线-专为开发者和人工智能智能体打造-超-70-接口一键调用",
+      "title": "微博工具正式上线：专为开发者和人工智能智能体打造，超 70 接口一键调用",
+      "url": "https://www.ithome.com/0/969/170.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T09:40:13.000Z",
-      "summary": "科技之家 6 月 26 日消息，《自然 · 地球科学》今日发表的一项最新研究成果指出，通过大规模的污水治理与营养物管控，中国内陆水体的溶解氧水平在过去近二十年间实现显著回升，扭转了全球范围内淡水生态系统普遍面临的脱氧趋势。该研究由中国科学院南京地理与湖泊研究所周永强研究员领衔的国际团队完成。团队分析了 2005 年至 2022 年间全国 972 条河流和 354 个湖泊站点的……",
+      "publishedAt": "2026-06-26T10:13:28.000Z",
+      "summary": "科技之家 6 月 26 日消息，微博开放平台 6 月 22 日正式上线了其官方命令行工具“”。这款开源工具专为开发者和人工智能智能体设计，支持在终端环境中直接调用微博平台的各项能力，涵盖内容发布、互动管理、数据检索与趋势分析等核心业务场景。基于开发，要求运行环境为 18 及以上版本。用户可通过执行，来源：@-人工智能 / 完成全局安装。安装后，使用命令即可通过浏览器完成授权认……",
       "topics": [
-        "研究论文",
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1394,7 +1394,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1428,7 +1428,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1446,6 +1446,23 @@
         "开源生态"
       ],
       "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向-智能体-基准测试",
+      "title": "向，智能体 : 基准测试",
+      "url": "https://towardsdatascience.com/the-hot-path-belongs-to-gbdts-agents-own-the-cold-path-a-payment-fraud-benchmark/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T18:00:00.000Z",
+      "summary": "基准测试在，成本，和，和智能体实际持续。向，智能体 : 基准测试首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 79,
       "image": ""
     },
     {
@@ -1498,23 +1515,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/beyond-the-straight-line-choosing-between-ols-interaction-terms-and-tweedie-regression/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T16:30:00.000Z",
-      "summary": "向，术语，向取决于在数据和。:，术语，和首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 73,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1584,6 +1585,23 @@
       "image": ""
     },
     {
+      "id": "github-blog-代码托管平台面向修复向人工智能向保护开源",
+      "title": "代码托管平台面向修复向人工智能向保护开源",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-23T15:48:00.000Z",
+      "summary": "我们呼吁面向向借助开源和借助。代码托管平台面向修复向人工智能向保护开源首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-企业构建人工智能",
       "title": "企业构建人工智能",
       "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
@@ -1600,23 +1618,6 @@
       ],
       "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/agentic-ai-agent-toolkit-kv-r3b-1920x1080-2.png"
-    },
-    {
-      "id": "github-blog-我们构建数据智能体",
-      "title": "我们构建数据智能体",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-19T16:00:00.000Z",
-      "summary": "智能副驾，驱动智能体，代码托管平台员工向问题关于数据在语言。这里我们作为我们构建信息技术。我们构建数据智能体首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
     },
     {
       "id": "reddit-artificial-人工智能安全公司阿里巴巴人工智能模型作为人工智能",
@@ -1636,21 +1637,20 @@
       "image": "https://external-preview.redd.it/WNJpVW73tCgyx9PU8OmzLTD1w8wzZTdZjJkxm3vCGm8.jpeg?width=640&crop=smart&auto=webp&s=280215d06386f632706d2d5bc0d7e57f6504f566"
     },
     {
-      "id": "ithome-研究-越强的人工智能模型越善于在编程基准上-作弊-有时直接查答案而不是自行推导",
-      "title": "研究：越强的人工智能模型越善于在编程基准上“作弊”，有时直接查答案而不是自行推导",
-      "url": "https://www.ithome.com/0/969/105.htm",
+      "id": "ithome-中国治污见效-我国河流缺氧事件从-170-次骤降至-25-次",
+      "title": "中国治污见效：我国河流缺氧事件从 170 次骤降至 25 次",
+      "url": "https://www.ithome.com/0/969/112.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T09:28:07.000Z",
-      "summary": "科技之家 6 月 26 日消息，当地时间 6 月 25 日，发布相关研究，称更聪明的模型，正在变得更善于在编程基准上作弊。官方表示，由真实缺陷构建、且这些缺陷后来已被修复的评测套件尤其脆弱，因为这些问题本来就已经被解决过了。如果智能体可以访问代码仓库历史或公开，它有时就能直接查到答案，而不是自己推导出来。为了衡量这种行为到底有多普遍，构建了一个智能体来审查评测轨迹。在专业版上……",
+      "publishedAt": "2026-06-26T09:40:13.000Z",
+      "summary": "科技之家 6 月 26 日消息，《自然 · 地球科学》今日发表的一项最新研究成果指出，通过大规模的污水治理与营养物管控，中国内陆水体的溶解氧水平在过去近二十年间实现显著回升，扭转了全球范围内淡水生态系统普遍面临的脱氧趋势。该研究由中国科学院南京地理与湖泊研究所周永强研究员领衔的国际团队完成。团队分析了 2005 年至 2022 年间全国 972 条河流和 354 个湖泊站点的……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "研究论文",
+        "投融资"
       ],
-      "heat": 99,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1668,7 +1668,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1855,7 +1855,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": "https://media.wired.com/photos/6a3af3bc66e0743c653aa81f/master/pass/AI-Lab-America-China-Have-No-Choice-But-to-Work-Together-to-Secure-AI-Open-Frontier-Business.jpg"
     },
     {
@@ -1925,6 +1925,23 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/06/hpc-corp-blog-isc26-wrap-up-blog-1280x680-5375050.png"
     },
     {
+      "id": "github-blog-我们构建数据智能体",
+      "title": "我们构建数据智能体",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-06-19T16:00:00.000Z",
+      "summary": "智能副驾，驱动智能体，代码托管平台员工向问题关于数据在语言。这里我们作为我们构建信息技术。我们构建数据智能体首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-答案面向我们人工智能",
       "title": "答案面向我们人工智能",
       "url": "https://www.reddit.com/r/artificial/comments/1ug1zwd/when_there_is_no_answer_key_for_scientific/",
@@ -1943,19 +1960,21 @@
       "image": ""
     },
     {
-      "id": "ithome-摩尔线程全资持股-杭州光速摩方智能科技公司-增资至-2-亿元人民币-增幅达-100",
-      "title": "摩尔线程全资持股“杭州光速摩方智能科技公司”增资至 2 亿元人民币，增幅达 100%",
-      "url": "https://www.ithome.com/0/969/102.htm",
+      "id": "ithome-研究-越强的人工智能模型越善于在编程基准上-作弊-有时直接查答案而不是自行推导",
+      "title": "研究：越强的人工智能模型越善于在编程基准上“作弊”，有时直接查答案而不是自行推导",
+      "url": "https://www.ithome.com/0/969/105.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T09:17:03.000Z",
-      "summary": "科技之家 6 月 26 日消息，国家企业信用信息公示系统显示，摩尔线程旗下光速摩方智能科技（杭州）有限责任公司发生工商变更，注册资本由 1 亿人民币增至 2 亿人民币，增幅 100%。据介绍，光速摩方智能科技（杭州）有限责任公司成立于 2025 年 3 月，法定代表人为王东，经营范围包括集成电路设计、集成电路芯片设计及服务、信息系统集成服务等，由摩尔线程全资持股。该公司注册资……",
+      "publishedAt": "2026-06-26T09:28:07.000Z",
+      "summary": "科技之家 6 月 26 日消息，当地时间 6 月 25 日，发布相关研究，称更聪明的模型，正在变得更善于在编程基准上作弊。官方表示，由真实缺陷构建、且这些缺陷后来已被修复的评测套件尤其脆弱，因为这些问题本来就已经被解决过了。如果智能体可以访问代码仓库历史或公开，它有时就能直接查到答案，而不是自己推导出来。为了衡量这种行为到底有多普遍，构建了一个智能体来审查评测轨迹。在专业版上……",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2213,21 +2232,19 @@
       "image": ""
     },
     {
-      "id": "ithome-人工智能智能体互联-系列-7-项国家标准发布-统一身份认证与交互协议破解-信息孤岛-小米-联想等百余家企业已参与试点应用",
-      "title": "《人工智能智能体互联》系列 7 项国家标准发布：统一身份认证与交互协议破解“信息孤岛”，小米、联想等百余家企业已参与试点应用",
-      "url": "https://www.ithome.com/0/969/096.htm",
+      "id": "ithome-摩尔线程全资持股-杭州光速摩方智能科技公司-增资至-2-亿元人民币-增幅达-100",
+      "title": "摩尔线程全资持股“杭州光速摩方智能科技公司”增资至 2 亿元人民币，增幅达 100%",
+      "url": "https://www.ithome.com/0/969/102.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T09:05:29.000Z",
-      "summary": "科技之家 6 月 26 日消息，今日上午，国家市场监督管理总局（科技之家以下简称“市场监管总局”）在京召开智能体互联标准化专题新闻发布会，宣布《人工智能智能体互联》系列国家标准正式获批发布。该系列标准共涵盖 7 个部分，围绕智能体互联互通全流程搭建了统一规范体系，旨在解决当前智能体产业中通信接口不统一、身份管理缺失及协同交互规则混乱等突出问题。市场监管总局标准技术司副司长朱美……",
+      "publishedAt": "2026-06-26T09:17:03.000Z",
+      "summary": "科技之家 6 月 26 日消息，国家企业信用信息公示系统显示，摩尔线程旗下光速摩方智能科技（杭州）有限责任公司发生工商变更，注册资本由 1 亿人民币增至 2 亿人民币，增幅 100%。据介绍，光速摩方智能科技（杭州）有限责任公司成立于 2025 年 3 月，法定代表人为王东，经营范围包括集成电路设计、集成电路芯片设计及服务、信息系统集成服务等，由摩尔线程全资持股。该公司注册资……",
       "topics": [
-        "模型发布",
-        "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2244,7 +2261,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2277,7 +2294,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2311,7 +2328,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2344,7 +2361,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2446,21 +2463,21 @@
       "image": "https://external-preview.redd.it/V8lHKvMawWXy6CQs3rgRI3Sn5bkqbtrvVP8eD1cYe6I.jpeg?width=640&crop=smart&auto=webp&s=58702219175637d772a25b8899439b5edae0a3b1"
     },
     {
-      "id": "ithome-人工智能购物匹配精准度仅-16-上海消保委呼吁电商平台-算法向善",
-      "title": "人工智能购物匹配精准度仅 16%，上海消保委呼吁电商平台“算法向善”",
-      "url": "https://www.ithome.com/0/969/093.htm",
+      "id": "ithome-人工智能智能体互联-系列-7-项国家标准发布-统一身份认证与交互协议破解-信息孤岛-小米-联想等百余家企业已参与试点应用",
+      "title": "《人工智能智能体互联》系列 7 项国家标准发布：统一身份认证与交互协议破解“信息孤岛”，小米、联想等百余家企业已参与试点应用",
+      "url": "https://www.ithome.com/0/969/096.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T09:02:22.000Z",
-      "summary": "科技之家 6 月 26 日消息，今日下午，由上海市消费者权益保护委员会、上海市消保基金会主办的“提振消费维护权益”大讲堂在上海开讲。本次活动以“推动平台算法向善维护消费者合法权益”为主题，聚焦平台算法与消费者权益保护。会上，上海市消保委发布了《2026 年 618 网购体验消费者调查报告》。该报告面向上海市消保委微信公众号用户开展专项调研，累计回收有效问卷 4308 份。报告……",
+      "publishedAt": "2026-06-26T09:05:29.000Z",
+      "summary": "科技之家 6 月 26 日消息，今日上午，国家市场监督管理总局（科技之家以下简称“市场监管总局”）在京召开智能体互联标准化专题新闻发布会，宣布《人工智能智能体互联》系列国家标准正式获批发布。该系列标准共涵盖 7 个部分，围绕智能体互联互通全流程搭建了统一规范体系，旨在解决当前智能体产业中通信接口不统一、身份管理缺失及协同交互规则混乱等突出问题。市场监管总局标准技术司副司长朱美……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "多模态"
+        "算力芯片"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2476,7 +2493,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2493,7 +2510,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2509,7 +2526,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2543,7 +2560,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2576,7 +2593,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2592,7 +2609,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -2644,19 +2661,19 @@
       "image": ""
     },
     {
-      "id": "ithome-全新理想相关型号开启首批交付-行业唯一标配-4-零重力座椅-35-98-万元起",
-      "title": "全新理想相关型号开启首批交付：行业唯一标配 4 零重力座椅，35.98 万元起",
-      "url": "https://www.ithome.com/0/969/092.htm",
+      "id": "ithome-人工智能购物匹配精准度仅-16-上海消保委呼吁电商平台-算法向善",
+      "title": "人工智能购物匹配精准度仅 16%，上海消保委呼吁电商平台“算法向善”",
+      "url": "https://www.ithome.com/0/969/093.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T08:55:12.000Z",
-      "summary": "科技之家 6 月 26 日消息，理想汽车今日在常州、苏州、杭州、上海四座城市同步启动了全新理想相关型号的首批交付。官方表示，即日起更多城市的交付工作将陆续解锁。这款五座旗舰于 6 月 23 日正式发布，共推出和两款车型。其中，版全国统一零售价为 36.98 万元，版为 42.98 万元。在首销期内（截至 2026 年 7 月 6 日 24:00），用户可享受 1 万元现金减免……",
+      "publishedAt": "2026-06-26T09:02:22.000Z",
+      "summary": "科技之家 6 月 26 日消息，今日下午，由上海市消费者权益保护委员会、上海市消保基金会主办的“提振消费维护权益”大讲堂在上海开讲。本次活动以“推动平台算法向善维护消费者合法权益”为主题，聚焦平台算法与消费者权益保护。会上，上海市消保委发布了《2026 年 618 网购体验消费者调查报告》。该报告面向上海市消保委微信公众号用户开展专项调研，累计回收有效问卷 4308 份。报告……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "端侧智能"
+        "监管安全",
+        "多模态"
       ],
       "heat": 95,
       "image": ""
@@ -2690,7 +2707,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2708,7 +2725,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2726,7 +2743,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2778,7 +2795,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2794,7 +2811,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2828,23 +2845,6 @@
         "人工智能动态"
       ],
       "heat": 55,
-      "image": ""
-    },
-    {
-      "id": "ithome-中国移动灵犀机器人夺得相关型号上海点球大赛总冠军-自主攻防-不用遥控",
-      "title": "中国移动灵犀机器人夺得相关型号上海点球大赛总冠军：自主攻防，不用遥控",
-      "url": "https://www.ithome.com/0/969/078.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-26T08:31:12.000Z",
-      "summary": "科技之家 6 月 26 日消息，由主办，联合人工智能百人会、中国人工智能产业发展联盟（）及新华网共同组织的“人形机器人点球大战”，于 2026 年 6 月 24 日至 25 日作为相关型号上海的主题赛事举行。中国移动灵犀中尺寸人形机器人相关型号，代表中移（杭州）信息技术有限公司出战，从 8 支战队中杀出重围，一举拿下赛事冠军，同时包揽金手套、金靴、最佳庆祝动作等多项大奖，实现……",
-      "topics": [
-        "端侧智能",
-        "机器人"
-      ],
-      "heat": 90,
       "image": ""
     }
   ]
