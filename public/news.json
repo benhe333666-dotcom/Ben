@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-28T18:53:12.141Z",
+  "generatedAt": "2026-06-28T20:38:09.601Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-06-28T19:00:00.000Z",
+  "nextUpdateHint": "2026-06-28T21:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-06-28T16:36:08.000Z"
+    "latestPublishedAt": "2026-06-28T19:05:39.000Z"
   },
   "topics": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "模型发布",
-      "count": 56,
+      "count": 55,
       "heat": 74
     },
     {
@@ -42,29 +42,29 @@
       "heat": 63
     },
     {
+      "name": "投融资",
+      "count": 11,
+      "heat": 67
+    },
+    {
       "name": "人工智能动态",
       "count": 11,
       "heat": 65
     },
     {
-      "name": "投融资",
-      "count": 10,
-      "heat": 70
-    },
-    {
       "name": "多模态",
       "count": 9,
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "端侧智能",
       "count": 8,
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "机器人",
       "count": 3,
-      "heat": 72
+      "heat": 71
     }
   ],
   "sources": [
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-06-28T15:00:00.000Z",
-      "latestDisplayedAt": "2026-06-28T15:00:00.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-06-28T19:05:39.000Z",
+      "latestDisplayedAt": "2026-06-28T19:05:39.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -304,7 +304,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-06-28T15:00:00.000Z",
       "latestDisplayedAt": "2026-06-28T15:00:00.000Z"
     },
@@ -319,9 +319,9 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 1,
+      "itemCount": 2,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-06-28T15:55:31.000Z",
+      "latestFetchedAt": "2026-06-28T19:35:57.000Z",
       "latestDisplayedAt": "2026-06-28T15:55:31.000Z"
     },
     {
@@ -332,9 +332,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
       "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-06-28T16:36:08.000Z",
@@ -488,6 +488,22 @@
   "failures": [],
   "items": [
     {
+      "id": "techcrunch-ai-工程师人工智能",
+      "title": "工程师人工智能",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-28T19:05:39.000Z",
+      "summary": "我们由只是推出人工智能，质量产品。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能创业公司推出模型作为人工智能安全公司在",
       "title": "人工智能创业公司推出模型作为人工智能安全公司在",
       "url": "https://www.reddit.com/r/artificial/comments/1ui1wci/asian_ai_startups_launch_mythoslike_models_as/",
@@ -518,7 +534,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 83,
       "image": ""
     },
     {
@@ -535,24 +551,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-为什么认为记忆英伟达",
-      "title": "为什么认为记忆英伟达",
-      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-28T15:00:00.000Z",
-      "summary": "向人工智能，公司作为顺利作为英伟达，认为借助。",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 99,
+      "heat": 88,
       "image": ""
     },
     {
@@ -568,7 +567,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 84,
       "image": ""
     },
     {
@@ -585,7 +584,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -620,7 +619,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -636,7 +635,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -652,7 +651,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -668,7 +667,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": "https://media.wired.com/photos/6a3e912435a32ef4cd784d63/master/pass/supercomputadora%20china%20EE%20UU%201228298015.jpg"
     },
     {
@@ -685,7 +684,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 93,
+      "heat": 91,
       "image": ""
     },
     {
@@ -702,7 +701,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 75,
       "image": ""
     },
     {
@@ -720,7 +719,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -737,7 +736,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -926,6 +925,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-为什么认为记忆英伟达",
+      "title": "为什么认为记忆英伟达",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-28T15:00:00.000Z",
+      "summary": "向人工智能，公司作为顺利作为英伟达，认为借助。",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-机械革命星耀-15-笔记本发售-可选人工智能-9-365-人工智能-9-470-6799-元起",
       "title": "机械革命星耀 15 笔记本发售：可选人工智能 9 365/人工智能 9 470，6799 元起",
       "url": "https://www.ithome.com/0/969/723.htm",
@@ -938,7 +954,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -955,7 +971,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 95,
       "image": ""
     },
     {
@@ -973,7 +989,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -991,23 +1007,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-首席执行官借助问题关于数据中心",
-      "title": "首席执行官借助问题关于数据中心",
-      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-27T20:42:36.000Z",
-      "summary": "视觉面向数据中心。",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 72,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1023,7 +1023,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1039,7 +1039,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1057,7 +1057,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1073,7 +1073,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 65,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1089,7 +1089,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 57,
+      "heat": 55,
       "image": ""
     },
     {
@@ -1106,7 +1106,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://media.wired.com/photos/6a31dd3da349dd0edc2c4b26/master/pass/Anthropic-Restores-Fable-Access-Business.jpg"
     },
     {
@@ -1310,7 +1310,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1328,7 +1328,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1345,7 +1345,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1362,24 +1362,23 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-苹果视觉专业版据报道面向开放人工智能公司",
-      "title": "苹果视觉专业版据报道面向开放人工智能公司",
-      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "id": "techcrunch-ai-首席执行官借助问题关于数据中心",
+      "title": "首席执行官借助问题关于数据中心",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-27T16:45:09.000Z",
-      "summary": "苹果在视觉专业版，据报道公司向开放人工智能公司团队。",
+      "publishedAt": "2026-06-27T20:42:36.000Z",
+      "summary": "视觉面向数据中心。",
       "topics": [
-        "产品应用",
         "多模态"
       ],
-      "heat": 82,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1395,7 +1394,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1412,7 +1411,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 69,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1429,7 +1428,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 70,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1447,7 +1446,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 69,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1464,7 +1463,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://media.wired.com/photos/6a3081014d259fb9a6c751d2/master/pass/How-Chinese-Users-Get-Around-Anthropic-Geolocation-Restrictions-Business.jpg"
     },
     {
@@ -1652,7 +1651,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 82,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1670,7 +1669,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1687,23 +1686,24 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-在-这里使用人工智能向",
-      "title": "在。这里使用人工智能向。",
-      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "id": "techcrunch-ai-苹果视觉专业版据报道面向开放人工智能公司",
+      "title": "苹果视觉专业版据报道面向开放人工智能公司",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-27T14:00:00.000Z",
-      "summary": "借助，向，数据，进入克劳德模型。",
+      "publishedAt": "2026-06-27T16:45:09.000Z",
+      "summary": "苹果在视觉专业版，据报道公司向开放人工智能公司团队。",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 74,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1719,7 +1719,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1735,7 +1735,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1753,7 +1753,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 74,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1774,22 +1774,6 @@
       "image": "https://media.wired.com/photos/6a3ea08bf7f42d4ea1deffa3/master/pass/GettyImages-2281424331.jpg"
     },
     {
-      "id": "the-verge-ai-开放人工智能公司发布人工智能",
-      "title": "开放人工智能公司发布人工智能",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-26T17:00:00.000Z",
-      "summary": "24 新闻开放人工智能公司模型发布在，模型，这里。在，公司发布预览新 5.6 模型 :，;，内容平台，模型面向 ; 和，…",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 58,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-来自本地大语言模型向工具-智能体",
       "title": "来自本地大语言模型向工具，智能体",
       "url": "https://towardsdatascience.com/from-local-llm-to-tool-using-agent/",
@@ -1805,6 +1789,23 @@
         "研究论文"
       ],
       "heat": 66,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能安全公司得到",
+      "title": "人工智能安全公司得到",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-26T14:07:03.000Z",
+      "summary": "信息技术人工智能安全公司模型来自。公司进入，向。更新，借助在。人工智能安全公司向关于 …",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 63,
       "image": ""
     },
     {
@@ -1959,7 +1960,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1977,7 +1978,23 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 98,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-在-这里使用人工智能向",
+      "title": "在。这里使用人工智能向。",
+      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-27T14:00:00.000Z",
+      "summary": "借助，向，数据，进入克劳德模型。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 73,
       "image": ""
     },
     {
@@ -1994,7 +2011,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2012,7 +2029,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2028,7 +2045,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 64,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2046,23 +2063,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 63,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-发布人工智能安全公司向使用由-100-公司",
-      "title": "发布人工智能安全公司向使用由 100 公司",
-      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-27T01:01:37.000Z",
-      "summary": "100 公司和政府据报道向使用 5，员工。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2082,23 +2083,6 @@
       "image": "https://media.wired.com/photos/6a3d7dcc9d8ba41349d50023/master/pass/Backchannel-Macron-G7-2282316572.jpg"
     },
     {
-      "id": "the-verge-ai-人工智能安全公司得到",
-      "title": "人工智能安全公司得到",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-26T14:07:03.000Z",
-      "summary": "信息技术人工智能安全公司模型来自。公司进入，向。更新，借助在。人工智能安全公司向关于 …",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 63,
-      "image": ""
-    },
-    {
       "id": "oschina-欧洲大模型人工智能发布相关型号模型-支持-170-种语言",
       "title": "欧洲大模型人工智能发布相关型号模型：支持 170 种语言",
       "url": "https://www.oschina.net/news/467954",
@@ -2112,6 +2096,24 @@
         "模型发布"
       ],
       "heat": 54,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-开放人工智能公司",
+      "title": "开放人工智能公司",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T21:57:06.000Z",
+      "summary": "安全，据报道询问开放人工智能公司向发布模型。开放人工智能公司首席执行官员工在公司 & 信息技术发布在预览，访问向群组 …",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -2246,7 +2248,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2264,7 +2266,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2280,7 +2282,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": ""
     },
     {
@@ -2298,23 +2300,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 71,
+      "heat": 69,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司限制政府",
-      "title": "开放人工智能公司限制政府",
-      "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "id": "techcrunch-ai-发布人工智能安全公司向使用由-100-公司",
+      "title": "发布人工智能安全公司向使用由 100 公司",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T18:32:14.000Z",
-      "summary": "我们政府访问成为，术语，开放人工智能公司。信息技术工具来自用户，开发者，和全球合作伙伴。",
+      "publishedAt": "2026-06-27T01:01:37.000Z",
+      "summary": "100 公司和政府据报道向使用 5，员工。",
       "topics": [
-        "模型发布"
+        "监管安全"
       ],
-      "heat": 58,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2383,24 +2385,6 @@
       "image": "https://media.wired.com/photos/6a3c48b56c59c72c499e0fad/master/pass/Model-Behavior-AI-Safe-Only-With-Anthropic-Business.jpg"
     },
     {
-      "id": "the-verge-ai-开放人工智能公司",
-      "title": "开放人工智能公司",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T21:57:06.000Z",
-      "summary": "安全，据报道询问开放人工智能公司向发布模型。开放人工智能公司首席执行官员工在公司 & 信息技术发布在预览，访问向群组 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-向-智能体-基准测试",
       "title": "向，智能体 : 基准测试",
       "url": "https://towardsdatascience.com/the-hot-path-belongs-to-gbdts-agents-own-the-cold-path-a-payment-fraud-benchmark/",
@@ -2432,6 +2416,22 @@
         "开源生态"
       ],
       "heat": 56,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-作为人工智能应用",
+      "title": "作为人工智能应用",
+      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-25T09:06:19.000Z",
+      "summary": "元宇宙平台公司带来，作为人工智能应用。新应用目标是向信息技术面向向借助和向在，向元宇宙平台公司。元宇宙平台公司人工智能助手 …",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -2515,7 +2515,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2533,7 +2533,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2549,7 +2549,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2567,24 +2567,23 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-为什么来自开放人工智能公司向构建芯片和转化在英伟达",
-      "title": "为什么来自开放人工智能公司向构建芯片和转化在英伟达",
-      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "id": "techcrunch-ai-开放人工智能公司限制政府",
+      "title": "开放人工智能公司限制政府",
+      "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-26T17:43:22.000Z",
-      "summary": "英伟达人工智能芯片面向，可能。开放人工智能公司只是分享向借助 ñ，推理芯片构建借助，谷歌，苹果，和在公司构建单个，风险。…",
+      "publishedAt": "2026-06-26T18:32:14.000Z",
+      "summary": "我们政府访问成为，术语，开放人工智能公司。信息技术工具来自用户，开发者，和全球合作伙伴。",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "模型发布"
       ],
-      "heat": 63,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2656,17 +2655,17 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-作为人工智能应用",
-      "title": "作为人工智能应用",
-      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "id": "the-verge-ai-使用人工智能向融资",
+      "title": "使用人工智能向融资",
+      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-25T09:06:19.000Z",
-      "summary": "元宇宙平台公司带来，作为人工智能应用。新应用目标是向信息技术面向向借助和向在，向元宇宙平台公司。元宇宙平台公司人工智能助手 …",
+      "publishedAt": "2026-06-24T19:36:46.000Z",
+      "summary": "使用人工智能面向在面向重要法案，信息技术使用面向法案和借助人工智能。在 …",
       "topics": [
-        "产品应用"
+        "投融资"
       ],
       "heat": 50,
       "image": ""
@@ -2750,7 +2749,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2768,7 +2767,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 75,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2784,7 +2783,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2802,7 +2801,24 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 69,
+      "heat": 68,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-为什么来自开放人工智能公司向构建芯片和转化在英伟达",
+      "title": "为什么来自开放人工智能公司向构建芯片和转化在英伟达",
+      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-06-26T17:43:22.000Z",
+      "summary": "英伟达人工智能芯片面向，可能。开放人工智能公司只是分享向借助 ñ，推理芯片构建借助，谷歌，苹果，和在公司构建单个，风险。…",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 63,
       "image": ""
     },
     {
@@ -2837,22 +2853,6 @@
         "监管安全"
       ],
       "heat": 54,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-大语言模型作为在检索增强生成检索-正确借助",
-      "title": "大语言模型作为在检索增强生成检索: 正确借助",
-      "url": "https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-06-25T13:30:00.000Z",
-      "summary": "企业智能 #相关型号，大语言模型呼吁借助。物体大语言模型作为在检索增强生成检索: 正确借助首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     }
   ]
