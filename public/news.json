@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-07-03T23:49:47.723Z",
+  "generatedAt": "2026-07-04T04:05:33.335Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-04T00:00:00.000Z",
+  "nextUpdateHint": "2026-07-04T04:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-03T23:49:18.000Z"
+    "latestPublishedAt": "2026-07-04T03:51:05.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 78,
+      "count": 76,
       "heat": 77
     },
     {
       "name": "模型发布",
       "count": 48,
-      "heat": 81
+      "heat": 80
     },
     {
       "name": "监管安全",
-      "count": 33,
-      "heat": 83
+      "count": 31,
+      "heat": 82
     },
     {
       "name": "算力芯片",
-      "count": 27,
-      "heat": 81
+      "count": 26,
+      "heat": 82
     },
     {
       "name": "研究论文",
-      "count": 22,
-      "heat": 79
-    },
-    {
-      "name": "人工智能动态",
       "count": 23,
-      "heat": 67
+      "heat": 76
     },
     {
       "name": "多模态",
       "count": 19,
       "heat": 81
+    },
+    {
+      "name": "人工智能动态",
+      "count": 23,
+      "heat": 66
     },
     {
       "name": "投融资",
@@ -53,18 +53,18 @@
     },
     {
       "name": "开源生态",
-      "count": 13,
-      "heat": 66
+      "count": 14,
+      "heat": 63
     },
     {
       "name": "端侧智能",
       "count": 8,
-      "heat": 87
+      "heat": 86
     },
     {
       "name": "机器人",
-      "count": 6,
-      "heat": 74
+      "count": 7,
+      "heat": 69
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-06-30T16:00:00.000Z",
-      "latestDisplayedAt": "2026-06-30T16:00:00.000Z"
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-06-11T19:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-07-03T06:21:44.000Z",
@@ -332,10 +332,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-07-03T23:49:18.000Z",
       "latestDisplayedAt": "2026-07-03T23:49:18.000Z"
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-07-03T14:28:38.000Z",
       "latestDisplayedAt": "2026-07-03T14:28:38.000Z"
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 19,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 10,
       "displayedCount": 10,
       "latestFetchedAt": "2026-07-03T14:16:00.000Z",
       "latestDisplayedAt": "2026-07-03T14:16:00.000Z"
@@ -432,9 +432,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 11,
-      "displayedCount": 10,
-      "latestFetchedAt": "2026-07-03T12:28:30.000Z",
-      "latestDisplayedAt": "2026-07-03T12:28:30.000Z"
+      "displayedCount": 11,
+      "latestFetchedAt": "2026-07-04T03:51:05.000Z",
+      "latestDisplayedAt": "2026-07-04T03:51:05.000Z"
     },
     {
       "id": "ithome",
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 22,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 11,
       "displayedCount": 11,
       "latestFetchedAt": "2026-07-03T23:37:35.000Z",
       "latestDisplayedAt": "2026-07-03T23:37:35.000Z"
@@ -464,9 +464,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 10,
+      "displayedCount": 12,
       "latestFetchedAt": "2026-07-03T08:53:30.000Z",
-      "latestDisplayedAt": "2026-07-03T08:53:30.000Z"
+      "latestDisplayedAt": "2026-07-03T07:52:48.000Z"
     },
     {
       "id": "cnblogs-news",
@@ -487,6 +487,22 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "thirty-six-kr-千问智能体功能与服务将于7月15日正式下线",
+      "title": "千问智能体功能与服务将于7月15日正式下线",
+      "url": "https://36kr.com/newsflashes/3880777666703621?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-04T03:51:05.000Z",
+      "summary": "据千问平台消息，千问智能体功能与服务将于2026年7月15日正式下线，下线后，用户将无法继续访问相关智能体配置及历史对话记录。（21经济网）",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 96,
+      "image": ""
+    },
     {
       "id": "reddit-artificial-人工智能安全公司-大语言模型",
       "title": "人工智能安全公司，大语言模型。",
@@ -535,7 +551,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 95,
       "image": ""
     },
     {
@@ -551,7 +567,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 88,
       "image": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg"
     },
     {
@@ -567,7 +583,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 79,
       "image": ""
     },
     {
@@ -618,43 +634,23 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-400家聚集-阿斯利康重押13亿欧元-创新药出海欧洲绕不开这座城-最前线",
-      "title": "400家聚集、阿斯利康重押13亿欧元，创新药出海欧洲绕不开这座城｜最前线",
-      "url": "https://36kr.com/p/3879807100023040?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T12:28:30.000Z",
-      "summary": "文｜胡香赟编辑｜海若镜 2026年6月底，西班牙瓦尔德希伯伦大学医院（ ’ ）宣布完成欧洲首例单孔机器人儿科肾输尿管切除术。瓦尔德希伯伦大学医院是西班牙规模最大的综合医院之一，年接诊量过百万人次，在整个欧洲医疗系统内，这家医院对前沿医疗技术、产品的探索都称得上“先锋”。此前，世界首例供体来自安乐死患者的面部移植手术就在这里完成。本次，医院方面对36氪表示，支持完成这场“有里程……",
-      "topics": [
-        "监管安全",
-        "研究论文",
-        "投融资"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "oschina-阿里内部全面禁用克劳德模型代码",
-      "title": "阿里内部全面禁用克劳德模型代码",
-      "url": "https://www.oschina.net/news/471471",
+      "id": "oschina-抢位开造-7-计划-苏州相关型号创客松",
+      "title": "🔥🔥抢位开造 |「7%计划」苏州相关型号创客松",
+      "url": "https://www.oschina.net/news/471467",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-03T08:53:30.000Z",
-      "summary": "智东西消息称阿里巴巴内部宣布反向禁用克劳德模型。阿里全员被要求卸载人工智能安全公司相关产品，包括、旗舰模型、等多个系列模型，以及克劳德模型代码在内的智能体产品。禁令于7月10日正式生效。据消息人士透露，自今年初以来，阿里内部为鼓励员工采用人工智能技术，不仅推出内部模型免费额度，还对外部模型使用实行大额报销政策。",
+      "publishedAt": "2026-07-03T07:52:48.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "端侧智能"
       ],
-      "heat": 92,
+      "heat": 70,
       "image": ""
     },
     {
@@ -671,7 +667,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 82,
       "image": ""
     },
     {
@@ -704,7 +700,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 70,
+      "heat": 67,
       "image": ""
     },
     {
@@ -721,7 +717,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 76,
+      "heat": 72,
       "image": ""
     },
     {
@@ -737,7 +733,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 63,
       "image": ""
     },
     {
@@ -755,7 +751,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 80,
       "image": ""
     },
     {
@@ -773,7 +769,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 75,
+      "heat": 71,
       "image": ""
     },
     {
@@ -789,7 +785,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 59,
       "image": ""
     },
     {
@@ -807,7 +803,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 73,
+      "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2025/03/nvendeavor-1.jpg"
     },
     {
@@ -840,22 +836,6 @@
         "开源生态"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-向-构建-和云服务基础设施面向-术语成本",
-      "title": ": 向，构建，和云服务基础设施面向，术语成本",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-30T16:00:00.000Z",
-      "summary": "作为组织基础设施，构建云服务，和规模人工智能，成本云服务。: 向，构建，和云服务基础设施面向，术语成本首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
       "image": ""
     },
     {
@@ -910,6 +890,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-对话傲鲨创始人徐振华-当科幻机甲成为户外装备-外骨骼如何重新定义人机关系",
+      "title": "对话傲鲨创始人徐振华：当科幻机甲成为户外装备，外骨骼如何重新定义人机关系？",
+      "url": "https://36kr.com/p/3880770270425089?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-04T03:25:22.000Z",
+      "summary": "《流浪地球2》与游戏《死亡搁浅》中，主角身穿外骨骼行走的人类未来图景，正在成为户外爱好者的真实装备。7月4日，阳澄湖半岛度假区，十几个人身穿“机甲”在湖畔徒步。他们穿的是傲鲨增程动力外骨骼机器人，走几步后很快步伐变得轻盈，这是外骨骼通过学习他们的行走姿态，在抬腿瞬间加上一定推力，使6公里的徒步体验更像一次悠闲的。当天的机甲徒步活动由傲鲨联合户外平台一帐之地共同策划，路线串联沿……",
+      "topics": [
+        "产品应用",
+        "投融资",
+        "多模态"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
       "url": "https://www.reddit.com/r/artificial/comments/1umtrl3/orbis/",
@@ -959,7 +957,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -977,7 +975,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 87,
       "image": ""
     },
     {
@@ -999,22 +997,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-生数科技正式发布相关型号实时交互模型",
-      "title": "生数科技正式发布相关型号实时交互模型",
-      "url": "https://36kr.com/newsflashes/3879857819201798?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T11:55:28.000Z",
-      "summary": "36氪获悉，生数科技正式发布相关型号实时交互模型，提供实时可交互的新一代视频生成能力，模型支持实时视频通话和语音控制视频走向。同时，相关型号支持相关型号（相关型号）高清分辨率、相关型号帧率（最高支持相关型号），可基于真人、动漫、萌宠等任意初始形象及个性化音色，快速创建专属交互角色。",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
       "title": "前沿科技媒体人工智能发布人工智能相关动态。",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
@@ -1028,7 +1010,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1048,22 +1030,6 @@
       "image": ""
     },
     {
-      "id": "oschina-抢位开造-7-计划-苏州相关型号创客松",
-      "title": "🔥🔥抢位开造 |「7%计划」苏州相关型号创客松",
-      "url": "https://www.oschina.net/news/471467",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T07:52:48.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 73,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-词元支出回落近20-人工智能行业定价权承压-大厂万亿资本开支面临考验",
       "title": "词元支出回落近20%：人工智能行业定价权承压，大厂万亿资本开支面临考验",
       "url": "https://news.cnblogs.com/n/828070/",
@@ -1076,7 +1042,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 68,
+      "image": ""
+    },
+    {
+      "id": "oschina-开放人工智能公司提议向-美国政府-出让约-5-股权",
+      "title": "开放人工智能公司提议向‌美国政府‌出让约‌ 5% 股权",
+      "url": "https://www.oschina.net/news/471464/openai-proposed-donating-5-of-its-equity-us",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T06:57:49.000Z",
+      "summary": "据《金融时报》援引两位知情人士报道称，开放人工智能公司首席执行官提议将公司 5% 的股权捐赠给一家美国主权财富基金。根据该提议，其他人工智能公司也将捐赠类似股份，但具体细节仍存在诸多疑问。这笔捐款旨在“确保与政府保持良好关系，并……应对政治反弹”。据悉，六月份曾报道过类似的讨论，随后美国总统特。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 77,
       "image": ""
     },
     {
@@ -1094,7 +1076,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1110,7 +1092,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 61,
       "image": "https://media.wired.com/photos/6a467843a501cf42d472ee3c/master/pass/GettyImages-2277135438.jpg"
     },
     {
@@ -1128,7 +1110,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1146,7 +1128,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1163,7 +1145,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 65,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1179,7 +1161,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 49,
+      "heat": 45,
       "image": ""
     },
     {
@@ -1250,21 +1232,19 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-克劳德模型在微软可用",
-      "title": "克劳德模型在微软可用",
-      "url": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
+      "id": "thirty-six-kr-4-纳米近售罄-部分8-纳米接近满载三星晶圆代工开始选择性接单",
+      "title": "4 纳米近售罄、部分8 纳米接近满载三星晶圆代工开始选择性接单",
+      "url": "https://36kr.com/newsflashes/3880717381382148?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-06-29T17:00:00.000Z",
-      "summary": "克劳德模型在微软可用，在，和在英伟达，团队更快来自智能体向。克劳德模型在微软可用首个在微软。",
+      "publishedAt": "2026-07-04T03:16:30.000Z",
+      "summary": "据报道，业内人士称，随着人工智能半导体需求升温、全球大型科技公司订单增加，三星电子晶圆代工部门已针对部分制程启动配额机制（），将有限产能集中分配给较重要的客户和制程，将产能优先分配给现有客户，新客户订单则选择性承接。（新浪财经）",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1318,23 +1298,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-鹏鼎控股-拟定增募资不超96亿元-用于庆鼎人工智能服务器和高速光模块高密度互连积层板项目",
-      "title": "鹏鼎控股：拟定增募资不超96亿元，用于庆鼎人工智能服务器和高速光模块高密度互连积层板项目",
-      "url": "https://36kr.com/newsflashes/3879823039901697?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T11:20:05.000Z",
-      "summary": "36氪获悉，鹏鼎控股公告，公司拟向特定对象发行股票募资不超过96亿元，扣除发行费用后用于庆鼎人工智能服务器和高速光模块高密度互连积层板项目。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 78,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1385,23 +1349,24 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 77,
+      "heat": 73,
       "image": ""
     },
     {
-      "id": "oschina-开放人工智能公司提议向-美国政府-出让约-5-股权",
-      "title": "开放人工智能公司提议向‌美国政府‌出让约‌ 5% 股权",
-      "url": "https://www.oschina.net/news/471464/openai-proposed-donating-5-of-its-equity-us",
+      "id": "oschina-微软面向人工智能电脑的智能副驾操作系统曝光-取消了开始菜单",
+      "title": "微软面向人工智能电脑的智能副驾操作系统曝光，取消了开始菜单",
+      "url": "https://www.oschina.net/news/471458",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-03T06:57:49.000Z",
-      "summary": "据《金融时报》援引两位知情人士报道称，开放人工智能公司首席执行官提议将公司 5% 的股权捐赠给一家美国主权财富基金。根据该提议，其他人工智能公司也将捐赠类似股份，但具体细节仍存在诸多疑问。这笔捐款旨在“确保与政府保持良好关系，并……应对政治反弹”。据悉，六月份曾报道过类似的讨论，随后美国总统特。",
+      "publishedAt": "2026-07-03T03:21:54.000Z",
+      "summary": "微软一款此前处于保密状态的全新操作系统遭到了外界曝光。这款在内部被称为“ ”的系统，彻底颠覆了人们对传统视窗系统系统的认知。该系统完全基于微软浏览器和轻量化的网页技术代码库构建，是微软专门为人工智能时代量身定制的先锋产品。在中，传统的“开始菜单”和繁杂的桌面图标。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 80,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1418,7 +1383,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 73,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1435,7 +1400,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 77,
+      "heat": 73,
       "image": "https://media.wired.com/photos/6a45a0b0f1efb2d48b192c77/master/pass/Model-Behavior-Cursor-Will-Keep-Using-Anthropic-OpenAI-Models-After-SpaceX-Deal-Business.jpg"
     },
     {
@@ -1453,7 +1418,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1470,7 +1435,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 70,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1487,7 +1452,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1503,7 +1468,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1575,23 +1540,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp"
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/accelerate-modern-linux-workloads-with-azure-files/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-29T15:00:00.000Z",
-      "summary": "访问借助构建，在性能，数据，安全，和服务。加速借助首个在微软。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "openai-news-推出战略借助开放人工智能公司",
       "title": "推出战略借助开放人工智能公司",
       "url": "https://openai.com/index/hp-frontier-partnership",
@@ -1605,6 +1553,22 @@
         "人工智能动态"
       ],
       "heat": 63,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-豆包-智能体功能将于7月15日下线",
+      "title": "豆包：智能体功能将于7月15日下线",
+      "url": "https://36kr.com/newsflashes/3880708060901641?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-04T02:26:10.000Z",
+      "summary": "36氪获悉，据豆包平台消息，由于产品功能调整，智能体功能将于2026年7月15日下线。功能下线后，用户仍可在一段时间内通过豆包查看并自行保存智能体信息及历史对话数据。2026年10月15日后，豆包将根据《隐私政策》对智能体相关数据进行处理，后续将无法在豆包内查看或恢复。如有重要内容，建议通过截图或分享导出文本的方式提前完成备份。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -1657,25 +1621,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-秋声-袁进辉新公司冲港股首次公开募股-成立不到三年",
-      "title": "秋声，袁进辉新公司冲港股首次公开募股，成立不到三年",
-      "url": "https://36kr.com/p/3879814941437956?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T11:12:32.000Z",
-      "summary": "本文约2700字，建议阅读6分钟作者，彭孝秋编者按：人工智能大爆发之际，越来越多公司走向资本市场。每一份招股书翻动的声音里，都藏着一家公司想说与未曾明说的全部。鉴于此，硬氪特推出「秋声」专栏。秋声取自欧阳修《秋声赋》，借“听秋声”之意，产业冷暖，辨公司成色，记录企业冲刺首次公开募股途中那些被写下与被隐藏的真实。这是我们第七期，硅基流动。相关型号的最后一天，硅基流动向港交所递交……",
-      "topics": [
-        "模型发布",
-        "算力芯片",
-        "研究论文"
-      ],
-      "heat": 95,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1709,7 +1655,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1731,20 +1677,19 @@
       "image": ""
     },
     {
-      "id": "oschina-微软面向人工智能电脑的智能副驾操作系统曝光-取消了开始菜单",
-      "title": "微软面向人工智能电脑的智能副驾操作系统曝光，取消了开始菜单",
-      "url": "https://www.oschina.net/news/471458",
+      "id": "oschina-人工智能优化性能-第1代-2-5-发布",
+      "title": "人工智能优化性能，第1代.2.5 发布",
+      "url": "https://www.oschina.net/news/471455/gpress-1-2-5-released",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-03T03:21:54.000Z",
-      "summary": "微软一款此前处于保密状态的全新操作系统遭到了外界曝光。这款在内部被称为“ ”的系统，彻底颠覆了人们对传统视窗系统系统的认知。该系统完全基于微软浏览器和轻量化的网页技术代码库构建，是微软专门为人工智能时代量身定制的先锋产品。在中，传统的“开始菜单”和繁杂的桌面图标。",
+      "publishedAt": "2026-07-03T02:52:31.000Z",
+      "summary": "是相关型号内容平台，+ + 相关型号全文检索，支持以太坊和百度超级链，兼容、生态，使用扩展插件，只需 200 百万内存。作为静态站点：生成的静态文件和一致，也可以简单认为是的后台管理，兼容主题生态，已迁移多款主题:。",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1761,7 +1706,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 71,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1779,7 +1724,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1795,7 +1740,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 60,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1885,6 +1830,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-9点1氪-阿里内部全面禁用克劳德模型代码-洛杉矶总部人去楼空-公司回应-不实-微软砸25亿美元组建6000人人工智能新公司",
+      "title": "9点1氪｜阿里内部全面禁用克劳德模型代码；洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人人工智能新公司",
+      "url": "https://36kr.com/p/3880629882679301?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-04T01:03:44.000Z",
+      "summary": "今日热点导览三部门：调整节能汽车、新能源汽车车船税优惠政策三星传获元宇宙平台公司超10万亿韩元人工智能芯片代工订单茉莉奶白小程序更换彩色元宇宙平台公司打算出售富余算力引发科技股回落英伟达前光互连技术高管加入艾迈斯欧司朗相关型号大新闻因存在植入后门风险，阿里内部全面禁用克劳德模型代码 36氪从阿里内部人士处获悉，因近期克劳德模型代码被曝存在植入后门的安全风险，阿里经综合评估后已……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-为什么和向智能体-和使用本地向修复信息技术",
       "title": "为什么和向智能体，和使用本地向修复信息技术",
       "url": "https://www.reddit.com/r/artificial/comments/1umqf8p/why_system_prompts_and_rlhf_fail_to_prevent_agent/",
@@ -1935,25 +1898,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-氪星晚报-西贝餐饮集团退出小女当家-洛杉矶总部人去楼空-公司回应-不实",
-      "title": "氪星晚报｜西贝餐饮集团退出小女当家；洛杉矶总部人去楼空？公司回应：不实",
-      "url": "https://36kr.com/p/3879796756754694?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T10:55:45.000Z",
-      "summary": "大公司：德银：元宇宙平台公司云业务或打开千亿美元级人工智能投入变现通道，2027年收入最高增300亿美元针对元宇宙平台公司拟向外部客户出售人工智能算力及模型访问权限的消息，德意志银行认为，这并不意味着元宇宙平台公司削弱前沿模型或“超级智能”布局，而更可能是将较旧、非核心或阶段性闲置的算力对外变现，同时保留最新一代芯片用于内部训练。此举有望把市场对元宇宙平台公司“高资本开支、收……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
-      ],
-      "heat": 95,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2003,23 +1948,23 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 79,
+      "heat": 76,
       "image": ""
     },
     {
-      "id": "oschina-人工智能优化性能-第1代-2-5-发布",
-      "title": "人工智能优化性能，第1代.2.5 发布",
-      "url": "https://www.oschina.net/news/471455/gpress-1-2-5-released",
+      "id": "oschina-特斯拉将员工每周人工智能支出上限定为-200-美元",
+      "title": "特斯拉将员工每周人工智能支出上限定为 200 美元",
+      "url": "https://www.oschina.net/news/471453",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-03T02:52:31.000Z",
-      "summary": "是相关型号内容平台，+ + 相关型号全文检索，支持以太坊和百度超级链，兼容、生态，使用扩展插件，只需 200 百万内存。作为静态站点：生成的静态文件和一致，也可以简单认为是的后台管理，兼容主题生态，已迁移多款主题:。",
+      "publishedAt": "2026-07-03T02:37:14.000Z",
+      "summary": "报道称，据一份内部备忘录显示，在号召员工积极使用人工智能工具数月后，特斯拉也出台了一项成本限制策略。该公司上月告知全体员工，自 7 月 6 日起将员工的人工智能使用支出上限设定为每周 200 美元。曾接触过特斯拉技术的人士透露，过去六个月里，特斯拉管理层致力于将员工分散的人工智能使用方式转变为全公司范围。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2036,7 +1981,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 69,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2159,6 +2104,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-400家聚集-阿斯利康重押13亿欧元-创新药出海欧洲绕不开这座城-最前线",
+      "title": "400家聚集、阿斯利康重押13亿欧元，创新药出海欧洲绕不开这座城｜最前线",
+      "url": "https://36kr.com/p/3879807100023040?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T12:28:30.000Z",
+      "summary": "文｜胡香赟编辑｜海若镜 2026年6月底，西班牙瓦尔德希伯伦大学医院（ ’ ）宣布完成欧洲首例单孔机器人儿科肾输尿管切除术。瓦尔德希伯伦大学医院是西班牙规模最大的综合医院之一，年接诊量过百万人次，在整个欧洲医疗系统内，这家医院对前沿医疗技术、产品的探索都称得上“先锋”。此前，世界首例供体来自安乐死患者的面部移植手术就在这里完成。本次，医院方面对36氪表示，支持完成这场“有里程……",
+      "topics": [
+        "监管安全",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "the-decoder-元宇宙平台公司人工智能智能体",
       "title": "元宇宙平台公司人工智能智能体",
       "url": "https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/",
@@ -2171,25 +2134,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-理想组织再动刀-去中间环节-整车和智驾产品回归研发-36氪独家",
-      "title": "理想组织再动刀：去中间环节，整车和智驾产品回归研发｜36氪独家",
-      "url": "https://36kr.com/p/3877919172047111?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T10:45:12.000Z",
-      "summary": "图源视觉中国文｜肖漫编辑｜李勤、杨轩 “回归创业状态”，去年李想说出这个目标后，理想汽车还在进行组织和流程精简。36氪汽车从多位知情人士处获悉，理想即将围绕产品决策流程进行新一轮组织架构调整，计划将产品部的部分关键职能拆分，并入研发部门。从群组关系来看，理想汽车产品部由范皓宇负责，包含电动本体、空间智能、自动驾驶终端产品、交互设计、平台运营、应用与官网等。了解调整动向的人士向……",
-      "topics": [
-        "产品应用",
-        "端侧智能",
-        "机器人"
-      ],
-      "heat": 87,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2207,7 +2152,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2245,19 +2190,20 @@
       "image": ""
     },
     {
-      "id": "oschina-特斯拉将员工每周人工智能支出上限定为-200-美元",
-      "title": "特斯拉将员工每周人工智能支出上限定为 200 美元",
-      "url": "https://www.oschina.net/news/471453",
+      "id": "oschina-开源中国发布人工智能相关动态",
+      "title": "开源中国发布人工智能相关动态。",
+      "url": "https://www.oschina.net/news/471451/php-8-5-8-released",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-03T02:37:14.000Z",
-      "summary": "报道称，据一份内部备忘录显示，在号召员工积极使用人工智能工具数月后，特斯拉也出台了一项成本限制策略。该公司上月告知全体员工，自 7 月 6 日起将员工的人工智能使用支出上限设定为每周 200 美元。曾接触过特斯拉技术的人士透露，过去六个月里，特斯拉管理层致力于将员工分散的人工智能使用方式转变为全公司范围。",
+      "publishedAt": "2026-07-03T02:15:38.000Z",
+      "summary": "8.5.8 现已发布，这是一个安全更新版本。建议所有 8.5 用户升级到此版本：修复了相关型号（跳转到 / 块之前的标签的编译错误不正确）。修复了相关型号（在将强制转换为或时，错误处理程序抛出断言）：修复了 () 和 \\::() 中。",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "开源生态"
       ],
-      "heat": 69,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2274,7 +2220,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 63,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2362,6 +2308,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-秋声-袁进辉新公司冲港股首次公开募股-成立不到三年",
+      "title": "秋声，袁进辉新公司冲港股首次公开募股，成立不到三年",
+      "url": "https://36kr.com/p/3879814941437956?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T11:12:32.000Z",
+      "summary": "本文约2700字，建议阅读6分钟作者，彭孝秋编者按：人工智能大爆发之际，越来越多公司走向资本市场。每一份招股书翻动的声音里，都藏着一家公司想说与未曾明说的全部。鉴于此，硬氪特推出「秋声」专栏。秋声取自欧阳修《秋声赋》，借“听秋声”之意，产业冷暖，辨公司成色，记录企业冲刺首次公开募股途中那些被写下与被隐藏的真实。这是我们第七期，硅基流动。相关型号的最后一天，硅基流动向港交所递交……",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "研究论文"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "the-decoder-特斯拉员工人工智能在-200",
       "title": "特斯拉员工人工智能在 $200",
       "url": "https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/",
@@ -2374,7 +2338,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2392,7 +2356,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2412,38 +2376,20 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪首发-获宁德时代旗下基金领投数千万美元-智能出行公司上市首月已成印尼电摩品类订单第一",
-      "title": "36氪首发，获宁德时代旗下基金领投数千万美元，智能出行公司上市首月已成印尼电摩品类订单第一",
-      "url": "https://36kr.com/p/3877990989819909?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T02:26:11.000Z",
-      "summary": "作者，张子怡编辑，袁斯来硬氪获悉，智能两轮出行企业「」（目蔚科技）近期连续完成第一轮融资和+轮融资，单轮融资金额均为数千万美元。其中，+轮由宁德时代支持设立的美元基金领投，第一轮融资由领投，中金资本旗下基金及老股东真格基金跟投。成立不到两年时间，已获得数轮融资。截至目前，其股东阵容包含红杉、真格、中金等头部财务投资机构，还包括、星航资本（小鹏系基金）、惠友资本（比亚迪联创设立……",
-      "topics": [
-        "监管安全",
-        "投融资",
-        "机器人"
-      ],
-      "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "oschina-开源中国发布人工智能相关动态",
-      "title": "开源中国发布人工智能相关动态。",
-      "url": "https://www.oschina.net/news/471451/php-8-5-8-released",
+      "id": "oschina-月之暗面相关型号代码上线代码托管平台智能副驾-模型选择器首次纳入开放权重模型",
+      "title": "月之暗面相关型号代码上线代码托管平台智能副驾，模型选择器首次纳入开放权重模型",
+      "url": "https://www.oschina.net/news/471446/kimi-k2-7-is-now-available-in-github-copilot",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-03T02:15:38.000Z",
-      "summary": "8.5.8 现已发布，这是一个安全更新版本。建议所有 8.5 用户升级到此版本：修复了相关型号（跳转到 / 块之前的标签的编译错误不正确）。修复了相关型号（在将强制转换为或时，错误处理程序抛出断言）：修复了 () 和 \\::() 中。",
+      "publishedAt": "2026-07-02T11:23:47.000Z",
+      "summary": "7 月 1 日，代码托管平台正式在智能副驾中上线了月之暗面相关型号代码，这是智能副驾模型选择器中首次出现开放权重（）模型。该模型由代码托管平台托管在微软上，按用量计费，首批面向智能副驾专业版、专业版+ 和旗舰版订阅用户推出，和将在未来几周内开放。代码托管平台在变更日志中特别强调，对。",
       "topics": [
-        "监管安全",
+        "产品应用",
         "开源生态"
       ],
-      "heat": 73,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2568,6 +2514,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-氪星晚报-西贝餐饮集团退出小女当家-洛杉矶总部人去楼空-公司回应-不实",
+      "title": "氪星晚报｜西贝餐饮集团退出小女当家；洛杉矶总部人去楼空？公司回应：不实",
+      "url": "https://36kr.com/p/3879796756754694?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T10:55:45.000Z",
+      "summary": "大公司：德银：元宇宙平台公司云业务或打开千亿美元级人工智能投入变现通道，2027年收入最高增300亿美元针对元宇宙平台公司拟向外部客户出售人工智能算力及模型访问权限的消息，德意志银行认为，这并不意味着元宇宙平台公司削弱前沿模型或“超级智能”布局，而更可能是将较旧、非核心或阶段性闲置的算力对外变现，同时保留最新一代芯片用于内部训练。此举有望把市场对元宇宙平台公司“高资本开支、收……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "the-decoder-中国人工智能视频-2-十亿作为信息技术面向首次公开募股",
       "title": "中国人工智能视频 $2 十亿作为信息技术面向首次公开募股",
       "url": "https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/",
@@ -2582,7 +2546,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 87,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2598,42 +2562,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 71,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-8点1氪丨-具身智能第一股-宇树科技上市申请通过-海力士单日市值蒸发10000亿元-配置失误引发0元抢购潮-霸王茶姬致歉",
-      "title": "8点1氪丨“具身智能第一股” 宇树科技上市申请通过；海力士单日市值蒸发10000亿元；配置失误引发0元抢购潮，霸王茶姬致歉",
-      "url": "https://36kr.com/p/3879158039834629?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-03T00:06:38.000Z",
-      "summary": "今日热点导览苹果拟于今明两年推出至少五款新苹果手机人工智能版支付宝开放公测，上线72项办事技能特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱起诉茉莉奶白，茉莉奶白被判赔1030万元 6月赴日航班取消1488个安克创新港股上市首日破发相关型号大新闻证监会同意宇树科技科创板首次公开募股注册 7月2日，证监会网站显示，同意宇树科技首次公开发行股票注册。这意味着，全球首家在首次公……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "oschina-月之暗面相关型号代码上线代码托管平台智能副驾-模型选择器首次纳入开放权重模型",
-      "title": "月之暗面相关型号代码上线代码托管平台智能副驾，模型选择器首次纳入开放权重模型",
-      "url": "https://www.oschina.net/news/471446/kimi-k2-7-is-now-available-in-github-copilot",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-02T11:23:47.000Z",
-      "summary": "7 月 1 日，代码托管平台正式在智能副驾中上线了月之暗面相关型号代码，这是智能副驾模型选择器中首次出现开放权重（）模型。该模型由代码托管平台托管在微软上，按用量计费，首批面向智能副驾专业版、专业版+ 和旗舰版订阅用户推出，和将在未来几周内开放。代码托管平台在变更日志中特别强调，对。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 69,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2652,6 +2581,23 @@
         "监管安全"
       ],
       "heat": 76,
+      "image": ""
+    },
+    {
+      "id": "oschina-基于后验采样的图像恢复方法-人脸去阴影-去雾",
+      "title": "基于后验采样的图像恢复方法：人脸去阴影、去雾",
+      "url": "https://my.oschina.net/vivotech/blog/19715714",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-02T10:28:46.000Z",
+      "summary": "真实场景图像复原因复杂异质退化而极具挑战，现有扩散模型方法存在保真度不足、误差累积或依赖未知前向算子等问题。本文提出，通过训练轻量网络预测梯度校正分布，实现无需前向算子的扩散后验采样校正；并设计动态分辨率模块，进一步抑制噪声。在多个图像复原基准上，的、均达到先进水。",
+      "topics": [
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 56,
       "image": ""
     },
     {
@@ -2689,6 +2635,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-理想组织再动刀-去中间环节-整车和智驾产品回归研发-36氪独家",
+      "title": "理想组织再动刀：去中间环节，整车和智驾产品回归研发｜36氪独家",
+      "url": "https://36kr.com/p/3877919172047111?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T10:45:12.000Z",
+      "summary": "图源视觉中国文｜肖漫编辑｜李勤、杨轩 “回归创业状态”，去年李想说出这个目标后，理想汽车还在进行组织和流程精简。36氪汽车从多位知情人士处获悉，理想即将围绕产品决策流程进行新一轮组织架构调整，计划将产品部的部分关键职能拆分，并入研发部门。从群组关系来看，理想汽车产品部由范皓宇负责，包含电动本体、空间智能、自动驾驶终端产品、交互设计、平台运营、应用与官网等。了解调整动向的人士向……",
+      "topics": [
+        "产品应用",
+        "端侧智能",
+        "机器人"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-被外媒盯上-中国模型公司开始抢人工智能编程入口",
       "title": "被外媒盯上，中国模型公司开始抢人工智能编程入口",
       "url": "https://news.cnblogs.com/n/828058/",
@@ -2701,7 +2665,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2719,25 +2683,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-氪星晚报-证监会同意宇树科技科创板首次公开募股注册-元宇宙平台公司-带崩-科技股-业内人士-算力过剩系误读",
-      "title": "氪星晚报｜证监会同意宇树科技科创板首次公开募股注册；元宇宙平台公司“带崩”科技股？业内人士：算力过剩系误读",
-      "url": "https://36kr.com/p/3878550357946625?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-02T14:16:31.000Z",
-      "summary": "大公司：奥飞娱乐：上半年净利润同比预增305.30%—413.38% 36氪获悉，奥飞娱乐发布2026年半年度业绩预告，预计2026年上半年归属于上市公司股东的净利润为1.5亿元—1.9亿元，比上年同期增长305.30%—413.38%。雀巢称消费者因价格压力避开中等包装产品雀巢表示，在美国消费者专注于产品可负担性、购买者纷纷转向大包装或经济型包装而避开中等规格产品的背景下，……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 70,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2759,20 +2705,19 @@
       "image": ""
     },
     {
-      "id": "oschina-基于后验采样的图像恢复方法-人脸去阴影-去雾",
-      "title": "基于后验采样的图像恢复方法：人脸去阴影、去雾",
-      "url": "https://my.oschina.net/vivotech/blog/19715714",
+      "id": "oschina-人工智能第4代-0-3-发布-智能体开发框架-兼容相关型号到相关型号",
+      "title": ":: 人工智能第4代.0.3 发布（智能体开发框架，兼容相关型号到相关型号）",
+      "url": "https://www.oschina.net/news/471436",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-02T10:28:46.000Z",
-      "summary": "真实场景图像复原因复杂异质退化而极具挑战，现有扩散模型方法存在保真度不足、误差累积或依赖未知前向算子等问题。本文提出，通过训练轻量网络预测梯度校正分布，实现无需前向算子的扩散后验采样校正；并设计动态分辨率模块，进一步抑制噪声。在多个图像复原基准上，的、均达到先进水。",
+      "publishedAt": "2026-07-02T08:46:07.000Z",
+      "summary": "人工智能人工智能是一款面向开发者的全栈智能体（智能体）应用开发框架。它秉承家族一贯的“克制、高效、开放”理念，向上抽象统一接口屏蔽模型差异，向下深度集成向量库、协议与复杂流控制。核心理念：一份代码，跨模型运行；极致轻量，从 8 纵跳至 26。核心架构图谱：维度核心能力。",
       "topics": [
-        "研究论文",
-        "多模态"
+        "产品应用"
       ],
-      "heat": 60,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2792,6 +2737,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-36氪首发-获宁德时代旗下基金领投数千万美元-智能出行公司上市首月已成印尼电摩品类订单第一",
+      "title": "36氪首发，获宁德时代旗下基金领投数千万美元，智能出行公司上市首月已成印尼电摩品类订单第一",
+      "url": "https://36kr.com/p/3877990989819909?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T02:26:11.000Z",
+      "summary": "作者，张子怡编辑，袁斯来硬氪获悉，智能两轮出行企业「」（目蔚科技）近期连续完成第一轮融资和+轮融资，单轮融资金额均为数千万美元。其中，+轮由宁德时代支持设立的美元基金领投，第一轮融资由领投，中金资本旗下基金及老股东真格基金跟投。成立不到两年时间，已获得数轮融资。截至目前，其股东阵容包含红杉、真格、中金等头部财务投资机构，还包括、星航资本（小鹏系基金）、惠友资本（比亚迪联创设立……",
+      "topics": [
+        "监管安全",
+        "投融资",
+        "机器人"
+      ],
+      "heat": 76,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能安全公司据报道探索芯片借助英伟达",
       "title": "人工智能安全公司据报道探索芯片借助英伟达",
       "url": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/",
@@ -2806,25 +2769,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-谁能想到-系统流-爽文-最先被人工智能智能体实现了",
-      "title": "谁能想到，系统流「爽文」最先被人工智能智能体实现了",
-      "url": "https://36kr.com/p/3878522627518471?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-02T13:22:24.000Z",
-      "summary": "撰文｜深海网文里的“系统流”，被拍成了职场短剧千禧年初的网文圈，有三大经典题材在爽文届立于不败之地：无限流、快穿流、系统流。这三大爽文战神体横空出世时，对界几乎是降维打击。当传统小说还在费劲搭世界观、铺人物成长弧光时，系统流已经绕过漫长的发育过程，直接把爽感推到最大。系统，这个堪称的存在，无论主角进入什么样的世界副本，面对不同的任务、危机和奖励，它总会尽职尽责地当好一个无情的……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 77,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2846,17 +2791,18 @@
       "image": ""
     },
     {
-      "id": "oschina-人工智能第4代-0-3-发布-智能体开发框架-兼容相关型号到相关型号",
-      "title": ":: 人工智能第4代.0.3 发布（智能体开发框架，兼容相关型号到相关型号）",
-      "url": "https://www.oschina.net/news/471436",
+      "id": "oschina-报告-中国具身智能市场规模年均复合增长率-22-至-23",
+      "title": "报告：中国具身智能市场规模年均复合增长率 22% 至 23%",
+      "url": "https://www.oschina.net/news/471428",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-02T08:46:07.000Z",
-      "summary": "人工智能人工智能是一款面向开发者的全栈智能体（智能体）应用开发框架。它秉承家族一贯的“克制、高效、开放”理念，向上抽象统一接口屏蔽模型差异，向下深度集成向量库、协议与复杂流控制。核心理念：一份代码，跨模型运行；极致轻量，从 8 纵跳至 26。核心架构图谱：维度核心能力。",
+      "publishedAt": "2026-07-02T07:32:09.000Z",
+      "summary": "《中国具身智能产业发展报告(2026)》2日在上海发布。该报告称，中国已成为全球增长最快的具身智能市场之一，据多家研究机构测算，中国具身智能市场规模从2018年的约2133亿元人民币到2026年预计的1.09万亿元，年均复合增长率为22%至23%。当日，在2026上海国际具身智能产业博览会(相关型号)开幕式上，中国机电一体化技术应。",
       "topics": [
-        "产品应用"
+        "研究论文",
+        "机器人"
       ],
       "heat": 54,
       "image": ""
@@ -2877,6 +2823,58 @@
         "研究论文"
       ],
       "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-8点1氪丨-具身智能第一股-宇树科技上市申请通过-海力士单日市值蒸发10000亿元-配置失误引发0元抢购潮-霸王茶姬致歉",
+      "title": "8点1氪丨“具身智能第一股” 宇树科技上市申请通过；海力士单日市值蒸发10000亿元；配置失误引发0元抢购潮，霸王茶姬致歉",
+      "url": "https://36kr.com/p/3879158039834629?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T00:06:38.000Z",
+      "summary": "今日热点导览苹果拟于今明两年推出至少五款新苹果手机人工智能版支付宝开放公测，上线72项办事技能特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱起诉茉莉奶白，茉莉奶白被判赔1030万元 6月赴日航班取消1488个安克创新港股上市首日破发相关型号大新闻证监会同意宇树科技科创板首次公开募股注册 7月2日，证监会网站显示，同意宇树科技首次公开发行股票注册。这意味着，全球首家在首次公……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "oschina-人工智能安全公司正在移除克劳德模型代码用于检测中国用户的隐藏代码",
+      "title": "人工智能安全公司正在移除克劳德模型代码用于检测中国用户的隐藏代码",
+      "url": "https://www.oschina.net/news/471416/anthropic-removing-its-code-for-catching-chinese-competitors",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-02T07:17:01.000Z",
+      "summary": "克劳德模型代码的源代码里藏了一段代码，从 4 月 2 日到 7 月 1 日，它静静地运行了整整三个月——没有任何提到它，没有文档说明它，没有任何人被告知它的存在。社区论坛用户相关型号把它从二进制包里拆了出来。安全研究员随后发布了完整的逆向工程分析，覆盖第2代.1.193 到第2代.1.196 的。",
+      "topics": [
+        "模型发布",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 67,
+      "image": ""
+    },
+    {
+      "id": "oschina-拒绝编程-明确更严格的人工智能贡献政策",
+      "title": "拒绝编程，明确更严格的人工智能贡献政策",
+      "url": "https://www.oschina.net/news/471412",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-02T07:10:20.000Z",
+      "summary": "随着人工智能生成代码贡献数量的激增，使得原本就积压严重的的审查工作愈发繁重。负责开发开源游戏引擎的基金会宣布修订贡献者政策，采取措施以减轻维护者的负担，同时确保仍然有途径指导新的贡献者成为未来的维护者。新政策对人工智能贡献制定了更严格的要求，重点放在以下方面：鼓励新贡献者成为未来的维护者，包。",
+      "topics": [
+        "开源生态"
+      ],
+      "heat": 49,
       "image": ""
     }
   ]
