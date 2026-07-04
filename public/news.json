@@ -1,40 +1,45 @@
 {
-  "generatedAt": "2026-07-04T21:42:30.281Z",
+  "generatedAt": "2026-07-04T22:41:37.726Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-04T22:00:00.000Z",
+  "nextUpdateHint": "2026-07-04T23:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-04T20:55:25.000Z"
+    "latestPublishedAt": "2026-07-04T22:04:54.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 69,
-      "heat": 72
+      "count": 66,
+      "heat": 71
     },
     {
       "name": "模型发布",
-      "count": 47,
+      "count": 46,
       "heat": 75
     },
     {
       "name": "监管安全",
-      "count": 26,
-      "heat": 73
+      "count": 25,
+      "heat": 72
     },
     {
       "name": "人工智能动态",
       "count": 28,
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "算力芯片",
       "count": 23,
-      "heat": 75
+      "heat": 74
+    },
+    {
+      "name": "研究论文",
+      "count": 20,
+      "heat": 71
     },
     {
       "name": "投融资",
@@ -42,29 +47,24 @@
       "heat": 75
     },
     {
-      "name": "研究论文",
-      "count": 17,
-      "heat": 70
-    },
-    {
       "name": "开源生态",
-      "count": 13,
-      "heat": 63
+      "count": 15,
+      "heat": 65
     },
     {
       "name": "多模态",
-      "count": 10,
-      "heat": 70
+      "count": 11,
+      "heat": 69
     },
     {
       "name": "机器人",
-      "count": 8,
-      "heat": 78
+      "count": 9,
+      "heat": 75
     },
     {
       "name": "端侧智能",
       "count": 8,
-      "heat": 74
+      "heat": 73
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-07-01T16:00:00.000Z",
-      "latestDisplayedAt": "2026-06-30T16:00:00.000Z"
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-06-11T19:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-04T20:55:25.000Z",
       "latestDisplayedAt": "2026-07-04T20:55:25.000Z"
     },
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-07-04T14:00:03.000Z",
-      "latestDisplayedAt": "2026-07-04T14:00:03.000Z"
+      "latestFetchedAt": "2026-07-04T20:38:39.000Z",
+      "latestDisplayedAt": "2026-07-04T20:38:39.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -332,13 +332,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 7,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-07-04T19:31:12.000Z",
-      "latestDisplayedAt": "2026-07-04T19:31:12.000Z"
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-07-04T22:28:20.000Z",
+      "latestDisplayedAt": "2026-07-04T22:04:54.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 19,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-03T14:16:00.000Z",
       "latestDisplayedAt": "2026-07-03T14:16:00.000Z"
     },
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-04T04:58:51.000Z",
       "latestDisplayedAt": "2026-07-04T04:58:51.000Z"
     },
@@ -480,13 +480,31 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-04T07:55:08.000Z",
       "latestDisplayedAt": "2026-07-04T07:55:08.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1unlcm8/how_dumb_you_are_a_nobody_again/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-04T22:04:54.000Z",
+      "summary": "很少有人。和 800 $ 法案月创建微软和研究团队在基准测试和开源信息技术！信息技术实际在代码托管平台。向向，没有向，成本。询问克劳德模型作为 … 向在和认为面向。很少有人和和来自 😱 相关型号 … 很少有人？信息技术向？重要面向。创建。在和很少有人。在首个。由",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "开源生态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "techcrunch-ai-新谷歌借助帮助来自人工智能",
       "title": "新谷歌借助帮助来自人工智能",
@@ -504,20 +522,19 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-面向人工智能产品",
-      "title": "面向人工智能产品 +？",
-      "url": "https://www.reddit.com/r/artificial/comments/1unhutd/what_are_you_using_for_ai_marketing_content/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "hacker-news-ai-研究在和分享",
+      "title": ": 研究在和分享",
+      "url": "https://arxiv.org/abs/2606.26967",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T19:31:12.000Z",
-      "summary": "和面向和。: 产品。和，只是在。二维产品借助。产品向，人工智能。借助产品软件在！克劳德模型。由",
+      "publishedAt": "2026-07-04T20:38:39.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 85,
       "image": ""
     },
     {
@@ -569,23 +586,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-在信息技术-和信息技术为什么",
-      "title": "在信息技术，和信息技术为什么",
-      "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-04T14:00:03.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
+      "heat": 86,
       "image": ""
     },
     {
@@ -602,7 +603,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -619,7 +620,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -635,7 +636,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -651,7 +652,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -667,7 +668,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -699,7 +700,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg"
     },
     {
@@ -717,7 +718,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -734,7 +735,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -856,22 +857,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/broken-ai-robot-browser-404-1152x648.jpg"
     },
     {
-      "id": "microsoft-ai-blog-向-构建-和云服务基础设施面向-术语成本",
-      "title": ": 向，构建，和云服务基础设施面向，术语成本",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-30T16:00:00.000Z",
-      "summary": "作为组织基础设施，构建云服务，和规模人工智能，成本云服务。: 向，构建，和云服务基础设施面向，术语成本首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "google-research-推出-基础模型面向数据",
       "title": "推出 : 基础模型面向数据",
       "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
@@ -923,20 +908,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-元宇宙平台公司承包商向向人工智能借助",
-      "title": "元宇宙平台公司承包商向向人工智能借助",
-      "url": "https://www.reddit.com/r/artificial/comments/1ungqh7/meta_paid_hundreds_of_contractors_to_pretend_to/",
+      "id": "reddit-artificial-人工智能专业版-10-访问",
+      "title": "人工智能专业版 $10，访问？",
+      "url": "https://www.reddit.com/r/artificial/comments/1unksdx/how_long_does_the_perch_ai_pro_10mo_early_access/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T18:44:49.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-04T21:38:57.000Z",
+      "summary": "只是面向人工智能和在专业版面向 $10，50%，访问。在关于实际。在专业版面向？没有向 $20 在，信息技术 $10 面向？在，信息技术。试图向信息技术值得向信息技术月。来自在专业版帮助。由",
       "topics": [
         "人工智能动态"
       ],
       "heat": 85,
-      "image": "https://external-preview.redd.it/yWH03dVtbvwyUJnngUCQyl8_3Q5CkXg5WDw1mWI4sxk.jpeg?width=640&crop=smart&auto=webp&s=aa62c9e3ba0d0f5ef50ed8d5fab09cdecc7aa326"
+      "image": ""
     },
     {
       "id": "techcrunch-ai-向人工智能",
@@ -951,7 +936,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -967,7 +952,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1003,7 +988,7 @@
         "监管安全",
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1019,7 +1004,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1037,7 +1022,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1053,7 +1038,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1069,7 +1054,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1086,7 +1071,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1104,7 +1089,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1122,7 +1107,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1278,39 +1263,20 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-克劳德模型在微软可用",
-      "title": "克劳德模型在微软可用",
-      "url": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-29T17:00:00.000Z",
-      "summary": "克劳德模型在微软可用，在，和在英伟达，团队更快来自智能体向。克劳德模型在微软可用首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 70,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-元宇宙平台公司据报道-6-5-十亿借助面向-2-纳米人工智能芯片",
-      "title": "元宇宙平台公司据报道 $6.5 十亿借助面向 2 纳米人工智能芯片",
-      "url": "https://www.reddit.com/r/artificial/comments/1unfzi9/meta_reportedly_strikes_65_billion_deal_with/",
+      "id": "reddit-artificial-面向人工智能产品",
+      "title": "面向人工智能产品 +？",
+      "url": "https://www.reddit.com/r/artificial/comments/1unhutd/what_are_you_using_for_ai_marketing_content/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T18:13:57.000Z",
-      "summary": "元宇宙平台公司平台据报道 $6.5 十亿借助向元宇宙平台公司训练和推理芯片 2 纳米。战略来自和目标是向减少在英伟达图形处理器，风险，和支持元宇宙平台公司 5 由 2030 面向人工智能和云服务。向元宇宙平台公司在人工智能和云计算。上下文元宇宙平台公司在人工智能和云服务服务，高级驱动。芯片元宇宙平台公司在，向性能面向人工智能。向战略在元宇宙平台公司，迈向。为什么元宇宙平台公司……",
+      "publishedAt": "2026-07-04T19:31:12.000Z",
+      "summary": "和面向和。: 产品。和，只是在。二维产品借助。产品向，人工智能。借助产品软件在！克劳德模型。由",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1326,7 +1292,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1342,7 +1308,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1360,7 +1326,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1376,7 +1342,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1394,7 +1360,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1411,7 +1377,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1427,7 +1393,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1445,7 +1411,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1461,7 +1427,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1619,23 +1585,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp"
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/accelerate-modern-linux-workloads-with-azure-files/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-06-29T15:00:00.000Z",
-      "summary": "访问借助构建，在性能，数据，安全，和服务。加速借助首个在微软。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "openai-news-推出战略借助开放人工智能公司",
       "title": "推出战略借助开放人工智能公司",
       "url": "https://openai.com/index/hp-frontier-partnership",
@@ -1652,20 +1601,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能我们-研究",
-      "title": "人工智能我们？研究",
-      "url": "https://www.reddit.com/r/artificial/comments/1unf5gk/can_ai_avatars_change_how_we_perceive_information/",
+      "id": "reddit-artificial-元宇宙平台公司承包商向向人工智能借助",
+      "title": "元宇宙平台公司承包商向向人工智能借助",
+      "url": "https://www.reddit.com/r/artificial/comments/1ungqh7/meta_paid_hundreds_of_contractors_to_pretend_to/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T17:40:22.000Z",
-      "summary": "向部件在人工智能。关于 10 向和打开向 18。向 : :，在面向！由",
+      "publishedAt": "2026-07-04T18:44:49.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 84,
-      "image": ""
+      "heat": 82,
+      "image": "https://external-preview.redd.it/yWH03dVtbvwyUJnngUCQyl8_3Q5CkXg5WDw1mWI4sxk.jpeg?width=640&crop=smart&auto=webp&s=aa62c9e3ba0d0f5ef50ed8d5fab09cdecc7aa326"
     },
     {
       "id": "techcrunch-ai-欧洲大模型人工智能-向关于开放人工智能公司",
@@ -1699,7 +1648,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1715,7 +1664,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1732,7 +1681,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1744,12 +1693,12 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-07-04T05:20:01.000Z",
-      "summary": "北京大学集成电路学院教授杨玉超团队联合中国科学院上海微系统与信息技术研究所研究员宋志棠团队，成功研制出全球首款基于相变忆阻器的神经动力学系统芯片，首次将这类复杂运算的单步时延压缩至2.12毫秒，在脑皮层重建等任务中较目前先进图形处理器（图形处理器）提速达50至478倍，一举突破了制约神经动力学长达半个世纪的实时计算瓶颈。相关成果3日凌晨发表于《科学》。（新华社）",
+      "summary": "北京���学集成电路学院教授杨玉超团队联合中国科学院上海微系统与信息技术研究所研究员宋志棠团队，成功研制出全球首款基于相变忆阻器的神经动力学系统芯片，首次将这类复杂运算的单步时延压缩至2.12毫秒，在脑皮层重建等任务中较目前先进图形处理器（图形处理器）提速达50至478倍，一举突破了制约神经动力学长达半个世纪的实时计算瓶颈。相关成果3日凌晨发表于《科学》。（新华社）",
       "topics": [
         "算力芯片",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1765,7 +1714,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1781,7 +1730,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1799,7 +1748,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1940,19 +1889,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-任务认为人工智能智能体面向",
-      "title": "任务认为人工智能智能体面向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1une7tz/whats_a_task_people_think_ai_agents_are_ready_for/",
+      "id": "reddit-artificial-元宇宙平台公司据报道-6-5-十亿借助面向-2-纳米人工智能芯片",
+      "title": "元宇宙平台公司据报道 $6.5 十亿借助面向 2 纳米人工智能芯片",
+      "url": "https://www.reddit.com/r/artificial/comments/1unfzi9/meta_reportedly_strikes_65_billion_deal_with/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T17:02:56.000Z",
-      "summary": "使用在演示和，和面向。面向信息技术来自。信息技术支持。信息技术为什么，和信息技术信息技术。使用，面向？和信息技术向失败。值得。由",
+      "publishedAt": "2026-07-04T18:13:57.000Z",
+      "summary": "元宇宙平台公司平台据报道 $6.5 十亿借助向元宇宙平台公司训练和推理芯片 2 纳米。战略来自和目标是向减少在英伟达图形处理器，风险，和支持元宇宙平台公司 5 由 2030 面向人工智能和云服务。向元宇宙平台公司在人工智能和云计算。上下文元宇宙平台公司在人工智能和云服务服务，高级驱动。芯片元宇宙平台公司在，向性能面向人工智能。向战略在元宇宙平台公司，迈向。为什么元宇宙平台公司……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 83,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1969,7 +1920,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1986,7 +1937,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2004,7 +1955,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2020,7 +1971,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2036,7 +1987,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2052,7 +2003,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2070,7 +2021,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2087,7 +2038,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2208,20 +2159,19 @@
       "image": "https://media.wired.com/photos/6a3ead9ae6c7ac5cabfbcc91/master/pass/WILLgif2-ezgif.com-optimize.gif"
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1unbuu4/wait_what/",
+      "id": "reddit-artificial-人工智能我们-研究",
+      "title": "人工智能我们？研究",
+      "url": "https://www.reddit.com/r/artificial/comments/1unf5gk/can_ai_avatars_change_how_we_perceive_information/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T15:25:46.000Z",
-      "summary": ":，新闻，阿里巴巴，克劳德模型，代码，人工智能安全公司，中国，用户人工智能安全公司向？😂 由",
+      "publishedAt": "2026-07-04T17:40:22.000Z",
+      "summary": "向部件在人工智能。关于 10 向和打开向 18。向 : :，在面向！由",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 95,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2239,7 +2189,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2257,7 +2207,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2273,7 +2223,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2291,7 +2241,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2307,7 +2257,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2325,7 +2275,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2341,7 +2291,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -2357,7 +2307,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": ""
     },
     {
@@ -2430,22 +2380,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-询问人工智能向-112",
-      "title": "询问人工智能向 112。",
-      "url": "https://www.reddit.com/r/artificial/comments/1un9bbt/scientists_asked_ai_to_impersonate_112_public/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-04T13:37:57.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 81,
-      "image": "https://external-preview.redd.it/UD4Jkhtwunzy27SsS7_NE3J20udUXhUFybWaVEXZc3Y.jpeg?width=640&crop=smart&auto=webp&s=3050189d883a77111df7f7515993f8e43e56bb7e"
-    },
-    {
       "id": "ithome-三星第三季度拟提价-20-终端厂家称已接到口头通知",
       "title": "三星第三季度拟提价 20%，终端厂家称已接到口头通知",
       "url": "https://www.ithome.com/0/972/616.htm",
@@ -2459,7 +2393,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2475,7 +2409,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2508,7 +2442,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2524,7 +2458,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2540,7 +2474,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -2659,7 +2593,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2677,7 +2611,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2712,7 +2646,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2728,7 +2662,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2745,7 +2679,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -2831,7 +2765,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2849,7 +2783,75 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 78,
+      "heat": 77,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-词元支出回落近20-人工智能行业定价权承压-大厂万亿资本开支面临考验",
+      "title": "词元支出回落近20%：人工智能行业定价权承压，大厂万亿资本开支面临考验",
+      "url": "https://news.cnblogs.com/n/828070/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-03T07:06:00.000Z",
+      "summary": "智通财经应用注意到，正当市场因投入人工智能(人工智能)的巨额资金能否获得回报而变得日益焦虑之际，该行业每单位使用量的价格正在震荡走低。用于追踪用户为人工智能词元支付费用的“硅谷数据大语言模型词元支出指数”在去年 12 月创立并经历近乎翻倍的增长后，目前已从 5 月份的高点下跌了近本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能安全公司新芯片借助",
+      "title": "人工智能安全公司新芯片借助",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-02T18:31:09.000Z",
+      "summary": "新闻关于开放人工智能公司宣布人工智能芯片在借助。",
+      "topics": [
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 63,
+      "image": ""
+    },
+    {
+      "id": "oschina-月之暗面相关型号代码上线代码托管平台智能副驾-模型选择器首次纳入开放权重模型",
+      "title": "月之暗面相关型号代码上线代码托管平台智能副驾，模型选择器首次纳入开放权重模型",
+      "url": "https://www.oschina.net/news/471446/kimi-k2-7-is-now-available-in-github-copilot",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-02T11:23:47.000Z",
+      "summary": "7 月 1 日，代码托管平台正式在智能副驾中上线了月之暗面相关型号代码，这是智能副驾模型选择器中首次出现开放权重（）模型。该模型由代码托管平台托管在微软上，按用量计费，首批面向智能副驾专业版、专业版+ 和旗舰版订阅用户推出，和将在未来几周内开放。代码托管平台在变更日志中特别强调，对。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 59,
+      "image": ""
+    },
+    {
+      "id": "leiphone-自变量发布跨模态具身动作分词器-多模态对齐能力提升-13-5-长程任务性能提升-8-25",
+      "title": "自变量发布跨模态具身动作分词器，多模态对齐能力提升 13.5%，长程任务性能提升 8.25%",
+      "url": "https://www.leiphone.com/category/industrynews/97E4ZK92EoOpU0BY.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-02T10:32:00.000Z",
+      "summary": "自变量机器人发布跨模态具身动作分词器，将中的动作离散化从单一的“压缩-重建”问题，重新定义为“多模态推理与动作之间的语义接口学习”问题。动作分词器决定了拆分出的动作词元是否具有语义，是否能加速预训练模型的收敛，从而最终影响了模型输出连续动作的性能。这是自变量机器人的最新发现。具身智能的模型（视觉-语言-动作模型）是将预训练的模型（视觉语言模型）与动作专家（ ）连接起来，前者接……",
+      "topics": [
+        "研究论文",
+        "多模态",
+        "机器人"
+      ],
+      "heat": 58,
       "image": ""
     }
   ]
