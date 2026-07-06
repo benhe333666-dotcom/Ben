@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-06T18:33:29.955Z",
+  "generatedAt": "2026-07-06T19:03:50.133Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-06T19:00:00.000Z",
+  "nextUpdateHint": "2026-07-06T19:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -13,18 +13,18 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 67,
+      "count": 66,
       "heat": 80
     },
     {
       "name": "模型发布",
-      "count": 53,
-      "heat": 79
+      "count": 52,
+      "heat": 80
     },
     {
       "name": "人工智能动态",
-      "count": 30,
-      "heat": 73
+      "count": 31,
+      "heat": 74
     },
     {
       "name": "算力芯片",
@@ -37,14 +37,14 @@
       "heat": 81
     },
     {
-      "name": "投融资",
-      "count": 15,
-      "heat": 82
-    },
-    {
       "name": "研究论文",
       "count": 17,
-      "heat": 71
+      "heat": 72
+    },
+    {
+      "name": "投融资",
+      "count": 14,
+      "heat": 82
     },
     {
       "name": "端侧智能",
@@ -53,7 +53,7 @@
     },
     {
       "name": "开源生态",
-      "count": 13,
+      "count": 12,
       "heat": 65
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "多模态",
-      "count": 8,
-      "heat": 76
+      "count": 9,
+      "heat": 79
     }
   ],
   "sources": [
@@ -177,7 +177,7 @@
       "fallbackReason": "",
       "itemCount": 6,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-07-02T16:00:00.000Z",
+      "latestFetchedAt": "2026-06-30T16:00:00.000Z",
       "latestDisplayedAt": "2026-06-30T16:00:00.000Z"
     },
     {
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-07-06T17:04:58.000Z",
-      "latestDisplayedAt": "2026-07-06T17:04:58.000Z"
+      "displayedCount": 9,
+      "latestFetchedAt": "2026-07-06T19:01:59.000Z",
+      "latestDisplayedAt": "2026-07-06T19:01:59.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-07-06T18:28:26.000Z",
-      "latestDisplayedAt": "2026-07-06T18:28:26.000Z"
+      "latestFetchedAt": "2026-07-06T18:54:45.000Z",
+      "latestDisplayedAt": "2026-07-06T18:54:45.000Z"
     },
     {
       "id": "wired-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-06T18:27:40.000Z",
-      "latestDisplayedAt": "2026-07-06T18:27:40.000Z"
+      "latestFetchedAt": "2026-07-06T18:55:29.000Z",
+      "latestDisplayedAt": "2026-07-06T18:55:29.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-07-06T10:40:27.000Z",
       "latestDisplayedAt": "2026-07-06T10:40:27.000Z"
@@ -412,11 +412,11 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 19,
-      "displayedCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-06T10:46:00.000Z",
       "latestDisplayedAt": "2026-07-06T10:46:00.000Z"
     },
@@ -444,12 +444,12 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 24,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 10,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-07-06T17:30:16.000Z",
+      "latestFetchedAt": "2026-07-06T17:30:13.000Z",
       "latestDisplayedAt": "2026-07-06T17:30:13.000Z"
     },
     {
@@ -504,36 +504,53 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能推出向克劳德模型代码和开放人工智能公司智能编程工具在成本",
-      "title": "人工智能推出向克劳德模型代码和开放人工智能公司智能编程工具在成本",
-      "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
+      "id": "techcrunch-ai-和在苹果移动系统-27",
+      "title": "和在苹果移动系统 27",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T18:28:26.000Z",
-      "summary": "人工智能带来向，模型，上下文面向编程任务。新客户五个，借助向 5 百万词元，和关于 1.5 词元 2026。人工智能推出向克劳德模型代码和开放人工智能公司智能编程工具在成本首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-06T19:01:59.000Z",
+      "summary": "新控制控制和。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1up5t7t/are_we_realizing_this/",
+      "id": "reddit-artificial-打开-视觉系列阿帕奇-2-0-元宇宙平台公司模型信息技术基准测试交付许可",
+      "title": "打开，视觉系列阿帕奇，2.0; 元宇宙平台公司模型信息技术基准测试交付许可",
+      "url": "https://www.reddit.com/r/artificial/comments/1up6mva/ants_robbyant_opensourced_its_lingbotvision/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T18:27:40.000Z",
-      "summary": "借助人工智能试图作为作为向面向向了解在，讨论只是问题在，认为试图向人工智能试图向借助，和在每个人工智能训练数据，和问题问题向借助信息技术只是由",
+      "publishedAt": "2026-07-06T18:55:29.000Z",
+      "summary": "人工智能公司群组，设置视觉在阿帕奇，2。公司作为构建面向机器人.0，来自 21 百万向 1.1 十亿。面向 2.0 和 ; 打开。信息技术，和查看信息技术在。论文，得分 0.296 在在 0.309。在在 0.310 在相关型号。图像网络数据集 86.32，87.87。: :，视觉，代码托管平台 :，代码托管平台，视觉，借助演示 :，视觉。由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "研究论文",
+        "多模态"
       ],
-      "heat": 86,
+      "heat": 96,
+      "image": "https://preview.redd.it/8blz80l2pnbh1.png?width=640&crop=smart&auto=webp&s=eb49885243c9d8912937b01c265fc0b86f3c7b09"
+    },
+    {
+      "id": "the-decoder-人工智能借助控制面向-训练-和智能体",
+      "title": "人工智能借助控制面向，训练，和智能体",
+      "url": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T18:54:45.000Z",
+      "summary": "客户人工智能控制，训练，和智能体在。15，2026，训练和智能体由在，支持。人工智能借助控制面向，训练，和智能体首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -568,22 +585,6 @@
         "机器人"
       ],
       "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-使用谷歌-训练人工智能-这里向",
-      "title": "使用谷歌，训练人工智能。这里向。",
-      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-06T17:04:58.000Z",
-      "summary": ": 向谷歌隐私信息技术训练人工智能在数据。这里向。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 98,
       "image": ""
     },
     {
@@ -753,7 +754,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -908,20 +909,36 @@
       "image": ""
     },
     {
-      "id": "the-decoder-腾讯发布打开-来源模型模型向五个",
-      "title": "腾讯发布打开，来源模型模型向五个",
-      "url": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
+      "id": "techcrunch-ai-重要裁员在-2026-人工智能",
+      "title": ": 重要裁员在 2026 人工智能",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T18:35:00.000Z",
+      "summary": "在，在公司宣布裁员借助人工智能作为。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能推出向克劳德模型代码和开放人工智能公司智能编程工具在成本",
+      "title": "人工智能推出向克劳德模型代码和开放人工智能公司智能编程工具在成本",
+      "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T18:03:15.000Z",
-      "summary": "腾讯发布，打开，来源语言模型借助 295 十亿构建在。21 十亿在时间。腾讯模型向五个在向 5.4。腾讯发布打开，来源模型模型向五个首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-06T18:28:26.000Z",
+      "summary": "人工智能带来向，模型，上下文面向编程任务。新客户五个，借助向 5 百万词元，和关于 1.5 词元 2026。人工智能推出向克劳德模型代码和开放人工智能公司智能编程工具在成本首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用"
       ],
-      "heat": 94,
+      "heat": 99,
       "image": ""
     },
     {
@@ -972,23 +989,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-微软-5-000-员工",
-      "title": "微软 5，000 员工",
-      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-06T15:32:43.000Z",
-      "summary": "微软 4，800，2.1% 全球，在，在序列裁员人工智能。裁员和。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 88,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1004,7 +1005,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2025/06/llm-blog-gtc-25-paris-3945665-1280x680-1.jpg"
     },
     {
@@ -1070,7 +1071,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1104,7 +1105,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1258,20 +1259,36 @@
       "image": ""
     },
     {
-      "id": "the-decoder-模型在",
-      "title": "模型在",
-      "url": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+      "id": "the-decoder-腾讯发布打开-来源模型模型向五个",
+      "title": "腾讯发布打开，来源模型模型向五个",
+      "url": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T17:14:11.000Z",
-      "summary": "开放人工智能公司面向关于，模型。克劳德模型 3 旗舰模型在 2024，机械手 17，借助只是，模型。模型在首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-06T18:03:15.000Z",
+      "summary": "腾讯发布，打开，来源语言模型借助 295 十亿构建在。21 十亿在时间。腾讯模型向五个在向 5.4。腾讯发布打开，来源模型模型向五个首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-使用谷歌-训练人工智能-这里向",
+      "title": "使用谷歌，训练人工智能。这里向。",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T17:04:58.000Z",
+      "summary": ": 向谷歌隐私信息技术训练人工智能在数据。这里向。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -1288,7 +1305,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1306,22 +1323,6 @@
         "端侧智能"
       ],
       "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-社区论坛大语言模型向解决问题大语言模型创建",
-      "title": "社区论坛大语言模型向解决问题大语言模型创建",
-      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-06T15:22:08.000Z",
-      "summary": "在人工智能，平台向借助向。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -1421,7 +1422,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1579,6 +1580,23 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp"
     },
     {
+      "id": "the-decoder-模型在",
+      "title": "模型在",
+      "url": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T17:14:11.000Z",
+      "summary": "开放人工智能公司面向关于，模型。克劳德模型 3 旗舰模型在 2024，机械手 17，借助只是，模型。模型在首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能会议部件",
       "title": "人工智能会议部件",
       "url": "https://www.reddit.com/r/artificial/comments/1up1bag/the_ai_meeting_notes_everyone_loves_are_the_least/",
@@ -1591,6 +1609,22 @@
       "topics": [
         "产品应用",
         "监管安全"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-微软-5-000-员工",
+      "title": "微软 5，000 员工",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T15:32:43.000Z",
+      "summary": "微软 4，800，2.1% 全球，在，在序列裁员人工智能。裁员和。",
+      "topics": [
+        "人工智能动态"
       ],
       "heat": 88,
       "image": ""
@@ -1611,39 +1645,6 @@
         "端侧智能"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-作为面向人工智能创业公司",
-      "title": "作为面向人工智能创业公司",
-      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-06T13:00:00.000Z",
-      "summary": "创业公司平台由，面向新，人工智能在向强化作为面向人工智能创业公司。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-英伟达据报道",
-      "title": "英伟达据报道",
-      "url": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-06T12:30:11.000Z",
-      "summary": "英伟达人工智能，向 2028 问题，向。向在。和谷歌向。英伟达据报道，首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 97,
       "image": ""
     },
     {
@@ -1887,6 +1888,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-社区论坛大语言模型向解决问题大语言模型创建",
+      "title": "社区论坛大语言模型向解决问题大语言模型创建",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T15:22:08.000Z",
+      "summary": "在人工智能，平台向借助向。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-研究员发现智能聊天助手暗藏漏洞-可通过提示词注入绕过文件访问限制",
       "title": "研究员发现智能聊天助手暗藏漏洞，可通过提示词注入绕过文件访问限制",
       "url": "https://www.ithome.com/0/973/295.htm",
@@ -1905,20 +1922,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能平台向",
-      "title": "人工智能平台向",
-      "url": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/",
+      "id": "the-decoder-英伟达据报道",
+      "title": "英伟达据报道",
+      "url": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T12:26:09.000Z",
-      "summary": "字节跳动和阿里巴巴功能用户构建和借助人工智能，向新来自。人工智能平台向首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-06T12:30:11.000Z",
+      "summary": "英伟达人工智能，向 2028 问题，向。向在。和谷歌向。英伟达据报道，首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "监管安全"
+        "算力芯片"
       ],
-      "heat": 89,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2003,23 +2020,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-亚马逊新客户面向",
-      "title": "亚马逊新客户面向",
-      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-05T17:43:36.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 70,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2162,19 +2163,36 @@
       "image": ""
     },
     {
-      "id": "the-decoder-亚马逊-人工智能",
-      "title": "亚马逊，人工智能",
-      "url": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/",
+      "id": "techcrunch-ai-作为面向人工智能创业公司",
+      "title": "作为面向人工智能创业公司",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T13:00:00.000Z",
+      "summary": "创业公司平台由，面向新，人工智能在向强化作为面向人工智能创业公司。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能平台向",
+      "title": "人工智能平台向",
+      "url": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T11:19:29.000Z",
-      "summary": "亚马逊服务服务向新客户 30，2026。亚马逊，人工智能首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-06T12:26:09.000Z",
+      "summary": "字节跳动和阿里巴巴功能用户构建和借助人工智能，向新来自。人工智能平台向首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 83,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2240,7 +2258,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2252,29 +2270,13 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-07-06T05:11:37.000Z",
-      "summary": "本文约3400字，建议阅读7分钟作者，彭孝秋编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第一期——深圳宏芯宇电子。7月3日，一家名叫宏芯宇电子的深圳公司，向港交所递交了招股书，此次首次公开募股独家保荐人是中信建投。招股书里最亮眼的是这么一组数字：2026���前四个月，宏芯宇净利润38.41亿元，比上年同……",
+      "summary": "本文约3400字，建议阅读7分钟作者，彭孝秋编者按：《上市前夜》栏目聚焦企业冲刺资本市场的关键时刻。每一份招股书里，都藏着一家企业上市前的野心、周期与隐忧。这是第一期——深圳宏芯宇电子。7月3日，一家名叫宏芯宇电子的深圳公司，向港交所递交了招股书，此次首次公开募股独家保荐人是中信建投。招股书里最亮眼的是这么一组数字：2026年前四个月，宏芯宇净利润38.41亿元，比上年同期的……",
       "topics": [
         "产品应用",
         "算力芯片",
         "投融资"
       ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-新谷歌借助帮助来自人工智能",
-      "title": "新谷歌借助帮助来自人工智能",
-      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-04T20:55:25.000Z",
-      "summary": "和，新 : 访问向谷歌？",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 60,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2380,21 +2382,19 @@
       "image": ""
     },
     {
-      "id": "the-decoder-首个和信息技术安全在",
-      "title": "首个和信息技术安全在",
-      "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
+      "id": "the-decoder-亚马逊-人工智能",
+      "title": "亚马逊，人工智能",
+      "url": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-06T10:04:02.000Z",
-      "summary": "安全语言模型在在，和。向在控制。首个和信息技术安全在首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-06T11:19:29.000Z",
+      "summary": "亚马逊服务服务向新客户 30，2026。亚马逊，人工智能首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 92,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2444,7 +2444,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2480,23 +2480,23 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-阿里巴巴据报道员工来自克劳德模型代码",
-      "title": "阿里巴巴据报道员工来自克劳德模型代码",
-      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "id": "techcrunch-ai-亚马逊新客户面向",
+      "title": "亚马逊新客户面向",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T16:32:08.000Z",
-      "summary": "阿里巴巴据报道克劳德模型代码作为，风险软件。",
+      "publishedAt": "2026-07-05T17:43:36.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布"
+        "人工智能动态"
       ],
-      "heat": 58,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2562,7 +2562,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2581,6 +2581,24 @@
         "多模态"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-首个和信息技术安全在",
+      "title": "首个和信息技术安全在",
+      "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-06T10:04:02.000Z",
+      "summary": "安全语言模型在在，和。向在控制。首个和信息技术安全在首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -2632,7 +2650,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2654,39 +2672,19 @@
       "image": ""
     },
     {
-      "id": "the-decoder-克劳德模型代码和-5-2003-电脑-向苹果移动系统在",
-      "title": "克劳德模型代码和 5 2003 电脑 & 向苹果移动系统在",
-      "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-05T15:58:56.000Z",
-      "summary": "谷歌深度思维开发者 2003，时间 & : 向苹果手机和苹果平板人工智能安全公司克劳德模型代码。首个构建 40。来源代码在代码托管平台。克劳德模型代码和 5 2003 电脑 & 向苹果移动系统在首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-欧洲大模型人工智能-向关于开放人工智能公司",
-      "title": "欧洲大模型人工智能？向关于开放人工智能公司",
-      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "id": "techcrunch-ai-新谷歌借助帮助来自人工智能",
+      "title": "新谷歌借助帮助来自人工智能",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-04T15:51:32.000Z",
-      "summary": "欧洲大模型人工智能，开源人工智能模型，融资在 2023，借助向设置人工智能在机械手。",
+      "publishedAt": "2026-07-04T20:55:25.000Z",
+      "summary": "和，新 : 访问向谷歌？",
       "topics": [
-        "模型发布",
-        "投融资",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2768,7 +2766,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2790,21 +2788,37 @@
       "image": ""
     },
     {
-      "id": "the-decoder-百度在由记忆",
-      "title": "百度在由记忆",
-      "url": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
+      "id": "the-decoder-克劳德模型代码和-5-2003-电脑-向苹果移动系统在",
+      "title": "克劳德模型代码和 5 2003 电脑 & 向苹果移动系统在",
+      "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-05T15:25:07.000Z",
-      "summary": "百度在单个，在关于。记忆使用模型。信息技术在最重要基准测试。百度在由记忆首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-05T15:58:56.000Z",
+      "summary": "谷歌深度思维开发者 2003，时间 & : 向苹果手机和苹果平板人工智能安全公司克劳德模型代码。首个构建 40。来源代码在代码托管平台。克劳德模型代码和 5 2003 电脑 & 向苹果移动系统在首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 77,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-阿里巴巴据报道员工来自克劳德模型代码",
+      "title": "阿里巴巴据报道员工来自克劳德模型代码",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-04T16:32:08.000Z",
+      "summary": "阿里巴巴据报道克劳德模型代码作为，风险软件。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 58,
       "image": ""
     },
     {
@@ -2838,22 +2852,6 @@
         "人工智能动态"
       ],
       "heat": 75,
-      "image": ""
-    },
-    {
-      "id": "leiphone-打造-青年安居新范式-第三座小米青年公寓开放入住-三城累计建成12栋公寓-4214套房源",
-      "title": "打造“青年安居新范式”！第三座小米青年公寓开放入住，三城累计建成12栋公寓、4214套房源",
-      "url": "https://www.leiphone.com/category/industrynews/dpOS3DMEz2mPqLRH.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-06T02:59:00.000Z",
-      "summary": "7月4日，武汉小米青年公寓正式开放入住。这是继北京、南京之后，小米投入运营的第三座青年公寓，也是在前两座基础上持续迭代打造的第三款青年公寓。随着武汉项目落成，小米已在北京、南京、武汉三地累计建成青年公寓12栋，建筑面积超21万平方米，提供4214套房源，持续完善青年安居保障体系。武汉小米青年公寓位于东湖新技术开发区光谷四路小米武汉科技园内，共990套房源，分26㎡、29㎡两种……",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 76,
       "image": ""
     }
   ]
