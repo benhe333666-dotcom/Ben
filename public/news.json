@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-07T17:05:48.395Z",
+  "generatedAt": "2026-07-07T17:36:14.399Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-07T17:30:00.000Z",
+  "nextUpdateHint": "2026-07-07T18:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -13,7 +13,7 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 75,
+      "count": 74,
       "heat": 84
     },
     {
@@ -29,31 +29,31 @@
     {
       "name": "监管安全",
       "count": 21,
-      "heat": 85
+      "heat": 84
+    },
+    {
+      "name": "研究论文",
+      "count": 16,
+      "heat": 81
     },
     {
       "name": "人工智能动态",
-      "count": 20,
-      "heat": 69
+      "count": 19,
+      "heat": 68
     },
     {
       "name": "投融资",
       "count": 15,
-      "heat": 87
+      "heat": 86
     },
     {
       "name": "开源生态",
-      "count": 15,
-      "heat": 76
-    },
-    {
-      "name": "研究论文",
       "count": 14,
-      "heat": 81
+      "heat": 78
     },
     {
       "name": "多模态",
-      "count": 11,
+      "count": 12,
       "heat": 83
     },
     {
@@ -64,7 +64,7 @@
     {
       "name": "端侧智能",
       "count": 7,
-      "heat": 89
+      "heat": 88
     }
   ],
   "sources": [
@@ -144,9 +144,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-07-07T15:15:54.000Z",
-      "latestDisplayedAt": "2026-07-07T15:15:54.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-07-07T16:43:04.000Z",
+      "latestDisplayedAt": "2026-07-07T16:43:04.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -177,7 +177,7 @@
       "fallbackReason": "",
       "itemCount": 6,
       "displayedCount": 0,
-      "latestFetchedAt": "2026-06-29T17:00:00.000Z",
+      "latestFetchedAt": "2026-07-02T16:00:00.000Z",
       "latestDisplayedAt": ""
     },
     {
@@ -268,9 +268,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 10,
       "displayedCount": 10,
       "latestFetchedAt": "2026-07-07T16:13:45.000Z",
@@ -479,10 +479,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-07-07T12:54:00.000Z",
-      "latestDisplayedAt": "2026-07-07T12:54:00.000Z"
+      "itemCount": 9,
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-07-07T13:07:00.000Z",
+      "latestDisplayedAt": "2026-07-07T13:07:00.000Z"
     }
   ],
   "failures": [],
@@ -504,6 +504,23 @@
       "image": "https://preview.redd.it/bawqqckp8ubh1.png?width=640&crop=smart&auto=webp&s=a76042717c54fbdaa98d9768d367b07cd4dd7333"
     },
     {
+      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
+      "title": "代码托管平台更新日志发布人工智能相关动态。",
+      "url": "https://github.blog/changelog/2026-07-07-secret-scanning-extended-metadata-and-multipart-validation",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-07T16:43:04.000Z",
+      "summary": "向帮助和，代码托管平台面向支持。可用，支持… 和首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "google-research-驱动-我们减少",
       "title": "驱动 : 我们减少",
       "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
@@ -516,7 +533,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/NetworkAwareRouting_HeroStill.png"
     },
     {
@@ -567,7 +584,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -584,24 +601,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
-      "title": "代码托管平台更新日志发布人工智能相关动态。",
-      "url": "https://github.blog/changelog/2026-07-07-restrict-who-can-dismiss-reviews-in-rulesets",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-07T15:15:54.000Z",
-      "summary": "在代码托管平台仓库。可用和控制 … 在首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -639,6 +639,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-姚顺雨前同事田永龙加盟腾讯",
+      "title": "姚顺雨前同事田永龙加盟腾讯",
+      "url": "https://news.cnblogs.com/n/830229/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T13:07:00.000Z",
+      "summary": "作者：成妍菁编辑：董子博雷峰网独家获悉，开放人工智能公司前研究员 （田永龙）已于近期加入腾讯，知情人士透露，其后续或将参与参与 （视觉语言模型）相关研发。一位与其相熟的人士向雷峰网表示，田永龙在圈内口碑不错，“人挺好，与姚顺雨关系也不错”。田永龙此前在本文链接",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
       "title": "前沿科技媒体人工智能发布人工智能相关动态。",
       "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
@@ -651,7 +667,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -669,24 +685,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-小米造了一个能-上阵打仗-的手机人工智能助手-而不只是考场上的优等生",
-      "title": "小米造了一个能\"上阵打仗\"的手机人工智能助手，而不只是考场上的优等生",
-      "url": "https://news.cnblogs.com/n/830227/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T12:54:00.000Z",
-      "summary": "这项由小米团队主导的研究以技术报告形式发布于 2026 年 6 月 30 日，论文编号为论文预印本:2606.31410，感兴趣的读者可以通过该编号检索到完整原文。手机里的人工智能助手越来越聪明，但你有没有遇到过这样的尴尬：让它帮你在淘宝下单，它却在登录验证码页面傻站着不动；叫本文链接",
-      "topics": [
-        "研究论文",
-        "端侧智能"
-      ],
-      "heat": 87,
+      "heat": 94,
       "image": ""
     },
     {
@@ -822,7 +821,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -921,7 +920,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -943,6 +942,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-香港科技大学研究新突破-一个-翻译官-同时读懂视频和声音",
+      "title": "香港科技大学研究新突破：一个\"翻译官\"同时读懂视频和声音",
+      "url": "https://news.cnblogs.com/n/830228/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T13:00:00.000Z",
+      "summary": "这项由香港科技大学研究团队完成的研究成果以预印本形式发布于 2026 年 6 月 29 日，论文编号为论文编号 2606.30811 第1版，研究领域属于计算机视觉方向。有兴趣深入了解的读者可以通过该编号在论文预印本学术平台查询完整论文。你有没有遇到过这样的情况：看一段无声的视频时，总觉得少了本文链接",
+      "topics": [
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-美股大型科技股盘前涨跌不一-英特尔跌超3",
       "title": "美股大型科技股盘前涨跌不一，英特尔跌超3%",
       "url": "https://36kr.com/newsflashes/3885574733393929?f=rss",
@@ -955,23 +971,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-光速反转-骂翻深度求索面试的天才少年-被曝欺诈投资拿钱跑路",
-      "title": "光速反转！骂翻深度求索面试的天才少年，被曝欺诈投资拿钱跑路",
-      "url": "https://news.cnblogs.com/n/830226/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T12:47:00.000Z",
-      "summary": "今天深度求索的那场面试，刷爆了全网。一开始大家都觉得顶尖天才能有什么坏心思，大厂欺负人呗，一副要替人出头的架势。结果还不到一天，反转就来了。起因是前华为天才少年李博杰发帖说自己去深度求索面试，体验烂到家了——面试官莫名其妙质疑他作弊，全程没给过好脸。图源：微博帖子一本文链接",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 90,
+      "heat": 92,
       "image": ""
     },
     {
@@ -989,7 +989,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1006,7 +1006,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1092,7 +1092,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1144,7 +1144,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1209,7 +1209,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1248,6 +1248,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-小米造了一个能-上阵打仗-的手机人工智能助手-而不只是考场上的优等生",
+      "title": "小米造了一个能\"上阵打仗\"的手机人工智能助手，而不只是考场上的优等生",
+      "url": "https://news.cnblogs.com/n/830227/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T12:54:00.000Z",
+      "summary": "这项由小米团队主导的研究以技术报告形式发布于 2026 年 6 月 30 日，论文编号为论文预印本:2606.31410，感兴趣的读者可以通过该编号检索到完整原文。手机里的人工智能助手越来越聪明，但你有没有遇到过这样的尴尬：让它帮你在淘宝下单，它却在登录验证码页面傻站着不动；叫本文链接",
+      "topics": [
+        "研究论文",
+        "端侧智能"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-旗下数据中心遭关停令-450亿美元协议面临风险",
       "title": "旗下数据中心遭关停令，450亿美元协议面临风险",
       "url": "https://36kr.com/newsflashes/3885567094583304?f=rss",
@@ -1260,25 +1277,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-深度求索自研人工智能芯片消息传出-英伟达华为迎来新对手",
-      "title": "深度求索自研人工智能芯片消息传出，英伟达华为迎来新对手？",
-      "url": "https://news.cnblogs.com/n/830224/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T12:33:00.000Z",
-      "summary": "7 月 7 日消息，据路透社今日援引三位知情人士消息，中国人工智能初创公司深度求索（深度求索）正在研发自有人工智能芯片。如果消息属实，此举有望降低其对英伟达、华为的依赖。知情人士透露，深度求索自研的人工智能芯片主要面向人工智能推理场景。此处的“推理”指的是大模型训练完成后，应用本文链接",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1346,7 +1345,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1398,7 +1397,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1416,7 +1415,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/ICML-Blog-Featured-Image.jpg"
     },
     {
@@ -1433,7 +1432,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1531,7 +1530,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://external-preview.redd.it/_SJZ1bt0-Rgyg1U7G843XuL0FK6_bJMB3j1fN1lDZU0.jpeg?width=640&crop=smart&auto=webp&s=8d63597138d4c8e365ba35895a54778d69a08ee9"
     },
     {
@@ -1551,20 +1550,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-摩尔线程完成腾讯相关型号和美团相关型号适配",
-      "title": "摩尔线程完成腾讯相关型号和美团相关型号适配",
-      "url": "https://news.cnblogs.com/n/830217/",
+      "id": "cnblogs-news-光速反转-骂翻深度求索面试的天才少年-被曝欺诈投资拿钱跑路",
+      "title": "光速反转！骂翻深度求索面试的天才少年，被曝欺诈投资拿钱跑路",
+      "url": "https://news.cnblogs.com/n/830226/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-07T11:59:39.000Z",
-      "summary": "同一天，摩尔线程完成两款国产大模型适配。7 月 6 日，腾讯新一代大模型相关型号正式开源，摩尔线程旗舰级人工智能训推一体智算卡相关型号于同日实现相关型号极速适配。据了解，相关型号是由腾讯混元团队研发的快慢思考融合的混合专家模型，总参数量 295 十亿，激活参数 21 十亿，支持 25 本文链接",
+      "publishedAt": "2026-07-07T12:47:00.000Z",
+      "summary": "今天深度求索的那场面试，刷爆了全网。一开始大家都觉得顶尖天才能有什么坏心思，大厂欺负人呗，一副要替人出头的架势。结果还不到一天，反转就来了。起因是前华为天才少年李博杰发帖说自己去深度求索面试，体验烂到家了——面试官莫名其妙质疑他作弊，全程没给过好脸。图源：微博帖子一本文链接",
       "topics": [
-        "模型发布",
-        "开源生态"
+        "投融资"
       ],
-      "heat": 95,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1616,7 +1614,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1699,7 +1697,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2025/06/llm-blog-gtc-25-paris-3945665-1280x680-1.jpg"
     },
     {
@@ -1834,23 +1832,25 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "cnblogs-news-三个理想火枪手创业-打破具身最快百台交付纪录",
-      "title": "三个理想火枪手创业，打破具身最快百台交付纪录",
-      "url": "https://news.cnblogs.com/n/830212/",
+      "id": "cnblogs-news-深度求索自研人工智能芯片消息传出-英伟达华为迎来新对手",
+      "title": "深度求索自研人工智能芯片消息传出，英伟达华为迎来新对手？",
+      "url": "https://news.cnblogs.com/n/830224/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-07T11:49:18.000Z",
-      "summary": "田晏林发自苏州量子位，公众号创业快一年，昔日理想智驾团队的三位核心负责人——王凯、贾鹏、王佳佳，总算可以小秀一把「肌肉」了。7 月 6 日，至简动力宣布，其首款全场景机器人相关型号专业版完成首批百台交付。这也是具身智能行业最快的百台交付纪录，用时不到一年。当天，至简动力本文链接",
+      "publishedAt": "2026-07-07T12:33:00.000Z",
+      "summary": "7 月 7 日消息，据路透社今日援引三位知情人士消息，中国人工智能初创公司深度求索（深度求索）正在研发自有人工智能芯片。如果消息属实，此举有望降低其对英伟达、华为的依赖。知情人士透露，深度求索自研的人工智能芯片主要面向人工智能推理场景。此处的“推理”指的是大模型训练完成后，应用本文链接",
       "topics": [
-        "机器人"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 82,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1920,7 +1920,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1936,7 +1936,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2094,6 +2094,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-摩尔线程完成腾讯相关型号和美团相关型号适配",
+      "title": "摩尔线程完成腾讯相关型号和美团相关型号适配",
+      "url": "https://news.cnblogs.com/n/830217/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T11:59:39.000Z",
+      "summary": "同一天，摩尔线程完成两款国产大模型适配。7 月 6 日，腾讯新一代大模型相关型号正式开源，摩尔线程旗舰级人工智能训推一体智算卡相关型号于同日实现相关型号极速适配。据了解，相关型号是由腾讯混元团队研发的快慢思考融合的混合专家模型，总参数量 295 十亿，激活参数 21 十亿，支持 25 本文链接",
+      "topics": [
+        "模型发布",
+        "开源生态"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能顺利",
       "title": "人工智能顺利",
       "url": "https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/",
@@ -2111,7 +2128,7 @@
     },
     {
       "id": "thirty-six-kr-北斗人创业-要建太空数据中心-星际原点-连续完成两轮数千万元融资-36氪首发",
-      "title": "北斗人创业，要建太空数据中心，「星际原点」连续完成两轮数千万元融资｜36氪首发",
+      "title": "北斗人创业，要建太空数据中心，「星际原点」连续完成两轮数千万元融资���36氪首发",
       "url": "https://36kr.com/p/3885413484163074?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
@@ -2140,25 +2157,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-机器人走进产线-打工-至简动力不想让具身智能停在上",
-      "title": "机器人走进产线「打工」，至简动力不想让具身智能停在上",
-      "url": "https://news.cnblogs.com/n/830215/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T06:40:00.000Z",
-      "summary": "智能聊天助手和克劳德模型成为科技行业的主流叙事关键词之后，人们对于新科技从到大规模应用，再到商业化转折点的期待，也就从「苹果手机时刻」变成了「智能聊天助手时刻」和「克劳德模型时刻」。智能聊天助手时刻代表技术获得了大规模的用户，而克劳德模型时刻则意味着技术本文链接",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 95,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2174,7 +2173,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2227,7 +2226,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2315,6 +2314,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-三个理想火枪手创业-打破具身最快百台交付纪录",
+      "title": "三个理想火枪手创业，打破具身最快百台交付纪录",
+      "url": "https://news.cnblogs.com/n/830212/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T11:49:18.000Z",
+      "summary": "田晏林发自苏州量子位，公众号创业快一年，昔日理想智驾团队的三位核心负责人——王凯、贾鹏、王佳佳，总算可以小秀一把「肌肉」了。7 月 6 日，至简动力宣布，其首款全场景机器人相关型号专业版完成首批百台交付。这也是具身智能行业最快的百台交付纪录，用时不到一年。当天，至简动力本文链接",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 81,
+      "image": ""
+    },
+    {
       "id": "leiphone-雷峰网发布人工智能相关动态",
       "title": "雷峰网发布人工智能相关动态。",
       "url": "https://www.leiphone.com/category/private/fmPqPwecmV4WrVNi.html",
@@ -2348,22 +2363,6 @@
         "算力芯片"
       ],
       "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-特斯拉也开始词元-限流",
-      "title": "特斯拉也开始词元“限流”",
-      "url": "https://news.cnblogs.com/n/830209/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T06:20:00.000Z",
-      "summary": "特斯拉在大力推动内部人工智能普及后急踩刹车，对员工人工智能工具使用支出设置上限，折射出企业在人工智能投入与成本控制之间日益凸显的平衡难题。据近日报道，特斯拉上月通知员工，自 7 月 6 日起，将员工人工智能工具使用支出上限设定为每周 200 美元，超出部分需获得主本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 77,
       "image": ""
     },
     {
@@ -2429,7 +2428,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2521,6 +2520,24 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-机器人走进产线-打工-至简动力不想让具身智能停在上",
+      "title": "机器人走进产线「打工」，至简动力不想让具身智能停在上",
+      "url": "https://news.cnblogs.com/n/830215/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T06:40:00.000Z",
+      "summary": "智能聊天助手和克劳德模型成为科技行业的主流叙事关键词之后，人们对于新科技从到大规模应用，再到商业化转折点的期待，也就从「苹果手机时刻」变成了「智能聊天助手时刻」和「克劳德模型时刻」。智能聊天助手时刻代表技术获得了大规模的用户，而克劳德模型时刻则意味着技术本文链接",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-龙虾-为什么这么火-登顶代码托管平台后-人工智能智能体时代真的来了",
       "title": "\"龙虾\"为什么这么火？登顶代码托管平台后，人工智能智能体时代真的来了？",
       "url": "https://36kr.com/p/3885061350617350?f=rss",
@@ -2551,7 +2568,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2585,7 +2602,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2605,23 +2622,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-成本支持人工智能",
-      "title": "成本支持人工智能",
-      "url": "https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-02T16:00:51.000Z",
-      "summary": "企业人工智能成本使用。可用接口。在成本… 成本支持人工智能首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
       "id": "ithome-智能眼镜初创公司完成-1-5-亿美元融资-跻身独角兽行列",
       "title": "智能眼镜初创公司完成 1.5 亿美元融资，跻身独角兽行列",
       "url": "https://www.ithome.com/0/973/775.htm",
@@ -2634,7 +2634,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2670,7 +2670,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2704,7 +2704,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2772,7 +2772,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
