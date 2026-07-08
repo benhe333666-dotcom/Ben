@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T09:37:28.177Z",
+  "generatedAt": "2026-07-08T09:42:03.575Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-07-08T10:00:00.000Z",
   "stats": {
@@ -8,17 +8,17 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-08T09:34:20.000Z"
+    "latestPublishedAt": "2026-07-08T09:36:12.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 76,
+      "count": 77,
       "heat": 85
     },
     {
       "name": "模型发布",
-      "count": 62,
+      "count": 63,
       "heat": 88
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 24,
+      "count": 23,
       "heat": 92
     },
     {
@@ -53,8 +53,8 @@
     },
     {
       "name": "多模态",
-      "count": 10,
-      "heat": 88
+      "count": 11,
+      "heat": 89
     },
     {
       "name": "端侧智能",
@@ -177,7 +177,7 @@
       "fallbackReason": "",
       "itemCount": 6,
       "displayedCount": 0,
-      "latestFetchedAt": "2026-06-30T16:00:00.000Z",
+      "latestFetchedAt": "2026-07-02T16:00:00.000Z",
       "latestDisplayedAt": ""
     },
     {
@@ -465,8 +465,8 @@
       "fallbackReason": "",
       "itemCount": 20,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-07-08T09:15:13.000Z",
-      "latestDisplayedAt": "2026-07-08T09:15:13.000Z"
+      "latestFetchedAt": "2026-07-08T09:36:12.000Z",
+      "latestDisplayedAt": "2026-07-08T09:36:12.000Z"
     },
     {
       "id": "cnblogs-news",
@@ -487,6 +487,24 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "oschina-开源中国发布人工智能相关动态",
+      "title": "开源中国发布人工智能相关动态。",
+      "url": "https://www.oschina.net/news/471575/vs-code-1-128-released",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T09:36:12.000Z",
+      "summary": "代码 1.128 现已发布。此版本带来了更丰富的智能体会话、聊天中普遍可用的支持以及操作系统级别的键盘快捷键。智能体：在一个克劳德模型会话中同时运行多个相关聊天，以便比较不同方法并并行处理工作。快速聊天：无需先打开工作区，即可在智能体窗口中提问。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "ithome-自研人工智能编程工具曝光-公司程序员已投入使用",
       "title": "自研人工智能编程工具曝光，公司程序员已投入使用",
@@ -537,23 +555,6 @@
       ],
       "heat": 97,
       "image": "https://media.wired.com/photos/6a4be55744dc79c43267387c/master/pass/DeepMind-Alum-QandA-Verity-Harding-Business.jpg"
-    },
-    {
-      "id": "oschina-从结构化到多模态-阿帕奇-多模态数据处理的流式底座",
-      "title": "从结构化到多模态：阿帕奇，多模态数据处理的流式底座",
-      "url": "https://my.oschina.net/u/2828172/blog/19718842",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T09:15:13.000Z",
-      "summary": "过去很长一段时间里，数据处理系统主要围绕结构化记录展开：订单、日志、点击、交易、指标、维表、事实表。数据被抽象成一行行清晰的记录，核心任务是清洗、关联、聚合、统计。这类链路支撑了搜索、风控、推荐、广告等大量传统业务，也塑造了我们对数据工程的默认想象：数据处理首先是对结构化字段的加工。",
-      "topics": [
-        "多模态",
-        "开源生态"
-      ],
-      "heat": 91,
-      "image": ""
     },
     {
       "id": "reddit-artificial-人工智能在",
@@ -719,7 +720,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -751,7 +752,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -894,6 +895,23 @@
       "image": ""
     },
     {
+      "id": "oschina-从结构化到多模态-阿帕奇-多模态数据处理的流式底座",
+      "title": "从结构化到多模态：阿帕奇，多模态数据处理的流式底座",
+      "url": "https://my.oschina.net/u/2828172/blog/19718842",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T09:15:13.000Z",
+      "summary": "过去很长一段时间里，数据处理系统主要围绕结构化记录展开：订单、日志、点击、交易、指标、维表、事实表。数据被抽象成一行行清晰的记录，核心任务是清洗、关联、聚合、统计。这类链路支撑了搜索、风控、推荐、广告等大量传统业务，也塑造了我们对数据工程的默认想象：数据处理首先是对结构化字段的加工。",
+      "topics": [
+        "多模态",
+        "开源生态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "ithome-开放人工智能公司招聘投资银行专家-年薪最高-20-5-万美元外加股权",
       "title": "开放人工智能公司招聘投资银行专家，年薪最高 20.5 万美元外加股权",
       "url": "https://www.ithome.com/0/974/152.htm",
@@ -912,24 +930,6 @@
       "image": ""
     },
     {
-      "id": "oschina-蚂蚁推出-2-0-并开源-视觉",
-      "title": "蚂蚁推出 2.0，并开源 -视觉",
-      "url": "https://www.oschina.net/news/471571",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T08:54:54.000Z",
-      "summary": "在 2026 年 1 月开源 1.0 后，蚂蚁集团旗下具身智能公司灵波科技宣布推出全新一代空间感知模型 2.0，以及同步开源视觉基座模型 -视觉。根据介绍，是一种面向真实场景的深度补全模型，相当于机器人在物理世界的眼睛。2.0 的训练数据从 1.0 版本的 30。",
-      "topics": [
-        "多模态",
-        "开源生态",
-        "机器人"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "thirty-six-kr-阿里达摩院具身智能平台获联合国人工智能优秀案例奖",
       "title": "阿里达摩院具身智能平台获联合国人工智能优秀案例奖",
       "url": "https://36kr.com/newsflashes/3886754451632392?f=rss",
@@ -944,7 +944,7 @@
         "监管安全",
         "机器人"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1274,6 +1274,24 @@
       "image": ""
     },
     {
+      "id": "oschina-蚂蚁推出-2-0-并开源-视觉",
+      "title": "蚂蚁推出 2.0，并开源 -视觉",
+      "url": "https://www.oschina.net/news/471571",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T08:54:54.000Z",
+      "summary": "在 2026 年 1 月开源 1.0 后，蚂蚁集团旗下具身智能公司灵波科技宣布推出全新一代空间感知模型 2.0，以及同步开源视觉基座模型 -视觉。根据介绍，是一种面向真实场景的深度补全模型，相当于机器人在物理世界的眼睛。2.0 的训练数据从 1.0 版本的 30。",
+      "topics": [
+        "多模态",
+        "开源生态",
+        "机器人"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-淡马锡投资组合价值突破4000亿美元-对人工智能的押注提升回报率",
       "title": "淡马锡投资组合价值突破4000亿美元，对人工智能的押注提升回报率",
       "url": "https://36kr.com/newsflashes/3886744440188933?f=rss",
@@ -1287,23 +1305,6 @@
         "投融资"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "oschina-工信部提示人工智能编程工具克劳德模型代码存在安全后门隐患",
-      "title": "工信部提示人工智能编程工具克劳德模型代码存在安全后门隐患",
-      "url": "https://www.oschina.net/news/471570",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T08:20:46.000Z",
-      "summary": "近日，工业和信息化部网络安全威胁和漏洞信息共享平台（）监测发现，人工智能编程工具克劳德模型代码存在安全后门隐患，危害严重。克劳德模型代码是美国人工智能安全公司公司开发的人工智能编程工具，可根据文字需求自主完成代码编写、修复等工作。由于其内置了监控机制，未经用户同意即可向远程服务器回传用户地域、身份标识等敏感信息，受影。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1613,6 +1614,23 @@
       "image": ""
     },
     {
+      "id": "oschina-工信部提示人工智能编程工具克劳德模型代码存在安全后门隐患",
+      "title": "工信部提示人工智能编程工具克劳德模型代码存在安全后门隐患",
+      "url": "https://www.oschina.net/news/471570",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T08:20:46.000Z",
+      "summary": "近日，工业和信息化部网络安全威胁和漏洞信息共享平台（）监测发现，人工智能编程工具克劳德模型代码存在安全后门隐患，危害严重。克劳德模型代码是美国人工智能安全公司公司开发的人工智能编程工具，可根据文字需求自主完成代码编写、修复等工作。由于其内置了监控机制，未经用户同意即可向远程服务器回传用户地域、身份标识等敏感信息，受影。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-地产人工智能进入落地战-深度智联又甩出一张牌",
       "title": "地产人工智能进入落地战，深度智联又甩出一张牌",
       "url": "https://36kr.com/p/3886709249241349?f=rss",
@@ -1647,23 +1665,6 @@
       "image": "https://external-preview.redd.it/VRV-gLzj5UhmIIwy0QXSBvgJMgXKpGG2MCWNv0yq0K8.jpeg?width=640&crop=smart&auto=webp&s=bd7972de17df221dd92772000f0bb448d0bd5ce5"
     },
     {
-      "id": "oschina-第2代-0-更新日志",
-      "title": "🎉 第2代.0 更新日志",
-      "url": "https://www.oschina.net/news/471568/erupt-2-0-released",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T06:40:26.000Z",
-      "summary": "2026-07-08 · 版本 2.0.3 · 基于 3.5.16 低代码 · 注解驱动 · 人工智能原生 📊 本次概览维度数量说明 🚀 新开源模块 2、🌟 新增功能 21 注解增强、人工智能能力、查询与导出等 🎨 前端重构 50+ 2.0，20 → 21 全量重写 🔒 安全升级 1 密码加密相关型号 →。",
-      "topics": [
-        "监管安全",
-        "开源生态"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
       "id": "leiphone-突破具身智能泛化瓶颈-支持20多种机器人构型-蚂蚁灵波开源具身基座模型-2-0",
       "title": "突破具身智能泛化瓶颈！支持20多种机器人构型，蚂蚁灵波开源具身基座模型 2.0",
       "url": "https://www.leiphone.com/category/industrynews/4583hFHXszrX7fky.html",
@@ -1693,7 +1694,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1728,7 +1729,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1764,7 +1765,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1931,23 +1932,24 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "oschina-人工智能造物大赏7月活动-十分钟打造你的人工智能玄学硬件",
-      "title": "🔥🔥人工智能造物大赏7月活动——十分钟打造你的人工智能玄学硬件！",
-      "url": "https://www.oschina.net/news/471567",
+      "id": "oschina-第2代-0-更新日志",
+      "title": "🎉 第2代.0 更新日志",
+      "url": "https://www.oschina.net/news/471568/erupt-2-0-released",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T06:20:25.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "publishedAt": "2026-07-08T06:40:26.000Z",
+      "summary": "2026-07-08 · 版本 2.0.3 · 基于 3.5.16 低代码 · 注解驱动 · 人工智能原生 📊 本次概览维度数量说明 🚀 新开源模块 2、🌟 新增功能 21 注解增强、人工智能能力、查询与导出等 🎨 前端重构 50+ 2.0，20 → 21 全量重写 🔒 安全升级 1 密码加密相关型号 →。",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "开源生态"
       ],
-      "heat": 84,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2174,20 +2176,19 @@
       "image": ""
     },
     {
-      "id": "oschina-蚂蚁开源-2-0",
-      "title": "蚂蚁开源 2.0",
-      "url": "https://www.oschina.net/news/471566",
+      "id": "oschina-人工智能造物大赏7月活动-十分钟打造你的人工智能玄学硬件",
+      "title": "🔥🔥人工智能造物大赏7月活动——十分钟打造你的人工智能玄学硬件！",
+      "url": "https://www.oschina.net/news/471567",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T06:14:58.000Z",
-      "summary": "蚂蚁灵波宣布正式开源新一代具身基座模型 2.0。作为今年 1 月开源的 1.0 的全面升级，2.0 在构型泛化、自由度支持和落地效率等方面实现了显著提升。并全面扩充了对头部、腰部、末端执行器以及底盘等自由度的支持。根据介绍，项目团队从 9 万小时数据中清洗出 5 万小时高质量真机数。",
+      "publishedAt": "2026-07-08T06:20:25.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
-        "开源生态",
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2395,20 +2396,20 @@
       "image": ""
     },
     {
-      "id": "oschina-系统清理工具发布第6代-0-2",
-      "title": "系统清理工具发布第6代.0.2",
-      "url": "https://www.oschina.net/news/471565/bleachbit-602",
+      "id": "oschina-蚂蚁开源-2-0",
+      "title": "蚂蚁开源 2.0",
+      "url": "https://www.oschina.net/news/471566",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T05:55:28.000Z",
-      "summary": "6.0.2 现已发布，这是一个维护版本，修复了视窗系统上的安全问题，新增了针对代码、和克劳德模型代码的清理工具，并提升了视窗系统和平台上的性能与可靠性。自 6.0.0 版本以来的更改所有平台新功能为代码。",
+      "publishedAt": "2026-07-08T06:14:58.000Z",
+      "summary": "蚂蚁灵波宣布正式开源新一代具身基座模型 2.0。作为今年 1 月开源的 1.0 的全面升级，2.0 在构型泛化、自由度支持和落地效率等方面实现了显著提升。并全面扩充了对头部、腰部、末端执行器以及底盘等自由度的支持。根据介绍，项目团队从 9 万小时数据中清洗出 5 万小时高质量真机数。",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "开源生态",
+        "机器人"
       ],
-      "heat": 97,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2583,6 +2584,23 @@
       "image": ""
     },
     {
+      "id": "oschina-系统清理工具发布第6代-0-2",
+      "title": "系统清理工具发布第6代.0.2",
+      "url": "https://www.oschina.net/news/471565/bleachbit-602",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T05:55:28.000Z",
+      "summary": "6.0.2 现已发布，这是一个维护版本，修复了视窗系统上的安全问题，新增了针对代码、和克劳德模型代码的清理工具，并提升了视窗系统和平台上的性能与可靠性。自 6.0.0 版本以来的更改所有平台新功能为代码。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能数据中心面向和",
       "title": "人工智能数据中心面向和",
       "url": "https://www.reddit.com/r/artificial/comments/1uqjtk7/thieves_are_now_targeting_ai_data_center/",
@@ -2597,22 +2615,6 @@
       ],
       "heat": 82,
       "image": "https://external-preview.redd.it/HFXaEvZiHAKu6Rex-UAjEqMkjvq6cD6xr9oRwNg3Uf0.jpeg?width=640&crop=smart&auto=webp&s=0ffb90f30e9cbf6696f0db8a0eca4cd00aaeea80"
-    },
-    {
-      "id": "oschina-不吹不黑-深度求索编程实测翻车-这些低级问题暴露真实水平",
-      "title": "不吹不黑，深度求索编程实测翻车：这些低级问题暴露真实水平",
-      "url": "https://www.oschina.net/news/471561",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T04:15:35.000Z",
-      "summary": "用深度求索写了一周代码，坦白说 —— 体验不太理想。不是复杂算法写不出来，而是在工程基本功上频频踩坑：字符串拼、改完不编译、看到版本号数字小就往上加…… 全是低级错误。本文汇总一周真实使用中遇到的各种翻车现场。先看总结：一周暴露的几大低级错误 # 错误类型一句话描述严重程度 1 用字符串拼结构化。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 90,
-      "image": ""
     },
     {
       "id": "cnblogs-news-维纳智能登上通讯-人工智能不只会回答问题-开始生成高精度行业数据",
@@ -2738,21 +2740,19 @@
       "image": ""
     },
     {
-      "id": "oschina-与合体后的首款人工智能模型将于今日亮相",
-      "title": "与合体后的首款人工智能模型将于今日亮相",
-      "url": "https://www.oschina.net/news/471558/spacexai-cursor-jointly-developed-ai-model-launch-nears",
+      "id": "oschina-不吹不黑-深度求索编程实测翻车-这些低级问题暴露真实水平",
+      "title": "不吹不黑，深度求索编程实测翻车：这些低级问题暴露真实水平",
+      "url": "https://www.oschina.net/news/471561",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T04:00:51.000Z",
-      "summary": "独家爆料：与联合开发的首款人工智能模型最快将于今日（7 月 8 日）上线。这款模型在的数据中心从零开始训练，据称已在多项基准上对表人工智能安全公司旗舰模型 4.8 和开放人工智能公司新一代语言模型。这是以 600 亿美元全股票交易收购母公司之后，双方的第一个实质性。",
+      "publishedAt": "2026-07-08T04:15:35.000Z",
+      "summary": "用深度求索写了一周代码，坦白说 —— 体验不太理想。不是复杂算法写不出来，而是在工程基本功上频频踩坑：字符串拼、改完不编译、看到版本号数字小就往上加…… 全是低级错误。本文汇总一周真实使用中遇到的各种翻车现场。先看总结：一周暴露的几大低级错误 # 错误类型一句话描述严重程度 1 用字符串拼结构化。",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2860,19 +2860,21 @@
       "image": ""
     },
     {
-      "id": "oschina-深度求索正在自研面向推理场景的人工智能芯片",
-      "title": "深度求索正在自研面向推理场景的人工智能芯片",
-      "url": "https://www.oschina.net/news/471557",
+      "id": "oschina-与合体后的首款人工智能模型将于今日亮相",
+      "title": "与合体后的首款人工智能模型将于今日亮相",
+      "url": "https://www.oschina.net/news/471558/spacexai-cursor-jointly-developed-ai-model-launch-nears",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T03:46:40.000Z",
-      "summary": "根据路透社的独家报道，三位知情人士透露，深度求索正在开发自己的人工智能芯片。这是一款推理芯片，而非训练芯片。用途明确——在模型完成训练后，用于高效运行模型并生成用户响应。深度求索当前的算力基础设施建立在英伟达相关型号和华为昇腾芯片之上。美国出口管制让中国公司无法买到英伟达最新最强的图形处理器，而华为昇腾。",
+      "publishedAt": "2026-07-08T04:00:51.000Z",
+      "summary": "独家爆料：与联合开发的首款人工智能模型最快将于今日（7 月 8 日）上线。这款模型在的数据中心从零开始训练，据称已在多项基准上对表人工智能安全公司旗舰模型 4.8 和开放人工智能公司新一代语言模型。这是以 600 亿美元全股票交易收购母公司之后，双方的第一个实质性。",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 90,
+      "heat": 99,
       "image": ""
     }
   ]
