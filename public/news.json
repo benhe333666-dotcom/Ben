@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-09T16:41:00.400Z",
+  "generatedAt": "2026-07-09T17:11:35.421Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-09T17:00:00.000Z",
+  "nextUpdateHint": "2026-07-09T17:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-09T16:30:00.000Z"
+    "latestPublishedAt": "2026-07-09T17:06:11.000Z"
   },
   "topics": [
     {
@@ -19,32 +19,27 @@
     {
       "name": "模型发布",
       "count": 56,
-      "heat": 86
+      "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 22,
+      "count": 24,
+      "heat": 90
+    },
+    {
+      "name": "算力芯片",
+      "count": 21,
       "heat": 90
     },
     {
       "name": "研究论文",
-      "count": 21,
-      "heat": 88
-    },
-    {
-      "name": "算力芯片",
       "count": 19,
-      "heat": 89
+      "heat": 87
     },
     {
       "name": "多模态",
-      "count": 16,
-      "heat": 89
-    },
-    {
-      "name": "人工智能动态",
-      "count": 18,
-      "heat": 78
+      "count": 15,
+      "heat": 90
     },
     {
       "name": "开源生态",
@@ -52,19 +47,24 @@
       "heat": 75
     },
     {
+      "name": "人工智能动态",
+      "count": 16,
+      "heat": 77
+    },
+    {
       "name": "投融资",
-      "count": 12,
-      "heat": 84
+      "count": 11,
+      "heat": 83
     },
     {
       "name": "机器人",
       "count": 9,
-      "heat": 91
+      "heat": 90
     },
     {
       "name": "端侧智能",
       "count": 7,
-      "heat": 89
+      "heat": 88
     }
   ],
   "sources": [
@@ -80,9 +80,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-07-08T13:30:00.000Z",
-      "latestDisplayedAt": "2026-07-08T13:30:00.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-07-09T10:00:00.000Z",
+      "latestDisplayedAt": "2026-07-09T10:00:00.000Z"
     },
     {
       "id": "google-ai-blog",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-07-09T14:53:09.000Z",
-      "latestDisplayedAt": "2026-07-09T14:53:09.000Z"
+      "latestFetchedAt": "2026-07-09T17:06:11.000Z",
+      "latestDisplayedAt": "2026-07-09T17:06:11.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -239,10 +239,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-07-09T14:00:00.000Z",
-      "latestDisplayedAt": "2026-07-09T14:00:00.000Z"
+      "itemCount": 10,
+      "displayedCount": 9,
+      "latestFetchedAt": "2026-07-09T17:00:00.000Z",
+      "latestDisplayedAt": "2026-07-09T17:00:00.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-07-09T13:23:57.000Z",
-      "latestDisplayedAt": "2026-07-09T13:23:57.000Z"
+      "latestFetchedAt": "2026-07-09T16:58:44.000Z",
+      "latestDisplayedAt": "2026-07-09T16:58:44.000Z"
     },
     {
       "id": "wired-ai",
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 4,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-07-09T15:45:17.000Z",
-      "latestDisplayedAt": "2026-07-09T15:45:17.000Z"
+      "itemCount": 3,
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-07-09T17:04:14.000Z",
+      "latestDisplayedAt": "2026-07-09T17:04:14.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-07-09T16:25:33.000Z",
-      "latestDisplayedAt": "2026-07-09T16:19:11.000Z"
+      "latestFetchedAt": "2026-07-09T17:03:12.000Z",
+      "latestDisplayedAt": "2026-07-09T16:51:18.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-07-08T17:59:59.000Z",
       "latestDisplayedAt": "2026-07-08T17:59:59.000Z"
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 17,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-09T13:03:00.000Z",
       "latestDisplayedAt": "2026-07-09T13:03:00.000Z"
     },
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-09T10:28:29.000Z",
       "latestDisplayedAt": "2026-07-09T10:28:29.000Z"
     },
@@ -488,6 +488,90 @@
   "failures": [],
   "items": [
     {
+      "id": "techcrunch-ai-英伟达信息技术创建",
+      "title": "英伟达信息技术创建",
+      "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T17:06:11.000Z",
+      "summary": "英伟达 15% 在，作为向。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T17:04:14.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-开放人工智能公司政府-和宣布智能聊天助手",
+      "title": "开放人工智能公司政府，和宣布智能聊天助手",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T17:00:00.000Z",
+      "summary": "关于开放人工智能公司在，向政府，组织预览，公司面向模型。向，开放人工智能公司发布新人工智能智能体在 : 智能聊天助手 …",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-元宇宙平台公司-1-1-接口开放人工智能公司和人工智能安全公司作为人工智能",
+      "title": "元宇宙平台公司 1.1 接口开放人工智能公司和人工智能安全公司作为人工智能",
+      "url": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T16:58:44.000Z",
+      "summary": "元宇宙平台公司人工智能接口企业借助 1.1 在 4.5，发布只是。在 $4.25 百万词元，元宇宙平台公司人工智能安全公司开放人工智能公司。面向人工智能实验室消耗，只是。元宇宙平台公司 1.1 接口开放人工智能公司和人工智能安全公司作为人工智能首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1urvwlh/documenting_sprout/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T16:51:18.000Z",
+      "summary": "规则，和这里向。向问题构建，和在。借助。在，向。面向讨论，和可能帮助强化。认为在推理能力。认为，信息技术。向。面向，和向。在研究呼吁。构建大语言模型，问题: 人工智能了解推理能力在图形处理器？在，和向答案。正确信息技术在教育，认为。信息技术在时间，和每个答案向向支持信息技术。信息技术答案，信息技术信息技术。未来人工智能信息技术大语言模型。信息技术研究，人工智能。在讨论，和问题……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-训练和为什么图形处理器作为作为",
       "title": "训练和为什么图形处理器作为作为",
       "url": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
@@ -501,26 +585,8 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-为什么人工智能",
-      "title": "为什么人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1urv018/why_does_the_west_hate_ai/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T16:19:11.000Z",
-      "summary": "机器人来自 Č 1920 机器人。信息技术构建来自，来自。认为关于人工智能，转化进入作为。信息技术，信息技术向 80，ő 问题。信息技术，信息技术解决问题面向。信息技术，和研究语言模型向借助实际询问向。认为关于。认为信息技术，关于向和向。向，机器人向。生活。信息技术，信息技术。值得这里。向，和机器人进入在在，实验室，关于作为部件，和人工智能和机器人可能帮助 : 只是和。我们面……",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "机器人"
-      ],
-      "heat": 95,
-      "image": "https://preview.redd.it/soms9q5vb8ch1.jpeg?width=640&crop=smart&auto=webp&s=a35222892ebaeaef7ef9ef648e4dea4014de07d1"
     },
     {
       "id": "ithome-消息称特斯拉三代擎天柱人形机器人初步定型-马斯克放话达不成产能目标就开掉整个采购团队",
@@ -536,23 +602,7 @@
         "模型发布",
         "机器人"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-应用进入智能体工具",
-      "title": ": 应用进入智能体工具",
-      "url": "https://news.ycombinator.com/item?id=48847834",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T15:45:17.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 86,
+      "heat": 91,
       "image": ""
     },
     {
@@ -574,23 +624,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司新克劳德模型功能在人工智能",
-      "title": "人工智能安全公司新克劳德模型功能在人工智能",
-      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T14:53:09.000Z",
-      "summary": "克劳德模型新只是使用人工智能。信息技术取决于在人工智能安全公司。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "github-changelog-智能副驾面向仓库",
       "title": "智能副驾面向仓库",
       "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
@@ -605,40 +638,6 @@
         "开源生态"
       ],
       "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-元宇宙平台公司新人工智能模型向在编程",
-      "title": "元宇宙平台公司新人工智能模型向在编程",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T14:00:00.000Z",
-      "summary": "人工智能借助首个在，模型在，元宇宙平台公司向开发者借助新模型进入人工智能编程软件借助新元宇宙平台公司模型接口。元宇宙平台公司 1.1 来自首个，借助 …",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司-30-人工智能编程",
-      "title": "开放人工智能公司 30 人工智能编程",
-      "url": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T13:23:57.000Z",
-      "summary": "开放人工智能公司专业版，使用面向人工智能模型技能，和 30 任务。公司基准测试。开放人工智能公司 30 人工智能编程首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -692,6 +691,23 @@
       "image": ""
     },
     {
+      "id": "openai-news-智能聊天助手合作伙伴面向最",
+      "title": "智能聊天助手合作伙伴面向最",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "summary": "智能聊天助手智能体应用和，借助面向，和转化进入。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "qbitai-第十一届中国航空创新创业大赛报名开启-熵跃苍穹无界新元",
       "title": "第十一届中国航空创新创业大赛报名开启｜熵跃苍穹无界新元",
       "url": "https://www.qbitai.com/2026/07/446843.html",
@@ -704,7 +720,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -737,7 +753,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-1152x648.jpg"
     },
     {
@@ -753,7 +769,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": "https://media.wired.com/photos/6a4d0ba71ec7b7e789dcf997/master/pass/InvestmentFoot_Lead.jpg"
     },
     {
@@ -838,7 +854,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -858,23 +874,6 @@
       ],
       "heat": 89,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Nemotron_LangChain-scaled.jpg"
-    },
-    {
-      "id": "openai-news-向政府和安全",
-      "title": "向政府和安全",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-08T13:30:00.000Z",
-      "summary": "了解开放人工智能公司政府和安全，借助面向负责任人工智能使用，和安全。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 85,
-      "image": ""
     },
     {
       "id": "google-research-驱动-我们减少",
@@ -927,20 +926,54 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp"
     },
     {
-      "id": "reddit-artificial-人工智能新闻-26-05-控制在人工智能",
-      "title": "人工智能新闻 26，05: 控制在人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1uruovn/quantized_ai_news_2605_the_price_of_control_in/",
+      "id": "the-verge-ai-微软关于向",
+      "title": "微软关于向",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T17:00:00.000Z",
+      "summary": "视窗系统 11 更新修复面向安全在。微软在在信息技术人工智能向，客户查看安全更新在安全发布，人工智能 …",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-为什么人工智能",
+      "title": "为什么人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1urv018/why_does_the_west_hate_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T16:08:08.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-09T16:19:11.000Z",
+      "summary": "机器人来自 Č 1920 机器人。信息技术构建来自，来自。认为关于人工智能，转化进入作为。信息技术，信息技术向 80，ő 问题。信息技术，信息技术解决问题面向。信息技术，和研究语言模型向借助实际询问向。认为关于。认为信息技术，关于向和向。向，机器人向。生活。信息技术，信息技术。值得这里。向，和机器人进入在在，实验室，关于作为部件，和人工智能和机器人可能帮助 : 只是和。我们面……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "研究论文",
+        "机器人"
       ],
-      "heat": 85,
-      "image": "https://external-preview.redd.it/eEMbXgtwo-uxQJUYahFAuJCFNhyjCGqqBzaLV_KcRX0.png?width=640&crop=smart&auto=webp&s=8c27acd9d7c65dd2bafca35cae0ab247c0b15147"
+      "heat": 95,
+      "image": "https://preview.redd.it/soms9q5vb8ch1.jpeg?width=640&crop=smart&auto=webp&s=a35222892ebaeaef7ef9ef648e4dea4014de07d1"
+    },
+    {
+      "id": "hacker-news-ai-应用进入智能体工具",
+      "title": ": 应用进入智能体工具",
+      "url": "https://news.ycombinator.com/item?id=48847834",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T15:45:17.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 86,
+      "image": ""
     },
     {
       "id": "ithome-与人工智能公司排队造富-私人飞机行业意外先被新贵们带火了",
@@ -973,58 +1006,42 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司-开放人工智能公司-和-25",
-      "title": "人工智能安全公司，开放人工智能公司，和 25",
-      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+      "id": "techcrunch-ai-人工智能安全公司新克劳德模型功能在人工智能",
+      "title": "人工智能安全公司新克劳德模型功能在人工智能",
+      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:51:00.000Z",
-      "summary": "人工智能向生成。2000。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-向克劳德模型",
-      "title": "向克劳德模型",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T13:30:00.000Z",
-      "summary": "在，评测功能，在应用来自向，和，向人工智能。人工智能安全公司在宣布功能面向克劳德模型，用户向查看数据月，…",
+      "publishedAt": "2026-07-09T14:53:09.000Z",
+      "summary": "克劳德模型新只是使用人工智能。信息技术取决于在人工智能安全公司。",
       "topics": [
         "模型发布",
-        "产品应用",
         "监管安全"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
+      "id": "the-decoder-开放人工智能公司-30-人工智能编程",
+      "title": "开放人工智能公司 30 人工智能编程",
+      "url": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:29:31.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-09T13:23:57.000Z",
+      "summary": "开放人工智能公司专业版，使用面向人工智能模型技能，和 30 任务。公司基准测试。开放人工智能公司 30 人工智能编程首个在人工智能解码媒体。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 84,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1040,25 +1057,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-中国打开-来源模型-5-2-编程信息技术旗舰模型在成本",
-      "title": "中国打开，来源模型 5.2 编程信息技术旗舰模型在成本",
-      "url": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T11:03:39.000Z",
-      "summary": "编程智能体在，百万，和中国打开，来源模型 5.2 人工智能安全公司旗舰模型 4.8 在 $1.28 任务 $1.94。公司向信息技术作为编程。: 单个，和公司构建基准测试在。中国打开，来源模型 5.2 编程信息技术旗舰模型在成本首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1098,6 +1097,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
+      "title": "开放人工智能公司发布人工智能相关动态。",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "summary": "智能来自每个词元，性能美元，和在需求面向。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-元宇宙平台公司-投降-一场被严重误读的算力恐慌",
       "title": "元宇宙平台公司“投降”？一场被严重误读的算力恐慌",
       "url": "https://news.cnblogs.com/n/830341/",
@@ -1110,7 +1125,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1126,7 +1141,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1143,7 +1158,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1195,25 +1210,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "openai-news-来自在编程评测",
-      "title": "来自在编程评测",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-08T13:00:00.000Z",
-      "summary": "新来自开放人工智能公司在专业版，编程基准测试，关于和在人工智能模型。",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "投融资"
-      ],
-      "heat": 90,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1245,7 +1242,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1299,6 +1296,22 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能新闻-26-05-控制在人工智能",
+      "title": "人工智能新闻 26，05: 控制在人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1uruovn/quantized_ai_news_2605_the_price_of_control_in/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T16:08:08.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": "https://external-preview.redd.it/eEMbXgtwo-uxQJUYahFAuJCFNhyjCGqqBzaLV_KcRX0.png?width=640&crop=smart&auto=webp&s=8c27acd9d7c65dd2bafca35cae0ab247c0b15147"
+    },
+    {
       "id": "ithome-喜加二-纹身大亨-游戏免费领取",
       "title": "喜加二：《 》《纹身大亨》游戏免费领取",
       "url": "https://www.ithome.com/0/974/779.htm",
@@ -1315,22 +1328,37 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能企业",
-      "title": "人工智能企业",
-      "url": "https://www.reddit.com/r/artificial/comments/1urslko/zuck_says_ai_will_run_your_whole_business/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "techcrunch-ai-人工智能安全公司-开放人工智能公司-和-25",
+      "title": "人工智能安全公司，开放人工智能公司，和 25",
+      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:53:57.000Z",
-      "summary": "元宇宙平台公司推出新人工智能智能体面向企业向客户，和。推出智能体向企业。在机械手，向。平台作为作为元宇宙平台公司工具人工智能智能体只是面向。时间在客户服务和。在我们向关于: 数据。运营数据，客户，和向，平台企业模型在。平台控制和，风险向数据在。面向本地和。面向，创业公司，和，构建，打开工作流数据和。信息技术向。我们实时，在向使用人工智能智能体面向这里由",
+      "publishedAt": "2026-07-09T14:51:00.000Z",
+      "summary": "人工智能向生成。2000。",
       "topics": [
-        "模型发布",
-        "产品应用",
+        "监管安全",
         "投融资"
       ],
-      "heat": 94,
-      "image": "https://preview.redd.it/veva18jft7ch1.jpeg?width=640&crop=smart&auto=webp&s=8f692b58daa5704bb5da83be1fbefd5eb8c4491c"
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-元宇宙平台公司新人工智能模型向在编程",
+      "title": "元宇宙平台公司新人工智能模型向在编程",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T14:00:00.000Z",
+      "summary": "人工智能借助首个在，模型在，元宇宙平台公司向开发者借助新模型进入人工智能编程软件借助新元宇宙平台公司模型接口。元宇宙平台公司 1.1 来自首个，借助 …",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 88,
+      "image": ""
     },
     {
       "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
@@ -1346,41 +1374,6 @@
         "产品应用"
       ],
       "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-开源人工智能开发者工具-65-百万-向-9-百万用户",
-      "title": "开源人工智能开发者工具 $65 百万，向 9 百万用户",
-      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T13:00:00.000Z",
-      "summary": "基准测试，176，000，和 17，000 在代码托管平台由帮助开发者人工智能在电脑。",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "端侧智能"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-2026-转化人工智能进入助手工程师",
-      "title": "2026 转化人工智能进入助手工程师",
-      "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T13:00:00.000Z",
-      "summary": "图像面向，人工智能。询问信息技术向，和信息技术。信息技术实际使用人工智能面向在。在新发布，…",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 92,
       "image": ""
     },
     {
@@ -1401,19 +1394,21 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-软件工程师-时间",
-      "title": "软件工程师，时间",
-      "url": "https://news.ycombinator.com/item?id=48844517",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
+      "id": "the-decoder-中国打开-来源模型-5-2-编程信息技术旗舰模型在成本",
+      "title": "中国打开，来源模型 5.2 编程信息技术旗舰模型在成本",
+      "url": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T12:01:17.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-09T11:03:39.000Z",
+      "summary": "编程智能体在，百万，和中国打开，来源模型 5.2 人工智能安全公司旗舰模型 4.8 在 $1.28 任务 $1.94。公司向信息技术作为编程。: 单个，和公司构建基准测试在。中国打开，来源模型 5.2 编程信息技术旗舰模型在成本首个在人工智能解码媒体。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 83,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1435,23 +1430,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司人工智能每个在",
-      "title": "开放人工智能公司人工智能每个在",
-      "url": "https://the-decoder.com/openais-ai-beats-every-human-at-atcoder-a-top-competitive-programming-contest/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T09:56:57.000Z",
-      "summary": "在 2026，开放人工智能公司在，五个问题在。问题由。开放人工智能公司人工智能每个在，首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
       "id": "oschina-腾讯云智能体发布",
       "title": "腾讯云智能体发布",
       "url": "https://www.oschina.net/news/471614",
@@ -1464,7 +1442,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1538,19 +1516,20 @@
       "image": ""
     },
     {
-      "id": "openai-news-帮助构建人工智能技能",
-      "title": "帮助构建人工智能技能",
-      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "id": "openai-news-向政府和安全",
+      "title": "向政府和安全",
+      "url": "https://openai.com/index/government-national-security-partnerships",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-08T10:00:00.000Z",
-      "summary": "开放人工智能公司和系列带来机械手，在人工智能技能向帮助构建人工智能技能面向。",
+      "publishedAt": "2026-07-08T13:30:00.000Z",
+      "summary": "了解开放人工智能公司政府和安全，借助面向负责任人工智能使用，和安全。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 77,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1566,7 +1545,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://media.wired.com/photos/6a4be55744dc79c43267387c/master/pass/DeepMind-Alum-QandA-Verity-Harding-Business.jpg"
     },
     {
@@ -1621,35 +1600,57 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能智能体",
-      "title": "人工智能智能体？",
-      "url": "https://www.reddit.com/r/artificial/comments/1urrz2i/what_happens_when_ai_agents_get_their_own/",
+      "id": "reddit-artificial-人工智能企业",
+      "title": "人工智能企业",
+      "url": "https://www.reddit.com/r/artificial/comments/1urslko/zuck_says_ai_will_run_your_whole_business/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:31:03.000Z",
-      "summary": "我们讨论关于人工智能智能体面向，最在作为工具，答案问题，自动化任务。智能体和生态？智能体，和信息技术正确向。面向，借助在，智能体，智能体，呼吁，和在任务。平台智能体可能和。问题。智能体成为和智能体，我们人工智能技能成为服务？我们查看智能体在技能，和成本？在时间，问题: 我们智能体我们借助？智能体决策？我们。来自工作流，来自人工智能作为工具向人工智能作为向？这里认为。由",
+      "publishedAt": "2026-07-09T14:53:57.000Z",
+      "summary": "元宇宙平台公司推出新人工智能智能体面向企业向客户，和。推出智能体向企业。在机械手，向。平台作为作为元宇宙平台公司工具人工智能智能体只是面向。时间在客户服务和。在我们向关于: 数据。运营数据，客户，和向，平台企业模型在。平台控制和，风险向数据在。面向本地和。面向，创业公司，和，构建，打开工作流数据和。信息技术向。我们实时，在向使用人工智能智能体面向这里由",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 84,
+      "heat": 94,
+      "image": "https://preview.redd.it/veva18jft7ch1.jpeg?width=640&crop=smart&auto=webp&s=8f692b58daa5704bb5da83be1fbefd5eb8c4491c"
+    },
+    {
+      "id": "the-verge-ai-向克劳德模型",
+      "title": "向克劳德模型",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T13:30:00.000Z",
+      "summary": "在，评测功能，在应用来自向，和，向人工智能。人工智能安全公司在宣布功能面向克劳德模型，用户向查看数据月，…",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能借助",
-      "title": "人工智能借助",
-      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+      "id": "techcrunch-ai-开源人工智能开发者工具-65-百万-向-9-百万用户",
+      "title": "开源人工智能开发者工具 $65 百万，向 9 百万用户",
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-07-09T13:00:00.000Z",
-      "summary": "在公司产品，用户借助，问题，和。",
+      "summary": "基准测试，176，000，和 17，000 在代码托管平台由帮助开发者人工智能在电脑。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "研究论文",
+        "端侧智能"
       ],
-      "heat": 88,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1685,6 +1686,23 @@
       "image": ""
     },
     {
+      "id": "the-decoder-开放人工智能公司人工智能每个在",
+      "title": "开放人工智能公司人工智能每个在",
+      "url": "https://the-decoder.com/openais-ai-beats-every-human-at-atcoder-a-top-competitive-programming-contest/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T09:56:57.000Z",
+      "summary": "在 2026，开放人工智能公司在，五个问题在。问题由。开放人工智能公司人工智能每个在，首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "leiphone-天立启鸣-人工智能-教育-方案入选人工智能",
       "title": "天立启鸣“人工智能+教育”方案入选人工智能",
       "url": "https://www.leiphone.com/category/ai/PfbwTKDLzwL99jmZ.html",
@@ -1694,24 +1712,6 @@
       "language": "zh",
       "publishedAt": "2026-07-09T08:59:00.000Z",
       "summary": "北京时间7月7日，联合国机构国际电信联盟（）2026年“人工智能向善”全球峰会（ 人工智能 ）在瑞士日内瓦举办，公布了年度 “人工智能创新影响力案例集”。天立国际旗下智慧教育公司启鸣达人（以下简称“天立启鸣”） 自主研发的“天立学科大脑：人工智能驱动的个性化公平学习路径”入选“，”（用于创造力、教育和公共服务的生成式人工智能）类别案例集。“天立学科大脑：人工智能驱动的个性化公……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-4-5-向-5-和新一代语言模型基准测试",
-      "title": "4.5 向 5 和新一代语言模型基准测试",
-      "url": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T07:47:44.000Z",
-      "summary": "发布 4.5，训练在英伟达图形处理器。在编程基准测试，模型 5 和新一代语言模型 4.2 词元旗舰模型 4.8。在 $2 百万词元，信息技术成本。欧盟在。4.5 向 5 和新一代语言模型基准测试首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
@@ -1804,38 +1804,21 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-智能聊天助手模式更好在",
-      "title": "智能聊天助手模式更好在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T17:00:00.000Z",
-      "summary": "开放人工智能公司智能聊天助手模式借助新模型信息技术讨论向。新，实时，1 向和面向向，开放人工智能公司研究呼吁，实时，1 公司 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/index/introducing-gpt-live",
+      "id": "openai-news-来自在编程评测",
+      "title": "来自在编程评测",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "新模型面向，人工智能，驱动智能聊天助手。",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "summary": "新来自开放人工智能公司在专业版，编程基准测试，关于和在人工智能模型。",
       "topics": [
         "模型发布",
-        "产品应用"
+        "研究论文",
+        "投融资"
       ],
-      "heat": 74,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1853,7 +1836,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://media.wired.com/photos/6a431773890f52402e5ab8b7/master/pass/Joshua-Achiam-Leaving-OpenAI-Business-2274413917.jpg"
     },
     {
@@ -1910,33 +1893,50 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-平台人工智能面向任务",
-      "title": "平台人工智能面向任务？",
-      "url": "https://www.reddit.com/r/artificial/comments/1urrunl/is_there_any_platform_which_can_suggest_me_best/",
+      "id": "reddit-artificial-人工智能智能体",
+      "title": "人工智能智能体？",
+      "url": "https://www.reddit.com/r/artificial/comments/1urrz2i/what_happens_when_ai_agents_get_their_own/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:26:29.000Z",
-      "summary": "在人工智能工具面向任务和。帮助由",
+      "publishedAt": "2026-07-09T14:31:03.000Z",
+      "summary": "我们讨论关于人工智能智能体面向，最在作为工具，答案问题，自动化任务。智能体和生态？智能体，和信息技术正确向。面向，借助在，智能体，智能体，呼吁，和在任务。平台智能体可能和。问题。智能体成为和智能体，我们人工智能技能成为服务？我们查看智能体在技能，和成本？在时间，问题: 我们智能体我们借助？智能体决策？我们。来自工作流，来自人工智能作为工具向人工智能作为向？这里认为。由",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+      "id": "the-verge-ai-2026-转化人工智能进入助手工程师",
+      "title": "2026 转化人工智能进入助手工程师",
+      "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "summary": "图像面向，人工智能。询问信息技术向，和信息技术。信息技术实际使用人工智能面向在。在新发布，…",
+      "topics": [
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能借助",
+      "title": "人工智能借助",
+      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "作为扩展团队和人工智能和创业公司在。",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "summary": "在公司产品，用户借助，问题，和。",
       "topics": [
-        "投融资"
+        "产品应用"
       ],
       "heat": 87,
       "image": ""
@@ -1959,6 +1959,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-4-5-向-5-和新一代语言模型基准测试",
+      "title": "4.5 向 5 和新一代语言模型基准测试",
+      "url": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T07:47:44.000Z",
+      "summary": "发布 4.5，训练在英伟达图形处理器。在编程基准测试，模型 5 和新一代语言模型 4.2 词元旗舰模型 4.8。在 $2 百万词元，信息技术成本。欧盟在。4.5 向 5 和新一代语言模型基准测试首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "oschina-仿真赛第一季-相关型号足球锦标赛正式开启",
       "title": "🚀🚀🚀 仿真赛第一季：相关型号足球锦标赛正式开启",
       "url": "https://www.oschina.net/news/471605",
@@ -1971,7 +1989,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1987,7 +2005,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2022,23 +2040,6 @@
         "开源生态"
       ],
       "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-智能聊天助手和在时间-人工智能",
-      "title": "智能聊天助手和在时间，人工智能",
-      "url": "https://the-decoder.com/chatgpt-can-now-listen-and-talk-at-the-same-time-making-ai-conversations-seem-more-human/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T18:18:55.000Z",
-      "summary": "开放人工智能公司，实时和在时间。问题向新一代语言模型在，改进质量，实时，1 可用面向智能聊天助手用户，借助小型版面向。接口访问即将推出。智能聊天助手和在时间，人工智能首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 84,
       "image": ""
     },
     {
@@ -2091,42 +2092,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "the-verge-ai-元宇宙平台公司新图像模型用户进入人工智能",
-      "title": "元宇宙平台公司新图像模型用户进入人工智能",
-      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T20:31:58.000Z",
-      "summary": "元宇宙平台公司首个人工智能图像生成模型由实验室。图像模型驱动图像，工具元宇宙平台公司人工智能应用，和，和信息技术即将推出向和，向在。信息技术部件系列人工智能 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 63,
-      "image": ""
-    },
-    {
-      "id": "openai-news-更快借助智能聊天助手和智能编程工具",
-      "title": "更快借助智能聊天助手和智能编程工具",
-      "url": "https://openai.com/index/australian-payments-plus",
+      "id": "openai-news-帮助构建人工智能技能",
+      "title": "帮助构建人工智能技能",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "查看使用企业版智能聊天助手和智能编程工具向更快。+ 时间，改进质量，和。",
+      "publishedAt": "2026-07-08T10:00:00.000Z",
+      "summary": "开放人工智能公司和系列带来机械手，在人工智能技能向帮助构建人工智能技能面向。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2178,6 +2160,22 @@
       "image": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg"
     },
     {
+      "id": "reddit-artificial-平台人工智能面向任务",
+      "title": "平台人工智能面向任务？",
+      "url": "https://www.reddit.com/r/artificial/comments/1urrunl/is_there_any_platform_which_can_suggest_me_best/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T14:26:29.000Z",
+      "summary": "在人工智能工具面向任务和。帮助由",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
       "id": "ithome-索尼推出黑卡相关型号长焦相机-2010-万像素-1-英寸传感器-等效-24-600-毫米镜头-国行-15199-元",
       "title": "索尼推出黑卡相关型号长焦相机：2010 万像素 1 英寸传感器、等效 24-600 毫米镜头，国行 15199 元",
       "url": "https://www.ithome.com/0/974/771.htm",
@@ -2194,21 +2192,19 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-重要人工智能",
-      "title": "重要人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1urqqni/discipline_is_more_important_than_ai/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:44:48.000Z",
-      "summary": "在我们人工智能和我们使用信息技术向新。即将推出向和，工具，人工智能在机械手。在机械手，信息技术。向了解来自向帮助在人工智能，转化在和作为会议和任务在。成本人工智能，生成帮助借助组织，向重要和。和，使用人工智能信息技术。作为作为向和代码，面向，克劳德模型信息技术，向向帮助智能体，和使用词元构建。在，面向。分享在信息技术向。只是更好。帮助？面向 : 克劳德模型代码谷歌双子座模型和……",
+      "publishedAt": "2026-07-09T12:00:00.000Z",
+      "summary": "作为扩展团队和人工智能和创业公司在。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "投融资"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2298,31 +2294,32 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-据报道在向向-13-2-十亿",
-      "title": "据报道在向向 $13.2 十亿",
-      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T22:41:33.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-欧洲大模型机器人借助-8-十亿模型机器人只是",
-      "title": "欧洲大模型机器人借助，8 十亿模型机器人只是",
-      "url": "https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/",
+      "id": "the-decoder-智能聊天助手和在时间-人工智能",
+      "title": "智能聊天助手和在时间，人工智能",
+      "url": "https://the-decoder.com/chatgpt-can-now-listen-and-talk-at-the-same-time-making-ai-conversations-seem-more-human/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T17:23:17.000Z",
-      "summary": "欧洲大模型机器人借助，8 十亿模型机器人单个。训练在仿真和借助强化学习，信息技术 76.6 在基准测试。欧洲大模型模型可用。欧洲大模型机器人借助，8 十亿模型机器人只是首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-08T18:18:55.000Z",
+      "summary": "开放人工智能公司，实时和在时间。问题向新一代语言模型在，改进质量，实时，1 可用面向智能聊天助手用户，借助小型版面向。接口访问即将推出。智能聊天助手和在时间，人工智能首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-智能聊天助手模式更好在",
+      "title": "智能聊天助手模式更好在",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T17:00:00.000Z",
+      "summary": "开放人工智能公司智能聊天助手模式借助新模型信息技术讨论向。新，实时，1 向和面向向，开放人工智能公司研究呼吁，实时，1 公司 …",
       "topics": [
         "模型发布",
         "产品应用",
@@ -2365,33 +2362,15 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能安全公司克劳德模型在和",
-      "title": "人工智能安全公司克劳德模型在和",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T17:46:59.000Z",
-      "summary": "人工智能安全公司克劳德模型人工智能平台可用在和面向首个时间。扩展访问首个向旗舰版和即将推出向克劳德模型用户在在即将推出。克劳德模型克劳德模型应用面向和视窗系统，…",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "openai-news-三菱日联金融集团目标是向成为人工智能原生借助开放人工智能公司",
-      "title": "三菱日联金融集团目标是向成为人工智能原生借助开放人工智能公司",
-      "url": "https://openai.com/index/mufg",
+      "id": "openai-news-更快借助智能聊天助手和智能编程工具",
+      "title": "更快借助智能聊天助手和智能编程工具",
+      "url": "https://openai.com/index/australian-payments-plus",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "三菱日联金融集团使用企业版智能聊天助手向构建人工智能原生组织，改进工作流，和交付新人工智能，驱动服务在规模。",
+      "summary": "查看使用企业版智能聊天助手和智能编程工具向更快。+ 时间，改进质量，和。",
       "topics": [
         "模型发布",
         "产品应用"
@@ -2503,35 +2482,35 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-谷歌使用向",
-      "title": "谷歌使用向",
-      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "id": "techcrunch-ai-据报道在向向-13-2-十亿",
+      "title": "据报道在向向 $13.2 十亿",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T20:37:03.000Z",
-      "summary": "向在在医院在。信息技术转化向人工智能，生成。",
+      "publishedAt": "2026-07-08T22:41:33.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
-      "heat": 82,
+      "heat": 75,
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司修复面向-5-成本转化信息技术进入向-5",
-      "title": "人工智能安全公司修复面向 5 成本转化信息技术进入向 5",
-      "url": "https://the-decoder.com/anthropics-fix-for-fable-5s-high-cost-is-turning-it-into-a-manager-that-delegates-to-sonnet-5/",
+      "id": "the-decoder-欧洲大模型机器人借助-8-十亿模型机器人只是",
+      "title": "欧洲大模型机器人借助，8 十亿模型机器人只是",
+      "url": "https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T16:25:07.000Z",
-      "summary": "人工智能安全公司克劳德模型 5 作为面向模型信息技术在每个任务。借助 5 在，92 5 性能在 63 成本。人工智能安全公司修复面向 5 成本转化信息技术进入向 5 首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-08T17:23:17.000Z",
+      "summary": "欧洲大模型机器人借助，8 十亿模型机器人单个。训练在仿真和借助强化学习，信息技术 76.6 在基准测试。欧洲大模型模型可用。欧洲大模型机器人借助，8 十亿模型机器人只是首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "监管安全"
+        "研究论文"
       ],
       "heat": 87,
       "image": ""
@@ -2554,6 +2533,24 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-元宇宙平台公司新图像模型用户进入人工智能",
+      "title": "元宇宙平台公司新图像模型用户进入人工智能",
+      "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T20:31:58.000Z",
+      "summary": "元宇宙平台公司首个人工智能图像生成模型由实验室。图像模型驱动图像，工具元宇宙平台公司人工智能应用，和，和信息技术即将推出向和，向在。信息技术部件系列人工智能 …",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 62,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-检索增强生成-推理能力",
       "title": "检索增强生成: 推理能力",
       "url": "https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/",
@@ -2570,19 +2567,20 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
+      "id": "openai-news-三菱日联金融集团目标是向成为人工智能原生借助开放人工智能公司",
+      "title": "三菱日联金融集团目标是向成为人工智能原生借助开放人工智能公司",
+      "url": "https://openai.com/index/mufg",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-07T13:00:00.000Z",
-      "summary": "宣布新，面向和人工智能助手在。36 向 40 在，新 19。部件 …",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "三菱日联金融集团使用企业版智能聊天助手向构建人工智能原生组织，改进工作流，和交付新人工智能，驱动服务在规模。",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 50,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2654,37 +2652,55 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-发布-4-5-作为旗舰模型-模型",
-      "title": "发布 4.5，作为旗舰模型，模型",
-      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "id": "techcrunch-ai-谷歌使用向",
+      "title": "谷歌使用向",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T19:30:16.000Z",
-      "summary": "公司发布在，高效向人工智能模型。",
+      "publishedAt": "2026-07-08T20:37:03.000Z",
+      "summary": "向在在医院在。信息技术转化向人工智能，生成。",
       "topics": [
-        "模型发布"
+        "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司克劳德模型-5-新基准测试在",
-      "title": "人工智能安全公司克劳德模型 5 新基准测试在",
-      "url": "https://the-decoder.com/anthropics-claude-fable-5-dominates-new-industry-benchmarks-at-a-steep-premium/",
+      "id": "the-decoder-人工智能安全公司修复面向-5-成本转化信息技术进入向-5",
+      "title": "人工智能安全公司修复面向 5 成本转化信息技术进入向 5",
+      "url": "https://the-decoder.com/anthropics-fix-for-fable-5s-high-cost-is-turning-it-into-a-manager-that-delegates-to-sonnet-5/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T15:59:12.000Z",
-      "summary": "人工智能安全公司克劳德模型 5 新性能来自，和。在成本。在 &，单个任务 $3.48 借助 5，深度求索专业版在 $0.03。得分只是 12。人工智能安全公司克劳德模型 5 新基准测试在首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-08T16:25:07.000Z",
+      "summary": "人工智能安全公司克劳德模型 5 作为面向模型信息技术在每个任务。借助 5 在，92 5 性能在 63 成本。人工智能安全公司修复面向 5 成本转化信息技术进入向 5 首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
         "监管安全"
       ],
       "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能安全公司克劳德模型在和",
+      "title": "人工智能安全公司克劳德模型在和",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T17:46:59.000Z",
+      "summary": "人工智能安全公司克劳德模型人工智能平台可用在和面向首个时间。扩展访问首个向旗舰版和即将推出向克劳德模型用户在在即将推出。克劳德模型克劳德模型应用面向和视窗系统，…",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -2757,38 +2773,53 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-创业公司认为机器人关于向智能聊天助手时刻",
-      "title": "创业公司认为机器人关于向智能聊天助手时刻",
-      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "id": "techcrunch-ai-发布-4-5-作为旗舰模型-模型",
+      "title": "发布 4.5，作为旗舰模型，模型",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T19:19:15.000Z",
-      "summary": "视频数据训练基础模型面向人工智能，信息技术向构建更智能机器人借助数据。",
+      "publishedAt": "2026-07-08T19:30:16.000Z",
+      "summary": "公司发布在，高效向人工智能模型。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
+        "模型发布"
       ],
-      "heat": 91,
+      "heat": 73,
       "image": ""
     },
     {
-      "id": "the-decoder-谷歌深度思维新增和支持向双子座模型接口智能体",
-      "title": "谷歌深度思维新增和支持向双子座模型接口智能体",
-      "url": "https://the-decoder.com/google-deepmind-adds-background-execution-and-mcp-support-to-gemini-api-managed-agents/",
+      "id": "the-decoder-人工智能安全公司克劳德模型-5-新基准测试在",
+      "title": "人工智能安全公司克劳德模型 5 新基准测试在",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-dominates-new-industry-benchmarks-at-a-steep-premium/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T14:45:35.000Z",
-      "summary": "谷歌深度思维新增新功能向智能体在双子座模型接口。智能体在，向，使用工具，和。谷歌深度思维新增和支持向双子座模型接口智能体首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-08T15:59:12.000Z",
+      "summary": "人工智能安全公司克劳德模型 5 新性能来自，和。在成本。在 &，单个任务 $3.48 借助 5，深度求索专业版在 $0.03。得分只是 12。人工智能安全公司克劳德模型 5 新基准测试在首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T13:00:00.000Z",
+      "summary": "宣布新，面向和人工智能助手在。36 向 40 在，新 19。部件 …",
+      "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2806,7 +2837,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2825,39 +2856,6 @@
         "监管安全"
       ],
       "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "leiphone-我要寄大件-顺心捷达接入支付宝人工智能-一句话唤醒-阿宝-轻松寄件",
-      "title": "“我要寄大件”——顺心捷达接入支付宝人工智能，一句话唤醒“阿宝”，轻松寄件！",
-      "url": "https://www.leiphone.com/category/industrynews/xHoScn0mDGYxjjem.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T03:45:00.000Z",
-      "summary": "7月7日，支付宝人工智能开放平台正式上线邀测，顺心捷达已接入其人工智能生态，将全网大件快运服务能力嵌入人工智能版支付宝“阿宝”。用户可直接通过语音或文字与“阿宝”对话，获取寄件指导、网点位置或上门取件服务。如用户在“阿宝”中发出“我要寄快递”或“发顺心快递”等指令，填写相关信息后，就可通过“我的快递”服务卡片下单顺心捷达服务。指令识别、信息生成、订单确认，全流程环环相扣，真正……",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "oschina-4-5-发布-迄今最强模型-词元效率是竞品-4-倍",
-      "title": "4.5 发布：迄今最强模型，词元效率是竞品 4 倍",
-      "url": "https://www.oschina.net/news/471588/grok-4-5",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T02:31:14.000Z",
-      "summary": "今天正式发布了 4.5。没有铺垫，直接甩数据——在、专业版、等主流基准上全面对标新一代语言模型和旗舰模型 4.8。这次最狠的牌不是跑分，是词元效率。专业版任务中，4.5 平均只用 15，954 个词元完成任务，旗舰模型 4.8 需要 67，020 个。4.2 倍的差距意味着什么？同。",
-      "topics": [
-        "模型发布",
-        "研究论文"
-      ],
-      "heat": 88,
       "image": ""
     }
   ]
