@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-07-09T15:48:34.400Z",
+  "generatedAt": "2026-07-09T16:10:56.169Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-09T16:00:00.000Z",
+  "nextUpdateHint": "2026-07-09T16:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-09T15:36:08.000Z"
+    "latestPublishedAt": "2026-07-09T16:08:08.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 78,
+      "count": 77,
       "heat": 84
     },
     {
       "name": "模型发布",
-      "count": 55,
+      "count": 56,
       "heat": 86
     },
     {
       "name": "监管安全",
-      "count": 24,
+      "count": 23,
       "heat": 91
     },
     {
@@ -42,29 +42,29 @@
       "heat": 90
     },
     {
-      "name": "开源生态",
-      "count": 18,
-      "heat": 75
-    },
-    {
       "name": "人工智能动态",
-      "count": 17,
+      "count": 18,
       "heat": 78
     },
     {
-      "name": "投融资",
-      "count": 13,
-      "heat": 85
+      "name": "开源生态",
+      "count": 17,
+      "heat": 76
     },
     {
-      "name": "端侧智能",
+      "name": "投融资",
+      "count": 12,
+      "heat": 84
+    },
+    {
+      "name": "机器人",
       "count": 8,
       "heat": 91
     },
     {
-      "name": "机器人",
+      "name": "端侧智能",
       "count": 7,
-      "heat": 91
+      "heat": 89
     }
   ],
   "sources": [
@@ -143,8 +143,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
-      "displayedCount": 8,
+      "itemCount": 7,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-07-09T14:25:33.000Z",
       "latestDisplayedAt": "2026-07-09T14:25:33.000Z"
     },
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-07-09T14:53:57.000Z",
-      "latestDisplayedAt": "2026-07-09T14:53:57.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-07-09T16:08:08.000Z",
+      "latestDisplayedAt": "2026-07-09T16:08:08.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 23,
+      "itemCount": 24,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-07-09T15:23:38.000Z",
-      "latestDisplayedAt": "2026-07-09T15:23:38.000Z"
+      "latestFetchedAt": "2026-07-09T15:48:31.000Z",
+      "latestDisplayedAt": "2026-07-09T15:48:31.000Z"
     },
     {
       "id": "oschina",
@@ -488,6 +488,39 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-人工智能新闻-26-05-控制在人工智能",
+      "title": "人工智能新闻 26，05: 控制在人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1uruovn/quantized_ai_news_2605_the_price_of_control_in/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T16:08:08.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": "https://external-preview.redd.it/eEMbXgtwo-uxQJUYahFAuJCFNhyjCGqqBzaLV_KcRX0.png?width=640&crop=smart&auto=webp&s=8c27acd9d7c65dd2bafca35cae0ab247c0b15147"
+    },
+    {
+      "id": "ithome-消息称特斯拉三代擎天柱人形机器人初步定型-马斯克放话达不成产能目标就开掉整个采购团队",
+      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
+      "url": "https://www.ithome.com/0/974/782.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T15:48:31.000Z",
+      "summary": "科技之家 7 月 9 日消息，据晚点今日报道，多位特斯拉供应链人士透露，特斯拉近期终于下发具体的零件采购指引，要求供应商在今年 9 月将产能提到 1000 台 / 周，随后在年底提升到 2000-2500 台 / 周。两位接近供应商的人士说，特斯拉会提前 2 个月左右下订单，现在他们已经看到 8 月数百台的具体订单。以此估算，特斯拉的供应商们将在年底具备每年向特斯拉供应 10……",
+      "topics": [
+        "模型发布",
+        "机器人"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-万勋科技发布-柔韧充-自动充电通用服务引擎-以-相关型号无极容差应变-首创混沌服务-全类通解",
       "title": "万勋科技发布“柔韧充”自动充电通用服务引擎，以“相关型号无极容差应变”首创混沌服务、全类通解！",
       "url": "https://36kr.com/p/3888567864851204?f=rss",
@@ -506,24 +539,6 @@
       "image": ""
     },
     {
-      "id": "ithome-与人工智能公司排队造富-私人飞机行业意外先被新贵们带火了",
-      "title": "与人工智能公司排队造富，私人飞机行业意外先被新贵们带火了",
-      "url": "https://www.ithome.com/0/974/780.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T15:23:38.000Z",
-      "summary": "北京时间 7 月 9 日，据路透社报道，和其他人工智能公司的首次公开招股 (首次公开募股) 创造的财富，推动了私人航空需求的新一轮增长。造富效应刺激私人飞机需求航空律师阿曼达 · 阿普尔盖特 ( ) 上个月取消了年度假期，因为人工智能创业公司和创造的大量财富，引发了一波科技投资者购买私人飞机的热潮，使她忙于处理大量飞机购买协议文件。这位驻克利夫兰的律师将这股热潮归因于科技行业……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-向编程智能体",
       "title": "向编程智能体",
       "url": "https://towardsdatascience.com/how-to-find-the-optimal-coding-agent-interface/",
@@ -538,24 +553,6 @@
       ],
       "heat": 88,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能企业",
-      "title": "人工智能企业",
-      "url": "https://www.reddit.com/r/artificial/comments/1urslko/zuck_says_ai_will_run_your_whole_business/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T14:53:57.000Z",
-      "summary": "元宇宙平台公司推出新人工智能智能体面向企业向客户，和。推出智能体向企业。在机械手，向。平台作为作为元宇宙平台公司工具人工智能智能体只是面向。时间在客户服务和。在我们向关于: 数据。运营数据，客户，和向，平台企业模型在。平台控制和，风险向数据在。面向本地和。面向，创业公司，和，构建，打开工作流数据和。信息技术向。我们实时，在向使用人工智能智能体面向这里由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 95,
-      "image": "https://preview.redd.it/veva18jft7ch1.jpeg?width=640&crop=smart&auto=webp&s=8f692b58daa5704bb5da83be1fbefd5eb8c4491c"
     },
     {
       "id": "techcrunch-ai-人工智能安全公司新克劳德模型功能在人工智能",
@@ -604,7 +601,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -753,7 +750,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": "https://media.wired.com/photos/6a4d0ba71ec7b7e789dcf997/master/pass/InvestmentFoot_Lead.jpg"
     },
     {
@@ -789,7 +786,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -856,7 +853,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Nemotron_LangChain-scaled.jpg"
     },
     {
@@ -927,20 +924,40 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-喜加二-纹身大亨-游戏免费领取",
-      "title": "喜加二：《 》《纹身大亨》游戏免费领取",
-      "url": "https://www.ithome.com/0/974/779.htm",
+      "id": "ithome-与人工智能公司排队造富-私人飞机行业意外先被新贵们带火了",
+      "title": "与人工智能公司排队造富，私人飞机行业意外先被新贵们带火了",
+      "url": "https://www.ithome.com/0/974/780.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T15:05:25.000Z",
-      "summary": "科技之家 7 月 9 日消息，本周送出的游戏是《 》、《纹身大亨》，下周送出的游戏是《》、《 : 》。领取链接：《 》，《纹身大亨》 科技之家附《 》游戏简介：《 》是一款着眼于工厂建造、探索以及岛屿管理的开放世界游戏。探索脚下的星球，依托乐于助人的机器人打造自动化工厂，并且通过武力或谈判手段克服重重挑战与任务。欢迎来到群星之间的新家园！科技之家附《纹身大亨》游戏简介：成为一……",
+      "publishedAt": "2026-07-09T15:23:38.000Z",
+      "summary": "北京时间 7 月 9 日，据路透社报道，和其他人工智能公司的首次公开招股 (首次公开募股) 创造的财富，推动了私人航空需求的新一轮增长。造富效应刺激私人飞机需求航空律师阿曼达 · 阿普尔盖特 ( ) 上个月取消了年度假期，因为人工智能创业公司和创造的大量财富，引发了一波科技投资者购买私人飞机的热潮，使她忙于处理大量飞机购买协议文件。这位驻克利夫兰的律师将这股热潮归因于科技行业……",
       "topics": [
-        "机器人"
+        "产品应用",
+        "监管安全",
+        "投融资"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能企业",
+      "title": "人工智能企业",
+      "url": "https://www.reddit.com/r/artificial/comments/1urslko/zuck_says_ai_will_run_your_whole_business/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T14:53:57.000Z",
+      "summary": "元宇宙平台公司推出新人工智能智能体面向企业向客户，和。推出智能体向企业。在机械手，向。平台作为作为元宇宙平台公司工具人工智能智能体只是面向。时间在客户服务和。在我们向关于: 数据。运营数据，客户，和向，平台企业模型在。平台控制和，风险向数据在。面向本地和。面向，创业公司，和，构建，打开工作流数据和。信息技术向。我们实时，在向使用人工智能智能体面向这里由",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 95,
+      "image": "https://preview.redd.it/veva18jft7ch1.jpeg?width=640&crop=smart&auto=webp&s=8f692b58daa5704bb5da83be1fbefd5eb8c4491c"
     },
     {
       "id": "techcrunch-ai-人工智能安全公司-开放人工智能公司-和-25",
@@ -957,22 +974,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能智能体",
-      "title": "人工智能智能体？",
-      "url": "https://www.reddit.com/r/artificial/comments/1urrz2i/what_happens_when_ai_agents_get_their_own/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T14:31:03.000Z",
-      "summary": "我们讨论关于人工智能智能体面向，最在作为工具，答案问题，自动化任务。智能体和生态？智能体，和信息技术正确向。面向，借助在，智能体，智能体，呼吁，和在任务。平台智能体可能和。问题。智能体成为和智能体，我们人工智能技能成为服务？我们查看智能体在技能，和成本？在时间，问题: 我们智能体我们借助？智能体决策？我们。来自工作流，来自人工智能作为工具向人工智能作为向？这里认为。由",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 85,
       "image": ""
     },
     {
@@ -1022,7 +1023,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1092,7 +1093,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1124,7 +1125,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1157,7 +1158,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": "https://media.wired.com/photos/6a4d3e5ad99ed47ae9e00cc8/master/pass/AI-Lab-I-Made-A-Self-Improving-AI-Business.jpg"
     },
     {
@@ -1193,7 +1194,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1211,7 +1212,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1227,7 +1228,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-1152x648.jpg"
     },
     {
@@ -1297,34 +1298,33 @@
       "image": ""
     },
     {
-      "id": "ithome-全球首例-美国研究团队远程操控宇树相关型号人形机器人完成活体动物外科手术",
-      "title": "全球首例：美国研究团队远程操控宇树相关型号人形机器人完成活体动物外科手术",
-      "url": "https://www.ithome.com/0/974/777.htm",
+      "id": "ithome-喜加二-纹身大亨-游戏免费领取",
+      "title": "喜加二：《 》《纹身大亨》游戏免费领取",
+      "url": "https://www.ithome.com/0/974/779.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:55:52.000Z",
-      "summary": "科技之家 7 月 9 日消息，美国加利福尼亚大学圣迭戈分校（ ）宣布，该校工程师团队和外科医生团队合作，利用两台宇树相关型号人形机器人，成功完成了两例大型非灵长类哺乳动物的活体胆囊切除手术。两台机器人均由外科医生通过控制台进行远程操控实施手术。两例手术中，一例由单台机器人与外科医生协作完成，另一例则完全由外科医生远程操控两台机器人完成。相关研究成果已于当地时间 7 月 8 日……",
+      "publishedAt": "2026-07-09T15:05:25.000Z",
+      "summary": "科技之家 7 月 9 日消息，本周送出的游戏是《 》、《纹身大亨》，下周送出的游戏是《》、《 : 》。领取链接：《 》，《纹身大亨》 科技之家附《 》游戏简介：《 》是一款着眼于工厂建造、探索以及岛屿管理的开放世界游戏。探索脚下的星球，依托乐于助人的机器人打造自动化工厂，并且通过武力或谈判手段克服重重挑战与任务。欢迎来到群星之间的新家园！科技之家附《纹身大亨》游戏简介：成为一……",
       "topics": [
-        "研究论文",
         "机器人"
       ],
-      "heat": 92,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-平台人工智能面向任务",
-      "title": "平台人工智能面向任务？",
-      "url": "https://www.reddit.com/r/artificial/comments/1urrunl/is_there_any_platform_which_can_suggest_me_best/",
+      "id": "reddit-artificial-人工智能智能体",
+      "title": "人工智能智能体？",
+      "url": "https://www.reddit.com/r/artificial/comments/1urrz2i/what_happens_when_ai_agents_get_their_own/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:26:29.000Z",
-      "summary": "在人工智能工具面向任务和。帮助由",
+      "publishedAt": "2026-07-09T14:31:03.000Z",
+      "summary": "我们讨论关于人工智能智能体面向，最在作为工具，答案问题，自动化任务。智能体和生态？智能体，和信息技术正确向。面向，借助在，智能体，智能体，呼吁，和在任务。平台智能体可能和。问题。智能体成为和智能体，我们人工智能技能成为服务？我们查看智能体在技能，和成本？在时间，问题: 我们智能体我们借助？智能体决策？我们。来自工作流，来自人工智能作为工具向人工智能作为向？这里认为。由",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 84,
       "image": ""
@@ -1344,7 +1344,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1429,7 +1429,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1445,7 +1445,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1547,7 +1547,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://media.wired.com/photos/6a4be55744dc79c43267387c/master/pass/DeepMind-Alum-QandA-Verity-Harding-Business.jpg"
     },
     {
@@ -1585,39 +1585,36 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/nv-gr00t-e2r-letobot-2up-KV-r2-1600x900-1.jpg"
     },
     {
-      "id": "ithome-元宇宙平台公司正式向开发者开放人工智能模型接口-加入人工智能商业化竞争",
-      "title": "元宇宙平台公司正式向开发者开放人工智能模型接口，加入人工智能商业化竞争",
-      "url": "https://www.ithome.com/0/974/775.htm",
+      "id": "ithome-全球首例-美国研究团队远程操控宇树相关型号人形机器人完成活体动物外科手术",
+      "title": "全球首例：美国研究团队远程操控宇树相关型号人形机器人完成活体动物外科手术",
+      "url": "https://www.ithome.com/0/974/777.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:40:59.000Z",
-      "summary": "科技之家 7 月 9 日消息，元宇宙平台公司今日正式向开发者开人工智能模型接口，同时发布了升级版 1.1。此举意味着元宇宙平台公司正式加入人工智能模型商业化竞争，与人工智能安全公司、开放人工智能公司等公司一样，开始通过模型调用收费。元宇宙平台公司表示，1.1 是公司迄今在真实世界编程（编程）和人工智能智能体（智能体）任务方面能力最强的模型，也是其打造“个人超级智能（ ）”战略……",
+      "publishedAt": "2026-07-09T14:55:52.000Z",
+      "summary": "科技之家 7 月 9 日消息，美国加利福尼亚大学圣迭戈分校（ ）宣布，该校工程师团队和外科医生团队合作，利用两台宇树相关型号人形机器人，成功完成了两例大型非灵长类哺乳动物的活体胆囊切除手术。两台机器人均由外科医生通过控制台进行远程操控实施手术。两例手术中，一例由单台机器人与外科医生协作完成，另一例则完全由外科医生远程操控两台机器人完成。相关研究成果已于当地时间 7 月 8 日……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "研究论文",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "reddit-artificial-重要人工智能",
-      "title": "重要人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1urqqni/discipline_is_more_important_than_ai/",
+      "id": "reddit-artificial-平台人工智能面向任务",
+      "title": "平台人工智能面向任务？",
+      "url": "https://www.reddit.com/r/artificial/comments/1urrunl/is_there_any_platform_which_can_suggest_me_best/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:44:48.000Z",
-      "summary": "在我们人工智能和我们使用信息技术向新。即将推出向和，工具，人工智能在机械手。在机械手，信息技术。向了解来自向帮助在人工智能，转化在和作为会议和任务在。成本人工智能，生成帮助借助组织，向重要和。和，使用人工智能信息技术。作为作为向和代码，面向，克劳德模型信息技术，向向帮助智能体，和使用词元构建。在，面向。分享在信息技术向。只是更好。帮助？面向 : 克劳德模型代码谷歌双子座模型和……",
+      "publishedAt": "2026-07-09T14:26:29.000Z",
+      "summary": "在人工智能工具面向任务和。帮助由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1633,7 +1630,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1649,7 +1646,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1701,7 +1698,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1733,7 +1730,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1821,7 +1818,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1878,38 +1875,40 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/ICML-Blog-Featured-Image.jpg"
     },
     {
-      "id": "ithome-索尼推出黑卡相关型号长焦相机-2010-万像素-1-英寸传感器-等效-24-600-毫米镜头-国行-15199-元",
-      "title": "索尼推出黑卡相关型号长焦相机：2010 万像素 1 英寸传感器、等效 24-600 毫米镜头，国行 15199 元",
-      "url": "https://www.ithome.com/0/974/771.htm",
+      "id": "ithome-元宇宙平台公司正式向开发者开放人工智能模型接口-加入人工智能商业化竞争",
+      "title": "元宇宙平台公司正式向开发者开放人工智能模型接口，加入人工智能商业化竞争",
+      "url": "https://www.ithome.com/0/974/775.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:20:17.000Z",
-      "summary": "科技之家 7 月 9 日消息，索尼现已发布黑卡相关型号长焦相机，将于 8 月初（下月）上市，国行 15199 元。京东索尼黑卡相关型号 15199 元直达链接该机搭载等效约 24-600 毫米蔡司 * 镜头（相关型号光圈），广角端最近 3 厘米微距对焦，长焦端最高 0.49 倍放大倍率。该机握柄与拨轮迎来重新设计，同步拿掉了机顶的显示屏，机身提供独立按钮、双控制拨轮，配备 3……",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-编程智能体在-百万",
-      "title": "编程智能体在，百万",
-      "url": "https://www.reddit.com/r/artificial/comments/1urpfg2/benchmarking_coding_agents_on_databricks/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T12:52:51.000Z",
-      "summary": "来自 : 面向编程任务。质量面向成本模型来自开放人工智能公司，人工智能安全公司，和开源，工具性能。打开模型，和 5.2 在，向任务。词元模型成本在，向，任务。模型词元高效和成本。工具链模型呼吁来自成本和质量。在，在。由",
+      "publishedAt": "2026-07-09T14:40:59.000Z",
+      "summary": "科技之家 7 月 9 日消息，元宇宙平台公司今日正式向开发者开人工智能模型接口，同时发布了升级版 1.1。此举意味着元宇宙平台公司正式加入人工智能模型商业化竞争，与人工智能安全公司、开放人工智能公司等公司一样，开始通过模型调用收费。元宇宙平台公司表示，1.1 是公司迄今在真实世界编程（编程）和人工智能智能体（智能体）任务方面能力最强的模型，也是其打造“个人超级智能（ ）”战略……",
       "topics": [
         "模型发布",
         "产品应用",
         "监管安全"
       ],
       "heat": 99,
-      "image": "https://external-preview.redd.it/AA3CtjOM82QeicL0nNnrJ5myoJqOlROMZ6hDR23YkzQ.png?width=640&crop=smart&auto=webp&s=111beead8a2a80dab4f003224c7f41fa6ba20770"
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-重要人工智能",
+      "title": "重要人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1urqqni/discipline_is_more_important_than_ai/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T13:44:48.000Z",
+      "summary": "在我们人工智能和我们使用信息技术向新。即将推出向和，工具，人工智能在机械手。在机械手，信息技术。向了解来自向帮助在人工智能，转化在和作为会议和任务在。成本人工智能，生成帮助借助组织，向重要和。和，使用人工智能信息技术。作为作为向和代码，面向，克劳德模型信息技术，向向帮助智能体，和使用词元构建。在，面向。分享在信息技术向。只是更好。帮助？面向 : 克劳德模型代码谷歌双子座模型和……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
@@ -1924,7 +1923,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1991,7 +1990,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2093,7 +2092,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2162,36 +2161,38 @@
       "image": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg"
     },
     {
-      "id": "ithome-确认-7-月-22-23-日人工智能-2026-推出-6-处理器",
-      "title": "确认 7 月 22~23 日人工智能 2026 推出 \" 6\" 处理器",
-      "url": "https://www.ithome.com/0/974/769.htm",
+      "id": "ithome-索尼推出黑卡相关型号长焦相机-2010-万像素-1-英寸传感器-等效-24-600-毫米镜头-国行-15199-元",
+      "title": "索尼推出黑卡相关型号长焦相机：2010 万像素 1 英寸传感器、等效 24-600 毫米镜头，国行 15199 元",
+      "url": "https://www.ithome.com/0/974/771.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T14:14:40.000Z",
-      "summary": "科技之家 7 月 9 日消息，执行副总裁及首席技术官近日在 2026 巴黎人工智能峰会，峰会上接受外媒采访时确认，将在 7 月 22~23 日的人工智能 2026 上推出基于 \" 6\" 微架构的新一代处理器。作为年度开发者、客户及合作伙伴大会，人工智能 2026 将在美国旧金山莫斯康展览中心西馆举行。表示：就我个人而言，我现在参与的每一次企业级对话中，都会提到这一点。因为企业……",
+      "publishedAt": "2026-07-09T14:20:17.000Z",
+      "summary": "科技之家 7 月 9 日消息，索尼现已发布黑卡相关型号长焦相机，将于 8 月初（下月）上市，国行 15199 元。京东索尼黑卡相关型号 15199 元直达链接该机搭载等效约 24-600 毫米蔡司 * 镜头（相关型号光圈），广角端最近 3 厘米微距对焦，长焦端最高 0.49 倍放大倍率。该机握柄与拨轮迎来重新设计，同步拿掉了机顶的显示屏，机身提供独立按钮、双控制拨轮，配备 3……",
       "topics": [
-        "研究论文"
+        "多模态"
       ],
       "heat": 86,
       "image": ""
     },
     {
-      "id": "reddit-artificial-企业智能体记忆",
-      "title": "企业智能体记忆",
-      "url": "https://www.reddit.com/r/artificial/comments/1urp9dj/your_business_agents_memory_should_not_be_a/",
+      "id": "reddit-artificial-编程智能体在-百万",
+      "title": "编程智能体在，百万",
+      "url": "https://www.reddit.com/r/artificial/comments/1urpfg2/benchmarking_coding_agents_on_databricks/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T12:45:58.000Z",
-      "summary": "顺利面向。信息技术面向。团队智能体在为什么信息技术。在。面向，和重要面向企业来自来源。使用向。这里使用: 答案问题，关于企业？向。面向构建智能体使用向使用？由",
+      "publishedAt": "2026-07-09T12:52:51.000Z",
+      "summary": "来自 : 面向编程任务。质量面向成本模型来自开放人工智能公司，人工智能安全公司，和开源，工具性能。打开模型，和 5.2 在，向任务。词元模型成本在，向，任务。模型词元高效和成本。工具链模型呼吁来自成本和质量。在，在。由",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 83,
-      "image": ""
+      "heat": 99,
+      "image": "https://external-preview.redd.it/AA3CtjOM82QeicL0nNnrJ5myoJqOlROMZ6hDR23YkzQ.png?width=640&crop=smart&auto=webp&s=111beead8a2a80dab4f003224c7f41fa6ba20770"
     },
     {
       "id": "thirty-six-kr-2026-相关型号丨绕过旧答案的一代人",
@@ -2310,7 +2311,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2399,20 +2400,35 @@
       "image": "https://media.wired.com/photos/6a45a0b0f1efb2d48b192c77/master/pass/Model-Behavior-Cursor-Will-Keep-Using-Anthropic-OpenAI-Models-After-SpaceX-Deal-Business.jpg"
     },
     {
-      "id": "ithome-调查-亚马逊搜索结果中被推荐的盘-约-20-被消费者质疑容量造假",
-      "title": "调查：亚马逊搜索结果中被推荐的盘，约 20% 被消费者质疑容量造假",
-      "url": "https://www.ithome.com/0/974/763.htm",
+      "id": "ithome-确认-7-月-22-23-日人工智能-2026-推出-6-处理器",
+      "title": "确认 7 月 22~23 日人工智能 2026 推出 \" 6\" 处理器",
+      "url": "https://www.ithome.com/0/974/769.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:48:00.000Z",
-      "summary": "科技之家 7 月 9 日消息，日经新闻的一项调查显示，在亚马逊搜索结果中被推荐的通用串行总线闪存盘（ 盘）中，约 20% 存在多条评论指出其实际容量与标注不符的情况。这暴露出平台对部分卖家审核不足的问题，也让消费者面临数据安全风险。除了可能导致数据丢失外，这类假冒盘还可能预装恶意软件。即使消费者最终退货，也可能在使用过程中遭受病毒感染，带来持续的安全隐患。调查发现，中国品牌盘……",
+      "publishedAt": "2026-07-09T14:14:40.000Z",
+      "summary": "科技之家 7 月 9 日消息，执行副总裁及首席技术官近日在 2026 巴黎人工智能峰会，峰会上接受外媒采访时确认，将在 7 月 22~23 日的人工智能 2026 上推出基于 \" 6\" 微架构的新一代处理器。作为年度开发者、客户及合作伙伴大会，人工智能 2026 将在美国旧金山莫斯康展览中心西馆举行。表示：就我个人而言，我现在参与的每一次企业级对话中，都会提到这一点。因为企业……",
       "topics": [
-        "监管安全",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-企业智能体记忆",
+      "title": "企业智能体记忆",
+      "url": "https://www.reddit.com/r/artificial/comments/1urp9dj/your_business_agents_memory_should_not_be_a/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T12:45:58.000Z",
+      "summary": "顺利面向。信息技术面向。团队智能体在为什么信息技术。在。面向，和重要面向企业来自来源。使用向。这里使用: 答案问题，关于企业？向。面向构建智能体使用向使用？由",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -2448,7 +2464,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2482,7 +2498,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2498,7 +2514,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2516,7 +2532,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2553,20 +2569,20 @@
       "image": ""
     },
     {
-      "id": "ithome-社为掌机推送预览-测试通道更新-新增兼容多款第三方手柄",
-      "title": "社为掌机推送预览 / 测试通道更新：新增兼容多款第三方手柄",
-      "url": "https://www.ithome.com/0/974/335.htm",
+      "id": "ithome-调查-亚马逊搜索结果中被推荐的盘-约-20-被消费者质疑容量造假",
+      "title": "调查：亚马逊搜索结果中被推荐的盘，约 20% 被消费者质疑容量造假",
+      "url": "https://www.ithome.com/0/974/763.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:47:01.000Z",
-      "summary": "科技之家 7 月 9 日消息，现已为客户端的预览 / 测试测试通道推送新版本更新，本次更新带来多项问题修复，同时新增多款第三方手柄支持。通用更新修复了设置-> 系统中“更新日志”预览框错误显示错误通道更新事件的问题，例如客户端稳定通道却显示通道更新日志。桌面模式修复了大图片模式下界面缩放比例错误的问题。输入新增支持适用于任天堂的手柄，包含有线和无线版本新增支持适用于任天堂 2……",
+      "publishedAt": "2026-07-09T13:48:00.000Z",
+      "summary": "科技之家 7 月 9 日消息，日经新闻的一项调查显示，在亚马逊搜索结果中被推荐的通用串行总线闪存盘（ 盘）中，约 20% 存在多条评论指出其实际容量与标注不符的情况。这暴露出平台对部分卖家审核不足的问题，也让消费者面临数据安全风险。除了可能导致数据丢失外，这类假冒盘还可能预装恶意软件。即使消费者最终退货，也可能在使用过程中遭受病毒感染，带来持续的安全隐患。调查发现，中国品牌盘……",
       "topics": [
-        "多模态",
-        "机器人"
+        "监管安全",
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2633,7 +2649,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2655,38 +2671,20 @@
       "image": ""
     },
     {
-      "id": "github-changelog-新增评测和时间向采用在接口",
-      "title": "新增评测和时间向采用在接口",
-      "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-08T04:53:01.000Z",
-      "summary": "智能编程助手使用指标接口代码，评测指标面向人工智能采用情况，采用分组可用在企业和组织。… 新增评测和时间向采用在接口首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 67,
-      "image": ""
-    },
-    {
-      "id": "ithome-时隔-10-余年重返电脑芯片市场-消息称三星研发-4-纳米制程人工智能电脑芯片-目标明年量产",
-      "title": "时隔 10 余年重返电脑芯片市场：消息称三星研发 4 纳米制程人工智能电脑芯片，目标明年量产",
-      "url": "https://www.ithome.com/0/974/762.htm",
+      "id": "ithome-社为掌机推送预览-测试通道更新-新增兼容多款第三方手柄",
+      "title": "社为掌机推送预览 / 测试通道更新：新增兼容多款第三方手柄",
+      "url": "https://www.ithome.com/0/974/335.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:42:36.000Z",
-      "summary": "科技之家 7 月 9 日消息，据韩媒相关型号今日消息，为抢占人工智能电脑及物理人工智能（如机器人）市场，三星电子已着手自主研发人工智能电脑芯片，计划于明年实现量产。业界消息称，三星电子系统大规模集成电路（ ）事业部正在开发基于 4 纳米制程工艺的人工智能电脑芯片“ （盖亚）”，并以明年量产为目标。科技之家从报道获悉，“”采用了经过优化的神经网络处理单元架构，专为人工智能计算任……",
+      "publishedAt": "2026-07-09T13:47:01.000Z",
+      "summary": "科技之家 7 月 9 日消息，现已为客户端的预览 / 测试测试通道推送新版本更新，本次更新带来多项问题修复，同时新增多款第三方手柄支持。通用更新修复了设置-> 系统中“更新日志”预览框错误显示错误通道更新事件的问题，例如客户端稳定通道却显示通道更新日志。桌面模式修复了大图片模式下界面缩放比例错误的问题。输入新增支持适用于任天堂的手柄，包含有线和无线版本新增支持适用于任天堂 2……",
       "topics": [
-        "算力芯片",
-        "端侧智能",
+        "多模态",
         "机器人"
       ],
-      "heat": 96,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2738,7 +2736,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2756,7 +2754,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2777,19 +2775,19 @@
       "image": ""
     },
     {
-      "id": "ithome-美光宣布加快美国晶圆厂投资-2035-年总投资额将提高至-2500-亿美元以上",
-      "title": "美光宣布加快美国晶圆厂投资，2035 年总投资额将提高至 2500 亿美元以上",
-      "url": "https://www.ithome.com/0/974/756.htm",
+      "id": "ithome-时隔-10-余年重返电脑芯片市场-消息称三星研发-4-纳米制程人工智能电脑芯片-目标明年量产",
+      "title": "时隔 10 余年重返电脑芯片市场：消息称三星研发 4 纳米制程人工智能电脑芯片，目标明年量产",
+      "url": "https://www.ithome.com/0/974/762.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T13:27:49.000Z",
-      "summary": "科技之家 7 月 9 日消息，美光科技（ ）今日宣布，为满足人工智能时代快速增长的存储需求，公司将加快美国晶圆厂及技术投资计划，并预计到 2035 年，相关支出将增至 2500 亿美元（科技之家注：现汇率约合 1.7 万亿元人民币）以上。美光预计，新增投资将帮助公司实现长期目标 —— 未来约 40% 的内存产能将在美国生产，同时创造更多直接和间接高薪就业岗位。公司表示，扩大投……",
+      "publishedAt": "2026-07-09T13:42:36.000Z",
+      "summary": "科技之家 7 月 9 日消息，据韩媒相关型号今日消息，为抢占人工智能电脑及物理人工智能（如机器人）市场，三星电子已着手自主研发人工智能电脑芯片，计划于明年实现量产。业界消息称，三星电子系统大规模集成电路（ ）事业部正在开发基于 4 纳米制程工艺的人工智能电脑芯片“ （盖亚）”，并以明年量产为目标。科技之家从报道获悉，“”采用了经过优化的神经网络处理单元架构，专为人工智能计算任……",
       "topics": [
-        "监管安全",
-        "投融资",
-        "端侧智能"
+        "算力芯片",
+        "端侧智能",
+        "机器人"
       ],
       "heat": 95,
       "image": ""
