@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-11T12:46:21.787Z",
+  "generatedAt": "2026-07-11T13:16:06.746Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-11T13:00:00.000Z",
+  "nextUpdateHint": "2026-07-11T13:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-11T12:00:39.000Z"
+    "latestPublishedAt": "2026-07-11T13:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 73,
-      "heat": 77
+      "count": 74,
+      "heat": 78
     },
     {
       "name": "模型发布",
@@ -23,23 +23,23 @@
     },
     {
       "name": "监管安全",
-      "count": 21,
-      "heat": 83
+      "count": 20,
+      "heat": 82
     },
     {
       "name": "人工智能动态",
       "count": 24,
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "算力芯片",
       "count": 19,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "研究论文",
-      "count": 18,
-      "heat": 79
+      "count": 17,
+      "heat": 77
     },
     {
       "name": "开源生态",
@@ -59,7 +59,7 @@
     {
       "name": "端侧智能",
       "count": 6,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "机器人",
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-07-10T15:00:00.000Z",
-      "latestDisplayedAt": "2026-07-10T15:00:00.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-07-11T13:00:00.000Z",
+      "latestDisplayedAt": "2026-07-11T13:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 9,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-07-11T10:07:17.000Z",
       "latestDisplayedAt": "2026-07-11T10:07:17.000Z"
@@ -414,7 +414,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 502",
+      "fallbackReason": "fetch failed",
       "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-10T10:37:00.000Z",
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 19,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 9,
       "displayedCount": 9,
       "latestFetchedAt": "2026-07-11T12:00:39.000Z",
       "latestDisplayedAt": "2026-07-11T12:00:39.000Z"
@@ -480,13 +480,30 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 14,
-      "displayedCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-07-11T07:15:00.000Z",
       "latestDisplayedAt": "2026-07-11T07:15:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "towards-data-science-为什么人工智能-和向关于信息技术",
+      "title": ": 为什么人工智能，和向关于信息技术",
+      "url": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-11T13:00:00.000Z",
+      "summary": "人工智能模型，和。在我们人工智能，和向为什么。: 为什么人工智能，和向关于信息技术首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
     {
       "id": "ithome-吉利银河纯电轿车技术信息公布-全域相关型号三高压平台-千里浩瀚辅助驾驶相关型号",
       "title": "吉利银河纯电轿车技术信息公布：全域相关型号三高压平台、千里浩瀚辅助驾驶相关型号",
@@ -616,7 +633,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -633,7 +650,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://media.wired.com/photos/6a518d0cb6767a97076bfe9e/master/pass/GettyImages-2283356667.jpg"
     },
     {
@@ -683,7 +700,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -699,7 +716,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -717,22 +734,6 @@
         "开源生态"
       ],
       "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/pyspark-for-beginners-building-intermediate-level-skills/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-10T15:00:00.000Z",
-      "summary": "进入，和。面向 : 构建技能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 71,
       "image": ""
     },
     {
@@ -782,7 +783,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -800,7 +801,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -836,7 +837,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1058,7 +1059,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1095,19 +1096,19 @@
       "image": "https://media.wired.com/photos/6a4d5408dd7cbb1c03039d25/master/pass/Made-In-China-One-Battery-Company-is-Booming-Business.jpg"
     },
     {
-      "id": "towards-data-science-检索增强生成",
-      "title": "检索增强生成？",
-      "url": "https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/",
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/pyspark-for-beginners-building-intermediate-level-skills/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-10T13:30:00.000Z",
-      "summary": "为什么人工智能基础设施在和，在。检索增强生成？首个在数据科学实战社区。",
+      "publishedAt": "2026-07-10T15:00:00.000Z",
+      "summary": "进入，和。面向 : 构建技能首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1193,7 +1194,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1460,7 +1461,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 70,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-检索增强生成",
+      "title": "检索增强生成？",
+      "url": "https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-10T13:30:00.000Z",
+      "summary": "为什么人工智能基础设施在和，在。检索增强生成？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 69,
       "image": ""
     },
     {
@@ -1511,7 +1528,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1527,7 +1544,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://media.wired.com/photos/6a502a0f2e185717fadec4bb/master/pass/WEB_FIDJI%20SIMO-WIRED-2025-0Z2A8962_V3.jpg"
     },
     {
@@ -1563,24 +1580,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 64,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-训练和为什么图形处理器作为作为",
-      "title": "训练和为什么图形处理器作为作为",
-      "url": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T16:30:00.000Z",
-      "summary": "在训练，来自和向在，和为什么图形处理器作为作为训练和为什么图形处理器作为作为首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 56,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1716,7 +1716,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1817,7 +1817,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1834,7 +1834,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": "https://media.wired.com/photos/6a4ece7dd12b964679cc8452/master/pass/business_claude_price_increase.jpg"
     },
     {
@@ -1874,19 +1874,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-向编程智能体",
-      "title": "向编程智能体",
-      "url": "https://towardsdatascience.com/how-to-find-the-optimal-coding-agent-interface/",
+      "id": "towards-data-science-训练和为什么图形处理器作为作为",
+      "title": "训练和为什么图形处理器作为作为",
+      "url": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-09T15:00:00.000Z",
-      "summary": "向借助编程智能体向编程智能体首个在数据科学实战社区。",
+      "publishedAt": "2026-07-09T16:30:00.000Z",
+      "summary": "在训练，来自和向在，和为什么图形处理器作为作为训练和为什么图形处理器作为作为首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 50,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1971,7 +1972,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2040,7 +2041,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2090,7 +2091,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2106,7 +2107,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向编程智能体",
+      "title": "向编程智能体",
+      "url": "https://towardsdatascience.com/how-to-find-the-optimal-coding-agent-interface/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T15:00:00.000Z",
+      "summary": "向借助编程智能体向编程智能体首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -2124,22 +2141,6 @@
         "开源生态"
       ],
       "heat": 57,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能实际来自",
-      "title": "人工智能实际来自？",
-      "url": "https://towardsdatascience.com/where-does-an-ais-personality-actually-come-from/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "帮助，和问题。人工智能实际来自？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -2289,7 +2290,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2337,7 +2338,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2375,6 +2376,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-人工智能实际来自",
+      "title": "人工智能实际来自？",
+      "url": "https://towardsdatascience.com/where-does-an-ais-personality-actually-come-from/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-09T12:00:00.000Z",
+      "summary": "帮助，和问题。人工智能实际来自？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
+      "image": ""
+    },
+    {
       "id": "github-changelog-企业-面向代码和",
       "title": "企业，面向代码和",
       "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
@@ -2389,24 +2406,6 @@
         "开源生态"
       ],
       "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能模型",
-      "title": "人工智能模型",
-      "url": "https://towardsdatascience.com/the-real-challenge-limiting-ai-models-today/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-08T16:30:00.000Z",
-      "summary": ": 信息技术图形处理器！人工智能模型首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 58,
       "image": ""
     },
     {
@@ -2524,7 +2523,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2608,23 +2607,25 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
-      "id": "towards-data-science-新增人工智能智能体",
-      "title": "新增人工智能智能体",
-      "url": "https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/",
+      "id": "towards-data-science-人工智能模型",
+      "title": "人工智能模型",
+      "url": "https://towardsdatascience.com/the-real-challenge-limiting-ai-models-today/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-08T15:00:00.000Z",
-      "summary": "人工智能，工作流，重新定义，团队，和企业。新增人工智能智能体首个在数据科学实战社区。",
+      "publishedAt": "2026-07-08T16:30:00.000Z",
+      "summary": ": 信息技术图形处理器！人工智能模型首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 48,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2710,7 +2711,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2727,7 +2728,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2798,6 +2799,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-新增人工智能智能体",
+      "title": "新增人工智能智能体",
+      "url": "https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-08T15:00:00.000Z",
+      "summary": "人工智能，工作流，重新定义，团队，和企业。新增人工智能智能体首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
+      "image": ""
+    },
+    {
       "id": "openai-news-开放人工智能公司发布人工智能相关动态",
       "title": "开放人工智能公司发布人工智能相关动态。",
       "url": "https://openai.com/index/introducing-gpt-live",
@@ -2830,24 +2847,6 @@
         "多模态"
       ],
       "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-人工智能安全公司季度利润破10亿美元-大模型真的能赚钱了",
-      "title": "人工智能安全公司季度利润破10亿美元，大模型真的能赚钱了",
-      "url": "https://news.cnblogs.com/n/830401/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-11T05:53:31.000Z",
-      "summary": "文，世界模型工场大模型公司，可能真的开始成为一门高利润生意了。7 月 8 日，半导体与人工智能研究机构发布最新报告，预计人工智能安全公司今年第三季度利润( )，将超过 10 亿美元。与此同时，公司的年度经常性收入()已经从 2025 本文链接",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 98,
       "image": ""
     }
   ]
