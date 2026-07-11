@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T15:16:02.402Z",
+  "generatedAt": "2026-07-11T15:25:52.027Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-07-11T15:30:00.000Z",
   "stats": {
@@ -13,13 +13,13 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 74,
-      "heat": 78
+      "count": 73,
+      "heat": 77
     },
     {
       "name": "模型发布",
       "count": 58,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "监管安全",
@@ -38,7 +38,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 19,
+      "count": 18,
       "heat": 78
     },
     {
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 1,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-07-07T23:51:49.000Z",
-      "latestDisplayedAt": "2026-07-07T23:51:49.000Z"
+      "itemCount": 2,
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-07-10T18:29:19.000Z",
+      "latestDisplayedAt": "2026-07-10T18:29:19.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -334,7 +334,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 403",
+      "fallbackReason": "HTTP 429",
       "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-07-11T07:40:38.000Z",
@@ -432,7 +432,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 16,
-      "displayedCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-07-11T11:35:25.000Z",
       "latestDisplayedAt": "2026-07-11T11:35:25.000Z"
     },
@@ -651,7 +651,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -702,7 +702,23 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-10T18:29:19.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 77,
       "image": ""
     },
     {
@@ -787,7 +803,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -875,22 +891,6 @@
       ],
       "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Nemotron_LangChain-scaled.jpg"
-    },
-    {
-      "id": "hacker-news-ai-谷歌关于",
-      "title": "谷歌关于",
-      "url": "https://www.theverge.com/tech/961955/google-search-console-reach-platform-properties",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-07T23:51:49.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 54,
-      "image": ""
     },
     {
       "id": "google-ai-blog-智能体在双子座模型接口-任务-和",
@@ -1180,7 +1180,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1248,6 +1248,22 @@
       ],
       "heat": 50,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/rogue-ai-agent-1152x648.jpg"
+    },
+    {
+      "id": "hacker-news-ai-谷歌关于",
+      "title": "谷歌关于",
+      "url": "https://www.theverge.com/tech/961955/google-search-console-reach-platform-properties",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-07T23:51:49.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 54,
+      "image": ""
     },
     {
       "id": "google-research-驱动-我们减少",
@@ -1398,7 +1414,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1446,7 +1462,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2273,7 +2289,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2488,7 +2504,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2831,24 +2847,6 @@
         "研究论文"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-9点1氪丨-国产存储第一股-长鑫科技公布承销团阵容-海力士登陆美股-上市首日大涨近13-开放人工智能公司推出智能聊天助手智能体",
-      "title": "9点1氪丨“国产存储第一股”长鑫科技公布承销团阵容；海力士登陆美股，上市首日大涨近13%；开放人工智能公司推出智能聊天助手智能体",
-      "url": "https://36kr.com/p/3890553690192384?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-11T01:24:06.000Z",
-      "summary": "今日热点导览 “全球首款智能体手机”已备货8万至10万台？知情人士：假的百亿私募数量达142家，再次刷新历史纪录三星李在镕拟于7月底赴美会晤英伟达黄仁勋德国大众拟大裁员，最高或裁减12万个岗位开放人工智能公司高管层再现变动，首席运营官因病离职相关型号大新闻长鑫科技，承销团阵容公布长鑫科技首次公开募股进入发行倒计时，这家“国产存储第一股”背后的承销团阵容也随之浮出水面。最新披露……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 94,
       "image": ""
     }
   ]
