@@ -1,40 +1,45 @@
 {
-  "generatedAt": "2026-07-14T01:51:38.571Z",
+  "generatedAt": "2026-07-14T02:21:42.539Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-14T02:00:00.000Z",
+  "nextUpdateHint": "2026-07-14T02:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-14T01:44:58.000Z"
+    "latestPublishedAt": "2026-07-14T02:19:01.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 82,
+      "count": 80,
       "heat": 80
     },
     {
       "name": "模型发布",
-      "count": 57,
+      "count": 59,
       "heat": 81
     },
     {
       "name": "监管安全",
-      "count": 29,
+      "count": 28,
       "heat": 85
     },
     {
       "name": "研究论文",
-      "count": 23,
+      "count": 24,
       "heat": 80
     },
     {
       "name": "投融资",
       "count": 17,
-      "heat": 85
+      "heat": 86
+    },
+    {
+      "name": "人工智能动态",
+      "count": 21,
+      "heat": 66
     },
     {
       "name": "开源生态",
@@ -42,29 +47,24 @@
       "heat": 68
     },
     {
-      "name": "人工智能动态",
-      "count": 19,
-      "heat": 66
+      "name": "算力芯片",
+      "count": 13,
+      "heat": 80
     },
     {
       "name": "端侧智能",
-      "count": 14,
-      "heat": 86
-    },
-    {
-      "name": "算力芯片",
-      "count": 14,
-      "heat": 82
+      "count": 10,
+      "heat": 83
     },
     {
       "name": "多模态",
       "count": 9,
-      "heat": 89
+      "heat": 88
     },
     {
       "name": "机器人",
       "count": 6,
-      "heat": 90
+      "heat": 92
     }
   ],
   "sources": [
@@ -239,10 +239,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 9,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-13T20:43:20.000Z",
-      "latestDisplayedAt": "2026-07-13T20:43:20.000Z"
+      "latestFetchedAt": "2026-07-13T17:00:00.000Z",
+      "latestDisplayedAt": "2026-07-13T17:00:00.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -319,7 +319,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 3,
+      "itemCount": 2,
       "displayedCount": 2,
       "latestFetchedAt": "2026-07-14T00:58:55.000Z",
       "latestDisplayedAt": "2026-07-14T00:58:55.000Z"
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-07-13T23:57:22.000Z",
-      "latestDisplayedAt": "2026-07-13T21:58:46.000Z"
+      "latestFetchedAt": "2026-07-14T02:02:31.000Z",
+      "latestDisplayedAt": "2026-07-14T02:02:31.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 406",
+      "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-07-12T21:34:13.000Z",
       "latestDisplayedAt": "2026-07-12T21:34:13.000Z"
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
+      "itemCount": 12,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-14T01:38:13.000Z",
-      "latestDisplayedAt": "2026-07-14T01:38:13.000Z"
+      "latestFetchedAt": "2026-07-14T02:19:01.000Z",
+      "latestDisplayedAt": "2026-07-14T02:19:01.000Z"
     },
     {
       "id": "ithome",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 18,
+      "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-14T01:44:58.000Z",
-      "latestDisplayedAt": "2026-07-14T01:44:58.000Z"
+      "latestFetchedAt": "2026-07-14T02:07:35.000Z",
+      "latestDisplayedAt": "2026-07-14T02:07:35.000Z"
     },
     {
       "id": "oschina",
@@ -488,38 +488,53 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-人工智能大模型周榜-代码榜榜首易主-克劳德模型-旗舰模型-相关型号登顶",
-      "title": "人工智能大模型周榜：代码榜榜首易主，克劳德模型-旗舰模型-相关型号登顶",
-      "url": "https://www.ithome.com/0/976/076.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T01:44:58.000Z",
-      "summary": "科技之家 7 月 13 日消息，（。人工智能 ）平台发布了最新一期人工智能大模型周榜，本期覆盖 2026 年 7 月 6 日 ~2026 年 7 月 12 日。本周核心变化为代码榜榜首易主，克劳德模型-旗舰模型-相关型号从第二升至第一，原榜首克劳德模型-相关型号跌落至第五；综合榜榜首仍由克劳德模型-相关型号蝉联，头部均为人工智能安全公司模型占据。国产模型整体处于中上游梯队，排……",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-36氪首发-前博世自动驾驶算法工程师创业-用合成数据做触觉大模型",
-      "title": "36氪首发，前博世自动驾驶算法工程师创业，用合成数据做触觉大模型",
-      "url": "https://36kr.com/p/3894821059918855?f=rss",
+      "id": "thirty-six-kr-三十六氪发布人工智能相关动态",
+      "title": "三十六氪发布人工智能相关动态。",
+      "url": "https://36kr.com/newsflashes/3894862508276993?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T01:38:13.000Z",
-      "summary": "触觉手套（图源/企业） 本文约 2400 字，建议阅读 6 分钟作者丨欧雪编辑丨袁斯来硬氪获悉，空间智能公司「大衍科技」近期完成数千万元天使轮融资，由松禾资本领投，浙江省省金控与广州番禺创新基金等国资背景机构参与。资金将主要用于触觉大模型研发、机器人数据产线建设及团队扩张。「大衍科技」2025年5月成立于浙江桐乡，是一家专注于相关型号世界重建、世界模型及可控扩散模型技术的空间……",
+      "publishedAt": "2026-07-14T02:19:01.000Z",
+      "summary": "36氪获悉，沪指翻红，创业板指涨幅扩大至1.3%。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "ithome-三星健康被指存-霸王条款-拒绝人工智能训练授权恐失去备份能力",
+      "title": "三星健康被指存“霸王条款”：拒绝人工智能训练授权恐失去备份能力",
+      "url": "https://www.ithome.com/0/976/309.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T02:07:35.000Z",
+      "summary": "科技之家 7 月 14 日消息，科技媒体昨日（7 月 13 日）发布博文，报道称三星健康（ ）新增选项，用户若不同意其健康数据用于训练人工智能，可能无法备份数据且被威胁删除数据。在三星健康应用设置中，三星新增“同意将健康数据用于人工智能训练和建模”的选项，并强制用户在备份信息前同意这些条款，从而让三星具备相关权力，收集用户个人健康数据用于训练人工智能以及优化算法。科技之家附上……",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-我们持续人工智能-问题信息技术向分享借助信息技术",
+      "title": "我们持续人工智能。问题信息技术向分享借助信息技术。",
+      "url": "https://www.reddit.com/r/artificial/comments/1uvvd13/we_keep_asking_whether_ai_will_replace_us_the/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T02:02:31.000Z",
+      "summary": "每个人工智能进入 :，智能体在，和工具。实际使用向和。决策借助在 2。模型作为合作伙伴。信息技术在，和信息技术在实验室。信息技术我们语言面向 :。我们认为，工作流，和借助，我们构建，和。: 首个，风险，只是。我们进入模型和进入向，信息技术重塑，和我们。; 我们使用向，控制向面向。控制实时 ; 术语，构建，和作为信息技术。向我们，我们。我们构建借助，问题信息技术面向和我们信息技……",
       "topics": [
         "模型发布",
         "产品应用",
-        "投融资"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 95,
       "image": ""
     },
     {
@@ -537,7 +552,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -574,41 +589,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能安全公司-300-000-克劳德模型向",
-      "title": "人工智能安全公司 300，000 克劳德模型向。",
-      "url": "https://www.reddit.com/r/artificial/comments/1uvpob7/anthropic_analyzed_300000_real_claude/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-13T21:58:46.000Z",
-      "summary": "没有用户。没有克劳德模型信息技术。构建自动化工具 339 309，815，进入 4。:。模型在。4.6 和。信息技术，使用。旗舰模型 4.7 和。信息技术，风险没有关于。公司。训练。在模型向。语言向借助，最克劳德模型。最，最。克劳德模型向评估企业，在和在，借助质量。人工智能安全公司。克劳德模型向信息技术只是在。部件。使用由，向在语言，和构建信息技术功能。研究这里: :。人工智……",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": "https://preview.redd.it/dfpcm9p7k2dh1.png?width=640&crop=smart&auto=webp&s=29307d354546f08423de8c31eff23934a5f8bb06"
-    },
-    {
-      "id": "the-verge-ai-人工智能使用苹果手机",
-      "title": "人工智能使用苹果手机",
-      "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-13T20:43:20.000Z",
-      "summary": "苹果移动系统 27 开发者借助推出首个。新，面向和信息技术实时向苹果在。苹果移动系统可能呼吁 …",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-人工智能安全公司人工智能-和",
       "title": "人工智能安全公司人工智能，和",
       "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
@@ -639,7 +619,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-6-在苹果开放人工智能公司",
+      "title": "6 在苹果开放人工智能公司",
+      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-13T17:00:00.000Z",
+      "summary": "苹果员工面向在开放人工智能公司，人工智能创业公司询问向借助 : 在和产品。向由苹果，开放人工智能公司，在原型，和 …",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -687,7 +685,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg"
     },
     {
@@ -737,7 +735,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -754,7 +752,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -928,38 +926,36 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-微软相关型号测试电脑-目标替代任务管理器排查拖慢电脑原因",
-      "title": "微软相关型号测试电脑：目标替代任务管理器排查拖慢电脑原因",
-      "url": "https://www.ithome.com/0/976/291.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T01:23:58.000Z",
-      "summary": "科技之家 7 月 14 日消息，科技媒体视窗系统于 7 月 12 日发布博文，报道称微软公司正酝酿为智能副驾测试电脑功能，通过读取中央处理器、图形处理器占用等信息，聊天形式更直观告诉用户是什么拖慢电脑运行速度。在定位方面，电脑在未来有望补充甚至替代视窗系统 11 系统现有的任务管理器，用户未来遇到故障或者想要了解当前设备运行状态，不需要打开任务管理器排查原因，只需要调用电脑，……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-众擎机器人欲收购公司以借壳上市-森霸传感-目前不存在传闻情形",
-      "title": "众擎机器人欲收购公司以借壳上市？森霸传感：目前不存在传闻情形",
-      "url": "https://36kr.com/newsflashes/3894802904481029?f=rss",
+      "id": "thirty-six-kr-海关总署-上半年算力硬件进出口增长56-6",
+      "title": "海关总署：上半年算力硬件进出口增长56.6%",
+      "url": "https://36kr.com/newsflashes/3894861205044488?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T01:18:23.000Z",
-      "summary": "36氪获悉，有投资者在互动平台提问森霸传感：近来市场传闻南阳籍企业家众擎机器人赵同阳与公司洽谈，欲收购同为南阳本土企业森霸传感以借壳上市，是否属实？森霸传感回复：目前公司不存在传闻的情形，生产经营情况一切正常。",
+      "publishedAt": "2026-07-14T02:17:42.000Z",
+      "summary": "7月14日，海关总署副署长王军在国新办新闻发布会上表示，随着人工智能的快速发展，我国相关产品进出口动力强劲。上半年，我国电子元件、电脑零部件等算力硬件进出口额度达到5.13万亿元，增长56.6%；眼镜、翻译器、机械外骨骼等智能产品快速迭代，各类创新产品不断涌现。（证券时报）",
       "topics": [
-        "投融资",
-        "机器人"
+        "算力芯片"
       ],
-      "heat": 93,
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "ithome-人工智能大模型周榜-代码榜榜首易主-克劳德模型-旗舰模型-相关型号登顶",
+      "title": "人工智能大模型周榜：代码榜榜首易主，克劳德模型-旗舰模型-相关型号登顶",
+      "url": "https://www.ithome.com/0/976/076.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T01:44:58.000Z",
+      "summary": "科技之家 7 月 13 日消息，（。人工智能 ）平台发布了最新一期人工智能大模型周榜，本期覆盖 2026 年 7 月 6 日 ~2026 年 7 月 12 日。本周核心变化为代码榜榜首易主，克劳德模型-旗舰模型-相关型号从第二升至第一，原榜首克劳德模型-相关型号跌落至第五；综合榜榜首仍由克劳德模型-相关型号蝉联，头部均为人工智能安全公司模型占据。国产模型整体处于中上游梯队，排……",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -999,6 +995,24 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能安全公司-300-000-克劳德模型向",
+      "title": "人工智能安全公司 300，000 克劳德模型向。",
+      "url": "https://www.reddit.com/r/artificial/comments/1uvpob7/anthropic_analyzed_300000_real_claude/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-13T21:58:46.000Z",
+      "summary": "没有用户。没有克劳德模型信息技术。构建自动化工具 339 309，815，进入 4。:。模型在。4.6 和。信息技术，使用。旗舰模型 4.7 和。信息技术，风险没有关于。公司。训练。在模型向。语言向借助，最克劳德模型。最，最。克劳德模型向评估企业，在和在，借助质量。人工智能安全公司。克劳德模型向信息技术只是在。部件。使用由，向在语言，和构建信息技术功能。研究这里: :。人工智……",
+      "topics": [
+        "模型发布",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": "https://preview.redd.it/dfpcm9p7k2dh1.png?width=640&crop=smart&auto=webp&s=29307d354546f08423de8c31eff23934a5f8bb06"
+    },
+    {
       "id": "hacker-news-ai-微软-2026-克劳德模型代码和代码托管平台智能编程助手",
       "title": "微软 2026 克劳德模型代码和代码托管平台智能编程助手",
       "url": "https://arxiv.org/abs/2607.01418",
@@ -1015,22 +1029,6 @@
       ],
       "heat": 99,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-未来人工智能在医疗机器人-信息技术",
-      "title": "未来人工智能在医疗机器人。信息技术。",
-      "url": "https://www.reddit.com/r/artificial/comments/1uvp5k9/the_future_of_ai_in_healthcare_isnt_a_robot/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-13T21:39:20.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 82,
-      "image": "https://external-preview.redd.it/CyZCDJYJNq1yJob9isvHV0tb1wQBjr1GtHUII1vzbqU.png?width=640&crop=smart&auto=webp&s=12a138a2b537e309d4aa5372315036f0be79101d"
     },
     {
       "id": "the-decoder-实验室向构建人工智能智能体了解在",
@@ -1050,24 +1048,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-6-在苹果开放人工智能公司",
-      "title": "6 在苹果开放人工智能公司",
-      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-13T17:00:00.000Z",
-      "summary": "苹果员工面向在开放人工智能公司，人工智能创业公司询问向借助 : 在和产品。向由苹果，开放人工智能公司，在原型，和 …",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-上下文-为什么克劳德模型代码-和向",
       "title": "上下文 : 为什么克劳德模型代码，和向",
       "url": "https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/",
@@ -1081,7 +1061,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1098,7 +1078,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1136,6 +1116,23 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-得到新人工智能-驱动功能",
+      "title": "得到新人工智能，驱动功能",
+      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-13T09:00:00.000Z",
+      "summary": "得到人工智能。谷歌人工智能助手，双子座模型，进入应用借助用户。新更新，作为双子座模型。功能，首个在 2024，…",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "oschina-燃夏哈尔滨-线下沙龙集结-解锁金仓全栈兼容实战秘籍-赋能企业国产化稳行致远",
       "title": "燃夏哈尔滨！线下沙龙集结！解锁金仓全栈兼容实战秘籍，赋能企业国产化稳行致远",
       "url": "https://www.oschina.net/news/471696",
@@ -1148,7 +1145,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1166,7 +1163,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1324,38 +1321,39 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/cpu-press-vera-cpu-agentic-tl-1920x1080-5404450.png"
     },
     {
-      "id": "ithome-微软警告-人工智能加快漏洞挖掘速度-不建议视窗系统安全更新延迟超过三天",
-      "title": "微软警告：人工智能加快漏洞挖掘速度，不建议视窗系统安全更新延迟超过三天",
-      "url": "https://www.ithome.com/0/976/290.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T01:23:33.000Z",
-      "summary": "科技之家 7 月 14 日消息，在例行的“星期二补丁”更新推送前夕，微软向视窗系统用户与信息技术管理员发出了一项前所未有的严正警告 —— 不建议将视窗系统安全更新的部署延迟超过三天。这一政策调整的核心原因直指人工智能：人工智能技术正在将漏洞从公开披露到被黑客利用的时间窗口，从此前的数周急剧压缩至短短数小时。微软 365 部门总监在与视窗系统团队密切协作的更新部署指导中明确表示……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "多模态"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-爱诗科技-完成29-8亿元第三轮融资融资",
-      "title": "“爱诗科技”完成29.8亿元第三轮融资融资",
-      "url": "https://36kr.com/newsflashes/3894795352669446?f=rss",
+      "id": "thirty-six-kr-大衍科技-完成数千万元天使轮融资",
+      "title": "“大衍科技”完成数千万元天使轮融资",
+      "url": "https://36kr.com/newsflashes/3894858386324738?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T01:10:42.000Z",
-      "summary": "36氪获悉，“爱诗科技”今日宣布完成整体第三轮融资融资，本轮累计融资29.8亿元人民币。其中，+轮由阿里巴巴领投，（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、生态下基金、蓝色光标、等十余家国内外机构参与投资。本轮融资将主要用于视频生成基础模型、实时世界模型、全球化产品增长和产业场景落地。",
+      "publishedAt": "2026-07-14T02:14:50.000Z",
+      "summary": "36氪获悉，空间智能公司“大衍科技”近期完成数千万元天使轮融资，由松禾资本领投，浙江省省金控与广州番禺创新基金等国资背景机构参与。资金将主要用于触觉大模型研发、机器人数据产线建设及团队扩张。",
       "topics": [
+        "模型发布",
         "投融资",
-        "多模态"
+        "机器人"
       ],
-      "heat": 93,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-微软相关型号测试电脑-目标替代任务管理器排查拖慢电脑原因",
+      "title": "微软相关型号测试电脑：目标替代任务管理器排查拖慢电脑原因",
+      "url": "https://www.ithome.com/0/976/291.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T01:23:58.000Z",
+      "summary": "科技之家 7 月 14 日消息，科技媒体视窗系统于 7 月 12 日发布博文，报道称微软公司正酝酿为智能副驾测试电脑功能，通过读取中央处理器、图形处理器占用等信息，聊天形式更直观告诉用户是什么拖慢电脑运行速度。在定位方面，电脑在未来有望补充甚至替代视窗系统 11 系统现有的任务管理器，用户未来遇到故障或者想要了解当前设备运行状态，不需要打开任务管理器排查原因，只需要调用电脑，……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -1393,20 +1391,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-面向向使用人工智能面向",
-      "title": ": 面向向使用人工智能面向",
-      "url": "https://www.reddit.com/r/artificial/comments/1uvljm9/lord_of_the_rings_the_hunt_for_gollum_to_only_use/",
+      "id": "reddit-artificial-未来人工智能在医疗机器人-信息技术",
+      "title": "未来人工智能在医疗机器人。信息技术。",
+      "url": "https://www.reddit.com/r/artificial/comments/1uvp5k9/the_future_of_ai_in_healthcare_isnt_a_robot/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-13T19:28:28.000Z",
+      "publishedAt": "2026-07-13T21:39:20.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "机器人"
       ],
-      "heat": 80,
-      "image": "https://external-preview.redd.it/idmNSrdiE6VBAjUyBQAj2OLzhYdvvO9_m6GsGbkoj24.jpeg?width=640&crop=smart&auto=webp&s=b5c860bc59a27a5815d229e4c61cd2c9b97e802e"
+      "heat": 82,
+      "image": "https://external-preview.redd.it/CyZCDJYJNq1yJob9isvHV0tb1wQBjr1GtHUII1vzbqU.png?width=640&crop=smart&auto=webp&s=12a138a2b537e309d4aa5372315036f0be79101d"
     },
     {
       "id": "the-decoder-和人工智能向面向人工智能",
@@ -1455,24 +1453,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-得到新人工智能-驱动功能",
-      "title": "得到新人工智能，驱动功能",
-      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-13T09:00:00.000Z",
-      "summary": "得到人工智能。谷歌人工智能助手，双子座模型，进入应用借助用户。新更新，作为双子座模型。功能，首个在 2024，…",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 89,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1508,7 +1489,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1526,7 +1507,23 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-元宇宙平台公司人工智能",
+      "title": "元宇宙平台公司人工智能",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-12T20:10:19.000Z",
+      "summary": "在在在和时间向人工智能。没有在，信息技术在，借助元宇宙平台公司在人工智能 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 65,
       "image": ""
     },
     {
@@ -1665,38 +1662,39 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/nv-gr00t-e2r-letobot-2up-KV-r2-1600x900-1.jpg"
     },
     {
-      "id": "ithome-特斯拉正开发轮椅无障碍自动驾驶汽车-旨在为残障人士提供出行自由",
-      "title": "特斯拉正开发轮椅无障碍自动驾驶汽车：旨在为残障人士提供出行自由",
-      "url": "https://www.ithome.com/0/976/289.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T01:21:54.000Z",
-      "summary": "科技之家 7 月 14 日消息，据《连线》杂志 14 日（今天）报道，特斯拉高级政策顾问英迪娅 · 赫德曼周一在华盛顿特区证实，特斯拉正在开发一款可供轮椅乘客使用的无人驾驶汽车。特斯拉首席执行官埃隆 · 马斯克此前也曾透露，公司正在筹备无障碍出行服务。当地时间周一，赫德曼在听证会上表示：“我们正在开发一款专门面向轮椅乘客的自动驾驶汽车。无障碍接送服务往往很不方便，但长期依赖轮……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-软银与达成合作-在日本推出人工智能客服服务",
-      "title": "软银与达成合作，在日本推出人工智能客服服务",
-      "url": "https://36kr.com/newsflashes/3894788367613191?f=rss",
+      "id": "thirty-six-kr-36氪首发-前博世自动驾驶算法工程师创业-用合成数据做触觉大模型",
+      "title": "36氪首发，前博世自动驾驶算法工程师创业，用合成数据做触觉大模型",
+      "url": "https://36kr.com/p/3894821059918855?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T01:03:36.000Z",
-      "summary": "软银集团与建立战略合作伙伴关系，将在日本市场推出由智能人工智能代理驱动的客户服务方案。自7月14日起，软银成为在日本的独家合作方。软银旗下线上手机品牌已接入相关技术；公司计划后续将该技术应用于软银！等自有品牌及集团其他业务线。（新浪财经）",
+      "publishedAt": "2026-07-14T01:38:13.000Z",
+      "summary": "触觉手套（图源/企业） 本文约 2400 字，建议阅读 6 分钟作者丨欧雪编辑丨袁斯来硬氪获悉，空间智能公司「大衍科技」近期完成数千万元天使轮融资，由松禾资本领投，浙江省省金控与广州番禺创新基金等国资背景机构参与。资金将主要用于触觉大模型研发、机器人数据产线建设及团队扩张。「大衍科技」2025年5月成立于浙江桐乡，是一家专注于相关型号世界重建、世界模型及可控扩散模型技术的空间……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-微软警告-人工智能加快漏洞挖掘速度-不建议视窗系统安全更新延迟超过三天",
+      "title": "微软警告：人工智能加快漏洞挖掘速度，不建议视窗系统安全更新延迟超过三天",
+      "url": "https://www.ithome.com/0/976/290.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T01:23:33.000Z",
+      "summary": "科技之家 7 月 14 日消息，在例行的“星期二补丁”更新推送前夕，微软向视窗系统用户与信息技术管理员发出了一项前所未有的严正警告 —— 不建议将视窗系统安全更新的部署延迟超过三天。这一政策调整的核心原因直指人工智能：人工智能技术正在将漏洞从公开披露到被黑客利用的时间窗口，从此前的数周急剧压缩至短短数小时。微软 365 部门总监在与视窗系统团队密切协作的更新部署指导中明确表示……",
       "topics": [
         "产品应用",
-        "端侧智能"
+        "监管安全",
+        "多模态"
       ],
-      "heat": 92,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1716,21 +1714,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-智能体即将推出-人工智能智能体向",
-      "title": "智能体即将推出，人工智能智能体向",
-      "url": "https://www.reddit.com/r/artificial/comments/1uviqvw/the_agent_web_is_coming_where_ai_agents_talk/",
+      "id": "reddit-artificial-面向向使用人工智能面向",
+      "title": ": 面向向使用人工智能面向",
+      "url": "https://www.reddit.com/r/artificial/comments/1uvljm9/lord_of_the_rings_the_hunt_for_gollum_to_only_use/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-13T17:49:51.000Z",
-      "summary": "认为关于 : 正确，人工智能智能体借助。信息技术呼吁使用和信息技术。智能体，基础设施，智能体借助接口和。智能体，承包商，由由智能体。智能体评估在由。在平台构建，智能体，向，智能体。社区认为: 认为智能体，向，智能体来自采用？使用认为智能体，首个？正确？向来自构建在。建设者在人工智能智能体向分享在。由",
+      "publishedAt": "2026-07-13T19:28:28.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "产品应用",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 84,
-      "image": ""
+      "heat": 80,
+      "image": "https://external-preview.redd.it/idmNSrdiE6VBAjUyBQAj2OLzhYdvvO9_m6GsGbkoj24.jpeg?width=640&crop=smart&auto=webp&s=b5c860bc59a27a5815d229e4c61cd2c9b97e802e"
     },
     {
       "id": "techcrunch-ai-数据中心最",
@@ -1745,7 +1742,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1779,7 +1776,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1796,7 +1793,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1814,7 +1811,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1836,22 +1833,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-元宇宙平台公司人工智能",
-      "title": "元宇宙平台公司人工智能",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-12T20:10:19.000Z",
-      "summary": "在在在和时间向人工智能。没有在，信息技术在，借助元宇宙平台公司在人工智能 …",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 65,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-强化学习-自然语言处理方向研究",
       "title": "论文新进展：大语言模型、智能体、强化学习、自然语言处理方向研究",
       "url": "https://arxiv.org/abs/2607.10891v1",
@@ -1870,6 +1851,24 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-苹果未能人工智能芯片",
+      "title": "苹果未能人工智能芯片",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-12T16:27:06.000Z",
+      "summary": "苹果，信息技术公司芯片人工智能。在平台，苹果信息技术在，人工智能，作为 …",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 71,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-向-100-智能体借助克劳德模型代码",
       "title": "向 100+ 智能体借助克劳德模型代码",
       "url": "https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/",
@@ -1883,7 +1882,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1970,18 +1969,36 @@
       "image": ""
     },
     {
-      "id": "ithome-响应更快-多位大推荐苹果苹果移动系统-27-首个公测版-稳定性满足日常使用",
-      "title": "响应更快：多位大推荐苹果苹果移动系统 27 首个公测版，稳定性满足日常使用",
-      "url": "https://www.ithome.com/0/976/278.htm",
+      "id": "ithome-特斯拉正开发轮椅无障碍自动驾驶汽车-旨在为残障人士提供出行自由",
+      "title": "特斯拉正开发轮椅无障碍自动驾驶汽车：旨在为残障人士提供出行自由",
+      "url": "https://www.ithome.com/0/976/289.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T00:50:37.000Z",
-      "summary": "科技之家 7 月 14 日消息，科技媒体苹果电脑今天（7 月 14 日）发布博文，报道称苹果最新发布的苹果移动系统 27 首个公测版已基本完善，其稳定性足以满足日常使用需求。该媒体测试后认为苹果移动系统 27 首个公测版已趋于完善，各方面的体验都非常稳定，完全满足日常使用需求，不过测试后认为，最大的缺点可能会缩短续航表现。科技记者今天在平台也发布推文，科技之家翻译如下：苹果移……",
+      "publishedAt": "2026-07-14T01:21:54.000Z",
+      "summary": "科技之家 7 月 14 日消息，据《连线》杂志 14 日（今天）报道，特斯拉高级政策顾问英迪娅 · 赫德曼周一在华盛顿特区证实，特斯拉正在开发一款可供轮椅乘客使用的无人驾驶汽车。特斯拉首席执行官埃隆 · 马斯克此前也曾透露，公司正在筹备无障碍出行服务。当地时间周一，赫德曼在听证会上表示：“我们正在开发一款专门面向轮椅乘客的自动驾驶汽车。无障碍接送服务往往很不方便，但长期依赖轮……",
       "topics": [
-        "多模态",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "机器人"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-众擎机器人欲收购公司以借壳上市-森霸传感-目前不存在传闻情形",
+      "title": "众擎机器人欲收购公司以借壳上市？森霸传感：目前不存在传闻情形",
+      "url": "https://36kr.com/newsflashes/3894802904481029?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T01:18:23.000Z",
+      "summary": "36氪获悉，有投资者在互动平台提问森霸传感：近来市场传闻南阳籍企业家众擎机器人赵同阳与公司洽谈，欲收购同为南阳本土企业森霸传感以借壳上市，是否属实？森霸传感回复：目前公司不存在传闻的情形，生产经营情况一切正常。",
+      "topics": [
+        "投融资",
+        "机器人"
       ],
       "heat": 92,
       "image": ""
@@ -2004,35 +2021,18 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-美国数据中心开发商加速抛售巨额股权资产",
-      "title": "美国数据中心开发商加速抛售巨额股权资产",
-      "url": "https://36kr.com/newsflashes/3894773393210631?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T00:48:22.000Z",
-      "summary": "美国数据中心开发商正借着人工智能行业热潮变现离场。多位知情人士透露，今年夏季，全美多家数据中心建设及运营企业正联合投行，计划出售公司价值数百亿美元的多数股权。投行正在接洽多家企业的股权转让事宜，包括数据中心、数字基础设施等企业，其产业布局覆盖凤凰城至亚特兰大多地。当前算力需求持续旺盛，数据中心成为热门资产，投行正向私募股权机构大力推介这类标的。（新浪财经）",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能和向",
-      "title": "人工智能和向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1uvgqrn/is_there_any_kind_of_ai_that_could_read_huge/",
+      "id": "reddit-artificial-智能体即将推出-人工智能智能体向",
+      "title": "智能体即将推出，人工智能智能体向",
+      "url": "https://www.reddit.com/r/artificial/comments/1uviqvw/the_agent_web_is_coming_where_ai_agents_talk/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-13T16:39:15.000Z",
-      "summary": "面向人工智能作为任务。在我们询问向问题和我们答案。问题，认为在？和我们，信息技术，信息技术，作为向由和面向向答案向我们，人工智能模型我们和答案，800 1000，人工智能模型，答案 80%？信息技术 8 10？人工智能模型和面向和，在人工智能模型向只是答案和解释为什么信息技术向，作为在向向答案在。面向向只是和信息技术人工智能信息技术！由",
+      "publishedAt": "2026-07-13T17:49:51.000Z",
+      "summary": "认为关于 : 正确，人工智能智能体借助。信息技术呼吁使用和信息技术。智能体，基础设施，智能体借助接口和。智能体，承包商，由由智能体。智能体评估在由。在平台构建，智能体，向，智能体。社区认为: 认为智能体，向，智能体来自采用？使用认为智能体，首个？正确？向来自构建在。建设者在人工智能智能体向分享在。由",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "投融资"
       ],
       "heat": 83,
       "image": ""
@@ -2068,7 +2068,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2118,7 +2118,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2140,21 +2140,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-苹果未能人工智能芯片",
-      "title": "苹果未能人工智能芯片",
-      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "id": "the-verge-ai-人工智能数据中心只是",
+      "title": "人工智能数据中心只是",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-12T16:27:06.000Z",
-      "summary": "苹果，信息技术公司芯片人工智能。在平台，苹果信息技术在，人工智能，作为 …",
+      "publishedAt": "2026-07-12T12:00:00.000Z",
+      "summary": "来自。面向在数据中心。在在在相关型号。在面向这里。信息技术人工智能本地驱动 …",
       "topics": [
-        "产品应用",
-        "算力芯片",
         "端侧智能"
       ],
-      "heat": 72,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2242,21 +2240,37 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-人形机器人公司逐际动力完成2亿美元-首次公开募股轮融资-投后估值达150亿元-最前线",
-      "title": "人形机器人公司逐际动力完成2亿美元-首次公开募股轮融资，投后估值达150亿元｜最前线",
-      "url": "https://36kr.com/p/3893976502287618?f=rss",
+      "id": "thirty-six-kr-爱诗科技-完成29-8亿元第三轮融资融资",
+      "title": "“爱诗科技”完成29.8亿元第三轮融资融资",
+      "url": "https://36kr.com/newsflashes/3894795352669446?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T00:46:41.000Z",
-      "summary": "作者｜黄楠编辑｜袁斯来硬氪获悉，通用人形机器人公司逐际动力宣布完成-首次公开募股轮融资，融资金额近2亿美元，投资方包括资本、蓝思科技、与、华山资本、合肥滨湖产发集团等。此外，阿联酋磊石资本（ ）连续多轮追投，绿洲资本、基石资本、南山战新投、尚颀资本、蔚来资本等多家老股东超额加注。融资资金将重点用于大小脑融合技术的突破和产品化，推动数千台全自主人形机器人的规模化部署，加强全球市……",
+      "publishedAt": "2026-07-14T01:10:42.000Z",
+      "summary": "36氪获悉，“爱诗科技”今日宣布完成整体第三轮融资融资，本轮累计融资29.8亿元人民币。其中，+轮由阿里巴巴领投，（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、生态下基金、蓝色光标、等十余家国内外机构参与投资。本轮融资将主要用于视频生成基础模型、实时世界模型、全球化产品增长和产业场景落地。",
       "topics": [
-        "产品应用",
         "投融资",
-        "开源生态"
+        "多模态"
       ],
-      "heat": 97,
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "ithome-响应更快-多位大推荐苹果苹果移动系统-27-首个公测版-稳定性满足日常使用",
+      "title": "响应更快：多位大推荐苹果苹果移动系统 27 首个公测版，稳定性满足日常使用",
+      "url": "https://www.ithome.com/0/976/278.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T00:50:37.000Z",
+      "summary": "科技之家 7 月 14 日消息，科技媒体苹果电脑今天（7 月 14 日）发布博文，报道称苹果最新发布的苹果移动系统 27 首个公测版已基本完善，其稳定性足以满足日常使用需求。该媒体测试后认为苹果移动系统 27 首个公测版已趋于完善，各方面的体验都非常稳定，完全满足日常使用需求，不过测试后认为，最大的缺点可能会缩短续航表现。科技记者今天在平台也发布推文，科技之家翻译如下：苹果移……",
+      "topics": [
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 91,
       "image": ""
     },
     {
@@ -2277,39 +2291,20 @@
       "image": ""
     },
     {
-      "id": "ithome-苹果发布-27-首个公测版-暂未整合人工智能",
-      "title": "苹果发布 / 27 首个公测版，暂未整合人工智能",
-      "url": "https://www.ithome.com/0/976/273.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T00:27:31.000Z",
-      "summary": "科技之家 7 月 14 日消息，科技媒体相关型号今天（7 月 14 日）发布博文，汇总梳理了苹果 27 以及 27 首个公测版相关内容。在适配机型方面，27 不再支持苹果以及初代苹果相关型号；而适配所有现有机型。功能方面，27 首个公测版暂未整合人工智能，相关适配机型需要等到今年秋季，苹果公司有望和苹果手机 18 专业版系列一起，推出支持人工智能的 2026 款苹果相关型号机……",
-      "topics": [
-        "产品应用",
-        "多模态",
-        "端侧智能"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-更新首个人工智能实际时间-只是",
-      "title": "更新首个人工智能实际时间，只是",
-      "url": "https://www.reddit.com/r/artificial/comments/1uvff8t/the_monthly_investor_update_was_the_first_place/",
+      "id": "reddit-artificial-人工智能和向",
+      "title": "人工智能和向？",
+      "url": "https://www.reddit.com/r/artificial/comments/1uvgqrn/is_there_any_kind_of_ai_that_could_read_huge/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-13T15:51:43.000Z",
-      "summary": "每个月更新，和。部件。部件 : 月指标来自，在在，客户值得。智能体在在。使用信息技术，最信息技术。实际月作为，和指标向。月转化进入。修复信息技术和。在。借助人工智能由",
+      "publishedAt": "2026-07-13T16:39:15.000Z",
+      "summary": "面向人工智能作为任务。在我们询问向问题和我们答案。问题，认为在？和我们，信息技术，信息技术，作为向由和面向向答案向我们，人工智能模型我们和答案，800 1000，人工智能模型，答案 80%？信息技术 8 10？人工智能模型和面向和，在人工智能模型向只是答案和解释为什么信息技术向，作为在向向答案在。面向向只是和信息技术人工智能信息技术！由",
       "topics": [
-        "产品应用",
-        "投融资",
-        "端侧智能"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 87,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2344,7 +2339,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2380,7 +2375,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2398,7 +2393,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2420,22 +2415,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能数据中心只是",
-      "title": "人工智能数据中心只是",
-      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-12T12:00:00.000Z",
-      "summary": "来自。面向在数据中心。在在在相关型号。在面向这里。信息技术人工智能本地驱动 …",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 58,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-为什么人工智能-和向关于信息技术",
       "title": ": 为什么人工智能，和向关于信息技术",
       "url": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
@@ -2450,6 +2429,22 @@
         "产品应用"
       ],
       "heat": 53,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-元宇宙平台公司转化功能用户人工智能",
+      "title": "元宇宙平台公司转化功能用户人工智能",
+      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-10T23:49:50.000Z",
+      "summary": "元宇宙平台公司转化功能信息技术宣布用户生成人工智能图像在来自只是由。功能，作为，来自使用在人工智能。…",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -2486,21 +2481,20 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-中信建投-金刚石铜复合材料适用于封装盖板及冷板-微通道-短期有望率先放量",
-      "title": "中信建投：金刚石铜复合材料适用于封装盖板及冷板/微通道，短期有望率先放量",
-      "url": "https://36kr.com/newsflashes/3894737960877059?f=rss",
+      "id": "thirty-six-kr-软银与达成合作-在日本推出人工智能客服服务",
+      "title": "软银与达成合作，在日本推出人工智能客服服务",
+      "url": "https://36kr.com/newsflashes/3894788367613191?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T00:43:12.000Z",
-      "summary": "36氪获悉，中信建投证券研报称，金刚石凭借超高导热（最高2000 瓦/·）与低热膨胀系数，当下其复合材料已在高性能消费电子与人工智能服务器落地应用。展望未来，短期，金刚石铜复合材料（600—800 瓦，成本仅为纯金刚石10%—20%，根据行业调研）技术成熟度高、产业化性价比突出，适用于封装盖板及冷板/微通道，有望率先放量；中期，多晶金刚石热沉片通过键合贴合芯片，核心突破点在于……",
+      "publishedAt": "2026-07-14T01:03:36.000Z",
+      "summary": "软银集团与建立战略合作伙伴关系，将在日本市场推出由智能人工智能代理驱动的客户服务方案。自7月14日起，软银成为在日本的独家合作方。软银旗下线上手机品牌已接入相关技术；公司计划后续将该技术应用于软银！等自有品牌及集团其他业务线。（新浪财经）",
       "topics": [
         "产品应用",
-        "算力芯片",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2517,24 +2511,25 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
-      "id": "ithome-微软首席执行官纳德拉警告企业-你花钱用的人工智能-最终可能会成为你的竞争对手",
-      "title": "微软首席执行官纳德拉警告企业：你花钱用的人工智能，最终可能会成为你的竞争对手",
-      "url": "https://www.ithome.com/0/976/271.htm",
+      "id": "ithome-苹果发布-27-首个公测版-暂未整合人工智能",
+      "title": "苹果发布 / 27 首个公测版，暂未整合人工智能",
+      "url": "https://www.ithome.com/0/976/273.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T00:23:30.000Z",
-      "summary": "科技之家 7 月 14 日消息，据外媒科技创投媒体今天（14 日）报道，硅谷围绕人工智能风险的争论持续无休，最让人工智能拥护者坐立不安的，却是大型人工智能实验室可能借专有模型充当“特洛伊木马”。初创企业和大型企业把敏感资料喂给模型后，模型提供商便能逐渐摸清客户的业务，还可能利用积累下来的知识开拓同类业务，最终与客户直接竞争。当地时间 12 日，纳德拉在博客中警告，企业使用人工……",
+      "publishedAt": "2026-07-14T00:27:31.000Z",
+      "summary": "科技之家 7 月 14 日消息，科技媒体相关型号今天（7 月 14 日）发布博文，汇总梳理了苹果 27 以及 27 首个公测版相关内容。在适配机型方面，27 不再支持苹果以及初代苹果相关型号；而适配所有现有机型。功能方面，27 首个公测版暂未整合人工智能，相关适配机型需要等到今年秋季，苹果公司有望和苹果手机 18 专业版系列一起，推出支持人工智能的 2026 款苹果相关型号机……",
       "topics": [
         "产品应用",
-        "研究论文"
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 91,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2586,7 +2581,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2625,17 +2620,17 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-元宇宙平台公司转化功能用户人工智能",
-      "title": "元宇宙平台公司转化功能用户人工智能",
-      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "id": "the-verge-ai-人工智能-信息技术在",
+      "title": ": 人工智能，信息技术在",
+      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-10T23:49:50.000Z",
-      "summary": "元宇宙平台公司转化功能信息技术宣布用户生成人工智能图像在来自只是由。功能，作为，来自使用在人工智能。…",
+      "publishedAt": "2026-07-10T13:45:02.000Z",
+      "summary": "向人工智能在平台，信息技术在信息技术。认为我们人工智能，在。认为我们 …",
       "topics": [
-        "多模态"
+        "人工智能动态"
       ],
       "heat": 50,
       "image": ""
@@ -2692,20 +2687,38 @@
       "image": "https://media.wired.com/photos/6a4be55744dc79c43267387c/master/pass/DeepMind-Alum-QandA-Verity-Harding-Business.jpg"
     },
     {
-      "id": "thirty-six-kr-中信证券-人工智能产业趋势再次成为影响美股科技股下半年走势核心变量",
-      "title": "中信证券：人工智能产业趋势再次成为影响美股科技股下半年走势核心变量",
-      "url": "https://36kr.com/newsflashes/3894767298771974?f=rss",
+      "id": "thirty-six-kr-人形机器人公司逐际动力完成2亿美元-首次公开募股轮融资-投后估值达150亿元-最前线",
+      "title": "人形机器人公司逐际动力完成2亿美元-首次公开募股轮融资，投后估值达150亿元｜最前线",
+      "url": "https://36kr.com/p/3893976502287618?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T00:42:10.000Z",
-      "summary": "36氪获悉，中信证券研报表示，伴随宏观尾部风险的下降，人工智能产业趋势再次成为影响美股科技股下半年走势的核心变量。美股市场近期剧烈波动虽充满噪音，但市场对人工智能的认知正不断回归理性，对短期的诉求亦更为迫切。进入下半年，人工智能货币化进程、科技巨头人工智能持续性、人工智能产业链价值分配等将继续成为市场讨论的焦点，市场高波动特征料将延续，厂商、营收增速触底回升的应用软件、互联网……",
+      "publishedAt": "2026-07-14T00:46:41.000Z",
+      "summary": "作者｜黄楠编辑｜袁斯来硬氪获悉，通用人形机器人公司逐际动力宣布完成-首次公开募股轮融资，融资金额近2亿美元，投资方包括资本、蓝思科技、与、华山资本、合肥滨湖产发集团等。此外，阿联酋磊石资本（ ）连续多轮追投，绿洲资本、基石资本、南山战新投、尚颀资本、蔚来资本等多家老股东超额加注。融资资金将重点用于大小脑融合技术的突破和产品化，推动数千台全自主人形机器人的规模化部署，加强全球市……",
       "topics": [
         "产品应用",
-        "监管安全"
+        "投融资",
+        "开源生态"
       ],
-      "heat": 92,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "ithome-微软首席执行官纳德拉警告企业-你花钱用的人工智能-最终可能会成为你的竞争对手",
+      "title": "微软首席执行官纳德拉警告企业：你花钱用的人工智能，最终可能会成为你的竞争对手",
+      "url": "https://www.ithome.com/0/976/271.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T00:23:30.000Z",
+      "summary": "科技之家 7 月 14 日消息，据外媒科技创投媒体今天（14 日）报道，硅谷围绕人工智能风险的争论持续无休，最让人工智能拥护者坐立不安的，却是大型人工智能实验室可能借专有模型充当“特洛伊木马”。初创企业和大型企业把敏感资料喂给模型后，模型提供商便能逐渐摸清客户的业务，还可能利用积累下来的知识开拓同类业务，最终与客户直接竞争。当地时间 12 日，纳德拉在博客中警告，企业使用人工……",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 91,
       "image": ""
     },
     {
@@ -2722,23 +2735,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "ithome-通用汽车推行供应商筛选新标准-若自动化水平不达标-或拿不到新订单",
-      "title": "通用汽车推行供应商筛选新标准：若自动化水平不达标，或拿不到新订单",
-      "url": "https://www.ithome.com/0/976/267.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T00:00:07.000Z",
-      "summary": "科技之家 7 月 14 日消息，据外媒今天（14 日）报道，通用汽车启用了一套新的自动化标准筛选零部件供应商，达不到要求的供应商今后可能拿不到新订单。通用汽车发言人帕特里克 · 沙利文称，公司会协助供应商提升生产能力；美国汽车工人联合会（）主席肖恩 · 费恩则警告，人工智能和大规模自动化正在威胁工人的饭碗。今年 3 月，通用汽车开始向供应商发放调查问卷，同时推出“整体自动化成……",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 86,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2754,7 +2751,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2771,7 +2768,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2789,7 +2786,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2827,15 +2824,15 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能-信息技术在",
-      "title": ": 人工智能，信息技术在",
-      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+      "id": "the-verge-ai-部件人工智能数据中心在",
+      "title": "部件人工智能数据中心在？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-10T13:45:02.000Z",
-      "summary": "向人工智能在平台，信息技术在信息技术。认为我们人工智能，在。认为我们 …",
+      "publishedAt": "2026-07-10T13:20:25.000Z",
+      "summary": "和公司进入人工智能数据中心，由构建，信息技术向客户向设置在。面向新人工智能在 …",
       "topics": [
         "人工智能动态"
       ],
