@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-07-15T10:25:18.309Z",
+  "generatedAt": "2026-07-15T10:55:34.921Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-15T10:30:00.000Z",
+  "nextUpdateHint": "2026-07-15T11:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-15T10:20:01.000Z"
+    "latestPublishedAt": "2026-07-15T10:51:37.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 83,
+      "count": 85,
       "heat": 85
     },
     {
       "name": "模型发布",
-      "count": 61,
+      "count": 60,
       "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 33,
+      "count": 32,
       "heat": 88
     },
     {
@@ -33,12 +33,12 @@
     },
     {
       "name": "算力芯片",
-      "count": 16,
-      "heat": 94
+      "count": 17,
+      "heat": 93
     },
     {
       "name": "端侧智能",
-      "count": 16,
+      "count": 17,
       "heat": 89
     },
     {
@@ -48,23 +48,23 @@
     },
     {
       "name": "人工智能动态",
-      "count": 17,
-      "heat": 74
+      "count": 18,
+      "heat": 75
     },
     {
       "name": "开源生态",
       "count": 14,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "多模态",
-      "count": 12,
-      "heat": 93
+      "count": 11,
+      "heat": 91
     },
     {
       "name": "机器人",
-      "count": 5,
-      "heat": 85
+      "count": 4,
+      "heat": 91
     }
   ],
   "sources": [
@@ -160,9 +160,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-07-14T16:45:13.000Z",
-      "latestDisplayedAt": "2026-07-14T16:45:13.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-07-15T10:51:37.000Z",
+      "latestDisplayedAt": "2026-07-15T10:51:37.000Z"
     },
     {
       "id": "microsoft-ai-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-07-15T00:27:04.000Z",
       "latestDisplayedAt": "2026-07-15T00:27:04.000Z"
     },
@@ -332,10 +332,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-07-15T10:07:42.000Z",
       "latestDisplayedAt": "2026-07-15T10:07:42.000Z"
@@ -401,8 +401,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-07-15T09:03:58.000Z",
-      "latestDisplayedAt": "2026-07-15T09:03:58.000Z"
+      "latestFetchedAt": "2026-07-15T09:18:03.000Z",
+      "latestDisplayedAt": "2026-07-15T09:18:03.000Z"
     },
     {
       "id": "leiphone",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
+      "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-07-15T10:20:01.000Z",
-      "latestDisplayedAt": "2026-07-15T10:20:01.000Z"
+      "latestFetchedAt": "2026-07-15T10:36:56.000Z",
+      "latestDisplayedAt": "2026-07-15T10:36:56.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 23,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-07-15T10:12:39.000Z",
-      "latestDisplayedAt": "2026-07-15T10:12:39.000Z"
+      "latestFetchedAt": "2026-07-15T10:50:16.000Z",
+      "latestDisplayedAt": "2026-07-15T10:50:16.000Z"
     },
     {
       "id": "oschina",
@@ -479,7 +479,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
+      "itemCount": 10,
       "displayedCount": 9,
       "latestFetchedAt": "2026-07-15T05:42:00.000Z",
       "latestDisplayedAt": "2026-07-15T05:42:00.000Z"
@@ -488,38 +488,56 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-问天量子-完成第二轮融资融资",
-      "title": "“问天量子”完成第二轮融资融资",
-      "url": "https://36kr.com/newsflashes/3896750928775041?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
+      "id": "nvidia-blog-英伟达和带来人工智能和机器人向每个",
+      "title": "英伟达和带来人工智能和机器人向每个",
+      "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-15T10:20:01.000Z",
-      "summary": "36氪获悉，近日，“问天量子”完成第二轮融资融资，获得6亿元资金注入，新进投资方包括海南晴澜、海南量启、淄博汇富齐嘉等多家机构。此次融资资金将主要用于核心技术的规模化商用、量子随机数芯片的量产扩能，以及面向人工智能时代的量子人工智能融合产品研发。",
+      "publishedAt": "2026-07-15T10:51:37.000Z",
+      "summary": "向，机器人和基础设施建设者，人工智能，构建借助英伟达。英伟达和合作伙伴在人工智能生态。这里面向更新。英伟达和 30 …",
       "topics": [
         "算力芯片",
-        "投融资"
+        "机器人"
       ],
-      "heat": 93,
-      "image": ""
+      "heat": 99,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/IMG_7018-scaled-e1784111533455.jpg"
     },
     {
-      "id": "ithome-发布自主运维人工智能智能体-可自动监控并修复系统问题",
-      "title": "发布自主运维人工智能智能体，可自动监控并修复系统问题",
-      "url": "https://www.ithome.com/0/977/181.htm",
+      "id": "ithome-人工智能伴侣应用吸金超-4-亿美元-近七成用户向人类伴侣隐瞒使用行为",
+      "title": "人工智能伴侣应用吸金超 4 亿美元，近七成用户向人类伴侣隐瞒使用行为",
+      "url": "https://www.ithome.com/0/977/200.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T10:12:39.000Z",
-      "summary": "科技之家 7 月 15 日消息，今日宣布推出自主运维系统（ ），这是一款基于人工智能智能体（人工智能智能体）的系统管理工具，能够持续监控系统运行状态，并自主解决相关问题，帮助企业保持业务稳定运行。科技之家注意到，该系统是近期推出的的补充，后者是一套面向平台的软件开发人工智能智能体工具，可帮助开发者加速应用开发。表示，这些能力能够帮助企业更快速地构建现代化应用，以满足业务创新需……",
+      "publishedAt": "2026-07-15T10:50:16.000Z",
+      "summary": "科技之家 7 月 15 日消息，人们正在为人工智能伴侣投入数亿美元，而这一趋势目前没有放缓迹象。根据数据分析公司提供给的数据，自 2022 年底智能聊天助手发布以来，苹果应用和谷歌上的成人向（）以及恋爱陪伴类人工智能应用，累计获得 1.653 亿次下载，全球用户消费金额达到 4.273 亿美元（科技之家注：现汇率约合 28.98 亿元人民币）。“这些排名按照应用类型分类，统计……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 97,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-下一代人工智能原生平台-藏在-蛋仔派对-里",
+      "title": "下一代人工智能原生平台，藏在《蛋仔派对》里",
+      "url": "https://36kr.com/p/3896755010963333?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T10:36:56.000Z",
+      "summary": "2026年，一个新的业务概念正在引起不少人注意——（ )，或称「一人公司」。它所指的，是那些能借助人工智能等数字工具完成项目内容，成员仅有1-3人的微型团队。但很少有人注意到，在游戏行业，这种变化其实早已有了天然土壤——创作社区。人工智能技术的普及，正在持续重构内容创作的生产力边界。原本需要专业团队完成的开发工作，如今个体创作者借助工具就能实现。这一趋势在游戏领域体现得尤为明……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -552,19 +570,19 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": "https://media.wired.com/photos/6a56d8065bdb9adeb6a7cb83/master/pass/science_explosive_diarrhea_bigger.jpg"
     },
     {
-      "id": "qbitai-人在元宇宙平台公司-休个病假-产假转身被人工智能裁了",
-      "title": "人在元宇宙平台公司，休个病假/产假转身被人工智能裁了？",
-      "url": "https://www.qbitai.com/2026/07/450709.html",
+      "id": "qbitai-主论坛丨-2026主论坛-下午场-重磅揭晓",
+      "title": "主论坛丨 2026主论坛（下午场）重磅揭晓！",
+      "url": "https://www.qbitai.com/2026/07/450831.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:03:58.000Z",
-      "summary": "26名员工正在集体起诉元宇宙平台公司",
+      "publishedAt": "2026-07-15T09:18:03.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
         "人工智能动态"
       ],
@@ -687,7 +705,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -721,7 +739,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -739,7 +757,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -761,24 +779,6 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-实验室-打开模型和人工智能-控制和",
-      "title": "实验室: 打开模型和人工智能，控制和",
-      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-14T16:45:13.000Z",
-      "summary": "模型向来自。人工智能企业构建企业: 工作流，进入和面向和。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 88,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/nemotron-labs-open-models-blog-feature-image.jpg"
-    },
-    {
       "id": "towards-data-science-由人工智能",
       "title": "由人工智能",
       "url": "https://towardsdatascience.com/how-im-making-sure-my-analytics-career-doesnt-get-eaten-by-ai/",
@@ -791,7 +791,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -807,7 +807,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp"
     },
     {
@@ -824,7 +824,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -842,7 +842,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -858,7 +858,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg"
     },
     {
@@ -928,39 +928,37 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/hero_blog_sensorfm.png"
     },
     {
-      "id": "ithome-消息称交友应用将推出首款便携式人工智能智能硬件-有望于-2026-亮相",
-      "title": "消息称交友应用将推出首款便携式人工智能智能硬件，有望于 2026 亮相",
-      "url": "https://www.ithome.com/0/977/175.htm",
+      "id": "ithome-魅族合作车型今年-6-月新增-14-3-万辆-累计销量已突破-300-万辆",
+      "title": "魅族合作车型今年 6 月新增 14.3 万辆，累计销量已突破 300 万辆",
+      "url": "https://www.ithome.com/0/977/199.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T10:01:53.000Z",
-      "summary": "科技之家 7 月 15 日消息，据“读佳”报道，交友应用将推出首款便携式人工智能智能硬件产品，该产品预计将于 7 月 17 日至 20 日举行的 2026 世界人工智能大会暨人工智能全球治理高级别会议（）期间首次公开亮相。据介绍，该产品定位情绪陪伴，会将自研语言大模型的语音交互、情感表达和数字生命能力融入其中。目前，官方已推出名为“愈见岛 — 星频通讯”的软件产品适配该智能硬……",
+      "publishedAt": "2026-07-15T10:49:53.000Z",
+      "summary": "科技之家 7 月 15 日消息，武汉星纪魅族科技有限公司官方微博 @ 今日宣布，6 月新增了 14.3 万辆合作车型。官方战报显示，截止至 2026 年 6 月 30 日，魅族合作车型 2026 年累计销量 880690 辆，累计销量已突破 300 万辆（3147730 辆）。据科技之家此前报道，魅族车载软件系统发布于 2023 年 3 月，支持无缝接力、手机辅助、手机-汽车……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "多模态"
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-百度为苹果智能提供人工智能搜索功能",
-      "title": "百度为苹果智能提供人工智能搜索功能",
-      "url": "https://36kr.com/newsflashes/3896728075323271?f=rss",
+      "id": "thirty-six-kr-问天量子-完成第二轮融资融资",
+      "title": "“问天量子”完成第二轮融资融资",
+      "url": "https://36kr.com/newsflashes/3896750928775041?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:56:46.000Z",
-      "summary": "36氪获悉，网信办发布7款提供手机端侧生成式人工智能服务备案信息，其中苹果技术开发（上海）有限公司的“苹果智能”大模型已于2026年7月8日备案。据了解，苹果与百度的合作重点在开发一种基于人工智能的搜索功能。这些功能是一套名为“苹果智能”的功能套件的一部分，能够处理图像和文本，并升级为中国版的语音助手。",
+      "publishedAt": "2026-07-15T10:20:01.000Z",
+      "summary": "36氪获悉，近日，“问天量子”完成第二轮融资融资，获得6亿元资金注入，新进投资方包括海南晴澜、海南量启、淄博汇富齐嘉等多家机构。此次融资资金将主要用于核心技术的规模化商用、量子随机数芯片的量产扩能，以及面向人工智能时代的量子人工智能融合产品研发。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 99,
+      "heat": 93,
       "image": ""
     },
     {
@@ -979,6 +977,22 @@
         "投融资"
       ],
       "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "qbitai-人在元宇宙平台公司-休个病假-产假转身被人工智能裁了",
+      "title": "人在元宇宙平台公司，休个病假/产假转身被人工智能裁了？",
+      "url": "https://www.qbitai.com/2026/07/450709.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T09:03:58.000Z",
+      "summary": "26名员工正在集体起诉元宇宙平台公司",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -1046,25 +1060,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "qbitai-荣膺2026-镇馆之宝-大模型原生智能体手机解锁人工智能交互新范式",
-      "title": "荣膺2026 “镇馆之宝”！大模型原生智能体手机解锁人工智能交互新范式",
-      "url": "https://www.qbitai.com/2026/07/450652.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T06:43:37.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1080,7 +1076,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1116,7 +1112,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1132,7 +1128,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1150,7 +1146,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1171,20 +1167,22 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-为什么性能指标面向人工智能基础设施",
-      "title": "为什么性能指标面向人工智能基础设施",
-      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "id": "nvidia-blog-实验室-打开模型和人工智能-控制和",
+      "title": "实验室: 打开模型和人工智能，控制和",
+      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-14T15:00:20.000Z",
-      "summary": "驱动人工智能基础设施。词元人工智能生成修复驱动预算和，性能，指标，面向人工智能工厂。作为人工智能词元需求 …",
+      "publishedAt": "2026-07-14T16:45:13.000Z",
+      "summary": "模型向来自。人工智能企业构建企业: 工作流，进入和面向和。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 76,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/performance-per-watt-ai-infra-efficiency.jpg"
+      "heat": 87,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/nemotron-labs-open-models-blog-feature-image.jpg"
     },
     {
       "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
@@ -1200,7 +1198,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1288,37 +1286,36 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-支付宝不想做人工智能时代的配角",
-      "title": "支付宝不想做人工智能时代的配角",
-      "url": "https://36kr.com/p/3896720584738435?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T09:50:30.000Z",
-      "summary": "作者，王晗玉编辑，张帆支付宝首页调出人工智能界面，对话框取代了密密麻麻的小程序；用户对着“阿宝”说一句“找附近的奶茶优惠券”，周边门店的活动自动匹配好，核销下单一步完成。最近，支付宝完成了上线22年来最大一次改版。本月初，人工智能版支付宝“阿宝”正式开启全量公测，几乎同一时间，微信支付“人工智能专属卡”也在智能体中落地。进入2026年以来，从头部平台到各家支付机构密集亮出人工……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "ithome-诺奖得主哈萨比斯大胆预言-通用人工智能影响将是工业革命-10-倍",
-      "title": "诺奖得主哈萨比斯大胆预言：通用人工智能影响将是工业革命 10 倍！",
-      "url": "https://www.ithome.com/0/977/160.htm",
+      "id": "ithome-微信鸿蒙版应用获-8-0-19-41-邀测升级-新增收藏的聊天记录支持转存为笔记等功能",
+      "title": "微信鸿蒙版应用获 8.0.19.41 邀测升级，新增收藏的聊天记录支持转存为笔记等功能",
+      "url": "https://www.ithome.com/0/977/186.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:45:44.000Z",
-      "summary": "刚刚，诺贝尔奖得主、深度思维掌舵人掷地有声地宣告：通用人工智能（通用人工智能）即将实现。哈萨比斯豪言：药物研发将不再需要十年漫长试错，新型清洁能源或将在几年内突破，先进材料将让「资源稀缺」成为历史名词。我们甚至可能抵达这样一个节点 —— 资源不再是人类进步的制约因素。一个令人惊叹的富足新时代，正在敲门。他直言：现在是人类史上的关键时刻，通用人工智能或将在短短几年内实现！哈萨比……",
+      "publishedAt": "2026-07-15T10:25:32.000Z",
+      "summary": "科技之家 7 月 15 日消息，微信鸿蒙版应用今日开启 8.0.19.41 (8393513) 版本邀测升级（邀测升级需收到短信通知后点击链接跳转安装，未收到短信需继续等待），测试时间为 2026/7/15-2026/8/14。和往常一样，本次更新的说明依旧为“修复了一些已知问题”，具体更新内容仍在探索中。科技之家整理微信鸿蒙版应用的 8.0.19 版本的更新内容如下：微信相……",
+      "topics": [
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-百度为苹果智能提供人工智能搜索功能",
+      "title": "百度为苹果智能提供人工智能搜索功能",
+      "url": "https://36kr.com/newsflashes/3896728075323271?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T09:56:46.000Z",
+      "summary": "36氪获悉，网信办发布7款提供手机端侧生成式人工智能服务备案信息，其中苹果技术开发（上海）有限公司的“苹果智能”大模型已于2026年7月8日备案。据了解，苹果与百度的合作重点在开发一种基于人工智能的搜索功能。这些功能是一套名为“苹果智能”的功能套件的一部分，能够处理图像和文本，并升级为中国版的语音助手。",
       "topics": [
         "模型发布",
         "产品应用",
-        "算力芯片"
+        "多模态"
       ],
       "heat": 99,
       "image": ""
@@ -1352,7 +1349,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1368,6 +1365,24 @@
       "topics": [
         "产品应用",
         "监管安全",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "qbitai-荣膺2026-镇馆之宝-大模型原生智能体手机解锁人工智能交互新范式",
+      "title": "荣膺2026 “镇馆之宝”！大模型原生智能体手机解锁人工智能交互新范式",
+      "url": "https://www.qbitai.com/2026/07/450652.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T06:43:37.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "模型发布",
+        "产品应用",
         "端侧智能"
       ],
       "heat": 99,
@@ -1406,23 +1421,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "qbitai-不是吧开放人工智能公司首款硬件吹半天就是个人工智能音箱",
-      "title": "不是吧开放人工智能公司首款硬件吹半天就是个人工智能音箱？",
-      "url": "https://www.qbitai.com/2026/07/450385.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T04:46:18.000Z",
-      "summary": "难怪苹果急眼了",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 94,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1439,7 +1438,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1475,7 +1474,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1509,8 +1508,24 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
+    },
+    {
+      "id": "nvidia-blog-为什么性能指标面向人工智能基础设施",
+      "title": "为什么性能指标面向人工智能基础设施",
+      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-14T15:00:20.000Z",
+      "summary": "驱动人工智能基础设施。词元人工智能生成修复驱动预算和，性能，指标，面向人工智能工厂。作为人工智能词元需求 …",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 76,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/performance-per-watt-ai-infra-efficiency.jpg"
     },
     {
       "id": "towards-data-science-信息技术实际成本向本地大语言模型-百万词元",
@@ -1580,55 +1595,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-1152x648.jpg"
     },
     {
-      "id": "nvidia-blog-英伟达基准测试-性能借助智能体工具链",
-      "title": "英伟达基准测试，性能借助智能体工具链",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-08T15:00:27.000Z",
-      "summary": "英伟达 3 性能在成本模型借助和最人工智能智能体平台。智能体工具链面向英伟达 3，打开模型，任务在和在相关型号 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 70,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Nemotron_LangChain-scaled.jpg"
-    },
-    {
-      "id": "thirty-six-kr-澳洲将设人工智能办公室-限制数据中心能源消耗",
-      "title": "澳洲将设人工智能办公室，限制数据中心能源消耗",
-      "url": "https://36kr.com/newsflashes/3896711967721088?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T09:46:20.000Z",
-      "summary": "澳大利亚总理阿尔巴尼斯星期三（7月15日）说，澳洲政府将设立一个“人工智能办公室”，负责管理人工智能（人工智能）标准的制定，并会强制规定数据中心须成为能源净生产者，以及限制用水量。这个办公室将在总理公署下设立，以确保各内阁部门采取协同一致的全政府应对模式。相关立法将于明年初提交国会。（财联社）",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "ithome-腾讯启动-2027-青云计划-校招-实习生有机会享正式员工薪资待遇-岗位覆盖国内外多地",
-      "title": "腾讯启动 2027“青云计划”校招，实习生有机会享正式员工薪资待遇、岗位覆盖国内外多地",
-      "url": "https://www.ithome.com/0/977/157.htm",
+      "id": "ithome-发布自主运维人工智能智能体-可自动监控并修复系统问题",
+      "title": "发布自主运维人工智能智能体，可自动监控并修复系统问题",
+      "url": "https://www.ithome.com/0/977/181.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:41:02.000Z",
-      "summary": "科技之家 7 月 15 日消息，据“腾讯”公众号，腾讯今天宣布启动“青云计划”2027 校园招聘，面向 2026 年 1 月至 2027 年 12 月毕业的本、硕、博学生进行公开招募。据介绍，该计划聚焦大语言模型 ·，多模态 · 视觉 · 语音，智能体 · 强化学习等六大技术领域。号称是“腾讯面向全球顶尖技术学子的人才专项”，通过提供定制化培养方案，开放核心业务实战与前瞻技术……",
+      "publishedAt": "2026-07-15T10:12:39.000Z",
+      "summary": "科技之家 7 月 15 日消息，今日宣布推出自主运维系统（ ），这是一款基于人工智能智能体（人工智能智能体）的系统管理工具，能够持续监控系统运行状态，并自主解决相关问题，帮助企业保持业务稳定运行。科技之家注意到，该系统是近期推出的的补充，后者是一套面向平台的软件开发人工智能智能体工具，可帮助开发者加速应用开发。表示，这些能力能够帮助企业更快速地构建现代化应用，以满足业务创新需……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-支付宝不想做人工智能时代的配角",
+      "title": "支付宝不想做人工智能时代的配角",
+      "url": "https://36kr.com/p/3896720584738435?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T09:50:30.000Z",
+      "summary": "作者，王晗玉编辑，张帆支付宝首页调出人工智能界面，对话框取代了密密麻麻的小程序；用户对着“阿宝”说一句“找附近的奶茶优惠券”，周边门店的活动自动匹配好，核销下单一步完成。最近，支付宝完成了上线22年来最大一次改版。本月初，人工智能版支付宝“阿宝”正式开启全量公测，几乎同一时间，微信支付“人工智能专属卡”也在智能体中落地。进入2026年以来，从头部平台到各家支付机构密集亮出人工……",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -1664,7 +1663,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1702,19 +1701,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-估值4800亿-深度求索火速开启新一轮融资-最快明年首次公开募股",
-      "title": "估值4800亿，深度求索火速开启新一轮融资！最快明年首次公开募股",
-      "url": "https://www.qbitai.com/2026/07/450101.html",
+      "id": "qbitai-不是吧开放人工智能公司首款硬件吹半天就是个人工智能音箱",
+      "title": "不是吧开放人工智能公司首款硬件吹半天就是个人工智能音箱？",
+      "url": "https://www.qbitai.com/2026/07/450385.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T00:54:59.000Z",
-      "summary": "距首轮估值上涨37%",
+      "publishedAt": "2026-07-15T04:46:18.000Z",
+      "summary": "难怪苹果急眼了",
       "topics": [
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1748,7 +1747,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1784,7 +1783,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1874,37 +1873,55 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-佰维存储-上半年预计实现净利润70亿元-75亿元-同比扭亏",
-      "title": "佰维存储：上半年预计实现净利润70亿元—75亿元，同比扭亏",
-      "url": "https://36kr.com/newsflashes/3896712794949512?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
+      "id": "nvidia-blog-英伟达基准测试-性能借助智能体工具链",
+      "title": "英伟达基准测试，性能借助智能体工具链",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:41:14.000Z",
-      "summary": "36氪获悉，佰维存储公告，预计2026年半年度实现归属于母公司所有者的净利润70亿元至75亿元，上年同期亏损2.26亿元。本期业绩大幅增长，主要受益于人工智能算力爆发与存储行业进入高景气周期，公司的产品和客户结构持续优化，同时公司在芯片设计、解决方案、先进封测及测试设备等领域不断加大投入力度，增强市场竞争力。",
+      "publishedAt": "2026-07-08T15:00:27.000Z",
+      "summary": "英伟达 3 性能在成本模型借助和最人工智能智能体平台。智能体工具链面向英伟达 3，打开模型，任务在和在相关型号 …",
       "topics": [
+        "模型发布",
+        "产品应用",
         "算力芯片"
       ],
-      "heat": 88,
-      "image": ""
+      "heat": 70,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Nemotron_LangChain-scaled.jpg"
     },
     {
-      "id": "ithome-佰维存储-2026-年半年度归母净利润-70-亿元-75-亿元-同比增长-3200-15-3421-59",
-      "title": "佰维存储 2026 年半年度归母净利润 70 亿元～75 亿元，同比增长 3200.15%~3421.59%",
-      "url": "https://www.ithome.com/0/977/150.htm",
+      "id": "ithome-消息称交友应用将推出首款便携式人工智能智能硬件-有望于-2026-亮相",
+      "title": "消息称交友应用将推出首款便携式人工智能智能硬件，有望于 2026 亮相",
+      "url": "https://www.ithome.com/0/977/175.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:37:18.000Z",
-      "summary": "科技之家 7 月 15 日消息，佰维存储今日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）业绩预告报告：营业总收入：150 亿元～160 亿元，同比增长 283.40%~308.96% 归母净利润：70 亿元～75 亿元，同比扭亏为盈，增长 3200.15%~3421.59% 扣非净利润：62 亿元～70 亿元，同比扭亏为盈，增长 2776.26%~3……",
+      "publishedAt": "2026-07-15T10:01:53.000Z",
+      "summary": "科技之家 7 月 15 日消息，据“读佳”报道，交友应用将推出首款便携式人工智能智能硬件产品，该产品预计将于 7 月 17 日至 20 日举行的 2026 世界人工智能大会暨人工智能全球治理高级别会议（）期间首次公开亮相。据介绍，该产品定位情绪陪伴，会将自研语言大模型的语音交互、情感表达和数字生命能力融入其中。目前，官方已推出名为“愈见岛 — 星频通讯”的软件产品适配该智能硬……",
       "topics": [
-        "算力芯片",
-        "投融资",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "多模态"
       ],
-      "heat": 97,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-澳洲将设人工智能办公室-限制数据中心能源消耗",
+      "title": "澳洲将设人工智能办公室，限制数据中心能源消耗",
+      "url": "https://36kr.com/newsflashes/3896711967721088?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T09:46:20.000Z",
+      "summary": "澳大利亚总理阿尔巴尼斯星期三（7月15日）说，澳洲政府将设立一个“人工智能办公室”，负责管理人工智能（人工智能）标准的制定，并会强制规定数据中心须成为能源净生产者，以及限制用水量。这个办公室将在总理公署下设立，以确保各内阁部门采取协同一致的全政府应对模式。相关立法将于明年初提交国会。（财联社）",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -1921,7 +1938,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1976,6 +1993,22 @@
       "image": "https://external-preview.redd.it/thFDH88Ih_xCrgUb4xH7hX36Lnwut6wC1eGStLdtreA.jpeg?width=640&crop=smart&auto=webp&s=75911fcef65f969e149768761bd6bd2eedf953ae"
     },
     {
+      "id": "qbitai-估值4800亿-深度求索火速开启新一轮融资-最快明年首次公开募股",
+      "title": "估值4800亿，深度求索火速开启新一轮融资！最快明年首次公开募股",
+      "url": "https://www.qbitai.com/2026/07/450101.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T00:54:59.000Z",
+      "summary": "距首轮估值上涨37%",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-苹果新人工智能向借助苹果移动系统-27",
       "title": "苹果新人工智能向借助苹果移动系统 27",
       "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
@@ -1989,23 +2022,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "qbitai-阶跃入局-重构智能体时代操作系统",
-      "title": "阶跃入局，重构智能体时代操作系统",
-      "url": "https://www.qbitai.com/2026/07/449979.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T18:43:55.000Z",
-      "summary": "董事长印奇称“未来的一定是跨端的”",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 77,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2022,7 +2039,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2145,39 +2162,37 @@
       "image": ""
     },
     {
-      "id": "ithome-人工智能安全公司高管-因成本顾虑削减人工智能使用是错误选择",
-      "title": "人工智能安全公司高管：因成本顾虑削减人工智能使用是错误选择",
-      "url": "https://www.ithome.com/0/977/149.htm",
+      "id": "ithome-诺奖得主哈萨比斯大胆预言-通用人工智能影响将是工业革命-10-倍",
+      "title": "诺奖得主哈萨比斯大胆预言：通用人工智能影响将是工业革命 10 倍！",
+      "url": "https://www.ithome.com/0/977/160.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:35:29.000Z",
-      "summary": "科技之家 7 月 15 日消息，随着人工智能使用成本不断增加，人工智能安全公司多位高管正在提醒企业，不要因此减少对人工智能的投入。“我们目前非常关注的一件事，也是我们经常花时间与用户讨论的问题，就是不要停止使用人工智能，这其实是错误的做法。”人工智能安全公司克劳德模型平台产品负责人近日在红杉资本（ ）的《 数据》播客节目中表示，“事实上，我们确实看到一些客户正在这么做。” 人……",
+      "publishedAt": "2026-07-15T09:45:44.000Z",
+      "summary": "刚刚，诺贝尔奖得主、深度思维掌舵人掷地有声地宣告：通用人工智能（通用人工智能）即将实现。哈萨比斯豪言：药物研发将不再需要十年漫长试错，新型清洁能源或将在几年内突破，先进材料将让「资源稀缺」成为历史名词。我们甚至可能抵达这样一个节点 —— 资源不再是人类进步的制约因素。一个令人惊叹的富足新时代，正在敲门。他直言：现在是人类史上的关键时刻，通用人工智能或将在短短几年内实现！哈萨比……",
       "topics": [
         "模型发布",
-        "监管安全",
-        "投融资"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-腾讯-青云计划-2027校招全球启动",
-      "title": "腾讯“青云计划”2027校招全球启动",
-      "url": "https://36kr.com/newsflashes/3896672308840324?f=rss",
+      "id": "thirty-six-kr-佰维存储-上半年预计实现净利润70亿元-75亿元-同比扭亏",
+      "title": "佰维存储：上半年预计实现净利润70亿元—75亿元，同比扭亏",
+      "url": "https://36kr.com/newsflashes/3896712794949512?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:07:59.000Z",
-      "summary": "36氪获悉，7月15日，腾讯“青云计划”2027校园招聘全球启动，面向2026年1月至2027年12月毕业的本、硕、博同学进行公开招募，聚焦大语言模型·，多模态·视觉·语音，智能体·强化学习，搜索·推荐·模型应用，人工智能基础设施·系统与安全，人工智能数据·数据工程等六大技术领域等六大技术领域。该计划通过提供定制化培养方案，开放核心业务实战与前瞻技术课题，支持青年人才深度参与……",
+      "publishedAt": "2026-07-15T09:41:14.000Z",
+      "summary": "36氪获悉，佰维存储公告，预计2026年半年度实现归属于母公司所有者的净利润70亿元至75亿元，上年同期亏损2.26亿元。本期业绩大幅增长，主要受益于人工智能算力爆发与存储行业进入高景气周期，公司的产品和客户结构持续优化，同时公司在芯片设计、解决方案、先进封测及测试设备等领域不断加大投入力度，增强市场竞争力。",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "多模态"
+        "算力芯片"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2193,7 +2208,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2260,7 +2275,23 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "qbitai-阶跃入局-重构智能体时代操作系统",
+      "title": "阶跃入局，重构智能体时代操作系统",
+      "url": "https://www.qbitai.com/2026/07/449979.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T18:43:55.000Z",
+      "summary": "董事长印奇称“未来的一定是跨端的”",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 77,
       "image": ""
     },
     {
@@ -2296,22 +2327,6 @@
         "多模态"
       ],
       "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "qbitai-刚刚-一个免费人工智能编程选手杀入全球第一梯队",
-      "title": "刚刚，一个免费人工智能编程选手杀入全球第一梯队",
-      "url": "https://www.qbitai.com/2026/07/448475.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T12:36:48.000Z",
-      "summary": "一手实测这就奉上",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 72,
       "image": ""
     },
     {
@@ -2401,37 +2416,37 @@
       "image": ""
     },
     {
-      "id": "ithome-安全公司曝光新型视窗系统木马-使用开发-伪装成-英伟达驱动-诱导用户安装",
-      "title": "安全公司曝光新型视窗系统木马：使用开发、伪装成“英伟达驱动”诱导用户安装",
-      "url": "https://www.ithome.com/0/977/147.htm",
+      "id": "ithome-腾讯启动-2027-青云计划-校招-实习生有机会享正式员工薪资待遇-岗位覆盖国内外多地",
+      "title": "腾讯启动 2027“青云计划”校招，实习生有机会享正式员工薪资待遇、岗位覆盖国内外多地",
+      "url": "https://www.ithome.com/0/977/157.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:28:14.000Z",
-      "summary": "科技之家 7 月 15 日消息，安全公司发文，披露了一款名为的新型木马，黑客将其伪装成英伟达驱动“ 英伟达- ”，通过多种方式诱导用户安装，该木马可在视窗系统系统中建立持久化访问能力，并执行多种远程控制操作。科技之家参考通报获悉，使用语言开发，该木马在运行后首先会收集设备环境信息，并通过、相关型号和等多种通信方式从黑客设置的相关型号服务器中下载恶意脚本。研究人员指出，拥有较为……",
+      "publishedAt": "2026-07-15T09:41:02.000Z",
+      "summary": "科技之家 7 月 15 日消息，据“腾讯”公众号，腾讯今天宣布启动“青云计划”2027 校园招聘，面向 2026 年 1 月至 2027 年 12 月毕业的本、硕、博学生进行公开招募。据介绍，该计划聚焦大语言模型 ·，多模态 · 视觉 · 语音，智能体 · 强化学习等六大技术领域。号称是“腾讯面向全球顶尖技术学子的人才专项”，通过提供定制化培养方案，开放核心业务实战与前瞻技术……",
       "topics": [
-        "算力芯片",
-        "监管安全",
-        "研究论文"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-阿里千问将作为人工智能能力集成至苹果智能",
-      "title": "阿里千问将作为人工智能能力集成至苹果智能",
-      "url": "https://36kr.com/newsflashes/3896657327769473?f=rss",
+      "id": "thirty-six-kr-越过湖畔-人工智能在阳澄湖半岛-跑进-真实生活",
+      "title": "越过湖畔，人工智能在阳澄湖半岛「跑进」真实生活",
+      "url": "https://36kr.com/p/3896639400183687?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T08:44:48.000Z",
-      "summary": "36氪获悉，网信办发布7款提供手机端侧生成式人工智能服务备案信息，其中苹果技术开发（上海）有限公司的“苹果智能”大模型已于2026年7月8日备案。阿里方面称，阿里千问将作为人工智能能力集成至苹果智能，为苹果移动系统、和的中国用户带来智能体验。用户无需在应用间切换，即可在苹果设备上直接体验千问的文本与图像理解、内容生成等能力。",
+      "publishedAt": "2026-07-15T08:30:35.000Z",
+      "summary": "7月3日-7月4日，「越过湖畔进化新生」首届阳澄湖半岛旅游度假区人工智能嘉年华在苏州工业园区圆满举行。这个夏天，阳澄湖畔的吸引力有了新的注脚。对人工智能创业者和来说，阳澄湖半岛不只是一个风景秀丽的度假胜地。这里拥有50公里湖岸线、8平方公里生态内湖，也有比斯特购物村、酒店群、网球中心、康养社区、宠物友好空间等高频线下场景。更重要的是，2025年阳澄湖半岛接待游客量达到950万……",
       "topics": [
         "模型发布",
         "产品应用",
-        "多模态"
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -2521,17 +2536,17 @@
       "image": ""
     },
     {
-      "id": "qbitai-马斯克-机器人还进不了厂-刚说完-小米机器人-上岗-汽车产线了",
-      "title": "马斯克“机器人还进不了厂”刚说完，小米机器人”上岗“汽车产线了",
-      "url": "https://www.qbitai.com/2026/07/449906.html",
+      "id": "qbitai-刚刚-一个免费人工智能编程选手杀入全球第一梯队",
+      "title": "刚刚，一个免费人工智能编程选手杀入全球第一梯队",
+      "url": "https://www.qbitai.com/2026/07/448475.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T12:04:42.000Z",
-      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-14T12:36:48.000Z",
+      "summary": "一手实测这就奉上",
       "topics": [
-        "机器人"
+        "人工智能动态"
       ],
       "heat": 72,
       "image": ""
@@ -2550,7 +2565,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2621,37 +2636,21 @@
       "image": "https://media.wired.com/photos/6a4d3e5ad99ed47ae9e00cc8/master/pass/AI-Lab-I-Made-A-Self-Improving-AI-Business.jpg"
     },
     {
-      "id": "ithome-索尼商店开启-夏日促销-活动-最终幻想-7-重制版-83-3-港币迎新史低",
-      "title": "索尼商店开启“夏日促销”活动，《最终幻想 7：重制版》83.3 港币迎新史低",
-      "url": "https://www.ithome.com/0/977/128.htm",
+      "id": "ithome-佰维存储-2026-年半年度归母净利润-70-亿元-75-亿元-同比增长-3200-15-3421-59",
+      "title": "佰维存储 2026 年半年度归母净利润 70 亿元～75 亿元，同比增长 3200.15%~3421.59%",
+      "url": "https://www.ithome.com/0/977/150.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:07:41.000Z",
-      "summary": "科技之家 7 月 15 日消息，索尼港服现已开启“夏日促销”游戏促销活动，本次活动将于 8 月 12 日结束，科技之家附游戏促销活动页（ ://///相关型号/1 ）。首次打折 《空洞骑士：丝之歌》：原价 148 港币，现 7.5 折后 111 港币（现汇率约合 96.1 元人民币） 《闪电十一人：英雄们的胜利之路》：原价 429 港币，现 7 折后 300.3 港币（现汇率……",
+      "publishedAt": "2026-07-15T09:37:18.000Z",
+      "summary": "科技之家 7 月 15 日消息，佰维存储今日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）业绩预告报告：营业总收入：150 亿元～160 亿元，同比增长 283.40%~308.96% 归母净利润：70 亿元～75 亿元，同比扭亏为盈，增长 3200.15%~3421.59% 扣非净利润：62 亿元～70 亿元，同比扭亏为盈，增长 2776.26%~3……",
       "topics": [
-        "机器人"
+        "算力芯片",
+        "投融资",
+        "端侧智能"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-越过湖畔-人工智能在阳澄湖半岛-跑进-真实生活",
-      "title": "越过湖畔，人工智能在阳澄湖半岛「跑进」真实生活",
-      "url": "https://36kr.com/p/3896639400183687?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T08:30:35.000Z",
-      "summary": "7月3日-7月4日，「越过湖畔进化新生」首届阳澄湖半岛旅游度假区人工智能嘉年华在苏州工业园区圆满举行。这个夏天，阳澄湖畔的吸引力有了新的注脚。对人工智能创业者和来说，阳澄湖半岛不只是一个风景秀丽的度假胜地。这里拥有50公里湖岸线、8平方公里生态内湖，也有比斯特购物村、酒店群、网球中心、康养社区、宠物友好空间等高频线下场景。更重要的是，2025年阳澄湖半岛接待游客量达到950万……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2708,6 +2707,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-36氪首发-前非夕科技核心业务合伙人创业-做垂域工业智能体-获数千万元种子轮融资",
+      "title": "36氪首发，前非夕科技核心业务合伙人创业，做垂域工业智能体，获数千万元种子轮融资",
+      "url": "https://36kr.com/p/3896298534520705?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T02:40:40.000Z",
+      "summary": "作者，乔钰杰编辑，袁斯来硬氪获悉，上海追知工程科技有限公司（以下简称“追知工科”）近日完成数千万元种子轮融资，由相关型号光源创业者基金、尚融资本、一村资本联合投资。本轮融资将主要用于核心产品研发、团队建设及市场拓展。追知工科成立于2024年2月，是一家聚焦垂域工业智能体的科技企业，同时也是上海交通大学成果转化企业、上海人工智能研究院战略孵化企业。公司希望通过将人工智能技术引入……",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-谷歌人工智能训练来自重要",
       "title": "谷歌人工智能训练来自重要",
       "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
@@ -2720,7 +2737,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2775,19 +2792,19 @@
       "image": ""
     },
     {
-      "id": "ithome-努比亚完成智能体大模型备案-全球首款人工智能智能体手机官宣还将搭载豆包手机助手",
-      "title": "努比亚完成智能体大模型备案，全球首款人工智能智能体手机官宣还将搭载豆包手机助手",
-      "url": "https://www.ithome.com/0/977/126.htm",
+      "id": "ithome-人工智能安全公司高管-因成本顾虑削减人工智能使用是错误选择",
+      "title": "人工智能安全公司高管：因成本顾虑削减人工智能使用是错误选择",
+      "url": "https://www.ithome.com/0/977/149.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:02:55.000Z",
-      "summary": "科技之家 7 月 15 日消息，中兴通讯终端事业部总裁、努比亚技术有限公司总裁倪飞今日宣布，努比亚率先完成了智能体大模型备案。他表示，努比亚的全球首款人工智能智能体手机，也将成为首个搭载该类大模型的终端产品，用户可以更放心地把事情交给它来做。另外，这款手机将搭载豆包手机助手。据科技之家此前报道，倪飞此前发文表示，努比亚将推出全球首款人工智能智能体手机。该设备定位为量产旗舰机型……",
+      "publishedAt": "2026-07-15T09:35:29.000Z",
+      "summary": "科技之家 7 月 15 日消息，随着人工智能使用成本不断增加，人工智能安全公司多位高管正在提醒企业，不要因此减少对人工智能的投入。“我们目前非常关注的一件事，也是我们经常花时间与用户讨论的问题，就是不要停止使用人工智能，这其实是错误的做法。”人工智能安全公司克劳德模型平台产品负责人近日在红杉资本（ ）的《 数据》播客节目中表示，“事实上，我们确实看到一些客户正在这么做。” 人……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "端侧智能"
+        "监管安全",
+        "投融资"
       ],
       "heat": 99,
       "image": ""
@@ -2806,7 +2823,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2841,41 +2858,25 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪首发-前非夕科技核心业务合伙人创业-做垂域工业智能体-获数千万元种子轮融资",
-      "title": "36氪首发，前非夕科技核心业务合伙人创业，做垂域工业智能体，获数千万元种子轮融资",
-      "url": "https://36kr.com/p/3896298534520705?f=rss",
+      "id": "thirty-six-kr-36氪首发-前阿里平头哥半导体高管创业-芯片厂商获新一轮融资",
+      "title": "36氪首发，前阿里平头哥半导体高管创业，芯片厂商获新一轮融资",
+      "url": "https://36kr.com/p/3896295689569922?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T02:40:40.000Z",
-      "summary": "作者，乔钰杰编辑，袁斯来硬氪获悉，上海追知工程科技有限公司（以下简称“追知工科”）近日完成数千万元种子轮融资，由相关型号光源创业者基金、尚融资本、一村资本联合投资。本轮融资将主要用于核心产品研发、团队建设及市场拓展。追知工科成立于2024年2月，是一家聚焦垂域工业智能体的科技企业，同时也是上海交通大学成果转化企业、上海人工智能研究院战略孵化企业。公司希望通过将人工智能技术引入……",
+      "publishedAt": "2026-07-15T02:37:46.000Z",
+      "summary": "作者，乔钰杰编辑，袁斯来硬氪获悉，深圳市智创芯微电子有限公司（简称“智创芯”）完成 -第一轮融资融资。本轮融资由启迪之星创投、深圳开鸿数字产业发展有限公司（简称“深开鸿”）发起的产业基金、珠海正菱集团、以及应广科技等机构共同参与。本轮融资完成后，智创芯将与深开鸿围绕开源鸿蒙（）与开源的融合展开战略合作，共同推进“双开源”软硬件生态建设，加速相关技术在智能终端等产业场景落地。智……",
       "topics": [
         "产品应用",
-        "研究论文",
-        "投融资"
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-深度思维首席执行官呼吁面向向人工智能",
-      "title": "深度思维首席执行官呼吁面向向人工智能",
-      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T17:45:55.000Z",
-      "summary": "深度思维首席执行官人工智能，向前沿模型和面向发布。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 85,
+      "heat": 91,
       "image": ""
     }
   ]
