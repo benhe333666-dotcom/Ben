@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T16:09:54.096Z",
+  "generatedAt": "2026-07-15T16:26:00.420Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-07-15T16:30:00.000Z",
   "stats": {
@@ -8,23 +8,28 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-15T15:55:14.000Z"
+    "latestPublishedAt": "2026-07-15T16:20:18.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 83,
-      "heat": 84
+      "count": 85,
+      "heat": 85
     },
     {
       "name": "模型发布",
-      "count": 62,
+      "count": 61,
       "heat": 86
     },
     {
       "name": "监管安全",
-      "count": 28,
-      "heat": 84
+      "count": 31,
+      "heat": 86
+    },
+    {
+      "name": "算力芯片",
+      "count": 17,
+      "heat": 94
     },
     {
       "name": "人工智能动态",
@@ -32,14 +37,9 @@
       "heat": 76
     },
     {
-      "name": "算力芯片",
-      "count": 16,
-      "heat": 94
-    },
-    {
-      "name": "投融资",
-      "count": 16,
-      "heat": 89
+      "name": "端侧智能",
+      "count": 15,
+      "heat": 90
     },
     {
       "name": "研究论文",
@@ -47,9 +47,9 @@
       "heat": 82
     },
     {
-      "name": "端侧智能",
+      "name": "投融资",
       "count": 14,
-      "heat": 89
+      "heat": 91
     },
     {
       "name": "开源生态",
@@ -58,13 +58,13 @@
     },
     {
       "name": "多模态",
-      "count": 10,
-      "heat": 91
+      "count": 11,
+      "heat": 90
     },
     {
       "name": "机器人",
-      "count": 6,
-      "heat": 85
+      "count": 5,
+      "heat": 88
     }
   ],
   "sources": [
@@ -81,8 +81,8 @@
       "fallbackReason": "",
       "itemCount": 12,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-14T10:00:00.000Z",
-      "latestDisplayedAt": "2026-07-14T10:00:00.000Z"
+      "latestFetchedAt": "2026-07-15T12:00:00.000Z",
+      "latestDisplayedAt": "2026-07-15T12:00:00.000Z"
     },
     {
       "id": "google-ai-blog",
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-07-15T15:29:33.000Z",
-      "latestDisplayedAt": "2026-07-15T15:29:33.000Z"
+      "displayedCount": 9,
+      "latestFetchedAt": "2026-07-15T16:20:18.000Z",
+      "latestDisplayedAt": "2026-07-15T16:20:18.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -241,8 +241,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-07-14T21:26:32.000Z",
-      "latestDisplayedAt": "2026-07-14T21:26:32.000Z"
+      "latestFetchedAt": "2026-07-15T16:00:00.000Z",
+      "latestDisplayedAt": "2026-07-15T16:00:00.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-07-15T13:41:01.000Z",
-      "latestDisplayedAt": "2026-07-15T13:41:01.000Z"
+      "latestFetchedAt": "2026-07-15T15:36:32.000Z",
+      "latestDisplayedAt": "2026-07-15T15:36:32.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-15T15:51:32.000Z",
-      "latestDisplayedAt": "2026-07-15T15:51:32.000Z"
+      "latestFetchedAt": "2026-07-15T16:14:05.000Z",
+      "latestDisplayedAt": "2026-07-15T16:14:05.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -400,7 +400,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 7,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-07-15T09:45:53.000Z",
       "latestDisplayedAt": "2026-07-15T09:45:53.000Z"
     },
@@ -479,14 +479,66 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 15,
+      "itemCount": 16,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-07-15T09:03:00.000Z",
-      "latestDisplayedAt": "2026-07-15T09:03:00.000Z"
+      "latestFetchedAt": "2026-07-15T09:22:00.000Z",
+      "latestDisplayedAt": "2026-07-15T09:22:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "techcrunch-ai-微软安全-使用人工智能",
+      "title": "微软安全，使用人工智能",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T16:20:18.000Z",
+      "summary": "微软发布安全修复，570 安全公司产品，向借助人工智能。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1uxagh1/walle_predicted_our_bodies_would_get_lazy_but_its/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T16:14:05.000Z",
+      "summary": "向社区在。面向帮助人工智能在技能使用向在。使用向在和技能，在社区论坛向打开智能聊天助手。时间使用只是面向只是在成为。信息技术在。信息技术向和。和向只是向信息技术。向向借助首个大语言模型。问题面向社区成为在人工智能面向向信息技术和作为社区认为向在向。认为首个社区论坛在 6 使用大语言模型向帮助借助在由",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-开放人工智能公司推出-面向智能编程工具",
+      "title": "开放人工智能公司推出 … 面向智能编程工具",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T16:00:00.000Z",
+      "summary": "开放人工智能公司，信息技术人工智能，驱动公司借助苹果，在，信息技术产品向使用借助编程平台，智能编程工具，呼吁智能编程工具，…",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "the-decoder-27-十亿打开推理能力模型在苹果手机",
       "title": "27 十亿打开推理能力模型在苹果手机",
@@ -506,36 +558,19 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-为什么在代码",
-      "title": "为什么在代码？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux9rj2/why_would_they_communicate_in_code/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://arxiv.org/abs/2607.00764",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T15:51:32.000Z",
-      "summary": "认为信息技术信息技术借助人工智能。由",
+      "publishedAt": "2026-07-15T15:36:32.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
-      "image": "https://preview.redd.it/73dp7mqj0fdh1.jpeg?width=640&crop=smart&auto=webp&s=38a70f06cf64525cab2a5e38a2e2bce3897aa89c"
-    },
-    {
-      "id": "techcrunch-ai-苹果智能面向推出在借助阿里巴巴通义千问人工智能",
-      "title": "苹果智能面向推出在借助阿里巴巴通义千问人工智能",
-      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T15:29:33.000Z",
-      "summary": "苹果智能向苹果人工智能服务借助阿里巴巴。带来阿里巴巴通义千问人工智能模型向苹果，重要公司生成式人工智能平台进入最重要。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -553,23 +588,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://news.ycombinator.com/item?id=48920698",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T13:41:01.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 86,
+      "heat": 96,
       "image": ""
     },
     {
@@ -605,6 +624,23 @@
       "image": ""
     },
     {
+      "id": "openai-news-人工智能安全和",
+      "title": "人工智能安全和",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "summary": "开放人工智能公司向人工智能，帮助构建面向，人工智能。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-英伟达和带来人工智能和机器人向每个",
       "title": "英伟达和带来人工智能和机器人向每个",
       "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
@@ -613,7 +649,7 @@
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-07-15T10:51:37.000Z",
-      "summary": "向，机器人和基础设施建设者，人工智能，构建借助英伟达。英伟达和合作伙伴在人工智能生态。这里面向更新。英伟达和 30 …",
+      "summary": "向，机器人，基础设施建设者和公司，人工智能，构建借助英伟达。英伟达和合作伙伴在人工智能生态。这里面向更新。英伟达和 …",
       "topics": [
         "算力芯片",
         "机器人"
@@ -672,19 +708,21 @@
       "image": "https://media.wired.com/photos/6a56d8065bdb9adeb6a7cb83/master/pass/science_explosive_diarrhea_bigger.jpg"
     },
     {
-      "id": "cnblogs-news-日均提问次数暴增-20-倍-百度搭子宣布重磅升级-企业版同步发布",
-      "title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
-      "url": "https://news.cnblogs.com/n/830632/",
+      "id": "cnblogs-news-提升31-原力灵机相关型号登场-15万小时数据喂出",
+      "title": "提升31%！原力灵机相关型号登场，15万小时数据喂出",
+      "url": "https://news.cnblogs.com/n/830634/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T09:03:00.000Z",
-      "summary": "7 月 10 日，从百度上获悉，百度旗下通用智能体百度搭子自上线以来，日均提问次数暴增 20 倍，为用户在办公、创作、信息处理等场景提供全方位智能助力，成为增速最快的通用智能体。当天，百度搭子个人版也重磅升级智能路由、多端共享记忆、浏览器调用、生成等多项能力，并发布行业首个自媒本文链接",
+      "publishedAt": "2026-07-15T09:22:00.000Z",
+      "summary": "衡宇发自凹非寺量子位，公众号具身智能这个行业里吧，几乎没什么共识。不过有一点大家共同认可：数据飞轮转不起来，是行业最大的阻碍之一。如果遵循，具身智能同样需要更大的数据规模、更高质量的数据闭环，以及更强的算力。算力问题的解决路径相对清晰；但数据这边，本文链接",
       "topics": [
-        "产品应用"
+        "算力芯片",
+        "监管安全",
+        "机器人"
       ],
-      "heat": 80,
+      "heat": 90,
       "image": ""
     },
     {
@@ -702,7 +740,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -718,7 +756,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -735,7 +773,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -752,24 +790,6 @@
         "人工智能动态"
       ],
       "heat": 77,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-开放人工智能公司宣布智能聊天助手",
-      "title": "开放人工智能公司宣布智能聊天助手",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T21:26:32.000Z",
-      "summary": "开放人工智能公司首个向借助智能聊天助手，向来自，使用和向。只是苹果开放人工智能公司 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 92,
       "image": ""
     },
     {
@@ -825,23 +845,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "openai-news-向人工智能投资在",
-      "title": "向人工智能投资在",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-14T10:00:00.000Z",
-      "summary": "了解人工智能投资在由美元，和工作流。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 75,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-人工智能安全公司人工智能-和",
       "title": "人工智能安全公司人工智能，和",
       "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
@@ -856,7 +859,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -926,22 +929,20 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/hero_blog_sensorfm.png"
     },
     {
-      "id": "reddit-artificial-构建大语言模型-驱动模型-2026-向得分",
-      "title": "构建大语言模型，驱动模型 2026 向得分",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux9n05/i_built_an_llmpowered_simulator_that_models_xs/",
+      "id": "reddit-artificial-为什么在代码",
+      "title": "为什么在代码？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux9rj2/why_would_they_communicate_in_code/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T15:47:21.000Z",
-      "summary": "代码和模型，讨论进入。作为开发者，向查看我们实际构建本地，仿真向平台信息技术。时间构建打开，来源工具呼吁。信息技术在和使用大语言模型向在发布。: :，代码托管平台，借助部件。发布面向。使用本地大语言模型向。这里仿真 : 得分 : 只是面向 ; 信息技术和视觉，语言。指标: 向。在，单个用户借助 −369，+0.5 面向。: 作为。信息技术独立面向。进入面向得分。打开，仿真在代……",
+      "publishedAt": "2026-07-15T15:51:32.000Z",
+      "summary": "认为信息技术信息技术借助人工智能。由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
+        "人工智能动态"
       ],
-      "heat": 95,
-      "image": ""
+      "heat": 85,
+      "image": "https://preview.redd.it/73dp7mqj0fdh1.jpeg?width=640&crop=smart&auto=webp&s=38a70f06cf64525cab2a5e38a2e2bce3897aa89c"
     },
     {
       "id": "the-decoder-人工智能解码媒体发布人工智能相关动态",
@@ -960,6 +961,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-苹果智能面向推出在借助阿里巴巴通义千问人工智能",
+      "title": "苹果智能面向推出在借助阿里巴巴通义千问人工智能",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T15:29:33.000Z",
+      "summary": "苹果智能向苹果人工智能服务借助阿里巴巴。带来阿里巴巴通义千问人工智能模型向苹果，重要公司生成式人工智能平台进入最重要。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-努比亚全球首款人工智能智能体手机局部外观公布-或采用横向镜组设计方案",
       "title": "努比亚全球首款人工智能智能体手机局部外观公布，或采用横向镜组设计方案",
       "url": "https://www.ithome.com/0/977/242.htm",
@@ -973,23 +991,6 @@
         "模型发布",
         "产品应用",
         "端侧智能"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司-美元人工智能企业-只是模型",
-      "title": "人工智能安全公司，美元人工智能企业，只是模型",
-      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T13:10:47.000Z",
-      "summary": "人工智能安全公司，推出作为人工智能实验室向量嵌入工程师内部向企业人工智能采用情况。",
-      "topics": [
-        "模型发布",
-        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -1023,7 +1024,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-人工智能华语歌-终于能听了-从零预训练十亿参数-告别-人机味",
+      "title": "人工智能华语歌，终于能听了！从零预训练十亿参数，告别「人机味」",
+      "url": "https://news.cnblogs.com/n/830633/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T09:11:00.000Z",
+      "summary": "发自凹非寺量子位，公众号人工智能华语音乐，终于能听了。母语羞耻、咬字飘忽、人机味…… 没有。全都没有。这首歌，是我让它以一首我特别喜欢的为灵感，给定歌词，生成的。命名为——《关于小羊》（）。说实话，太灵了。特别本文链接",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 80,
       "image": ""
     },
     {
@@ -1052,22 +1069,6 @@
       "language": "zh",
       "publishedAt": "2026-07-15T08:58:34.000Z",
       "summary": "纵观前十，破 900 分断层领跑，迈进前五。面对智能时代的浪潮，头部产品竞争焦点正全面转向 “向人工智能进军”，人工智能融合已然成为衡量未来核心竞争力的硬指标。聚焦中腰部产品，磐维位列第 15 位，跻身榜单前 10%；等优秀产品，它们在工业时序、政务数字治理等垂直纵深处长效扎根，用累累硕果诠释着。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-人工智能生物研发进入-操作系统时代-许锦波团队正式开放",
-      "title": "人工智能生物研发进入“操作系统时代”，许锦波团队正式开放",
-      "url": "https://news.cnblogs.com/n/830631/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T08:52:00.000Z",
-      "summary": "允中发自凹非寺量子位，公众号人工智能生物研发，正在迎来它的“视窗系统时刻”。过去，人工智能是帮科学家做结构预测、抗体设计的“单点工具”；而现在，它正演变为统领全局的“操作系统”。7 月 2 日，在 2026 上海国投前沿论坛上，分子之心创始人许锦波教授正式面向产业界开放本文链接",
       "topics": [
         "人工智能动态"
       ],
@@ -1111,19 +1112,21 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-工具用户向云服务",
-      "title": "工具用户向云服务",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "id": "the-verge-ai-开放人工智能公司宣布智能聊天助手",
+      "title": "开放人工智能公司宣布智能聊天助手",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T19:25:00.000Z",
-      "summary": "构建人工智能编程工具用户向谷歌云服务信息技术，和公司转化信息技术。在构建和代码，信息技术向打开 …",
+      "publishedAt": "2026-07-14T21:26:32.000Z",
+      "summary": "开放人工智能公司首个向借助智能聊天助手，向来自，使用和向。只是苹果开放人工智能公司 …",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 81,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1196,18 +1199,18 @@
       "image": ""
     },
     {
-      "id": "openai-news-数据科学团队使用智能聊天助手",
-      "title": "数据科学团队使用智能聊天助手",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "id": "openai-news-向人工智能投资在",
+      "title": "向人工智能投资在",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "summary": "查看数据科学团队使用智能聊天助手向构建，和来自。",
+      "publishedAt": "2026-07-14T10:00:00.000Z",
+      "summary": "了解人工智能投资在由美元，和工作流。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "投融资"
       ],
       "heat": 74,
       "image": ""
@@ -1263,20 +1266,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-争论人工智能向作为",
-      "title": "争论人工智能向作为！",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux9bf2/recently_wrote_arguing_that_ai_should_have_to/",
+      "id": "reddit-artificial-构建大语言模型-驱动模型-2026-向得分",
+      "title": "构建大语言模型，驱动模型 2026 向得分",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux9n05/i_built_an_llmpowered_simulator_that_models_xs/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T15:35:53.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-15T15:47:21.000Z",
+      "summary": "代码和模型，讨论进入。作为开发者，向查看我们实际构建本地，仿真向平台信息技术。时间构建打开，来源工具呼吁。信息技术在和使用大语言模型向在发布。: :，代码托管平台，借助部件。发布面向。使用本地大语言模型向。这里仿真 : 得分 : 只是面向 ; 信息技术和视觉，语言。指标: 向。在，单个用户借助 −369，+0.5 面向。: 作为。信息技术独立面向。进入面向得分。打开，仿真在代……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "多模态"
       ],
-      "heat": 85,
-      "image": "https://external-preview.redd.it/hRvDnbbNBOCBzjOeVpeddz7MKDGoA2E7tJrsdJ5mZyA.jpeg?width=640&crop=smart&auto=webp&s=cbc8258331013856bae3ea8b33d1514a0ce4b69b"
+      "heat": 95,
+      "image": ""
     },
     {
       "id": "ithome-远景动力宜昌超级工厂正式投产运营-790-安时全球最大方壳卷绕电芯量产下线",
@@ -1295,20 +1300,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能转化进入视频面向",
-      "title": "人工智能转化进入视频面向",
-      "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
+      "id": "techcrunch-ai-人工智能安全公司-美元人工智能企业-只是模型",
+      "title": "人工智能安全公司，美元人工智能企业，只是模型",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T13:00:00.000Z",
-      "summary": "应用面向向创建，视频工具时间。",
+      "publishedAt": "2026-07-15T13:10:47.000Z",
+      "summary": "人工智能安全公司，推出作为人工智能实验室向量嵌入工程师内部向企业人工智能采用情况。",
       "topics": [
-        "产品应用",
-        "多模态"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 93,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1346,20 +1351,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-近百名玩家涌入具身数据-一年融资44-7亿-谁能真靠卖数据赚钱",
-      "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠卖数据赚钱？",
-      "url": "https://news.cnblogs.com/n/830630/",
+      "id": "cnblogs-news-日均提问次数暴增-20-倍-百度搭子宣布重磅升级-企业版同步发布",
+      "title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
+      "url": "https://news.cnblogs.com/n/830632/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T08:40:00.000Z",
-      "summary": "林方舟发自凹非寺量子位，公众号在湖南郴州，一家中国移动营业厅挂牌“具身数据采集相关型号店”，普通顾客领一套夹爪、手套和头戴相机，经过简单培训，就能边做家务，边采集机器人训练数据。首期投放的 1000 套设备，满产状态下每年能采集 100 万小时数据。我仿佛听到了商家心里打的小本文链接",
+      "publishedAt": "2026-07-15T09:03:00.000Z",
+      "summary": "7 月 10 日，从百度上获悉，百度旗下通用智能体百度搭子自上线以来，日均提问次数暴增 20 倍，为用户在办公、创作、信息处理等场景提供全方位智能助力，成为增速最快的通用智能体。当天，百度搭子个人版也重磅升级智能路由、多端共享记忆、浏览器调用、生成等多项能力，并发布行业首个自媒本文链接",
       "topics": [
-        "投融资",
-        "机器人"
+        "产品应用"
       ],
-      "heat": 85,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1416,6 +1420,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-工具用户向云服务",
+      "title": "工具用户向云服务",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T19:25:00.000Z",
+      "summary": "构建人工智能编程工具用户向谷歌云服务信息技术，和公司转化信息技术。在构建和代码，信息技术向打开 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
       "id": "github-changelog-代码人工智能安全在",
       "title": "代码人工智能安全在",
       "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
@@ -1430,7 +1450,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1470,22 +1490,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-元宇宙平台公司人工智能面向裁员",
-      "title": "元宇宙平台公司人工智能面向裁员",
-      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T17:18:11.000Z",
-      "summary": "群组 26 元宇宙平台公司员工公司信息技术使用人工智能工具向在借助裁员，作为由。在，员工元宇宙平台公司向在性能数据由人工智能工具，…",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 71,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-为什么性能指标面向人工智能基础设施",
       "title": "为什么性能指标面向人工智能基础设施",
       "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
@@ -1520,6 +1524,23 @@
       "image": ""
     },
     {
+      "id": "openai-news-团队使用智能聊天助手",
+      "title": "团队使用智能聊天助手",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "summary": "查看团队使用智能聊天助手向创建，会议，和诊断来自。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 74,
+      "image": ""
+    },
+    {
       "id": "wired-ai-开放人工智能公司安全公司",
       "title": "开放人工智能公司安全公司",
       "url": "https://www.wired.com/story/openai-head-of-safety-leaving/",
@@ -1535,22 +1556,6 @@
       ],
       "heat": 62,
       "image": "https://media.wired.com/photos/6a518d0cb6767a97076bfe9e/master/pass/GettyImages-2283356667.jpg"
-    },
-    {
-      "id": "openai-news-借助人工智能",
-      "title": "借助人工智能",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-10T07:00:00.000Z",
-      "summary": "人工智能原生借助开放人工智能公司，客户服务，员工工作流，和未来。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 63,
-      "image": ""
     },
     {
       "id": "ars-technica-ai-人工智能-在-得分-50",
@@ -1585,22 +1590,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能智能体面向-实验室只是借助-这里",
-      "title": "人工智能智能体面向？实验室只是借助，这里",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux8fv9/how_do_ai_agents_pay_for_things_lightning_labs/",
+      "id": "reddit-artificial-争论人工智能向作为",
+      "title": "争论人工智能向作为！",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux9bf2/recently_wrote_arguing_that_ai_should_have_to/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T15:04:16.000Z",
-      "summary": "最问题在人工智能基础设施:。人工智能智能体代码，工作流，向面向接口数据。规模面向智能体。实验室发布在 2026 解决借助。: 智能体，402 借助，信息技术，和访问。向借助，: 成本，在成本向。面向。支持，智能体构建在克劳德模型和借助。信息技术，基础设施和开源。: :，人工智能，智能体，向，在由",
+      "publishedAt": "2026-07-15T15:35:53.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 99,
-      "image": ""
+      "heat": 85,
+      "image": "https://external-preview.redd.it/hRvDnbbNBOCBzjOeVpeddz7MKDGoA2E7tJrsdJ5mZyA.jpeg?width=640&crop=smart&auto=webp&s=cbc8258331013856bae3ea8b33d1514a0ce4b69b"
     },
     {
       "id": "ithome-奕境相关型号官宣搭载车载激光投影-支持业界唯-机五投",
@@ -1619,19 +1622,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-24-百万序列向帮助客户呼吁",
-      "title": "$24 百万序列向帮助客户呼吁",
-      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+      "id": "techcrunch-ai-人工智能转化进入视频面向",
+      "title": "人工智能转化进入视频面向",
+      "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-07-15T13:00:00.000Z",
-      "summary": "100 百万呼吁月公司。",
+      "summary": "应用面向向创建，视频工具时间。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 88,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1653,21 +1657,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-老黄真机现身-中央处理器和图形处理器直接焊在一起-笔记本跑120-十亿大模型",
-      "title": "老黄真机现身！中央处理器和图形处理器直接焊在一起，笔记本跑120 十亿大模型",
-      "url": "https://news.cnblogs.com/n/830629/",
+      "id": "cnblogs-news-人工智能生物研发进入-操作系统时代-许锦波团队正式开放",
+      "title": "人工智能生物研发进入“操作系统时代”，许锦波团队正式开放",
+      "url": "https://news.cnblogs.com/n/830631/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T08:30:00.000Z",
-      "summary": "克雷西发自上海量子位，公众号老黄在发布的“超级芯片”，已经在真机中落地了。就在这届上，英伟达首次面向大众玩家展示了搭载超级芯片的笔记本电脑。这款芯片专为个人智能体打造，不仅搭载了本文链接",
+      "publishedAt": "2026-07-15T08:52:00.000Z",
+      "summary": "允中发自凹非寺量子位，公众号人工智能生物研发，正在迎来它的“视窗系统时刻”。过去，人工智能是帮科学家做结构预测、抗体设计的“单点工具”；而现在，它正演变为统领全局的“操作系统”。7 月 2 日，在 2026 上海国投前沿论坛上，分子之心创始人许锦波教授正式面向产业界开放本文链接",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1699,7 +1701,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1757,6 +1759,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-元宇宙平台公司人工智能面向裁员",
+      "title": "元宇宙平台公司人工智能面向裁员",
+      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T17:18:11.000Z",
+      "summary": "群组 26 元宇宙平台公司员工公司信息技术使用人工智能工具向在借助裁员，作为由。在，员工元宇宙平台公司向在性能数据由人工智能工具，…",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 71,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-lg-论文新进展-大语言模型-模型评测方向研究",
       "title": "论文新进展：大语言模型、模型评测方向研究",
       "url": "https://arxiv.org/abs/2607.12962v1",
@@ -1771,24 +1789,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-14T14:01:07.000Z",
-      "summary": "开放人工智能公司更好部件在，来自，公司借助，来自苹果。开放人工智能公司在。苹果开放人工智能公司，在 …",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1844,39 +1845,38 @@
       "image": "https://media.wired.com/photos/6a51395dba309b253cb3d458/master/pass/GettyImages-2233062347.jpg"
     },
     {
-      "id": "openai-news-得到借助智能聊天助手",
-      "title": "得到借助智能聊天助手",
-      "url": "https://openai.com/academy/getting-started",
+      "id": "openai-news-借助人工智能",
+      "title": "借助人工智能",
+      "url": "https://openai.com/index/deutsche-telekom",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-10T00:00:00.000Z",
-      "summary": "了解向使用智能聊天助手，首个，和向，和解决问题借助人工智能。",
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "summary": "人工智能原生借助开放人工智能公司，客户服务，员工工作流，和未来。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 63,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能面向-这里信息技术",
-      "title": "人工智能面向。这里信息技术",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux75ir/i_made_donald_trump_an_ai_world_cup_commentator/",
+      "id": "reddit-artificial-人工智能智能体面向-实验室只是借助-这里",
+      "title": "人工智能智能体面向？实验室只是借助，这里",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux8fv9/how_do_ai_agents_pay_for_things_lightning_labs/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T14:16:51.000Z",
-      "summary": "构建人工智能和信息技术在。实时使用: 进入，信息技术进入，和向视频。人工智能生成，和进入。部件，人工智能实时查看视频。人工智能更好借助在。信息技术，和。查看作为。在面向。打开，向分享信息技术由",
+      "publishedAt": "2026-07-15T15:04:16.000Z",
+      "summary": "最问题在人工智能基础设施:。人工智能智能体代码，工作流，向面向接口数据。规模面向智能体。实验室发布在 2026 解决借助。: 智能体，402 借助，信息技术，和访问。向借助，: 成本，在成本向。面向。支持，智能体构建在克劳德模型和借助。信息技术，基础设施和开源。: :，人工智能，智能体，向，在由",
       "topics": [
+        "模型发布",
         "产品应用",
-        "多模态",
         "开源生态"
       ],
-      "heat": 94,
-      "image": "https://external-preview.redd.it/NmJuM3hjZmZiZWRoMUCQlTxZKt6h7sAjld2pgfzmsyRhNkoVaFlPQVy1KJTW.png?width=640&crop=smart&auto=webp&s=9068f794e455934d215baf8af730fc9632d35863"
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "ithome-人形机器人公司逐际动力完成近-2-亿美元-首次公开募股轮融资-重点用于大小脑融合技术的突破和产品化",
@@ -1893,21 +1893,21 @@
         "投融资",
         "多模态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能编程创业公司借助-130-百万序列",
-      "title": "人工智能编程创业公司借助 $130 百万序列",
-      "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+      "id": "techcrunch-ai-24-百万序列向帮助客户呼吁",
+      "title": "$24 百万序列向帮助客户呼吁",
+      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "summary": "创业公司 $120 百万和 200，000 客户。",
+      "publishedAt": "2026-07-15T13:00:00.000Z",
+      "summary": "100 百万呼吁月公司。",
       "topics": [
-        "投融资"
+        "人工智能动态"
       ],
       "heat": 88,
       "image": ""
@@ -1931,19 +1931,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-98年哈工大教授创业-要做人形灵巧操作世界模型",
-      "title": "98年哈工大教授创业，要做人形灵巧操作世界模型",
-      "url": "https://news.cnblogs.com/n/830628/",
+      "id": "cnblogs-news-近百名玩家涌入具身数据-一年融资44-7亿-谁能真靠卖数据赚钱",
+      "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠卖数据赚钱？",
+      "url": "https://news.cnblogs.com/n/830630/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T08:18:00.000Z",
-      "summary": "允中发自凹非寺量子位，公众号和世界模型已经把机器人推向“看懂世界”和“预测世界”的阶段。但只要模型真的进入物理世界，问题很快就会变得更具体：它拿什么学习这个世界，靠什么把动作做出来，又怎么知道自己到底碰到了什么。前两个问题，分别指向数据和本体。第三个问题，指向触觉。本文链接",
+      "publishedAt": "2026-07-15T08:40:00.000Z",
+      "summary": "林方舟发自凹非寺量子位，公众号在湖南郴州，一家中国移动营业厅挂牌“具身数据采集相关型号店”，普通顾客领一套夹爪、手套和头戴相机，经过简单培训，就能边做家务，边采集机器人训练数据。首期投放的 1000 套设备，满产状态下每年能采集 100 万小时数据。我仿佛听到了商家心里打的小本文链接",
       "topics": [
+        "投融资",
         "机器人"
       ],
-      "heat": 79,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2030,7 +2031,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2052,19 +2053,20 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-谷歌信息技术时间面向全球人工智能-由",
-      "title": "谷歌信息技术时间面向全球人工智能，由",
-      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T11:43:29.000Z",
-      "summary": "认为人工智能借助驱动向前沿模型成为。在，谷歌深度思维首席执行官和，争论向全球 …",
+      "publishedAt": "2026-07-14T14:01:07.000Z",
+      "summary": "开放人工智能公司更好部件在，来自，公司借助，来自苹果。开放人工智能公司在。苹果开放人工智能公司，在 …",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 74,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2098,7 +2100,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 57,
+      "heat": 56,
+      "image": ""
+    },
+    {
+      "id": "openai-news-得到借助智能聊天助手",
+      "title": "得到借助智能聊天助手",
+      "url": "https://openai.com/academy/getting-started",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "summary": "了解向使用智能聊天助手，首个，和向，和解决问题借助人工智能。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -2118,39 +2137,22 @@
       "image": "https://media.wired.com/photos/6a502a0f2e185717fadec4bb/master/pass/WEB_FIDJI%20SIMO-WIRED-2025-0Z2A8962_V3.jpg"
     },
     {
-      "id": "openai-news-模型在微软-365-智能副驾",
-      "title": "模型在微软 365 智能副驾",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-09T13:00:00.000Z",
-      "summary": "了解驱动微软 365 智能副驾借助人工智能，和面向更快，质量。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-生成三维来自图像接口-和三维接口支持",
-      "title": "生成三维来自图像接口，和三维接口支持？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux6wtv/how_can_i_batchgenerate_3d_assets_from_prompts_or/",
+      "id": "reddit-artificial-人工智能面向-这里信息技术",
+      "title": "人工智能面向。这里信息技术",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux75ir/i_made_donald_trump_an_ai_world_cup_commentator/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T14:07:45.000Z",
-      "summary": "向创建面向三维向每个在。使用面向，物体，原型，重要得到质量。正确 : 本地面向，图像; ; 任务 ; 面向 ; ; 向，信息技术只是向由机械手在时间。向探索接口人工智能，支持面向，向，三维作为顺利作为图像，向，三维面向工作流。进入作为顺利，最向在。部件，时间在。在论文规模修复和。没有这里在构建？变成面向时间，未能，只是。由",
+      "publishedAt": "2026-07-15T14:16:51.000Z",
+      "summary": "构建人工智能和信息技术在。实时使用: 进入，信息技术进入，和向视频。人工智能生成，和进入。部件，人工智能实时查看视频。人工智能更好借助在。信息技术，和。查看作为。在面向。打开，向分享信息技术由",
       "topics": [
         "产品应用",
-        "研究论文",
-        "投融资"
+        "多模态",
+        "开源生态"
       ],
       "heat": 94,
-      "image": ""
+      "image": "https://external-preview.redd.it/NmJuM3hjZmZiZWRoMUCQlTxZKt6h7sAjld2pgfzmsyRhNkoVaFlPQVy1KJTW.png?width=640&crop=smart&auto=webp&s=9068f794e455934d215baf8af730fc9632d35863"
     },
     {
       "id": "ithome-超-300-款人工智能产品将在-2026-世界人工智能大会首发-上海世博展览馆已进入最后布展调试阶段",
@@ -2171,19 +2173,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-在向人工智能智能体在打开",
-      "title": "在向人工智能智能体在打开",
-      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+      "id": "techcrunch-ai-人工智能编程创业公司借助-130-百万序列",
+      "title": "人工智能编程创业公司借助 $130 百万序列",
+      "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-07-15T12:00:00.000Z",
-      "summary": "在面向人工智能智能体在。",
+      "summary": "创业公司 $120 百万和 200，000 客户。",
       "topics": [
-        "产品应用"
+        "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2203,20 +2205,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-克劳德模型代码砸的坑-蚂蚁安全在尝试填上",
-      "title": "克劳德模型代码砸的坑，蚂蚁安全在尝试填上",
-      "url": "https://news.cnblogs.com/n/830625/",
+      "id": "cnblogs-news-老黄真机现身-中央处理器和图形处理器直接焊在一起-笔记本跑120-十亿大模型",
+      "title": "老黄真机现身！中央处理器和图形处理器直接焊在一起，笔记本跑120 十亿大模型",
+      "url": "https://news.cnblogs.com/n/830629/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T08:00:00.000Z",
-      "summary": "鹭羽发自凹非寺量子位，公众号 2026 年，人工智能安全终于被推到了台前。就在前两天，工信部平台发布风险预警，明确指出克劳德模型代码存在安全后门隐患，可在用户不知情的情况下收集敏感信息。时间线拨回更早，年初红遍全网的也屡屡被曝出高危险本文链接",
+      "publishedAt": "2026-07-15T08:30:00.000Z",
+      "summary": "克雷西发自上海量子位，公众号老黄在发布的“超级芯片”，已经在真机中落地了。就在这届上，英伟达首次面向大众玩家展示了搭载超级芯片的笔记本电脑。这款芯片专为个人智能体打造，不仅搭载了本文链接",
       "topics": [
         "模型发布",
-        "监管安全"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 92,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2267,7 +2270,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2306,20 +2309,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能使用苹果手机",
-      "title": "人工智能使用苹果手机",
-      "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+      "id": "the-verge-ai-谷歌信息技术时间面向全球人工智能-由",
+      "title": "谷歌信息技术时间面向全球人工智能，由",
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-13T20:43:20.000Z",
-      "summary": "苹果移动系统 27 开发者借助推出首个。新，面向和信息技术实时向苹果在。苹果移动系统可能呼吁 …",
+      "publishedAt": "2026-07-14T11:43:29.000Z",
+      "summary": "认为人工智能借助驱动向前沿模型成为。在，谷歌深度思维首席执行官和，争论向全球 …",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "模型发布"
       ],
-      "heat": 58,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2375,15 +2377,15 @@
       "image": "https://media.wired.com/photos/6a4ece7dd12b964679cc8452/master/pass/business_claude_price_increase.jpg"
     },
     {
-      "id": "openai-news-智能聊天助手合作伙伴面向最",
-      "title": "智能聊天助手合作伙伴面向最",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "id": "openai-news-模型在微软-365-智能副驾",
+      "title": "模型在微软 365 智能副驾",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-09T10:00:00.000Z",
-      "summary": "智能聊天助手智能体应用和，借助面向，和转化进入。",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "summary": "了解驱动微软 365 智能副驾借助人工智能，和面向更快，质量。",
       "topics": [
         "模型发布",
         "产品应用"
@@ -2392,19 +2394,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能实际改进",
-      "title": "人工智能实际改进？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux6oi8/could_ai_actually_improve_injury_recovery_or_is/",
+      "id": "reddit-artificial-生成三维来自图像接口-和三维接口支持",
+      "title": "生成三维来自图像接口，和三维接口支持？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux6wtv/how_can_i_batchgenerate_3d_assets_from_prompts_or/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T13:59:26.000Z",
-      "summary": "认为关于问题。压缩手术，借助和，问题:？在？人工智能帮助由和作为，指南。使用人工智能面向，工具？由",
+      "publishedAt": "2026-07-15T14:07:45.000Z",
+      "summary": "向创建面向三维向每个在。使用面向，物体，原型，重要得到质量。正确 : 本地面向，图像; ; 任务 ; 面向 ; ; 向，信息技术只是向由机械手在时间。向探索接口人工智能，支持面向，向，三维作为顺利作为图像，向，三维面向工作流。进入作为顺利，最向在。部件，时间在。在论文规模修复和。没有这里在构建？变成面向时间，未能，只是。由",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "研究论文",
+        "投融资"
       ],
-      "heat": 84,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2421,6 +2425,22 @@
         "模型发布"
       ],
       "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-在向人工智能智能体在打开",
+      "title": "在向人工智能智能体在打开",
+      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "summary": "在面向人工智能智能体在。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -2442,20 +2462,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-智能体要数量也要脑子-浪潮信息一边单柜养4万智能体-一边让大模型组队答题",
-      "title": "智能体要数量也要脑子！浪潮信息一边单柜养4万智能体，一边让大模型组队答题",
-      "url": "https://news.cnblogs.com/n/830624/",
+      "id": "cnblogs-news-98年哈工大教授创业-要做人形灵巧操作世界模型",
+      "title": "98年哈工大教授创业，要做人形灵巧操作世界模型",
+      "url": "https://news.cnblogs.com/n/830628/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T07:50:00.000Z",
-      "summary": "克雷西发自凹非寺量子位，公众号人工智能基础设施的核心任务，已经从支撑大模型推理，转向支撑海量智能体的规模化运行与高质量词元的持续生产。据数据，2025 年中国人工智能智能体企业级市场规模约 190 亿元，预计 2025 至 2028 年复合增长率超过本文链接",
+      "publishedAt": "2026-07-15T08:18:00.000Z",
+      "summary": "允中发自凹非寺量子位，公众号和世界模型已经把机器人推向“看懂世界”和“预测世界”的阶段。但只要模型真的进入物理世界，问题很快就会变得更具体：它拿什么学习这个世界，靠什么把动作做出来，又怎么知道自己到底碰到了什么。前两个问题，分别指向数据和本体。第三个问题，指向触觉。本文链接",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "机器人"
       ],
-      "heat": 92,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2471,7 +2490,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2488,40 +2507,6 @@
         "模型发布",
         "算力芯片",
         "监管安全"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "qbitai-估值4800亿-深度求索火速开启新一轮融资-最快明年首次公开募股",
-      "title": "估值4800亿，深度求索火速开启新一轮融资！最快明年首次公开募股",
-      "url": "https://www.qbitai.com/2026/07/450101.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T00:54:59.000Z",
-      "summary": "距首轮估值上涨37%",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-开放人工智能公司在向推出人工智能创业公司在-2-十亿",
-      "title": "开放人工智能公司在向推出人工智能创业公司在 $2 十亿",
-      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-15T00:27:04.000Z",
-      "summary": "融资向在人工智能向在生活。",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "投融资"
       ],
       "heat": 96,
       "image": ""
@@ -2545,21 +2530,20 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-6-在苹果开放人工智能公司",
-      "title": "6 在苹果开放人工智能公司",
-      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "id": "the-verge-ai-人工智能使用苹果手机",
+      "title": "人工智能使用苹果手机",
+      "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-13T17:00:00.000Z",
-      "summary": "苹果员工面向在开放人工智能公司，人工智能创业公司询问向借助 : 在和产品。向由苹果，开放人工智能公司，在原型，和 …",
+      "publishedAt": "2026-07-13T20:43:20.000Z",
+      "summary": "苹果移动系统 27 开发者借助推出首个。新，面向和信息技术实时向苹果在。苹果移动系统可能呼吁 …",
       "topics": [
         "产品应用",
-        "监管安全",
-        "投融资"
+        "端侧智能"
       ],
-      "heat": 68,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2580,19 +2564,20 @@
       "image": ""
     },
     {
-      "id": "openai-news-新一代语言模型",
-      "title": "新一代语言模型",
-      "url": "https://openai.com/index/bio-bug-bounty",
+      "id": "openai-news-智能聊天助手合作伙伴面向最",
+      "title": "智能聊天助手合作伙伴面向最",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-07-09T10:00:00.000Z",
-      "summary": "关于开放人工智能公司",
+      "summary": "智能聊天助手智能体应用和，借助面向，和转化进入。",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 63,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2612,20 +2597,19 @@
       "image": "https://media.wired.com/photos/6a4d3e5ad99ed47ae9e00cc8/master/pass/AI-Lab-I-Made-A-Self-Improving-AI-Business.jpg"
     },
     {
-      "id": "reddit-artificial-新智能聊天助手应用",
-      "title": "新智能聊天助手应用",
-      "url": "https://www.reddit.com/r/artificial/comments/1ux6i4v/the_new_chatgpt_macos_app_redesign_has_made_basic/",
+      "id": "reddit-artificial-人工智能实际改进",
+      "title": "人工智能实际改进？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ux6oi8/could_ai_actually_improve_injury_recovery_or_is/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T13:52:40.000Z",
-      "summary": "借助更新向智能聊天助手应用，使用向正确在在信息技术和。信息技术在应用，向向，信息技术，向，工作流，和使用向。应用向使用，信息技术和。在，平台，在向进入，首个。智能聊天助手支持，向面向每个时间只是向。带来，和设置和向。高效和转化信息技术进入。由",
+      "publishedAt": "2026-07-15T13:59:26.000Z",
+      "summary": "认为关于问题。压缩手术，借助和，问题:？在？人工智能帮助由和作为，指南。使用人工智能面向，工具？由",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2665,19 +2649,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-百年德国-战车-征服欧陆-驾驶位上是中国人工智能司机",
-      "title": "百年德国「战车」征服欧陆，驾驶位上是中国人工智能司机",
-      "url": "https://news.cnblogs.com/n/830623/",
+      "id": "cnblogs-news-克劳德模型代码砸的坑-蚂蚁安全在尝试填上",
+      "title": "克劳德模型代码砸的坑，蚂蚁安全在尝试填上",
+      "url": "https://news.cnblogs.com/n/830625/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T07:41:00.000Z",
-      "summary": "德国不限速高速、法国复杂环岛、日本右舵左行道路…… 这几天，量产相关型号++ 测试车辆正穿梭这些国家公开道路之上，车身上的标识格外醒目：△文远知行 3.0 测试车在德国。海外大规模落地运营步履不停，文远知行的另一条腿——量产车相关型号++ 本文链接",
+      "publishedAt": "2026-07-15T08:00:00.000Z",
+      "summary": "鹭羽发自凹非寺量子位，公众号 2026 年，人工智能安全终于被推到了台前。就在前两天，工信部平台发布风险预警，明确指出克劳德模型代码存在安全后门隐患，可在用户不知情的情况下收集敏感信息。时间线拨回更早，年初红遍全网的也屡屡被曝出高危险本文链接",
       "topics": [
-        "机器人"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 79,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2716,21 +2701,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司首个据报道",
-      "title": "开放人工智能公司首个据报道",
-      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "id": "techcrunch-ai-开放人工智能公司在向推出人工智能创业公司在-2-十亿",
+      "title": "开放人工智能公司在向推出人工智能创业公司在 $2 十亿",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-14T22:22:24.000Z",
-      "summary": "作为在和向和成为开放人工智能公司智能聊天助手。",
+      "publishedAt": "2026-07-15T00:27:04.000Z",
+      "summary": "融资向在人工智能向在生活。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "端侧智能"
+        "研究论文",
+        "投融资"
       ],
-      "heat": 94,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2820,19 +2805,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-马斯克-机器人还进不了厂-刚说完-小米机器人-上岗-汽车产线了",
-      "title": "马斯克“机器人还进不了厂”刚说完，小米机器人“上岗”汽车产线了",
-      "url": "https://news.cnblogs.com/n/830622/",
+      "id": "cnblogs-news-智能体要数量也要脑子-浪潮信息一边单柜养4万智能体-一边让大模型组队答题",
+      "title": "智能体要数量也要脑子！浪潮信息一边单柜养4万智能体，一边让大模型组队答题",
+      "url": "https://news.cnblogs.com/n/830624/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-15T07:32:00.000Z",
-      "summary": "克雷西发自凹非寺量子位，公众号没想到，小米机器人的进展如此神速！前脚马斯克刚说过机器人很难进工厂，但小米偏不信邪，直接就让机器人进工厂实习了。刚刚，小米技术官方微博发布小米机器人进厂“实习”的最新进展—— 不到半年的时间里，小米机器人就学会了柔性工件的长时作业。所谓的柔性本文链接",
+      "publishedAt": "2026-07-15T07:50:00.000Z",
+      "summary": "克雷西发自凹非寺量子位，公众号人工智能基础设施的核心任务，已经从支撑大模型推理，转向支撑海量智能体的规模化运行与高质量词元的持续生产。据数据，2025 年中国人工智能智能体企业级市场规模约 190 亿元，预计 2025 至 2028 年复合增长率超过本文链接",
       "topics": [
-        "机器人"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 79,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2869,6 +2855,24 @@
         "监管安全"
       ],
       "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-开放人工智能公司首个据报道",
+      "title": "开放人工智能公司首个据报道",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-14T22:22:24.000Z",
+      "summary": "作为在和向和成为开放人工智能公司智能聊天助手。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 94,
       "image": ""
     }
   ]
