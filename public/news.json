@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-07-20T11:07:23.830Z",
+  "generatedAt": "2026-07-20T11:37:49.759Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-20T11:30:00.000Z",
+  "nextUpdateHint": "2026-07-20T12:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-20T11:05:17.000Z"
+    "latestPublishedAt": "2026-07-20T11:20:10.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 77,
+      "count": 79,
       "heat": 76
     },
     {
       "name": "模型发布",
-      "count": 56,
-      "heat": 78
+      "count": 57,
+      "heat": 79
     },
     {
       "name": "算力芯片",
       "count": 26,
-      "heat": 86
+      "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 27,
+      "count": 28,
       "heat": 75
     },
     {
@@ -54,12 +54,12 @@
     {
       "name": "机器人",
       "count": 7,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "投融资",
-      "count": 6,
-      "heat": 65
+      "count": 7,
+      "heat": 70
     },
     {
       "name": "端侧智能",
@@ -224,9 +224,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-07-13T15:06:34.000Z",
-      "latestDisplayedAt": "2026-07-13T15:06:34.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-07-20T11:20:10.000Z",
+      "latestDisplayedAt": "2026-07-20T11:20:10.000Z"
     },
     {
       "id": "the-verge-ai",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-20T10:33:23.000Z",
       "latestDisplayedAt": "2026-07-20T10:33:23.000Z"
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 20,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-20T10:33:00.000Z",
       "latestDisplayedAt": "2026-07-20T10:33:00.000Z"
@@ -431,7 +431,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 16,
+      "itemCount": 13,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-20T10:58:36.000Z",
       "latestDisplayedAt": "2026-07-20T10:58:36.000Z"
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 20,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-20T11:00:11.000Z",
       "latestDisplayedAt": "2026-07-20T11:00:11.000Z"
@@ -480,13 +480,29 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 16,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-07-20T01:10:00.000Z",
       "latestDisplayedAt": "2026-07-20T01:10:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "ars-technica-ai-面向上下文-人工智能编程工具链",
+      "title": ": 面向上下文，人工智能编程工具链",
+      "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+      "source": "技术深度媒体人工智能",
+      "sourceId": "ars-technica-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-20T11:20:10.000Z",
+      "summary": "代码模型，和上下文。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 90,
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Vinay-Perneti-1152x648.jpg"
+    },
     {
       "id": "reddit-artificial-实际来自人工智能",
       "title": "实际来自人工智能？",
@@ -500,7 +516,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -633,7 +649,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -668,7 +684,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -685,7 +701,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -717,7 +733,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -733,7 +749,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -891,22 +907,6 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Interpolation-effect-1.gif"
     },
     {
-      "id": "ars-technica-ai-技术深度媒体人工智能发布人工智能相关动态",
-      "title": "技术深度媒体人工智能发布人工智能相关动态。",
-      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-      "source": "技术深度媒体人工智能",
-      "sourceId": "ars-technica-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-13T15:06:34.000Z",
-      "summary": "上下文智能体进入。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 50,
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg"
-    },
-    {
       "id": "thirty-six-kr-阿里云发布轻量应用服务器-智能体专用型实例",
       "title": "阿里云发布轻量应用服务器“智能体专用型实例”",
       "url": "https://36kr.com/newsflashes/3903863735732103?f=rss",
@@ -1038,7 +1038,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1258,6 +1258,22 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp"
     },
     {
+      "id": "ars-technica-ai-技术深度媒体人工智能发布人工智能相关动态",
+      "title": "技术深度媒体人工智能发布人工智能相关动态。",
+      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "source": "技术深度媒体人工智能",
+      "sourceId": "ars-technica-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-13T15:06:34.000Z",
+      "summary": "上下文智能体进入。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 50,
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg"
+    },
+    {
       "id": "thirty-six-kr-影身智能与多家越南企业达成战略合作-首批交付数百台机器人",
       "title": "影身智能与多家越南企业达成战略合作，首批交付数百台机器人",
       "url": "https://36kr.com/newsflashes/3903839074617220?f=rss",
@@ -1270,7 +1286,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1392,7 +1408,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1427,7 +1443,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1735,7 +1751,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1893,19 +1909,21 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-海致科技入选-2026-数据要素赋能智能体-典型实践项目",
-      "title": "海致科技入选 2026“数据要素赋能智能体”典型实践项目",
-      "url": "https://36kr.com/newsflashes/3903822060848769?f=rss",
+      "id": "thirty-six-kr-上-人工智能开始接管人类的欲望",
+      "title": "上，人工智能开始接管人类的欲望",
+      "url": "https://36kr.com/p/3903687507904387?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-20T10:13:09.000Z",
-      "summary": "7月17日-20日，2026世界人工智能大会（）在上海召开。依托2026世界人工智能大会“数据要素 × 行业智能体”论坛组委会综合遴选，海致科技“基于图的智能体驾驭平台”项目入选本次大会“数据要素赋能智能体”论坛典型实践项目。目前，该平台已在金融风控、政务治理、供应链优化等多个关键领域实现规模化落地，有效打破了数据孤岛，实现了从“数据资源”到“业务生产力”的高效转化。",
+      "publishedAt": "2026-07-20T10:06:08.000Z",
+      "summary": "24.8万的仿生人形机器人，“比彩礼都贵！” 撰文，刘思洁编辑，张薇在2026年的世界人工智能大会（）上，大模型、算力与机器人占据着核心展区的宏大叙事。但在场馆地下一层的创新展区里，人工智能正在撕开含蓄的面具，向下接管人类最隐秘的本能：情欲、控制欲、对失去的遗憾、对孤独的恐惧，以及对未来的迷茫困惑。一只套着塑料壳的蛋形玩偶摆在桌子上，和人交互到一定亲密度后，它会“破壳而出”，……",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1969,7 +1987,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2188,23 +2206,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-杭电股份-拟定增募资不超28-8亿元用于光纤预制棒及高端铜箔项目",
-      "title": "杭电股份：拟定增募资不超28.8亿元用于光纤预制棒及高端铜箔项目",
-      "url": "https://36kr.com/newsflashes/3903804757346182?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-20T10:06:32.000Z",
-      "summary": "36氪获悉，杭电股份公告，拟向特定对象发行股股票募集资金不超过28.8亿元，扣除发行费用后的净额拟投资于光纤预制棒、石英母材与新型光纤研发与制造超级工厂建设项目（拟投入13812800万元）及年产3万吨人工智能用高端电子电路铜箔项目（拟投入149858.00万元）。本次发行股票数量不超过公司总股本的30%，定价基准日为发行期首日，发行价格不低于定价基准日前20个交易日股票交易……",
-      "topics": [
-        "研究论文",
-        "投融资"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "ithome-2026-世界人工智能大会闭幕-351-款产品全球首发-预计达成超-200-亿元意向采购金额",
       "title": "2026 世界人工智能大会闭幕：351 款产品全球首发，预计达成超 200 亿元意向采购金额",
       "url": "https://www.ithome.com/0/979/174.htm",
@@ -2220,6 +2221,24 @@
         "算力芯片"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-硬氪首发-一台80-厘米高的毛绒人形机器人-配一套面向未来的自研系统",
+      "title": "硬氪首发，一台80 厘米高的毛绒人形机器人，配一套面向未来的自研系统",
+      "url": "https://36kr.com/p/3903761449617027?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-20T09:12:42.000Z",
+      "summary": "一台80 厘米高的毛绒人形机器人，可以承载多少想象力？“它虽然没有完全像人，但拥有全套的传感器，可以跟你交互、分析你的表情，去看你是高兴还是低落。只要算力可以满足，它可以提供各种各样的东西，软件能增量开发的东西是有无限想象力的。” 青心意创曾俊告诉硬氪。他所谈论的是——青心意创推出的首款智能机器人产品，身高80 厘米，拟人双足，无棱角毛绒全包覆。曾俊曾担任全球自动驾驶巨头的核……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -2270,7 +2289,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2286,7 +2305,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": "https://external-preview.redd.it/a8C80ut6USUBrCDIW6WDtIKsZM7Op3YwS7jJrCBK9Fc.png?width=640&crop=smart&auto=webp&s=5b211f4af812e0e4d26e6e622783000e5202f905"
     },
     {
@@ -2496,24 +2515,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-上-人工智能开始接管人类的欲望",
-      "title": "上，人工智能开始接管人类的欲望",
-      "url": "https://36kr.com/p/3903687507904387?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-20T10:06:08.000Z",
-      "summary": "24.8万的仿生人形机器人，“比彩礼都贵！” 撰文，刘思洁编辑，张薇在2026年的世界人工智能大会（）上，大模型、算力与机器人占据着核心展区的宏大叙事。但在场馆地下一层的创新展区里，人工智能正在撕开含蓄的面具，向下接管人类最隐秘的本能：情欲、控制欲、对失去的遗憾、对孤独的恐惧，以及对未来的迷茫困惑。一只套着塑料壳的蛋形玩偶摆在桌子上，和人交互到一定亲密度后，它会“破壳而出”，……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "ithome-市场监管总局推动平台企业降低佣金等费用-为新入驻个体工商户提供更多曝光机会",
       "title": "市场监管总局推动平台企业降低佣金等费用，为新入驻个体工商户提供更多曝光机会",
       "url": "https://www.ithome.com/0/979/170.htm",
@@ -2529,6 +2530,24 @@
         "研究论文"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-硬氪首发-清华系量子计算企业获君联资本领投数亿融资-打破原子捕获世界纪录",
+      "title": "硬氪首发，清华系量子计算企业获君联资本领投数亿融资，打破原子捕获世界纪录",
+      "url": "https://36kr.com/p/3903756643255940?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-20T09:08:15.000Z",
+      "summary": "硬氪获悉，量子计算企业两仪万象（北京）科技有限公司（以下简称“两仪万象”）近日完成数亿元+轮融资，由君联资本领投，基石创投、上海科创、中信建投投资、海棠基金跟投，老股东顺为资本和科大讯飞追加投资。此轮资金将用于技术研发、团队扩充和整机搭建。两仪万象成立于2024年，孵化自清华大学原子量子计算研究团队，该团队自2000年前后开始冷原子物理研究。两仪万象公司与清华大学原子量子计算……",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -2753,22 +2772,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-华东地区首个国产张量处理器智算千卡集群落",
-      "title": "华东地区首个国产张量处理器智算千卡集群落",
-      "url": "https://36kr.com/newsflashes/3903803163395971?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-20T10:02:49.000Z",
-      "summary": "36氪获悉，近日，中昊芯英亮相并主办“智算跃迁・芯有新篇——专注算力时代下张量处理器的创新与共进”分论坛。活动现场举行了华东地区（杭州）首座国产张量处理器千卡智算集群落成仪式，并对外发布集群整体建设规划。该项目由杭州电信、中兴通讯与中昊芯英联合打造，是中国电信体系内首个大规模国产张量处理器集群部署项目，也是华东地区首个国产张量处理器千卡级算力集群。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "ithome-苹果电脑用户称开放人工智能公司智能编程工具导致电脑卡顿-关闭应用后也无法恢复",
       "title": "苹果电脑用户称开放人工智能公司智能编程工具导致电脑卡顿，关闭应用后也无法恢复",
       "url": "https://www.ithome.com/0/979/146.htm",
@@ -2784,6 +2787,24 @@
         "监管安全"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-硬氪首发-离子束装备商获超亿元融资-已批量导入光通信-核聚变-量子计算头部客户",
+      "title": "硬氪首发，离子束装备商获超亿元融资，已批量导入光通信、核聚变、量子计算头部客户",
+      "url": "https://36kr.com/p/3903739699005058?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-20T08:51:01.000Z",
+      "summary": "硬氪获悉，中山市博顿光电科技有限公司（以下简称“博顿光电”）完成超亿元人民币+轮融资，本轮投资方为毅达资本、中信建投资本、达武创投、友谊时光、南控基金，资本担任独家财务顾问。该轮资金将用来引进高端人才、研发新产品，以及针对已经出现爆发趋势的重点行业领域，加快在综合解决方案、市场推广以及产能建设方面的投入速度。博顿光电成立于2016年，是国家级“专精特新”小巨人企业。公司专注于……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -2833,22 +2854,6 @@
         "开源生态"
       ],
       "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-中兴通讯联合国产算力厂-拿下之星",
-      "title": "中兴通讯联合国产算力厂，拿下之星",
-      "url": "https://news.cnblogs.com/n/831801/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-20T00:21:00.000Z",
-      "summary": "克雷西发自上海量子位，公众号今年的之星，依然颁给了超节点，依然颁给了中兴通讯。中兴通讯这次在上，拿出了自己的版本，叫超节点。基于加架构的国产高性能超节点方案，同期拿下了本届大会的本文链接",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 77,
       "image": ""
     }
   ]
