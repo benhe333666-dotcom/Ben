@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-23T13:14:41.246Z",
+  "generatedAt": "2026-07-23T13:44:57.266Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-23T13:30:00.000Z",
+  "nextUpdateHint": "2026-07-23T14:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-23T13:12:58.000Z"
+    "latestPublishedAt": "2026-07-23T13:30:00.000Z"
   },
   "topics": [
     {
@@ -18,7 +18,12 @@
     },
     {
       "name": "模型发布",
-      "count": 52,
+      "count": 51,
+      "heat": 87
+    },
+    {
+      "name": "监管安全",
+      "count": 29,
       "heat": 87
     },
     {
@@ -27,19 +32,14 @@
       "heat": 86
     },
     {
-      "name": "监管安全",
-      "count": 28,
-      "heat": 87
-    },
-    {
       "name": "研究论文",
       "count": 21,
-      "heat": 87
+      "heat": 86
     },
     {
       "name": "人工智能动态",
       "count": 20,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "投融资",
@@ -239,7 +239,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
+      "itemCount": 10,
       "displayedCount": 7,
       "latestFetchedAt": "2026-07-22T16:35:34.000Z",
       "latestDisplayedAt": "2026-07-22T16:35:34.000Z"
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-07-23T12:00:00.000Z",
-      "latestDisplayedAt": "2026-07-23T12:00:00.000Z"
+      "latestFetchedAt": "2026-07-23T13:30:00.000Z",
+      "latestDisplayedAt": "2026-07-23T13:30:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -319,9 +319,9 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 1,
+      "itemCount": 0,
       "displayedCount": 0,
-      "latestFetchedAt": "2026-07-23T12:11:05.000Z",
+      "latestFetchedAt": "",
       "latestDisplayedAt": ""
     },
     {
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-23T13:12:58.000Z",
-      "latestDisplayedAt": "2026-07-23T13:12:58.000Z"
+      "latestFetchedAt": "2026-07-23T13:23:44.000Z",
+      "latestDisplayedAt": "2026-07-23T13:23:44.000Z"
     },
     {
       "id": "oschina",
@@ -488,21 +488,37 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-我国脑机接口领域迎重要突破-千人同步脑电采集技术发布",
-      "title": "我国脑机接口领域迎重要突破，千人同步脑电采集技术发布",
-      "url": "https://www.ithome.com/0/980/841.htm",
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/lessons-learned-after-8-5-years-of-ml/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-23T13:30:00.000Z",
+      "summary": "团队 8.5 首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "ithome-华为计算模组首次亮相-2026-世界人工智能大会",
+      "title": "华为计算模组首次亮相 2026 世界人工智能大会",
+      "url": "https://www.ithome.com/0/980/842.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T13:12:58.000Z",
-      "summary": "科技之家 7 月 23 日消息，脑机接口是全球未来产业的重要赛道。据央视财经今日报道，7 月 22 日下午，我国科研团队发布一款新型脑电信号采集装置，在全球范围内首次实现跨地域上千人同步脑电信号采集，使得神经大模型训练与脑机接口通用技术研发迈出关键一步。据介绍，此次发布的一款脑电信号采集装置，能够支持多人同步捕捉脑神经信号。过去脑机接口相关实验大多只是小范围测试，现在有了这项……",
+      "publishedAt": "2026-07-23T13:23:44.000Z",
+      "summary": "科技之家 7 月 23 日消息，在 2026 世界人工智能大会上，华为首次完整展示全系列计算模组产品，包括网卡、卡四大系列产品。800 克相关型号系列人工智能网卡国内首发相关型号人工智能网卡，支持 10 万级节点超大规模组网，主机侧支持灵衢 + 双总线，相关型号系列在网络带宽、主机带宽和报文处理能力方面都得到了大幅提升。同时数控分离下数据面直通图形处理器 / 内存，降低通信时……",
       "topics": [
-        "模型发布",
-        "研究论文",
-        "多模态"
+        "产品应用",
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
@@ -569,7 +585,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -584,22 +600,6 @@
       "summary": "和新，失败。新向，在成本投资。和，最患者。面向，来自使用向…",
       "topics": [
         "投融资"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-为什么新增人工智能智能体",
-      "title": "为什么新增人工智能智能体",
-      "url": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "成本，中央处理器任务变成大语言模型智能体。为什么新增人工智能智能体首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
       ],
       "heat": 88,
       "image": ""
@@ -617,7 +617,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -669,7 +669,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -685,7 +685,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -703,7 +703,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -719,7 +719,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -736,7 +736,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/SymptomAI1_Overview.png"
     },
     {
@@ -771,7 +771,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -789,7 +789,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -822,7 +822,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -839,7 +839,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -855,7 +855,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -871,7 +871,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp"
     },
     {
@@ -891,19 +891,21 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Vinay-Perneti-1152x648.jpg"
     },
     {
-      "id": "ithome-百度萝卜快跑-部分网络账号将无人驾驶网约车与人员失踪相挂钩-涉嫌误导公众认知-已依法提起诉讼",
-      "title": "百度萝卜快跑：部分网络账号将无人驾驶网约车与人员失踪相挂钩，涉嫌误导公众认知，已依法提起诉讼",
-      "url": "https://www.ithome.com/0/980/840.htm",
+      "id": "ithome-我国脑机接口领域迎重要突破-千人同步脑电采集技术发布",
+      "title": "我国脑机接口领域迎重要突破，千人同步脑电采集技术发布",
+      "url": "https://www.ithome.com/0/980/841.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T13:12:50.000Z",
-      "summary": "科技之家 7 月 23 日消息，百度萝卜快跑法务部今日发文称，此前，我司曾就部分网络账号传播涉“萝卜快跑”不实信息音频一事发布声明，并依法启动相关法律程序。近日，该事项取得进一步进展。经核查，网络账号“福原 ***”“浩哥 ***”等传播针对萝卜快跑的相关音频内容，借惊悚化、夸张化叙事吸引流量。相关音频无事实依据地将无人驾驶网约车与人员失踪相挂钩，并以身份背景、国别归属等标签……",
+      "publishedAt": "2026-07-23T13:12:58.000Z",
+      "summary": "科技之家 7 月 23 日消息，脑机接口是全球未来产业的重要赛道。据央视财经今日报道，7 月 22 日下午，我国科研团队发布一款新型脑电信号采集装置，在全球范围内首次实现跨地域上千人同步脑电信号采集，使得神经大模型训练与脑机接口通用技术研发迈出关键一步。据介绍，此次发布的一款脑电信号采集装置，能够支持多人同步捕捉脑神经信号。过去脑机接口相关实验大多只是小范围测试，现在有了这项……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "研究论文",
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
@@ -919,7 +921,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -937,6 +939,22 @@
       ],
       "heat": 85,
       "image": "https://external-preview.redd.it/pTogkxJcTqysLgDIhe3aEJ3AC1fez_oLlnjg7YdbNGU.jpeg?width=320&crop=smart&auto=webp&s=e9747b22e72a831dd2bb19cdfb7d540eba52edc6"
+    },
+    {
+      "id": "towards-data-science-为什么新增人工智能智能体",
+      "title": "为什么新增人工智能智能体",
+      "url": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "成本，中央处理器任务变成大语言模型智能体。为什么新增人工智能智能体首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
+      "image": ""
     },
     {
       "id": "the-decoder-谷歌首席执行官双子座模型取决于在构建模型",
@@ -1004,7 +1022,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1020,7 +1038,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1086,7 +1104,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1104,7 +1122,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1122,24 +1140,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向构建大语言模型来自",
-      "title": "向构建大语言模型来自",
-      "url": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-22T15:00:00.000Z",
-      "summary": "向实际构建大语言模型推理，每个，在，由，呼吁，大语言模型，和最。向构建大语言模型来自首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 75,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1173,7 +1174,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1205,7 +1206,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": "https://media.wired.com/photos/6a5e9501b1fb24623fec97e9/master/pass/Taylor-Farms-Spent-Big-on-MAGA-and-Anti-Regulatory-Lobbying-Before-Links-to-Diarrhea-Outbreak-Business.jpg"
     },
     {
@@ -1222,7 +1223,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -1260,21 +1261,19 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-人工智能安全公司首席经济学家-短期内人工智能不会取代大量工作岗位",
-      "title": "人工智能安全公司首席经济学家：短期内人工智能不会取代大量工作岗位",
-      "url": "https://www.ithome.com/0/980/838.htm",
+      "id": "ithome-百度萝卜快跑-部分网络账号将无人驾驶网约车与人员失踪相挂钩-涉嫌误导公众认知-已依法提起诉讼",
+      "title": "百度萝卜快跑：部分网络账号将无人驾驶网约车与人员失踪相挂钩，涉嫌误导公众认知，已依法提起诉讼",
+      "url": "https://www.ithome.com/0/980/840.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T13:07:09.000Z",
-      "summary": "科技之家 7 月 23 日消息，人工智能安全公司首席经济学家彼得 · 麦克罗里（ ）表示，目前人工智能尚未取代大量工作岗位，因为与完全替代人类相比，人工智能与人类协作的效果更好。而美国亿万富翁马克 · 库班（ ）则认为，这种情况可能永远都不会改变。麦克罗里周三在平台发文称，从目前掌握的情况来看，“人工智能迄今尚未导致失业率出现明显上升”，即便是在那些最容易受到人工智能自动化冲……",
+      "publishedAt": "2026-07-23T13:12:50.000Z",
+      "summary": "科技之家 7 月 23 日消息，百度萝卜快跑法务部今日发文称，此前，我司曾就部分网络账号传播涉“萝卜快跑”不实信息音频一事发布声明，并依法启动相关法律程序。近日，该事项取得进一步进展。经核查，网络账号“福原 ***”“浩哥 ***”等传播针对萝卜快跑的相关音频内容，借惊悚化、夸张化叙事吸引流量。相关音频无事实依据地将无人驾驶网约车与人员失踪相挂钩，并以身份背景、国别归属等标签……",
       "topics": [
-        "模型发布",
-        "算力芯片",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1290,7 +1289,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1322,7 +1321,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1338,7 +1337,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1405,7 +1404,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1423,7 +1422,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1444,19 +1443,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-构建大语言模型智能体和代码",
-      "title": "构建大语言模型智能体和代码",
-      "url": "https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/",
+      "id": "towards-data-science-向构建大语言模型来自",
+      "title": "向构建大语言模型来自",
+      "url": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-22T13:30:00.000Z",
-      "summary": "机械手，在代码借助开放人工智能公司智能体开发工具包和构建大语言模型智能体和代码首个在数据科学实战社区。",
+      "publishedAt": "2026-07-22T15:00:00.000Z",
+      "summary": "向实际构建大语言模型推理，每个，在，由，呼吁，大语言模型，和最。向构建大语言模型来自首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 77,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1490,7 +1490,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1523,7 +1523,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": "https://media.wired.com/photos/6a56bc3736e98c56882c9897/master/pass/Pat-Gelsinger-Q&A-Business-2280683501.jpg"
     },
     {
@@ -1578,15 +1578,15 @@
       "image": ""
     },
     {
-      "id": "ithome-智谱-开源意味着模型可以被自主部署-随时调用-并真正掌握在使用者手中",
-      "title": "智谱：开源意味着模型可以被自主部署、随时调用，并真正掌握在使用者手中",
-      "url": "https://www.ithome.com/0/980/837.htm",
+      "id": "ithome-人工智能安全公司首席经济学家-短期内人工智能不会取代大量工作岗位",
+      "title": "人工智能安全公司首席经济学家：短期内人工智能不会取代大量工作岗位",
+      "url": "https://www.ithome.com/0/980/838.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T13:04:27.000Z",
-      "summary": "科技之家 7 月 23 日消息，北京智谱华章科技股份有限公司官方微博今日发文谈及了“闭源的矛与开源的盾”这一话题。智谱官方分享了一起案例：近日，一次前沿模型安全评测演变成真实安全事件。开放人工智能公司披露，‑5.6 及一款尚未发布的模型突破隔离环境，进入的生产基础设施。事件发生后，的安全团队在对攻击日志进行紧急取证和溯源分析时发现，商业闭源大模型会拒绝处理包含真实攻击载荷和敏……",
+      "publishedAt": "2026-07-23T13:07:09.000Z",
+      "summary": "科技之家 7 月 23 日消息，人工智能安全公司首席经济学家彼得 · 麦克罗里（ ）表示，目前人工智能尚未取代大量工作岗位，因为与完全替代人类相比，人工智能与人类协作的效果更好。而美国亿万富翁马克 · 库班（ ）则认为，这种情况可能永远都不会改变。麦克罗里周三在平台发文称，从目前掌握的情况来看，“人工智能迄今尚未导致失业率出现明显上升”，即便是在那些最容易受到人工智能自动化冲……",
       "topics": [
         "模型发布",
         "算力芯片",
@@ -1692,7 +1692,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1708,7 +1708,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1726,7 +1726,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1765,20 +1765,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-在智能体技能借助-来自向安全",
-      "title": "在智能体技能借助 : 来自向安全",
-      "url": "https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector/",
+      "id": "towards-data-science-构建大语言模型智能体和代码",
+      "title": "构建大语言模型智能体和代码",
+      "url": "https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-22T12:00:00.000Z",
-      "summary": "技能和。实际持续。在智能体技能借助 : 来自向安全首个在数据科学实战社区。",
+      "publishedAt": "2026-07-22T13:30:00.000Z",
+      "summary": "机械手，在代码借助开放人工智能公司智能体开发工具包和构建大语言模型智能体和代码首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 73,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1880,19 +1879,19 @@
       "image": ""
     },
     {
-      "id": "ithome-东风奕派相关型号上市-首批搭载华为乾崑智驾-5-专业版-限时权益价-16-58-万元起",
-      "title": "东风奕派相关型号上市：首批搭载华为乾崑智驾 5 专业版，限时权益价 16.58 万元起",
-      "url": "https://www.ithome.com/0/980/835.htm",
+      "id": "ithome-智谱-开源意味着模型可以被自主部署-随时调用-并真正掌握在使用者手中",
+      "title": "智谱：开源意味着模型可以被自主部署、随时调用，并真正掌握在使用者手中",
+      "url": "https://www.ithome.com/0/980/837.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T12:52:59.000Z",
-      "summary": "科技之家 7 月 23 日消息，东风奕派相关型号新能源今晚上市，首批搭载华为乾崑智驾 5 专业版，提供纯电、增程双动力版本，售价 17.98 万元起，限时权益价 16.58 万元起。纯电版 600 旗舰版乾崑版官方指导价 21.98 万元，限时权益价 20.58 万元 600 专业版乾崑版官方指导价 19.98 万元，限时权益价 18.58 万元增程版 300 旗舰版乾崑版官……",
+      "publishedAt": "2026-07-23T13:04:27.000Z",
+      "summary": "科技之家 7 月 23 日消息，北京智谱华章科技股份有限公司官方微博今日发文谈及了“闭源的矛与开源的盾”这一话题。智谱官方分享了一起案例：近日，一次前沿模型安全评测演变成真实安全事件。开放人工智能公司披露，‑5.6 及一款尚未发布的模型突破隔离环境，进入的生产基础设施。事件发生后，的安全团队在对攻击日志进行紧急取证和溯源分析时发现，商业闭源大模型会拒绝处理包含真实攻击载荷和敏……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "多模态"
+        "算力芯片",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -1979,7 +1978,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2064,7 +2063,24 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-在智能体技能借助-来自向安全",
+      "title": "在智能体技能借助 : 来自向安全",
+      "url": "https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-22T12:00:00.000Z",
+      "summary": "技能和。实际持续。在智能体技能借助 : 来自向安全首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 72,
       "image": ""
     },
     {
@@ -2082,7 +2098,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2119,24 +2135,6 @@
       ],
       "heat": 67,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/vera-tech-blog-vera-rubin-nvl72-1920x1080-1.png"
-    },
-    {
-      "id": "towards-data-science-机器人人工智能模型在-这里",
-      "title": "机器人人工智能模型在。这里",
-      "url": "https://towardsdatascience.com/i-tried-fine-tuning-a-robot-ai-model-on-colab-here-is-what-worked/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-21T15:00:00.000Z",
-      "summary": "100，面向，借助，训练指标，和 &。机器人人工智能模型在。这里首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 60,
-      "image": ""
     },
     {
       "id": "wired-ai-信息技术没有向向-实际",
@@ -2188,19 +2186,19 @@
       "image": ""
     },
     {
-      "id": "ithome-蔚来乐道-椰子-3-1-0-版本推送-升级人机共驾模式-高德地图巡航红绿灯显示等",
-      "title": "蔚来乐道 / + 椰子 3.1.0 版本推送：升级人机共驾模式、高德地图巡航红绿灯显示等",
-      "url": "https://www.ithome.com/0/980/833.htm",
+      "id": "ithome-东风奕派相关型号上市-首批搭载华为乾崑智驾-5-专业版-限时权益价-16-58-万元起",
+      "title": "东风奕派相关型号上市：首批搭载华为乾崑智驾 5 专业版，限时权益价 16.58 万元起",
+      "url": "https://www.ithome.com/0/980/835.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T12:45:45.000Z",
-      "summary": "科技之家 7 月 23 日消息，蔚来旗下乐道汽车今日宣布，椰子 3.1.0、+ 椰子 3.1.0 版本已开启推送。乐道面向超 17 万全量用户推送重磅版本更新，升级覆盖智能辅助驾驶、智能座舱、智能底盘等功能域。科技之家整理如下：乐道端到端模型全面升级换道更积极、变道更顺畅。转向更丝滑、加减速更平缓。全面提升驾驶体验与舒适性。全场景领航辅助再升级智能辅助驾驶模型直接控制方向盘与……",
+      "publishedAt": "2026-07-23T12:52:59.000Z",
+      "summary": "科技之家 7 月 23 日消息，东风奕派相关型号新能源今晚上市，首批搭载华为乾崑智驾 5 专业版，提供纯电、增程双动力版本，售价 17.98 万元起，限时权益价 16.58 万元起。纯电版 600 旗舰版乾崑版官方指导价 21.98 万元，限时权益价 20.58 万元 600 专业版乾崑版官方指导价 19.98 万元，限时权益价 18.58 万元增程版 300 旗舰版乾崑版官……",
       "topics": [
         "模型发布",
         "产品应用",
-        "监管安全"
+        "多模态"
       ],
       "heat": 99,
       "image": ""
@@ -2219,7 +2217,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2304,7 +2302,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2321,7 +2319,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2391,7 +2389,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2408,7 +2406,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2426,24 +2424,25 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/ethernet-spectrum-x-corp-blog-1920x1080-5205700.jpg"
     },
     {
-      "id": "towards-data-science-数据科学工作流在图形处理器-部件-1-数据",
-      "title": "数据科学工作流在图形处理器？部件 1: 数据",
-      "url": "https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-part-1-accelerating-data-preparation/",
+      "id": "towards-data-science-机器人人工智能模型在-这里",
+      "title": "机器人人工智能模型在。这里",
+      "url": "https://towardsdatascience.com/i-tried-fine-tuning-a-robot-ai-model-on-colab-here-is-what-worked/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-21T13:30:00.000Z",
-      "summary": "图形处理器借助，和图形处理器数据科学工作流在图形处理器？部件 1: 数据首个在数据科学实战社区。",
+      "publishedAt": "2026-07-21T15:00:00.000Z",
+      "summary": "100，面向，借助，训练指标，和 &。机器人人工智能模型在。这里首个在数据科学实战社区。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片"
+        "机器人"
       ],
-      "heat": 53,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2480,19 +2479,19 @@
       "image": "https://media.wired.com/photos/6a42d5f50a2d48b162fabdd7/master/pass/Eric-Trump-Wants-to-Create-Terminator-Business.jpg"
     },
     {
-      "id": "ithome-马斯克-值得承担致命人工智能风险-人工智能最有可能带来全民富足",
-      "title": "马斯克：值得承担致命人工智能风险，人工智能最有可能带来全民富足",
-      "url": "https://www.ithome.com/0/980/832.htm",
+      "id": "ithome-蔚来乐道-椰子-3-1-0-版本推送-升级人机共驾模式-高德地图巡航红绿灯显示等",
+      "title": "蔚来乐道 / + 椰子 3.1.0 版本推送：升级人机共驾模式、高德地图巡航红绿灯显示等",
+      "url": "https://www.ithome.com/0/980/833.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T12:33:49.000Z",
-      "summary": "科技之家 7 月 23 日消息，埃隆 · 马斯克表示，人类或许不该为人工智能踩下刹车，即便有能力这么做。在接受《经济学人》总编辑赞妮 · 明顿 · 贝德斯（ ）采访时，这位世界首富表示，人工智能和机器人失控并酿成灾难的风险“并非为零”，但他已经接受了继续推动人工智能发展的现实。“我的哲学结论是往好的方面看。”马斯克说，“我看不到有什么办法能够真正阻止人工智能和机器人发展的巨大……",
+      "publishedAt": "2026-07-23T12:45:45.000Z",
+      "summary": "科技之家 7 月 23 日消息，蔚来旗下乐道汽车今日宣布，椰子 3.1.0、+ 椰子 3.1.0 版本已开启推送。乐道面向超 17 万全量用户推送重磅版本更新，升级覆盖智能辅助驾驶、智能座舱、智能底盘等功能域。科技之家整理如下：乐道端到端模型全面升级换道更积极、变道更顺畅。转向更丝滑、加减速更平缓。全面提升驾驶体验与舒适性。全场景领航辅助再升级智能辅助驾驶模型直接控制方向盘与……",
       "topics": [
-        "监管安全",
-        "投融资",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -2616,7 +2615,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2634,7 +2633,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2668,7 +2667,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 55,
+      "heat": 54,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学工作流在图形处理器-部件-1-数据",
+      "title": "数据科学工作流在图形处理器？部件 1: 数据",
+      "url": "https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-part-1-accelerating-data-preparation/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-21T13:30:00.000Z",
+      "summary": "图形处理器借助，和图形处理器数据科学工作流在图形处理器？部件 1: 数据首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 53,
       "image": ""
     },
     {
@@ -2688,23 +2704,6 @@
       ],
       "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/made-in-america-still-1920x1080-1.jpg"
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/your-ml-experiments-are-a-mess-heres-the-fix/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-21T12:00:00.000Z",
-      "summary": "机械手，在指南向，模型，和借助？这里修复首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 53,
-      "image": ""
     },
     {
       "id": "openai-news-开放人工智能公司和合作伙伴向安全模型评测",
@@ -2759,20 +2758,21 @@
       "image": "https://media.wired.com/photos/6a581351c2deddeba2cfe152/master/pass/Uncanny-Valley-OpenAI-Hectic-Week-2282053697.jpg"
     },
     {
-      "id": "ithome-领克家族首款旅行车相关型号上市-同级唯一悬架-标配千里浩瀚相关型号辅助驾驶-15-78-万元起",
-      "title": "领克家族首款旅行车相关型号上市：同级唯一悬架、标配千里浩瀚相关型号辅助驾驶，15.78 万元起",
-      "url": "https://www.ithome.com/0/980/830.htm",
+      "id": "ithome-马斯克-值得承担致命人工智能风险-人工智能最有可能带来全民富足",
+      "title": "马斯克：值得承担致命人工智能风险，人工智能最有可能带来全民富足",
+      "url": "https://www.ithome.com/0/980/832.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-23T12:18:07.000Z",
-      "summary": "科技之家 7 月 23 日消息，领克家族首款旅行车相关型号今晚正式上市，新车共推出 3 车型，预售价区间为 16.58-18.58 万元、上市指导价区间为 15.78-17.78 万元。四驱性能版：上市指导价 17.78 万元、上市限时价 16.58 万元；200 超长续航版：上市指导价 16.78 万元、上市限时价 15.58 万元；200 超长续航旗舰版版：上市指导价 1……",
+      "publishedAt": "2026-07-23T12:33:49.000Z",
+      "summary": "科技之家 7 月 23 日消息，埃隆 · 马斯克表示，人类或许不该为人工智能踩下刹车，即便有能力这么做。在接受《经济学人》总编辑赞妮 · 明顿 · 贝德斯（ ）采访时，这位世界首富表示，人工智能和机器人失控并酿成灾难的风险“并非为零”，但他已经接受了继续推动人工智能发展的现实。“我的哲学结论是往好的方面看。”马斯克说，“我看不到有什么办法能够真正阻止人工智能和机器人发展的巨大……",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "监管安全",
+        "投融资",
+        "端侧智能"
       ],
-      "heat": 92,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2856,7 +2856,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     }
   ]
