@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T18:44:43.688Z",
+  "generatedAt": "2026-07-26T18:51:35.475Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-07-26T19:00:00.000Z",
   "stats": {
@@ -23,7 +23,7 @@
     },
     {
       "name": "监管安全",
-      "count": 31,
+      "count": 30,
       "heat": 75
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 17,
+      "count": 18,
       "heat": 73
     },
     {
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-07-15T15:00:00.000Z",
-      "latestDisplayedAt": ""
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-07-23T18:30:00.000Z",
+      "latestDisplayedAt": "2026-07-23T18:30:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-07-26T00:36:30.000Z",
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 17,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-07-26T08:54:00.000Z",
       "latestDisplayedAt": "2026-07-26T08:54:00.000Z"
     },
@@ -553,7 +553,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -775,6 +775,24 @@
       ],
       "heat": 65,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-korea-ai-1920x1080-1.png"
+    },
+    {
+      "id": "microsoft-ai-blog-在-和微软规模-词元借助微软和",
+      "title": "在& 和微软规模，词元借助微软和",
+      "url": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-23T18:30:00.000Z",
+      "summary": "在& 词元微软，打开人工智能模型，和和英伟达图形处理器基础设施。模型和基础设施，规模人工智能。在& 和微软规模，词元借助微软和首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 70,
+      "image": ""
     },
     {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-多模态方向研究",
@@ -1716,7 +1734,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2467,7 +2485,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2736,7 +2754,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2753,7 +2771,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2838,24 +2856,6 @@
         "算力芯片"
       ],
       "heat": 65,
-      "image": ""
-    },
-    {
-      "id": "leiphone-自变量登上国际舞台-代表中国具身智能分享服务民生-最佳实践",
-      "title": "自变量登上国际舞台，代表中国具身智能分享服务民生“最佳实践”",
-      "url": "https://www.leiphone.com/category/industrynews/wbuuGeiADHNlBBOR.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-24T08:58:00.000Z",
-      "summary": "7月16日-24日，亚太经合组织（）“2026年数字和人工智能部长会议及数字周”系列活动在四川成都举行。作为部长会议的重要配套活动，工业和信息化部于7月24日上午举办“数智赋能高级别对话”，邀请经济体部长及政府部门、企业、科研机构和国际组织高级别代表参加，围绕“发展人工智能，增进民生福祉”“推动数字转型，赋能千行百业”两大议题展开交流。自变量机器人创始人兼首席执行官王潜作为全……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 66,
       "image": ""
     }
   ]
