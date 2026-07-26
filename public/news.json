@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-26T14:51:10.499Z",
+  "generatedAt": "2026-07-26T15:22:11.753Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-26T15:00:00.000Z",
+  "nextUpdateHint": "2026-07-26T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-26T14:48:52.000Z"
+    "latestPublishedAt": "2026-07-26T15:20:23.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 70,
-      "heat": 70
+      "count": 69,
+      "heat": 71
     },
     {
       "name": "模型发布",
-      "count": 54,
+      "count": 55,
       "heat": 75
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 22,
+      "count": 20,
       "heat": 75
     },
     {
@@ -38,23 +38,23 @@
     },
     {
       "name": "人工智能动态",
-      "count": 19,
-      "heat": 66
+      "count": 20,
+      "heat": 67
     },
     {
       "name": "开源生态",
-      "count": 14,
-      "heat": 68
+      "count": 15,
+      "heat": 70
     },
     {
-      "name": "多模态",
-      "count": 13,
-      "heat": 70
+      "name": "机器人",
+      "count": 10,
+      "heat": 80
     },
     {
       "name": "端侧智能",
       "count": 10,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "投融资",
@@ -62,9 +62,9 @@
       "heat": 67
     },
     {
-      "name": "机器人",
-      "count": 9,
-      "heat": 78
+      "name": "多模态",
+      "count": 11,
+      "heat": 65
     }
   ],
   "sources": [
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-26T09:43:02.000Z",
-      "latestDisplayedAt": "2026-07-26T09:43:02.000Z"
+      "latestFetchedAt": "2026-07-26T15:09:11.000Z",
+      "latestDisplayedAt": "2026-07-26T15:09:11.000Z"
     },
     {
       "id": "wired-ai",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-07-26T13:00:00.000Z",
-      "latestDisplayedAt": "2026-07-26T13:00:00.000Z"
+      "latestFetchedAt": "2026-07-26T15:00:00.000Z",
+      "latestDisplayedAt": "2026-07-26T15:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-26T14:40:51.000Z",
-      "latestDisplayedAt": "2026-07-26T14:40:51.000Z"
+      "latestFetchedAt": "2026-07-26T15:20:23.000Z",
+      "latestDisplayedAt": "2026-07-26T15:20:23.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "This operation was aborted",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-07-23T17:59:59.000Z",
       "latestDisplayedAt": "2026-07-23T17:59:59.000Z"
@@ -380,12 +380,12 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 2,
       "displayedCount": 2,
-      "latestFetchedAt": "2026-07-23T17:59:59.000Z",
+      "latestFetchedAt": "2026-07-23T17:42:51.000Z",
       "latestDisplayedAt": "2026-07-23T17:42:51.000Z"
     },
     {
@@ -479,27 +479,79 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 15,
+      "itemCount": 14,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-26T14:48:52.000Z",
-      "latestDisplayedAt": "2026-07-26T14:48:52.000Z"
+      "latestFetchedAt": "2026-07-26T14:54:31.000Z",
+      "latestDisplayedAt": "2026-07-26T14:54:31.000Z"
     }
   ],
   "failures": [],
   "items": [
     {
-      "id": "cnblogs-news-旗舰模型-5冲上第一-还需要-5吗",
-      "title": "旗舰模型 5冲上第一，还需要 5吗？",
-      "url": "https://news.cnblogs.com/n/833140/",
+      "id": "reddit-artificial-最人工智能在只是应用",
+      "title": "最人工智能在只是应用",
+      "url": "https://www.reddit.com/r/artificial/comments/1v76s4o/the_most_useful_ai_in_my_stores_week_is_the_dumb/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-26T15:20:23.000Z",
+      "summary": "每个这里关于模型更智能。面向。使用向。面向和，向实际，面向，在。单个决策。更智能，信息技术只是面向向进入信息技术。智能体，进入，和实际值得在。信息技术。信息技术，信息技术。信息技术只是 30 作为。: 模型部件。部件智能，信息技术应用在相关型号和机械手，首个，没有实际信息技术。由",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-智能体模型最编程前沿模型",
+      "title": "智能体模型最编程前沿模型",
+      "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-26T15:09:11.000Z",
+      "summary": "询问智能体和向在，借助来源代码访问。每个新，来自，100 在。在。智能体模型最编程前沿模型首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向克劳德模型代码",
+      "title": "向克劳德模型代码",
+      "url": "https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-26T15:00:00.000Z",
+      "summary": "借助克劳德模型代码向克劳德模型代码首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-开源反派人工智能安全公司也有性价比",
+      "title": "开源反派人工智能安全公司也有性价比",
+      "url": "https://news.cnblogs.com/n/833143/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:48:52.000Z",
-      "summary": "文，财经（），作者，雷晶，编辑，金玙璠 7 月的模型圈很热闹。25 日凌晨，人工智能安全公司正式推出了新模型克劳德模型旗舰模型 5。这一次，人工智能安全公司没有强调“最强模型”，而是给出更务实的定位：旗舰模型 5 在复杂任务上更少遗漏步骤、更本文链接",
+      "publishedAt": "2026-07-26T14:54:31.000Z",
+      "summary": "文｜山上_ShanShang 何简编辑｜蒋浇人工智能安全公司于昨日凌晨（北京时间 7 月 25 日）发布克劳德模型旗舰模型 5，声称该模型性能逼近 5，但价格仅为后者一半。这可能是人工智能安全公司第一次公开强调自家模型的性价比优势。克劳德模型旗舰模型 5 定价每本文链接",
       "topics": [
         "模型发布",
-        "监管安全"
+        "监管安全",
+        "开源生态"
       ],
       "heat": 99,
       "image": ""
@@ -521,22 +573,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-代码人工智能",
-      "title": "代码人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1v75qg8/any_example_of_code_that_ai_cannot_tackle/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-26T14:40:51.000Z",
-      "summary": "借助人工智能？限制向信息技术？编程在人工智能安全公司解决借助人工智能。由",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 93,
-      "image": ""
-    },
-    {
       "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
       "title": "技术社区人工智能热榜发布人工智能相关动态。",
       "url": "https://news.ycombinator.com/item?id=49057972",
@@ -549,23 +585,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向大语言模型智能体",
-      "title": "向大语言模型智能体",
-      "url": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-26T13:00:00.000Z",
-      "summary": "构建，使用智能体借助开放人工智能公司智能体开发工具包和向大语言模型智能体首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 95,
+      "heat": 85,
       "image": ""
     },
     {
@@ -581,25 +601,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-人工智能安全公司旗舰模型-5-5-和在基准测试向智能",
-      "title": "人工智能安全公司旗舰模型 5 5 和在基准测试向智能",
-      "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-26T09:43:02.000Z",
-      "summary": "人工智能安全公司克劳德模型旗舰模型 5 30.2 在，通用人工智能，3，7.8。基准测试开发者模型，来自模型，和向逻辑化推理能力。人工智能安全公司旗舰模型 5 5 和在基准测试向智能首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
+      "heat": 84,
       "image": ""
     },
     {
@@ -650,7 +652,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -666,7 +668,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -682,7 +684,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -715,7 +717,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": "https://media.wired.com/photos/6a5956e5204d70a89778c8b1/master/pass/Made-In-China-China-Vape-Makers-Have-New-Way-Around-Flavor-Bans-Business.jpg"
     },
     {
@@ -926,20 +928,20 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "cnblogs-news-特斯拉正在变成一家人工智能公司",
-      "title": "特斯拉正在变成一家人工智能公司",
-      "url": "https://news.cnblogs.com/n/833139/",
+      "id": "cnblogs-news-将从9月15日起对新域名默认屏蔽谷歌爬虫",
+      "title": "将从9月15日起对新域名默认屏蔽谷歌爬虫",
+      "url": "https://news.cnblogs.com/n/833142/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:47:12.000Z",
-      "summary": "文，产联社马斯克说过，特斯拉正在从一家汽车公司转变为一家人工智能公司，未来增长将主要来自机器人、自动驾驶和人工智能基础设施。这句话在今天看来，已经不只是战略宣言，而是正在发生的现实。过去几年，特斯拉的市值一度超过全球所有传统车企的总和。支撑它估值的从来不是当年的销量和利润，而是那个听本文链接",
+      "publishedAt": "2026-07-26T14:53:45.000Z",
+      "summary": "宣布将从 9 月 15 日起对三类机器人——搜索爬虫、训练人工智能的爬虫以及智能体机器人——设置新的默认值。对于新加入的域名，默认将屏蔽训练人工智能的爬虫以及智能体。但有些机器人爬虫兼具了搜索爬虫和人工智能爬虫的双重功能，因此根据新规则本文链接",
       "topics": [
-        "投融资",
+        "产品应用",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -960,36 +962,53 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能使用向创建",
-      "title": "人工智能使用向创建？",
-      "url": "https://www.reddit.com/r/artificial/comments/1v744za/does_anyone_know_what_ai_was_used_to_create_this/",
+      "id": "reddit-artificial-代码人工智能",
+      "title": "代码人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1v75qg8/any_example_of_code_that_ai_cannot_tackle/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T13:37:32.000Z",
-      "summary": "借助人工智能在和试图向进入人工智能。人工智能使用向？人工智能？在由",
+      "publishedAt": "2026-07-26T14:40:51.000Z",
+      "summary": "借助人工智能？限制向信息技术？编程在人工智能安全公司解决借助人工智能。由",
       "topics": [
-        "人工智能动态"
+        "监管安全"
       ],
-      "heat": 85,
+      "heat": 93,
       "image": ""
     },
     {
-      "id": "the-decoder-询问智能聊天助手面向和和-由",
-      "title": "询问智能聊天助手面向和和，由",
-      "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
+      "id": "towards-data-science-向大语言模型智能体",
+      "title": "向大语言模型智能体",
+      "url": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-26T13:00:00.000Z",
+      "summary": "构建，使用智能体借助开放人工智能公司智能体开发工具包和向大语言模型智能体首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能安全公司旗舰模型-5-5-和在基准测试向智能",
+      "title": "人工智能安全公司旗舰模型 5 5 和在基准测试向智能",
+      "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T08:35:49.000Z",
-      "summary": "在 2025，开放人工智能公司作为，风险信息技术帮助用户创建，模型风险。向，用户，由，面向和武器。询问面向。询问智能聊天助手面向和和，由，首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-26T09:43:02.000Z",
+      "summary": "人工智能安全公司克劳德模型旗舰模型 5 30.2 在，通用人工智能，3，7.8。基准测试开发者模型，来自模型，和向逻辑化推理能力。人工智能安全公司旗舰模型 5 5 和在基准测试向智能首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1006,7 +1025,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1022,7 +1041,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1038,23 +1057,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-25T15:00:00.000Z",
-      "summary": "成本，基础设施由和，和向 : 在。在，记忆首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 69,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1296,21 +1299,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-当人工智能学会-看人下菜碟",
-      "title": "当人工智能学会“看人下菜碟”",
-      "url": "https://news.cnblogs.com/n/833138/",
+      "id": "cnblogs-news-多家知名网站考虑彻底屏蔽谷歌",
+      "title": "多家知名网站考虑彻底屏蔽谷歌",
+      "url": "https://news.cnblogs.com/n/833141/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:46:26.000Z",
-      "summary": "人工智能安全领域最近接连爆出两条重磅新闻。开放人工智能公司本周披露其相关型号模型在内部安全测试中，为获取高分自主突破隔离沙盒，利用零日漏洞入侵了全球最大人工智能开源平台的生产数据库，执行超过 1.7 万次操作，全程未被实时发现。几乎同时，由 40 名全球本文链接",
+      "publishedAt": "2026-07-26T14:52:50.000Z",
+      "summary": "和等知名网络出版商考虑彻底屏蔽谷歌，甚至与谷歌签署了每年 6000 万美元合同的社区论坛也在重新评估与谷歌的关系。原因是谷歌的人工智能摘要功能导致了网站访问本文链接",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1327,42 +1328,40 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "reddit-artificial-克劳德模型人工智能向成为来自",
-      "title": "克劳德模型人工智能向成为来自",
-      "url": "https://www.reddit.com/r/artificial/comments/1v73vy5/some_guy_named_sebastian_is_asking_claude_ai_how/",
+      "id": "reddit-artificial-人工智能使用向创建",
+      "title": "人工智能使用向创建？",
+      "url": "https://www.reddit.com/r/artificial/comments/1v744za/does_anyone_know_what_ai_was_used_to_create_this/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T13:26:48.000Z",
-      "summary": "这里: :，代码托管平台，分享，克劳德模型，克劳德模型\\_chats，: :，代码托管平台，分享，克劳德模型，克劳德模型\\_chats 由",
+      "publishedAt": "2026-07-26T13:37:32.000Z",
+      "summary": "借助人工智能在和试图向进入人工智能。人工智能使用向？人工智能？在由",
       "topics": [
-        "模型发布",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 97,
-      "image": "https://preview.redd.it/e9e0370rskfh1.jpeg?width=640&crop=smart&auto=webp&s=c8fab79dbd951d16601a5f04a2882e1d17ae3c15"
+      "heat": 84,
+      "image": ""
     },
     {
-      "id": "the-decoder-据报道在中国打开模型安全",
-      "title": "据报道在中国打开模型安全",
-      "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
+      "id": "the-decoder-询问智能聊天助手面向和和-由",
+      "title": "询问智能聊天助手面向和和，由",
+      "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T07:56:24.000Z",
-      "summary": "在中国人工智能模型，开放人工智能公司和谷歌深度思维打开监管打开，模型，开放人工智能公司和人工智能安全公司向面向安全和企业。据报道在中国打开模型安全首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-26T08:35:49.000Z",
+      "summary": "在 2025，开放人工智能公司作为，风险信息技术帮助用户创建，模型风险。向，用户，由，面向和武器。询问面向。询问智能聊天助手面向和和，由，首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1379,6 +1378,22 @@
         "人工智能动态"
       ],
       "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-25T15:00:00.000Z",
+      "summary": "成本，基础设施由和，和向 : 在。在，记忆首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -1428,7 +1443,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1446,24 +1461,6 @@
         "监管安全"
       ],
       "heat": 64,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-大语言模型-向基础模型",
-      "title": "大语言模型: 向基础模型",
-      "url": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-24T16:30:00.000Z",
-      "summary": "基础模型，大语言模型，和在基准测试。向，最严格打开，和。大语言模型: 向基础模型首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 60,
       "image": ""
     },
     {
@@ -1618,21 +1615,38 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-人工智能坑惨手机圈-大盘崩了-高通们也得靠涨价续命",
-      "title": "人工智能坑惨手机圈：大盘崩了，高通们也得靠涨价续命",
-      "url": "https://news.cnblogs.com/n/833136/",
+      "id": "cnblogs-news-旗舰模型-5冲上第一-还需要-5吗",
+      "title": "旗舰模型 5冲上第一，还需要 5吗？",
+      "url": "https://news.cnblogs.com/n/833140/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:42:54.000Z",
-      "summary": "在规模效应下，智能手机系统级芯片的性能和价格一直保持着微妙的平衡。但现在，这个脆弱的平衡正在被打破。就在这个周末，高通向全球客户发出调价通知，宣布自 9 月 1 日起对全系列芯片产品实施两位数百分比幅度的价格上调。这次调价，不仅会对手机、电脑市场产生影响，人工智能眼镜、智能手表等可穿戴市场也会受到本文链接",
+      "publishedAt": "2026-07-26T14:48:52.000Z",
+      "summary": "文，财经（），作者，雷晶，编辑，金玙璠 7 月的模型圈很热闹。25 日凌晨，人工智能安全公司正式推出了新模型克劳德模型旗舰模型 5。这一次，人工智能安全公司没有强调“最强模型”，而是给出更务实的定位：旗舰模型 5 在复杂任务上更少遗漏步骤、更本文链接",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-克劳德模型人工智能向成为来自",
+      "title": "克劳德模型人工智能向成为来自",
+      "url": "https://www.reddit.com/r/artificial/comments/1v73vy5/some_guy_named_sebastian_is_asking_claude_ai_how/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-26T13:26:48.000Z",
+      "summary": "这里: :，代码托管平台，分享，克劳德模型，克劳德模型\\_chats，: :，代码托管平台，分享，克劳德模型，克劳德模型\\_chats 由",
+      "topics": [
+        "模型发布",
+        "开源生态"
+      ],
+      "heat": 97,
+      "image": "https://preview.redd.it/e9e0370rskfh1.jpeg?width=640&crop=smart&auto=webp&s=c8fab79dbd951d16601a5f04a2882e1d17ae3c15"
     },
     {
       "id": "ithome-上纬新材子公司启元新创落户上海-计划每年推出不少于-2-款全新消费级机器人",
@@ -1651,36 +1665,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-在人工智能在-政府-和向人工智能-安全规则-和-每个-10-向",
-      "title": "在人工智能在。政府，和向人工智能，安全规则，和。每个。10 向！",
-      "url": "https://www.reddit.com/r/artificial/comments/1v72zbu/speak_up_have_your_say_on_advancing_ai/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-26T12:47:50.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-人工智能编程作为向技能",
-      "title": "人工智能编程作为向技能",
-      "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
+      "id": "the-decoder-据报道在中国打开模型安全",
+      "title": "据报道在中国打开模型安全",
+      "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T06:59:56.000Z",
-      "summary": "国际计算机学会 763 科学来自 49 68 人工智能，和。来自代码向信息技术。面向人工智能进入。人工智能编程作为向技能首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-26T07:56:24.000Z",
+      "summary": "在中国人工智能模型，开放人工智能公司和谷歌深度思维打开监管打开，模型，开放人工智能公司和人工智能安全公司向面向安全和企业。据报道在中国打开模型安全首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 83,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1714,7 +1713,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1734,6 +1733,24 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-大语言模型-向基础模型",
+      "title": "大语言模型: 向基础模型",
+      "url": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-24T16:30:00.000Z",
+      "summary": "基础模型，大语言模型，和在基准测试。向，最严格打开，和。大语言模型: 向基础模型首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 59,
+      "image": ""
+    },
+    {
       "id": "leiphone-对话星炽动力李达-架构-如何让具身智能更像人",
       "title": "对话星炽动力李达——架构：如何让具身智能更像人？",
       "url": "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html",
@@ -1748,25 +1765,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 67,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-面向检索增强生成-大语言模型来自本地模型向",
-      "title": "面向检索增强生成 : 大语言模型来自本地模型向",
-      "url": "https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-24T13:30:00.000Z",
-      "summary": "企业智能 #相关型号，在，成本和，由本地模型面向检索增强生成 : 大语言模型来自本地模型向首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 58,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1922,19 +1921,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-月之暗面夜店庆功背后-人工智能狂飙的逻辑-和我们正在失去的-慢",
-      "title": "月之暗面夜店庆功背后：人工智能狂飙的逻辑，和我们正在失去的“慢”",
-      "url": "https://news.cnblogs.com/n/833135/",
+      "id": "cnblogs-news-特斯拉正在变成一家人工智能公司",
+      "title": "特斯拉正在变成一家人工智能公司",
+      "url": "https://news.cnblogs.com/n/833139/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:41:47.000Z",
-      "summary": "文，思策智库上周五深夜，北京著名的工体酒吧一条街上，一家名叫\"迈阿密\"的酒吧里，月之暗面的年轻人包下数十张卡座，大屏幕滚动着中英双语标语：“相关型号扩容升级，相关型号给我狠狠干到极致，冲上月球。”香槟、电子音乐和“ ”的呐喊，让这场庆功宴看起来与十年前的互联网创业派对并无二致。本文链接",
+      "publishedAt": "2026-07-26T14:47:12.000Z",
+      "summary": "文，产联社马斯克说过，特斯拉正在从一家汽车公司转变为一家人工智能公司，未来增长将主要来自机器人、自动驾驶和人工智能基础设施。这句话在今天看来，已经不只是战略宣言，而是正在发生的现实。过去几年，特斯拉的市值一度超过全球所有传统车企的总和。支撑它估值的从来不是当年的销量和利润，而是那个听本文链接",
       "topics": [
-        "人工智能动态"
+        "投融资",
+        "机器人"
       ],
-      "heat": 94,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1956,39 +1956,36 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-帮助论文进入正确机械手-认知面向",
-      "title": "帮助论文进入正确机械手:，认知面向",
-      "url": "https://www.reddit.com/r/artificial/comments/1v710az/help_me_get_this_paper_into_the_right_hands/",
+      "id": "reddit-artificial-在人工智能在-政府-和向人工智能-安全规则-和-每个-10-向",
+      "title": "在人工智能在。政府，和向人工智能，安全规则，和。每个。10 向！",
+      "url": "https://www.reddit.com/r/artificial/comments/1v72zbu/speak_up_have_your_say_on_advancing_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T11:14:16.000Z",
-      "summary": "论文认知呼吁，在呼吁认知。: 智能作为单个来自向，和记忆。在，只是。信息技术和。: : 研究呼吁。向，面向。: 认知面向作者: ; 论文认知，认知生成，和，和记忆。:，向 :，更新，来自驱动，来自。摘要论文认知，面向认知。在和，规模，在由。认知来自连续和面向:。由部件人工智能来自，模型在。:，认知，智能体，连续记忆 1。人工智能，:，评测，记忆。最 :，高效，模型。在认知。2……",
+      "publishedAt": "2026-07-26T12:47:50.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 93,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "the-decoder-新开放人工智能公司控制在",
-      "title": "新开放人工智能公司控制在",
-      "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
+      "id": "the-decoder-人工智能编程作为向技能",
+      "title": "人工智能编程作为向技能",
+      "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-25T13:45:50.000Z",
-      "summary": "在，开放人工智能公司最高级模型，打开，和人工智能平台在。在通过开放人工智能公司。由。新开放人工智能公司控制在首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-26T06:59:56.000Z",
+      "summary": "国际计算机学会 763 科学来自 49 68 人工智能，和。来自代码向信息技术。面向人工智能进入。人工智能编程作为向技能首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
+        "产品应用"
       ],
-      "heat": 86,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2006,7 +2003,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2040,7 +2037,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -2062,19 +2059,21 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-上下文视窗系统-构建面向人工智能智能体记忆",
-      "title": "上下文视窗系统，构建面向人工智能智能体记忆",
-      "url": "https://towardsdatascience.com/context-windows-forget-what-matters-i-used-a-140-year-old-psychology-paper-to-fix-ai-memory/",
+      "id": "towards-data-science-面向检索增强生成-大语言模型来自本地模型向",
+      "title": "面向检索增强生成 : 大语言模型来自本地模型向",
+      "url": "https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "summary": "最人工智能记忆持续最重要。这里使用向构建更好记忆面向大语言模型。上下文视窗系统，构建面向人工智能智能体记忆首个在数据科学实战社区。",
+      "publishedAt": "2026-07-24T13:30:00.000Z",
+      "summary": "企业智能 #相关型号，在，成本和，由本地模型面向检索增强生成 : 大语言模型来自本地模型向首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 48,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2196,18 +2195,19 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Wistron_D1_Grand_Opening_Ceremony-Factory_Tour-21-MY-edit-scaled.jpg"
     },
     {
-      "id": "cnblogs-news-人工智能博主不能说的秘密-十分钟-炫技背后-是你买不起的词元账单",
-      "title": "人工智能博主不能说的秘密：\"十分钟\"炫技背后，是你买不起的词元账单",
-      "url": "https://news.cnblogs.com/n/833134/",
+      "id": "cnblogs-news-当人工智能学会-看人下菜碟",
+      "title": "当人工智能学会“看人下菜碟”",
+      "url": "https://news.cnblogs.com/n/833138/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:37:05.000Z",
-      "summary": "文，听风译码你一定刷到过那种帖子。\"我用人工智能十分钟做了个三维网站。\" \"零基础，人工智能帮我写完了一整个应用。\" \"深度求索+ 即梦，一条短视频成本不到 1 块钱。\" 评论区永远是两层：上面是\"求提示词\"、\"求教程\"，下面是\"求带\"、\"怎么报名\"。然后你买了课，回了家，打本文链接",
+      "publishedAt": "2026-07-26T14:46:26.000Z",
+      "summary": "人工智能安全领域最近接连爆出两条重磅新闻。开放人工智能公司本周披露其相关型号模型在内部安全测试中，为获取高分自主突破隔离沙盒，利用零日漏洞入侵了全球最大人工智能开源平台的生产数据库，执行超过 1.7 万次操作，全程未被实时发现。几乎同时，由 40 名全球本文链接",
       "topics": [
-        "产品应用",
-        "多模态"
+        "模型发布",
+        "监管安全",
+        "开源生态"
       ],
       "heat": 99,
       "image": ""
@@ -2229,22 +2229,40 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能安全高亮问题",
-      "title": "人工智能安全高亮问题",
-      "url": "https://www.reddit.com/r/artificial/comments/1v70ov9/ai_security_is_falling_behindhugging_face_breach/",
+      "id": "reddit-artificial-帮助论文进入正确机械手-认知面向",
+      "title": "帮助论文进入正确机械手:，认知面向",
+      "url": "https://www.reddit.com/r/artificial/comments/1v710az/help_me_get_this_paper_into_the_right_hands/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T10:58:28.000Z",
-      "summary": "在，模型，设置在人工智能和。向模型，注入，模型，工具向和。面向研究和 : 在构建人工智能安全？信息技术？由",
+      "publishedAt": "2026-07-26T11:14:16.000Z",
+      "summary": "论文认知呼吁，在呼吁认知。: 智能作为单个来自向，和记忆。在，只是。信息技术和。: : 研究呼吁。向，面向。: 认知面向作者: ; 论文认知，认知生成，和，和记忆。:，向 :，更新，来自驱动，来自。摘要论文认知，面向认知。在和，规模，在由。认知来自连续和面向:。由部件人工智能来自，模型在。:，认知，智能体，连续记忆 1。人工智能，:，评测，记忆。最 :，高效，模型。在认知。2……",
       "topics": [
         "模型发布",
-        "监管安全",
+        "产品应用",
         "研究论文"
       ],
       "heat": 92,
-      "image": "https://preview.redd.it/5axwpu752kfh1.png?width=640&crop=smart&auto=webp&s=0b4234c709c4d147b1ad7297802b17711eaa670e"
+      "image": ""
+    },
+    {
+      "id": "the-decoder-新开放人工智能公司控制在",
+      "title": "新开放人工智能公司控制在",
+      "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-25T13:45:50.000Z",
+      "summary": "在，开放人工智能公司最高级模型，打开，和人工智能平台在。在通过开放人工智能公司。由。新开放人工智能公司控制在首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 86,
+      "image": ""
     },
     {
       "id": "qbitai-北京说智能体已经能造世界-杭州却说它是刚发明的电灯泡",
@@ -2260,23 +2278,6 @@
         "产品应用"
       ],
       "heat": 67,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-旗舰模型-5-解决注入-安全人工智能智能体",
-      "title": "旗舰模型 5 解决注入，安全人工智能智能体",
-      "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-25T10:43:36.000Z",
-      "summary": "旗舰模型 5 借助模式注入面向智能体 129，3.7。在，人工智能安全公司安全问题人工智能智能体在。旗舰模型 5 解决注入，安全人工智能智能体首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 79,
       "image": ""
     },
     {
@@ -2312,6 +2313,22 @@
         "产品应用"
       ],
       "heat": 58,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-上下文视窗系统-构建面向人工智能智能体记忆",
+      "title": "上下文视窗系统，构建面向人工智能智能体记忆",
+      "url": "https://towardsdatascience.com/context-windows-forget-what-matters-i-used-a-140-year-old-psychology-paper-to-fix-ai-memory/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-24T12:00:00.000Z",
+      "summary": "最人工智能记忆持续最重要。这里使用向构建更好记忆面向大语言模型。上下文视窗系统，构建面向人工智能智能体记忆首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
       "image": ""
     },
     {
@@ -2381,22 +2398,6 @@
         "产品应用"
       ],
       "heat": 63,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-为什么新增人工智能智能体",
-      "title": "为什么新增人工智能智能体",
-      "url": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "成本，中央处理器任务变成大语言模型智能体。为什么新增人工智能智能体首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -2470,19 +2471,20 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/vera-tech-blog-vera-rubin-nvl72-1920x1080-1.png"
     },
     {
-      "id": "cnblogs-news-9500亿是纸面繁荣-海力士签的不是大单-是卖身契",
-      "title": "9500亿是纸面繁荣：海力士签的不是大单，是卖身契",
-      "url": "https://news.cnblogs.com/n/833133/",
+      "id": "cnblogs-news-人工智能坑惨手机圈-大盘崩了-高通们也得靠涨价续命",
+      "title": "人工智能坑惨手机圈：大盘崩了，高通们也得靠涨价续命",
+      "url": "https://news.cnblogs.com/n/833136/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:34:57.000Z",
-      "summary": "文，半呆君英伟达正在变成人工智能产业链的\"央行\"——发行标准，收取铸币税，把风险全部分配给制造端 7 月 25 日，韩总统访美。韩媒扔出一个震撼数字：9500 亿美元。集团与英伟达签 5000 亿，三星与博通签 2000 亿，电信要建 2 吉瓦人工智能工厂。举国梭哈，本文链接",
+      "publishedAt": "2026-07-26T14:42:54.000Z",
+      "summary": "在规模效应下，智能手机系统级芯片的性能和价格一直保持着微妙的平衡。但现在，这个脆弱的平衡正在被打破。就在这个周末，高通向全球客户发出调价通知，宣布自 9 月 1 日起对全系列芯片产品实施两位数百分比幅度的价格上调。这次调价，不仅会对手机、电脑市场产生影响，人工智能眼镜、智能手表等可穿戴市场也会受到本文链接",
       "topics": [
-        "算力芯片"
+        "算力芯片",
+        "端侧智能"
       ],
-      "heat": 94,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2502,39 +2504,38 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1v70ocb/a_super_fast_nonexpensive_alternative_to_motion/",
+      "id": "reddit-artificial-人工智能安全高亮问题",
+      "title": "人工智能安全高亮问题",
+      "url": "https://www.reddit.com/r/artificial/comments/1v70ov9/ai_security_is_falling_behindhugging_face_breach/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T10:57:37.000Z",
-      "summary": "在借助，性能，进入面向成本。成本 50！在 ; 控制模式，和，和。由",
+      "publishedAt": "2026-07-26T10:58:28.000Z",
+      "summary": "在，模型，设置在人工智能和。向模型，注入，模型，工具向和。面向研究和 : 在构建人工智能安全？信息技术？由",
       "topics": [
-        "产品应用",
-        "多模态",
-        "端侧智能"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
       "heat": 92,
-      "image": "https://external-preview.redd.it/b216eDg2ZTMya2ZoMTs5OQvc1Th5Wzc6nERdDzvQaFsvujQYpV5QWTPGvsT5.png?width=640&crop=smart&auto=webp&s=03a3a04cff184d35920adb9438db35ef8c22d550"
+      "image": "https://preview.redd.it/5axwpu752kfh1.png?width=640&crop=smart&auto=webp&s=0b4234c709c4d147b1ad7297802b17711eaa670e"
     },
     {
-      "id": "the-decoder-人工智能安全公司克劳德模型旗舰模型-5-交付-5-性能在词元",
-      "title": "人工智能安全公司克劳德模型旗舰模型 5 交付 5 性能在词元",
-      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+      "id": "the-decoder-旗舰模型-5-解决注入-安全人工智能智能体",
+      "title": "旗舰模型 5 解决注入，安全人工智能智能体",
+      "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-25T10:04:42.000Z",
-      "summary": "人工智能安全公司新模型克劳德模型旗舰模型 5 得分在编程和在 5 词元。在，通用人工智能，3，基准测试面向问题，旗舰模型 5 30.2。人工智能安全公司克劳德模型旗舰模型 5 交付 5 性能在词元首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-25T10:43:36.000Z",
+      "summary": "旗舰模型 5 借助模式注入面向智能体 129，3.7。在，人工智能安全公司安全问题人工智能智能体在。旗舰模型 5 解决注入，安全人工智能智能体首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2656,20 +2657,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-向构建大语言模型来自",
-      "title": "向构建大语言模型来自",
-      "url": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
+      "id": "towards-data-science-为什么新增人工智能智能体",
+      "title": "为什么新增人工智能智能体",
+      "url": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-22T15:00:00.000Z",
-      "summary": "向实际构建大语言模型推理，每个，在，由，呼吁，大语言模型，和最。向构建大语言模型来自首个在数据科学实战社区。",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "成本，中央处理器任务变成大语言模型智能体。为什么新增人工智能智能体首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "产品应用"
       ],
-      "heat": 53,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2741,20 +2741,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-智能编程工具也断了-开放人工智能公司三线齐崩-智能体时代的宕机账单怎么算",
-      "title": "智能编程工具也断了：开放人工智能公司三线齐崩，智能体时代的宕机账单怎么算",
-      "url": "https://news.cnblogs.com/n/833132/",
+      "id": "cnblogs-news-月之暗面夜店庆功背后-人工智能狂飙的逻辑-和我们正在失去的-慢",
+      "title": "月之暗面夜店庆功背后：人工智能狂飙的逻辑，和我们正在失去的“慢”",
+      "url": "https://news.cnblogs.com/n/833135/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T14:00:00.000Z",
-      "summary": "文，象先志 7 月 25 日傍晚，开放人工智能公司的接口、智能聊天助手、智能编程工具三线同时报错，31 个服务组件性能下降，1 小时 51 分钟后恢复。单次故障倒不算什么，最大问题是，开放人工智能公司已经连续 17 天没有过一个完全正常的日子。惊险一断北京时间 7 月 25 日 17 时本文链接",
+      "publishedAt": "2026-07-26T14:41:47.000Z",
+      "summary": "文，思策智库上周五深夜，北京著名的工体酒吧一条街上，一家名叫\"迈阿密\"的酒吧里，月之暗面的年轻人包下数十张卡座，大屏幕滚动着中英双语标语：“相关型号扩容升级，相关型号给我狠狠干到极致，冲上月球。”香槟、电子音乐和“ ”的呐喊，让这场庆功宴看起来与十年前的互联网创业派对并无二致。本文链接",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 98,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2776,33 +2775,33 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能面向向查看资金",
-      "title": "人工智能面向向查看资金",
-      "url": "https://www.reddit.com/r/artificial/comments/1v6ytlg/i_ran_a_faceless_ai_persona_account_for_six_weeks/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1v70ocb/a_super_fast_nonexpensive_alternative_to_motion/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-26T09:16:31.000Z",
-      "summary": "向实际，只是新借助人工智能。构建来自和每个。: 单个，视频。向，向，只是。由。使用人工智能面向，功能，和没有向借助。和，面向。面向使用，和在。部件实际。10，000 月。信息技术在。和机器人，帮助。在和只是向信息技术。和，借助和。在正确，: 和信息技术。在每个和每个人工智能，生成。很少有人在信息技术。没有护理关于，和没有。关于 2，400 在。视频 80，000。800。相关……",
+      "publishedAt": "2026-07-26T10:57:37.000Z",
+      "summary": "在借助，性能，进入面向成本。成本 50！在 ; 控制模式，和，和。由",
       "topics": [
-        "模型发布",
         "产品应用",
-        "多模态"
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 91,
-      "image": ""
+      "heat": 92,
+      "image": "https://external-preview.redd.it/b216eDg2ZTMya2ZoMTs5OQvc1Th5Wzc6nERdDzvQaFsvujQYpV5QWTPGvsT5.png?width=640&crop=smart&auto=webp&s=03a3a04cff184d35920adb9438db35ef8c22d550"
     },
     {
-      "id": "the-decoder-人工智能安全公司克劳德模型旗舰模型-5-成本顺利低于-5-信息技术最基准测试",
-      "title": "人工智能安全公司克劳德模型旗舰模型 5 成本顺利低于 5 信息技术最基准测试",
-      "url": "https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks/",
+      "id": "the-decoder-人工智能安全公司克劳德模型旗舰模型-5-交付-5-性能在词元",
+      "title": "人工智能安全公司克劳德模型旗舰模型 5 交付 5 性能在词元",
+      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-25T09:31:00.000Z",
-      "summary": "人工智能安全公司克劳德模型旗舰模型 5 智能借助 61，克劳德模型 5 和。模型得分在质量和编程，和成本向作为作为 5 在推理能力。在。人工智能安全公司克劳德模型旗舰模型 5 成本顺利低于 5 信息技术最基准测试首个在人工智能解码媒体。",
+      "publishedAt": "2026-07-25T10:04:42.000Z",
+      "summary": "人工智能安全公司新模型克劳德模型旗舰模型 5 得分在编程和在 5 词元。在，通用人工智能，3，基准测试面向问题，旗舰模型 5 30.2。人工智能安全公司克劳德模型旗舰模型 5 交付 5 性能在词元首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
