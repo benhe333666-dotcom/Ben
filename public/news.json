@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-07-27T11:23:06.210Z",
+  "generatedAt": "2026-07-27T11:53:31.317Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-27T11:30:00.000Z",
+  "nextUpdateHint": "2026-07-27T12:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-27T11:22:13.000Z"
+    "latestPublishedAt": "2026-07-27T11:37:06.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 71,
+      "count": 73,
       "heat": 75
     },
     {
       "name": "模型发布",
-      "count": 51,
+      "count": 50,
       "heat": 80
     },
     {
-      "name": "算力芯片",
-      "count": 28,
-      "heat": 87
+      "name": "监管安全",
+      "count": 32,
+      "heat": 78
     },
     {
-      "name": "监管安全",
-      "count": 31,
-      "heat": 77
+      "name": "算力芯片",
+      "count": 26,
+      "heat": 87
     },
     {
       "name": "人工智能动态",
@@ -37,19 +37,19 @@
       "heat": 69
     },
     {
-      "name": "研究论文",
-      "count": 17,
-      "heat": 72
+      "name": "开源生态",
+      "count": 16,
+      "heat": 78
     },
     {
-      "name": "开源生态",
-      "count": 15,
-      "heat": 77
+      "name": "研究论文",
+      "count": 16,
+      "heat": 70
     },
     {
       "name": "端侧智能",
-      "count": 11,
-      "heat": 79
+      "count": 10,
+      "heat": 77
     },
     {
       "name": "多模态",
@@ -58,13 +58,13 @@
     },
     {
       "name": "机器人",
-      "count": 8,
-      "heat": 85
+      "count": 7,
+      "heat": 83
     },
     {
       "name": "投融资",
       "count": 8,
-      "heat": 71
+      "heat": 70
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-07-23T18:30:00.000Z",
-      "latestDisplayedAt": "2026-07-23T18:30:00.000Z"
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-07-15T15:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -256,9 +256,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-07-23T12:00:00.000Z",
-      "latestDisplayedAt": "2026-07-23T12:00:00.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-07-27T11:32:58.000Z",
+      "latestDisplayedAt": "2026-07-27T11:32:58.000Z"
     },
     {
       "id": "the-decoder",
@@ -334,7 +334,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "HTTP 403",
       "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-07-27T01:01:54.000Z",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-27T09:55:17.000Z",
       "latestDisplayedAt": "2026-07-27T09:55:17.000Z"
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 18,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-07-27T07:52:00.000Z",
       "latestDisplayedAt": "2026-07-27T07:52:00.000Z"
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
+      "itemCount": 11,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-27T11:22:13.000Z",
-      "latestDisplayedAt": "2026-07-27T11:22:13.000Z"
+      "latestFetchedAt": "2026-07-27T11:37:06.000Z",
+      "latestDisplayedAt": "2026-07-27T11:37:06.000Z"
     },
     {
       "id": "ithome",
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 20,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 9,
       "displayedCount": 9,
       "latestFetchedAt": "2026-07-27T11:16:33.000Z",
       "latestDisplayedAt": "2026-07-27T11:16:33.000Z"
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-07-27T10:35:52.000Z",
       "latestDisplayedAt": "2026-07-27T10:35:52.000Z"
     },
@@ -480,27 +480,46 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-07-27T08:20:00.000Z",
-      "latestDisplayedAt": "2026-07-27T08:20:00.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-07-27T08:38:00.000Z",
+      "latestDisplayedAt": "2026-07-27T08:38:00.000Z"
     }
   ],
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-小米-第2代-5登全球周榜-月榜双第一",
-      "title": "小米-第2代.5登全球周榜、月榜双第一",
-      "url": "https://36kr.com/newsflashes/3913798998201732?f=rss",
+      "id": "thirty-six-kr-氪星晚报-美国大型企业告别裁员潮重启招聘-英伟达-微软-等数十家企业成立新联盟-旨在共同保障人工智能安全-光伏行业成本核算模型通",
+      "title": "氪星晚报｜美国大型企业告别裁员潮重启招聘；英伟达、微软、等数十家企业成立新联盟，旨在共同保障人工智能安全；《光伏行业成本核算模型通则》发布，引导行业有序竞争",
+      "url": "https://36kr.com/p/3913320648971395?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T11:22:13.000Z",
-      "summary": "36氪获悉，7月27日，最新数据显示，小米-第2代.5登上全球大模型调用量周榜、月榜双第一，成为当周全球调用量唯一突破相关型号的模型。5月以来，-第2代.5全球调用量持续攀升，单周词元量从相关型号逐步升至相关型号，两个月增长约 616%。",
+      "publishedAt": "2026-07-27T11:37:06.000Z",
+      "summary": "大公司：汇丰控股将在新加坡设全球人工智能卓越中心，并招聘超100名人工智能专家汇丰控股7月27日宣布，将于今年下半年在新加坡设立全球人工智能卓越中心（），旨在开发可扩展至集团全球网络的人工智能能力，并计划招聘100多名人工智能专家。声明称，该卓越中心初期将专注于提升客户财富管理体验、引入智能化的财资解决方案以及开发人工智能赋能的数字支付。（界面） 小米-第2代.5登全球周榜、……",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 96,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "mit-tech-review-ai-构建企业面向人工智能",
+      "title": "构建企业面向人工智能",
+      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "source": "麻省理工科技评论人工智能",
+      "sourceId": "mit-tech-review-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T11:32:58.000Z",
+      "summary": "面向企业，人工智能只是更好。信息技术软件智能体企业任务，向，企业工作流，数据，和。平台向智能体构建借助中央处理器，数据访问，政策，工具使用，记忆，和 …",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 95,
       "image": ""
     },
     {
@@ -582,24 +601,23 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/osaia-logo-garden_press-kit_1920x1080_V4.png"
     },
     {
-      "id": "cnblogs-news-旗舰模型-5砍掉超80-系统提示词-我们用人工智能的方式也该变了-附指南",
-      "title": "旗舰模型 5砍掉超80%系统提示词，我们用人工智能的方式也该变了 ｜附指南",
-      "url": "https://news.cnblogs.com/n/833205/",
+      "id": "cnblogs-news-就项目中的大语言模型使用进行决议",
+      "title": "就项目中的大语言模型使用进行决议",
+      "url": "https://news.cnblogs.com/n/833208/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T08:20:00.000Z",
-      "summary": "旗舰模型 5 上线，克劳德模型工程师在发文说，团队为克劳德模型旗舰模型 5、克劳德模型 5 这类新模型删掉了克劳德模型代码超过 80% 的系统提示词。删完后，他们重新跑了内部编码评测，没有测到性能损失。当大家还在研究怎么可以把规则写得更全，把提示词写得更本文链接",
+      "publishedAt": "2026-07-27T08:38:00.000Z",
+      "summary": "开发者正在就一项关于是否允许在软件项目中使用人工智能大语言模型（大语言模型）的通用决议展开讨论。方案一旨在明确禁止使用或借助大型语言模型 (大语言模型) 或其他生成式人工智能工具编写的任何贡献。此方案将涵盖源代码包、官方项目软件（ 本文链接",
       "topics": [
-        "模型发布",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 96,
+      "heat": 83,
       "image": ""
     },
     {
@@ -651,7 +669,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -703,7 +721,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -738,7 +756,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -847,40 +865,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-在-和微软规模-词元借助微软和",
-      "title": "在& 和微软规模，词元借助微软和",
-      "url": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-23T18:30:00.000Z",
-      "summary": "在& 词元微软，打开人工智能模型，和和英伟达图形处理器基础设施。模型和基础设施，规模人工智能。在& 和微软规模，词元借助微软和首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 70,
-      "image": ""
-    },
-    {
-      "id": "mit-tech-review-ai-人工智能帮助",
-      "title": "人工智能帮助",
-      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "source": "麻省理工科技评论人工智能",
-      "sourceId": "mit-tech-review-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "和新，失败。新向，在成本投资。和，最患者。面向，来自使用向…",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 49,
-      "image": ""
-    },
-    {
       "id": "google-research-迈向人工智能智能体面向",
       "title": ": 迈向人工智能智能体面向",
       "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
@@ -932,6 +916,22 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp"
     },
     {
+      "id": "thirty-six-kr-小米-第2代-5登全球周榜-月榜双第一",
+      "title": "小米-第2代.5登全球周榜、月榜双第一",
+      "url": "https://36kr.com/newsflashes/3913798998201732?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T11:22:13.000Z",
+      "summary": "36氪获悉，7月27日，最新数据显示，小米-第2代.5登上全球大模型调用量周榜、月榜双第一，成为当周全球调用量唯一突破相关型号的模型。5月以来，-第2代.5全球调用量持续攀升，单周词元量从相关型号逐步升至相关型号，两个月增长约 616%。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "ithome-无人驾驶出租车乱停车-在奥斯汀产生近万美元停车罚款",
       "title": "无人驾驶出租车乱停车？在奥斯汀产生近万美元停车罚款",
       "url": "https://www.ithome.com/0/982/215.htm",
@@ -950,22 +950,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-美宣称拟对中国人工智能企业开展调查并实施制裁-商务部回应",
-      "title": "美宣称拟对中国人工智能企业开展调查并实施制裁，商务部回应",
-      "url": "https://36kr.com/newsflashes/3913751496070536?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T10:33:54.000Z",
-      "summary": "商务部新闻发言人就美宣称拟对中国人工智能企业开展调查并实施制裁答记者问。问：近日，美国一些高级官员公开表示将针对中国人工智能企业所谓“蒸馏”美前沿模型开展调查，并可能以“窃取美国知识产权”等为由制裁中国企业。请问中方对此有何评论？答：我们注意到有关情况。中方一贯反对美方将科技经贸问题政治化、工具化，以各种莫须有的理由污名化中国企业并实施制裁。美方罔顾有关中国企业人工智能模型与……",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "oschina-微服务退潮-单体回温-人工智能时代-后端需要一场-瘦身革命",
       "title": "微服务退潮，单体回温：人工智能时代，后端需要一场 \"瘦身革命\"",
       "url": "https://my.oschina.net/u/2385344/blog/19727454",
@@ -978,7 +962,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -998,21 +982,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-对话昆仑万维方汉-世界模型-算账逻辑-之下-异构数据才是具身智能的解药",
-      "title": "对话昆仑万维方汉：世界模型“算账逻辑”之下，异构数据才是具身智能的解药",
-      "url": "https://news.cnblogs.com/n/833204/",
+      "id": "cnblogs-news-旗舰模型-5砍掉超80-系统提示词-我们用人工智能的方式也该变了-附指南",
+      "title": "旗舰模型 5砍掉超80%系统提示词，我们用人工智能的方式也该变了 ｜附指南",
+      "url": "https://news.cnblogs.com/n/833205/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T08:13:00.000Z",
-      "summary": "昆仑万维董事长兼首席执行官方汉如果说过去两年人工智能行业的绝对主角是大语言模型（大语言模型），那么今年无疑是各类形态各异的具身智能机器人与空间智能设备。在这个 2026 展区中，被层层围观、讨论最密集的赛道，从技术极客到产业资本，所有人抛出一个共同的疑问：具身智能的“智能聊天助手时刻” 本文链接",
+      "publishedAt": "2026-07-27T08:20:00.000Z",
+      "summary": "旗舰模型 5 上线，克劳德模型工程师在发文说，团队为克劳德模型旗舰模型 5、克劳德模型 5 这类新模型删掉了克劳德模型代码超过 80% 的系统提示词。删完后，他们重新跑了内部编码评测，没有测到性能损失。当大家还在研究怎么可以把规则写得更全，把提示词写得更本文链接",
       "topics": [
         "模型发布",
-        "产品应用",
-        "机器人"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1047,7 +1030,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/cpu-corp-blog-vera-superchip-1280x680-4939150.jpg"
     },
     {
@@ -1081,7 +1064,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1238,6 +1221,22 @@
       "image": ""
     },
     {
+      "id": "mit-tech-review-ai-人工智能帮助",
+      "title": "人工智能帮助",
+      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source": "麻省理工科技评论人工智能",
+      "sourceId": "mit-tech-review-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "和新，失败。新向，在成本投资。和，最患者。面向，来自使用向…",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 49,
+      "image": ""
+    },
+    {
       "id": "openai-news-在智能聊天助手",
       "title": "在智能聊天助手",
       "url": "https://openai.com/index/health-in-chatgpt",
@@ -1304,34 +1303,17 @@
       "image": ""
     },
     {
-      "id": "mit-tech-review-ai-人工智能借助科学",
-      "title": "人工智能借助科学",
-      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-      "source": "麻省理工科技评论人工智能",
-      "sourceId": "mit-tech-review-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-21T10:37:34.000Z",
-      "summary": "关于人工智能在，驱动，投资在新和数据中心。: 高级。每个新人工智能驱动，记忆，和…",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 54,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-汇丰控股将在新加坡设全球人工智能卓越中心-并招聘超100名人工智能专家",
-      "title": "汇丰控股将在新加坡设全球人工智能卓越中心，并招聘超100名人工智能专家",
-      "url": "https://36kr.com/newsflashes/3913742527714433?f=rss",
+      "id": "thirty-six-kr-美宣称拟对中国人工智能企业开展调查并实施制裁-商务部回应",
+      "title": "美宣称拟对中国人工智能企业开展调查并实施制裁，商务部回应",
+      "url": "https://36kr.com/newsflashes/3913751496070536?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T10:24:46.000Z",
-      "summary": "汇丰控股7月27日宣布，将于今年下半年在新加坡设立全球人工智能卓越中心（），旨在开发可扩展至集团全球网络的人工智能能力，并计划招聘100多名人工智能专家。声明称，该卓越中心初期将专注于提升客户财富管理体验、引入智能化的财资解决方案以及开发人工智能赋能的数字支付。（界面）",
+      "publishedAt": "2026-07-27T10:33:54.000Z",
+      "summary": "商务部新闻发言人就美宣称拟对中国人工智能企业开展调查并实施制裁答记者问。问：近日，美国一些高级官员公开表示将针对中国人工智能企业所谓“蒸馏”美前沿模型开展调查，并可能以“窃取美国知识产权”等为由制裁中国企业。请问中方对此有何评论？答：我们注意到有关情况。中方一贯反对美方将科技经贸问题政治化、工具化，以各种莫须有的理由污名化中国企业并实施制裁。美方罔顾有关中国企业人工智能模型与……",
       "topics": [
-        "人工智能动态"
+        "模型发布"
       ],
       "heat": 87,
       "image": ""
@@ -1367,7 +1349,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1387,20 +1369,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-最直白-最不绕弯子告诉你-为什么到处都是-人工智能手机",
-      "title": "最直白、最不绕弯子告诉你：为什么到处都是「人工智能手机」？",
-      "url": "https://news.cnblogs.com/n/833203/",
+      "id": "cnblogs-news-对话昆仑万维方汉-世界模型-算账逻辑-之下-异构数据才是具身智能的解药",
+      "title": "对话昆仑万维方汉：世界模型“算账逻辑”之下，异构数据才是具身智能的解药",
+      "url": "https://news.cnblogs.com/n/833204/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T08:06:00.000Z",
-      "summary": "智能手机曾以吞下无数设备，人工智能却开始挑战它的中心地位。智慧个体智能体被赋予更高权限，想象《她》里的 ¹：在新范式下，手机或许将从应用的容器，成为「智能」代理的新载体。这既是产品进化，也是一场由厂商、平台与用户参与的利益重组。爱范儿将持续记录智能手机的本文链接",
+      "publishedAt": "2026-07-27T08:13:00.000Z",
+      "summary": "昆仑万维董事长兼首席执行官方汉如果说过去两年人工智能行业的绝对主角是大语言模型（大语言模型），那么今年无疑是各类形态各异的具身智能机器人与空间智能设备。在这个 2026 展区中，被层层围观、讨论最密集的赛道，从技术极客到产业资本，所有人抛出一个共同的疑问：具身智能的“智能聊天助手时刻” 本文链接",
       "topics": [
+        "模型发布",
         "产品应用",
-        "端侧智能"
+        "机器人"
       ],
-      "heat": 88,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1469,7 +1452,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1607,6 +1590,23 @@
       "image": ""
     },
     {
+      "id": "mit-tech-review-ai-人工智能借助科学",
+      "title": "人工智能借助科学",
+      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "source": "麻省理工科技评论人工智能",
+      "sourceId": "mit-tech-review-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-21T10:37:34.000Z",
+      "summary": "关于人工智能在，驱动，投资在新和数据中心。: 高级。每个新人工智能驱动，记忆，和…",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 54,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-打开向机器人-数据",
       "title": ": 打开向机器人，数据",
       "url": "https://huggingface.co/blog/grabette",
@@ -1623,20 +1623,19 @@
       "image": ""
     },
     {
-      "id": "mit-tech-review-ai-人工智能模型人工智能在借助",
-      "title": "人工智能模型人工智能在借助",
-      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-      "source": "麻省理工科技评论人工智能",
-      "sourceId": "mit-tech-review-ai",
+      "id": "thirty-six-kr-汇丰控股将在新加坡设全球人工智能卓越中心-并招聘超100名人工智能专家",
+      "title": "汇丰控股将在新加坡设全球人工智能卓越中心，并招聘超100名人工智能专家",
+      "url": "https://36kr.com/newsflashes/3913742527714433?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-20T18:00:00.000Z",
-      "summary": "在，在人工智能。向在首个，这里，和向在人工智能在人工智能公司，人工智能和 …",
+      "publishedAt": "2026-07-27T10:24:46.000Z",
+      "summary": "汇丰控股7月27日宣布，将于今年下半年在新加坡设立全球人工智能卓越中心（），旨在开发可扩展至集团全球网络的人工智能能力，并计划招聘100多名人工智能专家。声明称，该卓越中心初期将专注于提升客户财富管理体验、引入智能化的财资解决方案以及开发人工智能赋能的数字支付。（界面）",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 54,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1658,22 +1657,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-开放人工智能公司将在爱尔兰设立新的欧盟总部-并新增250个工作岗位",
-      "title": "开放人工智能公司将在爱尔兰设立新的欧盟总部，并新增250个工作岗位",
-      "url": "https://36kr.com/newsflashes/3913739589981319?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T10:21:47.000Z",
-      "summary": "据报道，开放人工智能公司当地时间7月27日表示，将在爱尔兰设立新的欧盟总部，并在未来两年内新增250个工作岗位。（界面）",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
       "id": "oschina-模型开源-力破西方偏见",
       "title": "模型开源，力破西方偏见",
       "url": "https://www.oschina.net/news/480605",
@@ -1692,6 +1675,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-最直白-最不绕弯子告诉你-为什么到处都是-人工智能手机",
+      "title": "最直白、最不绕弯子告诉你：为什么到处都是「人工智能手机」？",
+      "url": "https://news.cnblogs.com/n/833203/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T08:06:00.000Z",
+      "summary": "智能手机曾以吞下无数设备，人工智能却开始挑战它的中心地位。智慧个体智能体被赋予更高权限，想象《她》里的 ¹：在新范式下，手机或许将从应用的容器，成为「智能」代理的新载体。这既是产品进化，也是一场由厂商、平台与用户参与的利益重组。爱范儿将持续记录智能手机的本文链接",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "qbitai-老黄-开源协议-就剩一家没签-是谁啊好难猜啊",
       "title": "老黄「开源协议」就剩一家没签，是谁啊好难猜啊",
       "url": "https://www.qbitai.com/2026/07/461341.html",
@@ -1706,22 +1706,6 @@
         "开源生态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-手握1000项专利的-药物狂人-为何在人工智能制药时代选择逆行",
-      "title": "手握1000项专利的“药物狂人”，为何在人工智能制药时代选择逆行？",
-      "url": "https://news.cnblogs.com/n/833198/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T07:25:00.000Z",
-      "summary": "2026 年 4 月，再生元（）联合创始人兼首席科学官乔治·扬科普洛斯（ ）受邀前往白宫。作为一个平时更习惯穿皮夹克的人，团队花了些时间才说服他换上一套西装。乔治最终还是给这身正式装束留下了一点个人印记：胸前那条花领带，由他的导师、诺贝尔化学奖得本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 83,
       "image": ""
     },
     {
@@ -1774,7 +1758,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1914,6 +1898,39 @@
       "image": ""
     },
     {
+      "id": "mit-tech-review-ai-人工智能模型人工智能在借助",
+      "title": "人工智能模型人工智能在借助",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "source": "麻省理工科技评论人工智能",
+      "sourceId": "mit-tech-review-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-20T18:00:00.000Z",
+      "summary": "在，在人工智能。向在首个，这里，和向在人工智能在人工智能公司，人工智能和 …",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 54,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-开放人工智能公司将在爱尔兰设立新的欧盟总部-并新增250个工作岗位",
+      "title": "开放人工智能公司将在爱尔兰设立新的欧盟总部，并新增250个工作岗位",
+      "url": "https://36kr.com/newsflashes/3913739589981319?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T10:21:47.000Z",
+      "summary": "据报道，开放人工智能公司当地时间7月27日表示，将在爱尔兰设立新的欧盟总部，并在未来两年内新增250个工作岗位。（界面）",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "ithome-联想扩建美国北卡制造基地-占地面积翻倍至-89-万平方英尺",
       "title": "联想扩建美国北卡制造基地，占地面积翻倍至 89 万平方英尺",
       "url": "https://www.ithome.com/0/982/190.htm",
@@ -1927,24 +1944,6 @@
         "端侧智能"
       ],
       "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-三星电子确认相关型号将采用2纳米工艺-速度较相关型号提升50-以上",
-      "title": "三星电子确认相关型号将采用2纳米工艺，速度较相关型号提升50%以上",
-      "url": "https://36kr.com/newsflashes/3913734184244361?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T10:16:17.000Z",
-      "summary": "三星电子7月27日发布对公司半导体事业部技术开发室长具子铉的采访。具子铉表示，预计下一代相关型号内存的运行速度将比相关型号快50%以上，“相关型号基础芯片将采用结构的2纳米工艺，并实现更高集成度的硅通孔（）”。具子铉称，三星电子将基于在4纳米相关型号基础芯片上获得的经验和技术竞争力，提前在相关型号中引入2纳米工艺，并拓展与移动、人工智能、汽车电子、机器人等领域的客户合作，引领……",
-      "topics": [
-        "算力芯片",
-        "端侧智能",
-        "机器人"
-      ],
-      "heat": 97,
       "image": ""
     },
     {
@@ -1964,20 +1963,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-办卡不送行李箱送词元-你会为了人工智能办卡吗",
-      "title": "办卡不送行李箱送词元，你会为了人工智能办卡吗？",
-      "url": "https://news.cnblogs.com/n/833194/",
+      "id": "cnblogs-news-手握1000项专利的-药物狂人-为何在人工智能制药时代选择逆行",
+      "title": "手握1000项专利的“药物狂人”，为何在人工智能制药时代选择逆行？",
+      "url": "https://news.cnblogs.com/n/833198/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T06:52:00.000Z",
-      "summary": "文，江瀚视野今年以来，如果要问什么最火？以为代表的人工智能智能体可以说是当红炸子鸡，就连与人工智能相对比较遥远的银行都亲自下场了，当办银行卡都不送行李箱改送词元的时候，让人不禁想问你会为了人工智能去办张信用卡吗？一、办卡不送行李箱改送词元据时代周本文链接",
+      "publishedAt": "2026-07-27T07:25:00.000Z",
+      "summary": "2026 年 4 月，再生元（）联合创始人兼首席科学官乔治·扬科普洛斯（ ）受邀前往白宫。作为一个平时更习惯穿皮夹克的人，团队花了些时间才说服他换上一套西装。乔治最终还是给这身正式装束留下了一点个人印记：胸前那条花领带，由他的导师、诺贝尔化学奖得本文链接",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2239,20 +2237,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-开源之争-撕裂硅谷",
-      "title": "开源之争，撕裂硅谷",
-      "url": "https://news.cnblogs.com/n/833191/",
+      "id": "cnblogs-news-办卡不送行李箱送词元-你会为了人工智能办卡吗",
+      "title": "办卡不送行李箱送词元，你会为了人工智能办卡吗？",
+      "url": "https://news.cnblogs.com/n/833194/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T06:27:00.000Z",
-      "summary": "文｜熔财经，作者｜每文 7 月 24 日，黄仁勋发出了人生第一条（原推特）。这位英伟达掌门人没有发布新架构，也没有晒财报数据，而是转发了一封由 25 家科技公司联署的公开信，核心主张只有一个：全力支持开放权重人工智能模型。同一天站队的，还有元宇宙平台公司、微软、戴尔，甚至包括本文链接",
+      "publishedAt": "2026-07-27T06:52:00.000Z",
+      "summary": "文，江瀚视野今年以来，如果要问什么最火？以为代表的人工智能智能体可以说是当红炸子鸡，就连与人工智能相对比较遥远的银行都亲自下场了，当办银行卡都不送行李箱改送词元的时候，让人不禁想问你会为了人工智能去办张信用卡吗？一、办卡不送行李箱改送词元据时代周本文链接",
       "topics": [
-        "算力芯片",
-        "开源生态"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 95,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2318,7 +2316,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": ""
     },
     {
@@ -2459,6 +2457,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-开源之争-撕裂硅谷",
+      "title": "开源之争，撕裂硅谷",
+      "url": "https://news.cnblogs.com/n/833191/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T06:27:00.000Z",
+      "summary": "文｜熔财经，作者｜每文 7 月 24 日，黄仁勋发出了人生第一条（原推特）。这位英伟达掌门人没有发布新架构，也没有晒财报数据，而是转发了一封由 25 家科技公司联署的公开信，核心主张只有一个：全力支持开放权重人工智能模型。同一天站队的，还有元宇宙平台公司、微软、戴尔，甚至包括本文链接",
+      "topics": [
+        "算力芯片",
+        "开源生态"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-36氪首发-前大疆工程师创业做智能网球发球机-产品已开启海外市场批量交付",
       "title": "36氪首发，前大疆工程师创业做智能网球发球机，产品已开启海外市场批量交付",
       "url": "https://36kr.com/p/3913490184754313?f=rss",
@@ -2473,23 +2488,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-一个人工智能时代的旧神-换个马甲就能赚钱",
-      "title": "一个人工智能时代的旧神，换个马甲就能赚钱？",
-      "url": "https://news.cnblogs.com/n/833188/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T06:00:00.000Z",
-      "summary": "作者|二毛汤师爷说：生意嘛，挣钱，不寒碜。于是，李开复的故事又找到了新的豁口，“零一万物要成为第一家赚钱的人工智能公司。” 01 新的故事脚本写好了相同的故事，李开复已经说一年了。从 2025 年 8 月接受《中国企业家杂志》专访，到最近虎嗅对李开复发起独家对话的内容来看，李开复的对外叙事几乎本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 81,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2541,7 +2540,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2678,24 +2677,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-相关型号测试时-觉醒-我们找到了测试系统的第一作者",
-      "title": "相关型号测试时“觉醒”，我们找到了测试系统的第一作者",
-      "url": "https://news.cnblogs.com/n/833182/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T05:10:00.000Z",
-      "summary": "文，字母人工智能你敢信吗，开放人工智能公司的研究人员只是因为在办公室测试了一下新模型，结果公司就要面临 1 亿美元的赔偿。首席执行官克莱芒·德朗格在上发文，要求开放人工智能公司提供给价值 1 亿美元的算力资源，以帮助本文链接",
-      "topics": [
-        "模型发布",
-        "算力芯片",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "qbitai-企业出海-被中国信通院和腾讯重新定义了一次",
       "title": "企业出海，被中国信通院和腾讯重新定义了一次",
       "url": "https://www.qbitai.com/2026/07/461153.html",
@@ -2712,15 +2693,15 @@
       "image": ""
     },
     {
-      "id": "oschina-就项目中的大语言模型使用进行决议",
-      "title": "就项目中的大语言模型使用进行决议",
-      "url": "https://www.oschina.net/news/480266/debian-gr-llm-usage",
+      "id": "oschina-怎么选-一文看懂架构与适用场景",
+      "title": "怎么选？一文看懂架构与适用场景",
+      "url": "https://my.oschina.net/u/5389802/blog/19726712",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T03:37:08.000Z",
-      "summary": "开发者正在就一项关于是否允许在软件项目中使用人工智能大语言模型（大语言模型）的通用决议展开讨论。方案一旨在明确禁止使用或借助大型语言模型 (大语言模型) 或其他生成式人工智能工具编写的任何贡献。此方案将涵盖源代码包、官方项目软件（例如 ）、网络资源、贡献者添加的文。",
+      "publishedAt": "2026-07-27T03:23:42.000Z",
+      "summary": "这篇文章会先从人工智能工作负载的典型 / 模式出发，梳理不同业务对存储系统提出的实际挑战；随后围绕、和展开比较，分析它们在架构设计、文件系统语义、缓存机制、成本模型和适用边界上的差异，以及它们在不同人工智能场景中的适用性。",
       "topics": [
         "人工智能动态"
       ],
@@ -2742,7 +2723,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2861,6 +2842,23 @@
         "多模态"
       ],
       "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "oschina-第0代-1-5-发布-写入性能大幅提升",
+      "title": "第0代.1.5 发布 · 写入性能大幅提升",
+      "url": "https://www.oschina.net/news/480213/databuff-0-1-5-released",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T02:39:33.000Z",
+      "summary": "是一款面向云原生与微服务场景的开源人工智能，采用标准接入、阿帕奇统一存储，端提供拓扑 / / 指标与多智能体排障。项目已在软件库收录：://// 今天，正式发布第0代.1.5（2026-07-21）。相对第0代.1.4 共 25 个提交。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 84,
       "image": ""
     }
   ]
