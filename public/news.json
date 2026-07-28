@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-28T20:26:17.042Z",
+  "generatedAt": "2026-07-28T20:56:18.776Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-07-28T20:30:00.000Z",
+  "nextUpdateHint": "2026-07-28T21:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-07-28T20:17:48.000Z"
+    "latestPublishedAt": "2026-07-28T20:54:15.000Z"
   },
   "topics": [
     {
@@ -18,18 +18,23 @@
     },
     {
       "name": "模型发布",
-      "count": 50,
-      "heat": 87
-    },
-    {
-      "name": "监管安全",
-      "count": 28,
-      "heat": 85
+      "count": 49,
+      "heat": 88
     },
     {
       "name": "算力芯片",
       "count": 25,
       "heat": 86
+    },
+    {
+      "name": "监管安全",
+      "count": 25,
+      "heat": 85
+    },
+    {
+      "name": "投融资",
+      "count": 19,
+      "heat": 89
     },
     {
       "name": "研究论文",
@@ -42,14 +47,9 @@
       "heat": 73
     },
     {
-      "name": "投融资",
-      "count": 18,
-      "heat": 89
-    },
-    {
       "name": "开源生态",
-      "count": 11,
-      "heat": 75
+      "count": 13,
+      "heat": 78
     },
     {
       "name": "端侧智能",
@@ -59,12 +59,12 @@
     {
       "name": "多模态",
       "count": 8,
-      "heat": 86
+      "heat": 85
     },
     {
       "name": "机器人",
       "count": 8,
-      "heat": 78
+      "heat": 77
     }
   ],
   "sources": [
@@ -143,10 +143,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 6,
+      "itemCount": 7,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-07-28T01:23:10.000Z",
-      "latestDisplayedAt": "2026-07-28T01:23:10.000Z"
+      "latestFetchedAt": "2026-07-28T19:10:45.000Z",
+      "latestDisplayedAt": "2026-07-28T19:10:45.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-07-28T20:17:08.000Z",
-      "latestDisplayedAt": "2026-07-28T15:42:26.000Z"
+      "latestFetchedAt": "2026-07-28T20:45:12.000Z",
+      "latestDisplayedAt": "2026-07-28T20:45:12.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-07-28T19:55:50.000Z",
-      "latestDisplayedAt": "2026-07-28T19:55:50.000Z"
+      "latestFetchedAt": "2026-07-28T20:54:15.000Z",
+      "latestDisplayedAt": "2026-07-28T20:54:15.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -488,6 +488,39 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-人工智能软件",
+      "title": "人工智能软件",
+      "url": "https://www.reddit.com/r/artificial/comments/1v9ave9/pewdiepies_ai_experiment_is_what_software/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-28T20:54:15.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": "https://external-preview.redd.it/-Ewy-5oKE1Sj0zhF13yvv3pbQt4Ha_c64JSUMz2tc8A.jpeg?width=640&crop=smart&auto=webp&s=0803672467de5d9f5160f058358d5a297205ee25"
+    },
+    {
+      "id": "techcrunch-ai-创业公司产品",
+      "title": "创业公司产品",
+      "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-28T20:45:12.000Z",
+      "summary": "评估创业公司产品和向构建。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "ithome-恩智浦-2026-财年第二财季归母净利润-7-67-亿美元-同比增长-72",
       "title": "恩智浦 2026 财年第二财季归母净利润 7.67 亿美元，同比增长 72%",
       "url": "https://www.ithome.com/0/982/791.htm",
@@ -520,24 +553,6 @@
       ],
       "heat": 89,
       "image": "https://media.wired.com/photos/6a68eaf74f75fc1c0d7f7718/master/pass/Ebay%20Harrasment%2002.jpg"
-    },
-    {
-      "id": "reddit-artificial-克劳德模型预览-研究在人工智能安全公司改进向使用向持续数据",
-      "title": "克劳德模型预览，研究在人工智能安全公司改进向使用向持续数据",
-      "url": "https://www.reddit.com/r/artificial/comments/1v99cuk/using_claude_mythos_preview_researchers_at/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-28T19:55:50.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": "https://external-preview.redd.it/USsEr81T7tF0aI9oNoP0K-OrNF3HJhsCbTXK7cgeiAE.png?width=640&crop=smart&auto=webp&s=9df9ff9c6956cb8a6350bd87170c0fd9f3a5d0cb"
     },
     {
       "id": "the-verge-ai-人工智能政府向关于自动化人工智能",
@@ -575,6 +590,24 @@
       "image": ""
     },
     {
+      "id": "github-changelog-4-5-现已可用在代码托管平台智能编程助手",
+      "title": "4.5 现已可用在代码托管平台智能编程助手",
+      "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-28T19:10:45.000Z",
+      "summary": "4.5，推理能力模型，在代码托管平台智能编程助手。信息技术面向，编程和工作流，借助上下文 … 4.5 现已可用在代码托管平台智能编程助手首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "openai-news-在人工智能",
       "title": "在人工智能",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -605,7 +638,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -621,7 +654,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -642,22 +675,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp"
     },
     {
-      "id": "techcrunch-ai-数据中心驱动向在",
-      "title": "数据中心驱动向在",
-      "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-28T15:42:26.000Z",
-      "summary": "决策作为数据中心向生成驱动。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
       "title": "技术社区人工智能热榜发布人工智能相关动态。",
       "url": "https://arxiv.org/abs/1202.4212",
@@ -670,7 +687,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -706,7 +723,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -722,7 +739,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -756,7 +773,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -774,7 +791,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -790,7 +807,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -807,25 +824,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-代码托管平台智能编程助手面向新增改进和模型",
-      "title": "代码托管平台智能编程助手面向新增改进和模型",
-      "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-28T01:23:10.000Z",
-      "summary": "更新带来控制和向代码托管平台智能编程助手面向工作流。和智能体在克劳德模型智能体，和… 代码托管平台智能编程助手面向新增改进和模型首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 93,
+      "heat": 85,
       "image": ""
     },
     {
@@ -841,7 +840,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg"
     },
     {
@@ -858,7 +857,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -894,7 +893,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -933,6 +932,24 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/SymptomAI1_Overview.png"
     },
     {
+      "id": "reddit-artificial-我们构建人工智能-平台-智能体-智能体-检索增强生成-在",
+      "title": "我们构建人工智能 + 平台，智能体，智能体，检索增强生成，在",
+      "url": "https://www.reddit.com/r/artificial/comments/1v9apu0/we_built_a_selfhostable_agentic_ai_bi_platform/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-28T20:48:30.000Z",
+      "summary": "构建人工智能平台，和最时间。信息技术。智能体，工具，和面向。规则作为作为智能体查看，在，和时刻。很少有人智能体答案问题数据信息技术，和答案和来源，信息技术作为。构建 : 平台智能体，和规则。模型，呼吁来自，工作流。信息技术，在模型，和数据在。信息技术 : :，代码托管平台，关于信息技术: 信息技术，和信息技术由。信息技术来源，可用许可 2.0 开源，和信息技术，信息技术作为服……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 96,
+      "image": "https://preview.redd.it/v4vae56h81gh1.png?width=640&crop=smart&auto=webp&s=6c27faf9b085a57c324f639791baeb861eda99cb"
+    },
+    {
       "id": "ithome-罗技-2027-财年第一财季归母净利润-2-36-亿美元-同比增长-61-42",
       "title": "罗技 2027 财年第一财季归母净利润 2.36 亿美元，同比增长 61.42%",
       "url": "https://www.ithome.com/0/982/788.htm",
@@ -951,23 +968,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能编程工具得到",
-      "title": "人工智能编程工具得到",
-      "url": "https://www.reddit.com/r/artificial/comments/1v98szp/ai_coding_tools_are_saving_me_hours_but_i/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-28T19:36:13.000Z",
-      "summary": "人工智能编程工具得到借助最编程时间 90。进入和克劳德模型向交付更快。和信息技术。持续借助: 交付功能在。在，时刻向向人工智能和为什么。使用向。信息技术，信息技术。很少有人和信息技术。向产品在，面向向。成本，帮助向。和。产品只是关于工具。技能只是技能。: 人工智能编程工具更快，: 实际人工智能面向，编程面向团队信息技术？由",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-人工智能向",
       "title": "人工智能向",
       "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
@@ -980,7 +980,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -998,7 +998,23 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-数据中心驱动向在",
+      "title": "数据中心驱动向在",
+      "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-28T15:42:26.000Z",
+      "summary": "决策作为数据中心向生成驱动。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -1034,24 +1050,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-音频-52-百万向构建人工智能模型面向和",
-      "title": "音频 $52 百万向构建人工智能模型面向和",
-      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-28T14:00:00.000Z",
-      "summary": "创业公司 8 百万开源模型，和生成 $21 百万。",
-      "topics": [
-        "模型发布",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "google-ai-blog-5-向借助谷歌",
       "title": "5 向借助谷歌",
       "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
@@ -1081,7 +1079,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1148,7 +1146,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1181,25 +1179,25 @@
         "监管安全",
         "机器人"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "github-changelog-代码托管平台智能编程助手应用访问借助政策",
-      "title": "代码托管平台智能编程助手应用访问借助政策",
-      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "id": "github-changelog-代码托管平台智能编程助手面向新增改进和模型",
+      "title": "代码托管平台智能编程助手面向新增改进和模型",
+      "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
       "source": "代码托管平台更新日志",
       "sourceId": "github-changelog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-27T20:43:37.000Z",
-      "summary": "代码托管平台智能编程助手应用政策，控制访问向信息技术在企业和组织，访问向智能副驾… 代码托管平台智能编程助手应用访问借助政策首个在代码托管平台。",
+      "publishedAt": "2026-07-28T01:23:10.000Z",
+      "summary": "更新带来控制和向代码托管平台智能编程助手面向工作流。和智能体在克劳德模型智能体，和… 代码托管平台智能编程助手面向新增改进和模型首个在代码托管平台。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1269,7 +1267,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/osaia-logo-garden_press-kit_1920x1080._V5.png"
     },
     {
@@ -1287,7 +1285,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1324,20 +1322,22 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/RL_for__QEC-2.png"
     },
     {
-      "id": "reddit-artificial-人工智能帮助",
-      "title": "人工智能帮助",
-      "url": "https://www.reddit.com/r/artificial/comments/1v96jot/ai_is_helping_investigators_identify_possible/",
+      "id": "reddit-artificial-克劳德模型预览-研究在人工智能安全公司改进向使用向持续数据",
+      "title": "克劳德模型预览，研究在人工智能安全公司改进向使用向持续数据",
+      "url": "https://www.reddit.com/r/artificial/comments/1v99cuk/using_claude_mythos_preview_researchers_at/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T18:17:21.000Z",
+      "publishedAt": "2026-07-28T19:55:50.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "投融资"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/03yOI4xyGQMuckVC8b13frJTywHq4hRoakLIWNMh9Bc.jpeg?width=640&crop=smart&auto=webp&s=6b0648579a793ede54f3da862f8b523815779fee"
+      "heat": 99,
+      "image": "https://external-preview.redd.it/USsEr81T7tF0aI9oNoP0K-OrNF3HJhsCbTXK7cgeiAE.png?width=640&crop=smart&auto=webp&s=9df9ff9c6956cb8a6350bd87170c0fd9f3a5d0cb"
     },
     {
       "id": "ithome-赛博朋克-边缘行者-衍生相关型号格斗游戏曝光-工作室开发",
@@ -1353,6 +1353,24 @@
         "模型发布"
       ],
       "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-音频-52-百万向构建人工智能模型面向和",
+      "title": "音频 $52 百万向构建人工智能模型面向和",
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-28T14:00:00.000Z",
+      "summary": "创业公司 8 百万开源模型，和生成 $21 百万。",
+      "topics": [
+        "模型发布",
+        "投融资",
+        "多模态"
+      ],
+      "heat": 95,
       "image": ""
     },
     {
@@ -1372,22 +1390,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-410-百万借助亚马逊",
-      "title": "$410 百万借助亚马逊",
-      "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-28T13:19:17.000Z",
-      "summary": "在人工智能预算和设置进入，作为公司向自动化产品。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "the-decoder-英伟达员工在芯片",
       "title": "英伟达员工在芯片",
       "url": "https://the-decoder.com/taiwan-detains-nvidia-employee-in-widening-china-chip-smuggling-probe/",
@@ -1401,7 +1403,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1434,7 +1436,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1467,7 +1469,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://media.wired.com/photos/6a63fc68cbf9442761b08e12/master/pass/How-Nonprofits-Preparing-for-Flood-of-Philanthropy-After-Anthropic-OpenAI-Go-Public-Business.jpg"
     },
     {
@@ -1501,7 +1503,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1517,7 +1519,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1534,6 +1536,24 @@
         "人工智能动态"
       ],
       "heat": 78,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-代码托管平台智能编程助手应用访问借助政策",
+      "title": "代码托管平台智能编程助手应用访问借助政策",
+      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-27T20:43:37.000Z",
+      "summary": "代码托管平台智能编程助手应用政策，控制访问向信息技术在企业和组织，访问向智能副驾… 代码托管平台智能编程助手应用访问借助政策首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 81,
       "image": ""
     },
     {
@@ -1572,23 +1592,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-企业在代码托管平台智能编程助手应用和智能副驾云服务智能体",
-      "title": "企业在代码托管平台智能编程助手应用和智能副驾云服务智能体",
-      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-27T17:00:35.000Z",
-      "summary": "代码托管平台智能编程助手应用和智能副驾云服务智能体借助企业，使用向控制智能副驾企业。借助… 企业在代码托管平台智能编程助手应用和智能副驾云服务智能体首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 73,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-英伟达-带来-时间仿真向机器人",
       "title": "英伟达 : 带来，时间仿真向机器人",
       "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
@@ -1619,7 +1622,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/cpu-corp-blog-vera-superchip-1280x680-4939150.jpg"
     },
     {
@@ -1690,21 +1693,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-信息技术面向人工智能-生成向-和",
-      "title": "信息技术面向人工智能，生成向，和？",
-      "url": "https://www.reddit.com/r/artificial/comments/1v9502v/what_does_it_mathematically_mean_for_an/",
+      "id": "reddit-artificial-人工智能编程工具得到",
+      "title": "人工智能编程工具得到",
+      "url": "https://www.reddit.com/r/artificial/comments/1v98szp/ai_coding_tools_are_saving_me_hours_but_i/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T17:23:25.000Z",
-      "summary": "在研究，向创建更好大语言模型，向创建关于人工智能面向。最研究在人工智能更好，向。问题 : 信息技术面向向，和？借助答案，向查看。问题试图向答案 : 作为？信息技术向真相？信息技术来自，拓扑？作为物体借助，和？在人工智能只是模型，和来自？向构建信息技术来自？使用？认为关于向，向逻辑化，向。向认为作为，向关于信息技术。面向在论文，向。面向在认为。借助？最在来自在，和人工智能。在来……",
+      "publishedAt": "2026-07-28T19:36:13.000Z",
+      "summary": "人工智能编程工具得到借助最编程时间 90。进入和克劳德模型向交付更快。和信息技术。持续借助: 交付功能在。在，时刻向向人工智能和为什么。使用向。信息技术，信息技术。很少有人和信息技术。向产品在，面向向。成本，帮助向。和。产品只是关于工具。技能只是技能。: 人工智能编程工具更快，: 实际人工智能面向，编程面向团队信息技术？由",
       "topics": [
         "模型发布",
-        "产品应用",
-        "研究论文"
+        "产品应用"
       ],
-      "heat": 93,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1722,6 +1724,22 @@
         "投融资"
       ],
       "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-410-百万借助亚马逊",
+      "title": "$410 百万借助亚马逊",
+      "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-28T13:19:17.000Z",
+      "summary": "在人工智能预算和设置进入，作为公司向自动化产品。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 85,
       "image": ""
     },
     {
@@ -1773,7 +1791,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1822,24 +1840,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司-打开-模型-中国人工智能",
-      "title": "人工智能安全公司 : 打开，模型，中国人工智能",
-      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-28T00:13:33.000Z",
-      "summary": "人工智能安全公司和首席执行官关于打开，模型和人工智能。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 87,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1876,6 +1877,23 @@
         "研究论文"
       ],
       "heat": 77,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-企业在代码托管平台智能编程助手应用和智能副驾云服务智能体",
+      "title": "企业在代码托管平台智能编程助手应用和智能副驾云服务智能体",
+      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-27T17:00:35.000Z",
+      "summary": "代码托管平台智能编程助手应用和智能副驾云服务智能体借助企业，使用向控制智能副驾企业。借助… 企业在代码托管平台智能编程助手应用和智能副驾云服务智能体首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 73,
       "image": ""
     },
     {
@@ -1926,24 +1944,6 @@
       ],
       "heat": 49,
       "image": "https://media.wired.com/photos/6a5956e5204d70a89778c8b1/master/pass/Made-In-China-China-Vape-Makers-Have-New-Way-Around-Flavor-Bans-Business.jpg"
-    },
-    {
-      "id": "github-changelog-克劳德模型旗舰模型-5-现已可用在代码托管平台智能编程助手",
-      "title": "克劳德模型旗舰模型 5 现已可用在代码托管平台智能编程助手",
-      "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-24T16:40:04.000Z",
-      "summary": "克劳德模型旗舰模型 5，人工智能安全公司旗舰模型模型，现已可用在代码托管平台智能编程助手。信息技术面向，编程任务推理能力，工具使用，和 … 克劳德模型旗舰模型 5 现已可用在代码托管平台智能编程助手首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 69,
-      "image": ""
     },
     {
       "id": "ars-technica-ai-人工智能数据中心",
@@ -2011,22 +2011,20 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "reddit-artificial-人工智能工具面向实际很少有人关于",
-      "title": "人工智能工具面向实际很少有人关于",
-      "url": "https://www.reddit.com/r/artificial/comments/1v93ln8/ai_tools_for_real_estate_lead_gen_actually_work/",
+      "id": "reddit-artificial-人工智能帮助",
+      "title": "人工智能帮助",
+      "url": "https://www.reddit.com/r/artificial/comments/1v96jot/ai_is_helping_investigators_identify_possible/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T16:34:06.000Z",
-      "summary": "人工智能在面向，借助自动化。在论文信息技术和高效。部件很少有人在人工智能，和。人工智能，只是。许可。工具。大语言模型转化数据进入在 30。借助人工智能在。部件。每个信息技术和信息技术。信息技术在自动化。向演示。这里构建在人工智能，和实际模型和在。由",
+      "publishedAt": "2026-07-28T18:17:21.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
+        "投融资"
       ],
-      "heat": 92,
-      "image": ""
+      "heat": 83,
+      "image": "https://external-preview.redd.it/03yOI4xyGQMuckVC8b13frJTywHq4hRoakLIWNMh9Bc.jpeg?width=640&crop=smart&auto=webp&s=6b0648579a793ede54f3da862f8b523815779fee"
     },
     {
       "id": "ithome-发布相关型号控制器与-3-2-3-内存控制器",
@@ -2041,7 +2039,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2094,7 +2092,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2142,23 +2140,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-公司人工智能面向",
-      "title": "公司人工智能面向",
-      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "id": "techcrunch-ai-人工智能安全公司-打开-模型-中国人工智能",
+      "title": "人工智能安全公司 : 打开，模型，中国人工智能",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T21:17:11.000Z",
-      "summary": "公司模型，人工智能基础设施作为人工智能向独立来自模型，在。",
+      "publishedAt": "2026-07-28T00:13:33.000Z",
+      "summary": "人工智能安全公司和首席执行官关于打开，模型和人工智能。",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 71,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2279,20 +2278,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-和限制大语言模型智能",
-      "title": "和限制大语言模型智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1v93evv/godel_and_the_limits_of_llm_reachable_intelligence/",
+      "id": "reddit-artificial-信息技术面向人工智能-生成向-和",
+      "title": "信息技术面向人工智能，生成向，和？",
+      "url": "https://www.reddit.com/r/artificial/comments/1v9502v/what_does_it_mathematically_mean_for_an/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T16:27:15.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-07-28T17:23:25.000Z",
+      "summary": "在研究，向创建更好大语言模型，向创建关于人工智能面向。最研究在人工智能更好，向。问题 : 信息技术面向向，和？借助答案，向查看。问题试图向答案 : 作为？信息技术向真相？信息技术来自，拓扑？作为物体借助，和？在人工智能只是模型，和来自？向构建信息技术来自？使用？认为关于向，向逻辑化，向。向认为作为，向关于信息技术。面向在论文，向。面向在认为。借助？最在来自在，和人工智能。在来……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 82,
-      "image": "https://external-preview.redd.it/HrJv5HRiFCxK1i7yaa7WCj9HtriqsbbwzJM8q6vEB_I.png?width=640&crop=smart&auto=webp&s=63e08590fda0c03e6fc7e792263e387f4d57b58d"
+      "heat": 93,
+      "image": ""
     },
     {
       "id": "ithome-前沿人工智能模型限制令生效之际-开放人工智能公司奥尔特曼本周将赴华盛顿",
@@ -2308,7 +2309,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2326,7 +2327,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2390,24 +2391,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-克劳德模型分享和在谷歌",
-      "title": ": 克劳德模型分享和在谷歌",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "id": "techcrunch-ai-公司人工智能面向",
+      "title": "公司人工智能面向",
+      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-27T20:19:42.000Z",
-      "summary": "向来自克劳德模型分享功能，用户向创建借助。",
+      "publishedAt": "2026-07-27T21:17:11.000Z",
+      "summary": "公司模型，人工智能基础设施作为人工智能向独立来自模型，在。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "模型发布"
       ],
-      "heat": 84,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2514,19 +2514,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-在-3-舞台-人工智能-我们向",
-      "title": "在 3，舞台，人工智能。我们向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1v92xa9/my_take_on_the_3stage_evolution_of_humanai/",
+      "id": "reddit-artificial-人工智能工具面向实际很少有人关于",
+      "title": "人工智能工具面向实际很少有人关于",
+      "url": "https://www.reddit.com/r/artificial/comments/1v93ln8/ai_tools_for_real_estate_lead_gen_actually_work/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T16:10:01.000Z",
-      "summary": "认为关于，人工智能实际，和借助 3，舞台借助人工智能可能。认为。我们人工智能只是工具。在。只是帮助更快，人工智能，修复限制借助记忆和。在，信息技术我们 : 1:。人工智能和在。我们向信息技术数据，和信息技术。2: 合作伙伴。我们。人工智能实际，和我们由向更快和新。3: 指南。部件。限制，构建。人工智能，人工智能查看和关于我们。在。我们成为，和人工智能指南。我们人工智能向和帮助……",
+      "publishedAt": "2026-07-28T16:34:06.000Z",
+      "summary": "人工智能在面向，借助自动化。在论文信息技术和高效。部件很少有人在人工智能，和。人工智能，只是。许可。工具。大语言模型转化数据进入在 30。借助人工智能在。部件。每个信息技术和信息技术。信息技术在自动化。向演示。这里构建在人工智能，和实际模型和在。由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 82,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2544,7 +2546,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2562,7 +2564,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2613,7 +2615,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-克劳德模型分享和在谷歌",
+      "title": ": 克劳德模型分享和在谷歌",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-27T20:19:42.000Z",
+      "summary": "向来自克劳德模型分享功能，用户向创建借助。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -2634,24 +2653,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-微软推出首个模型-新",
-      "title": "微软推出首个模型，新",
-      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-27T18:32:11.000Z",
-      "summary": "微软人工智能借助推出首个人工智能安全模型和新安全平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 79,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-多模态-工程仿真方向研究",
       "title": "论文新进展：多模态、工程仿真方向研究",
       "url": "https://arxiv.org/abs/2607.24692v1",
@@ -2666,7 +2667,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2736,22 +2737,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-控制问题-为什么我们向构建在人工智能",
-      "title": "控制问题: 为什么我们向构建在人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1v90g9t/the_control_problem_why_we_need_to_build/",
+      "id": "reddit-artificial-和限制大语言模型智能",
+      "title": "和限制大语言模型智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1v93evv/godel_and_the_limits_of_llm_reachable_intelligence/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T14:40:49.000Z",
-      "summary": "在人工智能模型，更快，和，改进。借助，信息技术。信息技术关于上下文。正确，查看模型信息技术，信息技术，信息技术，信息技术。信息技术，内部控制。和作为更好在，信息技术向。认为问题，了解，决策，我们借助未来和向，和在，我们实时在我们向真相，了解，和。人工智能我们查看在人工智能产品帮助。信息技术这里，关于和我们构建向和信息技术。未来，我们查看构建。由",
+      "publishedAt": "2026-07-28T16:27:15.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 91,
-      "image": ""
+      "heat": 82,
+      "image": "https://external-preview.redd.it/HrJv5HRiFCxK1i7yaa7WCj9HtriqsbbwzJM8q6vEB_I.png?width=640&crop=smart&auto=webp&s=63e08590fda0c03e6fc7e792263e387f4d57b58d"
     },
     {
       "id": "ithome-与达成合作-锁定最高相关型号人工智能数据中心算力资源",
@@ -2786,7 +2785,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2856,7 +2855,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     }
   ]
