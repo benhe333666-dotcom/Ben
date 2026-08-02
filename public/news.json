@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-02T11:08:02.932Z",
+  "generatedAt": "2026-08-02T12:17:23.360Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-02T11:30:00.000Z",
+  "nextUpdateHint": "2026-08-02T12:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-02T11:03:42.000Z"
+    "latestPublishedAt": "2026-08-02T11:56:01.000Z"
   },
   "topics": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "模型发布",
-      "count": 51,
+      "count": 52,
       "heat": 74
     },
     {
@@ -34,17 +34,17 @@
     {
       "name": "算力芯片",
       "count": 21,
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "人工智能动态",
       "count": 21,
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "多模态",
       "count": 17,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "开源生态",
@@ -52,18 +52,18 @@
       "heat": 67
     },
     {
-      "name": "端侧智能",
-      "count": 7,
-      "heat": 84
-    },
-    {
-      "name": "机器人",
-      "count": 8,
+      "name": "投融资",
+      "count": 9,
       "heat": 72
     },
     {
-      "name": "投融资",
-      "count": 8,
+      "name": "端侧智能",
+      "count": 7,
+      "heat": 83
+    },
+    {
+      "name": "机器人",
+      "count": 7,
       "heat": 70
     }
   ],
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-08-02T03:10:00.000Z",
-      "latestDisplayedAt": "2026-08-02T03:10:00.000Z"
+      "latestFetchedAt": "2026-08-02T11:06:07.000Z",
+      "latestDisplayedAt": "2026-08-02T11:06:07.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -332,13 +332,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "HTTP 429",
-      "itemCount": 6,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-08-02T06:20:22.000Z",
-      "latestDisplayedAt": "2026-08-02T06:20:22.000Z"
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-02T11:56:01.000Z",
+      "latestDisplayedAt": "2026-08-02T11:56:01.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -447,8 +447,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
-      "displayedCount": 9,
+      "itemCount": 12,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-08-02T11:03:42.000Z",
       "latestDisplayedAt": "2026-08-02T11:03:42.000Z"
     },
@@ -488,6 +488,38 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-面向人工智能编程智能体-智能体",
+      "title": "面向人工智能编程智能体: 智能体",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdg5wr/lsp_for_ai_coding_agents_the_protocol_your_agent/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-02T11:56:01.000Z",
+      "summary": "编程智能体借助 30% 词元。作为，代码智能来自语言 : 答案，更快。在信息技术 16 向 22% 智能体词元和 30 向 40% 时间语言工具面向。信息技术智能体进入接口。: :，面向，人工智能，编程，智能体，智能体，由",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-生成式人工智能和面向",
+      "title": "生成式人工智能和面向",
+      "url": "https://arxiv.org/abs/2607.20349",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-02T11:06:07.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "ithome-爱好者利用微软-360-模拟器-成功在苹果苹果手机-17-专业版旗舰版上运行-5",
       "title": "爱好者利用微软 360 模拟器，成功在苹果苹果手机 17 专业版旗舰版上运行《 5》",
       "url": "https://www.ithome.com/0/984/795.htm",
@@ -501,7 +533,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -518,7 +550,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -534,7 +566,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6a6caf7dd48647a2296aebb5/master/pass/073126_Europeans%20Are%20About%20to%20See%20How%20Entrenched%20AI%20Is%20in%20Their%20Daily%20Lives.gif"
     },
     {
@@ -551,7 +583,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -566,22 +598,6 @@
       "summary": "文，雷达财经，作者，丁禹，编辑，孟帅市值超 6500 亿元的人工智能芯片龙头寒武纪，再给员工包股权激励“大红包”。据寒武纪 7 月 28 日发布的公告，公司拟向 945 名员工授予 500 万股限制性股票，授予价格为 750 元/股。若以公告日收盘价计，这部分股份价值高达 56.4 本文链接",
       "topics": [
         "算力芯片"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vdabw4/dont_ever_use_hackaigc/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-02T06:20:22.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
       ],
       "heat": 83,
       "image": ""
@@ -600,7 +616,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -622,22 +638,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-02T03:10:00.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
       "title": "科技创投媒体人工智能发布人工智能相关动态。",
       "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
@@ -652,7 +652,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -668,7 +668,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -685,7 +685,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -701,7 +701,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2018/04/GettyImages-893877316-1152x648.jpg"
     },
     {
@@ -733,7 +733,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -749,7 +749,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -767,7 +767,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -925,6 +925,24 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-值得信息技术人工智能",
+      "title": "值得信息技术人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdf1qe/is_learning_copywriting_still_worth_it_when_ai/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-02T10:55:27.000Z",
+      "summary": "人工智能工具向帮助借助面向和信息技术问题，实时。和部件投资信息技术没有。持续即将推出向向顺利和向模型。在向回顾。训练和模型向向，在面向最。这里实际在，技能只是。由",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
       "id": "ithome-将于-9-月-16-日举行专场活动-全面展示旗下首款面向普通消费者的眼镜",
       "title": "将于 9 月 16 日举行专场活动，全面展示旗下首款面向普通消费者的眼镜",
       "url": "https://www.ithome.com/0/984/792.htm",
@@ -937,7 +955,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -971,7 +989,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -988,25 +1006,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-开放人工智能公司数据在企业",
-      "title": "开放人工智能公司数据在企业？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vda6lp/how_strong_are_openais_no_data_sharing_clauses_on/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-02T06:12:15.000Z",
-      "summary": "在人工智能保障安全我们在企业数据使用面向训练，使用公司人工智能。苹果开放人工智能公司面向面向，信息技术员工由开放人工智能公司向带来部件来自苹果进入和在开放人工智能公司和公司借助，模型在和机器人。开放人工智能公司向和面向模型训练。为什么信息技术客户数据信息技术？由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1023,7 +1023,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1039,7 +1039,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1071,7 +1071,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1087,7 +1087,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/robot-in-handcuffs-1152x648.jpg"
     },
     {
@@ -1104,7 +1104,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://media.wired.com/photos/6a6bc43ecd95420c8647a339/master/pass/Made-in-China--China-AI-Researchers-Are-Finding-Their-Voice-on-X-Business.jpg"
     },
     {
@@ -1122,7 +1122,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1138,7 +1138,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1156,7 +1156,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1291,7 +1291,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1307,7 +1307,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1324,7 +1324,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1346,21 +1346,19 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-解释向每个人工智能工具-构建本地记忆面向",
-      "title": "解释向每个人工智能工具，构建本地记忆面向",
-      "url": "https://www.reddit.com/r/artificial/comments/1vd9kbb/i_got_tired_of_reexplaining_my_project_to_every/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vdabw4/dont_ever_use_hackaigc/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-02T05:38:33.000Z",
-      "summary": "进入问题: 智能聊天助手帮助认为，克劳德模型代码帮助信息技术，和每个上下文。只是，实际 : 为什么我们，我们，和智能体时间。构建 : 本地人工智能分享，术语记忆。: 面向人工智能上下文。信息技术，使用面向 + 记忆，和，服务。工具和记忆来自。信息技术和开源。借助上下文人工智能工具，和信息技术。查看这里: 得到代码托管平台作为顺利！:，代码托管平台，# 由",
+      "publishedAt": "2026-08-02T06:20:22.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1393,7 +1391,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1409,7 +1407,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2277100086-1152x648.jpg"
     },
     {
@@ -1425,7 +1423,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": ""
     },
     {
@@ -1441,7 +1439,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": "https://media.wired.com/photos/6a6bd4dcc1ebd49c7b942ea6/master/pass/Backchannel-X-Becoming-Inescapable-AI-Slop-Factory-Business.jpg"
     },
     {
@@ -1475,7 +1473,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1631,7 +1629,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1647,7 +1645,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1665,7 +1663,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1687,20 +1685,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能模型修复-上下文信息技术",
-      "title": "人工智能模型修复。上下文信息技术。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vd6q9p/swapping_ai_models_rarely_fixes_bad_output_the/",
+      "id": "reddit-artificial-开放人工智能公司数据在企业",
+      "title": "开放人工智能公司数据在企业？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vda6lp/how_strong_are_openais_no_data_sharing_clauses_on/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-02T03:11:37.000Z",
-      "summary": ": 来自向克劳德模型，向，模型和。向，模型。信息技术信息技术问题。信息技术向上下文实际向，和最，: 训练数据 :，客户。和模型，信息技术。:，向。在任务:。信息技术，信息技术。模型，信息技术只是信息技术向。部件: 最上下文，信息技术在。模型向每个词元，和面向借助实际。任务正确答案向。借助，任务，模型，上下文 : :，内容平台，@，人工智能，借助，上下文，这里进入，模型，作为首……",
+      "publishedAt": "2026-08-02T06:12:15.000Z",
+      "summary": "在人工智能保障安全我们在企业数据使用面向训练，使用公司人工智能。苹果开放人工智能公司面向面向，信息技术员工由开放人工智能公司向带来部件来自苹果进入和在开放人工智能公司和公司借助，模型在和机器人。开放人工智能公司向和面向模型训练。为什么信息技术客户数据信息技术？由",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 93,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1732,7 +1731,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1749,7 +1748,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1767,7 +1766,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1942,7 +1941,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1958,25 +1957,25 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "reddit-artificial-18-人工智能模型人工智能",
-      "title": "18 人工智能模型人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
+      "id": "reddit-artificial-解释向每个人工智能工具-构建本地记忆面向",
+      "title": "解释向每个人工智能工具，构建本地记忆面向",
+      "url": "https://www.reddit.com/r/artificial/comments/1vd9kbb/i_got_tired_of_reexplaining_my_project_to_every/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-02T00:43:28.000Z",
-      "summary": "借助人工智能 :，规则，信息技术只是，信息技术。向查看模型实际最，基准测试: 这里借助基准测试。1 基线: 向。数据面向，和基线。2 任务机械手，112 面向模型向向，和，推出。每个模型在，: 和查看在代码托管平台。3 面向向向我们借助 5，最部件人工智能信息技术 6 向 2，人工智能，在，模型，使用和面向，信息技术只是，信息技术，认为最重要作为只是面向我们大语言模型，认为信……",
+      "publishedAt": "2026-08-02T05:38:33.000Z",
+      "summary": "进入问题: 智能聊天助手帮助认为，克劳德模型代码帮助信息技术，和每个上下文。只是，实际 : 为什么我们，我们，和智能体时间。构建 : 本地人工智能分享，术语记忆。: 面向人工智能上下文。信息技术，使用面向 + 记忆，和，服务。工具和记忆来自。信息技术和开源。借助上下文人工智能工具，和信息技术。查看这里: 得到代码托管平台作为顺利！:，代码托管平台，# 由",
       "topics": [
         "模型发布",
-        "研究论文",
-        "开源生态"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 88,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1993,7 +1992,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2011,7 +2010,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2045,7 +2044,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2062,7 +2061,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -2080,7 +2079,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2252,7 +2251,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2268,23 +2267,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "reddit-artificial-帮助人工智能面向编程",
-      "title": "帮助人工智能面向编程",
-      "url": "https://www.reddit.com/r/artificial/comments/1vcycta/help_choose_a_reasonably_cheap_ai_environment_for/",
+      "id": "reddit-artificial-人工智能模型修复-上下文信息技术",
+      "title": "人工智能模型修复。上下文信息技术。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vd6q9p/swapping_ai_models_rarely_fixes_bad_output_the/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-01T20:49:33.000Z",
-      "summary": "问题在向人工智能面向。开发者 5 借助公司在使用向呼吁。在舞台修复新借助 5 应用。$20 月。使用智能体 + 2.5 向相关型号，月词元？& 构建来自相关型号月。借助。认为向借助词元？关于月之暗面。更好和向任务？由",
+      "publishedAt": "2026-08-02T03:11:37.000Z",
+      "summary": ": 来自向克劳德模型，向，模型和。向，模型。信息技术信息技术问题。信息技术向上下文实际向，和最，: 训练数据 :，客户。和模型，信息技术。:，向。在任务:。信息技术，信息技术。模型，信息技术只是信息技术向。部件: 最上下文，信息技术在。模型向每个词元，和面向借助实际。任务正确答案向。借助，任务，模型，上下文 : :，内容平台，@，人工智能，借助，上下文，这里进入，模型，作为首……",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2301,7 +2301,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2335,7 +2335,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2352,7 +2352,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2368,7 +2368,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 49,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2386,7 +2386,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2489,7 +2489,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2505,7 +2505,25 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-18-人工智能模型人工智能",
+      "title": "18 人工智能模型人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-02T00:43:28.000Z",
+      "summary": "借助人工智能 :，规则，信息技术只是，信息技术。向查看模型实际最，基准测试: 这里借助基准测试。1 基线: 向。数据面向，和基线。2 任务机械手，112 面向模型向向，和，推出。每个模型在，: 和查看在代码托管平台。3 面向向向我们借助 5，最部件人工智能信息技术 6 向 2，人工智能，在，模型，使用和面向，信息技术只是，信息技术，认为最重要作为只是面向我们大语言模型，认为信……",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "开源生态"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -2523,7 +2541,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2557,7 +2575,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2708,7 +2726,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2726,7 +2744,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2847,23 +2865,6 @@
         "研究论文"
       ],
       "heat": 73,
-      "image": ""
-    },
-    {
-      "id": "ithome-首届全国青少年人工智能大赛决赛上海开赛-设-5-大前沿赛道",
-      "title": "首届全国青少年人工智能大赛决赛上海开赛，设 5 大前沿赛道",
-      "url": "https://www.ithome.com/0/984/744.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-02T07:31:40.000Z",
-      "summary": "科技之家 8 月 2 日消息，据新华社今日报道，首届全国青少年人工智能大赛决赛 8 月 1 日在上海开赛。来自全国 31 个省（自治区、直辖市）和新疆生产建设兵团以及香港、澳门特别行政区的 850 余名选手，从 4.6 万名参赛者中脱颖而出，在上海进行最终角逐。作为教育部批准的“2025—2028 学年面向中小学生的全国性竞赛活动”，首届全国青少年人工智能大赛由中国福利会和中……",
-      "topics": [
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 89,
       "image": ""
     }
   ]
