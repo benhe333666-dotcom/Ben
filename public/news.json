@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-03T16:08:08.402Z",
+  "generatedAt": "2026-08-03T16:38:10.668Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-03T16:30:00.000Z",
+  "nextUpdateHint": "2026-08-03T17:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-03T15:59:50.000Z"
+    "latestPublishedAt": "2026-08-03T16:37:01.000Z"
   },
   "topics": [
     {
@@ -18,18 +18,18 @@
     },
     {
       "name": "模型发布",
-      "count": 51,
+      "count": 53,
       "heat": 80
     },
     {
-      "name": "算力芯片",
-      "count": 24,
-      "heat": 89
+      "name": "研究论文",
+      "count": 26,
+      "heat": 74
     },
     {
-      "name": "研究论文",
-      "count": 25,
-      "heat": 73
+      "name": "算力芯片",
+      "count": 21,
+      "heat": 90
     },
     {
       "name": "监管安全",
@@ -38,33 +38,33 @@
     },
     {
       "name": "多模态",
-      "count": 19,
+      "count": 20,
       "heat": 79
     },
     {
       "name": "开源生态",
-      "count": 20,
+      "count": 19,
       "heat": 72
     },
     {
       "name": "人工智能动态",
       "count": 20,
-      "heat": 67
+      "heat": 68
     },
     {
       "name": "投融资",
-      "count": 12,
-      "heat": 80
+      "count": 10,
+      "heat": 77
     },
     {
       "name": "端侧智能",
-      "count": 8,
-      "heat": 81
+      "count": 9,
+      "heat": 79
     },
     {
       "name": "机器人",
-      "count": 3,
-      "heat": 84
+      "count": 5,
+      "heat": 80
     }
   ],
   "sources": [
@@ -240,7 +240,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-08-03T11:01:11.000Z",
       "latestDisplayedAt": "2026-08-03T11:01:11.000Z"
     },
@@ -288,7 +288,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-08-03T10:00:00.000Z",
       "latestDisplayedAt": "2026-08-03T10:00:00.000Z"
     },
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-03T15:00:00.000Z",
-      "latestDisplayedAt": "2026-08-03T15:00:00.000Z"
+      "latestFetchedAt": "2026-08-03T16:30:00.000Z",
+      "latestDisplayedAt": "2026-08-03T16:30:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-07-30T18:56:00.000Z",
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 4,
-      "latestFetchedAt": "2026-08-03T15:22:10.000Z",
-      "latestDisplayedAt": "2026-08-03T15:22:10.000Z"
+      "displayedCount": 5,
+      "latestFetchedAt": "2026-08-03T16:37:01.000Z",
+      "latestDisplayedAt": "2026-08-03T16:37:01.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -352,9 +352,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 1,
+      "displayedCount": 0,
       "latestFetchedAt": "2026-08-03T06:19:32.000Z",
-      "latestDisplayedAt": "2026-08-03T03:55:30.000Z"
+      "latestDisplayedAt": ""
     },
     {
       "id": "arxiv-cs-ai",
@@ -400,9 +400,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 7,
-      "displayedCount": 5,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-08-03T06:58:06.000Z",
-      "latestDisplayedAt": "2026-08-03T06:58:06.000Z"
+      "latestDisplayedAt": "2026-08-03T05:42:02.000Z"
     },
     {
       "id": "leiphone",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 20,
+      "itemCount": 21,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-03T15:59:50.000Z",
-      "latestDisplayedAt": "2026-08-03T15:59:50.000Z"
+      "latestFetchedAt": "2026-08-03T16:09:22.000Z",
+      "latestDisplayedAt": "2026-08-03T16:09:22.000Z"
     },
     {
       "id": "oschina",
@@ -479,28 +479,62 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
+      "itemCount": 14,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-03T06:30:00.000Z",
-      "latestDisplayedAt": "2026-08-03T06:10:00.000Z"
+      "latestFetchedAt": "2026-08-03T14:10:00.000Z",
+      "latestDisplayedAt": "2026-08-03T14:10:00.000Z"
     }
   ],
   "failures": [],
   "items": [
     {
-      "id": "ithome-苹果曝出数据管理漏洞-部分员工离职后仍可通过个人访问公司机密文件",
-      "title": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人访问公司机密文件",
-      "url": "https://www.ithome.com/0/985/254.htm",
+      "id": "reddit-artificial-信息技术只是元宇宙平台公司-信息技术",
+      "title": "信息技术只是元宇宙平台公司，信息技术",
+      "url": "https://www.reddit.com/r/artificial/comments/1veikdl/its_not_just_meta_its_the_whole_industry_spending/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T16:37:01.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": "https://preview.redd.it/frfgi2lxt6hh1.png?width=640&crop=smart&auto=webp&s=beba5b773fb2d2433d061e4e2c756889f4c09888"
+    },
+    {
+      "id": "towards-data-science-上下文-每个检索增强生成构建在",
+      "title": "上下文，: 每个检索增强生成构建在",
+      "url": "https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T16:30:00.000Z",
+      "summary": "企业智能 #，每个检索增强生成构建在在大语言模型呼吁: 呼吁，上下文模型，呼吁和信息技术。在构建和检索增强生成，上下文，: 每个检索增强生成构建在首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "ithome-首位中国科学家-王劲松获威廉-诺德伯格奖章-并同步获得一颗小行星命名",
+      "title": "首位中国科学家：王劲松获威廉 · 诺德伯格奖章，并同步获得一颗小行星命名",
+      "url": "https://www.ithome.com/0/985/256.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T15:59:50.000Z",
-      "summary": "科技之家 8 月 3 日消息，苹果公司起诉开放人工智能公司窃取商业机密一案持续发酵。据报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。部分员工甚至在文件更新时，还能继续收到通知。这些文档包含产品发布会计划等机密资料。前员工们表示，他们并未刻意保留这些访问权限，而是意外发现工作文件与个人的数据混在了一起。据悉，该问题的根源在于苹果长期……",
+      "publishedAt": "2026-08-03T16:09:22.000Z",
+      "summary": "科技之家 8 月 4 日消息，据央视新闻报道，当地时间 8 月 3 日，在意大利佛罗伦萨举办的第 46 届国际空间研究委员会（）科学大会上，中国气象局王劲松研究员荣获威廉 · 诺德伯格奖章。科技之家注：是国际科学理事会下属的重要国际学术组织。威廉 · 诺德伯格奖章是设立的重要科学奖项之一，每两年颁发一次，自 2022 年起每届授予两位科学家。今年的另一位获奖者是美国国家航空航……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 95,
+      "heat": 92,
       "image": ""
     },
     {
@@ -522,37 +556,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-公司得到面向-新向回归在资金公司进入人工智能",
-      "title": "公司得到面向？新向回归在资金公司进入人工智能。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vegh55/what_are_companies_getting_for_all_that_ai/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "cnblogs-news-深度求索给大模型划出的-斩杀线-斩的到底是什么",
+      "title": "深度求索给大模型划出的「斩杀线」，斩的到底是什么",
+      "url": "https://news.cnblogs.com/n/833582/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T15:22:10.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": "https://external-preview.redd.it/1E843IPJCjharDyP__sSh-I4oATq8i6Z1TvrEaGhN6M.jpeg?width=640&crop=smart&auto=webp&s=eff21939e1c5cea41f5f01773259e29a86ae54e0"
-    },
-    {
-      "id": "towards-data-science-向构建智能体借助",
-      "title": "向构建智能体借助 &",
-      "url": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "summary": "创建本地智能体来自面向向构建智能体借助 & 首个在数据科学实战社区。",
+      "publishedAt": "2026-08-03T14:10:00.000Z",
+      "summary": "一天，8 万亿词元。这是深度求索第4代一款模型，在一个人工智能编程工具里的单日用量。▲开源人工智能智能体工具发文称，深度求索第4代正式版通过其平台消耗了 8 万亿词元。其中，5 万亿来自免费额度，另外 3 万本文链接",
       "topics": [
         "模型发布",
         "产品应用",
-        "端侧智能"
+        "开源生态"
       ],
-      "heat": 98,
+      "heat": 99,
       "image": ""
     },
     {
@@ -658,51 +676,20 @@
       "image": ""
     },
     {
-      "id": "qbitai-当品牌开始争夺人工智能的答案-翰智入场",
-      "title": "当品牌开始争夺人工智能的答案：翰智入场",
-      "url": "https://www.qbitai.com/2026/08/465662.html",
+      "id": "qbitai-的高估值时代结束了-具身智能开始按生产力重新算账",
+      "title": "的高估值时代结束了，具身智能开始按生产力重新算账",
+      "url": "https://www.qbitai.com/2026/08/465225.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T06:58:06.000Z",
+      "publishedAt": "2026-08-03T05:42:02.000Z",
       "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
-        "人工智能动态"
+        "投融资",
+        "机器人"
       ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-告别-脸崩-时代-人工智能视频生成模型竞赛加速-谁在为技术买单",
-      "title": "告别“脸崩”时代！人工智能视频生成模型竞赛加速，谁在为技术买单",
-      "url": "https://news.cnblogs.com/n/833573/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T06:10:00.000Z",
-      "summary": "本文来源：时代财经作者：吴典林心林图片来源：视觉中国这个夏天，人工智能短剧赛道杀出一匹“黑马”。近期，一部总时长约 73 分钟的短剧《被裁掉的女孩》“出圈”，引发网友热烈讨论。该部短剧于 6 月上线，并于 8 月 1 日更新第二季。截至 8 月 2 日，该剧抖音平台播放量达到 2.4 亿，男女本文链接",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
-      "title": "人工智能产品发现发布人工智能相关动态。",
-      "url": "https://www.producthunt.com/products/qwen3",
-      "source": "人工智能产品发现",
-      "sourceId": "product-hunt-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T03:55:30.000Z",
-      "summary": "通义千问最模型面向编程和讨论",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 83,
+      "heat": 86,
       "image": ""
     },
     {
@@ -718,7 +705,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -908,19 +895,37 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson_FeaturedImage.png"
     },
     {
-      "id": "ithome-国际刑警组织-人工智能已成非洲网络犯罪核心驱动力",
-      "title": "国际刑警组织：人工智能已成非洲网络犯罪核心驱动力",
-      "url": "https://www.ithome.com/0/985/252.htm",
+      "id": "reddit-artificial-评测在人工智能智能体关于",
+      "title": "评测在人工智能智能体关于",
+      "url": "https://www.reddit.com/r/artificial/comments/1vehr50/mit_tech_review_on_ai_agents_lying_is_really/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T16:07:55.000Z",
+      "summary": "麻省理工科技评论设置在人工智能智能体实际。信息技术作为智能体和，: 模型向得分向评测解决问题。2016 智能体信息技术由在和驱动，由，: 月，模型在进入向答案解决作为，只是向得分。来自研究信息技术顺利: 我们在向，和我们模型向和。呼吁问题，我们。值得 : 人工智能安全公司呼吁，和正确面向。使用智能体向人工智能安全评测。由",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-苹果曝出数据管理漏洞-部分员工离职后仍可通过个人访问公司机密文件",
+      "title": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人访问公司机密文件",
+      "url": "https://www.ithome.com/0/985/254.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T15:32:02.000Z",
-      "summary": "科技之家 8 月 3 日消息，国际刑警组织今日发布博文称，人工智能已参与非洲 55% 网络犯罪案件，使攻击速度更快、规模更大，也让受害者越来越难防范和追查。非洲正在加快推进数字化转型，2025 年非洲移动网络用户数已超过 11 亿。然而该地区各国的网络犯罪法律仍然较为繁杂，执法机构无法有效应对人工智能犯罪现象。来自 36 个非洲成员国的调查数据显示，网络犯罪已经从过去孤立发生……",
+      "publishedAt": "2026-08-03T15:59:50.000Z",
+      "summary": "科技之家 8 月 3 日消息，苹果公司起诉开放人工智能公司窃取商业机密一案持续发酵。据报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。部分员工甚至在文件更新时，还能继续收到通知。这些文档包含产品发布会计划等机密资料。前员工们表示，他们并未刻意保留这些访问权限，而是意外发现工作文件与个人的数据混在了一起。据悉，该问题的根源在于苹果长期……",
       "topics": [
-        "多模态"
+        "产品应用"
       ],
-      "heat": 87,
+      "heat": 95,
       "image": ""
     },
     {
@@ -936,40 +941,43 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "towards-data-science-人工智能部件-工程师在",
-      "title": "人工智能部件: 工程师在？",
-      "url": "https://towardsdatascience.com/the-ai-was-the-easy-part-what-is-a-forward-deployed-engineer-in-a-supply-chain/",
+      "id": "towards-data-science-向构建智能体借助",
+      "title": "向构建智能体借助 &",
+      "url": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T13:30:00.000Z",
-      "summary": "实际工程师。人工智能部件: 工程师在？首个在数据科学实战社区。",
+      "publishedAt": "2026-08-03T15:00:00.000Z",
+      "summary": "创建本地智能体来自面向向构建智能体借助 & 首个在数据科学实战社区。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 87,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能向借助",
-      "title": "人工智能向借助？",
-      "url": "https://www.reddit.com/r/artificial/comments/1ved35h/spotify_ai_kit_wants_to_compete_with_cowork/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "cnblogs-news-机器人刷一段-短视频-就能学会新技能-自变量技术-神器-来了",
+      "title": "机器人刷一段「短视频」，就能学会新技能？自变量技术「神器」来了",
+      "url": "https://news.cnblogs.com/n/833581/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T13:13:39.000Z",
-      "summary": "借助 🤡 访问向和。关于在和，向和向顺利。人工智能，面向人工智能创业公司在人工智能和人工智能在每个只是。这里向在和，在帮助在和人工智能创业公司试图向。:，预览。信息技术？=894&=&=&= 由",
+      "publishedAt": "2026-08-03T14:00:00.000Z",
+      "summary": "教会一台机器人叠袜子，一共分几步？摊平、对齐、折叠，再将袜口翻过来，这些看似简单的动作，过去机器人要学会，往往需要四五个小时的训练。但现在，只需一段数十秒的演示视频，就能快速掌握。好家伙，这是哪来的东方神秘力量？最近，自变量机器人发布了一套名为的机器人学习框架。全称为本文链接",
       "topics": [
-        "投融资"
+        "多模态",
+        "机器人"
       ],
-      "heat": 83,
-      "image": "https://preview.redd.it/tptymobws5hh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=2ad2ecc3c593eacb433cd7d2602c4b78c5c5b8ba"
+      "heat": 89,
+      "image": ""
     },
     {
       "id": "thirty-six-kr-韩国芯片独角兽估值飙升4倍至22亿美元",
@@ -1020,7 +1028,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif"
     },
     {
@@ -1037,40 +1045,24 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-人工智能证伪百年数学猜想被打假-证明惊现漏洞-哥大教授破防了",
-      "title": "人工智能证伪百年数学猜想被打假！证明惊现漏洞，哥大教授破防了",
-      "url": "https://news.cnblogs.com/n/833571/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T05:50:00.000Z",
-      "summary": "新智元报道开放人工智能公司内部最新推理模型，一口气发布了十项惊人的数学进展。其中包括：首次证明了非群（ ）的存在性；给出了全新的电路下界（ ）；攻克了最近向量问题（ 本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
       "heat": 85,
       "image": ""
     },
     {
-      "id": "qbitai-的高估值时代结束了-具身智能开始按生产力重新算账",
-      "title": "的高估值时代结束了，具身智能开始按生产力重新算账",
-      "url": "https://www.qbitai.com/2026/08/465225.html",
+      "id": "qbitai-刚刚-阿里相关型号-旗舰版来了-冲进全球第一梯队-模型表现直逼克劳德模型",
+      "title": "刚刚，阿里相关型号-旗舰版来了！冲进全球第一梯队，模型表现直逼克劳德模型",
+      "url": "https://www.qbitai.com/2026/08/465226.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T05:42:02.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "publishedAt": "2026-08-03T05:41:02.000Z",
+      "summary": "编程、专业工作、长程任务、多模态分析统统梭哈",
       "topics": [
-        "投融资",
-        "机器人"
+        "模型发布",
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1086,7 +1078,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1104,7 +1096,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1262,21 +1254,37 @@
       "image": ""
     },
     {
-      "id": "ithome-荣耀俱乐部负责人透露机器人样机稀缺-正式发布后或一机难求",
-      "title": "荣耀俱乐部负责人透露机器人样机稀缺，正式发布后或一机难求",
-      "url": "https://www.ithome.com/0/985/247.htm",
+      "id": "reddit-artificial-首席执行官-新人工智能智能体视频-80-作为顺利作为团队",
+      "title": "& 首席执行官 : 新人工智能智能体视频 80% 作为顺利作为团队",
+      "url": "https://www.reddit.com/r/artificial/comments/1vehlux/john_hu_stan_cofounder_ceo_his_new_ai_agent/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T16:02:42.000Z",
+      "summary": "来自在人工智能在 80% 团队。借助关于，$50 没有 $相关型号。面向时间。80% 使用向。人工智能 80%。80% 基准测试和信息技术交付在。关于信息技术得到更快。关于信息技术。内部正确？由",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 95,
+      "image": "https://external-preview.redd.it/bTFtMnc3YnRuNmhoMZ8gtij4mM4WuJXTvhhuktdUu6dnzGGMWIEdZZUsT7jO.png?width=640&crop=smart&auto=webp&s=c23a27c7fcf14e3da81dc8511c2db8bfd3024afb"
+    },
+    {
+      "id": "ithome-国际刑警组织-人工智能已成非洲网络犯罪核心驱动力",
+      "title": "国际刑警组织：人工智能已成非洲网络犯罪核心驱动力",
+      "url": "https://www.ithome.com/0/985/252.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T15:12:18.000Z",
-      "summary": "科技之家 8 月 3 日消息，荣耀俱乐部负责人 @烛龙春哥今日分享了一张聊天记录。其中提到，荣耀机器人的样机稀缺，该机正式发布后可能像初代那样一机难求。据科技之家此前报道，今年 7 月 28 日，荣耀官方宣布机器人手机全渠道预约量超 20 万台，超越品牌历代旗舰产品。博主 @数码闲聊站今日发文曝光了荣耀机器人手机的核心配置：6.3 英寸 2640*相关型号小直屏，6800 尼……",
+      "publishedAt": "2026-08-03T15:32:02.000Z",
+      "summary": "科技之家 8 月 3 日消息，国际刑警组织今日发布博文称，人工智能已参与非洲 55% 网络犯罪案件，使攻击速度更快、规模更大，也让受害者越来越难防范和追查。非洲正在加快推进数字化转型，2025 年非洲移动网络用户数已超过 11 亿。然而该地区各国的网络犯罪法律仍然较为繁杂，执法机构无法有效应对人工智能犯罪现象。来自 36 个非洲成员国的调查数据显示，网络犯罪已经从过去孤立发生……",
       "topics": [
-        "算力芯片",
-        "端侧智能",
-        "机器人"
+        "多模态"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1294,7 +1302,39 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-人工智能改变打工人之后-千问办公盯上了企业智能体化",
+      "title": "人工智能改变打工人之后，千问办公盯上了企业智能体化",
+      "url": "https://news.cnblogs.com/n/833579/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T13:40:00.000Z",
+      "summary": "《尚书》里有句话，为山九仞，功亏一篑。放到今天的办公智能体身上，大概是周报写好了，会议纪要整理了，数据图表也生成了，最后却卡在复制文档、发送群聊、创建待办和提醒同事。前面九仞靠人工智能，最后一筐土还得人类自己搬。偏偏就是这最后几步，至为关键。过去几年，人工智能已经明显改变了许多人的工作习惯。本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-人工智能部件-工程师在",
+      "title": "人工智能部件: 工程师在？",
+      "url": "https://towardsdatascience.com/the-ai-was-the-easy-part-what-is-a-forward-deployed-engineer-in-a-supply-chain/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T13:30:00.000Z",
+      "summary": "实际工程师。人工智能部件: 工程师在？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -1312,41 +1352,6 @@
       ],
       "heat": 93,
       "image": ""
-    },
-    {
-      "id": "towards-data-science-克劳德模型帮助构建-相关型号",
-      "title": "克劳德模型帮助构建 $相关型号+",
-      "url": "https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T12:00:00.000Z",
-      "summary": "使用克劳德模型向克劳德模型帮助构建 $相关型号+ 首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-只是人工智能首个-和信息技术最",
-      "title": "只是人工智能首个，和信息技术最",
-      "url": "https://www.reddit.com/r/artificial/comments/1ve9apj/a_stanford_economist_just_showed_exactly_which/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T10:09:38.000Z",
-      "summary": "实验室。询问。没有问题。信息技术借助数据。借助研究，答案。🎓 这里，:。公司成本由，和研究信息技术借助 : ~700 由人工智能，和在 150 最，22，26 13% 和向 16，17%，月月。人工智能即将推出，内部，分组，只是来自内部。部件: 人工智能作为人工智能，信息技术作为。工具面向向，信息技术在。向风险。构建借助信息技术。: & 公司，视频在。面向，面向，问题？由",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 91,
-      "image": "https://external-preview.redd.it/aG04c28zM2t3NGhoMaN-zN2AEPfHnihNT0t6Y6SqfHZimfylyZjYHxNGSlLw.png?width=640&crop=smart&auto=webp&s=fd088d12e00481d7a4ef9aa370f2cd4a7d38e13e"
     },
     {
       "id": "leiphone-相关型号-港科大-广州-开源首个无需训练的开放词汇三维占据地图构建系统-2026",
@@ -1379,42 +1384,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
-      "id": "qbitai-刚刚-阿里相关型号-旗舰版来了-冲进全球第一梯队-模型表现直逼克劳德模型",
-      "title": "刚刚，阿里相关型号-旗舰版来了！冲进全球第一梯队，模型表现直逼克劳德模型",
-      "url": "https://www.qbitai.com/2026/08/465226.html",
+      "id": "qbitai-赛博义父爆料-谷歌早一年就做出了智能聊天助手-硬是没敢发",
+      "title": "赛博义父爆料：谷歌早一年就做出了智能聊天助手，硬是没敢发！",
+      "url": "https://www.qbitai.com/2026/08/465176.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T05:41:02.000Z",
-      "summary": "编程、专业工作、长程任务、多模态分析统统梭哈",
+      "publishedAt": "2026-08-03T04:29:44.000Z",
+      "summary": "终究还是喜提了「美国豆包」",
       "topics": [
         "模型发布",
-        "多模态"
+        "产品应用"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-研究-深度求索第4代-运行成本最低不足克劳德模型-5的1",
-      "title": "研究：深度求索第4代-运行成本最低不足克劳德模型 5的1%",
-      "url": "https://news.cnblogs.com/n/833570/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T05:40:00.000Z",
-      "summary": "8 月 3 日，研究机构数据显示，深度求索旗下旗舰人工智能模型第4代-，在基准测试中的运行成本为主要模型中最低，不足人工智能安全公司旗舰模型克劳德模型 5 的1%。指出，第4代本文链接",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 95,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1447,7 +1434,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": "https://media.wired.com/photos/6a6caf7dd48647a2296aebb5/master/pass/073126_Europeans%20Are%20About%20to%20See%20How%20Entrenched%20AI%20Is%20in%20Their%20Daily%20Lives.gif"
     },
     {
@@ -1604,20 +1591,53 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-微星推出相关型号游戏本-锐龙-9-相关型号处理器-5070-显卡",
-      "title": "微星推出相关型号游戏本：锐龙 9 相关型号处理器、5070 显卡",
-      "url": "https://www.ithome.com/0/985/245.htm",
+      "id": "reddit-artificial-公司得到面向-新向回归在资金公司进入人工智能",
+      "title": "公司得到面向？新向回归在资金公司进入人工智能。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vegh55/what_are_companies_getting_for_all_that_ai/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T15:22:10.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": "https://external-preview.redd.it/1E843IPJCjharDyP__sSh-I4oATq8i6Z1TvrEaGhN6M.jpeg?width=640&crop=smart&auto=webp&s=eff21939e1c5cea41f5f01773259e29a86ae54e0"
+    },
+    {
+      "id": "ithome-荣耀俱乐部负责人透露机器人样机稀缺-正式发布后或一机难求",
+      "title": "荣耀俱乐部负责人透露机器人样机稀缺，正式发布后或一机难求",
+      "url": "https://www.ithome.com/0/985/247.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T15:01:24.000Z",
-      "summary": "科技之家 8 月 3 日消息，微星现已在海外市场推出相关型号游戏本，新品搭载锐龙 9 相关型号处理器，最高可选配英伟达 5070 显卡。据介绍，这款笔记本相比标准版相关型号换装白色外壳，加入风格装饰和多款专属配件。规格方面，这款笔记本搭载锐龙 9 相关型号处理器，采用 16 核心 32 线程设计。最高可选配英伟达 5070 图形处理器，配备 12 吉字节相关型号显存，中央处理……",
+      "publishedAt": "2026-08-03T15:12:18.000Z",
+      "summary": "科技之家 8 月 3 日消息，荣耀俱乐部负责人 @烛龙春哥今日分享了一张聊天记录。其中提到，荣耀机器人的样机稀缺，该机正式发布后可能像初代那样一机难求。据科技之家此前报道，今年 7 月 28 日，荣耀官方宣布机器人手机全渠道预约量超 20 万台，超越品牌历代旗舰产品。博主 @数码闲聊站今日发文曝光了荣耀机器人手机的核心配置：6.3 英寸 2640*相关型号小直屏，6800 尼……",
       "topics": [
         "算力芯片",
-        "端侧智能"
+        "端侧智能",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-对话卓驭首席执行官沈劭劼-汽车在被撞前-0-01-秒退出智驾肯定是不行的",
+      "title": "对话卓驭首席执行官沈劭劼：汽车在被撞前 0.01 秒退出智驾肯定是不行的",
+      "url": "https://news.cnblogs.com/n/833578/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T13:30:00.000Z",
+      "summary": "智能辅助驾驶技术对于普通驾驶者来说，无异于「魔法」：车居然自己会开？在深圳欢乐海岸，红旗天工和卓驭开了一家有些特殊的展厅，想把「魔法」进行解密：车辆陈列不是这里的重点，展厅以「移动物理人工智能」为主线，设置智能辅助驾驶和车载无人机两条产品线，并将感知、算法、驾驶决策等抽象技术拆解成五个互动体验区。本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -1655,20 +1675,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1ve7p1d/my_fear/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "towards-data-science-克劳德模型帮助构建-相关型号",
+      "title": "克劳德模型帮助构建 $相关型号+",
+      "url": "https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T08:38:17.000Z",
-      "summary": "​ 向进入和由。向和和。信息技术，科学，和在。在。信息技术我们创建借助智能和。信息技术，和，在和。信息技术创建最和。信息技术没有。信息技术只是。由，组织，737",
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "summary": "使用克劳德模型向克劳德模型帮助构建 $相关型号+ 首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 84,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1702,56 +1722,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-马斯克宣布-学会看片了-无字幕看懂陶哲轩菲奖级难题",
-      "title": "马斯克宣布：学会看片了！无字幕看懂陶哲轩菲奖级难题",
-      "url": "https://news.cnblogs.com/n/833569/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T05:33:00.000Z",
-      "summary": "新智元报道，学会一键看片了？就在昨天，马斯克在上兴奋宣布：可以分析任何视频了！在推文中，马斯克放出一段长达 63 秒的高清视频。其中主角，居然是早已离我们远去的篮球巨星科比。在视频中，科比身穿黑色西装，坐在洛杉矶夜景前的真皮沙发上。他的手边放着一个篮球，对着镜头向全网推销本文链接",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 77,
-      "image": ""
-    },
-    {
-      "id": "qbitai-赛博义父爆料-谷歌早一年就做出了智能聊天助手-硬是没敢发",
-      "title": "赛博义父爆料：谷歌早一年就做出了智能聊天助手，硬是没敢发！",
-      "url": "https://www.qbitai.com/2026/08/465176.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T04:29:44.000Z",
-      "summary": "终究还是喜提了「美国豆包」",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向编程智能体向任务",
-      "title": "向编程智能体向任务",
-      "url": "https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-02T15:00:00.000Z",
-      "summary": "任务借助编程智能体向编程智能体向任务首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 68,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1910,22 +1881,37 @@
       "image": ""
     },
     {
-      "id": "ithome-余承东官宣华为首款电视来了-三原色独立发光-8-月-5-日正式开售",
-      "title": "余承东官宣华为首款电视来了：三原色独立发光，8 月 5 日正式开售",
-      "url": "https://www.ithome.com/0/985/237.htm",
+      "id": "ithome-微星推出相关型号游戏本-锐龙-9-相关型号处理器-5070-显卡",
+      "title": "微星推出相关型号游戏本：锐龙 9 相关型号处理器、5070 显卡",
+      "url": "https://www.ithome.com/0/985/245.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T14:15:34.000Z",
-      "summary": "科技之家 8 月 3 日消息，华为常务董事、产品投资评审委员会主任、终端董事长余承东今日宣布，华为首款电视来了！新品可通过三原色独立发光，色彩更加准确，将在 8 月 5 日正式开售。从余承东发布的产品预热图可以看到，这款新品的命名为华为视觉智慧屏 6，采用技术，支持鸿鹄画质还原色彩。参考科技之家此前报道，今年 7 月，华为就在京东上架了视觉智慧屏 6，提供 55 / 65 /……",
+      "publishedAt": "2026-08-03T15:01:24.000Z",
+      "summary": "科技之家 8 月 3 日消息，微星现已在海外市场推出相关型号游戏本，新品搭载锐龙 9 相关型号处理器，最高可选配英伟达 5070 显卡。据介绍，这款笔记本相比标准版相关型号换装白色外壳，加入风格装饰和多款专属配件。规格方面，这款笔记本搭载锐龙 9 相关型号处理器，采用 16 核心 32 线程设计。最高可选配英伟达 5070 图形处理器，配备 12 吉字节相关型号显存，中央处理……",
       "topics": [
         "算力芯片",
-        "投融资",
-        "多模态"
+        "端侧智能"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能向借助",
+      "title": "人工智能向借助？",
+      "url": "https://www.reddit.com/r/artificial/comments/1ved35h/spotify_ai_kit_wants_to_compete_with_cowork/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T13:13:39.000Z",
+      "summary": "借助 🤡 访问向和。关于在和，向和向顺利。人工智能，面向人工智能创业公司在人工智能和人工智能在每个只是。这里向在和，在帮助在和人工智能创业公司试图向。:，预览。信息技术？=894&=&=&= 由",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 83,
+      "image": "https://preview.redd.it/tptymobws5hh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=2ad2ecc3c593eacb433cd7d2602c4b78c5c5b8ba"
     },
     {
       "id": "thirty-six-kr-摩根士丹利预计云计算支出将激增至1-2万亿美元",
@@ -1962,6 +1948,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-实测千问办公-阿里这个人工智能专家-真的能帮你带货",
+      "title": "实测千问办公：阿里这个人工智能专家，真的能帮你带货",
+      "url": "https://news.cnblogs.com/n/833576/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-03T06:45:00.000Z",
+      "summary": "今天，阿里正式推出企业级智能体产品「千问办公」（），并开启公测。它由、和悟空三款产品整合而来，把本地电脑操作、云端长任务和企业协作收进同一个入口，直接在官网就可以下载尝鲜。和千问办公一起上线的，还有阿里新一代旗本文链接",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "oschina-自变量机器人开源框架-让机器人看-29-秒视频就学会一个技能",
       "title": "自变量机器人开源框架，让机器人看 29 秒视频就学会一个技能",
       "url": "https://www.oschina.net/news/486146",
@@ -1976,7 +1979,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1994,56 +1997,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "cnblogs-news-王虹的-幸运-中美人工智能都想批量复制",
-      "title": "王虹的“幸运”，中美人工智能都想批量复制",
-      "url": "https://news.cnblogs.com/n/833566/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T05:04:00.000Z",
-      "summary": "作者｜李楠微信 ｜相关型号 “很幸运在合适的时间遇见合适的人，得到正确引导。”在菲尔兹奖获奖感言中，成为新晋国民偶像的王虹做出了这样的总结。相比“挂谷猜想是什么”这样的艰深问题，对多数人更有参考意义的是，“王虹何以成为王虹”。数学家的成长往往没有标准化路径，但从王虹的经历可以看到，能否有本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 77,
-      "image": ""
-    },
-    {
-      "id": "qbitai-人工智能不再用完即忘-华为诺亚开源-记忆和一起进化",
-      "title": "人工智能不再用完即忘：华为诺亚开源，记忆和一起进化",
-      "url": "https://www.qbitai.com/2026/08/464835.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T02:51:33.000Z",
-      "summary": "面向人工智能智能体的可迁移、自演进记忆操作层",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-15-借助人工智能智能体",
-      "title": "15，借助人工智能智能体",
-      "url": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
+      "id": "towards-data-science-向编程智能体向任务",
+      "title": "向编程智能体向任务",
+      "url": "https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-02T13:00:00.000Z",
-      "summary": "由，指南向构建，和客户支持智能体，和。15，借助人工智能智能体首个在数据科学实战社区。",
+      "publishedAt": "2026-08-02T15:00:00.000Z",
+      "summary": "任务借助编程智能体向编程智能体向任务首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2200,19 +2170,21 @@
       "image": ""
     },
     {
-      "id": "ithome-搜索引擎公司-整活-推出太阳镜-号称无人工智能-无摄像头-永不发送数据",
-      "title": "搜索引擎公司 “整活”推出太阳镜，号称无人工智能、无摄像头、永不发送数据",
-      "url": "https://www.ithome.com/0/985/236.htm",
+      "id": "ithome-余承东官宣华为首款电视来了-三原色独立发光-8-月-5-日正式开售",
+      "title": "余承东官宣华为首款电视来了：三原色独立发光，8 月 5 日正式开售",
+      "url": "https://www.ithome.com/0/985/237.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T14:14:36.000Z",
-      "summary": "科技之家 8 月 3 日消息，谷歌、三星、元宇宙平台公司等科技巨头正在争相布局人工智能智能眼镜市场，镜框内置的微型摄像头，则逐渐让智能眼镜成为公众的隐私“噩梦”，利用其导致的偷拍和其他滥用事件呈增加趋势。注重隐私的搜索引擎公司上月末（7 月 30 日）宣布推出太阳眼镜，宣传语是“普通得不能再普通的太阳镜”（ *** ）。据介绍，这款太阳镜联合出品，主打无摄像头、无麦克风、无人……",
+      "publishedAt": "2026-08-03T14:15:34.000Z",
+      "summary": "科技之家 8 月 3 日消息，华为常务董事、产品投资评审委员会主任、终端董事长余承东今日宣布，华为首款电视来了！新品可通过三原色独立发光，色彩更加准确，将在 8 月 5 日正式开售。从余承东发布的产品预热图可以看到，这款新品的命名为华为视觉智慧屏 6，采用技术，支持鸿鹄画质还原色彩。参考科技之家此前报道，今年 7 月，华为就在京东上架了视觉智慧屏 6，提供 55 / 65 /……",
       "topics": [
-        "人工智能动态"
+        "算力芯片",
+        "投融资",
+        "多模态"
       ],
-      "heat": 86,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2228,7 +2200,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2250,19 +2222,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-他带着人工智能去打官司-结果让对面躺赢了",
-      "title": "他带着人工智能去打官司，结果让对面躺赢了",
-      "url": "https://news.cnblogs.com/n/833565/",
+      "id": "cnblogs-news-告别-脸崩-时代-人工智能视频生成模型竞赛加速-谁在为技术买单",
+      "title": "告别“脸崩”时代！人工智能视频生成模型竞赛加速，谁在为技术买单",
+      "url": "https://news.cnblogs.com/n/833573/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T04:56:00.000Z",
-      "summary": "「我明天要见心理咨询师，」一位居住在波士顿的年轻妈妈，正在规划第二天的行程，不过，这话她既不是说给丈夫听的，也不是说给孩子听的，而是说给克劳德模型听的。「帮我捋一捋上次咨询之后我们聊过什么，有什么该拿出来说的。」 克劳德模型一键跟随，把她最近的工作压力、跟伴侣的摩擦，整合关联到了一段反复出本文链接",
+      "publishedAt": "2026-08-03T06:10:00.000Z",
+      "summary": "本文来源：时代财经作者：吴典林心林图片来源：视觉中国这个夏天，人工智能短剧赛道杀出一匹“黑马”。近期，一部总时长约 73 分钟的短剧《被裁掉的女孩》“出圈”，引发网友热烈讨论。该部短剧于 6 月上线，并于 8 月 1 日更新第二季。截至 8 月 2 日，该剧抖音平台播放量达到 2.4 亿，男女本文链接",
       "topics": [
-        "模型发布"
+        "多模态"
       ],
-      "heat": 84,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2296,24 +2268,23 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "towards-data-science-编程智能体上下文视窗系统-上下文",
-      "title": "编程智能体上下文视窗系统，上下文",
-      "url": "https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/",
+      "id": "towards-data-science-15-借助人工智能智能体",
+      "title": "15，借助人工智能智能体",
+      "url": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-01T15:00:00.000Z",
-      "summary": "最编程智能体检索:，新增上下文，模型信息技术。作为上下文，代码面向，和，智能体记忆，任务。只是上下文。探索 : 向持续，向减少，和向。编程智能体上下文视窗系统，上下文首个在数据科学实战社区。",
+      "publishedAt": "2026-08-02T13:00:00.000Z",
+      "summary": "由，指南向构建，和客户支持智能体，和。15，借助人工智能智能体首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2404,19 +2375,19 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg"
     },
     {
-      "id": "ithome-谷歌母公司市值超过苹果-升至全球第二",
-      "title": "谷歌母公司市值超过苹果，升至全球第二",
-      "url": "https://www.ithome.com/0/985/233.htm",
+      "id": "ithome-搜索引擎公司-整活-推出太阳镜-号称无人工智能-无摄像头-永不发送数据",
+      "title": "搜索引擎公司 “整活”推出太阳镜，号称无人工智能、无摄像头、永不发送数据",
+      "url": "https://www.ithome.com/0/985/236.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T13:51:12.000Z",
-      "summary": "科技之家 8 月 3 日消息，当地时间 7 月 17 日，美股开盘数分钟后，市值排行发生变化，谷歌母公司超过苹果升至全球第二，第一仍然为英伟达。截至北京时间 21:51，谷歌母公司股价上涨 4.72%，总市值 4.56 万亿美元（科技之家注：现汇率约合 30.82 万亿元人民币）。苹果股价下跌 0.93%，总市值 4.50 万亿美元（现汇率约合 30.42 万亿元人民币）。2……",
+      "publishedAt": "2026-08-03T14:14:36.000Z",
+      "summary": "科技之家 8 月 3 日消息，谷歌、三星、元宇宙平台公司等科技巨头正在争相布局人工智能智能眼镜市场，镜框内置的微型摄像头，则逐渐让智能眼镜成为公众的隐私“噩梦”，利用其导致的偷拍和其他滥用事件呈增加趋势。注重隐私的搜索引擎公司上月末（7 月 30 日）宣布推出太阳眼镜，宣传语是“普通得不能再普通的太阳镜”（ *** ）。据介绍，这款太阳镜联合出品，主打无摄像头、无麦克风、无人……",
       "topics": [
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 94,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2438,19 +2409,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-阿里巴巴千问办公今日开放公测",
-      "title": "阿里巴巴千问办公今日开放公测",
-      "url": "https://news.cnblogs.com/n/833564/",
+      "id": "cnblogs-news-人工智能证伪百年数学猜想被打假-证明惊现漏洞-哥大教授破防了",
+      "title": "人工智能证伪百年数学猜想被打假！证明惊现漏洞，哥大教授破防了",
+      "url": "https://news.cnblogs.com/n/833571/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T04:48:00.000Z",
-      "summary": "本文来源：时代周报 8 月 3 日消息，时代周报记者获悉，阿里巴巴旗下全新通用智能体产品千问办公今日开放公测。记者注意到，千问办公围绕企业真实运营需求设计，现已完成和钉钉的深度打通，可在授权范围内调取企业群聊记录、会议文档、日程审批、内部知识库等组织沉淀数据。据了解，产品同步搭载全新相关型号。本文链接",
+      "publishedAt": "2026-08-03T05:50:00.000Z",
+      "summary": "新智元报道开放人工智能公司内部最新推理模型，一口气发布了十项惊人的数学进展。其中包括：首次证明了非群（ ）的存在性；给出了全新的电路下界（ ）；攻克了最近向量问题（ 本文链接",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2501,23 +2472,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
-      "id": "towards-data-science-设置智能体内部工作流",
-      "title": "设置智能体内部工作流",
-      "url": "https://towardsdatascience.com/put-the-agent-inside-the-workflow/",
+      "id": "towards-data-science-编程智能体上下文视窗系统-上下文",
+      "title": "编程智能体上下文视窗系统，上下文",
+      "url": "https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-01T13:00:00.000Z",
-      "summary": "大语言模型工作流借助智能体设置智能体内部工作流首个在数据科学实战社区。",
+      "publishedAt": "2026-08-01T15:00:00.000Z",
+      "summary": "最编程智能体检索:，新增上下文，模型信息技术。作为上下文，代码面向，和，智能体记忆，任务。只是上下文。探索 : 向持续，向减少，和向。编程智能体上下文视窗系统，上下文首个在数据科学实战社区。",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 48,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2589,20 +2561,19 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg"
     },
     {
-      "id": "ithome-全球最大云厂商亚马逊盘初涨超-4-市值破-3-万亿美元创历史新高",
-      "title": "全球最大云厂商亚马逊盘初涨超 4%，市值破 3 万亿美元创历史新高",
-      "url": "https://www.ithome.com/0/985/232.htm",
+      "id": "ithome-谷歌母公司市值超过苹果-升至全球第二",
+      "title": "谷歌母公司市值超过苹果，升至全球第二",
+      "url": "https://www.ithome.com/0/985/233.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T13:47:00.000Z",
-      "summary": "科技之家 8 月 3 日消息，全球最大云厂商亚马逊盘初涨超 4%，总市值报 3.08 万亿美元（科技之家注：现汇率约合 20.82 万亿元人民币），突破历史新高。亚马逊云业务营收增速创 18 个季度新高。公司上调 2026 全年资本开支指引，并对人工智能长期万亿营收空间给出乐观判断；人工智能算力供不应求趋势仍将持续。机构预计，伴随生成式人工智能商业化落地提速、企业级人工智能应……",
+      "publishedAt": "2026-08-03T13:51:12.000Z",
+      "summary": "科技之家 8 月 3 日消息，当地时间 7 月 17 日，美股开盘数分钟后，市值排行发生变化，谷歌母公司超过苹果升至全球第二，第一仍然为英伟达。截至北京时间 21:51，谷歌母公司股价上涨 4.72%，总市值 4.56 万亿美元（科技之家注：现汇率约合 30.82 万亿元人民币）。苹果股价下跌 0.93%，总市值 4.50 万亿美元（现汇率约合 30.42 万亿元人民币）。2……",
       "topics": [
-        "产品应用",
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2623,21 +2594,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-首席执行官德朗格-人工智能企业应主动披露安全入侵事件",
-      "title": "首席执行官德朗格：人工智能企业应主动披露安全入侵事件",
-      "url": "https://news.cnblogs.com/n/833561/",
+      "id": "cnblogs-news-研究-深度求索第4代-运行成本最低不足克劳德模型-5的1",
+      "title": "研究：深度求索第4代-运行成本最低不足克劳德模型 5的1%",
+      "url": "https://news.cnblogs.com/n/833570/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T04:30:00.000Z",
-      "summary": "信息技术之家 8 月 3 日消息，据《商业内幕》今天报道，首席执行官克莱姆 · 德朗格（ ）最近表示，限制企业发布前沿人工智能模型，并不能阻止开放人工智能公司智能体逃逸事件不再发生。▲ 右边的人便是德朗格德朗格对此表示：“这些问题发生在未公开发布的本文链接",
+      "publishedAt": "2026-08-03T05:40:00.000Z",
+      "summary": "8 月 3 日，研究机构数据显示，深度求索旗下旗舰人工智能模型第4代-，在基准测试中的运行成本为主要模型中最低，不足人工智能安全公司旗舰模型克劳德模型 5 的1%。指出，第4代本文链接",
       "topics": [
-        "产品应用",
+        "模型发布",
         "监管安全",
-        "开源生态"
+        "研究论文"
       ],
-      "heat": 94,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2653,7 +2624,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2687,19 +2658,19 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
-      "id": "towards-data-science-3-词元法案我们没有查看即将推出",
-      "title": "3× 词元法案我们没有查看即将推出",
-      "url": "https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/",
+      "id": "towards-data-science-设置智能体内部工作流",
+      "title": "设置智能体内部工作流",
+      "url": "https://towardsdatascience.com/put-the-agent-inside-the-workflow/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-31T16:30:00.000Z",
-      "summary": "向，智能体大语言模型成本和实际修复信息技术。3× 词元法案我们没有查看即将推出首个在数据科学实战社区。",
+      "publishedAt": "2026-08-01T13:00:00.000Z",
+      "summary": "大语言模型工作流借助智能体设置智能体内部工作流首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
@@ -2743,21 +2714,20 @@
       "image": "https://media.wired.com/photos/6a6a5e39bca885f62cd93ebb/master/pass/Uncanny-Valley-Nvidia-Open-Source-AI-Alliance-2285784039.jpg"
     },
     {
-      "id": "ithome-消息称韩国芯片独角兽估值飙升-4-倍至-3-14-万亿韩元",
-      "title": "消息称韩国芯片独角兽估值飙升 4 倍至 3.14 万亿韩元",
-      "url": "https://www.ithome.com/0/985/231.htm",
+      "id": "ithome-全球最大云厂商亚马逊盘初涨超-4-市值破-3-万亿美元创历史新高",
+      "title": "全球最大云厂商亚马逊盘初涨超 4%，市值破 3 万亿美元创历史新高",
+      "url": "https://www.ithome.com/0/985/232.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T13:41:03.000Z",
-      "summary": "科技之家 8 月 3 日消息，据彭博社今日援引知情人士消息，总部位于韩国京畿道板桥的芯片独角兽公司完成新一轮融资，其估值飙升至此前的 4 倍，显示出市场持续看好人工智能热潮。据知情人士透露，最新一轮融资估值约 3.14 万亿韩元 （科技之家注：现汇率约合 148.68 亿元人民币），目前已完成了轮融资的首批资金募集。同时，正进一步寻求资金，该公司计划 9 月前筹集 3000 ……",
+      "publishedAt": "2026-08-03T13:47:00.000Z",
+      "summary": "科技之家 8 月 3 日消息，全球最大云厂商亚马逊盘初涨超 4%，总市值报 3.08 万亿美元（科技之家注：现汇率约合 20.82 万亿元人民币），突破历史新高。亚马逊云业务营收增速创 18 个季度新高。公司上调 2026 全年资本开支指引，并对人工智能长期万亿营收空间给出乐观判断；人工智能算力供不应求趋势仍将持续。机构预计，伴随生成式人工智能商业化落地提速、企业级人工智能应……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "投融资"
+        "算力芯片"
       ],
-      "heat": 95,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2779,21 +2749,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-人工智能圈最会-追风-的男人-杀入软件智能体-头部玩家估值已近2000亿",
-      "title": "人工智能圈最会“追风”的男人，杀入软件智能体，头部玩家估值已近2000亿",
-      "url": "https://news.cnblogs.com/n/833560/",
+      "id": "cnblogs-news-马斯克宣布-学会看片了-无字幕看懂陶哲轩菲奖级难题",
+      "title": "马斯克宣布：学会看片了！无字幕看懂陶哲轩菲奖级难题",
+      "url": "https://news.cnblogs.com/n/833569/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-03T04:20:00.000Z",
-      "summary": "作者丨晨阳编辑丨小龙离开英伟达一个月后，贾扬清带着新公司杀回了战场。没有冗长的发布会，没有堆砌的行业术语，官网只有一行字—— “把‘你的意图’，打造成‘生产级系统’”。打造的是一支名为“”（舰队）的自主人工智能团队，定位很清晰：用户只本文链接",
+      "publishedAt": "2026-08-03T05:33:00.000Z",
+      "summary": "新智元报道，学会一键看片了？就在昨天，马斯克在上兴奋宣布：可以分析任何视频了！在推文中，马斯克放出一段长达 63 秒的高清视频。其中主角，居然是早已离我们远去的篮球巨星科比。在视频中，科比身穿黑色西装，坐在洛杉矶夜景前的真皮沙发上。他的手边放着一个篮球，对着镜头向全网推销本文链接",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
+        "多模态"
       ],
-      "heat": 94,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2810,7 +2778,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2828,7 +2796,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2850,21 +2818,54 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-代码首席执行官-为什么可能",
-      "title": "代码首席执行官: 为什么可能",
-      "url": "https://towardsdatascience.com/when-the-code-becomes-the-ceo-why-your-next-manager-might-be-a-decentralized-agentic-loop/",
+      "id": "towards-data-science-3-词元法案我们没有查看即将推出",
+      "title": "3× 词元法案我们没有查看即将推出",
+      "url": "https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-31T15:00:00.000Z",
-      "summary": "在五个向，在公司可能，可能，和可能在分享图形处理器记忆，为什么进入，在人工智能，和向构建面向智能体向实际企业。代码首席执行官: 为什么可能首个在数据科学实战社区。",
+      "publishedAt": "2026-07-31T16:30:00.000Z",
+      "summary": "向，智能体大语言模型成本和实际修复信息技术。3× 词元法案我们没有查看即将推出首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-在面向人工智能驱动用户",
+      "title": "在面向人工智能驱动用户",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-30T22:29:45.000Z",
+      "summary": "苹果用户向向人工智能使用额度限制。呼吁在，苹果首席执行官向使用苹果智能和人工智能，新增我们在 …",
       "topics": [
         "产品应用",
-        "算力芯片"
+        "端侧智能"
       ],
-      "heat": 53,
+      "heat": 55,
       "image": ""
+    },
+    {
+      "id": "wired-ai-双子座模型机器人-2-带来谷歌人工智能进入",
+      "title": "双子座模型机器人 2 带来谷歌人工智能进入",
+      "url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-07-30T15:04:22.000Z",
+      "summary": "谷歌深度思维人工智能模型进入通用人工智能。人工智能进入现实世界借助风险。",
+      "topics": [
+        "模型发布",
+        "机器人"
+      ],
+      "heat": 62,
+      "image": "https://media.wired.com/photos/6a6a8a2bd6b54781fab7d961/master/pass/Google-Trying-to-Bring-AI-Into-Physical-World-Business.jpg"
     }
   ]
 }
