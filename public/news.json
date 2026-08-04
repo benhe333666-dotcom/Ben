@@ -1,70 +1,70 @@
 {
-  "generatedAt": "2026-08-04T12:41:06.727Z",
+  "generatedAt": "2026-08-04T13:10:25.060Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-04T13:00:00.000Z",
+  "nextUpdateHint": "2026-08-04T13:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-04T12:39:20.000Z"
+    "latestPublishedAt": "2026-08-04T13:09:13.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 69,
+      "count": 70,
       "heat": 84
     },
     {
       "name": "模型发布",
-      "count": 60,
-      "heat": 84
+      "count": 59,
+      "heat": 83
     },
     {
       "name": "监管安全",
-      "count": 28,
-      "heat": 85
+      "count": 27,
+      "heat": 84
     },
     {
       "name": "研究论文",
       "count": 22,
-      "heat": 85
+      "heat": 84
     },
     {
       "name": "算力芯片",
-      "count": 16,
-      "heat": 89
+      "count": 17,
+      "heat": 90
     },
     {
       "name": "人工智能动态",
-      "count": 20,
-      "heat": 70
-    },
-    {
-      "name": "投融资",
-      "count": 14,
-      "heat": 82
+      "count": 19,
+      "heat": 73
     },
     {
       "name": "多模态",
       "count": 13,
-      "heat": 81
+      "heat": 83
     },
     {
       "name": "开源生态",
-      "count": 12,
+      "count": 13,
       "heat": 82
+    },
+    {
+      "name": "投融资",
+      "count": 10,
+      "heat": 78
     },
     {
       "name": "端侧智能",
       "count": 8,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "机器人",
-      "count": 5,
-      "heat": 88
+      "count": 6,
+      "heat": 87
     }
   ],
   "sources": [
@@ -96,9 +96,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-07-28T16:00:00.000Z",
-      "latestDisplayedAt": "2026-07-28T16:00:00.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-08-04T13:00:00.000Z",
+      "latestDisplayedAt": "2026-08-04T13:00:00.000Z"
     },
     {
       "id": "google-research",
@@ -144,9 +144,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 7,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-08-03T23:27:35.000Z",
-      "latestDisplayedAt": "2026-08-03T23:27:35.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-04T12:36:32.000Z",
+      "latestDisplayedAt": "2026-08-04T12:36:32.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -160,9 +160,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-07-28T15:00:19.000Z",
-      "latestDisplayedAt": "2026-07-28T15:00:19.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-08-04T13:00:47.000Z",
+      "latestDisplayedAt": "2026-08-04T13:00:47.000Z"
     },
     {
       "id": "microsoft-ai-blog",
@@ -188,10 +188,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 3,
       "displayedCount": 3,
       "latestFetchedAt": "2026-07-30T15:09:09.000Z",
       "latestDisplayedAt": "2026-07-30T15:09:09.000Z"
@@ -220,10 +220,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 10,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 403",
+      "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-08-03T19:00:50.000Z",
       "latestDisplayedAt": "2026-08-03T19:00:50.000Z"
@@ -240,7 +240,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-04T11:27:55.000Z",
       "latestDisplayedAt": "2026-08-04T11:27:55.000Z"
     },
@@ -380,10 +380,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "This operation was aborted",
-      "itemCount": 5,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
       "displayedCount": 5,
       "latestFetchedAt": "2026-08-03T17:58:27.000Z",
       "latestDisplayedAt": "2026-08-03T17:58:27.000Z"
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
+      "itemCount": 15,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-04T12:39:20.000Z",
-      "latestDisplayedAt": "2026-08-04T12:39:20.000Z"
+      "latestFetchedAt": "2026-08-04T12:54:56.000Z",
+      "latestDisplayedAt": "2026-08-04T12:54:56.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 20,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-04T12:32:16.000Z",
-      "latestDisplayedAt": "2026-08-04T12:32:16.000Z"
+      "latestFetchedAt": "2026-08-04T13:09:13.000Z",
+      "latestDisplayedAt": "2026-08-04T13:09:13.000Z"
     },
     {
       "id": "oschina",
@@ -488,36 +488,86 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-由三星牵头的韩国国家人工智能算力中心正式开工",
-      "title": "由三星牵头的韩国国家人工智能算力中心正式开工",
-      "url": "https://36kr.com/newsflashes/3925199434611072?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T12:39:20.000Z",
-      "summary": "为增强韩国人工智能技术竞争力、拓展人工智能服务，被称作“人工智能高速通道”的人工智能算力中心建设工作正式启动。8月3日，韩国科学技术信息通信部在全罗南道光州市海南郡索拉西多数据中心园区，举办人工智能算力中心奠基仪式。该项目总投资2.5万亿韩元，占地面积约4.8万平方米，规划建设一栋两层建筑，预计2028年竣工投用。去年，三星联合云、三星物产、三星电子、光州市政府以及西南海岸企……",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "ithome-未来已来-华为智选车产品总监彭磊晒享界相关型号汽车相关型号自动驾驶功能按键-可亮蓝光",
-      "title": "“未来已来”：华为智选车产品总监彭磊晒享界相关型号汽车相关型号自动驾驶功能按键，可亮蓝光",
-      "url": "https://www.ithome.com/0/985/681.htm",
+      "id": "ithome-暂存区不欢迎人工智能生成补丁-安全修复需通过实际硬件测试验证",
+      "title": "暂存区不欢迎人工智能生成补丁，安全修复需通过实际硬件测试验证",
+      "url": "https://www.ithome.com/0/985/693.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T12:32:16.000Z",
-      "summary": "科技之家 8 月 4 日消息，华为智选车产品总监（享界系列）彭磊刚刚晒出了鸿蒙智行享界相关型号汽车的相关型号自动驾驶功能按键。画面显示，该按键可亮蓝光。而他微博的配文“ ”则可以翻译为“未来已来”。据科技之家今日早些时候报道，我国首部针对相关型号级有条件自动驾驶和相关型号级高度自动驾驶系统的强制性国家标准 ——《 智能网联汽车自动驾驶系统安全要求 》（ 44721—2026）……",
+      "publishedAt": "2026-08-04T13:09:13.000Z",
+      "summary": "科技之家 8 月 4 日消息，内核维护者、基金会研究员于当地时间周一宣布了一项新政策：针对内核的暂存区（//），将不再接受由人工智能模型生成的补丁，但真实有效的安全漏洞修复除外。解释称，近期暂存区收到大量由大语言模型生成的补丁，因此有必要明确相关政策。他指出，暂存区的主要目的并不是维护成熟代码，而是作为新开发者学习内核开发流程的入口。认为，如果直接使用人工智能工具自动完成这些……",
       "topics": [
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "nvidia-blog-人工智能面向",
+      "title": "人工智能面向",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-04T13:00:47.000Z",
+      "summary": "打开保障安全人工智能，120 组织，新向强化人工智能作为在。分享面向在分享人工智能，…",
+      "topics": [
+        "产品应用",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 98,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png"
+    },
+    {
+      "id": "google-ai-blog-人工智能新闻我们宣布在-2026",
+      "title": "人工智能新闻我们宣布在 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "source": "谷歌人工智能博客",
+      "sourceId": "google-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "summary": "这里谷歌人工智能更新来自 2026",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 99,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "thirty-six-kr-埃斯顿-全资子公司拟合计4-87亿元收购埃斯顿酷卓股权",
+      "title": "埃斯顿：全资子公司拟合计4.87亿元收购埃斯顿酷卓股权",
+      "url": "https://36kr.com/newsflashes/3925214768199813?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T12:54:56.000Z",
+      "summary": "36氪获悉，埃斯顿公告，公司全资子公司南京埃斯顿机器人工程有限公司、南京鼎通机电自动化有限公司拟以支付现金方式收购南京埃斯顿酷卓科技有限公司（简称“埃斯顿酷卓”）股权，交易总金额为4.87亿元。本次交易完成后，公司通过子公司间接持有埃斯顿酷卓100%股权，并将其纳入合并报表范围。",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-代码启用在代码质量",
+      "title": "代码启用在代码质量",
+      "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-04T12:36:32.000Z",
+      "summary": "我们代码更快和。查看新在仓库代码质量代码托管平台生成工作流借助人工智能。… 代码启用在代码质量首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -620,7 +670,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://media.wired.com/photos/6a6b1ddcb699cd04dbc2d5af/master/pass/073126_How%20One%20Startup%20Built%20a%20(Mostly)%20China-Free%20Robot.jpg"
     },
     {
@@ -636,7 +686,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -686,7 +736,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -706,24 +756,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-推理能力面向智能副驾云服务智能体",
-      "title": "推理能力面向智能副驾云服务智能体",
-      "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-03T23:27:35.000Z",
-      "summary": "任务向代码托管平台智能编程助手云服务智能体，推理能力面向模型支持信息技术。向控制 … 推理能力面向智能副驾云服务智能体首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
       "id": "openai-news-开放人工智能公司发布人工智能相关动态",
       "title": "开放人工智能公司发布人工智能相关动态。",
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
@@ -737,7 +769,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -753,7 +785,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -786,7 +818,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -804,7 +836,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -822,7 +854,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -875,71 +907,35 @@
       "image": ""
     },
     {
-      "id": "google-ai-blog-双子座模型接口智能体-3-6-和",
-      "title": "双子座模型接口智能体: 3.6，和",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "谷歌人工智能博客",
-      "sourceId": "google-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "summary": "我们宣布新在智能体在双子座模型接口开发者构建，智能体。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 66,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "nvidia-blog-信息技术-构建人工智能借助英伟达",
-      "title": "信息技术，构建人工智能借助英伟达",
-      "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-28T15:00:19.000Z",
-      "summary": "作为人工智能和，内部信息技术。在视频，人工智能原生和人工智能，高亮英伟达平台面向 …",
-      "topics": [
-        "算力芯片",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 70,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson_FeaturedImage.png"
-    },
-    {
-      "id": "thirty-six-kr-与一家人工智能云初创公司签署了一项价值100亿美元的算力协议",
-      "title": "与一家人工智能云初创公司签署了一项价值100亿美元的算力协议",
-      "url": "https://36kr.com/newsflashes/3925172170324099?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T12:11:36.000Z",
-      "summary": "据报道，与一家人工智能云初创公司签署了一项价值100亿美元的算力协议。（第一财经）",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "ithome-荣耀关海涛谈-深度求索斩杀线-单位词元成本和性能最优化-至少内中外三层顶级意义",
-      "title": "荣耀关海涛谈“深度求索斩杀线”：单位词元成本和性能最优化，至少内中外三层顶级意义",
-      "url": "https://www.ithome.com/0/985/671.htm",
+      "id": "ithome-魏建军回应-长城相关型号预售订单突破-6-万台-传闻-还没那么多",
+      "title": "魏建军回应“长城相关型号预售订单突破 6 万台”传闻：还没那么多",
+      "url": "https://www.ithome.com/0/985/690.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T11:45:39.000Z",
-      "summary": "科技之家 8 月 4 日消息，今年 7 月 31 日，深度求索通过接口文档发布日志，宣布深度求索-第4代- 正式版接口上线公测。深度求索-第4代- 正式版跑分报告显示，其人工智能单任务成本比相关型号低约 60%。而根据全球最大人工智能聚合平台的周度统计中，深度求索-第4代- 以 7.22 万亿词元的调用量位居全球第一。于是，相关衍生话题“深度求索斩杀线”也引发了网友热议。根据……",
+      "publishedAt": "2026-08-04T13:03:18.000Z",
+      "summary": "科技之家 8 月 4 日消息，长城汽车董事长魏建军今日在微博发布视频，回应网络传闻“长城相关型号预售订单突破 6 万台”。魏建军对此表示：“ 这个数据不太准确，还没那么多。当然这个预售订单量也是非常不错的。” 据科技之家了解，长城相关型号方盒子将于明日正式上市，共有 4 款车型，限时权益价 21.48 万元起。科技之家注意到，该车车身尺寸根据布局分为两个版本，五座版长宽高为 ……",
       "topics": [
-        "模型发布",
+        "多模态"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-美股大型科技股盘前涨跌不一-英伟达涨超1",
+      "title": "美股大型科技股盘前涨跌不一，英伟达涨超1%",
+      "url": "https://36kr.com/newsflashes/3925208427395461?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T12:48:29.000Z",
+      "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿、英特尔涨超4%、英伟达涨超1%，特斯拉涨0.84%；微软、亚马逊跌超2%，谷歌、元宇宙平台公司、奈飞跌超1%，苹果跌0.15%。",
+      "topics": [
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1037,7 +1033,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1077,6 +1073,24 @@
       "image": ""
     },
     {
+      "id": "github-changelog-推理能力面向智能副驾云服务智能体",
+      "title": "推理能力面向智能副驾云服务智能体",
+      "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-03T23:27:35.000Z",
+      "summary": "任务向代码托管平台智能编程助手云服务智能体，推理能力面向模型支持信息技术。向控制 … 推理能力面向智能副驾云服务智能体首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-首席执行官呼吁人工智能",
       "title": "首席执行官呼吁人工智能",
       "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
@@ -1089,24 +1103,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-智能副驾借助",
-      "title": "智能副驾借助",
-      "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-03T19:14:58.000Z",
-      "summary": "创建智能副驾云服务智能体创建。使用 : 生成 : 在 … 智能副驾借助首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 82,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1141,7 +1138,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1159,7 +1156,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1176,7 +1173,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1192,7 +1189,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1263,53 +1260,71 @@
       "image": ""
     },
     {
-      "id": "google-ai-blog-5-向借助谷歌",
-      "title": "5 向借助谷歌",
-      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "id": "google-ai-blog-双子座模型接口智能体-3-6-和",
+      "title": "双子座模型接口智能体: 3.6，和",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "谷歌人工智能博客",
       "sourceId": "google-ai-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-28T13:00:00.000Z",
-      "summary": "人工智能功能帮助，和任务。",
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "summary": "我们宣布新在智能体在双子座模型接口开发者构建，智能体。",
       "topics": [
-        "人工智能动态"
-      ],
-      "heat": 61,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "thirty-six-kr-灵光应用闪应用创作者超400万人",
-      "title": "灵光应用闪应用创作者超400万人",
-      "url": "https://36kr.com/newsflashes/3925163486034309?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T12:02:46.000Z",
-      "summary": "8月3日，灵光应用宣布，其平台“闪应用”创作者已超过400万人，其中绝大多数为没有编程背景的普通用户，包括学生、教师、心理疗愈师、游戏发烧友、网文爱好者等群体。平台数据显示，游戏化是当前最活跃的趋势。其中，“模拟器”成为今年上半年最热门类型，诞生近万个相关应用，覆盖升学、职场、偶像养成等主题。近期，灵光应用持续更新多项功能。随着创作、分发和部署能力日趋完善，灵光应用的人工智能……",
-      "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 88,
-      "image": ""
+      "heat": 66,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-工信部-智能网联汽车自动驾驶系统安全要求-发布实施-为自动驾驶产品明确统一安全准入基线",
-      "title": "工信部：《智能网联汽车自动驾驶系统安全要求》发布实施，为自动驾驶产品明确统一安全准入基线",
-      "url": "https://www.ithome.com/0/985/665.htm",
+      "id": "nvidia-blog-信息技术-构建人工智能借助英伟达",
+      "title": "信息技术，构建人工智能借助英伟达",
+      "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-28T15:00:19.000Z",
+      "summary": "作为人工智能和，内部信息技术。在视频，人工智能原生和人工智能，高亮英伟达平台面向 …",
+      "topics": [
+        "算力芯片",
+        "投融资",
+        "多模态"
+      ],
+      "heat": 70,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson_FeaturedImage.png"
+    },
+    {
+      "id": "ithome-台积电晶圆与相关型号双重涨价-英伟达-50-系列韩国最高涨价-30-5090-最高涨至-730-万韩元",
+      "title": "台积电晶圆与相关型号双重涨价：英伟达 50 系列韩国最高涨价 30%，5090 最高涨至 730 万韩元",
+      "url": "https://www.ithome.com/0/985/687.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T11:06:29.000Z",
-      "summary": "科技之家 8 月 4 日消息，工业和信息化部组织制定并归口的《 智能网联汽车自动驾驶系统安全要求 》（ 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于 2027 年 7 月 1 日起正式实施。据介绍，这也是我国首部针对相关型号级有条件自动驾驶和相关型号级高度自动驾驶系统的强制性国家标准，该标准是对 2024 年发布的推荐性国家标……",
+      "publishedAt": "2026-08-04T12:57:34.000Z",
+      "summary": "科技之家 8 月 4 日消息，受台积电先进制程晶圆涨价及相关型号显存成本攀升影响，英伟达 50 系列显卡在韩国市场迎来新一轮价格调整。据昨日报道，多位韩国进口商与经销商已证实，各大显卡品牌计划自 8 月起将 50 系列产品价格上调，不同型号涨幅在 20% 至 30% 之间。台积电于 7 月通知客户，计划将 3 纳米、5 纳米及 7 纳米制程价格上调 5% 至 10%，覆盖其七……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
+        "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-由三星牵头的韩国国家人工智能算力中心正式开工",
+      "title": "由三星牵头的韩国国家人工智能算力中心正式开工",
+      "url": "https://36kr.com/newsflashes/3925199434611072?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T12:39:20.000Z",
+      "summary": "为增强韩国人工智能技术竞争力、拓展人工智能服务，被称作“人工智能高速通道”的人工智能算力中心建设工作正式启动。8月3日，韩国科学技术信息通信部在全罗南道光州市海南郡索拉西多数据中心园区，举办人工智能算力中心奠基仪式。该项目总投资2.5万亿韩元，占地面积约4.8万平方米，规划建设一栋两层建筑，预计2028年竣工投用。去年，三星联合云、三星物产、三星电子、光州市政府以及西南海岸企……",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 93,
       "image": ""
     },
     {
@@ -1342,7 +1357,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1358,7 +1373,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1376,7 +1391,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1393,7 +1408,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1411,7 +1426,24 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 87,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-智能副驾借助",
+      "title": "智能副驾借助",
+      "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-03T19:14:58.000Z",
+      "summary": "创建智能副驾云服务智能体创建。使用 : 生成 : 在 … 智能副驾借助首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 81,
       "image": ""
     },
     {
@@ -1429,7 +1461,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1484,23 +1516,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
-      "title": "代码托管平台更新日志发布人工智能相关动态。",
-      "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-03T17:04:32.000Z",
-      "summary": "仓库向，用户借助创建，用户借助访问向创建… 首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 80,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-向构建智能体借助",
       "title": "向构建智能体借助 &",
       "url": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
@@ -1515,7 +1530,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1531,7 +1546,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": "https://media.wired.com/photos/6a6cd8fd11de1df56dacd659/master/pass/Business_AIIsTakingOverattheDrive-Thru_v1.gif"
     },
     {
@@ -1601,52 +1616,37 @@
       "image": ""
     },
     {
-      "id": "google-ai-blog-5-人工智能模式在帮助现实世界",
-      "title": "5 人工智能模式在帮助现实世界",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "source": "谷歌人工智能博客",
-      "sourceId": "google-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-28T13:00:00.000Z",
-      "summary": "信息技术可能，人工智能工具实际帮助最时间向 …",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 53,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "thirty-six-kr-盈峰环境-无人环卫机器人等业务占整体营收比例较小",
-      "title": "盈峰环境：无人环卫机器人等业务占整体营收比例较小",
-      "url": "https://36kr.com/newsflashes/3925160587344258?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T11:59:49.000Z",
-      "summary": "36氪获悉，盈峰环境发布股票交易异常波动的公告，公司股票于7月31日、8月3日、8月4日连续3个交易日收盘价格涨幅偏离值累计达到22.53%。近期多家媒体聚焦公司无人环卫机器人、无人环卫车、核级风阀、风机、消声器、配套核电站通风与空气调节系统相关业务，上述业务实现营收占公司整体营收比例较小，现阶段不会对公司经营业绩产生重大影响。",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "ithome-华夏出版社标注书籍内容禁用于人工智能训练-负责人称很难维权-但要有态度",
-      "title": "华夏出版社标注书籍内容禁用于人工智能训练，负责人称很难维权、但要有态度",
-      "url": "https://www.ithome.com/0/985/664.htm",
+      "id": "ithome-手写公式实时生成曲线-手绘草图秒变三维模型-中国人工智能黑板让海外网友惊叹",
+      "title": "手写公式实时生成曲线、手绘草图秒变三维模型，中国人工智能黑板让海外网友惊叹",
+      "url": "https://www.ithome.com/0/985/684.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T11:04:47.000Z",
-      "summary": "科技之家 8 月 4 日消息，近日有报道称，人工智能公司正在大量收购稀缺图书，使用切除书脊的高速扫描设备进行数字化，随后将纸质原件粉碎销毁。科技之家注：非破坏性扫描通常使用俯拍扫描仪、平板扫描仪或型扫描设备，在不拆解图书的情况下完成数字化。而破坏性扫描则会直接拆开书籍，将每一页送入高速工业扫描仪进行处理。由于破坏性扫描效率更高、成本更低，因此人工智能公司普遍选择这一方式，最终……",
+      "publishedAt": "2026-08-04T12:40:15.000Z",
+      "summary": "科技之家 8 月 4 日消息，近日，一段关于中国人工智能黑板的视频在国外社交媒体引发热议。在视频中，老师在黑板上手写公式，内容实时同步大屏；随手圈定函数算式，系统即刻生成动态曲线；简易手绘草图，瞬间转化为可拆解操控的三维立体模型。国外博主感叹：“这不就是教育的未来吗？” 加拿大自媒体博主阿加瓦尔介绍称，老师在黑板上手写方程式后图形瞬间生成；画一个立方体，它立刻变成一个可旋转的……",
       "topics": [
         "模型发布",
-        "监管安全"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-与一家人工智能云初创公司签署了一项价值100亿美元的算力协议",
+      "title": "与一家人工智能云初创公司签署了一项价值100亿美元的算力协议",
+      "url": "https://36kr.com/newsflashes/3925172170324099?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T12:11:36.000Z",
+      "summary": "据报道，与一家人工智能云初创公司签署了一项价值100亿美元的算力协议。（第一财经）",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 95,
       "image": ""
     },
     {
@@ -1662,7 +1662,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1679,7 +1679,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1712,7 +1712,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1783,7 +1783,24 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
+      "title": "代码托管平台更新日志发布人工智能相关动态。",
+      "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-03T17:04:32.000Z",
+      "summary": "仓库向，用户借助创建，用户借助访问向创建… 首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 79,
       "image": ""
     },
     {
@@ -1801,7 +1818,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1834,7 +1851,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1853,24 +1870,6 @@
       ],
       "heat": 71,
       "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif"
-    },
-    {
-      "id": "github-changelog-2026-模型在代码托管平台智能编程助手",
-      "title": "2026 模型在代码托管平台智能编程助手",
-      "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-31T21:26:48.000Z",
-      "summary": "我们模型代码托管平台智能编程助手智能副驾，和智能体模式，和代码，在相关型号，2026: 模型 … 2026 模型在代码托管平台智能编程助手首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 61,
-      "image": ""
     },
     {
       "id": "openai-news-负责任人工智能",
@@ -1922,37 +1921,35 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-封装产能告急-台积电进一步扩大外包产能",
-      "title": "封装产能告急，台积电进一步扩大外包产能",
-      "url": "https://36kr.com/newsflashes/3925154441787525?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T11:53:34.000Z",
-      "summary": "英伟达的图形处理器订单已经把台积电的封装产线挤到极限，台积电不得不决定将人工智能芯片制造核心工席中的（晶圆上芯片）封装产能进一步外包给日月光等封测厂商。是台积电用于人工智能芯片的相关型号封装技术，人工智能处理器位于芯片中心，（高带宽内存）环绕四周，通过中介层连接。（财联社）",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "ithome-亚马逊人工智能超支五个月才被发现-单个项目花费-180-万美元超预算-860",
-      "title": "亚马逊人工智能超支五个月才被发现，单个项目花费 180 万美元超预算 860%",
-      "url": "https://www.ithome.com/0/985/651.htm",
+      "id": "ithome-未来已来-华为智选车产品总监彭磊晒享界相关型号汽车相关型号自动驾驶功能按键-可亮蓝光",
+      "title": "“未来已来”：华为智选车产品总监彭磊晒享界相关型号汽车相关型号自动驾驶功能按键，可亮蓝光",
+      "url": "https://www.ithome.com/0/985/681.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T10:36:16.000Z",
-      "summary": "科技之家 8 月 4 日消息，据英国《金融时报》，亚马逊内部已发现多起因人工智能部署失误和成本管控缺失而导致的“灾难性”预算超支案例。在 7 月 29 日的一场员工会议上，亚马逊高级工程师向同事指出，在尝试将部分传统编程任务转交给人工智能处理时，出现了此前未预料到的“计划外支出”，且此类超支并非孤立事件。工程师们正在为未来项目创建“自动化”防护措施以控制成本。据该工程师介绍，……",
+      "publishedAt": "2026-08-04T12:32:16.000Z",
+      "summary": "科技之家 8 月 4 日消息，华为智选车产品总监（享界系列）彭磊刚刚晒出了鸿蒙智行享界相关型号汽车的相关型号自动驾驶功能按键。画面显示，该按键可亮蓝光。而他微博的配文“ ”则可以翻译为“未来已来”。据科技之家今日早些时候报道，我国首部针对相关型号级有条件自动驾驶和相关型号级高度自动驾驶系统的强制性国家标准 ——《 智能网联汽车自动驾驶系统安全要求 》（ 44721—2026）……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-灵光应用闪应用创作者超400万人",
+      "title": "灵光应用闪应用创作者超400万人",
+      "url": "https://36kr.com/newsflashes/3925163486034309?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T12:02:46.000Z",
+      "summary": "8月3日，灵光应用宣布，其平台“闪应用”创作者已超过400万人，其中绝大多数为没有编程背景的普通用户，包括学生、教师、心理疗愈师、游戏发烧友、网文爱好者等群体。平台数据显示，游戏化是当前最活跃的趋势。其中，“模拟器”成为今年上半年最热门类型，诞生近万个相关应用，覆盖升学、职场、偶像养成等主题。近期，灵光应用持续更新多项功能。随着创作、分发和部署能力日趋完善，灵光应用的人工智能……",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -1985,7 +1982,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2001,7 +1998,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2037,7 +2034,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2071,7 +2068,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2157,21 +2154,21 @@
       "image": "https://media.wired.com/photos/6a6caf7dd48647a2296aebb5/master/pass/073126_Europeans%20Are%20About%20to%20See%20How%20Entrenched%20AI%20Is%20in%20Their%20Daily%20Lives.gif"
     },
     {
-      "id": "github-changelog-双子座模型-2-5-专业版和双子座模型-3",
-      "title": "双子座模型 2.5 专业版和双子座模型 3",
-      "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+      "id": "github-changelog-2026-模型在代码托管平台智能编程助手",
+      "title": "2026 模型在代码托管平台智能编程助手",
+      "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
       "source": "代码托管平台更新日志",
       "sourceId": "github-changelog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-07-31T20:04:01.000Z",
-      "summary": "作为，31，2026，我们模型代码托管平台智能编程助手智能副驾，和智能体模式，和代码。模型… 双子座模型 2.5 专业版和双子座模型 3 首个在代码托管平台。",
+      "publishedAt": "2026-07-31T21:26:48.000Z",
+      "summary": "我们模型代码托管平台智能编程助手智能副驾，和智能体模式，和代码，在相关型号，2026: 模型 … 2026 模型在代码托管平台智能编程助手首个在代码托管平台。",
       "topics": [
         "模型发布",
         "产品应用",
-        "开源生态"
+        "端侧智能"
       ],
-      "heat": 69,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2208,39 +2205,36 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/MCP-logo-1152x648.jpg"
     },
     {
-      "id": "ithome-人工智能安全公司首席执行官达里奥内部言论曝光-担忧员工上班只为钱",
-      "title": "人工智能安全公司首席执行官达里奥内部言论曝光，担忧员工上班只为钱",
-      "url": "https://www.ithome.com/0/985/649.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T10:28:24.000Z",
-      "summary": "科技之家 8 月 4 日消息，外媒昨天发布一篇人工智能人才争夺战的报道，称顶尖人工智能研究员仍在各大人工智能实验室间频繁跳槽，但是这些公司非常难留住人才。显然，金钱在这一系列的跳槽活动中扮演了重要角色。一些研究员希望拿到难以拒绝的薪酬，另一些人则希望拿到人工智能安全公司、开放人工智能公司等顶尖公司首次公开募股之前的股权，好在上市后赚得盆满钵满。据知情人士透露，人工智能安全公司……",
-      "topics": [
-        "监管安全",
-        "研究论文",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-自研高性能分布式解决方案-芯晓科技-将芯片电源签核周期从几周缩短至几天-水下项目",
-      "title": "自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天，水下项目",
-      "url": "https://36kr.com/p/3925067918227591?f=rss",
+      "id": "thirty-six-kr-盈峰环境-无人环卫机器人等业务占整体营收比例较小",
+      "title": "盈峰环境：无人环卫机器人等业务占整体营收比例较小",
+      "url": "https://36kr.com/newsflashes/3925160587344258?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T10:27:21.000Z",
-      "summary": "一枚先进制程芯片从设计、验证，到流片、制造，需要经过上百个环节。其中电源签核（）是设计流程最后的、也最重要的一环，相当于建造一栋大楼时对全楼供电系统进行竣工验收。具体来说，电源核签是通过对电源网络的上亿个节点进行整体分析，测试供电网络的功耗、电压降与电迁移等表现，从而决定芯片能否顺利进入量产流片。一旦结果出错，不仅导致芯片性能不达标，甚至会造成流片失败。由于芯片电源网络是由大……",
+      "publishedAt": "2026-08-04T11:59:49.000Z",
+      "summary": "36氪获悉，盈峰环境发布股票交易异常波动的公告，公司股票于7月31日、8月3日、8月4日连续3个交易日收盘价格涨幅偏离值累计达到22.53%。近期多家媒体聚焦公司无人环卫机器人、无人环卫车、核级风阀、风机、消声器、配套核电站通风与空气调节系统相关业务，上述业务实现营收占公司整体营收比例较小，现阶段不会对公司经营业绩产生重大影响。",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
+        "机器人"
       ],
-      "heat": 96,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "ithome-荣耀关海涛谈-深度求索斩杀线-单位词元成本和性能最优化-至少内中外三层顶级意义",
+      "title": "荣耀关海涛谈“深度求索斩杀线”：单位词元成本和性能最优化，至少内中外三层顶级意义",
+      "url": "https://www.ithome.com/0/985/671.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T11:45:39.000Z",
+      "summary": "科技之家 8 月 4 日消息，今年 7 月 31 日，深度求索通过接口文档发布日志，宣布深度求索-第4代- 正式版接口上线公测。深度求索-第4代- 正式版跑分报告显示，其人工智能单任务成本比相关型号低约 60%。而根据全球最大人工智能聚合平台的周度统计中，深度求索-第4代- 以 7.22 万亿词元的调用量位居全球第一。于是，相关衍生话题“深度求索斩杀线”也引发了网友热议。根据……",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -2342,7 +2336,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2415,6 +2409,24 @@
       "image": ""
     },
     {
+      "id": "github-changelog-双子座模型-2-5-专业版和双子座模型-3",
+      "title": "双子座模型 2.5 专业版和双子座模型 3",
+      "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-31T20:04:01.000Z",
+      "summary": "作为，31，2026，我们模型代码托管平台智能编程助手智能副驾，和智能体模式，和代码。模型… 双子座模型 2.5 专业版和双子座模型 3 首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 69,
+      "image": ""
+    },
+    {
       "id": "wired-ai-中国人工智能研究在",
       "title": "中国人工智能研究在",
       "url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
@@ -2430,24 +2442,6 @@
       ],
       "heat": 62,
       "image": "https://media.wired.com/photos/6a6bc43ecd95420c8647a339/master/pass/Made-in-China--China-AI-Researchers-Are-Finding-Their-Voice-on-X-Business.jpg"
-    },
-    {
-      "id": "github-changelog-企业团队模型政策在公开预览",
-      "title": "企业团队模型政策在公开预览",
-      "url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-31T18:11:50.000Z",
-      "summary": "用户，模型政策面向代码托管平台企业客户借助智能副驾企业智能副驾企业许可。功能人工智能向基线… 企业团队模型政策在公开预览首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 61,
-      "image": ""
     },
     {
       "id": "openai-news-构建-24-7-智能体借助",
@@ -2484,38 +2478,37 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg"
     },
     {
-      "id": "ithome-荣耀解答-11-液态玻璃是否会增加功耗-通过系统级调度-实现低功耗长续航的平衡",
-      "title": "荣耀解答 11 液态玻璃是否会增加功耗：通过系统级调度，实现低功耗长续航的平衡",
-      "url": "https://www.ithome.com/0/985/643.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T10:06:50.000Z",
-      "summary": "科技之家 8 月 4 日消息，荣耀官方今日发布了 11 先锋用户回音壁栏目，针对新系统的热点问题进行了集中解答，包括液态玻璃是否会增加功耗、可读性是否受影响等。11 液态玻璃会增加系统功耗吗？11 将持续进化，通过自研材质引擎，还原液态玻璃的真实质感，赋予画面灵动流光生命力。同时通过系统级调度，实现低功耗长续航的平衡。液态玻璃通透模式影响界面的可读性吗？11 充分关注用户的个……",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-一层-布-涨价270-之后-投资机构用数亿元投票玻璃基板-巽霖科技完成近2亿元第二轮融资融资",
-      "title": "一层“布”涨价270%之后，投资机构用数亿元投票玻璃基板，巽霖科技完成近2亿元第二轮融资融资",
-      "url": "https://36kr.com/p/3924953058605444?f=rss",
+      "id": "thirty-six-kr-封装产能告急-台积电进一步扩大外包产能",
+      "title": "封装产能告急，台积电进一步扩大外包产能",
+      "url": "https://36kr.com/newsflashes/3925154441787525?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T08:31:59.000Z",
-      "summary": "【导语】当前，电子级玻纤布价格较2025年低点翻倍、相关型号覆铜板涨幅超270%，人工智能封装载板部分交期拉长至6个月以上，有机基板供给危机持续加深。在此背景下，国内玻璃基板领军企业巽霖科技宣布完成近2亿元第二轮融资融资——这已是该公司半年内完成的第三轮次融资。本轮由英诺基金、千乘资本、海目星、光莆股份、同鑫资本等新股东投资，金雨茂物、海通开元、北岸产投等老股东持续加码。募集……",
+      "publishedAt": "2026-08-04T11:53:34.000Z",
+      "summary": "英伟达的图形处理器订单已经把台积电的封装产线挤到极限，台积电不得不决定将人工智能芯片制造核心工席中的（晶圆上芯片）封装产能进一步外包给日月光等封测厂商。是台积电用于人工智能芯片的相关型号封装技术，人工智能处理器位于芯片中心，（高带宽内存）环绕四周，通过中介层连接。（财联社）",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
+        "算力芯片"
       ],
       "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "ithome-工信部-智能网联汽车自动驾驶系统安全要求-发布实施-为自动驾驶产品明确统一安全准入基线",
+      "title": "工信部：《智能网联汽车自动驾驶系统安全要求》发布实施，为自动驾驶产品明确统一安全准入基线",
+      "url": "https://www.ithome.com/0/985/665.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T11:06:29.000Z",
+      "summary": "科技之家 8 月 4 日消息，工业和信息化部组织制定并归口的《 智能网联汽车自动驾驶系统安全要求 》（ 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于 2027 年 7 月 1 日起正式实施。据介绍，这也是我国首部针对相关型号级有条件自动驾驶和相关型号级高度自动驾驶系统的强制性国家标准，该标准是对 2024 年发布的推荐性国家标……",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -2532,7 +2525,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2548,7 +2541,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2617,7 +2610,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2635,7 +2628,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2651,7 +2644,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 49,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2668,6 +2661,24 @@
         "多模态"
       ],
       "heat": 58,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-企业团队模型政策在公开预览",
+      "title": "企业团队模型政策在公开预览",
+      "url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-31T18:11:50.000Z",
+      "summary": "用户，模型政策面向代码托管平台企业客户借助智能副驾企业智能副驾企业许可。功能人工智能向基线… 企业团队模型政策在公开预览首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 61,
       "image": ""
     },
     {
@@ -2704,36 +2715,38 @@
       "image": ""
     },
     {
-      "id": "ithome-东方电缆-2026-年半年度归母净利润-5-65-亿元-同比增长-19-41",
-      "title": "东方电缆 2026 年半年度归母净利润 5.65 亿元，同比增长 19.41%",
-      "url": "https://www.ithome.com/0/985/627.htm",
+      "id": "ithome-华夏出版社标注书籍内容禁用于人工智能训练-负责人称很难维权-但要有态度",
+      "title": "华夏出版社标注书籍内容禁用于人工智能训练，负责人称很难维权、但要有态度",
+      "url": "https://www.ithome.com/0/985/664.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T09:59:58.000Z",
-      "summary": "科技之家 8 月 4 日消息，东方电缆今日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）报告：营业总收入：58.00 亿元，同比增长 30.85% 归母净利润：5.65 亿元，同比增长 19.41% 扣非净利润：5.59 亿元，同比增长 21.03% 经营现金流：-1.57 亿元加权平均净资产收益率：6.65%，同比下降 0.02 个百分点基本每股收益……",
+      "publishedAt": "2026-08-04T11:04:47.000Z",
+      "summary": "科技之家 8 月 4 日消息，近日有报道称，人工智能公司正在大量收购稀缺图书，使用切除书脊的高速扫描设备进行数字化，随后将纸质原件粉碎销毁。科技之家注：非破坏性扫描通常使用俯拍扫描仪、平板扫描仪或型扫描设备，在不拆解图书的情况下完成数字化。而破坏性扫描则会直接拆开书籍，将每一页送入高速工业扫描仪进行处理。由于破坏性扫描效率更高、成本更低，因此人工智能公司普遍选择这一方式，最终……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-东山精密涨停背后-36氪企业全情报捕捉市场机会",
-      "title": "东山精密涨停背后：36氪企业全情报捕捉市场机会",
-      "url": "https://36kr.com/p/3924913931679877?f=rss",
+      "id": "thirty-six-kr-自研高性能分布式解决方案-芯晓科技-将芯片电源签核周期从几周缩短至几天-水下项目",
+      "title": "自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天，水下项目",
+      "url": "https://36kr.com/p/3925067918227591?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T08:18:21.000Z",
-      "summary": "36氪企业全情报带你发现涨停背后的机会开篇，先给大家送个福利最近不少朋友在体验企业全情报，我们也准备了一波奖品回馈大家。体验小程序，完成15秒阅读+任意订阅一家企业即可免费参与抽奖。奖品有影石相关型号、运动相机挂脖支架、36氪航天徽章。祝大家都能中奖，点击即可参与：👇 :///第2代//相关型号扫码抽奖！今日股收盘数据上证指数：3822.28 点，+0.33% 深证成指：1……",
+      "publishedAt": "2026-08-04T10:27:21.000Z",
+      "summary": "一枚先进制程芯片从设计、验证，到流片、制造，需要经过上百个环节。其中电源签核（）是设计流程最后的、也最重要的一环，相当于建造一栋大楼时对全楼供电系统进行竣工验收。具体来说，电源核签是通过对电源网络的上亿个节点进行整体分析，测试供电网络的功耗、电压降与电迁移等表现，从而决定芯片能否顺利进入量产流片。一旦结果出错，不仅导致芯片性能不达标，甚至会造成流片失败。由于芯片电源网络是由大……",
       "topics": [
+        "产品应用",
         "算力芯片",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2749,7 +2762,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2766,7 +2779,7 @@
         "研究论文",
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2784,7 +2797,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2802,7 +2815,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2836,22 +2849,6 @@
         "产品应用"
       ],
       "heat": 53,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-这里问题借助人工智能图像在谷歌地球",
-      "title": "这里问题借助人工智能图像在谷歌地球",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-07-31T17:05:46.000Z",
-      "summary": "信息技术向生成图像谷歌地球，和三维借助人工智能功能，图像生成由和医院在。谷歌向 …",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 58,
       "image": ""
     }
   ]
