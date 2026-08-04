@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-08-04T14:40:18.924Z",
+  "generatedAt": "2026-08-04T15:10:31.358Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-04T15:00:00.000Z",
+  "nextUpdateHint": "2026-08-04T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-04T14:31:46.000Z"
+    "latestPublishedAt": "2026-08-04T15:02:31.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 72,
-      "heat": 85
+      "count": 69,
+      "heat": 84
     },
     {
       "name": "模型发布",
-      "count": 54,
+      "count": 53,
       "heat": 83
     },
     {
       "name": "监管安全",
-      "count": 24,
+      "count": 25,
       "heat": 84
+    },
+    {
+      "name": "多模态",
+      "count": 18,
+      "heat": 88
     },
     {
       "name": "研究论文",
@@ -32,14 +37,9 @@
       "heat": 82
     },
     {
-      "name": "多模态",
-      "count": 18,
-      "heat": 86
-    },
-    {
       "name": "算力芯片",
-      "count": 17,
-      "heat": 90
+      "count": 16,
+      "heat": 92
     },
     {
       "name": "人工智能动态",
@@ -47,24 +47,24 @@
       "heat": 74
     },
     {
-      "name": "投融资",
+      "name": "开源生态",
       "count": 14,
+      "heat": 82
+    },
+    {
+      "name": "投融资",
+      "count": 13,
       "heat": 84
     },
     {
-      "name": "开源生态",
-      "count": 14,
-      "heat": 83
-    },
-    {
       "name": "端侧智能",
-      "count": 11,
-      "heat": 86
+      "count": 10,
+      "heat": 84
     },
     {
       "name": "机器人",
-      "count": 6,
-      "heat": 88
+      "count": 8,
+      "heat": 90
     }
   ],
   "sources": [
@@ -96,7 +96,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 2,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-08-04T13:00:00.000Z",
       "latestDisplayedAt": "2026-08-04T13:00:00.000Z"
     },
@@ -160,9 +160,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-08-04T13:00:47.000Z",
-      "latestDisplayedAt": "2026-08-04T13:00:47.000Z"
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-08-04T15:00:49.000Z",
+      "latestDisplayedAt": "2026-08-04T15:00:49.000Z"
     },
     {
       "id": "microsoft-ai-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-04T14:03:01.000Z",
       "latestDisplayedAt": "2026-08-04T14:03:01.000Z"
     },
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-04T12:23:43.000Z",
       "latestDisplayedAt": "2026-08-04T12:23:43.000Z"
     },
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-08-04T14:31:46.000Z",
-      "latestDisplayedAt": "2026-08-04T14:31:46.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-08-04T15:02:31.000Z",
+      "latestDisplayedAt": "2026-08-04T15:02:31.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 19,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-04T12:20:00.000Z",
       "latestDisplayedAt": "2026-08-04T12:20:00.000Z"
     },
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 20,
+      "itemCount": 19,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-04T14:06:50.000Z",
-      "latestDisplayedAt": "2026-08-04T14:06:50.000Z"
+      "latestFetchedAt": "2026-08-04T14:50:35.000Z",
+      "latestDisplayedAt": "2026-08-04T14:50:35.000Z"
     },
     {
       "id": "oschina",
@@ -488,37 +488,55 @@
   "failures": [],
   "items": [
     {
-      "id": "reddit-artificial-人工智能实验室-编程解决-为什么软件持续得到-和人工智能新闻",
-      "title": "人工智能实验室，编程解决，为什么软件持续得到？和人工智能新闻",
-      "url": "https://www.reddit.com/r/artificial/comments/1vfc1h2/are_ai_labs_pelicanmaxxing_if_coding_has_been/",
+      "id": "reddit-artificial-机器人在-论文",
+      "title": "机器人在，论文。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfcvog/this_robot_never_loses_at_rock_paper_scissors_game/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T14:31:46.000Z",
-      "summary": "只是人工智能，人工智能和来自技术社区热榜。这里在 : 创业公司。政府向中国打开人工智能人工智能创业公司研究人工智能推理能力正确面向？人工智能，这里: :，由",
+      "publishedAt": "2026-08-04T15:02:31.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "研究论文",
-        "投融资"
+        "机器人"
       ],
       "heat": 91,
-      "image": ""
+      "image": "https://external-preview.redd.it/MnlsaDh0b3poZGhoMdll3RRGA5eScmEB5PO5Gn6Crv4Zqoq-Oe8L0ztWJ2k-.png?width=640&crop=smart&auto=webp&s=477a5bd859046e838260d89f9960b199725a8e52"
     },
     {
-      "id": "ithome-小红书-大量人工智能毒动画-未成年人软色情陪聊-教唆自残等典型账号被永久封禁",
-      "title": "小红书：大量人工智能毒动画、未成年人软色情陪聊、教唆自残等典型账号被永久封禁",
-      "url": "https://www.ithome.com/0/985/708.htm",
+      "id": "nvidia-blog-英伟达-2-打开模型面向和-现已可用面向使用",
+      "title": "英伟达 2，打开模型面向和，现已可用面向使用",
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-04T15:00:49.000Z",
+      "summary": "面向和，问题。罕见，向和训练面向。‑ 只是物体和，关于和，正确和 …",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "机器人"
+      ],
+      "heat": 99,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/alpamayo-launch-kv-blog-1920x1080-1.jpg"
+    },
+    {
+      "id": "ithome-推出-26-5-英寸相关型号-165-赫兹显示器天启相关型号十亿-首发-3999-元",
+      "title": "推出 26.5 英寸相关型号 165 赫兹显示器天启相关型号十亿，首发 3999 元",
+      "url": "https://www.ithome.com/0/985/717.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T14:06:50.000Z",
-      "summary": "科技之家 8 月 4 日消息，小红书今晚发布了两项治理公告，分别通报了涉未成年人违规内容及暑期旅行安全专项的治理进展。截至 8 月 4 日，平台在“清朗 · 未成年人网络保护”专项行动中已累计处置违规笔记 8.4 万余篇、违规评论 10.5 万余条、违规账号 3571 个。小红书宣布，平台针对三类典型违规行为采取了严厉处置，科技之家总结如下：一是恶意篡改经典动画内容，部分账号……",
+      "publishedAt": "2026-08-04T14:50:35.000Z",
+      "summary": "科技之家 8 月 4 日消息，惠科新上架了一款天启相关型号十亿显示器，京东显示为 4499 元，首发预售价 3999 元。京东 26.5 英寸天启相关型号十亿相关型号超清 165 赫兹第四代原生相关型号硬件低蓝光相关型号电竞相关型号旋转升降显示器 3999 元直达链接这款显示器搭载第四代面板，采用五层堆叠串联结构，有效分散单层发光材料负载，使用寿命延长两倍，发光效率提升 1.……",
       "topics": [
-        "监管安全",
+        "算力芯片",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 99,
       "image": ""
     },
     {
@@ -590,23 +608,6 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-人工智能面向",
-      "title": "人工智能面向",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-04T13:00:47.000Z",
-      "summary": "打开保障安全人工智能，120 组织，新向强化人工智能作为在。分享面向在分享人工智能，…",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 96,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png"
-    },
-    {
       "id": "google-ai-blog-人工智能新闻我们宣布在-2026",
       "title": "人工智能新闻我们宣布在 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
@@ -635,7 +636,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -652,7 +653,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -664,7 +665,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-08-04T12:23:43.000Z",
-      "summary": "和云服务中国打开，来源人工智能模型，向新。开放人工智能公司和人工智能安全公司面向，英伟达，谷歌，和元宇宙平台公司。来自，面向，决策在。开源在中国人工智能首个在人工智能解码媒体。",
+      "summary": "和云服务中国打开，人工智能模型，向新。开放人工智能公司和人工智能安全公司面向，英伟达，谷歌，和元宇宙平台公司。来自，面向，决策在。开源在中国人工智能首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
@@ -756,7 +757,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -874,7 +875,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -911,38 +912,53 @@
       "image": ""
     },
     {
-      "id": "ithome-王腾回应新公司-清一色-采用小米显示器-性价比高",
-      "title": "王腾回应新公司“清一色”采用小米显示器：性价比高",
-      "url": "https://www.ithome.com/0/985/704.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
+      "id": "nvidia-blog-作为人工智能在记忆",
+      "title": "作为人工智能在记忆",
+      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:47:45.000Z",
-      "summary": "科技之家 8 月 4 日消息，今日宜休科技公司创始人王腾昨日分享了在工区组织开全员会的现场照片，并展示首批样品。王腾表示，产品再仔细打磨一段时间就可以跟大家见面了。有网友注意到，王腾分享的照片显示，其公司工位的显示器“清一色”采用的小米品牌显示器。对此王腾回应称：“ 性价比高 [呲牙笑][呲牙笑]” 科技之家注意到，除了公司显示器大量采用小米品牌外，王腾微博小尾巴显示，其目前……",
+      "publishedAt": "2026-08-04T15:00:47.000Z",
+      "summary": "人工智能面向和上下文视窗系统记忆。由新增，来自人工智能工厂和高效，保障安全。在未来 …",
       "topics": [
-        "投融资",
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 92,
-      "image": ""
+      "heat": 93,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/ai-storage-fms-1920x1080-1.jpg"
     },
     {
-      "id": "reddit-artificial-前沿模型面向任务",
-      "title": "前沿模型面向任务？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vfa4wz/are_frontier_models_becoming_the_default_for/",
+      "id": "reddit-artificial-构建借助员工-这里",
+      "title": "构建借助员工。这里。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfcbzs/i_built_a_game_studio_with_zero_human_employees/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:18:36.000Z",
-      "summary": "人工智能，和打开，推理能力。前沿模型面向，任务向模型减少成本和。认为，模型成为，新增评测和？由",
+      "publishedAt": "2026-08-04T14:42:33.000Z",
+      "summary": "构建借助员工。这里。构建借助克劳德模型。人工智能智能体，首席执行官，决策，和交付。向答案问题。:？= 由",
       "topics": [
         "模型发布",
-        "算力芯片",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 94,
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "ithome-小红书-大量人工智能毒动画-未成年人软色情陪聊-教唆自残等典型账号被永久封禁",
+      "title": "小红书：大量人工智能毒动画、未成年人软色情陪聊、教唆自残等典型账号被永久封禁",
+      "url": "https://www.ithome.com/0/985/708.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T14:06:50.000Z",
+      "summary": "科技之家 8 月 4 日消息，小红书今晚发布了两项治理公告，分别通报了涉未成年人违规内容及暑期旅行安全专项的治理进展。截至 8 月 4 日，平台在“清朗 · 未成年人网络保护”专项行动中已累计处置违规笔记 8.4 万余篇、违规评论 10.5 万余条、违规账号 3571 个。小红书宣布，平台针对三类典型违规行为采取了严厉处置，科技之家总结如下：一是恶意篡改经典动画内容，部分账号……",
+      "topics": [
+        "监管安全",
+        "多模态"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -958,7 +974,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -974,7 +990,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -990,7 +1006,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1057,7 +1073,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1090,7 +1106,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": "https://media.wired.com/photos/6a6cc9ac6aed60f089dc69c1/master/pass/Business_Mistral%20Is%20In%20The%20Right%20Place%20At%20The%20Right%20Time_v1.jpg"
     },
     {
@@ -1161,7 +1177,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1197,6 +1213,22 @@
       ],
       "heat": 68,
       "image": ""
+    },
+    {
+      "id": "google-ai-blog-内部-353-000-氛围式编程",
+      "title": "内部 353，000，氛围式编程",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "谷歌人工智能博客",
+      "sourceId": "google-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-03T15:00:00.000Z",
+      "summary": "人工智能智能体借助谷歌在，成本向构建和人工智能。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 82,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp"
     },
     {
       "id": "mit-tech-review-ai-这里为什么人工智能智能体和向",
@@ -1266,57 +1298,55 @@
       "image": ""
     },
     {
-      "id": "google-ai-blog-双子座模型接口智能体-3-6-和",
-      "title": "双子座模型接口智能体: 3.6，和",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "谷歌人工智能博客",
-      "sourceId": "google-ai-blog",
-      "sourceType": "official",
+      "id": "reddit-artificial-人工智能实验室-编程解决-为什么软件持续得到-和人工智能新闻",
+      "title": "人工智能实验室，编程解决，为什么软件持续得到？和人工智能新闻",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfc1h2/are_ai_labs_pelicanmaxxing_if_coding_has_been/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "summary": "我们宣布新在智能体在双子座模型接口开发者构建，智能体。",
+      "publishedAt": "2026-08-04T14:31:46.000Z",
+      "summary": "只是人工智能，人工智能和来自技术社区热榜。这里在 : 创业公司。政府向中国打开人工智能人工智能创业公司研究人工智能推理能力正确面向？人工智能，这里: :，由",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "研究论文",
+        "投融资"
       ],
-      "heat": 66,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp"
+      "heat": 90,
+      "image": ""
     },
     {
-      "id": "nvidia-blog-信息技术-构建人工智能借助英伟达",
-      "title": "信息技术，构建人工智能借助英伟达",
-      "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-07-28T15:00:19.000Z",
-      "summary": "作为人工智能和，内部信息技术。在视频，人工智能原生和人工智能，高亮英伟达平台面向 …",
-      "topics": [
-        "算力芯片",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 70,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson_FeaturedImage.png"
-    },
-    {
-      "id": "ithome-与美光合作展示高性能-6-存储架构-资源解耦设计-兼容组播功能",
-      "title": "与美光合作展示高性能 6 存储架构：资源解耦设计、兼容组播功能",
-      "url": "https://www.ithome.com/0/985/703.htm",
+      "id": "ithome-王腾回应新公司-清一色-采用小米显示器-性价比高",
+      "title": "王腾回应新公司“清一色”采用小米显示器：性价比高",
+      "url": "https://www.ithome.com/0/985/704.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:44:34.000Z",
-      "summary": "科技之家 8 月 4 日消息，今天与美光合作展示高性能端到端 6 存储架构，这套方案结合了的 6 交换芯片和美光 9650 固态硬盘。据介绍，6 交换芯片可与多款美光固态硬盘连接，支持高带宽、低延迟特性，兼容资源解耦设计，可帮助数据中心充分扩展存储资源。同时，6.0 的带宽相比 5.0 提升一倍，每通道数据传输速率可达相关型号/，完全满足高负载人工智能工作所需的持续吞吐能力。……",
+      "publishedAt": "2026-08-04T13:47:45.000Z",
+      "summary": "科技之家 8 月 4 日消息，今日宜休科技公司创始人王腾昨日分享了在工区组织开全员会的现场照片，并展示首批样品。王腾表示，产品再仔细打磨一段时间就可以跟大家见面了。有网友注意到，王腾分享的照片显示，其公司工位的显示器“清一色”采用的小米品牌显示器。对此王腾回应称：“ 性价比高 [呲牙笑][呲牙笑]” 科技之家注意到，除了公司显示器大量采用小米品牌外，王腾微博小尾巴显示，其目前……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "投融资",
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
+    },
+    {
+      "id": "nvidia-blog-人工智能面向",
+      "title": "人工智能面向",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-04T13:00:47.000Z",
+      "summary": "打开保障安全人工智能，120 组织，新向强化人工智能作为在。分享面向在分享人工智能，…",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 96,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png"
     },
     {
       "id": "thirty-six-kr-由三星牵头的韩国国家人工智能算力中心正式开工",
@@ -1348,26 +1378,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vf86qu/introducing_asciitermdraw_bench_testing_the/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T11:54:29.000Z",
-      "summary": ": 模型实际在？我们图像向关于？拓扑？信息技术向人工智能助手，和和向由？答案 :，图像借助，推出，基准测试借助我们目标是向评估视觉语言模型在向，和图像。最基准测试在编程，和推理能力，评估 : 模型创建，使用。信息技术。模型，和借助独立。基准测试 80 任务 : 和软件图像，模型信息技术询问向任务和，和模型。评测得分: 得分，和得分由大语言模型，评估五个任务向减少 80 任务，……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": "https://preview.redd.it/0ectrexgkchh1.png?width=640&crop=smart&auto=webp&s=349bd128c4926467d9b23ccc52aaccbe8ce3f149"
     },
     {
       "id": "leiphone-参数内卷的尽头-泳池机器人在等待一次范式转移",
@@ -1449,7 +1461,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1484,7 +1496,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1621,19 +1633,56 @@
       "image": ""
     },
     {
-      "id": "ithome-鸿蒙智行发言人发布关于近期-竹知了-相关网络信息的情况说明",
-      "title": "鸿蒙智行发言人发布关于近期“竹知了”相关网络信息的情况说明",
-      "url": "https://www.ithome.com/0/985/702.htm",
+      "id": "google-ai-blog-双子座模型接口智能体-3-6-和",
+      "title": "双子座模型接口智能体: 3.6，和",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "谷歌人工智能博客",
+      "sourceId": "google-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "summary": "我们宣布新在智能体在双子座模型接口开发者构建，智能体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 66,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "ithome-与美光合作展示高性能-6-存储架构-资源解耦设计-兼容组播功能",
+      "title": "与美光合作展示高性能 6 存储架构：资源解耦设计、兼容组播功能",
+      "url": "https://www.ithome.com/0/985/703.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:43:54.000Z",
-      "summary": "科技之家 8 月 4 日消息，今晚，鸿蒙智行发言人发布关于近期“竹知了”相关网络信息的情况说明。科技之家附官方原文如下：近日，围绕“竹知了”相关话题，网络上出现了大量讨论，也有不少网友对相关投诉提出疑问。此前，我们希望通过克制处理，避免进一步放大争议，随着相关信息持续扩散，一些说法逐渐偏离事实。我们感谢大家的关注、批评和监督。现将有关事实说明如下：长期以来，网络上持续存在恶意……",
+      "publishedAt": "2026-08-04T13:44:34.000Z",
+      "summary": "科技之家 8 月 4 日消息，今天与美光合作展示高性能端到端 6 存储架构，这套方案结合了的 6 交换芯片和美光 9650 固态硬盘。据介绍，6 交换芯片可与多款美光固态硬盘连接，支持高带宽、低延迟特性，兼容资源解耦设计，可帮助数据中心充分扩展存储资源。同时，6.0 的带宽相比 5.0 提升一倍，每通道数据传输速率可达相关型号/，完全满足高负载人工智能工作所需的持续吞吐能力。……",
       "topics": [
-        "多模态"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 87,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-前沿模型面向任务",
+      "title": "前沿模型面向任务？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vfa4wz/are_frontier_models_becoming_the_default_for/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T13:18:36.000Z",
+      "summary": "人工智能，和打开，推理能力。前沿模型面向，任务向模型减少成本和。认为，模型成为，新增评测和？由",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1653,22 +1702,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-作为社区论坛-首席执行官问题谷歌人工智能",
-      "title": "作为社区论坛，首席执行官问题谷歌人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1vf7dob/as_reddit_stock_falls_ceo_questions_value_of/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T11:13:54.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 91,
-      "image": "https://external-preview.redd.it/5c0GaxLr1ovpb6HbqZ3xozqx1MY-ekgKa0uouDH1L2Q.jpeg?width=640&crop=smart&auto=webp&s=4118f7f6ff3089afb1937677502f5e8c6039b1a1"
-    },
-    {
       "id": "qbitai-开放人工智能公司天价网红公关活动-捅马蜂窝了",
       "title": "开放人工智能公司天价网红公关活动，捅马蜂窝了",
       "url": "https://www.qbitai.com/2026/08/466032.html",
@@ -1681,7 +1714,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1716,7 +1749,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1767,7 +1800,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1785,7 +1818,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1855,7 +1888,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1872,7 +1905,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": "https://media.wired.com/photos/6a6d2245b481ceaecb2e9fe0/master/pass/FlockCameras.ThenSomeoneDestroyedThem_v1.gif"
     },
     {
@@ -1925,21 +1958,19 @@
       "image": ""
     },
     {
-      "id": "ithome-华为首款电视视觉智慧屏-6-开售-55-英寸-3499-元-75-英寸-5799-元",
-      "title": "华为首款电视视觉智慧屏 6 开售：55 英寸 3499 元，75 英寸 5799 元",
-      "url": "https://www.ithome.com/0/985/701.htm",
+      "id": "ithome-鸿蒙智行发言人发布关于近期-竹知了-相关网络信息的情况说明",
+      "title": "鸿蒙智行发言人发布关于近期“竹知了”相关网络信息的情况说明",
+      "url": "https://www.ithome.com/0/985/702.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:39:43.000Z",
-      "summary": "科技之家 8 月 4 日消息，虽然余承东宣称 8 月 5 日开售，但华为视觉智慧屏 6 实际上是今天开售，提供 55 英寸、65 英寸、75 英寸三个版本。55 英寸：3499 元，国补 2974.15 元 65 英寸：4699 元，国补 3994.15 元 75 英寸：5799 元，国补 4929.15 元京东华为视觉智慧屏 6 55 英寸真彩画质 300 赫兹高刷相关型号……",
+      "publishedAt": "2026-08-04T13:43:54.000Z",
+      "summary": "科技之家 8 月 4 日消息，今晚，鸿蒙智行发言人发布关于近期“竹知了”相关网络信息的情况说明。科技之家附官方原文如下：近日，围绕“竹知了”相关话题，网络上出现了大量讨论，也有不少网友对相关投诉提出疑问。此前，我们希望通过克制处理，避免进一步放大争议，随着相关信息持续扩散，一些说法逐渐偏离事实。我们感谢大家的关注、批评和监督。现将有关事实说明如下：长期以来，网络上持续存在恶意……",
       "topics": [
-        "产品应用",
-        "算力芯片",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1959,21 +1990,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-部件关于人工智能信息技术",
-      "title": "部件关于人工智能信息技术",
-      "url": "https://www.reddit.com/r/artificial/comments/1vf6prl/the_weirdest_part_about_voice_ai_is_how_people/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf86qu/introducing_asciitermdraw_bench_testing_the/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T10:40:01.000Z",
-      "summary": "借助智能体在，我们使用面向转化在人工智能面向，只是呼吁这里认为关于，借助。人工智能预算只是，向。正确向。向只是认为关于信息技术和和向信息技术。面向帮助向。关于信息技术？只是关于人工智能关于我们借助由",
+      "publishedAt": "2026-08-04T11:54:29.000Z",
+      "summary": ": 模型实际在？我们图像向关于？拓扑？信息技术向人工智能助手，和和向由？答案 :，图像借助，推出，基准测试借助我们目标是向评估视觉语言模型在向，和图像。最基准测试在编程，和推理能力，评估 : 模型创建，使用。信息技术。模型，和借助独立。基准测试 80 任务 : 和软件图像，模型信息技术询问向任务和，和模型。评测得分: 得分，和得分由大语言模型，评估五个任务向减少 80 任务，……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "端侧智能"
+        "研究论文"
       ],
-      "heat": 87,
-      "image": ""
+      "heat": 99,
+      "image": "https://preview.redd.it/0ectrexgkchh1.png?width=640&crop=smart&auto=webp&s=349bd128c4926467d9b23ccc52aaccbe8ce3f149"
     },
     {
       "id": "qbitai-腾讯混元-3-0-让语音识别理解上下文",
@@ -1988,7 +2020,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2004,7 +2036,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2040,7 +2072,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2076,7 +2108,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2125,7 +2157,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2141,7 +2173,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2212,19 +2244,19 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/MCP-logo-1152x648.jpg"
     },
     {
-      "id": "ithome-法拉第未来官宣化债工作仍在推进-总负债由-2025-年的约-3-5-亿美元降至约-2-3-亿",
-      "title": "法拉第未来官宣化债工作仍在推进，总负债由 2025 年的约 3.5 亿美元降至约 2.3 亿",
-      "url": "https://www.ithome.com/0/985/699.htm",
+      "id": "ithome-华为首款电视视觉智慧屏-6-开售-55-英寸-3499-元-75-英寸-5799-元",
+      "title": "华为首款电视视觉智慧屏 6 开售：55 英寸 3499 元，75 英寸 5799 元",
+      "url": "https://www.ithome.com/0/985/701.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:28:52.000Z",
-      "summary": "科技之家 8 月 4 日消息，法拉第未来官方今日宣布，在供应商、债权人及其他产业合作伙伴的支持下，公司历史遗留债务化解取得实质进展。根据已披露数据，总负债由 2025 年的约 3.5 亿美元 （科技之家注：现汇率约合 23.68 亿元人民币） 降至 2026 年的约 2.3 亿美元 （现汇率约合 15.56 亿元人民币）。法拉第未来表示，化债工作仍在推进，公司计划用三到四个季……",
+      "publishedAt": "2026-08-04T13:39:43.000Z",
+      "summary": "科技之家 8 月 4 日消息，虽然余承东宣称 8 月 5 日开售，但华为视觉智慧屏 6 实际上是今天开售，提供 55 英寸、65 英寸、75 英寸三个版本。55 英寸：3499 元，国补 2974.15 元 65 英寸：4699 元，国补 3994.15 元 75 英寸：5799 元，国补 4929.15 元京东华为视觉智慧屏 6 55 英寸真彩画质 300 赫兹高刷相关型号……",
       "topics": [
-        "投融资",
-        "多模态",
-        "机器人"
+        "产品应用",
+        "算力芯片",
+        "多模态"
       ],
       "heat": 96,
       "image": ""
@@ -2242,24 +2274,24 @@
       "topics": [
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "reddit-artificial-实际模型",
-      "title": "实际模型？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vf6n9s/how_do_you_actually_manage_a_long_chat_before_the/",
+      "id": "reddit-artificial-作为社区论坛-首席执行官问题谷歌人工智能",
+      "title": "作为社区论坛，首席执行官问题谷歌人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf7dob/as_reddit_stock_falls_ceo_questions_value_of/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T10:36:16.000Z",
-      "summary": "认为关于上下文视窗系统。在模型得到顺利，来自。正确 : 每个重要信息技术信息技术实际，作为，持续，使用工具，面向？和模型更好，只是？由",
+      "publishedAt": "2026-08-04T11:13:54.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布"
+        "人工智能动态"
       ],
-      "heat": 82,
-      "image": ""
+      "heat": 90,
+      "image": "https://external-preview.redd.it/5c0GaxLr1ovpb6HbqZ3xozqx1MY-ekgKa0uouDH1L2Q.jpeg?width=640&crop=smart&auto=webp&s=4118f7f6ff3089afb1937677502f5e8c6039b1a1"
     },
     {
       "id": "oschina-深度求索宣布内测邀请-全网最大规模开源智能体路演现场诞生",
@@ -2308,7 +2340,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2326,7 +2358,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2343,7 +2375,7 @@
         "模型发布",
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2361,7 +2393,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2379,7 +2411,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2486,20 +2518,21 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg"
     },
     {
-      "id": "ithome-抖音-7-月处置-40-3-万条色情低俗内容-今年已有-1290-个十万粉以上账号被处置",
-      "title": "抖音 7 月处置 40.3 万条色情低俗内容，今年已有 1290 个十万粉以上账号被处置",
-      "url": "https://www.ithome.com/0/985/698.htm",
+      "id": "ithome-法拉第未来官宣化债工作仍在推进-总负债由-2025-年的约-3-5-亿美元降至约-2-3-亿",
+      "title": "法拉第未来官宣化债工作仍在推进，总负债由 2025 年的约 3.5 亿美元降至约 2.3 亿",
+      "url": "https://www.ithome.com/0/985/699.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:27:55.000Z",
-      "summary": "科技之家 8 月 4 日消息，抖音今天宣布持续打击色情低俗类不良内容，及时阻断、清理可能影响未成年人身心健康的内容传播。7 月平台共处置色情低俗内容 40.3 万条，14.7 万个账号被采取清除违规增长粉丝、取消营利权限、禁言、封禁等不同梯度的处置。科技之家从“抖音黑板报”公众号了解到，抖音绝不纵容任何账号发布色情低俗等违规内容，无论粉丝量级多少，均依法依规从严处置。2026……",
+      "publishedAt": "2026-08-04T13:28:52.000Z",
+      "summary": "科技之家 8 月 4 日消息，法拉第未来官方今日宣布，在供应商、债权人及其他产业合作伙伴的支持下，公司历史遗留债务化解取得实质进展。根据已披露数据，总负债由 2025 年的约 3.5 亿美元 （科技之家注：现汇率约合 23.68 亿元人民币） 降至 2026 年的约 2.3 亿美元 （现汇率约合 15.56 亿元人民币）。法拉第未来表示，化债工作仍在推进，公司计划用三到四个季……",
       "topics": [
-        "监管安全",
-        "多模态"
+        "投融资",
+        "多模态",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2515,24 +2548,24 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能实际团队高效",
-      "title": "人工智能实际团队高效？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vf5f9e/has_ai_actually_made_your_small_team_more/",
+      "id": "reddit-artificial-部件关于人工智能信息技术",
+      "title": "部件关于人工智能信息技术",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf6prl/the_weirdest_part_about_voice_ai_is_how_people/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T09:28:24.000Z",
-      "summary": "人工智能工具向协调团队和。讨论关于智能聊天助手面向。工具更新，会议在。信息技术实时。信息技术只是新增向。成本问题在。$20 这里，$40，和团队。和很少有人关于信息技术。向工具实际减少新向工具。向。自动化和时间人工智能 80 正确。团队人工智能工具采用只是。数据在。来自团队。持续面向人工智能，信息技术在团队只是企业？由",
+      "publishedAt": "2026-08-04T10:40:01.000Z",
+      "summary": "借助智能体在，我们使用面向转化在人工智能面向，只是呼吁这里认为关于，借助。人工智能预算只是，向。正确向。向只是认为关于信息技术和和向信息技术。面向帮助向。关于信息技术？只是关于人工智能关于我们借助由",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 94,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2549,7 +2582,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2565,7 +2598,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2599,7 +2632,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2633,7 +2666,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2666,7 +2699,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 49,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2719,21 +2752,36 @@
       "image": ""
     },
     {
-      "id": "ithome-联想来酷斗战者战相关型号锐龙版新品开售-相关型号相关型号-5060-售-9799-元",
-      "title": "联想来酷斗战者战相关型号锐龙版新品开售：相关型号相关型号 + 5060 售 9799 元",
-      "url": "https://www.ithome.com/0/985/697.htm",
+      "id": "ithome-抖音-7-月处置-40-3-万条色情低俗内容-今年已有-1290-个十万粉以上账号被处置",
+      "title": "抖音 7 月处置 40.3 万条色情低俗内容，今年已有 1290 个十万粉以上账号被处置",
+      "url": "https://www.ithome.com/0/985/698.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-04T13:23:33.000Z",
-      "summary": "科技之家 8 月 4 日消息，联想 () 来酷 () 斗战者 () 全新推出的战相关型号锐龙版游戏笔记本电脑今日开售，首发优惠价 9799 元、叠加国补后 8329.15 元。京东斗战者战相关型号锐龙版游戏本 9799 元前往预约 2026 年数码家电政府补贴持续进行中，信息技术之家为大家汇总国补领券地址，买数码家电之前记得领取。数码补贴：点此领券手机 / 平板 / 消费电子……",
+      "publishedAt": "2026-08-04T13:27:55.000Z",
+      "summary": "科技之家 8 月 4 日消息，抖音今天宣布持续打击色情低俗类不良内容，及时阻断、清理可能影响未成年人身心健康的内容传播。7 月平台共处置色情低俗内容 40.3 万条，14.7 万个账号被采取清除违规增长粉丝、取消营利权限、禁言、封禁等不同梯度的处置。科技之家从“抖音黑板报”公众号了解到，抖音绝不纵容任何账号发布色情低俗等违规内容，无论粉丝量级多少，均依法依规从严处置。2026……",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "端侧智能"
+        "监管安全",
+        "多模态"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-实际模型",
+      "title": "实际模型？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vf6n9s/how_do_you_actually_manage_a_long_chat_before_the/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-04T10:36:16.000Z",
+      "summary": "认为关于上下文视窗系统。在模型得到顺利，来自。正确 : 每个重要信息技术信息技术实际，作为，持续，使用工具，面向？和模型更好，只是？由",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -2751,7 +2799,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2799,58 +2847,6 @@
       "topics": [
         "产品应用",
         "算力芯片"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "leiphone-三星被曝收缩中国手机布局-月销不足30万元的门店-将逐步清退-宗馥莉的-同父异母兄弟-成立新公司-约120万辆特斯拉汽车遭调查",
-      "title": "三星被曝收缩中国手机布局：月销不足30万元的门店，将逐步清退；宗馥莉的「同父异母兄弟」成立新公司；约120万辆特斯拉汽车遭调查",
-      "url": "https://www.leiphone.com/category/zaobao/5hrzL5QHORl8yoVf.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-04T00:41:00.000Z",
-      "summary": "要闻提示 1。三星被曝收缩中国手机布局：月销不足30万元的门店，将逐步清退 2。千问相关型号-旗舰版模型上线，阿里巴巴港股涨超7% 3。宗馥莉的“同父异母兄弟”成立新公司，实际控制人为杜建英 4。博导回应美国为何留不住杨植麟：他毅然拒绝苹果，选择回国创业 5。东方甄选主播称江小白不是白酒，公司被判商业诋毁赔偿30万 6。深度求索单日吞下8万亿词元，开放人工智能公司被迫降价追赶……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-苹果修复-为什么信息技术",
-      "title": "苹果修复。为什么信息技术？",
-      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T18:43:43.000Z",
-      "summary": "苹果人工智能助手信息技术向。信息技术在时刻人工智能助手。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 74,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-团队解决问题只是",
-      "title": "团队解决问题只是",
-      "url": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-03T10:49:58.000Z",
-      "summary": "研究团队解决打开问题开放人工智能公司，论文只是。打开问题，首个向查看解决信息技术，研究。问题: 使用模型？团队解决问题只是首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
       ],
       "heat": 84,
       "image": ""
