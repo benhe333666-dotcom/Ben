@@ -1,40 +1,45 @@
 {
-  "generatedAt": "2026-08-11T15:44:26.808Z",
+  "generatedAt": "2026-08-11T16:41:48.034Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-11T16:00:00.000Z",
+  "nextUpdateHint": "2026-08-11T17:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-11T15:19:10.000Z"
+    "latestPublishedAt": "2026-08-11T16:30:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 67,
-      "heat": 81
+      "count": 66,
+      "heat": 82
     },
     {
       "name": "模型发布",
-      "count": 51,
-      "heat": 86
+      "count": 53,
+      "heat": 87
     },
     {
       "name": "算力芯片",
       "count": 30,
-      "heat": 87
+      "heat": 88
     },
     {
       "name": "监管安全",
-      "count": 27,
-      "heat": 90
+      "count": 29,
+      "heat": 91
     },
     {
       "name": "研究论文",
       "count": 27,
       "heat": 85
+    },
+    {
+      "name": "人工智能动态",
+      "count": 19,
+      "heat": 70
     },
     {
       "name": "开源生态",
@@ -43,27 +48,22 @@
     },
     {
       "name": "多模态",
-      "count": 15,
-      "heat": 82
-    },
-    {
-      "name": "人工智能动态",
-      "count": 17,
-      "heat": 69
+      "count": 13,
+      "heat": 83
     },
     {
       "name": "投融资",
       "count": 10,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "端侧智能",
       "count": 10,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "机器人",
-      "count": 4,
+      "count": 3,
       "heat": 82
     }
   ],
@@ -81,8 +81,8 @@
       "fallbackReason": "",
       "itemCount": 12,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-10T17:00:00.000Z",
-      "latestDisplayedAt": "2026-08-10T17:00:00.000Z"
+      "latestFetchedAt": "2026-08-11T10:00:00.000Z",
+      "latestDisplayedAt": "2026-08-11T10:00:00.000Z"
     },
     {
       "id": "google-ai-blog",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-11T13:00:00.000Z",
-      "latestDisplayedAt": "2026-08-11T12:13:47.000Z"
+      "latestFetchedAt": "2026-08-11T16:25:20.000Z",
+      "latestDisplayedAt": "2026-08-11T16:25:20.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -239,7 +239,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
+      "itemCount": 8,
       "displayedCount": 1,
       "latestFetchedAt": "2026-08-11T14:45:44.000Z",
       "latestDisplayedAt": "2026-08-11T14:45:44.000Z"
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-11T15:07:44.000Z",
       "latestDisplayedAt": "2026-08-11T15:07:44.000Z"
     },
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-08-11T15:00:00.000Z",
-      "latestDisplayedAt": "2026-08-11T15:00:00.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-08-11T16:30:00.000Z",
+      "latestDisplayedAt": "2026-08-11T16:30:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-08-11T14:28:47.000Z",
-      "latestDisplayedAt": "2026-08-11T14:28:47.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-11T16:19:51.000Z",
+      "latestDisplayedAt": "2026-08-11T16:19:51.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -352,9 +352,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 0,
+      "displayedCount": 1,
       "latestFetchedAt": "2026-08-11T06:33:12.000Z",
-      "latestDisplayedAt": ""
+      "latestDisplayedAt": "2026-08-11T06:33:12.000Z"
     },
     {
       "id": "arxiv-cs-ai",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-08-10T17:59:51.000Z",
       "latestDisplayedAt": "2026-08-10T17:59:51.000Z"
@@ -380,12 +380,12 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "This operation was aborted",
+      "itemCount": 6,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-08-10T17:59:30.000Z",
+      "latestFetchedAt": "2026-08-10T17:47:19.000Z",
       "latestDisplayedAt": "2026-08-10T17:47:19.000Z"
     },
     {
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 18,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-11T07:11:00.000Z",
       "latestDisplayedAt": "2026-08-11T07:11:00.000Z"
     },
@@ -447,7 +447,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 21,
+      "itemCount": 20,
       "displayedCount": 8,
       "latestFetchedAt": "2026-08-11T15:19:10.000Z",
       "latestDisplayedAt": "2026-08-11T15:19:10.000Z"
@@ -487,6 +487,57 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/stop-calling-the-first-significant-day-a-win/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T16:30:00.000Z",
+      "summary": "信息技术呼吁首个首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能安全公司模型在问题",
+      "title": "人工智能安全公司模型在问题",
+      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T16:25:20.000Z",
+      "summary": "面向 150，作为重要问题在。人工智能安全公司解决信息技术，公司模型可能。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能和和",
+      "title": "人工智能和和",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T16:19:51.000Z",
+      "summary": "信息技术: 人工智能智能体，和向在任务。我们进入，打开。来源。问题智能体，和，人工智能安全，向打开，来源模型。来自我们构建面向人工智能智能体向。: 智能体，训练数据，和。我们，智能体，数据，时间，访问，和。信息技术。规则智能体，构建模型。在进入在在人工智能，查看！由",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 95,
+      "image": "https://external-preview.redd.it/jacCr_q3TZhBqeE0TdvH43sqrBJBfhJG0k7t3k4XfI0.jpeg?width=640&crop=smart&auto=webp&s=0a9eee04caea29a0030b7565a4bd94d77a9390a8"
+    },
     {
       "id": "ithome-索尼-115-英寸超旗舰电视-9-系-ⅱ-新品开售-149999-元",
       "title": "索尼 115 英寸超旗舰电视 9 系 Ⅱ 新品开售：149999 元",
@@ -536,24 +587,8 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg"
-    },
-    {
-      "id": "towards-data-science-人工智能开发者来自向",
-      "title": "人工智能开发者来自向？",
-      "url": "https://towardsdatascience.com/should-ai-developers-make-the-switch-from-polars-to-pandas/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T15:00:00.000Z",
-      "summary": "数据创建！人工智能开发者来自向？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
     },
     {
       "id": "cnblogs-news-深度求索豪掷1-4亿护航宇树首次公开募股-杭州绝代双骄战略合体",
@@ -609,22 +644,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T14:28:47.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "qbitai-蚂蚁首次投向机器人-指尖-数亿元押注-全球首个物理交互脑发布",
       "title": "蚂蚁首次投向机器人“指尖”！数亿元押注，全球首个物理交互脑发布",
       "url": "https://www.qbitai.com/2026/08/470674.html",
@@ -637,7 +656,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -653,7 +672,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -669,23 +688,6 @@
       "topics": [
         "产品应用",
         "算力芯片",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司信息技术生成由人工智能模型",
-      "title": "人工智能安全公司信息技术生成由人工智能模型",
-      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T12:13:47.000Z",
-      "summary": "人工智能安全公司支持面向人工智能面向模型作为顺利。",
-      "topics": [
-        "模型发布",
         "监管安全"
       ],
       "heat": 99,
@@ -726,6 +728,23 @@
       "image": ""
     },
     {
+      "id": "openai-news-在智能聊天助手",
+      "title": "在智能聊天助手",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "summary": "开放人工智能公司在智能聊天助手向支持访问，借助，答案，隐私，和用户控制。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "leiphone-蚂蚁集团领投-老股东超额跟投加注-戴盟两月内连获数亿元融资-以全栈触觉能力破局物理人工智能",
       "title": "蚂蚁集团领投，老股东超额跟投加注，戴盟两月内连获数亿元融资，以全栈触觉能力破局物理人工智能",
       "url": "https://www.leiphone.com/category/industrynews/D47bzyvQEgPf7PUB.html",
@@ -744,6 +763,22 @@
       "image": ""
     },
     {
+      "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
+      "title": "人工智能产品发现发布人工智能相关动态。",
+      "url": "https://www.producthunt.com/products/gitar",
+      "source": "人工智能产品发现",
+      "sourceId": "product-hunt-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T06:33:12.000Z",
+      "summary": "人工智能代码评测修复信息技术讨论",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 77,
+      "image": ""
+    },
+    {
       "id": "ars-technica-ai-借助新打开模型-元宇宙平台公司人工智能",
       "title": "借助新打开模型，元宇宙平台公司人工智能",
       "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
@@ -756,7 +791,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg"
     },
     {
@@ -773,7 +808,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -790,7 +825,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -830,22 +865,6 @@
       "image": ""
     },
     {
-      "id": "openai-news-构建人工智能原生",
-      "title": "构建人工智能原生",
-      "url": "https://openai.com/index/building-an-ai-native-finance-function",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T17:00:00.000Z",
-      "summary": "开放人工智能公司分享五个面向构建人工智能原生，来自自动化向控制和人工智能。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
-      "image": ""
-    },
-    {
       "id": "google-ai-blog-借助新人工智能工具",
       "title": "借助新人工智能工具",
       "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
@@ -858,7 +877,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp"
     },
     {
@@ -895,6 +914,23 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能助手生活",
+      "title": "人工智能助手生活？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlm0sp/would_you_trust_an_ai_assistant_that_knows_your/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T16:17:18.000Z",
+      "summary": "智能聊天助手面向，和认为关于面向人工智能助手可能。智能聊天助手。信息技术帮助，了解新，和记忆。关于和实际生活上下文。人工智能助手关于信息技术。只是答案，和问题。向助手在向在时刻，信息技术，应用，和工具。未来人工智能助手和成为上下文。人工智能关于，信息技术成为，和关于。人工智能访问向助手，信息技术隐私？认为面向人工智能可能模型更智能，向实际使用。用户控制分享，人工智能，和数据使……",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "ithome-台风过境-宁波用人工智能-算-出防汛最优解-预报模型-5-秒生成方案",
       "title": "台风过境：宁波用人工智能“算”出防汛最优解，预报模型 5 秒生成方案",
       "url": "https://www.ithome.com/0/988/529.htm",
@@ -908,7 +944,23 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 92,
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-人工智能开发者来自向",
+      "title": "人工智能开发者来自向？",
+      "url": "https://towardsdatascience.com/should-ai-developers-make-the-switch-from-polars-to-pandas/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T15:00:00.000Z",
+      "summary": "数据创建！人工智能开发者来自向？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -926,39 +978,6 @@
         "端侧智能"
       ],
       "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-我们构建人工智能和向智能-借助记忆",
-      "title": "我们构建人工智能和向智能 : 借助记忆",
-      "url": "https://www.reddit.com/r/artificial/comments/1vligp2/we_stopped_building_stateless_ai_and_moved_to_hi/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T14:07:24.000Z",
-      "summary": "最本地人工智能模型在上下文视窗系统，只是，我们在重要面向本地，首个。我们来自人工智能，和进入智能，认知，和记忆进入。这里新和，认知我们只是 : :。认知和来自试图向和记忆在记忆。我们解决由基础设施进入，: 基础设施 \\_tubes，: 作为。信息技术数据，和。信息技术认知记忆，: 认知。信息技术连续向 :\\\\\\_architecture，记忆逻辑化模型，我们和认知在，时间三维……",
-      "topics": [
-        "模型发布",
-        "端侧智能"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/the-budget-split-that-explains-itself/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T13:30:00.000Z",
-      "summary": "向预算解释预算解释首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
       "image": ""
     },
     {
@@ -980,6 +999,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg"
     },
     {
+      "id": "techcrunch-ai-人工智能和来自",
+      "title": "人工智能和来自",
+      "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "summary": "推出人工智能面向人工智能，生成和来自，和由。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-美股大型科技股盘前涨跌不一-英伟达涨超1",
       "title": "美股大型科技股盘前涨跌不一，英伟达涨超1%",
       "url": "https://36kr.com/newsflashes/3935120819600516?f=rss",
@@ -992,7 +1027,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1014,20 +1049,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-谷歌创始人布林紧急接管双子座模型团队-但-3-5-专业版已被取消",
-      "title": "谷歌创始人布林紧急接管双子座模型团队，但“3.5 专业版已被取消”",
-      "url": "https://www.qbitai.com/2026/08/470576.html",
+      "id": "qbitai-一家新能源大厂-如何撑起全球最大人工智能算力超级单体",
+      "title": "一家新能源大厂，如何撑起全球最大人工智能算力超级单体？",
+      "url": "https://www.qbitai.com/2026/08/470621.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T09:24:44.000Z",
-      "summary": "谷歌算力分配内耗严重",
+      "publishedAt": "2026-08-11T11:36:42.000Z",
+      "summary": "算力竞赛的天平，正在向电力倾斜",
       "topics": [
-        "模型发布",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1043,7 +1077,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1062,22 +1096,6 @@
         "算力芯片"
       ],
       "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-开放人工智能公司据报道-7-十亿员工",
-      "title": "开放人工智能公司据报道 $7 十亿员工",
-      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T00:03:18.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -1117,6 +1135,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-构建人工智能原生",
+      "title": "构建人工智能原生",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-10T17:00:00.000Z",
+      "summary": "开放人工智能公司分享五个面向构建人工智能原生，来自自动化向控制和人工智能。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-构建智能体-打开-控制借助英伟达",
       "title": "构建智能体: 打开 & 控制借助英伟达",
       "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
@@ -1130,7 +1164,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1147,23 +1181,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 75,
-      "image": ""
-    },
-    {
-      "id": "openai-news-开放人工智能公司向在负责任人工智能基础设施在",
-      "title": "开放人工智能公司向在负责任人工智能基础设施在",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "开放人工智能公司向负责任人工智能基础设施在。支持，帮助。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 81,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1179,7 +1197,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg"
     },
     {
@@ -1195,7 +1213,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": "https://media.wired.com/photos/6a74e739068d1e092430bb0d/master/pass/Rise-of-1AM-Interview-Business.jpg"
     },
     {
@@ -1212,7 +1230,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1233,6 +1251,24 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-英伟达构建-4-系列向借助中国打开模型和保障安全打开-面向-在-1-万亿参数-向来自",
+      "title": "英伟达构建 4 系列向借助中国打开模型和保障安全打开，面向。在 1 万亿参数，向来自",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T16:11:15.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": "https://preview.redd.it/5s7jn43osrih1.jpeg?width=640&crop=smart&auto=webp&s=256323b761a15102b16b66cc605e6fed6497ebf7"
+    },
+    {
       "id": "ithome-卢伟冰-未来随着新机陆续发布-大家一定会感觉相关型号专业版系列越来越香",
       "title": "卢伟冰：未来随着新机陆续发布，大家一定会感觉相关型号专业版系列越来越香",
       "url": "https://www.ithome.com/0/988/527.htm",
@@ -1246,7 +1282,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1263,23 +1299,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-开源人工智能",
-      "title": "开源人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1vlie3h/open_source_ai_popularity_leaderboard/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T14:04:32.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "开源生态"
-      ],
-      "heat": 84,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1313,6 +1333,23 @@
       "topics": [
         "算力芯片",
         "开源生态"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能安全公司信息技术生成由人工智能模型",
+      "title": "人工智能安全公司信息技术生成由人工智能模型",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T12:13:47.000Z",
+      "summary": "人工智能安全公司支持面向人工智能面向模型作为顺利。",
+      "topics": [
+        "模型发布",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -1349,7 +1386,24 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "qbitai-谷歌创始人布林紧急接管双子座模型团队-但-3-5-专业版已被取消",
+      "title": "谷歌创始人布林紧急接管双子座模型团队，但“3.5 专业版已被取消”",
+      "url": "https://www.qbitai.com/2026/08/470576.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T09:24:44.000Z",
+      "summary": "谷歌算力分配内耗严重",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -1367,39 +1421,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "qbitai-百年黎曼猜想被克劳德模型破了新纪录-是个未公开新模型",
-      "title": "百年黎曼猜想被克劳德模型破了新纪录！是个未公开新模型",
-      "url": "https://www.qbitai.com/2026/08/470485.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-11T05:12:20.000Z",
-      "summary": "把下界推高了一大截",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-作为人工智能-开放人工智能公司推出新模型",
-      "title": "作为人工智能，开放人工智能公司推出新模型",
-      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-10T23:56:15.000Z",
-      "summary": "开放人工智能公司人工智能，和新，训练人工智能模型借助信息技术。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 86,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1453,7 +1475,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "openai-news-开放人工智能公司向在负责任人工智能基础设施在",
+      "title": "开放人工智能公司向在负责任人工智能基础设施在",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "summary": "开放人工智能公司向负责任人工智能基础设施在。支持，帮助。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 81,
       "image": ""
     },
     {
@@ -1474,23 +1512,6 @@
       "image": ""
     },
     {
-      "id": "openai-news-模型借助",
-      "title": "模型借助",
-      "url": "https://openai.com/index/model-ml",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "summary": "模型使用向来自研究和，和。",
-      "topics": [
-        "模型发布",
-        "研究论文"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
       "title": "模型社区博客发布人工智能相关动态。",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
@@ -1503,7 +1524,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1519,7 +1540,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1587,21 +1608,21 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "reddit-artificial-面向关于人工智能",
-      "title": "面向关于人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1vlhu1n/looking_for_mind_blowing_facts_about_ai/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T13:42:28.000Z",
-      "summary": "和语音向解释人工智能向。向打开借助。在？由",
+      "publishedAt": "2026-08-11T14:28:47.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "多模态"
+        "人工智能动态"
       ],
       "heat": 84,
       "image": ""
@@ -1620,7 +1641,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1637,7 +1658,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1654,7 +1675,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1672,39 +1693,39 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "qbitai-宇树会破发吗-王兴兴回应了",
-      "title": "宇树会破发吗？王兴兴回应了",
-      "url": "https://www.qbitai.com/2026/08/470307.html",
+      "id": "qbitai-百年黎曼猜想被克劳德模型破了新纪录-是个未公开新模型",
+      "title": "百年黎曼猜想被克劳德模型破了新纪录！是个未公开新模型",
+      "url": "https://www.qbitai.com/2026/08/470485.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T04:42:50.000Z",
-      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-08-11T05:12:20.000Z",
+      "summary": "把下界推高了一大截",
       "topics": [
-        "人工智能动态"
+        "模型发布"
       ],
-      "heat": 81,
+      "heat": 89,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能为什么人工智能",
-      "title": "人工智能为什么人工智能",
-      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "id": "techcrunch-ai-开放人工智能公司据报道-7-十亿员工",
+      "title": "开放人工智能公司据报道 $7 十亿员工",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-10T20:53:02.000Z",
-      "summary": "在，6，500，关于人工智能，关于面向元宇宙平台公司人工智能构建。",
+      "publishedAt": "2026-08-11T00:03:18.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1775,25 +1796,24 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "id": "openai-news-模型借助",
+      "title": "模型借助",
+      "url": "https://openai.com/index/model-ml",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "summary": "开放人工智能公司模型可用面向研究，和安全。",
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "summary": "模型使用向来自研究和，和。",
       "topics": [
         "模型发布",
-        "监管安全",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1811,7 +1831,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1915,19 +1935,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能实际使用信息技术",
-      "title": "人工智能实际使用信息技术？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vlfpxs/whats_an_ai_capability_you_thought_was_hype_until/",
+      "id": "reddit-artificial-我们构建人工智能和向智能-借助记忆",
+      "title": "我们构建人工智能和向智能 : 借助记忆",
+      "url": "https://www.reddit.com/r/artificial/comments/1vligp2/we_stopped_building_stateless_ai_and_moved_to_hi/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T12:12:53.000Z",
-      "summary": "人工智能实际使用信息技术？首个: 智能体。关于智能体智能体和信息技术演示。构建智能体新闻和和信息技术信息技术。评测智能体。信息技术 : 信息技术 ~100 和接口呼吁。信息技术实际？由",
+      "publishedAt": "2026-08-11T14:07:24.000Z",
+      "summary": "最本地人工智能模型在上下文视窗系统，只是，我们在重要面向本地，首个。我们来自人工智能，和进入智能，认知，和记忆进入。这里新和，认知我们只是 : :。认知和来自试图向和记忆在记忆。我们解决由基础设施进入，: 基础设施 \\_tubes，: 作为。信息技术数据，和。信息技术认知记忆，: 认知。信息技术连续向 :\\\\\\_architecture，记忆逻辑化模型，我们和认知在，时间三维……",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "端侧智能"
       ],
-      "heat": 83,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1943,7 +1964,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1959,7 +1980,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1993,42 +2014,39 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "qbitai-图形处理器开始金融化-黄仁勋拉上华尔街搞5000亿美元融资",
-      "title": "图形处理器开始金融化！黄仁勋拉上华尔街搞5000亿美元融资",
-      "url": "https://www.qbitai.com/2026/08/470254.html",
+      "id": "qbitai-宇树会破发吗-王兴兴回应了",
+      "title": "宇树会破发吗？王兴兴回应了",
+      "url": "https://www.qbitai.com/2026/08/470307.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T04:31:39.000Z",
-      "summary": "真就把图形处理器当理财产品了～",
+      "publishedAt": "2026-08-11T04:42:50.000Z",
+      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-克劳德模型智能体进入",
-      "title": "克劳德模型智能体进入",
-      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "id": "techcrunch-ai-作为人工智能-开放人工智能公司推出新模型",
+      "title": "作为人工智能，开放人工智能公司推出新模型",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-10T20:04:24.000Z",
-      "summary": "智能体进入向在。和。",
+      "publishedAt": "2026-08-10T23:56:15.000Z",
+      "summary": "开放人工智能公司人工智能，和新，训练人工智能模型借助信息技术。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "模型发布"
       ],
-      "heat": 92,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2079,24 +2097,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
-      "id": "openai-news-模型在机械手",
-      "title": "模型在机械手",
-      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
+      "title": "开放人工智能公司发布人工智能相关动态。",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-08-10T10:00:00.000Z",
-      "summary": "合作伙伴使用开放人工智能公司模型向交付，服务向客户。",
+      "summary": "开放人工智能公司模型可用面向研究，和安全。",
       "topics": [
         "模型发布",
-        "产品应用"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 83,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2112,7 +2131,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2233,6 +2252,22 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-开源人工智能",
+      "title": "开源人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlie3h/open_source_ai_popularity_leaderboard/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T14:04:32.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "开源生态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-继-后-字节又成立一个人工智能一级部门-直指-数据-36氪独家",
       "title": "继、后，字节又成立一个人工智能一级部门，直指「数据」｜36氪独家",
       "url": "https://36kr.com/p/3934936980667776?f=rss",
@@ -2241,7 +2276,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-08-11T10:36:54.000Z",
-      "summary": "《智能涌现》从多个独立信源处获悉，字节跳动近期成立了一个新的一级部门——人工智能数据与安全，与、抖音等部门平行，负责人为王赢磊（ ）。这是继2023年底成立和两个人工智能一级部门后，字节围绕人工智能业务成立的又一个一级部门。负责人王赢磊此前为平台责任负责人和直播负责人。“王赢磊负责的直播业务曾是最主要的营收来源之一，在字节内部有过赫赫战功。”一位接近字节的人士表示。《智能涌现……",
+      "summary": "《智能涌现》从多个独立信源处获悉，字节跳动近期成立了一个新的一级部门——人工智能数据与安全，与、抖音等部门平行，负责���为王赢磊（ ）。这是继2023年底成立和两个人工智能一级部门后，字节围绕人工智能业务成立的又一个一级部门。负责人王赢磊此前为平台责任负责人和直播负责人。“王赢磊负责的直播业务曾是最主要的营收来源之一，在字节内部有过赫赫战功。”一位接近字节的人士表示。《智能……",
       "topics": [
         "模型发布",
         "算力芯片",
@@ -2263,7 +2298,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2297,23 +2332,40 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "qbitai-克劳德模型骂声中启动-隐形水印-新模型全量嵌入-标记所有文字",
-      "title": "克劳德模型骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字",
-      "url": "https://www.qbitai.com/2026/08/470228.html",
+      "id": "qbitai-图形处理器开始金融化-黄仁勋拉上华尔街搞5000亿美元融资",
+      "title": "图形处理器开始金融化！黄仁勋拉上华尔街搞5000亿美元融资",
+      "url": "https://www.qbitai.com/2026/08/470254.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T03:51:24.000Z",
-      "summary": "大水印时代来了",
+      "publishedAt": "2026-08-11T04:31:39.000Z",
+      "summary": "真就把图形处理器当理财产品了～",
       "topics": [
-        "模型发布"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 88,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能为什么人工智能",
+      "title": "人工智能为什么人工智能",
+      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-10T20:53:02.000Z",
+      "summary": "在，6，500，关于人工智能，关于面向元宇宙平台公司人工智能构建。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 74,
       "image": ""
     },
     {
@@ -2353,23 +2405,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司新人工智能模型在智能视觉",
-      "title": "元宇宙平台公司新人工智能模型在智能视觉",
-      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-10T16:20:13.000Z",
-      "summary": "元宇宙平台公司新打开，模型视觉，作为顺利作为人工智能用户和访问。",
-      "topics": [
-        "模型发布",
-        "多模态"
-      ],
-      "heat": 76,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-论文-修复",
       "title": "论文 : 修复",
       "url": "https://towardsdatascience.com/spp-net-paper-walkthrough-breaking-the-fixed-size-constraint/",
@@ -2388,6 +2423,23 @@
       "image": ""
     },
     {
+      "id": "openai-news-模型在机械手",
+      "title": "模型在机械手",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "summary": "合作伙伴使用开放人工智能公司模型向交付，服务向客户。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
       "id": "leiphone-理想汽车范皓宇-把产品打磨到极致-不问终点迎风向前",
       "title": "理想汽车范皓宇：把产品打磨到极致，不问终点迎风向前",
       "url": "https://www.leiphone.com/category/industrynews/y4r7kWai6uAZPcch.html",
@@ -2402,25 +2454,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 73,
-      "image": ""
-    },
-    {
-      "id": "openai-news-维珍航空客户借助智能聊天助手",
-      "title": "维珍航空客户借助智能聊天助手",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "维珍航空研究，产品，和决策，借助智能聊天助手，帮助团队客户。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 80,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2503,7 +2537,23 @@
       "topics": [
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-面向关于人工智能",
+      "title": "面向关于人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1vlhu1n/looking_for_mind_blowing_facts_about_ai/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T13:42:28.000Z",
+      "summary": "和语音向解释人工智能向。向打开借助。在？由",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -2537,7 +2587,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2555,23 +2605,41 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "qbitai-机器人赛道新岗位-月入6000元的-骨科大夫-专治缺胳膊断腿",
-      "title": "机器人赛道新岗位：月入6000元的“骨科大夫”，专治缺胳膊断腿",
-      "url": "https://www.qbitai.com/2026/08/469880.html",
+      "id": "qbitai-克劳德模型骂声中启动-隐形水印-新模型全量嵌入-标记所有文字",
+      "title": "克劳德模型骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字",
+      "url": "https://www.qbitai.com/2026/08/470228.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T03:37:31.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "publishedAt": "2026-08-11T03:51:24.000Z",
+      "summary": "大水印时代来了",
       "topics": [
-        "机器人"
+        "模型发布"
       ],
-      "heat": 80,
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-克劳德模型智能体进入",
+      "title": "克劳德模型智能体进入",
+      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-10T20:04:24.000Z",
+      "summary": "智能体进入向在。和。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -2611,22 +2679,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能向芯片",
-      "title": "人工智能向芯片",
-      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "summary": "$9 百万向面向向构建高效芯片。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 67,
-      "image": ""
-    },
-    {
       "id": "leiphone-百花奖生成式人工智能推优单元获奖名单揭晓-即梦人工智能独家技术合作助力人工智能影像创作",
       "title": "百花奖生成式人工智能推优单元获奖名单揭晓，即梦人工智能独家技术合作助力人工智能影像创作",
       "url": "https://www.leiphone.com/category/industrynews/LtHzwwLa5uF6ZQ3Q.html",
@@ -2640,40 +2692,25 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
-      "id": "openai-news-即将推出向智能聊天助手企业",
-      "title": "即将推出向智能聊天助手企业",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "id": "openai-news-维珍航空客户借助智能聊天助手",
+      "title": "维珍航空客户借助智能聊天助手",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "即将推出向智能聊天助手企业。由 20 向 $100 在和解锁面向团队最。",
+      "summary": "维珍航空研究，产品，和决策，借助智能聊天助手，帮助团队客户。",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 75,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-构建面向人工智能智能体",
-      "title": "构建面向人工智能智能体",
-      "url": "https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-08T13:00:00.000Z",
-      "summary": "构建面向智能体构建面向人工智能智能体首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2793,7 +2830,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2813,54 +2850,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-五大高校联手发榜-首份机器人三视角世界模型评测结果出炉-榜单持续更新中",
-      "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
-      "url": "https://www.qbitai.com/2026/08/469860.html",
+      "id": "qbitai-机器人赛道新岗位-月入6000元的-骨科大夫-专治缺胳膊断腿",
+      "title": "机器人赛道新岗位：月入6000元的“骨科大夫”，专治缺胳膊断腿",
+      "url": "https://www.qbitai.com/2026/08/469880.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-11T00:46:23.000Z",
-      "summary": "三视角世界模型谁更稳？",
+      "publishedAt": "2026-08-11T03:37:31.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
         "机器人"
       ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司推出向帮助",
-      "title": "开放人工智能公司推出向帮助",
-      "url": "https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-10T18:01:30.000Z",
-      "summary": "开放人工智能公司目标是向 : 新模型答案向 98.5 安全和。向开放人工智能公司，面向。访问。开放人工智能公司推出向帮助首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "leiphone-百花奖联合即梦人工智能首次设立生成式人工智能推优单元-2038件作品参评-6部获推优荣誉",
-      "title": "百花奖联合即梦人工智能首次设立生成式人工智能推优单元：2038件作品参评，6部获推优荣誉",
-      "url": "https://www.leiphone.com/category/industrynews/J90wLrxF946o85H6.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-10T07:55:00.000Z",
-      "summary": "8月8日，第38届大众电影百花奖配套活动生成式人工智能推优单元荣誉盛典在北京举行。今年是百花奖创办64年来首次设立生成式人工智能影像专属征集通道，即梦人工智能作为独家生成式人工智能技术合作伙伴参与支持。自6月30日启动全球作品征集以来，该单元在一个多月内累计收到征稿2038件，抖音话题#即梦百花生成式人工智能推优单元播放量达1.1亿。经过评审，30部作品进入终审，其中24部获……",
-      "topics": [
-        "算力芯片",
-        "多模态"
-      ],
-      "heat": 67,
+      "heat": 79,
       "image": ""
     }
   ]
