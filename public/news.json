@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-12T18:34:50.163Z",
+  "generatedAt": "2026-08-12T19:04:49.690Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-12T19:00:00.000Z",
+  "nextUpdateHint": "2026-08-12T19:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-12T18:33:21.000Z"
+    "latestPublishedAt": "2026-08-12T19:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 68,
+      "count": 70,
       "heat": 83
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "监管安全",
-      "count": 23,
+      "count": 22,
       "heat": 89
     },
     {
@@ -33,23 +33,28 @@
     },
     {
       "name": "研究论文",
-      "count": 21,
+      "count": 20,
       "heat": 78
     },
     {
       "name": "投融资",
       "count": 16,
-      "heat": 88
+      "heat": 87
     },
     {
       "name": "人工智能动态",
-      "count": 18,
-      "heat": 75
+      "count": 17,
+      "heat": 76
     },
     {
       "name": "多模态",
       "count": 12,
-      "heat": 88
+      "heat": 87
+    },
+    {
+      "name": "开源生态",
+      "count": 12,
+      "heat": 72
     },
     {
       "name": "端侧智能",
@@ -60,11 +65,6 @@
       "name": "机器人",
       "count": 10,
       "heat": 82
-    },
-    {
-      "name": "开源生态",
-      "count": 11,
-      "heat": 70
     }
   ],
   "sources": [
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 7,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-08-12T06:00:00.000Z",
       "latestDisplayedAt": "2026-08-12T06:00:00.000Z"
     },
@@ -128,9 +128,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-08-12T18:00:08.000Z",
-      "latestDisplayedAt": "2026-08-12T18:00:08.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-08-12T19:00:00.000Z",
+      "latestDisplayedAt": "2026-08-12T19:00:00.000Z"
     },
     {
       "id": "github-changelog",
@@ -289,8 +289,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-08-12T10:45:00.000Z",
-      "latestDisplayedAt": "2026-08-12T10:45:00.000Z"
+      "latestFetchedAt": "2026-08-12T18:45:00.000Z",
+      "latestDisplayedAt": "2026-08-12T18:45:00.000Z"
     },
     {
       "id": "towards-data-science",
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 4,
+      "itemCount": 2,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-08-12T16:26:16.000Z",
-      "latestDisplayedAt": "2026-08-12T16:26:16.000Z"
+      "latestFetchedAt": "2026-08-12T15:01:17.000Z",
+      "latestDisplayedAt": "2026-08-12T15:01:17.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -488,6 +488,40 @@
   "failures": [],
   "items": [
     {
+      "id": "github-blog-首个借助代码托管平台智能编程助手应用",
+      "title": "首个借助代码托管平台智能编程助手应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T19:00:00.000Z",
+      "summary": "了解向首个在代码托管平台智能编程助手应用，正确上下文和模型，和首个任务借助。首个借助代码托管平台智能编程助手应用首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "wired-ai-人工智能智能体-只是向",
+      "title": "人工智能智能体。只是向",
+      "url": "https://www.wired.com/story/rogue-ai-is-just-misunderstood/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-12T18:45:00.000Z",
+      "summary": "人工智能智能体和进入试图向。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": "https://media.wired.com/photos/6a7b77e36e37f6db6a06a372/master/pass/AI-Lab-Why-Are-AI-Agents-So-Naughty-Business.jpg"
+    },
+    {
       "id": "the-decoder-4-6-开放人工智能公司模型和信息技术在",
       "title": "4.6 开放人工智能公司模型和信息技术在",
       "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
@@ -536,25 +570,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "github-blog-人工智能-首个",
-      "title": "人工智能，首个？",
-      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T18:00:08.000Z",
-      "summary": "人工智能在。分享，和持续在控制。人工智能，首个？首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 99,
+      "heat": 90,
       "image": ""
     },
     {
@@ -586,22 +602,6 @@
       "topics": [
         "产品应用",
         "投融资"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-12T16:26:16.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
       ],
       "heat": 93,
       "image": ""
@@ -654,6 +654,22 @@
         "算力芯片"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-12T15:01:17.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -721,7 +737,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -738,24 +754,8 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
-    },
-    {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-12T10:45:00.000Z",
-      "summary": "和。为什么创业公司在。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 83,
-      "image": "https://media.wired.com/photos/6a6be4d1e28e6ee5fb2f6879/master/pass/Interview-With-Startup-Founder-Who-Offered-Interviews-for-Tattoos-Business.gif"
     },
     {
       "id": "google-research-谷歌研究院发布人工智能相关动态",
@@ -770,7 +770,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/KnowledgeProfiling1_Overview.png"
     },
     {
@@ -787,7 +787,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -822,7 +822,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -840,7 +840,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -858,7 +858,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -893,7 +893,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp"
     },
     {
@@ -930,6 +930,24 @@
       "image": ""
     },
     {
+      "id": "github-blog-人工智能-首个",
+      "title": "人工智能，首个？",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "summary": "人工智能在。分享，和持续在控制。人工智能，首个？首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-作为人工智能安全-面向打开",
       "title": "作为人工智能安全，面向打开",
       "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
@@ -960,7 +978,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -976,7 +994,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1009,7 +1027,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1058,7 +1076,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1096,20 +1114,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-人工智能实际新闻",
-      "title": "人工智能实际新闻",
-      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-12T10:30:00.000Z",
-      "summary": "人工智能连线杂志，向关于开放人工智能公司和。信息技术只是。",
+      "publishedAt": "2026-08-12T10:45:00.000Z",
+      "summary": "和。为什么创业公司在。",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
-      "heat": 91,
-      "image": "https://media.wired.com/photos/6a7ba72882c71ca2ec1d3267/master/pass/AI-Breaking-News-Business.jpg"
+      "heat": 82,
+      "image": "https://media.wired.com/photos/6a6be4d1e28e6ee5fb2f6879/master/pass/Interview-With-Startup-Founder-Who-Offered-Interviews-for-Tattoos-Business.gif"
     },
     {
       "id": "leiphone-以思辨铸魂-以实战强能-2026年网络安全技术创新与人才教育大会-的方班风采",
@@ -1159,7 +1177,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png"
     },
     {
@@ -1181,23 +1199,6 @@
       "image": ""
     },
     {
-      "id": "github-blog-来自向-智能体开发者",
-      "title": "来自向 : 智能体开发者",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-11T18:38:17.000Z",
-      "summary": "开发者代码，只是代码。代码托管平台向，了解新，和探索。来自向 : 智能体开发者首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 77,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-模型安全-模型评测方向研究",
       "title": "论文新进展：大语言模型、模型安全、模型评测方向研究",
       "url": "https://arxiv.org/abs/2608.11200v1",
@@ -1212,7 +1213,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1247,7 +1248,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1328,7 +1329,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1344,7 +1345,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1431,20 +1432,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-转化在人工智能",
-      "title": ": 转化在人工智能",
-      "url": "https://www.wired.com/story/the-worst-ive-ever-seen-cargo-thieves-are-turning-violent-in-pursuit-of-ai-hardware/",
+      "id": "wired-ai-人工智能实际新闻",
+      "title": "人工智能实际新闻",
+      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-12T10:00:00.000Z",
-      "summary": "在组织向向向和面向数据中心。",
+      "publishedAt": "2026-08-12T10:30:00.000Z",
+      "summary": "人工智能连线杂志，向关于开放人工智能公司和。信息技术只是。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
-      "image": "https://media.wired.com/photos/6a74f168f6175aa74afc9ba2/master/pass/Cargo-Thieves-Business.jpg"
+      "heat": 90,
+      "image": "https://media.wired.com/photos/6a7ba72882c71ca2ec1d3267/master/pass/AI-Breaking-News-Business.jpg"
     },
     {
       "id": "leiphone-美团王莆中-不开线下药店-坚持做医药商家人工智能转型小帮手",
@@ -1460,7 +1461,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1476,7 +1477,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1498,6 +1499,23 @@
       "image": ""
     },
     {
+      "id": "github-blog-来自向-智能体开发者",
+      "title": "来自向 : 智能体开发者",
+      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-11T18:38:17.000Z",
+      "summary": "开发者代码，只是代码。代码托管平台向，了解新，和探索。来自向 : 智能体开发者首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 76,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-智能体方向研究",
       "title": "论文新进展：智能体方向研究",
       "url": "https://arxiv.org/abs/2608.11195v1",
@@ -1511,7 +1529,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1545,7 +1563,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1594,24 +1612,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "github-blog-代码托管平台智能编程助手开发工具包面向",
-      "title": "代码托管平台智能编程助手开发工具包面向",
-      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T19:30:00.000Z",
-      "summary": "企业开发者新代码托管平台智能编程助手来自代码借助，和。代码托管平台智能编程助手开发工具包面向首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 57,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1661,7 +1662,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1729,7 +1730,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1749,6 +1750,22 @@
       ],
       "heat": 99,
       "image": ""
+    },
+    {
+      "id": "wired-ai-转化在人工智能",
+      "title": ": 转化在人工智能",
+      "url": "https://www.wired.com/story/the-worst-ive-ever-seen-cargo-thieves-are-turning-violent-in-pursuit-of-ai-hardware/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-12T10:00:00.000Z",
+      "summary": "在组织向向向和面向数据中心。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 82,
+      "image": "https://media.wired.com/photos/6a74f168f6175aa74afc9ba2/master/pass/Cargo-Thieves-Business.jpg"
     },
     {
       "id": "leiphone-当流量税被接口拿走-字节和谷歌的护城河还剩什么",
@@ -1799,7 +1816,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1815,7 +1832,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1833,7 +1850,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1851,7 +1868,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1868,7 +1885,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1884,7 +1901,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1902,25 +1919,25 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg"
     },
     {
-      "id": "wired-ai-新人工智能模型",
-      "title": "新人工智能模型",
-      "url": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
+      "id": "github-blog-代码托管平台智能编程助手开发工具包面向",
+      "title": "代码托管平台智能编程助手开发工具包面向",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-11T11:00:00.000Z",
-      "summary": "研究向推理能力来自克劳德模型，和双子座模型，中国人工智能训练在模型。",
+      "publishedAt": "2026-08-10T19:30:00.000Z",
+      "summary": "企业开发者新代码托管平台智能编程助手来自代码借助，和。代码托管平台智能编程助手开发工具包面向首个在代码托管平台。",
       "topics": [
-        "模型发布",
-        "研究论文"
+        "产品应用",
+        "开源生态"
       ],
-      "heat": 76,
-      "image": "https://media.wired.com/photos/6a7a6916b0493fdce2877f53/master/pass/Distilling-AI-More-Complicated-Than-You-Think-Business.jpg"
+      "heat": 57,
+      "image": ""
     },
     {
       "id": "openai-news-构建人工智能原生",
@@ -1972,23 +1989,6 @@
       "image": ""
     },
     {
-      "id": "github-blog-指南向在代码托管平台智能编程助手应用",
-      "title": "指南向在代码托管平台智能编程助手应用",
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-06T19:49:34.000Z",
-      "summary": "在代码托管平台智能编程助手应用借助。帮助，自动化，和工作流。指南向在代码托管平台智能编程助手应用首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
       "id": "ars-technica-ai-模型使用向新",
       "title": "模型使用向新",
       "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
@@ -2018,7 +2018,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2035,7 +2035,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2087,7 +2087,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2121,7 +2121,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2172,7 +2172,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2190,7 +2190,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2208,7 +2208,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2242,7 +2242,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/image1.jpeg"
     },
     {
@@ -2262,6 +2262,23 @@
       ],
       "heat": 81,
       "image": ""
+    },
+    {
+      "id": "wired-ai-新人工智能模型",
+      "title": "新人工智能模型",
+      "url": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-11T11:00:00.000Z",
+      "summary": "研究向推理能力来自克劳德模型，和双子座模型，中国人工智能训练在模型。",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 75,
+      "image": "https://media.wired.com/photos/6a7a6916b0493fdce2877f53/master/pass/Distilling-AI-More-Complicated-Than-You-Think-Business.jpg"
     },
     {
       "id": "openai-news-开放人工智能公司向在负责任人工智能基础设施在",
@@ -2296,31 +2313,15 @@
       "image": ""
     },
     {
-      "id": "wired-ai-人工智能向",
-      "title": "人工智能向",
-      "url": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-09T09:30:00.000Z",
-      "summary": "新由人工智能向。我们，十亿，美元？",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 49,
-      "image": "https://media.wired.com/photos/6a724999f2d8472b4d0de644/master/pass/AI-Barons-Business.gif"
-    },
-    {
-      "id": "github-blog-代码托管平台官方博客发布人工智能相关动态",
-      "title": "代码托管平台官方博客发布人工智能相关动态。",
-      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "id": "github-blog-指南向在代码托管平台智能编程助手应用",
+      "title": "指南向在代码托管平台智能编程助手应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
       "source": "代码托管平台官方博客",
       "sourceId": "github-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-06T16:51:12.000Z",
-      "summary": "代码托管平台在。这里我们连线杂志数据进入，和为什么我们构建。我们首个在代码托管平台。",
+      "publishedAt": "2026-08-06T19:49:34.000Z",
+      "summary": "在代码托管平台智能编程助手应用借助。帮助，自动化，和工作流。指南向在代码托管平台智能编程助手应用首个在代码托管平台。",
       "topics": [
         "产品应用",
         "开源生态"
@@ -2391,7 +2392,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://external-preview.redd.it/HbEpfWztum51_EDfXwjzetvO6f9iZB_Gma4EuEuZZcc.jpeg?width=640&crop=smart&auto=webp&s=9e8c45bfa051f7b7d478bf9ee42eec0fd5e67ba3"
     },
     {
@@ -2427,7 +2428,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2460,7 +2461,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2494,7 +2495,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2601,6 +2602,22 @@
       "image": ""
     },
     {
+      "id": "wired-ai-人工智能向",
+      "title": "人工智能向",
+      "url": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-09T09:30:00.000Z",
+      "summary": "新由人工智能向。我们，十亿，美元？",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 49,
+      "image": "https://media.wired.com/photos/6a724999f2d8472b4d0de644/master/pass/AI-Barons-Business.gif"
+    },
+    {
       "id": "nvidia-blog-推出人工智能在",
       "title": "推出人工智能在",
       "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
@@ -2617,20 +2634,21 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/5559253-Firebird-AI-Factory-Armenia-social-1920x1080-1.jpg"
     },
     {
-      "id": "wired-ai-新人工智能只是问题",
-      "title": "新人工智能只是问题",
-      "url": "https://www.wired.com/story/this-chatbot-is-just-a-random-guy-lol/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
+      "id": "github-blog-代码托管平台官方博客发布人工智能相关动态",
+      "title": "代码托管平台官方博客发布人工智能相关动态。",
+      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-07T10:00:00.000Z",
-      "summary": "连线杂志借助，和谷歌员工创建向向在时刻我们在。",
+      "publishedAt": "2026-08-06T16:51:12.000Z",
+      "summary": "代码托管平台在。这里我们连线杂志数据进入，和为什么我们构建。我们首个在代码托管平台。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "开源生态"
       ],
-      "heat": 57,
-      "image": "https://media.wired.com/photos/6a74accfee5313e488f8fb05/master/pass/080726-Guy-Running-Chatbot-By-Hand-Business.jpg"
+      "heat": 56,
+      "image": ""
     },
     {
       "id": "ars-technica-ai-社区论坛面向-社区论坛",
@@ -2680,7 +2698,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2697,7 +2715,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2729,7 +2747,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2780,7 +2798,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2797,7 +2815,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2831,24 +2849,6 @@
         "产品应用"
       ],
       "heat": 48,
-      "image": ""
-    },
-    {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "summary": "开放人工智能公司模型可用面向研究，和安全。",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 73,
       "image": ""
     }
   ]
