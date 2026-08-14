@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T15:47:41.659Z",
+  "generatedAt": "2026-08-14T16:07:30.485Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-14T16:00:00.000Z",
+  "nextUpdateHint": "2026-08-14T16:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-14T15:43:28.000Z"
+    "latestPublishedAt": "2026-08-14T16:00:00.000Z"
   },
   "topics": [
     {
@@ -33,13 +33,13 @@
     },
     {
       "name": "监管安全",
-      "count": 16,
-      "heat": 90
+      "count": 17,
+      "heat": 91
     },
     {
-      "name": "人工智能动态",
-      "count": 17,
-      "heat": 73
+      "name": "开源生态",
+      "count": 15,
+      "heat": 78
     },
     {
       "name": "投融资",
@@ -48,18 +48,18 @@
     },
     {
       "name": "多模态",
-      "count": 14,
-      "heat": 79
+      "count": 15,
+      "heat": 77
+    },
+    {
+      "name": "人工智能动态",
+      "count": 16,
+      "heat": 71
     },
     {
       "name": "端侧智能",
       "count": 13,
       "heat": 85
-    },
-    {
-      "name": "开源生态",
-      "count": 14,
-      "heat": 76
     },
     {
       "name": "机器人",
@@ -128,9 +128,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-08-13T16:00:00.000Z",
-      "latestDisplayedAt": "2026-08-13T16:00:00.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-08-14T16:00:00.000Z",
+      "latestDisplayedAt": "2026-08-14T16:00:00.000Z"
     },
     {
       "id": "github-changelog",
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-08-12T16:00:00.000Z",
-      "latestDisplayedAt": "2026-08-12T16:00:00.000Z"
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-08-06T15:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -240,7 +240,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 6,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-14T09:21:17.000Z",
       "latestDisplayedAt": "2026-08-14T09:21:17.000Z"
     },
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 3,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-08-14T15:04:17.000Z",
-      "latestDisplayedAt": "2026-08-14T15:04:17.000Z"
+      "itemCount": 1,
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-08-14T15:00:00.000Z",
+      "latestDisplayedAt": "2026-08-14T15:00:00.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -399,7 +399,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-08-14T14:51:48.000Z",
       "latestDisplayedAt": "2026-08-14T14:51:48.000Z"
@@ -488,6 +488,24 @@
   "failures": [],
   "items": [
     {
+      "id": "github-blog-向带来软件工作流进入代码托管平台借助智能体应用",
+      "title": "向带来软件工作流进入代码托管平台借助智能体应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-14T16:00:00.000Z",
+      "summary": "查看代码托管平台智能体应用帮助范围，保障安全，和交付功能代码托管平台。向带来软件工作流进入代码托管平台借助智能体应用首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-人工智能面向",
       "title": "人工智能面向？",
       "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
@@ -539,19 +557,20 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "id": "hacker-news-ai-通义千问-3-8-27-十亿-打开-本地模型",
+      "title": "通义千问 3.8 27 十亿 : 打开，本地模型",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "source": "技术社区人工智能热榜",
       "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-14T15:04:17.000Z",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
       "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "端侧智能"
       ],
-      "heat": 94,
+      "heat": 99,
       "image": ""
     },
     {
@@ -568,7 +587,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://media.wired.com/photos/6a7e0548f5b7635ce53f5f77/master/pass/Backchannel-Tim-Orielly-Business.jpg"
     },
     {
@@ -584,7 +603,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -703,7 +722,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -736,7 +755,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -753,7 +772,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -821,26 +840,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "github-blog-50-开源关于安全在人工智能",
-      "title": "50 开源关于安全在人工智能",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "summary": "查看开源在 4 代码托管平台保障安全开源人工智能，工作流，代码托管平台安全工具，和融资向改进安全。50 开源关于安全在人工智能首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 82,
-      "image": ""
     },
     {
       "id": "mit-tech-review-ai-麻省理工科技评论人工智能发布人工智能相关动态",
@@ -855,7 +856,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -891,22 +892,6 @@
         "投融资"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "microsoft-ai-blog-智能体-来自向回归",
-      "title": "智能体 : 来自向回归",
-      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T16:00:00.000Z",
-      "summary": "了解人工智能成本帮助组织来自人工智能向，和。智能体 : 来自向回归首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
       "image": ""
     },
     {
@@ -960,23 +945,6 @@
         "多模态"
       ],
       "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-通义千问-3-8-27-十亿-打开-本地模型",
-      "title": "通义千问 3.8 27 十亿 : 打开，本地模型",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T15:00:00.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "模型发布",
-        "端侧智能"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1205,6 +1173,24 @@
       "image": ""
     },
     {
+      "id": "github-blog-50-开源关于安全在人工智能",
+      "title": "50 开源关于安全在人工智能",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "summary": "查看开源在 4 代码托管平台保障安全开源人工智能，工作流，代码托管平台安全工具，和融资向改进安全。50 开源关于安全在人工智能首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
       "id": "github-changelog-双子座模型-3-7-现已可用在代码托管平台智能编程助手",
       "title": "双子座模型 3.7 现已可用在代码托管平台智能编程助手",
       "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
@@ -1271,24 +1257,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg"
     },
     {
-      "id": "github-blog-首个借助代码托管平台智能编程助手应用",
-      "title": "首个借助代码托管平台智能编程助手应用",
-      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T19:00:00.000Z",
-      "summary": "了解向首个在代码托管平台智能编程助手应用，正确上下文和模型，和首个任务借助。首个借助代码托管平台智能编程助手应用首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 64,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-英伟达首席执行官-2026",
       "title": "英伟达首席执行官 2026",
       "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
@@ -1353,7 +1321,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1371,7 +1339,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1403,7 +1371,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1489,7 +1457,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": "https://media.wired.com/photos/6a7cd92daf899556c1dfa8f2/master/pass/Uncanny-Valley-Zuckerberg-AI-manifesto-Business.jpg"
     },
     {
@@ -1525,7 +1493,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1611,6 +1579,24 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg"
     },
     {
+      "id": "github-blog-首个借助代码托管平台智能编程助手应用",
+      "title": "首个借助代码托管平台智能编程助手应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T19:00:00.000Z",
+      "summary": "了解向首个在代码托管平台智能编程助手应用，正确上下文和模型，和首个任务借助。首个借助代码托管平台智能编程助手应用首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 64,
+      "image": ""
+    },
+    {
       "id": "github-changelog-智能体-1-0-在代码-智能编程助手命令行工具-和智能副驾应用",
       "title": "智能体 1.0 在代码，智能编程助手命令行工具，和智能副驾应用",
       "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
@@ -1625,24 +1611,6 @@
         "开源生态"
       ],
       "heat": 66,
-      "image": ""
-    },
-    {
-      "id": "github-blog-人工智能-首个",
-      "title": "人工智能，首个？",
-      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T18:00:08.000Z",
-      "summary": "人工智能在。分享，和持续在控制。人工智能，首个？首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 71,
       "image": ""
     },
     {
@@ -1725,7 +1693,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1758,7 +1726,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1794,7 +1762,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1879,7 +1847,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1895,7 +1863,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1912,7 +1880,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1932,6 +1900,24 @@
       "image": "https://media.wired.com/photos/6a7ce4062c7a75832e9289d0/master/pass/Novig-Good-Prediction-Market-Business.jpg"
     },
     {
+      "id": "github-blog-人工智能-首个",
+      "title": "人工智能，首个？",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "summary": "人工智能在。分享，和持续在控制。人工智能，首个？首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 71,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-推出向量嵌入-向量嵌入来自面向",
       "title": "推出向量嵌入: 向量嵌入来自面向",
       "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
@@ -1944,7 +1930,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": ""
     },
     {
@@ -1975,23 +1961,6 @@
       "language": "zh",
       "publishedAt": "2026-08-11T20:26:26.000Z",
       "summary": "代码托管平台企业 3.22 现已可用和新平台。这里高亮在 3.22 发布: 智能编程助手命令行工具向… 代码托管平台企业 3.22 发布首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "github-blog-来自向-智能体开发者",
-      "title": "来自向 : 智能体开发者",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-11T18:38:17.000Z",
-      "summary": "开发者代码，只是代码。代码托管平台向，了解新，和探索。来自向 : 智能体开发者首个在代码托管平台。",
       "topics": [
         "产品应用",
         "开源生态"
@@ -2061,7 +2030,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2145,7 +2114,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2197,7 +2166,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2247,7 +2216,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2337,6 +2306,23 @@
       "image": ""
     },
     {
+      "id": "github-blog-来自向-智能体开发者",
+      "title": "来自向 : 智能体开发者",
+      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-11T18:38:17.000Z",
+      "summary": "开发者代码，只是代码。代码托管平台向，了解新，和探索。来自向 : 智能体开发者首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-英伟达和本地人工智能社区开源模型和智能体",
       "title": "英伟达和本地人工智能社区开源模型和智能体",
       "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
@@ -2353,23 +2339,6 @@
       ],
       "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg"
-    },
-    {
-      "id": "github-blog-代码托管平台智能编程助手开发工具包面向",
-      "title": "代码托管平台智能编程助手开发工具包面向",
-      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T19:30:00.000Z",
-      "summary": "企业开发者新代码托管平台智能编程助手来自代码借助，和。代码托管平台智能编程助手开发工具包面向首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
     },
     {
       "id": "ars-technica-ai-评测信息技术在人工智能",
@@ -2419,7 +2388,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2538,7 +2507,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2570,7 +2539,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2675,6 +2644,23 @@
       "image": ""
     },
     {
+      "id": "github-blog-代码托管平台智能编程助手开发工具包面向",
+      "title": "代码托管平台智能编程助手开发工具包面向",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-10T19:30:00.000Z",
+      "summary": "企业开发者新代码托管平台智能编程助手来自代码借助，和。代码托管平台智能编程助手开发工具包面向首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "mit-tech-review-ai-人工智能面向科学推理能力-只是数据",
       "title": "人工智能面向科学推理能力，只是数据",
       "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
@@ -2740,7 +2726,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2789,7 +2775,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2806,7 +2792,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2859,6 +2845,22 @@
         "端侧智能"
       ],
       "heat": 74,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-公司人工智能使用在视频",
+      "title": "公司人工智能使用在视频",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-12T15:52:07.000Z",
+      "summary": "和，公司人工智能，使用作为部件视频。面向，公司，作为信息技术。信息技术，来自，质量，向推出 …",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 50,
       "image": ""
     }
   ]
