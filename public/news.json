@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:14:01.482Z",
+  "generatedAt": "2026-08-14T17:18:20.036Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-08-14T17:30:00.000Z",
   "stats": {
@@ -8,13 +8,13 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-14T17:01:54.000Z"
+    "latestPublishedAt": "2026-08-14T17:13:05.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 80,
-      "heat": 81
+      "count": 79,
+      "heat": 82
     },
     {
       "name": "模型发布",
@@ -28,8 +28,8 @@
     },
     {
       "name": "算力芯片",
-      "count": 20,
-      "heat": 86
+      "count": 21,
+      "heat": 87
     },
     {
       "name": "监管安全",
@@ -38,8 +38,13 @@
     },
     {
       "name": "人工智能动态",
-      "count": 19,
-      "heat": 74
+      "count": 18,
+      "heat": 73
+    },
+    {
+      "name": "开源生态",
+      "count": 16,
+      "heat": 78
     },
     {
       "name": "多模态",
@@ -47,19 +52,14 @@
       "heat": 81
     },
     {
-      "name": "开源生态",
-      "count": 15,
-      "heat": 77
+      "name": "端侧智能",
+      "count": 13,
+      "heat": 88
     },
     {
       "name": "投融资",
       "count": 14,
       "heat": 79
-    },
-    {
-      "name": "端侧智能",
-      "count": 12,
-      "heat": 87
     },
     {
       "name": "机器人",
@@ -144,9 +144,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-08-13T19:02:46.000Z",
-      "latestDisplayedAt": "2026-08-13T19:02:46.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-08-14T03:15:56.000Z",
+      "latestDisplayedAt": "2026-08-14T03:15:56.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -161,8 +161,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-08-13T13:00:33.000Z",
-      "latestDisplayedAt": "2026-08-13T13:00:33.000Z"
+      "latestFetchedAt": "2026-08-14T17:13:05.000Z",
+      "latestDisplayedAt": "2026-08-14T17:13:05.000Z"
     },
     {
       "id": "microsoft-ai-blog",
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-08-14T17:01:54.000Z",
       "latestDisplayedAt": "2026-08-14T17:01:54.000Z"
     },
@@ -321,8 +321,8 @@
       "fallbackReason": "",
       "itemCount": 3,
       "displayedCount": 3,
-      "latestFetchedAt": "2026-08-14T15:43:10.000Z",
-      "latestDisplayedAt": "2026-08-14T15:43:10.000Z"
+      "latestFetchedAt": "2026-08-14T16:57:14.000Z",
+      "latestDisplayedAt": "2026-08-14T16:57:14.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 7,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-08-14T14:51:48.000Z",
       "latestDisplayedAt": "2026-08-14T14:51:48.000Z"
@@ -488,6 +488,23 @@
   "failures": [],
   "items": [
     {
+      "id": "nvidia-blog-和英伟达打开首个人工智能向本地人工智能",
+      "title": "和英伟达打开首个人工智能向本地人工智能",
+      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-14T17:13:05.000Z",
+      "summary": "人工智能未来，和，英伟达和推出英伟达人工智能在，首个人工智能。人工智能 …",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/Launching-Ceremony-2-1-scaled.jpeg"
+    },
+    {
       "id": "the-decoder-阿里巴巴通义千问团队发布通义千问-3-8-模型借助打开阿帕奇-2-0-许可",
       "title": "阿里巴巴通义千问团队发布通义千问 3.8 模型借助打开阿帕奇 2.0 许可",
       "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
@@ -503,6 +520,22 @@
         "端侧智能"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-面向大语言模型-生成图形处理器",
+      "title": "面向大语言模型，生成图形处理器",
+      "url": "https://arxiv.org/abs/2608.12700",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-14T16:57:14.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -569,22 +602,6 @@
         "开源生态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-谷歌人工智能借助",
-      "title": "谷歌人工智能借助",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T15:43:10.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 94,
       "image": ""
     },
     {
@@ -670,7 +687,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://media.wired.com/photos/6a7e0548f5b7635ce53f5f77/master/pass/Backchannel-Tim-Orielly-Business.jpg"
     },
     {
@@ -741,6 +758,24 @@
       "image": ""
     },
     {
+      "id": "github-changelog-代码托管平台智能编程助手发布-10",
+      "title": "代码托管平台智能编程助手发布，10",
+      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-14T03:15:56.000Z",
+      "summary": "来自新模型和向智能体工作流，更新代码托管平台智能编程助手，和智能副驾应用。代码托管平台智能编程助手，… 代码托管平台智能编程助手发布，10 首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-打开模型-2026",
       "title": "打开模型: 2026",
       "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
@@ -754,23 +789,6 @@
         "模型发布"
       ],
       "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
-      "title": "代码托管平台更新日志发布人工智能相关动态。",
-      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-13T19:02:46.000Z",
-      "summary": "用户来自在和在由代码托管平台。向用户: 打开 … 用户来自在首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 78,
       "image": ""
     },
     {
@@ -854,25 +872,8 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
-    },
-    {
-      "id": "nvidia-blog-英伟达官方博客发布人工智能相关动态",
-      "title": "英伟达官方博客发布人工智能相关动态。",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-13T13:00:33.000Z",
-      "summary": "云服务只是在时间面向，向。应用面向。交付新云服务。在，性能查看 …",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 82,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-13-blog-1920x1080-logo.jpg"
     },
     {
       "id": "openai-news-建设者指南向-5-6",
@@ -977,6 +978,22 @@
       "image": ""
     },
     {
+      "id": "hacker-news-ai-谷歌人工智能借助",
+      "title": "谷歌人工智能借助",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-14T15:43:10.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
       "id": "ithome-阿里开源相关型号十亿模型-编程-办公场景表现超越相关型号",
       "title": "阿里开源相关型号十亿模型，编程、办公场景表现超越相关型号",
       "url": "https://www.ithome.com/0/989/953.htm",
@@ -992,22 +1009,6 @@
         "开源生态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T15:04:17.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 93,
       "image": ""
     },
     {
@@ -1148,6 +1149,23 @@
       "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/master/pass/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg"
     },
     {
+      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
+      "title": "代码托管平台更新日志发布人工智能相关动态。",
+      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-13T19:02:46.000Z",
+      "summary": "用户来自在和在由代码托管平台。向用户: 打开 … 用户来自在首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 77,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-智能体-多模态-模型评测-自然语言处理方向研究",
       "title": "论文新进展：智能体、多模态、模型评测、自然语言处理方向研究",
       "url": "https://arxiv.org/abs/2608.13558v1",
@@ -1219,22 +1237,21 @@
       "image": ""
     },
     {
-      "id": "github-changelog-双子座模型-3-7-现已可用在代码托管平台智能编程助手",
-      "title": "双子座模型 3.7 现已可用在代码托管平台智能编程助手",
-      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
+      "id": "nvidia-blog-英伟达官方博客发布人工智能相关动态",
+      "title": "英伟达官方博客发布人工智能相关动态。",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app/",
+      "source": "英伟达官方博客",
+      "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-13T14:00:53.000Z",
-      "summary": "双子座模型 3.7，谷歌模型，在代码托管平台智能编程助手。来自，模型在和应用和 … 双子座模型 3.7 现已可用在代码托管平台智能编程助手首个在代码托管平台。",
+      "publishedAt": "2026-08-13T13:00:33.000Z",
+      "summary": "云服务只是在时间面向，向。应用面向。交付新云服务。在，性能查看 …",
       "topics": [
-        "模型发布",
         "产品应用",
-        "开源生态"
+        "算力芯片"
       ],
-      "heat": 86,
-      "image": ""
+      "heat": 82,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-13-blog-1920x1080-logo.jpg"
     },
     {
       "id": "openai-news-模式-在向相关型号",
@@ -1283,23 +1300,6 @@
       ],
       "heat": 54,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg"
-    },
-    {
-      "id": "nvidia-blog-英伟达首席执行官-2026",
-      "title": "英伟达首席执行官 2026",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T14:00:00.000Z",
-      "summary": "英伟达和首席执行官。1 在面向 2026。在只是，发布，来自，员工，借助 99% 员工。作为人工智能和 …",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 65,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GlassdoorBestCEOs2026_16x9.png"
     },
     {
       "id": "google-ai-blog-研究人工智能-时间视频在首个",
@@ -1578,6 +1578,24 @@
       "image": ""
     },
     {
+      "id": "github-changelog-双子座模型-3-7-现已可用在代码托管平台智能编程助手",
+      "title": "双子座模型 3.7 现已可用在代码托管平台智能编程助手",
+      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-13T14:00:53.000Z",
+      "summary": "双子座模型 3.7，谷歌模型，在代码托管平台智能编程助手。来自，模型在和应用和 … 双子座模型 3.7 现已可用在代码托管平台智能编程助手首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "openai-news-开放人工智能公司作为",
       "title": "开放人工智能公司作为",
       "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
@@ -1644,23 +1662,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-智能体-1-0-在代码-智能编程助手命令行工具-和智能副驾应用",
-      "title": "智能体 1.0 在代码，智能编程助手命令行工具，和智能副驾应用",
-      "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T18:39:11.000Z",
-      "summary": "构建和使用信息技术智能体。我们智能体 1.0 在 6 借助，微软，开放人工智能公司，和。… 智能体 1.0 在代码，智能编程助手命令行工具，和智能副驾应用首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 65,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-人工智能智能体借助数据",
       "title": "人工智能智能体借助数据",
       "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
@@ -1678,21 +1679,21 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-英伟达人工智能",
-      "title": "英伟达人工智能",
-      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+      "id": "nvidia-blog-英伟达首席执行官-2026",
+      "title": "英伟达首席执行官 2026",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-12T00:38:21.000Z",
-      "summary": "我们宣布借助，和向平台向 $500 十亿向支持人工智能基础设施时间。重要面向英伟达和人工智能。我们来自在公司 …",
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "summary": "英伟达和首席执行官。1 在面向 2026。在只是，发布，来自，员工，借助 99% 员工。作为人工智能和 …",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 65,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png"
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GlassdoorBestCEOs2026_16x9.png"
     },
     {
       "id": "google-ai-blog-借助新人工智能工具",
@@ -1946,6 +1947,23 @@
       "image": "https://media.wired.com/photos/6a7ce4062c7a75832e9289d0/master/pass/Novig-Good-Prediction-Market-Business.jpg"
     },
     {
+      "id": "github-changelog-智能体-1-0-在代码-智能编程助手命令行工具-和智能副驾应用",
+      "title": "智能体 1.0 在代码，智能编程助手命令行工具，和智能副驾应用",
+      "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T18:39:11.000Z",
+      "summary": "构建和使用信息技术智能体。我们智能体 1.0 在 6 借助，微软，开放人工智能公司，和。… 智能体 1.0 在代码，智能编程助手命令行工具，和智能副驾应用首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 65,
+      "image": ""
+    },
+    {
       "id": "github-blog-人工智能-首个",
       "title": "人工智能，首个？",
       "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
@@ -1998,37 +2016,21 @@
       "image": ""
     },
     {
-      "id": "github-changelog-代码托管平台企业-3-22-发布",
-      "title": "代码托管平台企业 3.22 发布",
-      "url": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-11T20:26:26.000Z",
-      "summary": "代码托管平台企业 3.22 现已可用和新平台。这里高亮在 3.22 发布: 智能编程助手命令行工具向… 代码托管平台企业 3.22 发布首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "nvidia-blog-为什么人工智能性能新驱动",
-      "title": "为什么人工智能性能新驱动",
-      "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
+      "id": "nvidia-blog-英伟达人工智能",
+      "title": "英伟达人工智能",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-11T15:00:06.000Z",
-      "summary": "每个新加速来自基础设施信息技术，性能，和高效，驱动。只是。信息技术驱动来自向图形处理器。在驱动，来自作为 …",
+      "publishedAt": "2026-08-12T00:38:21.000Z",
+      "summary": "我们宣布借助，和向平台向 $500 十亿向支持人工智能基础设施时间。重要面向英伟达和人工智能。我们来自在公司 …",
       "topics": [
-        "算力芯片"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 52,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg"
+      "heat": 65,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png"
     },
     {
       "id": "ars-technica-ai-借助新打开模型-元宇宙平台公司人工智能",
@@ -2335,21 +2337,20 @@
       "image": ""
     },
     {
-      "id": "github-changelog-智能编程助手记忆功能和在代码托管平台智能编程助手面向",
-      "title": "智能编程助手记忆功能和在代码托管平台智能编程助手面向",
-      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "id": "github-changelog-代码托管平台企业-3-22-发布",
+      "title": "代码托管平台企业 3.22 发布",
+      "url": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
       "source": "代码托管平台更新日志",
       "sourceId": "github-changelog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-11T20:15:55.000Z",
-      "summary": "更新带来记忆，本地模型访问，和企业控制向代码托管平台智能编程助手面向。信息技术改进工作流和，… 智能编程助手记忆功能和在代码托管平台智能编程助手面向首个在代码托管平台。",
+      "publishedAt": "2026-08-11T20:26:26.000Z",
+      "summary": "代码托管平台企业 3.22 现已可用和新平台。这里高亮在 3.22 发布: 智能编程助手命令行工具向… 代码托管平台企业 3.22 发布首个在代码托管平台。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "端侧智能"
+        "开源生态"
       ],
-      "heat": 61,
+      "heat": 56,
       "image": ""
     },
     {
@@ -2370,22 +2371,20 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-英伟达和本地人工智能社区开源模型和智能体",
-      "title": "英伟达和本地人工智能社区开源模型和智能体",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+      "id": "nvidia-blog-为什么人工智能性能新驱动",
+      "title": "为什么人工智能性能新驱动",
+      "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-11T13:00:25.000Z",
-      "summary": "开源生态信息技术面向人工智能和开发者向构建，和智能体，英伟达合作伙伴和开源本地人工智能，借助模型，和工具生态。英伟达打开模型，软件 …",
+      "publishedAt": "2026-08-11T15:00:06.000Z",
+      "summary": "每个新加速来自基础设施信息技术，性能，和高效，驱动。只是。信息技术驱动来自向图形处理器。在驱动，来自作为 …",
       "topics": [
-        "模型发布",
-        "产品应用",
         "算力芯片"
       ],
-      "heat": 70,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg"
+      "heat": 52,
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg"
     },
     {
       "id": "ars-technica-ai-评测信息技术在人工智能",
@@ -2643,6 +2642,24 @@
       "image": "https://media.wired.com/photos/6a7ba72882c71ca2ec1d3267/master/pass/AI-Breaking-News-Business.jpg"
     },
     {
+      "id": "github-changelog-智能编程助手记忆功能和在代码托管平台智能编程助手面向",
+      "title": "智能编程助手记忆功能和在代码托管平台智能编程助手面向",
+      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-11T20:15:55.000Z",
+      "summary": "更新带来记忆，本地模型访问，和企业控制向代码托管平台智能编程助手面向。信息技术改进工作流和，… 智能编程助手记忆功能和在代码托管平台智能编程助手面向首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-认为-我们信息技术借助词元",
       "title": "认为？我们信息技术借助词元",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
@@ -2659,22 +2676,22 @@
       "image": ""
     },
     {
-      "id": "nvidia-blog-英伟达-3-5-和交付更快-更智能-高效人工智能",
-      "title": "英伟达 3.5 和交付更快，更智能，高效人工智能",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "id": "nvidia-blog-英伟达和本地人工智能社区开源模型和智能体",
+      "title": "英伟达和本地人工智能社区开源模型和智能体",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
       "source": "英伟达官方博客",
       "sourceId": "nvidia-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-08-11T13:00:05.000Z",
-      "summary": "作为人工智能来自向智能体，打开模型面向控制人工智能和信息技术和，英伟达 3 模型系列借助 3.5，模型在面向人工智能。发布 …",
+      "publishedAt": "2026-08-11T13:00:25.000Z",
+      "summary": "开源生态信息技术面向人工智能和开发者向构建，和智能体，英伟达合作伙伴和开源本地人工智能，借助模型，和工具生态。英伟达打开模型，软件 …",
       "topics": [
         "模型发布",
         "产品应用",
         "算力芯片"
       ],
       "heat": 70,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/image1.jpeg"
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg"
     },
     {
       "id": "openai-news-在智能聊天助手",
@@ -2844,22 +2861,6 @@
         "投融资"
       ],
       "heat": 73,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-2-0-新功能向信息技术",
-      "title": "2.0 新功能向信息技术",
-      "url": "https://the-decoder.com/suno-studio-2-0s-new-chat-feature-lets-you-talk-to-your-daw-like-its-a-bandmate/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-13T19:39:54.000Z",
-      "summary": "借助 2.0，转化人工智能平台进入工具面向。功能创建和，和 32，限制。借助宣布向人工智能在平台。2.0 新功能向信息技术首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 71,
       "image": ""
     }
   ]
