@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-14T23:48:34.811Z",
+  "generatedAt": "2026-08-15T00:02:22.362Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-15T00:00:00.000Z",
+  "nextUpdateHint": "2026-08-15T00:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -23,7 +23,7 @@
     },
     {
       "name": "算力芯片",
-      "count": 22,
+      "count": 21,
       "heat": 85
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "name": "多模态",
-      "count": 17,
+      "count": 16,
       "heat": 80
     },
     {
@@ -52,14 +52,14 @@
       "heat": 75
     },
     {
+      "name": "投融资",
+      "count": 14,
+      "heat": 77
+    },
+    {
       "name": "端侧智能",
       "count": 12,
       "heat": 85
-    },
-    {
-      "name": "投融资",
-      "count": 13,
-      "heat": 77
     },
     {
       "name": "机器人",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 6,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-14T16:13:40.000Z",
       "latestDisplayedAt": "2026-08-14T16:13:40.000Z"
     },
@@ -319,8 +319,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 4,
-      "displayedCount": 4,
+      "itemCount": 3,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-08-14T19:41:42.000Z",
       "latestDisplayedAt": "2026-08-14T19:41:42.000Z"
     },
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 24,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "terminated",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-08-14T23:40:17.000Z",
       "latestDisplayedAt": "2026-08-14T23:40:17.000Z"
@@ -569,7 +569,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -652,7 +652,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -977,22 +977,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-面向大语言模型-生成图形处理器",
-      "title": "面向大语言模型，生成图形处理器",
-      "url": "https://arxiv.org/abs/2608.12700",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T16:57:14.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 81,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-转化谷歌双子座模型",
       "title": "转化谷歌双子座模型",
       "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
@@ -1024,6 +1008,22 @@
         "模型发布"
       ],
       "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-谷歌人工智能借助",
+      "title": "谷歌人工智能借助",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-14T15:43:10.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -1364,23 +1364,23 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "hacker-news-ai-谷歌人工智能借助",
-      "title": "谷歌人工智能借助",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "id": "hacker-news-ai-通义千问-3-8-27-十亿",
+      "title": "通义千问 3.8 27 十亿",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "source": "技术社区人工智能热榜",
       "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-14T15:43:10.000Z",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
       "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1481,7 +1481,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1760,22 +1760,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-通义千问-3-8-27-十亿",
-      "title": "通义千问 3.8 27 十亿",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T15:00:00.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
       "title": "科技创投媒体人工智能发布人工智能相关动态。",
       "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
@@ -1855,7 +1839,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2111,7 +2095,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://external-preview.redd.it/em00cHQ0MHd6Y2poMbomiQQjJUcmbqnq6H2q_Ly4mLNymtxXbXvA2yN9T4zV.png?width=640&crop=smart&auto=webp&s=309087cbf65de48676c2b014aa5ab541a65556f7"
     },
     {
@@ -2128,7 +2112,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2213,7 +2197,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2264,7 +2248,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2470,6 +2454,22 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-月之暗面严正声明-警惕可疑交易-已向公安机关反映",
+      "title": "月之暗面严正声明：警惕可疑交易，已向公安机关反映",
+      "url": "https://36kr.com/newsflashes/3939316777418115?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-14T12:00:15.000Z",
+      "summary": "36氪获悉，月之暗面发布声明，针对市场上冒用公司名义虚假融资、涉嫌违法犯罪的行为，已向公安机关反映，公司对此绝不姑息，将追责到底。声明表示，融资过程中不存在所谓“朋友基金”或“特殊通道”，不存在所谓“老股额度”或“预留额度”，不存在所谓“官方代理”或“授权中介”。发现可疑交易，可向公司法务部门举报。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "the-decoder-克劳德模型代码在人工智能安全公司软件借助-46",
       "title": "克劳德模型代码在人工智能安全公司软件借助 46",
       "url": "https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/",
@@ -2488,24 +2488,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-独家-腾讯混元徐灿转岗微信-微信人工智能进入加速阶段",
-      "title": "独家，腾讯混元徐灿转岗微信，微信人工智能进入加速阶段",
-      "url": "https://36kr.com/p/3939234424700041?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T10:50:14.000Z",
-      "summary": "文，李炤锋编辑，张雨忻智能涌现从相关人士处获悉，混元资深研究员徐灿在近期加入腾讯团队，从事大模型研发相关工作。多名知情人士透露，在姚顺雨接手腾讯大语言模型研发前，徐灿在混元大语言模型体系中担任后训练一个方向上的负责人。值得一提的是，这次转岗发生在微信持续强化自研大模型和智能体能力的阶段。6月，微信原生人工智能助手“小微”已进入小范围灰度测试，可通过文字或语音操作微信原生功能，……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-京东重估蓝领",
       "title": "京东重估蓝领",
       "url": "https://news.cnblogs.com/n/834337/",
@@ -2518,7 +2500,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2587,7 +2569,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2795,6 +2777,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-独家-腾讯混元徐灿转岗微信-微信人工智能进入加速阶段",
+      "title": "独家，腾讯混元徐灿转岗微信，微信人工智能进入加速阶段",
+      "url": "https://36kr.com/p/3939234424700041?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-14T10:50:14.000Z",
+      "summary": "文，李炤锋编辑，张雨忻智能涌现从相关人士处获悉，混元资深研究员徐灿在近期加入腾讯团队，从事大模型研发相关工作。多名知情人士透露，在姚顺雨接手腾讯大语言模型研发前，徐灿在混元大语言模型体系中担任后训练一个方向上的负责人。值得一提的是，这次转岗发生在微信持续强化自研大模型和智能体能力的阶段。6月，微信原生人工智能助手“小微”已进入小范围灰度测试，可通过文字或语音操作微信原生功能，……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能发布-信息技术最严格打开-编程模型",
       "title": "人工智能发布，信息技术最严格打开，编程模型",
       "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
@@ -2810,23 +2810,6 @@
         "监管安全"
       ],
       "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-阿里灵犀再传15亿美元出售-或许这就是中国游戏行业的现实",
-      "title": "阿里灵犀再传15亿美元出售，或许这就是中国游戏行业的现实",
-      "url": "https://36kr.com/p/3939187139935369?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-14T09:54:02.000Z",
-      "summary": "灵犀互娱这次真的要易主了？据彭博社报道称，亚洲私股权公司信宸资本接近达成收购阿里巴巴集团控股有限公司视频游戏业务的交易。知情人士表示，信宸资本成为了灵犀互娱最有可能的买家，其出价高于包括电子游戏制造商在内的其他竞购方。据他们透露，此次交易对这家工作室的估值可能超过15亿美元。来源：彭博社截至发稿，灵犀互娱以及信宸资本未作回应。前不久的6月23日，就有多家媒体报道，阿里巴巴集团……",
-      "topics": [
-        "投融资",
-        "多模态"
-      ],
-      "heat": 81,
       "image": ""
     },
     {
@@ -2861,6 +2844,22 @@
         "监管安全"
       ],
       "heat": 82,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-向-1-十亿-15-十亿-信息技术在-5-十亿在-190-十亿",
+      "title": "向 $1 十亿，$15 十亿。信息技术在 $5 十亿在 $190 十亿。",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-13T20:14:39.000Z",
+      "summary": "人工智能，科技创投媒体。借助进入，向。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 67,
       "image": ""
     }
   ]
