@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:19:26.374Z",
+  "generatedAt": "2026-08-17T07:24:38.523Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-08-17T07:30:00.000Z",
   "stats": {
@@ -8,12 +8,12 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-17T07:16:32.000Z"
+    "latestPublishedAt": "2026-08-17T07:23:47.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 73,
+      "count": 72,
       "heat": 71
     },
     {
@@ -23,8 +23,13 @@
     },
     {
       "name": "算力芯片",
-      "count": 22,
+      "count": 23,
       "heat": 84
+    },
+    {
+      "name": "人工智能动态",
+      "count": 23,
+      "heat": 65
     },
     {
       "name": "研究论文",
@@ -37,14 +42,9 @@
       "heat": 79
     },
     {
-      "name": "人工智能动态",
-      "count": 22,
-      "heat": 64
-    },
-    {
       "name": "投融资",
-      "count": 15,
-      "heat": 81
+      "count": 14,
+      "heat": 80
     },
     {
       "name": "开源生态",
@@ -57,14 +57,14 @@
       "heat": 68
     },
     {
-      "name": "端侧智能",
-      "count": 10,
-      "heat": 74
-    },
-    {
       "name": "机器人",
       "count": 9,
       "heat": 77
+    },
+    {
+      "name": "端侧智能",
+      "count": 9,
+      "heat": 74
     }
   ],
   "sources": [
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-17T05:05:34.000Z",
-      "latestDisplayedAt": "2026-08-17T05:05:34.000Z"
+      "latestFetchedAt": "2026-08-17T07:23:47.000Z",
+      "latestDisplayedAt": "2026-08-17T07:23:47.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "This operation was aborted",
-      "itemCount": 7,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 18,
       "displayedCount": 7,
       "latestFetchedAt": "2026-08-17T04:45:00.000Z",
       "latestDisplayedAt": "2026-08-17T04:45:00.000Z"
@@ -431,9 +431,9 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 18,
+      "itemCount": 17,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-17T06:58:21.000Z",
+      "latestFetchedAt": "2026-08-17T07:21:06.000Z",
       "latestDisplayedAt": "2026-08-17T06:58:21.000Z"
     },
     {
@@ -479,14 +479,30 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
+      "itemCount": 14,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-17T03:17:00.000Z",
-      "latestDisplayedAt": "2026-08-17T03:17:00.000Z"
+      "latestFetchedAt": "2026-08-17T03:30:00.000Z",
+      "latestDisplayedAt": "2026-08-17T03:30:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "reddit-artificial-为什么英伟达图形处理器资金",
+      "title": "为什么英伟达图形处理器资金",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqldp4/why_nvidias_sixyearold_a100_gpu_is_still_making/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-17T07:23:47.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 94,
+      "image": "https://external-preview.redd.it/hDtyEAnHvtqEz_2Lioj08Rqw-espSBX-Q18DRl4h3zk.jpeg?width=640&crop=smart&auto=webp&s=e5ce1006cda046d2bdd10d54073673bacc45ed1b"
+    },
     {
       "id": "ithome-国家统计局-前-7-个月我国工业机器人产量同比增长-28-5",
       "title": "国家统计局：前 7 个月我国工业机器人产量同比增长 28.5%",
@@ -556,24 +572,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-向克劳德模型",
-      "title": "向克劳德模型",
-      "url": "https://www.reddit.com/r/artificial/comments/1vqixia/i_figured_out_a_loophole_to_remove_claude/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-17T05:05:34.000Z",
-      "summary": "克劳德模型只是由，信息技术。和构建克劳德模型，开放人工智能公司，双子座模型和在和通义千问向。在构建，旗舰版。信息技术转化。面向，向。信息技术。300，和 40% 每个，只是，10，10 使用面向和。向关于 30% 和得分来自 45 向 1。和每个。: 代码向借助。模型关于词元，和代码，代码借助在。首个，向实际信息技术打开模型。借助代码和 : :，代码托管平台，克劳德模型，演示……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": "https://preview.redd.it/54syes9dbvjh1.png?width=640&crop=smart&auto=webp&s=7aabef77bbd3a2222a93bc902dea9ad294b5bc61"
-    },
-    {
       "id": "leiphone-别再乱调图像塔了-浙大论文揭露非对称性真相-给微调-踩刹车",
       "title": "别再乱调图像塔了！浙大论文揭露非对称性真相，给微调「踩刹车」",
       "url": "https://www.leiphone.com/category/private/xQX0laen8XifhvXD.html",
@@ -592,20 +590,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-觅蜂科技融资数亿元-中国电信领投",
-      "title": "觅蜂科技融资数亿元，中国电信领投",
-      "url": "https://news.cnblogs.com/n/834419/",
+      "id": "cnblogs-news-深度求索涨价背后-中国正在把-智能-变成一种工业品",
+      "title": "深度求索涨价背后：中国正在把“智能”变成一种工业品",
+      "url": "https://news.cnblogs.com/n/834421/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T03:17:00.000Z",
-      "summary": "本文来源：时代周报 8 月 17 日，觅蜂科技微信公众号披露，已完成新一轮数亿元融资。本轮融资由中国电信领投，张江集团跟投，红杉中国、元启创新等老股东超额追加投资。觅蜂科技是一站式物理人工智能数据服务平台，致力于打造具身智能数据的 “平台型供给” 基础设施，实现数据的体系化、标准化、规模化供给。本本文链接",
+      "publishedAt": "2026-08-17T03:30:00.000Z",
+      "summary": "本文来自微信公众号：人工智能资本观，作者：林见，编辑：邵神，制图：表｜ 导读：今天（8 月 17 日）零点，深度求索第4代全系列新的峰谷价格正式生效。过去一年多，中国模型不断压低前沿智能的价格，也把自己送进了全球开发者的工作流：在样本中，中国模本文链接",
       "topics": [
-        "投融资",
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 91,
       "image": ""
     },
     {
@@ -976,6 +973,24 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-向克劳德模型",
+      "title": "向克劳德模型",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqixia/i_figured_out_a_loophole_to_remove_claude/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-17T05:05:34.000Z",
+      "summary": "克劳德模型只是由，信息技术。和构建克劳德模型，开放人工智能公司，双子座模型和在和通义千问向。在构建，旗舰版。信息技术转化。面向，向。信息技术。300，和 40% 每个，只是，10，10 使用面向和。向关于 30% 和得分来自 45 向 1。和每个。: 代码向借助。模型关于词元，和代码，代码借助在。首个，向实际信息技术打开模型。借助代码和 : :，代码托管平台，克劳德模型，演示……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": "https://preview.redd.it/54syes9dbvjh1.png?width=640&crop=smart&auto=webp&s=7aabef77bbd3a2222a93bc902dea9ad294b5bc61"
+    },
+    {
       "id": "leiphone-从-三维相册-到-物理底座-2026-开启相关型号的具身智能时代",
       "title": "从「三维相册」到「物理底座」：2026 开启相关型号的具身智能时代",
       "url": "https://www.leiphone.com/category/private/aUhbF0DAHdEEWDDY.html",
@@ -994,38 +1009,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-追踪显卡价格整整一年-老外称从未如此糟糕-直言别买卡了",
-      "title": "追踪显卡价格整整一年！老外称从未如此糟糕：直言别买卡了",
-      "url": "https://news.cnblogs.com/n/834418/",
+      "id": "cnblogs-news-觅蜂科技融资数亿元-中国电信领投",
+      "title": "觅蜂科技融资数亿元，中国电信领投",
+      "url": "https://news.cnblogs.com/n/834419/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T03:11:00.000Z",
-      "summary": "快科技 8 月 17 日消息，电脑自 2025 年 8 月 14 日起每周追踪当前一代图形处理器的最低零售价，至今整整一年，如今得出结论：这是追踪以来最糟糕的时刻。回顾这一年，2025 年 8 月并不乐观，各厂显卡普遍高于建议零售价，原因是库存不足叠加需求旺盛。到了 10 月出现了一本文链接",
+      "publishedAt": "2026-08-17T03:17:00.000Z",
+      "summary": "本文来源：时代周报 8 月 17 日，觅蜂科技微信公众号披露，已完成新一轮数亿元融资。本轮融资由中国电信领投，张江集团跟投，红杉中国、元启创新等老股东超额追加投资。觅蜂科技是一站式物理人工智能数据服务平台，致力于打造具身智能数据的 “平台型供给” 基础设施，实现数据的体系化、标准化、规模化供给。本本文链接",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "投融资",
+        "机器人"
       ],
       "heat": 87,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vqfh1b/free_gpt_plus/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-17T02:12:08.000Z",
-      "summary": "在，智能聊天助手面向 1 月！:，预览。信息技术，相关型号？=793&=&=&=相关型号向在 16 30。由",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 94,
-      "image": "https://preview.redd.it/4u5lhpi4gujh1.png?width=140&height=94&auto=webp&s=624eb15f3781a7aa243e16a129d719aaaa069b4c"
     },
     {
       "id": "techcrunch-ai-人工智能安全公司首席执行官人工智能",
@@ -1344,44 +1342,42 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "cnblogs-news-2026-智能助手何时该主动开口-相关型号让第一视角人工智能助手从-有问必答-走向-主动服务",
-      "title": "2026，智能助手何时该主动开口？相关型号让第一视角人工智能助手从「有问必答」走向「主动服务」",
-      "url": "https://news.cnblogs.com/n/834413/",
+      "id": "cnblogs-news-追踪显卡价格整整一年-老外称从未如此糟糕-直言别买卡了",
+      "title": "追踪显卡价格整整一年！老外称从未如此糟糕：直言别买卡了",
+      "url": "https://news.cnblogs.com/n/834418/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T02:34:00.000Z",
-      "summary": "请想象这样一种居家场景：当你戴着人工智能眼镜在厨房准备晚饭，用刀切菜时，它会立刻提醒你注意安全；当你连续几天形成举着手机长时间录像的习惯时，它会主动建议你换一种更省力的记录方式。前者需要人工智能助手根据当前场景服务用户，后者则需要调用跨越数天的记忆，总结用户生活规律。然而，当前的第一人称视频助手大本文链接",
+      "publishedAt": "2026-08-17T03:11:00.000Z",
+      "summary": "快科技 8 月 17 日消息，电脑自 2025 年 8 月 14 日起每周追踪当前一代图形处理器的最低零售价，至今整整一年，如今得出结论：这是追踪以来最糟糕的时刻。回顾这一年，2025 年 8 月并不乐观，各厂显卡普遍高于建议零售价，原因是库存不足叠加需求旺盛。到了 10 月出现了一本文链接",
       "topics": [
-        "监管安全",
-        "多模态",
+        "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-和人工智能",
-      "title": "和人工智能。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vqe1ka/me_and_ai_industry/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqfh1b/free_gpt_plus/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T01:03:43.000Z",
-      "summary": "信息技术试图向构建人工智能在。试图向解决人工智能由，数据中心，和软件，规则由。这里面向试图向智能 : 软件问题; 解决问题 : 人工智能实验室由，向词元，和和和。向 90% 运营只是数据记忆。: 由驱动进入，和。信息技术在内部。; : 认为更好。试图向 100，向 1，模型，驱动图形处理器。只是向持续。: 来自，驱动来自。构建，内部。编程人工智能; 信息技术 : 模型在软件在……",
+      "publishedAt": "2026-08-17T02:12:08.000Z",
+      "summary": "在，智能聊天助手面向 1 月！:，预览。信息技术，相关型号？=793&=&=&=相关型号向在 16 30。由",
       "topics": [
         "模型发布",
-        "产品应用",
-        "算力芯片"
+        "产品应用"
       ],
-      "heat": 90,
-      "image": ""
+      "heat": 94,
+      "image": "https://preview.redd.it/4u5lhpi4gujh1.png?width=140&height=94&auto=webp&s=624eb15f3781a7aa243e16a129d719aaaa069b4c"
     },
     {
       "id": "the-verge-ai-人工智能科学",
@@ -1725,35 +1721,39 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-最高涨1100-深度求索新定价今日生效",
-      "title": "最高涨1100%！深度求索新定价今日生效",
-      "url": "https://news.cnblogs.com/n/834411/",
+      "id": "cnblogs-news-2026-智能助手何时该主动开口-相关型号让第一视角人工智能助手从-有问必答-走向-主动服务",
+      "title": "2026，智能助手何时该主动开口？相关型号让第一视角人工智能助手从「有问必答」走向「主动服务」",
+      "url": "https://news.cnblogs.com/n/834413/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T02:18:00.000Z",
-      "summary": "智东西作者李水青编辑心缘智东西 8 月 17 日报道，今日零时起，深度求索正式执行新版接口价格，深度求索-第4代- 和深度求索-第4代-专业版两款主力模型首次采用峰谷定价，闲时价格统一为高峰时段的一半。此次调整同步抬高了两款模型的基础价格。本文链接",
+      "publishedAt": "2026-08-17T02:34:00.000Z",
+      "summary": "请想象这样一种居家场景：当你戴着人工智能眼镜在厨房准备晚饭，用刀切菜时，它会立刻提醒你注意安全；当你连续几天形成举着手机长时间录像的习惯时，它会主动建议你换一种更省力的记录方式。前者需要人工智能助手根据当前场景服务用户，后者则需要调用跨越数天的记忆，总结用户生活规律。然而，当前的第一人称视频助手大本文链接",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 90,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "reddit-artificial-数据-和-任务向-和时间-时间-信息技术",
-      "title": "数据，和 : 任务向，和时间，* * 时间，信息技术？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vqat6a/data_entry_specialists_accountants_and_office/",
+      "id": "reddit-artificial-和人工智能",
+      "title": "和人工智能。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqe1ka/me_and_ai_industry/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-16T22:36:48.000Z",
-      "summary": "只是 : 在人工智能，人工智能自动化？由",
+      "publishedAt": "2026-08-17T01:03:43.000Z",
+      "summary": "信息技术试图向构建人工智能在。试图向解决人工智能由，数据中心，和软件，规则由。这里面向试图向智能 : 软件问题; 解决问题 : 人工智能实验室由，向词元，和和和。向 90% 运营只是数据记忆。: 由驱动进入，和。信息技术在内部。; : 认为更好。试图向 100，向 1，模型，驱动图形处理器。只是向持续。: 来自，驱动来自。构建，内部。编程人工智能; 信息技术 : 模型在软件在……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 78,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2082,38 +2082,36 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-100-纯血国产人工智能反超-一个下午做出百万预算主题曲",
-      "title": "100%纯血国产人工智能反超！一个下午做出百万预算主题曲",
-      "url": "https://news.cnblogs.com/n/834410/",
+      "id": "cnblogs-news-最高涨1100-深度求索新定价今日生效",
+      "title": "最高涨1100%！深度求索新定价今日生效",
+      "url": "https://news.cnblogs.com/n/834411/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T02:12:00.000Z",
-      "summary": "新智元报道日产 7.5 万首，播放却不到3%。这是流媒体平台最新披露的一组数据。人工智能歌曲每天涌入平台的速度，从 2025 年初的 1 万首飙升到如今的 7.5 万首，占当日新增上传的 44%。但实际播放占比，只有1%-3%。产能炸了，产品却过不了人耳这一关。尤其是在中文世界本文链接",
+      "publishedAt": "2026-08-17T02:18:00.000Z",
+      "summary": "智东西作者李水青编辑心缘智东西 8 月 17 日报道，今日零时起，深度求索正式执行新版接口价格，深度求索-第4代- 和深度求索-第4代-专业版两款主力模型首次采用峰谷定价，闲时价格统一为高峰时段的一半。此次调整同步抬高了两款模型的基础价格。本文链接",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人形机器人-安全",
-      "title": "人形机器人，安全",
-      "url": "https://www.reddit.com/r/artificial/comments/1vq3yyk/us_bans_foreignmade_humanoid_robots_targeting/",
+      "id": "reddit-artificial-数据-和-任务向-和时间-时间-信息技术",
+      "title": "数据，和 : 任务向，和时间，* * 时间，信息技术？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vqat6a/data_entry_specialists_accountants_and_office/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-16T18:03:33.000Z",
-      "summary": "人形机器人。正确。信息技术。信息技术向，新模型来自得到。政府。和信息技术，由。人形机器人构建在由规则作为构建在。目标是在在，信息技术目标是在在论文。信息技术人形机器人。4.4 在，和软件。机器人。规则。新增向，和驱动。芯片，信息技术。信息技术。由",
+      "publishedAt": "2026-08-16T22:36:48.000Z",
+      "summary": "只是 : 在人工智能，人工智能自动化？由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/kS6cCBXCS2R-Rm4yEqRRp-MxFV1uFRvg7VJyynaExPM.jpeg?width=640&crop=smart&auto=webp&s=b82a1e41e42ae6e943a3ee49df09f638aa1db2fa"
+      "heat": 78,
+      "image": ""
     },
     {
       "id": "the-decoder-人工智能安全公司-武器面向-133-百万",
@@ -2392,7 +2390,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-08-17T06:13:11.000Z",
-      "summary": "行业消息人士周一透露，英伟达公司高级总监、首席执行官黄仁勋之女黄敏珊（ ）计划于本周晚些时候到访电子公司在韩国的机器人中心。黄敏珊定于周二访问，计划与电子高层官员就双方在人工智能（人工智能）基础设施和机器人领域深化合作的事宜举行闭门会谈。预计此次会谈将主要聚焦机器人业务，地点设在电子位于首尔南部正在建设的数据工厂。（新浪财经）",
+      "summary": "行业消息人士周一透露，英伟达公司高级总监、首席执行官黄仁勋之女黄敏珊（ ）计划于本周晚些时候到访电子公司在韩国的机器人中心。黄敏珊定于周二访问，计划与电子高层官员就双方在人工智能（人工智能）基础设施和机器人领域深化合作的事宜举行闭门会谈。预计此次会谈将主要聚焦机器人业务，地点设在电子位于���尔南部正在建设的数据工厂。（新浪财经）",
       "topics": [
         "算力芯片",
         "机器人"
@@ -2401,17 +2399,17 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-20-的美国打工人把活儿甩给人工智能-被替代的是任务-不是岗位",
-      "title": "20%的美国打工人把活儿甩给人工智能！被替代的是任务，不是岗位",
-      "url": "https://news.cnblogs.com/n/834409/",
+      "id": "cnblogs-news-100-纯血国产人工智能反超-一个下午做出百万预算主题曲",
+      "title": "100%纯血国产人工智能反超！一个下午做出百万预算主题曲",
+      "url": "https://news.cnblogs.com/n/834410/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T02:05:00.000Z",
-      "summary": "新智元报道你有多少工作，是需要「外包」出去做的，比如交给同事或者实习生？8 月 6 日，人工智能研究机构人工智能联合民调公司，发布了一份职场调查报告：五分之一的美国就业者说，人工智能现在已经基本或完全接手了至少一项，过去他们会把这些活儿交给同事或承包商。原本交给同事或承包本文链接",
+      "publishedAt": "2026-08-17T02:12:00.000Z",
+      "summary": "新智元报道日产 7.5 万首，播放却不到3%。这是流媒体平台最新披露的一组数据。人工智能歌曲每天涌入平台的速度，从 2025 年初的 1 万首飙升到如今的 7.5 万首，占当日新增上传的 44%。但实际播放占比，只有1%-3%。产能炸了，产品却过不了人耳这一关。尤其是在中文世界本文链接",
       "topics": [
-        "研究论文"
+        "人工智能动态"
       ],
       "heat": 82,
       "image": ""
@@ -2435,21 +2433,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-1-7-十亿模型推理能力和",
-      "title": "1.7 十亿模型推理能力和？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vq2io1/17b_model_leading_strict7_formal_reasoning_above/",
+      "id": "reddit-artificial-人形机器人-安全",
+      "title": "人形机器人，安全",
+      "url": "https://www.reddit.com/r/artificial/comments/1vq3yyk/us_bans_foreignmade_humanoid_robots_targeting/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-16T17:08:01.000Z",
-      "summary": "最推理能力即将推出实验室向规模，更好推理能力。面向。进入面向任务。在，面向。在，信息技术 0.2386，在 0.2093 和在 0.2050。在信息技术面向实际，1.7 十亿。我们模型面向推理能力实际关于推理能力。只是向。在推理能力任务和 8 十亿+ 模型在在 1.7 十亿。在 1，3 十亿模型 70 十亿。许可，值得。借助？任务顺利向？由",
+      "publishedAt": "2026-08-16T18:03:33.000Z",
+      "summary": "人形机器人。正确。信息技术。信息技术向，新模型来自得到。政府。和信息技术，由。人形机器人构建在由规则作为构建在。目标是在在，信息技术目标是在在论文。信息技术人形机器人。4.4 在，和软件。机器人。规则。新增向，和驱动。芯片，信息技术。信息技术。由",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 87,
-      "image": ""
+      "heat": 84,
+      "image": "https://external-preview.redd.it/kS6cCBXCS2R-Rm4yEqRRp-MxFV1uFRvg7VJyynaExPM.jpeg?width=640&crop=smart&auto=webp&s=b82a1e41e42ae6e943a3ee49df09f638aa1db2fa"
     },
     {
       "id": "the-decoder-人工智能由用户模型数据",
@@ -2691,36 +2690,36 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-摩根大通-相关型号升级-深度求索提价重塑中国人工智能-上调智谱与目标价",
-      "title": "摩根大通：相关型号升级+深度求索提价重塑中国人工智能，上调智谱与目标价",
-      "url": "https://news.cnblogs.com/n/834408/",
+      "id": "cnblogs-news-20-的美国打工人把活儿甩给人工智能-被替代的是任务-不是岗位",
+      "title": "20%的美国打工人把活儿甩给人工智能！被替代的是任务，不是岗位",
+      "url": "https://news.cnblogs.com/n/834409/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T01:58:00.000Z",
-      "summary": "摩根大通最新认为，在中国人工智能模型层竞争中，能力的内生驱动比外部环境的被动改善更具投资价值。智谱凭借相关型号的内生能力跃升占据更有利的竞争起点，而的估值重估则有赖于相关型号和相关型号能否在各自维度上交出令人信服的答卷。据追风交易台消息，摩根大通在 8 月 16 日本文链接",
+      "publishedAt": "2026-08-17T02:05:00.000Z",
+      "summary": "新智元报道你有多少工作，是需要「外包」出去做的，比如交给同事或者实习生？8 月 6 日，人工智能研究机构人工智能联合民调公司，发布了一份职场调查报告：五分之一的美国就业者说，人工智能现在已经基本或完全接手了至少一项，过去他们会把这些活儿交给同事或承包商。原本交给同事或承包本文链接",
       "topics": [
-        "投融资"
+        "研究论文"
       ],
-      "heat": 89,
+      "heat": 81,
       "image": ""
     },
     {
-      "id": "reddit-artificial-来自面向为什么人工智能智能体在公司",
-      "title": "来自面向为什么人工智能智能体在公司",
-      "url": "https://www.reddit.com/r/artificial/comments/1vq21ve/a_split_from_neuroscience_cortex_vs_hippocampus/",
+      "id": "reddit-artificial-1-7-十亿模型推理能力和",
+      "title": "1.7 十亿模型推理能力和？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vq2io1/17b_model_leading_strict7_formal_reasoning_above/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-16T16:50:00.000Z",
-      "summary": "来自认为关于作为人工智能智能体内部公司。信息技术作为，信息技术。记忆。1995。和。: 信息技术作为，进入。预训练大语言模型。信息技术和。信息技术 :，公司，记忆团队实际和转化进入。进入公司和信息技术，和在。在帮助。信息技术在团队，和。解释为什么工具修复信息技术。检索和 : 进入，和。智能体平台智能体在。修复持续在: 向工具团队使用，实际很少有人，和进入，技能智能体，借助在，……",
+      "publishedAt": "2026-08-16T17:08:01.000Z",
+      "summary": "最推理能力即将推出实验室向规模，更好推理能力。面向。进入面向任务。在，面向。在，信息技术 0.2386，在 0.2093 和在 0.2050。在信息技术面向实际，1.7 十亿。我们模型面向推理能力实际关于推理能力。只是向。在推理能力任务和 8 十亿+ 模型在在 1.7 十亿。在 1，3 十亿模型 70 十亿。许可，值得。借助？任务顺利向？由",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 78,
+      "heat": 87,
       "image": ""
     },
     {
