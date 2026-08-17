@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-17T15:55:23.581Z",
+  "generatedAt": "2026-08-17T16:03:38.249Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-17T16:00:00.000Z",
+  "nextUpdateHint": "2026-08-17T16:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-17T15:46:28.000Z"
+    "latestPublishedAt": "2026-08-17T16:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 71,
+      "count": 72,
       "heat": 75
     },
     {
@@ -33,13 +33,8 @@
     },
     {
       "name": "人工智能动态",
-      "count": 22,
-      "heat": 67
-    },
-    {
-      "name": "研究论文",
-      "count": 20,
-      "heat": 68
+      "count": 21,
+      "heat": 66
     },
     {
       "name": "多模态",
@@ -49,22 +44,27 @@
     {
       "name": "开源生态",
       "count": 18,
-      "heat": 70
+      "heat": 71
+    },
+    {
+      "name": "研究论文",
+      "count": 19,
+      "heat": 66
     },
     {
       "name": "端侧智能",
-      "count": 11,
-      "heat": 82
-    },
-    {
-      "name": "投融资",
-      "count": 10,
+      "count": 12,
       "heat": 83
     },
     {
+      "name": "投融资",
+      "count": 11,
+      "heat": 85
+    },
+    {
       "name": "机器人",
-      "count": 4,
-      "heat": 84
+      "count": 3,
+      "heat": 80
     }
   ],
   "sources": [
@@ -128,9 +128,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-08-14T16:00:00.000Z",
-      "latestDisplayedAt": "2026-08-14T16:00:00.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-17T16:00:00.000Z",
+      "latestDisplayedAt": "2026-08-17T16:00:00.000Z"
     },
     {
       "id": "github-changelog",
@@ -319,8 +319,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 5,
-      "displayedCount": 5,
+      "itemCount": 4,
+      "displayedCount": 4,
       "latestFetchedAt": "2026-08-17T15:36:18.000Z",
       "latestDisplayedAt": "2026-08-17T15:36:18.000Z"
     },
@@ -332,10 +332,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-08-17T15:25:11.000Z",
       "latestDisplayedAt": "2026-08-17T15:25:11.000Z"
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 23,
+      "itemCount": 24,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-17T15:46:28.000Z",
-      "latestDisplayedAt": "2026-08-17T15:46:28.000Z"
+      "latestFetchedAt": "2026-08-17T15:57:27.000Z",
+      "latestDisplayedAt": "2026-08-17T15:57:27.000Z"
     },
     {
       "id": "oschina",
@@ -479,30 +479,45 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 12,
+      "itemCount": 13,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-17T13:25:00.000Z",
-      "latestDisplayedAt": "2026-08-17T13:20:00.000Z"
+      "latestFetchedAt": "2026-08-17T13:33:00.000Z",
+      "latestDisplayedAt": "2026-08-17T13:33:00.000Z"
     }
   ],
   "failures": [],
   "items": [
     {
-      "id": "ithome-相关型号至尊版手机官宣搭载新一代超核引擎-支持-开放世界手游-60-帧-极高画质",
-      "title": "相关型号至尊版手机官宣搭载新一代超核引擎，支持《开放世界手游》60 帧 + 极高画质",
-      "url": "https://www.ithome.com/0/990/857.htm",
+      "id": "github-blog-工作流-和成本-高效",
+      "title": "工作流，和成本，高效",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-17T16:00:00.000Z",
+      "summary": "面向，智能体在。这里使用借助工作流，和为什么工作流。工作流，和成本，高效首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "ithome-推出系列旗舰派对音箱-自带一键歌模式-格莱美获奖音乐人调校",
+      "title": "推出系列旗舰派对音箱：自带一键歌模式，格莱美获奖音乐人调校",
+      "url": "https://www.ithome.com/0/990/859.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T15:46:28.000Z",
-      "summary": "科技之家 8 月 17 日消息，官方今日继续预热相关型号至尊版手机，此次介绍了其游戏体验。新机确认搭载新一代超核引擎，支持《开放世界手游》60 帧 + 极高画质，宣称 1 小时边充边玩全程满帧。新机还搭载全新相关型号冰穹三维散热，均热性能提升 5%，宣称“中央处理器 10 秒骤降 15℃”。另外，相关型号至尊版还通过了比赛用机测试认证，并适配《暗区突围》120 帧全地图光线追……",
+      "publishedAt": "2026-08-17T15:57:27.000Z",
+      "summary": "科技之家 8 月 17 日消息，电子今天（17 日）发布了系列旗舰派对音箱，内置高功率音响、智能技术和“人工智能卡拉大师”，全系采用的“标志性”音效，并由多次获得格莱美奖的音乐人参与调校，在保持声音清晰均衡的基础上强化低频冲击力，营造更适合派对的听感。该系列包含 9000、7000 和 5000 三款型号，分别对应不同规模和使用场景的聚会。9000：系列旗舰，主要面向大型派对……",
       "topics": [
-        "算力芯片",
-        "监管安全",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
@@ -585,7 +600,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -606,19 +621,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-2-5-正式支持相关型号-接口同步开放",
-      "title": "2.5 正式支持相关型号，接口同步开放",
-      "url": "https://news.cnblogs.com/n/834467/",
+      "id": "cnblogs-news-黄仁勋发表最新署名文章-英伟达人工智能工厂计算正成为可投资资产类别",
+      "title": "黄仁勋发表最新署名文章：英伟达人工智能工厂计算正成为可投资资产类别",
+      "url": "https://news.cnblogs.com/n/834469/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T13:20:00.000Z",
-      "summary": "8 月 17 日，火山引擎官网显示 2.5 正式支持原生相关型号视频生成，接口同步上线。2.5 定位为“电影级长叙事”的真实画面质感和长镜头能力，此前已支持相关型号、相关型号视频生成。随着相关型号能力上线，相关型号进一步提升画本文链接",
+      "publishedAt": "2026-08-17T13:33:00.000Z",
+      "summary": "8 月 17 日，据英伟达消息，英伟达首席执行官黄仁勋发表最新署名文章：英伟达人工智能工厂计算正成为可投资资产类别。我们宣布与、和建立合作伙伴关系，创建独立的融资平台，计本文链接",
       "topics": [
-        "多模态"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 84,
+      "heat": 97,
       "image": ""
     },
     {
@@ -735,7 +751,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -788,24 +804,6 @@
         "算力芯片"
       ],
       "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "github-blog-向带来软件工作流进入代码托管平台借助智能体应用",
-      "title": "向带来软件工作流进入代码托管平台借助智能体应用",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-14T16:00:00.000Z",
-      "summary": "查看代码托管平台智能体应用帮助范围，保障安全，和交付功能代码托管平台。向带来软件工作流进入代码托管平台借助智能体应用首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "开源生态"
-      ],
-      "heat": 61,
       "image": ""
     },
     {
@@ -926,37 +924,37 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIE_Video-hero.png"
     },
     {
-      "id": "ithome-能举起-50-公斤重杠铃-九光技术发布小睿相关型号人形机器人",
-      "title": "能举起 50 公斤重杠铃，九光技术发布小睿相关型号人形机器人",
-      "url": "https://www.ithome.com/0/990/853.htm",
+      "id": "ithome-相关型号至尊版手机官宣搭载新一代超核引擎-支持-开放世界手游-60-帧-极高画质",
+      "title": "相关型号至尊版手机官宣搭载新一代超核引擎，支持《开放世界手游》60 帧 + 极高画质",
+      "url": "https://www.ithome.com/0/990/857.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T15:29:57.000Z",
-      "summary": "科技之家 8 月 17 日消息，据新闻今天报道，九光技术今天在香港科学园发布新一代人形机器人小睿相关型号，主打功能是辅助人类负重工作。据介绍，小睿相关型号是九光技术自研的第三款人形机器人，它身高 173 厘米，体重小于 60 公斤，与一个成年人相若，能拉超过 100 公斤重的物件或举起 50 公斤重的杠铃。在发布会现场，小睿相关型号可以响应语音指令，平稳地完成 50 公斤杠铃……",
+      "publishedAt": "2026-08-17T15:46:28.000Z",
+      "summary": "科技之家 8 月 17 日消息，官方今日继续预热相关型号至尊版手机，此次介绍了其游戏体验。新机确认搭载新一代超核引擎，支持《开放世界手游》60 帧 + 极高画质，宣称 1 小时边充边玩全程满帧。新机还搭载全新相关型号冰穹三维散热，均热性能提升 5%，宣称“中央处理器 10 秒骤降 15℃”。另外，相关型号至尊版还通过了比赛用机测试认证，并适配《暗区突围》120 帧全地图光线追……",
       "topics": [
-        "产品应用",
-        "多模态",
-        "机器人"
+        "算力芯片",
+        "监管安全",
+        "端侧智能"
       ],
       "heat": 97,
       "image": ""
     },
     {
-      "id": "hacker-news-ai-代码托管平台员工在-为什么",
-      "title": ": 代码托管平台员工在？为什么？",
-      "url": "https://news.ycombinator.com/item?id=49332495",
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
       "source": "技术社区人工智能热榜",
       "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T15:19:31.000Z",
+      "publishedAt": "2026-08-17T14:26:19.000Z",
       "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1010,6 +1008,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-2-5-正式支持相关型号-接口同步开放",
+      "title": "2.5 正式支持相关型号，接口同步开放",
+      "url": "https://news.cnblogs.com/n/834467/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-17T13:20:00.000Z",
+      "summary": "8 月 17 日，火山引擎官网显示 2.5 正式支持原生相关型号视频生成，接口同步上线。2.5 定位为“电影级长叙事”的真实画面质感和长镜头能力，此前已支持相关型号、相关型号视频生成。随着相关型号能力上线，相关型号进一步提升画本文链接",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-280-百万在-2-十亿作为信息技术",
       "title": "$280 百万在 $2 十亿作为信息技术",
       "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
@@ -1023,22 +1037,6 @@
         "投融资"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-马斯克华人前高管-5亿拿下硅谷豪宅-人工智能正批量制造富豪",
-      "title": "马斯克华人前高管，5亿拿下硅谷豪宅，人工智能正批量制造富豪？",
-      "url": "https://news.cnblogs.com/n/834465/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-17T13:06:00.000Z",
-      "summary": "文｜新质动能杭州 95 后，5 亿拿下硅谷豪宅。近日，旧金山湾区完成了今年金额最高的一笔豪宅交易，一座占地约 12 英亩的庄园以 7000 万美元，约合人民币 5 亿元成交。而买家指向了一个熟悉的名字：联合创始人吴宇怀。这位来自杭州的 95 后年轻科学家，去年刚花 1200 万美元买下本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
       "image": ""
     },
     {
@@ -1106,7 +1104,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1195,6 +1193,24 @@
       "image": ""
     },
     {
+      "id": "github-blog-向带来软件工作流进入代码托管平台借助智能体应用",
+      "title": "向带来软件工作流进入代码托管平台借助智能体应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-14T16:00:00.000Z",
+      "summary": "查看代码托管平台智能体应用帮助范围，保障安全，和交付功能代码托管平台。向带来软件工作流进入代码托管平台借助智能体应用首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
       "id": "wired-ai-安全内部开放人工智能公司",
       "title": "安全内部开放人工智能公司",
       "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
@@ -1263,24 +1279,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp"
     },
     {
-      "id": "github-blog-50-开源关于安全在人工智能",
-      "title": "50 开源关于安全在人工智能",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "summary": "查看开源在 4 代码托管平台保障安全开源人工智能，工作流，代码托管平台安全工具，和融资向改进安全。50 开源关于安全在人工智能首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 61,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-关于人工智能-在",
       "title": "关于人工智能，在",
       "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
@@ -1313,37 +1311,37 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg"
     },
     {
-      "id": "ithome-佛州一男子向智能聊天助手描述-杀害前女友-计划-开放人工智能公司报案了",
-      "title": "佛州一男子向智能聊天助手描述“杀害前女友”计划，开放人工智能公司报案了",
-      "url": "https://www.ithome.com/0/990/850.htm",
+      "id": "ithome-能举起-50-公斤重杠铃-九光技术发布小睿相关型号人形机器人",
+      "title": "能举起 50 公斤重杠铃，九光技术发布小睿相关型号人形机器人",
+      "url": "https://www.ithome.com/0/990/853.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T15:20:12.000Z",
-      "summary": "科技之家 8 月 17 日消息，据《今日美国》当地时间 14 日报道，开放人工智能公司向举报了一名 25 岁的佛罗里达州男子达伦 · 周，原因是他曾向智能聊天助手详细描述强奸并杀害前女友的计划。法庭记录显示，达伦 · 周曾对智能聊天助手称：“我会在这个月底之前杀了她。如果我得不到她，那谁也别想得到她。” 达伦 · 周是一名被解雇的高盛分析师。今年 3 月，他开始通过智能聊天助……",
+      "publishedAt": "2026-08-17T15:29:57.000Z",
+      "summary": "科技之家 8 月 17 日消息，据新闻今天报道，九光技术今天在香港科学园发布新一代人形机器人小睿相关型号，主打功能是辅助人类负重工作。据介绍，小睿相关型号是九光技术自研的第三款人形机器人，它身高 173 厘米，体重小于 60 公斤，与一个成年人相若，能拉超过 100 公斤重的物件或举起 50 公斤重的杠铃。在发布会现场，小睿相关型号可以响应语音指令，平稳地完成 50 公斤杠铃……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "监管安全"
+        "多模态",
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
+      "id": "hacker-news-ai-向代码托管平台",
+      "title": ": 向代码托管平台",
+      "url": "https://news.ycombinator.com/item?id=49331033",
       "source": "技术社区人工智能热榜",
       "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T14:26:19.000Z",
+      "publishedAt": "2026-08-17T13:59:17.000Z",
       "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1361,23 +1359,23 @@
         "投融资",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "cnblogs-news-左手推-右手涨价-深度求索为何把开发者往外推",
-      "title": "左手推，右手涨价：深度求索为何把开发者往外推？",
-      "url": "https://news.cnblogs.com/n/834464/",
+      "id": "cnblogs-news-马斯克华人前高管-5亿拿下硅谷豪宅-人工智能正批量制造富豪",
+      "title": "马斯克华人前高管，5亿拿下硅谷豪宅，人工智能正批量制造富豪？",
+      "url": "https://news.cnblogs.com/n/834465/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T13:00:00.000Z",
-      "summary": "文｜大模型之家 8 月 17 日零点，深度求索新一版峰谷价格体系正式生效，平均涨幅大约为 3。5 倍，最高可达 12 倍。这标志着这家曾以极致性价比席卷国内大模型市场的企业，正式按下了全面涨价的按钮。然而，就在 83 天前的 5 月 22 日，深度求索才刚刚高调宣布将其第4代本文链接",
+      "publishedAt": "2026-08-17T13:06:00.000Z",
+      "summary": "文｜新质动能杭州 95 后，5 亿拿下硅谷豪宅。近日，旧金山湾区完成了今年金额最高的一笔豪宅交易，一座占地约 12 英亩的庄园以 7000 万美元，约合人民币 5 亿元成交。而买家指向了一个熟悉的名字：联合创始人吴宇怀。这位来自杭州的 95 后年轻科学家，去年刚花 1200 万美元买下本文链接",
       "topics": [
-        "模型发布"
+        "人工智能动态"
       ],
-      "heat": 92,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1448,7 +1446,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1464,7 +1462,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1569,6 +1567,24 @@
       "image": "https://media.wired.com/photos/6a7cd92daf899556c1dfa8f2/master/pass/Uncanny-Valley-Zuckerberg-AI-manifesto-Business.jpg"
     },
     {
+      "id": "github-blog-50-开源关于安全在人工智能",
+      "title": "50 开源关于安全在人工智能",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "summary": "查看开源在 4 代码托管平台保障安全开源人工智能，工作流，代码托管平台安全工具，和融资向改进安全。50 开源关于安全在人工智能首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
       "id": "github-changelog-双子座模型-3-7-现已可用在代码托管平台智能编程助手",
       "title": "双子座模型 3.7 现已可用在代码托管平台智能编程助手",
       "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
@@ -1654,24 +1670,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg"
     },
     {
-      "id": "github-blog-首个借助代码托管平台智能编程助手应用",
-      "title": "首个借助代码托管平台智能编程助手应用",
-      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T19:00:00.000Z",
-      "summary": "了解向首个在代码托管平台智能编程助手应用，正确上下文和模型，和首个任务借助。首个借助代码托管平台智能编程助手应用首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 61,
-      "image": ""
-    },
-    {
       "id": "google-ai-blog-研究人工智能-时间视频在首个",
       "title": "研究人工智能，时间视频在首个。",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
@@ -1706,37 +1704,53 @@
       "image": ""
     },
     {
-      "id": "ithome-字节跳动与美国电影协会签署协议-加强人工智能模型版权保护",
-      "title": "字节跳动与美国电影协会签署协议，加强人工智能模型版权保护",
-      "url": "https://www.ithome.com/0/990/847.htm",
+      "id": "ithome-佛州一男子向智能聊天助手描述-杀害前女友-计划-开放人工智能公司报案了",
+      "title": "佛州一男子向智能聊天助手描述“杀害前女友”计划，开放人工智能公司报案了",
+      "url": "https://www.ithome.com/0/990/850.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T15:06:14.000Z",
-      "summary": "科技之家 8 月 17 日消息，据路透社今天报道，字节跳动与美国电影协会（）签署协议，双方将加强人工智能视频与图像生成模型的版权保护措施。科技之家从原报道获悉，该协议涵盖字节跳动旗下的视频生成模型和图像生成模型，这些模型目前通过、和等应用提供服务。字节表示，新版本的和已加入更强的知识产权保护机制。字节跳动和美国电影协会表示，双方将在人工智能不断发展的同时，继续完善版权防护措施。",
+      "publishedAt": "2026-08-17T15:20:12.000Z",
+      "summary": "科技之家 8 月 17 日消息，据《今日美国》当地时间 14 日报道，开放人工智能公司向举报了一名 25 岁的佛罗里达州男子达伦 · 周，原因是他曾向智能聊天助手详细描述强奸并杀害前女友的计划。法庭记录显示，达伦 · 周曾对智能聊天助手称：“我会在这个月底之前杀了她。如果我得不到她，那谁也别想得到她。” 达伦 · 周是一名被解雇的高盛分析师。今年 3 月，他开始通过智能聊天助……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "hacker-news-ai-向代码托管平台",
-      "title": ": 向代码托管平台",
-      "url": "https://news.ycombinator.com/item?id=49331033",
+      "id": "hacker-news-ai-代码托管平台-访问",
+      "title": "代码托管平台？访问",
+      "url": "https://news.ycombinator.com/item?id=49330632",
       "source": "技术社区人工智能热榜",
       "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T13:59:17.000Z",
+      "publishedAt": "2026-08-17T13:37:28.000Z",
       "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "开源生态"
       ],
       "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-左手推-右手涨价-深度求索为何把开发者往外推",
+      "title": "左手推，右手涨价：深度求索为何把开发者往外推？",
+      "url": "https://news.cnblogs.com/n/834464/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-17T13:00:00.000Z",
+      "summary": "文｜大模型之家 8 月 17 日零点，深度求索新一版峰谷价格体系正式生效，平均涨幅大约为 3。5 倍，最高可达 12 倍。这标志着这家曾以极致性价比席卷国内大模型市场的企业，正式按下了全面涨价的按钮。然而，就在 83 天前的 5 月 22 日，深度求索才刚刚高调宣布将其第4代本文链接",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 91,
       "image": ""
     },
     {
@@ -1753,25 +1767,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-联发科相关型号适配相关型号-以硬核算力与开放生态领跑端侧人工智能",
-      "title": "联发科相关型号适配相关型号，以硬核算力与开放生态领跑端侧人工智能",
-      "url": "https://news.cnblogs.com/n/834461/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-17T12:39:00.000Z",
-      "summary": "8 月 14 日，阿里千问团队正式开源相关型号十亿原生多模态稠密模型。8 月 15 日，联发科宣布，已在天玑汽车座舱平台相关型号及天玑旗舰移动芯片上完成相关型号支持。这意味着，相关型号在发布当天即可在联发科全平台上完成端侧部署并运行，从智能手机到智能汽车，这一突破将为更本文链接",
-      "topics": [
-        "算力芯片",
-        "多模态",
-        "端侧智能"
-      ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1873,7 +1869,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1889,7 +1885,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1979,6 +1975,24 @@
       "image": ""
     },
     {
+      "id": "github-blog-首个借助代码托管平台智能编程助手应用",
+      "title": "首个借助代码托管平台智能编程助手应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T19:00:00.000Z",
+      "summary": "了解向首个在代码托管平台智能编程助手应用，正确上下文和模型，和首个任务借助。首个借助代码托管平台智能编程助手应用首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
       "id": "github-changelog-智能体-1-0-在代码-智能编程助手命令行工具-和智能副驾应用",
       "title": "智能体 1.0 在代码，智能编程助手命令行工具，和智能副驾应用",
       "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
@@ -1993,24 +2007,6 @@
         "开源生态"
       ],
       "heat": 64,
-      "image": ""
-    },
-    {
-      "id": "github-blog-人工智能-首个",
-      "title": "人工智能，首个？",
-      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T18:00:08.000Z",
-      "summary": "人工智能在。分享，和持续在控制。人工智能，首个？首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 69,
       "image": ""
     },
     {
@@ -2063,35 +2059,21 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg"
     },
     {
-      "id": "ithome-挖出亚马逊训练人工智能-毁书-手段-为提高扫描效率-先把书脊切掉",
-      "title": "挖出亚马逊训练人工智能“毁书”手段：为提高扫描效率，先把书脊切掉",
-      "url": "https://www.ithome.com/0/990/845.htm",
+      "id": "ithome-字节跳动与美国电影协会签署协议-加强人工智能模型版权保护",
+      "title": "字节跳动与美国电影协会签署协议，加强人工智能模型版权保护",
+      "url": "https://www.ithome.com/0/990/847.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T14:56:55.000Z",
-      "summary": "科技之家 8 月 17 日消息，亚马逊正大批购入纸质书籍，将内容扫描后用于训练人工智能，并在扫描过程中直接销毁原书。当地时间 17 日，外媒 404 公布了一次追踪调查：调查人员把苹果藏进一批珍贵书籍的货件中，一路追踪这些书在美国境内的去向。货件最终抵达亚马逊位于拉斯维加斯的一座仓库。仓库内有一支名为相关型号的团队，标志是一只手拿书本的霸王龙。员工称，为了提高扫描效率，他们会……",
+      "publishedAt": "2026-08-17T15:06:14.000Z",
+      "summary": "科技之家 8 月 17 日消息，据路透社今天报道，字节跳动与美国电影协会（）签署协议，双方将加强人工智能视频与图像生成模型的版权保护措施。科技之家从原报道获悉，该协议涵盖字节跳动旗下的视频生成模型和图像生成模型，这些模型目前通过、和等应用提供服务。字节表示，新版本的和已加入更强的知识产权保护机制。字节跳动和美国电影协会表示，双方将在人工智能不断发展的同时，继续完善版权防护措施。",
       "topics": [
-        "监管安全"
+        "产品应用",
+        "监管安全",
+        "多模态"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-代码托管平台-访问",
-      "title": "代码托管平台？访问",
-      "url": "https://news.ycombinator.com/item?id=49330632",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-17T13:37:28.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "开源生态"
-      ],
-      "heat": 85,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2107,7 +2089,25 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-联发科相关型号适配相关型号-以硬核算力与开放生态领跑端侧人工智能",
+      "title": "联发科相关型号适配相关型号，以硬核算力与开放生态领跑端侧人工智能",
+      "url": "https://news.cnblogs.com/n/834461/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-17T12:39:00.000Z",
+      "summary": "8 月 14 日，阿里千问团队正式开源相关型号十亿原生多模态稠密模型。8 月 15 日，联发科宣布，已在天玑汽车座舱平台相关型号及天玑旗舰移动芯片上完成相关型号支持。这意味着，相关型号在发布当天即可在联发科全平台上完成端侧部署并运行，从智能手机到智能汽车，这一突破将为更本文链接",
+      "topics": [
+        "算力芯片",
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -2159,23 +2159,6 @@
         "端侧智能"
       ],
       "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-宇树造出-超人-原地起跳达2米-超人类世界纪录",
-      "title": "宇树造出“超人”：原地起跳达2米，超人类世界纪录",
-      "url": "https://news.cnblogs.com/n/834456/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-17T07:54:00.000Z",
-      "summary": "8 月 17 日下午，宇树科技发布的新机视频再次刷屏网络。画面显示，这款机器人“超人”拥有 0.85 米腿长，突破全人类极限，原地可跳高 2 米、极限速度相关型号/。宇树科技介绍称，“超人”超越全世界人类原地跳高和奔跑速度纪录，全新整机用 3 个多月研发出来，未来几个月还有很大的完善空间。本文链接",
-      "topics": [
-        "多模态",
-        "机器人"
-      ],
-      "heat": 84,
       "image": ""
     },
     {
@@ -2296,6 +2279,24 @@
       "image": "https://media.wired.com/photos/6a7b77e36e37f6db6a06a372/master/pass/AI-Lab-Why-Are-AI-Agents-So-Naughty-Business.jpg"
     },
     {
+      "id": "github-blog-人工智能-首个",
+      "title": "人工智能，首个？",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "summary": "人工智能在。分享，和持续在控制。人工智能，首个？首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 69,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-面向更好和更快视觉面向",
       "title": "面向更好和更快视觉面向",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
@@ -2347,36 +2348,19 @@
       "image": ""
     },
     {
-      "id": "github-blog-来自向-智能体开发者",
-      "title": "来自向 : 智能体开发者",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-11T18:38:17.000Z",
-      "summary": "开发者代码，只是代码。代码托管平台向，了解新，和探索。来自向 : 智能体开发者首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "ithome-新一代奔驰级车全球首发-首搭级同款发光格栅-相关型号智驾-宣称史上最全面技术升级",
-      "title": "新一代奔驰级车全球首发：首搭级同款发光格栅、相关型号智驾，宣称史上最全面技术升级",
-      "url": "https://www.ithome.com/0/990/844.htm",
+      "id": "ithome-挖出亚马逊训练人工智能-毁书-手段-为提高扫描效率-先把书脊切掉",
+      "title": "挖出亚马逊训练人工智能“毁书”手段：为提高扫描效率，先把书脊切掉",
+      "url": "https://www.ithome.com/0/990/845.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T14:54:07.000Z",
-      "summary": "科技之家 8 月 17 日消息，梅赛德斯-奔驰官方微博今日宣布，新一代级车全球首发。据介绍，自 1982 年问世以来，级车累计销量已突破 1，200 万辆。新一代级车将迎来史上最全面技术升级，拥有更多级旗舰同源科技。外观方面，新一代级车首度搭载级同款发光格栅，星徽头灯与尾灯前后呼应，智能数字大灯光线照射更精准通透，可规避夜间行车视野盲区。打开车门，外后视镜将投射三叉星徽点亮地……",
+      "publishedAt": "2026-08-17T14:56:55.000Z",
+      "summary": "科技之家 8 月 17 日消息，亚马逊正大批购入纸质书籍，将内容扫描后用于训练人工智能，并在扫描过程中直接销毁原书。当地时间 17 日，外媒 404 公布了一次追踪调查：调查人员把苹果藏进一批珍贵书籍的货件中，一路追踪这些书在美国境内的去向。货件最终抵达亚马逊位于拉斯维加斯的一座仓库。仓库内有一支名为相关型号的团队，标志是一只手拿书本的霸王龙。员工称，为了提高扫描效率，他们会……",
       "topics": [
-        "模型发布"
+        "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2392,7 +2376,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2430,19 +2414,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-开放人工智能公司有个神秘邮箱-多大点事都能惊动奥特曼",
-      "title": "开放人工智能公司有个神秘邮箱，多大点事都能惊动奥特曼",
-      "url": "https://news.cnblogs.com/n/834454/",
+      "id": "cnblogs-news-宇树造出-超人-原地起跳达2米-超人类世界纪录",
+      "title": "宇树造出“超人”：原地起跳达2米，超人类世界纪录",
+      "url": "https://news.cnblogs.com/n/834456/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T07:41:00.000Z",
-      "summary": "编辑｜杨文大公司病几乎是企业成长的必然产物。规模扩大后，流程变多，审批变长，决策变慢，一点点摩擦不断累积，最终拖累整体效率。开放人工智能公司正在快速扩张，员工规模预计年底超过 8000 人。在这个体量下，它是怎么保持动作快速的？《财富》最近的一篇报道，提到了一套机制。在本文链接",
+      "publishedAt": "2026-08-17T07:54:00.000Z",
+      "summary": "8 月 17 日下午，宇树科技发布的新机视频再次刷屏网络。画面显示，这款机器人“超人”拥有 0.85 米腿长，突破全人类极限，原地可跳高 2 米、极限速度相关型号/。宇树科技介绍称，“超人”超越全世界人类原地跳高和奔跑速度纪录，全新整机用 3 个多月研发出来，未来几个月还有很大的完善空间。本文链接",
       "topics": [
-        "人工智能动态"
+        "多模态",
+        "机器人"
       ],
-      "heat": 87,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2458,7 +2443,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2582,6 +2567,23 @@
       "image": ""
     },
     {
+      "id": "github-blog-来自向-智能体开发者",
+      "title": "来自向 : 智能体开发者",
+      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-11T18:38:17.000Z",
+      "summary": "开发者代码，只是代码。代码托管平台向，了解新，和探索。来自向 : 智能体开发者首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-为什么人工智能性能新驱动",
       "title": "为什么人工智能性能新驱动",
       "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
@@ -2614,38 +2616,19 @@
       "image": ""
     },
     {
-      "id": "github-blog-代码托管平台智能编程助手开发工具包面向",
-      "title": "代码托管平台智能编程助手开发工具包面向",
-      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-10T19:30:00.000Z",
-      "summary": "企业开发者新代码托管平台智能编程助手来自代码借助，和。代码托管平台智能编程助手开发工具包面向首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
-      "image": ""
-    },
-    {
-      "id": "ithome-无需电机-齿轮-科学家制造出完全由声波驱动的微型船及飞行器",
-      "title": "无需电机、齿轮，科学家制造出完全由声波驱动的微型船及飞行器",
-      "url": "https://www.ithome.com/0/990/837.htm",
+      "id": "ithome-新一代奔驰级车全球首发-首搭级同款发光格栅-相关型号智驾-宣称史上最全面技术升级",
+      "title": "新一代奔驰级车全球首发：首搭级同款发光格栅、相关型号智驾，宣称史上最全面技术升级",
+      "url": "https://www.ithome.com/0/990/844.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T14:13:51.000Z",
-      "summary": "科技之家 8 月 17 日消息，据外媒今天（17 日）报道，瑞士洛桑联邦理工学院（）微型生物机器人系统实验室（）的研究人员开发出一种利用声音驱动微型机器人的新方法。他们制造的微型船和飞行器通过三维打印腔体把声音转化为推力，无需电机、齿轮或磁性零件，有望为极微型机器人提供更轻、更简单的推进方案。这项研究成果登上了《 》，其核心原理是声学共振：特定频率的声音进入中空腔体后，会使内……",
+      "publishedAt": "2026-08-17T14:54:07.000Z",
+      "summary": "科技之家 8 月 17 日消息，梅赛德斯-奔驰官方微博今日宣布，新一代级车全球首发。据介绍，自 1982 年问世以来，级车累计销量已突破 1，200 万辆。新一代级车将迎来史上最全面技术升级，拥有更多级旗舰同源科技。外观方面，新一代级车首度搭载级同款发光格栅，星徽头灯与尾灯前后呼应，智能数字大灯光线照射更精准通透，可规避夜间行车视野盲区。打开车门，外后视镜将投射三叉星徽点亮地……",
       "topics": [
-        "算力芯片",
-        "研究论文",
-        "机器人"
+        "模型发布"
       ],
-      "heat": 96,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2701,15 +2684,15 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-字节留住微软中国",
-      "title": "字节留住微软中国",
-      "url": "https://news.cnblogs.com/n/834453/",
+      "id": "cnblogs-news-开放人工智能公司有个神秘邮箱-多大点事都能惊动奥特曼",
+      "title": "开放人工智能公司有个神秘邮箱，多大点事都能惊动奥特曼",
+      "url": "https://news.cnblogs.com/n/834454/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-17T07:32:00.000Z",
-      "summary": "这两天，人工智能圈子最火的消息是，深度求索第4代专业版和的相继亮相，“深度求索斩杀线”的说法流传越来越广。但除了激动人心的“中国人工智能横扫全球”，两则不太起眼的消息，也很有意思。一则消息则是，微软继续保留中国业务，关键因子之一是字节跳动。知情人士称，微软本文链接",
+      "publishedAt": "2026-08-17T07:41:00.000Z",
+      "summary": "编辑｜杨文大公司病几乎是企业成长的必然产物。规模扩大后，流程变多，审批变长，决策变慢，一点点摩擦不断累积，最终拖累整体效率。开放人工智能公司正在快速扩张，员工规模预计年底超过 8000 人。在这个体量下，它是怎么保持动作快速的？《财富》最近的一篇报道，提到了一套机制。在本文链接",
       "topics": [
         "人工智能动态"
       ],
@@ -2851,6 +2834,23 @@
       ],
       "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg"
+    },
+    {
+      "id": "github-blog-代码托管平台智能编程助手开发工具包面向",
+      "title": "代码托管平台智能编程助手开发工具包面向",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-10T19:30:00.000Z",
+      "summary": "企业开发者新代码托管平台智能编程助手来自代码借助，和。代码托管平台智能编程助手开发工具包面向首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
     }
   ]
 }
