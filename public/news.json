@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T19:25:34.177Z",
+  "generatedAt": "2026-08-19T19:42:33.660Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-19T19:30:00.000Z",
+  "nextUpdateHint": "2026-08-19T20:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-19T19:11:40.000Z"
+    "latestPublishedAt": "2026-08-19T19:30:00.000Z"
   },
   "topics": [
     {
@@ -18,12 +18,12 @@
     },
     {
       "name": "模型发布",
-      "count": 50,
+      "count": 51,
       "heat": 86
     },
     {
       "name": "监管安全",
-      "count": 34,
+      "count": 35,
       "heat": 86
     },
     {
@@ -32,24 +32,24 @@
       "heat": 85
     },
     {
-      "name": "人工智能动态",
-      "count": 21,
-      "heat": 73
+      "name": "研究论文",
+      "count": 20,
+      "heat": 79
     },
     {
-      "name": "研究论文",
-      "count": 19,
-      "heat": 78
+      "name": "人工智能动态",
+      "count": 18,
+      "heat": 76
+    },
+    {
+      "name": "多模态",
+      "count": 14,
+      "heat": 87
     },
     {
       "name": "端侧智能",
       "count": 14,
       "heat": 83
-    },
-    {
-      "name": "多模态",
-      "count": 13,
-      "heat": 86
     },
     {
       "name": "投融资",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 10,
-      "heat": 81
+      "count": 12,
+      "heat": 79
     }
   ],
   "sources": [
@@ -239,10 +239,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 9,
+      "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-19T17:10:09.000Z",
-      "latestDisplayedAt": "2026-08-19T17:10:09.000Z"
+      "latestFetchedAt": "2026-08-19T19:00:00.000Z",
+      "latestDisplayedAt": "2026-08-19T19:00:00.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -289,8 +289,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-19T16:44:07.000Z",
-      "latestDisplayedAt": "2026-08-19T16:44:07.000Z"
+      "latestFetchedAt": "2026-08-19T19:30:00.000Z",
+      "latestDisplayedAt": "2026-08-19T19:30:00.000Z"
     },
     {
       "id": "towards-data-science",
@@ -488,6 +488,22 @@
   "failures": [],
   "items": [
     {
+      "id": "wired-ai-未来人工智能在机器人了解在",
+      "title": "未来人工智能在机器人了解在",
+      "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T19:30:00.000Z",
+      "summary": "向人工智能，和使用作为工具。",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 89,
+      "image": "https://media.wired.com/photos/6a85e8ea4518d27679a9b132/master/pass/AI-Lab-Very-Clever-Robot-Creeped-Me-Out-Business.jpg"
+    },
+    {
       "id": "techcrunch-ai-人工智能向由-信息技术",
       "title": "人工智能向由，信息技术",
       "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
@@ -535,6 +551,24 @@
       ],
       "heat": 99,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "the-verge-ai-谷歌双子座模型得到平台",
+      "title": "谷歌双子座模型得到平台",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "summary": "作为我们面向，向，谷歌新平台在双子座模型。信息技术仓库面向研究在，测验，和。谷歌借助支持面向和图像。信息技术新增 …",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "the-decoder-人工智能向构建面向控制",
@@ -600,40 +634,6 @@
       ],
       "heat": 96,
       "image": ""
-    },
-    {
-      "id": "the-verge-ai-开放人工智能公司",
-      "title": "开放人工智能公司？",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T17:10:09.000Z",
-      "summary": "借助首次公开募股，来自人工智能安全公司，和中国和打开，在，开放人工智能公司向，信息技术。在，公司信息技术人工智能信息技术安全和。…",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "wired-ai-向克劳德模型",
-      "title": "向克劳德模型",
-      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T16:44:07.000Z",
-      "summary": "人工智能安全公司宣布信息技术在人工智能，生成向借助新欧盟规则。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": "https://media.wired.com/photos/6a85ca54d0110f6d404e46bf/master/pass/081926_AI-Watermark-Removal.jpg"
     },
     {
       "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
@@ -751,7 +751,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -783,7 +783,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -800,7 +800,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -836,7 +836,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -854,7 +854,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -977,20 +977,38 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-元宇宙平台公司人工智能得到苹果电脑应用",
-      "title": "元宇宙平台公司人工智能得到苹果电脑应用",
-      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "id": "the-verge-ai-开放人工智能公司",
+      "title": "开放人工智能公司？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T17:00:00.000Z",
-      "summary": "元宇宙平台公司新苹果电脑应用向人工智能。在在，元宇宙平台公司分享借助人工智能，答案问题，创建在在。元宇宙平台公司人工智能在苹果电脑支持应用。…",
+      "publishedAt": "2026-08-19T17:10:09.000Z",
+      "summary": "借助首次公开募股，来自人工智能安全公司，和中国和打开，在，开放人工智能公司向，信息技术。在，公司信息技术人工智能信息技术安全和。…",
       "topics": [
-        "产品应用"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 88,
+      "heat": 99,
       "image": ""
+    },
+    {
+      "id": "wired-ai-向克劳德模型",
+      "title": "向克劳德模型",
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T16:44:07.000Z",
+      "summary": "人工智能安全公司宣布信息技术在人工智能，生成向借助新欧盟规则。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": "https://media.wired.com/photos/6a85ca54d0110f6d404e46bf/master/pass/081926_AI-Watermark-Removal.jpg"
     },
     {
       "id": "towards-data-science-月之暗面-1-百万词元上下文-检索增强生成-成本-和答案质量",
@@ -1039,7 +1057,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1089,7 +1107,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1105,7 +1123,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1179,24 +1197,6 @@
       "image": ""
     },
     {
-      "id": "wired-ai-开放人工智能公司安全人工智能智能体",
-      "title": "开放人工智能公司安全人工智能智能体",
-      "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-18T18:33:11.000Z",
-      "summary": "智能聊天助手模型，信息技术向训练信息技术。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 86,
-      "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg"
-    },
-    {
       "id": "huggingface-blog-记忆智能体实际",
       "title": "记忆智能体实际？",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
@@ -1209,7 +1209,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1244,7 +1244,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1261,7 +1261,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1340,9 +1340,10 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-08-19T18:46:14.000Z",
-      "summary": "研究访问向开放人工智能公司访问面向，模型借助面向用户。",
+      "summary": "开放人工智能公司访问面向向更好模型和向公司，借助目标是得到更快。",
       "topics": [
         "模型发布",
+        "监管安全",
         "研究论文"
       ],
       "heat": 99,
@@ -1364,6 +1365,22 @@
         "监管安全"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-元宇宙平台公司人工智能得到苹果电脑应用",
+      "title": "元宇宙平台公司人工智能得到苹果电脑应用",
+      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T17:00:00.000Z",
+      "summary": "元宇宙平台公司新苹果电脑应用向人工智能。在在，元宇宙平台公司分享借助人工智能，答案问题，创建在在。元宇宙平台公司人工智能在苹果电脑支持应用。…",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -1434,22 +1451,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-英伟达新",
-      "title": "英伟达新",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "summary": "1805 查看信息技术时间向，和借助英伟达向设置 $500 十亿在向转化 …",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-构建助手计算机视觉",
       "title": ": 构建助手计算机视觉",
       "url": "https://towardsdatascience.com/jigsaw-jeeves-building-a-puzzle-assistant-using-computer-vision/",
@@ -1496,7 +1497,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1534,6 +1535,24 @@
       "image": ""
     },
     {
+      "id": "wired-ai-开放人工智能公司安全人工智能智能体",
+      "title": "开放人工智能公司安全人工智能智能体",
+      "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-18T18:33:11.000Z",
+      "summary": "智能聊天助手模型，信息技术向训练信息技术。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 86,
+      "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/master/pass/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg"
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-工程仿真方向研究",
       "title": "论文新进展：工程仿真方向研究",
       "url": "https://arxiv.org/abs/2608.18056v1",
@@ -1568,23 +1587,6 @@
       ],
       "heat": 78,
       "image": ""
-    },
-    {
-      "id": "wired-ai-中国人工智能模型关于这里",
-      "title": "中国人工智能模型关于这里",
-      "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-18T09:00:00.000Z",
-      "summary": "人工智能人工智能模型发布帮助公司保障安全进入机械手。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 65,
-      "image": "https://media.wired.com/photos/6a834e67effc1720d3a37bb8/master/pass/ZAI-Most-Skilled-AI-Yet-Business-1044672050.jpg"
     },
     {
       "id": "huggingface-blog-向量嵌入模型借助",
@@ -1791,6 +1793,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-英伟达新",
+      "title": "英伟达新",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "summary": "1805 查看信息技术时间向，和借助英伟达向设置 $500 十亿在向转化 …",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "leiphone-挑战-1-比特-ü-秦浩桐-如何把大模型-塞进-小设备-2026",
       "title": "挑战 1 比特！ü 秦浩桐：如何把大模型「塞进」小设备？| 2026",
       "url": "https://www.leiphone.com/category/private/e2kawO4eCgabOwBm.html",
@@ -1838,7 +1856,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1858,22 +1876,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-向人工智能",
-      "title": "向人工智能",
-      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-18T19:48:26.000Z",
-      "summary": "使用人工智能，作为由。在在，和向，…",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 70,
-      "image": ""
-    },
-    {
       "id": "openai-news-强化在安全",
       "title": "强化在安全",
       "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
@@ -1886,7 +1888,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1943,21 +1945,21 @@
       "image": ""
     },
     {
-      "id": "wired-ai-人工智能实验室",
-      "title": "人工智能实验室",
-      "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
+      "id": "wired-ai-中国人工智能模型关于这里",
+      "title": "中国人工智能模型关于这里",
+      "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-14T15:00:00.000Z",
-      "summary": "构建人工智能帮助向。人工智能，作为作为信息技术开源。",
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "summary": "人工智能人工智能模型发布帮助公司保障安全进入机械手。",
       "topics": [
-        "多模态",
-        "开源生态"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 54,
-      "image": "https://media.wired.com/photos/6a7e0548f5b7635ce53f5f77/master/pass/Backchannel-Tim-Orielly-Business.jpg"
+      "heat": 65,
+      "image": "https://media.wired.com/photos/6a834e67effc1720d3a37bb8/master/pass/ZAI-Most-Skilled-AI-Yet-Business-1044672050.jpg"
     },
     {
       "id": "huggingface-blog-打开模型-2026",
@@ -2075,7 +2077,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://external-preview.redd.it/ux_JMAatkaBdavXDtj62kcqCcYTemTgVg73JkX-Vs38.jpeg?width=640&crop=smart&auto=webp&s=458696d1f50e43883e5c35aca93d76d761ee0448"
     },
     {
@@ -2160,7 +2162,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-向人工智能",
+      "title": "向人工智能",
+      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-18T19:48:26.000Z",
+      "summary": "使用人工智能，作为由。在在，和向，…",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 70,
       "image": ""
     },
     {
@@ -2177,7 +2195,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2194,22 +2212,6 @@
         "产品应用"
       ],
       "heat": 65,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-更好人工智能",
-      "title": "更好人工智能",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-18T13:00:00.000Z",
-      "summary": "人工智能在人工智能模式来自和来源在借助。和 …",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 64,
       "image": ""
     },
     {
@@ -2247,21 +2249,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-安全内部开放人工智能公司",
-      "title": "安全内部开放人工智能公司",
-      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+      "id": "wired-ai-4-机器人来自",
+      "title": "4，机器人来自",
+      "url": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-13T22:37:19.000Z",
-      "summary": "开放人工智能公司智能体时刻面向人工智能安全和。信息技术问题关于向信息技术。",
+      "publishedAt": "2026-08-14T20:59:03.000Z",
+      "summary": "作为机器人。信息技术？",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "机器人"
       ],
-      "heat": 62,
-      "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/master/pass/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg"
+      "heat": 49,
+      "image": "https://media.wired.com/photos/6a7e3d7b0f200c034ba14a12/master/pass/Made-In-China-Made-in-China-Unitree-Robots-Americans-Love-Business.jpg"
     },
     {
       "id": "huggingface-blog-训练-和来自借助智能体-和",
@@ -2420,20 +2421,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-谷歌记忆",
-      "title": "谷歌记忆",
-      "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
+      "id": "the-verge-ai-更好人工智能",
+      "title": "更好人工智能",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-18T12:01:29.000Z",
-      "summary": "帮助护理面向，和安全面向。重要，谷歌宣布新记忆功能面向双子座模型面向，…",
+      "publishedAt": "2026-08-18T13:00:00.000Z",
+      "summary": "人工智能在人工智能模式来自和来源在借助。和 …",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 64,
       "image": ""
     },
     {
@@ -2490,20 +2490,21 @@
       "image": ""
     },
     {
-      "id": "wired-ai-人工智能-6-500-和",
-      "title": "人工智能 6，500，和",
-      "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
+      "id": "wired-ai-人工智能实验室",
+      "title": "人工智能实验室",
+      "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-13T21:14:43.000Z",
-      "summary": "人工智能，来自首席执行官向 1。我们，借助来自和，在。",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
+      "summary": "构建人工智能帮助向。人工智能，作为作为信息技术开源。",
       "topics": [
-        "人工智能动态"
+        "多模态",
+        "开源生态"
       ],
-      "heat": 49,
-      "image": "https://media.wired.com/photos/6a7cd92daf899556c1dfa8f2/master/pass/Uncanny-Valley-Zuckerberg-AI-manifesto-Business.jpg"
+      "heat": 54,
+      "image": "https://media.wired.com/photos/6a7e0548f5b7635ce53f5f77/master/pass/Backchannel-Tim-Orielly-Business.jpg"
     },
     {
       "id": "huggingface-blog-我们由-2-200-论文来自",
@@ -2552,7 +2553,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2587,7 +2588,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://external-preview.redd.it/eTFxdm01cjdxYmtoMWehfebGHPL77a_T1iCFad8KjcvAjJ2yseKmLb-ff2_v.png?width=640&crop=smart&auto=webp&s=aabb3621276aacd8fed8c19aee80936bcf325047"
     },
     {
@@ -2653,25 +2654,24 @@
       "topics": [
         "机器人"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
-      "id": "the-verge-ai-智能聊天助手得到模式面向",
-      "title": "智能聊天助手得到模式面向",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+      "id": "the-verge-ai-谷歌记忆",
+      "title": "谷歌记忆",
+      "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "summary": "开放人工智能公司推出智能聊天助手模式面向，和新安全功能。推出人工智能工具用户，作为平台和。智能聊天助手面向向帮助 …",
+      "publishedAt": "2026-08-18T12:01:29.000Z",
+      "summary": "帮助护理面向，和安全面向。重要，谷歌宣布新记忆功能面向双子座模型面向，…",
       "topics": [
         "模型发布",
-        "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2707,20 +2707,21 @@
       "image": ""
     },
     {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/novig-says-its-not-like-those-other-prediction-markets/",
+      "id": "wired-ai-安全内部开放人工智能公司",
+      "title": "安全内部开放人工智能公司",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-13T13:30:00.000Z",
-      "summary": "首席执行官和新。",
+      "publishedAt": "2026-08-13T22:37:19.000Z",
+      "summary": "开放人工智能公司智能体时刻面向人工智能安全和。信息技术问题关于向信息技术。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 49,
-      "image": "https://media.wired.com/photos/6a7ce4062c7a75832e9289d0/master/pass/Novig-Good-Prediction-Market-Business.jpg"
+      "heat": 62,
+      "image": "https://media.wired.com/photos/6a7d0965c82d9b74df554e1c/master/pass/Model-Behavior-OpenAI-Dangerous-AI-Business.jpg"
     },
     {
       "id": "ithome-为-5-万亿参数超大模型-铺路-消息称字节跳动调整基模团队组织架构",
@@ -2753,7 +2754,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2838,23 +2839,25 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
+      "id": "the-verge-ai-智能聊天助手得到模式面向",
+      "title": "智能聊天助手得到模式面向",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-08-18T11:00:00.000Z",
-      "summary": "在相关型号，控制和面向。1，100 330，000，在相关型号，内部。作为 …",
+      "summary": "开放人工智能公司推出智能聊天助手模式面向，和新安全功能。推出人工智能工具用户，作为平台和。智能聊天助手面向向帮助 …",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 63,
+      "heat": 81,
       "image": ""
     }
   ]
