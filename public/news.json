@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:48:59.399Z",
+  "generatedAt": "2026-08-19T10:54:52.615Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-08-19T11:00:00.000Z",
   "stats": {
@@ -13,28 +13,28 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 68,
-      "heat": 80
+      "count": 67,
+      "heat": 81
     },
     {
       "name": "模型发布",
-      "count": 54,
+      "count": 53,
       "heat": 87
     },
     {
       "name": "监管安全",
-      "count": 37,
+      "count": 38,
       "heat": 87
     },
     {
-      "name": "算力芯片",
+      "name": "研究论文",
       "count": 21,
-      "heat": 86
+      "heat": 85
     },
     {
-      "name": "研究论文",
+      "name": "算力芯片",
       "count": 20,
-      "heat": 84
+      "heat": 86
     },
     {
       "name": "人工智能动态",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 6,
-      "heat": 72
+      "count": 7,
+      "heat": 74
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-08-17T15:00:00.000Z",
-      "latestDisplayedAt": "2026-08-17T15:00:00.000Z"
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-08-12T16:00:00.000Z",
+      "latestDisplayedAt": "2026-08-12T16:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-08-18T17:59:01.000Z",
       "latestDisplayedAt": "2026-08-18T17:59:01.000Z"
@@ -380,12 +380,12 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 4,
       "displayedCount": 4,
-      "latestFetchedAt": "2026-08-18T17:55:07.000Z",
+      "latestFetchedAt": "2026-08-18T17:52:52.000Z",
       "latestDisplayedAt": "2026-08-18T17:52:52.000Z"
     },
     {
@@ -399,10 +399,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 6,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-08-19T08:34:36.000Z",
-      "latestDisplayedAt": "2026-08-19T08:34:36.000Z"
+      "itemCount": 7,
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-19T10:12:09.000Z",
+      "latestDisplayedAt": "2026-08-19T10:12:09.000Z"
     },
     {
       "id": "leiphone",
@@ -417,8 +417,8 @@
       "fallbackReason": "",
       "itemCount": 20,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-19T07:55:00.000Z",
-      "latestDisplayedAt": "2026-08-19T07:55:00.000Z"
+      "latestFetchedAt": "2026-08-19T08:49:00.000Z",
+      "latestDisplayedAt": "2026-08-19T08:49:00.000Z"
     },
     {
       "id": "thirty-six-kr",
@@ -522,6 +522,22 @@
       "image": ""
     },
     {
+      "id": "qbitai-全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会",
+      "title": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会",
+      "url": "https://www.qbitai.com/2026/08/475907.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T10:12:09.000Z",
+      "summary": "超维动力全栈具身智能硬核登场",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-22-百万向带来更快向数据中心",
       "title": "$22 百万向带来更快向数据中心",
       "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
@@ -555,20 +571,21 @@
       "image": ""
     },
     {
-      "id": "qbitai-发布2026中国相关型号强-360以-智能体-安全-双轮驱动入选",
-      "title": "发布2026中国相关型号强：360以“智能体+安全”双轮驱动入选",
-      "url": "https://www.qbitai.com/2026/08/475901.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
+      "id": "leiphone-百度袁佛玉-从模型进化-数据回流到应用接管-具身智能进入场景落地关键阶段",
+      "title": "百度袁佛玉：从模型进化、数据回流到应用接管，具身智能进入场景落地关键阶段",
+      "url": "https://www.leiphone.com/category/industrynews/rTLndJsLPW7ODcdW.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T08:34:36.000Z",
-      "summary": "凭借企业级智能体与人工智能安全的全栈布局，360成为中国人工智能产业发展的代表企业之一。",
+      "publishedAt": "2026-08-19T08:49:00.000Z",
+      "summary": "具身智能产业关注的重点正从“能力涌现”进入“生产力兑现”阶段，拼的不只是单一模型能力。8 月 19 日下午，在北京举行的 2026 世界机器人大会上，百度集团副总裁袁佛玉表示，机器人从“会展示”到“能上岗，需要模型、数据与应用协同形成的系统能力。百度集团副总裁袁佛玉模型从理解语言，走向理解和预测物理世界机器人真正进入物理世界，仅理解语言并不够，还要理解物体关系、动作后果及环境……",
       "topics": [
         "产品应用",
-        "监管安全"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 94,
+      "heat": 97,
       "image": ""
     },
     {
@@ -585,24 +602,6 @@
         "模型发布",
         "监管安全",
         "开源生态"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "leiphone-以相关型号为例-探究九章智算云强化学习系统如何落地-训推一致",
-      "title": "以相关型号为例，探究九章智算云强化学习系统如何落地“训推一致”",
-      "url": "https://www.leiphone.com/category/ai/Nn76Eez52eSpxeXr.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T07:55:00.000Z",
-      "summary": "过去几年，大模型竞争的主线很清晰：更大的模型、更多的数据和更强的图形处理器集群。但随着预训练边际收益递减，模型能力正从单纯的预训练堆叠向后训练强化学习 （）转变，数学推理、代码生成、复杂决策、长时序智能体等高阶能力，越来越依赖后训练强化学习 （） 激发。通过生成、执行、反馈和奖励，让模型持续学习推理、规划与自我纠错的能力。由此，大模型发展从“一次性训练”进入“持续训练”，模型……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -703,7 +702,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -847,22 +846,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-微软在-2026-高德纳-魔法-面向云服务-平台",
-      "title": "微软在 2026 高德纳® 魔法 ™ 面向云服务，平台",
-      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-17T15:00:00.000Z",
-      "summary": "云服务，平台面向人工智能。微软平台帮助组织，和人工智能，驱动在规模。微软在 2026 高德纳® 魔法 ™ 面向云服务，平台首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 55,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-基础设施智能",
       "title": "基础设施智能",
       "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
@@ -875,7 +858,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png"
     },
     {
@@ -931,6 +914,22 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285566787-1152x648.jpg"
     },
     {
+      "id": "microsoft-ai-blog-智能体-来自向回归",
+      "title": "智能体 : 来自向回归",
+      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-12T16:00:00.000Z",
+      "summary": "了解人工智能成本帮助组织来自人工智能向，和。智能体 : 来自向回归首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "ithome-圆通速递-2026-年上半年归母净利润-31-75-亿元-同比增长-73-44",
       "title": "圆通速递 2026 年上半年归母净利润 31.75 亿元，同比增长 73.44%",
       "url": "https://www.ithome.com/0/991/785.htm",
@@ -982,35 +981,36 @@
       "image": ""
     },
     {
-      "id": "qbitai-具身数据底座开卖-首发5100元-机器人训练数据有了新解法",
-      "title": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
-      "url": "https://www.qbitai.com/2026/08/475477.html",
+      "id": "qbitai-发布2026中国相关型号强-360以-智能体-安全-双轮驱动入选",
+      "title": "发布2026中国相关型号强：360以“智能体+安全”双轮驱动入选",
+      "url": "https://www.qbitai.com/2026/08/475901.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T07:42:27.000Z",
-      "summary": "构建全栈物理人工智能基础设施",
+      "publishedAt": "2026-08-19T08:34:36.000Z",
+      "summary": "凭借企业级智能体与人工智能安全的全栈布局，360成为中国人工智能产业发展的代表企业之一。",
       "topics": [
-        "机器人"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 88,
+      "heat": 94,
       "image": ""
     },
     {
-      "id": "leiphone-华尔街实测8款全球主流智能体-千问办公综合排名第一-超克劳德模型-智能编程工具",
-      "title": "华尔街实测8款全球主流智能体：千问办公综合排名第一，超克劳德模型、智能编程工具",
-      "url": "https://www.leiphone.com/category/industrynews/3ldIRLLRue7anIFz.html",
+      "id": "leiphone-以相关型号为例-探究九章智算云强化学习系统如何落地-训推一致",
+      "title": "以相关型号为例，探究九章智算云强化学习系统如何落地“训推一致”",
+      "url": "https://www.leiphone.com/category/ai/Nn76Eez52eSpxeXr.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T07:27:00.000Z",
-      "summary": "8月19日消息，华尔街投行杰富瑞分析师近日对八款全球主流人工智能智能体进行了真实办公任务实测，结果显示，通过模型和的协同，阿里千问办公综合得分排名第一，超过美国的克劳德模型和智能编程工具等智能体工具。此次测试共设置5项真实办公任务，包括基于多份文件完成公司年报摘要、联网查找并比较公司经营数据、操作真实桌面浏览器完成信息检索和文档生成、根据数据制作英文，以及基于参考图片生成营销……",
+      "publishedAt": "2026-08-19T07:55:00.000Z",
+      "summary": "过去几年，大模型竞争的主线很清晰：更大的模型、更多的数据和更强的图形处理器集群。但随着预训练边际收益递减，模型能力正从单纯的预训练堆叠向后训练强化学习 （）转变，数学推理、代码生成、复杂决策、长时序智能体等高阶能力，越来越依赖后训练强化学习 （） 激发。通过生成、执行、反馈和奖励，让模型持续学习推理、规划与自我纠错的能力。由此，大模型发展从“一次性训练”进入“持续训练”，模型……",
       "topics": [
         "模型发布",
         "产品应用",
-        "多模态"
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -1322,22 +1322,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg"
     },
     {
-      "id": "microsoft-ai-blog-智能体-来自向回归",
-      "title": "智能体 : 来自向回归",
-      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-12T16:00:00.000Z",
-      "summary": "了解人工智能成本帮助组织来自人工智能向，和。智能体 : 来自向回归首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "ithome-赛力斯-2026-年半年度归母亏损-17-17-亿元-同比下降-158-38",
       "title": "赛力斯 2026 年半年度归母亏损 17.17 亿元，同比下降 158.38%",
       "url": "https://www.ithome.com/0/991/780.htm",
@@ -1389,35 +1373,35 @@
       "image": ""
     },
     {
-      "id": "qbitai-用深度求索网页版就能瓜分鹅厂600万",
-      "title": "用深度求索网页版就能瓜分鹅厂600万！",
-      "url": "https://www.qbitai.com/2026/08/475764.html",
+      "id": "qbitai-具身数据底座开卖-首发5100元-机器人训练数据有了新解法",
+      "title": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
+      "url": "https://www.qbitai.com/2026/08/475477.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T07:40:36.000Z",
-      "summary": "冠军姿势长这样",
+      "publishedAt": "2026-08-19T07:42:27.000Z",
+      "summary": "构建全栈物理人工智能基础设施",
       "topics": [
-        "人工智能动态"
+        "机器人"
       ],
-      "heat": 96,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "leiphone-英伟达-3-深度拆解-它想做具身智能时代的-安卓系统-2026",
-      "title": "英伟达 3 深度拆解：它想做具身智能时代的「安卓系统」| 2026",
-      "url": "https://www.leiphone.com/category/private/XVXWtcCNFb4PP233.html",
+      "id": "leiphone-华尔街实测8款全球主流智能体-千问办公综合排名第一-超克劳德模型-智能编程工具",
+      "title": "华尔街实测8款全球主流智能体：千问办公综合排名第一，超克劳德模型、智能编程工具",
+      "url": "https://www.leiphone.com/category/industrynews/3ldIRLLRue7anIFz.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T06:15:00.000Z",
-      "summary": "当通用人工智能的大脑决定向边缘迁徙，英伟达拿出了统治机器人进化的“终极剧本”。编辑丨岑峰 2026 年，大模型行业正经历一场前所未有的“体感位移”。那个在纯数字世界几乎无往不利的，在试图跨越到物理世界时，正遭遇物理规律、空间约束和长尾数据的残酷审判。人工智能行业最核心的矛盾正日趋明显：云端算力的指数级爆发，与机器人终端落地的步履蹒跚，构成了一种日益撕裂的鸿沟。这种割裂感，在 ……",
+      "publishedAt": "2026-08-19T07:27:00.000Z",
+      "summary": "8月19日消息，华尔街投行杰富瑞分析师近日对八款全球主流人工智能智能体进行了真实办公任务实测，结果显示，通过模型和的协同，阿里千问办公综合得分排名第一，超过美国的克劳德模型和智能编程工具等智能体工具。此次测试共设置5项真实办公任务，包括基于多份文件完成公司年报摘要、联网查找并比较公司经营数据、操作真实桌面浏览器完成信息检索和文档生成、根据数据制作英文，以及基于参考图片生成营销……",
       "topics": [
         "模型发布",
         "产品应用",
-        "算力芯片"
+        "多模态"
       ],
       "heat": 99,
       "image": ""
@@ -1728,6 +1712,22 @@
       "image": ""
     },
     {
+      "id": "qbitai-用深度求索网页版就能瓜分鹅厂600万",
+      "title": "用深度求索网页版就能瓜分鹅厂600万！",
+      "url": "https://www.qbitai.com/2026/08/475764.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T07:40:36.000Z",
+      "summary": "冠军姿势长这样",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
       "url": "https://www.reddit.com/r/artificial/comments/1vsfh87/facts_the_dex_experience/",
@@ -1746,31 +1746,15 @@
       "image": ""
     },
     {
-      "id": "qbitai-写2000字提示词-不如先生成三维白模-人工智能视频创作进入-预演时代",
-      "title": "写2000字提示词，不如先生成三维白模！人工智能视频创作进入“预演时代”",
-      "url": "https://www.qbitai.com/2026/08/475476.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T07:22:19.000Z",
-      "summary": "人工智能终于能听严格执行运镜需求",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "leiphone-2026-实录-当通用人工智能撞上-物理之墙-想象力成为具身智能的第一生产力",
-      "title": "2026 实录：当通用人工智能撞上「物理之墙」，想象力成为具身智能的第一生产力",
-      "url": "https://www.leiphone.com/category/private/WO8DdZBccR2lD85Q.html",
+      "id": "leiphone-英伟达-3-深度拆解-它想做具身智能时代的-安卓系统-2026",
+      "title": "英伟达 3 深度拆解：它想做具身智能时代的「安卓系统」| 2026",
+      "url": "https://www.leiphone.com/category/private/XVXWtcCNFb4PP233.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T06:14:00.000Z",
-      "summary": "从“像素导演”转向“具身大脑”：2026“机器人世界模型”专题现场见证，想象力正在终结具身智能的“数据暴政”。编辑丨岑峰 2026 年 7 月的悉尼，会场内，一种复杂的情绪正在蔓延：一半是火焰，一半是海水。火焰来自于大模型在云端的持续狂飙，海水则来自于具身智能在现实落地中的“物理阵痛”。在此之前，全球人工智能行业笃信一套名为“暴力美学”的成功公式：巨大的参数量 + 几乎无穷的……",
+      "publishedAt": "2026-08-19T06:15:00.000Z",
+      "summary": "当通用人工智能的大脑决定向边缘迁徙，英伟达拿出了统治机器人进化的“终极剧本”。编辑丨岑峰 2026 年，大模型行业正经历一场前所未有的“体感位移”。那个在纯数字世界几乎无往不利的，在试图跨越到物理世界时，正遭遇物理规律、空间约束和长尾数据的残酷审判。人工智能行业最核心的矛盾正日趋明显：云端算力的指数级爆发，与机器人终端落地的步履蹒跚，构成了一种日益撕裂的鸿沟。这种割裂感，在 ……",
       "topics": [
         "模型发布",
         "产品应用",
@@ -2054,17 +2038,17 @@
       "image": ""
     },
     {
-      "id": "qbitai-人工智能开始-动手-了-机器人正式走进国家级实验室",
-      "title": "人工智能开始“动手”了：机器人正式走进国家级实验室",
-      "url": "https://www.qbitai.com/2026/08/475332.html",
+      "id": "qbitai-写2000字提示词-不如先生成三维白模-人工智能视频创作进入-预演时代",
+      "title": "写2000字提示词，不如先生成三维白模！人工智能视频创作进入“预演时代”",
+      "url": "https://www.qbitai.com/2026/08/475476.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T06:29:57.000Z",
-      "summary": "源络科技，推动人工智能走进实验室3.0",
+      "publishedAt": "2026-08-19T07:22:19.000Z",
+      "summary": "人工智能终于能听严格执行运镜需求",
       "topics": [
-        "机器人"
+        "多模态"
       ],
       "heat": 87,
       "image": ""
@@ -2102,19 +2086,19 @@
       "image": ""
     },
     {
-      "id": "leiphone-2026现场直击-从双臂协同到水下灵巧-机器人操作迈入-少样本时代",
-      "title": "2026现场直击｜从双臂协同到水下灵巧，机器人操作迈入「少样本时代」",
-      "url": "https://www.leiphone.com/category/private/lr7p4rB1Iquythe0.html",
+      "id": "leiphone-2026-实录-当通用人工智能撞上-物理之墙-想象力成为具身智能的第一生产力",
+      "title": "2026 实录：当通用人工智能撞上「物理之墙」，想象力成为具身智能的第一生产力",
+      "url": "https://www.leiphone.com/category/private/WO8DdZBccR2lD85Q.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T06:12:00.000Z",
-      "summary": "机器人操作正在从“数据饥渴”走向“样本高效”。作者丨陈淑瑜编辑丨岑峰 7月13日，2026年机器人领域顶级学术会议（机器人: ）在澳大利亚悉尼正式开幕。今年的 2026最终被主会接收并放进官方日程的论文仅仅 160 篇左右，极低的接受率说明了的含金量一如既往的高，每一篇都经得起全场几百位顶尖研究者的严苛推敲。雷峰网&人工智能科技评论已派出报道小组抵达会议现场。在简单的开幕式后……",
+      "publishedAt": "2026-08-19T06:14:00.000Z",
+      "summary": "从“像素导演”转向“具身大脑”：2026“机器人世界模型”专题现场见证，想象力正在终结具身智能的“数据暴政”。编辑丨岑峰 2026 年 7 月的悉尼，会场内，一种复杂的情绪正在蔓延：一半是火焰，一半是海水。火焰来自于大模型在云端的持续狂飙，海水则来自于具身智能在现实落地中的“物理阵痛”。在此之前，全球人工智能行业笃信一套名为“暴力美学”的成功公式：巨大的参数量 + 几乎无穷的……",
       "topics": [
         "模型发布",
-        "监管安全",
-        "研究论文"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -2251,7 +2235,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2358,19 +2342,35 @@
       "image": ""
     },
     {
-      "id": "leiphone-李飞飞高徒黄文龙-具身智能需要一次-脑内搜索-革命-2026",
-      "title": "李飞飞高徒黄文龙：具身智能需要一次「脑内搜索」革命，2026",
-      "url": "https://www.leiphone.com/category/private/TUzrCbD0E9v6NtS5.html",
+      "id": "qbitai-人工智能开始-动手-了-机器人正式走进国家级实验室",
+      "title": "人工智能开始“动手”了：机器人正式走进国家级实验室",
+      "url": "https://www.qbitai.com/2026/08/475332.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T06:29:57.000Z",
+      "summary": "源络科技，推动人工智能走进实验室3.0",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "leiphone-2026现场直击-从双臂协同到水下灵巧-机器人操作迈入-少样本时代",
+      "title": "2026现场直击｜从双臂协同到水下灵巧，机器人操作迈入「少样本时代」",
+      "url": "https://www.leiphone.com/category/private/lr7p4rB1Iquythe0.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T06:11:00.000Z",
-      "summary": "斯坦福团队提出：机器人不需要见过所有的失败，它只需要学会如何“脑补”另一种可能。作者丨岑峰在通用人工智能的数字版图里，大语言模型仅靠“读遍互联网文本”就拼凑出了通往智能的通途。这种由带来的暴力美学，让整个具身智能行业在过去两年里陷入了一种盲目的“数据崇拜”：人们坚信，只要像训练大模型一样，喂下数以百万小时的视频，机械臂就能在物理世界中无所不能。而在2026 年的悉尼大会，人工……",
+      "publishedAt": "2026-08-19T06:12:00.000Z",
+      "summary": "机器人操作正在从“数据饥渴”走向“样本高效”。作者丨陈淑瑜编辑丨岑峰 7月13日，2026年机器人领域顶级学术会议（机器人: ）在澳大利亚悉尼正式开幕。今年的 2026最终被主会接收并放进官方日程的论文仅仅 160 篇左右，极低的接受率说明了的含金量一如既往的高，每一篇都经得起全场几百位顶尖研究者的严苛推敲。雷峰网&人工智能科技评论已派出报道小组抵达会议现场。在简单的开幕式后……",
       "topics": [
         "模型发布",
-        "算力芯片",
-        "监管安全"
+        "监管安全",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -2408,22 +2408,6 @@
         "监管安全"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "qbitai-郭富城换车-30万级顶配华为全家桶",
-      "title": "郭富城换车，30万级顶配华为全家桶",
-      "url": "https://www.qbitai.com/2026/08/475009.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T00:59:23.000Z",
-      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 82,
       "image": ""
     },
     {
@@ -2574,6 +2558,24 @@
       "image": ""
     },
     {
+      "id": "leiphone-李飞飞高徒黄文龙-具身智能需要一次-脑内搜索-革命-2026",
+      "title": "李飞飞高徒黄文龙：具身智能需要一次「脑内搜索」革命，2026",
+      "url": "https://www.leiphone.com/category/private/TUzrCbD0E9v6NtS5.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T06:11:00.000Z",
+      "summary": "斯坦福团队提出：机器人不需要见过所有的失败，它只需要学会如何“脑补”另一种可能。作者丨岑峰在通用人工智能的数字版图里，大语言模型仅靠“读遍互联网文本”就拼凑出了通往智能的通途。这种由带来的暴力美学，让整个具身智能行业在过去两年里陷入了一种盲目的“数据崇拜”：人们坚信，只要像训练大模型一样，喂下数以百万小时的视频，机械臂就能在物理世界中无所不能。而在2026 年的悉尼大会，人工……",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-人工智能安全公司延长克劳德模型代码每周使用额度50-加成至8月31日",
       "title": "人工智能安全公司延长克劳德模型代码每周使用额度50%加成至8月31日",
       "url": "https://news.cnblogs.com/n/834600/",
@@ -2588,24 +2590,6 @@
         "监管安全"
       ],
       "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "leiphone-纳须弥-于芥子-大模型之后-中国厂商正在把大模型塞进复杂系统-2026-前瞻",
-      "title": "纳须弥，于芥子：大模型之后，中国厂商正在把大模型塞进复杂系统，2026 前瞻",
-      "url": "https://www.leiphone.com/category/private/S6pidAUn5lcS9X0n.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-19T04:04:00.000Z",
-      "summary": "小小模型容器和巨大的智能世界。作者丨吴思梦编辑丨岑峰 1986年，教授，也是人工智能的重要创始人之一的出版《 》，提出了一个后来影响深远的想法：所谓“智能”，并不一定来自某一个无所不能的“大脑”，而可能来自许多不同的智能体，通过分工、连接和协作共同产生。四十年后的大模型已经拥有了工具调用、记忆、视觉理解和行动能力。产业界的热词从“涌现”变成“智能体”，从“对齐”走向“ ”。但……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -2624,6 +2608,22 @@
         "投融资"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "qbitai-郭富城换车-30万级顶配华为全家桶",
+      "title": "郭富城换车，30万级顶配华为全家桶",
+      "url": "https://www.qbitai.com/2026/08/475009.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T00:59:23.000Z",
+      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -2792,19 +2792,19 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "leiphone-与宣布达成合作-打造全球安全标准自动驾驶平台",
-      "title": "与宣布达成合作，打造全球安全标准自动驾驶平台",
-      "url": "https://www.leiphone.com/category/industrynews/XjdDx1NPMItZXRLM.html",
+      "id": "leiphone-纳须弥-于芥子-大模型之后-中国厂商正在把大模型塞进复杂系统-2026-前瞻",
+      "title": "纳须弥，于芥子：大模型之后，中国厂商正在把大模型塞进复杂系统，2026 前瞻",
+      "url": "https://www.leiphone.com/category/private/S6pidAUn5lcS9X0n.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-19T03:11:00.000Z",
-      "summary": "近日，（香港联交所：相关型号 ）与新芯航途（）、有限公司（纽交所，多伦多证交所：）旗下业务部门联合宣布，将共同打造面向量产的全球安全标准自动驾驶平台。随着全球主要市场对高阶辅助驾驶系统的法规要求日趋严格，基础软件、芯片与算法层的深度适配已成为量产落地的关键前置条件。此次合作中，提供全栈自动驾驶算法能力，新芯航途（）提供车规级系统级芯片（系统级芯片）相关型号，则提供基于® 8.……",
+      "publishedAt": "2026-08-19T04:04:00.000Z",
+      "summary": "小小模型容器和巨大的智能世界。作者丨吴思梦编辑丨岑峰 1986年，教授，也是人工智能的重要创始人之一的出版《 》，提出了一个后来影响深远的想法：所谓“智能”，并不一定来自某一个无所不能的“大脑”，而可能来自许多不同的智能体，通过分工、连接和协作共同产生。四十年后的大模型已经拥有了工具调用、记忆、视觉理解和行动能力。产业界的热词从“涌现”变成“智能体”，从“对齐”走向“ ”。但……",
       "topics": [
         "模型发布",
         "产品应用",
