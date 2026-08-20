@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-20T18:34:23.405Z",
+  "generatedAt": "2026-08-20T19:02:52.354Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-20T19:00:00.000Z",
+  "nextUpdateHint": "2026-08-20T19:30:00.000Z",
   "stats": {
-    "total": 117,
+    "total": 120,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-20T18:00:00.000Z"
+    "latestPublishedAt": "2026-08-20T18:36:22.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 66,
+      "count": 67,
       "heat": 82
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "研究论文",
-      "count": 18,
+      "count": 19,
       "heat": 82
     },
     {
@@ -43,8 +43,13 @@
     },
     {
       "name": "开源生态",
-      "count": 13,
-      "heat": 74
+      "count": 14,
+      "heat": 75
+    },
+    {
+      "name": "人工智能动态",
+      "count": 10,
+      "heat": 71
     },
     {
       "name": "投融资",
@@ -52,19 +57,14 @@
       "heat": 84
     },
     {
-      "name": "人工智能动态",
-      "count": 9,
-      "heat": 72
+      "name": "端侧智能",
+      "count": 8,
+      "heat": 82
     },
     {
       "name": "机器人",
       "count": 7,
       "heat": 82
-    },
-    {
-      "name": "端侧智能",
-      "count": 7,
-      "heat": 81
     }
   ],
   "sources": [
@@ -128,9 +128,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-08-19T17:50:23.000Z",
-      "latestDisplayedAt": "2026-08-19T17:50:23.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-08-20T18:36:11.000Z",
+      "latestDisplayedAt": "2026-08-20T18:36:11.000Z"
     },
     {
       "id": "github-changelog",
@@ -289,7 +289,7 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-08-20T10:00:00.000Z",
+      "latestFetchedAt": "2026-08-20T18:49:07.000Z",
       "latestDisplayedAt": "2026-08-19T16:44:07.000Z"
     },
     {
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 1,
-      "displayedCount": 0,
+      "itemCount": 2,
+      "displayedCount": 1,
       "latestFetchedAt": "2026-08-20T13:24:32.000Z",
-      "latestDisplayedAt": ""
+      "latestDisplayedAt": "2026-08-19T11:35:26.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-08-20T18:09:13.000Z",
-      "latestDisplayedAt": "2026-08-20T16:37:54.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-08-20T18:36:22.000Z",
+      "latestDisplayedAt": "2026-08-20T18:36:22.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -488,6 +488,40 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-内部大语言模型推理研究面向电脑",
+      "title": "内部大语言模型推理研究面向电脑",
+      "url": "https://www.reddit.com/r/artificial/comments/1vtrvod/inside_our_distributed_llm_inference_research_for/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-20T18:36:22.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "研究论文",
+        "端侧智能"
+      ],
+      "heat": 90,
+      "image": "https://external-preview.redd.it/plE3y9qsLl3BfYmcF0mOPiUjyS_x8bhZMxwLSoH2DkA.jpeg?width=640&crop=smart&auto=webp&s=d2eaf022cd48e914552afedf11cec4b5b9e835cd"
+    },
+    {
+      "id": "github-blog-代码托管平台官方博客发布人工智能相关动态",
+      "title": "代码托管平台官方博客发布人工智能相关动态。",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-20T18:36:11.000Z",
+      "summary": "更新在 17 和我们向改进。17，和首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-向借助克劳德模型代码",
       "title": "向借助克劳德模型代码",
       "url": "https://towardsdatascience.com/how-to-effectively-align-your-intents-with-claude-code/",
@@ -519,7 +553,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -552,25 +586,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-大语言模型-éé-正确-这里数据",
-      "title": "大语言模型 éé。正确。这里数据。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vtokti/three_of_you_told_me_my_llm_r%C3%A9sum%C3%A9screening_study/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-20T16:37:54.000Z",
-      "summary": "大语言模型在 45 得分作为，新。向，推理能力，和进入 320。得分 3.62 在推理能力 99.7 时间，得分推理能力，基线 : 45 只是作为，向得分 4，800 在和来自 33 向 54。未能向减少，4，165 得分作为作为 0.328 0.362。得分，模型在，首个和，最。: 克劳德模型新增得分由 0.247，88，基准测试。数据和代码可用在控制，推理能力，实验室，代……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
+      "heat": 89,
       "image": ""
     },
     {
@@ -622,7 +638,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -639,7 +655,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -655,7 +671,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -739,7 +755,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -773,24 +789,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "github-blog-代码托管平台智能编程助手应用面向",
-      "title": "代码托管平台智能编程助手应用面向 :",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-19T17:50:23.000Z",
-      "summary": "智能副驾，使用向在，和。代码托管平台智能编程助手应用面向 : 首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 76,
+      "heat": 87,
       "image": ""
     },
     {
@@ -827,6 +826,22 @@
       ],
       "heat": 80,
       "image": "https://media.wired.com/photos/6a85ca54d0110f6d404e46bf/master/pass/081926_AI-Watermark-Removal.jpg"
+    },
+    {
+      "id": "hacker-news-ai-词元作为推理能力-认为",
+      "title": "词元作为推理能力，认为",
+      "url": "https://arxiv.org/abs/2504.09762",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-19T11:35:26.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 60,
+      "image": ""
     },
     {
       "id": "microsoft-ai-blog-微软在-2026-高德纳-魔法-面向云服务-平台",
@@ -908,7 +923,25 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 90,
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-大语言模型-éé-正确-这里数据",
+      "title": "大语言模型 éé。正确。这里数据。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vtokti/three_of_you_told_me_my_llm_r%C3%A9sum%C3%A9screening_study/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-20T16:37:54.000Z",
+      "summary": "大语言模型在 45 得分作为，新。向，推理能力，和进入 320。得分 3.62 在推理能力 99.7 时间，得分推理能力，基线 : 45 只是作为，向得分 4，800 在和来自 33 向 54。未能向减少，4，165 得分作为作为 0.328 0.362。得分，模型在，首个和，最。: 克劳德模型新增得分由 0.247，88，基准测试。数据和代码可用在控制，推理能力，实验室，代……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -929,23 +962,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-双子座模型",
-      "title": "双子座模型？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vto66x/is_gemini_deliberately_dishonest/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-20T16:22:56.000Z",
-      "summary": "双子座模型在安卓，关于借助信息技术，信息技术信息技术在隐私模型信息技术关于。试图向信息技术信息技术关于，信息技术，信息技术向，关于和信息技术向关于。信息技术谷歌信息技术向关于访问向关于隐私。信息技术信息技术向智能聊天助手，克劳德模型问题关于信息技术关于，和。双子座模型作为信息技术。由",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
       "id": "ithome-阿里首席执行官吴泳铭-平头哥二代芯片预计今年下半年流片-产出",
       "title": "阿里首席执行官吴泳铭：平头哥二代芯片预计今年下半年流片、产出",
       "url": "https://www.ithome.com/0/992/380.htm",
@@ -959,7 +975,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1041,7 +1057,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1059,7 +1075,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1111,7 +1127,24 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 80,
+      "heat": 79,
+      "image": ""
+    },
+    {
+      "id": "github-blog-代码托管平台智能编程助手应用面向",
+      "title": "代码托管平台智能编程助手应用面向 :",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-19T17:50:23.000Z",
+      "summary": "智能副驾，使用向在，和。代码托管平台智能编程助手应用面向 : 首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 76,
       "image": ""
     },
     {
@@ -1146,7 +1179,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -1163,23 +1196,6 @@
         "产品应用"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "github-blog-工作流-和成本-高效",
-      "title": "工作流，和成本，高效",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-17T16:00:00.000Z",
-      "summary": "面向，智能体在。这里使用借助工作流，和为什么工作流。工作流，和成本，高效首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 56,
       "image": ""
     },
     {
@@ -1217,6 +1233,23 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/telco-tech-blog-header-indosat-ai-technology-center-1920x1080-1.png"
     },
     {
+      "id": "reddit-artificial-双子座模型",
+      "title": "双子座模型？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vto66x/is_gemini_deliberately_dishonest/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-20T16:22:56.000Z",
+      "summary": "双子座模型在安卓，关于借助信息技术，信息技术信息技术在隐私模型信息技术关于。试图向信息技术信息技术关于，信息技术，信息技术向，关于和信息技术向关于。信息技术谷歌信息技术向关于访问向关于隐私。信息技术信息技术向智能聊天助手，克劳德模型问题关于信息技术关于，和。双子座模型作为信息技术。由",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-元宇宙平台公司带来-应用氛围式-代码和分享-向用户",
       "title": "元宇宙平台公司带来，应用氛围式，代码和分享，向用户",
       "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
@@ -1230,23 +1263,6 @@
         "产品应用"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-开源",
-      "title": "开源 :",
-      "url": "https://www.reddit.com/r/artificial/comments/1vtmha5/open_source_is_trending_hard_today_hot_take_thread/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-20T15:21:51.000Z",
-      "summary": "讨论关于开源正确。: 开源。在认为: 向打开，来源，构建，和生成图像，在单个借助。: 认为在使用，演示。借助？由",
-      "topics": [
-        "多模态",
-        "开源生态"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -1279,7 +1295,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1295,7 +1311,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1328,7 +1344,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1380,7 +1396,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1434,6 +1450,23 @@
       "image": ""
     },
     {
+      "id": "github-blog-工作流-和成本-高效",
+      "title": "工作流，和成本，高效",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-17T16:00:00.000Z",
+      "summary": "面向，智能体在。这里使用借助工作流，和为什么工作流。工作流，和成本，高效首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 56,
+      "image": ""
+    },
+    {
       "id": "github-changelog-4-6-现已可用在代码托管平台智能编程助手",
       "title": "4.6 现已可用在代码托管平台智能编程助手",
       "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
@@ -1452,21 +1485,20 @@
       "image": ""
     },
     {
-      "id": "github-blog-向带来软件工作流进入代码托管平台借助智能体应用",
-      "title": "向带来软件工作流进入代码托管平台借助智能体应用",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-      "source": "代码托管平台官方博客",
-      "sourceId": "github-blog",
-      "sourceType": "official",
+      "id": "reddit-artificial-开源",
+      "title": "开源 :",
+      "url": "https://www.reddit.com/r/artificial/comments/1vtmha5/open_source_is_trending_hard_today_hot_take_thread/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-14T16:00:00.000Z",
-      "summary": "查看代码托管平台智能体应用帮助范围，保障安全，和交付功能代码托管平台。向带来软件工作流进入代码托管平台借助智能体应用首个在代码托管平台。",
+      "publishedAt": "2026-08-20T15:21:51.000Z",
+      "summary": "讨论关于开源正确。: 开源。在认为: 向打开，来源，构建，和生成图像，在单个借助。: 认为在使用，演示。借助？由",
       "topics": [
-        "产品应用",
-        "监管安全",
+        "多模态",
         "开源生态"
       ],
-      "heat": 61,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1500,7 +1532,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1568,7 +1600,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1603,7 +1635,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1638,7 +1670,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1672,6 +1704,24 @@
         "人工智能动态"
       ],
       "heat": 50,
+      "image": ""
+    },
+    {
+      "id": "github-blog-向带来软件工作流进入代码托管平台借助智能体应用",
+      "title": "向带来软件工作流进入代码托管平台借助智能体应用",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "代码托管平台官方博客",
+      "sourceId": "github-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-14T16:00:00.000Z",
+      "summary": "查看代码托管平台智能体应用帮助范围，保障安全，和交付功能代码托管平台。向带来软件工作流进入代码托管平台借助智能体应用首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 61,
       "image": ""
     },
     {
@@ -1738,7 +1788,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1774,7 +1824,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1808,7 +1858,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1873,7 +1923,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1925,7 +1975,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1959,7 +2009,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2010,7 +2060,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2028,7 +2078,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2134,7 +2184,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2354,7 +2404,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2406,7 +2456,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
