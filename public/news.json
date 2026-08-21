@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-08-21T19:40:19.583Z",
+  "generatedAt": "2026-08-21T20:00:35.002Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-21T20:00:00.000Z",
+  "nextUpdateHint": "2026-08-21T20:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-21T19:35:37.000Z"
+    "latestPublishedAt": "2026-08-21T19:55:18.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 68,
+      "count": 67,
       "heat": 84
     },
     {
       "name": "模型发布",
-      "count": 60,
+      "count": 61,
       "heat": 84
     },
     {
       "name": "监管安全",
       "count": 30,
-      "heat": 85
+      "heat": 84
     },
     {
       "name": "研究论文",
@@ -39,7 +39,7 @@
     {
       "name": "人工智能动态",
       "count": 18,
-      "heat": 75
+      "heat": 74
     },
     {
       "name": "多模态",
@@ -58,8 +58,8 @@
     },
     {
       "name": "开源生态",
-      "count": 10,
-      "heat": 81
+      "count": 9,
+      "heat": 82
     },
     {
       "name": "端侧智能",
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-08-21T14:00:00.000Z",
-      "latestDisplayedAt": "2026-08-21T14:00:00.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-08-21T19:43:39.000Z",
+      "latestDisplayedAt": "2026-08-21T19:43:39.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-08-21T13:35:17.000Z",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-08-21T18:55:18.000Z",
-      "latestDisplayedAt": "2026-08-21T18:50:23.000Z"
+      "latestFetchedAt": "2026-08-21T19:55:18.000Z",
+      "latestDisplayedAt": "2026-08-21T19:55:18.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -464,7 +464,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-08-21T11:02:29.000Z",
       "latestDisplayedAt": "2026-08-21T11:02:29.000Z"
     },
@@ -488,6 +488,40 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-开放人工智能公司-向中国月之暗面打开-模型",
+      "title": "开放人工智能公司，向中国月之暗面打开，模型",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuqtt1/openaibacked_legal_tech_firm_pivots_to_chinese/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T19:55:18.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 94,
+      "image": "https://external-preview.redd.it/OnhKJ2qruhKbn-KJISEdNbDpIt6ovf8DGBN5B6f4dFg.jpeg?width=640&crop=smart&auto=webp&s=42c848338b9170e3e7f9a2a7f8434939d63e3f5e"
+    },
+    {
+      "id": "techcrunch-ai-英伟达只是工具链-人工智能模型",
+      "title": "英伟达只是工具链，人工智能模型",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T19:43:39.000Z",
+      "summary": "英伟达研究人工智能智能体顺利，和，人工智能模型在任务。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能安全公司最模型克劳德模型-5-向面向",
       "title": "人工智能安全公司最模型克劳德模型 5 向面向",
       "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
@@ -506,24 +540,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T18:50:23.000Z",
-      "summary": "群组新发布可用: 预训练，训练，和面向和。× 训练。每个仓库和借助，和，训练。模型发布在训练面向模型。研究发布舞台，面向，和研究，模型。重要 : 团队在和向。论文使用，小型版，发布这里。发布系列，和和模型。由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 95,
-      "image": "https://preview.redd.it/84h8xxj6yrkh1.jpeg?width=640&crop=smart&auto=webp&s=34de0fb5a7bdd9ea671727a54137883335bb4082"
-    },
-    {
       "id": "towards-data-science-智能编程工具作为智能体",
       "title": "智能编程工具作为智能体",
       "url": "https://towardsdatascience.com/running-codex-as-a-headless-agent/",
@@ -536,7 +552,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -604,7 +620,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -623,23 +639,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T14:00:00.000Z",
-      "summary": "合作伙伴在公司借助 : 在和在。在，据报道面向，112，使用。新，和公司首个 …",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 91,
       "image": ""
     },
     {
@@ -739,7 +738,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -927,21 +926,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-1-7-十亿模型推理能力和",
-      "title": "1.7 十亿模型推理能力和？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vunilm/17b_model_leading_strict7_formal_reasoning_above/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T17:54:11.000Z",
-      "summary": "最推理能力即将推出实验室向规模，更好推理能力。面向。进入面向任务。在，面向。在，信息技术 0.2386，在 0.2093 和在 0.2050。在信息技术面向实际，1.7 十亿。我们模型面向推理能力实际关于推理能力。只是向。在推理能力任务和 8 十亿+ 模型在在 1.7 十亿。在 1，3 十亿模型 70 十亿。许可，值得。借助？任务顺利向？由",
+      "publishedAt": "2026-08-21T18:50:23.000Z",
+      "summary": "群组新发布可用: 预训练，训练，和面向和。× 训练。每个仓库和借助，和，训练。模型发布在训练面向模型。研究发布舞台，面向，和研究，模型。重要 : 团队在和向。论文使用，小型版，发布这里。发布系列，和和模型。由",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 97,
-      "image": ""
+      "heat": 95,
+      "image": "https://preview.redd.it/84h8xxj6yrkh1.jpeg?width=640&crop=smart&auto=webp&s=34de0fb5a7bdd9ea671727a54137883335bb4082"
     },
     {
       "id": "cnblogs-news-这家黑马把人工智能做成了-机器人时代的苹果移动系统-不写代码-一句话生成应用",
@@ -1013,19 +1013,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-250-百万面向数据中心作为推出",
-      "title": "$250 百万面向数据中心作为推出",
-      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-08-21T14:00:00.000Z",
-      "summary": "关于向向保障安全访问向。",
+      "summary": "合作伙伴在公司借助 : 在和在。在，据报道面向，112，使用。新，和公司首个 …",
       "topics": [
-        "监管安全"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 86,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1058,7 +1059,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/MobilityPOIs_Hero.png"
     },
     {
@@ -1109,7 +1110,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1279,25 +1280,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "reddit-artificial-检索增强生成解决问题最团队实际",
-      "title": "检索增强生成解决问题最团队实际",
-      "url": "https://www.reddit.com/r/artificial/comments/1vum0np/retrievalaugmented_generation_solves_a_problem/",
+      "id": "reddit-artificial-1-7-十亿模型推理能力和",
+      "title": "1.7 十亿模型推理能力和？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vunilm/17b_model_leading_strict7_formal_reasoning_above/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T16:59:53.000Z",
-      "summary": "新增首个质量在任务。信息技术正确。最质量问题在检索，检索。模型。信息技术在借助信息技术向，和检索增强生成只是自动化信息技术。团队新增检索和问题，只是。答案在在上下文，在，模型五个实际面向问题。检索扩展部件模型向向借助信息技术。检索问题。上下文，问题检索增强生成向修复，只是。检索增强生成，进入上下文。面向工具和产品功能，修复和 : 来源向向任务信息技术模型，和关于面向。团队信息……",
+      "publishedAt": "2026-08-21T17:54:11.000Z",
+      "summary": "最推理能力即将推出实验室向规模，更好推理能力。面向。进入面向任务。在，面向。在，信息技术 0.2386，在 0.2093 和在 0.2050。在信息技术面向实际，1.7 十亿。我们模型面向推理能力实际关于推理能力。只是向。在推理能力任务和 8 十亿+ 模型在在 1.7 十亿。在 1，3 十亿模型 70 十亿。许可，值得。借助？任务顺利向？由",
       "topics": [
         "模型发布",
-        "产品应用",
-        "端侧智能"
+        "产品应用"
       ],
-      "heat": 93,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1329,7 +1329,23 @@
       "topics": [
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-250-百万面向数据中心作为推出",
+      "title": "$250 百万面向数据中心作为推出",
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T14:00:00.000Z",
+      "summary": "关于向向保障安全访问向。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -1417,22 +1433,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能数据创业公司-500-百万人工智能训练",
-      "title": "人工智能数据创业公司 $500 百万人工智能训练",
-      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T00:13:44.000Z",
-      "summary": "需求面向人工智能训练数据面向创业公司和。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 75,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-强化学习-模型评测方向研究",
       "title": "论文新进展：大语言模型、强化学习、模型评测方向研究",
       "url": "https://arxiv.org/abs/2608.20316v1",
@@ -1447,7 +1447,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1483,7 +1483,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1572,6 +1572,24 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PhotoScanIR_Overview.png"
     },
     {
+      "id": "reddit-artificial-检索增强生成解决问题最团队实际",
+      "title": "检索增强生成解决问题最团队实际",
+      "url": "https://www.reddit.com/r/artificial/comments/1vum0np/retrievalaugmented_generation_solves_a_problem/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T16:59:53.000Z",
+      "summary": "新增首个质量在任务。信息技术正确。最质量问题在检索，检索。模型。信息技术在借助信息技术向，和检索增强生成只是自动化信息技术。团队新增检索和问题，只是。答案在在上下文，在，模型五个实际面向问题。检索扩展部件模型向向借助信息技术。检索问题。上下文，问题检索增强生成向修复，只是。检索增强生成，进入上下文。面向工具和产品功能，修复和 : 来源向向任务信息技术模型，和关于面向。团队信息……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-失业小哥7000行代码-复刻了重金收购的人工智能芯片",
       "title": "失业小哥7000行代码，复刻了重金收购的人工智能芯片！",
       "url": "https://news.cnblogs.com/n/834796/",
@@ -1617,23 +1635,6 @@
         "人工智能动态"
       ],
       "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-打开模型向关于新",
-      "title": "打开模型向关于新",
-      "url": "https://www.reddit.com/r/artificial/comments/1vuhgie/good_results_teaching_an_open_weight_model_how_to/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T14:10:29.000Z",
-      "summary": "时间进入向模型新。面向在 : :，本地，大语言模型，新，由",
-      "topics": [
-        "模型发布",
-        "端侧智能"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -1704,21 +1705,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司在人工智能安全公司借助企业用户-新数据",
-      "title": "开放人工智能公司在人工智能安全公司借助企业用户，新数据",
-      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "id": "techcrunch-ai-人工智能数据创业公司-500-百万人工智能训练",
+      "title": "人工智能数据创业公司 $500 百万人工智能训练",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-20T22:36:37.000Z",
-      "summary": "企业向和作为实验室发布新模型，公司关于企业人工智能。",
+      "publishedAt": "2026-08-21T00:13:44.000Z",
+      "summary": "需求面向人工智能训练数据面向创业公司和。",
       "topics": [
-        "模型发布",
-        "监管安全",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1753,7 +1752,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1857,6 +1856,23 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-打开模型向关于新",
+      "title": "打开模型向关于新",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuhgie/good_results_teaching_an_open_weight_model_how_to/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T14:10:29.000Z",
+      "summary": "时间进入向模型新。面向在 : :，本地，大语言模型，新，由",
+      "topics": [
+        "模型发布",
+        "端侧智能"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "ithome-与价差创纪录-30-太字节企业级固态硬盘飙至-22600-美元达机械硬盘-18-6-倍",
       "title": "与价差创纪录，30 太字节企业级固态硬盘飙至 22600 美元达机械硬盘 18.6 倍",
       "url": "https://www.ithome.com/0/992/868.htm",
@@ -1869,23 +1885,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-花掉在人工智能",
-      "title": ": 花掉在人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1vuh1x4/exclusive_how_a_texas_student_blew_the_whistle_on/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T13:54:52.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 81,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1976,20 +1976,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-智能聊天助手面向借助新苹果-在",
-      "title": "智能聊天助手面向借助新苹果，在",
-      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "id": "techcrunch-ai-开放人工智能公司在人工智能安全公司借助企业用户-新数据",
+      "title": "开放人工智能公司在人工智能安全公司借助企业用户，新数据",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-20T22:09:51.000Z",
-      "summary": "向面向？智能聊天助手作为自动化新苹果。",
+      "publishedAt": "2026-08-20T22:36:37.000Z",
+      "summary": "企业向和作为实验室发布新模型，公司关于企业人工智能。",
       "topics": [
         "模型发布",
-        "产品应用"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 86,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2110,6 +2111,22 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-花掉在人工智能",
+      "title": ": 花掉在人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1vuh1x4/exclusive_how_a_texas_student_blew_the_whistle_on/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T13:54:52.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
       "id": "ithome-上汽奥迪相关型号先锋热爱版上市-限时臻享价-30-98-万元",
       "title": "上汽奥迪相关型号先锋热爱版上市，限时臻享价 30.98 万元",
       "url": "https://www.ithome.com/0/992/866.htm",
@@ -2125,24 +2142,6 @@
         "算力芯片"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能只是在-100-十亿",
-      "title": "人工智能只是在，$100 十亿",
-      "url": "https://www.reddit.com/r/artificial/comments/1vug3gk/ai_compute_financing_just_tripled_in_ten_weeks/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T13:15:53.000Z",
-      "summary": "向和信息技术借助在面向 $35 十亿和 $100 十亿，向人工智能芯片基础设施面向人工智能安全公司，相关型号。部件借助实际 : 据报道进入，保障安全 $60，70 十亿和 ~$30 十亿，保障安全首个和由芯片，首个。信息技术风险，使用在，这里图形处理器，和向持续借助模型需求。信息技术，和和面向作为作为人工智能。认为: 在和规模只是基础设施，信息技术首个人工智能模型？由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 98,
       "image": ""
     },
     {
@@ -2176,7 +2175,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2228,23 +2227,24 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-我们实际数据中心借助",
-      "title": "我们实际数据中心借助？",
-      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "id": "techcrunch-ai-智能聊天助手面向借助新苹果-在",
+      "title": "智能聊天助手面向借助新苹果，在",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-20T20:53:13.000Z",
-      "summary": "数据中心借助。",
+      "publishedAt": "2026-08-20T22:09:51.000Z",
+      "summary": "向面向？智能聊天助手作为自动化新苹果。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 72,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2347,7 +2347,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2413,7 +2413,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2429,23 +2429,23 @@
       "topics": [
         "机器人"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-谷歌新向人工智能",
-      "title": "谷歌新向人工智能",
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "id": "techcrunch-ai-我们实际数据中心借助",
+      "title": "我们实际数据中心借助？",
+      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-20T19:18:21.000Z",
-      "summary": "谷歌新来源，和谷歌新闻，作为人工智能向。",
+      "publishedAt": "2026-08-20T20:53:13.000Z",
+      "summary": "数据中心借助。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2621,6 +2621,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-谷歌新向人工智能",
+      "title": "谷歌新向人工智能",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-20T19:18:21.000Z",
+      "summary": "谷歌新来源，和谷歌新闻，作为人工智能向。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 78,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-英伟达新",
       "title": "英伟达新",
       "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
@@ -2702,7 +2718,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2805,7 +2821,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2842,23 +2858,6 @@
         "算力芯片"
       ],
       "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "oschina-代码托管平台-8-月-17-日宕机复盘-负载均衡配置错误引爆重试风暴",
-      "title": "代码托管平台 8 月 17 日宕机复盘，负载均衡配置错误引爆重试风暴",
-      "url": "https://www.oschina.net/news/502045/github-the-august-17-outage-and-the-work-ahead",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T02:15:26.000Z",
-      "summary": "8 月 17 日，代码托管平台宕机了 7 小时 47 分钟。影响范围不只是代码托管平台。打不开。认证系统瘫痪、中断、和不可用、智能副驾也挂了。官方事后分析了故障原因：负载均衡配置错误触发了客户端的重试风暴。故障发生时，负载均衡的错误配置导致部分请求处理不当，客户端在收到错误响应后发起大量。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 77,
       "image": ""
     }
   ]
