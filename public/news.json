@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-08-22T07:08:42.084Z",
+  "generatedAt": "2026-08-22T07:38:53.508Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-22T07:30:00.000Z",
+  "nextUpdateHint": "2026-08-22T08:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-22T07:04:54.000Z"
+    "latestPublishedAt": "2026-08-22T07:35:20.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 66,
+      "count": 67,
       "heat": 78
     },
     {
       "name": "模型发布",
-      "count": 61,
+      "count": 60,
       "heat": 79
     },
     {
       "name": "监管安全",
-      "count": 32,
-      "heat": 79
+      "count": 33,
+      "heat": 80
     },
     {
       "name": "算力芯片",
@@ -37,14 +37,19 @@
       "heat": 77
     },
     {
-      "name": "机器人",
-      "count": 15,
-      "heat": 84
-    },
-    {
       "name": "人工智能动态",
       "count": 17,
       "heat": 68
+    },
+    {
+      "name": "机器人",
+      "count": 13,
+      "heat": 82
+    },
+    {
+      "name": "开源生态",
+      "count": 10,
+      "heat": 76
     },
     {
       "name": "多模态",
@@ -53,18 +58,13 @@
     },
     {
       "name": "投融资",
-      "count": 8,
-      "heat": 84
-    },
-    {
-      "name": "开源生态",
-      "count": 9,
-      "heat": 74
+      "count": 7,
+      "heat": 82
     },
     {
       "name": "端侧智能",
       "count": 7,
-      "heat": 79
+      "heat": 78
     }
   ],
   "sources": [
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-21T19:35:37.000Z",
-      "latestDisplayedAt": "2026-08-21T19:35:37.000Z"
+      "latestFetchedAt": "2026-08-22T07:00:05.000Z",
+      "latestDisplayedAt": "2026-08-22T07:00:05.000Z"
     },
     {
       "id": "wired-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-08-22T04:33:06.000Z",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-08-22T06:44:55.000Z",
-      "latestDisplayedAt": "2026-08-22T06:44:55.000Z"
+      "latestFetchedAt": "2026-08-22T07:35:20.000Z",
+      "latestDisplayedAt": "2026-08-22T07:35:20.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -433,8 +433,8 @@
       "fallbackReason": "",
       "itemCount": 9,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-22T04:13:26.000Z",
-      "latestDisplayedAt": "2026-08-22T04:13:26.000Z"
+      "latestFetchedAt": "2026-08-22T07:31:33.000Z",
+      "latestDisplayedAt": "2026-08-22T07:31:33.000Z"
     },
     {
       "id": "ithome",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 22,
+      "itemCount": 18,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-22T07:04:54.000Z",
-      "latestDisplayedAt": "2026-08-22T07:04:54.000Z"
+      "latestFetchedAt": "2026-08-22T07:31:33.000Z",
+      "latestDisplayedAt": "2026-08-22T07:31:33.000Z"
     },
     {
       "id": "oschina",
@@ -488,35 +488,73 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-2026-年上半年国内工业级金属三维打印设备出口金额同比增长-76",
-      "title": "2026 年上半年国内工业级金属三维打印设备出口金额同比增长 76%",
-      "url": "https://www.ithome.com/0/993/006.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-22T07:04:54.000Z",
-      "summary": "科技之家 8 月 22 日消息，据央视财经报道，海关数据显示，2026 上半年国内工业级金属三维打印设备出口金额同比增长 76%，欧洲、东南亚两大区域贡献出口总额 87%。据介绍，传统制造是切削一整块金属，一点一点削成型；工业级金属三维打印则是用金属粉末一层层铺上去，激光逐点烧结，从无到有一层一层长出来。一体成型，多用于航空航天、医疗器械、汽车、机器人等高端制造领域。金属粉末……",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能面向",
-      "title": "人工智能面向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vv4zqz/ai_for_editing_existing_songsmusic/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vv5vg7/someone_should_tell_the_folks_applying_to_schools/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T06:44:55.000Z",
-      "summary": "只是人工智能软件可用，向，在。借助和向功能，生成式人工智能发布，应用信息技术呼吁，和信息技术使用来自。认为关于人工智能应用，向。由",
+      "publishedAt": "2026-08-22T07:35:20.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 86,
+      "image": "https://preview.redd.it/suom5owlqvkh1.png?width=640&crop=smart&auto=webp&s=e148750b3f5680355422eedf1ea1dcef96be45d2"
+    },
+    {
+      "id": "thirty-six-kr-都是谁在买上的机器人啊",
+      "title": "都是谁在买上的机器人啊！",
+      "url": "https://36kr.com/p/3950374720306563?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-22T07:31:33.000Z",
+      "summary": "撰文，刘思洁刘孜妍刘辰艺编辑，张薇头图设计，曲枚做爆米花、打冰淇淋，机器人偶尔会出错，但没关系，一旁有工作人员协助。在世界机器人大会现场，跨维智能的人形机器人，在一个便利店的模拟场景里“施展拳脚”。这款机器人去年9月开始销售，早期不好卖，直到硬件迭代、成本下降，销售情况才有所改善，目前总出货量三十多台。买方有景区便利店，也有政府开办的数据采集中心。这些机器人被用来采集真机操作……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-上纬新材启元相关型号研发负责人彭文正-行业已不在-能不能造机器人-时代-而在-敢不敢进消费级-时代",
+      "title": "上纬新材启元相关型号研发负责人彭文正：行业已不在“能不能造机器人”时代，而在“敢不敢进消费级”时代",
+      "url": "https://www.ithome.com/0/993/016.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-22T07:31:33.000Z",
+      "summary": "8 月 22 日下午消息，2026 世界机器人大会（ 2026）期间，上纬新材启元相关型号研发负责人彭文正展示了团队在端消费级智能领域的探索，并介绍了个人机器人产品启元相关型号。彭文正判断，当前具身智能领域“本体已经不是比较大的一个瓶颈”，更大的痛点在于“本体强、智能弱”以及生态内容匮乏。他指出，全球机器人构型已逐渐趋同，行业“ 并不在一个能不能造机器人的时代，反而在一个敢不……",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-重要在人工智能安全",
+      "title": "重要在人工智能安全",
+      "url": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-22T07:00:05.000Z",
+      "summary": "研究在人工智能安全使用向安全基准测试面向语言模型。安全得分作为模型向。面向模型在使用。重要在人工智能安全首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -536,23 +574,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-东山精密加码人工智能光芯片光模块扩产-项目总投资上调至17亿美元",
-      "title": "东山精密加码人工智能光芯片光模块扩产，项目总投资上调至17亿美元",
-      "url": "https://36kr.com/newsflashes/3950182513884297?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-22T04:13:26.000Z",
-      "summary": "8月21日晚间，苏州东山精密制造股份有限公司发布公告称，公司拟对子公司 （）及其子公司、子公司‑ （）。及子公司盐城东山精密制造有限公司在常州、盐城等地及泰国实施的光芯片及光模块扩建项目新增投资额5亿美元，项目总投资额由原来的12亿美元调增至17亿美元。（证券时报）",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-英伟达拟斥资60亿美元获人工智能模型授权-另投10亿美元并吸纳百余名员工",
       "title": "英伟达拟斥资60亿美元获人工智能模型授权，另投10亿美元并吸纳百余名员工",
       "url": "https://news.cnblogs.com/n/834805/",
@@ -566,7 +587,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -582,7 +603,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": "https://media.wired.com/photos/6a86349028fa0a4f102bcd1b/master/pass/Made-in-China-Unlikely-Place-at-Center-of-China-AI-Boom-Business.jpg"
     },
     {
@@ -619,24 +640,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司最模型克劳德模型-5-向面向",
-      "title": "人工智能安全公司最模型克劳德模型 5 向面向",
-      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T19:35:37.000Z",
-      "summary": "人工智能安全公司安全克劳德模型安全在克劳德模型 5。工具面向，借助，和。人工智能安全公司 5 进入合作伙伴安全产品保护基础设施。人工智能安全公司最模型克劳德模型 5 向面向首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-智能编程工具作为智能体",
       "title": "智能编程工具作为智能体",
       "url": "https://towardsdatascience.com/running-codex-as-a-headless-agent/",
@@ -649,7 +652,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -682,7 +685,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -716,7 +719,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -750,7 +753,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -767,7 +770,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -820,7 +823,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -904,53 +907,52 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png"
     },
     {
-      "id": "ithome-广东市场监管召开平台企业行政指导会-点名-充电宝产品质量风险-人工智能生成虚假宣传-等",
-      "title": "广东市场监管召开平台企业行政指导会，点名“充电宝产品质量风险”“人工智能生成虚假宣传”等",
-      "url": "https://www.ithome.com/0/993/004.htm",
+      "id": "ithome-解释旗舰版-3-掌机为何卖-1750-美元-我们没有大品牌的议价能力-这个价已经是最大诚意",
+      "title": "解释旗舰版 3 掌机为何卖 1750 美元：我们没有大品牌的议价能力，这个价已经是最大诚意",
+      "url": "https://www.ithome.com/0/993/013.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T07:00:25.000Z",
-      "summary": "科技之家 8 月 22 日消息，据广东省市场监督管理局，为进一步压紧压实网络平台企业主体责任，整治入驻商家资质核验不到位、平台规则不公平、重点产品质量安全和食品安全等突出问题，进一步规范网络交易经营秩序，守护消费者与平台内经营者合法权益，8 月 19 日，广东省市场监督管理局组织召开平台企业行政指导会。科技之家从官方公告获悉，会议结合全省网络交易平台自查情况及第三方专家点评结……",
+      "publishedAt": "2026-08-22T07:24:26.000Z",
+      "summary": "科技之家 8 月 22 日消息，旗舰版 3 掌机最初亮相于今年 6 月，搭载平台，拥有 165 赫兹屏幕和可光环电池。如今该公司已公布旗舰版 3 的众筹上线日期，同时也揭晓了该机的定价。据悉，旗舰版 3 上市时将提供三个配置。入门版搭载锐龙人工智能旗舰版+ 388 处理器、32 吉字节内存和 1 太字节硬盘，定价 1，750 美元 （科技之家注：现汇率约合 11，791 元人……",
       "topics": [
-        "监管安全"
+        "端侧智能"
       ],
-      "heat": 95,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-我们推理能力面向更智能人工智能",
-      "title": "我们推理能力面向更智能人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vv2wi8/are_we_paying_a_reasoning_tax_for_smarter_ai/",
+      "id": "reddit-artificial-人工智能面向",
+      "title": "人工智能面向？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vv4zqz/ai_for_editing_existing_songsmusic/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T04:52:11.000Z",
-      "summary": "推理能力。开放人工智能公司评测 : 在，33%，借助 16% 面向。在，51% 面向和 79% 面向，小型版。推理能力模型。重要面向企业人工智能: 推理能力性能在任务，和答案和。我们认为运营风险作为推理能力 : 模型上下文，推理能力扩展信息技术。为什么？研究进入推理能力模型 : 1 推理能力来自，模型。2 认为，答案模型答案推理能力。向每个模型每个推理能力任务。重要 : 模型……",
+      "publishedAt": "2026-08-22T06:44:55.000Z",
+      "summary": "只是人工智能软件可用，向，在。借助和向功能，生成式人工智能发布，应用信息技术呼吁，和信息技术使用来自。认为关于人工智能应用，向。由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-科大讯飞与中国药科大学签署战略合作协议",
-      "title": "科大讯飞与中国药科大学签署战略合作协议",
-      "url": "https://36kr.com/newsflashes/3950179929210248?f=rss",
+      "id": "thirty-six-kr-东山精密加码人工智能光芯片光模块扩产-项目总投资上调至17亿美元",
+      "title": "东山精密加码人工智能光芯片光模块扩产，项目总投资上调至17亿美元",
+      "url": "https://36kr.com/newsflashes/3950182513884297?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T04:10:49.000Z",
-      "summary": "据科大讯飞消息，近日，中国药科大学与科大讯飞正式签署战略合作协议。此次战略合作签约是科大讯飞以人工智能核心技术赋能生物医药产业的重要实践。未来，科大讯飞将与中国药科大学深化产学研合作，细化合作清单、落地专项项目，共同打造“人工智能+医药”产教融合标杆，为生物医药产业高质量发展注入新动能。（证券时报）",
+      "publishedAt": "2026-08-22T04:13:26.000Z",
+      "summary": "8月21日晚间，苏州东山精密制造股份有限公司发布公告称，公司拟对子公司 （）及其子公司、子公司‑ （）。及子公司盐城东山精密制造有限公司在常州、盐城等地及泰国实施的光芯片及光模块扩建项目新增投资额5亿美元，项目总投资额由原来的12亿美元调增至17亿美元。（证券时报）",
       "topics": [
-        "人工智能动态"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 86,
+      "heat": 90,
       "image": ""
     },
     {
@@ -982,23 +984,23 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "the-decoder-深度求索发布视觉模型旗舰模型-4-8-在智能体基准测试",
-      "title": "深度求索发布视觉模型旗舰模型 4.8 在智能体基准测试",
-      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/",
+      "id": "the-decoder-人工智能安全公司最模型克劳德模型-5-向面向",
+      "title": "人工智能安全公司最模型克劳德模型 5 向面向",
+      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T19:08:27.000Z",
-      "summary": "深度求索发布，视觉，多模态模型新增图像向。在公司多模态智能体基准测试，信息技术旗舰模型 4.8 和信息技术。深度求索发布视觉模型旗舰模型 4.8 在智能体基准测试首个在人工智能解码媒体。",
+      "publishedAt": "2026-08-21T19:35:37.000Z",
+      "summary": "人工智能安全公司安全克劳德模型安全在克劳德模型 5。工具面向，借助，和。人工智能安全公司 5 进入合作伙伴安全产品保护基础设施。人工智能安全公司最模型克劳德模型 5 向面向首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
       "heat": 97,
       "image": ""
@@ -1018,7 +1020,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1087,7 +1089,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1136,7 +1138,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1172,7 +1174,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1188,7 +1190,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -1278,56 +1280,53 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-神秘人工智能模型限免上架-跑分碾压克劳德模型-5-线索指向智谱",
-      "title": "神秘人工智能模型限免上架：跑分碾压克劳德模型 5，线索指向智谱",
-      "url": "https://www.ithome.com/0/993/003.htm",
+      "id": "ithome-2026-年上半年国内工业级金属三维打印设备出口金额同比增长-76",
+      "title": "2026 年上半年国内工业级金属三维打印设备出口金额同比增长 76%",
+      "url": "https://www.ithome.com/0/993/006.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T06:54:05.000Z",
-      "summary": "科技之家 8 月 22 日消息，全球最大人工智能聚合平台于 8 月 20 日上线匿名人工智能模型，免费开放 1 周时间，目前种种线索指向智谱公司。开发者让完成了 （该基准用于衡量人工智能读取真实代码库、识别漏洞并生成有效补丁的能力）的十项测试任务。这个来历不明的匿名模型得分约为 80%，而克劳德模型 5 为 65%，相关型号为 52%。本人也表示，鉴于该模型来源不明，这一结果……",
+      "publishedAt": "2026-08-22T07:04:54.000Z",
+      "summary": "科技之家 8 月 22 日消息，据央视财经报道，海关数据显示，2026 上半年国内工业级金属三维打印设备出口金额同比增长 76%，欧洲、东南亚两大区域贡献出口总额 87%。据介绍，传统制造是切削一整块金属，一点一点削成型；工业级金属三维打印则是用金属粉末一层层铺上去，激光逐点烧结，从无到有一层一层长出来。一体成型，多用于航空航天、医疗器械、汽车、机器人等高端制造领域。金属粉末……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-为什么在大语言模型-85-向-62",
-      "title": "为什么在大语言模型 85% 向 62%",
-      "url": "https://www.reddit.com/r/artificial/comments/1vv2kki/why_selfcorrection_loops_can_degrade_reliability/",
+      "id": "reddit-artificial-我们推理能力面向更智能人工智能",
+      "title": "我们推理能力面向更智能人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vv2wi8/are_we_paying_a_reasoning_tax_for_smarter_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T04:35:06.000Z",
-      "summary": "在数据，新增大语言模型，作为，向改进。在，: ~85%，推出，向 62%。& : 模型 : 使用独立面向和。:。35% ⁠=0⁠ 借助 ⁠= ⁠ 在 85%。: 来源面向来源，进入模型向。为什么信息技术 : : 在评测。: 进入模型词元，信息技术向和信息技术。讨论: 大语言模型进入和，规则，大语言模型？由",
+      "publishedAt": "2026-08-22T04:52:11.000Z",
+      "summary": "推理能力。开放人工智能公司评测 : 在，33%，借助 16% 面向。在，51% 面向和 79% 面向，小型版。推理能力模型。重要面向企业人工智能: 推理能力性能在任务，和答案和。我们认为运营风险作为推理能力 : 模型上下文，推理能力扩展信息技术。为什么？研究进入推理能力模型 : 1 推理能力来自，模型。2 认为，答案模型答案推理能力。向每个模型每个推理能力任务。重要 : 模型……",
       "topics": [
         "模型发布",
         "产品应用",
-        "投融资"
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-开放人工智能公司将相关型号模型接口定价下调两成以上",
-      "title": "开放人工智能公司将相关型号模型接口定价下调两成以上",
-      "url": "https://36kr.com/newsflashes/3950062675377280?f=rss",
+      "id": "thirty-six-kr-科大讯飞与中国药科大学签署战略合作协议",
+      "title": "科大讯飞与中国药科大学签署战略合作协议",
+      "url": "https://36kr.com/newsflashes/3950179929210248?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T02:11:32.000Z",
-      "summary": "当地时间8月21日，开放人工智能公司官方在其开发者社区公告称，相关型号模型接口和积分定价将在未来3个月内下调20%以上。现已通过接口提供，并逐步向符合条件的智能聊天助手和智能编程工具积分套餐开放。专业版、和订阅用户的使用价格保持不变。（界面新闻）",
+      "publishedAt": "2026-08-22T04:10:49.000Z",
+      "summary": "据科大讯飞消息，近日，中国药科大学与科大讯飞正式签署战略合作协议。此次战略合作签约是科大讯飞以人工智能核心技术赋能生物医药产业的重要实践。未来，科大讯飞将与中国药科大学深化产学研合作，细化合作清单、落地专项项目，共同打造“人工智能+医药”产教融合标杆，为生物医药产业高质量发展注入新动能。（证券时报）",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1365,19 +1364,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-数据中心来自-42-向-75-在只是",
-      "title": "数据中心来自 42 向 75 在只是",
-      "url": "https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/",
+      "id": "the-decoder-深度求索发布视觉模型旗舰模型-4-8-在智能体基准测试",
+      "title": "深度求索发布视觉模型旗舰模型 4.8 在智能体基准测试",
+      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T18:25:44.000Z",
-      "summary": "数据中心构建，来自只是，向新闻。61。数据中心来自 42 向 75 在只是，首个在人工智能解码媒体。",
+      "publishedAt": "2026-08-21T19:08:27.000Z",
+      "summary": "深度求索发布，视觉，多模态模型新增图像向。在公司多模态智能体基准测试，信息技术旗舰模型 4.8 和信息技术。深度求索发布视觉模型旗舰模型 4.8 在智能体基准测试首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 79,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1429,7 +1430,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1445,7 +1446,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1477,7 +1478,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": "https://media.wired.com/photos/6a8606ab1997359abc4212b4/master/pass/Model-Behavior-Silicon-Valley-Doesnt-Understand-AI-Backlash-Business.jpg"
     },
     {
@@ -1585,53 +1586,54 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PhotoScanIR_Overview.png"
     },
     {
-      "id": "ithome-新石器首席执行官余恩源-目标构建由-1000-万辆无人车和-1-亿个机器人组成的无人物流网络",
-      "title": "新石器首席执行官余恩源：目标构建由 1000 万辆无人车和 1 亿个机器人组成的无人物流网络",
-      "url": "https://www.ithome.com/0/992/985.htm",
+      "id": "ithome-广东市场监管召开平台企业行政指导会-点名-充电宝产品质量风险-人工智能生成虚假宣传-等",
+      "title": "广东市场监管召开平台企业行政指导会，点名“充电宝产品质量风险”“人工智能生成虚假宣传”等",
+      "url": "https://www.ithome.com/0/993/004.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T05:57:53.000Z",
-      "summary": "科技之家 8 月 22 日消息，据凤凰网科技报道，在 2026 世界机器人大会论坛上，新石器创始人兼首席执行官余恩源首次系统阐释了公司定位从“自动驾驶”向“机器人公司”的转变。余恩源透露，截至 8 月 20 日，新石器无人驾驶累计运营里程已突破 2.2 亿公里，日新增里程超 100 万公里，目前无人车数量超过 2.7 万辆，居全球同类车队首位。按计划，今年底车队规模将突破 5……",
+      "publishedAt": "2026-08-22T07:00:25.000Z",
+      "summary": "科技之家 8 月 22 日消息，据广东省市场监督管理局，为进一步压紧压实网络平台企业主体责任，整治入驻商家资质核验不到位、平台规则不公平、重点产品质量安全和食品安全等突出问题，进一步规范网络交易经营秩序，守护消费者与平台内经营者合法权益，8 月 19 日，广东省市场监督管理局组织召开平台企业行政指导会。科技之家从官方公告获悉，会议结合全省网络交易平台自查情况及第三方专家点评结……",
       "topics": [
-        "机器人"
+        "监管安全"
       ],
-      "heat": 86,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vv04jj/setting_behavioural_rules_for_ais/",
+      "id": "reddit-artificial-为什么在大语言模型-85-向-62",
+      "title": "为什么在大语言模型 85% 向 62%",
+      "url": "https://www.reddit.com/r/artificial/comments/1vv2kki/why_selfcorrection_loops_can_degrade_reliability/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T02:31:55.000Z",
-      "summary": "在规则面向向限制，和答案。规则在记忆和。没有和信息技术向面向和人工智能来自规则和向信息技术向规则，问题。人工智能在信息技术向规则面向。人工智能向答案借助没有人工智能语言和讨论关于。帮助向更好？语言信息技术讨论关于和规则。由，_wjw__",
+      "publishedAt": "2026-08-22T04:35:06.000Z",
+      "summary": "在数据，新增大语言模型，作为，向改进。在，: ~85%，推出，向 62%。& : 模型 : 使用独立面向和。:。35% ⁠=0⁠ 借助 ⁠= ⁠ 在 85%。: 来源面向来源，进入模型向。为什么信息技术 : : 在评测。: 进入模型词元，信息技术向和信息技术。讨论: 大语言模型进入和，规则，大语言模型？由",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 82,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-9点1氪丨有医院能领结婚证了-与婚前检查无缝衔接-阿里巴巴发布财报-2027财年相关型号营收2690亿-开放人工智能公司进一步开",
-      "title": "9点1氪丨有医院能领结婚证了，与婚前检查无缝衔接；阿里巴巴发布财报，2027财年相关型号营收2690亿；开放人工智能公司进一步开放智能编程工具的底层能力",
-      "url": "https://36kr.com/p/3949992200928641?f=rss",
+      "id": "thirty-six-kr-开放人工智能公司将相关型号模型接口定价下调两成以上",
+      "title": "开放人工智能公司将相关型号模型接口定价下调两成以上",
+      "url": "https://36kr.com/newsflashes/3950062675377280?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T01:04:32.000Z",
-      "summary": "今日热点导览抗癌疫苗引爆资本市场，多家公司涉及相关研发贵州茅台回应上半年茅台酒产量下降：阶段性统计差异，全年累计产量不受影响广州市中级人民法院依法受理恒大地产集团有限公司破产清算案张雪回应“台湾首辆张雪机车遭查扣” 全球首个开源太空具身智能合作项目（太空龙虾）达成战略合作 3 大新闻医院也能领结婚证了，淄博一妇幼保健院内设立婚姻登记不仅地铁站、银行、音乐节等场所可以陆续设立婚……",
+      "publishedAt": "2026-08-22T02:11:32.000Z",
+      "summary": "当地时间8月21日，开放人工智能公司官方在其开发者社区公告称，相关型号模型接口和积分定价将在未来3个月内下调20%以上。现已通过接口提供，并逐步向符合条件的智能聊天助手和智能编程工具积分套餐开放。专业版、和订阅用户的使用价格保持不变。（界面新闻）",
       "topics": [
         "模型发布",
-        "产品应用",
-        "算力芯片"
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1652,19 +1654,19 @@
       "image": ""
     },
     {
-      "id": "the-decoder-向合作伙伴向和在人工智能",
-      "title": "向合作伙伴向和在人工智能",
-      "url": "https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/",
+      "id": "the-decoder-数据中心来自-42-向-75-在只是",
+      "title": "数据中心来自 42 向 75 在只是",
+      "url": "https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T15:18:29.000Z",
-      "summary": "向合作伙伴向在人工智能和，向。向合作伙伴向和在人工智能首个在人工智能解码媒体。",
+      "publishedAt": "2026-08-21T18:25:44.000Z",
+      "summary": "数据中心构建，来自只是，向新闻。61。数据中心来自 42 向 75 在只是，首个在人工智能解码媒体。",
       "topics": [
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1785,7 +1787,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1854,20 +1856,21 @@
       "image": ""
     },
     {
-      "id": "ithome-消息称荣耀计划推出独立的手持云台相机",
-      "title": "消息称荣耀计划推出独立的手持云台相机",
-      "url": "https://www.ithome.com/0/992/983.htm",
+      "id": "ithome-神秘人工智能模型限免上架-跑分碾压克劳德模型-5-线索指向智谱",
+      "title": "神秘人工智能模型限免上架：跑分碾压克劳德模型 5，线索指向智谱",
+      "url": "https://www.ithome.com/0/993/003.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T05:43:56.000Z",
-      "summary": "科技之家 8 月 22 日消息，据博主 @数码闲聊站今日爆料，荣耀计划推出独立的手持云台相机，全品类发力。科技之家注意到，荣耀本月刚刚推出机器人手机产品，行业首创钛合金灵巧云台，售价 9999 元起。架构采用航空级钛合金，与行业主流云台相比体积缩减 65%；行业首发钛合金云台电机，云台电机最大转速 360°/秒。云台配备 200 百万像素 1/1.28\" 相关型号 23 毫米……",
+      "publishedAt": "2026-08-22T06:54:05.000Z",
+      "summary": "科技之家 8 月 22 日消息，全球最大人工智能聚合平台于 8 月 20 日上线匿名人工智能模型，免费开放 1 周时间，目前种种线索指向智谱公司。开发者让完成了 （该基准用于衡量人工智能读取真实代码库、识别漏洞并生成有效补丁的能力）的十项测试任务。这个来历不明的匿名模型得分约为 80%，而克劳德模型 5 为 65%，相关型号为 52%。本人也表示，鉴于该模型来源不明，这一结果……",
       "topics": [
-        "端侧智能",
-        "机器人"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1883,7 +1886,25 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-9点1氪丨有医院能领结婚证了-与婚前检查无缝衔接-阿里巴巴发布财报-2027财年相关型号营收2690亿-开放人工智能公司进一步开",
+      "title": "9点1氪丨有医院能领结婚证了，与婚前检查无缝衔接；阿里巴巴发布财报，2027财年相关型号营收2690亿；开放人工智能公司进一步开放智能编程工具的底层能力",
+      "url": "https://36kr.com/p/3949992200928641?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-22T01:04:32.000Z",
+      "summary": "今日热点导览抗癌疫苗引爆资本市场，多家公司涉及相关研发贵州茅台回应上半年茅台酒产量下降：阶段性统计差异，全年累计产量不受影响广州市中级人民法院依法受理恒大地产集团有限公司破产清算案张雪回应“台湾首辆张雪机车遭查扣” 全球首个开源太空具身智能合作项目（太空龙虾）达成战略合作 3 大新闻医院也能领结婚证了，淄博一妇幼保健院内设立婚姻登记不仅地铁站、银行、音乐节等场所可以陆续设立婚……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -1900,7 +1921,23 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-向合作伙伴向和在人工智能",
+      "title": "向合作伙伴向和在人工智能",
+      "url": "https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T15:18:29.000Z",
+      "summary": "向合作伙伴向在人工智能和，向。向合作伙伴向和在人工智能首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 76,
       "image": ""
     },
     {
@@ -1917,42 +1954,6 @@
         "监管安全"
       ],
       "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-氪星晚报-中科曙光超节点产品亮相安徽算力大会-广州市中级人民法院依法受理恒大地产集团有限公司破产清算案-科大讯飞-将于今年全球1",
-      "title": "氪星晚报｜中科曙光超节点产品亮相安徽算力大会；广州市中级人民法院依法受理恒大地产集团有限公司破产清算案；科大讯飞：将于今年全球1024开发者节推出全新主力通用大模型",
-      "url": "https://36kr.com/p/3946071687921026?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T12:12:53.000Z",
-      "summary": "大公司：苹果裁撤60名团队员工战略重心或转向人工智能眼镜据报道，苹果已对视觉业务团队进行人员调整，至少60名隶属于视觉小组、从事相关开发的员工遭到裁员，苹果官方尚未对该消息作出回应。报道指出，本次裁员背后是苹果战略转向，该公司资源正流向人工智能智能眼镜，这款新品预计于2027年大会亮相，同年晚些时候上市。（新浪财经） 马斯克称目标到2030年每年发射约1万次，到2030年代末……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-构建芯片面向-在英伟达",
-      "title": "构建芯片面向，在英伟达",
-      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T11:04:09.000Z",
-      "summary": "构建芯片面向，在英伟达。构建芯片面向，在英伟达首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "机器人"
-      ],
-      "heat": 91,
       "image": ""
     },
     {
@@ -2003,7 +2004,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2021,7 +2022,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2109,20 +2110,19 @@
       "image": ""
     },
     {
-      "id": "ithome-荣耀机器人闪电百米跑出-9-秒-32-打破人类记录",
-      "title": "荣耀机器人闪电百米跑出 9 秒 32，打破人类记录",
-      "url": "https://www.ithome.com/0/992/981.htm",
+      "id": "ithome-新石器首席执行官余恩源-目标构建由-1000-万辆无人车和-1-亿个机器人组成的无人物流网络",
+      "title": "新石器首席执行官余恩源：目标构建由 1000 万辆无人车和 1 亿个机器人组成的无人物流网络",
+      "url": "https://www.ithome.com/0/992/985.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T05:34:15.000Z",
-      "summary": "8 月 22 日，第二届世界人形机器人运动会在北京拉开帷幕。根据最新消息，在本届运动会竞速项目的备赛环节，来自荣耀战队的机器人“闪电”完成百米测试，录得成绩 9 秒 32、峰值速度 14.5 米 / 秒，再度刷新此前 9 秒 58 的人类百米世界纪录。本届运动会由北京市人民政府、中央广播电视总台等联合主办，共设 50 个赛项。与首届相比，本届要求更严：除 100 米、400 ……",
+      "publishedAt": "2026-08-22T05:57:53.000Z",
+      "summary": "科技之家 8 月 22 日消息，据凤凰网科技报道，在 2026 世界机器人大会论坛上，新石器创始人兼首席执行官余恩源首次系统阐释了公司定位从“自动驾驶”向“机器人公司”的转变。余恩源透露，截至 8 月 20 日，新石器无人驾驶累计运营里程已突破 2.2 亿公里，日新增里程超 100 万公里，目前无人车数量超过 2.7 万辆，居全球同类车队首位。按计划，今年底车队规模将突破 5……",
       "topics": [
-        "研究论文",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2140,7 +2140,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2158,41 +2158,43 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "the-decoder-元宇宙平台公司在微软人工智能服务",
-      "title": "元宇宙平台公司在微软人工智能服务",
-      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T10:54:41.000Z",
-      "summary": "元宇宙平台公司成为微软人工智能客户，向。元宇宙平台公司在微软人工智能服务首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-36氪2024年度中国最具影响力产业投资暨十大领域年度名册-正式发布",
-      "title": "36氪2024年度中国最具影响力产业投资暨十大领域年度名册｜正式发布",
-      "url": "https://36kr.com/p/3949029563677824?f=rss",
+      "id": "thirty-six-kr-氪星晚报-中科曙光超节点产品亮相安徽算力大会-广州市中级人民法院依法受理恒大地产集团有限公司破产清算案-科大讯飞-将于今年全球1",
+      "title": "氪星晚报｜中科曙光超节点产品亮相安徽算力大会；广州市中级人民法院依法受理恒大地产集团有限公司破产清算案；科大讯飞：将于今年全球1024开发者节推出全新主力通用大模型",
+      "url": "https://36kr.com/p/3946071687921026?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T09:32:38.000Z",
-      "summary": "向内求。出品｜ 36氪创投研究院 2024年，全球经济格局正在经历深刻调整，世界产业链的格局也在急剧转变中。在环境变革的持续影响下，中国风险投资乃至整个金融市场，都处在一个漫长的调整期。这一点，从募资、退出数据上就可见端倪：2024上半年新募集基金数量和募资规模均大幅下降，分别接近50%和23%，且其中大笔基金来源以国资、地方政府、产业龙头为主，携带着精准服务区域招商引资、严……",
+      "publishedAt": "2026-08-21T12:12:53.000Z",
+      "summary": "大公司：苹果裁撤60名团队员工战略重心或转向人工智能眼镜据报道，苹果已对视觉业务团队进行人员调整，至少60名隶属于视觉小组、从事相关开发的员工遭到裁员，苹果官方尚未对该消息作出回应。报道指出，本次裁员背后是苹果战略转向，该公司资源正流向人工智能智能眼镜，这款新品预计于2027年大会亮相，同年晚些时候上市。（新浪财经） 马斯克称目标到2030年每年发射约1万次，到2030年代末……",
       "topics": [
-        "算力芯片",
-        "监管安全",
-        "研究论文"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 88,
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-构建芯片面向-在英伟达",
+      "title": "构建芯片面向，在英伟达",
+      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T11:04:09.000Z",
+      "summary": "构建芯片面向，在英伟达。构建芯片面向，在英伟达首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "机器人"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -2210,7 +2212,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2260,7 +2262,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -2294,7 +2296,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2310,7 +2312,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2347,18 +2349,18 @@
       "image": "https://media.wired.com/photos/6a834e67effc1720d3a37bb8/master/pass/ZAI-Most-Skilled-AI-Yet-Business-1044672050.jpg"
     },
     {
-      "id": "ithome-北京越野泰钽-700-将于-8-月-25-日上市-搭载华为乾崑智驾-5-预售价-29-98-万元起",
-      "title": "北京越野泰钽 700 将于 8 月 25 日上市：搭载华为乾崑智驾 5，预售价 29.98 万元起",
-      "url": "https://www.ithome.com/0/992/980.htm",
+      "id": "ithome-消息称荣耀计划推出独立的手持云台相机",
+      "title": "消息称荣耀计划推出独立的手持云台相机",
+      "url": "https://www.ithome.com/0/992/983.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T05:22:34.000Z",
-      "summary": "科技之家 8 月 22 日消息，北京越野官方在答网友问中透露，泰钽 700 将于 8 月 25 日正式上市。据科技之家此前报道，北京越野泰钽 700 于 7 月 21 日预售，预售价 29.98 万元起：豪华版：29.98 万元乾崑旗舰版：33.98 万元乾崑巅峰版：38.98 万元据介绍，泰钽 700 首批搭载华为乾崑智驾 5，配备 896 线双光路图像级激光雷达，支持、5……",
+      "publishedAt": "2026-08-22T05:43:56.000Z",
+      "summary": "科技之家 8 月 22 日消息，据博主 @数码闲聊站今日爆料，荣耀计划推出独立的手持云台相机，全品类发力。科技之家注意到，荣耀本月刚刚推出机器人手机产品，行业首创钛合金灵巧云台，售价 9999 元起。架构采用航空级钛合金，与行业主流云台相比体积缩减 65%；行业首发钛合金云台电机，云台电机最大转速 360°/秒。云台配备 200 百万像素 1/1.28\" 相关型号 23 毫米……",
       "topics": [
-        "算力芯片",
-        "多模态"
+        "端侧智能",
+        "机器人"
       ],
       "heat": 91,
       "image": ""
@@ -2394,41 +2396,41 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司数据政策企业",
-      "title": "人工智能安全公司数据政策企业",
-      "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/",
+      "id": "the-decoder-元宇宙平台公司在微软人工智能服务",
+      "title": "元宇宙平台公司在微软人工智能服务",
+      "url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T09:59:51.000Z",
-      "summary": "人工智能安全公司数据政策，企业客户持续数据。人工智能安全公司数据政策企业首个在人工智能解码媒体。",
+      "publishedAt": "2026-08-21T10:54:41.000Z",
+      "summary": "元宇宙平台公司成为微软人工智能客户，向。元宇宙平台公司在微软人工智能服务首个在人工智能解码媒体。",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 85,
+      "heat": 72,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪项目推荐周榜-第14期-本期热度相关型号",
-      "title": "36氪项目推荐周榜|第14期，本期热度相关型号",
-      "url": "https://36kr.com/p/3949071263562881?f=rss",
+      "id": "thirty-six-kr-36氪2024年度中国最具影响力产业投资暨十大领域年度名册-正式发布",
+      "title": "36氪2024年度中国最具影响力产业投资暨十大领域年度名册｜正式发布",
+      "url": "https://36kr.com/p/3949029563677824?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T09:25:43.000Z",
-      "summary": "上周，人工智能的角色正在进一步变化。它不只是一种生成内容、回答问题的工具，也开始进入创业决策、工程设计、医疗协同、算力供给与文化资产管理等更复杂的产业场景。本期项目推荐中，我们看到一批项目正在把智能能力放进具体流程：有人试图让创业判断更接近真实需求，有人解决工程设计中的交付一致性，也有人从补能、材料、增材制造等底层环节，为下一轮产业升级提供支撑。技术的价值，正在从“能做什么”……",
+      "publishedAt": "2026-08-21T09:32:38.000Z",
+      "summary": "向内求。出品｜ 36氪创投研究院 2024年，全球经济格局正在经历深刻调整，世界产业链的格局也在急剧转变中。在环境变革的持续影响下，中国风险投资乃至整个金融市场，都处在一个漫长的调整期。这一点，从募资、退出数据上就可见端倪：2024上半年新募集基金数量和募资规模均大幅下降，分别接近50%和23%，且其中大笔基金来源以国资、地方政府、产业龙头为主，携带着精准服务区域招商引资、严……",
       "topics": [
         "算力芯片",
+        "监管安全",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2460,7 +2462,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2476,7 +2478,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2550,21 +2552,20 @@
       "image": ""
     },
     {
-      "id": "ithome-单联瑜-小米武汉智能工厂累计参观人数破-2-万-接待-354-名海外游客",
-      "title": "单联瑜：小米武汉智能工厂累计参观人数破 2 万，接待 354 名海外游客",
-      "url": "https://www.ithome.com/0/992/976.htm",
+      "id": "ithome-荣耀机器人闪电百米跑出-9-秒-32-打破人类记录",
+      "title": "荣耀机器人闪电百米跑出 9 秒 32，打破人类记录",
+      "url": "https://www.ithome.com/0/992/981.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T04:48:20.000Z",
-      "summary": "科技之家 8 月 22 日消息，小米集团大家电部总经理单联瑜今天（8 月 22 日）发布博文，透露称昨日（21 日）下午小米武汉智能工厂参观人数正式突破 20000 人。科技之家附上微博内容如下：昨天下午，小米武汉智能工厂参观人数正式突破 20000 人了。第 20000 位访客是一名来自白俄罗斯的学生-玛丽亚 · 安东尼娜。她和武汉大学欧亚国家青年文化研习营的同学们一起来到……",
+      "publishedAt": "2026-08-22T05:34:15.000Z",
+      "summary": "8 月 22 日，第二届世界人形机器人运动会在北京拉开帷幕。根据最新消息，在本届运动会竞速项目的备赛环节，来自荣耀战队的机器人“闪电”完成百米测试，录得成绩 9 秒 32、峰值速度 14.5 米 / 秒，再度刷新此前 9 秒 58 的人类百米世界纪录。本届运动会由北京市人民政府、中央广播电视总台等联合主办，共设 50 个赛项。与首届相比，本届要求更严：除 100 米、400 ……",
       "topics": [
-        "投融资",
-        "端侧智能",
+        "研究论文",
         "机器人"
       ],
-      "heat": 95,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2580,43 +2581,41 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-日本最年轻华人终身教授创业人工智能-新材料-自研200-物理模型-研发周期缩至两月丨36氪首发",
-      "title": "日本最年轻华人终身教授创业人工智能+新材料，自研200+物理模型，研发周期缩至两月丨36氪首发",
-      "url": "https://36kr.com/p/3949036757155202?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T08:48:11.000Z",
-      "summary": "图源/企业本文约 2800 字，建议阅读 7 分钟作者丨欧雪编辑丨袁斯来硬氪获悉，人工智能+新材料科技企业——苏州材科源图科技有限公司（，以下简称“材科源图”）宣布，近三个月内连续完成两轮超亿元天使轮系列融资。前轮融资由苏高新、硅港资本、合肥原初陆号、上海远鼓参投，老股东亿合、清新资本追投；新一轮融资由经纬创投领投，苏创投及老股东中科创星、硅港资本持续追投。融资资金将重点用于……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-英伟达模型和-109-员工面向-6-十亿",
-      "title": "英伟达模型和 109 员工面向 $6 十亿",
-      "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
+      "id": "the-decoder-人工智能安全公司数据政策企业",
+      "title": "人工智能安全公司数据政策企业",
+      "url": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T08:27:23.000Z",
-      "summary": "英伟达 $6 十亿面向软件构建人工智能模型来自创业公司，和信息技术向带来在 109 员工。英伟达模型和 109 员工面向 $6 十亿首个在人工智能解码媒体。",
+      "publishedAt": "2026-08-21T09:59:51.000Z",
+      "summary": "人工智能安全公司数据政策，企业客户持续数据。人工智能安全公司数据政策企业首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全"
       ],
-      "heat": 88,
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-36氪项目推荐周榜-第14期-本期热度相关型号",
+      "title": "36氪项目推荐周榜|第14期，本期热度相关型号",
+      "url": "https://36kr.com/p/3949071263562881?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T09:25:43.000Z",
+      "summary": "上周，人工智能的角色正在进一步变化。它不只是一种生成内容、回答问题的工具，也开始进入创业决策、工程设计、医疗协同、算力供给与文化资产管理等更复杂的产业场景。本期项目推荐中，我们看到一批项目正在把智能能力放进具体流程：有人试图让创业判断更接近真实需求，有人解决工程设计中的交付一致性，也有人从补能、材料、增材制造等底层环节，为下一轮产业升级提供支撑。技术的价值，正在从“能做什么”……",
+      "topics": [
+        "算力芯片",
+        "研究论文"
+      ],
+      "heat": 74,
       "image": ""
     },
     {
@@ -2651,7 +2650,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2721,20 +2720,20 @@
       "image": ""
     },
     {
-      "id": "ithome-特斯拉官宣-9-月-3-日举办发布会-有望开放首次公众试乘",
-      "title": "特斯拉官宣 9 月 3 日举办发布会，有望开放首次公众试乘",
-      "url": "https://www.ithome.com/0/992/973.htm",
+      "id": "ithome-北京越野泰钽-700-将于-8-月-25-日上市-搭载华为乾崑智驾-5-预售价-29-98-万元起",
+      "title": "北京越野泰钽 700 将于 8 月 25 日上市：搭载华为乾崑智驾 5，预售价 29.98 万元起",
+      "url": "https://www.ithome.com/0/992/980.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T04:17:45.000Z",
-      "summary": "科技之家 8 月 22 日消息，特斯拉官方账号今天（8 月 22 日）在平台发布推文，宣布将于 2026 年 9 月 3 日在美国奥斯汀（）举办发布会，主角是自动驾驶出租车。科技之家附上相关截图如下：在 2024 年 10 月召开的“，”活动，特斯拉正式宣布自动驾驶出租车，专为完全自动驾驶（无人驾驶）场景设计。报道指出在过去几个月里，特斯拉一直在公共道路测试，并于上月（202……",
+      "publishedAt": "2026-08-22T05:22:34.000Z",
+      "summary": "科技之家 8 月 22 日消息，北京越野官方在答网友问中透露，泰钽 700 将于 8 月 25 日正式上市。据科技之家此前报道，北京越野泰钽 700 于 7 月 21 日预售，预售价 29.98 万元起：豪华版：29.98 万元乾崑旗舰版：33.98 万元乾崑巅峰版：38.98 万元据介绍，泰钽 700 首批搭载华为乾崑智驾 5，配备 896 线双光路图像级激光雷达，支持、5……",
       "topics": [
-        "模型发布",
-        "机器人"
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 90,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2752,23 +2751,41 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司作为信息技术在人工智能安全公司",
-      "title": "开放人工智能公司作为信息技术在人工智能安全公司",
-      "url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/",
+      "id": "thirty-six-kr-日本最年轻华人终身教授创业人工智能-新材料-自研200-物理模型-研发周期缩至两月丨36氪首发",
+      "title": "日本最年轻华人终身教授创业人工智能+新材料，自研200+物理模型，研发周期缩至两月丨36氪首发",
+      "url": "https://36kr.com/p/3949036757155202?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-21T08:48:11.000Z",
+      "summary": "图源/企业本文约 2800 字，建议阅读 7 分钟作者丨欧雪编辑丨袁斯来硬氪获悉，人工智能+新材料科技企业——苏州材科源图科技有限公司（，以下简称“材科源图”）宣布，近三个月内连续完成两轮超亿元天使轮系列融资。前轮融资由苏高新、硅港资本、合肥原初陆号、上海远鼓参投，老股东亿合、清新资本追投；新一轮融资由经纬创投领投，苏创投及老股东中科创星、硅港资本持续追投。融资资金将重点用于……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-英伟达模型和-109-员工面向-6-十亿",
+      "title": "英伟达模型和 109 员工面向 $6 十亿",
+      "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T08:26:05.000Z",
-      "summary": "推出在，开放人工智能公司 35，借助企业 50。数据开放人工智能公司人工智能安全公司在企业接口面向首个时间人工智能安全公司开放人工智能公司在。开放人工智能公司作为信息技术在人工智能安全公司首个在人工智能解码媒体。",
+      "publishedAt": "2026-08-21T08:27:23.000Z",
+      "summary": "英伟达 $6 十亿面向软件构建人工智能模型来自创业公司，和信息技术向带来在 109 员工。英伟达模型和 109 员工面向 $6 十亿首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "监管安全"
+        "算力芯片"
       ],
       "heat": 88,
       "image": ""
@@ -2792,24 +2809,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-专访任利锋-那个曾做出抖音的人-如今在工厂里做人工智能",
-      "title": "专访任利锋：那个曾做出抖音的人，如今在工厂里做人工智能",
-      "url": "https://36kr.com/p/3948773732728195?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T04:23:50.000Z",
-      "summary": "文｜温丽虹编辑｜张雨忻位于北京海淀的互联网金融中心，任利锋创办的“数美万物”在这里有3个办公地点。其中的一间不是办公室而是实验室，他们采购来市面上主流的三维打印机，在实验室桌面上次第排开，每天打印自研生成式三维模型生成的东西。经自研模型相关型号生成的图纸打印出的实物有没有破面或其它瑕疵，又如何改进、修补，都在这间屋内见分晓。8月中旬，“数美万物”自研的相关型号第3代.0模型走……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
       "id": "oschina-人工智能正吞噬一切-开源基础软件如何求生",
       "title": "人工智能正吞噬一切，开源基础软件如何求生？",
       "url": "https://my.oschina.net/u/4487475/blog/19745346",
@@ -2823,7 +2822,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2839,7 +2838,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
