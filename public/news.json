@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-08-23T02:11:50.906Z",
+  "generatedAt": "2026-08-23T02:41:06.523Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-23T02:30:00.000Z",
+  "nextUpdateHint": "2026-08-23T03:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-23T01:55:18.000Z"
+    "latestPublishedAt": "2026-08-23T02:40:01.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 65,
-      "heat": 71
+      "count": 62,
+      "heat": 70
     },
     {
       "name": "模型发布",
-      "count": 57,
-      "heat": 74
+      "count": 55,
+      "heat": 73
     },
     {
       "name": "监管安全",
-      "count": 35,
-      "heat": 76
+      "count": 34,
+      "heat": 75
     },
     {
       "name": "研究论文",
-      "count": 25,
-      "heat": 69
+      "count": 27,
+      "heat": 72
     },
     {
       "name": "算力芯片",
       "count": 20,
-      "heat": 74
+      "heat": 75
     },
     {
       "name": "人工智能动态",
-      "count": 18,
-      "heat": 62
+      "count": 19,
+      "heat": 61
     },
     {
-      "name": "投融资",
-      "count": 9,
-      "heat": 82
+      "name": "多模态",
+      "count": 11,
+      "heat": 76
     },
     {
       "name": "端侧智能",
@@ -54,17 +54,17 @@
     {
       "name": "机器人",
       "count": 8,
-      "heat": 81
+      "heat": 80
+    },
+    {
+      "name": "投融资",
+      "count": 8,
+      "heat": 80
     },
     {
       "name": "开源生态",
-      "count": 9,
-      "heat": 72
-    },
-    {
-      "name": "多模态",
-      "count": 9,
-      "heat": 72
+      "count": 8,
+      "heat": 69
     }
   ],
   "sources": [
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-08-20T07:00:00.000Z",
       "latestDisplayedAt": "2026-08-20T07:00:00.000Z"
     },
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-08-23T01:55:18.000Z",
-      "latestDisplayedAt": "2026-08-23T01:55:18.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-23T02:12:46.000Z",
+      "latestDisplayedAt": "2026-08-23T02:12:46.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -364,11 +364,11 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "This operation was aborted",
-      "itemCount": 5,
-      "displayedCount": 5,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 8,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-08-20T17:59:46.000Z",
       "latestDisplayedAt": "2026-08-20T17:59:46.000Z"
     },
@@ -384,7 +384,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 4,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-08-20T17:59:57.000Z",
       "latestDisplayedAt": "2026-08-20T17:58:50.000Z"
     },
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 11,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-23T01:08:38.000Z",
-      "latestDisplayedAt": "2026-08-23T01:08:38.000Z"
+      "latestFetchedAt": "2026-08-23T02:40:01.000Z",
+      "latestDisplayedAt": "2026-08-23T02:40:01.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-23T01:29:13.000Z",
-      "latestDisplayedAt": "2026-08-23T01:29:13.000Z"
+      "latestFetchedAt": "2026-08-23T02:39:06.000Z",
+      "latestDisplayedAt": "2026-08-23T02:39:06.000Z"
     },
     {
       "id": "oschina",
@@ -488,54 +488,56 @@
   "failures": [],
   "items": [
     {
-      "id": "reddit-artificial-通过-66-66-基准测试在",
-      "title": "通过 66，66 基准测试在。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T01:55:18.000Z",
-      "summary": "通过 66，66 基准测试在。在实时模型评测，向，通过 19，66。我们基准测试向由首个和向，和实时模型。基准测试舞台，和。:。社区论坛，相关型号，由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "ithome-鸿蒙智行智界轿跑各版本配置出炉-预售价-29-98-万元起",
-      "title": "鸿蒙智行智界轿跑各版本配置出炉，预售价 29.98 万元起",
-      "url": "https://www.ithome.com/0/993/142.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T01:29:13.000Z",
-      "summary": "科技之家 8 月 23 日消息，在 8 月 20 日的享界相关型号及鸿蒙智行新品发布会上，智界轿跑开启预订。华为常务董事、产品投资评审委员会主任、终端董事长余承东透露，该车搭载面向未来的相关型号级自动驾驶架构设计。科技之家注意到，目前这款新车的各版本配置已出炉，预售价 29.98 万元起。旗舰版长续航版：29.98 万元起共光路舱内激光雷达主驾智能环抱零重力座椅华为途灵平台全……",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-英伟达服务器传出涨价消息涨幅-很多情况下超过15",
-      "title": "英伟达服务器传出涨价消息涨幅“很多情况下超过15%”",
-      "url": "https://36kr.com/newsflashes/3951416423857280?f=rss",
+      "id": "thirty-six-kr-上纬新材-启元机器人-正式开启预订",
+      "title": "上纬新材“启元机器人”正式开启预订",
+      "url": "https://36kr.com/newsflashes/3951506254577030?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T01:08:38.000Z",
-      "summary": "据媒体援引知情人士透露，多家“英伟达最大客户”已被告知，由于内存芯片成本飙升，搭载英伟达人工智能芯片的服务器价格将会上涨，很多情况下涨幅将超过15%。这一轮涨价将适用于明年年初出货的系统，包括搭载和芯片组合的服务器。具体涨幅将取决于使用的英伟达芯片，以及服务器采用的内存配置。（财联社）",
+      "publishedAt": "2026-08-23T02:40:01.000Z",
+      "summary": "8月23日，上纬新材料科技股份有限公司旗下启元机器人，正式开启启元相关型号、启元相关型号双产品预订。本次预订，预计首发发货时间为2026年9月。根据上纬新材2026年半年度报告，公司现已推出启元相关型号、启元相关型号两款消费级具身智能机器人产品，初步搭建起产品矩阵；实现消费级具身智能机器人预收货款2.1亿元。此前，上纬新材与蓝思科技旗下蓝思智能机器人签约，落地首期万台级规模机……",
       "topics": [
-        "算力芯片"
+        "机器人"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "ithome-使命召唤-现代战争-4-测试版率先搭载英伟达-4-5-光线重建技术",
+      "title": "《使命召唤：现代战争 4》测试版率先搭载英伟达 4.5 光线重建技术",
+      "url": "https://www.ithome.com/0/993/153.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T02:39:06.000Z",
+      "summary": "科技之家 8 月 23 日消息，《使命召唤：现代战争 4》测试版于 8 月 21 日开启预购玩家抢先体验。一名眼尖的社区论坛用户发现，该测试版似乎搭载了全新的版本，同时还首次在游戏中实现了 4.5 光线重建（ ）。英伟达此前已经宣布，4.5 光线重建技术计划于本月发布，但截至目前还没有任何游戏正式采用这一技术。如今，这一情况终于发生改变。随着《使命召唤：现代战争 4》预购测试……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvup6g/a_personalized_history_podcast_you_can_interrupt/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T02:12:46.000Z",
+      "summary": "来自 : 在，和没有。构建工具。信息技术呼吁 :，信息技术生成在，研究和。功能: 信息技术时间和问题，和。和音频。向，面向演示。只是面向，向答案问题关于信息技术。和信息技术向分享信息技术！生成来自演示视频: :，变成，由",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "多模态"
       ],
       "heat": 95,
-      "image": ""
+      "image": "https://external-preview.redd.it/ejB1d2JuZ3Y5MWxoMYoOgvUcYUH_WvD5f7GXEohxo6xa1p7bqziW9k-nGLlV.png?width=640&crop=smart&auto=webp&s=d3566f2fd238a31b62be21bad16148773d3d3ee2"
     },
     {
       "id": "techcrunch-ai-哈佛-699-创业公司人工智能",
@@ -582,7 +584,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -599,7 +601,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -617,7 +619,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -683,7 +685,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": "https://media.wired.com/photos/6a86349028fa0a4f102bcd1b/master/pass/Made-in-China-Unlikely-Place-at-Center-of-China-AI-Boom-Business.jpg"
     },
     {
@@ -699,7 +701,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -902,39 +904,54 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png"
     },
     {
-      "id": "ithome-开放人工智能公司一改此前立场-呼吁加州强化人工智能安全法案",
-      "title": "开放人工智能公司一改此前立场，呼吁加州强化人工智能安全法案",
-      "url": "https://www.ithome.com/0/993/141.htm",
+      "id": "ithome-小米推出米家扫拖机器人相关型号-滚筒活水增压拖地-到手价-2069-1-元",
+      "title": "小米推出米家扫拖机器人相关型号：滚筒活水增压拖地，到手价 2069.1 元",
+      "url": "https://www.ithome.com/0/993/152.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T01:20:58.000Z",
-      "summary": "科技之家 8 月 23 日消息，开放人工智能公司呼吁加州进一步加强一项具有里程碑意义的人工智能安全法案。该法案已于去年获得通过。开放人工智能公司全球事务团队在上发表的一篇文章中表示，加州 53 法案“应该进一步扩大安全保障措施”。例如，可以要求对正在训练或评估的前沿人工智能模型进行监控，以发现潜在的严重安全事件，同时“加强覆盖整个模型开发生命周期的网络安全保护”。开放人工智能……",
+      "publishedAt": "2026-08-23T02:29:50.000Z",
+      "summary": "科技之家 8 月 23 日消息，米家扫拖机器人相关型号现已在小米有品上架预约，官方标价 2299 元，券后到手价 2069.1 元，8 月 26 日 10 点现货开售（ 点击前往 ）。科技之家从商品页面获悉，这款新品支持滚筒活水拖地，配备恒压恒湿滚筒拖布，200 转 / 分钟高速洗拖，强效清洁咖啡渍、油渍、宠物脚印等顽固污渍; 配合活水边拖边洗，有效减少二次污染。模拟人手拖地……",
       "topics": [
-        "监管安全",
-        "开源生态"
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-工具向来自图像",
-      "title": "工具向来自图像",
-      "url": "https://www.reddit.com/r/artificial/comments/1vvrso7/made_a_tool_to_remove_synthids_from_images/",
+      "id": "reddit-artificial-通过-66-66-基准测试在",
+      "title": "通过 66，66 基准测试在。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T23:54:48.000Z",
-      "summary": "作为，图像双子座模型开放人工智能公司，向信息技术作为，使用向信息技术。在用户，和。在，创建。在借助 8 吉字节，借助。由",
+      "publishedAt": "2026-08-23T01:55:18.000Z",
+      "summary": "通过 66，66 基准测试在。在实时模型评测，向，通过 19，66。我们基准测试向由首个和向，和实时模型。基准测试舞台，和。:。社区论坛，相关型号，由",
       "topics": [
         "模型发布",
-        "投融资",
-        "多模态"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 99,
-      "image": "https://external-preview.redd.it/teTsVZ1DnVpZijUPnpAYXXpcY2PQq-TAtZYCXKS3gMo.png?width=640&crop=smart&auto=webp&s=60bc2179d382d875421e5e076d32f894f4be4152"
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-英伟达服务器传出涨价消息涨幅-很多情况下超过15",
+      "title": "英伟达服务器传出涨价消息涨幅“很多情况下超过15%”",
+      "url": "https://36kr.com/newsflashes/3951416423857280?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T01:08:38.000Z",
+      "summary": "据媒体援引知情人士透露，多家“英伟达最大客户”已被告知，由于内存芯片成本飙升，搭载英伟达人工智能芯片的服务器价格将会上涨，很多情况下涨幅将超过15%。这一轮涨价将适用于明年年初出货的系统，包括搭载和芯片组合的服务器。具体涨幅将取决于使用的英伟达芯片，以及服务器采用的内存配置。（财联社）",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 95,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-由深度思维-人工智能只是人工智能安全公司和开放人工智能公司在研究",
@@ -983,7 +1000,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1000,24 +1017,6 @@
         "模型发布",
         "产品应用",
         "算力芯片"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-科氪-你的下一副眼镜-会思考-雷鸟正式发布-首发-1996-元起",
-      "title": "科氪，你的下一副眼镜，会思考：雷鸟正式发布，首发 1996 元起",
-      "url": "https://36kr.com/p/3950603951258756?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-22T11:22:19.000Z",
-      "summary": "8 月 21 日，全球领先的消费级品牌雷鸟创新（）举办 2026 雷鸟人工智能眼镜新品发布会，正式发布全新产品系列——雷鸟系列。作为系列首款新品，雷鸟以回归眼镜本质为设计原点，重构整机结构、光学显示与镜框形态，一改人工智能眼镜粗重的固有印象，并通过全天候主动式人工智能提供知识、表达与记忆能力增强，打造行业首款“人类增强人工智能眼镜”。雷鸟首发到手价 1996 元起，提供 0 ……",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "端侧智能"
       ],
       "heat": 94,
       "image": ""
@@ -1069,7 +1068,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1103,7 +1102,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/MobilityPOIs_Hero.png"
     },
     {
@@ -1119,7 +1118,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": "https://media.wired.com/photos/6a7f4fef03ca5057b35be05c/master/pass/Small-Town-Saying-No-to-Palantir-Business.jpg"
     },
     {
@@ -1135,7 +1134,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 46,
+      "heat": 45,
       "image": ""
     },
     {
@@ -1157,19 +1156,19 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-大语言模型-智能体-模型评测方向研究",
-      "title": "论文新进展：大语言模型、智能体、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2608.20318v1",
+      "id": "arxiv-cs-lg-论文新进展-大语言模型-模型安全-模型评测方向研究",
+      "title": "论文新进展：大语言模型、模型安全、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2608.20315v1",
       "source": "论文预印本：机器学习",
       "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-08-20T17:56:59.000Z",
-      "summary": "这篇论文关注大语言模型、智能体、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-08-20T17:54:17.000Z",
+      "summary": "这篇论文关注大语言模型、模型安全、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
       "heat": 60,
       "image": ""
@@ -1277,37 +1276,39 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-荣耀机器人闪电-400-米跑出-40-6-秒成绩-打破该项人类世界纪录",
-      "title": "荣耀机器人闪电 400 米跑出 40.6 秒成绩，打破该项人类世界纪录",
-      "url": "https://www.ithome.com/0/993/140.htm",
+      "id": "ithome-遭集体诉讼-被指夸大智能戒指睡眠追踪准确性",
+      "title": "遭集体诉讼，被指夸大智能戒指睡眠追踪准确性",
+      "url": "https://www.ithome.com/0/993/151.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T01:02:56.000Z",
-      "summary": "科技之家 8 月 23 日消息，荣耀官方昨晚宣布，在第二届世界人形机器人运动会 400 米大型组田径项目中，荣耀机器人闪电以 40.6 秒的惊人成绩冲线，打破该项人类世界纪录。据介绍，本届运动会由北京市人民政府、中央广播电视总台等联合主办，共设 50 个赛项。与首届相比，本届要求更严：除 100 米、400 米障碍赛外，其余项目均需全自主完成，三个竞速项目的完赛时间也压缩至 ……",
+      "publishedAt": "2026-08-23T02:24:56.000Z",
+      "summary": "科技之家 8 月 23 日消息，一项拟议中的集体诉讼正在指控智能戒指制造商欺骗消费者，夸大其睡眠追踪功能的准确性。这起诉讼由旧金山的于当地时间周四提起。诉状称，戒指无法测量评估睡眠质量或判断睡眠阶段所需的任何生理信号，实际上依赖人工智能生成的估算结果，而这些结果“正确的概率就像抛硬币一样”。这起诉讼源于多年来用户在互联网上分享对其睡眠监测准确性的失望。有些用户表示，自己明明感……",
       "topics": [
-        "机器人"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 86,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "reddit-artificial-中国开源向欧盟",
-      "title": "中国开源向欧盟？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vvnwxp/will_chinese_open_source_agree_to_eu_watermarking/",
+      "id": "reddit-artificial-工具向来自图像",
+      "title": "工具向来自图像",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvrso7/made_a_tool_to_remove_synthids_from_images/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T21:04:12.000Z",
-      "summary": "认为和关于，开放人工智能公司和人工智能实验室向人工智能。和打开和和面向。认为中国实验室向欧盟和？护理关于？信息技术和欧盟，面向。中国实验室新增信息技术和和开源。认为？由",
+      "publishedAt": "2026-08-22T23:54:48.000Z",
+      "summary": "作为，图像双子座模型开放人工智能公司，向信息技术作为，使用向信息技术。在用户，和。在，创建。在借助 8 吉字节，借助。由",
       "topics": [
-        "监管安全",
-        "开源生态"
+        "模型发布",
+        "投融资",
+        "多模态"
       ],
-      "heat": 94,
-      "image": ""
+      "heat": 99,
+      "image": "https://external-preview.redd.it/teTsVZ1DnVpZijUPnpAYXXpcY2PQq-TAtZYCXKS3gMo.png?width=640&crop=smart&auto=webp&s=60bc2179d382d875421e5e076d32f894f4be4152"
     },
     {
       "id": "techcrunch-ai-开放人工智能公司强化人工智能安全法案",
@@ -1322,7 +1323,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1354,23 +1355,25 @@
       "topics": [
         "多模态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-特斯拉无人驾驶电动车发布会定档",
-      "title": "特斯拉无人驾驶电动车发布会定档",
-      "url": "https://36kr.com/newsflashes/3950417977785729?f=rss",
+      "id": "thirty-six-kr-科氪-你的下一副眼镜-会思考-雷鸟正式发布-首发-1996-元起",
+      "title": "科氪，你的下一副眼镜，会思考：雷鸟正式发布，首发 1996 元起",
+      "url": "https://36kr.com/p/3950603951258756?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T08:12:58.000Z",
-      "summary": "特斯拉在社交平台宣布，将于2026年9月3日在美国得州奥斯汀举行发布会。据了解，今年4月，特斯拉无人驾驶电动车在北美正式投产，称该车由人工智能驱动，无需方向盘、踏板和后视镜。（财联社）",
+      "publishedAt": "2026-08-22T11:22:19.000Z",
+      "summary": "8 月 21 日，全球领先的消费级品牌雷鸟创新（）举办 2026 雷鸟人工智能眼镜新品发布会，正式发布全新产品系列——雷鸟系列。作为系列首款新品，雷鸟以回归眼镜本质为设计原点，重构整机结构、光学显示与镜框形态，一改人工智能眼镜粗重的固有印象，并通过全天候主动式人工智能提供知识、表达与记忆能力增强，打造行业首款“人类增强人工智能眼镜”。雷鸟首发到手价 1996 元起，提供 0 ……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 73,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1473,39 +1476,39 @@
       "image": "https://media.wired.com/photos/6a8606ab1997359abc4212b4/master/pass/Model-Behavior-Silicon-Valley-Doesnt-Understand-AI-Backlash-Business.jpg"
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-大语言模型-模型安全-模型评测方向研究",
-      "title": "论文新进展：大语言模型、模型安全、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2608.20315v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-强化学习-模型评测方向研究",
+      "title": "论文新进展：大语言模型、强化学习、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2608.20316v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-08-20T17:54:17.000Z",
-      "summary": "这篇论文关注大语言模型、模型安全、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-08-20T17:54:37.000Z",
+      "summary": "这篇论文关注大语言模型、强化学习、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "监管安全",
+        "研究论文"
       ],
       "heat": 60,
       "image": ""
     },
     {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-强化学习-工程仿真方向研究",
-      "title": "论文新进展：大语言模型、智能体、强化学习、工程仿真方向研究",
-      "url": "https://arxiv.org/abs/2608.20314v1",
-      "source": "论文预印本：人工智能",
-      "sourceId": "arxiv-cs-ai",
+      "id": "arxiv-cs-lg-论文新进展-大语言模型-强化学习方向研究",
+      "title": "论文新进展：大语言模型、强化学习方向研究",
+      "url": "https://arxiv.org/abs/2608.20280v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-08-20T17:53:59.000Z",
-      "summary": "这篇论文关注大语言模型、智能体、强化学习、工程仿真，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-08-20T17:14:19.000Z",
+      "summary": "这篇论文关注大语言模型、强化学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
-        "产品应用",
+        "监管安全",
         "研究论文"
       ],
-      "heat": 68,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1577,39 +1580,39 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PhotoScanIR_Overview.png"
     },
     {
-      "id": "ithome-欧珀新机通过消费电子认证-支持-80-瓦快充-预计为相关型号系列",
-      "title": "欧珀新机通过消费电子认证：支持 80 瓦快充，预计为相关型号系列",
-      "url": "https://www.ithome.com/0/993/138.htm",
+      "id": "ithome-安全防护形同虚设-人工智能安全公司多款克劳德模型旧模型可被越狱生成露骨色情内容",
+      "title": "安全防护形同虚设：人工智能安全公司多款克劳德模型旧模型可被越狱生成露骨色情内容",
+      "url": "https://www.ithome.com/0/993/149.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T01:02:32.000Z",
-      "summary": "科技之家 8 月 23 日消息，一款型号为相关型号的欧珀新机于 8 月 21 日通过消费电子认证，支持 80 瓦快充，预计为欧珀相关型号系列。在此之前，这款新机已经于本月初入网，支持相关型号 5 克频段 +2.4 吉赫兹扩频通信，预装相关型号人工智能系统，备案了多个人工智能大模型。此前爆料显示，新机预计将于 9 月下旬发布，搭载 2 纳米天玑 9600 专业版处理器、2 亿超……",
+      "publishedAt": "2026-08-23T02:14:39.000Z",
+      "summary": "科技之家 8 月 23 日消息，人工智能安全公司针对克劳德模型制定的通用使用规范明确禁止模型生成露骨色情内容，包括描绘或要求发生性行为或其他性行为、生成与性癖或性幻想有关的内容，以及进行色情聊天。不过，这并没有阻止人工智能安全公司今年早些时候发布的模型克劳德模型旗舰模型 4.6 轻易参与其安全机制原本试图阻止的色情角色扮演。科技创投媒体在测试中发现，想让旗舰模型 4.6 绕过……",
       "topics": [
         "模型发布",
-        "端侧智能"
+        "监管安全",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vvlxi2/followup_vsarena_now_has_a_proper_vla_track/",
+      "id": "reddit-artificial-中国开源向欧盟",
+      "title": "中国开源向欧盟？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vvnwxp/will_chinese_open_source_agree_to_eu_watermarking/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T19:44:56.000Z",
-      "summary": "关于，更新来自。: 观测。政策相关型号 + 语言，向政策。使用向和，政策。作为独立和，向向面向。在来自 : 在，演示，和向。来自工具链得分。工具链实时，信息技术和实际打开面向。+ : :，代码托管平台，工具链，+ 任务，开发工具包，: :。应用，仿真，相关型号，向分享，向这里。打开向，在可能。由",
+      "publishedAt": "2026-08-22T21:04:12.000Z",
+      "summary": "认为和关于，开放人工智能公司和人工智能实验室向人工智能。和打开和和面向。认为中国实验室向欧盟和？护理关于？信息技术和欧盟，面向。中国实验室新增信息技术和和开源。认为？由",
       "topics": [
-        "产品应用",
         "监管安全",
         "开源生态"
       ],
-      "heat": 90,
-      "image": "https://external-preview.redd.it/MGo1bXBpYnRjemtoMeF0_XvsN9zrDNcuYyAEXs7kW7iJShD2ZKBa7btZ0e06.jpeg?width=640&crop=smart&auto=webp&s=12012af16015fe02e2803631c9869b987d71ff98"
+      "heat": 94,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-人工智能实验室模型",
@@ -1657,25 +1660,23 @@
       "topics": [
         "机器人"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-都是谁在买上的机器人啊",
-      "title": "都是谁在买上的机器人啊！",
-      "url": "https://36kr.com/p/3950374720306563?f=rss",
+      "id": "thirty-six-kr-特斯拉无人驾驶电动车发布会定档",
+      "title": "特斯拉无人驾驶电动车发布会定档",
+      "url": "https://36kr.com/newsflashes/3950417977785729?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T07:31:33.000Z",
-      "summary": "撰文，刘思洁刘孜妍刘辰艺编辑，张薇头图设计，曲枚做爆米花、打冰淇淋，机器人偶尔会出错，但没关系，一旁有工作人员协助。在世界机器人大会现场，跨维智能的人形机器人，在一个便利店的模拟场景里“施展拳脚”。这款机器人去年9月开始销售，早期不好卖，直到硬件迭代、成本下降，销售情况才有所改善，目前总出货量三十多台。买方有景区便利店，也有政府开办的数据采集中心。这些机器人被用来采集真机操作……",
+      "publishedAt": "2026-08-22T08:12:58.000Z",
+      "summary": "特斯拉在社交平台宣布，将于2026年9月3日在美国得州奥斯汀举行发布会。据了解，今年4月，特斯拉无人驾驶电动车在北美正式投产，称该车由人工智能驱动，无需方向盘、踏板和后视镜。（财联社）",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1692,7 +1693,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1710,7 +1711,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1726,7 +1727,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1748,39 +1749,21 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-模型评测方向研究",
-      "title": "论文新进展：大语言模型、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2608.20290v1",
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-强化学习-工程仿真方向研究",
+      "title": "论文新进展：大语言模型、智能体、强化学习、工程仿真方向研究",
+      "url": "https://arxiv.org/abs/2608.20314v1",
       "source": "论文预印本：人工智能",
       "sourceId": "arxiv-cs-ai",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-08-20T17:30:14.000Z",
-      "summary": "这篇论文关注大语言模型、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-08-20T17:53:59.000Z",
+      "summary": "这篇论文关注大语言模型、智能体、强化学习、工程仿真，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
         "产品应用",
         "研究论文"
       ],
       "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-大语言模型-强化学习方向研究",
-      "title": "论文新进展：大语言模型、强化学习方向研究",
-      "url": "https://arxiv.org/abs/2608.20280v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-08-20T17:14:19.000Z",
-      "summary": "这篇论文关注大语言模型、强化学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 60,
       "image": ""
     },
     {
@@ -1867,19 +1850,19 @@
       "image": ""
     },
     {
-      "id": "ithome-内存成本飙升-消息称英伟达人工智能芯片服务器明年初起涨价最高超-15",
-      "title": "内存成本飙升，消息称英伟达人工智能芯片服务器明年初起涨价最高超 15%",
-      "url": "https://www.ithome.com/0/993/136.htm",
+      "id": "ithome-鸿蒙智行智界轿跑各版本配置出炉-预售价-29-98-万元起",
+      "title": "鸿蒙智行智界轿跑各版本配置出炉，预售价 29.98 万元起",
+      "url": "https://www.ithome.com/0/993/142.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T00:52:23.000Z",
-      "summary": "科技之家 8 月 23 日消息，据彭博社报道，由于内存芯片成本大幅上涨，英伟达一些最大客户已经被告知，搭载英伟达人工智能芯片的服务器价格在很多情况下将上涨超过 15%。报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级和芯片的服务器。知情人士表示，具体涨幅将取决于英伟达采用的芯片世代以及服务器的内存配置。报道称，近期，为微软、旗下谷歌以及甲骨文等大型数据……",
+      "publishedAt": "2026-08-23T01:29:13.000Z",
+      "summary": "科技之家 8 月 23 日消息，在 8 月 20 日的享界相关型号及鸿蒙智行新品发布会上，智界轿跑开启预订。华为常务董事、产品投资评审委员会主任、终端董事长余承东透露，该车搭载面向未来的相关型号级自动驾驶架构设计。科技之家注意到，目前这款新车的各版本配置已出炉，预售价 29.98 万元起。旗舰版长续航版：29.98 万元起共光路舱内激光雷达主驾智能环抱零重力座椅华为途灵平台全……",
       "topics": [
-        "算力芯片"
+        "投融资"
       ],
-      "heat": 94,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1897,7 +1880,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1929,7 +1912,25 @@
       "topics": [
         "机器人"
       ],
-      "heat": 76,
+      "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-都是谁在买上的机器人啊",
+      "title": "都是谁在买上的机器人啊！",
+      "url": "https://36kr.com/p/3950374720306563?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-22T07:31:33.000Z",
+      "summary": "撰文，刘思洁刘孜妍刘辰艺编辑，张薇头图设计，曲枚做爆米花、打冰淇淋，机器人偶尔会出错，但没关系，一旁有工作人员协助。在世界机器人大会现场，跨维智能的人形机器人，在一个便利店的模拟场景里“施展拳脚”。这款机器人去年9月开始销售，早期不好卖，直到硬件迭代、成本下降，销售情况才有所改善，目前总出货量三十多台。买方有景区便利店，也有政府开办的数据采集中心。这些机器人被用来采集真机操作……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -1948,23 +1949,6 @@
         "监管安全"
       ],
       "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-东山精密加码人工智能光芯片光模块扩产-项目总投资上调至17亿美元",
-      "title": "东山精密加码人工智能光芯片光模块扩产，项目总投资上调至17亿美元",
-      "url": "https://36kr.com/newsflashes/3950182513884297?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-22T04:13:26.000Z",
-      "summary": "8月21日晚间，苏州东山精密制造股份有限公司发布公告称，公司拟对子公司 （）及其子公司、子公司‑ （）。及子公司盐城东山精密制造有限公司在常州、盐城等地及泰国实施的光芯片及光模块扩建项目新增投资额5亿美元，项目总投资额由原来的12亿美元调增至17亿美元。（证券时报）",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 74,
       "image": ""
     },
     {
@@ -2017,7 +2001,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2038,18 +2022,18 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-ai-论文新进展-大语言模型-模型安全方向研究",
-      "title": "论文新进展：大语言模型、模型安全方向研究",
-      "url": "https://arxiv.org/abs/2608.20281v1",
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-模型评测方向研究",
+      "title": "论文新进展：大语言模型、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2608.20290v1",
       "source": "论文预印本：人工智能",
       "sourceId": "arxiv-cs-ai",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-08-20T17:14:24.000Z",
-      "summary": "这篇论文关注大语言模型、模型安全，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-08-20T17:30:14.000Z",
+      "summary": "这篇论文关注大语言模型、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
-        "监管安全",
+        "产品应用",
         "研究论文"
       ],
       "heat": 68,
@@ -2123,19 +2107,18 @@
       "image": ""
     },
     {
-      "id": "ithome-推出小参数人工智能智能体-科研复现能力超越-5-5-与克劳德模型旗舰模型-4-8",
-      "title": "推出小参数人工智能智能体，科研复现能力超越 ‑5.5 与克劳德模型旗舰模型 4.8",
-      "url": "https://www.ithome.com/0/993/133.htm",
+      "id": "ithome-开放人工智能公司一改此前立场-呼吁加州强化人工智能安全法案",
+      "title": "开放人工智能公司一改此前立场，呼吁加州强化人工智能安全法案",
+      "url": "https://www.ithome.com/0/993/141.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T00:15:10.000Z",
-      "summary": "科技之家 8 月 23 日消息，总部位于伦敦的人工智能实验室由前谷歌深度思维员工创立。该公司表示，其人工智能智能体仅使用规模远小于人工智能安全公司和开放人工智能公司旗舰模型的模型，就在一项特定任务中取得了更好的表现。在众多由前谷歌深度思维员工创办的初创公司中，此前获得的关注相对较少。不过，与那些资金更加充裕、却还没有拿出太多实际成果的竞争对手相比，这家总部位于伦敦的团队如今已……",
+      "publishedAt": "2026-08-23T01:20:58.000Z",
+      "summary": "科技之家 8 月 23 日消息，开放人工智能公司呼吁加州进一步加强一项具有里程碑意义的人工智能安全法案。该法案已于去年获得通过。开放人工智能公司全球事务团队在上发表的一篇文章中表示，加州 53 法案“应该进一步扩大安全保障措施”。例如，可以要求对正在训练或评估的前沿人工智能模型进行监控，以发现潜在的严重安全事件，同时“加强覆盖整个模型开发生命周期的网络安全保护”。开放人工智能……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "监管安全",
+        "开源生态"
       ],
       "heat": 99,
       "image": ""
@@ -2153,7 +2136,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": "https://external-preview.redd.it/mDVSDLWVhQTxu-7OLXI2BJtnSaqJWob3gXCRsn6KYAc.png?width=640&crop=smart&auto=webp&s=294f1676b9ac2cb6105b9b3782c40c394eb044b5"
     },
     {
@@ -2170,23 +2153,24 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-科大讯飞与中国药科大学签署战略合作协议",
-      "title": "科大讯飞与中国药科大学签署战略合作协议",
-      "url": "https://36kr.com/newsflashes/3950179929210248?f=rss",
+      "id": "thirty-six-kr-东山精密加码人工智能光芯片光模块扩产-项目总投资上调至17亿美元",
+      "title": "东山精密加码人工智能光芯片光模块扩产，项目总投资上调至17亿美元",
+      "url": "https://36kr.com/newsflashes/3950182513884297?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T04:10:49.000Z",
-      "summary": "据科大讯飞消息，近日，中国药科大学与科大讯飞正式签署战略合作协议。此次战略合作签约是科大讯飞以人工智能核心技术赋能生物医药产业的重要实践。未来，科大讯飞将与中国药科大学深化产学研合作，细化合作清单、落地专项项目，共同打造“人工智能+医药”产教融合标杆，为生物医药产业高质量发展注入新动能。（证券时报）",
+      "publishedAt": "2026-08-22T04:13:26.000Z",
+      "summary": "8月21日晚间，苏州东山精密制造股份有限公司发布公告称，公司拟对子公司 （）及其子公司、子公司‑ （）。及子公司盐城东山精密制造有限公司在常州、盐城等地及泰国实施的光芯片及光模块扩建项目新增投资额5亿美元，项目总投资额由原来的12亿美元调增至17亿美元。（证券时报）",
       "topics": [
-        "人工智能动态"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 69,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2202,7 +2186,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2220,7 +2204,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2236,7 +2220,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2271,7 +2255,25 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 60,
+      "heat": 59,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-ai-论文新进展-大语言模型-模型安全方向研究",
+      "title": "论文新进展：大语言模型、模型安全方向研究",
+      "url": "https://arxiv.org/abs/2608.20281v1",
+      "source": "论文预印本：人工智能",
+      "sourceId": "arxiv-cs-ai",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-08-20T17:14:24.000Z",
+      "summary": "这篇论文关注大语言模型、模型安全，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -2341,15 +2343,15 @@
       "image": "https://media.wired.com/photos/6a834e67effc1720d3a37bb8/master/pass/ZAI-Most-Skilled-AI-Yet-Business-1044672050.jpg"
     },
     {
-      "id": "ithome-哈佛商学院推出-699-美元创业训练营-讲师人工智能数字分身提供路演反馈",
-      "title": "哈佛商学院推出 699 美元创业训练营，讲师人工智能数字分身提供路演反馈",
-      "url": "https://www.ithome.com/0/993/131.htm",
+      "id": "ithome-荣耀机器人闪电-400-米跑出-40-6-秒成绩-打破该项人类世界纪录",
+      "title": "荣耀机器人闪电 400 米跑出 40.6 秒成绩，打破该项人类世界纪录",
+      "url": "https://www.ithome.com/0/993/140.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T23:58:11.000Z",
-      "summary": "科技之家 8 月 23 日消息，随着哈佛商学院（）寻求扩大自身影响力，其开始借助人工智能虚拟形象为学生提供个性化反馈。这些人工智能虚拟形象由一家名为的初创公司打造，目前已被纳入哈佛商学院为创业者推出的训练营。这项课程为期 8 周，收费 699 美元 （科技之家注：现汇率约合 4，710 元人民币）。该项目每周都会安排教师进行直播授课，但在模拟路演和董事会会议等实践环节中，真正……",
+      "publishedAt": "2026-08-23T01:02:56.000Z",
+      "summary": "科技之家 8 月 23 日消息，荣耀官方昨晚宣布，在第二届世界人形机器人运动会 400 米大型组田径项目中，荣耀机器人闪电以 40.6 秒的惊人成绩冲线，打破该项人类世界纪录。据介绍，本届运动会由北京市人民政府、中央广播电视总台等联合主办，共设 50 个赛项。与首届相比，本届要求更严：除 100 米、400 米障碍赛外，其余项目均需全自主完成，三个竞速项目的完赛时间也压缩至 ……",
       "topics": [
         "机器人"
       ],
@@ -2391,21 +2393,19 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-9点1氪丨有医院能领结婚证了-与婚前检查无缝衔接-阿里巴巴发布财报-2027财年相关型号营收2690亿-开放人工智能公司进一步开",
-      "title": "9点1氪丨有医院能领结婚证了，与婚前检查无缝衔接；阿里巴巴发布财报，2027财年相关型号营收2690亿；开放人工智能公司进一步开放智能编程工具的底层能力",
-      "url": "https://36kr.com/p/3949992200928641?f=rss",
+      "id": "thirty-six-kr-科大讯飞与中国药科大学签署战略合作协议",
+      "title": "科大讯飞与中国药科大学签署战略合作协议",
+      "url": "https://36kr.com/newsflashes/3950179929210248?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T01:04:32.000Z",
-      "summary": "今日热点导览抗癌疫苗引爆资本市场，多家公司涉及相关研发贵州茅台回应上半年茅台酒产量下降：阶段性统计差异，全年累计产量不受影响广州市中级人民法院依法受理恒大地产集团有限公司破产清算案张雪回应“台湾首辆张雪机车遭查扣” 全球首个开源太空具身智能合作项目（太空龙虾）达成战略合作 3 大新闻医院也能领结婚证了，淄博一妇幼保健院内设立婚姻登记不仅地铁站、银行、音乐节等场所可以陆续设立婚……",
+      "publishedAt": "2026-08-22T04:10:49.000Z",
+      "summary": "据科大讯飞消息，近日，中国药科大学与科大讯飞正式签署战略合作协议。此次战略合作签约是科大讯飞以人工智能核心技术赋能生物医药产业的重要实践。未来，科大讯飞将与中国药科大学深化产学研合作，细化合作清单、落地专项项目，共同打造“人工智能+医药”产教融合标杆，为生物医药产业高质量发展注入新动能。（证券时报）",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2476,7 +2476,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2548,37 +2548,38 @@
       "image": ""
     },
     {
-      "id": "ithome-信息技术早报-0823-特斯拉官网监督版支持地区移除中国-深度求索周末统一按低谷价计费-中国铁路成都局回应占座放零食-雷军携小米",
-      "title": "信息技术早报 0823：特斯拉官网监督版支持地区移除中国；深度求索周末统一按低谷价计费；中国铁路成都局回应占座放零食；雷军携小米阔折叠新机现身。",
-      "url": "https://www.ithome.com/0/993/129.htm",
+      "id": "ithome-欧珀新机通过消费电子认证-支持-80-瓦快充-预计为相关型号系列",
+      "title": "欧珀新机通过消费电子认证：支持 80 瓦快充，预计为相关型号系列",
+      "url": "https://www.ithome.com/0/993/138.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T23:46:01.000Z",
-      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 8 月 23 日星期日，今天的重要科技资讯有：1。特斯拉官网更新：监督版支持地区不再包含中国今年 5 月，特斯拉官方在发文，当时提到监督版支持的国家与地区中包含中国。>> 查看详情 2。深度求索调整接口周末计费：周六日全天统一按低谷价收费深度求索于 8 月 23 日起调整接口计费规则，周末全天不再区分峰谷时段，统一按低谷价收……",
+      "publishedAt": "2026-08-23T01:02:32.000Z",
+      "summary": "科技之家 8 月 23 日消息，一款型号为相关型号的欧珀新机于 8 月 21 日通过消费电子认证，支持 80 瓦快充，预计为欧珀相关型号系列。在此之前，这款新机已经于本月初入网，支持相关型号 5 克频段 +2.4 吉赫兹扩频通信，预装相关型号人工智能系统，备案了多个人工智能大模型。此前爆料显示，新机预计将于 9 月下旬发布，搭载 2 纳米天玑 9600 专业版处理器、2 亿超……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-实际人工智能-生成",
-      "title": "实际人工智能，生成？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vvgjic/what_would_actually_make_you_watch_an_aigenerated/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "thirty-six-kr-9点1氪丨有医院能领结婚证了-与婚前检查无缝衔接-阿里巴巴发布财报-2027财年相关型号营收2690亿-开放人工智能公司进一步开",
+      "title": "9点1氪丨有医院能领结婚证了，与婚前检查无缝衔接；阿里巴巴发布财报，2027财年相关型号营收2690亿；开放人工智能公司进一步开放智能编程工具的底层能力",
+      "url": "https://36kr.com/p/3949992200928641?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T16:15:10.000Z",
-      "summary": "问题作为。向人工智能，生成，只是借助和。信息技术面向作为。借助人工智能转化？信息技术取决于在？信息技术信息技术，信息技术人工智能面向？讨论关于人工智能，讨论关于人工智能，生成来自。由",
+      "publishedAt": "2026-08-22T01:04:32.000Z",
+      "summary": "今日热点导览抗癌疫苗引爆资本市场，多家公司涉及相关研发贵州茅台回应上半年茅台酒产量下降：阶段性统计差异，全年累计产量不受影响广州市中级人民法院依法受理恒大地产集团有限公司破产清算案张雪回应“台湾首辆张雪机车遭查扣” 全球首个开源太空具身智能合作项目（太空龙虾）达成战略合作 3 大新闻医院也能领结婚证了，淄博一妇幼保健院内设立婚姻登记不仅地铁站、银行、音乐节等场所可以陆续设立婚……",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 77,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2611,7 +2612,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2629,24 +2630,6 @@
         "投融资"
       ],
       "heat": 65,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-氪星晚报-中科曙光超节点产品亮相安徽算力大会-广州市中级人民法院依法受理恒大地产集团有限公司破产清算案-科大讯飞-将于今年全球1",
-      "title": "氪星晚报｜中科曙光超节点产品亮相安徽算力大会；广州市中级人民法院依法受理恒大地产集团有限公司破产清算案；科大讯飞：将于今年全球1024开发者节推出全新主力通用大模型",
-      "url": "https://36kr.com/p/3946071687921026?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-21T12:12:53.000Z",
-      "summary": "大公司：苹果裁撤60名团队员工战略重心或转向人工智能眼镜据报道，苹果已对视觉业务团队进行人员调整，至少60名隶属于视觉小组、从事相关开发的员工遭到裁员，苹果官方尚未对该消息作出回应。报道指出，本次裁员背后是苹果战略转向，该公司资源正流向人工智能智能眼镜，这款新品预计于2027年大会亮相，同年晚些时候上市。（新浪财经） 马斯克称目标到2030年每年发射约1万次，到2030年代末……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 74,
       "image": ""
     },
     {
@@ -2718,21 +2701,19 @@
       "image": ""
     },
     {
-      "id": "ithome-特斯拉正有意放缓模型加入车队-押注",
-      "title": "特斯拉正有意放缓模型加入车队，押注",
-      "url": "https://www.ithome.com/0/993/128.htm",
+      "id": "ithome-内存成本飙升-消息称英伟达人工智能芯片服务器明年初起涨价最高超-15",
+      "title": "内存成本飙升，消息称英伟达人工智能芯片服务器明年初起涨价最高超 15%",
+      "url": "https://www.ithome.com/0/993/136.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-22T23:45:02.000Z",
-      "summary": "科技之家 8 月 23 日消息，特斯拉本月早些时候邀请摩根大通分析师参观了旗下的一座工厂，这家华尔街投行随后在最新发布的投资者报告中披露了此次考察的发现。其中一项值得关注的信息是，特斯拉承认正在放缓将模型纳入车队的速度，但公司对此有充分理由。摩根大通分析师近日参观了特斯拉弗里蒙特工厂，并与该公司的投资者关系团队进行了交流。通过此次考察，分析师对特斯拉的战略有了更清晰的认识。根……",
+      "publishedAt": "2026-08-23T00:52:23.000Z",
+      "summary": "科技之家 8 月 23 日消息，据彭博社报道，由于内存芯片成本大幅上涨，英伟达一些最大客户已经被告知，搭载英伟达人工智能芯片的服务器价格在很多情况下将上涨超过 15%。报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级和芯片的服务器。知情人士表示，具体涨幅将取决于英伟达采用的芯片世代以及服务器的内存配置。报道称，近期，为微软、旗下谷歌以及甲骨文等大型数据……",
       "topics": [
-        "模型发布",
-        "投融资",
-        "机器人"
+        "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2784,21 +2765,21 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪2024年度中国最具影响力产业投资暨十大领域年度名册-正式发布",
-      "title": "36氪2024年度中国最具影响力产业投资暨十大领域年度名册｜正式发布",
-      "url": "https://36kr.com/p/3949029563677824?f=rss",
+      "id": "thirty-six-kr-氪星晚报-中科曙光超节点产品亮相安徽算力大会-广州市中级人民法院依法受理恒大地产集团有限公司破产清算案-科大讯飞-将于今年全球1",
+      "title": "氪星晚报｜中科曙光超节点产品亮相安徽算力大会；广州市中级人民法院依法受理恒大地产集团有限公司破产清算案；科大讯飞：将于今年全球1024开发者节推出全新主力通用大模型",
+      "url": "https://36kr.com/p/3946071687921026?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-21T09:32:38.000Z",
-      "summary": "向内求。出品｜ 36氪创投研究院 2024年，全球经济格局正在经历深刻调整，世界产业链的格局也在急剧转变中。在环境变革的持续影响下，中国风险投资乃至整个金融市场，都处在一个漫长的调整期。这一点，从募资、退出数据上就可见端倪：2024上半年新募集基金数量和募资规模均大幅下降，分别接近50%和23%，且其中大笔基金来源以国资、地方政府、产业龙头为主，携带着精准服务区域招商引资、严……",
+      "publishedAt": "2026-08-21T12:12:53.000Z",
+      "summary": "大公司：苹果裁撤60名团队员工战略重心或转向人工智能眼镜据报道，苹果已对视觉业务团队进行人员调整，至少60名隶属于视觉小组、从事相关开发的员工遭到裁员，苹果官方尚未对该消息作出回应。报道指出，本次裁员背后是苹果战略转向，该公司资源正流向人工智能智能眼镜，这款新品预计于2027年大会亮相，同年晚些时候上市。（新浪财经） 马斯克称目标到2030年每年发射约1万次，到2030年代末……",
       "topics": [
-        "算力芯片",
-        "监管安全",
-        "研究论文"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 72,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2832,7 +2813,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -2849,6 +2830,22 @@
         "算力芯片"
       ],
       "heat": 58,
+      "image": ""
+    },
+    {
+      "id": "openai-news-借助向首个人工智能",
+      "title": "借助向首个人工智能",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "summary": "开放人工智能公司和向帮助构建人工智能，认为关于人工智能，和技能向使用和信息技术。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 63,
       "image": ""
     }
   ]
