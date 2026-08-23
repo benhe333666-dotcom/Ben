@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T23:38:46.280Z",
+  "generatedAt": "2026-08-23T23:43:17.903Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-08-24T00:00:00.000Z",
   "stats": {
@@ -8,7 +8,7 @@
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-23T23:28:42.000Z"
+    "latestPublishedAt": "2026-08-23T23:41:30.000Z"
   },
   "topics": [
     {
@@ -33,28 +33,28 @@
     },
     {
       "name": "机器人",
-      "count": 15,
+      "count": 14,
+      "heat": 80
+    },
+    {
+      "name": "算力芯片",
+      "count": 13,
       "heat": 80
     },
     {
       "name": "多模态",
       "count": 13,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "人工智能动态",
       "count": 15,
-      "heat": 64
-    },
-    {
-      "name": "算力芯片",
-      "count": 12,
-      "heat": 79
+      "heat": 63
     },
     {
       "name": "开源生态",
-      "count": 9,
-      "heat": 69
+      "count": 10,
+      "heat": 72
     },
     {
       "name": "端侧智能",
@@ -63,8 +63,8 @@
     },
     {
       "name": "投融资",
-      "count": 5,
-      "heat": 75
+      "count": 6,
+      "heat": 79
     }
   ],
   "sources": [
@@ -401,8 +401,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-23T23:19:06.000Z",
-      "latestDisplayedAt": "2026-08-23T23:19:06.000Z"
+      "latestFetchedAt": "2026-08-23T13:20:00.000Z",
+      "latestDisplayedAt": "2026-08-23T13:20:00.000Z"
     },
     {
       "id": "leiphone",
@@ -433,8 +433,8 @@
       "fallbackReason": "",
       "itemCount": 9,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-23T23:03:07.000Z",
-      "latestDisplayedAt": "2026-08-23T23:03:07.000Z"
+      "latestFetchedAt": "2026-08-23T23:41:30.000Z",
+      "latestDisplayedAt": "2026-08-23T23:41:30.000Z"
     },
     {
       "id": "ithome",
@@ -488,6 +488,24 @@
   "failures": [],
   "items": [
     {
+      "id": "thirty-six-kr-据悉寻求出售-估值或超130亿美元",
+      "title": "据悉寻求出售，估值或超130亿美元",
+      "url": "https://36kr.com/newsflashes/3952740352228744?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T23:41:30.000Z",
+      "summary": "据报道，人工智能初创公司正寻求出售，公司估值可能达到至少130亿美元。据悉，正与一家银行合作评估潜在买家意向。此前，在2023年的一轮融资中估值达到45亿美元，该轮融资由包括、谷歌和英伟达在内的科技巨头领投。（界面）",
+      "topics": [
+        "算力芯片",
+        "投融资",
+        "开源生态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-消息称人工智能初创公司探索出售-估值达-130-亿美元",
       "title": "消息称人工智能初创公司探索出售，估值达 130 亿美元",
       "url": "https://www.ithome.com/0/993/329.htm",
@@ -503,39 +521,6 @@
         "监管安全"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "qbitai-前保安杀进了人工智能决赛-高中生拿走25万-这人工智能比赛办得有点绝",
-      "title": "前保安杀进了人工智能决赛，高中生拿走25万！这人工智能比赛办得有点绝",
-      "url": "https://www.qbitai.com/2026/08/478358.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T23:19:06.000Z",
-      "summary": "和胡彦斌亲自颁奖",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-人工智能智能体能自主生成并运行量子计算代码",
-      "title": "人工智能智能体能自主生成并运行量子计算代码",
-      "url": "https://36kr.com/newsflashes/3952708603362433?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T23:03:07.000Z",
-      "summary": "氛围编程（ 编程）正从传统软件开发进入量子计算领域。据英国《自然》杂志日前消息，法国量子计算初创企业研究人员开发出一种人工智能（人工智能）智能体，能根据英文自然语言指令生成量子计算代码，并自动在真实量子计算机上运行。研究人员表示，这种量子氛围编程有望降低量子计算实验的技术门槛，让更多人能够开展量子计算研究。（科技日报）",
-      "topics": [
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 93,
       "image": ""
     },
     {
@@ -601,6 +586,22 @@
         "多模态"
       ],
       "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "qbitai-唯一真-人机共生-展台-是家沉浸式机器人咖啡店",
+      "title": "唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
+      "url": "https://www.qbitai.com/2026/08/478319.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T13:20:00.000Z",
+      "summary": "玩的就是真实",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -917,6 +918,23 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-人工智能智能体能自主生成并运行量子计算代码",
+      "title": "人工智能智能体能自主生成并运行量子计算代码",
+      "url": "https://36kr.com/newsflashes/3952708603362433?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T23:03:07.000Z",
+      "summary": "氛围编程（ 编程）正从传统软件开发进入量子计算领域。据英国《自然》杂志日前消息，法国量子计算初创企业研究人员开发出一种人工智能（人工智能）智能体，能根据英文自然语言指令生成量子计算代码，并自动在真实量子计算机上运行。研究人员表示，这种量子氛围编程有望降低量子计算实验的技术门槛，让更多人能够开展量子计算研究。（科技日报）",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能问题工作流面向研究",
       "title": "人工智能问题工作流面向研究",
       "url": "https://www.reddit.com/r/artificial/comments/1vwjbgz/ask_ai_a_question_is_the_wrong_workflow_for/",
@@ -965,23 +983,23 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "qbitai-唯一真-人机共生-展台-是家沉浸式机器人咖啡店",
-      "title": "唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
-      "url": "https://www.qbitai.com/2026/08/478319.html",
+      "id": "qbitai-具身创业里的香港教授们",
+      "title": "具身创业里的香港教授们",
+      "url": "https://www.qbitai.com/2026/08/478289.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T13:20:00.000Z",
-      "summary": "玩的就是真实",
+      "publishedAt": "2026-08-23T11:20:13.000Z",
+      "summary": "香港的大学里冒出了一批很特别的人",
       "topics": [
         "机器人"
       ],
-      "heat": 82,
+      "heat": 80,
       "image": ""
     },
     {
@@ -998,23 +1016,6 @@
         "产品应用"
       ],
       "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-中信证券-科技股近期的调整不能简单归因于美国长债利率高企",
-      "title": "中信证券：科技股近期的调整不能简单归因于美国长债利率高企",
-      "url": "https://36kr.com/newsflashes/3951906148072579?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T09:40:08.000Z",
-      "summary": "中信证券研报认为，科技股近期的调整不能简单归因于美国长债利率高企，调整的背后是人工智能相关股票的远期定价问题，有三个关键叙事变量：1)商业化的速率和空间是否跟得上市场预期；2)算力优势是不是带来份额和定价权优势；3)当期的算力差距是否会明显拉开远期的人工智能模型差距。这其中当前共识性担忧是商业化的速率和空间，最大的潜在变量是“防蒸馏”是否在未来会重新拉大模型差距。至于宏观因素……",
-      "topics": [
-        "模型发布",
-        "算力芯片"
-      ],
-      "heat": 89,
       "image": ""
     },
     {
@@ -1320,22 +1321,6 @@
       "image": ""
     },
     {
-      "id": "qbitai-具身创业里的香港教授们",
-      "title": "具身创业里的香港教授们",
-      "url": "https://www.qbitai.com/2026/08/478289.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T11:20:13.000Z",
-      "summary": "香港的大学里冒出了一批很特别的人",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 80,
-      "image": ""
-    },
-    {
       "id": "leiphone-机器人首秀网球场-银河通用突破具身智能-时刻",
       "title": "机器人首秀网球场，银河通用突破具身智能「时刻」",
       "url": "https://www.leiphone.com/category/ai/DtuJryomWlykalLZ.html",
@@ -1354,6 +1339,39 @@
       "image": ""
     },
     {
+      "id": "qbitai-他给了王兴兴第一个200万-现在给下一个-宇树-当董事长",
+      "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+      "url": "https://www.qbitai.com/2026/08/478234.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T11:17:22.000Z",
+      "summary": "多多支持像王兴兴这样优秀的具身机器人创业者",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-中信证券-科技股近期的调整不能简单归因于美国长债利率高企",
+      "title": "中信证券：科技股近期的调整不能简单归因于美国长债利率高企",
+      "url": "https://36kr.com/newsflashes/3951906148072579?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T09:40:08.000Z",
+      "summary": "中信证券研报认为，科技股近期的调整不能简单归因于美国长债利率高企，调整的背后是人工智能相关股票的远期定价问题，有三个关键叙事变量：1)商业化的速率和空间是否跟得上市场预期；2)算力优势是不是带来份额和定价权优势；3)当期的算力差距是否会明显拉开远期的人工智能模型差距。这其中当前共识性担忧是商业化的速率和空间，最大的潜在变量是“防蒸馏”是否在未来会重新拉大模型差距。至于宏观因素……",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能顺利-更好",
       "title": "人工智能顺利，更好",
       "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
@@ -1369,22 +1387,6 @@
         "研究论文"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-38-15秒-天工队夺得本届人形机器人运动会首金",
-      "title": "38.15秒！天工队夺得本届人形机器人运动会首金",
-      "url": "https://36kr.com/newsflashes/3951859548896647?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T08:54:55.000Z",
-      "summary": "在第二届世界人形机器人运动会“冰丝带”比赛现场，400米大型组决赛开赛。经过角逐，天工队以38.15秒的成绩夺得本届世界人形机器人运动会首金。追风仔仔队、惊鸿动力队分别以39.45秒、39.66秒的成绩获得银牌、铜牌。（央视新闻）",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 76,
       "image": ""
     },
     {
@@ -1624,19 +1626,21 @@
       "image": ""
     },
     {
-      "id": "qbitai-他给了王兴兴第一个200万-现在给下一个-宇树-当董事长",
-      "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
-      "url": "https://www.qbitai.com/2026/08/478234.html",
+      "id": "qbitai-匿名牛来大模型被扒出智谱血缘-也有人怀疑拿开源训的",
+      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑拿开源训的",
+      "url": "https://www.qbitai.com/2026/08/478191.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T11:17:22.000Z",
-      "summary": "多多支持像王兴兴这样优秀的具身机器人创业者",
+      "publishedAt": "2026-08-23T09:56:12.000Z",
+      "summary": "视频编码、接口报错全扒一遍",
       "topics": [
-        "机器人"
+        "模型发布",
+        "多模态",
+        "开源生态"
       ],
-      "heat": 80,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1671,7 +1675,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1878,21 +1882,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-匿名牛来大模型被扒出智谱血缘-也有人怀疑拿开源训的",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑拿开源训的",
-      "url": "https://www.qbitai.com/2026/08/478191.html",
+      "id": "qbitai-英伟达人工智能服务器将涨价15-相关型号数据中心成本激增50亿美元",
+      "title": "英伟达人工智能服务器将涨价15%！相关型号数据中心成本激增50亿美元",
+      "url": "https://www.qbitai.com/2026/08/478164.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T09:56:12.000Z",
-      "summary": "视频编码、接口报错全扒一遍",
+      "publishedAt": "2026-08-23T09:51:49.000Z",
+      "summary": "内存成本飙升逼涨硬件",
       "topics": [
-        "模型发布",
-        "多模态",
-        "开源生态"
+        "算力芯片"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1946,7 +1948,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2139,19 +2141,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-英伟达人工智能服务器将涨价15-相关型号数据中心成本激增50亿美元",
-      "title": "英伟达人工智能服务器将涨价15%！相关型号数据中心成本激增50亿美元",
-      "url": "https://www.qbitai.com/2026/08/478164.html",
+      "id": "qbitai-全球首次-机器人迎战网球运动员-极限救球-摔倒光速弹起",
+      "title": "全球首次！机器人迎战网球运动员，极限救球，摔倒光速弹起",
+      "url": "https://www.qbitai.com/2026/08/478093.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T09:51:49.000Z",
-      "summary": "内存成本飙升逼涨硬件",
+      "publishedAt": "2026-08-23T09:45:27.000Z",
+      "summary": "时刻背后的硬核技术",
       "topics": [
-        "算力芯片"
+        "机器人"
       ],
-      "heat": 87,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2222,7 +2224,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2379,19 +2381,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-全球首次-机器人迎战网球运动员-极限救球-摔倒光速弹起",
-      "title": "全球首次！机器人迎战网球运动员，极限救球，摔倒光速弹起",
-      "url": "https://www.qbitai.com/2026/08/478093.html",
+      "id": "qbitai-不做硅谷-几个读博的年轻人-押注双足人形的一体化大脑",
+      "title": "不做硅谷：几个读博的年轻人，押注双足人形的一体化大脑",
+      "url": "https://www.qbitai.com/2026/08/478020.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T09:45:27.000Z",
-      "summary": "时刻背后的硬核技术",
+      "publishedAt": "2026-08-23T09:29:59.000Z",
+      "summary": "机器人开卡丁车连续过弯，一镜到底全自主",
       "topics": [
         "机器人"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2408,7 +2410,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2584,22 +2586,6 @@
       "image": ""
     },
     {
-      "id": "qbitai-不做硅谷-几个读博的年轻人-押注双足人形的一体化大脑",
-      "title": "不做硅谷：几个读博的年轻人，押注双足人形的一体化大脑",
-      "url": "https://www.qbitai.com/2026/08/478020.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T09:29:59.000Z",
-      "summary": "机器人开卡丁车连续过弯，一镜到底全自主",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-人工智能安全公司-人工智能没有导致失业率的增加",
       "title": "人工智能安全公司：人工智能没有导致失业率的增加",
       "url": "https://news.cnblogs.com/n/834826/",
@@ -2614,6 +2600,22 @@
         "研究论文"
       ],
       "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "qbitai-你的第一个个人机器人开启预订-上纬新材拉开家庭机器人消费时代序幕",
+      "title": "你的第一个个人机器人开启预订！上纬新材拉开家庭机器人消费时代序幕",
+      "url": "https://www.qbitai.com/2026/08/478017.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T07:17:41.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 77,
       "image": ""
     },
     {
@@ -2786,19 +2788,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-你的第一个个人机器人开启预订-上纬新材拉开家庭机器人消费时代序幕",
-      "title": "你的第一个个人机器人开启预订！上纬新材拉开家庭机器人消费时代序幕",
-      "url": "https://www.qbitai.com/2026/08/478017.html",
+      "id": "qbitai-从世界模型到现实生产力-无界动力深度参与主论坛及多场同期活动",
+      "title": "从世界模型到现实生产力，无界动力深度参与主论坛及多场同期活动",
+      "url": "https://www.qbitai.com/2026/08/478007.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T07:17:41.000Z",
+      "publishedAt": "2026-08-23T07:12:22.000Z",
       "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
