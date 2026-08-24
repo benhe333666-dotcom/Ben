@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-08-24T10:44:34.640Z",
+  "generatedAt": "2026-08-24T11:13:06.012Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-24T11:00:00.000Z",
+  "nextUpdateHint": "2026-08-24T11:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-24T10:41:09.000Z"
+    "latestPublishedAt": "2026-08-24T11:06:39.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 70,
-      "heat": 76
+      "heat": 75
     },
     {
       "name": "模型发布",
-      "count": 53,
-      "heat": 77
+      "count": 55,
+      "heat": 78
     },
     {
       "name": "算力芯片",
-      "count": 20,
+      "count": 19,
       "heat": 89
+    },
+    {
+      "name": "人工智能动态",
+      "count": 23,
+      "heat": 72
     },
     {
       "name": "投融资",
@@ -32,24 +37,19 @@
       "heat": 92
     },
     {
-      "name": "人工智能动态",
-      "count": 22,
-      "heat": 72
-    },
-    {
       "name": "研究论文",
-      "count": 18,
-      "heat": 65
-    },
-    {
-      "name": "多模态",
-      "count": 14,
-      "heat": 79
+      "count": 20,
+      "heat": 68
     },
     {
       "name": "监管安全",
-      "count": 15,
-      "heat": 71
+      "count": 17,
+      "heat": 74
+    },
+    {
+      "name": "多模态",
+      "count": 13,
+      "heat": 79
     },
     {
       "name": "开源生态",
@@ -57,14 +57,14 @@
       "heat": 80
     },
     {
-      "name": "端侧智能",
+      "name": "机器人",
       "count": 10,
       "heat": 85
     },
     {
-      "name": "机器人",
-      "count": 9,
-      "heat": 84
+      "name": "端侧智能",
+      "count": 8,
+      "heat": 82
     }
   ],
   "sources": [
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-08-20T07:00:00.000Z",
       "latestDisplayedAt": "2026-08-20T07:00:00.000Z"
     },
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
       "itemCount": 1,
       "displayedCount": 1,
-      "latestFetchedAt": "2026-08-23T20:13:34.000Z",
-      "latestDisplayedAt": "2026-08-23T20:13:34.000Z"
+      "latestFetchedAt": "2026-08-24T10:28:56.000Z",
+      "latestDisplayedAt": "2026-08-24T10:28:56.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-24T10:39:09.000Z",
-      "latestDisplayedAt": "2026-08-24T10:39:09.000Z"
+      "latestFetchedAt": "2026-08-24T10:05:36.000Z",
+      "latestDisplayedAt": "2026-08-24T10:05:36.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -400,7 +400,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 9,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-08-24T08:07:59.000Z",
       "latestDisplayedAt": "2026-08-24T08:07:59.000Z"
     },
@@ -415,7 +415,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 19,
+      "itemCount": 18,
       "displayedCount": 9,
       "latestFetchedAt": "2026-08-24T08:41:00.000Z",
       "latestDisplayedAt": "2026-08-24T08:41:00.000Z"
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 14,
+      "itemCount": 13,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-24T10:33:16.000Z",
-      "latestDisplayedAt": "2026-08-24T10:33:16.000Z"
+      "latestFetchedAt": "2026-08-24T11:06:39.000Z",
+      "latestDisplayedAt": "2026-08-24T11:06:39.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-24T10:41:09.000Z",
-      "latestDisplayedAt": "2026-08-24T10:41:09.000Z"
+      "latestFetchedAt": "2026-08-24T10:46:59.000Z",
+      "latestDisplayedAt": "2026-08-24T10:46:59.000Z"
     },
     {
       "id": "oschina",
@@ -488,55 +488,53 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-豪威集团-2026-年上半年归母净利润-12-2-亿元-同比下降-39-85",
-      "title": "豪威集团 2026 年上半年归母净利润 12.2 亿元，同比下降 39.85%",
-      "url": "https://www.ithome.com/0/993/693.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T10:41:09.000Z",
-      "summary": "科技之家 8 月 24 日消息，豪威集团今日发布 2026 年上半年（2026 年 1 月～2026 年 6 月）报告：营业总收入：140.25 亿元，同比增长 0.49% 归母净利润：12.2 亿元，同比下降 39.85% 扣非净利润：12.42 亿元，同比下降 36.33% 经营现金流：4.08 亿元，同比下降 78.4% 加权平均净资产收益率：3.73% 基本每股收益：……",
-      "topics": [
-        "产品应用",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-大语言模型-²-问题",
-      "title": "大语言模型？² 问题",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwz573/will_this_replace_llms_on%C2%B2_problem/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T10:39:09.000Z",
-      "summary": "; 问题: ²。构建数据中心向解决。²，来自大语言模型。新增和，我们 : 新人工智能。由",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 86,
-      "image": "https://external-preview.redd.it/DD4L0wLdMlym81vp6M84ENWuEDfttgdgKEkC7EFpF2A.jpeg?width=640&crop=smart&auto=webp&s=656ab098abcf8871b95c4a160b43093f7e167ffb"
-    },
-    {
-      "id": "thirty-six-kr-在轨3年-全栈自研-宇航级热控方案供应商-锐莱热控-获-轮数千万融资-36氪首发",
-      "title": "在轨3年、全栈自研，宇航级热控方案供应商「锐莱热控」获+轮数千万融资｜36氪首发",
-      "url": "https://36kr.com/p/3953370022034820?f=rss",
+      "id": "thirty-six-kr-上海市新增1款已完成备案的生成式人工智能服务",
+      "title": "上海市新增1款已完成备案的生成式人工智能服务",
+      "url": "https://36kr.com/newsflashes/3953419875646593?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:33:16.000Z",
-      "summary": "热管理正从卫星的辅助分系统，成为制约星座规模化、商业化落地的核心变量。36氪获悉，宇航级热控方案供应商锐莱热控科技（北京）有限公司（以下简称“锐莱热控”）已于近期完成+轮数千万融资。本轮融资由英诺天使基金、方广资本、集萃华财、湘江信成联合投资，老股东金雨茂物持续加持。资金将主要用于宇航主动液冷业务研发、被动热管理产线扩建以及产业链上下游的延伸布局。锐莱热控是国内少数掌握主动热……",
+      "publishedAt": "2026-08-24T11:06:39.000Z",
+      "summary": "36氪获悉，据网信上海消息，截至8月24日，上海市新增1款已完成备案的生成式人工智能服务，累计已完成188款生成式人工智能服务备案。",
       "topics": [
-        "产品应用",
-        "算力芯片",
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "ithome-消息称蔚来智驾负责人任少卿创立具身智能公司-蔚来将战略投资",
+      "title": "消息称蔚来智驾负责人任少卿创立具身智能公司，蔚来将战略投资",
+      "url": "https://www.ithome.com/0/993/696.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T10:46:59.000Z",
+      "summary": "科技之家 8 月 24 日消息，据晚点消息，8 月 24 日，蔚来首席执行官李斌在智驾全员会上宣布，智能驾驶负责人任少卿已创立物理人工智能基础模型和具身智能独立公司，蔚来将战略投资并与之开展合作。知情人士称，“会议很简短，没有提及组织架构变动。” 一位参与此次全员会的人士称，李斌和任少卿在会议上明确表示，任少卿将继续担任蔚来智能驾驶业务负责人。报道称任少卿创立的新公司已经完成……",
+      "topics": [
+        "模型发布",
+        "研究论文",
         "投融资"
       ],
-      "heat": 98,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://news.ycombinator.com/item?id=49417766",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T10:28:56.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -554,6 +552,24 @@
         "算力芯片"
       ],
       "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwyiv3/exploring_a_nord_rhea_hybrid_a_spikingeventdriven/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T10:05:36.000Z",
+      "summary": "​ 面向借助面向语言模型，和进入。首个，词元，时间，和，在 ~1 十亿。每个词元修复，模型和，呼吁，值得。:，值得，\\ \\，新和创建新 : + 部件认为和顺利。: 词元，\\，\\，新记忆，: =，记忆，本地 = 认知，=，面向成本，实际，向借助问题在。: +，向: +，: : :，模型。认为向持续和语言，面向，记忆，和。: 词元向量嵌入，模型，记忆，部件记忆。进入记忆 : 记忆……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 95,
       "image": ""
     },
     {
@@ -621,7 +637,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -669,23 +685,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://arxiv.org/abs/2608.20186",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T20:13:34.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 76,
+      "heat": 80,
       "image": ""
     },
     {
@@ -701,7 +701,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -717,7 +717,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -904,53 +904,39 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png"
     },
     {
-      "id": "ithome-天马微电子-2026-年上半年归母亏损-7-28-亿元-同比由盈转亏",
-      "title": "天马微电子 2026 年上半年归母亏损 7.28 亿元，同比由盈转亏",
-      "url": "https://www.ithome.com/0/993/691.htm",
+      "id": "ithome-内存持续短缺-全球平板显示器市场今年预计同比下降-4-7",
+      "title": "内存持续短缺，全球平板显示器市场今年预计同比下降 4.7%",
+      "url": "https://www.ithome.com/0/993/694.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:33:51.000Z",
-      "summary": "科技之家 8 月 24 日消息，天马微电子今日发布 2026 年上半年（2026 年 1 月～2026 年 6 月）报告：营业总收入：166.91 亿元，同比下降 4.49% 归母净利润：-7.28 亿元，同比由盈转亏扣非净利润：-8.8 亿元，同比亏损扩大 250.73% 经营现金流：26.31 亿元，同比下降 33.69% 加权平均净资产收益率：-2.71%，同比由盈转亏……",
+      "publishedAt": "2026-08-24T10:43:31.000Z",
+      "summary": "科技之家 8 月 24 日消息，今日在《平板显示器追踪与预测报告》中指出，由于人工智能数据中心需求持续增长导致内存价格暴涨，终端设备（含手机、平板）受到波及，全球平板显示器出货量预计在 2026 年同比下降 4.7%。研究研究总监 ' 对此表示：内存芯片价格高企正推动一系列电子产品涨价，导致市场需求下降。尤其是在智能手机和电脑的中低端市场，厂商已经无法维持过去几年的激进定价，……",
       "topics": [
-        "投融资"
+        "产品应用",
+        "算力芯片",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-趣致集团-上半年收入8-27亿元-同比增长22-2",
-      "title": "趣致集团：上半年收入8.27亿元，同比增长22.2%",
-      "url": "https://36kr.com/newsflashes/3953348267179142?f=rss",
+      "id": "thirty-six-kr-在轨3年-全栈自研-宇航级热控方案供应商-锐莱热控-获-轮数千万融资-36氪首发",
+      "title": "在轨3年、全栈自研，宇航级热控方案供应商「锐莱热控」获+轮数千万融资｜36氪首发",
+      "url": "https://36kr.com/p/3953370022034820?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:10:32.000Z",
-      "summary": "36氪获悉，趣致集团披露2026年中期业绩公告。2026上半年实现收入8.27亿元，同比增长22.2%，毛利增速达27.1%；人工智能互动营销收入达到1.32亿元，同比增长101.9%；使用该项服务的客户数同比增长96.2%至51家。",
+      "publishedAt": "2026-08-24T10:33:16.000Z",
+      "summary": "热管理正从卫星的辅助分系统，成为制约星座规模化、商业化落地的核心变量。36氪获悉，宇航级热控方案供应商锐莱热控科技（北京）有限公司（以下简称“锐莱热控”）已于近期完成+轮数千万融资。本轮融资由英诺天使基金、方广资本、集萃华财、湘江信成联合投资，老股东金雨茂物持续加持。资金将主要用于宇航主动液冷业务研发、被动热管理产线扩建以及产业链上下游的延伸布局。锐莱热控是国内少数掌握主动热……",
       "topics": [
-        "人工智能动态"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwyiv3/exploring_a_nord_rhea_hybrid_a_spikingeventdriven/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T10:05:36.000Z",
-      "summary": "​ 面向借助面向语言模型，和进入。首个，词元，时间，和，在 ~1 十亿。每个词元修复，模型和，呼吁，值得。:，值得，\\ \\，新和创建新 : + 部件认为和顺利。: 词元，\\，\\，新记忆，: =，记忆，本地 = 认知，=，面向成本，实际，向借助问题在。: +，向: +，: : :，模型。认为向持续和语言，面向，记忆，和。: 词元向量嵌入，模型，记忆，部件记忆。进入记忆 : 记忆……",
-      "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 95,
+      "heat": 98,
       "image": ""
     },
     {
@@ -969,6 +955,22 @@
         "投融资"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-人工智能工作流-在",
+      "title": "人工智能工作流，在。",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwy928/ai_has_changed_my_workflow_more_than_i_expected/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T09:50:36.000Z",
+      "summary": "关于，向。使用人工智能面向，代码，用户。部件。没有时间，和。信息技术向。关于建设者和这里工具工作流人工智能只是。在。任务来自向人工智能，和？成本。工具，和向 $2040，月工具五个。实际在在。由",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -1018,7 +1020,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1051,7 +1053,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1067,7 +1069,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -1240,53 +1242,53 @@
       "image": ""
     },
     {
-      "id": "ithome-拼多多-2026-财年上半年归母净利润-397-29-亿元-同比下降-12-68",
-      "title": "拼多多 2026 财年上半年归母净利润 397.29 亿元，同比下降 12.68%",
-      "url": "https://www.ithome.com/0/993/690.htm",
+      "id": "ithome-豪威集团-2026-年上半年归母净利润-12-2-亿元-同比下降-39-85",
+      "title": "豪威集团 2026 年上半年归母净利润 12.2 亿元，同比下降 39.85%",
+      "url": "https://www.ithome.com/0/993/693.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:33:22.000Z",
-      "summary": "科技之家 8 月 24 日消息，拼多多今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）及第二财季（2026 年 4 月～2026 年 6 月）报告：2026 财年半年报营业总收入：2185.87 亿元，同比增长 9.48% 毛利润：1236.77 亿元毛利率：56.58% 归母净利润：397.29 亿……",
+      "publishedAt": "2026-08-24T10:41:09.000Z",
+      "summary": "科技之家 8 月 24 日消息，豪威集团今日发布 2026 年上半年（2026 年 1 月～2026 年 6 月）报告：营业总收入：140.25 亿元，同比增长 0.49% 归母净利润：12.2 亿元，同比下降 39.85% 扣非净利润：12.42 亿元，同比下降 36.33% 经营现金流：4.08 亿元，同比下降 78.4% 加权平均净资产收益率：3.73% 基本每股收益：……",
       "topics": [
-        "投融资"
+        "产品应用",
+        "投融资",
+        "多模态"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-趣致集团-上半年收入8-27亿元-同比增长22-2",
+      "title": "趣致集团：上半年收入8.27亿元，同比增长22.2%",
+      "url": "https://36kr.com/newsflashes/3953348267179142?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T10:10:32.000Z",
+      "summary": "36氪获悉，趣致集团披露2026年中期业绩公告。2026上半年实现收入8.27亿元，同比增长22.2%，毛利增速达27.1%；人工智能互动营销收入达到1.32亿元，同比增长101.9%；使用该项服务的客户数同比增长96.2%至51家。",
+      "topics": [
+        "人工智能动态"
       ],
       "heat": 87,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-英伟达洽谈投资-企业估值或超300亿美元",
-      "title": "英伟达洽谈投资，企业估值或超300亿美元",
-      "url": "https://36kr.com/newsflashes/3953335594990727?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T10:07:36.000Z",
-      "summary": "据知情人士透露，英伟达正洽谈对人工智能初创企业进行股权投资，本轮融资完成后这家人工智能公司估值或将超过300亿美元。知情人士称，本轮融资规模达数十亿美元，相比该公司一年前上一轮融资，估值增幅将超过50%。两家企业的业务合作持续深化；得益于人工智能智能体产品 （面向职场用户、可自动化电脑操作），年化营收从年初不足2.5亿美元攀升至7.5亿美元以上。（新浪财经）",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能工作流-在",
-      "title": "人工智能工作流，在。",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwy928/ai_has_changed_my_workflow_more_than_i_expected/",
+      "id": "reddit-artificial-大语言模型在谷歌借助人工智能模型-这里",
+      "title": "大语言模型在谷歌借助人工智能模型？这里",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwy7r7/how_does_the_llm_on_google_compare_with_other_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T09:50:36.000Z",
-      "summary": "关于，向。使用人工智能面向，代码，用户。部件。没有时间，和。信息技术向。关于建设者和这里工具工作流人工智能只是。在。任务来自向人工智能，和？成本。工具，和向 $2040，月工具五个。实际在在。由",
+      "publishedAt": "2026-08-24T09:48:31.000Z",
+      "summary": "借助，双子座模型，只是大语言模型在谷歌，和信息技术在，和只是关于，向进入。面向和帮助。信息技术，信息技术。信息技术向，在？和，向，向在和。试图向，借助，只是面向。由",
       "topics": [
-        "产品应用"
+        "模型发布"
       ],
-      "heat": 85,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1325,23 +1327,6 @@
       "image": ""
     },
     {
-      "id": "qbitai-阿里视频大模型相关型号正式上线-行业评价-稳定-真实-有质感",
-      "title": "阿里视频大模型相关型号正式上线，行业评价“稳定、真实、有质感”",
-      "url": "https://www.qbitai.com/2026/08/478427.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T05:09:27.000Z",
-      "summary": "8月24日，阿里巴巴视频生成大模型相关型号正式上线。",
-      "topics": [
-        "模型发布",
-        "多模态"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-人工智能偶像-不能照搬真人明星的逻辑",
       "title": "人工智能偶像，不能照搬真人明星的逻辑",
       "url": "https://news.cnblogs.com/n/834881/",
@@ -1371,7 +1356,23 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "qbitai-前保安杀进了人工智能决赛-高中生拿走25万-这人工智能比赛办得有点绝",
+      "title": "前保安杀进了人工智能决赛，高中生拿走25万！这人工智能比赛办得有点绝",
+      "url": "https://www.qbitai.com/2026/08/478358.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T23:19:06.000Z",
+      "summary": "和胡彦斌亲自颁奖",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 80,
       "image": ""
     },
     {
@@ -1387,7 +1388,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1525,52 +1526,56 @@
       "image": ""
     },
     {
-      "id": "ithome-爱玛科技-2026-年上半年归母净利润-6-65-亿元-同比下降-45-15",
-      "title": "爱玛科技 2026 年上半年归母净利润 6.65 亿元，同比下降 45.15%",
-      "url": "https://www.ithome.com/0/993/685.htm",
+      "id": "ithome-小鹏集团-2026-财年上半年归母亏损-31-21-亿元-同比扩大-173-35",
+      "title": "小鹏集团 2026 财年上半年归母亏损 31.21 亿元，同比扩大 173.35%",
+      "url": "https://www.ithome.com/0/993/692.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:09:48.000Z",
-      "summary": "科技之家 8 月 24 日消息，爱玛科技今日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）报告：营业总收入：114.39 亿元，同比下降 12.21% 归母净利润：6.65 亿元，同比下降 45.15% 扣非净利润：5.98 亿元，同比下降 49.45% 经营现金流：-6.01 亿元，同比下降 123.25% 由正转负加权平均净资产收益率：6.48% ……",
+      "publishedAt": "2026-08-24T10:34:52.000Z",
+      "summary": "科技之家 8 月 24 日消息，小鹏集团今日发布 2026 财年（2026 年 1 月～2026 年 12 月）上半年（2026 年 1 月～2026 年 6 月）报告：营业总收入：327.77 亿元，同比下降 3.8% 毛利润：67.66 亿元，同比增长 20.25% 毛利率：20.6%，同比增长 4.1 个百分点归母净利润：-31.21 亿元，同比亏损扩大 173.35%……",
       "topics": [
-        "投融资"
+        "投融资",
+        "机器人"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-上海-加速相关型号级有条件自动驾驶-相关型号级高度自动驾驶量产",
-      "title": "上海：加速相关型号级有条件自动驾驶、相关型号级高度自动驾驶量产",
-      "url": "https://36kr.com/newsflashes/3953359650618758?f=rss",
+      "id": "thirty-six-kr-英伟达洽谈投资-企业估值或超300亿美元",
+      "title": "英伟达洽谈投资，企业估值或超300亿美元",
+      "url": "https://36kr.com/newsflashes/3953335594990727?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:05:23.000Z",
-      "summary": "36氪获悉，上海印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。规划提出，推动整车智造转型升级，强化整车龙头企业本地研发，聚焦自动驾驶、动力电池创新，深化全栈技术自主可控，丰富高端产品供给。加快智能网联创新应用，深化自动驾驶实训场建设，实现相关型号级组合辅助驾驶新车全覆盖，加速相关型号级有条件自动驾驶、相关型号级高度自动驾驶量产。稳步推进智能公交、智能重卡、……",
+      "publishedAt": "2026-08-24T10:07:36.000Z",
+      "summary": "据知情人士透露，英伟达正洽谈对人工智能初创企业进行股权投资，本轮融资完成后这家人工智能公司估值或将超过300亿美元。知情人士称，本轮融资规模达数十亿美元，相比该公司一年前上一轮融资，估值增幅将超过50%。两家企业的业务合作持续深化；得益于人工智能智能体产品 （面向职场用户、可自动化电脑操作），年化营收从年初不足2.5亿美元攀升至7.5亿美元以上。（新浪财经）",
       "topics": [
         "产品应用",
-        "端侧智能"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-大语言模型在谷歌借助人工智能模型-这里",
-      "title": "大语言模型在谷歌借助人工智能模型？这里",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwy7r7/how_does_the_llm_on_google_compare_with_other_ai/",
+      "id": "reddit-artificial-新向构建更智能人工智能",
+      "title": "新向构建更智能人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwxaip/a_new_approach_to_building_smarter_more_capable_ai/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T09:48:31.000Z",
-      "summary": "借助，双子座模型，只是大语言模型在谷歌，和信息技术在，和只是关于，向进入。面向和帮助。信息技术，信息技术。信息技术向，在？和，向，向在和。试图向，借助，只是面向。由",
+      "publishedAt": "2026-08-24T08:54:56.000Z",
+      "summary": "新向构建更智能人工智能我们向在我们查看面向在向人工智能。我们智能我们 : 我们构建面向模型向使用脚手架。模型。脚手架借助，信息技术，和作为信息技术信息技术智能体向，没有没有。信息技术正确智能体和。我们持续，答案。脚手架改进模型。和面向模型训练。在脚手架模型向改进和脚手架。和脚手架控制模型在由",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1624,23 +1629,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "qbitai-前保安杀进了人工智能决赛-高中生拿走25万-这人工智能比赛办得有点绝",
-      "title": "前保安杀进了人工智能决赛，高中生拿走25万！这人工智能比赛办得有点绝",
-      "url": "https://www.qbitai.com/2026/08/478358.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T23:19:06.000Z",
-      "summary": "和胡彦斌亲自颁奖",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 81,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1662,6 +1651,22 @@
       "image": ""
     },
     {
+      "id": "qbitai-唯一真-人机共生-展台-是家沉浸式机器人咖啡店",
+      "title": "唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
+      "url": "https://www.qbitai.com/2026/08/478319.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-23T13:20:00.000Z",
+      "summary": "玩的就是真实",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 72,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能首个员工信息技术规则",
       "title": "人工智能首个员工信息技术规则",
       "url": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
@@ -1675,7 +1680,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1816,55 +1821,53 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-上海-全面提升智能计算能力-探索异构计算-光计算-量子人工智能等创新架构",
-      "title": "上海：全面提升智能计算能力，探索异构计算、光计算、量子人工智能等创新架构",
-      "url": "https://36kr.com/newsflashes/3953359183182976?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T10:04:55.000Z",
-      "summary": "36氪获悉，上海印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。规划提出，全面提升智能计算能力，攻关高性能、低功耗、高效率的智算芯片，提升集群组网和云服务能力，探索异构计算、光计算、量子人工智能等创新架构；优化智算基础设施，构建城市算力网络。持续发力大模型，聚焦下一代大模型研发，攻克架构设计、训练优化等关键技术，推动芯片、大模型、智算云协同发展，构建自主生态……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "ithome-出样-300-毫米高导热衬底-散热性能提升多达-25",
-      "title": "出样 300 毫米高导热衬底，散热性能提升多达 25%",
-      "url": "https://www.ithome.com/0/993/682.htm",
+      "id": "ithome-天马微电子-2026-年上半年归母亏损-7-28-亿元-同比由盈转亏",
+      "title": "天马微电子 2026 年上半年归母亏损 7.28 亿元，同比由盈转亏",
+      "url": "https://www.ithome.com/0/993/691.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:03:37.000Z",
-      "summary": "科技之家 8 月 24 日消息，光学企业上周宣布已开始向人工智能半导体合作伙伴提供 300 毫米（12 英寸）高导热性碳化硅 () 衬底样品，宣称新品散热性能比现有解决方案提升多达 25%。作为一种化合物半导体，碳化硅不仅拥有出众的电压耐受能力，还拥有优秀的光学与热学性能，这也解释了为何推出看似“跨界”的导热衬底。高级副总裁兼总经理表示：人工智能性能日益受到业界散热能力的限制……",
+      "publishedAt": "2026-08-24T10:33:51.000Z",
+      "summary": "科技之家 8 月 24 日消息，天马微电子今日发布 2026 年上半年（2026 年 1 月～2026 年 6 月）报告：营业总收入：166.91 亿元，同比下降 4.49% 归母净利润：-7.28 亿元，同比由盈转亏扣非净利润：-8.8 亿元，同比亏损扩大 250.73% 经营现金流：26.31 亿元，同比下降 33.69% 加权平均净资产收益率：-2.71%，同比由盈转亏……",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
       "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-新向构建更智能人工智能",
-      "title": "新向构建更智能人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwxaip/a_new_approach_to_building_smarter_more_capable_ai/",
+      "id": "thirty-six-kr-这场人工智能大赛上-年轻人把-人味-拉满了",
+      "title": "这场人工智能大赛上，年轻人把「人味」拉满了",
+      "url": "https://36kr.com/p/3953254092062085?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T08:19:21.000Z",
+      "summary": "前保安手搓的人工智能，让胡彦斌和现场玩嗨了撰文｜深海这或许是“人味儿”拉满的一场人工智能大赛——8月21日，人工智能创造力大赛决赛现场，气氛更像一场热闹的游园会。冠军属于三个相识于深圳科创学院的年轻创业者。他们开发的是一款人工智能硬件开发工具，一个专门给硬件设备做电路板的人工智能生成工具，全是复杂的技术名词和硬核的人工智能硬件基建，看起来就很符合科技黑客松的气质。但不是所有项……",
+      "topics": [
+        "产品应用",
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-认为人工智能记忆只是",
+      "title": "认为人工智能记忆只是",
+      "url": "https://www.reddit.com/r/artificial/comments/1vww7ix/i_think_ai_memory_is_more_than_just_remembering/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T08:54:56.000Z",
-      "summary": "新向构建更智能人工智能我们向在我们查看面向在向人工智能。我们智能我们 : 我们构建面向模型向使用脚手架。模型。脚手架借助，信息技术，和作为信息技术信息技术智能体向，没有没有。信息技术正确智能体和。我们持续，答案。脚手架改进模型。和面向模型训练。在脚手架模型向改进和脚手架。和脚手架控制模型在由",
+      "publishedAt": "2026-08-24T07:49:04.000Z",
+      "summary": "认为关于。最人工智能记忆向 : 在认为记忆，决策，和。创建我们变成我们。人工智能没有只是关于？面向，人工智能访问向，和决策。: 关于？: 3？查看在决策？为什么认为？即将推出向？我们借助我们构建呼吁借助。向创建上下文面向，部件时间。认为: 实际人工智能向？由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 94,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1920,19 +1923,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-唯一真-人机共生-展台-是家沉浸式机器人咖啡店",
-      "title": "唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
-      "url": "https://www.qbitai.com/2026/08/478319.html",
+      "id": "qbitai-具身创业里的香港教授们",
+      "title": "具身创业里的香港教授们",
+      "url": "https://www.qbitai.com/2026/08/478289.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T13:20:00.000Z",
-      "summary": "玩的就是真实",
+      "publishedAt": "2026-08-23T11:20:13.000Z",
+      "summary": "香港的大学里冒出了一批很特别的人",
       "topics": [
         "机器人"
       ],
-      "heat": 72,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1948,7 +1951,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1964,7 +1967,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2085,53 +2088,53 @@
       "image": ""
     },
     {
-      "id": "ithome-何小鹏-不远的将来-会努力将第一个高阶人形机器人带入真正的现实",
-      "title": "何小鹏：不远的将来，会努力将第一个高阶人形机器人带入真正的现实",
-      "url": "https://www.ithome.com/0/993/681.htm",
+      "id": "ithome-拼多多-2026-财年上半年归母净利润-397-29-亿元-同比下降-12-68",
+      "title": "拼多多 2026 财年上半年归母净利润 397.29 亿元，同比下降 12.68%",
+      "url": "https://www.ithome.com/0/993/690.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:01:50.000Z",
-      "summary": "科技之家 8 月 24 日消息，小鹏官宣机器人业务首轮融资超 9 亿美元后，小鹏集团董事长、首席执行官何小鹏发文称：感谢所有投资人、鹏友和同学们的信任和支持不远的将来，小鹏会努力将第一个高阶人形机器人带入到真正的现实，会和市面上所有看到的机器人都不一样。更拟人，更安全，不用遥控器，可自然交互，有自己的记忆，真正创造价值，不是演示而是真正量产，走到现实。据悉，此轮融资刷新中国具……",
+      "publishedAt": "2026-08-24T10:33:22.000Z",
+      "summary": "科技之家 8 月 24 日消息，拼多多今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）及第二财季（2026 年 4 月～2026 年 6 月）报告：2026 财年半年报营业总收入：2185.87 亿元，同比增长 9.48% 毛利润：1236.77 亿元毛利率：56.58% 归母净利润：397.29 亿……",
       "topics": [
-        "产品应用",
-        "监管安全",
         "投融资"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-浙江省数据集团登记成立-注册资本20亿",
-      "title": "浙江省数据集团登记成立，注册资本20亿",
-      "url": "https://36kr.com/newsflashes/3953290922261640?f=rss",
+      "id": "thirty-six-kr-独家-字节人工智能生产力整合-扣子并入豆包-将推统一办公品牌-豆包工作",
+      "title": "独家，字节人工智能生产力整合、扣子并入豆包，将推统一办公品牌 \"豆包工作\"",
+      "url": "https://36kr.com/p/3953230805876099?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:00:27.000Z",
-      "summary": "36氪获悉，天眼查应用显示，近日，浙江省数据集团有限公司成立，法定代表人为梁立鹏，注册资本20亿人民币，经营范围含大数据服务，数据处理服务，数据处理和存储支持服务，互联网数据服务，工业互联网数据服务，人工智能公共数据平台等，由杭州钢铁集团有限公司全资持股。",
+      "publishedAt": "2026-08-24T07:59:59.000Z",
+      "summary": "文，张雨忻智能涌现独家获悉，字节跳动对旗下的办公人工智能产品完成了一轮团队整合、扣子（）团队将整体并入豆包体系，其中、扣子将与豆包在工作场景的产品能力进行整合；及将作为豆包品牌下的编程产品线持续发展。调整后，以上产品和运营团队向豆包产品负责人赵祺汇报。与扣子原隶属于字节跳动产品研发和工程架构部。最初定位为人工智能编程产品，扣子定位为人工智能智能体开发平台，后续在不同的智能体方……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 88,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "reddit-artificial-认为人工智能记忆只是",
-      "title": "认为人工智能记忆只是",
-      "url": "https://www.reddit.com/r/artificial/comments/1vww7ix/i_think_ai_memory_is_more_than_just_remembering/",
+      "id": "reddit-artificial-实时-模型",
+      "title": "实时 :，模型？",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwv3bv/live_experiment_can_a_humanfrontiermodel/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T07:49:04.000Z",
-      "summary": "认为关于。最人工智能记忆向 : 在认为记忆，决策，和。创建我们变成我们。人工智能没有只是关于？面向，人工智能访问向，和决策。: 关于？: 3？查看在决策？为什么认为？即将推出向？我们借助我们构建呼吁借助。向创建上下文面向，部件时间。认为: 实际人工智能向？由",
+      "publishedAt": "2026-08-24T06:43:20.000Z",
+      "summary": "这里。向，和试图向关于人工智能。前沿模型在社区论坛和转化由转化。问题 : 我们智能作为模型和。回归部件回归。问题，转化，生成信息技术。我们呼吁来自来自向回归向。重要。信息技术只是向我们面向。关于信息技术，向这里借助，和。问题信息技术。问题和转化来自回归，向，向。通用人工智能。只是和。由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 83,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2149,7 +2152,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2185,19 +2188,19 @@
       "image": ""
     },
     {
-      "id": "qbitai-具身创业里的香港教授们",
-      "title": "具身创业里的香港教授们",
-      "url": "https://www.qbitai.com/2026/08/478289.html",
+      "id": "qbitai-他给了王兴兴第一个200万-现在给下一个-宇树-当董事长",
+      "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+      "url": "https://www.qbitai.com/2026/08/478234.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T11:20:13.000Z",
-      "summary": "香港的大学里冒出了一批很特别的人",
+      "publishedAt": "2026-08-23T11:17:22.000Z",
+      "summary": "多多支持像王兴兴这样优秀的具身机器人创业者",
       "topics": [
         "机器人"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2215,7 +2218,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2303,56 +2306,54 @@
       "image": "https://media.wired.com/photos/6a834e67effc1720d3a37bb8/master/pass/ZAI-Most-Skilled-AI-Yet-Business-1044672050.jpg"
     },
     {
-      "id": "ithome-零跑汽车-2026-年上半年归母净利润-2-08-亿元-同比增长-530-97",
-      "title": "零跑汽车 2026 年上半年归母净利润 2.08 亿元，同比增长 530.97%",
-      "url": "https://www.ithome.com/0/993/680.htm",
+      "id": "ithome-爱玛科技-2026-年上半年归母净利润-6-65-亿元-同比下降-45-15",
+      "title": "爱玛科技 2026 年上半年归母净利润 6.65 亿元，同比下降 45.15%",
+      "url": "https://www.ithome.com/0/993/685.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T10:00:38.000Z",
-      "summary": "科技之家 8 月 24 日消息，零跑汽车今日发布 2026 财年（2026 年 1 月～2026 年 12 月）半年报（2026 年 1 月～2026 年 6 月）报告：营业总收入：381.07 亿元，同比增长 57.2% 毛利润：44.45 亿元，同比增长 29.7% 毛利率：11.7% 归母净利润：2.08 亿元，同比增长 530.97% 经营现金流：21.7 亿元，同比……",
+      "publishedAt": "2026-08-24T10:09:48.000Z",
+      "summary": "科技之家 8 月 24 日消息，爱玛科技今日发布 2026 年半年度（2026 年 1 月～2026 年 6 月）报告：营业总收入：114.39 亿元，同比下降 12.21% 归母净利润：6.65 亿元，同比下降 45.15% 扣非净利润：5.98 亿元，同比下降 49.45% 经营现金流：-6.01 亿元，同比下降 123.25% 由正转负加权平均净资产收益率：6.48% ……",
       "topics": [
-        "投融资",
-        "端侧智能"
+        "投融资"
       ],
-      "heat": 92,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-这场人工智能大赛上-年轻人把-人味-拉满了",
-      "title": "这场人工智能大赛上，年轻人把「人味」拉满了",
-      "url": "https://36kr.com/p/3953254092062085?f=rss",
+      "id": "thirty-six-kr-李泽湘投过的商业园林机器人完成数千万融资-瞄准海外绿地智能运维-硬氪首发",
+      "title": "李泽湘投过的商业园林机器人完成数千万融资，瞄准海外绿地智能运维｜硬氪首发",
+      "url": "https://36kr.com/p/3947977664347270?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T08:19:21.000Z",
-      "summary": "前保安手搓的人工智能，让胡彦斌和现场玩嗨了撰文｜深海这或许是“人味儿”拉满的一场人工智能大赛——8月21日，人工智能创造力大赛决赛现场，气氛更像一场热闹的游园会。冠军属于三个相识于深圳科创学院的年轻创业者。他们开发的是一款人工智能硬件开发工具，一个专门给硬件设备做电路板的人工智能生成工具，全是复杂的技术名词和硬核的人工智能硬件基建，看起来就很符合科技黑客松的气质。但不是所有项……",
+      "publishedAt": "2026-08-24T07:07:48.000Z",
+      "summary": "作者，黄楠编辑，袁斯来硬氪获悉，商业园林机器人公司食铁兽科技（）近日完成数千万元第一轮融资融资，本轮由云时资本独家投资，星⾠资本担任财务顾问。资金将重点投入欧美澳市场交付体系搭建及全球渠道布局。此前，公司已获得李泽湘教授、奇绩创坛、险峰⻓⻘等机构投资。食铁兽成立于2021年，公司以相关型号商用割草机器人切入，围绕硬件模块化、设备运营和作业数据闭环，向多任务商业园林机器人的平台……",
       "topics": [
         "产品应用",
-        "多模态",
-        "端侧智能"
+        "投融资",
+        "机器人"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
-      "id": "reddit-artificial-实时-模型",
-      "title": "实时 :，模型？",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwv3bv/live_experiment_can_a_humanfrontiermodel/",
+      "id": "reddit-artificial-人工智能使用",
+      "title": "人工智能使用",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwulqn/ai_stigma_punishes_legitimate_use/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T06:43:20.000Z",
-      "summary": "这里。向，和试图向关于人工智能。前沿模型在社区论坛和转化由转化。问题 : 我们智能作为模型和。回归部件回归。问题，转化，生成信息技术。我们呼吁来自来自向回归向。重要。信息技术只是向我们面向。关于信息技术，向这里借助，和。问题信息技术。问题和转化来自回归，向，向。通用人工智能。只是和。由",
+      "publishedAt": "2026-08-24T06:14:48.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 87,
-      "image": ""
+      "heat": 81,
+      "image": "https://external-preview.redd.it/zLv_T9ONLiHQq_DS02M-jM3BGrRixB2iuSIFz1EDEII.jpeg?width=640&crop=smart&auto=webp&s=c1a4168fac20be5ab68ec05c4b309c5a6b580cbf"
     },
     {
       "id": "leiphone-2026-原生全模态世界模型-从模拟世界到交互世界",
@@ -2408,19 +2409,21 @@
       "image": ""
     },
     {
-      "id": "qbitai-他给了王兴兴第一个200万-现在给下一个-宇树-当董事长",
-      "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
-      "url": "https://www.qbitai.com/2026/08/478234.html",
+      "id": "qbitai-匿名牛来大模型被扒出智谱血缘-也有人怀疑拿开源训的",
+      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑拿开源训的",
+      "url": "https://www.qbitai.com/2026/08/478191.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-23T11:17:22.000Z",
-      "summary": "多多支持像王兴兴这样优秀的具身机器人创业者",
+      "publishedAt": "2026-08-23T09:56:12.000Z",
+      "summary": "视频编码、接口报错全扒一遍",
       "topics": [
-        "机器人"
+        "模型发布",
+        "多模态",
+        "开源生态"
       ],
-      "heat": 71,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2509,55 +2512,36 @@
       "image": ""
     },
     {
-      "id": "ithome-配售-800-亿后-蔡崇信-吴泳铭再出手增持-1-2-亿港元阿里股票",
-      "title": "配售 800 亿后，蔡崇信、吴泳铭再出手增持 1.2 亿港元阿里股票",
-      "url": "https://www.ithome.com/0/993/677.htm",
+      "id": "ithome-出样-300-毫米高导热衬底-散热性能提升多达-25",
+      "title": "出样 300 毫米高导热衬底，散热性能提升多达 25%",
+      "url": "https://www.ithome.com/0/993/682.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T09:59:56.000Z",
-      "summary": "科技之家 8 月 24 日消息，据港交所最新信息，在阿里巴巴宣布 800 亿港元 （科技之家注：现汇率约合 686.51 亿元人民币） 新股配售计划后，阿里巴巴集团主席蔡崇信、首席执行官吴泳铭出手增持合计约 1.2 亿港元 （现汇率约合 1.03 亿元人民币） 阿里股票，对公司人工智能战略投下信心票。蔡崇信此次买入 72 万股阿里巴巴港股，均价约 112 港元 （现汇率约合 ……",
+      "publishedAt": "2026-08-24T10:03:37.000Z",
+      "summary": "科技之家 8 月 24 日消息，光学企业上周宣布已开始向人工智能半导体合作伙伴提供 300 毫米（12 英寸）高导热性碳化硅 () 衬底样品，宣称新品散热性能比现有解决方案提升多达 25%。作为一种化合物半导体，碳化硅不仅拥有出众的电压耐受能力，还拥有优秀的光学与热学性能，这也解释了为何推出看似“跨界”的导热衬底。高级副总裁兼总经理表示：人工智能性能日益受到业界散热能力的限制……",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-独家-字节人工智能生产力整合-扣子并入豆包-将推统一办公品牌-豆包工作",
-      "title": "独家，字节人工智能生产力整合、扣子并入豆包，将推统一办公品牌 \"豆包工作\"",
-      "url": "https://36kr.com/p/3953230805876099?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T07:59:59.000Z",
-      "summary": "文，张雨忻智能涌现独家获悉，字节跳动对旗下的办公人工智能产品完成了一轮团队整合、扣子（）团队将整体并入豆包体系，其中、扣子将与豆包在工作场景的产品能力进行整合；及将作为豆包品牌下的编程产品线持续发展。调整后，以上产品和运营团队向豆包产品负责人赵祺汇报。与扣子原隶属于字节跳动产品研发和工程架构部。最初定位为人工智能编程产品，扣子定位为人工智能智能体开发平台，后续在不同的智能体方……",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能使用",
-      "title": "人工智能使用",
-      "url": "https://www.reddit.com/r/artificial/comments/1vwulqn/ai_stigma_punishes_legitimate_use/",
+      "id": "reddit-artificial-和新增实时-数据人工智能功能向打开应用",
+      "title": "和新增实时，数据人工智能功能向打开应用",
+      "url": "https://www.reddit.com/r/artificial/comments/1vwuet1/ibm_and_usta_add_livedata_ai_features_to_the_us/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T06:14:48.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-08-24T06:03:47.000Z",
+      "summary": "和新增新人工智能功能向打开应用和面向 2026。发布实时更新，质量，时刻，和。质量 21 和数据 50。使用实时数据，和人工智能智能体训练在。发布实时数据和驱动。: 数据用户，在产品。来源数据每个。来源: :，新闻，发布，和，新，人工智能，驱动，面向，2026，打开，302857814。由",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
-      "heat": 82,
-      "image": "https://external-preview.redd.it/zLv_T9ONLiHQq_DS02M-jM3BGrRixB2iuSIFz1EDEII.jpeg?width=640&crop=smart&auto=webp&s=c1a4168fac20be5ab68ec05c4b309c5a6b580cbf"
+      "heat": 81,
+      "image": ""
     },
     {
       "id": "leiphone-王田苗三问具身大牛-大模型还在-拨号上网-机器人靠什么拿下真实订单-2026",
@@ -2596,6 +2580,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-人工智能时代-长视频要换增长逻辑",
+      "title": "人工智能时代，长视频要换增长逻辑",
+      "url": "https://36kr.com/p/3952907050613888?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T02:30:42.000Z",
+      "summary": "8月18日，爱奇艺发布了2026年第二季度的财务报告。数据显示，报告期内，爱奇艺录得总收入62.9亿元人民币，其中，会员服务收入40.1亿元，在线广告服务收入12.5亿元，内容发行收入6.8亿元，其他收入3.4亿元；同期运营亏损较上季度大幅收窄，接近盈亏平衡。过去一年，市场对于爱奇艺的判断主要集中在两件事：如何减亏、如何避免用户流失。从二季度财报表现来看，这些挑战依然客观存在……",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-阿里肝癌人工智能模型两个月发现15例漏诊恶性肿瘤登上国际顶刊",
       "title": "阿里肝癌人工智能模型两个月发现15例漏诊恶性肿瘤登上国际顶刊",
       "url": "https://news.cnblogs.com/n/834870/",
@@ -2608,25 +2610,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "qbitai-匿名牛来大模型被扒出智谱血缘-也有人怀疑拿开源训的",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑拿开源训的",
-      "url": "https://www.qbitai.com/2026/08/478191.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-23T09:56:12.000Z",
-      "summary": "视频编码、接口报错全扒一遍",
-      "topics": [
-        "模型发布",
-        "多模态",
-        "开源生态"
-      ],
-      "heat": 87,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2644,7 +2628,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2660,7 +2644,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -2713,37 +2697,39 @@
       "image": ""
     },
     {
-      "id": "ithome-富士胶片大分新厂竣工-制造后清洗剂-产能提升-3-倍",
-      "title": "富士胶片大分新厂竣工：制造后清洗剂，产能提升 3 倍",
-      "url": "https://www.ithome.com/0/993/665.htm",
+      "id": "ithome-何小鹏-不远的将来-会努力将第一个高阶人形机器人带入真正的现实",
+      "title": "何小鹏：不远的将来，会努力将第一个高阶人形机器人带入真正的现实",
+      "url": "https://www.ithome.com/0/993/681.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T09:45:35.000Z",
-      "summary": "科技之家 8 月 24 日消息，（富士胶片）当地时间本月 20 日宣布，其位于九州大分的新半导体材料工厂现已竣工。该生产设施将制造用于 （化学机械抛光）后处理的清洗剂，将使大分工厂的相关产能提升 3 倍。后清洗剂旨在清洁颗粒、杂质金属和有机残留物，同时保护金属表面。富士胶片在该品类上拥有丰富的产品阵容。该企业预计这类产品的销售收入到 2030 年至少能较 2024 年翻一番。……",
+      "publishedAt": "2026-08-24T10:01:50.000Z",
+      "summary": "科技之家 8 月 24 日消息，小鹏官宣机器人业务首轮融资超 9 亿美元后，小鹏集团董事长、首席执行官何小鹏发文称：感谢所有投资人、鹏友和同学们的信任和支持不远的将来，小鹏会努力将第一个高阶人形机器人带入到真正的现实，会和市面上所有看到的机器人都不一样。更拟人，更安全，不用遥控器，可自然交互，有自己的记忆，真正创造价值，不是演示而是真正量产，走到现实。据悉，此轮融资刷新中国具……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全",
+        "投融资"
       ],
-      "heat": 87,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-李泽湘投过的商业园林机器人完成数千万融资-瞄准海外绿地智能运维-硬氪首发",
-      "title": "李泽湘投过的商业园林机器人完成数千万融资，瞄准海外绿地智能运维｜硬氪首发",
-      "url": "https://36kr.com/p/3947977664347270?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
+      "id": "leiphone-阿里视频大模型相关型号正式上线-行业评价-稳定-真实-有质感",
+      "title": "阿里视频大模型相关型号正式上线，行业评价“稳定、真实、有质感”",
+      "url": "https://www.leiphone.com/category/industrynews/XGOehdmO7fBF2xnb.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T07:07:48.000Z",
-      "summary": "作者，黄楠编辑，袁斯来硬氪获悉，商业园林机器人公司食铁兽科技（）近日完成数千万元第一轮融资融资，本轮由云时资本独家投资，星⾠资本担任财务顾问。资金将重点投入欧美澳市场交付体系搭建及全球渠道布局。此前，公司已获得李泽湘教授、奇绩创坛、险峰⻓⻘等机构投资。食铁兽成立于2021年，公司以相关型号商用割草机器人切入，围绕硬件模块化、设备运营和作业数据闭环，向多任务商业园林机器人的平台……",
+      "publishedAt": "2026-08-24T03:11:00.000Z",
+      "summary": "8月24日，阿里巴巴视频生成大模型相关型号正式上线。该模型在生成时长、万能创作、全能参考以及真实世界还原等维度全面升级，单次可生成30秒视频，并首次支持、等文档格式输入，力求准确还原真实世界。公测以来，见证模型家族历次更新的创作者表示，相关型号是“最惊喜的一次”。从企业用户体验来看，相关型号收到的反馈高度一致，“稳定、真实、有质感”是被反复提到的三个关键词。相关型号在角色、道……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "投融资",
-        "机器人"
+        "多模态"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2760,7 +2746,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2777,23 +2763,25 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "leiphone-光子跃迁亮相-2026-以-人工智能-影像-重构创作范式-三大板块解码下一代影像生态",
-      "title": "光子跃迁亮相 2026：以\"人工智能+影像\"重构创作范式，三大板块解码下一代影像生态",
-      "url": "https://www.leiphone.com/category/industrynews/x0aFA1VyGB6qPmHp.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
+      "id": "thirty-six-kr-硬氪专访丨公司退市-裁员10万人-前掌门教育首席执行官创业家庭机器人-获10亿融资",
+      "title": "硬氪专访丨公司退市、裁员10万人，前掌门教育首席执行官创业家庭机器人，获10亿融资",
+      "url": "https://36kr.com/p/3952867368648073?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-24T02:11:00.000Z",
-      "summary": "8月19日，2026（北京国际广播电影电视展览会）在北京拉开帷幕。在这场汇聚全球广电与影像领域顶尖技术与创意的盛会上，光子跃迁以\"人工智能+影像\"为核心叙事，携个人智能影像生态重磅亮相，向行业展示了一个由人工智能驱动、以人为中心的影像未来。与行业展会常见的深色科技风不同，光子跃迁的展台以纯净白色为主基调，辅以品牌蓝色进行点睛点缀，在千篇一律的深色展台中脱颖而出，传递出品牌年轻……",
+      "publishedAt": "2026-08-24T01:46:22.000Z",
+      "summary": "作者，邱晓芬编辑，袁斯来直到现在，未来不远的创始人张翼还会偶尔想起5年前地中海海边，那群发呆的海鸥。他刚经历了普通人难以想象的大起大落。2021年6月，张翼创办的“掌门教育”登陆纽交所。上市首日，公司的市值一度冲破30亿美金。春风得意之时，这家在线教育公司在全国有十万名员工、六七万名老师，服务超过100万个家庭。当时的张翼只有31岁。转折点发生在48天后。“双减”靴子落地，中……",
       "topics": [
-        "多模态"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 82,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2845,6 +2833,22 @@
         "算力芯片"
       ],
       "heat": 58,
+      "image": ""
+    },
+    {
+      "id": "openai-news-借助向首个人工智能",
+      "title": "借助向首个人工智能",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "summary": "开放人工智能公司和向帮助构建人工智能，认为关于人工智能，和技能向使用和信息技术。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 63,
       "image": ""
     }
   ]
