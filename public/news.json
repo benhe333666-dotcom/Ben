@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T17:15:18.102Z",
+  "generatedAt": "2026-08-24T17:45:22.601Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-24T17:30:00.000Z",
+  "nextUpdateHint": "2026-08-24T18:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-24T16:34:52.000Z"
+    "latestPublishedAt": "2026-08-24T16:50:00.000Z"
   },
   "topics": [
     {
@@ -18,53 +18,53 @@
     },
     {
       "name": "模型发布",
-      "count": 56,
-      "heat": 80
+      "count": 55,
+      "heat": 79
     },
     {
       "name": "算力芯片",
-      "count": 22,
+      "count": 23,
       "heat": 93
     },
     {
+      "name": "监管安全",
+      "count": 20,
+      "heat": 81
+    },
+    {
       "name": "研究论文",
-      "count": 22,
+      "count": 21,
       "heat": 71
     },
     {
-      "name": "监管安全",
-      "count": 19,
-      "heat": 80
+      "name": "人工智能动态",
+      "count": 17,
+      "heat": 68
     },
     {
       "name": "机器人",
-      "count": 15,
+      "count": 13,
       "heat": 82
     },
     {
-      "name": "人工智能动态",
-      "count": 16,
-      "heat": 67
-    },
-    {
-      "name": "多模态",
-      "count": 13,
-      "heat": 76
+      "name": "投融资",
+      "count": 11,
+      "heat": 93
     },
     {
       "name": "端侧智能",
       "count": 11,
-      "heat": 85
+      "heat": 84
     },
     {
-      "name": "投融资",
-      "count": 10,
-      "heat": 91
+      "name": "多模态",
+      "count": 12,
+      "heat": 75
     },
     {
       "name": "开源生态",
       "count": 10,
-      "heat": 80
+      "heat": 79
     }
   ],
   "sources": [
@@ -479,14 +479,32 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 11,
+      "itemCount": 12,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-08-24T16:17:00.000Z",
-      "latestDisplayedAt": "2026-08-24T16:17:00.000Z"
+      "latestFetchedAt": "2026-08-24T16:50:00.000Z",
+      "latestDisplayedAt": "2026-08-24T16:50:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "cnblogs-news-英伟达押注-但它真的值-300-亿美金吗",
+      "title": "英伟达押注，但它真的值 300 亿美金吗？",
+      "url": "https://news.cnblogs.com/n/834912/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T16:50:00.000Z",
+      "summary": "英伟达已经成为人工智能行业最大的投资基金——在最近几个月里，英伟达豪掷千亿美金，把芯片、模型和算力公司都投了个遍。现在，他们把筹码压到了人工智能应用公司上了——这次看上的，是曾经的人工智能明星公司。根据报道，英伟达正在洽谈投资人工智能搜索初本文链接",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "reddit-artificial-人工智能帮助来自-信息技术",
       "title": "人工智能帮助来自，信息技术？",
@@ -533,24 +551,6 @@
         "模型发布",
         "算力芯片",
         "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-调查显示三分之一英文网页有人工智能创作痕迹",
-      "title": "调查显示三分之一英文网页有人工智能创作痕迹",
-      "url": "https://news.cnblogs.com/n/834906/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T16:17:00.000Z",
-      "summary": "美国皮尤研究中心的数据科学家使用人工智能检测工具分析了过去五年的 50 万英文网页，估计其中人工智能撰写内容的比例。所有这些样本网页中，十分之一有明显人工智能创作痕迹。在开放人工智能公司的人工智能工具智能聊天助手于 2022 年底推出之后，人工智能内容的比例在不断上升。2026 年 7 月的快照本文链接",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -706,7 +706,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": "https://media.wired.com/photos/6a7658f0de0a40f999466656/master/pass/080726-teachers-deepfakes-ai.gif"
     },
     {
@@ -739,7 +739,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -894,6 +894,23 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp"
     },
     {
+      "id": "cnblogs-news-人工智能安全公司最强模型难以吸引用户",
+      "title": "人工智能安全公司最强模型难以吸引用户",
+      "url": "https://news.cnblogs.com/n/834909/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T16:32:00.000Z",
+      "summary": "人工智能安全公司的美国客户正使用其最强大人工智能工具的更廉价替代品，引发了外界对其高投入商业模式的质疑，而市场普遍预计人工智能安全公司即将进行史上规模最大的首次公开募股。根据支付服务集团收集的 7 万家公司支出数据，人工智能安全公司规模最大、成本最高的模型 5 发本文链接",
+      "topics": [
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-探索时刻在作为",
       "title": "探索时刻在作为",
       "url": "https://www.reddit.com/r/artificial/comments/1vx6x1x/explore_any_moment_in_history_as_a_short_visual/",
@@ -907,7 +924,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://external-preview.redd.it/ajcwY3hvcTBpY2xoMYoOgvUcYUH_WvD5f7GXEohxo6xa1p7bqziW9k-nGLlV.png?width=640&crop=smart&auto=webp&s=a503380b0c26e907ec9e411539b0a882bc8062ca"
     },
     {
@@ -995,23 +1012,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-硅谷首席执行官-诞生-震撼程度堪比克劳德模型代码时刻",
-      "title": "硅谷首席执行官：诞生，震撼程度堪比克劳德模型代码时刻！",
-      "url": "https://news.cnblogs.com/n/834902/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T14:55:00.000Z",
-      "summary": "新智元报道最近，一个神级工具，震撼了硅谷。「我认为是人工智能的又一个『克劳德模型代码』时刻。我估计我个人对人工智能的使用量增长了大约 100 倍！」 这是硅谷知名投资人在上发出的惊叹。为了证明的离谱效率，他分享了一个极本文链接",
-      "topics": [
-        "模型发布",
-        "投融资"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
       "id": "the-decoder-人工智能智能体使用和向进入打开-来源",
       "title": "人工智能智能体使用和向进入打开，来源",
       "url": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/",
@@ -1057,7 +1057,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1074,7 +1074,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1248,6 +1248,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-博客园新闻发布人工智能相关动态",
+      "title": "博客园新闻发布人工智能相关动态。",
+      "url": "https://news.cnblogs.com/n/834908/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T16:28:00.000Z",
+      "summary": "由前微软员工和创办于 1996 年 8 月 24 日，该公司的第一款游戏是备受好评的《半条命》，它被认为对这一游戏类别产生了深远影响。于 2000 年离开。在 2003 本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
       "id": "ithome-微信鸿蒙版应用获-8-0-21-16-版本邀测升级",
       "title": "微信鸿蒙版应用获 8.0.21.16 版本邀测升级",
       "url": "https://www.ithome.com/0/993/755.htm",
@@ -1280,24 +1296,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-扣子桌面端实测-能力决定上限-边界决定信任",
-      "title": "扣子桌面端实测：能力决定上限，边界决定信任",
-      "url": "https://news.cnblogs.com/n/834901/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T14:28:00.000Z",
-      "summary": "撰文| 高晓阳编辑| 郝鑫过去在网页上用扣子，本质是隔空聊天：文件要上传，结果要下载，真正的工作却发生在电脑本地的文件夹里。网页端的智能体再聪明，也够不着你桌面上那堆待处理的照片和做到一半的项目。桌面端改变的就是这件事，把文件夹授权给它，智能体就能直接读取、处理、生成文件，结果存本文链接",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 89,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1384,7 +1383,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1537,6 +1536,24 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-调查显示三分之一英文网页有人工智能创作痕迹",
+      "title": "调查显示三分之一英文网页有人工智能创作痕迹",
+      "url": "https://news.cnblogs.com/n/834906/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T16:17:00.000Z",
+      "summary": "美国皮尤研究中心的数据科学家使用人工智能检测工具分析了过去五年的 50 万英文网页，估计其中人工智能撰写内容的比例。所有这些样本网页中，十分之一有明显人工智能创作痕迹。在开放人工智能公司的人工智能工具智能聊天助手于 2022 年底推出之后，人工智能内容的比例在不断上升。2026 年 7 月的快照本文链接",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-小米集团副总裁朱丹-芯片研发投入是为下一个十年买-入场券",
       "title": "小米集团副总裁朱丹：芯片研发投入是为下一个十年买“入场券”",
       "url": "https://www.ithome.com/0/993/753.htm",
@@ -1551,7 +1568,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1568,22 +1585,6 @@
         "端侧智能"
       ],
       "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-阿里人工智能账本里的-反差感",
-      "title": "阿里人工智能账本里的“反差感”",
-      "url": "https://news.cnblogs.com/n/834900/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T14:24:00.000Z",
-      "summary": "文/窦文雪编辑/子夜近日，在人工智能全产业“ ”的阿里，交出了一份反差鲜明的人工智能账单。8 月 20 日，阿里发布 2027 财年第一季度（2026 年第二季度）财报。期内实现营收 2689.53 亿元，同比增长9%；经调整 (息税及摊销前利润)为 273.29 亿元，本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
       "image": ""
     },
     {
@@ -1616,7 +1617,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1650,7 +1651,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1668,7 +1669,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1824,6 +1825,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-硅谷首席执行官-诞生-震撼程度堪比克劳德模型代码时刻",
+      "title": "硅谷首席执行官：诞生，震撼程度堪比克劳德模型代码时刻！",
+      "url": "https://news.cnblogs.com/n/834902/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T14:55:00.000Z",
+      "summary": "新智元报道最近，一个神级工具，震撼了硅谷。「我认为是人工智能的又一个『克劳德模型代码』时刻。我估计我个人对人工智能的使用量增长了大约 100 倍！」 这是硅谷知名投资人在上发出的惊叹。为了证明的离谱效率，他分享了一个极本文链接",
+      "topics": [
+        "模型发布",
+        "投融资"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能-40-和变成",
       "title": "人工智能 40 和变成",
       "url": "https://www.reddit.com/r/artificial/comments/1vx4nyd/i_ran_the_same_ai_character_through_40_comic/",
@@ -1853,22 +1871,6 @@
         "人工智能动态"
       ],
       "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-叩开家庭消费大门-启元机器人开启预订",
-      "title": "叩开家庭消费大门，启元机器人开启预订",
-      "url": "https://news.cnblogs.com/n/834898/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T14:11:00.000Z",
-      "summary": "2026 年 8 月 23 日，上纬新材旗下启元机器人正式对外开启启元相关型号、启元相关型号两款消费级人形机器人的预订。紧接着在 8 月 24 日，该企业宣布北京、上海、广州、深圳等全国十座城市同步落地线下预订渠道，首批产品预计 2026 年 9 月正式发货。随着两款产品告别展会样机展示、小范围内购本文链接",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 83,
       "image": ""
     },
     {
@@ -1919,7 +1921,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1937,7 +1939,7 @@
         "投融资",
         "开源生态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2090,6 +2092,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-扣子桌面端实测-能力决定上限-边界决定信任",
+      "title": "扣子桌面端实测：能力决定上限，边界决定信任",
+      "url": "https://news.cnblogs.com/n/834901/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T14:28:00.000Z",
+      "summary": "撰文| 高晓阳编辑| 郝鑫过去在网页上用扣子，本质是隔空聊天：文件要上传，结果要下载，真正的工作却发生在电脑本地的文件夹里。网页端的智能体再聪明，也够不着你桌面上那堆待处理的照片和做到一半的项目。桌面端改变的就是这件事，把文件夹授权给它，智能体就能直接读取、处理、生成文件，结果存本文链接",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-苹果苹果应用人工智能助手悄悄上线-目前处于早期预览状态",
       "title": "苹果苹果应用人工智能助手悄悄上线，目前处于早期预览状态",
       "url": "https://www.ithome.com/0/993/742.htm",
@@ -2104,23 +2123,6 @@
         "端侧智能"
       ],
       "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-3000人做了3年-小米一天发布3款自研芯片-雷军在打什么算盘",
-      "title": "“3000人做了3年”，小米一天发布3款自研芯片，雷军在打什么算盘？",
-      "url": "https://news.cnblogs.com/n/834897/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T14:05:00.000Z",
-      "summary": "本文来源：时代周报作者：朱成呈 “这三颗芯片同步发布，背后是玄戒 3000 人团队做了 3 年。”8 月 24 日，小米集团副总裁、新业务部总裁朱丹在玄戒芯片技术沟通会上表示。当天，小米一次发布三款玄戒自研芯片：玄戒相关型号、相关型号和相关型号，分别面向旗舰手机、高带宽人工智能计算和智能驾驶。本文链接",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -2191,7 +2193,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2207,7 +2209,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2239,7 +2241,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2326,6 +2328,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-阿里人工智能账本里的-反差感",
+      "title": "阿里人工智能账本里的“反差感”",
+      "url": "https://news.cnblogs.com/n/834900/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T14:24:00.000Z",
+      "summary": "文/窦文雪编辑/子夜近日，在人工智能全产业“ ”的阿里，交出了一份反差鲜明的人工智能账单。8 月 20 日，阿里发布 2027 财年第一季度（2026 年第二季度）财报。期内实现营收 2689.53 亿元，同比增长9%；经调整 (息税及摊销前利润)为 273.29 亿元，本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
       "id": "ithome-卡迪夫大学新研究-人工智能尚无法像人类教师一样可靠地批改作业",
       "title": "卡迪夫大学新研究：人工智能尚无法像人类教师一样可靠地批改作业",
       "url": "https://www.ithome.com/0/993/741.htm",
@@ -2392,24 +2410,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-不做硅谷-几个读博的年轻人-押注双足人形的一体化大脑",
-      "title": "不做硅谷：几个读博的年轻人，押注双足人形的一体化大脑",
-      "url": "https://news.cnblogs.com/n/834896/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T05:50:00.000Z",
-      "summary": "乔不迟发自凹非寺量子位，公众号周末在家刷社交平台，一个视频惊艳到我了。一个机器人驾驶卡丁车在赛道上飞驰，过弯、加速、打方向，一镜到底。没想到我们的机器人现在已经可以在卡丁车赛道炫技了呢！等等？这和我在看到的画风不一样啊！展会上的机器人跑步、还有火花加闪电，没本文链接",
-      "topics": [
-        "多模态",
-        "机器人"
-      ],
-      "heat": 81,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2426,7 +2427,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2444,7 +2445,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2549,6 +2550,22 @@
       "image": "https://media.wired.com/photos/6a834e67effc1720d3a37bb8/master/pass/ZAI-Most-Skilled-AI-Yet-Business-1044672050.jpg"
     },
     {
+      "id": "cnblogs-news-叩开家庭消费大门-启元机器人开启预订",
+      "title": "叩开家庭消费大门，启元机器人开启预订",
+      "url": "https://news.cnblogs.com/n/834898/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T14:11:00.000Z",
+      "summary": "2026 年 8 月 23 日，上纬新材旗下启元机器人正式对外开启启元相关型号、启元相关型号两款消费级人形机器人的预订。紧接着在 8 月 24 日，该企业宣布北京、上海、广州、深圳等全国十座城市同步落地线下预订渠道，首批产品预计 2026 年 9 月正式发货。随着两款产品告别展会样机展示、小范围内购本文链接",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 83,
+      "image": ""
+    },
+    {
       "id": "ithome-成功举起-16-公斤-第二届世界人形机器人运动会首个举重冠军诞生",
       "title": "成功举起 16 公斤，第二届世界人形机器人运动会首个举重冠军诞生",
       "url": "https://www.ithome.com/0/993/740.htm",
@@ -2561,7 +2578,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2597,7 +2614,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2616,24 +2633,6 @@
         "研究论文"
       ],
       "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-63亿美元估值背后-小鹏人形机器人的量产与商业化大考",
-      "title": "63亿美元估值背后：小鹏人形机器人的量产与商业化大考",
-      "url": "https://news.cnblogs.com/n/834894/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T05:30:00.000Z",
-      "summary": "8 月 24 日，小鹏集团（）宣布，旗下人形机器人业务已与多家投资者签署股权融资协议。本轮为小鹏机器人业务首轮融资，融资金额超 9 亿美元，投后估值超 63 亿美元，刷新中国具身智能行业单轮私募股权融资纪录。小鹏机器人撒元明/摄燕基空间智能民生研究中心主任何基永向财闻表示，这轮融资本文链接",
-      "topics": [
-        "研究论文",
-        "投融资",
-        "机器人"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -2737,6 +2736,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-3000人做了3年-小米一天发布3款自研芯片-雷军在打什么算盘",
+      "title": "“3000人做了3年”，小米一天发布3款自研芯片，雷军在打什么算盘？",
+      "url": "https://news.cnblogs.com/n/834897/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-24T14:05:00.000Z",
+      "summary": "本文来源：时代周报作者：朱成呈 “这三颗芯片同步发布，背后是玄戒 3000 人团队做了 3 年。”8 月 24 日，小米集团副总裁、新业务部总裁朱丹在玄戒芯片技术沟通会上表示。当天，小米一次发布三款玄戒自研芯片：玄戒相关型号、相关型号和相关型号，分别面向旗舰手机、高带宽人工智能计算和智能驾驶。本文链接",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-路透社母公司汤森路透花-4000-万美元研发人工智能模型-基于阿里千问",
       "title": "路透社母公司汤森路透花 4000 万美元研发人工智能模型，基于阿里千问",
       "url": "https://www.ithome.com/0/993/738.htm",
@@ -2790,23 +2806,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-首席执行官王宁-要做运动健康行业的人工智能解决方案供给方",
-      "title": "首席执行官王宁：要做运动健康行业的人工智能解决方案供给方",
-      "url": "https://news.cnblogs.com/n/834890/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-24T04:48:00.000Z",
-      "summary": "智通财经应用获悉，8 月 24 日，运动科技公司 (03650) 发布其 2026 年上半年业绩。首席执行官王宁在业绩电话会上表示，2026 年上半年完成自研运动健康垂直大模型。人工智能 1.0 的发布，并落地应用多个核心场景。8 月，本文链接",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "oschina-克劳德模型代码工程最佳实践-主数据平台-1-5-0-震撼来袭",
       "title": "克劳德模型代码工程最佳实践，主数据平台 1.5.0 震撼来袭",
       "url": "https://www.oschina.net/news/502083",
@@ -2856,7 +2855,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     }
   ]
