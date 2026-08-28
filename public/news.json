@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-28T18:11:32.746Z",
+  "generatedAt": "2026-08-28T18:42:01.758Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-08-28T18:30:00.000Z",
+  "nextUpdateHint": "2026-08-28T19:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-08-28T18:03:36.000Z"
+    "latestPublishedAt": "2026-08-28T18:30:01.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 81,
+      "count": 80,
       "heat": 82
     },
     {
@@ -24,12 +24,12 @@
     {
       "name": "算力芯片",
       "count": 31,
-      "heat": 88
+      "heat": 87
     },
     {
       "name": "监管安全",
       "count": 26,
-      "heat": 88
+      "heat": 87
     },
     {
       "name": "研究论文",
@@ -39,22 +39,22 @@
     {
       "name": "开源生态",
       "count": 17,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "端侧智能",
-      "count": 16,
+      "count": 15,
       "heat": 83
     },
     {
       "name": "多模态",
       "count": 12,
-      "heat": 88
+      "heat": 87
     },
     {
       "name": "人工智能动态",
       "count": 15,
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "机器人",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-08-28T12:46:12.000Z",
-      "latestDisplayedAt": "2026-08-28T12:46:12.000Z"
+      "latestFetchedAt": "2026-08-28T18:19:40.000Z",
+      "latestDisplayedAt": "2026-08-28T18:19:40.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-08-28T17:00:01.000Z",
-      "latestDisplayedAt": "2026-08-28T17:00:01.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-08-28T18:30:01.000Z",
+      "latestDisplayedAt": "2026-08-28T18:30:01.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 1,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-08-25T22:03:03.000Z",
-      "latestDisplayedAt": "2026-08-25T22:03:03.000Z"
+      "itemCount": 2,
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-08-28T17:01:12.000Z",
+      "latestDisplayedAt": "2026-08-28T17:01:12.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -396,9 +396,9 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-08-28T15:36:12.000Z",
@@ -488,6 +488,38 @@
   "failures": [],
   "items": [
     {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-28T18:30:01.000Z",
+      "summary": "我们每个智能体和信息技术实际，在，首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-打开-人工智能公司",
+      "title": "打开，人工智能公司",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-28T18:19:40.000Z",
+      "summary": "进入企业模型。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能创建和使用图形处理器向",
       "title": "人工智能创建和使用图形处理器向？",
       "url": "https://www.reddit.com/r/artificial/comments/1w0xyct/could_ai_create_its_own_super_virus_that_infects/",
@@ -500,23 +532,23 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "towards-data-science-来自智能体向团队-智能编程工具",
-      "title": "来自智能体向团队: 智能编程工具",
-      "url": "https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
+      "id": "hacker-news-ai-在打开-智能体",
+      "title": "在打开，智能体",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-28T17:00:01.000Z",
-      "summary": "机械手，在指南向智能体和在智能编程工具来自智能体向团队: 智能编程工具首个在数据科学实战社区。",
+      "publishedAt": "2026-08-28T17:01:12.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 86,
       "image": ""
     },
     {
@@ -533,7 +565,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -549,7 +581,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -583,7 +615,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -599,7 +631,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://media.wired.com/photos/6a909d466b1fcc4b68700cd4/master/pass/Backchannel-AI-Doctors-Business-1267508918.jpg"
     },
     {
@@ -616,7 +648,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -638,22 +670,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司首个风险",
-      "title": "人工智能安全公司首个风险",
-      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-28T12:46:12.000Z",
-      "summary": "人工智能安全公司风险，人工智能公司作为在。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
       "id": "github-changelog-向代码托管平台智能编程助手和",
       "title": "向代码托管平台智能编程助手和",
       "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
@@ -668,7 +684,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -718,7 +734,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -735,7 +751,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -753,7 +769,7 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-1152x648.png"
     },
     {
@@ -856,7 +872,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -891,7 +907,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -908,22 +924,6 @@
         "模型发布"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://www.wired.com/2015/03/illegal-sand-mining/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-25T22:03:03.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 46,
       "image": ""
     },
     {
@@ -945,6 +945,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-来自智能体向团队-智能编程工具",
+      "title": "来自智能体向团队: 智能编程工具",
+      "url": "https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-28T17:00:01.000Z",
+      "summary": "机械手，在指南向智能体和在智能编程工具来自智能体向团队: 智能编程工具首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-人工智能开始替人类调用人工智能-词元用量已是人类5-2倍",
       "title": "人工智能开始替人类调用人工智能！词元用量已是人类5.2倍",
       "url": "https://news.cnblogs.com/n/835186/",
@@ -957,7 +973,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -973,23 +989,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能智能体向",
-      "title": "人工智能智能体向",
-      "url": "https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-28T15:30:02.000Z",
-      "summary": "向借助在云服务人工智能智能体向首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1011,17 +1011,17 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司面向开放人工智能公司作为在",
-      "title": "元宇宙平台公司面向开放人工智能公司作为在",
-      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+      "id": "techcrunch-ai-人工智能安全公司首个风险",
+      "title": "人工智能安全公司首个风险",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-28T12:21:06.000Z",
-      "summary": "开放人工智能公司和在新。",
+      "publishedAt": "2026-08-28T12:46:12.000Z",
+      "summary": "人工智能安全公司风险，人工智能公司作为在。",
       "topics": [
-        "人工智能动态"
+        "监管安全"
       ],
       "heat": 94,
       "image": ""
@@ -1124,7 +1124,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1245,7 +1245,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2171717886-1152x648.jpg"
     },
     {
@@ -1279,7 +1279,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/GlucoFM1_Overview.png"
     },
     {
@@ -1312,6 +1312,22 @@
         "人工智能动态"
       ],
       "heat": 49,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://www.wired.com/2015/03/illegal-sand-mining/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-25T22:03:03.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 46,
       "image": ""
     },
     {
@@ -1360,7 +1376,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1378,7 +1394,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1400,20 +1416,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-为什么克劳德模型代码时间",
-      "title": "为什么克劳德模型代码时间",
-      "url": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
+      "id": "towards-data-science-人工智能智能体向",
+      "title": "人工智能智能体向",
+      "url": "https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-28T14:00:01.000Z",
-      "summary": "更好借助大语言模型为什么克劳德模型代码时间首个在数据科学实战社区。",
+      "publishedAt": "2026-08-28T15:30:02.000Z",
+      "summary": "向借助在云服务人工智能智能体向首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1432,6 +1447,22 @@
         "多模态"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-元宇宙平台公司面向开放人工智能公司作为在",
+      "title": "元宇宙平台公司面向开放人工智能公司作为在",
+      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-28T12:21:06.000Z",
+      "summary": "开放人工智能公司和在新。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1465,7 +1496,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1503,23 +1534,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司和开放人工智能公司人工智能舞台在科技创投媒体-2026",
-      "title": "人工智能安全公司和开放人工智能公司人工智能舞台在科技创投媒体 2026",
-      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-27T23:16:45.000Z",
-      "summary": "在科技创投媒体 2026，人工智能舞台向进入单个在社区面向，由谷歌面向创业公司。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "github-changelog-智能副驾代码评测-和扩展",
       "title": "智能副驾代码评测: 和扩展",
       "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
@@ -1533,7 +1547,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1549,7 +1563,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://media.wired.com/photos/6a8f6fdecc498c3752a8bb2c/master/pass/Uncanny-Valley-China-US-AI-Race-Business-2286901730.jpg"
     },
     {
@@ -1632,7 +1646,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gpu-architecture-corp-blog-nvhbm-1280x680-5547600.jpg"
     },
     {
@@ -1714,7 +1728,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1736,6 +1750,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-为什么克劳德模型代码时间",
+      "title": "为什么克劳德模型代码时间",
+      "url": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-28T14:00:01.000Z",
+      "summary": "更好借助大语言模型为什么克劳德模型代码时间首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-美股大型科技股盘前多数上涨-英特尔跌超1",
       "title": "美股大型科技股盘前多数上涨，英特尔跌超1%",
       "url": "https://36kr.com/newsflashes/3959186247220614?f=rss",
@@ -1748,7 +1779,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1784,7 +1815,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1821,35 +1852,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-认为开放人工智能公司-在谷歌",
-      "title": "认为开放人工智能公司，在谷歌",
-      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "id": "techcrunch-ai-人工智能安全公司和开放人工智能公司人工智能舞台在科技创投媒体-2026",
+      "title": "人工智能安全公司和开放人工智能公司人工智能舞台在科技创投媒体 2026",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-27T19:52:52.000Z",
-      "summary": "认为实验室和作为创业公司，在开放人工智能公司和在谷歌。",
+      "publishedAt": "2026-08-27T23:16:45.000Z",
+      "summary": "在科技创投媒体 2026，人工智能舞台向进入单个在社区面向，由谷歌面向创业公司。",
       "topics": [
+        "监管安全",
         "投融资"
       ],
-      "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-27T18:35:01.000Z",
-      "summary": "我们使用时间。没有信息技术实际来自？: 来自向首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 69,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1989,7 +2005,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2007,7 +2023,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://preview.redd.it/uw9xpdgdx4mh1.png?width=140&height=78&auto=webp&s=52ac2e1641e1bda77b3ee8c7099a89f2c17077ee"
     },
     {
@@ -2077,7 +2093,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2099,6 +2115,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-认为开放人工智能公司-在谷歌",
+      "title": "认为开放人工智能公司，在谷歌",
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-08-27T19:52:52.000Z",
+      "summary": "认为实验室和作为创业公司，在开放人工智能公司和在谷歌。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能智能体向在",
       "title": "人工智能智能体向在",
       "url": "https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/",
@@ -2116,23 +2148,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司-人工智能安全公司-谷歌-和-100-公司呼吁面向向人工智能",
-      "title": "开放人工智能公司，人工智能安全公司，谷歌，和 100 公司呼吁面向向人工智能",
-      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-27T17:43:24.000Z",
-      "summary": "公司和人工智能创业公司向和向新新。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
       "id": "wired-ai-开放人工智能公司人工智能智能体",
       "title": "开放人工智能公司人工智能智能体",
       "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
@@ -2145,7 +2160,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://media.wired.com/photos/6a905cdd60f4c0fdadcc5237/master/pass/Model-Behavior-Illo-Template.jpg"
     },
     {
@@ -2177,7 +2192,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2243,7 +2258,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2261,7 +2276,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2369,19 +2384,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-谷歌人工智能模式-帮助-和",
-      "title": "谷歌人工智能模式，帮助，和",
-      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "id": "techcrunch-ai-开放人工智能公司-人工智能安全公司-谷歌-和-100-公司呼吁面向向人工智能",
+      "title": "开放人工智能公司，人工智能安全公司，谷歌，和 100 公司呼吁面向向人工智能",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-27T16:00:00.000Z",
-      "summary": "更新谷歌向人工智能模式作为人工智能智能体，作为信息技术帮助用户向实际部件和。",
+      "publishedAt": "2026-08-27T17:43:24.000Z",
+      "summary": "公司和人工智能创业公司向和向新新。",
       "topics": [
-        "产品应用"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 77,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2413,7 +2429,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": "https://media.wired.com/photos/6a8e39f99a6c30f92d1621f3/master/pass/Phantom-Data-Centers-Clog-UK-Power-Grid-Business.jpg"
     },
     {
@@ -2500,7 +2516,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2569,7 +2585,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2608,20 +2624,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-399-开源机器人",
-      "title": "$399 开源机器人",
-      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "id": "techcrunch-ai-谷歌人工智能模式-帮助-和",
+      "title": "谷歌人工智能模式，帮助，和",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-27T14:56:52.000Z",
-      "summary": "首席执行官，打开，来源机器人新借助强化学习。",
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "summary": "更新谷歌向人工智能模式作为人工智能智能体，作为信息技术帮助用户向实际部件和。",
       "topics": [
-        "开源生态",
-        "机器人"
+        "产品应用"
       ],
-      "heat": 73,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2639,7 +2654,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2675,7 +2690,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://media.wired.com/photos/6a8ec12c77fbaae8f5a47365/master/pass/OpenAIFaceHug.jpg"
     },
     {
@@ -2725,7 +2740,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2795,24 +2810,24 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能记忆即将推出面向安卓应用",
-      "title": "人工智能记忆即将推出面向安卓应用",
-      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "id": "techcrunch-ai-399-开源机器人",
+      "title": "$399 开源机器人",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-08-27T14:27:04.000Z",
-      "summary": "谷歌新记忆，使用限制面向安卓应用作为人工智能数据中心向，成本借助记忆。",
+      "publishedAt": "2026-08-27T14:56:52.000Z",
+      "summary": "首席执行官，打开，来源机器人新借助强化学习。",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "开源生态",
+        "机器人"
       ],
-      "heat": 80,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2847,23 +2862,6 @@
       ],
       "heat": 49,
       "image": "https://media.wired.com/photos/6a8dc4dc21bb5a1c3d158388/master/pass/AI-Lab-Robot-Games-Business.jpg"
-    },
-    {
-      "id": "towards-data-science-向解决-100-任务借助克劳德模型代码",
-      "title": "向解决 100+ 任务借助克劳德模型代码",
-      "url": "https://towardsdatascience.com/how-to-effectively-solve-100-tasks-with-claude-code/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-08-26T09:00:02.000Z",
-      "summary": "借助编程智能体向解决 100+ 任务借助克劳德模型代码首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 61,
-      "image": ""
     }
   ]
 }
