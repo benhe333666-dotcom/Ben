@@ -1,24 +1,29 @@
 {
-  "generatedAt": "2026-09-04T13:31:03.965Z",
+  "generatedAt": "2026-09-04T14:01:10.192Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-04T14:00:00.000Z",
+  "nextUpdateHint": "2026-09-04T14:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-04T13:24:24.000Z"
+    "latestPublishedAt": "2026-09-04T14:00:02.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 71,
+      "count": 73,
       "heat": 83
     },
     {
       "name": "模型发布",
-      "count": 56,
+      "count": 57,
+      "heat": 85
+    },
+    {
+      "name": "研究论文",
+      "count": 27,
       "heat": 84
     },
     {
@@ -27,13 +32,8 @@
       "heat": 88
     },
     {
-      "name": "研究论文",
-      "count": 26,
-      "heat": 84
-    },
-    {
       "name": "算力芯片",
-      "count": 23,
+      "count": 24,
       "heat": 89
     },
     {
@@ -43,8 +43,8 @@
     },
     {
       "name": "端侧智能",
-      "count": 13,
-      "heat": 88
+      "count": 12,
+      "heat": 87
     },
     {
       "name": "多模态",
@@ -54,7 +54,7 @@
     {
       "name": "人工智能动态",
       "count": 12,
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "投融资",
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-09-03T13:15:00.000Z",
       "latestDisplayedAt": "2026-09-03T13:15:00.000Z"
     },
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-08-31T18:00:00.000Z",
-      "latestDisplayedAt": "2026-08-31T16:00:00.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-09-02T16:00:00.000Z",
+      "latestDisplayedAt": "2026-09-02T16:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -241,8 +241,8 @@
       "fallbackReason": "",
       "itemCount": 9,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-09-04T12:00:00.000Z",
-      "latestDisplayedAt": "2026-09-04T09:41:44.000Z"
+      "latestFetchedAt": "2026-09-04T13:34:12.000Z",
+      "latestDisplayedAt": "2026-09-04T13:34:12.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 5,
-      "latestFetchedAt": "2026-09-04T11:00:02.000Z",
-      "latestDisplayedAt": "2026-09-04T11:00:02.000Z"
+      "latestFetchedAt": "2026-09-04T14:00:02.000Z",
+      "latestDisplayedAt": "2026-09-04T14:00:02.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -400,7 +400,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
+      "displayedCount": 6,
       "latestFetchedAt": "2026-09-04T09:23:24.000Z",
       "latestDisplayedAt": "2026-09-04T09:23:24.000Z"
     },
@@ -447,8 +447,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 21,
-      "displayedCount": 9,
+      "itemCount": 18,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-09-04T13:21:17.000Z",
       "latestDisplayedAt": "2026-09-04T13:21:17.000Z"
     },
@@ -482,11 +482,45 @@
       "itemCount": 16,
       "displayedCount": 8,
       "latestFetchedAt": "2026-09-04T07:30:00.000Z",
-      "latestDisplayedAt": "2026-09-04T07:23:00.000Z"
+      "latestDisplayedAt": "2026-09-04T07:16:00.000Z"
     }
   ],
   "failures": [],
   "items": [
+    {
+      "id": "towards-data-science-图形处理器问题",
+      "title": "图形处理器问题",
+      "url": "https://towardsdatascience.com/disaggregation-is-a-thousand-gpu-problem/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-04T14:00:02.000Z",
+      "summary": "来自，和为什么正确低于，图形处理器问题首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能智能体来自开放人工智能公司",
+      "title": "人工智能智能体来自开放人工智能公司",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-04T13:34:12.000Z",
+      "summary": "人工智能智能体来自开放人工智能公司据报道和信息技术进入面向智能体，借助关于面向作为公司向推出最高级模型。新增向在人工智能 …",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "the-decoder-开放人工智能公司智能体-25-向在任务和分享",
       "title": "开放人工智能公司智能体 25，向在任务和分享",
@@ -500,7 +534,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -534,7 +568,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -590,41 +624,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-向-10-克劳德模型代码",
-      "title": "向 10+ 克劳德模型代码",
-      "url": "https://towardsdatascience.com/how-to-run-10-claude-code-sessions-without-a-powerful-computer/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-04T11:00:02.000Z",
-      "summary": "了解向编程智能体，在向 10+ 克劳德模型代码首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-04T09:41:44.000Z",
-      "summary": "面向驱动，和，进入，在。在，公司推出平台安全，在，人工智能，和控制在，由 …",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-数据来自在新",
       "title": "数据来自在新",
       "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
@@ -675,19 +674,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-卡车自动驾驶里程超10亿公里-嬴彻科技定义-货运物理人工智能",
-      "title": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理人工智能”",
-      "url": "https://news.cnblogs.com/n/836504/",
+      "id": "cnblogs-news-李飞飞刚发-中国开源-同款-已抢跑半年",
+      "title": "李飞飞刚发，中国开源“同款”已抢跑半年？",
+      "url": "https://news.cnblogs.com/n/836503/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T07:23:00.000Z",
-      "summary": "允中发自凹非寺量子位，公众号 2026 年 9 月 3 日，嬴彻科技宣布其卡车自动驾驶商业运营里程突破 10 亿公里，形成行业最大规模的真实运营数据资产。目前，嬴彻以超 90% 的市场份额领跑中国卡车智驾市场，并已完成从“自动驾驶”到“货运物理人工智能”的战略升级，构建覆盖干线、本文链接",
+      "publishedAt": "2026-09-04T07:16:00.000Z",
+      "summary": "发自凹非寺量子位，公众号 20 多年前，计算神经学家杰夫·霍金斯写道：“智能不只是模式识别，更是对世界的建模。”如今，世界模型正在批量迎来自己的里程碑时刻。9 月 2 日，由人工智能教母李飞飞创办的发布全球首个多模态世界模型（ 本文链接",
       "topics": [
-        "人工智能动态"
+        "多模态",
+        "开源生态"
       ],
-      "heat": 81,
+      "heat": 85,
       "image": ""
     },
     {
@@ -753,7 +753,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -789,7 +789,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -807,7 +807,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/nv-blog-1280x680-1.jpg"
     },
     {
@@ -824,7 +824,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Male-Fruit-Fly-Brain-Map-hero.jpg"
     },
     {
@@ -841,7 +841,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -857,7 +857,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -877,6 +877,24 @@
       "image": ""
     },
     {
+      "id": "microsoft-ai-blog-智能体-上下文面向企业人工智能智能体",
+      "title": "智能体 : 上下文面向企业人工智能智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "summary": "人工智能成本模型。上下文在微软帮助人工智能成本由检索，工具，记忆，和智能体性能在规模。智能体 : 上下文面向企业人工智能智能体首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 63,
+      "image": ""
+    },
+    {
       "id": "google-ai-blog-人工智能新闻我们宣布在-2026",
       "title": "人工智能新闻我们宣布在 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
@@ -891,22 +909,6 @@
       ],
       "heat": 61,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "microsoft-ai-blog-内部微软团队-借助人工智能",
-      "title": "内部微软团队: 借助人工智能",
-      "url": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-31T16:00:00.000Z",
-      "summary": "人工智能帮助组织作为和在。内部微软团队: 借助人工智能首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
     },
     {
       "id": "ars-technica-ai-人工智能-元宇宙平台公司控制",
@@ -993,6 +995,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-向-10-克劳德模型代码",
+      "title": "向 10+ 克劳德模型代码",
+      "url": "https://towardsdatascience.com/how-to-run-10-claude-code-sessions-without-a-powerful-computer/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-04T11:00:02.000Z",
+      "summary": "了解向编程智能体，在向 10+ 克劳德模型代码首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "leiphone-谁在为人形机器人铺-全开源生态",
       "title": "谁在为人形机器人铺「全开源生态」？",
       "url": "https://www.leiphone.com/category/academic/P00P7aQceC56Vz5r.html",
@@ -1008,6 +1027,24 @@
         "研究论文"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-04T09:41:44.000Z",
+      "summary": "面向驱动，和，进入，在。在，公司推出平台安全，在，人工智能，和控制在，由 …",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "端侧智能"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -1044,20 +1081,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-李飞飞刚发-中国开源-同款-已抢跑半年",
-      "title": "李飞飞刚发，中国开源“同款”已抢跑半年？",
-      "url": "https://news.cnblogs.com/n/836503/",
+      "id": "cnblogs-news-没有词元的学生-应立即退学",
+      "title": "“没有词元的学生，应立即退学”",
+      "url": "https://news.cnblogs.com/n/836502/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T07:16:00.000Z",
-      "summary": "发自凹非寺量子位，公众号 20 多年前，计算神经学家杰夫·霍金斯写道：“智能不只是模式识别，更是对世界的建模。”如今，世界模型正在批量迎来自己的里程碑时刻。9 月 2 日，由人工智能教母李飞飞创办的发布全球首个多模态世界模型（ 本文链接",
+      "publishedAt": "2026-09-04T07:08:00.000Z",
+      "summary": "听雨发自凹非寺量子位，公众号没有词元的学生，应立即退学！这句暴论，出自南京大学计算机学院副教授蒋炎岩今年秋季新开设的《生成式软件工程》课程中。好家伙，现在国内高校的计算机系已经卷到「自费烧词元」了？知乎相关问题随即冲上热榜，目前已经引来了四百多个回本文链接",
       "topics": [
-        "多模态",
-        "开源生态"
+        "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1091,7 +1127,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1109,23 +1145,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-开放人工智能公司人工智能模型通用人工智能",
-      "title": "开放人工智能公司人工智能模型通用人工智能",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-03T18:00:00.000Z",
-      "summary": "开放人工智能公司模型这里:。公司呼吁信息技术在面向，软件工程，科学，和使用。作为开放人工智能公司宣布，信息技术首个模型作为会议开放人工智能公司，公司 …",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 82,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1161,7 +1181,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1197,23 +1217,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-03T12:30:01.000Z",
-      "summary": "构建来自实际评测。50，构建向首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 73,
-      "image": ""
-    },
-    {
       "id": "openai-news-开放人工智能公司发布人工智能相关动态",
       "title": "开放人工智能公司发布人工智能相关动态。",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
@@ -1226,7 +1229,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1259,7 +1262,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1275,7 +1278,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -1313,6 +1316,22 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp"
     },
     {
+      "id": "microsoft-ai-blog-内部微软团队-借助人工智能",
+      "title": "内部微软团队: 借助人工智能",
+      "url": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-08-31T16:00:00.000Z",
+      "summary": "人工智能帮助组织作为和在。内部微软团队: 借助人工智能首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "ithome-长安发布天枢领航辅助驾驶-支持交互式智驾指令-能识别交警手势",
       "title": "长安发布天枢领航辅助驾驶：支持交互式智驾指令，能识别交警手势",
       "url": "https://www.ithome.com/0/998/597.htm",
@@ -1341,7 +1360,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://external-preview.redd.it/8cMSX0-mfUokobECjzgCQowq5dcdoeB3osDrcGWOj8I.png?width=640&crop=smart&auto=webp&s=08a51b842ce5832f8c22b873d9440df81553972e"
     },
     {
@@ -1430,19 +1449,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-没有词元的学生-应立即退学",
-      "title": "“没有词元的学生，应立即退学”",
-      "url": "https://news.cnblogs.com/n/836502/",
+      "id": "cnblogs-news-字节整合飞书-阿里重构钉钉-腾讯再造-人工智能正在-拆-了办公软件",
+      "title": "字节整合飞书，阿里重构钉钉，腾讯再造：人工智能正在「拆」了办公软件",
+      "url": "https://news.cnblogs.com/n/836501/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T07:08:00.000Z",
-      "summary": "听雨发自凹非寺量子位，公众号没有词元的学生，应立即退学！这句暴论，出自南京大学计算机学院副教授蒋炎岩今年秋季新开设的《生成式软件工程》课程中。好家伙，现在国内高校的计算机系已经卷到「自费烧词元」了？知乎相关问题随即冲上热榜，目前已经引来了四百多个回本文链接",
+      "publishedAt": "2026-09-04T07:00:00.000Z",
+      "summary": "出品｜网易科技《态度》栏目作者｜汉雨棣编辑｜丁广胜 2026 年 7 月到 8 月，中国互联网大厂在人工智能办公领域展开了一场前所未有的“闪电战”。腾讯、阿里、字节、百度四家公司，在不到一个月的时间里，几乎同时完成了产品与组织的集中收拢。9 月初，大战进行到第二部分，各家开始开放生态、赠送本文链接",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1474,8 +1493,24 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": "https://media.wired.com/photos/6a99abf8b2409d6188eae980/master/pass/GPT-6-Can-Use-Computer-Better-Than-Human-Business-1015939026.jpg"
+    },
+    {
+      "id": "the-verge-ai-开放人工智能公司人工智能模型通用人工智能",
+      "title": "开放人工智能公司人工智能模型通用人工智能",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-03T18:00:00.000Z",
+      "summary": "开放人工智能公司模型这里:。公司呼吁信息技术在面向，软件工程，科学，和使用。作为开放人工智能公司宣布，信息技术首个模型作为会议开放人工智能公司，公司 …",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 81,
+      "image": ""
     },
     {
       "id": "arxiv-cs-ai-论文新进展-多模态方向研究",
@@ -1508,25 +1543,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-英伟达推出工具进入人工智能数据中心",
-      "title": "英伟达推出工具进入人工智能数据中心",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-03T16:00:00.000Z",
-      "summary": "英伟达宣布新人工智能，工具面向本地人工智能推理任务借助工具和，可能 :。信息技术打开，来源软件 …",
-      "topics": [
-        "模型发布",
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 90,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1547,6 +1564,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-03T12:30:01.000Z",
+      "summary": "构建来自实际评测。50，构建向首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 72,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-英伟达向",
       "title": "英伟达向",
       "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
@@ -1562,22 +1596,6 @@
       ],
       "heat": 84,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png"
-    },
-    {
-      "id": "towards-data-science-向解决正确问题在人工智能",
-      "title": "向解决正确问题在人工智能",
-      "url": "https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-03T11:00:01.000Z",
-      "summary": "面向智能体加速向解决正确问题在人工智能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 67,
-      "image": ""
     },
     {
       "id": "openai-news-安全",
@@ -1677,7 +1695,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1709,7 +1727,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1747,19 +1765,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-字节整合飞书-阿里重构钉钉-腾讯再造-人工智能正在-拆-了办公软件",
-      "title": "字节整合飞书，阿里重构钉钉，腾讯再造：人工智能正在「拆」了办公软件",
-      "url": "https://news.cnblogs.com/n/836501/",
+      "id": "cnblogs-news-纯血国产-4-十亿模型越级打怪-杀入万亿赛道",
+      "title": "纯血国产！4 十亿模型越级打怪，杀入万亿赛道",
+      "url": "https://news.cnblogs.com/n/836500/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T07:00:00.000Z",
-      "summary": "出品｜网易科技《态度》栏目作者｜汉雨棣编辑｜丁广胜 2026 年 7 月到 8 月，中国互联网大厂在人工智能办公领域展开了一场前所未有的“闪电战”。腾讯、阿里、字节、百度四家公司，在不到一个月的时间里，几乎同时完成了产品与组织的集中收拢。9 月初，大战进行到第二部分，各家开始开放生态、赠送本文链接",
+      "publishedAt": "2026-09-04T06:50:00.000Z",
+      "summary": "新智元报道就在最近，一台彻底断网的普通笔记本，靠着一个仅有 4 十亿参数的小模型，硬是干完了一件过去只有大模型才兜得住的活。事情是这样的。9 月 1 日，上线了两个开源端侧模型：星火相关型号十亿和 1.7 十亿。本以为只能干干文本补全的轻活，结果一上榜单，4 十亿模型本文链接",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "端侧智能",
+        "开源生态"
       ],
-      "heat": 80,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1810,7 +1830,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1862,24 +1882,41 @@
       "topics": [
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://media.wired.com/photos/6a9996ebd275abfc723b2792/master/pass/Model-Behavior-Elon-Musk-Costs-OpenAI-Billion-Dollar-Customer-Business.jpg"
     },
     {
-      "id": "the-verge-ai-谷歌借助-和持续",
-      "title": "谷歌借助，和持续",
-      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "id": "the-verge-ai-英伟达推出工具进入人工智能数据中心",
+      "title": "英伟达推出工具进入人工智能数据中心",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-09-03T16:00:00.000Z",
-      "summary": "谷歌人工智能，驱动助手模式面向，和持续向应用由讨论向。实时呼吁实时，实时，和持续实时，和双子座模型实时面向谷歌，目标是向信息技术向 …",
+      "summary": "英伟达宣布新人工智能，工具面向本地人工智能推理任务借助工具和，可能 :。信息技术打开，来源软件 …",
       "topics": [
         "模型发布",
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向解决正确问题在人工智能",
+      "title": "向解决正确问题在人工智能",
+      "url": "https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-03T11:00:01.000Z",
+      "summary": "面向智能体加速向解决正确问题在人工智能首个在数据科学实战社区。",
+      "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1951,22 +1988,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/crowdstrike-nvidia-stage-scaled.jpg"
     },
     {
-      "id": "towards-data-science-数据-五个失败模式大语言模型回顾",
-      "title": "数据 : 五个失败模式大语言模型回顾",
-      "url": "https://towardsdatascience.com/your-json-is-valid-but-your-data-is-wrong-five-failure-modes-llm-structured-outputs-wont-catch/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-01T15:30:02.000Z",
-      "summary": "五个失败模式，和为什么回顾。数据 : 五个失败模式大语言模型回顾首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
-      "image": ""
-    },
-    {
       "id": "ithome-仅为原价的-1-3-8-元宇宙平台公司为人工智能模型推出数据共享折扣计划",
       "title": "仅为原价的 1.3-8%，元宇宙平台公司为人工智能模型推出数据共享折扣计划",
       "url": "https://www.ithome.com/0/998/591.htm",
@@ -1979,7 +2000,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2013,7 +2034,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2035,19 +2056,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-纯血国产-4-十亿模型越级打怪-杀入万亿赛道",
-      "title": "纯血国产！4 十亿模型越级打怪，杀入万亿赛道",
-      "url": "https://news.cnblogs.com/n/836500/",
+      "id": "cnblogs-news-克劳德模型后台接管电脑-真-赛博替身-人机并行时代来了",
+      "title": "克劳德模型后台接管电脑，真·赛博替身！人机并行时代来了",
+      "url": "https://news.cnblogs.com/n/836498/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T06:50:00.000Z",
-      "summary": "新智元报道就在最近，一台彻底断网的普通笔记本，靠着一个仅有 4 十亿参数的小模型，硬是干完了一件过去只有大模型才兜得住的活。事情是这样的。9 月 1 日，上线了两个开源端侧模型：星火相关型号十亿和 1.7 十亿。本以为只能干干文本补全的轻活，结果一上榜单，4 十亿模型本文链接",
+      "publishedAt": "2026-09-04T06:30:00.000Z",
+      "summary": "新智元报道 5.1 发布仅 24 小时，社又放大招了！今天，人工智能安全公司宣布全面升级克劳德模型「计算机使用」能力。现在扔给它一个任务，克劳德模型就能自己打开软件、点击按钮、输入内容，在多个应用之间来回操作。最大的变化是，这些操作直接在后台完成。一个人，一台电脑，本文链接",
       "topics": [
         "模型发布",
-        "端侧智能",
-        "开源生态"
+        "产品应用",
+        "监管安全"
       ],
       "heat": 98,
       "image": ""
@@ -2066,24 +2087,23 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "qbitai-新版-2-5已经能伪造相关型号发布会了",
-      "title": "新版 2.5已经能伪造相关型号发布会了",
-      "url": "https://www.qbitai.com/2026/09/483948.html",
+      "id": "qbitai-卡车自动驾驶里程超10亿公里-嬴彻科技定义-货运物理人工智能",
+      "title": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理人工智能”",
+      "url": "https://www.qbitai.com/2026/09/483598.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-03T21:57:08.000Z",
-      "summary": "改进 2的噪点问题",
+      "publishedAt": "2026-09-04T01:40:42.000Z",
+      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "多模态"
+        "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2154,25 +2174,24 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
-      "id": "the-verge-ai-智能聊天助手-和克劳德模型在时间",
-      "title": "智能聊天助手，和克劳德模型在时间",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "id": "the-verge-ai-谷歌借助-和持续",
+      "title": "谷歌借助，和持续",
+      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-03T15:35:14.000Z",
-      "summary": "开放人工智能公司智能聊天助手，和人工智能安全公司克劳德模型时间在。在关于相关型号，智能聊天助手回归面向用户试图向使用，借助智能聊天助手和智能编程工具。在向 …",
+      "publishedAt": "2026-09-03T16:00:00.000Z",
+      "summary": "谷歌人工智能，驱动助手模式面向，和持续向应用由讨论向。实时呼吁实时，实时，和持续实时，和双子座模型实时面向谷歌，目标是向信息技术向 …",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 90,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2207,7 +2226,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2243,15 +2262,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-5-人工智能技能持续数据在-2027",
-      "title": "5 人工智能技能持续数据在 2027",
-      "url": "https://towardsdatascience.com/5-ai-skills-that-will-keep-data-scientists-relevant-in-2027/",
+      "id": "towards-data-science-数据-五个失败模式大语言模型回顾",
+      "title": "数据 : 五个失败模式大语言模型回顾",
+      "url": "https://towardsdatascience.com/your-json-is-valid-but-your-data-is-wrong-five-failure-modes-llm-structured-outputs-wont-catch/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-01T11:00:02.000Z",
-      "summary": "解决，和代码进入。5 人工智能技能持续数据在 2027 首个在数据科学实战社区。",
+      "publishedAt": "2026-09-01T15:30:02.000Z",
+      "summary": "五个失败模式，和为什么回顾。数据 : 五个失败模式大语言模型回顾首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
@@ -2327,21 +2346,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-克劳德模型后台接管电脑-真-赛博替身-人机并行时代来了",
-      "title": "克劳德模型后台接管电脑，真·赛博替身！人机并行时代来了",
-      "url": "https://news.cnblogs.com/n/836498/",
+      "id": "cnblogs-news-马斯克-人工智能巨浪已至-吸干全球救命钱",
+      "title": "马斯克：人工智能巨浪已至，吸干全球救命钱！",
+      "url": "https://news.cnblogs.com/n/836496/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T06:30:00.000Z",
-      "summary": "新智元报道 5.1 发布仅 24 小时，社又放大招了！今天，人工智能安全公司宣布全面升级克劳德模型「计算机使用」能力。现在扔给它一个任务，克劳德模型就能自己打开软件、点击按钮、输入内容，在多个应用之间来回操作。最大的变化是，这些操作直接在后台完成。一个人，一台电脑，本文链接",
+      "publishedAt": "2026-09-04T06:10:00.000Z",
+      "summary": "新智元报道马斯克警告：人工智能。（人工智能激流，已经袭来。） 过去一年，全球人工智能推理词元用量暴增了 25 倍。对此，方舟投资首席未来学家，语出惊人，描述了他所想到的一个意外本文链接",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "投融资"
       ],
-      "heat": 98,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2359,6 +2376,23 @@
         "机器人"
       ],
       "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "qbitai-新版-2-5已经能伪造相关型号发布会了",
+      "title": "新版 2.5已经能伪造相关型号发布会了",
+      "url": "https://www.qbitai.com/2026/09/483948.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-03T21:57:08.000Z",
+      "summary": "改进 2的噪点问题",
+      "topics": [
+        "模型发布",
+        "多模态"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -2380,6 +2414,24 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-智能聊天助手-和克劳德模型在时间",
+      "title": "智能聊天助手，和克劳德模型在时间",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-03T15:35:14.000Z",
+      "summary": "开放人工智能公司智能聊天助手，和人工智能安全公司克劳德模型时间在。在关于相关型号，智能聊天助手回归面向用户试图向使用，借助智能聊天助手和智能编程工具。在向 …",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-谷歌人工智能模型向",
       "title": "谷歌人工智能模型向",
       "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
@@ -2389,22 +2441,6 @@
       "language": "zh",
       "publishedAt": "2026-09-03T15:00:00.000Z",
       "summary": "3 在由深度学习。谷歌信息技术进入用户查看在，谷歌，和双子座模型。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-谷歌人工智能模型得到更好",
-      "title": "谷歌人工智能模型得到更好",
-      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-03T15:00:00.000Z",
-      "summary": "谷歌更新人工智能模型向，信息技术向和。在，公司信息技术向借助新 3 人工智能模型。信息技术全球五个 …",
       "topics": [
         "模型发布"
       ],
@@ -2442,7 +2478,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": "https://media.wired.com/photos/6a98bc1a652ea8849cb4e3a3/master/pass/Meta-Stops-Forcing-Employees-To-Use-AI-Business-1461790372.jpg"
     },
     {
@@ -2533,19 +2569,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-马斯克-人工智能巨浪已至-吸干全球救命钱",
-      "title": "马斯克：人工智能巨浪已至，吸干全球救命钱！",
-      "url": "https://news.cnblogs.com/n/836496/",
+      "id": "cnblogs-news-5-1变身词元刺客-几分钟烧光额度-人工智能圈掀起-榨汁革命",
+      "title": "5.1变身词元刺客，几分钟烧光额度！人工智能圈掀起「榨汁革命」",
+      "url": "https://news.cnblogs.com/n/836494/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T06:10:00.000Z",
-      "summary": "新智元报道马斯克警告：人工智能。（人工智能激流，已经袭来。） 过去一年，全球人工智能推理词元用量暴增了 25 倍。对此，方舟投资首席未来学家，语出惊人，描述了他所想到的一个意外本文链接",
+      "publishedAt": "2026-09-04T05:51:00.000Z",
+      "summary": "新智元报道就在昨天，人工智能安全公司刚刚祭出大杀器 5.1。可短短几个小时内，开发者们就炸锅了，直接骂上热搜。虽然 5.1 在各项基准测试中都杀疯了，但这玩意儿实在太耗词元了！开发者绝望地发帖：5.1 就是个疯子。它一下就把我本文链接",
       "topics": [
-        "投融资"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 80,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2562,7 +2599,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2580,7 +2617,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2616,7 +2653,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2725,20 +2762,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-5-1变身词元刺客-几分钟烧光额度-人工智能圈掀起-榨汁革命",
-      "title": "5.1变身词元刺客，几分钟烧光额度！人工智能圈掀起「榨汁革命」",
-      "url": "https://news.cnblogs.com/n/836494/",
+      "id": "cnblogs-news-英伟达官方推理指南来了-6倍无损加速-最优解全是华人写的",
+      "title": "英伟达官方推理指南来了！6倍无损加速，最优解全是华人写的",
+      "url": "https://news.cnblogs.com/n/836493/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T05:51:00.000Z",
-      "summary": "新智元报道就在昨天，人工智能安全公司刚刚祭出大杀器 5.1。可短短几个小时内，开发者们就炸锅了，直接骂上热搜。虽然 5.1 在各项基准测试中都杀疯了，但这玩意儿实在太耗词元了！开发者绝望地发帖：5.1 就是个疯子。它一下就把我本文链接",
+      "publishedAt": "2026-09-04T05:43:00.000Z",
+      "summary": "新智元报道最近，英伟达发了篇官方的大模型推理指南，结果翻着翻着，硬是让人看成了一本华人团队的论文合集。事情是这样的。9 月 2 日，英伟达技术博客上线了一篇长文《用投机解码做人工智能模型协同设计》。文章的核心就是一张选型表，把目前最主流的 6 种推理加速方案一字排开，连训练成本、适用场景都给本文链接",
       "topics": [
-        "监管安全",
+        "模型发布",
+        "算力芯片",
         "研究论文"
       ],
-      "heat": 92,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2756,7 +2794,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2791,7 +2829,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2825,42 +2863,8 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://media.wired.com/photos/6a973d9ebb1b14821345f01b/master/pass/AI-Lab-Russian-Mathematicians-Got-AI-Models-to-Communicate-Subconsciously-Business.jpg"
-    },
-    {
-      "id": "openai-news-构建人工智能基础设施",
-      "title": "构建人工智能基础设施",
-      "url": "https://openai.com/index/polimill",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "summary": "使用开放人工智能公司模型和智能编程工具向帮助和使用。",
-      "topics": [
-        "模型发布",
-        "端侧智能"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "ithome-公布工作站-支持级模型本地运行",
-      "title": "公布工作站，支持级模型本地运行",
-      "url": "https://www.ithome.com/0/998/560.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-04T10:29:22.000Z",
-      "summary": "科技之家 9 月 4 日消息，高级副总裁、计算与图形事业部总经理在 2026 上公布了工作站。这一“个人超级计算机”系统支持参数超相关型号的大型模型本地运行。基于 96 核心锐龙专业版处理器，配备 2 块相关型号显卡加速器，支持 2 太字节系统内存。该系统未来可支持 4 卡配置，从而将相关型号内存总容量提升到 576 吉字节。所有核心算力组件均采用液冷散热。",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 90,
-      "image": ""
     }
   ]
 }
