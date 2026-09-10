@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-10T20:27:00.240Z",
+  "generatedAt": "2026-09-10T20:57:43.063Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-10T20:30:00.000Z",
+  "nextUpdateHint": "2026-09-10T21:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-10T20:21:27.000Z"
+    "latestPublishedAt": "2026-09-10T20:47:04.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 76,
-      "heat": 86
+      "count": 75,
+      "heat": 87
     },
     {
       "name": "模型发布",
-      "count": 57,
-      "heat": 88
+      "count": 56,
+      "heat": 89
     },
     {
       "name": "研究论文",
-      "count": 31,
+      "count": 32,
       "heat": 85
     },
     {
       "name": "监管安全",
       "count": 32,
-      "heat": 82
+      "heat": 84
     },
     {
       "name": "算力芯片",
@@ -49,12 +49,12 @@
     {
       "name": "端侧智能",
       "count": 11,
-      "heat": 87
+      "heat": 86
     },
     {
       "name": "开源生态",
       "count": 9,
-      "heat": 79
+      "heat": 82
     },
     {
       "name": "投融资",
@@ -145,8 +145,8 @@
       "fallbackReason": "",
       "itemCount": 5,
       "displayedCount": 3,
-      "latestFetchedAt": "2026-09-10T16:54:01.000Z",
-      "latestDisplayedAt": "2026-09-10T16:54:01.000Z"
+      "latestFetchedAt": "2026-09-10T20:20:58.000Z",
+      "latestDisplayedAt": "2026-09-10T20:20:58.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -289,8 +289,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-09T22:11:55.000Z",
-      "latestDisplayedAt": "2026-09-09T22:11:55.000Z"
+      "latestFetchedAt": "2026-09-10T20:30:37.000Z",
+      "latestDisplayedAt": "2026-09-10T20:30:37.000Z"
     },
     {
       "id": "towards-data-science",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-09-10T20:21:27.000Z",
-      "latestDisplayedAt": "2026-09-10T20:21:27.000Z"
+      "latestFetchedAt": "2026-09-10T20:47:04.000Z",
+      "latestDisplayedAt": "2026-09-10T20:47:04.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 20,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 9,
       "displayedCount": 9,
       "latestFetchedAt": "2026-09-10T11:00:00.000Z",
       "latestDisplayedAt": "2026-09-10T11:00:00.000Z"
@@ -488,20 +488,56 @@
   "failures": [],
   "items": [
     {
-      "id": "reddit-artificial-人工智能解决问题-创建-社区",
-      "title": "人工智能解决问题，创建，社区",
-      "url": "https://www.reddit.com/r/artificial/comments/1wcunsd/ai_should_solve_problems_not_create_them/",
+      "id": "reddit-artificial-政府-向使用克劳德模型面向向-人工智能安全公司",
+      "title": "政府，向使用克劳德模型面向向，人工智能安全公司",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcvcok/governmentlinked_accounts_tried_to_use_claude_for/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T20:21:27.000Z",
+      "publishedAt": "2026-09-10T20:47:04.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 86,
-      "image": "https://external-preview.redd.it/By_SqYcwqQrTQH5U-pgo2Mtht8SKO2b9hMHlBqRoGFU.jpeg?width=640&crop=smart&auto=webp&s=717b36dc6de6fb3e68eb02fb71e56dc26c853a25"
+      "heat": 98,
+      "image": "https://external-preview.redd.it/1ZU9OBDtaeOV3JXStxbYiSl5HSEfcnnm1rnEWhhvwxQ.jpeg?width=640&crop=smart&auto=webp&s=80c70b1f13d66e0cd47712243b9e82b5b392fcc3"
+    },
+    {
+      "id": "wired-ai-人工智能实际向",
+      "title": "人工智能实际向？",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-10T20:30:37.000Z",
+      "summary": "在，我们进入人工智能安全公司人工智能，来自苹果，和 2020。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": "https://media.wired.com/photos/6aa216877d79a224cda3a43a/master/pass/Uncanny-Valley-Anthropic-Employee-Business.jpg"
+    },
+    {
+      "id": "github-changelog-人工智能面向接口在公开预览",
+      "title": "人工智能面向接口在公开预览",
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-10T20:20:58.000Z",
+      "summary": "代码托管平台代码人工智能面向启用借助接口在组织和仓库。公开预览团队 … 人工智能面向接口在公开预览首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 96,
+      "image": ""
     },
     {
       "id": "ithome-甲骨文-2027-财年第一财季归母净利润-46-79-亿美元-同比增长-60",
@@ -533,7 +569,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -549,7 +585,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -568,24 +604,6 @@
         "多模态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
-      "title": "代码托管平台更新日志发布人工智能相关动态。",
-      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-10T16:54:01.000Z",
-      "summary": "我们，代码，1，代码托管平台智能编程助手智能副驾，和智能体模式，和代码，10，2026。模型 …，代码，1，首个在代码托管平台。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 98,
       "image": ""
     },
     {
@@ -654,7 +672,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -686,7 +704,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -737,7 +755,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -769,7 +787,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -801,25 +819,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
-    },
-    {
-      "id": "wired-ai-人工智能只是人工智能安全公司信息技术时间面向",
-      "title": "人工智能只是人工智能安全公司信息技术时间面向",
-      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-09T22:11:55.000Z",
-      "summary": "向连线杂志关于小型版内部人工智能安全公司，问题借助，和为什么人工智能实验室只是向。",
-      "topics": [
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 84,
-      "image": "https://media.wired.com/photos/6aa1afc94eb21a2db77402a8/master/pass/Security_InterviewWithAnthropicGuyWhoQuitBecauseAI_v-ezgif.com-video-to-gif-converter.gif"
     },
     {
       "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
@@ -851,7 +852,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -908,22 +909,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-开放人工智能公司推出智能体接口构建在智能编程工具工具链",
-      "title": "开放人工智能公司推出智能体接口构建在智能编程工具工具链",
-      "url": "https://www.reddit.com/r/artificial/comments/1wctpbu/openai_launches_agents_api_public_beta_built_on/",
+      "id": "reddit-artificial-人工智能解决问题-创建-社区",
+      "title": "人工智能解决问题，创建，社区",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcunsd/ai_should_solve_problems_not_create_them/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T19:46:35.000Z",
-      "summary": "开放人工智能公司推出智能体接口在在 10。信息技术开发者创建云服务智能体由任务，模型，工具，和在接口呼吁。开放人工智能公司工具链，智能体在开放人工智能公司，在开发者基础设施，借助合作伙伴作为，和。接口新增上下文面向，工具，工具呼吁，和，智能体支持。开放人工智能公司接口，词元和工具成本资金。和。团队智能编程工具工具链每个，内部开放人工智能公司。问题。: 开放人工智能公司: :，……",
+      "publishedAt": "2026-09-10T20:21:27.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 99,
-      "image": ""
+      "heat": 85,
+      "image": "https://external-preview.redd.it/By_SqYcwqQrTQH5U-pgo2Mtht8SKO2b9hMHlBqRoGFU.jpeg?width=640&crop=smart&auto=webp&s=717b36dc6de6fb3e68eb02fb71e56dc26c853a25"
     },
     {
       "id": "techcrunch-ai-人工智能安全公司人工智能智能体-只是",
@@ -940,6 +939,24 @@
         "监管安全"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
+      "title": "代码托管平台更新日志发布人工智能相关动态。",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-10T16:54:01.000Z",
+      "summary": "我们，代码，1，代码托管平台智能编程助手智能副驾，和智能体模式，和代码，10，2026。模型 …，代码，1，首个在代码托管平台。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 98,
       "image": ""
     },
     {
@@ -1040,7 +1057,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1058,7 +1075,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1108,7 +1125,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1129,37 +1146,21 @@
       "image": ""
     },
     {
-      "id": "wired-ai-元宇宙平台公司向人工智能",
-      "title": "元宇宙平台公司向人工智能",
-      "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+      "id": "wired-ai-人工智能只是人工智能安全公司信息技术时间面向",
+      "title": "人工智能只是人工智能安全公司信息技术时间面向",
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-09T21:15:27.000Z",
-      "summary": "询问元宇宙平台公司向解释在和。公司。",
+      "publishedAt": "2026-09-09T22:11:55.000Z",
+      "summary": "向连线杂志关于小型版内部人工智能安全公司，问题借助，和为什么人工智能实验室只是向。",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 70,
-      "image": "https://media.wired.com/photos/6aa1c5b373b15b9694431f6d/master/pass/GettyImages-2233066222.jpg"
-    },
-    {
-      "id": "github-changelog-企业面向代码托管平台智能编程助手智能体",
-      "title": "企业面向代码托管平台智能编程助手智能体",
-      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-09T20:08:14.000Z",
-      "summary": "代码托管平台智能编程助手企业代码托管平台智能编程助手企业，控制智能体。… 企业面向代码托管平台智能编程助手智能体首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 76,
-      "image": ""
+      "heat": 83,
+      "image": "https://media.wired.com/photos/6aa1afc94eb21a2db77402a8/master/pass/Security_InterviewWithAnthropicGuyWhoQuitBecauseAI_v-ezgif.com-video-to-gif-converter.gif"
     },
     {
       "id": "arxiv-cs-lg-论文新进展-工程仿真方向研究",
@@ -1176,7 +1177,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1194,7 +1195,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1226,7 +1227,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -1242,7 +1243,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1258,7 +1259,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg"
     },
     {
@@ -1279,21 +1280,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-分享人工智能作为作为认为",
-      "title": "分享人工智能作为作为认为",
-      "url": "https://www.reddit.com/r/artificial/comments/1wct8di/shared_ai_chats_are_not_as_private_as_people_think/",
+      "id": "reddit-artificial-开放人工智能公司推出智能体接口构建在智能编程工具工具链",
+      "title": "开放人工智能公司推出智能体接口构建在智能编程工具工具链",
+      "url": "https://www.reddit.com/r/artificial/comments/1wctpbu/openai_launches_agents_api_public_beta_built_on/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T19:29:33.000Z",
-      "summary": "关于人工智能分享。和分享，借助向，信息技术。: 评测智能聊天助手，克劳德模型，分享？由",
+      "publishedAt": "2026-09-10T19:46:35.000Z",
+      "summary": "开放人工智能公司推出智能体接口在在 10。信息技术开发者创建云服务智能体由任务，模型，工具，和在接口呼吁。开放人工智能公司工具链，智能体在开放人工智能公司，在开发者基础设施，借助合作伙伴作为，和。接口新增上下文面向，工具，工具呼吁，和，智能体支持。开放人工智能公司接口，词元和工具成本资金。和。团队智能编程工具工具链每个，内部开放人工智能公司。问题。: 开放人工智能公司: :，……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "投融资"
       ],
-      "heat": 98,
-      "image": "https://external-preview.redd.it/X2fudJayFT64nmlzThBs3rssE7CQOigaN-9spX-Bizg.png?width=640&crop=smart&auto=webp&s=65d15c90b3549d837d18ab38cf77eea6a0bc97f2"
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-向-500-百万作为人工智能驱动-93-音频",
@@ -1309,7 +1311,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1358,7 +1360,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1374,7 +1376,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/gpu-architecture-corp-blog-dmatrix-nvlink-fusion-1280x680-5692448-r1.png"
     },
     {
@@ -1407,7 +1409,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1443,7 +1445,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1459,7 +1461,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1493,25 +1495,41 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
-      "id": "wired-ai-立法者人工智能",
-      "title": "立法者人工智能",
-      "url": "https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/",
+      "id": "wired-ai-元宇宙平台公司向人工智能",
+      "title": "元宇宙平台公司向人工智能",
+      "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-09T19:07:42.000Z",
-      "summary": "作为人工智能智能体和，向。",
+      "publishedAt": "2026-09-09T21:15:27.000Z",
+      "summary": "询问元宇宙平台公司向解释在和。公司。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 69,
+      "image": "https://media.wired.com/photos/6aa1c5b373b15b9694431f6d/master/pass/GettyImages-2233066222.jpg"
+    },
+    {
+      "id": "github-changelog-企业面向代码托管平台智能编程助手智能体",
+      "title": "企业面向代码托管平台智能编程助手智能体",
+      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-09T20:08:14.000Z",
+      "summary": "代码托管平台智能编程助手企业代码托管平台智能编程助手企业，控制智能体。… 企业面向代码托管平台智能编程助手智能体首个在代码托管平台。",
       "topics": [
         "产品应用",
-        "监管安全"
+        "开源生态"
       ],
-      "heat": 73,
-      "image": "https://media.wired.com/photos/6aa198d7d1fc0df81e302b2e/master/pass/Business_UK%20Lawmakers%20Are%20Scrambling%20In%20Response%20To%20AI%E2%80%99s%20Summer%20of%20Chaos_v1.jpg"
+      "heat": 75,
+      "image": ""
     },
     {
       "id": "arxiv-cs-lg-论文新进展-智能体-多模态-模型评测-计算机视觉方向研究",
@@ -1550,24 +1568,6 @@
       "image": ""
     },
     {
-      "id": "github-changelog-企业-在智能副驾面向",
-      "title": "企业，在智能副驾面向",
-      "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-09T02:43:38.000Z",
-      "summary": "更新带来支持面向企业，面向，全球上下文在，企业政策，和新智能副驾… 企业，在智能副驾面向首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "开源生态"
-      ],
-      "heat": 66,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-安全面向-正确",
       "title": "安全面向？正确",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
@@ -1601,22 +1601,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wcrgm4/i_ran_gpt6_astra_against_7_real_signup_captchas/",
+      "id": "reddit-artificial-分享人工智能作为作为认为",
+      "title": "分享人工智能作为作为认为",
+      "url": "https://www.reddit.com/r/artificial/comments/1wct8di/shared_ai_chats_are_not_as_private_as_people_think/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T18:27:41.000Z",
-      "summary": "开放人工智能公司设置进入接口，实际呼吁信息技术面向，访问，视频来自，48 机器人和，来自开放人工智能公司在在。面向，向智能体服务和信息技术。向功能: 信息技术，信息技术，词元信息技术。向借助，信息技术实际接口，信息技术解决？7 服务: 社区论坛，代码托管平台，和。: 2 7 实际，和在向借助。在社区论坛，智能体和信息技术在，呼吁在向信息技术。只是面向，智能体在和，信息技术。作……",
+      "publishedAt": "2026-09-10T19:29:33.000Z",
+      "summary": "关于人工智能分享。和分享，借助向，信息技术。: 评测智能聊天助手，克劳德模型，分享？由",
       "topics": [
         "模型发布",
-        "产品应用",
-        "多模态"
+        "产品应用"
       ],
-      "heat": 99,
-      "image": "https://preview.redd.it/h7n1nqiakqoh1.png?width=640&crop=smart&auto=webp&s=c338b3c9aee434a49a279db0466507f8791ff749"
+      "heat": 97,
+      "image": "https://external-preview.redd.it/X2fudJayFT64nmlzThBs3rssE7CQOigaN-9spX-Bizg.png?width=640&crop=smart&auto=webp&s=65d15c90b3549d837d18ab38cf77eea6a0bc97f2"
     },
     {
       "id": "the-decoder-克劳德模型-5-1-语言",
@@ -1753,7 +1752,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1769,7 +1768,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1787,7 +1786,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1821,26 +1820,25 @@
         "监管安全",
         "端侧智能"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "wired-ai-人工智能智能体-和信息技术",
-      "title": "人工智能智能体，和信息技术",
-      "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
+      "id": "wired-ai-立法者人工智能",
+      "title": "立法者人工智能",
+      "url": "https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-09T18:30:00.000Z",
-      "summary": "安全来自打开，来源模型，信息技术在和进入电脑。信息技术向保障安全。",
+      "publishedAt": "2026-09-09T19:07:42.000Z",
+      "summary": "作为人工智能智能体和，向。",
       "topics": [
-        "模型发布",
         "产品应用",
         "监管安全"
       ],
-      "heat": 77,
-      "image": "https://media.wired.com/photos/6aa092c74e574542e273c50f/master/pass/AI-Lab-Hacked-Gadgets-on-Home-Network-Business.jpg"
+      "heat": 72,
+      "image": "https://media.wired.com/photos/6aa198d7d1fc0df81e302b2e/master/pass/Business_UK%20Lawmakers%20Are%20Scrambling%20In%20Response%20To%20AI%E2%80%99s%20Summer%20of%20Chaos_v1.jpg"
     },
     {
       "id": "arxiv-cs-lg-论文新进展-知识工程-自然语言处理方向研究",
@@ -1896,21 +1894,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-我们和人工智能模型向持续公司",
-      "title": "我们和人工智能模型向持续公司",
-      "url": "https://www.reddit.com/r/artificial/comments/1wcq4r8/we_need_free_market_and_foreign_ai_models_to_keep/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcrgm4/i_ran_gpt6_astra_against_7_real_signup_captchas/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:41:30.000Z",
-      "summary": "来自人工智能公司人工智能向和。借助，向访问向中国模型进入只是在政府向和向我们。由",
+      "publishedAt": "2026-09-10T18:27:41.000Z",
+      "summary": "开放人工智能公司设置进入接口，实际呼吁信息技术面向，访问，视频来自，48 机器人和，来自开放人工智能公司在在。面向，向智能体服务和信息技术。向功能: 信息技术，信息技术，词元信息技术。向借助，信息技术实际接口，信息技术解决？7 服务: 社区论坛，代码托管平台，和。: 2 7 实际，和在向借助。在社区论坛，智能体和信息技术在，呼吁在向信息技术。只是面向，智能体在和，信息技术。作……",
       "topics": [
         "模型发布",
-        "监管安全"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 88,
-      "image": ""
+      "heat": 99,
+      "image": "https://preview.redd.it/h7n1nqiakqoh1.png?width=640&crop=smart&auto=webp&s=c338b3c9aee434a49a279db0466507f8791ff749"
     },
     {
       "id": "ithome-全新一汽红旗相关型号将于-9-月-16-日上市-限时置换价-16-18-万元-20-18-万元",
@@ -1925,7 +1924,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1941,7 +1940,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2065,6 +2064,24 @@
       "image": ""
     },
     {
+      "id": "wired-ai-人工智能智能体-和信息技术",
+      "title": "人工智能智能体，和信息技术",
+      "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-09T18:30:00.000Z",
+      "summary": "安全来自打开，来源模型，信息技术在和进入电脑。信息技术向保障安全。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 77,
+      "image": "https://media.wired.com/photos/6aa092c74e574542e273c50f/master/pass/AI-Lab-Hacked-Gadgets-on-Home-Network-Business.jpg"
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-强化学习-模型安全方向研究",
       "title": "论文新进展：大语言模型、智能体、强化学习、模型安全方向研究",
       "url": "https://arxiv.org/abs/2609.10441v1",
@@ -2095,7 +2112,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/me-ai-for-media-kv-1920x1080-5262591.jpeg"
     },
     {
@@ -2115,23 +2132,6 @@
       ],
       "heat": 80,
       "image": ""
-    },
-    {
-      "id": "wired-ai-元宇宙平台公司新人工智能智能体-向信息技术",
-      "title": "元宇宙平台公司新人工智能智能体，向信息技术",
-      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-08T20:12:51.000Z",
-      "summary": "向借助和，公司来自向。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 54,
-      "image": "https://media.wired.com/photos/6a9e9eca147ff8c9409f7051/master/pass/MetaSignalAi.jpg"
     },
     {
       "id": "towards-data-science-模型面向-来自",
@@ -2167,22 +2167,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-新面向和人工智能在",
-      "title": "新面向和人工智能在",
-      "url": "https://www.reddit.com/r/artificial/comments/1wcptkt/vsarena_v060_a_new_studio_for_running_and/",
+      "id": "reddit-artificial-我们和人工智能模型向持续公司",
+      "title": "我们和人工智能模型向持续公司",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcq4r8/we_need_free_market_and_foreign_ai_models_to_keep/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:30:26.000Z",
-      "summary": "只是发布，重要更新向面向。打开评测面向视觉，语言，和人工智能，构建三维。: 信息技术向政策，在，和本地机器人机器人。在 : 🦾 三维机器人 👁️ 视觉，📦 实时物体和 📊 任务，🎥 和工具 🤖 基线，和来自 🧪 改进和 🔐 评测，借助和 ⚠️ 任务 : 在。新增任务，评测向，和。向构建打开在，借助，和评测。: :。应用代码托管平台: :，代码托管平台，在来自在……",
+      "publishedAt": "2026-09-10T17:41:30.000Z",
+      "summary": "来自人工智能公司人工智能向和。借助，向访问向中国模型进入只是在政府向和向我们。由",
       "topics": [
         "模型发布",
-        "产品应用",
         "监管安全"
       ],
-      "heat": 93,
-      "image": "https://external-preview.redd.it/eWtzMmYxeDRhcW9oMXLXX7vum9QaHeqfjRGi2h1upEpZ9vNFnFHsmZ8TM__D.jpeg?width=640&crop=smart&auto=webp&s=a30e95a98bd549bd6111492b17def57ac9ff4a86"
+      "heat": 88,
+      "image": ""
     },
     {
       "id": "ithome-美众议员呼吁调查特斯拉-有司机故意开着辅助驾驶睡觉",
@@ -2197,7 +2196,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2251,7 +2250,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2284,7 +2283,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2301,7 +2300,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2373,37 +2372,39 @@
       "image": ""
     },
     {
-      "id": "wired-ai-开放人工智能公司只是",
-      "title": "开放人工智能公司只是。",
-      "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
+      "id": "wired-ai-元宇宙平台公司新人工智能智能体-向信息技术",
+      "title": "元宇宙平台公司新人工智能智能体，向信息技术",
+      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-08T16:42:05.000Z",
-      "summary": "由人工智能实验室由。",
+      "publishedAt": "2026-09-08T20:12:51.000Z",
+      "summary": "向借助和，公司来自向。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 57,
-      "image": "https://media.wired.com/photos/6aa02435e4af4176b7305e6a/master/pass/OpenAI-Antrophic-MathProblem.jpg"
+      "heat": 54,
+      "image": "https://media.wired.com/photos/6a9e9eca147ff8c9409f7051/master/pass/MetaSignalAi.jpg"
     },
     {
-      "id": "reddit-artificial-人工智能面向信息技术作为",
-      "title": "人工智能面向信息技术作为",
-      "url": "https://www.reddit.com/r/artificial/comments/1wcpi2o/notion_ai_finally_clicked_for_me_once_i_stopped/",
+      "id": "reddit-artificial-新面向和人工智能在",
+      "title": "新面向和人工智能在",
+      "url": "https://www.reddit.com/r/artificial/comments/1wcptkt/vsarena_v060_a_new_studio_for_running_and/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:19:36.000Z",
-      "summary": "面向信息技术信息技术向和。转化。信息技术问题关于。没有关于。信息技术，智能聊天助手。使用信息技术信息技术来自为什么面向向。信息技术重要由",
+      "publishedAt": "2026-09-10T17:30:26.000Z",
+      "summary": "只是发布，重要更新向面向。打开评测面向视觉，语言，和人工智能，构建三维。: 信息技术向政策，在，和本地机器人机器人。在 : 🦾 三维机器人 👁️ 视觉，📦 实时物体和 📊 任务，🎥 和工具 🤖 基线，和来自 🧪 改进和 🔐 评测，借助和 ⚠️ 任务 : 在。新增任务，评测向，和。向构建打开在，借助，和评测。: :。应用代码托管平台: :，代码托管平台，在来自在……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 96,
-      "image": ""
+      "heat": 93,
+      "image": "https://external-preview.redd.it/eWtzMmYxeDRhcW9oMXLXX7vum9QaHeqfjRGi2h1upEpZ9vNFnFHsmZ8TM__D.jpeg?width=640&crop=smart&auto=webp&s=a30e95a98bd549bd6111492b17def57ac9ff4a86"
     },
     {
       "id": "ithome-全新一代智己相关型号发布-45-分钟小订破-8000-台-20-99-万元起",
@@ -2472,7 +2473,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2573,7 +2574,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2594,20 +2595,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/wikipedia-workers-vote-on-whether-to-unionize/",
+      "id": "wired-ai-开放人工智能公司只是",
+      "title": "开放人工智能公司只是。",
+      "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-04T00:40:06.000Z",
-      "summary": "来自连线杂志人工智能的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-09-08T16:42:05.000Z",
+      "summary": "由人工智能实验室由。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 49,
-      "image": "https://media.wired.com/photos/6a9a07338aae3f350260c9af/master/pass/Wikipedia-Workers-Vote-on-Whether-to-Unionize-Business.jpg"
+      "heat": 57,
+      "image": "https://media.wired.com/photos/6aa02435e4af4176b7305e6a/master/pass/OpenAI-Antrophic-MathProblem.jpg"
     },
     {
       "id": "ithome-开放人工智能公司将为美国政府机构提供人工智能模型五折优惠-终止每年-1-美元试点项目",
@@ -2641,7 +2642,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2709,7 +2710,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2725,7 +2726,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2781,22 +2782,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-很少有人为什么开放人工智能公司和人工智能安全公司",
-      "title": "很少有人为什么开放人工智能公司和人工智能安全公司",
-      "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/wikipedia-workers-vote-on-whether-to-unionize/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-03T21:56:21.000Z",
-      "summary": "智能聊天助手，克劳德模型，和在时间面向。",
+      "publishedAt": "2026-09-04T00:40:06.000Z",
+      "summary": "来自连线杂志人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 67,
-      "image": "https://media.wired.com/photos/6a99e16fbf4e66136bddbc74/master/pass/Security_AWaveofOutagesHitsLeadingAIChatbots_v1-ezgif.com-video-to-gif-converter%20(2).gif"
+      "heat": 49,
+      "image": "https://media.wired.com/photos/6a9a07338aae3f350260c9af/master/pass/Wikipedia-Workers-Vote-on-Whether-to-Unionize-Business.jpg"
     },
     {
       "id": "ithome-国星宇航-星算-计划-02-组首批八星出征-近期择机发射",
