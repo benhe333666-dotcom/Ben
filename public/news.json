@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-11T19:29:23.792Z",
+  "generatedAt": "2026-09-11T19:59:26.604Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-11T19:30:00.000Z",
+  "nextUpdateHint": "2026-09-11T20:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-11T19:21:34.000Z"
+    "latestPublishedAt": "2026-09-11T19:50:21.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 75,
+      "count": 73,
       "heat": 83
     },
     {
       "name": "模型发布",
-      "count": 43,
-      "heat": 85
+      "count": 44,
+      "heat": 84
     },
     {
       "name": "监管安全",
       "count": 32,
-      "heat": 84
+      "heat": 82
     },
     {
       "name": "研究论文",
-      "count": 32,
-      "heat": 82
+      "count": 30,
+      "heat": 83
     },
     {
       "name": "算力芯片",
@@ -37,17 +37,12 @@
       "heat": 87
     },
     {
-      "name": "投融资",
-      "count": 11,
-      "heat": 87
-    },
-    {
       "name": "人工智能动态",
-      "count": 13,
-      "heat": 70
+      "count": 15,
+      "heat": 72
     },
     {
-      "name": "端侧智能",
+      "name": "投融资",
       "count": 10,
       "heat": 86
     },
@@ -55,6 +50,11 @@
       "name": "多模态",
       "count": 10,
       "heat": 84
+    },
+    {
+      "name": "端侧智能",
+      "count": 9,
+      "heat": 85
     },
     {
       "name": "开源生态",
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-09-09T18:00:00.000Z",
-      "latestDisplayedAt": "2026-09-08T20:00:00.000Z"
+      "displayedCount": 0,
+      "latestFetchedAt": "2026-09-03T19:00:00.000Z",
+      "latestDisplayedAt": ""
     },
     {
       "id": "huggingface-blog",
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 9,
-      "latestFetchedAt": "2026-09-11T18:41:49.000Z",
-      "latestDisplayedAt": "2026-09-11T18:41:49.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-09-11T19:35:54.000Z",
+      "latestDisplayedAt": "2026-09-11T19:35:54.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -288,7 +288,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-09-11T19:21:34.000Z",
       "latestDisplayedAt": "2026-09-11T19:21:34.000Z"
     },
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-09-11T18:46:15.000Z",
-      "latestDisplayedAt": "2026-09-11T18:46:15.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-09-11T19:50:21.000Z",
+      "latestDisplayedAt": "2026-09-11T19:50:21.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -488,6 +488,38 @@
   "failures": [],
   "items": [
     {
+      "id": "reddit-artificial-公司-人工智能",
+      "title": "公司 + 人工智能 =",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdqrj7/company_ai_snake_oil_salesman/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T19:50:21.000Z",
+      "summary": "公司借助人工智能。由",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-月之暗面-人工智能-2-十亿在",
+      "title": "月之暗面，人工智能 $2 十亿在",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T19:35:54.000Z",
+      "summary": "在，数据作为作为 300 十亿词元生成由模型在。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
       "title": "连线杂志人工智能发布人工智能相关动态。",
       "url": "https://www.wired.com/story/polymarket-investigations-iran-biden-google-foia/",
@@ -502,42 +534,6 @@
       ],
       "heat": 97,
       "image": "https://media.wired.com/photos/6aa423dcb30233b4abc2d13c/master/pass/Business_US%20Government%20Looked%20Into%20Insider%20Trading%20Allegations%20Over%20Biden%20Pardons%20on%20Polymarket_v1.jpg"
-    },
-    {
-      "id": "reddit-artificial-人工智能安全公司研究人工智能可能-向信息技术-很少有人向我们向借助",
-      "title": "人工智能安全公司研究人工智能可能。向信息技术。很少有人向我们向借助。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdoy1g/three_anthropic_researchers_went_public_this_week/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T18:46:15.000Z",
-      "summary": "在信息技术。来自人工智能安全公司在，开放人工智能公司和人工智能安全公司借助和。研究在公司。信息技术，科学在人工智能安全公司，信息技术。: 这里，我们人工智能。设置信息技术 10% 和人工智能安全公司面向和在向。安全团队在安全，实验室借助安全。在和最进入。信息技术向信息技术，信息技术我们由。认为正确，认为向信息技术。借助公司和很少有人在认为关于。认为关于智能体借助访问向向在相关……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司在时间",
-      "title": "人工智能安全公司在时间",
-      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T18:41:49.000Z",
-      "summary": "人工智能安全公司，在在公司向和借助。公司信息技术。信息技术人工智能借助，借助人工智能安全公司据报道面向首次公开募股，信息技术。在 …",
-      "topics": [
-        "监管安全",
-        "研究论文",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
     },
     {
       "id": "the-decoder-深度思维人工智能即将推出智能",
@@ -604,7 +600,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -620,7 +616,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -636,7 +632,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -689,7 +685,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -706,7 +702,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -740,7 +736,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -756,7 +752,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/ToolGrad1_teaser.png"
     },
     {
@@ -808,7 +804,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -826,7 +822,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/skildai-kv-1920x1080-1.jpg"
     },
     {
@@ -842,7 +838,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp"
     },
     {
@@ -895,37 +891,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-504013302-1152x648-1788971374.jpg"
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-08T20:00:00.000Z",
-      "summary": "面向研究和 & 组织，人工智能更好，时间答案。信息技术新向探索和问题:，来自，和作为新可用。基准测试: 首个在微软。",
-      "topics": [
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-使用智能聊天助手和克劳德模型由面向面向-这里实际",
-      "title": "使用智能聊天助手和克劳德模型由面向面向。这里实际",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdohel/used_chatgpt_and_claude_side_by_side_for_two/",
+      "id": "reddit-artificial-人工智能安全公司研究人工智能可能-向信息技术-很少有人向我们向借助",
+      "title": "人工智能安全公司研究人工智能可能。向信息技术。很少有人向我们向借助。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdoy1g/three_anthropic_researchers_went_public_this_week/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T18:29:36.000Z",
-      "summary": "问题。只是。克劳德模型。面向信息技术实际借助，这里向信息技术更好。智能聊天助手更快向只是和更好向解释。很少有人 : 顺利解释。和答案最向由",
+      "publishedAt": "2026-09-11T18:46:15.000Z",
+      "summary": "在信息技术。来自人工智能安全公司在，开放人工智能公司和人工智能安全公司借助和。研究在公司。信息技术，科学在人工智能安全公司，信息技术。: 这里，我们人工智能。设置信息技术 10% 和人工智能安全公司面向和在向。安全团队在安全，实验室借助安全。在和最进入。信息技术向信息技术，信息技术我们由。认为正确，认为向信息技术。借助公司和很少有人在认为关于。认为关于智能体借助访问向向在相关……",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 98,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能安全公司在时间",
+      "title": "人工智能安全公司在时间",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T18:41:49.000Z",
+      "summary": "人工智能安全公司，在在公司向和借助。公司信息技术。信息技术人工智能借助，借助人工智能安全公司据报道面向首次公开募股，信息技术。在 …",
+      "topics": [
+        "监管安全",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -942,23 +940,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-新增开放人工智能公司向首次公开募股",
-      "title": "新增开放人工智能公司向首次公开募股",
-      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T16:46:25.000Z",
-      "summary": "2 在开放人工智能公司首次公开募股在 2023。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 97,
+      "heat": 92,
       "image": ""
     },
     {
@@ -975,7 +957,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -991,7 +973,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://media.wired.com/photos/6aa2e16e1ef586476d0a1793/master/pass/Backchannel-Timnit-Gebru-Business.jpg"
     },
     {
@@ -1058,7 +1040,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1074,7 +1056,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1092,7 +1074,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1125,7 +1107,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1160,7 +1142,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1263,20 +1245,37 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg"
     },
     {
-      "id": "reddit-artificial-立法者向在人工智能-人工智能人工智能",
-      "title": "立法者向在人工智能，人工智能人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdnd3u/uk_lawmakers_urge_burnham_to_back_ban_on/",
+      "id": "reddit-artificial-使用智能聊天助手和克劳德模型由面向面向-这里实际",
+      "title": "使用智能聊天助手和克劳德模型由面向面向。这里实际",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdohel/used_chatgpt_and_claude_side_by_side_for_two/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T17:49:34.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-09-11T18:29:36.000Z",
+      "summary": "问题。只是。克劳德模型。面向信息技术实际借助，这里向信息技术更好。智能聊天助手更快向只是和更好向解释。很少有人 : 顺利解释。和答案最向由",
       "topics": [
-        "监管安全"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 84,
-      "image": "https://external-preview.redd.it/7pyOn-8VnQHflik0ZnqG2CUu0E_ve-R66DJok3nIQWM.jpeg?width=640&crop=smart&auto=webp&s=de4f001d1b97d4739956544c0075805d62b5d4f1"
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-新增开放人工智能公司向首次公开募股",
+      "title": "新增开放人工智能公司向首次公开募股",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T16:46:25.000Z",
+      "summary": "2 在开放人工智能公司首次公开募股在 2023。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 96,
+      "image": ""
     },
     {
       "id": "ithome-努比亚冰淇淋散热器开售-至低-18-制冷-25-瓦峰值功率-99-元",
@@ -1292,7 +1291,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1345,7 +1344,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1379,7 +1378,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://media.wired.com/photos/6aa1c85ef107c265a15668ae/master/pass/Why-All-These-AI-Researchers-Freaking-Out-About-AI-Killing-Us-All-Business-MCDTETH_EC026.jpg"
     },
     {
@@ -1432,22 +1431,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-解释为什么英伟达-70",
-      "title": "解释为什么英伟达 70%",
-      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T21:51:59.000Z",
-      "summary": "英伟达在每个，和在未来。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 81,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-氛围式-代码和内部",
       "title": "氛围式，代码和内部",
       "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
@@ -1460,7 +1443,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1496,7 +1479,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1514,7 +1497,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1584,21 +1567,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-工具借助人工智能模型",
-      "title": "工具借助人工智能模型？",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdlf3k/do_output_compression_tools_still_matter_with/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdocnr/james_cameron_saw_it_in_1984_even_with_128_kb_of/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T16:39:44.000Z",
-      "summary": "我们向答案问题由最工具在 : 词元。我们使用克劳德模型代码借助 5.0，和借助深度求索专业版 0813 在 2.1 研究和 : :，人工智能，编程，由",
+      "publishedAt": "2026-09-11T18:24:56.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 96,
-      "image": "https://preview.redd.it/iy0y29og5xoh1.png?width=640&crop=smart&auto=webp&s=1e81b3cb8b6b8b1a70e581ed11cf283e0ef78dbb"
+      "heat": 84,
+      "image": "https://preview.redd.it/gr9l6ke2oxoh1.jpeg?width=640&crop=smart&auto=webp&s=1d11dd329530f2251425ec600da9e446c34c49d2"
     },
     {
       "id": "ithome-飞牛四盘位万兆相关型号专业版英特尔版开售-相关型号-4499-元起",
@@ -1666,7 +1648,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1734,19 +1716,19 @@
       "image": "https://media.wired.com/photos/6aa304df834bd0176b553b6c/master/pass/Model-Behavior-OpenAI-Anthropic-AI-Slowdown-Business.jpg"
     },
     {
-      "id": "techcrunch-ai-即将推出向科技创投媒体-2026-和向关于",
-      "title": "即将推出向科技创投媒体 2026，和向关于",
-      "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "id": "techcrunch-ai-解释为什么英伟达-70",
+      "title": "解释为什么英伟达 70%",
+      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T21:35:00.000Z",
-      "summary": "在向，医疗，和构建企业。",
+      "publishedAt": "2026-09-10T21:51:59.000Z",
+      "summary": "英伟达在每个，和在未来。",
       "topics": [
-        "投融资"
+        "算力芯片"
       ],
-      "heat": 72,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1798,7 +1780,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1871,22 +1853,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdl3rc/new/",
+      "id": "reddit-artificial-立法者向在人工智能-人工智能人工智能",
+      "title": "立法者向在人工智能，人工智能人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdnd3u/uk_lawmakers_urge_burnham_to_back_ban_on/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T16:28:22.000Z",
-      "summary": "构建智能。人工智能。7，642，75，37，模型。本地在。信息技术。训练，每个部件和构建。信息技术，信息技术，来自。正确信息技术在借助在 500，000，1.5 百万，2，380，修复面向生活。56，862，15，972，141，66，和作为信息技术。苹果电脑，语言。在和进入。语言。和作为。每个。:，词元，借助。问题物体在修复。37 作为，和，舞台借助和模式。和信息技术问题向……",
+      "publishedAt": "2026-09-11T17:49:34.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布",
-        "投融资",
-        "端侧智能"
+        "监管安全"
       ],
-      "heat": 93,
-      "image": ""
+      "heat": 84,
+      "image": "https://external-preview.redd.it/7pyOn-8VnQHflik0ZnqG2CUu0E_ve-R66DJok3nIQWM.jpeg?width=640&crop=smart&auto=webp&s=de4f001d1b97d4739956544c0075805d62b5d4f1"
     },
     {
       "id": "ithome-全新理想相关型号外观内饰配色公布-全车配备四把零重力座椅",
@@ -1917,7 +1897,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1953,7 +1933,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1969,7 +1949,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2006,19 +1986,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司专业版在向需求",
-      "title": "开放人工智能公司专业版在向需求",
-      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "id": "techcrunch-ai-即将推出向科技创投媒体-2026-和向关于",
+      "title": "即将推出向科技创投媒体 2026，和向关于",
+      "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T20:59:51.000Z",
-      "summary": "公司专业版设置最在，信息技术新增。",
+      "publishedAt": "2026-09-10T21:35:00.000Z",
+      "summary": "在向，医疗，和构建企业。",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
-      "heat": 80,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2036,7 +2016,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6aa216877d79a224cda3a43a/master/pass/Uncanny-Valley-Anthropic-Employee-Business.jpg"
     },
     {
@@ -2072,7 +2052,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2088,7 +2068,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2140,6 +2120,23 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/me-ai-for-media-kv-1920x1080-5262591.jpeg"
     },
     {
+      "id": "reddit-artificial-工具借助人工智能模型",
+      "title": "工具借助人工智能模型？",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdlf3k/do_output_compression_tools_still_matter_with/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T16:39:44.000Z",
+      "summary": "我们向答案问题由最工具在 : 词元。我们使用克劳德模型代码借助 5.0，和借助深度求索专业版 0813 在 2.1 研究和 : :，人工智能，编程，由",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 96,
+      "image": "https://preview.redd.it/iy0y29og5xoh1.png?width=640&crop=smart&auto=webp&s=1e81b3cb8b6b8b1a70e581ed11cf283e0ef78dbb"
+    },
+    {
       "id": "ithome-全球首款人工智能智能体手机-努比亚将搭载-2-亿像素主摄",
       "title": "全球首款人工智能智能体手机，努比亚将搭载 2 亿像素主摄",
       "url": "https://www.ithome.com/1/001/459.htm",
@@ -2154,7 +2151,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2171,7 +2168,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2188,7 +2185,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2222,7 +2219,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2244,19 +2241,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司来自阿里巴巴-人工智能-和深度求索",
-      "title": "人工智能安全公司来自阿里巴巴，人工智能，和深度求索",
-      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "id": "techcrunch-ai-开放人工智能公司专业版在向需求",
+      "title": "开放人工智能公司专业版在向需求",
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T20:57:30.000Z",
-      "summary": "新发布由人工智能安全公司由人工智能公司，在作为在。",
+      "publishedAt": "2026-09-10T20:59:51.000Z",
+      "summary": "公司专业版设置最在，信息技术新增。",
       "topics": [
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2274,7 +2271,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2307,7 +2304,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2357,7 +2354,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": "https://media.wired.com/photos/6aa1afc94eb21a2db77402a8/master/pass/Security_InterviewWithAnthropicGuyWhoQuitBecauseAI_v-ezgif.com-video-to-gif-converter.gif"
     },
     {
@@ -2456,24 +2453,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司人工智能智能体-只是",
-      "title": "人工智能安全公司人工智能智能体，只是",
-      "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "id": "techcrunch-ai-人工智能安全公司来自阿里巴巴-人工智能-和深度求索",
+      "title": "人工智能安全公司来自阿里巴巴，人工智能，和深度求索",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:54:44.000Z",
-      "summary": "内部试图向信息技术。",
+      "publishedAt": "2026-09-10T20:57:30.000Z",
+      "summary": "新发布由人工智能安全公司由人工智能公司，在作为在。",
       "topics": [
-        "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2491,7 +2487,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2508,7 +2504,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2609,7 +2605,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2643,7 +2639,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2661,7 +2657,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2830,25 +2826,26 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能智能体服务借助新",
-      "title": "人工智能智能体服务借助新",
-      "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "wired-ai-人工智能智能体-和信息技术",
+      "title": "人工智能智能体，和信息技术",
+      "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-10T14:53:50.000Z",
-      "summary": "我们向面向，面向，科技创投媒体。",
+      "publishedAt": "2026-09-09T18:30:00.000Z",
+      "summary": "安全来自打开，来源模型，信息技术在和进入电脑。信息技术向保障安全。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 72,
-      "image": ""
+      "heat": 59,
+      "image": "https://media.wired.com/photos/6aa092c74e574542e273c50f/master/pass/AI-Lab-Hacked-Gadgets-on-Home-Network-Business.jpg"
     }
   ]
 }
