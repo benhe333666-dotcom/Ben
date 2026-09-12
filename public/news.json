@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-11T23:29:57.957Z",
+  "generatedAt": "2026-09-12T00:00:07.476Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-11T23:30:00.000Z",
+  "nextUpdateHint": "2026-09-12T00:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-11T23:22:39.000Z"
+    "latestPublishedAt": "2026-09-11T23:59:26.000Z"
   },
   "topics": [
     {
@@ -22,24 +22,24 @@
       "heat": 83
     },
     {
+      "name": "研究论文",
+      "count": 33,
+      "heat": 81
+    },
+    {
       "name": "监管安全",
       "count": 31,
       "heat": 83
     },
     {
-      "name": "研究论文",
-      "count": 31,
-      "heat": 80
-    },
-    {
       "name": "算力芯片",
       "count": 23,
-      "heat": 86
+      "heat": 87
     },
     {
       "name": "人工智能动态",
       "count": 17,
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "投融资",
@@ -54,17 +54,17 @@
     {
       "name": "多模态",
       "count": 9,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "端侧智能",
       "count": 7,
-      "heat": 83
+      "heat": 84
     },
     {
       "name": "机器人",
       "count": 4,
-      "heat": 85
+      "heat": 84
     }
   ],
   "sources": [
@@ -240,9 +240,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-09-11T20:44:02.000Z",
-      "latestDisplayedAt": "2026-09-11T20:44:02.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-09-11T16:09:14.000Z",
+      "latestDisplayedAt": "2026-09-11T16:09:14.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-11T21:50:00.000Z",
-      "latestDisplayedAt": "2026-09-11T21:50:00.000Z"
+      "latestFetchedAt": "2026-09-11T23:59:26.000Z",
+      "latestDisplayedAt": "2026-09-11T23:59:26.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -364,10 +364,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-09-10T17:58:14.000Z",
       "latestDisplayedAt": "2026-09-10T17:58:14.000Z"
@@ -448,9 +448,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 20,
-      "displayedCount": 8,
-      "latestFetchedAt": "2026-09-11T23:22:39.000Z",
-      "latestDisplayedAt": "2026-09-11T23:22:39.000Z"
+      "displayedCount": 9,
+      "latestFetchedAt": "2026-09-11T23:50:16.000Z",
+      "latestDisplayedAt": "2026-09-11T23:50:16.000Z"
     },
     {
       "id": "oschina",
@@ -488,19 +488,36 @@
   "failures": [],
   "items": [
     {
-      "id": "ithome-冲刺史上最大首次公开募股-英伟达正洽谈为人工智能安全公司投资至多-100-亿美元",
-      "title": "冲刺史上最大首次公开募股：英伟达正洽谈为人工智能安全公司投资至多 100 亿美元",
-      "url": "https://www.ithome.com/1/001/488.htm",
+      "id": "reddit-artificial-使用人工智能-基础设施向",
+      "title": ": 使用人工智能，基础设施向",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdwyf3/repost_ban_all_use_of_ai_dedicate_existing/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T23:59:26.000Z",
+      "summary": "论文在 :，22700922。:。呼吁面向在人工智能。只是进入向。研究在重要人工智能，只是向论文。实验室向重要迈向向 : :，研究，借助，由",
+      "topics": [
+        "研究论文",
+        "端侧智能"
+      ],
+      "heat": 91,
+      "image": "https://preview.redd.it/nuksa1e6czoh1.png?width=640&crop=smart&auto=webp&s=dc197a9a5493ff9bdad6570cea6e320f34c65576"
+    },
+    {
+      "id": "ithome-信息技术早报-0912-央视曝光人工智能中转站低价灰产-新版充电宝消费电子认证标准落地-36-9-万起特斯拉模型高性能版上市-哪",
+      "title": "信息技术早报 0912：央视曝光人工智能中转站低价灰产；新版充电宝消费电子认证标准落地；36.9 万起特斯拉模型高性能版上市；哪吒汽车拟获 30 亿元偿债重整。",
+      "url": "https://www.ithome.com/1/001/495.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T23:22:39.000Z",
-      "summary": "科技之家 9 月 12 日消息，路透社刚刚报道称，英伟达正与人工智能安全公司洽谈，考虑以基石投资者身份参与其首次公开募股，考虑投资至多 100 亿美元 （现汇率约合 672.8 亿元人民币）。报道称，人工智能安全公司计划通过上市融资最多 1000 亿美元，估值或达到约 2 万亿美元 （科技之家注：现汇率约合 13.46 万亿元人民币），这将有望成为史上最大规模的首次公开募股事……",
+      "publishedAt": "2026-09-11T23:50:16.000Z",
+      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 9 月 12 日星期六，今天的重要科技资讯有：1。8.8 元买 5000 积分？央视曝光人工智能中转站低价灰产，小心你的代码被截留倒卖央视曝光二手平台大量低价人工智能工具积分实为第三方接口中转站篡改本地配置，用户办公文档、代码等敏感信息存在被截留、倒卖风险，官方表示会严打这类违规行为。>> 查看详情 2。新版充电宝消费电子认……",
       "topics": [
         "模型发布",
-        "算力芯片",
-        "监管安全"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -519,25 +536,8 @@
         "投融资",
         "机器人"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能持续内部信息技术创建-和作为-代码",
-      "title": "人工智能持续内部信息技术创建。和作为。代码？",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdtx3c/what_if_ai_could_keep_working_inside_the/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T21:50:00.000Z",
-      "summary": "最人工智能工具生成预览。连续。构建，人工智能创建，信息技术信息技术，新，和内部。在演示，信息技术，三维，和，用户面向向。只是借助信息技术。来自向构建视觉。创建作为向和作为。实时和向生活借助向在时刻作为。借助记忆上下文和回归向信息技术在和在信息技术。在查看作为智能体，工具。实时和向没有向规则这里借助。向在构建和在。问题由",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 89,
-      "image": "https://external-preview.redd.it/Nnd6eGdodGZueW9oMZO0tC3DGrKDqmy0mw-60VwGEcarOmaPoNf0T04lxJoA.png?width=640&crop=smart&auto=webp&s=889497adb754b4683c689af724c9e2ab16076483"
     },
     {
       "id": "github-changelog-新增代码智能体向智能副驾指标",
@@ -553,24 +553,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-相关型号人工智能-在",
-      "title": "$相关型号人工智能，在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T20:44:02.000Z",
-      "summary": "新面向人工智能，和在面向，向来自。在在，$5，000 和在面向向和 …",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 93,
+      "heat": 94,
       "image": ""
     },
     {
@@ -586,7 +569,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": "https://media.wired.com/photos/6aa423dcb30233b4abc2d13c/master/pass/Business_US%20Government%20Looked%20Into%20Insider%20Trading%20Allegations%20Over%20Biden%20Pardons%20on%20Polymarket_v1.jpg"
     },
     {
@@ -602,7 +585,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -621,6 +604,23 @@
         "投融资"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能安全公司在",
+      "title": "人工智能安全公司在",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T16:09:14.000Z",
+      "summary": "人工智能模型公司在，人工智能安全公司发布新在。信息技术人工智能安全公司模型单个，和关于和人工智能。…",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -670,7 +670,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -687,7 +687,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -738,7 +738,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -840,7 +840,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/skildai-kv-1920x1080-1.jpg"
     },
     {
@@ -856,7 +856,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp"
     },
     {
@@ -888,7 +888,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": ""
     },
     {
@@ -909,38 +909,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-504013302-1152x648-1788971374.jpg"
     },
     {
-      "id": "ithome-王国之心-4-确认由相关型号重制工作室开发-最终幻想仍有可能改编为影视作品",
-      "title": "《王国之心 4》确认由相关型号重制工作室开发，最终幻想仍有可能改编为影视作品",
-      "url": "https://www.ithome.com/1/001/486.htm",
+      "id": "ithome-开放人工智能公司承认其人工智能智能体曾对语言包管理器发起网络攻击",
+      "title": "开放人工智能公司承认其人工智能智能体曾对语言包管理器发起网络攻击",
+      "url": "https://www.ithome.com/1/001/492.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T23:16:15.000Z",
-      "summary": "科技之家 9 月 12 日消息，据昨日发布的采访，游戏总监滨口直树确认，其中 1 工作室正在开发《王国之心 4》。该工作室同时还在开发《最终幻想 7 启示录》。两款游戏均计划 2027 年推出。1 是旗下开发工作室，曾负责《最终幻想 7 重制版》与《最终幻想 7 重生》。在 2026 年科隆游戏展期间，《最终幻想 7 启示录》展示了第 4 章内容。滨口直树称，海温德号空艇带来……",
+      "publishedAt": "2026-09-11T23:36:54.000Z",
+      "summary": "科技之家 9 月 12 日消息，据 《华尔街日报》当地时间周五报道，开放人工智能公司智能体开发人员参与了一起此前未披露的网络攻击，该攻击使服务不堪重负。科技之家注：是语言的包管理器，用于创建、分享和安装程序库（称为 ），类似的或的。报道称，开放人工智能公司确认其测试中的人工智能智能体使用访问了互联网，作为无害任务的一部分，用于在培训过程中获取公开信息。该事件发生在今年 5 月……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-阿里巴巴云服务和只是在开源深度学习框架",
-      "title": "阿里巴巴云服务和只是在开源深度学习框架",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdtoh7/alibaba_cloud_and_cambricon_just_took_platinum/",
+      "id": "reddit-artificial-人工智能持续内部信息技术创建-和作为-代码",
+      "title": "人工智能持续内部信息技术创建。和作为。代码？",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdtx3c/what_if_ai_could_keep_working_inside_the/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T21:40:43.000Z",
-      "summary": "开源深度学习框架宣布在 8 在开源深度学习框架在阿里巴巴云服务和作为。在和在。构建在，英伟达，值得。交付进入中国数据中心，和开源深度学习框架，信息技术重要发布。向支持。面向在。向关于。基准测试，和在。250 中国组织向。在决策。公司在，借助阿里巴巴在 8.67% 和在 2.62%。向和云服务。在来自。由",
+      "publishedAt": "2026-09-11T21:50:00.000Z",
+      "summary": "最人工智能工具生成预览。连续。构建，人工智能创建，信息技术信息技术，新，和内部。在演示，信息技术，三维，和，用户面向向。只是借助信息技术。来自向构建视觉。创建作为向和作为。实时和向生活借助向在时刻作为。借助记忆上下文和回归向信息技术在和在信息技术。在查看作为智能体，工具。实时和向没有向规则这里借助。向在构建和在。问题由",
       "topics": [
-        "算力芯片",
-        "研究论文",
-        "开源生态"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 99,
-      "image": ""
+      "heat": 89,
+      "image": "https://external-preview.redd.it/Nnd6eGdodGZueW9oMZO0tC3DGrKDqmy0mw-60VwGEcarOmaPoNf0T04lxJoA.png?width=640&crop=smart&auto=webp&s=889497adb754b4683c689af724c9e2ab16076483"
     },
     {
       "id": "techcrunch-ai-打开-人工智能实验室向前沿模型",
@@ -955,7 +956,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -993,23 +994,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能安全公司在",
-      "title": "人工智能安全公司在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T16:09:14.000Z",
-      "summary": "人工智能模型公司在，人工智能安全公司发布新在。信息技术人工智能安全公司模型单个，和关于和人工智能。…",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
       "id": "wired-ai-人工智能向",
       "title": "人工智能向",
       "url": "https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/",
@@ -1026,6 +1010,22 @@
       "image": "https://media.wired.com/photos/6aa2e16e1ef586476d0a1793/master/pass/Backchannel-Timnit-Gebru-Business.jpg"
     },
     {
+      "id": "the-verge-ai-元宇宙平台公司信息技术人工智能问题",
+      "title": "元宇宙平台公司信息技术人工智能问题",
+      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T14:25:21.000Z",
+      "summary": "元宇宙平台公司信息技术向由人工智能视频信息技术面向关于，作为由。在向前沿科技媒体，元宇宙平台公司公司，新增功能 …",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
       "id": "qbitai-啊-人工智能安全公司最高320万招销售-只为服务元宇宙平台公司",
       "title": "啊？人工智能安全公司最高320万招销售，只为服务元宇宙平台公司",
       "url": "https://www.qbitai.com/2026/09/487573.html",
@@ -1038,7 +1038,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1144,19 +1144,19 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-模型安全-模型评测-工程仿真方向研究",
-      "title": "论文新进展：模型安全、模型评测、工程仿真方向研究",
-      "url": "https://arxiv.org/abs/2609.11910v1",
+      "id": "arxiv-cs-lg-论文新进展-人工智能前沿研究",
+      "title": "论文新进展：人工智能前沿研究",
+      "url": "https://arxiv.org/abs/2609.11915v1",
       "source": "论文预印本：机器学习",
       "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:56:36.000Z",
-      "summary": "这篇论文关注模型安全、模型评测、工程仿真，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-09-10T17:57:28.000Z",
+      "summary": "这篇论文关注机器学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
-        "监管安全",
-        "研究论文",
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "研究论文"
       ],
       "heat": 75,
       "image": ""
@@ -1175,7 +1175,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1210,7 +1210,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1278,36 +1278,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg"
     },
     {
-      "id": "ithome-开放人工智能公司进一步完善智能聊天助手-响应速度提升-新增协作功能-可绑定自定义域名",
-      "title": "开放人工智能公司进一步完善智能聊天助手：响应速度提升、新增协作功能、可绑定自定义域名",
-      "url": "https://www.ithome.com/1/001/485.htm",
+      "id": "ithome-冲刺史上最大首次公开募股-英伟达正洽谈为人工智能安全公司投资至多-100-亿美元",
+      "title": "冲刺史上最大首次公开募股：英伟达正洽谈为人工智能安全公司投资至多 100 亿美元",
+      "url": "https://www.ithome.com/1/001/488.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T23:10:51.000Z",
-      "summary": "科技之家 9 月 12 日消息，开放人工智能公司宣布进一步完善智能聊天助手功能，新增一项“ ”协作功能，允许用户邀请其他人共同开发同一个网站 / 应用。公开信息显示，智能聊天助手主要用于帮助用户使用自然语言创建网站 / 应用，先前相应功能主要面向单人使用，项目创建后默认只能由一名用户负责修改和发布。而本次更新后，用户可以向其他人发送协作申请，受邀成员可以快速编辑、保存并发布内……",
+      "publishedAt": "2026-09-11T23:22:39.000Z",
+      "summary": "科技之家 9 月 12 日消息，路透社刚刚报道称，英伟达正与人工智能安全公司洽谈，考虑以基石投资者身份参与其首次公开募股，考虑投资至多 100 亿美元 （现汇率约合 672.8 亿元人民币）。报道称，人工智能安全公司计划通过上市融资最多 1000 亿美元，估值或达到约 2 万亿美元 （科技之家注：现汇率约合 13.46 万亿元人民币），这将有望成为史上最大规模的首次公开募股事……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "算力芯片",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdsxhd/wtf_mods/",
+      "id": "reddit-artificial-阿里巴巴云服务和只是在开源深度学习框架",
+      "title": "阿里巴巴云服务和只是在开源深度学习框架",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdtoh7/alibaba_cloud_and_cambricon_just_took_platinum/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T21:11:24.000Z",
-      "summary": "11，借助，来自。信息技术部件问题由",
+      "publishedAt": "2026-09-11T21:40:43.000Z",
+      "summary": "开源深度学习框架宣布在 8 在开源深度学习框架在阿里巴巴云服务和作为。在和在。构建在，英伟达，值得。交付进入中国数据中心，和开源深度学习框架，信息技术重要发布。向支持。面向在。向关于。基准测试，和在。250 中国组织向。在决策。公司在，借助阿里巴巴在 8.67% 和在 2.62%。向和云服务。在来自。由",
       "topics": [
-        "人工智能动态"
+        "算力芯片",
+        "研究论文",
+        "开源生态"
       ],
-      "heat": 84,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1323,23 +1326,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-元宇宙平台公司信息技术人工智能问题",
-      "title": "元宇宙平台公司信息技术人工智能问题",
-      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T14:25:21.000Z",
-      "summary": "元宇宙平台公司信息技术向由人工智能视频信息技术面向关于，作为由。在向前沿科技媒体，元宇宙平台公司公司，新增功能 …",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 83,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1375,7 +1362,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1409,7 +1396,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1458,7 +1445,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1475,7 +1462,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1493,7 +1480,23 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-氛围式-代码和内部",
+      "title": "氛围式，代码和内部",
+      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-10T21:25:21.000Z",
+      "summary": "新功能即将推出向向构建，和工具内部。借助，向，和信息技术使用人工智能向来自和应用，谷歌，向 …",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 76,
       "image": ""
     },
     {
@@ -1515,19 +1518,19 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-智能体-多模态-模型评测方向研究",
-      "title": "论文新进展：智能体、多模态、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2609.11904v1",
+      "id": "arxiv-cs-lg-论文新进展-模型安全-模型评测-工程仿真方向研究",
+      "title": "论文新进展：模型安全、模型评测、工程仿真方向研究",
+      "url": "https://arxiv.org/abs/2609.11910v1",
       "source": "论文预印本：机器学习",
       "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:55:12.000Z",
-      "summary": "这篇论文关注智能体、多模态、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-09-10T17:56:36.000Z",
+      "summary": "这篇论文关注模型安全、模型评测、工程仿真，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "监管安全",
+        "研究论文",
+        "投融资"
       ],
       "heat": 75,
       "image": ""
@@ -1546,7 +1549,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1562,7 +1565,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/gpu-architecture-corp-blog-dmatrix-nvlink-fusion-1280x680-5692448-r1.png"
     },
     {
@@ -1616,37 +1619,35 @@
       "image": ""
     },
     {
-      "id": "ithome-2026-年度-时代-杂志全球最佳企业榜单公布-英伟达位居第一-苹果重返排名前三",
-      "title": "2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三",
-      "url": "https://www.ithome.com/1/001/483.htm",
+      "id": "ithome-王国之心-4-确认由相关型号重制工作室开发-最终幻想仍有可能改编为影视作品",
+      "title": "《王国之心 4》确认由相关型号重制工作室开发，最终幻想仍有可能改编为影视作品",
+      "url": "https://www.ithome.com/1/001/486.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T23:02:52.000Z",
-      "summary": "科技之家 9 月 12 日消息，《时代（）》杂志现在已公布“2026 全球最佳企业”（ ’ 2026）榜单，英伟达位居第一，苹果则以 93.16 分排名第三。这也是苹果继 2024 年登顶后再次进入该榜单前三。科技之家注意到，苹果在该榜单中的排名近年来经历了较大变化。尽管在 2024 年苹果曾位居榜首，但在 2025 年榜单中意外落选。《时代》杂志当时表示，苹果 2022 年……",
+      "publishedAt": "2026-09-11T23:16:15.000Z",
+      "summary": "科技之家 9 月 12 日消息，据昨日发布的采访，游戏总监滨口直树确认，其中 1 工作室正在开发《王国之心 4》。该工作室同时还在开发《最终幻想 7 启示录》。两款游戏均计划 2027 年推出。1 是旗下开发工作室，曾负责《最终幻想 7 重制版》与《最终幻想 7 重生》。在 2026 年科隆游戏展期间，《最终幻想 7 启示录》展示了第 4 章内容。滨口直树称，海温德号空艇带来……",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "reddit-artificial-向检索增强生成和性能",
-      "title": "向检索增强生成和性能",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdsbb0/comparing_continued_pretraining_to_rag_accuracy/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdsxhd/wtf_mods/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T20:48:23.000Z",
-      "summary": "作为向性能和训练通义千问 3.5 4 十亿模型和检索增强生成模型。向性能帮助推理能力在。这里在 : :，检索增强生成，和，大语言模型由",
+      "publishedAt": "2026-09-11T21:11:24.000Z",
+      "summary": "11，借助，来自。信息技术部件问题由",
       "topics": [
-        "模型发布",
-        "端侧智能"
+        "人工智能动态"
       ],
-      "heat": 96,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1662,7 +1663,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1678,7 +1679,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1730,7 +1731,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1746,7 +1747,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1762,7 +1763,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1782,22 +1783,6 @@
       "image": "https://media.wired.com/photos/6aa304df834bd0176b553b6c/master/pass/Model-Behavior-OpenAI-Anthropic-AI-Slowdown-Business.jpg"
     },
     {
-      "id": "the-verge-ai-氛围式-代码和内部",
-      "title": "氛围式，代码和内部",
-      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T21:25:21.000Z",
-      "summary": "新功能即将推出向向构建，和工具内部。借助，向，和信息技术使用人工智能向来自和应用，谷歌，向 …",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 76,
-      "image": ""
-    },
-    {
       "id": "github-changelog-人工智能面向接口在公开预览",
       "title": "人工智能面向接口在公开预览",
       "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
@@ -1812,6 +1797,22 @@
         "开源生态"
       ],
       "heat": 73,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-10T19:44:20.000Z",
+      "summary": "信息技术新在，和信息技术。了解向使用信息技术。和向帮助回顾在时间，和面向信息技术，专业版。人工智能公司在 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -1833,15 +1834,15 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-多模态-计算机视觉方向研究",
-      "title": "论文新进展：多模态、计算机视觉方向研究",
-      "url": "https://arxiv.org/abs/2609.11894v1",
+      "id": "arxiv-cs-lg-论文新进展-智能体-多模态-模型评测方向研究",
+      "title": "论文新进展：智能体、多模态、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2609.11904v1",
       "source": "论文预印本：机器学习",
       "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:52:17.000Z",
-      "summary": "这篇论文关注多模态、计算机视觉，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-09-10T17:55:12.000Z",
+      "summary": "这篇论文关注智能体、多模态、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
         "产品应用",
@@ -1864,7 +1865,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1881,7 +1882,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/GFN_Thursday_September_10.jpg"
     },
     {
@@ -1903,35 +1904,37 @@
       "image": ""
     },
     {
-      "id": "ithome-联想-15-笔记本完整规格曝光-5-325-处理器-15-3-英寸-120-赫兹面板",
-      "title": "联想 15 笔记本完整规格曝光：5 325 处理器、15.3 英寸 120 赫兹面板",
-      "url": "https://www.ithome.com/1/001/477.htm",
+      "id": "ithome-开放人工智能公司进一步完善智能聊天助手-响应速度提升-新增协作功能-可绑定自定义域名",
+      "title": "开放人工智能公司进一步完善智能聊天助手：响应速度提升、新增协作功能、可绑定自定义域名",
+      "url": "https://www.ithome.com/1/001/485.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T22:40:45.000Z",
-      "summary": "科技之家 9 月 12 日消息，外媒现已曝光了联想 15 笔记本完整配置信息，这款产品并非传统意义上的入门级，而是一款面向生产力用户的高端产品。该机机身尺寸约为 341.1×236×16 毫米，重量约 1.29 千克，配备 4 扬声器系统。笔记本面配备“”彩色指示灯，可以显示电池及充电状态。面配备一块 15.3 英寸相关型号分辨率 120 赫兹触控面板（峰值亮度 500 尼特……",
+      "publishedAt": "2026-09-11T23:10:51.000Z",
+      "summary": "科技之家 9 月 12 日消息，开放人工智能公司宣布进一步完善智能聊天助手功能，新增一项“ ”协作功能，允许用户邀请其他人共同开发同一个网站 / 应用。公开信息显示，智能聊天助手主要用于帮助用户使用自然语言创建网站 / 应用，先前相应功能主要面向单人使用，项目创建后默认只能由一名用户负责修改和发布。而本次更新后，用户可以向其他人发送协作申请，受邀成员可以快速编辑、保存并发布内……",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-信息技术向向和在人工智能",
-      "title": "信息技术向向和在人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdrxla/it_could_prove_to_be_impossible_to_replicate/",
+      "id": "reddit-artificial-向检索增强生成和性能",
+      "title": "向检索增强生成和性能",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdsbb0/comparing_continued_pretraining_to_rag_accuracy/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T20:33:59.000Z",
-      "summary": "信息技术向向和在人工智能？由",
+      "publishedAt": "2026-09-11T20:48:23.000Z",
+      "summary": "作为向性能和训练通义千问 3.5 4 十亿模型和检索增强生成模型。向性能帮助推理能力在。这里在 : :，检索增强生成，和，大语言模型由",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "端侧智能"
       ],
-      "heat": 83,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2070,22 +2073,6 @@
       "image": "https://media.wired.com/photos/6aa216877d79a224cda3a43a/master/pass/Uncanny-Valley-Anthropic-Employee-Business.jpg"
     },
     {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T19:44:20.000Z",
-      "summary": "信息技术新在，和信息技术。了解向使用信息技术。和向帮助回顾在时间，和面向信息技术，专业版。人工智能公司在 …",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 67,
-      "image": ""
-    },
-    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-强化学习-扩散模型方向研究",
       "title": "论文新进展：大语言模型、智能体、强化学习、扩散模型方向研究",
       "url": "https://arxiv.org/abs/2609.11900v1",
@@ -2104,15 +2091,15 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-人工智能前沿研究",
-      "title": "论文新进展：人工智能前沿研究",
-      "url": "https://arxiv.org/abs/2609.11884v1",
+      "id": "arxiv-cs-lg-论文新进展-多模态-计算机视觉方向研究",
+      "title": "论文新进展：多模态、计算机视觉方向研究",
+      "url": "https://arxiv.org/abs/2609.11894v1",
       "source": "论文预印本：机器学习",
       "sourceId": "arxiv-cs-lg",
       "sourceType": "research",
       "language": "zh",
-      "publishedAt": "2026-09-10T17:49:19.000Z",
-      "summary": "这篇论文关注机器学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-09-10T17:52:17.000Z",
+      "summary": "这篇论文关注多模态、计算机视觉，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
       "topics": [
         "模型发布",
         "产品应用",
@@ -2140,6 +2127,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-人工智能平台借助",
+      "title": "人工智能平台借助",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-10T15:38:19.000Z",
+      "summary": "群组新人工智能，驱动平台用户向来自向创建，和新在，向在。平台借助，公司 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 63,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-解释关于人工智能",
       "title": "解释关于人工智能",
       "url": "https://towardsdatascience.com/what-shap-cant-explain-about-agentic-ai-fraud/",
@@ -2152,7 +2155,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2188,15 +2191,32 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/me-ai-for-media-kv-1920x1080-5262591.jpeg"
     },
     {
-      "id": "reddit-artificial-公司-人工智能",
-      "title": "公司 + 人工智能 =",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdqrj7/company_ai_snake_oil_salesman/",
+      "id": "ithome-2026-年度-时代-杂志全球最佳企业榜单公布-英伟达位居第一-苹果重返排名前三",
+      "title": "2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三",
+      "url": "https://www.ithome.com/1/001/483.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T23:02:52.000Z",
+      "summary": "科技之家 9 月 12 日消息，《时代（）》杂志现在已公布“2026 全球最佳企业”（ ’ 2026）榜单，英伟达位居第一，苹果则以 93.16 分排名第三。这也是苹果继 2024 年登顶后再次进入该榜单前三。科技之家注意到，苹果在该榜单中的排名近年来经历了较大变化。尽管在 2024 年苹果曾位居榜首，但在 2025 年榜单中意外落选。《时代》杂志当时表示，苹果 2022 年……",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-信息技术向向和在人工智能",
+      "title": "信息技术向向和在人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdrxla/it_could_prove_to_be_impossible_to_replicate/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T19:50:21.000Z",
-      "summary": "公司借助人工智能。由",
+      "publishedAt": "2026-09-11T20:33:59.000Z",
+      "summary": "信息技术向向和在人工智能？由",
       "topics": [
         "人工智能动态"
       ],
@@ -2216,24 +2236,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "ithome-高盛-总是盯着-人工智能泡沫会不会破-不放-反而可能会低估人工智能创造的价值",
-      "title": "高盛：总是盯着“人工智能泡沫会不会破”不放，反而可能会低估人工智能创造的价值",
-      "url": "https://www.ithome.com/1/001/474.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T15:48:59.000Z",
-      "summary": "科技之家 9 月 11 日消息，今年以来，华尔街一直在就人工智能热潮是否已经变成泡沫争论不休。高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问的问题并不是这个。“大家都在问，我们是不是已经进入人工智能泡沫。但更应该问的是，人工智能会不会从根本上改变企业的运营、竞争和价值创造方式。这个问题的答案显然是肯定的。” 长期身处美国企业押注人工智能转型最前线的波斯内特，亲眼见……",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 86,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2285,7 +2288,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2319,7 +2322,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2357,22 +2360,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能平台借助",
-      "title": "人工智能平台借助",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T15:38:19.000Z",
-      "summary": "群组新人工智能，驱动平台用户向来自向创建，和新在，向在。平台借助，公司 …",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 63,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-大语言模型推理成本在-智能体借助模型",
       "title": "大语言模型推理成本在，智能体借助模型",
       "url": "https://towardsdatascience.com/optimizing-llm-inference-costs-in-multi-agent-systems-with-adaptive-model-routing/",
@@ -2387,6 +2374,23 @@
         "产品应用"
       ],
       "heat": 64,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-开放人工智能公司没有使用",
+      "title": "开放人工智能公司没有使用",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-10T11:00:57.000Z",
+      "summary": "开放人工智能公司关于数据。只是公司模型帮助来自，人工智能和和关于 …",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 72,
       "image": ""
     },
     {
@@ -2423,21 +2427,35 @@
       "image": "https://media.wired.com/photos/6aa1afc94eb21a2db77402a8/master/pass/Security_InterviewWithAnthropicGuyWhoQuitBecauseAI_v-ezgif.com-video-to-gif-converter.gif"
     },
     {
-      "id": "reddit-artificial-人工智能安全公司研究人工智能可能-向信息技术-很少有人向我们向借助",
-      "title": "人工智能安全公司研究人工智能可能。向信息技术。很少有人向我们向借助。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdoy1g/three_anthropic_researchers_went_public_this_week/",
+      "id": "ithome-联想-15-笔记本完整规格曝光-5-325-处理器-15-3-英寸-120-赫兹面板",
+      "title": "联想 15 笔记本完整规格曝光：5 325 处理器、15.3 英寸 120 赫兹面板",
+      "url": "https://www.ithome.com/1/001/477.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T22:40:45.000Z",
+      "summary": "科技之家 9 月 12 日消息，外媒现已曝光了联想 15 笔记本完整配置信息，这款产品并非传统意义上的入门级，而是一款面向生产力用户的高端产品。该机机身尺寸约为 341.1×236×16 毫米，重量约 1.29 千克，配备 4 扬声器系统。笔记本面配备“”彩色指示灯，可以显示电池及充电状态。面配备一块 15.3 英寸相关型号分辨率 120 赫兹触控面板（峰值亮度 500 尼特……",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-公司-人工智能",
+      "title": "公司 + 人工智能 =",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdqrj7/company_ai_snake_oil_salesman/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T18:46:15.000Z",
-      "summary": "在信息技术。来自人工智能安全公司在，开放人工智能公司和人工智能安全公司借助和。研究在公司。信息技术，科学在人工智能安全公司，信息技术。: 这里，我们人工智能。设置信息技术 10% 和人工智能安全公司面向和在向。安全团队在安全，实验室借助安全。在和最进入。信息技术向信息技术，信息技术我们由。认为正确，认为向信息技术。借助公司和很少有人在认为关于。认为关于智能体借助访问向向在相关……",
+      "publishedAt": "2026-09-11T19:50:21.000Z",
+      "summary": "公司借助人工智能。由",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2456,23 +2474,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "ithome-迄今最高效奥迪车型-奥迪相关型号开发时间成功缩短-21-个月",
-      "title": "迄今最高效奥迪车型：奥迪相关型号开发时间成功缩短 21 个月",
-      "url": "https://www.ithome.com/1/001/468.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-11T15:05:09.000Z",
-      "summary": "科技之家 9 月 11 日消息，据外媒今天（11 日）晚间报道，当今的汽车行业，老牌车企若想跟上新势力的步伐，就得同时加快研发和制造节奏。奥迪最近发布的全新相关型号，正是这种提速的产物，也是奥迪迄今为止最高效的车型。新车以纯电形式重新诠释 21 世纪初的经典相关型号，从开发到具备量产条件所需的时间，比过去的整车项目缩短了 21 个月。相比之下，传统车企开发一款全新车型，从设计……",
-      "topics": [
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 85,
       "image": ""
     },
     {
@@ -2505,7 +2506,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2523,7 +2524,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2577,23 +2578,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-开放人工智能公司没有使用",
-      "title": "开放人工智能公司没有使用",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T11:00:57.000Z",
-      "summary": "开放人工智能公司关于数据。只是公司模型帮助来自，人工智能和和关于 …",
-      "topics": [
-        "模型发布",
-        "研究论文"
-      ],
-      "heat": 72,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
       "title": "数据科学实战社区发布人工智能相关动态。",
       "url": "https://towardsdatascience.com/who-questions-what-works-when-should-we-retest-our-assumptions/",
@@ -2624,7 +2608,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2644,6 +2628,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-发布首个人工智能模型借助帮助",
+      "title": "发布首个人工智能模型借助帮助",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-09T21:42:19.000Z",
+      "summary": "新人工智能模型首个借助支持来自。前沿科技媒体训练来自，借助新数据数据模型训练在。数据 …",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 50,
+      "image": ""
+    },
+    {
       "id": "wired-ai-元宇宙平台公司向人工智能",
       "title": "元宇宙平台公司向人工智能",
       "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
@@ -2660,20 +2660,21 @@
       "image": "https://media.wired.com/photos/6aa1c5b373b15b9694431f6d/master/pass/GettyImages-2233066222.jpg"
     },
     {
-      "id": "reddit-artificial-使用智能聊天助手和克劳德模型由面向面向-这里实际",
-      "title": "使用智能聊天助手和克劳德模型由面向面向。这里实际",
-      "url": "https://www.reddit.com/r/artificial/comments/1wdohel/used_chatgpt_and_claude_side_by_side_for_two/",
+      "id": "reddit-artificial-人工智能安全公司研究人工智能可能-向信息技术-很少有人向我们向借助",
+      "title": "人工智能安全公司研究人工智能可能。向信息技术。很少有人向我们向借助。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wdoy1g/three_anthropic_researchers_went_public_this_week/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T18:29:36.000Z",
-      "summary": "问题。只是。克劳德模型。面向信息技术实际借助，这里向信息技术更好。智能聊天助手更快向只是和更好向解释。很少有人 : 顺利解释。和答案最向由",
+      "publishedAt": "2026-09-11T18:46:15.000Z",
+      "summary": "在信息技术。来自人工智能安全公司在，开放人工智能公司和人工智能安全公司借助和。研究在公司。信息技术，科学在人工智能安全公司，信息技术。: 这里，我们人工智能。设置信息技术 10% 和人工智能安全公司面向和在向。安全团队在安全，实验室借助安全。在和最进入。信息技术向信息技术，信息技术我们由。认为正确，认为向信息技术。借助公司和很少有人在认为关于。认为关于智能体借助访问向向在相关……",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 94,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2693,18 +2694,18 @@
       "image": ""
     },
     {
-      "id": "ithome-努比亚冰淇淋散热器开售-至低-18-制冷-25-瓦峰值功率-99-元",
-      "title": "努比亚冰淇淋散热器开售：至低-18℃ 制冷、25 瓦峰值功率，99 元",
-      "url": "https://www.ithome.com/1/001/467.htm",
+      "id": "ithome-高盛-总是盯着-人工智能泡沫会不会破-不放-反而可能会低估人工智能创造的价值",
+      "title": "高盛：总是盯着“人工智能泡沫会不会破”不放，反而可能会低估人工智能创造的价值",
+      "url": "https://www.ithome.com/1/001/474.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-11T14:59:23.000Z",
-      "summary": "科技之家 9 月 11 日消息，努比亚冰淇淋散热器全平台现已开售，首销价 99 元，新品支持至低-18℃ 制冷、25 瓦峰值功率、90 克轻量机身、红魔旗舰散热架构。科技之家从商品页面获悉，这款散热器采用红魔散热器 8 专业版同款散热架构，搭载第七代红魔散热技术- 架构，打通半导体、散热片、风道、风扇、导热铜板之间的全链路冷热交换，转化效率提升 72%。散热器内部包含纯铝高导……",
+      "publishedAt": "2026-09-11T15:48:59.000Z",
+      "summary": "科技之家 9 月 11 日消息，今年以来，华尔街一直在就人工智能热潮是否已经变成泡沫争论不休。高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问的问题并不是这个。“大家都在问，我们是不是已经进入人工智能泡沫。但更应该问的是，人工智能会不会从根本上改变企业的运营、竞争和价值创造方式。这个问题的答案显然是肯定的。” 长期身处美国企业押注人工智能转型最前线的波斯内特，亲眼见……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "产品应用",
+        "投融资"
       ],
       "heat": 85,
       "image": ""
@@ -2724,7 +2725,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2742,7 +2743,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2760,7 +2761,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2798,22 +2799,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-发布首个人工智能模型借助帮助",
-      "title": "发布首个人工智能模型借助帮助",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-09T21:42:19.000Z",
-      "summary": "新人工智能模型首个借助支持来自。前沿科技媒体训练来自，借助新数据数据模型训练在。数据 …",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 50,
-      "image": ""
-    },
-    {
       "id": "wired-ai-立法者人工智能",
       "title": "立法者人工智能",
       "url": "https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/",
@@ -2844,6 +2829,23 @@
         "监管安全"
       ],
       "heat": 55,
+      "image": ""
+    },
+    {
+      "id": "ithome-迄今最高效奥迪车型-奥迪相关型号开发时间成功缩短-21-个月",
+      "title": "迄今最高效奥迪车型：奥迪相关型号开发时间成功缩短 21 个月",
+      "url": "https://www.ithome.com/1/001/468.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-11T15:05:09.000Z",
+      "summary": "科技之家 9 月 11 日消息，据外媒今天（11 日）晚间报道，当今的汽车行业，老牌车企若想跟上新势力的步伐，就得同时加快研发和制造节奏。奥迪最近发布的全新相关型号，正是这种提速的产物，也是奥迪迄今为止最高效的车型。新车以纯电形式重新诠释 21 世纪初的经典相关型号，从开发到具备量产条件所需的时间，比过去的整车项目缩短了 21 个月。相比之下，传统车企开发一款全新车型，从设计……",
+      "topics": [
+        "产品应用",
+        "机器人"
+      ],
+      "heat": 85,
       "image": ""
     }
   ]
