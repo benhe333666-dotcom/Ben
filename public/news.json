@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T12:34:58.205Z",
+  "generatedAt": "2026-09-13T12:46:16.796Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-09-13T13:00:00.000Z",
   "stats": {
@@ -13,7 +13,7 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 67,
+      "count": 68,
       "heat": 73
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "name": "研究论文",
-      "count": 26,
-      "heat": 74
+      "count": 27,
+      "heat": 73
     },
     {
       "name": "算力芯片",
@@ -38,13 +38,13 @@
     },
     {
       "name": "投融资",
-      "count": 16,
-      "heat": 80
+      "count": 17,
+      "heat": 79
     },
     {
       "name": "人工智能动态",
-      "count": 15,
-      "heat": 70
+      "count": 14,
+      "heat": 69
     },
     {
       "name": "开源生态",
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-09-03T19:00:00.000Z",
-      "latestDisplayedAt": ""
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-09-10T21:00:00.000Z",
+      "latestDisplayedAt": "2026-09-10T21:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -240,7 +240,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-09-12T21:41:36.000Z",
       "latestDisplayedAt": "2026-09-12T21:41:36.000Z"
     },
@@ -304,7 +304,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-09-13T12:00:02.000Z",
       "latestDisplayedAt": "2026-09-13T12:00:02.000Z"
     },
@@ -319,10 +319,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 3,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-09-13T11:47:23.000Z",
-      "latestDisplayedAt": "2026-09-13T11:47:23.000Z"
+      "itemCount": 2,
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-09-13T09:59:58.000Z",
+      "latestDisplayedAt": "2026-09-13T09:59:58.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -382,7 +382,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "This operation was aborted",
+      "fallbackReason": "HTTP 429",
       "itemCount": 5,
       "displayedCount": 5,
       "latestFetchedAt": "2026-09-10T17:57:33.000Z",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 9,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-09-13T07:38:20.000Z",
       "latestDisplayedAt": "2026-09-13T07:38:20.000Z"
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 19,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-09-13T10:30:00.000Z",
       "latestDisplayedAt": "2026-09-13T10:30:00.000Z"
@@ -444,10 +444,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 23,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-09-13T12:21:32.000Z",
       "latestDisplayedAt": "2026-09-13T12:21:32.000Z"
@@ -534,23 +534,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-向更好在支持",
-      "title": ": 向更好在支持？",
-      "url": "https://news.ycombinator.com/item?id=49682920",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-13T11:47:23.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 86,
+      "heat": 88,
       "image": ""
     },
     {
@@ -636,6 +620,22 @@
         "人工智能动态"
       ],
       "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-客户数据政府",
+      "title": "客户数据政府",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-13T09:59:58.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
       "image": ""
     },
     {
@@ -785,6 +785,22 @@
         "开源生态"
       ],
       "heat": 56,
+      "image": ""
+    },
+    {
+      "id": "microsoft-ai-blog-微软在-2026-高德纳-魔法-面向",
+      "title": "微软在 2026 高德纳® 魔法 ™ 面向",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-10T21:00:00.000Z",
+      "summary": "微软在 2026 高德纳® 魔法 ™ 面向，和应用帮助组织人工智能和在规模。微软在 2026 高德纳® 魔法 ™ 面向首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
       "image": ""
     },
     {
@@ -940,22 +956,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-客户数据政府",
-      "title": "客户数据政府",
-      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-13T09:59:58.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-人工智能能解千禧难题-也能杀死人类-华尔街日报拉响末日警报",
       "title": "人工智能能解千禧难题，也能杀死人类？华尔街日报拉响末日警报",
       "url": "https://news.cnblogs.com/n/837889/",
@@ -1052,7 +1052,23 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://arxiv.org/abs/2609.01877",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-12T17:05:31.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 70,
       "image": ""
     },
     {
@@ -1192,6 +1208,23 @@
       "image": ""
     },
     {
+      "id": "microsoft-ai-blog-智能体-人工智能智能体控制成本和",
+      "title": "智能体 : 人工智能智能体控制成本和",
+      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-how-ai-agent-governance-controls-cost-and-proves-roi/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-10T17:00:00.000Z",
+      "summary": "和智能体，分享，和帮助智能体成本和人工智能作为投资在微软。智能体 : 人工智能智能体控制成本和首个在微软。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-人工智能-构建借助英伟达",
       "title": "人工智能 : 构建借助英伟达",
       "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
@@ -1303,7 +1336,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1353,7 +1386,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1370,22 +1403,6 @@
         "人工智能动态"
       ],
       "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://arxiv.org/abs/2609.01877",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-12T17:05:31.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 71,
       "image": ""
     },
     {
@@ -1579,6 +1596,23 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/gpu-architecture-corp-blog-dmatrix-nvlink-fusion-1280x680-5692448-r1.png"
     },
     {
+      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
+      "title": "微软云与人工智能博客发布人工智能相关动态。",
+      "url": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-08T20:00:00.000Z",
+      "summary": "面向研究和 & 组织，人工智能更好，时间答案。信息技术新向探索和问题:，来自，和作为新可用。基准测试: 首个在微软。",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-安全面向-正确",
       "title": "安全面向？正确",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
@@ -1641,7 +1675,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1743,7 +1777,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1930,7 +1964,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1964,7 +1998,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2236,7 +2270,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2252,7 +2286,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2337,7 +2371,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2809,38 +2843,6 @@
         "开源生态"
       ],
       "heat": 64,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-氛围式-代码和内部",
-      "title": "氛围式，代码和内部",
-      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T21:25:21.000Z",
-      "summary": "新功能即将推出向向构建，和工具内部。借助，向，和信息技术使用人工智能向来自和应用，谷歌，向 …",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 58,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-解释关于人工智能",
-      "title": "解释关于人工智能",
-      "url": "https://towardsdatascience.com/what-shap-cant-explain-about-agentic-ai-fraud/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-10T14:00:01.000Z",
-      "summary": "为什么智能体新问题在解释关于人工智能首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     }
   ]
