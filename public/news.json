@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-21T10:52:36.209Z",
+  "generatedAt": "2026-09-21T11:08:35.128Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-21T11:00:00.000Z",
+  "nextUpdateHint": "2026-09-21T11:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-21T10:45:37.000Z"
+    "latestPublishedAt": "2026-09-21T11:00:02.000Z"
   },
   "topics": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "模型发布",
-      "count": 54,
+      "count": 55,
       "heat": 80
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "端侧智能",
       "count": 9,
-      "heat": 79
+      "heat": 81
     },
     {
       "name": "机器人",
@@ -63,8 +63,8 @@
     },
     {
       "name": "多模态",
-      "count": 6,
-      "heat": 83
+      "count": 5,
+      "heat": 84
     }
   ],
   "sources": [
@@ -175,7 +175,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 7,
+      "itemCount": 8,
       "displayedCount": 0,
       "latestFetchedAt": "2026-09-10T21:00:00.000Z",
       "latestDisplayedAt": ""
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-20T15:00:01.000Z",
-      "latestDisplayedAt": "2026-09-20T15:00:01.000Z"
+      "latestFetchedAt": "2026-09-21T11:00:02.000Z",
+      "latestDisplayedAt": "2026-09-21T11:00:02.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -417,8 +417,8 @@
       "fallbackReason": "",
       "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-21T07:20:00.000Z",
-      "latestDisplayedAt": "2026-09-21T07:20:00.000Z"
+      "latestFetchedAt": "2026-09-21T09:03:00.000Z",
+      "latestDisplayedAt": "2026-09-21T09:03:00.000Z"
     },
     {
       "id": "thirty-six-kr",
@@ -431,9 +431,9 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
+      "itemCount": 9,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-21T10:42:28.000Z",
+      "latestFetchedAt": "2026-09-21T11:02:42.000Z",
       "latestDisplayedAt": "2026-09-21T10:42:28.000Z"
     },
     {
@@ -487,6 +487,23 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "towards-data-science-人工智能助手代码",
+      "title": "人工智能助手代码？",
+      "url": "https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-21T11:00:02.000Z",
+      "summary": "五个，了解模型人工智能助手代码？首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
     {
       "id": "reddit-artificial-人工智能-只是",
       "title": "人工智能。只是。",
@@ -604,8 +621,26 @@
       "topics": [
         "投融资"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": "https://media.wired.com/photos/6aac71b5d7fc34009fe6c60f/master/pass/silicon-valley-women-power.jpg"
+    },
+    {
+      "id": "leiphone-华为云码道上线鸿蒙编码大模型面向鸿蒙开发者全面升级",
+      "title": "华为云码道上线鸿蒙编码大模型面向鸿蒙开发者全面升级",
+      "url": "https://www.leiphone.com/category/industrynews/B5ahgA6nibk33DRO.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-21T09:03:00.000Z",
+      "summary": "2026年9月21日，华为云码道代码智能体面向鸿蒙开发者进行全面升级，上线“鸿蒙编码大模型+码道鸿蒙智能体+鸿蒙开发者实践中心”三大核心能力，打造全球首个且唯一专为鸿蒙生态打造的人工智能编码智能体。华为公有云总裁胡玉海表示：“华为云码道代码智能体凝练华为多年研发经验，更懂研发工程实践，为开发者带来了新的开发体验。面向鸿蒙生态，华为云推出新模型、新工具、新实践，为鸿蒙开发者一站……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "qbitai-啊啊啊相关型号这么不安全-这次马斯克都瘫坐了",
@@ -620,24 +655,6 @@
       "topics": [
         "模型发布",
         "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "leiphone-登顶国际数据智能体榜单登顶国际数据智能体榜单-超过多项-克劳德模型方案",
-      "title": "登顶国际数据智能体榜单登顶国际数据智能体榜单，超过多项、克劳德模型方案",
-      "url": "https://www.leiphone.com/category/industrynews/ug9HpmoWVwNMZZTH.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-21T07:20:00.000Z",
-      "summary": "近日，团队提交的数据智能体方案登顶国际数据智能体基准数据智能体基准测试（简称），以90.62%的准确率位列第一，成为该榜单首个准确率突破90%的参评方案。值得关注的是，这一成绩由国产数据库基于国产大模型相关型号构建，超过多项基于、克劳德模型旗舰模型、克劳德模型等海外模型构建的数据智能体方案。本次参评方案内部代号为，相关能力将融入。（图说：登顶国际数据智能体榜单，成为首个准确率……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -671,7 +688,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -705,24 +722,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-20T15:00:01.000Z",
-      "summary": "检索: 面向，和大语言模型推理能力。: 指南向 6 高级首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 77,
+      "heat": 91,
       "image": ""
     },
     {
@@ -995,6 +995,24 @@
       "image": ""
     },
     {
+      "id": "leiphone-登顶国际数据智能体榜单登顶国际数据智能体榜单-超过多项-克劳德模型方案",
+      "title": "登顶国际数据智能体榜单登顶国际数据智能体榜单，超过多项、克劳德模型方案",
+      "url": "https://www.leiphone.com/category/industrynews/ug9HpmoWVwNMZZTH.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-21T07:20:00.000Z",
+      "summary": "近日，团队提交的数据智能体方案登顶国际数据智能体基准数据智能体基准测试（简称），以90.62%的准确率位列第一，成为该榜单首个准确率突破90%的参评方案。值得关注的是，这一成绩由国产数据库基于国产大模型相关型号构建，超过多项基于、克劳德模型旗舰模型、克劳德模型等海外模型构建的数据智能体方案。本次参评方案内部代号为，相关能力将融入。（图说：登顶国际数据智能体榜单，成为首个准确率……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "qbitai-相关型号开进机器人身体-清华联手无问芯穹等开源",
       "title": "相关型号开进机器人身体！清华联手无问芯穹等开源",
       "url": "https://www.qbitai.com/2026/09/493218.html",
@@ -1026,24 +1044,6 @@
         "产品应用"
       ],
       "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "leiphone-具身智能模型公司方奇科技完成千万级天使轮融资",
-      "title": "具身智能模型公司方奇科技完成千万级天使轮融资",
-      "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-21T02:27:00.000Z",
-      "summary": "近日，具身智能通用大脑研发商方奇科技（北京）有限公司（以下简称“方奇科技”）宣布完成千万级天使轮融资，投资方包括启迪之星创投等知名机构。据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势，逐步构建面向多机器人本体、多场景的具身能力学习……",
-      "topics": [
-        "模型发布",
-        "投融资",
-        "机器人"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -1081,21 +1081,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-论文",
-      "title": "论文 :",
-      "url": "https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/",
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-20T13:00:01.000Z",
-      "summary": "和来自借助开源深度学习框架论文 : 首个在数据科学实战社区。",
+      "publishedAt": "2026-09-20T15:00:01.000Z",
+      "summary": "检索: 面向，和大语言模型推理能力。: 指南向 6 高级首个在数据科学实战社区。",
       "topics": [
         "产品应用",
-        "研究论文",
-        "开源生态"
+        "端侧智能"
       ],
-      "heat": 80,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1390,19 +1389,19 @@
       "image": ""
     },
     {
-      "id": "leiphone-逆势大涨-阿里速卖通流量增速领跑澳洲电商平台",
-      "title": "逆势大涨！阿里速卖通流量增速领跑澳洲电商平台",
-      "url": "https://www.leiphone.com/category/industrynews/KGyHVhywEeaZ4Vqy.html",
+      "id": "leiphone-具身智能模型公司方奇科技完成千万级天使轮融资",
+      "title": "具身智能模型公司方奇科技完成千万级天使轮融资",
+      "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T02:13:00.000Z",
-      "summary": "9月21日消息，数字营销平台数据显示，2026年8月澳大利亚零售网站整体流量下滑，只有阿里旗下跨境电商平台速卖通逆势增长5.37%，访问量达1435万次，成为前20大零售网站中唯一环比增长的平台。除外，澳大利亚访问量排名前20的零售网站均出现环比下滑、分别下降11.85%、15.29%、1.32%和9.81%。澳大利亚统计局 () 历史数据显示，澳大利亚线上消费通常会在9月份……",
+      "publishedAt": "2026-09-21T02:27:00.000Z",
+      "summary": "近日，具身智能通用大脑研发商方奇科技（北京）有限公司（以下简称“方奇科技”）宣布完成千万级天使轮融资，投资方包括启迪之星创投等知名机构。据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势，逐步构建面向多机器人本体、多场景的具身能力学习……",
       "topics": [
         "模型发布",
-        "产品应用",
-        "端侧智能"
+        "投融资",
+        "机器人"
       ],
       "heat": 99,
       "image": ""
@@ -1421,7 +1420,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1441,6 +1440,24 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-论文",
+      "title": "论文 :",
+      "url": "https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-20T13:00:01.000Z",
+      "summary": "和来自借助开源深度学习框架论文 : 首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "开源生态"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
       "id": "the-decoder-向转化人工智能视频生成进入实时控制在实时",
       "title": "向转化人工智能视频生成进入实时控制在实时",
       "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
@@ -1456,22 +1473,6 @@
         "多模态"
       ],
       "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能相关型号更快-信息技术相关型号在",
-      "title": "人工智能相关型号更快。信息技术相关型号在。",
-      "url": "https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-19T13:00:01.000Z",
-      "summary": "智能体，和问题很少有人 : 向人工智能代码？人工智能相关型号更快。信息技术相关型号在。首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 50,
       "image": ""
     },
     {
@@ -1642,20 +1643,20 @@
       "image": ""
     },
     {
-      "id": "oschina-华为云码道上线鸿蒙编码大模型面向鸿蒙开发者全面升级",
-      "title": "华为云码道上线鸿蒙编码大模型面向鸿蒙开发者全面升级",
-      "url": "https://www.oschina.net/news/502645/hw-codearts",
+      "id": "oschina-微软内部文件曝光-高管称人工智能抓取新闻是-人类历史上最大规模的劳动力盗窃",
+      "title": "微软内部文件曝光：高管称人工智能抓取新闻是“人类历史上最大规模的劳动力盗窃”",
+      "url": "https://www.oschina.net/news/502644",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T08:24:30.000Z",
-      "summary": "2026年9月21日，华为云码道代码智能体面向鸿蒙开发者进行全面升级，上线“鸿蒙编码大模型+码道鸿蒙智能体+鸿蒙开发者实践中心”三大核心能力，打造全球首个且唯一专为鸿蒙生态打造的人工智能编码智能体。华为公有云总裁胡玉海表示：“华为云码道代码智能体凝练华为多年研发经验，更懂研发工程实践，为开发者带。",
+      "publishedAt": "2026-09-21T07:42:19.000Z",
+      "summary": "微软和开放人工智能公司一直想让某些东西远离公众视线，但纸终究包不住火。这周四，由《纽约时报》牵头的新闻原告方申请简易判决的动议被解除保密，内部文件随即曝光——新闻集团声称，这些文件显示了微软和开放人工智能公司在推出智能聊天助手、智能副驾等产品之前，究竟如何看待对新闻的威胁。最震撼的言论来自微软应用科学总监。",
       "topics": [
         "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1693,19 +1694,19 @@
       "image": ""
     },
     {
-      "id": "leiphone-传化集团40周年全面拥抱人工智能时代-开放全域产业场景-共创新40年",
-      "title": "传化集团40周年全面拥抱人工智能时代：开放全域产业场景，共创新40年",
-      "url": "https://www.leiphone.com/category/industrynews/E1dBuYT43K9cd1LQ.html",
+      "id": "leiphone-逆势大涨-阿里速卖通流量增速领跑澳洲电商平台",
+      "title": "逆势大涨！阿里速卖通流量增速领跑澳洲电商平台",
+      "url": "https://www.leiphone.com/category/industrynews/KGyHVhywEeaZ4Vqy.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T01:59:00.000Z",
-      "summary": "2026年，创业40年的传化站在新的起点。四十年来，从化工制造到智慧物流，从科技农业到生物技术产业新城，传化持续在产业实践中寻找增长与创新的答案。面对人工智能加速重构产业的时代变革，传化正在把40年积累的产业场景、产业能力和产业资源，转化为拥抱人工智能、共创未来的新动能。9月20日，以“场景为壤，人工智能生花”为主题的传化40周年场景开放与人工智能共创生态大会在传化科技城举行……",
+      "publishedAt": "2026-09-21T02:13:00.000Z",
+      "summary": "9月21日消息，数字营销平台数据显示，2026年8月澳大利亚零售网站整体流量下滑，只有阿里旗下跨境电商平台速卖通逆势增长5.37%，访问量达1435万次，成为前20大零售网站中唯一环比增长的平台。除外，澳大利亚访问量排名前20的零售网站均出现环比下滑、分别下降11.85%、15.29%、1.32%和9.81%。澳大利亚统计局 () 历史数据显示，澳大利亚线上消费通常会在9月份……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
@@ -1724,7 +1725,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1756,7 +1757,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 68,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-人工智能相关型号更快-信息技术相关型号在",
+      "title": "人工智能相关型号更快。信息技术相关型号在。",
+      "url": "https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-19T13:00:01.000Z",
+      "summary": "智能体，和问题很少有人 : 向人工智能代码？人工智能相关型号更快。信息技术相关型号在。首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -1793,22 +1810,6 @@
         "监管安全"
       ],
       "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-编程智能体持续交付-这里向回顾",
-      "title": "编程智能体持续交付，这里向回顾",
-      "url": "https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-18T15:30:01.000Z",
-      "summary": "向应用借助生成代码。编程智能体持续交付，这里向回顾首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -1924,24 +1925,25 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "oschina-微软内部文件曝光-高管称人工智能抓取新闻是-人类历史上最大规模的劳动力盗窃",
-      "title": "微软内部文件曝光：高管称人工智能抓取新闻是“人类历史上最大规模的劳动力盗窃”",
-      "url": "https://www.oschina.net/news/502644",
+      "id": "oschina-上海开源大赛赛题公布-选做可获额外现金激励",
+      "title": "上海开源大赛赛题公布，选做可获额外现金激励",
+      "url": "https://www.oschina.net/news/502643",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T07:42:19.000Z",
-      "summary": "微软和开放人工智能公司一直想让某些东西远离公众视线，但纸终究包不住火。这周四，由《纽约时报》牵头的新闻原告方申请简易判决的动议被解除保密，内部文件随即曝光——新闻集团声称，这些文件显示了微软和开放人工智能公司在推出智能聊天助手、智能副驾等产品之前，究竟如何看待对新闻的威胁。最震撼的言论来自微软应用科学总监。",
+      "publishedAt": "2026-09-21T07:37:37.000Z",
+      "summary": "2026 年，智算云领域面临着相似的问题，即算力能买到，但跑得顺却不容易。过去两年，行业把精力放在算力供给上，异构集群从千卡走到万卡。卡到位之后，压力转向利用率和吞吐。训练侧任务排队等配额，推理侧命中率上不去，首词元时延压不下来，单版权重几十上百还要在训练节点和终端之间来回搬。真正拖。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "算力芯片",
+        "监管安全",
+        "开源生态"
       ],
-      "heat": 97,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1980,21 +1982,21 @@
       "image": ""
     },
     {
-      "id": "leiphone-上市遇故障-苹果手机-18-专业版曝出死机问题-苹果启动调查-国产突围-长鑫科技宣布第五代技术平台正式量产-特斯拉开启预定",
-      "title": "上市遇故障！苹果手机 18 专业版曝出死机问题，苹果启动调查；国产突围！长鑫科技宣布第五代技术平台正式量产；特斯拉开启预定",
-      "url": "https://www.leiphone.com/category/zaobao/W5fLfeynETtTWpTt.html",
+      "id": "leiphone-传化集团40周年全面拥抱人工智能时代-开放全域产业场景-共创新40年",
+      "title": "传化集团40周年全面拥抱人工智能时代：开放全域产业场景，共创新40年",
+      "url": "https://www.leiphone.com/category/industrynews/E1dBuYT43K9cd1LQ.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T00:33:00.000Z",
-      "summary": "要闻提示 1。上市遇故障！苹果手机 18 专业版曝出死机问题，苹果启动调查 2。国产突围！长鑫科技宣布第五代技术平台正式量产：每张晶圆产出提升 50% 以上 3。淘宝闪购骑士制服获法国设计奖最高奖，设计团队懵了：我们纯业余 4。董明珠卸任，格力电商换帅 5。苹果闹钟终于响了：苹果移动系统 27 支持中国大陆调休日，首次测试火上热搜 6。内存成本大降！华为鲲鹏底层优化：大数据内……",
+      "publishedAt": "2026-09-21T01:59:00.000Z",
+      "summary": "2026年，创业40年的传化站在新的起点。四十年来，从化工制造到智慧物流，从科技农业到生物技术产业新城，传化持续在产业实践中寻找增长与创新的答案。面对人工智能加速重构产业的时代变革，传化正在把40年积累的产业场景、产业能力和产业资源，转化为拥抱人工智能、共创未来的新动能。9月20日，以“场景为壤，人工智能生花”为主题的传化40周年场景开放与人工智能共创生态大会在传化科技城举行……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 98,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2044,7 +2046,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2084,20 +2086,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-我们模型向-信息技术",
-      "title": "我们模型向。信息技术。",
-      "url": "https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/",
+      "id": "towards-data-science-编程智能体持续交付-这里向回顾",
+      "title": "编程智能体持续交付，这里向回顾",
+      "url": "https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-18T14:00:02.000Z",
-      "summary": "成本人工智能推理。信息技术 :，和每个时间模型。这里实际，和向预算面向信息技术信息技术。我们模型向。信息技术。首个在数据科学实战社区。",
+      "publishedAt": "2026-09-18T15:30:01.000Z",
+      "summary": "向应用借助生成代码。编程智能体持续交付，这里向回顾首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2204,21 +2205,20 @@
       "image": ""
     },
     {
-      "id": "oschina-上海开源大赛赛题公布-选做可获额外现金激励",
-      "title": "上海开源大赛赛题公布，选做可获额外现金激励",
-      "url": "https://www.oschina.net/news/502643",
+      "id": "oschina-从具身智能到桌面小装置-北京开源创新赛硬件赛道面向全国创客开放",
+      "title": "从具身智能到桌面小装置，北京开源创新赛硬件赛道面向全国创客开放",
+      "url": "https://www.oschina.net/news/502640",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T07:37:37.000Z",
-      "summary": "2026 年，智算云领域面临着相似的问题，即算力能买到，但跑得顺却不容易。过去两年，行业把精力放在算力供给上，异构集群从千卡走到万卡。卡到位之后，压力转向利用率和吞吐。训练侧任务排队等配额，推理侧命中率上不去，首词元时延压不下来，单版权重几十上百还要在训练节点和终端之间来回搬。真正拖。",
+      "publishedAt": "2026-09-21T07:02:37.000Z",
+      "summary": "开源最早从代码开始，后来有人把电路图、结构件模型和固件一起分享到互联网上，硬件图纸也能被下载、被改进、被重新做出来。用一块开发板把创客文化带进课堂，把开源指令集推广到全球，三维打印和便宜的传感器又把动手门槛降低到每个人就能尝试的程度。现在一块开发板接上开源人工智能模型，就能做出会认路的车。",
       "topics": [
-        "算力芯片",
-        "监管安全",
-        "开源生态"
+        "开源生态",
+        "机器人"
       ],
-      "heat": 94,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2253,19 +2253,19 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "leiphone-深度解读-关于的几大疑问",
-      "title": "深度解读：关于的几大疑问",
-      "url": "https://www.leiphone.com/category/yanxishe/NWrXUxymnfYDTSCF.html",
+      "id": "leiphone-上市遇故障-苹果手机-18-专业版曝出死机问题-苹果启动调查-国产突围-长鑫科技宣布第五代技术平台正式量产-特斯拉开启预定",
+      "title": "上市遇故障！苹果手机 18 专业版曝出死机问题，苹果启动调查；国产突围！长鑫科技宣布第五代技术平台正式量产；特斯拉开启预定",
+      "url": "https://www.leiphone.com/category/zaobao/W5fLfeynETtTWpTt.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-20T23:47:00.000Z",
-      "summary": "刷屏全网的，是人工智能革命，还是营销噱头？作者丨高允毅编辑丨岑峰这几天，全网都被刷屏。说它是这周最火的大模型，一点也不夸张。推特上诸多大佬用它打马里奥，过滤垃圾信息，炒币，称它为“智能体时代的系统1”；也有人说这就是一个分类器，值得吹？有人说它比深度求索还快，做同一个任务，28 秒已经刷完 428 条数据，完成打标签和分类，深度求索第4代。相关型号才做到第 6 条。有人已经开……",
+      "publishedAt": "2026-09-21T00:33:00.000Z",
+      "summary": "要闻提示 1。上市遇故障！苹果手机 18 专业版曝出死机问题，苹果启动调查 2。国产突围！长鑫科技宣布第五代技术平台正式量产：每张晶圆产出提升 50% 以上 3。淘宝闪购骑士制服获法国设计奖最高奖，设计团队懵了：我们纯业余 4。董明珠卸任，格力电商换帅 5。苹果闹钟终于响了：苹果移动系统 27 支持中国大陆调休日，首次测试火上热搜 6。内存成本大降！华为鲲鹏底层优化：大数据内……",
       "topics": [
         "模型发布",
         "产品应用",
@@ -2343,19 +2343,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-在数据科学在人工智能",
-      "title": "在数据科学在人工智能",
-      "url": "https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/",
+      "id": "towards-data-science-我们模型向-信息技术",
+      "title": "我们模型向。信息技术。",
+      "url": "https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-18T12:30:01.000Z",
-      "summary": "面向时间？在数据科学在人工智能首个在数据科学实战社区。",
+      "publishedAt": "2026-09-18T14:00:02.000Z",
+      "summary": "成本人工智能推理。信息技术 :，和每个时间模型。这里实际，和向预算面向信息技术信息技术。我们模型向。信息技术。首个在数据科学实战社区。",
       "topics": [
+        "模型发布",
         "产品应用"
       ],
-      "heat": 48,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2421,24 +2422,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "oschina-从具身智能到桌面小装置-北京开源创新赛硬件赛道面向全国创客开放",
-      "title": "从具身智能到桌面小装置，北京开源创新赛硬件赛道面向全国创客开放",
-      "url": "https://www.oschina.net/news/502640",
+      "id": "oschina-谷歌开源-把智能体当集群工作负载跑的声明式编排器",
+      "title": "谷歌开源，把智能体当集群工作负载跑的声明式编排器",
+      "url": "https://www.oschina.net/news/502639/google-ax",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T07:02:37.000Z",
-      "summary": "开源最早从代码开始，后来有人把电路图、结构件模型和固件一起分享到互联网上，硬件图纸也能被下载、被改进、被重新做出来。用一块开发板把创客文化带进课堂，把开源指令集推广到全球，三维打印和便宜的传感器又把动手门槛降低到每个人就能尝试的程度。现在一块开发板接上开源人工智能模型，就能做出会认路的车。",
+      "publishedAt": "2026-09-21T06:51:01.000Z",
+      "summary": "谷歌昨天低调开源了个叫的东西，一句话：一个声明式的智能体编排器，宣称能在一个集群里跑\"几十亿个\"自主智能体任务。用过的人上手会很快——任务、工作区全是 /相关型号的，一个命令就提交，看状态，直接钻进沙箱里看智能体在干嘛。想解决的问。",
       "topics": [
-        "开源生态",
-        "机器人"
+        "产品应用",
+        "开源生态"
       ],
-      "heat": 88,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2454,7 +2455,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2476,6 +2477,24 @@
       "image": ""
     },
     {
+      "id": "leiphone-深度解读-关于的几大疑问",
+      "title": "深度解读：关于的几大疑问",
+      "url": "https://www.leiphone.com/category/yanxishe/NWrXUxymnfYDTSCF.html",
+      "source": "雷峰网",
+      "sourceId": "leiphone",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-20T23:47:00.000Z",
+      "summary": "刷屏全网的，是人工智能革命，还是营销噱头？作者丨高允毅编辑丨岑峰这几天，全网都被刷屏。说它是这周最火的大模型，一点也不夸张。推特上诸多大佬用它打马里奥，过滤垃圾信息，炒币，称它为“智能体时代的系统1”；也有人说这就是一个分类器，值得吹？有人说它比深度求索还快，做同一个任务，28 秒已经刷完 428 条数据，完成打标签和分类，深度求索第4代。相关型号才做到第 6 条。有人已经开……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
       "id": "the-decoder-开放人工智能公司-人工智能安全公司据报道首次公开募股",
       "title": "开放人工智能公司，人工智能安全公司据报道首次公开募股",
       "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/",
@@ -2491,24 +2510,6 @@
         "投融资"
       ],
       "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "leiphone-别把杰作留在实验室-张江见-2026-国际具身智能技能大赛-高校赛队招募",
-      "title": "别把杰作留在实验室，张江见 2026 国际具身智能技能大赛·高校赛队招募",
-      "url": "https://www.leiphone.com/category/industrynews/QmCxO9BKrABdNFbB.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-20T08:08:00.000Z",
-      "summary": "具身智能正在从「展示品」变成「生产力」。而这一年，国家把真题摆上了桌面，工信部联合国务院国资委启动《2026年度人形机器人与具身智能实景实训专项行动》，九大重点场景面向全球求解：生产制造、检测分析、维修维护、仓储物流、配送零售、医疗康养、安全生产、应急救援、防灾减灾。上海作为先行城市承接国家任务。10月23—25日，上海·张江科学会堂，2026 全球开发者先锋大会（）暨国际具……",
-      "topics": [
-        "算力芯片",
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 77,
       "image": ""
     },
     {
@@ -2546,15 +2547,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-智能体编程-智能体",
-      "title": "智能体编程，智能体",
-      "url": "https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/",
+      "id": "towards-data-science-在数据科学在人工智能",
+      "title": "在数据科学在人工智能",
+      "url": "https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-18T11:00:01.000Z",
-      "summary": "智能体编程智能体。重要在向实时，智能体编程，智能体首个在数据科学实战社区。",
+      "publishedAt": "2026-09-18T12:30:01.000Z",
+      "summary": "面向时间？在数据科学在人工智能首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
@@ -2628,23 +2629,6 @@
       "image": ""
     },
     {
-      "id": "oschina-谷歌开源-把智能体当集群工作负载跑的声明式编排器",
-      "title": "谷歌开源，把智能体当集群工作负载跑的声明式编排器",
-      "url": "https://www.oschina.net/news/502639/google-ax",
-      "source": "开源中国",
-      "sourceId": "oschina",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-21T06:51:01.000Z",
-      "summary": "谷歌昨天低调开源了个叫的东西，一句话：一个声明式的智能体编排器，宣称能在一个集群里跑\"几十亿个\"自主智能体任务。用过的人上手会很快——任务、工作区全是 /相关型号的，一个命令就提交，看状态，直接钻进沙箱里看智能体在干嘛。想解决的问。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-旗舰模型-5-2与双子座模型-4-专业版未经官宣已上线-前沿模型的发布流程正在被压缩",
       "title": "旗舰模型 5.2与双子座模型 4 专业版未经官宣已上线，前沿模型的发布流程正在被压缩",
       "url": "https://news.cnblogs.com/n/838380/",
@@ -2659,6 +2643,24 @@
         "监管安全"
       ],
       "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "oschina-凭什么刷屏-一个不生成文本的-判断模型-正在悄悄提速人工智能智能体",
+      "title": "凭什么刷屏：一个不生成文本的 \"判断模型\"，正在悄悄提速人工智能智能体",
+      "url": "https://www.oschina.net/news/502633",
+      "source": "开源中国",
+      "sourceId": "oschina",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-21T03:24:10.000Z",
+      "summary": "人工智能专题研究，人工智能模型深度解析：// 与智能体判断层实战这两天如果你刷技术圈的社交媒体，大概率会撞见 \"\" 这个名字。有人说被它 \"霸榜\" 了，有人晒出用它改造智能编程工具、之后速度暴涨的截图，代码托管平台上一个相关开源项目几天内就破万星。但如果你顺着这个。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -2680,19 +2682,19 @@
       "image": ""
     },
     {
-      "id": "leiphone-剪映发布全新人工智能能力-推进多端智能提效-支持一站式创作",
-      "title": "剪映发布全新人工智能能力，推进多端智能提效，支持一站式创作",
-      "url": "https://www.leiphone.com/category/industrynews/57VaKsFFtr52ic0r.html",
+      "id": "leiphone-别把杰作留在实验室-张江见-2026-国际具身智能技能大赛-高校赛队招募",
+      "title": "别把杰作留在实验室，张江见 2026 国际具身智能技能大赛·高校赛队招募",
+      "url": "https://www.leiphone.com/category/industrynews/QmCxO9BKrABdNFbB.html",
       "source": "雷峰网",
       "sourceId": "leiphone",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-20T07:07:00.000Z",
-      "summary": "9月20日，剪映举办“人工智能新创作发布会”，围绕不同创作需求推出剪映、人工智能创作助手“小映”等多个人工智能新功能，并升级创作者生态。从专业创作工作台到移动端人工智能助手，再到模板与创作者服务升级，剪映此次发布的多项能力都指向同一个目标：让人工智能更多承担生成、整理和重复操作，同时保留创作者对内容、表达和风格的最终判断。随着创作工具、工作流与创作者生态进一步衔接，不同经验阶……",
+      "publishedAt": "2026-09-20T08:08:00.000Z",
+      "summary": "具身智能正在从「展示品」变成「生产力」。而这一年，国家把真题摆上了桌面，工信部联合国务院国资委启动《2026年度人形机器人与具身智能实景实训专项行动》，九大重点场景面向全球求解：生产制造、检测分析、维修维护、仓储物流、配送零售、医疗康养、安全生产、应急救援、防灾减灾。上海作为先行城市承接国家任务。10月23—25日，上海·张江科学会堂，2026 全球开发者先锋大会（）暨国际具……",
       "topics": [
-        "产品应用",
-        "多模态",
-        "端侧智能"
+        "算力芯片",
+        "监管安全",
+        "投融资"
       ],
       "heat": 76,
       "image": ""
@@ -2748,15 +2750,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-构建-智能体面向时间序列",
-      "title": "构建，智能体面向时间序列",
-      "url": "https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/",
+      "id": "towards-data-science-智能体编程-智能体",
+      "title": "智能体编程，智能体",
+      "url": "https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-17T14:00:01.000Z",
-      "summary": "信息技术向转化进入人工智能产品构建，智能体面向时间序列首个在数据科学实战社区。",
+      "publishedAt": "2026-09-18T11:00:01.000Z",
+      "summary": "智能体编程智能体。重要在向实时，智能体编程，智能体首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
@@ -2849,21 +2851,19 @@
       "image": ""
     },
     {
-      "id": "oschina-凭什么刷屏-一个不生成文本的-判断模型-正在悄悄提速人工智能智能体",
-      "title": "凭什么刷屏：一个不生成文本的 \"判断模型\"，正在悄悄提速人工智能智能体",
-      "url": "https://www.oschina.net/news/502633",
+      "id": "oschina-专业版第3代-1-4-发布-智能智能体管控升级-编排资源可复用可迁移",
+      "title": "专业版第3代.1.4 发布：智能智能体管控升级，编排资源可复用可迁移",
+      "url": "https://www.oschina.net/news/502632",
       "source": "开源中国",
       "sourceId": "oschina",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-21T03:24:10.000Z",
-      "summary": "人工智能专题研究，人工智能模型深度解析：// 与智能体判断层实战这两天如果你刷技术圈的社交媒体，大概率会撞见 \"\" 这个名字。有人说被它 \"霸榜\" 了，有人晒出用它改造智能编程工具、之后速度暴涨的截图，代码托管平台上一个相关开源项目几天内就破万星。但如果你顺着这个。",
+      "publishedAt": "2026-09-21T02:50:25.000Z",
+      "summary": "在企业智能体逐步从试用走向交付的过程中，真正影响落地效率的，往往不只是模型能力，而是编排资产能否复用、运行行为能否管控、对外展示能否调整。专业版第3代.1.4 本次更新，围绕智能体对话记忆管控、智能体 / 工作流编排资产导入复用、智能体思考过程展示开关三项能力展开。整体可以概括为：智能体编排管控自定。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "产品应用"
       ],
-      "heat": 90,
+      "heat": 80,
       "image": ""
     }
   ]
