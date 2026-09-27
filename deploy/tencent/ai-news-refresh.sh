@@ -6,6 +6,7 @@ DOMAIN="${DOMAIN:-news.ben1067190.top}"
 SERVER_IP="${SERVER_IP:-122.51.163.190}"
 ORIGIN_HOST="${ORIGIN_HOST:-127.0.0.1}"
 ORIGIN_PORT="${ORIGIN_PORT:-8787}"
+ORIGIN_SERVICE="${ORIGIN_SERVICE:-ai-news-origin.service}"
 LOG_DIR="${LOG_DIR:-/var/log/ai-news}"
 LOCK_FILE="${LOCK_FILE:-/var/lock/ai-news-refresh.lock}"
 CADDYFILE="${CADDYFILE:-/etc/caddy/Caddyfile}"
@@ -40,6 +41,10 @@ else
   echo "跳过腾讯云本机抓取，使用 GitHub 同步的完整新闻数据。"
 fi
 npm run build
+
+# 源站服务会在启动时载入路由代码；构建后重启以确保新路由和静态产物一并生效。
+systemctl restart "$ORIGIN_SERVICE"
+systemctl is-active --quiet "$ORIGIN_SERVICE"
 
 write_site_block() {
   local label="$1"
