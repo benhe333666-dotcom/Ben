@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T18:51:45.758Z",
+  "generatedAt": "2026-09-27T19:21:49.551Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-27T19:00:00.000Z",
+  "nextUpdateHint": "2026-09-27T19:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -13,13 +13,13 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 74,
-      "heat": 70
+      "count": 75,
+      "heat": 69
     },
     {
       "name": "模型发布",
       "count": 51,
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "监管安全",
@@ -39,7 +39,7 @@
     {
       "name": "人工智能动态",
       "count": 21,
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "开源生态",
@@ -64,7 +64,7 @@
     {
       "name": "投融资",
       "count": 5,
-      "heat": 75
+      "heat": 74
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 7,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-09-23T16:00:00.000Z",
-      "latestDisplayedAt": "2026-09-23T15:00:00.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-09-24T18:00:00.000Z",
+      "latestDisplayedAt": "2026-09-24T18:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -316,13 +316,13 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "live feed returned no usable items",
-      "itemCount": 3,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-09-27T10:26:25.000Z",
-      "latestDisplayedAt": "2026-09-27T10:26:25.000Z"
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 1,
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-09-26T13:10:05.000Z",
+      "latestDisplayedAt": "2026-09-26T13:10:05.000Z"
     },
     {
       "id": "reddit-artificial",
@@ -571,7 +571,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -589,7 +589,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -628,22 +628,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-作为语言模型-大语言模型",
-      "title": "作为语言模型 : 大语言模型",
-      "url": "https://arxiv.org/abs/2609.25021",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-27T10:26:25.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 81,
-      "image": ""
-    },
-    {
       "id": "thirty-six-kr-开放人工智能公司与人工智能安全公司首席执行官被传唤出席澳大利亚人工智能调查听证会",
       "title": "开放人工智能公司与人工智能安全公司首席执行官被传唤出席澳大利亚人工智能调查听证会",
       "url": "https://36kr.com/newsflashes/4001316228272004?f=rss",
@@ -675,7 +659,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
+      "title": "技术社区人工智能热榜发布人工智能相关动态。",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "source": "技术社区人工智能热榜",
+      "sourceId": "hacker-news-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-26T13:10:05.000Z",
+      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 61,
       "image": ""
     },
     {
@@ -827,6 +827,23 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AI-video-co-director_hero.jpg"
     },
     {
+      "id": "microsoft-ai-blog-交付智能体更快借助扩展模型-智能体-和连续",
+      "title": "交付智能体更快借助扩展模型，智能体，和连续",
+      "url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-24T18:00:00.000Z",
+      "summary": "模型面向企业持续。信息技术企业，团队向信息技术。交付智能体更快借助扩展模型，智能体，和连续首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体方向研究",
       "title": "论文新进展：大语言模型、智能体方向研究",
       "url": "https://arxiv.org/abs/2609.30266v1",
@@ -913,22 +930,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "microsoft-ai-blog-智能体-首个平台-智能体",
-      "title": "智能体，首个平台: 智能体",
-      "url": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-23T15:00:00.000Z",
-      "summary": "组织新增人工智能向。面向软件。智能体，首个平台: 智能体首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "reddit-artificial-人工智能任务",
       "title": "人工智能任务？",
       "url": "https://www.reddit.com/r/artificial/comments/1wrqmi9/whats_an_ai_task_youve_completely_stopped_doing/",
@@ -941,7 +942,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -975,7 +976,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -992,7 +993,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1024,7 +1025,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1061,22 +1062,6 @@
       "image": ""
     },
     {
-      "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
-      "title": "技术社区人工智能热榜发布人工智能相关动态。",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-26T18:22:41.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 75,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-开放人工智能公司训练最模型",
       "title": "开放人工智能公司训练最模型",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
@@ -1107,7 +1092,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1148,13 +1133,13 @@
     {
       "id": "github-blog-代码托管平台官方博客发布人工智能相关动态",
       "title": "代码托管平台官方博客发布人工智能相关动态。",
-      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
       "source": "代码托管平台官方博客",
       "sourceId": "github-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-09-25T15:00:00.000Z",
-      "summary": "我们代码托管平台。来自，在。性能由交付首个在代码托管平台。",
+      "publishedAt": "2026-09-24T20:00:00.000Z",
+      "summary": "开发者向。首个在代码托管平台。",
       "topics": [
         "产品应用",
         "开源生态"
@@ -1266,6 +1251,22 @@
       "image": ""
     },
     {
+      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
+      "title": "微软云与人工智能博客发布人工智能相关动态。",
+      "url": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "summary": "面向。在，信息技术作为借助。首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "openai-news-人工智能智能体向-65-客户呼吁借助开放人工智能公司",
       "title": "人工智能智能体向 65% 客户呼吁借助开放人工智能公司",
       "url": "https://openai.com/index/ringg",
@@ -1301,23 +1302,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-和-面向智能体在微软",
-      "title": "和 : 面向智能体在微软",
-      "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-22T18:30:00.000Z",
-      "summary": "探索，和在微软，借助模型面向人工智能智能体，工作流，和任务，和 : 面向智能体在微软首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 65,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-谷歌张量处理器跑月之暗面比英伟达图形处理器快57-用的还是深度求索推理框架",
       "title": "谷歌张量处理器跑月之暗面比英伟达图形处理器快57%！用的还是深度求索推理框架",
       "url": "https://news.cnblogs.com/n/839644/",
@@ -1330,7 +1314,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1365,7 +1349,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1448,7 +1432,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1466,22 +1450,6 @@
         "机器人"
       ],
       "heat": 69,
-      "image": ""
-    },
-    {
-      "id": "hacker-news-ai-智能体使用向",
-      "title": "智能体使用向",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-      "source": "技术社区人工智能热榜",
-      "sourceId": "hacker-news-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-26T04:14:11.000Z",
-      "summary": "来自技术社区人工智能热榜的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 55,
       "image": ""
     },
     {
@@ -1640,6 +1608,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/Sakeena-Fiza_NVIDIA-Life_00-1-e1790122281141.png"
     },
     {
+      "id": "microsoft-ai-blog-智能体-首个平台-智能体",
+      "title": "智能体，首个平台: 智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-23T15:00:00.000Z",
+      "summary": "组织新增人工智能向。面向软件。智能体，首个平台: 智能体首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "openai-news-转化上下文进入借助",
       "title": "转化上下文进入借助",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
@@ -1704,7 +1688,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1788,7 +1772,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 67,
+      "heat": 66,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-大语言模型",
+      "title": "大语言模型",
+      "url": "https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-26T12:00:01.000Z",
+      "summary": "内部，词元协调。转化信息技术进入指标。大语言模型首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 62,
       "image": ""
     },
     {
@@ -1804,7 +1804,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1839,22 +1839,6 @@
         "端侧智能"
       ],
       "heat": 69,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-10-人工智能向成为",
-      "title": "10 人工智能向成为",
-      "url": "https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-25T15:30:01.000Z",
-      "summary": "部件 1: 未来 10 人工智能向成为首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -1991,6 +1975,23 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-automation-1152x648.jpg"
     },
     {
+      "id": "microsoft-ai-blog-和-面向智能体在微软",
+      "title": "和 : 面向智能体在微软",
+      "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-22T18:30:00.000Z",
+      "summary": "探索，和在微软，借助模型面向人工智能智能体，工作流，和任务，和 : 面向智能体在微软首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 65,
+      "image": ""
+    },
+    {
       "id": "mit-tech-review-ai-由人工智能",
       "title": "由人工智能",
       "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
@@ -2038,7 +2039,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2109,7 +2110,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2125,7 +2126,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2181,15 +2182,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-检索增强生成智能体-构建检索和",
-      "title": "检索增强生成智能体，构建检索和",
-      "url": "https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/",
+      "id": "towards-data-science-10-人工智能向成为",
+      "title": "10 人工智能向成为",
+      "url": "https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-25T12:30:01.000Z",
-      "summary": "检索增强生成。智能体。构建，和任务。检索增强生成智能体，构建检索和首个在数据科学实战社区。",
+      "publishedAt": "2026-09-25T15:30:01.000Z",
+      "summary": "部件 1: 未来 10 人工智能向成为首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
@@ -2343,7 +2344,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2359,7 +2360,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2393,7 +2394,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2425,7 +2426,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2444,6 +2445,22 @@
         "监管安全"
       ],
       "heat": 68,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-检索增强生成智能体-构建检索和",
+      "title": "检索增强生成智能体，构建检索和",
+      "url": "https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-25T12:30:01.000Z",
+      "summary": "检索增强生成。智能体。构建，和任务。检索增强生成智能体，构建检索和首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
       "image": ""
     },
     {
@@ -2480,22 +2497,6 @@
         "监管安全"
       ],
       "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-向编程智能体",
-      "title": "向编程智能体",
-      "url": "https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-24T15:30:01.000Z",
-      "summary": "编程智能体向编程智能体首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -2631,7 +2632,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2647,7 +2648,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2681,7 +2682,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2738,15 +2739,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-构建实际人工智能",
-      "title": ": 构建实际人工智能",
-      "url": "https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harnesses/",
+      "id": "towards-data-science-向编程智能体",
+      "title": "向编程智能体",
+      "url": "https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-24T14:00:01.000Z",
-      "summary": "检索。向构建人工智能。: 构建实际人工智能首个在数据科学实战社区。",
+      "publishedAt": "2026-09-24T15:30:01.000Z",
+      "summary": "编程智能体向编程智能体首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
