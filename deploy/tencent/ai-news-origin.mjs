@@ -23,6 +23,10 @@ const resolveFile = (pathname) => {
   const requested = resolve(join(root, safePath));
   if (!requested.startsWith(root)) return join(root, "index.html");
   if (existsSync(requested) && statSync(requested).isFile()) return requested;
+  if (existsSync(requested) && statSync(requested).isDirectory()) {
+    const directoryIndex = join(requested, "index.html");
+    if (existsSync(directoryIndex) && statSync(directoryIndex).isFile()) return directoryIndex;
+  }
   return join(root, "index.html");
 };
 
