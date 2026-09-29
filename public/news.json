@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T12:41:15.294Z",
+  "generatedAt": "2026-09-29T13:00:59.924Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-29T13:00:00.000Z",
+  "nextUpdateHint": "2026-09-29T13:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-29T12:39:47.000Z"
+    "latestPublishedAt": "2026-09-29T12:58:26.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 66,
+      "count": 68,
       "heat": 81
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "监管安全",
-      "count": 32,
+      "count": 31,
       "heat": 90
     },
     {
@@ -33,13 +33,8 @@
     },
     {
       "name": "投融资",
-      "count": 22,
-      "heat": 87
-    },
-    {
-      "name": "算力芯片",
       "count": 20,
-      "heat": 85
+      "heat": 86
     },
     {
       "name": "人工智能动态",
@@ -47,9 +42,9 @@
       "heat": 74
     },
     {
-      "name": "多模态",
-      "count": 14,
-      "heat": 82
+      "name": "算力芯片",
+      "count": 19,
+      "heat": 84
     },
     {
       "name": "端侧智能",
@@ -57,14 +52,19 @@
       "heat": 87
     },
     {
+      "name": "多模态",
+      "count": 13,
+      "heat": 81
+    },
+    {
       "name": "开源生态",
       "count": 12,
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "机器人",
-      "count": 5,
-      "heat": 79
+      "count": 6,
+      "heat": 80
     }
   ],
   "sources": [
@@ -175,7 +175,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 6,
+      "itemCount": 7,
       "displayedCount": 4,
       "latestFetchedAt": "2026-09-24T18:00:00.000Z",
       "latestDisplayedAt": "2026-09-24T18:00:00.000Z"
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-29T05:13:43.000Z",
-      "latestDisplayedAt": "2026-09-29T05:13:43.000Z"
+      "latestFetchedAt": "2026-09-29T12:45:05.000Z",
+      "latestDisplayedAt": "2026-09-29T12:45:05.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -316,9 +316,9 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "live feed returned no usable items",
       "itemCount": 1,
       "displayedCount": 1,
       "latestFetchedAt": "2026-09-28T20:00:03.000Z",
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 16,
+      "itemCount": 14,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-29T12:26:40.000Z",
-      "latestDisplayedAt": "2026-09-29T12:26:40.000Z"
+      "latestFetchedAt": "2026-09-29T12:58:26.000Z",
+      "latestDisplayedAt": "2026-09-29T12:58:26.000Z"
     },
     {
       "id": "ithome",
@@ -447,7 +447,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 24,
+      "itemCount": 23,
       "displayedCount": 8,
       "latestFetchedAt": "2026-09-29T12:39:47.000Z",
       "latestDisplayedAt": "2026-09-29T12:39:47.000Z"
@@ -488,6 +488,38 @@
   "failures": [],
   "items": [
     {
+      "id": "thirty-six-kr-美股大型科技股盘前涨跌不一-元宇宙平台公司涨超1",
+      "title": "美股大型科技股盘前涨跌不一，元宇宙平台公司涨超1%",
+      "url": "https://36kr.com/newsflashes/4004490558771076?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T12:58:26.000Z",
+      "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，元宇宙平台公司涨超1%，英伟达涨0.66%，特斯拉涨0.44%，亚马逊涨0.2%，苹果跌0.42%，微软跌0.14%，谷歌跌0.04%。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-开放人工智能公司向人工智能智能体政府",
+      "title": "开放人工智能公司向人工智能智能体政府",
+      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T12:45:05.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-奇瑞-2027-款纵横相关型号车型上市-限时-30-49-万元起-搭载华为乾崑智驾-5",
       "title": "奇瑞 2027 款纵横相关型号车型上市：限时 30.49 万元起，搭载华为乾崑智驾 5",
       "url": "https://www.ithome.com/1/008/477.htm",
@@ -518,7 +550,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": "https://preview.redd.it/zh2kblpwdgsh1.gif?width=320&crop=smart&s=c0c1246bc40aa869576d74942367757cece1a467"
     },
     {
@@ -538,22 +570,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-深度求索第0代-2预览版正式发布",
-      "title": "深度求索第0代.2预览版正式发布",
-      "url": "https://36kr.com/newsflashes/4004459316137858?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T12:26:40.000Z",
-      "summary": "36氪获悉，9月29日，深度求索第0代.2预览版正式发布，并提供开箱即用的和视窗系统桌面端安装包。据介绍，新版本预置了面向日常办公和开发的常用功能，让常用能力开箱即用。同时，新增插件安装与管理页面，并提供更多灵活配置选项，方便按需扩展功能，打造更适合自己的智能产品。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-中国人工智能公司-答案",
       "title": "中国人工智能公司？答案",
       "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
@@ -566,7 +582,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -671,23 +687,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司-和-人工智能",
-      "title": "人工智能安全公司，和，人工智能",
-      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T05:13:43.000Z",
-      "summary": "在，人工智能安全公司只是信息技术，和，人工智能可能风险向。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/supertake",
@@ -717,7 +716,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -750,7 +749,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -923,6 +922,24 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/AF-0000000212056767-master-black-background-scaled.png"
     },
     {
+      "id": "techcrunch-ai-55-百万作为人工智能智能体安全创业公司",
+      "title": "$55 百万作为人工智能智能体安全创业公司",
+      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T12:30:00.000Z",
+      "summary": "构建在 $30 百万在，公司融资向 $140 百万。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-呼吁面向人工智能",
       "title": "呼吁面向人工智能？",
       "url": "https://www.reddit.com/r/artificial/comments/1wt8t0e/are_the_call_for_ai_slowdown_because_progress_is/",
@@ -941,6 +958,22 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-深度求索第0代-2预览版正式发布",
+      "title": "深度求索第0代.2预览版正式发布",
+      "url": "https://36kr.com/newsflashes/4004459316137858?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T12:26:40.000Z",
+      "summary": "36氪获悉，9月29日，深度求索第0代.2预览版正式发布，并提供开箱即用的和视窗系统桌面端安装包。据介绍，新版本预置了面向日常办公和开发的常用功能，让常用能力开箱即用。同时，新增插件安装与管理页面，并提供更多灵活配置选项，方便按需扩展功能，打造更适合自己的智能产品。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "ithome-赛豆科技首款量产车相关型号全球首秀-提供纯电与增程版本",
       "title": "赛豆科技首款量产车相关型号全球首秀：提供纯电与增程版本",
       "url": "https://www.ithome.com/1/008/470.htm",
@@ -954,22 +987,6 @@
         "投融资"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-国务院国资委-进一步发力人工智能-新材料等重点领域-超前培育量子科技等前沿赛道",
-      "title": "国务院国资委：进一步发力人工智能、新材料等重点领域，超前培育量子科技等前沿赛道",
-      "url": "https://36kr.com/newsflashes/4004457536032649?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T12:24:51.000Z",
-      "summary": "国务院国资委党委书记、主任程福波在《新型工业化》刊发署名文章表示，积极培育壮大战略性新兴产业。新兴产业和未来产业是引领现代化产业体系建设的关键力量。当前中央企业新兴产业和未来产业布局还需提质加速，一些产业尚未形成竞争优势，必须在打造新兴支柱产业上下更大功夫，按照“领跑一批、赶超一批、培育一批”的思路，统筹推进差异化布局，持续巩固新能源、航空航天等产业优势，进一步发力人工智能、……",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -1004,7 +1021,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1020,7 +1037,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6ab58bd8630fd3fdf523eab4/master/pass/Big-Interview-UV-Solo-Timnit-Gebru-2266305419-Business.jpg"
     },
     {
@@ -1089,7 +1106,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1106,22 +1123,6 @@
         "机器人"
       ],
       "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-投资向-5-百万-发布-18-创业公司分组",
-      "title": "投资向 $5 百万，发布 18，创业公司分组",
-      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T00:30:00.000Z",
-      "summary": "18 创业公司在分组全球，在。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 81,
       "image": ""
     },
     {
@@ -1156,7 +1157,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1209,7 +1210,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1313,6 +1314,22 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-国务院国资委-进一步发力人工智能-新材料等重点领域-超前培育量子科技等前沿赛道",
+      "title": "国务院国资委：进一步发力人工智能、新材料等重点领域，超前培育量子科技等前沿赛道",
+      "url": "https://36kr.com/newsflashes/4004457536032649?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T12:24:51.000Z",
+      "summary": "国务院国资委党委书记、主任程福波在《新型工业化》刊发署名文章表示，积极培育壮大战略性新兴产业。新兴产业和未来产业是引领现代化产业体系建设的关键力量。当前中央企业新兴产业和未来产业布局还需提质加速，一些产业尚未形成竞争优势，必须在打造新兴支柱产业上下更大功夫，按照“领跑一批、赶超一批、培育一批”的思路，统筹推进差异化布局，持续巩固新能源、航空航天等产业优势，进一步发力人工智能、……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-深度求索桌面端预览版第0代-2-发布-支持插件安装与自动化任务",
       "title": "深度求索桌面端预览版第0代.2 发布，支持插件安装与自动化任务",
       "url": "https://www.ithome.com/1/008/469.htm",
@@ -1347,22 +1364,6 @@
       "image": "https://preview.redd.it/losa73r5cgsh1.jpeg?width=640&crop=smart&auto=webp&s=41ee5e3f27b77feda1c0ecb110deec588e45a282"
     },
     {
-      "id": "thirty-six-kr-三友联众-拟募资不超6-6亿元-用于光伏-储能及算力领域继电器扩产建设项目等",
-      "title": "三友联众：拟募资不超6.6亿元，用于光伏、储能及算力领域继电器扩产建设项目等",
-      "url": "https://36kr.com/newsflashes/4004397389992064?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T11:30:34.000Z",
-      "summary": "36氪获悉，三友联众公告，公司拟向不特定对象发行可转换公司债券，募集资金总额不超过6.6亿元，扣除发行费用后将用于信号继电器扩产及产业化建设项目、光伏、储能及算力领域继电器扩产建设项目、越南生产基地建设项目、磁保持继电器扩产建设项目及补充流动资金。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "the-decoder-2-0-用户视频-和智能体来自",
       "title": "2.0 用户视频，和智能体来自",
       "url": "https://the-decoder.com/manus-2-0-lets-users-edit-videos-host-multiplayer-games-and-run-agents-remotely-from-their-phone/",
@@ -1395,7 +1396,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1428,7 +1429,24 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能安全公司-和-人工智能",
+      "title": "人工智能安全公司，和，人工智能",
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T05:13:43.000Z",
+      "summary": "在，人工智能安全公司只是信息技术，和，人工智能可能风险向。",
+      "topics": [
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -1446,24 +1464,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-开放人工智能公司据报道模型安全",
-      "title": "开放人工智能公司据报道模型安全",
-      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-28T23:39:20.000Z",
-      "summary": "在人工智能实验室模型在问题面向。",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 93,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1534,7 +1535,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1551,7 +1552,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://media.wired.com/photos/6ab67a543b15d40264a17301/master/pass/092526-AI%20Coworker.jpg"
     },
     {
@@ -1567,7 +1568,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1716,24 +1717,23 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-三星向投资的人工智能基础设施企业投资10亿美元",
-      "title": "三星向投资的人工智能基础设施企业投资10亿美元",
-      "url": "https://36kr.com/newsflashes/4004372156158087?f=rss",
+      "id": "thirty-six-kr-三友联众-拟募资不超6-6亿元-用于光伏-储能及算力领域继电器扩产建设项目等",
+      "title": "三友联众：拟募资不超6.6亿元，用于光伏、储能及算力领域继电器扩产建设项目等",
+      "url": "https://36kr.com/newsflashes/4004397389992064?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T11:15:53.000Z",
-      "summary": "三星电子及其五家关联公司周二宣布，合计向 （赫利克斯数字基础设施公司）投资10亿美元。这家人工智能基建平台由私募股权机构于今年6月设立。人工智能需求急剧攀升，推动科技公司、能源供应商以及投资机构开展各类合作交易与项目，在全球范围内扩建算力基础设施。创立之初，便获得来自、科威特投资局、英伟达以及能源企业合计超100亿美元的资本承诺。（新浪财经）",
+      "publishedAt": "2026-09-29T11:30:34.000Z",
+      "summary": "36氪获悉，三友联众公告，公司拟向不特定对象发行可转换公司债券，募集资金总额不超过6.6亿元，扣除发行费用后将用于信号继电器扩产及产业化建设项目、光伏、储能及算力领域继电器扩产建设项目、越南生产基地建设项目、磁保持继电器扩产建设项目及补充流动资金。",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "算力芯片"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1784,7 +1784,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1820,19 +1820,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-来源-推理实验室在在-750-百万在-15-75-十亿",
-      "title": "来源: 推理实验室在在 $750 百万在 $15.75 十亿",
-      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+      "id": "techcrunch-ai-投资向-5-百万-发布-18-创业公司分组",
+      "title": "投资向 $5 百万，发布 18，创业公司分组",
+      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-28T21:29:18.000Z",
-      "summary": "新向人工智能基础设施创业公司来自只是。",
+      "publishedAt": "2026-09-29T00:30:00.000Z",
+      "summary": "18 创业公司在分组全球，在。",
       "topics": [
         "投融资"
       ],
-      "heat": 78,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1866,7 +1866,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1900,7 +1900,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2050,7 +2050,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://external-preview.redd.it/YMYbsrxp7HrUidRTyf1aEKbPgLldxrVG-J_LLB5SsNw.jpeg?width=640&crop=smart&auto=webp&s=8cab5d0c6db3753ab6d4dac31409c259e0ea0f54"
     },
     {
@@ -2070,20 +2070,21 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-英伟达欲拉保险公司入场-为人工智能芯片融资风险兜底",
-      "title": "英伟达欲拉保险公司入场，为人工智能芯片融资风险兜底",
-      "url": "https://36kr.com/newsflashes/4004371015651205?f=rss",
+      "id": "thirty-six-kr-了不起的-你在用人工智能做什么",
+      "title": "了不起的，你在用人工智能做什么？",
+      "url": "https://36kr.com/p/4003934076456836?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T11:11:33.000Z",
-      "summary": "英伟达正在与保险公司展开洽谈，探讨如何分担其人工智能（人工智能）芯片贷款业务所伴随的风险。英伟达首席执行官黄仁勋认为，芯片应��视为一种“可投资资产类别”，用作在用户与投资者之间转移风险和成本。（财联社）",
+      "publishedAt": "2026-09-29T09:56:51.000Z",
+      "summary": "了不起的 36氪人工智能测评 · 轻访谈栏目 —— 轻访谈邀请函 —— 《了不起的，你在用人工智能做什么？》是36氪人工智能测评发起的轻访谈栏目。不搭演播室、不摆讲台，我们到你常待的地方，像朋友聊天一样，聊聊你正在做的事、你对人工智能的真实感受。我们想和你聊什么不设长篇提纲，只聊你的人工智能实操：你拿人工智能做了哪些事、怎么做的、真实效果怎么样。话题方向提前发给你，哪些能聊、……",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "产品应用",
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2134,23 +2135,24 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-实验室面向-8-2-十亿",
-      "title": "实验室面向 $8.2 十亿",
-      "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "id": "techcrunch-ai-开放人工智能公司据报道模型安全",
+      "title": "开放人工智能公司据报道模型安全",
+      "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-28T20:39:33.000Z",
-      "summary": "查看实验室作为和。",
+      "publishedAt": "2026-09-28T23:39:20.000Z",
+      "summary": "在人工智能实验室模型在问题面向。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 77,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2201,7 +2203,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2307,24 +2309,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-网宿科技-拟3亿元投资视频生成模型公司-人工智能",
-      "title": "网宿科技：拟3亿元投资视频生成模型公司。人工智能",
-      "url": "https://36kr.com/newsflashes/4004369938911365?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T11:07:27.000Z",
-      "summary": "36氪获悉，网宿科技公告，公司拟对。人工智能进行股权投资，拟以自有资金出资3亿元认购开曼增发的+轮优先股，投资完成后持有开曼4.3963%股权。作为过渡性安排，公司先期向上海三呆科技提供3亿元可转债，并获得+轮认股权证。人工智能成立于2024年1月，主要从事视觉内容生成模型及基于视频模型应用产品的研发。",
-      "topics": [
-        "产品应用",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
       "url": "https://www.reddit.com/r/artificial/comments/1wt6xfz/the_australian_data_hack_that_reveals_a_growing/",
@@ -2339,6 +2323,24 @@
       ],
       "heat": 84,
       "image": "https://external-preview.redd.it/4blZro87f9jWGf3n1fSXP-wSk_6Mov0SnEP8xvY9PNY.jpeg?width=640&crop=smart&auto=webp&s=46fb23b4f9c6c5ff704de7a33891dee1944a9db6"
+    },
+    {
+      "id": "thirty-six-kr-从欧洲到大湾区-香港如何打造全球硬科技人才的-超级通道",
+      "title": "从欧洲到大湾区：香港如何打造全球硬科技人才的\"超级通道\"",
+      "url": "https://36kr.com/p/3995406571933824?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T06:00:59.000Z",
+      "summary": "九月上旬，从德国远赴中国香港，参与大湾区考察之旅。访问行程第三天，他在前海与机械人互动，又搭乘无人驾驶出租车穿梭深圳街道，近距离体验大湾区前沿科技的落地应用。三个月前，他还在德国慕尼黑的会场里，为一座从未到访的城市设计创科解决方案。九月，他已踏上行程，用五天时间走过香港、前海与南沙。这是香港人才服务办公室（香港人才办）与欧洲科技联合会（ ）合办的国际创科马拉松的后半程。二十位……",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "cnblogs-news-比亚迪西安新能源汽车动力电池项目全面建成投产-系第二代刀片电池首批生产基地",
@@ -2371,7 +2373,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2392,20 +2394,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能和关于信息技术",
-      "title": "人工智能和关于信息技术",
-      "url": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+      "id": "techcrunch-ai-来源-推理实验室在在-750-百万在-15-75-十亿",
+      "title": "来源: 推理实验室在在 $750 百万在 $15.75 十亿",
+      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-28T19:21:59.000Z",
-      "summary": "只是，数据中心和人工智能和。",
+      "publishedAt": "2026-09-28T21:29:18.000Z",
+      "summary": "新向人工智能基础设施创业公司来自只是。",
       "topics": [
-        "产品应用",
         "投融资"
       ],
-      "heat": 81,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2423,7 +2424,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2441,7 +2442,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2546,24 +2547,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-了不起的-你在用人工智能做什么",
-      "title": "了不起的，你在用人工智能做什么？",
-      "url": "https://36kr.com/p/4003934076456836?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T09:56:51.000Z",
-      "summary": "了不起的 36氪人工智能测评 · 轻访谈栏目 —— 轻访谈邀请函 —— 《了不起的，你在用人工智能做什么？》是36氪人工智能测评发起的轻访谈栏目。不搭演播室、不摆讲台，我们到你常待的地方，像朋友聊天一样，聊聊你正在做的事、你对人工智能的真实感受。我们想和你聊什么不设长篇提纲，只聊你的人工智能实操：你拿人工智能做了哪些事、怎么做的、真实效果怎么样。话题方向提前发给你，哪些能聊、……",
-      "topics": [
-        "产品应用",
-        "多模态",
-        "端侧智能"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "reddit-artificial-公司-8-人工智能面向借助模型和只是-信息技术",
       "title": "公司 8 人工智能面向借助模型和只是。信息技术。",
       "url": "https://www.reddit.com/r/artificial/comments/1wt5joo/a_company_ran_8_identical_ai_societies_for_weeks/",
@@ -2579,6 +2562,23 @@
         "监管安全"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-科氪-当智能穿戴从监测走向预警-安顿的长期价值正在显现",
+      "title": "科氪，当智能穿戴从监测走向预警，安顿的长期价值正在显现",
+      "url": "https://36kr.com/p/4004009029537929?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T04:49:15.000Z",
+      "summary": "2026年9月22日，安顿官方公众号宣布，品牌荣获抖音电商数码智配行业“卓越品牌奖”。此前，安顿已披露生命预警表中秋礼盒装登上抖音商城“智能手表爆款榜”相关型号，并蝉联榜首4天。从品牌奖项到商品榜单，安顿近期的市场表现，让其围绕健康预警构建的产品与服务组合受到关注。据企业提供的京东榜单资料，在2026年9月14日至20日的“高端健康手表”“高端送礼手表”两项每周排行榜中，安顿……",
+      "topics": [
+        "产品应用",
+        "机器人"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -2616,21 +2616,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-英伟达推出新平台面向在人工智能智能体",
-      "title": "英伟达推出新平台面向在人工智能智能体",
-      "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+      "id": "techcrunch-ai-实验室面向-8-2-十亿",
+      "title": "实验室面向 $8.2 十亿",
+      "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-28T18:31:23.000Z",
-      "summary": "英伟达首席执行官在软件和产品新增安全人工智能智能体向向。",
+      "publishedAt": "2026-09-28T20:39:33.000Z",
+      "summary": "查看实验室作为和。",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 94,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2665,7 +2663,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2786,24 +2784,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-从欧洲到大湾区-香港如何打造全球硬科技人才的-超级通道",
-      "title": "从欧洲到大湾区：香港如何打造全球硬科技人才的\"超级通道\"",
-      "url": "https://36kr.com/p/3995406571933824?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T06:00:59.000Z",
-      "summary": "九月上旬，从德国远赴中国香港，参与大湾区考察之旅。访问行程第三天，他在前海与机械人互动，又搭乘无人驾驶出租车穿梭深圳街道，近距离体验大湾区前沿科技的落地应用。三个月前，他还在德国慕尼黑的会场里，为一座从未到访的城市设计创科解决方案。九月，他已踏上行程，用五天时间走过香港、前海与南沙。这是香港人才服务办公室（香港人才办）与欧洲科技联合会（ ）合办的国际创科马拉松的后半程。二十位……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-诺因智能再获数亿元融资-成立一年完成5轮融资-累计超10亿元",
       "title": "诺因智能再获数亿元融资：成立一年完成5轮融资，累计超10亿元",
       "url": "https://news.cnblogs.com/n/839770/",
@@ -2818,6 +2798,24 @@
         "机器人"
       ],
       "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-圆桌-具身智能-打通技术到场景的最后一公里-36氪-2026-产业未来大会",
+      "title": "圆桌：「具身智能」 打通技术到场景的最后一公里｜36氪 2026 产业未来大会",
+      "url": "https://36kr.com/p/4003813673865351?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T03:45:32.000Z",
+      "summary": "2026年，产业投资进入深水区，资本、技术与产业加速融合，旧的投资逻辑不再使用，新的共识正在诞生。2026产业未来大会聚焦新周期机遇，共探产业未来与“中国之光”的诞生。9月9日至10日，由36氪主办的2026产业未来大会以“深水之上，共振新生”为主题的在北京亦庄举行。来自国资平台、产业投资基金、企业、创新企业及专家学者走到一起，聚焦量子科技等未来产业走向产业化。大会深度探讨当……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 98,
       "image": ""
     },
     {
@@ -2839,20 +2837,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司发布-5-5-信息技术呼吁-更快合作伙伴",
-      "title": "人工智能安全公司发布 5.5，信息技术呼吁，更快合作伙伴",
-      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "id": "techcrunch-ai-人工智能和关于信息技术",
+      "title": "人工智能和关于信息技术",
+      "url": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-28T18:00:00.000Z",
-      "summary": "人工智能安全公司发布模型，更快和词元。",
+      "publishedAt": "2026-09-28T19:21:59.000Z",
+      "summary": "只是，数据中心和人工智能和。",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "产品应用",
+        "投融资"
       ],
-      "heat": 88,
+      "heat": 81,
       "image": ""
     }
   ]
