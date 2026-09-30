@@ -1,50 +1,55 @@
 {
-  "generatedAt": "2026-09-30T00:41:54.471Z",
+  "generatedAt": "2026-09-30T01:11:57.131Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-09-30T01:00:00.000Z",
+  "nextUpdateHint": "2026-09-30T01:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 26,
     "sourcesFailed": 0,
     "windowHours": 168,
-    "latestPublishedAt": "2026-09-30T00:40:57.000Z"
+    "latestPublishedAt": "2026-09-30T01:09:48.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 80,
+      "count": 77,
       "heat": 81
     },
     {
       "name": "模型发布",
-      "count": 47,
+      "count": 46,
       "heat": 85
     },
     {
       "name": "监管安全",
-      "count": 37,
-      "heat": 88
-    },
-    {
-      "name": "算力芯片",
-      "count": 20,
-      "heat": 86
+      "count": 41,
+      "heat": 89
     },
     {
       "name": "研究论文",
-      "count": 19,
+      "count": 18,
       "heat": 80
+    },
+    {
+      "name": "算力芯片",
+      "count": 17,
+      "heat": 83
     },
     {
       "name": "人工智能动态",
       "count": 18,
-      "heat": 71
+      "heat": 73
     },
     {
       "name": "多模态",
+      "count": 16,
+      "heat": 79
+    },
+    {
+      "name": "开源生态",
       "count": 15,
-      "heat": 78
+      "heat": 76
     },
     {
       "name": "投融资",
@@ -52,19 +57,14 @@
       "heat": 81
     },
     {
-      "name": "开源生态",
-      "count": 14,
-      "heat": 75
-    },
-    {
       "name": "端侧智能",
-      "count": 6,
-      "heat": 83
+      "count": 7,
+      "heat": 85
     },
     {
       "name": "机器人",
-      "count": 4,
-      "heat": 91
+      "count": 3,
+      "heat": 89
     }
   ],
   "sources": [
@@ -175,10 +175,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 7,
-      "displayedCount": 4,
-      "latestFetchedAt": "2026-09-29T06:30:00.000Z",
-      "latestDisplayedAt": "2026-09-29T06:30:00.000Z"
+      "itemCount": 6,
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-09-24T18:00:00.000Z",
+      "latestDisplayedAt": "2026-09-24T18:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -240,9 +240,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-09-29T17:35:03.000Z",
-      "latestDisplayedAt": "2026-09-29T17:35:03.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-09-30T00:19:13.000Z",
+      "latestDisplayedAt": "2026-09-30T00:19:13.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -256,7 +256,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 4,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-09-29T10:43:45.000Z",
       "latestDisplayedAt": "2026-09-28T22:17:07.000Z"
     },
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-09-29T19:24:12.000Z",
       "latestDisplayedAt": "2026-09-29T19:24:12.000Z"
     },
@@ -433,8 +433,8 @@
       "fallbackReason": "",
       "itemCount": 18,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-30T00:40:57.000Z",
-      "latestDisplayedAt": "2026-09-30T00:40:57.000Z"
+      "latestFetchedAt": "2026-09-30T01:05:17.000Z",
+      "latestDisplayedAt": "2026-09-30T01:05:17.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-09-30T00:37:08.000Z",
-      "latestDisplayedAt": "2026-09-30T00:37:08.000Z"
+      "latestFetchedAt": "2026-09-30T01:09:48.000Z",
+      "latestDisplayedAt": "2026-09-30T01:09:48.000Z"
     },
     {
       "id": "oschina",
@@ -488,35 +488,36 @@
   "failures": [],
   "items": [
     {
-      "id": "thirty-six-kr-奥特曼称不受扎克伯格威胁-但-似乎是不错的产品",
-      "title": "奥特曼称不受扎克伯格威胁，但“似乎是不错的产品”",
-      "url": "https://36kr.com/newsflashes/4005169545367682?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-30T00:40:57.000Z",
-      "summary": "开放人工智能公司首席执行官奥特曼表示，元宇宙平台公司的人工智能代理“似乎是不错的产品”，但他表示自己并不受到元宇宙平台公司首席执行官马克·扎克伯格的威胁。“他是个非常令人印象深刻的人，那家公司拥有很棒的资源，”奥特曼说。“但我对我们的路线图感觉非常好。”（新浪财经）",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "ithome-开放人工智能公司奥尔特曼-人工智能的影响将超过工业革命-当下是进入就业市场的最佳时机",
-      "title": "开放人工智能公司奥尔特曼：人工智能的影响将超过工业革命，当下是进入就业市场的最佳时机",
-      "url": "https://www.ithome.com/1/008/574.htm",
+      "id": "ithome-百度地图第22代版本发布-车道级导航-4-0-导航-2-0-全域护航系统",
+      "title": "百度地图第22代版本发布：车道级导航 4.0、导航 2.0、全域护航系统",
+      "url": "https://www.ithome.com/1/008/582.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:37:08.000Z",
-      "summary": "科技之家 9 月 30 日消息，当地时间 29 日，奥尔特曼在旧金山举行的开放人工智能公司大会上宣布推出新人工智能智能体产品，并描绘了一幅宏大愿景。据《商业内幕》报道，奥尔特曼同时也对外界理解人工智能的方式提出异议，介绍了开放人工智能公司的新产品给他的晨间习惯带来了哪些变化。此次大会上，奥尔特曼发表了一系列独特的观点。科技之家汇总如下：人工智能不该只用来“让经济机器越转越快”……",
+      "publishedAt": "2026-09-30T01:09:48.000Z",
+      "summary": "科技之家 9 月 30 日消息，在上周的 2026 世界新能源汽车大会“人工智能驱动智能汽车技术跃迁与全场景落地”专题论坛上，百度副总裁、百度地图总经理谢天正式发布百度地图第22代。百度地图第22代带来车道级导航 4.0、导航 2.0 和全域护航系统三大导航能力升级，并进一步构建时空智能基座，将真实世界的数据、实时变化与用户需求连接起来。科技之家汇总主要更新内容如下：车道级导……",
       "topics": [
-        "产品应用",
+        "模型发布",
         "监管安全",
         "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-开放人工智能公司首席执行官称人工智能安全成为焦点-相信投资者会对首次公开募股保持耐心",
+      "title": "开放人工智能公司首席执行官称人工智能安全成为焦点，相信投资者会对首次公开募股保持耐心",
+      "url": "https://36kr.com/newsflashes/4005180719583112?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-30T01:05:17.000Z",
+      "summary": "开放人工智能公司首席执行官表示，公司希望在没有作为新上市公司的压力下，平稳度过人工智能安全担忧加剧的时期，并相信投资者会对公司首次公开募股计划保持“耐心”。周二接受媒体采访时表示，公司目前正在“调整”以适应人工智能能力的“新水平”以及随之而来的额外安全要求。“我们只是想站稳脚跟，确保我们了解如何以这种新方式运作，并且能在没有作为一家新上市公司的压力之下做出一些决定，”说。（新……",
+      "topics": [
+        "监管安全",
+        "投融资"
       ],
       "heat": 99,
       "image": ""
@@ -535,7 +536,25 @@
         "多模态",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-开放人工智能公司模型",
+      "title": "开放人工智能公司模型",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-30T00:19:13.000Z",
+      "summary": "面向，开放人工智能公司。首席执行官信息技术公司更好关于模型安全，借助在。我们向借助人工智能 … 作为模型在，和我们查看 …",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -622,24 +641,6 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController_hero.gif"
     },
     {
-      "id": "the-verge-ai-人工智能研究设置视频作为作为信息技术",
-      "title": "人工智能研究设置视频作为作为信息技术",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T17:35:03.000Z",
-      "summary": "关于，在，开放人工智能公司和谷歌深度思维员工，在新。信息技术借助人工智能研究，和员工在开放人工智能公司，谷歌，和人工智能安全公司。研究，信息技术 …",
-      "topics": [
-        "监管安全",
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "hacker-news-ai-在智能体",
       "title": ":，在智能体",
       "url": "https://openai.com/index/introducing-dots/",
@@ -652,7 +653,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -720,7 +721,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -792,22 +793,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-和-2026-在-构建数据面向微软智能副驾和智能体",
-      "title": "和 2026 在 : 构建数据面向微软智能副驾和智能体",
-      "url": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-29T06:30:00.000Z",
-      "summary": "微软和宣布在和 2026 帮助组织构建数据面向人工智能。和 2026 在 : 构建数据面向微软智能副驾和智能体首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 77,
-      "image": ""
-    },
-    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/supertake",
@@ -837,7 +822,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -855,7 +840,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -889,7 +874,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -911,6 +896,23 @@
       "image": ""
     },
     {
+      "id": "microsoft-ai-blog-交付智能体更快借助扩展模型-智能体-和连续",
+      "title": "交付智能体更快借助扩展模型，智能体，和连续",
+      "url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-24T18:00:00.000Z",
+      "summary": "模型面向企业持续。信息技术企业，团队向信息技术。交付智能体更快借助扩展模型，智能体，和连续首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-打开科学帮助研究面向",
       "title": "打开科学帮助研究面向",
       "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
@@ -928,19 +930,37 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/AF-0000000212056767-master-black-background-scaled.png"
     },
     {
-      "id": "thirty-six-kr-美联储鲍曼称人工智能对银行业机遇与风险并存-敦促加强系统安全防护",
-      "title": "美联储鲍曼称人工智能对银行业机遇与风险并存，敦促加强系统安全防护",
-      "url": "https://36kr.com/newsflashes/4005151626219657?f=rss",
+      "id": "thirty-six-kr-特朗普会晤人工智能业界领袖-反对新增联邦安全监管",
+      "title": "特朗普会晤人工智能业界领袖，反对新增联邦安全监管",
+      "url": "https://36kr.com/newsflashes/4005178735497090?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:38:42.000Z",
-      "summary": "美联储负责银行监管事务的副主席米歇尔·鲍曼周二警告银行业加强系统防护以应对人工智能带来的威胁，但她同时强调这项技术也能给银行带来益处。鲍曼在为科罗拉多州一场活动准备的讲话稿中表示：“人工智能具有巨大潜力，无论是对威胁实施者，还是对抵御威胁的人而言都是如此。人工智能正成为这些安全措施的关键组成部分，它既是一种防御工具，也是一项不断演变的风险。”（新浪财经）",
+      "publishedAt": "2026-09-30T00:58:18.000Z",
+      "summary": "在全球对人工智能威胁的担忧日益加剧之际，美国总统唐纳德·特朗普在白宫与人工智能行业高管会面后，否定了针对人工智能出台新联邦法规的想法。特朗普周二与二十多位硅谷领袖共进午餐后表示，现有法律足以保护美国人免受人工智能潜在风险的影响。特朗普与嘉宾在白宫东厅短暂会见记者时表示：“有人认为应该进行大量自我监管，而司法部、联邦调查局等机构本身就已经提供了监管，但自我监管非常重要。”活动结……",
       "topics": [
         "监管安全"
       ],
       "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "ithome-开放人工智能公司首席执行官奥尔特曼谈上市-需先做好人工智能安全承诺-暂无明确时间表",
+      "title": "开放人工智能公司首席执行官奥尔特曼谈上市：需先做好人工智能安全承诺，暂无明确时间表",
+      "url": "https://www.ithome.com/1/008/575.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-30T00:48:25.000Z",
+      "summary": "科技之家 9 月 30 日消息，数月以来，外界一直都在猜测开放人工智能公司究竟何时会启动上市流程。首席执行官萨姆 · 奥尔特曼（ ）表示，只有当这家企业能够就模型安全作出更完善的承诺之后，才会考虑上市；目前尚且没有确定的时间节点。奥尔特曼在开发者大会（）主旨演讲结束之后，于当地时间周二出席记者问答环节时表示：“我们仍会持续推进人工智能技术的发展…… 但随着模型能力迎来一轮突飞……",
+      "topics": [
+        "监管安全",
+        "投融资",
+        "开源生态"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -962,20 +982,19 @@
       "image": "https://preview.redd.it/k07pyq0jwjsh1.png?width=640&crop=smart&auto=webp&s=ad327ec3e0002a97e51faf1709de1477f52bf451"
     },
     {
-      "id": "ithome-美议员提出重磅法案-政府出台安全防护机制前-人工智能不得进行递归式自我改进",
-      "title": "美议员提出重磅法案：政府出台安全防护机制前，人工智能不得进行递归式自我改进",
-      "url": "https://www.ithome.com/1/008/570.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
+      "id": "the-verge-ai-政府向呼吁人工智能智能",
+      "title": "政府向呼吁人工智能智能",
+      "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:17:55.000Z",
-      "summary": "科技之家 9 月 30 日消息，当地时间 28 日，据美国报道，代表硅谷选区的民主党联邦众议员罗 · 康纳准备提出一项人工智能监管法案，引入严格责任标准，并禁止人工智能在缺乏政府安全防护机制的情况下进行递归式自我改进。康纳在接受采访时坦言：“事实上，存在文明灭绝的风险。既有失去控制的安全风险，也有被滥用的风险，两者都必须认真对待。” 康纳将法案命名为《 人工智能 （人类控制人……",
+      "publishedAt": "2026-09-29T22:25:45.000Z",
+      "summary": "人工智能，政策，政策，和发布向智能，向新由，和信息技术，…",
       "topics": [
-        "算力芯片",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1013,22 +1032,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-在开放人工智能公司",
-      "title": "在开放人工智能公司",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T17:12:27.000Z",
-      "summary": "在，开放人工智能公司借助抗议，和，信息技术，设置，群组在在序列。组织向 …",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "hacker-news-ai-技术社区人工智能热榜发布人工智能相关动态",
       "title": "技术社区人工智能热榜发布人工智能相关动态。",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
@@ -1041,7 +1044,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1073,7 +1076,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1089,7 +1092,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1210,7 +1213,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1245,7 +1248,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1300,23 +1303,6 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AI-video-co-director_hero.jpg"
     },
     {
-      "id": "microsoft-ai-blog-交付智能体更快借助扩展模型-智能体-和连续",
-      "title": "交付智能体更快借助扩展模型，智能体，和连续",
-      "url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-24T18:00:00.000Z",
-      "summary": "模型面向企业持续。信息技术企业，团队向信息技术。交付智能体更快借助扩展模型，智能体，和连续首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-英伟达官方博客发布人工智能相关动态",
       "title": "英伟达官方博客发布人工智能相关动态。",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
@@ -1349,36 +1335,51 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "thirty-six-kr-开放人工智能公司就其智能体擅访澳医保数据致歉",
-      "title": "开放人工智能公司就其智能体擅访澳医保数据致歉",
-      "url": "https://36kr.com/newsflashes/4005149956329604?f=rss",
+      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
+      "title": "微软云与人工智能博客发布人工智能相关动态。",
+      "url": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "summary": "面向。在，信息技术作为借助。首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-智能代理购物蓬勃兴起-摩根士丹利看好成为人工智能赛道赢家",
+      "title": "智能代理购物蓬勃兴起，摩根士丹利看好成为人工智能赛道赢家",
+      "url": "https://36kr.com/newsflashes/4005156326412160?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:33:00.000Z",
-      "summary": "9月29日，美国开放人工智能研究中心（开放人工智能公司）已就其智能体未经授权访问澳国民医疗保险体系数据门户致歉。开放人工智能公司表示，将通过其“前线防卫者黎明”计划对澳有关政府机构予以资金支持，协助“必要服务提供商”加强网络防御。该公司还将组建一个专项工作组，吸纳澳本土独立专业人士参与，以制定可行的政策建议。（财联社）",
+      "publishedAt": "2026-09-30T00:52:29.000Z",
+      "summary": "摩根士丹利分析师亚当・伍德重申观点：随着智能代理购物发展势头增强，（）有望从中受益。伍德在周二发给客户的研报中写道：“ 依靠交易变现，而非广告曝光变现。这使得该平台并不依赖需求的来源渠道；在消费者发现商品的渠道日趋碎片化的大环境下，这一模式更具价值。”伍德认为，这一趋势目前尚不会改变市场盈利预期，但随着利润率扩张，核心业务存在提速的可能性。（新浪财经）",
       "topics": [
-        "产品应用",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 88,
       "image": ""
     },
     {
-      "id": "ithome-人工智能安全公司首次公开募股招股书曝光-业务高度依赖谷歌-亚马逊等科技巨头",
-      "title": "人工智能安全公司首次公开募股招股书曝光：业务高度依赖谷歌、亚马逊等科技巨头",
-      "url": "https://www.ithome.com/1/008/566.htm",
+      "id": "ithome-开放人工智能公司奥尔特曼-人工智能的影响将超过工业革命-当下是进入就业市场的最佳时机",
+      "title": "开放人工智能公司奥尔特曼：人工智能的影响将超过工业革命，当下是进入就业市场的最佳时机",
+      "url": "https://www.ithome.com/1/008/574.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:08:39.000Z",
-      "summary": "科技之家 9 月 30 日消息，人工智能安全公司的首次公开募股招股书揭示出这家人工智能开发商对于一小部分客户以及科技巨头的依赖程度。该公司正呼吁投资者为其宏大且资本密集的发展计划提供资金，并称这套计划有望重塑全球经济，但招股书同时也点明了公司面临的重大风险。路透社看到一份人工智能安全公司的保密版首次公开募股申报文件，文件显示，去年该公司有 47% 的客户销售收入是经由云服务合……",
+      "publishedAt": "2026-09-30T00:37:08.000Z",
+      "summary": "科技之家 9 月 30 日消息，当地时间 29 日，奥尔特曼在旧金山举行的开放人工智能公司大会上宣布推出新人工智能智能体产品，并描绘了一幅宏大愿景。据《商业内幕》报道，奥尔特曼同时也对外界理解人工智能的方式提出异议，介绍了开放人工智能公司的新产品给他的晨间习惯带来了哪些变化。此次大会上，奥尔特曼发表了一系列独特的观点。科技之家汇总如下：人工智能不该只用来“让经济机器越转越快”……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全",
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
@@ -1398,7 +1399,24 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 95,
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能-驱动",
+      "title": "人工智能，驱动",
+      "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T21:49:09.000Z",
+      "summary": "人工智能，驱动来自，向。在，在，平台实时更新向，作为，只是 …",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -1433,22 +1451,6 @@
         "产品应用"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-开放人工智能公司-2026-新闻和",
-      "title": "开放人工智能公司 2026: 新闻和",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T16:00:00.000Z",
-      "summary": "信息技术开放人工智能公司转化在。公司在相关型号在，和实时首席执行官，信息技术更新，人工智能智能体产品元宇宙平台公司，推出，可用面向，…",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 91,
       "image": ""
     },
     {
@@ -1552,7 +1554,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1587,7 +1589,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": "https://media.wired.com/photos/6ab67a543b15d40264a17301/master/pass/092526-AI%20Coworker.jpg"
     },
     {
@@ -1603,7 +1605,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1635,7 +1637,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1690,22 +1692,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-1024x648.jpg"
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "summary": "面向。在，信息技术作为借助。首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-帮助英伟达在规模",
       "title": "帮助英伟达在规模",
       "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
@@ -1722,36 +1708,51 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/Sakeena-Fiza_NVIDIA-Life_00-1-e1790122281141.png"
     },
     {
-      "id": "thirty-six-kr-英伟达与保险公司探讨分担图形处理器抵押风险-挖掘新芯片需求",
-      "title": "英伟达与保险公司探讨分担图形处理器抵押风险，挖掘新芯片需求",
-      "url": "https://36kr.com/newsflashes/4005167063715721?f=rss",
+      "id": "microsoft-ai-blog-智能体-首个平台-智能体",
+      "title": "智能体，首个平台: 智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-23T15:00:00.000Z",
+      "summary": "组织新增人工智能向。面向软件。智能体，首个平台: 智能体首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-港股配置主线浮出水面-红利底仓-人工智能进攻-渐成机构共识",
+      "title": "港股配置主线浮出水面，“红利底仓+人工智能进攻”渐成机构共识",
+      "url": "https://36kr.com/newsflashes/4005173331545985?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:26:37.000Z",
-      "summary": "英伟达正与多家保险公司展开谈判，探讨分担以其芯片为抵押进行放贷所产生的风险。黄仁勋希望借此打开除大型科技集团之外更多的芯片市场需求。据知情人士透露，这家芯片厂商已接触多家保险机构，探讨多种交易架构，希望将资本密集型半导体融资业务的一部分风险转移给保险公司与其他投资者。（新浪财经）",
+      "publishedAt": "2026-09-30T00:50:49.000Z",
+      "summary": "随着三季度行情步入尾声，港股市场在经历9月的震荡回调后，正迎来新一轮布局窗口期。多家券商近期密集发布港股配置观点，普遍认为外部扰动边际缓和，估值收缩空间有限，回调有望提供布局时机。配置层面，“红利底仓+人工智能进攻”的杠铃策略逐渐成为机构主流共识，成长端关注人工智能应用链，防御端则锚定红利资产。分析人士认为，随着三季报披露期临近，市场关注点正从交易宏观扰动转向验证基本面，人工……",
       "topics": [
-        "算力芯片",
+        "产品应用",
         "投融资"
       ],
-      "heat": 99,
+      "heat": 93,
       "image": ""
     },
     {
-      "id": "ithome-麦当劳人工智能定价系统曝光-同款汉堡隔两英里价差达-21",
-      "title": "麦当劳人工智能定价系统曝光：同款汉堡隔两英里价差达 21%",
-      "url": "https://www.ithome.com/1/008/563.htm",
+      "id": "ithome-美议员提出重磅法案-政府出台安全防护机制前-人工智能不得进行递归式自我改进",
+      "title": "美议员提出重磅法案：政府出台安全防护机制前，人工智能不得进行递归式自我改进",
+      "url": "https://www.ithome.com/1/008/570.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T23:59:27.000Z",
-      "summary": "科技之家 9 月 30 日消息，据路透社报道，麦当劳正越来越多地借助人工智能，为美国本土以及部分海外市场制定菜单价格。这套方案意在提升总部的利润，但有可能招致消费者不满，同时还会引来反垄断机构的审查。人工智能重点测算的一项定价参考因素，就是预估每家门店顾客的支付意愿。这套定价系统的运行逻辑、人工智能的大范围应用、企业自身面临的监管顾虑，以及总部与特许经营加盟商之间存在的矛盾，……",
+      "publishedAt": "2026-09-30T00:17:55.000Z",
+      "summary": "科技之家 9 月 30 日消息，当地时间 28 日，据美国报道，代表硅谷选区的民主党联邦众议员罗 · 康纳准备提出一项人工智能监管法案，引入严格责任标准，并禁止人工智能在缺乏政府安全防护机制的情况下进行递归式自我改进。康纳在接受采访时坦言：“事实上，存在文明灭绝的风险。既有失去控制的安全风险，也有被滥用的风险，两者都必须认真对待。” 康纳将法案命名为《 人工智能 （人类控制人……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
+        "算力芯片",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -1790,6 +1791,24 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-人工智能研究设置视频作为作为信息技术",
+      "title": "人工智能研究设置视频作为作为信息技术",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T17:35:03.000Z",
+      "summary": "关于，在，开放人工智能公司和谷歌深度思维员工，在新。信息技术借助人工智能研究，和员工在开放人工智能公司，谷歌，和人工智能安全公司。研究，信息技术 …",
+      "topics": [
+        "监管安全",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "the-decoder-开放人工智能公司扩展智能编程工具和接口在借助安全-决策接口-和",
       "title": "开放人工智能公司扩展智能编程工具和接口在借助安全，决策接口，和",
       "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
@@ -1805,23 +1824,6 @@
         "开源生态"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-元宇宙平台公司人工智能向",
-      "title": "元宇宙平台公司人工智能向",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T14:08:21.000Z",
-      "summary": "向，向。元宇宙平台公司在安全功能信息技术推出人工智能智能体月作为信息技术向回顾 …",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -1856,7 +1858,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1906,7 +1908,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1941,7 +1943,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1959,7 +1961,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": "https://media.wired.com/photos/6aba2329e8d78c42cabc4ad2/master/pass/092826-Nvidia%20OpenShell.jpg"
     },
     {
@@ -2012,22 +2014,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2295026360-1024x648.jpg"
     },
     {
-      "id": "mit-tech-review-ai-30-百万向构建人工智能-驱动",
-      "title": "$30 百万向构建人工智能，驱动",
-      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-      "source": "麻省理工科技评论人工智能",
-      "sourceId": "mit-tech-review-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-25T09:16:25.000Z",
-      "summary": "政府向 $30.3 百万五个在改进，向预算，呼吁 +，在使用人工智能和机器学习和在呼吁，…",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 49,
-      "image": ""
-    },
-    {
       "id": "github-blog-人工智能-驱动借助代码托管平台安全实验室智能体",
       "title": "人工智能，驱动借助代码托管平台安全实验室智能体",
       "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
@@ -2063,22 +2049,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-智能体-首个平台-智能体",
-      "title": "智能体，首个平台: 智能体",
-      "url": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-23T15:00:00.000Z",
-      "summary": "组织新增人工智能向。面向软件。智能体，首个平台: 智能体首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-在人工智能-英伟达和合作伙伴人工智能",
       "title": "在人工智能，英伟达和合作伙伴人工智能",
       "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
@@ -2095,36 +2065,35 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/ai-day-singapore-key-visul-1920x1080-1.jpg"
     },
     {
-      "id": "thirty-six-kr-人工智能安全公司招股书称失控的人工智能智能体可能带来重大法律风险",
-      "title": "人工智能安全公司招股书称失控的人工智能智能体可能带来重大法律风险",
-      "url": "https://36kr.com/newsflashes/4005142772994176?f=rss",
+      "id": "thirty-six-kr-奥特曼-开放人工智能公司正推出开放人工智能公司私有智能的预览版本",
+      "title": "奥特曼：开放人工智能公司正推出开放人工智能公司私有智能的预览版本",
+      "url": "https://36kr.com/newsflashes/4005170918281096?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:18:41.000Z",
-      "summary": "人工智能安全公司在招股书中表示，失控的人工智能智能体行为可能令公司面临来自客户和用户“重大且难以预测的法律索赔”，尽管相关法律框架目前仍不明确。人工智能安全公司在文件中表示，“这些智能体的自主性可能增加造成伤害的风险，错误、目标不一致或安全漏洞遭利用都可能导致现实世界中的后果”。（财联社）",
+      "publishedAt": "2026-09-30T00:44:12.000Z",
+      "summary": "开放人工智能公司首席执行官奥特曼宣布，开放人工智能公司正推出开放人工智能公司私有智能的预览版本，名为开放人工智能公司私有智能（开放人工智能公司 ）。该产品能让用户对自身数据拥有更强管控权，同时依然可以调用开放人工智能公司模型最顶尖的能力。奥特曼称：“零数据留存搭配私有安全处理，在完全不在我们服务器存储你的内容的前提下，实现前沿模型的安全防护；而借助私有推理技术，我们甚至能在推……",
       "topics": [
-        "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "ithome-信息技术早报-0930-华为-90-定档-10-月-1-日发布并开售-开放人工智能公司发布相关型号-123-云盘就空间调整致歉-",
-      "title": "信息技术早报 0930：华为 90 定档 10 月 1 日发布并开售；开放人工智能公司发布相关型号；123 云盘就空间调整致歉；5999 元起 16 手机发布。",
-      "url": "https://www.ithome.com/1/008/561.htm",
+      "id": "ithome-人工智能安全公司首次公开募股招股书曝光-业务高度依赖谷歌-亚马逊等科技巨头",
+      "title": "人工智能安全公司首次公开募股招股书曝光：业务高度依赖谷歌、亚马逊等科技巨头",
+      "url": "https://www.ithome.com/1/008/566.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T23:57:06.000Z",
-      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 9 月 30 日星期三，今天的重要科技资讯有：1。华为 90 系列年度旗舰手机亮相，定档 10 月 1 日正式发布并开售华为终端 9 月 29 日宣布，90 系列年度旗舰手机将在 10 月 1 日 10:00 正式发布，并定于当日 12:08 开售。华为官方还公开了 90 专业版旗舰版典藏版手机的官图。>> 查看详情 2。同……",
+      "publishedAt": "2026-09-30T00:08:39.000Z",
+      "summary": "科技之家 9 月 30 日消息，人工智能安全公司的首次公开募股招股书揭示出这家人工智能开发商对于一小部分客户以及科技巨头的依赖程度。该公司正呼吁投资者为其宏大且资本密集的发展计划提供资金，并称这套计划有望重塑全球经济，但招股书同时也点明了公司面临的重大风险。路透社看到一份人工智能安全公司的保密版首次公开募股申报文件，文件显示，去年该公司有 47% 的客户销售收入是经由云服务合……",
       "topics": [
         "模型发布",
-        "算力芯片",
-        "监管安全"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -2182,19 +2151,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-中国人工智能公司-答案",
-      "title": "中国人工智能公司？答案",
-      "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+      "id": "the-verge-ai-在开放人工智能公司",
+      "title": "在开放人工智能公司",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T12:00:00.000Z",
-      "summary": "作为向和人工智能在。呼吁面向和向持续人工智能来自在。在向。在分享借助 …",
+      "publishedAt": "2026-09-29T17:12:27.000Z",
+      "summary": "在，开放人工智能公司借助抗议，和，信息技术，设置，群组在在序列。组织向 …",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2227,7 +2196,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2278,7 +2247,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2312,7 +2281,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": "https://media.wired.com/photos/6ab2c77aa4511820fe187b66/master/pass/People-Training-AI-to-Understand-Physical-World-With-Video-Games-Business.jpg"
     },
     {
@@ -2350,36 +2319,35 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-地卫二启动-太空之弦-千星蓝图-2028年对标计划",
-      "title": "地卫二启动“太空之弦”千星蓝图，2028年对标计划",
-      "url": "https://36kr.com/p/4005156110389120?f=rss",
+      "id": "thirty-six-kr-奥特曼称不受扎克伯格威胁-但-似乎是不错的产品",
+      "title": "奥特曼称不受扎克伯格威胁，但“似乎是不错的产品”",
+      "url": "https://36kr.com/newsflashes/4005169545367682?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:17:57.000Z",
-      "summary": "2026年9月，中国商业航天进入一个密集爆发期，多家公司完成数亿元融资，还在一个月内完成至少10次航天发射，将44颗卫星送入轨道。资本热度和密集发射共同指向一个趋势：商业航天正在从技术验证期转向规模化部署。但卫星发得越多，也越逼近“天感地算”路径的极限，进一步推动行业对太空计算的关注和布局。9月25日，“太空之弦”计算星座计划启动仪式在杭州举行。按照现场公布的千星路线图，这个……",
+      "publishedAt": "2026-09-30T00:40:57.000Z",
+      "summary": "开放人工智能公司首席执行官奥特曼表示，元宇宙平台公司的人工智能代理“似乎是不错的产品”，但他表示自己并不受到元宇宙平台公司首席执行官马克·扎克伯格的威胁。“他是个非常令人印象深刻的人，那家公司拥有很棒的资源，”奥特曼说。“但我对我们的路线图感觉非常好。”（新浪财经）",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "ithome-开放人工智能公司推出全天候人工智能智能体-相关域名已被马斯克拿下",
-      "title": "开放人工智能公司推出全天候人工智能智能体，相关域名已被马斯克拿下",
-      "url": "https://www.ithome.com/1/008/559.htm",
+      "id": "ithome-麦当劳人工智能定价系统曝光-同款汉堡隔两英里价差达-21",
+      "title": "麦当劳人工智能定价系统曝光：同款汉堡隔两英里价差达 21%",
+      "url": "https://www.ithome.com/1/008/563.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T23:37:25.000Z",
-      "summary": "科技之家 9 月 30 日消息，当地时间周二，开放人工智能公司发布了一款名叫的新产品。这是一款可以持续运行的人工智能智能体，拥有一个软乎乎、圆滚滚的卡通形象。虽说这个色彩明快的虚拟形象或许能博得大家一笑，但这次发布会过后，笑得最开心的人恐怕要数埃隆 · 马斯克（ ）。他曾是开放人工智能公司的创始人，后来离开了这家公司，推出了竞品，此前还对开放人工智能公司发起过诉讼，但最终败诉……",
+      "publishedAt": "2026-09-29T23:59:27.000Z",
+      "summary": "科技之家 9 月 30 日消息，据路透社报道，麦当劳正越来越多地借助人工智能，为美国本土以及部分海外市场制定菜单价格。这套方案意在提升总部的利润，但有可能招致消费者不满，同时还会引来反垄断机构的审查。人工智能重点测算的一项定价参考因素，就是预估每家门店顾客的支付意愿。这套定价系统的运行逻辑、人工智能的大范围应用、企业自身面临的监管顾虑，以及总部与特许经营加盟商之间存在的矛盾，……",
       "topics": [
         "产品应用",
-        "机器人"
+        "监管安全",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
@@ -2436,21 +2404,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能安全公司人工智能风险在首次公开募股",
-      "title": "人工智能安全公司人工智能风险在首次公开募股",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "id": "the-verge-ai-开放人工智能公司-2026-新闻和",
+      "title": "开放人工智能公司 2026: 新闻和",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T11:48:27.000Z",
-      "summary": "作为人工智能安全公司面向，预览公司首次公开募股据报道，向驱动，和人工智能风险模型。作为人工智能安全公司 $2，…",
+      "publishedAt": "2026-09-29T16:00:00.000Z",
+      "summary": "信息技术开放人工智能公司转化在。公司在相关型号在，和实时首席执行官，信息技术更新，人工智能智能体产品元宇宙平台公司，推出，可用面向，…",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 97,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2468,7 +2434,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2484,7 +2450,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2570,35 +2536,34 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-开放人工智能公司宣布与亚马逊云服务合作",
-      "title": "开放人工智能公司宣布与亚马逊云服务合作",
-      "url": "https://36kr.com/newsflashes/4005139893620611?f=rss",
+      "id": "thirty-six-kr-美联储鲍曼称人工智能对银行业机遇与风险并存-敦促加强系统安全防护",
+      "title": "美联储鲍曼称人工智能对银行业机遇与风险并存，敦促加强系统安全防护",
+      "url": "https://36kr.com/newsflashes/4005151626219657?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:11:49.000Z",
-      "summary": "开放人工智能公司宣布与亚马逊云服务合作，利用基础设施运行托管式人工智能智能体；将把智能聊天助手部署至和微软，用户无需单独购买个人许可证即可使用相关功能；每周有3500万人通过智能聊天助手和智能编程工具进行构建和开发。同时推出新的专业版 500美元套餐，包含智能聊天助手和智能编程工具中的超高速处理能力。私有推理预览版将于今年秋季推出，该技术结合了机密计算和严格、可验证的控制机制……",
+      "publishedAt": "2026-09-30T00:38:42.000Z",
+      "summary": "美联储负责银行监管事务的副主席米歇尔·鲍曼周二警告银行业加强系统防护以应对人工智能带来的威胁，但她同时强调这项技术也能给银行带来益处。鲍曼在为科罗拉多州一场活动准备的讲话稿中表示：“人工智能具有巨大潜力，无论是对威胁实施者，还是对抵御威胁的人而言都是如此。人工智能正成为这些安全措施的关键组成部分，它既是一种防御工具，也是一项不断演变的风险。”（新浪财经）",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "ithome-消息称开放人工智能公司计划首次公开募股前再融资至少-300-亿美元-估值达-1-4-万亿美元",
-      "title": "消息称开放人工智能公司计划首次公开募股前再融资至少 300 亿美元，估值达 1.4 万亿美元",
-      "url": "https://www.ithome.com/1/008/558.htm",
+      "id": "ithome-信息技术早报-0930-华为-90-定档-10-月-1-日发布并开售-开放人工智能公司发布相关型号-123-云盘就空间调整致歉-",
+      "title": "信息技术早报 0930：华为 90 定档 10 月 1 日发布并开售；开放人工智能公司发布相关型号；123 云盘就空间调整致歉；5999 元起 16 手机发布。",
+      "url": "https://www.ithome.com/1/008/561.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T23:28:20.000Z",
-      "summary": "科技之家 9 月 30 日消息，据彭博社当地时间周二报道，开放人工智能公司正在与投资方展开磋商，计划在首次公开募股之前完成一轮融资，至少募集 300 亿美元 （科技之家注：现汇率约合 2，016.47 亿元人民币） 资金，对应的企业估值大约为 1.4 万亿美元 （现汇率约合 9.41 万亿元人民币）。在市场普遍预期这家智能聊天助手开发企业将于明年登陆公开市场之前，投资者都希望……",
+      "publishedAt": "2026-09-29T23:57:06.000Z",
+      "summary": "“信息技术早报”时间，大家好，现在是 2026 年 9 月 30 日星期三，今天的重要科技资讯有：1。华为 90 系列年度旗舰手机亮相，定档 10 月 1 日正式发布并开售华为终端 9 月 29 日宣布，90 系列年度旗舰手机将在 10 月 1 日 10:00 正式发布，并定于当日 12:08 开售。华为官方还公开了 90 专业版旗舰版典藏版手机的官图。>> 查看详情 2。同……",
       "topics": [
         "模型发布",
-        "产品应用",
+        "算力芯片",
         "监管安全"
       ],
       "heat": 99,
@@ -2618,23 +2583,25 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能-驱动应用向",
-      "title": "人工智能，驱动应用向",
-      "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+      "id": "techcrunch-ai-开放人工智能公司智能编程工具云服务",
+      "title": "开放人工智能公司智能编程工具云服务",
+      "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T17:20:00.000Z",
-      "summary": "应用建设者作为人工智能智能体创建在需求，应用，和任务。",
+      "publishedAt": "2026-09-29T17:15:00.000Z",
+      "summary": "开放人工智能公司智能编程工具借助云服务，借助控制，新代码评测工具，和安全，产品面向和修复。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "监管安全",
+        "端侧智能"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2653,6 +2620,23 @@
         "监管安全"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-元宇宙平台公司人工智能向",
+      "title": "元宇宙平台公司人工智能向",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T14:08:21.000Z",
+      "summary": "向，向。元宇宙平台公司在安全功能信息技术推出人工智能智能体月作为信息技术向回顾 …",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -2691,24 +2675,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能公司实验室在值得-8-十亿",
-      "title": "人工智能公司实验室在值得 $8 十亿",
-      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-28T21:31:35.000Z",
-      "summary": "宣布信息技术实验室，人工智能研究实验室由，在值得 $8.2 十亿。实验室推出在 2024 和在 $1 十亿在。创业公司推出首个产品，模型 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 77,
-      "image": ""
-    },
-    {
       "id": "qbitai-归来-华为正重新定义基础设施",
       "title": "归来，华为正重新定义基础设施",
       "url": "https://www.qbitai.com/2026/09/498787.html",
@@ -2721,7 +2687,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2739,7 +2705,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2792,36 +2758,35 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-消费企业扎堆投资-跨界布局高成长赛道",
-      "title": "消费企业扎堆投资，跨界布局高成长赛道",
-      "url": "https://36kr.com/newsflashes/4005137186459778?f=rss",
+      "id": "thirty-six-kr-开放人工智能公司就其智能体擅访澳医保数据致歉",
+      "title": "开放人工智能公司就其智能体擅访澳医保数据致歉",
+      "url": "https://36kr.com/newsflashes/4005149956329604?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-30T00:06:03.000Z",
-      "summary": "在这一轮上市公司扎堆做有限合伙人（）、设基金的浪潮中，消费企业的身影频繁出现。证券时报记者根据数据及公开信息梳理发现，今年以来，包括汤臣倍健、千味央厨、好想你、珀莱雅、健盛集团等十多家食品饮料、纺织服饰、美容护理领域的消费企业，已参股私募基金或直接投资科技项目，主要集中在人工智能、半导体、具身智能等高成长赛道。（证券时报）",
+      "publishedAt": "2026-09-30T00:33:00.000Z",
+      "summary": "9月29日，美国开放人工智能研究中心（开放人工智能公司）已就其智能体未经授权访问澳国民医疗保险体系数据门户致歉。开放人工智能公司表示，将通过其“前线防卫者黎明”计划对澳有关政府机构予以资金支持，协助“必要服务提供商”加强网络防御。该公司还将组建一个专项工作组，吸纳澳本土独立专业人士参与，以制定可行的政策建议。（财联社）",
       "topics": [
-        "投融资",
-        "机器人"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 93,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "ithome-特朗普与科技巨头签署人工智能自愿安全协议-表态支持美国数据中心扩建",
-      "title": "特朗普与科技巨头签署人工智能自愿安全协议，表态支持美国数据中心扩建",
-      "url": "https://www.ithome.com/1/008/557.htm",
+      "id": "ithome-开放人工智能公司推出全天候人工智能智能体-相关域名已被马斯克拿下",
+      "title": "开放人工智能公司推出全天候人工智能智能体，相关域名已被马斯克拿下",
+      "url": "https://www.ithome.com/1/008/559.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-09-29T23:25:11.000Z",
-      "summary": "科技之家 9 月 30 日消息，美国总统唐纳德 · 特朗普（ ）当地时间周二表示，各大科技企业高管已经同意为人工智能建立自愿性行业标准；在社会各界愈发担忧人工智能安全问题、同时该行业在各地社区的建设规模持续扩大的背景下，特朗普再度表态，支持数据中心快速扩建。此番发言是特朗普在白宫与科技企业高管举行会谈之后作出的。特朗普在自己的社交媒体平台上发布了一份协议文本，根据该文件，各家……",
+      "publishedAt": "2026-09-29T23:37:25.000Z",
+      "summary": "科技之家 9 月 30 日消息，当地时间周二，开放人工智能公司发布了一款名叫的新产品。这是一款可以持续运行的人工智能智能体，拥有一个软乎乎、圆滚滚的卡通形象。虽说这个色彩明快的虚拟形象或许能博得大家一笑，但这次发布会过后，笑得最开心的人恐怕要数埃隆 · 马斯克（ ）。他曾是开放人工智能公司的创始人，后来离开了这家公司，推出了竞品，此前还对开放人工智能公司发起过诉讼，但最终败诉……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "机器人"
       ],
       "heat": 99,
       "image": ""
@@ -2840,25 +2805,58 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司智能编程工具云服务",
-      "title": "开放人工智能公司智能编程工具云服务",
-      "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+      "id": "techcrunch-ai-开放人工智能公司扩展智能聊天助手借助应用-和",
+      "title": "开放人工智能公司扩展智能聊天助手借助应用，和",
+      "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-09-29T17:15:00.000Z",
-      "summary": "开放人工智能公司智能编程工具借助云服务，借助控制，新代码评测工具，和安全，产品面向和修复。",
+      "summary": "开放人工智能公司智能聊天助手借助，改进，和支持面向。",
       "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-新语音模型人工智能和",
+      "title": "新语音模型人工智能和",
+      "url": "https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T14:45:17.000Z",
+      "summary": "新语音模型，面向和和。在 150 和构建面向，时间智能体。在，和谷歌双子座模型。新语音模型人工智能和首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
-        "端侧智能"
+        "多模态"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-中国人工智能公司-答案",
+      "title": "中国人工智能公司？答案",
+      "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "summary": "作为向和人工智能在。呼吁面向和向持续人工智能来自在。在向。在分享借助 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 79,
       "image": ""
     }
   ]
