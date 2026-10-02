@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-02T11:18:59.519Z",
+  "generatedAt": "2026-10-02T11:49:03.602Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-02T11:30:00.000Z",
+  "nextUpdateHint": "2026-10-02T12:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-02T11:15:51.000Z"
+    "latestPublishedAt": "2026-10-02T11:40:22.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 76,
+      "count": 75,
       "heat": 76
     },
     {
       "name": "模型发布",
-      "count": 47,
+      "count": 46,
       "heat": 83
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "研究论文",
       "count": 21,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "算力芯片",
@@ -42,14 +42,14 @@
       "heat": 83
     },
     {
+      "name": "人工智能动态",
+      "count": 20,
+      "heat": 70
+    },
+    {
       "name": "投融资",
       "count": 17,
       "heat": 78
-    },
-    {
-      "name": "人工智能动态",
-      "count": 19,
-      "heat": 69
     },
     {
       "name": "开源生态",
@@ -59,12 +59,12 @@
     {
       "name": "端侧智能",
       "count": 11,
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "机器人",
       "count": 1,
-      "heat": 48
+      "heat": 47
     }
   ],
   "sources": [
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 6,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-09-30T15:00:00.000Z",
-      "latestDisplayedAt": "2026-09-30T15:00:00.000Z"
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-09-29T06:30:00.000Z",
+      "latestDisplayedAt": "2026-09-29T06:30:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 4,
-      "latestFetchedAt": "2026-10-01T15:30:02.000Z",
-      "latestDisplayedAt": "2026-10-01T15:30:02.000Z"
+      "displayedCount": 5,
+      "latestFetchedAt": "2026-10-02T11:00:00.000Z",
+      "latestDisplayedAt": "2026-10-02T11:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-10-02T10:36:14.000Z",
-      "latestDisplayedAt": "2026-10-02T10:11:46.000Z"
+      "latestFetchedAt": "2026-10-02T11:40:22.000Z",
+      "latestDisplayedAt": "2026-10-02T11:40:22.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -447,7 +447,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 16,
+      "itemCount": 15,
       "displayedCount": 9,
       "latestFetchedAt": "2026-10-02T11:15:51.000Z",
       "latestDisplayedAt": "2026-10-02T11:15:51.000Z"
@@ -490,6 +490,22 @@
   ],
   "items": [
     {
+      "id": "reddit-artificial-打开-来源面向",
+      "title": "打开，来源面向",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvrkej/apex_compute_developing_opensource_mesa_vulkan/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-02T11:40:22.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
+      "image": "https://external-preview.redd.it/gyGg18q893IBzsqRNoayo15eAX4XLnaHIdR5-yp0mCM.jpeg?width=640&crop=smart&auto=webp&s=f03ccda8a47229b41c95e3c1009e8c39257c85f4"
+    },
+    {
       "id": "ithome-人工智能安全公司招股书警告-美国政府的态度会影响公司与客户的关系-甚至波及人类文明",
       "title": "人工智能安全公司招股书警告：美国政府的态度会影响公司与客户的关系，甚至波及人类文明",
       "url": "https://www.ithome.com/1/009/343.htm",
@@ -525,22 +541,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-5-0-可用-新-智能体-和面向每个",
-      "title": "5.0 可用: 新，智能体，和面向每个",
-      "url": "https://www.reddit.com/r/artificial/comments/1wvq0rw/rowbot_50_is_available_a_new_react_interface/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
+      "id": "towards-data-science-向构建控制面向人工智能智能体",
+      "title": "向构建控制面向人工智能智能体",
+      "url": "https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-02T10:11:46.000Z",
-      "summary": "5.0 重要本地，首个人工智能助手，由应用，和，代码，智能体，和借助。面向应用，和在。: 模型。模型。支持，智能聊天助手，克劳德模型，接口和。模型向。转化。转化限制，借助时间和转化限制可用，限制和。智能体，和控制。来自。和 30 由。转化。和工具部件，评测，和。开发者，和。记忆借助智能体。作为记忆，评测和。工作流和。工作流实时。和问题。访问和，和和。和。控制。评测，和技能成为……",
+      "publishedAt": "2026-10-02T11:00:00.000Z",
+      "summary": "大语言模型向，在 9 向构建控制面向人工智能智能体首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
+        "产品应用"
       ],
-      "heat": 99,
-      "image": "https://preview.redd.it/nbyje7qu31th1.png?width=640&crop=smart&auto=webp&s=9040aa6ad1ab9436051dea0e47dc1d99321f3cc0"
+      "heat": 88,
+      "image": ""
     },
     {
       "id": "the-verge-ai-人工智能生成",
@@ -571,7 +585,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6abeb2ae10b6b4f5a5628f89/master/pass/Palantir-Nurse-Strike-e2fab562-387a-496b-b88c-027860c47584.jpg"
     },
     {
@@ -651,7 +665,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -667,7 +681,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -773,7 +787,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -789,7 +803,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -805,26 +819,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg"
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/autoencoders-vs-pca-i-rigged-the-test-and-pca-still-won/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-01T15:30:02.000Z",
-      "summary": "没有借助基准测试。: 和首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "端侧智能"
-      ],
-      "heat": 82,
-      "image": ""
     },
     {
       "id": "github-blog-10-关于在代码托管平台-2026",
@@ -861,22 +857,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-30T15:00:00.000Z",
-      "summary": "微软云服务基础设施借助高效和生活。基础设施在 : 首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 55,
-      "image": ""
-    },
-    {
       "id": "google-research-和人工智能图像生成",
       "title": "和人工智能图像生成",
       "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
@@ -894,6 +874,22 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController_hero.gif"
     },
     {
+      "id": "microsoft-ai-blog-和-2026-在-构建数据面向微软智能副驾和智能体",
+      "title": "和 2026 在 : 构建数据面向微软智能副驾和智能体",
+      "url": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-09-29T06:30:00.000Z",
+      "summary": "微软和宣布在和 2026 帮助组织构建数据面向人工智能。和 2026 在 : 构建数据面向微软智能副驾和智能体首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "google-ai-blog-来自未来视觉",
       "title": "来自未来视觉。",
       "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
@@ -908,6 +904,24 @@
       ],
       "heat": 53,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp"
+    },
+    {
+      "id": "reddit-artificial-5-0-可用-新-智能体-和面向每个",
+      "title": "5.0 可用: 新，智能体，和面向每个",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvq0rw/rowbot_50_is_available_a_new_react_interface/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-02T10:11:46.000Z",
+      "summary": "5.0 重要本地，首个人工智能助手，由应用，和，代码，智能体，和借助。面向应用，和在。: 模型。模型。支持，智能聊天助手，克劳德模型，接口和。模型向。转化。转化限制，借助时间和转化限制可用，限制和。智能体，和控制。来自。和 30 由。转化。和工具部件，评测，和。开发者，和。记忆借助智能体。作为记忆，评测和。工作流和。工作流实时。和问题。访问和，和和。和。控制。评测，和技能成为……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": "https://preview.redd.it/nbyje7qu31th1.png?width=640&crop=smart&auto=webp&s=9040aa6ad1ab9436051dea0e47dc1d99321f3cc0"
     },
     {
       "id": "ithome-腾讯内置模型独家支持",
@@ -940,23 +954,6 @@
         "模型发布",
         "产品应用",
         "多模态"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-未来人工智能",
-      "title": "未来人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1wvp3oc/could_future_ai_be_racist/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-02T09:13:42.000Z",
-      "summary": "+。…。信息技术只是，信息技术借助，信息技术和。信息技术只是。信息技术在，和向这里作为顺利，借助人工智能来自数据在，我们和。信息技术人工智能，亚马逊人工智能。顺利和在最借助驱动，通用人工智能数据和成为。通用人工智能通用人工智能，驱动向。由规模。信息技术，信息技术和。开放人工智能公司和克劳德模型，和限制数据由进入数据模型，控制，人工智能。在。面向未来通用人工智能向，通用人工智能……",
-      "topics": [
-        "模型发布",
-        "产品应用"
       ],
       "heat": 97,
       "image": ""
@@ -1077,7 +1074,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1113,7 +1110,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1134,6 +1131,24 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/autoencoders-vs-pca-i-rigged-the-test-and-pca-still-won/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-01T15:30:02.000Z",
+      "summary": "没有借助基准测试。: 和首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "端侧智能"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-推出-3-打开-训练基础设施面向",
       "title": "推出 3: 打开，训练基础设施面向",
       "url": "https://huggingface.co/blog/allenai/olmocore3",
@@ -1146,24 +1161,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 74,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-智能体呼吁模型和",
-      "title": "智能体呼吁模型和？",
-      "url": "https://towardsdatascience.com/can-an-apartment-search-agent-call-the-model-fewer-times-and-still-find-good-matches/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-01T14:00:01.000Z",
-      "summary": "2，500 借助 &，模型在时间，和每个答案。智能体呼吁模型和？首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 76,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1179,7 +1177,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GFN_Thursday-Oct_1.jpg"
     },
     {
@@ -1195,7 +1193,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2294068904-1152x648.jpg"
     },
     {
@@ -1213,7 +1211,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -1252,22 +1250,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-和-2026-在-构建数据面向微软智能副驾和智能体",
-      "title": "和 2026 在 : 构建数据面向微软智能副驾和智能体",
-      "url": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-09-29T06:30:00.000Z",
-      "summary": "微软和宣布在和 2026 帮助组织构建数据面向人工智能。和 2026 在 : 构建数据面向微软智能副驾和智能体首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "github-blog-我们-24-安卓开源人工智能安全智能体",
       "title": "我们 24 安卓开源人工智能安全智能体",
       "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
@@ -1286,6 +1268,23 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-未来人工智能",
+      "title": "未来人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvp3oc/could_future_ai_be_racist/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-02T09:13:42.000Z",
+      "summary": "+。…。信息技术只是，信息技术借助，信息技术和。信息技术只是。信息技术在，和向这里作为顺利，借助人工智能来自数据在，我们和。信息技术人工智能，亚马逊人工智能。顺利和在最借助驱动，通用人工智能数据和成为。通用人工智能通用人工智能，驱动向。由规模。信息技术，信息技术和。开放人工智能公司和克劳德模型，和限制数据由进入数据模型，控制，人工智能。在。面向未来通用人工智能向，通用人工智能……",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "the-decoder-企业人工智能和面向信息技术-人工智能",
       "title": "企业人工智能和面向信息技术，人工智能",
       "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
@@ -1298,23 +1297,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-问题-呼吁信息技术人工智能来自在",
-      "title": "问题: 呼吁信息技术人工智能来自在？",
-      "url": "https://www.reddit.com/r/artificial/comments/1wvp0r7/serious_question_will_you_call_it_ai_or_si_from/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-02T09:08:35.000Z",
-      "summary": "借助和面向和人工智能。顺利借助由",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 84,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1362,7 +1345,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1412,7 +1395,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1430,7 +1413,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1466,7 +1449,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1486,6 +1469,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-智能体呼吁模型和",
+      "title": "智能体呼吁模型和？",
+      "url": "https://towardsdatascience.com/can-an-apartment-search-agent-call-the-model-fewer-times-and-still-find-good-matches/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-01T14:00:01.000Z",
+      "summary": "2，500 借助 &，模型在时间，和每个答案。智能体呼吁模型和？首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 76,
+      "image": ""
+    },
+    {
       "id": "nvidia-blog-英伟达人工智能工厂回归在投资",
       "title": ": 英伟达人工智能工厂回归在投资",
       "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
@@ -1500,24 +1500,8 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/fungibility-blog-1280x680-1.jpg"
-    },
-    {
-      "id": "towards-data-science-人工智能法案",
-      "title": "人工智能法案。",
-      "url": "https://towardsdatascience.com/your-ai-bill-is-a-toll-booth-stop-paying-twice/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-01T11:00:01.000Z",
-      "summary": "预算很少有人即将推出人工智能法案。首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 68,
-      "image": ""
     },
     {
       "id": "openai-news-10-15-向借助智能聊天助手",
@@ -1549,7 +1533,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2204734561-1152x648.jpg"
     },
     {
@@ -1640,21 +1624,19 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wvoz2y/searching_machine_is_all_you_need/",
+      "id": "reddit-artificial-问题-呼吁信息技术人工智能来自在",
+      "title": "问题: 呼吁信息技术人工智能来自在？",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvp0r7/serious_question_will_you_call_it_ai_or_si_from/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-02T09:05:40.000Z",
-      "summary": "人工智能智能。认为更好，和向分享，在信息技术面向人工智能安全。: 人工智能。信息技术，和。**每个人工智能。**，和答案信息技术。为什么信息技术在 :。**图像和视频生成，和信息技术。** 生成图像视频和。为什么。每个，模型图像每个时间。和图像向。和我们使用，向。我们。** 推理能力。**，和，时间生成，得分，和持续。**智能体。**，和。** 人工智能。** 模型向，信息技……",
+      "publishedAt": "2026-10-02T09:08:35.000Z",
+      "summary": "借助和面向和人工智能。顺利借助由",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 94,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1670,7 +1652,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1704,7 +1686,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1721,7 +1703,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1788,7 +1770,23 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-人工智能法案",
+      "title": "人工智能法案。",
+      "url": "https://towardsdatascience.com/your-ai-bill-is-a-toll-booth-stop-paying-twice/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-01T11:00:01.000Z",
+      "summary": "预算很少有人即将推出人工智能法案。首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -1804,7 +1802,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": "https://media.wired.com/photos/6abc30af03c559dbc086f308/master/pass/AI-Lab-AI-Agent-War-Business.jpg"
     },
     {
@@ -1822,7 +1820,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/graduate-fellowship-2026-updated.png"
     },
     {
@@ -1908,22 +1906,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-人工智能数据更快-信息技术",
-      "title": "人工智能数据更快。信息技术。",
-      "url": "https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-09-29T14:00:01.000Z",
-      "summary": ": 人工智能，和数据。人工智能数据更快。信息技术。首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-我们人工智能",
       "title": "我们人工智能？",
       "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
@@ -1959,6 +1941,24 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvoz2y/searching_machine_is_all_you_need/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-02T09:05:40.000Z",
+      "summary": "人工智能智能。认为更好，和向分享，在信息技术面向人工智能安全。: 人工智能。信息技术，和。**每个人工智能。**，和答案信息技术。为什么信息技术在 :。**图像和视频生成，和信息技术。** 生成图像视频和。为什么。每个，模型图像每个时间。和图像向。和我们使用，向。我们。** 推理能力。**，和，时间生成，得分，和持续。**智能体。**，和。** 人工智能。** 模型向，信息技……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "ithome-大众安徽与众-09-夏测实车亮相-预售-19-99-万元起",
       "title": "大众安徽与众 09 夏测实车亮相，预售 19.99 万元起",
       "url": "https://www.ithome.com/1/009/314.htm",
@@ -1972,7 +1972,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1991,24 +1991,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能编程智能体-在每个-和",
-      "title": "人工智能编程智能体。在每个，和",
-      "url": "https://www.reddit.com/r/artificial/comments/1wvnbfc/i_gave_several_ai_coding_agents_the_same_repo/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-02T07:15:05.000Z",
-      "summary": "作者打开，来源，信息技术作为借助。人工智能编程智能体在，和向实际分享。构建实验室: 任务在接口，借助 37，任务由由。智能体新增向构建呼吁。智能体在在，每个智能体借助，和在 5。; 很少有人。智能体分享，10 通过，智能体查看和。: 决策模型呼吁，生成在回归，决策借助在关于 0.3。信息技术，每个，借助智能体。信息技术每个，在成本作为。信息技术关于 61%，和向通过向，大语言……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 92,
       "image": ""
     },
     {
@@ -2183,6 +2165,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-人工智能数据更快-信息技术",
+      "title": "人工智能数据更快。信息技术。",
+      "url": "https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-09-29T14:00:01.000Z",
+      "summary": ": 人工智能，和数据。人工智能数据更快。信息技术。首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 48,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-得到来源正确-只是-来源-面向智能体",
       "title": "得到来源正确，只是 : 来源，面向智能体",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
@@ -2266,20 +2264,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能服务-借助",
-      "title": "人工智能服务，借助？",
-      "url": "https://www.reddit.com/r/artificial/comments/1wvn04t/if_an_ai_denies_you_a_service_who_do_you_argue/",
+      "id": "reddit-artificial-人工智能编程智能体-在每个-和",
+      "title": "人工智能编程智能体。在每个，和",
+      "url": "https://www.reddit.com/r/artificial/comments/1wvnbfc/i_gave_several_ai_coding_agents_the_same_repo/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-02T06:55:50.000Z",
-      "summary": "人工智能使用向，和。更快，信息技术创建问题。人工智能，解释决策？客户服务？公司？模型？工作流？借助人工智能帮助决策。借助人工智能和。每个重要人工智能，决策借助评测？由",
+      "publishedAt": "2026-10-02T07:15:05.000Z",
+      "summary": "作者打开，来源，信息技术作为借助。人工智能编程智能体在，和向实际分享。构建实验室: 任务在接口，借助 37，任务由由。智能体新增向构建呼吁。智能体在在，每个智能体借助，和在 5。; 很少有人。智能体分享，10 通过，智能体查看和。: 决策模型呼吁，生成在回归，决策借助在关于 0.3。信息技术，每个，借助智能体。信息技术每个，在成本作为。信息技术关于 61%，和向通过向，大语言……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2297,7 +2296,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2329,7 +2328,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2361,7 +2360,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 48,
+      "heat": 47,
       "image": ""
     },
     {
@@ -2514,7 +2513,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2531,7 +2530,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2701,7 +2700,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
