@@ -1,30 +1,25 @@
 {
-  "generatedAt": "2026-10-06T14:56:54.371Z",
+  "generatedAt": "2026-10-06T15:26:59.466Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-06T15:00:00.000Z",
+  "nextUpdateHint": "2026-10-06T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-06T14:49:57.000Z"
+    "latestPublishedAt": "2026-10-06T15:25:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 70,
+      "count": 69,
       "heat": 77
     },
     {
       "name": "模型发布",
-      "count": 56,
+      "count": 57,
       "heat": 80
-    },
-    {
-      "name": "监管安全",
-      "count": 26,
-      "heat": 81
     },
     {
       "name": "研究论文",
@@ -32,8 +27,13 @@
       "heat": 78
     },
     {
+      "name": "监管安全",
+      "count": 24,
+      "heat": 80
+    },
+    {
       "name": "算力芯片",
-      "count": 21,
+      "count": 20,
       "heat": 79
     },
     {
@@ -49,7 +49,7 @@
     {
       "name": "投融资",
       "count": 13,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "开源生态",
@@ -59,7 +59,7 @@
     {
       "name": "端侧智能",
       "count": 6,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "机器人",
@@ -112,9 +112,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-10-05T21:08:31.000Z",
-      "latestDisplayedAt": "2026-10-05T21:08:31.000Z"
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-10-06T15:05:11.000Z",
+      "latestDisplayedAt": "2026-10-06T15:05:11.000Z"
     },
     {
       "id": "github-blog",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-10-06T14:33:16.000Z",
-      "latestDisplayedAt": "2026-10-06T14:33:16.000Z"
+      "latestFetchedAt": "2026-10-06T15:25:00.000Z",
+      "latestDisplayedAt": "2026-10-06T15:25:00.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-10-06T14:18:08.000Z",
       "latestDisplayedAt": "2026-10-06T14:18:08.000Z"
     },
@@ -490,6 +490,38 @@
   ],
   "items": [
     {
+      "id": "techcrunch-ai-人工智能软件功能",
+      "title": "人工智能软件功能",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-06T15:25:00.000Z",
+      "summary": "开源信息技术向新增人工智能向软件，用户隐私。",
+      "topics": [
+        "开源生态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "google-research-解锁地球人工智能基础模型面向全球",
+      "title": "解锁地球人工智能基础模型面向全球",
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "source": "谷歌研究院",
+      "sourceId": "google-research",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-10-06T15:05:11.000Z",
+      "summary": "地球人工智能",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 93,
+      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PDFMPublicHealth1-hero.jpg"
+    },
+    {
       "id": "ithome-明日方舟-终末地-游戏将支持英伟达笔记本-丹青渡-版本上线",
       "title": "《明日方舟：终末地》游戏将支持英伟达笔记本，「丹青渡」版本上线",
       "url": "https://www.ithome.com/1/010/123.htm",
@@ -503,23 +535,6 @@
         "算力芯片",
         "多模态",
         "端侧智能"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-欧洲大模型新相关型号模型目标是向和打开",
-      "title": "欧洲大模型新相关型号模型目标是向和打开",
-      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-06T14:33:16.000Z",
-      "summary": "人工智能实验室欧洲大模型人工智能发布欧洲大模型 4，新多模态模型目标是向和中国。",
-      "topics": [
-        "模型发布",
-        "多模态"
       ],
       "heat": 99,
       "image": ""
@@ -555,7 +570,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -640,7 +655,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -673,7 +688,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -723,7 +738,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -739,26 +754,8 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
-    },
-    {
-      "id": "google-research-打开和问题在隐私和安全",
-      "title": "打开和问题在隐私和安全:",
-      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-      "source": "谷歌研究院",
-      "sourceId": "google-research",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-10-05T21:08:31.000Z",
-      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 88,
-      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PrivacySecurity_ContextualAngle2-ModelOverview.png"
     },
     {
       "id": "ars-technica-ai-工具苹果智能来自-27",
@@ -791,7 +788,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -826,7 +823,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -914,6 +911,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-欧洲大模型新相关型号模型目标是向和打开",
+      "title": "欧洲大模型新相关型号模型目标是向和打开",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-06T14:33:16.000Z",
+      "summary": "人工智能实验室欧洲大模型人工智能发布欧洲大模型 4，新多模态模型目标是向和中国。",
+      "topics": [
+        "模型发布",
+        "多模态"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-股价创历史新高-首席执行官苏姿丰称人工智能芯片需求非常旺盛-将持续大幅扩产",
       "title": "股价创历史新高！首席执行官苏姿丰称人工智能芯片需求非常旺盛，将持续大幅扩产",
       "url": "https://www.ithome.com/1/010/114.htm",
@@ -927,22 +941,6 @@
         "算力芯片"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能转化进入",
-      "title": "人工智能转化进入",
-      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-06T14:00:49.000Z",
-      "summary": "新人工智能，驱动和进入，借助成本，和。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 90,
       "image": ""
     },
     {
@@ -960,7 +958,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -978,7 +976,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -995,7 +993,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1011,7 +1009,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://media.wired.com/photos/6ac390393e484daf0cf6af34/master/pass/100516-Big%20Interview%20K%20Roose%20Solo.jpg"
     },
     {
@@ -1045,7 +1043,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1078,7 +1076,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1095,7 +1093,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1115,6 +1113,24 @@
       "image": ""
     },
     {
+      "id": "google-research-打开和问题在隐私和安全",
+      "title": "打开和问题在隐私和安全:",
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "source": "谷歌研究院",
+      "sourceId": "google-research",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-10-05T21:08:31.000Z",
+      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "研究论文"
+      ],
+      "heat": 88,
+      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PrivacySecurity_ContextualAngle2-ModelOverview.png"
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-强化学习-模型安全方向研究",
       "title": "论文新进展：大语言模型、强化学习、模型安全方向研究",
       "url": "https://arxiv.org/abs/2610.06851v1",
@@ -1129,7 +1145,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1180,7 +1196,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/AdobeStock_422714256_BCAMheader.jpeg"
     },
     {
@@ -1197,7 +1213,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1285,32 +1301,15 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg"
     },
     {
-      "id": "google-research-和人工智能图像生成",
-      "title": "和人工智能图像生成",
-      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
-      "source": "谷歌研究院",
-      "sourceId": "google-research",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-09-29T18:38:27.000Z",
-      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 57,
-      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController_hero.gif"
-    },
-    {
-      "id": "techcrunch-ai-问题在科技创投媒体-2026",
-      "title": "问题在科技创投媒体 2026:",
-      "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+      "id": "techcrunch-ai-人工智能转化进入",
+      "title": "人工智能转化进入",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-06T14:00:00.000Z",
-      "summary": "和问题在科技创投媒体 2026。这里，13，15 在。向和向 $100，和在 50%。",
+      "publishedAt": "2026-10-06T14:00:49.000Z",
+      "summary": "新人工智能，驱动和进入，借助成本，和。",
       "topics": [
         "产品应用"
       ],
@@ -1330,26 +1329,24 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1wz32g3/ready_to_sketch_your_prompts/",
+      "id": "reddit-artificial-推出欧洲大模型-4",
+      "title": "推出欧洲大模型 4",
+      "url": "https://www.reddit.com/r/artificial/comments/1wz2rfa/introducing_mistral_large_4/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-06T13:48:01.000Z",
-      "summary": "和只是向解释。构建打开，来源工具，和智能体来自。信息技术，仿真，和机器人任务。来自构建 : 和平台，向。向 : 进入智能体工作流？工具，在智能体！代码托管平台 : :，代码托管平台，面向新功能，: :。代码托管平台，由",
+      "publishedAt": "2026-10-06T13:34:55.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "开源生态"
+        "模型发布"
       ],
-      "heat": 95,
-      "image": "https://external-preview.redd.it/NTBoNzM0aTBxdXRoMdFzgElsGgWzsrE7NKGRo1ul44lgJsWs9GfvEb2R5iFP.png?width=640&crop=smart&auto=webp&s=00bb06b2c1ff4cf0f6c4f2222bdfe90537fbdd6b"
+      "heat": 92,
+      "image": "https://external-preview.redd.it/ufkI5GrlxXnH9TBfIupjOlc3go-lnkd44PLNd0Pdsjs.jpeg?width=640&crop=smart&auto=webp&s=0f9bbd2141c0a5cf024a7f0901b7c4b5254a0683"
     },
     {
       "id": "the-decoder-最打开-模型构建",
@@ -1377,13 +1374,13 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-10-06T07:10:48.000Z",
-      "summary": "超威半导体（）首席执行官苏姿丰预测，受人工智能应用增长推动，未来数年半导体需求将维持在��极高”水平。苏姿丰在台北对记者表示，芯片需求超过供给，存储芯片供应持续紧张。苏姿丰称，人工智能有益于世界，不会伤害人类。苏姿丰表示，美国头部人工智能企业之间开展协作十分重要。“安全创新方面仍有不少工作要做，”苏姿丰说，“最重要的是我们要携手合作。”苏姿丰称，美国“超级智能工作组”是“向前……",
+      "summary": "超威半导体（）首席执行官苏姿丰预测，受人工智能应用增长推动，未来数年半导体需求将维持在“极高”水平。苏姿丰在台北对记者表示，芯片需求超过供给，存储芯片供应持续紧张。苏姿丰称，人工智能有益于世界，不会伤害人类。苏姿丰表示，美国头部人工智能企业之间开展协作十分重要。“安全创新方面仍有不少工作要做，”苏姿丰说，“最重要的是我们要携手合作。”苏姿丰称，美国“超级智能工作组”是“向前迈……",
       "topics": [
         "产品应用",
         "算力芯片",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1400,7 +1397,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1435,7 +1432,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1656,6 +1653,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2294068904-1152x648.jpg"
     },
     {
+      "id": "google-research-和人工智能图像生成",
+      "title": "和人工智能图像生成",
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+      "source": "谷歌研究院",
+      "sourceId": "google-research",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-09-29T18:38:27.000Z",
+      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 57,
+      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController_hero.gif"
+    },
+    {
+      "id": "techcrunch-ai-问题在科技创投媒体-2026",
+      "title": "问题在科技创投媒体 2026:",
+      "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-06T14:00:00.000Z",
+      "summary": "和问题在科技创投媒体 2026。这里，13，15 在。向和向 $100，和在 50%。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "ithome-宣称-欧美最强开源模型-欧洲大模型人工智能发布欧洲大模型-4-公开预览版-月底开放权重",
       "title": "宣称“欧美最强开源模型”：欧洲大模型人工智能发布欧洲大模型 4 公开预览版，月底开放权重",
       "url": "https://www.ithome.com/1/010/108.htm",
@@ -1674,22 +1704,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-推出欧洲大模型-4",
-      "title": "推出欧洲大模型 4",
-      "url": "https://www.reddit.com/r/artificial/comments/1wz2rfa/introducing_mistral_large_4/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-06T13:34:55.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 92,
-      "image": "https://external-preview.redd.it/ufkI5GrlxXnH9TBfIupjOlc3go-lnkd44PLNd0Pdsjs.jpeg?width=640&crop=smart&auto=webp&s=0f9bbd2141c0a5cf024a7f0901b7c4b5254a0683"
-    },
-    {
       "id": "the-decoder-研究人工智能进入模型来自向",
       "title": "研究人工智能进入模型来自向",
       "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
@@ -1704,8 +1718,24 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-开放人工智能公司-人工智能安全公司数据规则",
+      "title": "开放人工智能公司，人工智能安全公司数据规则",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyzyq7/openai_anthropic_tell_australia_they_would/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-06T11:18:03.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 90,
+      "image": "https://external-preview.redd.it/0wwLEVSKFI4LE7KU2Mg93OOevokvlyLTttavHU3xAcM.jpeg?width=640&crop=smart&auto=webp&s=767dcce8f0620f4e261089ebced63c6995780127"
     },
     {
       "id": "thirty-six-kr-三星电机获近2900亿韩元人工智能服务器订单",
@@ -1736,25 +1766,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-打开-人工智能模型向中国模型在成本",
-      "title": "打开，人工智能模型向中国模型在成本",
-      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-05T19:33:53.000Z",
-      "summary": "目标是和未来模型在和。向构建人工智能工厂，产品构建，本地人工智能由训练人工智能模型在数据。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 85,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1772,7 +1784,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1790,7 +1802,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1806,7 +1818,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1991,24 +2003,8 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-开放人工智能公司-人工智能安全公司数据规则",
-      "title": "开放人工智能公司，人工智能安全公司数据规则",
-      "url": "https://www.reddit.com/r/artificial/comments/1wyzyq7/openai_anthropic_tell_australia_they_would/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-06T11:18:03.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 91,
-      "image": "https://external-preview.redd.it/0wwLEVSKFI4LE7KU2Mg93OOevokvlyLTttavHU3xAcM.jpeg?width=640&crop=smart&auto=webp&s=767dcce8f0620f4e261089ebced63c6995780127"
     },
     {
       "id": "the-decoder-和腾讯深度求索融资作为人工智能创业公司-2027-首次公开募股",
@@ -2028,6 +2024,23 @@
       "image": ""
     },
     {
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1wyzbji/evidenzintelligenz_ein_quellenname_kann_sich/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-06T10:40:57.000Z",
+      "summary": "ü 问题。29。2026 ö，ä „ 智能 „ „人工智能 „人工智能在。ö。„ 智能，面向和面向智能 •。: Ä ≠ ≠ Ä ≠ Ü ≠ 问题 öß，ä。: Ä Ö → Ö → → → → Ä → → ä : ä，ä，ä，ä。:，ä ö ä 在。≠ Ä Ä ≠ Ä ü ä。• 智能平台。ä，ü: ü ü，: 开放人工智能公司智能聊天助手 :，29。2026;，ö。\\\\# #……",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-韩国计划明年启动35亿美元前沿人工智能模型开发项目",
       "title": "韩国计划明年启动35亿美元前沿人工智能模型开发项目",
       "url": "https://36kr.com/newsflashes/4013828946546563?f=rss",
@@ -2042,7 +2055,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2064,19 +2077,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-带来人工智能智能体向群组-面向",
-      "title": "带来人工智能智能体向群组，面向",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "id": "techcrunch-ai-打开-人工智能模型向中国模型在成本",
+      "title": "打开，人工智能模型向中国模型在成本",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-05T18:54:30.000Z",
-      "summary": "群组使用人工智能智能体面向任务，和。公司独立，借助智能体分享。",
+      "publishedAt": "2026-10-05T19:33:53.000Z",
+      "summary": "目标是和未来模型在和。向构建人工智能工厂，产品构建，本地人工智能由训练人工智能模型在数据。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 74,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2094,7 +2109,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2111,7 +2126,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2293,7 +2308,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2326,7 +2341,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2346,15 +2361,15 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能助手和",
-      "title": "人工智能助手和",
-      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "id": "techcrunch-ai-带来人工智能智能体向群组-面向",
+      "title": "带来人工智能智能体向群组，面向",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-05T18:29:00.000Z",
-      "summary": "新助手作为人工智能智能体向帮助用户和产品。",
+      "publishedAt": "2026-10-05T18:54:30.000Z",
+      "summary": "群组使用人工智能智能体面向任务，和。公司独立，借助智能体分享。",
       "topics": [
         "产品应用"
       ],
@@ -2376,7 +2391,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2579,7 +2594,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2595,7 +2610,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": "https://external-preview.redd.it/8nrShcE8ODmwf6WdrTA_KnnDrDVk_yBAQfORtqnExOo.jpeg?width=640&crop=smart&auto=webp&s=c0589f554db867bf64233083cd0a1f66aa219612"
     },
     {
@@ -2613,7 +2628,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2631,7 +2646,23 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能助手和",
+      "title": "人工智能助手和",
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-05T18:29:00.000Z",
+      "summary": "新助手作为人工智能智能体向帮助用户和产品。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 73,
       "image": ""
     },
     {
@@ -2649,23 +2680,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-面向人工智能",
-      "title": "面向人工智能",
-      "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-05T17:29:22.000Z",
-      "summary": "由，使用人工智能向和，借助在安全和。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 73,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2698,7 +2713,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2833,24 +2848,6 @@
         "多模态"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-人工智能-模型-图像-视频-和机器人控制在单个模型",
-      "title": "人工智能，模型，图像，视频，和机器人控制在单个模型",
-      "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-05T18:26:05.000Z",
-      "summary": "人工智能 19，十亿，模型和生成，图像，视频，和机器人控制在单个。训练在 320 图形处理器在关于，信息技术使用模型。任务向，作为词元在分享上下文。人工智能，模型，图像，视频，和机器人控制在单个模型首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 82,
       "image": ""
     }
   ]
