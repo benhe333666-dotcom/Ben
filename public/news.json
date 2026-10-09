@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T01:29:21.670Z",
+  "generatedAt": "2026-10-09T01:33:46.608Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-09T01:30:00.000Z",
+  "nextUpdateHint": "2026-10-09T02:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -13,33 +13,33 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 75,
-      "heat": 81
+      "count": 76,
+      "heat": 82
     },
     {
       "name": "模型发布",
-      "count": 64,
+      "count": 60,
       "heat": 85
     },
     {
       "name": "监管安全",
-      "count": 32,
-      "heat": 90
+      "count": 31,
+      "heat": 91
     },
     {
       "name": "研究论文",
       "count": 32,
+      "heat": 88
+    },
+    {
+      "name": "投融资",
+      "count": 14,
       "heat": 86
     },
     {
       "name": "端侧智能",
-      "count": 15,
+      "count": 14,
       "heat": 84
-    },
-    {
-      "name": "投融资",
-      "count": 13,
-      "heat": 85
     },
     {
       "name": "算力芯片",
@@ -47,14 +47,14 @@
       "heat": 90
     },
     {
-      "name": "多模态",
-      "count": 12,
-      "heat": 88
-    },
-    {
       "name": "人工智能动态",
       "count": 13,
       "heat": 74
+    },
+    {
+      "name": "多模态",
+      "count": 11,
+      "heat": 87
     },
     {
       "name": "开源生态",
@@ -175,10 +175,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 6,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-09-30T15:00:00.000Z",
-      "latestDisplayedAt": ""
+      "itemCount": 7,
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-10-07T15:00:00.000Z",
+      "latestDisplayedAt": "2026-10-07T15:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-10-08T21:00:00.000Z",
       "latestDisplayedAt": "2026-10-08T21:00:00.000Z"
     },
@@ -240,7 +240,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-10-08T21:53:51.000Z",
       "latestDisplayedAt": "2026-10-08T21:53:51.000Z"
     },
@@ -384,9 +384,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-10-07T17:59:26.000Z",
-      "latestDisplayedAt": "2026-10-07T17:59:26.000Z"
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-10-08T11:12:45.000Z",
+      "latestDisplayedAt": "2026-10-08T11:12:45.000Z"
     },
     {
       "id": "qbitai",
@@ -431,8 +431,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
-      "displayedCount": 8,
+      "itemCount": 11,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-10-09T01:09:21.000Z",
       "latestDisplayedAt": "2026-10-09T01:09:21.000Z"
     },
@@ -586,7 +586,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -792,7 +792,25 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
+      "image": ""
+    },
+    {
+      "id": "arxiv-cs-lg-论文新进展-多模态-计算机视觉方向研究",
+      "title": "论文新进展：多模态、计算机视觉方向研究",
+      "url": "https://arxiv.org/abs/2610.11706v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-10-08T11:12:45.000Z",
+      "summary": "这篇论文关注多模态、计算机视觉，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -846,21 +864,19 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/BetterWork2-AverageRedliningScore.png"
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-大语言模型-强化学习-模型评测方向研究",
-      "title": "论文新进展：大语言模型、强化学习、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2610.10536v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
+      "id": "microsoft-ai-blog-人工智能基础设施-来自向",
+      "title": "人工智能基础设施 : 来自向",
+      "url": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-10-07T17:59:26.000Z",
-      "summary": "这篇论文关注大语言模型、强化学习、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "publishedAt": "2026-10-07T15:00:00.000Z",
+      "summary": "任务更快。信息技术向构建来自基础设施，和。人工智能基础设施 : 来自向首个在微软。",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
+        "产品应用"
       ],
-      "heat": 74,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1082,6 +1098,22 @@
       "image": ""
     },
     {
+      "id": "arxiv-cs-lg-论文新进展-强化学习方向研究",
+      "title": "论文新进展：强化学习方向研究",
+      "url": "https://arxiv.org/abs/2610.11697v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-10-08T11:07:04.000Z",
+      "summary": "这篇论文关注强化学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 78,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-大语言模型-智能体-强化学习-模型评测方向研究",
       "title": "论文新进展：大语言模型、智能体、强化学习、模型评测方向研究",
       "url": "https://arxiv.org/abs/2610.11696v1",
@@ -1199,25 +1231,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-智能体方向研究",
-      "title": "论文新进展：智能体方向研究",
-      "url": "https://arxiv.org/abs/2610.10527v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-10-07T17:57:58.000Z",
-      "summary": "这篇论文关注智能体，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "端侧智能"
-      ],
-      "heat": 74,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1475,6 +1489,24 @@
       "image": ""
     },
     {
+      "id": "arxiv-cs-lg-论文新进展-大语言模型-智能体-模型评测方向研究",
+      "title": "论文新进展：大语言模型、智能体、模型评测方向研究",
+      "url": "https://arxiv.org/abs/2610.11655v1",
+      "source": "论文预印本：机器学习",
+      "sourceId": "arxiv-cs-lg",
+      "sourceType": "research",
+      "language": "zh",
+      "publishedAt": "2026-10-08T10:33:29.000Z",
+      "summary": "这篇论文关注大语言模型、智能体、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "qbitai-搭载英伟达-相关型号超级芯片-联想专业版-15开启盲约-重塑个人生产力边界",
       "title": "搭载英伟达 ™ 相关型号超级芯片：联想专业版 15开启盲约，重塑个人生产力边界",
       "url": "https://www.qbitai.com/2026/10/502020.html",
@@ -1575,24 +1607,6 @@
       ],
       "heat": 76,
       "image": "https://media.wired.com/photos/6ac54e80213cd6c84b19e900/master/pass/AI-Lab-Researchers-Got-an-LLM-to-Drive-a-Toyota-Business.jpg"
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-大语言模型-强化学习-多模态方向研究",
-      "title": "论文新进展：大语言模型、强化学习、多模态方向研究",
-      "url": "https://arxiv.org/abs/2610.10526v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-10-07T17:57:38.000Z",
-      "summary": "这篇论文关注大语言模型、强化学习、多模态，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 74,
-      "image": ""
     },
     {
       "id": "github-changelog-构建模型面向",
@@ -1711,7 +1725,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1798,7 +1812,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1850,24 +1864,6 @@
         "产品应用"
       ],
       "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "arxiv-cs-lg-论文新进展-模型安全-模型评测方向研究",
-      "title": "论文新进展：模型安全、模型评测方向研究",
-      "url": "https://arxiv.org/abs/2610.10520v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-10-07T17:56:01.000Z",
-      "summary": "这篇论文关注模型安全、模型评测，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
-      ],
-      "heat": 73,
       "image": ""
     },
     {
@@ -2193,24 +2189,6 @@
       "image": ""
     },
     {
-      "id": "arxiv-cs-lg-论文新进展-人工智能前沿研究",
-      "title": "论文新进展：人工智能前沿研究",
-      "url": "https://arxiv.org/abs/2610.10496v1",
-      "source": "论文预印本：机器学习",
-      "sourceId": "arxiv-cs-lg",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-10-07T17:47:17.000Z",
-      "summary": "这篇论文关注机器学习，用于跟踪人工智能前沿研究趋势。页面已将原始英文题名和摘要转写为中文要点，原文链接可能受网络环境影响。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 73,
-      "image": ""
-    },
-    {
       "id": "towards-data-science-指南向大语言模型",
       "title": ": 指南向大语言模型",
       "url": "https://towardsdatascience.com/the-consistency-quadrant-a-visual-guide-to-llm-reliability/",
@@ -2344,19 +2322,21 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-光通信公司向产业链上游领域-掘金",
-      "title": "光通信公司向产业链上游领域“掘金”",
-      "url": "https://36kr.com/newsflashes/4017895217483648?f=rss",
+      "id": "thirty-six-kr-8点1氪丨国际金价回调-金饰克价已暴跌约150元-股千元股仅剩3只-711印度门店全部关闭",
+      "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；股千元股仅剩3只；711印度门店全部关闭",
+      "url": "https://36kr.com/p/4017873472884616?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-09T00:32:11.000Z",
-      "summary": "10月8日，股光通信板块回调。东山精密在接受机构调研时回应，市场上提及的65%美国原产物料比例相关说法属于非官方市场传闻；公司已提前布局多区域产能与多元化供应链方案。随着人工智能（人工智能）大模型集群规模持续扩张，传统带宽与功耗瓶颈凸显，光互连产业步入可插拔、（近封装光学）、（共封装光学）等多路线并行迭代阶段，商业化进程加速。证券时报记者了解到，在新型光互连技术推动下，光通信……",
+      "publishedAt": "2026-10-08T23:54:50.000Z",
+      "summary": "今日热点导览粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理 711印度门店全部关闭 2026年诺贝尔文学奖揭晓腾讯据悉考虑发行至多50亿美元离岸债券消息称三星手机四季度最高减产30% 完成超5亿美元新一轮融资 3大新闻国际金价显著回调，金饰克价已暴跌约150元近期，国际金价经历显著回调，黄金期货跌破每盎司4200美元，国内沪金击穿每克900元关口，品牌金饰价格较高点累……",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2616,23 +2596,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-1.jpg"
     },
     {
-      "id": "thirty-six-kr-39只智能体概念股获机构积极评级",
-      "title": "39只智能体概念股获机构积极评级",
-      "url": "https://36kr.com/newsflashes/4017894147543175?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-09T00:29:06.000Z",
-      "summary": "人工智能叙事正从“模型能力竞赛”���换到“智能体（智能体）商业化兑现”阶段。据统计数据显示，截至10月8日收盘，今年以来智能体概念股平均下跌20.63%，大幅跑输同期上证指数。其中7只概念股逆势涨超10%，分别是协创数据、中控技术、迪安诊断、赛意信息、海信视像、阿尔特、润建股份。机构关注度方面，共有39只概念股获5家以上机构“积极型”评级。评级数量最多的是海信视像，合计有2……",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "ithome-加州试图禁止-人机格斗赛-指控已举办的对决赛事非法",
       "title": "加州试图禁止“人机格斗赛”，指控已举办的对决赛事非法",
       "url": "https://www.ithome.com/1/010/772.htm",
@@ -2698,6 +2661,23 @@
         "端侧智能"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-让人工智能走进真实产线-汇川技术2026工博会看点前瞻",
+      "title": "让人工智能走进真实产线，汇川技术2026工博会看点前瞻",
+      "url": "https://36kr.com/p/4016926621470853?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-08T10:51:55.000Z",
+      "summary": "一把鲁班锁，几块木件，靠相互咬合形成稳固整体。结构如何组织，决定着各个部分能否共同发挥作用。这个古老物件，也为理解工业智能提供了一个直观入口：让人工智能走进制造现场，需要把算法、数据和设备真正连接起来。10月12日至16日，2026中国国际工业博览会将在国家会展中心（上海）举行。汇川技术将以“以智融实，共赴新型工业化”为主题，围绕“ ”，展示智能技术融入工业现场的路径。鲁班锁……",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 81,
       "image": ""
     },
     {
@@ -2854,21 +2834,36 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-8点1氪丨国际金价回调-金饰克价已暴跌约150元-股千元股仅剩3只-711印度门店全部关闭",
-      "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；股千元股仅剩3只；711印度门店全部关闭",
-      "url": "https://36kr.com/p/4017873472884616?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
+      "id": "techcrunch-ai-开放人工智能公司会议",
+      "title": "开放人工智能公司会议",
+      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-08T23:54:50.000Z",
-      "summary": "今日热点导览粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理 711印度门店全部关闭 2026年诺贝尔文学奖揭晓腾讯据悉考虑发行至多50亿美元离岸债券消息称三星手机四季度最高减产30% 完成超5亿美元新一轮融资 3大新闻国际金价显著回调，金饰克价已暴跌约150元近期，国际金价经历显著回调，黄金期货跌破每盎司4200美元，国内沪金击穿每克900元关口，品牌金饰价格较高点累……",
+      "publishedAt": "2026-10-08T18:10:55.000Z",
+      "summary": "开放人工智能公司来自由群组研究由实验室。",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-元宇宙平台公司开放人工智能公司向生活",
+      "title": "元宇宙平台公司开放人工智能公司向生活？",
+      "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-08T14:00:00.000Z",
+      "summary": "前沿科技媒体人工智能，和我们新人工智能智能体。向，人工智能智能体面向，向在苹果电脑小型版 …",
       "topics": [
         "产品应用",
-        "算力芯片",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 93,
       "image": ""
     }
   ]
