@@ -1,40 +1,35 @@
 {
-  "generatedAt": "2026-10-11T13:40:08.405Z",
+  "generatedAt": "2026-10-11T14:10:09.749Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-11T14:00:00.000Z",
+  "nextUpdateHint": "2026-10-11T14:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-11T13:03:04.000Z"
+    "latestPublishedAt": "2026-10-11T14:03:09.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 71,
-      "heat": 73
+      "heat": 75
     },
     {
       "name": "模型发布",
-      "count": 55,
-      "heat": 74
+      "count": 57,
+      "heat": 75
     },
     {
       "name": "监管安全",
-      "count": 24,
-      "heat": 76
+      "count": 25,
+      "heat": 77
     },
     {
       "name": "算力芯片",
       "count": 19,
-      "heat": 81
-    },
-    {
-      "name": "投融资",
-      "count": 20,
-      "heat": 74
+      "heat": 80
     },
     {
       "name": "研究论文",
@@ -42,29 +37,34 @@
       "heat": 69
     },
     {
-      "name": "人工智能动态",
+      "name": "投融资",
       "count": 19,
+      "heat": 74
+    },
+    {
+      "name": "人工智能动态",
+      "count": 18,
       "heat": 67
+    },
+    {
+      "name": "多模态",
+      "count": 11,
+      "heat": 73
     },
     {
       "name": "端侧智能",
       "count": 10,
-      "heat": 76
-    },
-    {
-      "name": "多模态",
-      "count": 10,
-      "heat": 70
+      "heat": 79
     },
     {
       "name": "开源生态",
       "count": 9,
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "机器人",
-      "count": 6,
-      "heat": 75
+      "count": 5,
+      "heat": 72
     }
   ],
   "sources": [
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-10T21:47:51.000Z",
-      "latestDisplayedAt": "2026-10-10T21:47:51.000Z"
+      "latestFetchedAt": "2026-10-11T14:00:00.000Z",
+      "latestDisplayedAt": "2026-10-11T14:00:00.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-11T09:49:59.000Z",
-      "latestDisplayedAt": "2026-10-11T09:49:59.000Z"
+      "latestFetchedAt": "2026-10-11T13:44:32.000Z",
+      "latestDisplayedAt": "2026-10-11T13:44:32.000Z"
     },
     {
       "id": "wired-ai",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-10-11T12:00:00.000Z",
-      "latestDisplayedAt": "2026-10-11T12:00:00.000Z"
+      "latestFetchedAt": "2026-10-11T14:00:00.000Z",
+      "latestDisplayedAt": "2026-10-11T14:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-11T13:03:04.000Z",
-      "latestDisplayedAt": "2026-10-11T13:03:04.000Z"
+      "latestFetchedAt": "2026-10-11T14:03:09.000Z",
+      "latestDisplayedAt": "2026-10-11T14:03:09.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -352,7 +352,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
+      "displayedCount": 1,
       "latestFetchedAt": "2026-10-11T04:14:18.000Z",
       "latestDisplayedAt": "2026-10-11T04:14:18.000Z"
     },
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 14,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-10-11T12:28:49.000Z",
-      "latestDisplayedAt": "2026-10-11T12:28:49.000Z"
+      "latestFetchedAt": "2026-10-11T13:58:07.000Z",
+      "latestDisplayedAt": "2026-10-11T13:58:07.000Z"
     },
     {
       "id": "oschina",
@@ -480,7 +480,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-10-11T07:07:30.000Z",
       "latestDisplayedAt": "2026-10-11T07:07:30.000Z"
     }
@@ -490,52 +490,88 @@
   ],
   "items": [
     {
-      "id": "reddit-artificial-人工智能-生成序列信息技术-38-000-在人工智能和-8-向-10",
-      "title": "人工智能，生成序列信息技术 $38，000 在人工智能和 8 向 10",
-      "url": "https://www.reddit.com/r/artificial/comments/1x37ox5/creators_of_an_aigenerated_scifi_series_said_it/",
+      "id": "reddit-artificial-推理能力词元在大语言模型作为词元",
+      "title": "推理能力词元在大语言模型作为词元",
+      "url": "https://www.reddit.com/r/artificial/comments/1x390b6/characterizing_the_role_of_reasoning_tokens_in/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T13:03:04.000Z",
+      "publishedAt": "2026-10-11T14:03:09.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "模型发布"
       ],
-      "heat": 85,
-      "image": "https://external-preview.redd.it/MTXwcetQww5GUV8HE_a9ncH6iufA-V_-Z3YCoQaBSvw.jpeg?width=640&crop=smart&auto=webp&s=32970abed03bc91211364b1e36fb8e62b78a4edc"
+      "heat": 86,
+      "image": "https://external-preview.redd.it/YBwg74-pLeQUGvNfz4msmGkgH4duAo1gyMcykM_ly8A.png?width=640&crop=smart&auto=webp&s=02533097318a9d1afce029c66fe59423b4c6eaa9"
     },
     {
-      "id": "ithome-奇瑞捷途全新旅行者-7-预告搭载骁龙-8255-座舱芯片-10-月-14-日上市",
-      "title": "奇瑞捷途全新旅行者 7 预告搭载骁龙 8255 座舱芯片，10 月 14 日上市",
-      "url": "https://www.ithome.com/1/011/691.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
+      "id": "techcrunch-ai-认为人工智能智能聊天助手时刻",
+      "title": "认为人工智能智能聊天助手时刻",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T12:28:49.000Z",
-      "summary": "科技之家 10 月 11 日消息，奇瑞捷途全新旅行者 7 将于 10 月 14 日上市，官方预告智能科技再升级。新车搭载 3.3 人工智能智能座舱、骁龙 8255 高阶座舱芯片，搭配 24 吉字节运存 +256 吉字节超大存储，内置讯飞星火智能人工智能大模型，配备 15.6 英寸相关型号中控巨幕。科技之家注意到，该车已于 9 月 23 日开启预售，共提供 7 款车型，预售价 ……",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "summary": "人工智能重要面向上下文，和向",
       "topics": [
         "模型发布",
-        "算力芯片"
+        "产品应用"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "id": "towards-data-science-指南向开放人工智能公司新决策接口",
+      "title": "指南向开放人工智能公司新决策接口",
+      "url": "https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T12:00:00.000Z",
-      "summary": ": 面向构建，和大语言模型智能体。: 指南向 6 高级首个在数据科学实战社区。",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "summary": "指南向开放人工智能公司新决策接口首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "ithome-上市-1-月京东直降-小米智能存储-2699-2384-元-4-年质保",
+      "title": "上市 1 月京东直降：小米智能存储 2699 → 2384 元 4 年质保",
+      "url": "https://www.ithome.com/1/011/704.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T13:58:07.000Z",
+      "summary": "小米首款产品“ 智能存储”今年 8 月 27 日开售，官方定价如下：相关型号定价 2699 元，今日国补后 2384 元：京东小米智能存储 4 太字节国补后 2384.1 元领 250 元券相关型号定价 3499 元，今日超级补贴价 3194 元：京东小米智能存储 8 太字节超级秒杀 3194 元领 196 元券相关型号定价 5499 元，今日国补后 5084 元：京东小米智……",
+      "topics": [
+        "产品应用",
+        "多模态",
+        "端侧智能"
+      ],
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能智能体和来自研究",
+      "title": "人工智能智能体和来自研究",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T13:44:32.000Z",
+      "summary": "人工智能和人工智能安全公司 : 人工智能模型和克劳德模型 5 和认为。在，15 得分，和来自研究。模型向问题。人工智能智能体和来自研究，首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -553,23 +589,6 @@
         "端侧智能"
       ],
       "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-人工智能词元需求-和",
-      "title": "人工智能词元需求，和",
-      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-11T09:49:59.000Z",
-      "summary": "数据来自在人工智能 : 词元持续，图形处理器。人工智能需求更快成本。需求，来自芯片向云服务。人工智能词元需求，和首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 91,
       "image": ""
     },
     {
@@ -634,23 +653,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-微软人工智能模型",
-      "title": "微软人工智能模型",
-      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-10T21:47:51.000Z",
-      "summary": "在，微软首席执行官信息技术时间向和人工智能。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 78,
+      "heat": 89,
       "image": ""
     },
     {
@@ -719,7 +722,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 52,
+      "heat": 51,
       "image": ""
     },
     {
@@ -736,7 +739,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": "https://media.wired.com/photos/6abdb2233241c89b6aaeb7ab/master/pass/Backchannel-iPod-Anniversary-Business-678384.jpg"
     },
     {
@@ -911,50 +914,67 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PDFMPublicHealth1-hero.jpg"
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/",
+      "id": "reddit-artificial-人工智能-生成序列信息技术-38-000-在人工智能和-8-向-10",
+      "title": "人工智能，生成序列信息技术 $38，000 在人工智能和 8 向 10",
+      "url": "https://www.reddit.com/r/artificial/comments/1x37ox5/creators_of_an_aigenerated_scifi_series_said_it/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T12:20:27.000Z",
+      "publishedAt": "2026-10-11T13:03:04.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
       "heat": 85,
-      "image": "https://preview.redd.it/ciij72r3ztuh1.jpeg?width=320&crop=smart&auto=webp&s=2b3059de2f87112cc270d21d0448761c1bc1589c"
+      "image": "https://external-preview.redd.it/MTXwcetQww5GUV8HE_a9ncH6iufA-V_-Z3YCoQaBSvw.jpeg?width=640&crop=smart&auto=webp&s=32970abed03bc91211364b1e36fb8e62b78a4edc"
     },
     {
-      "id": "ithome-海外投资者持续减持-三星电子外资持股比例跌至-17-年最低",
-      "title": "海外投资者持续减持，三星电子外资持股比例跌至 17 年最低",
-      "url": "https://www.ithome.com/1/011/687.htm",
+      "id": "ithome-奇瑞捷途全新旅行者-7-预告搭载骁龙-8255-座舱芯片-10-月-14-日上市",
+      "title": "奇瑞捷途全新旅行者 7 预告搭载骁龙 8255 座舱芯片，10 月 14 日上市",
+      "url": "https://www.ithome.com/1/011/691.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T11:49:50.000Z",
-      "summary": "科技之家 10 月 11 日消息，海外投资者过去一年来不断减持三星电子股票，当前外资持股比例已降至 17 年来最低水平。韩国交易所最新数据显示，外资持有三星电子股票比例已降至 46% 左右，处于 2009 年 7 月以来的最低水平。今年年初韩国股市处于上涨行情时，外资持股比例还高达 52.4%。3 月，该比例跌破 50%，到 5 月进一步降至 48%。科技之家注意到，三星电子……",
+      "publishedAt": "2026-10-11T12:28:49.000Z",
+      "summary": "科技之家 10 月 11 日消息，奇瑞捷途全新旅行者 7 将于 10 月 14 日上市，官方预告智能科技再升级。新车搭载 3.3 人工智能智能座舱、骁龙 8255 高阶座舱芯片，搭配 24 吉字节运存 +256 吉字节超大存储，内置讯飞星火智能人工智能大模型，配备 15.6 英寸相关型号中控巨幕。科技之家注意到，该车已于 9 月 23 日开启预售，共提供 7 款车型，预售价 ……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "算力芯片"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "the-decoder-论文预印本在月作为人工智能论文",
-      "title": "论文预印本在月作为人工智能论文",
-      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T12:00:00.000Z",
+      "summary": ": 面向构建，和大语言模型智能体。: 指南向 6 高级首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能词元需求-和",
+      "title": "人工智能词元需求，和",
+      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T09:17:32.000Z",
-      "summary": "2026，论文预印本在月。在，和在。人工智能。向论文预印本，作者平台借助，质量论文。论文预印本在月作为人工智能论文首个在人工智能解码媒体。",
+      "publishedAt": "2026-10-11T09:49:59.000Z",
+      "summary": "数据来自在人工智能 : 词元持续，图形处理器。人工智能需求更快成本。需求，来自芯片向云服务。人工智能词元需求，和首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "研究论文"
+        "算力芯片"
       ],
       "heat": 91,
       "image": ""
@@ -973,7 +993,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1009,36 +1029,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-苹果向团队和许可来自创业公司",
-      "title": "苹果向团队和许可来自创业公司",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "id": "techcrunch-ai-微软人工智能模型",
+      "title": "微软人工智能模型",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T19:50:00.000Z",
-      "summary": "苹果向进入人工智能，生成企业？",
+      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "summary": "在，微软首席执行官信息技术时间向和人工智能。",
       "topics": [
-        "产品应用",
-        "投融资"
+        "模型发布"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能智能体",
-      "title": "人工智能智能体？",
-      "url": "https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-10T14:00:00.000Z",
-      "summary": "新增智能体和使用在工作流。人工智能智能体？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 69,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1054,7 +1057,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1092,22 +1095,6 @@
       "image": ""
     },
     {
-      "id": "product-hunt-ai-面向苹果电脑",
-      "title": "面向苹果电脑",
-      "url": "https://www.producthunt.com/products/maildun-for-mac",
-      "source": "人工智能产品发现",
-      "sourceId": "product-hunt-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-10T01:06:33.000Z",
-      "summary": "在，由机械手，借助人工智能，讨论",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 54,
-      "image": ""
-    },
-    {
       "id": "github-changelog-代码托管平台智能编程助手发布-5",
       "title": "代码托管平台智能编程助手发布，5",
       "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
@@ -1122,7 +1109,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1293,53 +1280,52 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/Screenshot-2026-03-03-at-10.30.27-AM-1152x648.jpeg"
     },
     {
-      "id": "reddit-artificial-人工智能交付-3-亚马逊-30-000",
-      "title": "人工智能交付 3，亚马逊 30，000",
-      "url": "https://www.reddit.com/r/artificial/comments/1x36hoz/jeff_bezos_says_ai_will_deliver_a_3day_work_week/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T12:02:52.000Z",
+      "publishedAt": "2026-10-11T12:20:27.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
       "heat": 84,
-      "image": "https://external-preview.redd.it/CIm3HBtC93LJIUbCnFn7xomYdV3A9PRALqSVk7h7JKs.jpeg?width=640&crop=smart&auto=webp&s=4a4a0dd8acb6e8d9fd11f2ab54a20597984fc430"
+      "image": "https://preview.redd.it/ciij72r3ztuh1.jpeg?width=320&crop=smart&auto=webp&s=2b3059de2f87112cc270d21d0448761c1bc1589c"
     },
     {
-      "id": "ithome-华硕八爪鱼-8-电竞无线路由器开启预约-双-10-克-四-2-5-克网口-支持无线网络-8",
-      "title": "华硕八爪鱼 8 电竞无线路由器开启预约：双 10 克+ 四 2.5 克网口，支持无线网络 8",
-      "url": "https://www.ithome.com/1/011/682.htm",
+      "id": "ithome-海外投资者持续减持-三星电子外资持股比例跌至-17-年最低",
+      "title": "海外投资者持续减持，三星电子外资持股比例跌至 17 年最低",
+      "url": "https://www.ithome.com/1/011/687.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T11:18:06.000Z",
-      "summary": "科技之家 10 月 11 日消息，华硕八爪鱼 8 电竞无线路由器现已在京东开启预约，新品主打旗舰配置，拥有双 10 克+4 个 2.5 克以太网口，支持无线网络 8（相关型号），售价暂未公布。京东八爪鱼 8 三频人工智能电竞路由器待公布立即预约 “八爪鱼 8”基于博通 4 核 2.6 吉赫兹处理器，配备 2 吉字节相关型号内存；拥有 8 根环装排列外置铜管天线，在 2.4 吉……",
+      "publishedAt": "2026-10-11T11:49:50.000Z",
+      "summary": "科技之家 10 月 11 日消息，海外投资者过去一年来不断减持三星电子股票，当前外资持股比例已降至 17 年来最低水平。韩国交易所最新数据显示，外资持有三星电子股票比例已降至 46% 左右，处于 2009 年 7 月以来的最低水平。今年年初韩国股市处于上涨行情时，外资持股比例还高达 52.4%。3 月，该比例跌破 50%，到 5 月进一步降至 48%。科技之家注意到，三星电子……",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
       "heat": 85,
       "image": ""
     },
     {
-      "id": "the-decoder-微软向语言在智能和使用信息技术向开放人工智能公司和人工智能安全公司",
-      "title": "微软向语言在智能和使用信息技术向开放人工智能公司和人工智能安全公司",
-      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+      "id": "the-decoder-论文预印本在月作为人工智能论文",
+      "title": "论文预印本在月作为人工智能论文",
+      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T09:08:35.000Z",
-      "summary": "微软首席执行官呼吁人工智能智能人工智能，在借助语言。在，人工智能模型作为安全，在开放人工智能公司和人工智能安全公司。企业: 微软风险作为人工智能实验室转化模型进入。微软向语言在智能和使用信息技术向开放人工智能公司和人工智能安全公司首个在人工智能解码媒体。",
+      "publishedAt": "2026-10-11T09:17:32.000Z",
+      "summary": "2026，论文预印本在月。在，和在。人工智能。向论文预印本，作者平台借助，质量论文。论文预印本在月作为人工智能论文首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1356,7 +1342,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1371,6 +1357,23 @@
       "summary": "美国人工智能算力租赁市场正在呈现明显的“短贵长便宜”特征。10 月 10 日，根据高盛互联网分析师在季度预览报告中的图表，一吉瓦算力的年化收入，短期现货租赁约为 400 亿至 500 亿美元，长期合同约为 200 亿至 300 亿美元，而超大规模云厂商本文链接",
       "topics": [
         "算力芯片"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-苹果向团队和许可来自创业公司",
+      "title": "苹果向团队和许可来自创业公司",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "summary": "苹果向进入人工智能，生成企业？",
+      "topics": [
+        "产品应用",
+        "投融资"
       ],
       "heat": 80,
       "image": ""
@@ -1392,19 +1395,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-3-向科技创投媒体-2026-创业公司",
-      "title": "3 向科技创投媒体 2026: 创业公司",
-      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "towards-data-science-人工智能智能体",
+      "title": "人工智能智能体？",
+      "url": "https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T15:00:00.000Z",
-      "summary": "科技创投媒体 2026 13，15 在。300 创业公司构建向 10，000，250+ 向分享 200+。打开向向 $100 和在 50%。",
+      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "summary": "新增智能体和使用在工作流。人工智能智能体？首个在数据科学实战社区。",
       "topics": [
-        "投融资"
+        "产品应用"
       ],
-      "heat": 72,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1421,7 +1424,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1456,22 +1459,6 @@
         "监管安全"
       ],
       "heat": 74,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-资金编程智能体",
-      "title": "资金编程智能体？",
-      "url": "https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-09T14:00:00.000Z",
-      "summary": "成本控制资金编程智能体？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 49,
       "image": ""
     },
     {
@@ -1634,37 +1621,53 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-了解-和修复问题-面向企业-借助创业公司",
-      "title": "了解，和修复问题，面向企业，借助创业公司",
-      "url": "https://www.reddit.com/r/artificial/comments/1x3632m/i_figure_things_out_learn_fast_and_fix_problems/",
+      "id": "reddit-artificial-人工智能交付-3-亚马逊-30-000",
+      "title": "人工智能交付 3，亚马逊 30，000",
+      "url": "https://www.reddit.com/r/artificial/comments/1x36hoz/jeff_bezos_says_ai_will_deliver_a_3day_work_week/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T11:41:22.000Z",
-      "summary": "在，面向借助创业公司，在，这里 : • 研究和，转化进入企业决策借助 • 和 : 向，和讨论向正确 • 社区在，向构建和持续社区 • : 在和构建在面向创业公司。• 使用人工智能工具向构建，研究和更快，和，了解信息技术和信息技术向。问题和团队了解和。面向，术语。打开向。顺利借助，和向和作为承包商。:，和 🍕 创业公司由",
+      "publishedAt": "2026-10-11T12:02:52.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "产品应用",
-        "研究论文",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 94,
-      "image": ""
+      "heat": 84,
+      "image": "https://external-preview.redd.it/CIm3HBtC93LJIUbCnFn7xomYdV3A9PRALqSVk7h7JKs.jpeg?width=640&crop=smart&auto=webp&s=4a4a0dd8acb6e8d9fd11f2ab54a20597984fc430"
     },
     {
-      "id": "ithome-更新创作者指南-禁止使用人工智能生成误导性地图-角色缩略图-尚未决定上线-人工智能标签-声明",
-      "title": "《》更新创作者指南：禁止使用人工智能生成误导性地图 / 角色缩略图，尚未决定上线“人工智能标签”声明",
-      "url": "https://www.ithome.com/1/011/678.htm",
+      "id": "ithome-华硕八爪鱼-8-电竞无线路由器开启预约-双-10-克-四-2-5-克网口-支持无线网络-8",
+      "title": "华硕八爪鱼 8 电竞无线路由器开启预约：双 10 克+ 四 2.5 克网口，支持无线网络 8",
+      "url": "https://www.ithome.com/1/011/682.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T10:54:55.000Z",
-      "summary": "科技之家 10 月 11 日消息，《》开发商。于 10 月 7 日公布了针对人工智能生成内容的应对方针，同步更新创作者指南。官方明确禁止使用人工智能生成误导性地图 / 角色缩略图，避免创作者利用与实际内容完全不符的缩略图吸引玩家点击。《》指出，平台一直将“自由表达”“人类无限的创造力”以及“人与人之间的联系”视为核心价值，尽管人工智能技术提升了开发人员的效率，然而其也催生了大……",
+      "publishedAt": "2026-10-11T11:18:06.000Z",
+      "summary": "科技之家 10 月 11 日消息，华硕八爪鱼 8 电竞无线路由器现已在京东开启预约，新品主打旗舰配置，拥有双 10 克+4 个 2.5 克以太网口，支持无线网络 8（相关型号），售价暂未公布。京东八爪鱼 8 三频人工智能电竞路由器待公布立即预约 “八爪鱼 8”基于博通 4 核 2.6 吉赫兹处理器，配备 2 吉字节相关型号内存；拥有 8 根环装排列外置铜管天线，在 2.4 吉……",
       "topics": [
         "人工智能动态"
       ],
       "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-微软向语言在智能和使用信息技术向开放人工智能公司和人工智能安全公司",
+      "title": "微软向语言在智能和使用信息技术向开放人工智能公司和人工智能安全公司",
+      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T09:08:35.000Z",
+      "summary": "微软首席执行官呼吁人工智能智能人工智能，在借助语言。在，人工智能模型作为安全，在开放人工智能公司和人工智能安全公司。企业: 微软风险作为人工智能实验室转化模型进入。微软向语言在智能和使用信息技术向开放人工智能公司和人工智能安全公司首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -1682,24 +1685,6 @@
         "投融资"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-新模型面向",
-      "title": "新模型面向",
-      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-11T07:48:01.000Z",
-      "summary": "模型可用作为研究预览。14，十亿，模型生成来自在实时和据报道控制机器人，和。得分在基准测试，限制。新模型面向首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 95,
       "image": ""
     },
     {
@@ -1721,6 +1706,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-3-向科技创投媒体-2026-创业公司",
+      "title": "3 向科技创投媒体 2026: 创业公司",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "summary": "科技创投媒体 2026 13，15 在。300 创业公司构建向 10，000，250+ 向分享 200+。打开向向 $100 和在 50%。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 71,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-人工智能安全公司评测来自",
       "title": "人工智能安全公司评测来自",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
@@ -1735,23 +1736,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-这里人工智能智能体实时在",
-      "title": "这里人工智能智能体实时在",
-      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-10T14:00:00.000Z",
-      "summary": "我们创建最人工智能智能体实时在，来自助手向智能体面向，和。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 71,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1803,15 +1788,15 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-人工智能-信息技术",
-      "title": "人工智能。信息技术。",
-      "url": "https://towardsdatascience.com/stop-using-ai-start-hiring-it/",
+      "id": "towards-data-science-资金编程智能体",
+      "title": "资金编程智能体？",
+      "url": "https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-09T11:00:00.000Z",
-      "summary": "人工智能智能体代码。认为关于人工智能。人工智能。信息技术。首个在数据科学实战社区。",
+      "publishedAt": "2026-10-09T14:00:00.000Z",
+      "summary": "成本控制资金编程智能体？首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
@@ -1954,38 +1939,55 @@
       "image": ""
     },
     {
-      "id": "ithome-生态优势推动笔记本热销-微软-128-吉字节内存版开始在美国缺货",
-      "title": "生态优势推动笔记本热销，微软 128 吉字节内存版开始在美国缺货",
-      "url": "https://www.ithome.com/1/011/677.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-11T10:38:04.000Z",
-      "summary": "科技之家 10 月 11 日消息，微软美国官网显示，笔记本 128 吉字节统一内存、1 太字节配置已经缺货，该产品定价 5，899.99 美元 （科技之家注：现汇率约合 39，570 元人民币），其他较低配置机型仍可购买。结合科技媒体报道，这款笔记本迅速售罄的原因可能与早期供应有限有关，但由于微软没有公布详细数据，我们无法验证这种说法的真实性。另一方面，这款笔记本能够支持生态……",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-人工智能向了解",
-      "title": "人工智能向了解",
-      "url": "https://www.reddit.com/r/artificial/comments/1x330cf/ai_to_learn_premiere/",
+      "id": "reddit-artificial-了解-和修复问题-面向企业-借助创业公司",
+      "title": "了解，和修复问题，面向企业，借助创业公司",
+      "url": "https://www.reddit.com/r/artificial/comments/1x3632m/i_figure_things_out_learn_fast_and_fix_problems/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T08:37:30.000Z",
-      "summary": "新向视频和在。人工智能向在，来自人工智能向人工智能。双子座模型，问题在借助，信息技术向向。呼吁，信息技术只是。使用豆包作为顺利，中国，和向，询问向在，信息技术向使用，作为信息技术，在信息技术。智能聊天助手限制在，使用面向更快。使用克劳德模型深度求索。人工智能模型认为面向，使用面向？由",
+      "publishedAt": "2026-10-11T11:41:22.000Z",
+      "summary": "在，面向借助创业公司，在，这里 : • 研究和，转化进入企业决策借助 • 和 : 向，和讨论向正确 • 社区在，向构建和持续社区 • : 在和构建在面向创业公司。• 使用人工智能工具向构建，研究和更快，和，了解信息技术和信息技术向。问题和团队了解和。面向，术语。打开向。顺利借助，和向和作为承包商。:，和 🍕 创业公司由",
+      "topics": [
+        "产品应用",
+        "研究论文",
+        "投融资"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
+      "id": "ithome-更新创作者指南-禁止使用人工智能生成误导性地图-角色缩略图-尚未决定上线-人工智能标签-声明",
+      "title": "《》更新创作者指南：禁止使用人工智能生成误导性地图 / 角色缩略图，尚未决定上线“人工智能标签”声明",
+      "url": "https://www.ithome.com/1/011/678.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T10:54:55.000Z",
+      "summary": "科技之家 10 月 11 日消息，《》开发商。于 10 月 7 日公布了针对人工智能生成内容的应对方针，同步更新创作者指南。官方明确禁止使用人工智能生成误导性地图 / 角色缩略图，避免创作者利用与实际内容完全不符的缩略图吸引玩家点击。《》指出，平台一直将“自由表达”“人类无限的创造力”以及“人与人之间的联系”视为核心价值，尽管人工智能技术提升了开发人员的效率，然而其也催生了大……",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-新模型面向",
+      "title": "新模型面向",
+      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T07:48:01.000Z",
+      "summary": "模型可用作为研究预览。14，十亿，模型生成来自在实时和据报道控制机器人，和。得分在基准测试，限制。新模型面向首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2019,25 +2021,23 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司模型面向借助更好数据",
-      "title": "开放人工智能公司模型面向借助更好数据",
-      "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
+      "id": "techcrunch-ai-这里人工智能智能体实时在",
+      "title": "这里人工智能智能体实时在",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T15:15:40.000Z",
-      "summary": "开放人工智能公司新模型。评测模型数据和。模型由构建。开放人工智能公司模型面向借助更好数据首个在人工智能解码媒体。",
+      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "summary": "我们创建最人工智能智能体实时在，来自助手向智能体面向，和。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 89,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2070,7 +2070,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2092,21 +2092,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司控制人工智能智能体-信息技术来自实时",
-      "title": "人工智能安全公司控制人工智能智能体。信息技术来自实时",
-      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "towards-data-science-人工智能-信息技术",
+      "title": "人工智能。信息技术。",
+      "url": "https://towardsdatascience.com/stop-using-ai-start-hiring-it/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T00:18:32.000Z",
-      "summary": "人工智能安全公司信息技术转化实时访问面向评测。",
+      "publishedAt": "2026-10-09T11:00:00.000Z",
+      "summary": "人工智能智能体代码。认为关于人工智能。人工智能。信息技术。首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 77,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2141,22 +2139,6 @@
         "多模态"
       ],
       "heat": 60,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能在-这里向持续",
-      "title": "人工智能在，这里向持续",
-      "url": "https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-08T15:30:00.000Z",
-      "summary": "向人工智能在，这里向持续首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -2259,37 +2241,38 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/AdobeStock_422714256_BCAMheader.jpeg"
     },
     {
-      "id": "ithome-四部门为汽车安全划定红线-明确汽车设计-可靠性验证试验管理-研发测试要包含两冬一夏",
-      "title": "四部门为汽车安全划定红线：明确汽车设计、可靠性验证试验管理，研发测试要包含两冬一夏",
-      "url": "https://www.ithome.com/1/011/637.htm",
+      "id": "ithome-生态优势推动笔记本热销-微软-128-吉字节内存版开始在美国缺货",
+      "title": "生态优势推动笔记本热销，微软 128 吉字节内存版开始在美国缺货",
+      "url": "https://www.ithome.com/1/011/677.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T08:49:06.000Z",
-      "summary": "科技之家 10 月 11 日消息，工业和信息化部会同公安部、生态环境部、市场监管总局 10 日联合发布《关于进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知（征求意见稿）》。据央视新闻今日报道，此次出台的文件重点面向三个方向：一是研发测试验证，明确测试周期和里程的硬性要求。新申报产品必须完成综合可靠性与耐久性、结构可靠性、软件功能可靠性等测试。其中，环境适应性验证周……",
+      "publishedAt": "2026-10-11T10:38:04.000Z",
+      "summary": "科技之家 10 月 11 日消息，微软美国官网显示，笔记本 128 吉字节统一内存、1 太字节配置已经缺货，该产品定价 5，899.99 美元 （科技之家注：现汇率约合 39，570 元人民币），其他较低配置机型仍可购买。结合科技媒体报道，这款笔记本迅速售罄的原因可能与早期供应有限有关，但由于微软没有公布详细数据，我们无法验证这种说法的真实性。另一方面，这款笔记本能够支持生态……",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "算力芯片",
+        "端侧智能"
       ],
-      "heat": 96,
+      "heat": 97,
       "image": ""
     },
     {
-      "id": "reddit-artificial-我们模型决策作为重要智能",
-      "title": "我们模型决策作为重要智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1x32fn9/were_breaching_the_point_where_the_taste_of_a/",
+      "id": "reddit-artificial-人工智能向了解",
+      "title": "人工智能向了解",
+      "url": "https://www.reddit.com/r/artificial/comments/1x330cf/ai_to_learn_premiere/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T08:01:21.000Z",
-      "summary": "认为借助旗舰模型 5.5 向在信息技术解决最问题在和。作为，决策向借助信息技术向决策和在，只是在最。来自，认为我们向向查看在模型在模型。模型在来自，决策成为 ** 模型，和决策信息技术借助向，和在。问题答案，和取决于在向开发者，模型最高效向借助 *面向 *，分享最，和向。我们向查看借助旗舰模型 5.5 作为顺利，借助向只是，和借助向和。作为模型更智能认为我们查看模型，向向借助……",
+      "publishedAt": "2026-10-11T08:37:30.000Z",
+      "summary": "新向视频和在。人工智能向在，来自人工智能向人工智能。双子座模型，问题在借助，信息技术向向。呼吁，信息技术只是。使用豆包作为顺利，中国，和向，询问向在，信息技术向使用，作为信息技术，在信息技术。智能聊天助手限制在，使用面向更快。使用克劳德模型深度求索。人工智能模型认为面向，使用面向？由",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2306,7 +2289,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2323,23 +2306,23 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "the-decoder-微软决策-1-模型人工智能决策模型",
-      "title": "微软决策，1 模型人工智能决策模型",
-      "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+      "id": "the-decoder-开放人工智能公司模型面向借助更好数据",
+      "title": "开放人工智能公司模型面向借助更好数据",
+      "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T14:57:33.000Z",
-      "summary": "借助决策，1，微软决策模型。构建在和面向和，信息技术 83.5 借助 85 36 基准测试，向公司。微软决策，1 模型人工智能决策模型首个在人工智能解码媒体。",
+      "publishedAt": "2026-10-10T15:15:40.000Z",
+      "summary": "开放人工智能公司新模型。评测模型数据和。模型由构建。开放人工智能公司模型面向借助更好数据首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "投融资"
       ],
       "heat": 88,
       "image": ""
@@ -2380,19 +2363,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能模型在-7-5-十亿只是推出",
-      "title": "人工智能模型在 $7.5 十亿只是推出",
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "id": "techcrunch-ai-人工智能安全公司控制人工智能智能体-信息技术来自实时",
+      "title": "人工智能安全公司控制人工智能智能体。信息技术来自实时",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-09T21:41:29.000Z",
-      "summary": "用户和关于信息技术更快和使用词元大语言模型。",
+      "publishedAt": "2026-10-10T00:18:32.000Z",
+      "summary": "人工智能安全公司信息技术转化实时访问面向评测。",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "监管安全",
+        "投融资"
       ],
-      "heat": 57,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2414,20 +2399,19 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-人工智能工程师-工程师",
-      "title": "人工智能工程师，工程师:。",
-      "url": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/",
+      "id": "towards-data-science-人工智能在-这里向持续",
+      "title": "人工智能在，这里向持续",
+      "url": "https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-08T11:00:00.000Z",
-      "summary": "新数据科学大语言模型。人工智能工程师，工程师:。首个在数据科学实战社区。",
+      "publishedAt": "2026-10-08T15:30:00.000Z",
+      "summary": "向人工智能在，这里向持续首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 53,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2482,37 +2466,37 @@
       "image": ""
     },
     {
-      "id": "ithome-跻身全球第一梯队-华为-华东师大联合研发时序预测基础模型-登顶国际权威时序测评双榜单",
-      "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
-      "url": "https://www.ithome.com/1/011/631.htm",
+      "id": "ithome-四部门为汽车安全划定红线-明确汽车设计-可靠性验证试验管理-研发测试要包含两冬一夏",
+      "title": "四部门为汽车安全划定红线：明确汽车设计、可靠性验证试验管理，研发测试要包含两冬一夏",
+      "url": "https://www.ithome.com/1/011/637.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T08:30:53.000Z",
-      "summary": "科技之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破，成功登顶国际权威时序评测榜单和 （ 类目）。▲ 评测榜单 ▲ 榜单（ 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运维、金融分析等核心场景的关键……",
+      "publishedAt": "2026-10-11T08:49:06.000Z",
+      "summary": "科技之家 10 月 11 日消息，工业和信息化部会同公安部、生态环境部、市场监管总局 10 日联合发布《关于进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知（征求意见稿）》。据央视新闻今日报道，此次出台的文件重点面向三个方向：一是研发测试验证，明确测试周期和里程的硬性要求。新申报产品必须完成综合可靠性与耐久性、结构可靠性、软件功能可靠性等测试。其中，环境适应性验证周……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "reddit-artificial-向-和大语言模型在诊断",
-      "title": "向？和大语言模型在诊断",
-      "url": "https://www.reddit.com/r/artificial/comments/1x31ggi/too_agreeable_to_be_accurate_sycophancy_and/",
+      "id": "reddit-artificial-我们模型决策作为重要智能",
+      "title": "我们模型决策作为重要智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1x32fn9/were_breaching_the_point_where_the_taste_of_a/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T07:01:53.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-10-11T08:01:21.000Z",
+      "summary": "认为借助旗舰模型 5.5 向在信息技术解决最问题在和。作为，决策向借助信息技术向决策和在，只是在最。来自，认为我们向向查看在模型在模型。模型在来自，决策成为 ** 模型，和决策信息技术借助向，和在。问题答案，和取决于在向开发者，模型最高效向借助 *面向 *，分享最，和向。我们向查看借助旗舰模型 5.5 作为顺利，借助向只是，和借助向和。作为模型更智能认为我们查看模型，向向借助……",
       "topics": [
-        "模型发布"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 80,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2528,7 +2512,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2550,20 +2534,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-我们-借助和作为开放人工智能公司",
-      "title": "我们？借助和作为开放人工智能公司",
-      "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
+      "id": "the-decoder-微软决策-1-模型人工智能决策模型",
+      "title": "微软决策，1 模型人工智能决策模型",
+      "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T13:03:59.000Z",
-      "summary": "开放人工智能公司 700 人工智能，生成向打开问题。100 来自研究，来自借助新向和。我们？借助和作为开放人工智能公司首个在人工智能解码媒体。",
+      "publishedAt": "2026-10-10T14:57:33.000Z",
+      "summary": "借助决策，1，微软决策模型。构建在和面向和，信息技术 83.5 借助 85 36 基准测试，向公司。微软决策，1 模型人工智能决策模型首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2581,7 +2566,7 @@
         "端侧智能",
         "机器人"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2597,24 +2582,23 @@
       "topics": [
         "投融资"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司人工智能模型向",
-      "title": "人工智能安全公司人工智能模型向",
-      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "id": "techcrunch-ai-人工智能模型在-7-5-十亿只是推出",
+      "title": "人工智能模型在 $7.5 十亿只是推出",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-09T19:36:56.000Z",
-      "summary": "人工智能安全公司没有人工智能。",
+      "publishedAt": "2026-10-09T21:41:29.000Z",
+      "summary": "用户和关于信息技术更快和使用词元大语言模型。",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "模型发布"
       ],
-      "heat": 68,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2667,36 +2651,38 @@
       "image": ""
     },
     {
-      "id": "ithome-小米有品上架全光谱智能人体存在面板灯相关型号众筹-提供相关型号-相关型号毫米双规格-109-元起",
-      "title": "小米有品上架全光谱智能人体存在面板灯相关型号众筹：提供相关型号/相关型号毫米双规格，109 元起",
-      "url": "https://www.ithome.com/1/011/630.htm",
+      "id": "ithome-跻身全球第一梯队-华为-华东师大联合研发时序预测基础模型-登顶国际权威时序测评双榜单",
+      "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
+      "url": "https://www.ithome.com/1/011/631.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T08:29:42.000Z",
-      "summary": "科技之家 10 月 11 日消息，现已在小米有品上架全光谱智能人体存在面板灯相关型号众筹（ 点此访问 ），该产品提供相关型号厘米与相关型号厘米两种规格，其中 24 瓦款式适配 8 至相关型号² 空间，定价为 109 元，36 瓦款式适配 12 至相关型号² 空间，定价为 149 元。系列面板灯采用全塑一体成型灯体，边框厚度薄至 2 毫米，具备相关型号防护等级，内置 24 克雷……",
+      "publishedAt": "2026-10-11T08:30:53.000Z",
+      "summary": "科技之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破，成功登顶国际权威时序评测榜单和 （ 类目）。▲ 评测榜单 ▲ 榜单（ 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运维、金融分析等核心场景的关键……",
       "topics": [
-        "多模态"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 83,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-信息技术-人工智能试图向作为人工智能新闻",
-      "title": "信息技术，人工智能试图向作为人工智能新闻。",
-      "url": "https://www.reddit.com/r/artificial/comments/1x31cjo/avoid_raidaily_news_its_an_antiai_sub_trying_to/",
+      "id": "reddit-artificial-向-和大语言模型在诊断",
+      "title": "向？和大语言模型在诊断",
+      "url": "https://www.reddit.com/r/artificial/comments/1x31ggi/too_agreeable_to_be_accurate_sycophancy_and/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T06:55:49.000Z",
-      "summary": "查看，信息技术。和向持续和信息技术。每个和由最。每个。在，在。信息技术新闻。新闻信息技术在，英伟达首席执行官 _______ 由人工智能。关于人工智能在。:，预览。信息技术？=1068&=&=&=相关型号新闻。和面向。专业版。这里，专业版在人工智能问题。由作为顺利。在讨论关于人工智能，信息技术！和信息技术。向和向进入即将推出在认为信息技术关于新闻信息技术，带来，作为新闻实际只……",
+      "publishedAt": "2026-10-11T07:01:53.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "算力芯片"
+        "模型发布"
       ],
-      "heat": 88,
-      "image": "https://preview.redd.it/cjuw798ecsuh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=e1f3fa084f25372943cd10250c769417e2c79a1d"
+      "heat": 80,
+      "image": ""
     },
     {
       "id": "cnblogs-news-下架8个月-相关型号的拯救行动居然还在继续",
@@ -2712,23 +2698,24 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "the-decoder-面向人工智能",
-      "title": "面向人工智能",
-      "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
+      "id": "the-decoder-我们-借助和作为开放人工智能公司",
+      "title": "我们？借助和作为开放人工智能公司",
+      "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-10T10:54:56.000Z",
-      "summary": "面向首个时间在 100 人工智能。使用人工智能，4.5 面向。关于 $900 月，在工具面向和。面向人工智能，首个在人工智能解码媒体。",
+      "publishedAt": "2026-10-10T13:03:59.000Z",
+      "summary": "开放人工智能公司 700 人工智能，生成向打开问题。100 来自研究，来自借助新向和。我们？借助和作为开放人工智能公司首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 67,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2746,7 +2733,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2786,6 +2773,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-人工智能安全公司人工智能模型向",
+      "title": "人工智能安全公司人工智能模型向",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-09T19:36:56.000Z",
+      "summary": "人工智能安全公司没有人工智能。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 68,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-视频面向生成式人工智能",
       "title": "视频面向生成式人工智能",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
@@ -2799,24 +2803,6 @@
         "多模态"
       ],
       "heat": 53,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-亚马逊和数据中心-信息技术向构建",
-      "title": "亚马逊和数据中心。信息技术向构建？",
-      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-09T16:56:42.000Z",
-      "summary": "亚马逊信息技术数据中心借助本地，来自微软。社区人工智能基础设施，借助向和来自新向，创业公司机械手人工智能智能体访问 …",
-      "topics": [
-        "产品应用",
-        "投融资",
-        "端侧智能"
-      ],
-      "heat": 63,
       "image": ""
     },
     {
@@ -2837,20 +2823,35 @@
       "image": ""
     },
     {
-      "id": "ithome-2026-广交会设计创新奖公布-张雪机车相关型号获至尊金奖",
-      "title": "2026 广交会设计创新奖公布，张雪机车相关型号获至尊金奖",
-      "url": "https://www.ithome.com/1/011/629.htm",
+      "id": "ithome-小米有品上架全光谱智能人体存在面板灯相关型号众筹-提供相关型号-相关型号毫米双规格-109-元起",
+      "title": "小米有品上架全光谱智能人体存在面板灯相关型号众筹：提供相关型号/相关型号毫米双规格，109 元起",
+      "url": "https://www.ithome.com/1/011/630.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T08:27:59.000Z",
-      "summary": "科技之家 10 月 11 日消息，据央视新闻今日报道，记者从中国对外贸易中心了解到，2026 年广交会设计创新奖（简称“ 奖”）名单已公布，共有 174 家企业的 222 件产品获奖，其中，张雪机车相关型号获广交会奖至尊金奖，另一款获至尊金奖的产品是智巡胶囊机器人胃内窥镜系统。据了解，获奖产品将在第 140 届广交会期间集中展示。此次获奖产品呈现以下三大特点：一是向“新”集聚……",
+      "publishedAt": "2026-10-11T08:29:42.000Z",
+      "summary": "科技之家 10 月 11 日消息，现已在小米有品上架全光谱智能人体存在面板灯相关型号众筹（ 点此访问 ），该产品提供相关型号厘米与相关型号厘米两种规格，其中 24 瓦款式适配 8 至相关型号² 空间，定价为 109 元，36 瓦款式适配 12 至相关型号² 空间，定价为 149 元。系列面板灯采用全塑一体成型灯体，边框厚度薄至 2 毫米，具备相关型号防护等级，内置 24 克雷……",
       "topics": [
-        "产品应用",
-        "机器人"
+        "多模态"
       ],
-      "heat": 88,
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-硅谷人工智能现状-谁有算力谁是爹",
+      "title": "硅谷人工智能现状：谁有算力谁是爹",
+      "url": "https://news.cnblogs.com/n/840174/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T06:06:36.000Z",
+      "summary": "鹭羽发自凹非寺量子位，公众号没招了！硅谷为了争夺人工智能算力已经彻！底！疯！狂！就连社首席执行官也低声下气求到了对家元宇宙平台公司门前：老铁，给点算力吧。结果你猜怎么着，小扎婉拒，马斯克坐收渔利：充当英伟达图形处理器二道贩子，给本文链接",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 87,
       "image": ""
     }
   ]
