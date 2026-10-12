@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-12T15:27:29.533Z",
+  "generatedAt": "2026-10-12T15:57:23.377Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-12T15:30:00.000Z",
+  "nextUpdateHint": "2026-10-12T16:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-12T15:24:03.000Z"
+    "latestPublishedAt": "2026-10-12T15:31:19.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 70,
-      "heat": 74
+      "heat": 75
     },
     {
       "name": "模型发布",
@@ -27,24 +27,24 @@
       "heat": 84
     },
     {
+      "name": "监管安全",
+      "count": 20,
+      "heat": 83
+    },
+    {
       "name": "研究论文",
       "count": 22,
       "heat": 70
     },
     {
-      "name": "监管安全",
-      "count": 18,
-      "heat": 82
-    },
-    {
       "name": "人工智能动态",
-      "count": 19,
-      "heat": 70
+      "count": 18,
+      "heat": 69
     },
     {
       "name": "端侧智能",
       "count": 15,
-      "heat": 80
+      "heat": 82
     },
     {
       "name": "多模态",
@@ -54,7 +54,7 @@
     {
       "name": "投融资",
       "count": 12,
-      "heat": 71
+      "heat": 74
     },
     {
       "name": "开源生态",
@@ -64,7 +64,7 @@
     {
       "name": "机器人",
       "count": 6,
-      "heat": 79
+      "heat": 78
     }
   ],
   "sources": [
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-12T14:00:00.000Z",
-      "latestDisplayedAt": "2026-10-12T14:00:00.000Z"
+      "latestFetchedAt": "2026-10-12T15:31:19.000Z",
+      "latestDisplayedAt": "2026-10-12T15:31:19.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -256,7 +256,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 4,
+      "displayedCount": 3,
       "latestFetchedAt": "2026-10-09T09:00:00.000Z",
       "latestDisplayedAt": "2026-10-09T09:00:00.000Z"
     },
@@ -448,7 +448,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 17,
-      "displayedCount": 8,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-10-12T15:08:48.000Z",
       "latestDisplayedAt": "2026-10-12T15:08:48.000Z"
     },
@@ -479,16 +479,32 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 11,
+      "itemCount": 12,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-12T13:52:00.000Z",
-      "latestDisplayedAt": "2026-10-12T13:52:00.000Z"
+      "latestFetchedAt": "2026-10-12T07:18:00.000Z",
+      "latestDisplayedAt": "2026-10-12T07:18:00.000Z"
     }
   ],
   "failures": [
     "hacker-news-ai: HTTP 419"
   ],
   "items": [
+    {
+      "id": "techcrunch-ai-微软向人工智能监管",
+      "title": "微软向人工智能监管",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T15:31:19.000Z",
+      "summary": "微软呼吁面向人工智能监管，和人工智能公司。",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "the-decoder-微软向规模人工智能芯片向由-2027",
       "title": "微软向规模人工智能芯片向由 2027",
@@ -558,40 +574,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/gpu-architecture-rolling-blog-kv-ocp-blog-1920x1080-5820310.jpg"
     },
     {
-      "id": "techcrunch-ai-科技创投媒体-2026-向保障安全向-100",
-      "title": "科技创投媒体 2026 : 向保障安全向 $100",
-      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-12T14:00:00.000Z",
-      "summary": "在 8，信息技术。10，000+，和在面向科技创投媒体 2026 面向，和创业公司。24 向保障安全向 $100，和 50%。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-刚刚-人工智能圈爆出王炸-实现-万物共脑-连大脑带具身越狱到现实",
-      "title": "刚刚，人工智能圈爆出王炸！实现「万物共脑」，连大脑带具身越狱到现实",
-      "url": "https://news.cnblogs.com/n/840260/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-12T13:52:00.000Z",
-      "summary": "新智元报道物理人工智能正在成为人工智能产业最受关注的方向之一。而让人工智能走出屏幕，则需要三样东西。一颗足够可靠的大脑，一套能组织它持续工作的执行系统，以及一个能连接物理设备的身体。模型能力不断进步，智能体执行框架持续完善，但现实世界中形态各异的设备仍然给智能体的理解与调用带来挑战。围绕本文链接",
-      "topics": [
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-微软新人工智能芯片信息技术在英伟达图形处理器",
       "title": "微软新人工智能芯片信息技术在英伟达图形处理器",
       "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
@@ -641,7 +623,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -657,7 +639,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -674,7 +656,24 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 90,
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-克劳德模型突然白送500刀",
+      "title": "克劳德模型突然白送500刀！",
+      "url": "https://news.cnblogs.com/n/840261/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T07:18:00.000Z",
+      "summary": "新智元报道克劳德模型「重度粉」狂喜！今天，人工智能安全公司开发者账号悄无声息地发布了一条重磅公告—— 克劳德模型订阅套餐与开发者接口正式打通，按月免费发放接口额度。旗舰版相关型号送 100 美元，旗舰版相关型号送 200 美元，团队版最高 500 美元，全员共本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -707,7 +706,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -725,7 +724,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -915,6 +914,23 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/PDFMPublicHealth1-hero.jpg"
     },
     {
+      "id": "techcrunch-ai-人工智能创业公司信息技术生成在",
+      "title": "人工智能创业公司信息技术生成在",
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T15:27:59.000Z",
+      "summary": "人工智能，创业公司在，软件代码，来自，文档。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能研究人工智能向",
       "title": "人工智能研究人工智能向",
       "url": "https://www.reddit.com/r/artificial/comments/1x441lg/ai_researchers_are_taking_up_smoking_because_they/",
@@ -943,7 +959,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -965,23 +981,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-26-百万面向人工智能应用向在",
-      "title": "$26 百万面向人工智能应用向在",
-      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-12T12:47:59.000Z",
-      "summary": "应用面向苹果手机，苹果电脑，和苹果",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
       "id": "thirty-six-kr-将收购人工智能分析平台",
       "title": "将收购人工智能分析平台",
       "url": "https://36kr.com/newsflashes/4022880725864579?f=rss",
@@ -994,7 +993,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1046,23 +1045,24 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
-      "id": "cnblogs-news-陶哲轩博客爆上热搜-25万数学博士临绝境-必须放缓人工智能",
-      "title": "陶哲轩博客爆上热搜！25万数学博士临绝境，必须放缓人工智能",
-      "url": "https://news.cnblogs.com/n/840259/",
+      "id": "cnblogs-news-刚刚-人工智能圈爆出王炸-实现-万物共脑-连大脑带具身越狱到现实",
+      "title": "刚刚，人工智能圈爆出王炸！实现「万物共脑」，连大脑带具身越狱到现实",
+      "url": "https://news.cnblogs.com/n/840260/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-12T07:00:00.000Z",
-      "summary": "新智元报道点开菲尔兹奖得主陶哲轩的博客的评论区，你会感到一种前所未有的震撼——当今世界最顶尖的一批数学家、物理学家、人工智能圈大佬们齐聚于此，各抒己见，吵得好不激烈。字里行间，探讨的竟是「数学界的生死存亡」与「人类学者的终极价值」。而引爆这场世纪大辩论的导火索，是接连几天内发生的极具戏剧性的巨震本文链接",
+      "publishedAt": "2026-10-12T07:10:00.000Z",
+      "summary": "新智元报道物理人工智能正在成为人工智能产业最受关注的方向之一。而让人工智能走出屏幕，则需要三样东西。一颗足够可靠的大脑，一套能组织它持续工作的执行系统，以及一个能连接物理设备的身体。模型能力不断进步，智能体执行框架持续完善，但现实世界中形态各异的设备仍然给智能体的理解与调用带来挑战。围绕本文链接",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "机器人"
       ],
-      "heat": 79,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1078,7 +1078,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1095,7 +1095,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1299,7 +1299,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1315,7 +1315,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-科技创投媒体-2026-向保障安全向-100",
+      "title": "科技创投媒体 2026 : 向保障安全向 $100",
+      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T14:00:00.000Z",
+      "summary": "在 8，信息技术。10，000+，和在面向科技创投媒体 2026 面向，和创业公司。24 向保障安全向 $100，和 50%。",
+      "topics": [
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1349,7 +1366,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1371,19 +1388,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-教授绝望-开放人工智能公司攻克的千禧年难题-人类已经看不懂了",
-      "title": "教授绝望：开放人工智能公司攻克的千禧年难题，人类已经看不懂了！",
-      "url": "https://news.cnblogs.com/n/840258/",
+      "id": "cnblogs-news-陶哲轩博客爆上热搜-25万数学博士临绝境-必须放缓人工智能",
+      "title": "陶哲轩博客爆上热搜！25万数学博士临绝境，必须放缓人工智能",
+      "url": "https://news.cnblogs.com/n/840259/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-12T06:50:00.000Z",
-      "summary": "新智元报道最近，全世界的数学圈都被人工智能核爆了。开放人工智能公司一口气发表了 722 篇论文。这些论文虽仍接受核查，但看起来，从唯一博弈猜想到准黎曼假设，许多知名的未解数学难题已攻克了。数学家一觉醒来，发现自己的研究可能被终结了！匈牙利概率论学家曾把数学家称为「 本文链接",
+      "publishedAt": "2026-10-12T07:00:00.000Z",
+      "summary": "新智元报道点开菲尔兹奖得主陶哲轩的博客的评论区，你会感到一种前所未有的震撼——当今世界最顶尖的一批数学家、物理学家、人工智能圈大佬们齐聚于此，各抒己见，吵得好不激烈。字里行间，探讨的竟是「数学界的生死存亡」与「人类学者的终极价值」。而引爆这场世纪大辩论的导火索，是接连几天内发生的极具戏剧性的巨震本文链接",
       "topics": [
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1400,23 +1417,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-11T21:14:40.000Z",
-      "summary": "我们苹果在新产品，信息技术产品和推出。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 76,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1465,7 +1466,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1638,7 +1639,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1654,8 +1655,25 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://external-preview.redd.it/4X9eenWqCLVPwlZvCd2J5IHkynRsmjLPpMH1uoCEyXw.png?width=640&crop=smart&auto=webp&s=957c332121b8efd12a5126bdd15d0708fb21cecd"
+    },
+    {
+      "id": "techcrunch-ai-26-百万面向人工智能应用向在",
+      "title": "$26 百万面向人工智能应用向在",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T12:47:59.000Z",
+      "summary": "应用面向苹果手机，苹果电脑，和苹果",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 93,
+      "image": ""
     },
     {
       "id": "thirty-six-kr-美股大型科技股盘前多数下跌-美光科技跌超2",
@@ -1670,7 +1688,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1687,7 +1705,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1707,19 +1725,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-丘成桐弟子再立功-广义庞加莱猜想证明首次形式化验证",
-      "title": "丘成桐弟子再立功，广义庞加莱猜想证明首次形式化验证！",
-      "url": "https://news.cnblogs.com/n/840257/",
+      "id": "cnblogs-news-教授绝望-开放人工智能公司攻克的千禧年难题-人类已经看不懂了",
+      "title": "教授绝望：开放人工智能公司攻克的千禧年难题，人类已经看不懂了！",
+      "url": "https://news.cnblogs.com/n/840258/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-12T06:40:00.000Z",
-      "summary": "新智元报道就在刚刚，数学界又有大消息了。9 月，人工智能成功形式化验证「庞加莱猜想」已经震撼了数学界。刚刚，由带领的顶尖学术团队，联合英伟达团队，成功完成了几何化猜想的完整形式化！哈密尔顿-佩雷尔曼那份「世纪本文链接",
+      "publishedAt": "2026-10-12T06:50:00.000Z",
+      "summary": "新智元报道最近，全世界的数学圈都被人工智能核爆了。开放人工智能公司一口气发表了 722 篇论文。这些论文虽仍接受核查，但看起来，从唯一博弈猜想到准黎曼假设，许多知名的未解数学难题已攻克了。数学家一觉醒来，发现自己的研究可能被终结了！匈牙利概率论学家曾把数学家称为「 本文链接",
       "topics": [
-        "算力芯片"
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1735,23 +1753,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-48-向科技创投媒体-2026-来自构建",
-      "title": "48 向科技创投媒体 2026，来自构建",
-      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-11T19:00:00.000Z",
-      "summary": "48，科技创投媒体 2026 在。向 $100 在在门，50% 在。得分。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 74,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1767,7 +1769,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1783,7 +1785,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1923,23 +1925,6 @@
       "image": "https://media.wired.com/photos/6ac4301373c1ba905b24e9bd/master/pass/science_openai_mathematicians_weird.jpg"
     },
     {
-      "id": "mit-tech-review-ai-人工智能智能体向企业",
-      "title": "人工智能智能体向企业",
-      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-      "source": "麻省理工科技评论人工智能",
-      "sourceId": "mit-tech-review-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-05T15:47:52.000Z",
-      "summary": "面向数据人工智能和，企业人工智能智能体来自 :。数据，数据在上下文组织。人工智能智能体向关于，决策，和 …",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 54,
-      "image": ""
-    },
-    {
       "id": "ithome-发布智能体人工智能计算机架-纯中央处理器版本可扩展至-32-768-核心",
       "title": "发布智能体人工智能计算机架，纯中央处理器版本可扩展至 32，768 核心",
       "url": "https://www.ithome.com/1/012/103.htm",
@@ -2008,35 +1993,35 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-6个月引爆重大人工智能灾难-开放人工智能公司与人工智能安全公司秘密推演-末日第二天",
-      "title": "6个月引爆重大人工智能灾难！开放人工智能公司与人工智能安全公司秘密推演「末日第二天」",
-      "url": "https://news.cnblogs.com/n/840256/",
+      "id": "cnblogs-news-丘成桐弟子再立功-广义庞加莱猜想证明首次形式化验证",
+      "title": "丘成桐弟子再立功，广义庞加莱猜想证明首次形式化验证！",
+      "url": "https://news.cnblogs.com/n/840257/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-12T06:30:00.000Z",
-      "summary": "新智元报道留给人类的时间，只剩半年了？最近刚爆了个猛料，开放人工智能公司、人工智能安全公司等硅谷巨头，私底下正在秘密推演一个极端剧本—— 「灾难第二天/次日」（ ）。一场大规模网络攻击，会让金融服务、网络，甚至电和水停摆。灾难发生后，愤怒的人群会找谁算账？本文链接",
+      "publishedAt": "2026-10-12T06:40:00.000Z",
+      "summary": "新智元报道就在刚刚，数学界又有大消息了。9 月，人工智能成功形式化验证「庞加莱猜想」已经震撼了数学界。刚刚，由带领的顶尖学术团队，联合英伟达团队，成功完成了几何化猜想的完整形式化！哈密尔顿-佩雷尔曼那份「世纪本文链接",
       "topics": [
-        "监管安全"
+        "算力芯片"
       ],
       "heat": 86,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能数据中心由得到",
-      "title": "人工智能数据中心由得到？",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T16:52:33.000Z",
-      "summary": "在，我们数据中心和人工智能问题。",
+      "publishedAt": "2026-10-11T21:14:40.000Z",
+      "summary": "我们苹果在新产品，信息技术产品和推出。",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
-      "heat": 72,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2088,7 +2073,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2257,7 +2242,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2275,6 +2260,22 @@
         "监管安全"
       ],
       "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-6个月引爆重大人工智能灾难-开放人工智能公司与人工智能安全公司秘密推演-末日第二天",
+      "title": "6个月引爆重大人工智能灾难！开放人工智能公司与人工智能安全公司秘密推演「末日第二天」",
+      "url": "https://news.cnblogs.com/n/840256/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T06:30:00.000Z",
+      "summary": "新智元报道留给人类的时间，只剩半年了？最近刚爆了个猛料，开放人工智能公司、人工智能安全公司等硅谷巨头，私底下正在秘密推演一个极端剧本—— 「灾难第二天/次日」（ ）。一场大规模网络攻击，会让金融服务、网络，甚至电和水停摆。灾难发生后，愤怒的人群会找谁算账？本文链接",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -2296,37 +2297,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-刚刚-神秘克劳德模型偷跑上线-4行提示手搓三维电影级大片",
-      "title": "刚刚，神秘克劳德模型偷跑上线！4行提示手搓三维电影级大片",
-      "url": "https://news.cnblogs.com/n/840254/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-12T06:10:00.000Z",
-      "summary": "新智元报道人工智能安全公司，怕是又憋了个大的！明明选的还是旗舰模型 5.5，出来的效果却像换了个模型。这两天，多位开发者、爆料人接连晒出克劳德模型实测，越测越怀疑：后台是不是悄悄接上了新一代模型？全新旗舰模型、旗舰模型 5.6，甚至 5.5……猜什么的都有，也有人直接把它本文链接",
-      "topics": [
-        "模型发布",
-        "监管安全"
-      ],
-      "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-认为人工智能智能聊天助手时刻",
-      "title": "认为人工智能智能聊天助手时刻",
-      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "id": "techcrunch-ai-48-向科技创投媒体-2026-来自构建",
+      "title": "48 向科技创投媒体 2026，来自构建",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-11T14:00:00.000Z",
-      "summary": "人工智能重要面向上下文，和向。",
+      "publishedAt": "2026-10-11T19:00:00.000Z",
+      "summary": "48，科技创投媒体 2026 在。向 $100 在在门，50% 在。得分。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2344,7 +2327,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2376,7 +2359,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2461,7 +2444,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": "https://preview.redd.it/22b07q4dd1vh1.jpeg?width=640&crop=smart&auto=webp&s=76bf991e32f360be77048db6c6d6ff91521dcda7"
     },
     {
@@ -2517,19 +2500,36 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-前程无忧发布2026年度典范雇主榜单-人工智能-人才与组织连接成为三大关键词",
-      "title": "前程无忧发布2026年度典范雇主榜单，人工智能、人才与组织连接成为三大关键词",
-      "url": "https://news.cnblogs.com/n/840249/",
+      "id": "cnblogs-news-刚刚-神秘克劳德模型偷跑上线-4行提示手搓三维电影级大片",
+      "title": "刚刚，神秘克劳德模型偷跑上线！4行提示手搓三维电影级大片",
+      "url": "https://news.cnblogs.com/n/840254/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-12T05:44:00.000Z",
-      "summary": "10 月 12 日，由国内领先的人力资源服务商前程无忧相关型号发起的“2026 年度典范雇主”榜单正式发布，共有 121 家企业入选，其中 84 家企业蝉联，超五成是 2026 年《财富》世界 500 强企业。本届上榜企业覆盖 253 万名在华员工，其中员工规模超过 1 万人的企业有 40 本文链接",
+      "publishedAt": "2026-10-12T06:10:00.000Z",
+      "summary": "新智元报道人工智能安全公司，怕是又憋了个大的！明明选的还是旗舰模型 5.5，出来的效果却像换了个模型。这两天，多位开发者、爆料人接连晒出克劳德模型实测，越测越怀疑：后台是不是悄悄接上了新一代模型？全新旗舰模型、旗舰模型 5.6，甚至 5.5……猜什么的都有，也有人直接把它本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-人工智能数据中心由得到",
+      "title": "人工智能数据中心由得到？",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T16:52:33.000Z",
+      "summary": "在，我们数据中心和人工智能问题。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2563,22 +2563,6 @@
         "模型发布"
       ],
       "heat": 69,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-微软人工智能模型",
-      "title": "微软人工智能模型",
-      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-10T21:47:51.000Z",
-      "summary": "在，微软首席执行官信息技术时间向和人工智能。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 56,
       "image": ""
     },
     {
@@ -2661,7 +2645,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://external-preview.redd.it/ThaZPjEwWB8QjuzmPWqTPH9f1Fv_jGmzEYdsu6fxWsA.jpeg?width=640&crop=smart&auto=webp&s=5fe0ffa04e7cf5c40764237e358f697452d3b197"
     },
     {
@@ -2678,7 +2662,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2698,19 +2682,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-每秒狂喷近500个词元-智谱相关型号高速版悄悄亮相",
-      "title": "每秒狂喷近500个词元！智谱相关型号高速版悄悄亮相",
-      "url": "https://news.cnblogs.com/n/840250/",
+      "id": "cnblogs-news-前程无忧发布2026年度典范雇主榜单-人工智能-人才与组织连接成为三大关键词",
+      "title": "前程无忧发布2026年度典范雇主榜单，人工智能、人才与组织连接成为三大关键词",
+      "url": "https://news.cnblogs.com/n/840249/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-10-12T05:44:00.000Z",
-      "summary": "智东西作者陈骏达编辑李水清智东西 10 月 12 日报道，近日，智谱在其人工智能编程工具中，悄然开启了高速旗舰模型相关型号的测试。平台上的人工智能编程博主爆料，他已经灰度到了这款模型，其输出速度竟然可以超过 490 词元/。本文链接",
+      "summary": "10 月 12 日，由国内领先的人力资源服务商前程无忧相关型号发起的“2026 年度典范雇主”榜单正式发布，共有 121 家企业入选，其中 84 家企业蝉联，超五成是 2026 年《财富》世界 500 强企业。本届上榜企业覆盖 253 万名在华员工，其中员工规模超过 1 万人的企业有 40 本文链接",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2728,7 +2712,24 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 99,
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-认为人工智能智能聊天助手时刻",
+      "title": "认为人工智能智能聊天助手时刻",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "summary": "人工智能重要面向上下文，和向。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -2761,24 +2762,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-苹果向团队和许可来自创业公司",
-      "title": "苹果向团队和许可来自创业公司",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-10T19:50:00.000Z",
-      "summary": "苹果向进入人工智能，生成企业？",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 59,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2846,6 +2830,23 @@
         "产品应用"
       ],
       "heat": 68,
+      "image": ""
+    },
+    {
+      "id": "ithome-安克人工智能会议耳机飞书版开售-支持线上线下全场景录音-1799-元",
+      "title": "安克人工智能会议耳机飞书版开售：支持线上线下全场景录音，1799 元",
+      "url": "https://www.ithome.com/1/012/072.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-12T11:39:08.000Z",
+      "summary": "科技之家 10 月 12 日消息，安克与飞书联合推出的安克人工智能会议耳机飞书版今晚 20:00 正式开售，首发价 1799 元，首发补贴价 1376.23 元。这款耳机支持线上线下全场景录音，线上通话接入后双击耳机即可自动开录，线下面对面沟通可直接通过充电盒内置录音麦克风录制，无需佩戴耳机；支持飞书、钉钉、腾讯会议、等主流线上会议应用录音。这款耳机集成飞书人工智能生态，可实……",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 89,
       "image": ""
     }
   ]
