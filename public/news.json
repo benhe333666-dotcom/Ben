@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-17T05:11:57.374Z",
+  "generatedAt": "2026-10-17T05:42:08.258Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-17T05:30:00.000Z",
+  "nextUpdateHint": "2026-10-17T06:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-17T05:01:42.000Z"
+    "latestPublishedAt": "2026-10-17T05:39:40.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 76,
+      "count": 74,
       "heat": 77
     },
     {
@@ -22,14 +22,14 @@
       "heat": 77
     },
     {
+      "name": "算力芯片",
+      "count": 24,
+      "heat": 83
+    },
+    {
       "name": "研究论文",
       "count": 25,
       "heat": 77
-    },
-    {
-      "name": "算力芯片",
-      "count": 23,
-      "heat": 83
     },
     {
       "name": "监管安全",
@@ -42,29 +42,29 @@
       "heat": 73
     },
     {
-      "name": "端侧智能",
+      "name": "投融资",
       "count": 12,
-      "heat": 75
+      "heat": 77
     },
     {
-      "name": "投融资",
-      "count": 11,
-      "heat": 78
+      "name": "端侧智能",
+      "count": 12,
+      "heat": 74
     },
     {
       "name": "人工智能动态",
       "count": 11,
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "开源生态",
       "count": 11,
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "机器人",
       "count": 9,
-      "heat": 82
+      "heat": 81
     }
   ],
   "sources": [
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-10-16T19:00:00.000Z",
       "latestDisplayedAt": "2026-10-16T19:00:00.000Z"
     },
@@ -175,10 +175,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 6,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-10-15T16:00:00.000Z",
-      "latestDisplayedAt": "2026-10-15T16:00:00.000Z"
+      "itemCount": 5,
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-10-13T16:15:00.000Z",
+      "latestDisplayedAt": "2026-10-13T16:15:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -366,7 +366,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "This operation was aborted",
+      "fallbackReason": "HTTP 429",
       "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-10-15T17:59:59.000Z",
@@ -382,7 +382,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 429",
+      "fallbackReason": "This operation was aborted",
       "itemCount": 2,
       "displayedCount": 2,
       "latestFetchedAt": "2026-10-15T17:54:13.000Z",
@@ -431,7 +431,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 15,
+      "itemCount": 14,
       "displayedCount": 8,
       "latestFetchedAt": "2026-10-17T05:01:42.000Z",
       "latestDisplayedAt": "2026-10-17T05:01:42.000Z"
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-17T04:53:56.000Z",
-      "latestDisplayedAt": "2026-10-17T04:53:56.000Z"
+      "latestFetchedAt": "2026-10-17T05:39:40.000Z",
+      "latestDisplayedAt": "2026-10-17T05:39:40.000Z"
     },
     {
       "id": "oschina",
@@ -490,6 +490,23 @@
   ],
   "items": [
     {
+      "id": "ithome-英伟达黄仁勋称人工智能现在不是泡沫-安全不应成为减速理由",
+      "title": "英伟达黄仁勋称人工智能现在不是泡沫，安全不应成为减速理由",
+      "url": "https://www.ithome.com/1/014/274.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-17T05:39:40.000Z",
+      "summary": "科技之家 10 月 17 日消息，英国当地时间 10 月 14 日在伦敦接受彭博记者采访时，英伟达首席执行官黄仁勋表示当前人工智能需求远大于供给，不认为现阶段处于“人工智能泡沫”阶段，不过他也承认未来供给可能超过需求。在采访中，黄仁勋表示：“泡沫发生在供给超过需求的时候。最终供需会趋于平衡，而且在某个时候，供给可能会超过需求，但不是今天。今天，需求远远大于供给。” 面对人工智……",
+      "topics": [
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-微软推出-人工智能学生模拟器",
       "title": "微软推出“人工智能学生模拟器”",
       "url": "https://36kr.com/newsflashes/4029401099178629?f=rss",
@@ -524,22 +541,6 @@
       "image": ""
     },
     {
-      "id": "ithome-比亚迪第三代唐四驱版申报-双电机峰值功率-215-300-四季度上市",
-      "title": "比亚迪第三代唐四驱版申报：双电机峰值功率 215、300，四季度上市",
-      "url": "https://www.ithome.com/1/014/267.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-17T04:53:56.000Z",
-      "summary": "科技之家 10 月 17 日消息，工信部发布第 412 批《道路机动车辆生产企业及产品公告》新产品公示，比亚迪第三代唐双电机四驱版车型完成申报，此前申报公示的为相关型号单电机后驱版。新车长宽高分别为 5045 毫米 × 1980 毫米 × 1740 毫米，轴距为 2950 毫米，整备质量 2520 千克，总质量 2975 千克，额定载客 5 人，最高车速可达 250 千米/。……",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-借助人工智能安全公司-首席执行官",
       "title": "借助人工智能安全公司，首席执行官",
       "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
@@ -568,7 +569,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -585,7 +586,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AutonomousWetLabs_Cover.gif"
     },
     {
@@ -702,7 +703,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -719,7 +720,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -753,7 +754,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -769,7 +770,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -786,7 +787,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -844,22 +845,6 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/press-nvidia-rtx-spark-launch-events-1920x1080-1.png"
     },
     {
-      "id": "microsoft-ai-blog-云服务-面向人工智能",
-      "title": "云服务，面向人工智能",
-      "url": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-15T16:00:00.000Z",
-      "summary": "云服务，基础设施向帮助组织构建，和和智能体在规模。云服务，面向人工智能首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 61,
-      "image": ""
-    },
-    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/nvidia",
@@ -894,6 +879,23 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg"
     },
     {
+      "id": "microsoft-ai-blog-基础设施面向-智能打开",
+      "title": "基础设施面向 : 智能打开",
+      "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-13T16:15:00.000Z",
+      "summary": "人工智能时刻，和来自构建前沿模型向智能交付。基础设施面向 : 智能打开首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "google-ai-blog-双子座模型-4-构建向解决问题",
       "title": "双子座模型 4 : 构建向解决问题",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -910,17 +912,17 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-奇瑞汽车与国家电网战略合作-首个车网互联相关型号克规模化运营场站启动",
-      "title": "奇瑞汽车与国家电网战略合作，首个车网互联相关型号克规模化运营场站启动",
-      "url": "https://www.ithome.com/1/014/266.htm",
+      "id": "ithome-比亚迪第三代唐四驱版申报-双电机峰值功率-215-300-四季度上市",
+      "title": "比亚迪第三代唐四驱版申报：双电机峰值功率 215、300，四季度上市",
+      "url": "https://www.ithome.com/1/014/267.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T04:31:35.000Z",
-      "summary": "科技之家 10 月 17 日消息，奇瑞汽车宣布与国家电网战略合作，首个车网互联相关型号克规模化运营场站启动。10 月 16 日，奇瑞绿能与国网安徽电力明生集团合作签约仪式在安徽芜湖举行。行业首个车网互联相关型号克规模化运营场站正式启用，标志着相关型号克由技术验证迈入规模化落地阶段。据介绍，相关型号克（）实现电网向车辆充电和车辆向电网反向放电双向互动，让每辆新能源车成为可移动、……",
+      "publishedAt": "2026-10-17T04:53:56.000Z",
+      "summary": "科技之家 10 月 17 日消息，工信部发布第 412 批《道路机动车辆生产企业及产品公告》新产品公示，比亚迪第三代唐双电机四驱版车型完成申报，此前申报公示的为相关型号单电机后驱版。新车长宽高分别为 5045 毫米 × 1980 毫米 × 1740 毫米，轴距为 2950 毫米，整备质量 2520 千克，总质量 2975 千克，额定载客 5 人，最高车速可达 250 千米/。……",
       "topics": [
-        "机器人"
+        "人工智能动态"
       ],
       "heat": 87,
       "image": ""
@@ -939,7 +941,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -988,7 +990,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1056,7 +1058,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1072,7 +1074,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1106,7 +1108,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1156,7 +1158,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1248,23 +1250,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-1152x648.jpg"
     },
     {
-      "id": "microsoft-ai-blog-基础设施面向-智能打开",
-      "title": "基础设施面向 : 智能打开",
-      "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-13T16:15:00.000Z",
-      "summary": "人工智能时刻，和来自构建前沿模型向智能交付。基础设施面向 : 智能打开首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-打开模型帮助-风险",
       "title": "打开模型帮助。风险？",
       "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
@@ -1299,20 +1284,35 @@
       "image": ""
     },
     {
-      "id": "ithome-谷歌深度思维哈萨比斯预警-若不对人工智能采取安全措施-未来恐发生严重事故",
-      "title": "谷歌深度思维哈萨比斯预警：若不对人工智能采取安全措施，未来恐发生严重事故",
-      "url": "https://www.ithome.com/1/014/264.htm",
+      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
+      "title": "微软云与人工智能博客发布人工智能相关动态。",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "summary": "300 作为单个平台向云服务，规模推理。进入 300 首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "ithome-奇瑞汽车与国家电网战略合作-首个车网互联相关型号克规模化运营场站启动",
+      "title": "奇瑞汽车与国家电网战略合作，首个车网互联相关型号克规模化运营场站启动",
+      "url": "https://www.ithome.com/1/014/266.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T04:19:55.000Z",
-      "summary": "科技之家 10 月 17 日消息，据路透社报道，谷歌深度思维联合创始人兼董事长德米斯 · 哈萨比斯（ ）于本周三表示，近期由人工智能智能体发起的网络攻击事件是“前哨预警”；如果各方不进一步提升系统安全性，全球可能很快会面临严重的网络安全事件。兼任谷歌母公司首席科学家的哈萨比斯在都柏林举行的一场人工智能峰会上表示：“ 我认为这些攻击事件对我们而言敲响了前期警钟。目前的系统尚不够……",
+      "publishedAt": "2026-10-17T04:31:35.000Z",
+      "summary": "科技之家 10 月 17 日消息，奇瑞汽车宣布与国家电网战略合作，首个车网互联相关型号克规模化运营场站启动。10 月 16 日，奇瑞绿能与国网安徽电力明生集团合作签约仪式在安徽芜湖举行。行业首个车网互联相关型号克规模化运营场站正式启用，标志着相关型号克由技术验证迈入规模化落地阶段。据介绍，相关型号克（）实现电网向车辆充电和车辆向电网反向放电双向互动，让每辆新能源车成为可移动、……",
       "topics": [
-        "产品应用",
-        "监管安全"
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1328,7 +1328,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1382,7 +1382,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1433,7 +1433,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1450,6 +1450,22 @@
         "产品应用"
       ],
       "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "openai-news-帮助合作伙伴答案问题更快借助智能编程工具",
+      "title": "帮助合作伙伴答案问题更快借助智能编程工具",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "构建工具向和，智能编程工具面向代码评测和更快。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 70,
       "image": ""
     },
     {
@@ -1500,23 +1516,6 @@
         "多模态"
       ],
       "heat": 63,
-      "image": ""
-    },
-    {
-      "id": "openai-news-带来罗莎琳德模型向研究实验室",
-      "title": "带来罗莎琳德模型向研究实验室",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-15T19:00:00.000Z",
-      "summary": "推出，实验室访问向罗莎琳德模型和工具向生活研究。",
-      "topics": [
-        "模型发布",
-        "研究论文"
-      ],
-      "heat": 79,
       "image": ""
     },
     {
@@ -1584,7 +1583,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GFN_Thursday_October_15_2026.jpg"
     },
     {
@@ -1637,35 +1636,20 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png"
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "summary": "300 作为单个平台向云服务，规模推理。进入 300 首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
-      "id": "ithome-前高管喊话微软修相关型号相关型号任务栏-侧边贴靠后无法自动隐藏-调整大小",
-      "title": "前高管喊话微软修相关型号相关型号任务栏：侧边贴靠后无法自动隐藏 / 调整大小",
-      "url": "https://www.ithome.com/1/014/261.htm",
+      "id": "ithome-谷歌深度思维哈萨比斯预警-若不对人工智能采取安全措施-未来恐发生严重事故",
+      "title": "谷歌深度思维哈萨比斯预警：若不对人工智能采取安全措施，未来恐发生严重事故",
+      "url": "https://www.ithome.com/1/014/264.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T03:46:20.000Z",
-      "summary": "科技之家 10 月 17 日消息，科技媒体视窗系统发布博文，报道称曾任微软视窗系统与负责人的米哈伊尔 · 帕拉欣（ ）今天（10 月 17 日）在平台发布推文，公开批评视窗系统 11 相关型号的任务栏体验，称其“尚不可用”。帕拉欣以搜索引擎、广告技术、云计算和消费级人工智能产品见长，曾于 2007 年至 2014 年效力于微软，2009 年起负责多媒体搜索。米哈伊尔 · 帕拉……",
+      "publishedAt": "2026-10-17T04:19:55.000Z",
+      "summary": "科技之家 10 月 17 日消息，据路透社报道，谷歌深度思维联合创始人兼董事长德米斯 · 哈萨比斯（ ）于本周三表示，近期由人工智能智能体发起的网络攻击事件是“前哨预警”；如果各方不进一步提升系统安全性，全球可能很快会面临严重的网络安全事件。兼任谷歌母公司首席科学家的哈萨比斯在都柏林举行的一场人工智能峰会上表示：“ 我认为这些攻击事件对我们而言敲响了前期警钟。目前的系统尚不够……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1699,7 +1683,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1735,7 +1719,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1769,7 +1753,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1823,6 +1807,23 @@
       "image": ""
     },
     {
+      "id": "openai-news-带来罗莎琳德模型向研究实验室",
+      "title": "带来罗莎琳德模型向研究实验室",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "summary": "推出，实验室访问向罗莎琳德模型和工具向生活研究。",
+      "topics": [
+        "模型发布",
+        "研究论文"
+      ],
+      "heat": 79,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-ai-论文新进展-计算机视觉方向研究",
       "title": "论文新进展：计算机视觉方向研究",
       "url": "https://arxiv.org/abs/2610.22353v1",
@@ -1854,23 +1855,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 69,
-      "image": ""
-    },
-    {
-      "id": "openai-news-向认为和了解问题",
-      "title": "向认为和了解问题",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "summary": "借助人工智能面向在和查看模式帮助支持，由。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 61,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1943,21 +1928,19 @@
       "image": "https://media.wired.com/photos/6ace87bed95d506835d511b4/master/pass/AI-Lab-AI-Coming-for-Other-Areas-of-Science-Businesspsd.jpg"
     },
     {
-      "id": "ithome-为避免银行存款大量流失-花旗-美银出手限制智能体访问客户账户",
-      "title": "为避免银行存款大量流失，花旗、美银出手限制智能体访问客户账户",
-      "url": "https://www.ithome.com/1/014/260.htm",
+      "id": "ithome-前高管喊话微软修相关型号相关型号任务栏-侧边贴靠后无法自动隐藏-调整大小",
+      "title": "前高管喊话微软修相关型号相关型号任务栏：侧边贴靠后无法自动隐藏 / 调整大小",
+      "url": "https://www.ithome.com/1/014/261.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T03:32:42.000Z",
-      "summary": "科技之家 10 月 17 日消息，美国银行业向监管机构警告，人工智能智能体可能为了帮助用户获得更高收益，自动将闲置资金转往其他账户，导致银行存款大量流失。据英国《金融时报》16 日报道，花旗集团和美国银行也已出手，限制人工智能智能体访问客户账户。花旗称，为保障客户账户和个人信息安全，该行禁止第三方人工智能智能体或助手登录客户账户，也不允许其直接通过花旗的数字银行平台办理交易。……",
+      "publishedAt": "2026-10-17T03:46:20.000Z",
+      "summary": "科技之家 10 月 17 日消息，科技媒体视窗系统发布博文，报道称曾任微软视窗系统与负责人的米哈伊尔 · 帕拉欣（ ）今天（10 月 17 日）在平台发布推文，公开批评视窗系统 11 相关型号的任务栏体验，称其“尚不可用”。帕拉欣以搜索引擎、广告技术、云计算和消费级人工智能产品见长，曾于 2007 年至 2014 年效力于微软，2009 年起负责多媒体搜索。米哈伊尔 · 帕拉……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1973,7 +1956,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -1991,7 +1974,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://external-preview.redd.it/OS6bBpZsi9cnIwClGXjh_36_41n0GM-cx0e5fahsBjY.jpeg?width=640&crop=smart&auto=webp&s=b251f7e7ff82d4aeb2e3a321bfba387af347d5ef"
     },
     {
@@ -2009,7 +1992,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2042,7 +2025,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2059,7 +2042,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2075,7 +2058,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2131,6 +2114,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-向认为和了解问题",
+      "title": "向认为和了解问题",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "summary": "借助人工智能面向在和查看模式帮助支持，由。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-向人工智能助手记忆",
       "title": "向人工智能助手记忆。",
       "url": "https://towardsdatascience.com/i-tested-four-ways-to-give-an-ai-assistant-a-memory-the-obvious-one-was-the-worst-value/",
@@ -2162,22 +2161,6 @@
       ],
       "heat": 65,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nordics-embrace-social-1920x1080-5822300.jpeg"
-    },
-    {
-      "id": "openai-news-带来进入评测",
-      "title": "& 带来进入评测",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "在借助开放人工智能公司，&，人工智能工具面向在。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 63,
-      "image": ""
     },
     {
       "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
@@ -2212,20 +2195,21 @@
       "image": "https://media.wired.com/photos/6ace9af8b7c3e684c0712364/master/pass/Men-Cant-Stop-Lying-About-AI-Business938329806.jpg"
     },
     {
-      "id": "ithome-行业首个基于确定性网络的智能体互联平台在南京发布-支持百万级智能体注册接入-十万级智能体同时运行",
-      "title": "行业首个基于确定性网络的智能体互联平台在南京发布：支持百万级智能体注册接入、十万级智能体同时运行",
-      "url": "https://www.ithome.com/1/014/259.htm",
+      "id": "ithome-为避免银行存款大量流失-花旗-美银出手限制智能体访问客户账户",
+      "title": "为避免银行存款大量流失，花旗、美银出手限制智能体访问客户账户",
+      "url": "https://www.ithome.com/1/014/260.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T03:30:28.000Z",
-      "summary": "科技之家 10 月 17 日消息，10 月 16 日，第十届未来网络发展大会在南京上秦淮国际文化交流中心开幕。行业首个基于确定性网络的智能体互联平台正式发布。紫金山实验室联合中国移动、江苏未来网络集团、江苏省未来网络创新研究院联合研发，发布基于确定性网络 （指在一个网络域内给承载的业务提供确定性业务保证的能力） 的智能体互联平台，可实现智算网深度融合调度、异构智能体协议统一转……",
+      "publishedAt": "2026-10-17T03:32:42.000Z",
+      "summary": "科技之家 10 月 17 日消息，美国银行业向监管机构警告，人工智能智能体可能为了帮助用户获得更高收益，自动将闲置资金转往其他账户，导致银行存款大量流失。据英国《金融时报》16 日报道，花旗集团和美国银行也已出手，限制人工智能智能体访问客户账户。花旗称，为保障客户账户和个人信息安全，该行禁止第三方人工智能智能体或助手登录客户账户，也不允许其直接通过花旗的数字银行平台办理交易。……",
       "topics": [
         "产品应用",
-        "研究论文"
+        "监管安全",
+        "机器人"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2242,7 +2226,7 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2275,7 +2259,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2325,7 +2309,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2341,7 +2325,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -2395,6 +2379,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-带来进入评测",
+      "title": "& 带来进入评测",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "在借助开放人工智能公司，&，人工智能工具面向在。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 63,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-在功能-功能数据",
       "title": "在功能: 功能数据",
       "url": "https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/",
@@ -2410,23 +2410,6 @@
         "端侧智能"
       ],
       "heat": 66,
-      "image": ""
-    },
-    {
-      "id": "openai-news-人工智能智能体向代码借助开放人工智能公司模型",
-      "title": "人工智能智能体向代码借助开放人工智能公司模型",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "summary": "查看智能体借助，实时，1，和在借助智能聊天助手。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 68,
       "image": ""
     },
     {
@@ -2481,21 +2464,20 @@
       "image": ""
     },
     {
-      "id": "ithome-微软发布相关型号相关型号-28120-3272-预览版-新增光标指示器-修复音频组件致部分游戏-应用崩溃问题",
-      "title": "微软发布相关型号相关型号 28120.3272 预览版：新增光标指示器，修复音频组件致部分游戏 / 应用崩溃问题",
-      "url": "https://www.ithome.com/1/014/254.htm",
+      "id": "ithome-行业首个基于确定性网络的智能体互联平台在南京发布-支持百万级智能体注册接入-十万级智能体同时运行",
+      "title": "行业首个基于确定性网络的智能体互联平台在南京发布：支持百万级智能体注册接入、十万级智能体同时运行",
+      "url": "https://www.ithome.com/1/014/259.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T03:07:42.000Z",
-      "summary": "科技之家 10 月 17 日消息，微软今天（10 月 17 日）发布博文，邀请频道的视窗系统项目成员，测试适用于视窗系统 11 相关型号的新预览版 28120.3272，主要修复音频组件导致部分应用崩溃故障。视窗系统 11 相关型号主要适用于高通骁龙相关型号系列笔记本（最主要目标平台），还有英伟达相关型号等新一代系统级芯片芯片设备，这些设备主打长续航、低功耗、原生算力。科技之……",
+      "publishedAt": "2026-10-17T03:30:28.000Z",
+      "summary": "科技之家 10 月 17 日消息，10 月 16 日，第十届未来网络发展大会在南京上秦淮国际文化交流中心开幕。行业首个基于确定性网络的智能体互联平台正式发布。紫金山实验室联合中国移动、江苏未来网络集团、江苏省未来网络创新研究院联合研发，发布基于确定性网络 （指在一个网络域内给承载的业务提供确定性业务保证的能力） 的智能体互联平台，可实现智算网深度融合调度、异构智能体协议统一转……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2512,7 +2494,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2545,7 +2527,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2562,7 +2544,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2597,7 +2579,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2632,23 +2614,24 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/index/sentinelone",
+      "id": "openai-news-人工智能智能体向代码借助开放人工智能公司模型",
+      "title": "人工智能智能体向代码借助开放人工智能公司模型",
+      "url": "https://openai.com/index/amp-beyond-coding",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-10-14T12:00:00.000Z",
-      "summary": "借助开放人工智能公司，向，向。",
+      "summary": "查看智能体借助，实时，1，和在借助智能聊天助手。",
       "topics": [
-        "投融资"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 63,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2702,20 +2685,21 @@
       "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg"
     },
     {
-      "id": "ithome-微软发布法律版智能副驾-律师的人工智能新同事-整合审查合同等超-20-项技能",
-      "title": "微软发布法律版智能副驾：律师的人工智能新同事，整合审查合同等超 20 项技能",
-      "url": "https://www.ithome.com/1/014/250.htm",
+      "id": "ithome-微软发布相关型号相关型号-28120-3272-预览版-新增光标指示器-修复音频组件致部分游戏-应用崩溃问题",
+      "title": "微软发布相关型号相关型号 28120.3272 预览版：新增光标指示器，修复音频组件致部分游戏 / 应用崩溃问题",
+      "url": "https://www.ithome.com/1/014/254.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T02:55:12.000Z",
-      "summary": "科技之家 10 月 17 日消息，微软副董事长兼总裁布拉德 · 史密斯（ ）昨日（10 月 16 日）发布推文，宣布微软推出智能副驾，为全球商用客户提供超过 20 项面向法律工作的专用人工智能 （技能）。这些专用围绕着法律工作专门构建，以法律插件形式集成到智能副驾中。每项技能都针对一个具体法律任务，例如起草合同、审查协议、追踪义务或整理案件时间线。科技之家附上相关截图如下：在……",
+      "publishedAt": "2026-10-17T03:07:42.000Z",
+      "summary": "科技之家 10 月 17 日消息，微软今天（10 月 17 日）发布博文，邀请频道的视窗系统项目成员，测试适用于视窗系统 11 相关型号的新预览版 28120.3272，主要修复音频组件导致部分应用崩溃故障。视窗系统 11 相关型号主要适用于高通骁龙相关型号系列笔记本（最主要目标平台），还有英伟达相关型号等新一代系统级芯片芯片设备，这些设备主打长续航、低功耗、原生算力。科技之……",
       "topics": [
         "产品应用",
+        "算力芯片",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2732,7 +2716,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2765,7 +2749,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2798,7 +2782,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2815,7 +2799,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2833,7 +2817,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2850,6 +2834,22 @@
         "产品应用"
       ],
       "heat": 59,
+      "image": ""
+    },
+    {
+      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
+      "title": "开放人工智能公司发布人工智能相关动态。",
+      "url": "https://openai.com/index/sentinelone",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "summary": "借助开放人工智能公司，向，向。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 63,
       "image": ""
     }
   ]
