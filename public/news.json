@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:03:21.325Z",
+  "generatedAt": "2026-10-17T05:11:57.374Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-10-17T05:30:00.000Z",
   "stats": {
@@ -8,7 +8,7 @@
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-17T04:55:47.000Z"
+    "latestPublishedAt": "2026-10-17T05:01:42.000Z"
   },
   "topics": [
     {
@@ -18,13 +18,8 @@
     },
     {
       "name": "模型发布",
-      "count": 51,
+      "count": 50,
       "heat": 77
-    },
-    {
-      "name": "算力芯片",
-      "count": 24,
-      "heat": 84
     },
     {
       "name": "研究论文",
@@ -32,24 +27,29 @@
       "heat": 77
     },
     {
+      "name": "算力芯片",
+      "count": 23,
+      "heat": 83
+    },
+    {
       "name": "监管安全",
-      "count": 21,
-      "heat": 84
+      "count": 20,
+      "heat": 83
     },
     {
       "name": "多模态",
       "count": 15,
-      "heat": 74
-    },
-    {
-      "name": "投融资",
-      "count": 12,
-      "heat": 80
+      "heat": 73
     },
     {
       "name": "端侧智能",
       "count": 12,
       "heat": 75
+    },
+    {
+      "name": "投融资",
+      "count": 11,
+      "heat": 78
     },
     {
       "name": "人工智能动态",
@@ -80,7 +80,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 12,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-10-16T19:00:00.000Z",
       "latestDisplayedAt": "2026-10-16T19:00:00.000Z"
     },
@@ -175,10 +175,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 5,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-10-13T16:15:00.000Z",
-      "latestDisplayedAt": "2026-10-13T16:15:00.000Z"
+      "itemCount": 6,
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-10-15T16:00:00.000Z",
+      "latestDisplayedAt": "2026-10-15T16:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -428,13 +428,13 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": false,
-      "fallback": true,
-      "fallbackReason": "fetch failed",
-      "itemCount": 8,
+      "liveOk": true,
+      "fallback": false,
+      "fallbackReason": "",
+      "itemCount": 15,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-17T03:38:41.000Z",
-      "latestDisplayedAt": "2026-10-17T03:38:41.000Z"
+      "latestFetchedAt": "2026-10-17T05:01:42.000Z",
+      "latestDisplayedAt": "2026-10-17T05:01:42.000Z"
     },
     {
       "id": "ithome",
@@ -490,6 +490,22 @@
   ],
   "items": [
     {
+      "id": "thirty-six-kr-微软推出-人工智能学生模拟器",
+      "title": "微软推出“人工智能学生模拟器”",
+      "url": "https://36kr.com/newsflashes/4029401099178629?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-17T05:01:42.000Z",
+      "summary": "微软研究院近日发布研究系统，试图解决人工智能辅导工具开发中的一个关键难题：如何在没有大规模真人实验的情况下，判断一段讲解、提示或提问是否真正帮助学生进步。传统人工智能导师往往只看“答案是否正确”，但教学效果还取决于学生是否理解、能否纠正错误，以及不同学生是否需要不同解答支持。真实学习者研究能回答这些问题，却耗时、昂贵且难以规模化，难以支撑模型的快速迭代。微软为此推出系统，基于……",
+      "topics": [
+        "研究论文"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
       "title": "人工智能社区热议发布人工智能相关动态。",
       "url": "https://www.reddit.com/r/artificial/comments/1x81him/please_help_me_im_being_harassed_and_threatened/",
@@ -504,7 +520,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -524,23 +540,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-预报时效11天-超算互联网助-风清集合-人工智能业务化运行",
-      "title": "预报时效11天，超算互联网助\"风清集合\"人工智能业务化运行",
-      "url": "https://36kr.com/newsflashes/4029420684546436?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-17T03:38:41.000Z",
-      "summary": "36氪获悉，近日，“风清”人工智能全球短中期集合天气预报系统第1代.0顺利通过业务化评审并投入运行。该系统全程依托国家超算互联网核心节点的十万卡相关型号计算集群完成训练，成为全国首个实现数据、模型、算力全自主的业务应用气象人工智能集合预报模型。其全球有效预报时效达11天，综合预报效果超越欧洲中期天气预报中心（）的人工智能集合预报系统。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-借助人工智能安全公司-首席执行官",
       "title": "借助人工智能安全公司，首席执行官",
       "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
@@ -553,7 +552,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -619,7 +618,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -637,7 +636,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -653,7 +652,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -736,7 +735,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -845,6 +844,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/press-nvidia-rtx-spark-launch-events-1920x1080-1.png"
     },
     {
+      "id": "microsoft-ai-blog-云服务-面向人工智能",
+      "title": "云服务，面向人工智能",
+      "url": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "summary": "云服务，基础设施向帮助组织构建，和和智能体在规模。云服务，面向人工智能首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 61,
+      "image": ""
+    },
+    {
       "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
       "title": "人工智能产品发现发布人工智能相关动态。",
       "url": "https://www.producthunt.com/products/nvidia",
@@ -879,23 +894,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg"
     },
     {
-      "id": "microsoft-ai-blog-基础设施面向-智能打开",
-      "title": "基础设施面向 : 智能打开",
-      "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-13T16:15:00.000Z",
-      "summary": "人工智能时刻，和来自构建前沿模型向智能交付。基础设施面向 : 智能打开首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "google-ai-blog-双子座模型-4-构建向解决问题",
       "title": "双子座模型 4 : 构建向解决问题",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -928,19 +926,20 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-摩根士丹利-明年超大规模及新兴云厂商数据中心新增算力将同比激增48",
-      "title": "摩根士丹利：明年超大规模及新兴云厂商数据中心新增算力将同比激增48%",
-      "url": "https://36kr.com/newsflashes/4029287613485702?f=rss",
+      "id": "thirty-six-kr-预报时效11天-超算互联网助-风清集合-人工智能业务化运行",
+      "title": "预报时效11天，超算互联网助\"风清集合\"人工智能业务化运行",
+      "url": "https://36kr.com/newsflashes/4029420684546436?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T03:36:15.000Z",
-      "summary": "据报道，摩根士丹利称，2027年，超大规模云厂商与新兴云的数据中心新增算力规模将同比激增48%，达到32吉瓦。谷歌、亚马逊、微软、元宇宙平台公司四大超大规模云厂商贡献约85%的新增建设量；2028年将再新增39吉瓦，同比扩张21%。（界面）",
+      "publishedAt": "2026-10-17T03:38:41.000Z",
+      "summary": "36氪获悉，近日，“风清”人工智能全球短中期集合天气预报系统第1代.0顺利通过业务化评审并投入运行。该系统全程依托国家超算互联网核心节点的十万卡相关型号计算集群完成训练，成为全国首个实现数据、模型、算力全自主的业务应用气象人工智能集合预报模型。其全球有效预报时效达11天，综合预报效果超越欧洲中期天气预报中心（）的人工智能集合预报系统。",
       "topics": [
+        "产品应用",
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
@@ -972,7 +971,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1022,7 +1021,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1211,7 +1210,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/FIRST-agentic-ai-nemotron-3.5-super-vl-blog-1920x1080-5783765.jpeg"
     },
     {
@@ -1249,6 +1248,23 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-1152x648.jpg"
     },
     {
+      "id": "microsoft-ai-blog-基础设施面向-智能打开",
+      "title": "基础设施面向 : 智能打开",
+      "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-13T16:15:00.000Z",
+      "summary": "人工智能时刻，和来自构建前沿模型向智能交付。基础设施面向 : 智能打开首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
       "id": "mit-tech-review-ai-打开模型帮助-风险",
       "title": "打开模型帮助。风险？",
       "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
@@ -1283,22 +1299,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "summary": "300 作为单个平台向云服务，规模推理。进入 300 首个在微软。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 52,
-      "image": ""
-    },
-    {
       "id": "ithome-谷歌深度思维哈萨比斯预警-若不对人工智能采取安全措施-未来恐发生严重事故",
       "title": "谷歌深度思维哈萨比斯预警：若不对人工智能采取安全措施，未来恐发生严重事故",
       "url": "https://www.ithome.com/1/014/264.htm",
@@ -1316,17 +1316,17 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-马斯克-正在开发专用议价机器人-每年可为全球节省6万亿美元",
-      "title": "马斯克：正在开发专用议价机器人，每年可为全球节省6万亿美元",
-      "url": "https://36kr.com/newsflashes/4029284724806019?f=rss",
+      "id": "thirty-six-kr-摩根士丹利-明年超大规模及新兴云厂商数据中心新增算力将同比激增48",
+      "title": "摩根士丹利：明年超大规模及新兴云厂商数据中心新增算力将同比激增48%",
+      "url": "https://36kr.com/newsflashes/4029287613485702?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T02:46:20.000Z",
-      "summary": "马斯克发文称：我们正投入大量资源开发面向商业场景的专用议价机器人（），我们认为该产品能够将企业成本效率提升5%乃至更高。如果放到全球的维度测算，每年可节省的成本规模最高可达6万亿美元；凡是使用的企业，都能获得立即可量化的竞争优势。（财联社）",
+      "publishedAt": "2026-10-17T03:36:15.000Z",
+      "summary": "据报道，摩根士丹利称，2027年，超大规模云厂商与新兴云的数据中心新增算力规模将同比激增48%，达到32吉瓦。谷歌、亚马逊、微软、元宇宙平台公司四大超大规模云厂商贡献约85%的新增建设量；2028年将再新增39吉瓦，同比扩张21%。（界面）",
       "topics": [
-        "机器人"
+        "算力芯片"
       ],
       "heat": 87,
       "image": ""
@@ -1416,7 +1416,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1467,7 +1467,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1637,6 +1637,22 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png"
     },
     {
+      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
+      "title": "微软云与人工智能博客发布人工智能相关动态。",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "summary": "300 作为单个平台向云服务，规模推理。进入 300 首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
       "id": "ithome-前高管喊话微软修相关型号相关型号任务栏-侧边贴靠后无法自动隐藏-调整大小",
       "title": "前高管喊话微软修相关型号相关型号任务栏：侧边贴靠后无法自动隐藏 / 调整大小",
       "url": "https://www.ithome.com/1/014/261.htm",
@@ -1653,19 +1669,19 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-开放人工智能公司挖角核心销售负责人",
-      "title": "开放人工智能公司挖角核心销售负责人",
-      "url": "https://36kr.com/newsflashes/4029282649428359?f=rss",
+      "id": "thirty-six-kr-马斯克-正在开发专用议价机器人-每年可为全球节省6万亿美元",
+      "title": "马斯克：正在开发专用议价机器人，每年可为全球节省6万亿美元",
+      "url": "https://36kr.com/newsflashes/4029284724806019?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T02:23:12.000Z",
-      "summary": "当地时间10月16日，开放人工智能公司正式聘请“市场进入策略”（）负责人出任公司网络安全业务线销售负责人。（界面）",
+      "publishedAt": "2026-10-17T02:46:20.000Z",
+      "summary": "马斯克发文称：我们正投入大量资源开发面向商业场景的专用议价机器人（），我们认为该产品能够将企业成本效率提升5%乃至更高。如果放到全球的维度测算，每年可节省的成本规模最高可达6万亿美元；凡是使用的企业，都能获得立即可量化的竞争优势。（财联社）",
       "topics": [
-        "监管安全"
+        "机器人"
       ],
-      "heat": 94,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1945,20 +1961,19 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-人工智能安全公司据悉向美议员推介人工智能安全方案-拟为模型发布设置门槛",
-      "title": "人工智能安全公司据悉向美议员推介人工智能安全方案，拟为模型发布设置门槛",
-      "url": "https://36kr.com/newsflashes/4029281854755459?f=rss",
+      "id": "thirty-six-kr-开放人工智能公司挖角核心销售负责人",
+      "title": "开放人工智能公司挖角核心销售负责人",
+      "url": "https://36kr.com/newsflashes/4029282649428359?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T02:06:22.000Z",
-      "summary": "据报道，人工智能安全公司向美国议员提交人工智能安全法案草案，其中提出人工智能安全监管方案该提案建议，如果某款人工智能模型被认定存在迫在眉睫的风险，可能导致超50人伤亡或造成超10亿美元损失，政府可阻止其发布。（界面）",
+      "publishedAt": "2026-10-17T02:23:12.000Z",
+      "summary": "当地时间10月16日，开放人工智能公司正式聘请“市场进入策略”（）负责人出任公司网络安全业务线销售负责人。（界面）",
       "topics": [
-        "模型发布",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2214,20 +2229,20 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-软银集团考虑收购美国安保服务提供商",
-      "title": "软银集团考虑收购美国安保服务提供商",
-      "url": "https://36kr.com/newsflashes/4029275475776129?f=rss",
+      "id": "thirty-six-kr-人工智能安全公司据悉向美议员推介人工智能安全方案-拟为模型发布设置门槛",
+      "title": "人工智能安全公司据悉向美议员推介人工智能安全方案，拟为模型发布设置门槛",
+      "url": "https://36kr.com/newsflashes/4029281854755459?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T01:20:56.000Z",
-      "summary": "据报道，知情人士透露，软银集团正考虑收购美国安保服务提供商。若交易达成，的估值可能达到约180亿美元。报道称，通过收购，软银计划未来逐步引入机器人替代部分安保岗位人力，但部署人形安保机器人或需更长时间。（界面）",
+      "publishedAt": "2026-10-17T02:06:22.000Z",
+      "summary": "据报道，人工智能安全公司向美国议员提交人工智能安全法案草案，其中提出人工智能安全监管方案该提案建议，如果某款人工智能模型被认定存在迫在眉睫的风险，可能导致超50人伤亡或造成超10亿美元损失，政府可阻止其发布。（界面）",
       "topics": [
-        "投融资",
-        "机器人"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 90,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2294,7 +2309,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2484,20 +2499,20 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-黄仁勋谈人工智能市场震荡-这一切都会过去",
-      "title": "黄仁勋谈人工智能市场震荡：“这一切都会过去”",
-      "url": "https://36kr.com/newsflashes/4029282300023169?f=rss",
+      "id": "thirty-six-kr-软银集团考虑收购美国安保服务提供商",
+      "title": "软银集团考虑收购美国安保服务提供商",
+      "url": "https://36kr.com/newsflashes/4029275475776129?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T01:17:54.000Z",
-      "summary": "据报道，对于人工智能股票最近一轮大跌，英伟达首席执行官黄仁勋表现出乐观态度，称这项技术带来的好处很快就会化解投资者的担忧。黄仁勋在柏林举行的一场活动期间表示：“这一切都会过去，原因非常简单。人工智能将带来变革。它将以非常积极的方式影响每一个行业和每一个国家。毫无疑问，这种影响将会持续下去，而我们正处于这个进程的开端。”（界面）",
+      "publishedAt": "2026-10-17T01:20:56.000Z",
+      "summary": "据报道，知情人士透露，软银集团正考虑收购美国安保服务提供商。若交易达成，的估值可能达到约180亿美元。报道称，通过收购，软银计划未来逐步引入机器人替代部分安保岗位人力，但部署人形安保机器人或需更长时间。（界面）",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "投融资",
+        "机器人"
       ],
-      "heat": 98,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2704,21 +2719,20 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-人工智能安全公司据悉在最新一轮芯片融资交易中向黑石提供两位数收益率",
-      "title": "人工智能安全公司据悉在最新一轮芯片融资交易中向黑石提供两位数收益率",
-      "url": "https://36kr.com/newsflashes/4029274536317576?f=rss",
+      "id": "thirty-six-kr-黄仁勋谈人工智能市场震荡-这一切都会过去",
+      "title": "黄仁勋谈人工智能市场震荡：“这一切都会过去”",
+      "url": "https://36kr.com/newsflashes/4029282300023169?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T01:10:00.000Z",
-      "summary": "据报道，人工智能安全公司正向黑石集团提供超过10%的高收益率，以筹集资金支持其最新芯片交易。这笔规模达600亿美元的债务融资计划被称为“北极星项目”（ ），将帮助人工智能安全公司采购约1.5吉瓦由谷歌开发的定制半导体，即张量处理器。预计这将成为迄今规模最大的芯片融资交易，也将成为检验投资者对人工智能相关债务需求的关键考验。知情人士透露，黑石旗下基金将投资90亿美元，购买以人工……",
+      "publishedAt": "2026-10-17T01:17:54.000Z",
+      "summary": "据报道，对于人工智能股票最近一轮大跌，英伟达首席执行官黄仁勋表现出乐观态度，称这项技术带来的好处很快就会化解投资者的担忧。黄仁勋在柏林举行的一场活动期间表示：“这一切都会过去，原因非常简单。人工智能将带来变革。它将以非常积极的方式影响每一个行业和每一个国家。毫无疑问，这种影响将会持续下去，而我们正处于这个进程的开端。”（界面）",
       "topics": [
         "算力芯片",
-        "监管安全",
         "投融资"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2836,24 +2850,6 @@
         "产品应用"
       ],
       "heat": 59,
-      "image": ""
-    },
-    {
-      "id": "openai-news-时刻研究-10-000-智能体面向-36",
-      "title": "时刻研究 10，000 智能体面向 36+",
-      "url": "https://openai.com/index/third-moment-research",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "summary": "借助和，智能编程工具，和面向，人工智能实验室构建智能体面向和改进借助使用。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 73,
       "image": ""
     }
   ]
