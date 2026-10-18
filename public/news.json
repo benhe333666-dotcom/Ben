@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-18T13:44:15.495Z",
+  "generatedAt": "2026-10-18T14:14:24.390Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-18T14:00:00.000Z",
+  "nextUpdateHint": "2026-10-18T14:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-18T13:25:18.000Z"
+    "latestPublishedAt": "2026-10-18T14:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 68,
-      "heat": 70
+      "count": 66,
+      "heat": 69
     },
     {
       "name": "模型发布",
-      "count": 54,
+      "count": 52,
       "heat": 71
     },
     {
       "name": "算力芯片",
-      "count": 26,
+      "count": 25,
       "heat": 77
     },
     {
@@ -33,28 +33,28 @@
     },
     {
       "name": "研究论文",
-      "count": 18,
+      "count": 19,
       "heat": 68
     },
     {
       "name": "人工智能动态",
-      "count": 16,
+      "count": 17,
       "heat": 67
     },
     {
-      "name": "端侧智能",
+      "name": "多模态",
       "count": 14,
+      "heat": 62
+    },
+    {
+      "name": "端侧智能",
+      "count": 12,
       "heat": 69
     },
     {
-      "name": "多模态",
-      "count": 12,
-      "heat": 64
-    },
-    {
       "name": "投融资",
-      "count": 10,
-      "heat": 68
+      "count": 11,
+      "heat": 70
     },
     {
       "name": "开源生态",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 4,
-      "heat": 65
+      "count": 5,
+      "heat": 64
     }
   ],
   "sources": [
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-10-18T12:00:00.000Z",
-      "latestDisplayedAt": "2026-10-18T12:00:00.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-10-18T14:00:00.000Z",
+      "latestDisplayedAt": "2026-10-18T14:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-18T12:31:49.000Z",
-      "latestDisplayedAt": "2026-10-18T12:31:49.000Z"
+      "latestFetchedAt": "2026-10-18T13:54:57.000Z",
+      "latestDisplayedAt": "2026-10-18T13:54:57.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -399,7 +399,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
+      "itemCount": 9,
       "displayedCount": 8,
       "latestFetchedAt": "2026-10-17T12:21:09.000Z",
       "latestDisplayedAt": "2026-10-17T12:21:09.000Z"
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 16,
+      "itemCount": 17,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-18T13:25:18.000Z",
-      "latestDisplayedAt": "2026-10-18T13:25:18.000Z"
+      "latestFetchedAt": "2026-10-18T13:49:42.000Z",
+      "latestDisplayedAt": "2026-10-18T13:49:42.000Z"
     },
     {
       "id": "oschina",
@@ -480,7 +480,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-10-18T10:05:00.000Z",
       "latestDisplayedAt": "2026-10-18T10:05:00.000Z"
     }
@@ -490,19 +490,52 @@
   ],
   "items": [
     {
-      "id": "ithome-英伟达优化月之暗面相关型号模型推理速度-提升-1-68-倍",
-      "title": "英伟达优化月之暗面相关型号模型推理速度，提升 1.68 倍",
-      "url": "https://www.ithome.com/1/014/595.htm",
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/inferring-the-host-a-bayesian-look-at-the-monty-hall-problem/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-18T14:00:00.000Z",
+      "summary": "面向。和。: 在问题首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-向工程师-向信息技术",
+      "title": "向工程师？向信息技术",
+      "url": "https://www.reddit.com/r/artificial/comments/1x93tdo/has_anyone_found_a_way_to_reverse_engineer_alexa/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-18T13:54:57.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "ithome-价值-250-万雷亚尔英伟达-5090-显卡货物在巴西圣保罗机场不翼而飞",
+      "title": "价值 250 万雷亚尔英伟达 5090 显卡货物在巴西圣保罗机场不翼而飞",
+      "url": "https://www.ithome.com/1/014/598.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T13:25:18.000Z",
-      "summary": "科技之家 10 月 18 日消息，调研机构今日发文称，英伟达通过一项上游优化，让 2.8 万亿参数量的月之暗面相关型号模型实现 423 //（每用户每秒每词元）的推理速度，对比相同硬件（相关型号相关型号）性能提升 1.68 倍。据介绍，该项优化由英伟达工程师完成。它通过大规模融合，使用编写英伟达新推出的解码专用内核。该包含 1.2 万行代码，代表着人工智能辅助生成高级计算内核……",
+      "publishedAt": "2026-10-18T13:49:42.000Z",
+      "summary": "科技之家 10 月 18 日消息，据巴西时报今日报道，总部位于巴西巴拉那州马林加市的分销商 ç 爆料，一批成本价约 250 万雷亚尔（科技之家注：约 330 万元人民币）的英伟达 5090 显卡运抵圣保罗瓜鲁柳斯国际机场后失踪。该公司表示，航站楼内收到了装载索泰产品的两个货物托盘，但之后这批货物就找不到了。公司总裁奥德尔索・马托斯介绍，这家分销商正在追查事件详情，目前还没有收……",
       "topics": [
-        "算力芯片"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
@@ -524,39 +557,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-我们人工智能-96-7",
-      "title": "我们人工智能 : 96.7%",
-      "url": "https://www.reddit.com/r/artificial/comments/1x922ye/we_tested_two_ai_versions_967_accuracy_same/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-18T12:31:49.000Z",
-      "summary": "我们 1.13 和 1.14 在，语言。向来自向服务，服务。这里 : 1.13: 29，30 96.7% 1.14: 29，30 96.7% : 9，10 面向时间: 367。352 接口成本: $0.00113 60 呼吁部件。向面向产品作为。高亮重要在。模型 96.7% 和客户。在。重要 : 来自 30，向性能。我们没有在。:。认为: 人工智能面向，面向，成本，指标？和？由",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-18T12:00:00.000Z",
-      "summary": "数据。正确。为什么？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "wired-ai-数据中心新",
       "title": "数据中心新 :",
       "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
@@ -569,7 +569,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://media.wired.com/photos/6ad250c5e76c5dde4c61ba83/master/pass/101626-Power%20Play.jpg"
     },
     {
@@ -585,7 +585,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -619,7 +619,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -668,7 +668,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nvidia-rtx-spark-berlin-oct26-event-tech-blog-1280x680-1.jpg"
     },
     {
@@ -685,7 +685,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -717,7 +717,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -766,7 +766,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": ""
     },
     {
@@ -905,6 +905,22 @@
       "image": ""
     },
     {
+      "id": "ithome-英伟达优化月之暗面相关型号模型推理速度-提升-1-68-倍",
+      "title": "英伟达优化月之暗面相关型号模型推理速度，提升 1.68 倍",
+      "url": "https://www.ithome.com/1/014/595.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-18T13:25:18.000Z",
+      "summary": "科技之家 10 月 18 日消息，调研机构今日发文称，英伟达通过一项上游优化，让 2.8 万亿参数量的月之暗面相关型号模型实现 423 //（每用户每秒每词元）的推理速度，对比相同硬件（相关型号相关型号）性能提升 1.68 倍。据介绍，该项优化由英伟达工程师完成。它通过大规模融合，使用编写英伟达新推出的解码专用内核。该包含 1.2 万行代码，代表着人工智能辅助生成高级计算内核……",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
       "id": "the-decoder-双子座模型-4-智能体帮助",
       "title": "双子座模型 4 智能体帮助",
       "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
@@ -922,37 +938,21 @@
       "image": ""
     },
     {
-      "id": "ithome-科大讯飞推出起点联名阅读器专业版-配-7-英寸-1300-面板-1899-元-国补后-1719-元",
-      "title": "科大讯飞推出起点联名阅读器专业版：配 7 英寸 1300 面板，1899 元（国补后 1719 元）",
-      "url": "https://www.ithome.com/1/014/590.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-18T12:37:40.000Z",
-      "summary": "科技之家 10 月 18 日消息，科大讯飞现已在京东上架起点联名阅读器专业版，该产品配备一块 7 英寸 1300 面板，定价为 1899 元（部分地区国补后 1719 元），赠 8 本经典网文和 2 个月起点读书会员卡。京东科大讯飞起点联名阅读器专业版 1899 元（国补后 1719 元） 直达链接该阅读器尺寸为相关型号毫米，重量约 200 克，正面配备一块 7 英寸相关型号……",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-构建打开-来源工具向",
-      "title": "构建打开，来源工具向",
-      "url": "https://www.reddit.com/r/artificial/comments/1x91bfq/i_built_an_opensource_tool_to_monitor_naval_bases/",
+      "id": "reddit-artificial-我们人工智能-96-7",
+      "title": "我们人工智能 : 96.7%",
+      "url": "https://www.reddit.com/r/artificial/comments/1x922ye/we_tested_two_ai_versions_967_accuracy_same/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T11:51:23.000Z",
-      "summary": "在和面向信息技术。信息技术相关型号，面向支持！在新呼吁。信息技术使用向在数据。由时间，交付在，和，和生成，和，借助得分。信息技术功能向面向。信息技术 12。信息技术 65% 交付，借助 95% 向交付。交付。使用，机器学习。信息技术交付，交付在，和，信息技术。由",
+      "publishedAt": "2026-10-18T12:31:49.000Z",
+      "summary": "我们 1.13 和 1.14 在，语言。向来自向服务，服务。这里 : 1.13: 29，30 96.7% 1.14: 29，30 96.7% : 9，10 面向时间: 367。352 接口成本: $0.00113 60 呼吁部件。向面向产品作为。高亮重要在。模型 96.7% 和客户。在。重要 : 来自 30，向性能。我们没有在。:。认为: 人工智能面向，面向，成本，指标？和？由",
       "topics": [
-        "产品应用",
-        "多模态"
+        "模型发布",
+        "产品应用"
       ],
       "heat": 89,
-      "image": "https://preview.redd.it/01dqxgpas7wh1.jpeg?width=640&crop=smart&auto=webp&s=f4fd3b49cfa32e139c2181a129afffe15b90152d"
+      "image": ""
     },
     {
       "id": "cnblogs-news-昆仑万维创始人周亚辉署名-4-0技术报告",
@@ -1020,7 +1020,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1052,7 +1052,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1069,7 +1069,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1087,7 +1087,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1103,7 +1103,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": ""
     },
     {
@@ -1119,7 +1119,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 50,
+      "heat": 49,
       "image": "https://media.wired.com/photos/6ad14b37762b59cd2aa2c0c9/master/pass/Backchannel-Sherry-Turkle-Business-458911186.jpg"
     },
     {
@@ -1296,39 +1296,37 @@
       "image": ""
     },
     {
-      "id": "ithome-研究人员让-6-款人工智能智能体尝试-追回火车票退款-暴露模型使用激进方式执行任务风险",
-      "title": "研究人员让 6 款人工智能智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险",
-      "url": "https://www.ithome.com/1/014/589.htm",
+      "id": "ithome-科大讯飞推出起点联名阅读器专业版-配-7-英寸-1300-面板-1899-元-国补后-1719-元",
+      "title": "科大讯飞推出起点联名阅读器专业版：配 7 英寸 1300 面板，1899 元（国补后 1719 元）",
+      "url": "https://www.ithome.com/1/014/590.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T12:21:25.000Z",
-      "summary": "科技之家 10 月 18 日消息，独立人工智能安全研究人员近期针对 6 款人工智能智能体进行安全测试，让相应模型尝试追回一笔已取消火车行程的退款，这些模型为了达成目的不惜编造理由、恐吓威胁、向企业及政府机构发送大量轰炸消息，然而它们最终并未成功追回退款。科技之家获悉，相应实验设定了一名虚构客户：她购买了一张从伦敦前往格拉斯哥、价值 350 英镑 （科技之家注：现汇率约合 3，……",
+      "publishedAt": "2026-10-18T12:37:40.000Z",
+      "summary": "科技之家 10 月 18 日消息，科大讯飞现已在京东上架起点联名阅读器专业版，该产品配备一块 7 英寸 1300 面板，定价为 1899 元（部分地区国补后 1719 元），赠 8 本经典网文和 2 个月起点读书会员卡。京东科大讯飞起点联名阅读器专业版 1899 元（国补后 1719 元） 直达链接该阅读器尺寸为相关型号毫米，重量约 200 克，正面配备一块 7 英寸相关型号……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "模型发布"
       ],
-      "heat": 99,
+      "heat": 94,
       "image": ""
     },
     {
-      "id": "reddit-artificial-在用户接口面向人工智能安全公司-开放人工智能公司-谷歌模型",
-      "title": "在用户接口面向人工智能安全公司，开放人工智能公司，谷歌模型",
-      "url": "https://www.reddit.com/r/artificial/comments/1x91a46/distillation_attack_on_opencode_drains_users_api/",
+      "id": "reddit-artificial-构建打开-来源工具向",
+      "title": "构建打开，来源工具向",
+      "url": "https://www.reddit.com/r/artificial/comments/1x91bfq/i_built_an_opensource_tool_to_monitor_naval_bases/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T11:49:21.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-10-18T11:51:23.000Z",
+      "summary": "在和面向信息技术。信息技术相关型号，面向支持！在新呼吁。信息技术使用向在数据。由时间，交付在，和，和生成，和，借助得分。信息技术功能向面向。信息技术 12。信息技术 65% 交付，借助 95% 向交付。交付。使用，机器学习。信息技术交付，交付在，和，信息技术。由",
       "topics": [
-        "模型发布",
-        "监管安全"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 97,
-      "image": "https://external-preview.redd.it/WQgCgikvM-i6VJiuGRzpFeu9OEcaArL-FoQYgB08Z1U.jpeg?width=640&crop=smart&auto=webp&s=223791ae0d46f96af8d426bbe00139c97a8e7f52"
+      "heat": 89,
+      "image": "https://preview.redd.it/01dqxgpas7wh1.jpeg?width=640&crop=smart&auto=webp&s=f4fd3b49cfa32e139c2181a129afffe15b90152d"
     },
     {
       "id": "the-decoder-谷歌面向人工智能",
@@ -1393,7 +1391,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1426,7 +1424,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1442,7 +1440,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1460,7 +1458,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1476,7 +1474,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 47,
+      "heat": 46,
       "image": ""
     },
     {
@@ -1663,37 +1661,39 @@
       "image": ""
     },
     {
-      "id": "ithome-深度求索接口已支持网页搜索和抓取-单价为每-1000-次成功请求-5-元",
-      "title": "深度求索接口已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
-      "url": "https://www.ithome.com/1/014/587.htm",
+      "id": "ithome-研究人员让-6-款人工智能智能体尝试-追回火车票退款-暴露模型使用激进方式执行任务风险",
+      "title": "研究人员让 6 款人工智能智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险",
+      "url": "https://www.ithome.com/1/014/589.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T11:59:52.000Z",
-      "summary": "科技之家 10 月 18 日消息，深度求索今日发布公告，深度求索接口现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次成功请求 5 元。公告称，当前用户在深度求索 / 克劳德模型代码 / 智能编程工具中使用深度求索接口时，已经会通过端工具调用访问到 / 接口，这部分 / 接口调用目前未计费，并将于北京时间 2026 年 11 月 1 日 00:00 起按次收取调用……",
+      "publishedAt": "2026-10-18T12:21:25.000Z",
+      "summary": "科技之家 10 月 18 日消息，独立人工智能安全研究人员近期针对 6 款人工智能智能体进行安全测试，让相应模型尝试追回一笔已取消火车行程的退款，这些模型为了达成目的不惜编造理由、恐吓威胁、向企业及政府机构发送大量轰炸消息，然而它们最终并未成功追回退款。科技之家获悉，相应实验设定了一名虚构客户：她购买了一张从伦敦前往格拉斯哥、价值 350 英镑 （科技之家注：现汇率约合 3，……",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-得到人工智能",
-      "title": "得到人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1x90hey/even_linkedin_is_getting_tired_of_your_aiwritten/",
+      "id": "reddit-artificial-在用户接口面向人工智能安全公司-开放人工智能公司-谷歌模型",
+      "title": "在用户接口面向人工智能安全公司，开放人工智能公司，谷歌模型",
+      "url": "https://www.reddit.com/r/artificial/comments/1x91a46/distillation_attack_on_opencode_drains_users_api/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T11:03:34.000Z",
+      "publishedAt": "2026-10-18T11:49:21.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "监管安全"
       ],
-      "heat": 83,
-      "image": "https://external-preview.redd.it/f2jEgDHfYBnrRTP7H9ZeYu8MpgV3-Ef6QZte0QNWgUY.jpeg?width=640&crop=smart&auto=webp&s=d2e59fb8cb33f77315b280319e67c5f68e1dbc90"
+      "heat": 97,
+      "image": "https://external-preview.redd.it/WQgCgikvM-i6VJiuGRzpFeu9OEcaArL-FoQYgB08Z1U.jpeg?width=640&crop=smart&auto=webp&s=223791ae0d46f96af8d426bbe00139c97a8e7f52"
     },
     {
       "id": "the-decoder-人工智能安全公司向人工智能智能体",
@@ -1726,7 +1726,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1742,7 +1742,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1760,7 +1760,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1949,37 +1949,37 @@
       "image": ""
     },
     {
-      "id": "ithome-数毛社-相关型号-发售预告片并未采用技术-游戏原始剪辑素材应为相关型号分辨率",
-      "title": "数毛社：《相关型号》发售预告片并未采用技术，游戏原始剪辑素材应为相关型号分辨率",
-      "url": "https://www.ithome.com/1/014/580.htm",
+      "id": "ithome-深度求索接口已支持网页搜索和抓取-单价为每-1000-次成功请求-5-元",
+      "title": "深度求索接口已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
+      "url": "https://www.ithome.com/1/014/587.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T11:26:04.000Z",
-      "summary": "科技之家 10 月 18 日消息，索尼在本月初为标准版相关型号游戏主机推出基于人工智能的超分辨率。该技术率先在《漫威金刚狼》《羊蹄山之魂》上得到支持，旨在让普通版相关型号也能够通过人工智能技术改善游戏画面细节与稳定性。由于索尼在《相关型号》宣发中表示相关型号是本作的最佳体验平台，因此外界一度猜测星有可能与索尼展开深度合作，在游戏宣发过程中强调本作支持技术。不过媒体数毛社（ ）……",
+      "publishedAt": "2026-10-18T11:59:52.000Z",
+      "summary": "科技之家 10 月 18 日消息，深度求索今日发布公告，深度求索接口现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次成功请求 5 元。公告称，当前用户在深度求索 / 克劳德模型代码 / 智能编程工具中使用深度求索接口时，已经会通过端工具调用访问到 / 接口，这部分 / 接口调用目前未计费，并将于北京时间 2026 年 11 月 1 日 00:00 起按次收取调用……",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-在人工智能本地智能体-人工智能",
-      "title": "在人工智能本地智能体，人工智能？",
-      "url": "https://www.reddit.com/r/artificial/comments/1x90ak1/what_is_the_status_on_ai_protection_like_local/",
+      "id": "reddit-artificial-得到人工智能",
+      "title": "得到人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1x90hey/even_linkedin_is_getting_tired_of_your_aiwritten/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T10:52:29.000Z",
-      "summary": "向保护本地 & 数据人工智能，和智能体？面向用户，可用？由",
+      "publishedAt": "2026-10-18T11:03:34.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "人工智能动态"
       ],
-      "heat": 88,
-      "image": ""
+      "heat": 83,
+      "image": "https://external-preview.redd.it/f2jEgDHfYBnrRTP7H9ZeYu8MpgV3-Ef6QZte0QNWgUY.jpeg?width=640&crop=smart&auto=webp&s=d2e59fb8cb33f77315b280319e67c5f68e1dbc90"
     },
     {
       "id": "the-decoder-人工智能智能体在-术语决策和新基准测试信息技术",
@@ -2012,7 +2012,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2030,24 +2030,23 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
-      "id": "qbitai-端侧跑通超千亿大模型-联想专业版-15-超级今日正式发售",
-      "title": "端侧跑通超千亿大模型！联想专业版 15 超级今日正式发售",
-      "url": "https://www.qbitai.com/2026/10/504116.html",
+      "id": "qbitai-清华特奖得主人工智能创业再-1-一作入局物理世界模型",
+      "title": "清华特奖得主人工智能创业再+1：一作入局物理世界模型",
+      "url": "https://www.qbitai.com/2026/10/503880.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-16T13:48:10.000Z",
-      "summary": "来自量子位的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-10-16T12:54:54.000Z",
+      "summary": "从搭载物理建模能力的世界模型切入",
       "topics": [
-        "模型发布",
-        "端侧智能"
+        "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2221,35 +2220,36 @@
       "image": "https://media.wired.com/photos/6ace87bed95d506835d511b4/master/pass/AI-Lab-AI-Coming-for-Other-Areas-of-Science-Businesspsd.jpg"
     },
     {
-      "id": "ithome-世界银行-小型人工智能有望改变发展中国家",
-      "title": "世界银行：小型人工智能有望改变发展中国家",
-      "url": "https://www.ithome.com/1/014/577.htm",
+      "id": "ithome-数毛社-相关型号-发售预告片并未采用技术-游戏原始剪辑素材应为相关型号分辨率",
+      "title": "数毛社：《相关型号》发售预告片并未采用技术，游戏原始剪辑素材应为相关型号分辨率",
+      "url": "https://www.ithome.com/1/014/580.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T11:10:56.000Z",
-      "summary": "科技之家 10 月 18 日消息，据《卫报》今天报道，世界银行正敦促发展中国家开发小型人工智能模型。这类模型可在网络连接条件较差的地区，通过端侧模式运行于手机等设备，帮助这些国家充分发挥人工智能的潜力。世界银行首席知识官帕斯卡尔 · 多诺霍（科技之家注：）表示，人工智能可以加速新兴经济体发展，但前提是必须根据当地需求调整。他对此解释称：“我们认为，部分国家的经济发展原本可能需……",
+      "publishedAt": "2026-10-18T11:26:04.000Z",
+      "summary": "科技之家 10 月 18 日消息，索尼在本月初为标准版相关型号游戏主机推出基于人工智能的超分辨率。该技术率先在《漫威金刚狼》《羊蹄山之魂》上得到支持，旨在让普通版相关型号也能够通过人工智能技术改善游戏画面细节与稳定性。由于索尼在《相关型号》宣发中表示相关型号是本作的最佳体验平台，因此外界一度猜测星有可能与索尼展开深度合作，在游戏宣发过程中强调本作支持技术。不过媒体数毛社（ ）……",
       "topics": [
-        "端侧智能"
+        "人工智能动态"
       ],
       "heat": 85,
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1x8yl80/this_is_the_problem/",
+      "id": "reddit-artificial-在人工智能本地智能体-人工智能",
+      "title": "在人工智能本地智能体，人工智能？",
+      "url": "https://www.reddit.com/r/artificial/comments/1x90ak1/what_is_the_status_on_ai_protection_like_local/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T09:05:27.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-10-18T10:52:29.000Z",
+      "summary": "向保护本地 & 数据人工智能，和智能体？面向用户，可用？由",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 82,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2307,22 +2307,6 @@
       "image": ""
     },
     {
-      "id": "qbitai-清华特奖得主人工智能创业再-1-一作入局物理世界模型",
-      "title": "清华特奖得主人工智能创业再+1：一作入局物理世界模型",
-      "url": "https://www.qbitai.com/2026/10/503880.html",
-      "source": "量子位",
-      "sourceId": "qbitai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-16T12:54:54.000Z",
-      "summary": "从搭载物理建模能力的世界模型切入",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 50,
-      "image": ""
-    },
-    {
       "id": "oschina-从-会用工具-到-能创造工具-中国-中亚-校长π圆桌-共话人工智能时代科技人才培养",
       "title": "从\"会用工具\"到\"能创造工具\"，中国—中亚\"校长π圆桌\"，共话人工智能时代科技人才培养",
       "url": "https://www.oschina.net/news/503064",
@@ -2354,6 +2338,22 @@
         "算力芯片"
       ],
       "heat": 66,
+      "image": ""
+    },
+    {
+      "id": "qbitai-从-看懂世界-到-预演下一步-世界模型与-如何让机器人拥有真正的-具身大脑",
+      "title": "从“看懂世界”到“预演下一步”：世界模型与，如何让机器人拥有真正的“具身大脑”？",
+      "url": "https://www.qbitai.com/2026/10/503865.html",
+      "source": "量子位",
+      "sourceId": "qbitai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-16T08:12:01.000Z",
+      "summary": "解决“能干”，世界模型解决“想清楚再干”",
+      "topics": [
+        "机器人"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -2489,35 +2489,35 @@
       "image": ""
     },
     {
-      "id": "ithome-微软取消人工智能相关合作-英国本土数据中心企业遭遇重大挫折",
-      "title": "微软取消人工智能相关合作，英国本土数据中心企业遭遇重大挫折",
-      "url": "https://www.ithome.com/1/014/574.htm",
+      "id": "ithome-世界银行-小型人工智能有望改变发展中国家",
+      "title": "世界银行：小型人工智能有望改变发展中国家",
+      "url": "https://www.ithome.com/1/014/577.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T10:42:51.000Z",
-      "summary": "科技之家 10 月 18 日消息，据《每日电讯报》今天报道，微软已取消的与英国本土数据中心企业的一项合作协议，后者价值数十亿美元的上市计划遭遇重大挫折。据报道，微软是最大的两家客户之一，他们近期终止了英国埃塞克斯郡劳顿（）数据中心项目。不过，报道并未说明微软退出项目的原因。微软与暂未对置评请求作出回应。科技之家注意到，上个月已在美国提交首次公开募股（首次公开募股）申请文件。根……",
+      "publishedAt": "2026-10-18T11:10:56.000Z",
+      "summary": "科技之家 10 月 18 日消息，据《卫报》今天报道，世界银行正敦促发展中国家开发小型人工智能模型。这类模型可在网络连接条件较差的地区，通过端侧模式运行于手机等设备，帮助这些国家充分发挥人工智能的潜力。世界银行首席知识官帕斯卡尔 · 多诺霍（科技之家注：）表示，人工智能可以加速新兴经济体发展，但前提是必须根据当地需求调整。他对此解释称：“我们认为，部分国家的经济发展原本可能需……",
       "topics": [
-        "投融资"
+        "端侧智能"
       ],
-      "heat": 93,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "reddit-artificial-腾讯人工智能智能体",
-      "title": "腾讯人工智能智能体",
-      "url": "https://www.reddit.com/r/artificial/comments/1x8x4du/chinas_tencent_says_ai_agents_showed_unintended/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8yl80/this_is_the_problem/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T07:32:43.000Z",
+      "publishedAt": "2026-10-18T09:05:27.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2535,7 +2535,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2553,7 +2553,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2569,7 +2569,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2589,19 +2589,20 @@
       "image": ""
     },
     {
-      "id": "qbitai-从-看懂世界-到-预演下一步-世界模型与-如何让机器人拥有真正的-具身大脑",
-      "title": "从“看懂世界”到“预演下一步”：世界模型与，如何让机器人拥有真正的“具身大脑”？",
-      "url": "https://www.qbitai.com/2026/10/503865.html",
+      "id": "qbitai-说真话就能拿10万-网易叭哥说重金求-真需求-不卡专业学历",
+      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
+      "url": "https://www.qbitai.com/2026/10/503861.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-16T08:12:01.000Z",
-      "summary": "解决“能干”，世界模型解决“想清楚再干”",
+      "publishedAt": "2026-10-16T08:07:33.000Z",
+      "summary": "网易首个人工智能原生语音智能体「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议",
       "topics": [
-        "机器人"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 50,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2652,24 +2653,6 @@
         "产品应用"
       ],
       "heat": 58,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-在功能-功能数据",
-      "title": "在功能: 功能数据",
-      "url": "https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-14T12:30:00.000Z",
-      "summary": "和在功能由，在英伟达和在功能: 功能数据首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 66,
       "image": ""
     },
     {
@@ -2724,37 +2707,36 @@
       "image": "https://media.wired.com/photos/6acf68394246ebd08155f6c2/master/pass/2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.jpg"
     },
     {
-      "id": "ithome-硬件设计解谜游戏-绘芯-造出你的第一颗图形处理器-试玩版上线-游戏明年第一季度发售",
-      "title": "硬件设计解谜游戏《绘芯：造出你的第一颗图形处理器》试玩版上线，游戏明年第一季度发售",
-      "url": "https://www.ithome.com/1/014/573.htm",
+      "id": "ithome-微软取消人工智能相关合作-英国本土数据中心企业遭遇重大挫折",
+      "title": "微软取消人工智能相关合作，英国本土数据中心企业遭遇重大挫折",
+      "url": "https://www.ithome.com/1/014/574.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T10:36:11.000Z",
-      "summary": "科技之家 10 月 18 日消息，硬件设计解谜游戏《绘芯：造出你的第一颗图形处理器》试玩版现已登陆平台，目前可免费下载体验，游戏完整版本预计 2027 年第一季度推出。科技之家附游戏商品页（ :///应用/5395930/图形处理器/？=&= ）。《绘芯》是一款让玩家亲手搭建图形处理器的电路解谜游戏，玩家不需要专业图形处理器知识，仅需懂一点数学或编程即可游玩：每一关提供需要绘……",
+      "publishedAt": "2026-10-18T10:42:51.000Z",
+      "summary": "科技之家 10 月 18 日消息，据《每日电讯报》今天报道，微软已取消的与英国本土数据中心企业的一项合作协议，后者价值数十亿美元的上市计划遭遇重大挫折。据报道，微软是最大的两家客户之一，他们近期终止了英国埃塞克斯郡劳顿（）数据中心项目。不过，报道并未说明微软退出项目的原因。微软与暂未对置评请求作出回应。科技之家注意到，上个月已在美国提交首次公开募股（首次公开募股）申请文件。根……",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "投融资"
       ],
-      "heat": 90,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "reddit-artificial-设置内部模型和信息技术",
-      "title": "设置内部模型和信息技术",
-      "url": "https://www.reddit.com/r/artificial/comments/1x8wxmx/someone_put_a_fruit_flys_brain_inside_a_world/",
+      "id": "reddit-artificial-腾讯人工智能智能体",
+      "title": "腾讯人工智能智能体",
+      "url": "https://www.reddit.com/r/artificial/comments/1x8x4du/chinas_tencent_says_ai_agents_showed_unintended/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-18T07:20:57.000Z",
+      "publishedAt": "2026-10-18T07:32:43.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "模型发布"
+        "产品应用"
       ],
       "heat": 80,
-      "image": "https://external-preview.redd.it/d2JlZXE2ZTFnNndoMWnw05E1XfaG3Hwdt9NOLulkIvNizEaXhuB687NpTQ29.png?width=640&crop=smart&auto=webp&s=4e2d9377a4d765923921ebf96bda80c060984d8a"
+      "image": ""
     },
     {
       "id": "the-decoder-克劳德模型-25-神秘在-30",
@@ -2789,7 +2771,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2826,20 +2808,37 @@
       "image": ""
     },
     {
-      "id": "qbitai-说真话就能拿10万-网易叭哥说重金求-真需求-不卡专业学历",
-      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
-      "url": "https://www.qbitai.com/2026/10/503861.html",
+      "id": "qbitai-霸榜三大基准-优必选-多模态统一表征-单模型实现六大能力",
+      "title": "霸榜三大基准！优必选：多模态统一表征，单模型实现六大能力",
+      "url": "https://www.qbitai.com/2026/10/503843.html",
       "source": "量子位",
       "sourceId": "qbitai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-16T08:07:33.000Z",
-      "summary": "网易首个人工智能原生语音智能体「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议",
+      "publishedAt": "2026-10-16T08:00:31.000Z",
+      "summary": "优必选在三大公认具身世界模型基准评测中全部拿下第一名",
       "topics": [
-        "产品应用",
+        "研究论文",
+        "多模态",
+        "机器人"
+      ],
+      "heat": 60,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-可灵人工智能发布-4-0-支持30秒视频原生生成-相关型号画面输出",
+      "title": "可灵人工智能发布 4.0：支持30秒视频原生生成、相关型号画面输出",
+      "url": "https://news.cnblogs.com/n/841508/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-16T06:43:00.000Z",
+      "summary": "10 月 16 日消息，近日，可灵人工智能正式上线新一代视频生成模型 4.0，重点提升高速运动、复杂运镜及长镜头生成能力，支持最长 30 秒视频原生生成，并新增相关型号画面输出、多素材参考及多关键帧控制等功能。据介绍，4.0 针对高速运动、连续动作及复杂镜头本文链接",
+      "topics": [
         "多模态"
       ],
-      "heat": 55,
+      "heat": 45,
       "image": ""
     }
   ]
