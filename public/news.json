@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-19T15:17:20.320Z",
+  "generatedAt": "2026-10-19T15:41:27.553Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-19T15:30:00.000Z",
+  "nextUpdateHint": "2026-10-19T16:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-19T15:10:52.000Z"
+    "latestPublishedAt": "2026-10-19T15:37:09.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 70,
-      "heat": 77
+      "heat": 78
     },
     {
       "name": "模型发布",
-      "count": 52,
+      "count": 54,
       "heat": 75
     },
     {
       "name": "研究论文",
       "count": 33,
-      "heat": 75
+      "heat": 76
     },
     {
       "name": "算力芯片",
       "count": 25,
-      "heat": 83
+      "heat": 84
     },
     {
       "name": "监管安全",
-      "count": 20,
+      "count": 19,
       "heat": 80
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "name": "多模态",
-      "count": 12,
+      "count": 13,
       "heat": 74
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 3,
-      "heat": 70
+      "count": 2,
+      "heat": 61
     }
   ],
   "sources": [
@@ -160,7 +160,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-10-19T15:00:31.000Z",
       "latestDisplayedAt": "2026-10-19T15:00:31.000Z"
     },
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-10-18T20:37:40.000Z",
-      "latestDisplayedAt": "2026-10-18T20:37:40.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-10-19T15:37:09.000Z",
+      "latestDisplayedAt": "2026-10-19T15:37:09.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-10-19T14:00:00.000Z",
-      "latestDisplayedAt": "2026-10-19T14:00:00.000Z"
+      "latestFetchedAt": "2026-10-19T15:30:00.000Z",
+      "latestDisplayedAt": "2026-10-19T15:30:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -447,7 +447,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 22,
+      "itemCount": 21,
       "displayedCount": 8,
       "latestFetchedAt": "2026-10-19T15:03:29.000Z",
       "latestDisplayedAt": "2026-10-19T15:03:29.000Z"
@@ -479,16 +479,52 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 11,
+      "itemCount": 12,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-19T06:53:00.000Z",
-      "latestDisplayedAt": "2026-10-19T06:53:00.000Z"
+      "latestFetchedAt": "2026-10-19T07:00:00.000Z",
+      "latestDisplayedAt": "2026-10-19T07:00:00.000Z"
     }
   ],
   "failures": [
     "hacker-news-ai: HTTP 419"
   ],
   "items": [
+    {
+      "id": "techcrunch-ai-英伟达推出新打开模型向智能体在企业和在电脑",
+      "title": "英伟达推出新打开模型向智能体在企业和在电脑",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-19T15:37:09.000Z",
+      "summary": "英伟达进入企业公司向打开模型在数据中心和试图向在，人工智能智能体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向谷歌双子座模型-4",
+      "title": "向谷歌双子座模型 4",
+      "url": "https://towardsdatascience.com/welcome-to-google-gemini-4-argon/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-19T15:30:00.000Z",
+      "summary": "百万，词元机械手模型在，和基准测试和法案信息技术实际。向谷歌双子座模型 4 首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "reddit-artificial-向得到更好来自人工智能",
       "title": "向得到更好来自人工智能",
@@ -502,7 +538,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -570,24 +606,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-来自向机器学习",
-      "title": "来自向机器学习？",
-      "url": "https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-19T14:00:00.000Z",
-      "summary": "模型采用借助 ; 信息技术。来自向机器学习？首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 93,
+      "heat": 89,
       "image": ""
     },
     {
@@ -694,19 +713,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-刚刚-开放人工智能公司三大新模型深夜短暂上线",
-      "title": "刚刚，开放人工智能公司三大新模型深夜短暂上线！",
-      "url": "https://news.cnblogs.com/n/841606/",
+      "id": "cnblogs-news-从硬刚到主动交棒-影视圈人工智能撕裂背后的生存法则",
+      "title": "从硬刚到主动交棒：影视圈人工智能撕裂背后的生存法则",
+      "url": "https://news.cnblogs.com/n/841607/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T06:53:00.000Z",
-      "summary": "新智元报道就在刚刚，开放人工智能公司三大新模型短暂上线了。不久前，开放人工智能公司接口后台惊现三个代号为「极光（）」的神秘模型——。我们又要迎来新模型上新了？然本文链接",
+      "publishedAt": "2026-10-19T07:00:00.000Z",
+      "summary": "文｜山自好莱坞最近吵成一锅粥，但吵得最响的两个人，给出的答案几乎是相反的。一个是尼古拉斯・凯奇。10 月 10 日在纽约漫展上，这位向来不按套路出牌的影帝直接拿起话筒，把憋了很久的事倒了出来 —— 拍亚马逊的《暗影蜘蛛侠》期间，制片方拍到一半，突然塞给他一份 \"人工智能授本文链接",
       "topics": [
-        "人工智能动态"
+        "多模态"
       ],
-      "heat": 87,
+      "heat": 79,
       "image": ""
     },
     {
@@ -723,22 +742,6 @@
         "人工智能动态"
       ],
       "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司信息技术-5-分享向帮助",
-      "title": "人工智能安全公司信息技术 5% 分享向帮助",
-      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-18T20:37:40.000Z",
-      "summary": "人工智能安全公司信息技术 5% 分享向。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 83,
       "image": ""
     },
     {
@@ -942,6 +945,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-来自向机器学习",
+      "title": "来自向机器学习？",
+      "url": "https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-19T14:00:00.000Z",
+      "summary": "模型采用借助 ; 信息技术。来自向机器学习？首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-进入和借助人工智能智能体",
       "title": "进入和借助人工智能智能体",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
@@ -971,7 +991,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -991,22 +1011,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/how-many-eeg-channels-do-you-actually-need/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-19T12:30:00.000Z",
-      "summary": "功能，和向实际？首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "leiphone-平台做天使投资-速卖通把品牌争夺战-打到了品牌诞生前",
       "title": "平台做天使投资：速卖通把品牌争夺战，打到了品牌诞生前",
       "url": "https://www.leiphone.com/category/industrynews/prCErk1x9AsQgxw1.html",
@@ -1021,7 +1025,7 @@
         "投融资",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1058,35 +1062,35 @@
       "image": "https://media.wired.com/photos/6acfe36ba2733753393886b8/master/pass/Disney-Asked-Character.AI-to-Go-Bankrupt-Business-1530260396.jpg"
     },
     {
-      "id": "cnblogs-news-研究发现-人工智能可篡改人类记忆-植入从未发生的虚假事件",
-      "title": "研究发现：人工智能可篡改人类记忆，植入从未发生的虚假事件",
-      "url": "https://news.cnblogs.com/n/841604/",
+      "id": "cnblogs-news-刚刚-开放人工智能公司三大新模型深夜短暂上线",
+      "title": "刚刚，开放人工智能公司三大新模型深夜短暂上线！",
+      "url": "https://news.cnblogs.com/n/841606/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T06:42:00.000Z",
-      "summary": "10 月 19 日消息，据报道，研究发现，人工智能可篡改人类记忆。这项实验一开始准备了 24 张普通照片：婚礼、城市街道、赛跑场景。麻省理工学院媒体实验室教授帕蒂 · 梅斯（ ）和同事把这些照片展示给了 200 名受试者。短暂休息后，一部分人再次本文链接",
+      "publishedAt": "2026-10-19T06:53:00.000Z",
+      "summary": "新智元报道就在刚刚，开放人工智能公司三大新模型短暂上线了。不久前，开放人工智能公司接口后台惊现三个代号为「极光（）」的神秘模型——。我们又要迎来新模型上新了？然本文链接",
       "topics": [
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司语言和人工智能训练",
-      "title": "元宇宙平台公司语言和人工智能训练",
-      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "id": "techcrunch-ai-人工智能安全公司信息技术-5-分享向帮助",
+      "title": "人工智能安全公司信息技术 5% 分享向帮助",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T21:31:32.000Z",
-      "summary": "元宇宙平台公司更新术语没有在元宇宙平台公司。",
+      "publishedAt": "2026-10-18T20:37:40.000Z",
+      "summary": "人工智能安全公司信息技术 5% 分享向。",
       "topics": [
-        "人工智能动态"
+        "监管安全"
       ],
-      "heat": 56,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1308,6 +1312,22 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/how-many-eeg-channels-do-you-actually-need/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-19T12:30:00.000Z",
+      "summary": "功能，和向实际？首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-认为在人工智能",
       "title": "认为在人工智能",
       "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
@@ -1321,7 +1341,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1340,23 +1360,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能和",
-      "title": "人工智能和",
-      "url": "https://towardsdatascience.com/ai-harms-and-their-technical-causes/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-19T11:00:00.000Z",
-      "summary": "向安全，和向人工智能和首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 90,
       "image": ""
     },
     {
@@ -1395,21 +1398,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-豆包回应-国内超一半算力在造爽剧-字节只有约10-算力用于视频生成模型的训练和推理",
-      "title": "豆包回应“国内超一半算力在造爽剧”：字节只有约10%算力用于视频生成模型的训练和推理",
-      "url": "https://news.cnblogs.com/n/841603/",
+      "id": "cnblogs-news-研究发现-人工智能可篡改人类记忆-植入从未发生的虚假事件",
+      "title": "研究发现：人工智能可篡改人类记忆，植入从未发生的虚假事件",
+      "url": "https://news.cnblogs.com/n/841604/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T06:36:00.000Z",
-      "summary": "近日，“国内超一半算力在造爽剧”的话题，引发广泛关注。10 月 19 日，豆包公关负责人刘星发文表示，这个算力数据有些不靠谱，就字节来说，我们公司的总算力中，只有约 10%，用于视频生成模型的训练和推理。根据中文在线（300364）6 月初披露的一份投资者关系活动记录表，中文在线称，从行业调研数本文链接",
+      "publishedAt": "2026-10-19T06:42:00.000Z",
+      "summary": "10 月 19 日消息，据报道，研究发现，人工智能可篡改人类记忆。这项实验一开始准备了 24 张普通照片：婚礼、城市街道、赛跑场景。麻省理工学院媒体实验室教授帕蒂 · 梅斯（ ）和同事把这些照片展示给了 200 名受试者。短暂休息后，一部分人再次本文链接",
       "topics": [
-        "算力芯片",
-        "投融资",
-        "多模态"
+        "研究论文"
       ],
-      "heat": 89,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1429,19 +1430,19 @@
       "image": "https://media.wired.com/photos/6ad250c5e76c5dde4c61ba83/master/pass/101626-Power%20Play.jpg"
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司成为和时间在会议",
-      "title": "人工智能安全公司成为和时间在会议",
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "id": "techcrunch-ai-元宇宙平台公司语言和人工智能训练",
+      "title": "元宇宙平台公司语言和人工智能训练",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T20:21:19.000Z",
-      "summary": "人工智能安全公司和得到在。",
+      "publishedAt": "2026-10-17T21:31:32.000Z",
+      "summary": "元宇宙平台公司更新术语没有在元宇宙平台公司。",
       "topics": [
-        "监管安全"
+        "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 55,
       "image": ""
     },
     {
@@ -1647,7 +1648,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1669,6 +1670,23 @@
       "image": ""
     },
     {
+      "id": "towards-data-science-人工智能和",
+      "title": "人工智能和",
+      "url": "https://towardsdatascience.com/ai-harms-and-their-technical-causes/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-19T11:00:00.000Z",
+      "summary": "向安全，和向人工智能和首个在数据科学实战社区。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "leiphone-光量子计算-距离真正的产业化还有多远",
       "title": "光量子计算，距离真正的产业化还有多远？",
       "url": "https://www.leiphone.com/category/chips/1LbhTsMb0OyPhsw6.html",
@@ -1687,20 +1705,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-龙虾凉了-凭什么火-当初天价挖人合理吗-亚历山大王最新访谈回应一切",
-      "title": "龙虾凉了，凭什么火？当初天价挖人合理吗？亚历山大王最新访谈回应一切",
-      "url": "https://news.cnblogs.com/n/841600/",
+      "id": "cnblogs-news-豆包回应-国内超一半算力在造爽剧-字节只有约10-算力用于视频生成模型的训练和推理",
+      "title": "豆包回应“国内超一半算力在造爽剧”：字节只有约10%算力用于视频生成模型的训练和推理",
+      "url": "https://news.cnblogs.com/n/841603/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T06:20:00.000Z",
-      "summary": "机器之心编辑部最近，元宇宙平台公司打了一场漂亮的翻身仗，其全新个人人工智能智能体自上线以来迅速成为现象级产品。据估算，元宇宙平台公司 9 月 8 日上线后，约 22 天达到 500 万美国下载，快于智能聊天助手//克劳德模型的历史估算值，并本文链接",
+      "publishedAt": "2026-10-19T06:36:00.000Z",
+      "summary": "近日，“国内超一半算力在造爽剧”的话题，引发广泛关注。10 月 19 日，豆包公关负责人刘星发文表示，这个算力数据有些不靠谱，就字节来说，我们公司的总算力中，只有约 10%，用于视频生成模型的训练和推理。根据中文在线（300364）6 月初披露的一份投资者关系活动记录表，中文在线称，从行业调研数本文链接",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "算力芯片",
+        "投融资",
+        "多模态"
       ],
-      "heat": 91,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1732,24 +1751,23 @@
       "topics": [
         "机器人"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司人工智能安全公司-首席执行官",
-      "title": "开放人工智能公司人工智能安全公司，首席执行官",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "id": "techcrunch-ai-人工智能安全公司成为和时间在会议",
+      "title": "人工智能安全公司成为和时间在会议",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-17T18:48:08.000Z",
-      "summary": "开放人工智能公司人工智能安全公司作为模型。克劳德模型可用向客户在平台。",
+      "publishedAt": "2026-10-17T20:21:19.000Z",
+      "summary": "人工智能安全公司和得到在。",
       "topics": [
-        "模型发布",
         "监管安全"
       ],
-      "heat": 66,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1802,22 +1820,6 @@
         "算力芯片"
       ],
       "heat": 68,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-代码人工智能-构建向信息技术",
-      "title": "代码人工智能？构建向信息技术",
-      "url": "https://towardsdatascience.com/do-you-still-own-the-code-your-ai-wrote-i-built-codeownership-to-measure-it/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-16T15:30:00.000Z",
-      "summary": "4 5，在 8。这里工具，和限制。代码人工智能？构建向信息技术首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 48,
       "image": ""
     },
     {
@@ -1934,7 +1936,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1950,6 +1952,23 @@
       "topics": [
         "算力芯片",
         "投融资"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-龙虾凉了-凭什么火-当初天价挖人合理吗-亚历山大王最新访谈回应一切",
+      "title": "龙虾凉了，凭什么火？当初天价挖人合理吗？亚历山大王最新访谈回应一切",
+      "url": "https://news.cnblogs.com/n/841600/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-19T06:20:00.000Z",
+      "summary": "机器之心编辑部最近，元宇宙平台公司打了一场漂亮的翻身仗，其全新个人人工智能智能体自上线以来迅速成为现象级产品。据估算，元宇宙平台公司 9 月 8 日上线后，约 22 天达到 500 万美国下载，快于智能聊天助手//克劳德模型的历史估算值，并本文链接",
+      "topics": [
+        "模型发布",
+        "产品应用"
       ],
       "heat": 91,
       "image": ""
@@ -1969,24 +1988,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-商汤大装置-人工智能基础设施竞争正从算力规模转向高质量词元产能",
-      "title": "商汤大装置：人工智能基础设施竞争正从算力规模转向高质量词元产能",
-      "url": "https://news.cnblogs.com/n/841599/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-19T06:14:00.000Z",
-      "summary": "10 月 19 日消息，近日，在第十届中国软件研发智能创新科技峰会上，商汤大装置副总裁、宣善明表示，随着人工智能应用从对话式问答向多智能体协作和长任务执行演进，词元需求呈千倍级增长，人工智能基础设施竞争正从算力规模转向高质量词元产能。据宣善本文链接",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 83,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2020,7 +2022,24 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-开放人工智能公司人工智能安全公司-首席执行官",
+      "title": "开放人工智能公司人工智能安全公司，首席执行官",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-17T18:48:08.000Z",
+      "summary": "开放人工智能公司人工智能安全公司作为模型。克劳德模型可用向客户在平台。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -2075,21 +2094,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-英伟达-转化-在为什么机器人智能聊天助手时刻",
-      "title": "英伟达，转化，在为什么机器人智能聊天助手时刻",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "towards-data-science-代码人工智能-构建向信息技术",
+      "title": "代码人工智能？构建向信息技术",
+      "url": "https://towardsdatascience.com/do-you-still-own-the-code-your-ai-wrote-i-built-codeownership-to-measure-it/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-16T16:30:00.000Z",
-      "summary": "产品面向英伟达机器人平台，机器人在，借助构建，机械手，软件，和安全。向机器人，驱动由基础模型，关于向 …",
+      "publishedAt": "2026-10-16T15:30:00.000Z",
+      "summary": "4 5，在 8。这里工具，和限制。代码人工智能？构建向信息技术首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "产品应用"
       ],
-      "heat": 68,
+      "heat": 48,
       "image": ""
     },
     {
@@ -2124,23 +2141,6 @@
       ],
       "heat": 49,
       "image": "https://media.wired.com/photos/6ad00a8917414371d605a797/master/pass/Model-Behavior-Cybersecurity-Experts-Discuss-AI-Threats-Business.jpg"
-    },
-    {
-      "id": "towards-data-science-打开决策模型-大语言模型",
-      "title": ": 打开决策模型。大语言模型",
-      "url": "https://towardsdatascience.com/jev-your-engines-seven-open-decision-models-vs-a-generative-llm/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-15T15:30:00.000Z",
-      "summary": "机械手，在，和 : 打开决策模型。大语言模型首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 53,
-      "image": ""
     },
     {
       "id": "nvidia-blog-云服务-英伟达-4-5-控制在",
@@ -2244,19 +2244,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-不做提分工具-在人工智能教育焦虑中找-15度夹角",
-      "title": "不做提分工具，在人工智能教育焦虑中找「15度夹角」",
-      "url": "https://news.cnblogs.com/n/841598/",
+      "id": "cnblogs-news-商汤大装置-人工智能基础设施竞争正从算力规模转向高质量词元产能",
+      "title": "商汤大装置：人工智能基础设施竞争正从算力规模转向高质量词元产能",
+      "url": "https://news.cnblogs.com/n/841599/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T06:07:00.000Z",
-      "summary": "“当行业都在卷效率，总得有人为「慢思考」留一条路。” 作者丨徐陟编辑丨刘伟一个六岁的孩子问人工智能“为什么天是蓝的”。三秒钟，“瑞利散射”的解释弹了出来，精确、流畅、挑不出毛病。孩子听完，点了点头，问了下一个问题。答案拿到了。但自己仰头看天、追问为什么早晚颜色不一样、在脑子里慢慢搭出因果链条的本文链接",
+      "publishedAt": "2026-10-19T06:14:00.000Z",
+      "summary": "10 月 19 日消息，近日，在第十届中国软件研发智能创新科技峰会上，商汤大装置副总裁、宣善明表示，随着人工智能应用从对话式问答向多智能体协作和长任务执行演进，词元需求呈千倍级增长，人工智能基础设施竞争正从算力规模转向高质量词元产能。据宣善本文链接",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 78,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2329,9 +2330,9 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能机器人-英伟达在信息技术",
-      "title": "人工智能机器人，英伟达在信息技术",
-      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "id": "techcrunch-ai-英伟达-转化-在为什么机器人智能聊天助手时刻",
+      "title": "英伟达，转化，在为什么机器人智能聊天助手时刻",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
@@ -2381,20 +2382,20 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-开放人工智能公司-719-论文面向数据科学",
-      "title": "开放人工智能公司 719 论文面向数据科学",
-      "url": "https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/",
+      "id": "towards-data-science-打开决策模型-大语言模型",
+      "title": ": 打开决策模型。大语言模型",
+      "url": "https://towardsdatascience.com/jev-your-engines-seven-open-decision-models-vs-a-generative-llm/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-15T14:00:00.000Z",
-      "summary": "和数据。开放人工智能公司 719 论文面向数据科学首个在数据科学实战社区。",
+      "publishedAt": "2026-10-15T15:30:00.000Z",
+      "summary": "机械手，在，和 : 打开决策模型。大语言模型首个在数据科学实战社区。",
       "topics": [
-        "产品应用",
-        "研究论文"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 61,
+      "heat": 53,
       "image": ""
     },
     {
@@ -2515,15 +2516,15 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-中国人工智能的年轻掌权者们",
-      "title": "中国人工智能的年轻掌权者们",
-      "url": "https://news.cnblogs.com/n/841595/",
+      "id": "cnblogs-news-不做提分工具-在人工智能教育焦虑中找-15度夹角",
+      "title": "不做提分工具，在人工智能教育焦虑中找「15度夹角」",
+      "url": "https://news.cnblogs.com/n/841598/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T05:43:00.000Z",
-      "summary": "他们因技术获得权力，又必须运用权力，保护技术所需要的自由。文丨魏冰编辑丨宋玮赵磊过去二十年，中国互联网公司的权力，大多随着商业战果分配。做成一款产品，拿下一块市场，带来更多收入，管理者才有机会掌握更大权力。如今，一批三十岁上下的技术人，正在通过另一条路径进入中国最核心科技公司的权力中心。3 本文链接",
+      "publishedAt": "2026-10-19T06:07:00.000Z",
+      "summary": "“当行业都在卷效率，总得有人为「慢思考」留一条路。” 作者丨徐陟编辑丨刘伟一个六岁的孩子问人工智能“为什么天是蓝的”。三秒钟，“瑞利散射”的解释弹了出来，精确、流畅、挑不出毛病。孩子听完，点了点头，问了下一个问题。答案拿到了。但自己仰头看天、追问为什么早晚颜色不一样、在脑子里慢慢搭出因果链条的本文链接",
       "topics": [
         "人工智能动态"
       ],
@@ -2561,7 +2562,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2583,19 +2584,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-首个人工智能模型向借助图像-只是关于",
-      "title": "首个人工智能模型向借助图像，只是关于",
-      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "id": "techcrunch-ai-人工智能机器人-英伟达在信息技术",
+      "title": "人工智能机器人，英伟达在信息技术",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-16T16:01:37.000Z",
-      "summary": "向评测，在推理能力和视频，借助在推理能力任务。",
+      "publishedAt": "2026-10-16T16:30:00.000Z",
+      "summary": "产品面向英伟达机器人平台，机器人在，借助构建，机械手，软件，和安全。向机器人，驱动由基础模型，关于向 …",
       "topics": [
         "模型发布",
-        "投融资",
-        "多模态"
+        "产品应用",
+        "算力芯片"
       ],
       "heat": 68,
       "image": ""
@@ -2720,19 +2721,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-开放人工智能公司确认研发人形机器人-奥尔特曼称先解决-大脑-再谈外观",
-      "title": "开放人工智能公司确认研发人形机器人，奥尔特曼称先解决“大脑”再谈外观",
-      "url": "https://news.cnblogs.com/n/841592/",
+      "id": "cnblogs-news-中国人工智能的年轻掌权者们",
+      "title": "中国人工智能的年轻掌权者们",
+      "url": "https://news.cnblogs.com/n/841595/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-19T05:24:00.000Z",
-      "summary": "来源：环球网 10 月 19 日消息，据报道，虽然开放人工智能公司目前正忙于开发人工智能模型和新的消费硬件，但首席执行官萨姆·奥尔特曼和他的团队显然还有时间再推进一个项目：人形机器人。奥尔特曼在一期播客节目中解释说，人形机器人的形态是合乎逻辑的，因为“这个世界的设计很大程度上是本文链接",
+      "publishedAt": "2026-10-19T05:43:00.000Z",
+      "summary": "他们因技术获得权力，又必须运用权力，保护技术所需要的自由。文丨魏冰编辑丨宋玮赵磊过去二十年，中国互联网公司的权力，大多随着商业战果分配。做成一款产品，拿下一块市场，带来更多收入，管理者才有机会掌握更大权力。如今，一批三十岁上下的技术人，正在通过另一条路径进入中国最核心科技公司的权力中心。3 本文链接",
       "topics": [
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2768,7 +2769,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2786,6 +2787,24 @@
         "端侧智能"
       ],
       "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-首个人工智能模型向借助图像-只是关于",
+      "title": "首个人工智能模型向借助图像，只是关于",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-16T16:01:37.000Z",
+      "summary": "向评测，在推理能力和视频，借助在推理能力任务。",
+      "topics": [
+        "模型发布",
+        "投融资",
+        "多模态"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -2838,24 +2857,6 @@
       ],
       "heat": 63,
       "image": ""
-    },
-    {
-      "id": "nvidia-blog-英伟达宣布新投资在创业公司生态",
-      "title": "英伟达宣布新投资在创业公司生态",
-      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-      "source": "英伟达官方博客",
-      "sourceId": "nvidia-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-14T06:04:15.000Z",
-      "summary": "向。规模，来自企业向创业公司问题。英伟达进入，五个，$250 百万向强化。安全和安全 …",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
-      ],
-      "heat": 70,
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/uk-ecosystem-industries.png"
     }
   ]
 }
