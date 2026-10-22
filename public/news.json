@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-10-22T18:54:42.630Z",
+  "generatedAt": "2026-10-22T19:25:42.750Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-22T19:00:00.000Z",
+  "nextUpdateHint": "2026-10-22T19:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-22T18:48:30.000Z"
+    "latestPublishedAt": "2026-10-22T19:15:49.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 70,
+      "count": 71,
       "heat": 83
     },
     {
       "name": "模型发布",
-      "count": 44,
-      "heat": 88
+      "count": 45,
+      "heat": 87
     },
     {
       "name": "人工智能动态",
-      "count": 27,
-      "heat": 79
+      "count": 26,
+      "heat": 80
     },
     {
       "name": "算力芯片",
@@ -34,7 +34,7 @@
     {
       "name": "监管安全",
       "count": 21,
-      "heat": 88
+      "heat": 87
     },
     {
       "name": "研究论文",
@@ -59,7 +59,7 @@
     {
       "name": "投融资",
       "count": 8,
-      "heat": 81
+      "heat": 80
     },
     {
       "name": "端侧智能",
@@ -176,9 +176,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 7,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-10-20T17:34:47.000Z",
-      "latestDisplayedAt": "2026-10-20T17:34:47.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-10-19T19:00:00.000Z",
+      "latestDisplayedAt": "2026-10-19T19:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-10-22T18:43:53.000Z",
-      "latestDisplayedAt": "2026-10-22T18:43:53.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-10-22T19:07:09.000Z",
+      "latestDisplayedAt": "2026-10-22T19:07:09.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -241,8 +241,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-22T18:15:00.000Z",
-      "latestDisplayedAt": "2026-10-22T18:15:00.000Z"
+      "latestFetchedAt": "2026-10-22T18:58:19.000Z",
+      "latestDisplayedAt": "2026-10-22T18:58:19.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -257,7 +257,7 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-10-22T10:00:00.000Z",
+      "latestFetchedAt": "2026-10-22T18:48:04.000Z",
       "latestDisplayedAt": "2026-10-22T10:00:00.000Z"
     },
     {
@@ -289,8 +289,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-10-22T10:00:00.000Z",
-      "latestDisplayedAt": "2026-10-22T10:00:00.000Z"
+      "latestFetchedAt": "2026-10-22T19:06:37.000Z",
+      "latestDisplayedAt": "2026-10-22T19:06:37.000Z"
     },
     {
       "id": "towards-data-science",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-22T18:48:30.000Z",
-      "latestDisplayedAt": "2026-10-22T18:48:30.000Z"
+      "latestFetchedAt": "2026-10-22T19:15:49.000Z",
+      "latestDisplayedAt": "2026-10-22T19:15:49.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -364,12 +364,12 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 6,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-10-21T17:58:06.000Z",
+      "latestFetchedAt": "2026-10-21T17:57:59.000Z",
       "latestDisplayedAt": "2026-10-21T17:57:59.000Z"
     },
     {
@@ -380,10 +380,10 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 429",
+      "itemCount": 4,
       "displayedCount": 4,
       "latestFetchedAt": "2026-10-21T17:59:14.000Z",
       "latestDisplayedAt": "2026-10-21T17:59:14.000Z"
@@ -490,37 +490,70 @@
   ],
   "items": [
     {
-      "id": "reddit-artificial-询问智能聊天助手关于和视觉和询问",
-      "title": "询问智能聊天助手关于和视觉和询问。",
-      "url": "https://www.reddit.com/r/artificial/comments/1xcr5y4/i_asked_chatgpt_about_ultron_and_vision_and_asked/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1xcrwj4/orgtree_v44_projects/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T18:48:30.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-10-22T19:15:49.000Z",
+      "summary": ":，代码托管平台，发布，信息技术时间面向更新。和时间，信息技术 :！在，可能 ; 智能体和。在，; 智能体，智能体，和和在，借助工具面向帮助智能体协调。我们进入，:，智能体，构建面向 3。信息技术作为应用在电脑，和智能体向 24，7，来自 & 来自重要人工智能，克劳德模型，智能聊天助手，双子座模型，和。向关于，在发布，只是在代码托管平台。借助，进入信息技术，在？设置，新在智能……",
       "topics": [
         "模型发布",
         "产品应用",
-        "多模态"
+        "投融资"
       ],
       "heat": 99,
-      "image": "https://preview.redd.it/qrlv0g0de2xh1.jpeg?width=640&crop=smart&auto=webp&s=6d31ce44f3038d93dc8d99122ec6593fb75786fa"
+      "image": "https://preview.redd.it/n2krsgbnp1xh1.png?width=640&crop=smart&auto=webp&s=acfc0335c7ecb3fe113316ef0c2ef80166d3deaa"
     },
     {
-      "id": "techcrunch-ai-微软人工智能在作为",
-      "title": "微软人工智能在作为",
-      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "id": "techcrunch-ai-相关型号推出面向人工智能智能体向在在",
+      "title": "相关型号推出面向人工智能智能体向在在",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T18:43:53.000Z",
-      "summary": "微软新人工智能在，向在科学。最向来自人工智能模型，来自微软。",
+      "publishedAt": "2026-10-22T19:07:09.000Z",
+      "summary": "新功能智能体向进入客户保护保障安全。",
       "topics": [
-        "模型发布"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 91,
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T19:06:37.000Z",
+      "summary": "来自连线杂志人工智能的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 89,
+      "image": "https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg"
+    },
+    {
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T18:58:19.000Z",
+      "summary": "更新发布面向 : 借助，向公司。大语言模型和人工智能智能体在面向和上下文，改进面向关于人工智能 …",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -537,23 +570,6 @@
         "产品应用"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-在元宇宙平台公司未来-呼吁",
-      "title": "在元宇宙平台公司未来，呼吁",
-      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T18:15:00.000Z",
-      "summary": "未来在人工智能智能体，面向，面向，讨论向人工智能智能体面向。面向和视觉生活在我们？…",
-      "topics": [
-        "产品应用",
-        "多模态"
-      ],
-      "heat": 95,
       "image": ""
     },
     {
@@ -587,7 +603,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -603,7 +619,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -670,7 +686,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -686,7 +702,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -703,26 +719,8 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
-    },
-    {
-      "id": "wired-ai-新人工智能模型借助",
-      "title": "新人工智能模型借助",
-      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T10:00:00.000Z",
-      "summary": "新打开，来源模型语言和帮助研究在和。",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "开源生态"
-      ],
-      "heat": 92,
-      "image": "https://media.wired.com/photos/6ad9279b7f825128a68bc73a/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter.gif"
     },
     {
       "id": "mit-tech-review-ai-面向上下文-人工智能",
@@ -753,7 +751,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -769,7 +767,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -851,7 +849,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/FrontlineMaternalCarewithAI2_ModelOverview.png"
     },
     {
@@ -888,19 +886,37 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp"
     },
     {
-      "id": "microsoft-ai-blog-微软云与人工智能博客发布人工智能相关动态",
-      "title": "微软云与人工智能博客发布人工智能相关动态。",
-      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "id": "microsoft-ai-blog-面向人工智能-分享来自向云服务",
+      "title": "面向人工智能: 分享来自向云服务",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
       "source": "微软云与人工智能博客",
       "sourceId": "microsoft-ai-blog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-10-20T17:34:47.000Z",
-      "summary": "借助在政府，基础设施和，向 : 向在最重要控制。借助控制和首个在微软。",
+      "publishedAt": "2026-10-19T19:00:00.000Z",
+      "summary": "组织向在正确，控制信息技术，和。面向人工智能: 分享来自向云服务首个在微软。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 52,
+      "heat": 57,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-发布首个图像生成模型",
+      "title": "发布首个图像生成模型",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "summary": "新图像模型可用向用户，更好，性能在成本。",
+      "topics": [
+        "模型发布",
+        "多模态"
+      ],
+      "heat": 96,
       "image": ""
     },
     {
@@ -920,19 +936,20 @@
       "image": "https://external-preview.redd.it/YI1LfC46Cc3vyX9FyR8wx-x1hNZ2DZWztfJHOvFve7U.jpeg?width=640&crop=smart&auto=webp&s=2e0eb46786535c803fffec8917a92f9137636ab7"
     },
     {
-      "id": "the-verge-ai-微软人工智能工具更好在",
-      "title": "微软人工智能工具更好在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+      "id": "the-verge-ai-在元宇宙平台公司未来-呼吁",
+      "title": "在元宇宙平台公司未来，呼吁",
+      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T18:00:00.000Z",
-      "summary": "面向，人工智能医疗作为改进。信息技术这里，微软人工智能首席执行官前沿科技媒体。公司向人工智能，驱动工具信息技术向 …",
+      "publishedAt": "2026-10-22T18:15:00.000Z",
+      "summary": "未来在人工智能智能体，面向，面向，讨论向人工智能智能体面向。面向和视觉生活在我们？…",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 90,
+      "heat": 94,
       "image": ""
     },
     {
@@ -953,22 +970,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-中国在公司信息技术",
-      "title": "中国在公司信息技术",
-      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T16:47:17.000Z",
-      "summary": "微软面向在，在人工智能智能体向进入客户。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
       "id": "ithome-黑石集团总裁反驳人工智能泡沫论-称需求呈-抛物线式-增长",
       "title": "黑石集团总裁反驳人工智能泡沫论，称需求呈“抛物线式”增长",
       "url": "https://www.ithome.com/1/016/752.htm",
@@ -981,7 +982,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1015,7 +1016,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1053,6 +1054,24 @@
       "image": ""
     },
     {
+      "id": "wired-ai-新人工智能模型借助",
+      "title": "新人工智能模型借助",
+      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "summary": "新打开，来源模型语言和帮助研究在和。",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "开源生态"
+      ],
+      "heat": 91,
+      "image": "https://media.wired.com/photos/6ada5ebcd90d47bccee2186e/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter%20(1).gif"
+    },
+    {
       "id": "oschina-人工智能安全公司推出-主动式人工智能智能体-克劳德模型-无需等你开口就干活-关键操作先问批准",
       "title": "人工智能安全公司推出“主动式人工智能智能体” 克劳德模型 ——无需等你开口就干活、关键操作先问批准",
       "url": "https://www.oschina.net/news/503159/claude-duet",
@@ -1067,7 +1086,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1101,7 +1120,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1155,22 +1174,6 @@
       ],
       "heat": 97,
       "image": ""
-    },
-    {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-21T22:39:50.000Z",
-      "summary": "元宇宙平台公司首席执行官公司人工智能。新向设置。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 72,
-      "image": "https://media.wired.com/photos/6ad9408768bf72427a051c89/master/pass/WIRED_Business_Mark-Z_CA.jpg"
     },
     {
       "id": "arxiv-cs-lg-论文新进展-人工智能前沿研究",
@@ -1244,23 +1247,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-面向人工智能-分享来自向云服务",
-      "title": "面向人工智能: 分享来自向云服务",
-      "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-19T19:00:00.000Z",
-      "summary": "组织向在正确，控制信息技术，和。面向人工智能: 分享来自向云服务首个在微软。",
-      "topics": [
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "ars-technica-ai-人工智能开发者向",
       "title": "人工智能开发者向",
       "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
@@ -1294,6 +1280,39 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AutonomousWetLabs_Cover.gif"
     },
     {
+      "id": "microsoft-ai-blog-打开-模型风险在企业",
+      "title": "打开，模型风险在企业",
+      "url": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-10-16T16:05:00.000Z",
+      "summary": "人工智能在构建，和模型。打开，模型风险在企业首个在微软。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 57,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-微软人工智能在作为",
+      "title": "微软人工智能在作为",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T18:43:53.000Z",
+      "summary": "微软新人工智能在，向在科学。最向来自人工智能模型，来自微软。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-为什么人工智能-和向",
       "title": ": 为什么人工智能，和向",
       "url": "https://www.reddit.com/r/artificial/comments/1xcqlr5/the_proximity_paradox_why_ai_is_making_us_softand/",
@@ -1312,19 +1331,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-2-由和人工智能",
-      "title": "2 由和人工智能",
-      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "id": "the-verge-ai-微软人工智能工具更好在",
+      "title": "微软人工智能工具更好在",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T17:21:31.000Z",
-      "summary": "2，和新，和来自。开放人工智能公司智能编程工具帮助，向。信息技术 …",
+      "publishedAt": "2026-10-22T18:00:00.000Z",
+      "summary": "面向，人工智能医疗作为改进。信息技术这里，微软人工智能首席执行官前沿科技媒体。公司向人工智能，驱动工具信息技术向 …",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1345,23 +1364,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-30-000-员工在智能聊天助手",
-      "title": "30，000 员工在智能聊天助手",
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T16:00:00.000Z",
-      "summary": "分享面向智能聊天助手企业智能体公司。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "ithome-华为官网公布乾崑智驾-5-各版本配置能力差异-旗舰版独占漫游巡航辅助-车位到车位等功能",
       "title": "华为官网公布乾崑智驾 5 各版本配置能力差异，旗舰版独占漫游巡航辅助、车位到车位等功能",
       "url": "https://www.ithome.com/1/016/749.htm",
@@ -1376,7 +1378,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1478,7 +1480,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1494,7 +1496,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1563,7 +1565,7 @@
         "模型发布",
         "投融资"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": "https://media.wired.com/photos/6ad8079d19d8dd7213438cc0/master/pass/business_ai_lab_recursive_improvement.jpg"
     },
     {
@@ -1579,7 +1581,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1616,23 +1618,6 @@
       "image": ""
     },
     {
-      "id": "microsoft-ai-blog-打开-模型风险在企业",
-      "title": "打开，模型风险在企业",
-      "url": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
-      "source": "微软云与人工智能博客",
-      "sourceId": "microsoft-ai-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-10-16T16:05:00.000Z",
-      "summary": "人工智能在构建，和模型。打开，模型风险在企业首个在微软。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 57,
-      "image": ""
-    },
-    {
       "id": "reddit-artificial-五个人工智能在",
       "title": "五个人工智能在",
       "url": "https://www.reddit.com/r/artificial/comments/1xcpa72/five_out_of_six_ai_chatbots_stay_in_the_political/",
@@ -1645,23 +1630,39 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://external-preview.redd.it/8HSSFdYD0b82yJMnKd7C9fWdznNX1qMAzvsOlfzJCrQ.jpeg?width=320&crop=smart&auto=webp&s=b1330e0702776a76951c9bd3f2220e85af0376f7"
     },
     {
-      "id": "the-verge-ai-人工智能向我们在",
-      "title": "人工智能向我们在",
-      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "id": "the-verge-ai-2-由和人工智能",
+      "title": "2 由和人工智能",
+      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T16:16:15.000Z",
-      "summary": "最来自，面向和。信息技术五个向。230，36，向生活由 …",
+      "publishedAt": "2026-10-22T17:21:31.000Z",
+      "summary": "2，和新，和来自。开放人工智能公司智能编程工具帮助，向。信息技术 …",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
-      "heat": 88,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-中国在公司信息技术",
+      "title": "中国在公司信息技术",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T16:47:17.000Z",
+      "summary": "微软面向在，在人工智能智能体向进入客户。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -1679,22 +1680,6 @@
         "算力芯片"
       ],
       "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能关于服务智能体",
-      "title": "人工智能关于服务智能体",
-      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T15:03:58.000Z",
-      "summary": "首席执行官 öö 解释为什么人工智能智能体新闻面向服务。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
       "image": ""
     },
     {
@@ -1728,7 +1713,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1845,7 +1830,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1878,7 +1863,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1896,7 +1881,7 @@
         "多模态",
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": "https://media.wired.com/photos/6ad8c8882adb51db52e1a235/master/pass/GettyImages-2301295306.jpg"
     },
     {
@@ -1950,6 +1935,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-人工智能向我们在",
+      "title": "人工智能向我们在",
+      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T16:16:15.000Z",
+      "summary": "最来自，面向和。信息技术五个向。230，36，向生活由 …",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-作为新人工智能解锁",
       "title": "作为新人工智能解锁",
       "url": "https://www.reddit.com/r/artificial/comments/1xcmrat/scientists_stunned_as_new_ai_unlocks_gamechanging/",
@@ -1966,18 +1967,18 @@
       "image": "https://external-preview.redd.it/ltJTbAbkofPsL6QEkVXR0JMZIH4PRn-myErnu2g2eUM.jpeg?width=640&crop=smart&auto=webp&s=d745cc5879ec85fb7735c685f2b19219cebc828b"
     },
     {
-      "id": "the-verge-ai-开放人工智能公司-人工智能安全公司-和英伟达",
-      "title": "开放人工智能公司，人工智能安全公司，和英伟达",
-      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
+      "id": "techcrunch-ai-30-000-员工在智能聊天助手",
+      "title": "30，000 员工在智能聊天助手",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T15:50:30.000Z",
-      "summary": "信息技术面向人工智能。人工智能安全公司，开放人工智能公司，和英伟达和。英伟达最群组在 $2.2 百万，由人工智能安全公司 $2.1 百万和开放人工智能公司 $1.5 百万。向公司借助在，…",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "summary": "分享面向智能聊天助手企业智能体公司。",
       "topics": [
-        "算力芯片",
-        "监管安全"
+        "模型发布",
+        "产品应用"
       ],
       "heat": 99,
       "image": ""
@@ -1997,24 +1998,6 @@
         "端侧智能"
       ],
       "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-克劳德模型应用人工智能安全公司在智能体",
-      "title": "克劳德模型应用人工智能安全公司在智能体",
-      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T13:53:26.000Z",
-      "summary": "克劳德模型可用面向专业版和旗舰版用户。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -2119,7 +2102,7 @@
         "监管安全",
         "开源生态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2242,6 +2225,23 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-开放人工智能公司-人工智能安全公司-和英伟达",
+      "title": "开放人工智能公司，人工智能安全公司，和英伟达",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T15:50:30.000Z",
+      "summary": "信息技术面向人工智能。人工智能安全公司，开放人工智能公司，和英伟达和。英伟达最群组在 $2.2 百万，由人工智能安全公司 $2.1 百万和开放人工智能公司 $1.5 百万。向公司借助在，…",
+      "topics": [
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-在-在人工智能",
       "title": "在，在人工智能",
       "url": "https://www.reddit.com/r/artificial/comments/1xclpjt/on_main_street_goldman_sachs_makes_a_big_bet_on_ai/",
@@ -2254,21 +2254,21 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": "https://external-preview.redd.it/xBwpit_O-axuiAOvlyhsXQDBsB1LRD3ZykJmK9plSv8.jpeg?width=640&crop=smart&auto=webp&s=fddb384e81447a53750690f6b51cfaaadf071c80"
     },
     {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
+      "id": "techcrunch-ai-人工智能关于服务智能体",
+      "title": "人工智能关于服务智能体",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T15:12:27.000Z",
-      "summary": "在语言设置在。由，向 70 使用在。信息技术驱动，和和平台，和相关型号，…",
+      "publishedAt": "2026-10-22T15:03:58.000Z",
+      "summary": "首席执行官 öö 解释为什么人工智能智能体新闻面向服务。",
       "topics": [
-        "人工智能动态"
+        "产品应用"
       ],
       "heat": 87,
       "image": ""
@@ -2287,22 +2287,6 @@
         "机器人"
       ],
       "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-22T13:26:52.000Z",
-      "summary": "交付 $249 人工智能由。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -2369,7 +2353,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2518,7 +2502,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2534,7 +2518,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2554,18 +2538,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-深度求索据报道-15-十亿",
-      "title": "深度求索据报道 $15 十亿",
-      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "id": "techcrunch-ai-克劳德模型应用人工智能安全公司在智能体",
+      "title": "克劳德模型应用人工智能安全公司在智能体",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-22T13:11:13.000Z",
-      "summary": "深度求索据报道 $15 十亿在融资，只是。向安全。",
+      "publishedAt": "2026-10-22T13:53:26.000Z",
+      "summary": "克劳德模型可用面向专业版和旗舰版用户。",
       "topics": [
-        "监管安全",
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -2601,7 +2586,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2619,7 +2604,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2635,7 +2620,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2687,7 +2672,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2771,7 +2756,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": "https://external-preview.redd.it/iiTu8_S54n52HEv1-Ugnszo2qmsFvBsv3j7HBzCwJSo.jpeg?width=640&crop=smart&auto=webp&s=b4b0566647ffe0ac62d4a743bdccbf5362c45c53"
     },
     {
@@ -2787,7 +2772,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-22T13:26:52.000Z",
+      "summary": "交付 $249 人工智能由。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
