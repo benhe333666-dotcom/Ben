@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-10-25T07:01:25.967Z",
+  "generatedAt": "2026-10-25T07:31:27.381Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-25T07:30:00.000Z",
+  "nextUpdateHint": "2026-10-25T08:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-25T06:57:00.000Z"
+    "latestPublishedAt": "2026-10-25T07:27:22.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 71,
-      "heat": 71
-    },
-    {
-      "name": "模型发布",
-      "count": 57,
+      "count": 70,
       "heat": 70
     },
     {
-      "name": "研究论文",
-      "count": 24,
-      "heat": 71
+      "name": "模型发布",
+      "count": 58,
+      "heat": 70
     },
     {
       "name": "算力芯片",
+      "count": 25,
+      "heat": 76
+    },
+    {
+      "name": "研究论文",
       "count": 23,
-      "heat": 74
+      "heat": 69
     },
     {
       "name": "监管安全",
-      "count": 22,
-      "heat": 77
+      "count": 20,
+      "heat": 76
     },
     {
       "name": "人工智能动态",
-      "count": 16,
-      "heat": 62
+      "count": 17,
+      "heat": 64
     },
     {
       "name": "多模态",
@@ -52,18 +52,18 @@
       "heat": 60
     },
     {
-      "name": "投融资",
-      "count": 10,
-      "heat": 72
+      "name": "端侧智能",
+      "count": 9,
+      "heat": 82
     },
     {
-      "name": "端侧智能",
-      "count": 7,
-      "heat": 81
+      "name": "投融资",
+      "count": 9,
+      "heat": 73
     },
     {
       "name": "机器人",
-      "count": 8,
+      "count": 7,
       "heat": 67
     }
   ],
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-10-25T06:55:22.000Z",
       "latestDisplayedAt": "2026-10-25T06:55:22.000Z"
     },
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-25T06:26:59.000Z",
-      "latestDisplayedAt": "2026-10-25T06:26:59.000Z"
+      "latestFetchedAt": "2026-10-25T07:16:36.000Z",
+      "latestDisplayedAt": "2026-10-25T07:16:36.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -352,9 +352,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
-      "latestFetchedAt": "2026-10-23T17:51:50.000Z",
-      "latestDisplayedAt": "2026-10-23T17:51:50.000Z"
+      "displayedCount": 3,
+      "latestFetchedAt": "2026-10-24T02:40:27.000Z",
+      "latestDisplayedAt": "2026-10-24T02:40:27.000Z"
     },
     {
       "id": "arxiv-cs-ai",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 24,
+      "itemCount": 23,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-25T06:55:24.000Z",
-      "latestDisplayedAt": "2026-10-25T06:55:24.000Z"
+      "latestFetchedAt": "2026-10-25T07:27:22.000Z",
+      "latestDisplayedAt": "2026-10-25T07:27:22.000Z"
     },
     {
       "id": "oschina",
@@ -479,10 +479,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 11,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-10-25T06:57:00.000Z",
-      "latestDisplayedAt": "2026-10-25T06:57:00.000Z"
+      "latestFetchedAt": "2026-10-25T07:02:52.000Z",
+      "latestDisplayedAt": "2026-10-25T07:02:52.000Z"
     }
   ],
   "failures": [
@@ -490,37 +490,55 @@
   ],
   "items": [
     {
-      "id": "cnblogs-news-月之暗面相关型号专业版正式上线-支持百万上下文-完整权重将在-11-月-4-日前发布",
-      "title": "月之暗面相关型号专业版正式上线，支持百万上下文，完整权重将在 11 月 4 日前发布",
-      "url": "https://news.cnblogs.com/n/841964/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-25T06:57:00.000Z",
-      "summary": "月之暗面正式发布月之暗面相关型号专业版，并同步推出高速版，支持 100 万词元上下文。官方计划于 11 月 4 日前发布完整模型权重。相关型号专业版以月之暗面相关型号为基础，增加后训练算力，并在数百种下游任务中联合强化学习。版的输出速本文链接",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "ithome-赛力斯赛豆科技全球首家人工智能生活实验室今日开幕-店内展出相关型号实车",
-      "title": "赛力斯赛豆科技全球首家人工智能生活实验室今日开幕，店内展出相关型号实车",
-      "url": "https://www.ithome.com/1/017/602.htm",
+      "id": "ithome-英伟达黄仁勋-市场对新型云服务商的需求高到离谱-但问题是缺钱",
+      "title": "英伟达黄仁勋：市场对新型云服务商的需求高到离谱，但问题是缺钱",
+      "url": "https://www.ithome.com/1/017/614.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T06:55:24.000Z",
-      "summary": "科技之家 10 月 25 日消息，由重庆市沙坪坝区与赛力斯共同投资的赛豆科技首款量产车 —— 相关型号已于今年 9 月在法国巴黎尚普拉特勒城堡完成全球首秀。目前，新车已完成工信部申报，将推出单电机以及双电机两个版本，均提供 5 座布局，可选装红色卡钳、黑色车顶、不同造型轮辋、拖钩孔、电连接头、车载装置，配备汽车事件数据记录系统（）。科技之家注意到，赛豆科技汽车今日发布视频，宣……",
+      "publishedAt": "2026-10-25T07:27:22.000Z",
+      "summary": "科技之家 10 月 25 日消息，当地时间 22 日，英伟达首席执行官黄仁勋接受采访时说，市场对新型云服务商的需求极其旺盛，“高到离谱（ ）”，但资金短缺正成为制约行业发展的主要障碍。“从基本面看，新型云服务商的市场需求非常旺盛。” 他还称，这些企业的能力“非同寻常”。“眼下最缺的是支撑企业增长的营运资金 …… 人工智能各个领域都有大量需求，导致资金供不应求。市场需要的资金远……",
       "topics": [
-        "投融资",
-        "多模态",
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-构建原型人工智能智能体平台",
+      "title": "构建原型人工智能智能体平台",
+      "url": "https://www.reddit.com/r/artificial/comments/1xevru5/built_a_prototype_ai_agent_communication_platform/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T07:16:36.000Z",
+      "summary": "构建原型人工智能智能体平台呼吁来自借助。信息技术智能体，借助，和实时。构建在和双子座模型。由",
+      "topics": [
+        "模型发布",
+        "产品应用",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-黄仁勋-对长鑫合作持开放态度-不认为-2029-年内存会过剩",
+      "title": "黄仁勋：对长鑫合作持开放态度，不认为 2029 年内存会过剩",
+      "url": "https://news.cnblogs.com/n/841966/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T07:02:52.000Z",
+      "summary": "英伟达首席执行官黄仁勋在柏林大会期间接受采访时表示，对与长鑫存储合作、采用其内存产品持开放态度。他说，英伟达在供应链中与中国企业合作，中国在基础设施技术方面表现出色，「没有哪个国家整体上在制造业方面比中国更强」。谈及近期市场对内存新增产能的担忧，黄仁勋表示，他不认为 2029 本文链接",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -540,22 +558,6 @@
       ],
       "heat": 99,
       "image": ""
-    },
-    {
-      "id": "reddit-artificial-向-人工智能模型-开放人工智能公司",
-      "title": "向，人工智能模型。开放人工智能公司",
-      "url": "https://www.reddit.com/r/artificial/comments/1xeuxt5/forced_to_pick_groks_ai_model_chooses_republicans/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-25T06:26:59.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 93,
-      "image": "https://external-preview.redd.it/sBwGrjvWg3-IcnR8Vi5wbfJsP2d9f1OoIuSn1ttxZd0.jpeg?width=640&crop=smart&auto=webp&s=28d60e8effd777e0337993a95ce2515b467002ea"
     },
     {
       "id": "thirty-six-kr-印度拟推出多项市场改革",
@@ -587,7 +589,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -604,7 +606,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -622,7 +624,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -644,6 +646,24 @@
       "image": ""
     },
     {
+      "id": "product-hunt-ai-开源大语言模型视窗系统",
+      "title": "开源大语言模型视窗系统",
+      "url": "https://www.producthunt.com/products/llama-windows",
+      "source": "人工智能产品发现",
+      "sourceId": "product-hunt-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-24T02:40:27.000Z",
+      "summary": "本地人工智能面向视窗系统应用讨论",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 71,
+      "image": ""
+    },
+    {
       "id": "github-changelog-指标接口新增来自工具",
       "title": "指标接口新增来自工具",
       "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
@@ -658,7 +678,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -676,22 +696,6 @@
       ],
       "heat": 62,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png"
-    },
-    {
-      "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
-      "title": "人工智能产品发现发布人工智能相关动态。",
-      "url": "https://www.producthunt.com/products/basedash",
-      "source": "人工智能产品发现",
-      "sourceId": "product-hunt-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-23T17:51:50.000Z",
-      "summary": "来自人工智能产品发现的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 54,
-      "image": ""
     },
     {
       "id": "openai-news-向-1-十亿智能聊天助手用户部件",
@@ -910,15 +914,15 @@
       "image": ""
     },
     {
-      "id": "ithome-技嘉上架-相关型号克-31-5-英寸显示器-相关型号-240-赫兹-480-赫兹-5789-元",
-      "title": "技嘉上架“相关型号克”31.5 英寸显示器：相关型号 240 赫兹 / 480 赫兹，5789 元",
-      "url": "https://www.ithome.com/1/017/601.htm",
+      "id": "ithome-聚焦帕金森病-癫痫等-10-类疾病方向-全国首个国家脑机接口高质量数据集建设项目启动",
+      "title": "聚焦帕金森病、癫痫等 10 类疾病方向，全国首个国家脑机接口高质量数据集建设项目启动",
+      "url": "https://www.ithome.com/1/017/607.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T06:49:37.000Z",
-      "summary": "科技之家 10 月 25 日消息，技嘉现已在京东上架“相关型号克”显示器，该机主打相关型号 240 赫兹 / 480 赫兹双模，定价为 5789 元。京东技嘉“相关型号克”显示器 5789 元直达链接该机基于 32\" 第四代面板，采用镜面屏技术，支持 240 赫兹 / 480 赫兹双模切换。其通过 500 认证，峰值亮度可达 1500 尼特，色域 99.5% 相关型号，色差 ……",
+      "publishedAt": "2026-10-25T07:11:32.000Z",
+      "summary": "科技之家 10 月 25 日消息，据极目新闻报道，华中科技大学同济医学院附属同济医院牵头的脑机接口高质量数据集建设项目，24 日在武汉正式启动。根据建设方案，该项目拟于 2027 年建成投用，聚焦脑卒中康复、脊髓损伤、帕金森病、癫痫、意识障碍、顽固性疼痛、面瘫、言语功能障碍、运动障碍性疾病和胃肠神经调控等 10 类疾病方向，基本覆盖神经调控与功能重建的主要临床场景。项目以破解……",
       "topics": [
         "人工智能动态"
       ],
@@ -926,35 +930,35 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-实测月之暗面相关型号专业版-国模终于继续卷旗舰",
-      "title": "实测月之暗面相关型号专业版，国模终于继续卷旗舰",
-      "url": "https://news.cnblogs.com/n/841962/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-25T06:48:54.000Z",
-      "summary": "刚刚，月之暗面正式发布了新一代旗舰模型相关型号专业版。在国产大模型纷纷卷起速度和价格的当下，月之暗面又把竞争带回了性能天花板之争。前两天，大模型竞技场上一款叫的神秘模型，就已经引起了大家的关注。社交媒体的信息流里，都是用这款模型生成的各种惊艳的案例。图｜提示词：编写一个骑本文链接",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-任务自动化借助人工智能信息技术",
-      "title": "任务自动化借助人工智能信息技术？",
-      "url": "https://www.reddit.com/r/artificial/comments/1xeuuh3/whats_one_task_you_automated_with_ai_that_ended/",
+      "id": "reddit-artificial-谷歌人工智能-在向数据",
+      "title": "谷歌人工智能，在向数据",
+      "url": "https://www.reddit.com/r/artificial/comments/1xevnru/googles_ai_optin_becomes_the_legal_key_to_its/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T06:21:12.000Z",
+      "publishedAt": "2026-10-25T07:10:06.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 93,
+      "image": "https://external-preview.redd.it/yQtXs5q23xEn2Cy-xiByIFVH0PoE_yV3wm07qzgn1Dc.jpeg?width=640&crop=smart&auto=webp&s=182a85485997940e9e806a87dea2cd4ddf1323f7"
+    },
+    {
+      "id": "cnblogs-news-月之暗面相关型号专业版正式上线-支持百万上下文-完整权重将在-11-月-4-日前发布",
+      "title": "月之暗面相关型号专业版正式上线，支持百万上下文，完整权重将在 11 月 4 日前发布",
+      "url": "https://news.cnblogs.com/n/841964/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T06:57:00.000Z",
+      "summary": "月之暗面正式发布月之暗面相关型号专业版，并同步推出高速版，支持 100 万词元上下文。官方计划于 11 月 4 日前发布完整模型权重。相关型号专业版以月之暗面相关型号为基础，增加后训练算力，并在数百种下游任务中联合强化学习。版的输出速本文链接",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1020,7 +1024,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1053,7 +1057,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1069,7 +1073,23 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 70,
+      "heat": 69,
+      "image": ""
+    },
+    {
+      "id": "product-hunt-ai-人工智能产品发现发布人工智能相关动态",
+      "title": "人工智能产品发现发布人工智能相关动态。",
+      "url": "https://www.producthunt.com/products/basedash",
+      "source": "人工智能产品发现",
+      "sourceId": "product-hunt-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-23T17:51:50.000Z",
+      "summary": "来自人工智能产品发现的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 53,
       "image": ""
     },
     {
@@ -1086,7 +1106,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -1104,22 +1124,6 @@
         "投融资"
       ],
       "heat": 70,
-      "image": ""
-    },
-    {
-      "id": "product-hunt-ai-产品发现平台推出",
-      "title": "产品发现平台推出",
-      "url": "https://www.producthunt.com/products/producthunt",
-      "source": "人工智能产品发现",
-      "sourceId": "product-hunt-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-23T06:03:38.000Z",
-      "summary": "查看推出作为构建信息技术讨论",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 44,
       "image": ""
     },
     {
@@ -1306,38 +1310,54 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ss_c6067e139d8dd2cbf79c41a9c4e41e3bb088c95a.1920x1080-1152x648.jpg"
     },
     {
-      "id": "ithome-特斯拉确认正自研人工智能地图-将随第15代逐步推送",
-      "title": "特斯拉确认正自研人工智能地图，将随第15代逐步推送",
-      "url": "https://www.ithome.com/1/017/597.htm",
+      "id": "ithome-赛力斯赛豆科技全球首家人工智能生活实验室今日开幕-店内展出相关型号实车",
+      "title": "赛力斯赛豆科技全球首家人工智能生活实验室今日开幕，店内展出相关型号实车",
+      "url": "https://www.ithome.com/1/017/602.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T06:34:47.000Z",
-      "summary": "科技之家 10 月 25 日消息，在最新的特斯拉财报电话会议上，特斯拉副总裁阿肖克 · 埃卢斯瓦米（ ）宣布，特斯拉正在自研一套基于人工智能的地图导航系统。这套全新地图方案将随第15代上线，融合车队采集数据、个性化路线规划，同时支持语音控制。据科技之家了解，特斯拉目前的导航是第三方地图内容搭配自研软件。此前“偏好路线”功能上线时就有报道说明：谷歌通过接口提供底图瓦片、街道数据……",
+      "publishedAt": "2026-10-25T06:55:24.000Z",
+      "summary": "科技之家 10 月 25 日消息，由重庆市沙坪坝区与赛力斯共同投资的赛豆科技首款量产车 —— 相关型号已于今年 9 月在法国巴黎尚普拉特勒城堡完成全球首秀。目前，新车已完成工信部申报，将推出单电机以及双电机两个版本，均提供 5 座布局，可选装红色卡钳、黑色车顶、不同造型轮辋、拖钩孔、电连接头、车载装置，配备汽车事件数据记录系统（）。科技之家注意到，赛豆科技汽车今日发布视频，宣……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "多模态"
+        "投融资",
+        "多模态",
+        "端侧智能"
       ],
       "heat": 97,
       "image": ""
     },
     {
-      "id": "reddit-artificial-借助人工智能-时间即将推出视频-音频-和图像在",
-      "title": "借助人工智能，时间即将推出视频，音频，和图像在？",
-      "url": "https://www.reddit.com/r/artificial/comments/1xetiew/i_with_the_advancement_of_ai_is_there_a_time/",
+      "id": "cnblogs-news-实测月之暗面相关型号专业版-国模终于继续卷旗舰",
+      "title": "实测月之暗面相关型号专业版，国模终于继续卷旗舰",
+      "url": "https://news.cnblogs.com/n/841962/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T06:48:54.000Z",
+      "summary": "刚刚，月之暗面正式发布了新一代旗舰模型相关型号专业版。在国产大模型纷纷卷起速度和价格的当下，月之暗面又把竞争带回了性能天花板之争。前两天，大模型竞技场上一款叫的神秘模型，就已经引起了大家的关注。社交媒体的信息流里，都是用这款模型生成的各种惊艳的案例。图｜提示词：编写一个骑本文链接",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-向-人工智能模型-开放人工智能公司",
+      "title": "向，人工智能模型。开放人工智能公司",
+      "url": "https://www.reddit.com/r/artificial/comments/1xeuxt5/forced_to_pick_groks_ai_model_chooses_republicans/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T05:02:04.000Z",
-      "summary": "得到更好和更好。由",
+      "publishedAt": "2026-10-25T06:26:59.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "多模态"
+        "模型发布"
       ],
-      "heat": 84,
-      "image": ""
+      "heat": 93,
+      "image": "https://external-preview.redd.it/sBwGrjvWg3-IcnR8Vi5wbfJsP2d9f1OoIuSn1ttxZd0.jpeg?width=640&crop=smart&auto=webp&s=28d60e8effd777e0337993a95ce2515b467002ea"
     },
     {
       "id": "thirty-six-kr-一颗人工智能毫米波雷达-千里科技在补哪一环",
@@ -1371,7 +1391,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1387,23 +1407,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 77,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-把宫斗剧鼻祖翻出来-还在坚持手搓短剧",
-      "title": "把宫斗剧鼻祖翻出来，还在坚持手搓短剧",
-      "url": "https://news.cnblogs.com/n/841960/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-24T08:55:00.000Z",
-      "summary": "文，源，作者，周艺在一堆人做人工智能短剧的时候，开始拍精品真人短剧了。近两年，虽然以陈山聪、江美仪、叶璇为代表的知名演员频频“下凡”拍摄短剧，但作为内容平台的却迟迟没有下场。近日，宣布与红果短剧达成合作，首部剧集为经典 “金枝欲孽”的本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 67,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1455,7 +1459,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1487,7 +1491,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 47,
+      "heat": 46,
+      "image": ""
+    },
+    {
+      "id": "product-hunt-ai-产品发现平台推出",
+      "title": "产品发现平台推出",
+      "url": "https://www.producthunt.com/products/producthunt",
+      "source": "人工智能产品发现",
+      "sourceId": "product-hunt-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-23T06:03:38.000Z",
+      "summary": "查看推出作为构建信息技术讨论",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 44,
       "image": ""
     },
     {
@@ -1646,21 +1666,35 @@
       "image": ""
     },
     {
-      "id": "ithome-网络安全专家-人工智能发现的漏洞-很快或将引发新的安全隐患",
-      "title": "网络安全专家：人工智能发现的漏洞，很快或将引发新的安全隐患",
-      "url": "https://www.ithome.com/1/017/592.htm",
+      "id": "ithome-技嘉上架-相关型号克-31-5-英寸显示器-相关型号-240-赫兹-480-赫兹-5789-元",
+      "title": "技嘉上架“相关型号克”31.5 英寸显示器：相关型号 240 赫兹 / 480 赫兹，5789 元",
+      "url": "https://www.ithome.com/1/017/601.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T06:06:05.000Z",
-      "summary": "科技之家 10 月 25 日消息，路透社采访的七名网络安全专家认为，随着人工智能技术不断揭示软件中隐藏的安全漏洞，类似本周全球多地政府网站接连中断服务的事件，几乎肯定会再次发生。美国马萨诸塞州网络威胁情报公司即将发布的研究显示，人工智能推动了软件漏洞发现数量的增长，过去一年发现的漏洞数量同比翻了一番。数字基础设施公司的首席执行官马修 · 普林斯指出：“我知道，其他一些关键软件……",
+      "publishedAt": "2026-10-25T06:49:37.000Z",
+      "summary": "科技之家 10 月 25 日消息，技嘉现已在京东上架“相关型号克”显示器，该机主打相关型号 240 赫兹 / 480 赫兹双模，定价为 5789 元。京东技嘉“相关型号克”显示器 5789 元直达链接该机基于 32\" 第四代面板，采用镜面屏技术，支持 240 赫兹 / 480 赫兹双模切换。其通过 500 认证，峰值亮度可达 1500 尼特，色域 99.5% 相关型号，色差 ……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 97,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-任务自动化借助人工智能信息技术",
+      "title": "任务自动化借助人工智能信息技术？",
+      "url": "https://www.reddit.com/r/artificial/comments/1xeuuh3/whats_one_task_you_automated_with_ai_that_ended/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T06:21:12.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
       "image": ""
     },
     {
@@ -1682,23 +1716,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-开放人工智能公司和人工智能安全公司支持-中国人工智能公司",
-      "title": "开放人工智能公司和人工智能安全公司支持。中国人工智能公司？",
-      "url": "https://www.reddit.com/r/artificial/comments/1xerrbz/openai_and_anthropic_support_oss_maintainers_do/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-25T03:26:29.000Z",
-      "summary": "在来自开放人工智能公司和人工智能安全公司和通义千问，深度求索，月之暗面。编程接口面向打开，来源。面向人工智能，打开，来源，在。:，和面向访问向编程工具向帮助持续信息技术。这里支持来自中国人工智能公司。只是在。由",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "the-decoder-新人工智能模型训练在语音向回顾模型",
       "title": "新人工智能模型训练在语音向回顾模型",
       "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
@@ -1714,6 +1731,22 @@
         "多模态"
       ],
       "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-把宫斗剧鼻祖翻出来-还在坚持手搓短剧",
+      "title": "把宫斗剧鼻祖翻出来，还在坚持手搓短剧",
+      "url": "https://news.cnblogs.com/n/841960/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-24T08:55:00.000Z",
+      "summary": "文，源，作者，周艺在一堆人做人工智能短剧的时候，开始拍精品真人短剧了。近两年，虽然以陈山聪、江美仪、叶璇为代表的知名演员频频“下凡”拍摄短剧，但作为内容平台的却迟迟没有下场。近日，宣布与红果短剧达成合作，首部剧集为经典 “金枝欲孽”的本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 67,
       "image": ""
     },
     {
@@ -1735,22 +1768,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-谷歌双子座模型-4-首批实测曝光-手感直逼旗舰模型-5-5",
-      "title": "谷歌双子座模型 4 首批实测曝光！手感直逼旗舰模型 5.5",
-      "url": "https://news.cnblogs.com/n/841959/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-23T23:57:53.000Z",
-      "summary": "新智元报道全面开放才 8 天，谷歌的下一张王牌，就杀进竞技场了！就在刚刚，谷歌最强的被曝开测。合作伙伴已经抢先拿到，上也开了盲测，发布就在眼前。消息一出，测试者全扑进了。一天之内，的实测在上炸成一片，有人拿它一口气做完了本文链接",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-开放人工智能公司信息技术训练人工智能模型在实时-风险",
       "title": "开放人工智能公司信息技术训练人工智能模型在实时，风险",
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
@@ -1763,7 +1780,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1779,7 +1796,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1969,21 +1986,37 @@
       "image": ""
     },
     {
-      "id": "ithome-雷神-15-双十一大促-12499-元起-轻至-1-54-千克兼顾便携与性能释放",
-      "title": "雷神 15 双十一大促：12499 元起，轻至 1.54 千克兼顾便携与性能释放",
-      "url": "https://www.ithome.com/1/017/591.htm",
+      "id": "ithome-特斯拉确认正自研人工智能地图-将随第15代逐步推送",
+      "title": "特斯拉确认正自研人工智能地图，将随第15代逐步推送",
+      "url": "https://www.ithome.com/1/017/597.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T06:04:09.000Z",
-      "summary": "科技之家 10 月 25 日消息，双十一大促已经开启，笔记本产品也迎来新一轮优惠。此前在 2026 上，雷神推出了面向未来的“轻型”游戏本新品 —— 雷神。官方表示，该系列产品希望在兼顾便携性的同时，保留游戏本的性能表现，其中雷神 15 在 1.54 千克的机身内实现了 160 瓦性能释放，并搭载第三代英特尔酷睿处理器以及 50 系列独立显卡。目前，雷神 15 在双十一期间价……",
+      "publishedAt": "2026-10-25T06:34:47.000Z",
+      "summary": "科技之家 10 月 25 日消息，在最新的特斯拉财报电话会议上，特斯拉副总裁阿肖克 · 埃卢斯瓦米（ ）宣布，特斯拉正在自研一套基于人工智能的地图导航系统。这套全新地图方案将随第15代上线，融合车队采集数据、个性化路线规划，同时支持语音控制。据科技之家了解，特斯拉目前的导航是第三方地图内容搭配自研软件。此前“偏好路线”功能上线时就有报道说明：谷歌通过接口提供底图瓦片、街道数据……",
       "topics": [
         "产品应用",
-        "算力芯片",
-        "端侧智能"
+        "监管安全",
+        "多模态"
       ],
-      "heat": 99,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-借助人工智能-时间即将推出视频-音频-和图像在",
+      "title": "借助人工智能，时间即将推出视频，音频，和图像在？",
+      "url": "https://www.reddit.com/r/artificial/comments/1xetiew/i_with_the_advancement_of_ai_is_there_a_time/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T05:02:04.000Z",
+      "summary": "得到更好和更好。由",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 84,
       "image": ""
     },
     {
@@ -2005,22 +2038,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-5-机器人在",
-      "title": "5 机器人在",
-      "url": "https://www.reddit.com/r/artificial/comments/1xepbrk/apollo_hospitals_deploys_intuitives_da_vinci_5/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-25T01:21:00.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "机器人"
-      ],
-      "heat": 81,
-      "image": "https://external-preview.redd.it/MAw6hRHUKDIwg1UreD827c5CcZxFa7HVunwusdDKckQ.jpeg?width=640&crop=smart&auto=webp&s=c4b6fa17ef4ef7f8dac90e125537045ff63faace"
-    },
-    {
       "id": "the-decoder-开放人工智能公司人工智能智能体向向中央处理器",
       "title": "开放人工智能公司人工智能智能体向向中央处理器",
       "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
@@ -2035,23 +2052,23 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "cnblogs-news-哈佛重磅研究-人工智能凭人脸照片-就能预测癌症患者死亡风险",
-      "title": "哈佛重磅研究：人工智能凭人脸照片，就能预测癌症患者死亡风险！",
-      "url": "https://news.cnblogs.com/n/841958/",
+      "id": "cnblogs-news-谷歌双子座模型-4-首批实测曝光-手感直逼旗舰模型-5-5",
+      "title": "谷歌双子座模型 4 首批实测曝光！手感直逼旗舰模型 5.5",
+      "url": "https://news.cnblogs.com/n/841959/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-23T23:54:10.000Z",
-      "summary": "新智元报道就在今天，这个新闻上了各大热搜。哈佛附属的马萨诸塞州总医院百瀚癌症研究所，在《柳叶刀·数字健康》上发布了一项突破性研究。他们训练出了一个全球首创的人工智能模型——。只需输入一张普通的脸部照片，这个人工智能不仅能看穿你的「生物学真实年龄」，甚至能直接预测癌症患者的存本文链接",
+      "publishedAt": "2026-10-23T23:57:53.000Z",
+      "summary": "新智元报道全面开放才 8 天，谷歌的下一张王牌，就杀进竞技场了！就在刚刚，谷歌最强的被曝开测。合作伙伴已经抢先拿到，上也开了盲测，发布就在眼前。消息一出，测试者全扑进了。一天之内，的实测在上炸成一片，有人拿它一口气做完了本文链接",
       "topics": [
-        "研究论文"
+        "模型发布"
       ],
-      "heat": 60,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2273,19 +2290,38 @@
       "image": ""
     },
     {
-      "id": "ithome-鸿蒙智行智界轿跑整装发运-今日同步开启全国大规模交付-赛车手谢欣哲成首批车主",
-      "title": "鸿蒙智行智界轿跑整装发运：今日同步开启全国大规模交付，赛车手谢欣哲成首批车主",
-      "url": "https://www.ithome.com/1/017/587.htm",
+      "id": "ithome-网络安全专家-人工智能发现的漏洞-很快或将引发新的安全隐患",
+      "title": "网络安全专家：人工智能发现的漏洞，很快或将引发新的安全隐患",
+      "url": "https://www.ithome.com/1/017/592.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T05:34:04.000Z",
-      "summary": "科技之家 10 月 25 日消息，鸿蒙智行智界轿跑今日宣布整装发运，加速驶向首批车主。参考科技之家此前报道，智界今日会在上海国际赛车场举办首批车主交付仪式，全国大规模交付也将同步开启。官方透露，后续车辆将按照锁单顺序陆续推进排产和交付，预计交付周期为 4-6 周。据博主 @爱叨叨的分享的现场情况，赛车手谢欣哲成为智界首批车主。公开资料显示，谢欣哲 1991 年 8 月 23 ……",
+      "publishedAt": "2026-10-25T06:06:05.000Z",
+      "summary": "科技之家 10 月 25 日消息，路透社采访的七名网络安全专家认为，随着人工智能技术不断揭示软件中隐藏的安全漏洞，类似本周全球多地政府网站接连中断服务的事件，几乎肯定会再次发生。美国马萨诸塞州网络威胁情报公司即将发布的研究显示，人工智能推动了软件漏洞发现数量的增长，过去一年发现的漏洞数量同比翻了一番。数字基础设施公司的首席执行官马修 · 普林斯指出：“我知道，其他一些关键软件……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 86,
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-开放人工智能公司和人工智能安全公司支持-中国人工智能公司",
+      "title": "开放人工智能公司和人工智能安全公司支持。中国人工智能公司？",
+      "url": "https://www.reddit.com/r/artificial/comments/1xerrbz/openai_and_anthropic_support_oss_maintainers_do/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-25T03:26:29.000Z",
+      "summary": "在来自开放人工智能公司和人工智能安全公司和通义千问，深度求索，月之暗面。编程接口面向打开，来源。面向人工智能，打开，来源，在。:，和面向访问向编程工具向帮助持续信息技术。这里支持来自中国人工智能公司。只是在。由",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 95,
       "image": ""
     },
     {
@@ -2307,23 +2343,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能在研究",
-      "title": "人工智能在研究",
-      "url": "https://www.reddit.com/r/artificial/comments/1xeobab/unintended_consequences_of_ai_on_academic_research/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-25T00:30:47.000Z",
-      "summary": "关于向科学和，在未来，在问题，为什么？信息技术向和进入，作为信息技术面向最由",
-      "topics": [
-        "研究论文",
-        "端侧智能"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "the-decoder-编程智能体更好",
       "title": "编程智能体更好",
       "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
@@ -2341,19 +2360,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-词元被摆上天猫的那一刻-离拼多多已经不远了",
-      "title": "词元被摆上天猫的那一刻，离拼多多已经不远了",
-      "url": "https://news.cnblogs.com/n/841956/",
+      "id": "cnblogs-news-哈佛重磅研究-人工智能凭人脸照片-就能预测癌症患者死亡风险",
+      "title": "哈佛重磅研究：人工智能凭人脸照片，就能预测癌症患者死亡风险！",
+      "url": "https://news.cnblogs.com/n/841958/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-23T23:50:55.000Z",
-      "summary": "文，光子星球双 11 前夕，大模型厂商入驻天猫，开设其首家品牌官方旗舰店，销售词元订阅套餐产品。目前，店铺已经上架订阅套餐，包括、三档套餐，支持按月、按年购买。（来源：天猫平台） 这种在电商平台上架词元订本文链接",
+      "publishedAt": "2026-10-23T23:54:10.000Z",
+      "summary": "新智元报道就在今天，这个新闻上了各大热搜。哈佛附属的马萨诸塞州总医院百瀚癌症研究所，在《柳叶刀·数字健康》上发布了一项突破性研究。他们训练出了一个全球首创的人工智能模型——。只需输入一张普通的脸部照片，这个人工智能不仅能看穿你的「生物学真实年龄」，甚至能直接预测癌症患者的存本文链接",
       "topics": [
-        "模型发布"
+        "研究论文"
       ],
-      "heat": 68,
+      "heat": 59,
       "image": ""
     },
     {
@@ -2369,7 +2388,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2563,36 +2582,38 @@
       "image": ""
     },
     {
-      "id": "ithome-星联合创始人丹-豪瑟回应-2009-年新项目-特工-为何取消-个人觉得太难了",
-      "title": "星联合创始人丹 · 豪瑟回应 2009 年新项目《特工》为何取消：个人觉得太难了",
-      "url": "https://www.ithome.com/1/017/565.htm",
+      "id": "ithome-雷神-15-双十一大促-12499-元起-轻至-1-54-千克兼顾便携与性能释放",
+      "title": "雷神 15 双十一大促：12499 元起，轻至 1.54 千克兼顾便携与性能释放",
+      "url": "https://www.ithome.com/1/017/591.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T03:43:46.000Z",
-      "summary": "科技之家 10 月 25 日消息，据外媒今天（25 日）报道，2009 年，星公布了一款名为《特工》（智能体）的全新游戏，计划作为相关型号独占作品推出。游戏以 20 世纪 70 年代的冷战时期为背景，主打开放世界和潜行玩法，但最终未能面世。星联合创始人丹 · 豪瑟近日透露，开发团队曾多次尝试推进项目，却始终没能解决游戏设计上的难题。经过多年的传闻和预热，《特工》于 2009 ……",
+      "publishedAt": "2026-10-25T06:04:09.000Z",
+      "summary": "科技之家 10 月 25 日消息，双十一大促已经开启，笔记本产品也迎来新一轮优惠。此前在 2026 上，雷神推出了面向未来的“轻型”游戏本新品 —— 雷神。官方表示，该系列产品希望在兼顾便携性的同时，保留游戏本的性能表现，其中雷神 15 在 1.54 千克的机身内实现了 160 瓦性能释放，并搭载第三代英特尔酷睿处理器以及 50 系列独立显卡。目前，雷神 15 在双十一期间价……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "算力芯片",
+        "端侧智能"
       ],
-      "heat": 85,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "reddit-artificial-向使用人工智能面向和信息技术",
-      "title": "向使用人工智能面向和信息技术",
-      "url": "https://www.reddit.com/r/artificial/comments/1xenhio/people_are_starting_to_use_ai_for_fb_marketplace/",
+      "id": "reddit-artificial-5-机器人在",
+      "title": "5 机器人在",
+      "url": "https://www.reddit.com/r/artificial/comments/1xepbrk/apollo_hospitals_deploys_intuitives_da_vinci_5/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-24T23:51:45.000Z",
+      "publishedAt": "2026-10-25T01:21:00.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "机器人"
       ],
       "heat": 80,
-      "image": ""
+      "image": "https://external-preview.redd.it/MAw6hRHUKDIwg1UreD827c5CcZxFa7HVunwusdDKckQ.jpeg?width=640&crop=smart&auto=webp&s=c4b6fa17ef4ef7f8dac90e125537045ff63faace"
     },
     {
       "id": "thirty-six-kr-拿到2亿美金融资-人工智能回答了人工智能的十个核心问题",
@@ -2613,20 +2634,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-传松延动力秘密提交香港首次公开募股申请-最快2027年上市",
-      "title": "传松延动力秘密提交香港首次公开募股申请，最快2027年上市！",
-      "url": "https://news.cnblogs.com/n/841951/",
+      "id": "cnblogs-news-词元被摆上天猫的那一刻-离拼多多已经不远了",
+      "title": "词元被摆上天猫的那一刻，离拼多多已经不远了",
+      "url": "https://news.cnblogs.com/n/841956/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-23T23:40:35.000Z",
-      "summary": "10 月 22 日消息，据外媒报道，获得宁德时代关联资本支持的北京人形机器人企业松延动力，已秘密提交香港首次公开募股申请，计划募资数亿美元，最快可能于 2027 年上市。知情人士表示，目前相关讨论仍在进行中，最终发行规模和上市时间尚未敲定。松延动力暂未对此传部作出官方回应。松延动力成立于 2023 本文链接",
+      "publishedAt": "2026-10-23T23:50:55.000Z",
+      "summary": "文，光子星球双 11 前夕，大模型厂商入驻天猫，开设其首家品牌官方旗舰店，销售词元订阅套餐产品。目前，店铺已经上架订阅套餐，包括、三档套餐，支持按月、按年购买。（来源：天猫平台） 这种在电商平台上架词元订本文链接",
       "topics": [
-        "投融资",
-        "机器人"
+        "模型发布"
       ],
-      "heat": 64,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2662,7 +2682,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2782,38 +2802,36 @@
       "image": ""
     },
     {
-      "id": "ithome-三名被解雇的开放人工智能公司安全研究员否认泄密-怀疑因推动人工智能透明度被针对",
-      "title": "三名被解雇的开放人工智能公司安全研究员否认泄密，怀疑因推动人工智能透明度被针对",
-      "url": "https://www.ithome.com/1/017/563.htm",
+      "id": "ithome-鸿蒙智行智界轿跑整装发运-今日同步开启全国大规模交付-赛车手谢欣哲成首批车主",
+      "title": "鸿蒙智行智界轿跑整装发运：今日同步开启全国大规模交付，赛车手谢欣哲成首批车主",
+      "url": "https://www.ithome.com/1/017/587.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-25T03:28:57.000Z",
-      "summary": "科技之家 10 月 25 日消息，三名因涉嫌泄密被解雇的开放人工智能公司安全研究员道出了他们一方的说辞。托梅克 · 科尔巴克（ ）、米基塔 · 巴莱斯尼（ ）与王茉莉（ ）否认泄露机密信息，质疑解雇他们的官方理由，并猜测这件事和他们一直倡导提升人工智能系统透明度有关。开放人工智能公司经过内部调查，认定三人违反敏感信息管理规定，将他们辞退。在被解雇之前，这三人都曾公开发表过关于……",
+      "publishedAt": "2026-10-25T05:34:04.000Z",
+      "summary": "科技之家 10 月 25 日消息，鸿蒙智行智界轿跑今日宣布整装发运，加速驶向首批车主。参考科技之家此前报道，智界今日会在上海国际赛车场举办首批车主交付仪式，全国大规模交付也将同步开启。官方透露，后续车辆将按照锁单顺序陆续推进排产和交付，预计交付周期为 4-6 周。据博主 @爱叨叨的分享的现场情况，赛车手谢欣哲成为智界首批车主。公开资料显示，谢欣哲 1991 年 8 月 23 ……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "reddit-artificial-模型使用",
-      "title": "模型使用",
-      "url": "https://www.reddit.com/r/artificial/comments/1xelqv9/short_overview_of_models_that_i_used/",
+      "id": "reddit-artificial-人工智能在研究",
+      "title": "人工智能在研究",
+      "url": "https://www.reddit.com/r/artificial/comments/1xeobab/unintended_consequences_of_ai_on_academic_research/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-24T22:28:52.000Z",
-      "summary": "智能聊天助手，面向使用，向，限制，问题，只是使用模型，使用，生成，使用面向，向，最 3 克劳德模型，信息技术支持信息技术，词元面向，限制关于 3？由",
+      "publishedAt": "2026-10-25T00:30:47.000Z",
+      "summary": "关于向科学和，在未来，在问题，为什么？信息技术向和进入，作为信息技术面向最由",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "研究论文",
+        "端侧智能"
       ],
-      "heat": 91,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2832,24 +2850,6 @@
         "端侧智能"
       ],
       "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-在-在开放人工智能公司重要在人工智能安全",
-      "title": "在，在开放人工智能公司重要在人工智能安全",
-      "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-23T18:00:32.000Z",
-      "summary": "来自和研究在，在开放人工智能公司公司面向人工智能智能体和，借助向 25 智能体来自模型在新一代语言模型和。开放人工智能公司 61，和可用。在，在开放人工智能公司重要在人工智能安全首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 76,
       "image": ""
     }
   ]
