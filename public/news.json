@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-30T01:15:00.086Z",
+  "generatedAt": "2026-10-30T01:45:43.708Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-10-30T01:30:00.000Z",
+  "nextUpdateHint": "2026-10-30T02:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-10-30T13:00:00.000Z"
+    "latestPublishedAt": "2026-10-30T01:41:27.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 78,
-      "heat": 78
+      "count": 83,
+      "heat": 79
     },
     {
       "name": "模型发布",
-      "count": 52,
-      "heat": 82
+      "count": 56,
+      "heat": 83
     },
     {
       "name": "算力芯片",
-      "count": 23,
+      "count": 24,
       "heat": 92
     },
     {
       "name": "监管安全",
       "count": 24,
-      "heat": 80
+      "heat": 81
     },
     {
       "name": "研究论文",
@@ -38,23 +38,23 @@
     },
     {
       "name": "投融资",
-      "count": 17,
-      "heat": 85
+      "count": 13,
+      "heat": 82
     },
     {
       "name": "开源生态",
       "count": 14,
-      "heat": 75
-    },
-    {
-      "name": "端侧智能",
-      "count": 11,
-      "heat": 75
+      "heat": 74
     },
     {
       "name": "人工智能动态",
       "count": 10,
       "heat": 79
+    },
+    {
+      "name": "端侧智能",
+      "count": 10,
+      "heat": 73
     },
     {
       "name": "多模态",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 4,
-      "heat": 70
+      "count": 5,
+      "heat": 73
     }
   ],
   "sources": [
@@ -175,7 +175,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 8,
+      "itemCount": 7,
       "displayedCount": 1,
       "latestFetchedAt": "2026-10-26T16:00:00.000Z",
       "latestDisplayedAt": "2026-10-26T16:00:00.000Z"
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-29T23:42:22.000Z",
-      "latestDisplayedAt": "2026-10-29T23:42:22.000Z"
+      "latestFetchedAt": "2026-10-30T01:20:48.000Z",
+      "latestDisplayedAt": "2026-10-30T01:20:48.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 17,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "This operation was aborted",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-10-29T14:23:00.000Z",
       "latestDisplayedAt": "2026-10-29T14:23:00.000Z"
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
+      "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-30T00:53:37.000Z",
-      "latestDisplayedAt": "2026-10-30T00:53:37.000Z"
+      "latestFetchedAt": "2026-10-30T01:31:17.000Z",
+      "latestDisplayedAt": "2026-10-30T01:31:17.000Z"
     },
     {
       "id": "ithome",
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-30T01:12:53.000Z",
-      "latestDisplayedAt": "2026-10-30T01:12:53.000Z"
+      "latestFetchedAt": "2026-10-30T01:41:27.000Z",
+      "latestDisplayedAt": "2026-10-30T01:41:27.000Z"
     },
     {
       "id": "oschina",
@@ -481,8 +481,8 @@
       "fallbackReason": "",
       "itemCount": 16,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-10-30T13:00:00.000Z",
-      "latestDisplayedAt": "2026-10-30T13:00:00.000Z"
+      "latestFetchedAt": "2026-10-30T00:16:00.000Z",
+      "latestDisplayedAt": "2026-10-30T00:16:00.000Z"
     }
   ],
   "failures": [
@@ -490,51 +490,54 @@
   ],
   "items": [
     {
-      "id": "cnblogs-news-深度求索登顶全球第一-一场-账单碾压-的胜利",
-      "title": "深度求索登顶全球第一，一场“账单碾压”的胜利",
-      "url": "https://news.cnblogs.com/n/843248/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-30T13:00:00.000Z",
-      "summary": "文，影子备忘录最新一周的数据显示。10 月 19 日到 25 日，深度求索第4代。相关型号以 33。6 万亿词元的周调用量登顶全球第一，环比增长 801%。中国模型包揽前五，周总调用量 93.54 万亿词元，连续 26 周压本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "ithome-星巴克考虑将人工智能技术引入得来速-提升点餐准确率与出餐速度",
-      "title": "星巴克考虑将人工智能技术引入得来速，提升点餐准确率与出餐速度",
-      "url": "https://www.ithome.com/1/019/866.htm",
+      "id": "ithome-谷歌双子座模型升级-生成的文档-表格可在聊天中直接修改",
+      "title": "谷歌双子座模型升级：生成的文档、表格可在聊天中直接修改",
+      "url": "https://www.ithome.com/1/019/878.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T01:12:53.000Z",
-      "summary": "科技之家 10 月 30 日消息，据彭博社报道，星巴克公司正考虑在得来速车道引入人工智能技术。这家咖啡连锁品牌的首席执行官布莱恩 · 尼科尔（ ）当地时间周四在分析师电话会议上表示，公司准备测试在后台运行的人工智能模型，帮助咖啡师在和顾客沟通时“更准确、高效地录入订单”。该举措的目标是让员工可以专心和顾客交流，同时提升出餐速度。星巴克还在研究一套识别技术，能够在参与该服务的顾……",
+      "publishedAt": "2026-10-30T01:41:27.000Z",
+      "summary": "科技之家 10 月 30 日消息，现在用户可以直接在谷歌双子座模型内生成、预览并编辑、谷歌文档、谷歌表格、幻灯片、文件、文本以及代码文件。这项全新的文件编辑功能从今日起面向所有双子座模型用户开放，其中的预览和编辑功能同时支持网页端与移动端，其余所有文件格式目前仅可在网页端使用。科技之家注意到，谷歌在今年早些时候已经为双子座模型加入了文件生成与下载功能，而现在用户无需退出双子座……",
       "topics": [
-        "研究论文"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-纳斯达克100指数期货跌幅扩大至2",
-      "title": "纳斯达克100指数期货跌幅扩大至2%",
-      "url": "https://36kr.com/newsflashes/4047660925843977?f=rss",
+      "id": "thirty-six-kr-人工智能进入细胞工厂-资本等的-大结果-快到了",
+      "title": "人工智能进入细胞工厂，资本等的「大结果」快到了？",
+      "url": "https://36kr.com/p/4046754792543106?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:53:37.000Z",
-      "summary": "纳斯达克100指数期货跌幅扩大至2%。最新触发因素包括亚马逊的大规模资本支出数字、英特尔因个人电脑处理器需求疲软发布低于预期的销售预测。这进一步加剧了投资者对人工智能热潮融资成本高昂以及这些巨额投资能否获得回报的担忧。（财联社）",
+      "publishedAt": "2026-10-30T01:31:17.000Z",
+      "summary": "文，刘凌果编辑，海若镜 10月14日，诺贝尔化学奖得主团队连发两篇《》，宣布人工智能能从头设计蛋白酶；9月以来，克劳德模型、双子座模型 4接连宣称具备发现、设计新酶的能力。相关型号水温沸腾，以酶为关键工具的昔日顶流“合成生物”，能否复制人工智能制药的升温路径，借由人工智能证明自己，重获资本青睐？“直至今年，大多数企业都没从坑里爬出来。包括当年顶尖投的一批公司，甚至估值倒挂。”……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 88,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-向在向来自人工智能在",
+      "title": "向在向来自人工智能在",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-30T01:20:48.000Z",
+      "summary": "来自人工智能在。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 91,
       "image": ""
     },
     {
@@ -550,23 +553,24 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-相关型号企业-首个-信息技术",
-      "title": "$相关型号企业。首个，信息技术。",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
+      "id": "cnblogs-news-7-美元控住-50-1-投票权-人工智能安全公司的真实面目",
+      "title": "7 美元控住 50.1% 投票权：人工智能安全公司的真实面目",
+      "url": "https://news.cnblogs.com/n/843252/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T23:42:22.000Z",
-      "summary": "亚马逊向人工智能云计算和成为首个 $1 企业。向信息技术向在，首席执行官。",
+      "publishedAt": "2026-10-30T00:16:00.000Z",
+      "summary": "文，霞光人工智能实验室，作者｜，编辑｜李小天 10 月 26 日，人工智能安全公司正式向美国证券交易委员会公开提交首次公开募股申请，股票代码，目标估值 1.5 万亿美元至 2 万亿美元。科技媒体已经把“162 亿美元半年营收”、“807 亿美元净亏损”、“1.5 万亿至 2 本文链接",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 90,
+      "heat": 98,
       "image": ""
     },
     {
@@ -600,7 +604,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://media.wired.com/photos/6ae3a1d0b3ee5efdf6d00c9f/master/pass/GettyImages-2259602081.jpg"
     },
     {
@@ -616,7 +620,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -666,7 +670,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -751,7 +755,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -908,15 +912,15 @@
       "image": ""
     },
     {
-      "id": "ithome-欧洲大模型人工智能开放-4-模型权重-相关型号参数-编程智能体更省词元",
-      "title": "欧洲大模型人工智能开放 4 模型权重：相关型号参数，编程智能体更省词元",
-      "url": "https://www.ithome.com/1/019/865.htm",
+      "id": "ithome-李开复创立的零一万物总部将落地杭州临平区-获市区两级国资联动投资数亿元",
+      "title": "李开复创立的零一万物总部将落地杭州临平区，获市区两级国资联动投资数亿元",
+      "url": "https://www.ithome.com/1/019/877.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T01:09:09.000Z",
-      "summary": "科技之家 10 月 30 日消息，当地时间 10 月 29 日，法国公司欧洲大模型人工智能正式开放欧洲大模型 4（简称相关型号，代号 ）模型权重。相关型号是一款拥有 1 万亿总参数、490 亿激活参数（包括嵌入层和输出层在内为 520 亿）的原生多模态模型。在欧洲大模型位于欧洲的自有数据中心中使用 3，800 块英伟达图形处理器从零开始训练。欧洲大模型表示，在完成面向政府及企……",
+      "publishedAt": "2026-10-30T01:40:17.000Z",
+      "summary": "科技之家 10 月 30 日消息，零一万物今日宣布，10 月 28 日，零一万物与杭州市、临平区达成合作，由市区两级国资联动投资，合计向零一万物投资数亿元。科技之家获悉，零一万物总部将落地杭州临平区，并以此为依托，打造产业人工智能转型基地。杭州有关部门表示，杭州正全力争创人工智能创新发展第一城，推动人工智能科技创新与产业创新深度融合。未来，杭州将充分发挥数字经济和实体产业优势……",
       "topics": [
         "模型发布",
         "产品应用",
@@ -926,20 +930,52 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-最新一轮融资后估值升至400亿美元",
-      "title": "最新一轮融资后估值升至400亿美元",
-      "url": "https://36kr.com/newsflashes/4047617340717318?f=rss",
+      "id": "thirty-six-kr-纳斯达克100指数期货跌幅扩大至2",
+      "title": "纳斯达克100指数期货跌幅扩大至2%",
+      "url": "https://36kr.com/newsflashes/4047660925843977?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:26:07.000Z",
-      "summary": "周四宣布，已完成10亿美元融资，本轮交易对这家事件合约交易所的估值定为400亿美元。该公司上一轮融资在5月完成，当时估值为220亿美元。本轮由红杉资本与惠灵顿管理联合领投。在融资公告博客中写道：预测市场仅仅是起点，公司目标是搭建一个综合性金融交易所。公司计划用新资金开发杠杆交易、个股永续期货，以及围绕人工智能算力这一可交易商品的相关合约市场。（新浪财经）",
+      "publishedAt": "2026-10-30T00:53:37.000Z",
+      "summary": "纳斯达克100指数期货跌幅扩大至2%。最新触发因素包括亚马逊的大规模资本支出数字、英特尔因个人电脑处理器需求疲软发布低于预期的销售预测。这进一步加剧了投资者对人工智能热潮融资成本高昂以及这些巨额投资能否获得回报的担忧。（财联社）",
       "topics": [
-        "算力芯片",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-月之暗面额度的问题-人工智能安全公司找到了解决办法",
+      "title": "月之暗面额度的问题，人工智能安全公司找到了解决办法",
+      "url": "https://news.cnblogs.com/n/843250/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-30T00:05:00.000Z",
+      "summary": "文，字母人工智能相关型号专业版发布之后，由于多位用户反馈额度烧得太快，月之暗面紧急发布公告，称“问题出在我们，我们也本应更早修复”，在补偿额度的同时，月之暗面也表示将“减少不必要的子智能体调用和输出长度”。就在模型上线前两天，人工智能安全公司发了一篇文章，标题为《构建本文链接",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-相关型号企业-首个-信息技术",
+      "title": "$相关型号企业。首个，信息技术。",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T23:42:22.000Z",
+      "summary": "亚马逊向人工智能云计算和成为首个 $1 企业。向信息技术向在，首席执行官。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
@@ -956,24 +992,8 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": "https://external-preview.redd.it/CFdimIHdPxZwZzSHix_R9iZWEEDoRzgGrDB5PnKxNS4.jpeg?width=640&crop=smart&auto=webp&s=be245a1cb050498172813e55da752e183fb8dc49"
-    },
-    {
-      "id": "techcrunch-ai-作为-社区论坛宣布信息技术向-在",
-      "title": "作为，社区论坛宣布信息技术向，在",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T20:08:31.000Z",
-      "summary": "作为人工智能，社区论坛打开，向保护和企业。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 87,
-      "image": ""
     },
     {
       "id": "the-decoder-人工智能智能体和认为-人工智能安全公司",
@@ -989,7 +1009,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1039,7 +1059,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg"
     },
     {
@@ -1057,22 +1077,6 @@
       ],
       "heat": 90,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/gfn-thursday-10-29-blog-1920x1080-logo.jpg"
-    },
-    {
-      "id": "cnblogs-news-人工智能短剧-流水线上的打工人不得不说的秘密",
-      "title": "人工智能短剧：流水线上的打工人不得不说的秘密",
-      "url": "https://news.cnblogs.com/n/843247/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T12:44:00.000Z",
-      "summary": "文，靠谱的阿星晚上 12 点，你决定刷完这一集就睡：新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去领了证。谁料快递小哥的隐藏身份，竟是裴氏集团失散多年的继承人。一刷就是 80 多集，原来是两个失散多年的发小。另一部剧里，女生从小学渣姐姐学霸，可惜本文链接",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 75,
-      "image": ""
     },
     {
       "id": "towards-data-science-1-人工智能模型-1",
@@ -1104,7 +1108,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1121,7 +1125,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1154,7 +1158,7 @@
         "模型发布",
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1187,7 +1191,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1276,36 +1280,54 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png"
     },
     {
-      "id": "ithome-富士康-全球超-240-个生产基地-有信心满足苹果苹果手机的旺盛需求",
-      "title": "富士康：全球超 240 个生产基地，有信心满足苹果苹果手机的旺盛需求",
-      "url": "https://www.ithome.com/1/019/860.htm",
+      "id": "ithome-疑似遭黑客攻击-全球最大加密货币交易所币安暂停全部充值与提现业务",
+      "title": "疑似遭黑客攻击，全球最大加密货币交易所币安暂停全部充值与提现业务",
+      "url": "https://www.ithome.com/1/019/870.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:54:05.000Z",
-      "summary": "科技之家 10 月 30 日消息，据彭博社报道，苹果公司的主要组装合作伙伴鸿海精密工业股份有限公司表示，其遍布全球的庞大制造布局，将助力公司满足苹果折叠设备苹果手机日益增长的需求。苹果公司首席运营官萨比赫 · 汗（中）于 10 月会见了鸿海精密工业股份有限公司轮值董事长蒋尚义（右）。来源：富士康科技集团苹果本月早些时候推出了售价 15999 元起的苹果手机。门店现货数量有限，……",
+      "publishedAt": "2026-10-30T01:24:47.000Z",
+      "summary": "科技之家 10 月 30 日消息，据彭博社报道，全球最大加密货币交易所币安（）暂停了全部充值与提现业务，因其正在调查一起安全事件，目前已有超过 25 亿美元 （科技之家注：现汇率约合 166.92 亿元人民币） 资产遭到冻结。这起疑似黑客攻击事件引发了各类数字代币价格大跌。该公司在平台发文称：“我们正在马不停蹄地解决该问题。币安将承担全部损失。作为防范措施，在团队开展安全核查……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "监管安全",
+        "研究论文"
       ],
       "heat": 99,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-称有望年底前实现一个自动驾驶里程碑-解锁2-5亿美元投资款",
-      "title": "称有望年底前实现一个自动驾驶里程碑，解锁2.5亿美元投资款",
-      "url": "https://36kr.com/newsflashes/4047630878620163?f=rss",
+      "id": "thirty-six-kr-最新一轮融资后估值升至400亿美元",
+      "title": "最新一轮融资后估值升至400亿美元",
+      "url": "https://36kr.com/newsflashes/4047617340717318?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:23:03.000Z",
-      "summary": "美国电动汽车制造商首席执行官周四表示，该公司“非常有信心”在今年实现一个自动驾驶方面的里程碑，从而解锁投资中的2.5亿美元分期款项；他还提到，公司新款紧凑型“相关型号”的市场需求十分强劲。对于而言，来自的这笔资金以及相关型号车型的旺盛需求至关重要。该公司目前正致力于缩减巨额亏损并控制现金消耗，同时还要为自动驾驶技术的研发投入资金；此外，该公司与大众汽车成立的合资企业也已成为其……",
+      "publishedAt": "2026-10-30T00:26:07.000Z",
+      "summary": "周四宣布，已完成10亿美元融资，本轮交易对这家事件合约交易所的估值定为400亿美元。该公司上一轮融资在5月完成，当时估值为220亿美元。本轮由红杉资本与惠灵顿管理联合领投。在融资公告博客中写道：预测市场仅仅是起点，公司目标是搭建一个综合性金融交易所。公司计划用新资金开发杠杆交易、个股永续期货，以及围绕人工智能算力这一可交易商品的相关合约市场。（新浪财经）",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-宇树们应该再劝一劝狂热的股民了",
+      "title": "宇树们应该再劝一劝狂热的股民了",
+      "url": "https://news.cnblogs.com/n/843249/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "文，大硅一代一家公司发公告说自己“太贵了”，股价会怎么走？按常理，该跌。但在最近股的物理人工智能板块，答案是：涨停。10 月 20 日晚，宇树科技(相关型号)在异常波动公告里写了一句股龙头公司极少说的话：滚动市盈率 388 倍，行业平均只有 39 倍，存在估值回归的风险。翻本文链接",
       "topics": [
         "投融资"
       ],
-      "heat": 87,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1325,19 +1347,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-扩展借助向人工智能助手",
-      "title": "扩展借助向人工智能助手",
-      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "id": "techcrunch-ai-作为-社区论坛宣布信息技术向-在",
+      "title": "作为，社区论坛宣布信息技术向，在",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T20:05:47.000Z",
-      "summary": "$5.8 十亿扩展作为。",
+      "publishedAt": "2026-10-29T20:08:31.000Z",
+      "summary": "作为人工智能，社区论坛打开，向保护和企业。",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1392,22 +1414,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-微软要一刀裁掉大半个元宇宙平台公司-智能副驾沦为重灾区",
-      "title": "微软要一刀裁掉大半个元宇宙平台公司，智能副驾沦为重灾区",
-      "url": "https://news.cnblogs.com/n/843246/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T11:43:00.000Z",
-      "summary": "文，字母榜微软开始掏钱请员工主动考虑离职。约 6 万人有资格接受这份邀请，超过公司全球员工的四分之一。这次不用等到临近退休，也不要求绩效不好。符合条件的员工可以拿着补偿，在年底离开公司。颇有点迫不及待想多甩掉一些人的感觉。连微软寄予厚望的智能副驾团队，也在覆盖范围内。遥想今年春本文链接",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 75,
-      "image": ""
-    },
-    {
       "id": "oschina-1-0-0-正式发布-面向人工智能原生开发的-服务端应用框架",
       "title": "1.0.0 正式发布：面向人工智能原生开发的 / 服务端应用框架",
       "url": "https://www.oschina.net/news/503302",
@@ -1436,7 +1442,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1470,7 +1476,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1487,7 +1493,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1556,7 +1562,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-2-1.jpg"
     },
     {
@@ -1612,37 +1618,37 @@
       "image": ""
     },
     {
-      "id": "ithome-预估-2027-年人工智能电脑将占-60-出货-69-打工人愿为人工智能电脑多花钱",
-      "title": "预估 2027 年人工智能电脑将占 60% 出货，69% 打工人愿为人工智能电脑多花钱",
-      "url": "https://www.ithome.com/1/019/852.htm",
+      "id": "ithome-星巴克考虑将人工智能技术引入得来速-提升点餐准确率与出餐速度",
+      "title": "星巴克考虑将人工智能技术引入得来速，提升点餐准确率与出餐速度",
+      "url": "https://www.ithome.com/1/019/866.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:52:46.000Z",
-      "summary": "科技之家 10 月 30 日消息，企业人工智能支出持续攀升，随着主流人工智能厂商转向词元计费模式，这项支出也变得越来越难以预测。对电脑、芯片厂商、渠道伙伴和托管服务提供商而言，核心问题在于：人工智能工作负载应该在哪里运行，电脑又将扮演什么角色。据预测，人工智能电脑出货占比将在 2027 年达到 60%，本地人工智能的装机基础正通过换机周期逐步形成。企业人工智能支出仍在上涨，词……",
+      "publishedAt": "2026-10-30T01:12:53.000Z",
+      "summary": "科技之家 10 月 30 日消息，据彭博社报道，星巴克公司正考虑在得来速车道引入人工智能技术。这家咖啡连锁品牌的首席执行官布莱恩 · 尼科尔（ ）当地时间周四在分析师电话会议上表示，公司准备测试在后台运行的人工智能模型，帮助咖啡师在和顾客沟通时“更准确、高效地录入订单”。该举措的目标是让员工可以专心和顾客交流，同时提升出餐速度。星巴克还在研究一套识别技术，能够在参与该服务的顾……",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 97,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-外资公募优化持仓结构-科技成长仍是关注重点",
-      "title": "外资公募优化持仓结构，科技成长仍是关注重点",
-      "url": "https://36kr.com/newsflashes/4047614167333123?f=rss",
+      "id": "thirty-six-kr-8点1氪丨外交部回应三丽鸥取消联名-科创50指数创新低-上海一宜家餐厅开始实行-消费入座-周二-周四有保安劝离",
+      "title": "8点1氪丨外交部回应三丽鸥取消联名；科创50指数创新低；上海一宜家餐厅开始实行“消费入座”，周二、周四有保安劝离",
+      "url": "https://36kr.com/p/4047618190883331?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:19:47.000Z",
-      "summary": "随着公募基金2026年三季报披露收官，外商独资公募基金的最新持仓动向逐渐明晰。从三季度调仓情况来看，部分外资公募在保持权益资产配置的同时，适度增加银行等稳健型资产持仓，并继续挖掘人工智能、半导体等科技领域的投资机会，投资组合更加注重行业均衡与风险收益匹配。多位受访人士认为，相关调整并非简单的投资风格切换，而是基金经理在把握科技成长机遇的同时，更加重视企业盈利质量、估值水平及业……",
+      "publishedAt": "2026-10-30T00:12:47.000Z",
+      "summary": "今日热点导览宇树回应净利润下滑：系算力、大模型方向研发投入增加所致美国司法部调查英伟达收购美国知名投资人质疑美联储利率决议机器人也有考核标准了，智元发布首个“工时” 成都国星宇航科技股份有限公司通过港交所上市聆讯相关型号大新闻外交部回应三丽鸥取消联名 10月29日，外交部例行记者会上，有记者问：日本三丽鸥公司取消了和一部日剧的合作，原因是剧中对华人角色的刻画引发公众反感。请问……",
       "topics": [
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 87,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1659,24 +1665,23 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://external-preview.redd.it/YgBt6eM1dbynAuuzLwEVArB2Tt6WavgE_x6PLUT82yc.jpeg?width=640&crop=smart&auto=webp&s=5c5a88d225d630f198695e260473cbf4f3703cba"
     },
     {
-      "id": "techcrunch-ai-元宇宙平台公司推出人工智能应用呼吁",
-      "title": "元宇宙平台公司推出人工智能应用呼吁",
-      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "id": "techcrunch-ai-扩展借助向人工智能助手",
+      "title": "扩展借助向人工智能助手",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T19:14:36.000Z",
-      "summary": "应用向向构建来自分享，新增由，视频，图像来自。",
+      "publishedAt": "2026-10-29T20:05:47.000Z",
+      "summary": "$5.8 十亿扩展作为。",
       "topics": [
-        "产品应用",
-        "多模态"
+        "产品应用"
       ],
-      "heat": 91,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1712,7 +1717,23 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-深度求索登顶全球第一-一场-账单碾压-的胜利",
+      "title": "深度求索登顶全球第一，一场“账单碾压”的胜利",
+      "url": "https://news.cnblogs.com/n/843248/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "summary": "文，影子备忘录最新一周的数据显示。10 月 19 日到 25 日，深度求索第4代。相关型号以 33。6 万亿词元的周调用量登顶全球第一，环比增长 801%。中国模型包揽前五，周总调用量 93.54 万亿词元，连续 26 周压本文链接",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 83,
       "image": ""
     },
     {
@@ -1731,23 +1752,6 @@
         "算力芯片"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-人工智能安全公司内部系统被人工智能攻破-员工薪酬全曝光了",
-      "title": "人工智能安全公司内部系统被人工智能攻破！员工薪酬全曝光了",
-      "url": "https://news.cnblogs.com/n/843245/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T09:50:00.000Z",
-      "summary": "新智元报道就在刚刚，人工智能安全公司被攻破了！「用人工智能攻击人工智能」的自动化黑客时代，已经彻底降临。短短 12 个小时，人工智能巨头人工智能安全公司的防线被人工智能智能体撕得粉碎。薪酬数据、录用详情、内部会议实录，甚至包含讨论最先进人工智能模型机密的内部消息，全部暴露本文链接",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -1780,7 +1784,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1797,7 +1801,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -1814,7 +1818,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1938,33 +1942,15 @@
       "image": ""
     },
     {
-      "id": "ithome-闪迪-2027-财年第一财季归母净利润-81-01-亿美元-环比增长-17",
-      "title": "闪迪 2027 财年第一财季归母净利润 81.01 亿美元，环比增长 17%",
-      "url": "https://www.ithome.com/1/019/859.htm",
+      "id": "ithome-欧洲大模型人工智能开放-4-模型权重-相关型号参数-编程智能体更省词元",
+      "title": "欧洲大模型人工智能开放 4 模型权重：相关型号参数，编程智能体更省词元",
+      "url": "https://www.ithome.com/1/019/865.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:51:33.000Z",
-      "summary": "科技之家 10 月 30 日消息，闪迪今日发布 2027 财年（2026年7月4日～2027年7月1日）第一财季（2026年7月4日～2026年10月2日）报告：营业总收入：110.31 亿美元 （科技之家注：现汇率约合 736.52 亿元人民币），同比增长 378%，环比增长 23% 毛利润：93.78 亿美元 （现汇率约合 626.16 亿元人民币），同比增长 55.2%……",
-      "topics": [
-        "研究论文",
-        "投融资",
-        "端侧智能"
-      ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-8点1氪丨外交部回应三丽鸥取消联名-科创50指数创新低-上海一宜家餐厅开始实行-消费入座-周二-周四有保安劝离",
-      "title": "8点1氪丨外交部回应三丽鸥取消联名；科创50指数创新低；上海一宜家餐厅开始实行“消费入座”，周二、周四有保安劝离",
-      "url": "https://36kr.com/p/4047618190883331?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-30T00:12:47.000Z",
-      "summary": "今日热点导览宇树回应净利润下滑：系算力、大模型方向研发投入增加所致美国司法部调查英伟达收购美国知名投资人质疑美联储利率决议机器人也有考核标准了，智元发布首个“工时” 成都国星宇航科技股份有限公司通过港交所上市聆讯相关型号大新闻外交部回应三丽鸥取消联名 10月29日，外交部例行记者会上，有记者问：日本三丽鸥公司取消了和一部日剧的合作，原因是剧中对华人角色的刻画引发公众反感。请问……",
+      "publishedAt": "2026-10-30T01:09:09.000Z",
+      "summary": "科技之家 10 月 30 日消息，当地时间 10 月 29 日，法国公司欧洲大模型人工智能正式开放欧洲大模型 4（简称相关型号，代号 ）模型权重。相关型号是一款拥有 1 万亿总参数、490 亿激活参数（包括嵌入层和输出层在内为 520 亿）的原生多模态模型。在欧洲大模型位于欧洲的自有数据中心中使用 3，800 块英伟达图形处理器从零开始训练。欧洲大模型表示，在完成面向政府及企……",
       "topics": [
         "模型发布",
         "产品应用",
@@ -1986,23 +1972,42 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://preview.redd.it/mhm1s7b1vgyh1.png?width=640&crop=smart&auto=webp&s=6cb9fb67346a68645737d1404aba0b0219bbd78d"
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "id": "techcrunch-ai-元宇宙平台公司推出人工智能应用呼吁",
+      "title": "元宇宙平台公司推出人工智能应用呼吁",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T17:54:38.000Z",
-      "summary": "新增会议向应用，新增向会议。人工智能得到。",
+      "publishedAt": "2026-10-29T19:14:36.000Z",
+      "summary": "应用向向构建来自分享，新增由，视频，图像来自。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "多模态"
       ],
-      "heat": 85,
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-部署态加速-智元要打通物理人工智能全链路",
+      "title": "部署态加速，智元要打通物理人工智能全链路",
+      "url": "https://36kr.com/p/4047032889800965?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T14:25:57.000Z",
+      "summary": "在具身智能行业仍热衷于用高难度动作展示技术进步时，智元创新日上呈现了另外一种思路。在这场发布会上，没有太多眼花缭乱的机器人特技，也没有太多夺眼球的集体舞蹈，反而更像是一场信息密度极高的技术研讨会。甚至，在世博中心的入口，智元还设置了一大面“论文墙”，呈现智元团队近期的核心技术进展。过去三年，机器人学会了跑、跳、后空翻，但走出实验室才发现，单一技术突破撑不起复杂环境中的稳定工作……",
+      "topics": [
+        "模型发布",
+        "研究论文",
+        "多模态"
+      ],
+      "heat": 97,
       "image": ""
     },
     {
@@ -2019,7 +2024,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2039,20 +2044,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-人工智能教科书全错-底层公式惊天曝光-双子座模型率先自我修复",
-      "title": "人工智能教科书全错！底层公式惊天曝光，双子座模型率先自我修复",
-      "url": "https://news.cnblogs.com/n/843244/",
+      "id": "cnblogs-news-人工智能短剧-流水线上的打工人不得不说的秘密",
+      "title": "人工智能短剧：流水线上的打工人不得不说的秘密",
+      "url": "https://news.cnblogs.com/n/843247/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T09:41:00.000Z",
-      "summary": "新智元报道各大人工智能框架都错了！错了，错了。连教科书里的标准公式，也错了。谷歌深度思维的主任研究科学家披露了这一重磅炸弹！本周，谷歌深度思维展示了一个问题：在、以及各类教科书中，该算法的本文链接",
+      "publishedAt": "2026-10-29T12:44:00.000Z",
+      "summary": "文，靠谱的阿星晚上 12 点，你决定刷完这一集就睡：新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去领了证。谁料快递小哥的隐藏身份，竟是裴氏集团失散多年的继承人。一刷就是 80 多集，原来是两个失散多年的发小。另一部剧里，女生从小学渣姐姐学霸，可惜本文链接",
       "topics": [
-        "模型发布",
-        "研究论文"
+        "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2084,7 +2088,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2101,7 +2105,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2117,7 +2121,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2135,7 +2139,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2240,35 +2244,18 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/kz-post-note-gtc-berliin-2026-1920x1080-1.jpg"
     },
     {
-      "id": "ithome-社区论坛-2026-财年前三季度报归母净利润-7-4-亿美元-同比增长-166-7",
-      "title": "社区论坛 2026 财年前三季度报归母净利润 7.4 亿美元，同比增长 166.7%",
-      "url": "https://www.ithome.com/1/019/858.htm",
+      "id": "ithome-富士康-全球超-240-个生产基地-有信心满足苹果苹果手机的旺盛需求",
+      "title": "富士康：全球超 240 个生产基地，有信心满足苹果苹果手机的旺盛需求",
+      "url": "https://www.ithome.com/1/019/860.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:50:16.000Z",
-      "summary": "科技之家 10 月 30 日消息，社区论坛今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告：2026 财年前三季度报营业总收入：23.63 亿美元 （科技之家注：现汇率约合 157.79 亿元人民币），同比增长 60% 毛利润：21.61……",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-英伟达据悉洽谈为数据中心项目提供数十亿美元债务信用担保",
-      "title": "英伟达据悉洽谈为数据中心项目提供数十亿美元债务信用担保",
-      "url": "https://36kr.com/newsflashes/4047608885688581?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-30T00:06:30.000Z",
-      "summary": "据知情人士透露，英伟达正与新兴人工智能云服务商洽谈，拟为其提供数十亿美元的债务信用担保，用于开发一座 460 兆瓦的数据中心；该数据中心计划由人工智能公司人工智能安全公司租用。消息人士称，目前该交易尚未最终签署，具体条款仍可能发生变化。不过，这再次表明英伟达持续向、和等所谓的“新云公司”（）提供财务支持。这些企业在为人工智能专用数据中心进行融资时背负了大量债务，并仍需筹集更多……",
+      "publishedAt": "2026-10-30T00:54:05.000Z",
+      "summary": "科技之家 10 月 30 日消息，据彭博社报道，苹果公司的主要组装合作伙伴鸿海精密工业股份有限公司表示，其遍布全球的庞大制造布局，将助力公司满足苹果折叠设备苹果手机日益增长的需求。苹果公司首席运营官萨比赫 · 汗（中）于 10 月会见了鸿海精密工业股份有限公司轮值董事长蒋尚义（右）。来源：富士康科技集团苹果本月早些时候推出了售价 15999 元起的苹果手机。门店现货数量有限，……",
       "topics": [
         "算力芯片",
-        "监管安全",
-        "投融资"
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
@@ -2292,19 +2279,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-欧洲大模型发布面向人工智能模型",
-      "title": "欧洲大模型发布面向人工智能模型",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "summary": "欧洲大模型新模型组织控制模型。",
+      "publishedAt": "2026-10-29T17:54:38.000Z",
+      "summary": "新增会议向应用，新增向会议。人工智能得到。",
       "topics": [
-        "模型发布"
+        "产品应用"
       ],
-      "heat": 92,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2326,6 +2313,40 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-微软要一刀裁掉大半个元宇宙平台公司-智能副驾沦为重灾区",
+      "title": "微软要一刀裁掉大半个元宇宙平台公司，智能副驾沦为重灾区",
+      "url": "https://news.cnblogs.com/n/843246/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T11:43:00.000Z",
+      "summary": "文，字母榜微软开始掏钱请员工主动考虑离职。约 6 万人有资格接受这份邀请，超过公司全球员工的四分之一。这次不用等到临近退休，也不要求绩效不好。符合条件的员工可以拿着补偿，在年底离开公司。颇有点迫不及待想多甩掉一些人的感觉。连微软寄予厚望的智能副驾团队，也在覆盖范围内。遥想今年春本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 74,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-36氪研究院-2026年中国自动驾驶行业发展研究报告",
+      "title": "36氪研究院，2026年中国自动驾驶行业发展研究报告",
+      "url": "https://36kr.com/p/4046684874429576?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T10:59:23.000Z",
+      "summary": "自动驾驶是人工智能与汽车工业深度融合的战略性技术方向，也是中国智能网联新能源汽车战略性新兴产业中增长最为活跃的领域之一。当前，中国自动驾驶行业正处于从全域道路测试、示范应用迈向规模化商业落地的关键阶段。政策层面，2026年7月，首部针对相关型号、相关型号级自动驾驶系统的强制性国家标准（相关型号）正式发布，将于2027年7月1日起实施，为自动驾驶产品确立了统一的安全准入基线；2……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-人工智能面向",
       "title": "人工智能面向",
       "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
@@ -2340,22 +2361,6 @@
         "端侧智能"
       ],
       "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-现实版-思想钢印-人工智能安全公司惊悚实验曝光-86-顶尖专家关键决策被人工智能控制",
-      "title": "现实版「思想钢印」！人工智能安全公司惊悚实验曝光，86%顶尖专家关键决策被人工智能控制",
-      "url": "https://news.cnblogs.com/n/843243/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T09:33:00.000Z",
-      "summary": "新智元报道现实版《盗梦空间》，真的来了！电影中，有一个让人脊背发凉的设定：要改变一个人的决定，便是把思想「植入」对方的潜意识深处，然后让他坚信这个念头是自己长出来的。主角柯布曾表示，「想法就像病毒，一旦在脑中扎根，就很难再拔掉」！而现在，人工智能只需要几句有理有据的建议，就能做到差不多的事。本文链接",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 81,
       "image": ""
     },
     {
@@ -2389,7 +2394,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2407,7 +2412,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2495,19 +2500,21 @@
       "image": ""
     },
     {
-      "id": "ithome-相关型号-相关型号归母净亏损-21-62-亿美元-同比收窄-23-74",
-      "title": "相关型号~相关型号归母净亏损 21.62 亿美元，同比收窄 23.74%",
-      "url": "https://www.ithome.com/1/019/857.htm",
+      "id": "ithome-预估-2027-年人工智能电脑将占-60-出货-69-打工人愿为人工智能电脑多花钱",
+      "title": "预估 2027 年人工智能电脑将占 60% 出货，69% 打工人愿为人工智能电脑多花钱",
+      "url": "https://www.ithome.com/1/019/852.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:49:18.000Z",
-      "summary": "科技之家 10 月 30 日消息，今日发布 2026 年前三季度（2026 年 1 月～2026 年 9 月）及第三季度（2026 年 7 月～2026 年 9 月）财务数据报告：2026 年前三季度营业总收入：51.94 亿美元，同比增长 26.65% 毛利润：4.74 亿美元，同比增长 1875% 毛利率：9.13%，同比增长 8.54 个百分点归母净利润：-21.62 ……",
+      "publishedAt": "2026-10-30T00:52:46.000Z",
+      "summary": "科技之家 10 月 30 日消息，企业人工智能支出持续攀升，随着主流人工智能厂商转向词元计费模式，这项支出也变得越来越难以预测。对电脑、芯片厂商、渠道伙伴和托管服务提供商而言，核心问题在于：人工智能工作负载应该在哪里运行，电脑又将扮演什么角色。据预测，人工智能电脑出货占比将在 2027 年达到 60%，本地人工智能的装机基础正通过换机周期逐步形成。企业人工智能支出仍在上涨，词……",
       "topics": [
-        "投融资"
+        "产品应用",
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 87,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2527,38 +2534,19 @@
       "image": "https://external-preview.redd.it/39v5MtajeCt-3No9Le_w_Nk-iInFx6rG_mKPFb2c7h4.jpeg?width=640&crop=smart&auto=webp&s=a39b48d4630ae26464f85d7a4dfa74bbf033634f"
     },
     {
-      "id": "techcrunch-ai-中国目标是在英伟达首席执行官",
-      "title": "中国目标是在英伟达首席执行官",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "id": "techcrunch-ai-欧洲大模型发布面向人工智能模型",
+      "title": "欧洲大模型发布面向人工智能模型",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T16:42:32.000Z",
-      "summary": "人工智能云服务公司英伟达芯片向中国，新。",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "summary": "欧洲大模型新模型组织控制模型。",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "模型发布"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-部署态加速-智元要打通物理人工智能全链路",
-      "title": "部署态加速，智元要打通物理人工智能全链路",
-      "url": "https://36kr.com/p/4047032889800965?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T14:25:57.000Z",
-      "summary": "在具身智能行业仍热衷于用高难度动作展示技术进步时，智元创新日上呈现了另外一种思路。在这场发布会上，没有太多眼花缭乱的机器人特技，也没有太多夺眼球的集体舞蹈，反而更像是一场信息密度极高的技术研讨会。甚至，在世博中心的入口，智元还设置了一大面“论文墙”，呈现智元团队近期的核心技术进展。过去三年，机器人学会了跑、跳、后空翻，但走出实验室才发现，单一技术突破撑不起复杂环境中的稳定工作……",
-      "topics": [
-        "模型发布",
-        "研究论文",
-        "多模态"
-      ],
-      "heat": 97,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2576,25 +2564,24 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
-      "id": "cnblogs-news-克劳德模型向癌症发起猛攻-狂搓3-5万抗体-一人带人工智能造出绝症解药",
-      "title": "克劳德模型向癌症发起猛攻！狂搓3.5万抗体，一人带人工智能造出绝症解药",
-      "url": "https://news.cnblogs.com/n/843242/",
+      "id": "cnblogs-news-人工智能安全公司内部系统被人工智能攻破-员工薪酬全曝光了",
+      "title": "人工智能安全公司内部系统被人工智能攻破！员工薪酬全曝光了",
+      "url": "https://news.cnblogs.com/n/843245/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T09:22:00.000Z",
-      "summary": "新智元报道克劳德模型真下场造药了！前一天，人工智能安全公司刚交完首次公开募股招股书，今天扭头就杀进药物研发圈，而且这波操作极其硬核——直接把「一人药企」 收入囊中。创始人单枪匹马，唯一的工具就是克劳德模型。就靠这个组本文链接",
+      "publishedAt": "2026-10-29T09:50:00.000Z",
+      "summary": "新智元报道就在刚刚，人工智能安全公司被攻破了！「用人工智能攻击人工智能」的自动化黑客时代，已经彻底降临。短短 12 个小时，人工智能巨头人工智能安全公司的防线被人工智能智能体撕得粉碎。薪酬数据、录用详情、内部会议实录，甚至包含讨论最先进人工智能模型机密的内部消息，全部暴露本文链接",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "投融资"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 91,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2628,7 +2615,25 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-对不起-我们不投具身智能了",
+      "title": "“对不起，我们不投具身智能了”",
+      "url": "https://36kr.com/p/4046281658307456?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T01:32:34.000Z",
+      "summary": "作者，邱晓芬编辑，袁斯来具身赛道里，那个有些疯狂的投资人，开始收手了。很少有人会质疑他的地位。他出现在某机器人上市公司早期投资人名单中、又是另一家具身智能头部企业的幕后人。在很多年中，他和公众视野保持着谨慎的距离。但在一级市场，他以风格凌厉和激进著名。“他的判断很疯狂，没有前面那堆乱七八糟的（调研），就是我要投你，就投了，一个礼拜钱到账。”一位熟悉的投资人告诉硬氪。如今，这个……",
+      "topics": [
+        "模型发布",
+        "投融资",
+        "机器人"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -2662,7 +2667,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -2716,70 +2721,53 @@
       "image": "https://media.wired.com/photos/6adf8a425d1e509438fb58ec/master/pass/Anthropic3.jpg"
     },
     {
-      "id": "ithome-亚马逊-2026-财年第三财季净利润-206-85-亿美元-同比下降-2-37",
-      "title": "亚马逊 2026 财年第三财季净利润 206.85 亿美元，同比下降 2.37%",
-      "url": "https://www.ithome.com/1/019/855.htm",
+      "id": "ithome-社区论坛-2026-财年前三季度报归母净利润-7-4-亿美元-同比增长-166-7",
+      "title": "社区论坛 2026 财年前三季度报归母净利润 7.4 亿美元，同比增长 166.7%",
+      "url": "https://www.ithome.com/1/019/858.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-30T00:48:26.000Z",
-      "summary": "科技之家 10 月 30 日消息，亚马逊今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告：营业总收入：2019.44 亿美元，同比增长 12% 毛利润：1073.71 亿美元，同比增长 17.35% 毛利率：53.2%，同比增长 2.4 个百分点净利润：206.85 亿美元，同比下降 2.37%……",
+      "publishedAt": "2026-10-30T00:50:16.000Z",
+      "summary": "科技之家 10 月 30 日消息，社区论坛今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告：2026 财年前三季度报营业总收入：23.63 亿美元 （科技之家注：现汇率约合 157.79 亿元人民币），同比增长 60% 毛利润：21.61……",
       "topics": [
-        "算力芯片",
         "投融资"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-推出借助-17-百万来自向构建人工智能模型面向",
-      "title": "推出借助 $17 百万来自向构建人工智能模型面向",
-      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "id": "techcrunch-ai-中国目标是在英伟达首席执行官",
+      "title": "中国目标是在英伟达首席执行官",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T16:21:00.000Z",
-      "summary": "在和。只是作为大语言模型了解来自，模型训练在 100 百万构建数据来自。",
+      "publishedAt": "2026-10-29T16:42:32.000Z",
+      "summary": "人工智能云服务公司英伟达芯片向中国，新。",
       "topics": [
-        "模型发布"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 83,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪研究院-2026年中国自动驾驶行业发展研究报告",
-      "title": "36氪研究院，2026年中国自动驾驶行业发展研究报告",
-      "url": "https://36kr.com/p/4046684874429576?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-29T10:59:23.000Z",
-      "summary": "自动驾驶是人工智能与汽车工业深度融合的战略性技术方向，也是中国智能网联新能源汽车战略性新兴产业中增长最为活跃的领域之一。当前，中国自动驾驶行业正处于从全域道路测试、示范应用迈向规模化商业落地的关键阶段。政策层面，2026年7月，首部针对相关型号、相关型号级自动驾驶系统的强制性国家标准（相关型号）正式发布，将于2027年7月1日起实施，为自动驾驶产品确立了统一的安全准入基线；2……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-身家2800亿-梁文锋还在北京租房",
-      "title": "身家2800亿，梁文锋还在北京租房",
-      "url": "https://news.cnblogs.com/n/843241/",
+      "id": "cnblogs-news-人工智能教科书全错-底层公式惊天曝光-双子座模型率先自我修复",
+      "title": "人工智能教科书全错！底层公式惊天曝光，双子座模型率先自我修复",
+      "url": "https://news.cnblogs.com/n/843244/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-10-29T09:11:00.000Z",
-      "summary": "文，高恒说 10 月 27 日，41 岁的深度求索创始人梁文锋首次登上《2026 胡润百富榜》，便以 2800 亿元的财富跻身中国富豪榜前十，位列第七。就在同一天，另一条关于他的消息引起关注。据凤凰网科技援引接近深度求索的人士透露，梁文锋长期在北京租房居住，房间布置比较本文链接",
+      "publishedAt": "2026-10-29T09:41:00.000Z",
+      "summary": "新智元报道各大人工智能框架都错了！错了，错了。连教科书里的标准公式，也错了。谷歌深度思维的主任研究科学家披露了这一重磅炸弹！本周，谷歌深度思维展示了一个问题：在、以及各类教科书中，该算法的本文链接",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "研究论文"
       ],
-      "heat": 80,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2816,6 +2804,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-8点1氪丨姆巴佩中国代言收入近2200万欧元-长鑫科技已被纳入上证指数-宇树科技-前三季度净利润3-87亿元-同比增长270-5",
+      "title": "8点1氪丨姆巴佩中国代言收入近2200万欧元；长鑫科技已被纳入上证指数；宇树科技：前三季度净利润3.87亿元，同比增长270.54%",
+      "url": "https://36kr.com/p/4046203581289345?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-10-29T00:13:55.000Z",
+      "summary": "今日热点导览特朗普将“正式禁用”人工智能一词泡泡玛特回应业绩大跌，管理层称高基数叠加“炒娃降温” 苹果手机首次支持苹果，仅限通用串行总线-款且需有线配对海力士到2029年产能已售罄小鹏机器人固态电池小批量量产相关型号大新闻姆巴佩中国代言收入近2200万欧元，占商业总收入38% 姆巴佩涉华不当言论事件爆发后，中国市场在不到24小时内完成品牌解约、平台清退的全链条动作，这一过程不……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-谷歌推出双子座模型-4-借助在",
       "title": "谷歌推出双子座模型 4 借助在",
       "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
@@ -2830,7 +2836,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
