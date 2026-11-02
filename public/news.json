@@ -1,60 +1,55 @@
 {
-  "generatedAt": "2026-11-02T15:25:01.819Z",
+  "generatedAt": "2026-11-02T15:55:11.826Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-02T15:30:00.000Z",
+  "nextUpdateHint": "2026-11-02T16:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-02T15:17:24.000Z"
+    "latestPublishedAt": "2026-11-02T15:50:53.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 79,
+      "count": 77,
       "heat": 76
     },
     {
       "name": "模型发布",
-      "count": 57,
-      "heat": 76
+      "count": 58,
+      "heat": 77
     },
     {
       "name": "算力芯片",
-      "count": 23,
-      "heat": 90
+      "count": 22,
+      "heat": 89
     },
     {
       "name": "人工智能动态",
-      "count": 20,
-      "heat": 69
+      "count": 21,
+      "heat": 70
     },
     {
       "name": "监管安全",
       "count": 18,
-      "heat": 71
-    },
-    {
-      "name": "投融资",
-      "count": 15,
-      "heat": 76
+      "heat": 73
     },
     {
       "name": "研究论文",
-      "count": 17,
+      "count": 18,
       "heat": 67
     },
     {
       "name": "开源生态",
       "count": 16,
-      "heat": 69
+      "heat": 68
     },
     {
-      "name": "端侧智能",
-      "count": 10,
-      "heat": 77
+      "name": "投融资",
+      "count": 13,
+      "heat": 75
     },
     {
       "name": "多模态",
@@ -62,9 +57,14 @@
       "heat": 78
     },
     {
+      "name": "端侧智能",
+      "count": 8,
+      "heat": 75
+    },
+    {
       "name": "机器人",
       "count": 5,
-      "heat": 78
+      "heat": 79
     }
   ],
   "sources": [
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-11-02T15:00:00.000Z",
       "latestDisplayedAt": "2026-11-02T15:00:00.000Z"
     },
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-02T11:47:14.000Z",
-      "latestDisplayedAt": "2026-11-02T11:47:14.000Z"
+      "latestFetchedAt": "2026-11-02T15:42:27.000Z",
+      "latestDisplayedAt": "2026-11-02T15:42:27.000Z"
     },
     {
       "id": "wired-ai",
@@ -336,9 +336,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-11-02T15:17:24.000Z",
-      "latestDisplayedAt": "2026-11-02T15:17:24.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-11-02T15:50:53.000Z",
+      "latestDisplayedAt": "2026-11-02T15:50:53.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -396,9 +396,9 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-11-02T13:36:41.000Z",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 16,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-11-02T13:13:00.000Z",
       "latestDisplayedAt": "2026-11-02T13:13:00.000Z"
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-02T15:02:09.000Z",
-      "latestDisplayedAt": "2026-11-02T15:02:09.000Z"
+      "latestFetchedAt": "2026-11-02T15:40:02.000Z",
+      "latestDisplayedAt": "2026-11-02T15:40:02.000Z"
     },
     {
       "id": "oschina",
@@ -490,37 +490,52 @@
   ],
   "items": [
     {
-      "id": "reddit-artificial-在人工智能",
-      "title": "在人工智能",
-      "url": "https://www.reddit.com/r/artificial/comments/1xlzxdx/gulf_investors_bet_on_ai_space_tech/",
+      "id": "reddit-artificial-新使用人工智能",
+      "title": "新使用人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1xm0tga/almost_half_of_all_new_steam_games_use_ai_now/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T15:17:24.000Z",
+      "publishedAt": "2026-11-02T15:50:53.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "投融资"
+        "人工智能动态"
       ],
       "heat": 86,
-      "image": "https://external-preview.redd.it/fsguPmMUbdGrhKSkbzESKLzxKgEFBMZQycDE0xa7wek.jpeg?width=640&crop=smart&auto=webp&s=f155019751b8786e8d4a912d518d584ed41f26c9"
+      "image": "https://external-preview.redd.it/OAQzbnwQk8w9-EyDfnX9xR2fIn2oPfFLCzhg0jKMGns.jpeg?width=640&crop=smart&auto=webp&s=b567a739bcd539a783ceb8bad47f1bb6055e1ac4"
     },
     {
-      "id": "ithome-人工智能安全公司第三季度营收-170-亿美元同比暴涨-11-倍-冲刺史上最大首次公开募股",
-      "title": "人工智能安全公司第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大首次公开募股",
-      "url": "https://www.ithome.com/1/021/277.htm",
+      "id": "the-decoder-50-人工智能智能体进入-和",
+      "title": "50 人工智能智能体进入，和",
+      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T15:42:27.000Z",
+      "summary": "在由实验室和实验室，开放人工智能公司模型。50 智能体借助，构建在，在。在克劳德模型旗舰模型 5.5，来源代码向。向作为人工智能在。50 人工智能智能体进入，和首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-消息称硬件已定型两年-但苹果内部仍存在-分歧",
+      "title": "消息称硬件已定型两年，但苹果内部仍存在“分歧”",
+      "url": "https://www.ithome.com/1/021/280.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T15:02:09.000Z",
-      "summary": "科技之家 11 月 2 日消息，人工智能安全公司披露，截至 9 月 30 日的第三季度营收接近 170 亿美元 （科技之家注：现汇率约合 1，132.35 亿元人民币），同比暴涨 11 倍，市场对这家人工智能实验室有望创下纪录的首次公开募股预期进一步升温。这家克劳德模型大模型背后的公司当地时间周一向美国证券交易委员会（）提交文件显示：截至 9 月末的三个月，净亏损 233 亿……",
+      "publishedAt": "2026-11-02T15:40:02.000Z",
+      "summary": "科技之家 11 月 2 日消息，据《 》今日报道，苹果正在开发的机器人版本。这款设备传闻被称作“ ”或“ 旗舰版”，不过最终命名尚不确定。记者艾伦・蒂利（ ）表示，该设备原型机将一块 9 英寸屏幕搭载在可旋转机械臂上，整体外观类似苹果早年的相关型号，或是皮克斯的经典台灯吉祥物。它保留通话这类已有的常规功能，同时还能够充分感知周边环境，并自主执行操作。▲ 苹果首款智能家庭中枢报……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "机器人"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -552,7 +567,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -616,23 +631,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-49-在人工智能借助-2-6-十亿",
-      "title": "49 在人工智能借助 $2.6 十亿",
-      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-02T11:47:14.000Z",
-      "summary": "进入，公司向转化进入全球人工智能平台。49 在人工智能借助 $2.6 十亿首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -648,7 +647,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -903,35 +902,35 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-评测-面向平台",
-      "title": "评测: 面向平台",
-      "url": "https://www.reddit.com/r/artificial/comments/1xlz1su/dell_xps_googlebook_review_beautiful_hardware_for/",
+      "id": "reddit-artificial-在人工智能",
+      "title": "在人工智能",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlzxdx/gulf_investors_bet_on_ai_space_tech/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T14:44:02.000Z",
+      "publishedAt": "2026-11-02T15:17:24.000Z",
       "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "人工智能动态"
+        "投融资"
       ],
-      "heat": 93,
-      "image": "https://external-preview.redd.it/AVBkhdeGAC-8SkmxTtIVFHTXLIxUxAJRV_la44pP2ck.jpeg?width=640&crop=smart&auto=webp&s=24d5bb06f581796e292568f9bc85616457596ae3"
+      "heat": 85,
+      "image": "https://external-preview.redd.it/fsguPmMUbdGrhKSkbzESKLzxKgEFBMZQycDE0xa7wek.jpeg?width=640&crop=smart&auto=webp&s=f155019751b8786e8d4a912d518d584ed41f26c9"
     },
     {
-      "id": "ithome-开放人工智能公司首席执行官奥尔特曼称个人电脑浪费内存遭全网声讨-马斯克也来补刀",
-      "title": "开放人工智能公司首席执行官奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀",
-      "url": "https://www.ithome.com/1/021/274.htm",
+      "id": "ithome-人工智能安全公司第三季度营收-170-亿美元同比暴涨-11-倍-冲刺史上最大首次公开募股",
+      "title": "人工智能安全公司第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大首次公开募股",
+      "url": "https://www.ithome.com/1/021/277.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T14:21:52.000Z",
-      "summary": "科技之家 11 月 2 日消息，萨姆 · 奥尔特曼近期关于内存的言论引发越来越多人反对，埃隆 · 马斯克也加入了这场声讨。上周，这位开放人工智能公司首席执行官的一番话在全网、尤其是玩家群体中引发强烈不满。他称，人们把内存装在个人电脑里，而不是放在数据中心，是一件“很糟糕”的事。在和博主的访谈中，奥尔特曼说：“从全球资源分配角度来看，所有人都把全球有限的资源放在自家电脑里，而内……",
+      "publishedAt": "2026-11-02T15:02:09.000Z",
+      "summary": "科技之家 11 月 2 日消息，人工智能安全公司披露，截至 9 月 30 日的第三季度营收接近 170 亿美元 （科技之家注：现汇率约合 1，132.35 亿元人民币），同比暴涨 11 倍，市场对这家人工智能实验室有望创下纪录的首次公开募股预期进一步升温。这家克劳德模型大模型背后的公司当地时间周一向美国证券交易委员会（）提交文件显示：截至 9 月末的三个月，净亏损 233 亿……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "投融资"
+        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -949,7 +948,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 90,
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-49-在人工智能借助-2-6-十亿",
+      "title": "49 在人工智能借助 $2.6 十亿",
+      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T11:47:14.000Z",
+      "summary": "进入，公司向转化进入全球人工智能平台。49 在人工智能借助 $2.6 十亿首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 86,
       "image": ""
     },
     {
@@ -988,22 +1003,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司面向",
-      "title": "开放人工智能公司面向",
-      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-02T10:47:59.000Z",
-      "summary": "开放人工智能公司面向和。开放人工智能公司面向首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
       "id": "leiphone-90-后北大副教授董豪-启元机器人-正在勇闯具身终局",
       "title": "90 后北大副教授董豪：启元机器人，正在勇闯具身终局",
       "url": "https://www.leiphone.com/category/ai/1mfsMzxNwaTmqZ7e.html",
@@ -1039,20 +1038,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-全球首创-神经蠕虫-脑机接口公司君柔科技获顺为资本-高瓴创投投资",
-      "title": "全球首创“神经蠕虫”，脑机接口公司君柔科技获顺为资本、高瓴创投投资",
-      "url": "https://news.cnblogs.com/n/844397/",
+      "id": "cnblogs-news-0裁员-专家工资先降30-深度思维联创推演人工智能第一刀",
+      "title": "0裁员，专家工资先降30%！深度思维联创推演人工智能第一刀",
+      "url": "https://news.cnblogs.com/n/844402/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T06:14:00.000Z",
-      "summary": "11 月 2 日消息，据“暗涌 ”今日报道，脑机接口公司君柔科技成立一年内完成三轮融资，累计金额达亿元。上一轮融资由九合创投领投，国家高性能医疗器械创新中心跟投；最新的天使 + 轮由顺为资本、高瓴创投及智元机器人等投资。信息技术之家查询获悉，君柔科技专注于脑机接口材料、电极、算法、运动控制本文链接",
+      "publishedAt": "2026-11-02T06:38:00.000Z",
+      "summary": "新智元报道别再担心人工智能抢走你的工位了。真正先塌方的，是你的工资单。就在刚刚，谷歌深度思维联合创始人出手了。他是深度思维的首席通用人工智能科学家。这次，他联手通用人工智能经济学总监、研究科学家，在本文链接",
       "topics": [
-        "投融资",
-        "机器人"
+        "研究论文"
       ],
-      "heat": 83,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1259,22 +1257,38 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1xlygec/lets_guess_what_it_is_here_are_all_the_clues_i/",
+      "id": "reddit-artificial-评测-面向平台",
+      "title": "评测: 面向平台",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlz1su/dell_xps_googlebook_review_beautiful_hardware_for/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T14:20:26.000Z",
-      "summary": "来自和和关于。和认为信息技术。信息技术，应用。推出每个在来自软件和构建，和面向电脑和面向，和人工智能在软件。团队信息技术 15 构建新面向人工智能。用户借助和和产品作为作为。生活借助信息技术。图像物体。每个。持续在，向试图向？由",
+      "publishedAt": "2026-11-02T14:44:02.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 93,
+      "image": "https://external-preview.redd.it/AVBkhdeGAC-8SkmxTtIVFHTXLIxUxAJRV_la44pP2ck.jpeg?width=640&crop=smart&auto=webp&s=24d5bb06f581796e292568f9bc85616457596ae3"
+    },
+    {
+      "id": "ithome-开放人工智能公司首席执行官奥尔特曼称个人电脑浪费内存遭全网声讨-马斯克也来补刀",
+      "title": "开放人工智能公司首席执行官奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀",
+      "url": "https://www.ithome.com/1/021/274.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T14:21:52.000Z",
+      "summary": "科技之家 11 月 2 日消息，萨姆 · 奥尔特曼近期关于内存的言论引发越来越多人反对，埃隆 · 马斯克也加入了这场声讨。上周，这位开放人工智能公司首席执行官的一番话在全网、尤其是玩家群体中引发强烈不满。他称，人们把内存装在个人电脑里，而不是放在数据中心，是一件“很糟糕”的事。在和博主的访谈中，奥尔特曼说：“从全球资源分配角度来看，所有人都把全球有限的资源放在自家电脑里，而内……",
       "topics": [
         "产品应用",
-        "研究论文",
-        "多模态"
+        "算力芯片",
+        "投融资"
       ],
-      "heat": 95,
-      "image": "https://preview.redd.it/zgjz3cbkk7zh1.jpeg?width=320&crop=smart&auto=webp&s=b84860924b97b83c43dc263a8696e2ac5ef1c1bc"
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "techcrunch-ai-开放人工智能公司智能聊天助手和",
@@ -1289,24 +1303,6 @@
       "topics": [
         "模型发布",
         "产品应用"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "ithome-马斯克回应额度消耗过快-服务成本高到难以为继",
-      "title": "马斯克回应额度消耗过快：服务成本高到难以为继",
-      "url": "https://www.ithome.com/1/021/271.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-02T13:38:33.000Z",
-      "summary": "科技之家 11 月 2 日消息，埃隆 · 马斯克称，人工智能富足时代终将到来，但眼下，还做不到不限量使用。这位首席执行官当地时间上周日在平台发文称：有用户反馈每周额度消耗速度远超往常，对此他表示，该人工智能智能体的服务成本“相对于收入而言高到难以为继”。是在 8 月推出的人工智能智能体，其依托虚拟计算机替人完成购物等各类任务。该产品分多个档位，从免费版到每月 200 美元 （……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -1330,6 +1326,22 @@
       "image": ""
     },
     {
+      "id": "the-decoder-开放人工智能公司面向",
+      "title": "开放人工智能公司面向",
+      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T10:47:59.000Z",
+      "summary": "开放人工智能公司面向和。开放人工智能公司面向首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "leiphone-产业资本继续押注具身-斯坦福双子星创办的黑马公司机器科学-宣布完成相关型号轮融资",
       "title": "产业资本继续押注具身：斯坦福双子星创办的黑马公司机器科学，宣布完成相关型号轮融资",
       "url": "https://www.leiphone.com/category/ai/GqrJT2vlPFBxElDY.html",
@@ -1348,6 +1360,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-刚刚-谷歌张量处理器在太空开机-4开口第一句竟是首诗",
+      "title": "刚刚，谷歌张量处理器在太空开机！4开口第一句竟是首诗",
+      "url": "https://news.cnblogs.com/n/844401/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T06:31:00.000Z",
+      "summary": "新智元报道算力，真的离开地球了！刚刚，谷歌干了一件相当炸裂的事：把自家的人工智能芯片送上太空，让它在绕地球飞行的卫星上运行大模型。然后，地球上的工程师发去一道题。没想到，太空里的人工智能回给人类的第一句话，竟然是一首诗！就在今天，谷歌首席执行官皮查伊兴奋地宣布，本文链接",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "qbitai-央视严选-中国人工智能创业十骏-唯一人工智能制药公司是清华系",
       "title": "央视严选「中国人工智能创业十骏」：唯一人工智能制药公司是清华系",
       "url": "https://www.qbitai.com/2026/11/507150.html",
@@ -1359,23 +1388,6 @@
       "summary": "模型管线双驱动",
       "topics": [
         "人工智能动态"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-九章四号-光量子计算原型机等20项成果获2026年世界互联网大会领先科技奖",
-      "title": "“九章四号”光量子计算原型机等20项成果获2026年世界互联网大会领先科技奖",
-      "url": "https://news.cnblogs.com/n/844395/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-02T06:00:00.000Z",
-      "summary": "来源：新华社 2026 年世界互联网大会领先科技奖颁奖典礼 11 月 2 日在浙江乌镇举行。20 项成果获奖，包括“九章四号”光量子计算原型机等基础研究 2 项，面向空间量子信息的光传输技术及应用等关键技术 10 项，面向物理人工智能的整车智能体技术平台等工程研发 8 项，涵盖量子计算、人工智能、空本文链接",
-      "topics": [
-        "产品应用",
-        "研究论文"
       ],
       "heat": 83,
       "image": ""
@@ -1410,24 +1422,6 @@
         "产品应用"
       ],
       "heat": 69,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-顺利人工智能智能体使用工具",
-      "title": "顺利人工智能智能体使用工具",
-      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-01T14:56:44.000Z",
-      "summary": "研究和构建，人工智能图像专业版。和，智能体正确工具面向任务和语言模型在图像数据，信息技术关于。顺利人工智能智能体使用工具首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 79,
       "image": ""
     },
     {
@@ -1601,38 +1595,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg"
     },
     {
-      "id": "reddit-artificial-双子座模型双子座模型-3-1-专业版-向",
-      "title": "双子座模型双子座模型 3.1 专业版？向",
-      "url": "https://www.reddit.com/r/artificial/comments/1xlxuf0/am_i_the_only_one_who_feels_gemini_argon_is_worse/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlygec/lets_guess_what_it_is_here_are_all_the_clues_i/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T13:56:39.000Z",
-      "summary": "在面向和信息技术。向。双子座模型 3.1 专业版，模型使用向关于。面向模型月。: 问题和答案。3.1 专业版在信息技术。信息技术和信息技术关于 60%，信息技术信息技术。信息技术向模型，信息技术向和。信息技术创建音频？在。发布。信息技术只是。信息技术。信息技术，3.1 专业版，:，没有只是，分享，正确来自向 3.1 专业版。由",
+      "publishedAt": "2026-11-02T14:20:26.000Z",
+      "summary": "来自和和关于。和认为信息技术。信息技术，应用。推出每个在来自软件和构建，和面向电脑和面向，和人工智能在软件。团队信息技术 15 构建新面向人工智能。用户借助和和产品作为作为。生活借助信息技术。图像物体。每个。持续在，向试图向？由",
       "topics": [
-        "模型发布",
+        "产品应用",
+        "研究论文",
         "多模态"
       ],
-      "heat": 97,
-      "image": "https://preview.redd.it/45xxi3y6g7zh1.png?width=640&crop=smart&auto=webp&s=b9632423934dfd7d33d6aa5eec3247c75672c396"
+      "heat": 94,
+      "image": "https://preview.redd.it/zgjz3cbkk7zh1.jpeg?width=320&crop=smart&auto=webp&s=b84860924b97b83c43dc263a8696e2ac5ef1c1bc"
     },
     {
-      "id": "ithome-亿咖通科技与签署合作备忘录-共同开发面向出行领域及跨行业场景的下一代高性能人工智能计算平台",
-      "title": "亿咖通科技与签署合作备忘录，共同开发面向出行领域及跨行业场景的下一代高性能人工智能计算平台",
-      "url": "https://www.ithome.com/1/021/268.htm",
+      "id": "ithome-马斯克回应额度消耗过快-服务成本高到难以为继",
+      "title": "马斯克回应额度消耗过快：服务成本高到难以为继",
+      "url": "https://www.ithome.com/1/021/271.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T13:16:47.000Z",
-      "summary": "科技之家 11 月 2 日消息，亿咖通科技控股今日宣布与签署非约束性合作备忘录。双方将以此搭建合作框架，共同探索与开发面向出行领域及跨行业场景的下一代高性能人工智能计算平台。根据备忘录约定，双方将开展系统层面的联合工程开发，涵盖系统级架构定义、性能调优、软件适配、功能安全、工具链与网络安全验证，并同步推进产业生态共建。双方团队将针对中国及全球市场打磨定制化技术方案，除出行场景……",
+      "publishedAt": "2026-11-02T13:38:33.000Z",
+      "summary": "科技之家 11 月 2 日消息，埃隆 · 马斯克称，人工智能富足时代终将到来，但眼下，还做不到不限量使用。这位首席执行官当地时间上周日在平台发文称：有用户反馈每周额度消耗速度远超往常，对此他表示，该人工智能智能体的服务成本“相对于收入而言高到难以为继”。是在 8 月推出的人工智能智能体，其依托虚拟计算机替人完成购物等各类任务。该产品分多个档位，从免费版到每月 200 美元 （……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "监管安全"
+        "算力芯片"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1672,6 +1667,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-难怪克劳德模型突然封号-人工智能安全公司自曝-你聊的每句话-它都在后台悄悄举报",
+      "title": "难怪克劳德模型突然封号！人工智能安全公司自曝：你聊的每句话，它都在后台悄悄举报",
+      "url": "https://news.cnblogs.com/n/844400/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T06:22:00.000Z",
+      "summary": "新智元报道你跟克劳德模型聊的每一句话，它转头就去告密了！前一秒，它还在对话框里一口一个「没问题」，痛痛快快把全套代码交到你手上。下一秒，它立刻在后台换了一副面孔，敲下一行隐藏代码，反手把你标成 10 级危险分子上报！就在刚刚，人工智能安全公司在上发文公开了这套名为「自我评估」的隐本文链接",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
       "id": "qbitai-小米开源了个150元的人工智能小玩意-火到配件都涨价了",
       "title": "小米开源了个150元的人工智能小玩意，火到配件都涨价了",
       "url": "https://www.qbitai.com/2026/11/507107.html",
@@ -1689,24 +1701,6 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-沐曦-投了可灵",
-      "title": "沐曦，投了可灵",
-      "url": "https://news.cnblogs.com/n/844392/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-02T05:30:00.000Z",
-      "summary": "作者丨存薇编辑丨子钺封面图源丨人工智能生成可灵的新股东名单里，出现了一家国产图形处理器公司。10 月 30 日，快手宣布可灵人工智能本轮增资完成交割，实际到账约 198 亿元。与一众投资机构和互联网公司一道入局的，还有沐曦旗下的投资平台沐曦数智。一家研发图形处理器的公司，把钱投向了视频生成本文链接",
-      "topics": [
-        "算力芯片",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "oschina-深度求索团队把智能体设计成-操作系统-多任务的上限不该是人的注意力",
       "title": "深度求索团队把智能体设计成“操作系统”：多任务的上限不该是人的注意力",
       "url": "https://www.oschina.net/news/503338/deepseek-harness-super-agent",
@@ -1719,7 +1713,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1739,21 +1733,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-转化人工智能进入合作伙伴",
-      "title": "转化人工智能进入合作伙伴",
-      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "id": "the-decoder-顺利人工智能智能体使用工具",
+      "title": "顺利人工智能智能体使用工具",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-01T14:36:49.000Z",
-      "summary": "研究在设置智能聊天助手，和双子座模型在和安全问题:，向模型关于训练，借助得分在，向，在。设置用户在风险。人工智能安全公司克劳德模型，模型最，向。转化人工智能进入合作伙伴首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-01T14:56:44.000Z",
+      "summary": "研究和构建，人工智能图像专业版。和，智能体正确工具面向任务和语言模型在图像数据，信息技术关于。顺利人工智能智能体使用工具首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1929,38 +1923,39 @@
       "image": ""
     },
     {
-      "id": "ithome-腾讯混元发布-2-0-为模型研发打造可复用工具",
-      "title": "腾讯混元发布 2.0：为模型研发打造可复用工具",
-      "url": "https://www.ithome.com/1/021/266.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-02T13:08:20.000Z",
-      "summary": "科技之家 11 月 2 日消息，今日腾讯混元发布了人工智能科研系统 2.0，将研发重点从直接用人工智能攻克科学难题，转向让通用智能体参与科学模型、研究工作流及软件工具的研发与升级，让一次研发的成果在后续研究中被反复使用，推动科研范式从“刷题解题”走向“造工具”。此前，1.0 曾驱动开源模型解决加法组合学中悬置五十余年的开放问题，验证了“给人工智能明确评判标准的难题并循环尝试”……",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "开源生态"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-向元宇宙平台公司-开放人工智能公司-和苹果来自训练人工智能在数据在",
-      "title": "向元宇宙平台公司，开放人工智能公司，和苹果来自训练人工智能在数据在",
-      "url": "https://www.reddit.com/r/artificial/comments/1xlu9ui/how_to_stop_meta_openai_and_apple_from_training/",
+      "id": "reddit-artificial-双子座模型双子座模型-3-1-专业版-向",
+      "title": "双子座模型双子座模型 3.1 专业版？向",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlxuf0/am_i_the_only_one_who_feels_gemini_argon_is_worse/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T11:03:37.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-11-02T13:56:39.000Z",
+      "summary": "在面向和信息技术。向。双子座模型 3.1 专业版，模型使用向关于。面向模型月。: 问题和答案。3.1 专业版在信息技术。信息技术和信息技术关于 60%，信息技术信息技术。信息技术向模型，信息技术向和。信息技术创建音频？在。发布。信息技术只是。信息技术。信息技术，3.1 专业版，:，没有只是，分享，正确来自向 3.1 专业版。由",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "多模态"
       ],
-      "heat": 90,
-      "image": "https://external-preview.redd.it/aMqNEYFVuEI9hRKI4QAg2uD5ZuZp4TkpIJeGJ-2VxgA.jpeg?width=640&crop=smart&auto=webp&s=b0ae4aaaf9fc7fe20d4aa648353d32cc46963b24"
+      "heat": 97,
+      "image": "https://preview.redd.it/45xxi3y6g7zh1.png?width=640&crop=smart&auto=webp&s=b9632423934dfd7d33d6aa5eec3247c75672c396"
+    },
+    {
+      "id": "ithome-亿咖通科技与签署合作备忘录-共同开发面向出行领域及跨行业场景的下一代高性能人工智能计算平台",
+      "title": "亿咖通科技与签署合作备忘录，共同开发面向出行领域及跨行业场景的下一代高性能人工智能计算平台",
+      "url": "https://www.ithome.com/1/021/268.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T13:16:47.000Z",
+      "summary": "科技之家 11 月 2 日消息，亿咖通科技控股今日宣布与签署非约束性合作备忘录。双方将以此搭建合作框架，共同探索与开发面向出行领域及跨行业场景的下一代高性能人工智能计算平台。根据备忘录约定，双方将开展系统层面的联合工程开发，涵盖系统级架构定义、性能调优、软件适配、功能安全、工具链与网络安全验证，并同步推进产业生态共建。双方团队将针对中国及全球市场打磨定制化技术方案，除出行场景……",
+      "topics": [
+        "产品应用",
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 95,
+      "image": ""
     },
     {
       "id": "leiphone-从产品幕后到用户故事-极米记得人工智能新品全阵容亮相相关型号首-硬-礼",
@@ -1981,19 +1976,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-多项指标排名第一-全双工实时交互系统-实时发布",
-      "title": "多项指标排名第一，全双工实时交互系统-实时发布",
-      "url": "https://news.cnblogs.com/n/844391/",
+      "id": "cnblogs-news-全球首创-神经蠕虫-脑机接口公司君柔科技获顺为资本-高瓴创投投资",
+      "title": "全球首创“神经蠕虫”，脑机接口公司君柔科技获顺为资本、高瓴创投投资",
+      "url": "https://news.cnblogs.com/n/844397/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T05:18:00.000Z",
-      "summary": "机器之心发布还记得电影《》里的吗？2013 年，导演斯派克・琼斯在这部电影里描绘了一个令人着迷的未来：一个没有实体的人工智能操作系统，却能像真人一样，和男主角谈天说地。她会开玩笑，会主动开启话题，能觉察到男主的情绪和意图，也能自然地转换话头。更神奇本文链接",
+      "publishedAt": "2026-11-02T06:14:00.000Z",
+      "summary": "11 月 2 日消息，据“暗涌 ”今日报道，脑机接口公司君柔科技成立一年内完成三轮融资，累计金额达亿元。上一轮融资由九合创投领投，国家高性能医疗器械创新中心跟投；最新的天使 + 轮由顺为资本、高瓴创投及智元机器人等投资。信息技术之家查询获悉，君柔科技专注于脑机接口材料、电极、算法、运动控制本文链接",
       "topics": [
-        "人工智能动态"
+        "投融资",
+        "机器人"
       ],
-      "heat": 77,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2043,7 +2039,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2063,20 +2059,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-中国人工智能模型-只是政府",
-      "title": "中国人工智能模型，只是政府",
-      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "id": "the-decoder-转化人工智能进入合作伙伴",
+      "title": "转化人工智能进入合作伙伴",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-01T12:33:01.000Z",
-      "summary": "由人工智能 25 人工智能模型面向借助中国政府和。中国模型向问题，和模型。语言在。中国人工智能模型，只是政府，首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-01T14:36:49.000Z",
+      "summary": "研究在设置智能聊天助手，和双子座模型在和安全问题:，向模型关于训练，借助得分在，向，在。设置用户在风险。人工智能安全公司克劳德模型，模型最，向。转化人工智能进入合作伙伴首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
-        "产品应用"
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 72,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2093,7 +2090,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2248,20 +2245,38 @@
       "image": ""
     },
     {
-      "id": "ithome-谷歌上线-塞尔达传说-时之笛-彩蛋-可跳转至-1998-年复古搜索页",
-      "title": "谷歌上线《塞尔达传说：时之笛》彩蛋，可跳转至 1998 年复古搜索页",
-      "url": "https://www.ithome.com/1/021/263.htm",
+      "id": "ithome-腾讯混元发布-2-0-为模型研发打造可复用工具",
+      "title": "腾讯混元发布 2.0：为模型研发打造可复用工具",
+      "url": "https://www.ithome.com/1/021/266.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T12:49:03.000Z",
-      "summary": "科技之家 11 月 2 日消息，为庆祝本周《塞尔达传说：时之笛》重制版发售，谷歌搜索上线了一个彩蛋。这款 64 经典作品的重制版将于 11 月 5 日上线，谷歌为此准备了标志性的隐藏互动彩蛋。在谷歌主页搜索框输入并搜索，屏幕角落就会出现大师剑，悬浮在时之神殿的剑台上方。原作里，成年林克将大师剑插回剑台时，就会穿越时光变回少年林克。当大师剑出现后，点击或触摸它，宝剑就会归位，同……",
+      "publishedAt": "2026-11-02T13:08:20.000Z",
+      "summary": "科技之家 11 月 2 日消息，今日腾讯混元发布了人工智能科研系统 2.0，将研发重点从直接用人工智能攻克科学难题，转向让通用智能体参与科学模型、研究工作流及软件工具的研发与升级，让一次研发的成果在后续研究中被反复使用，推动科研范式从“刷题解题”走向“造工具”。此前，1.0 曾驱动开源模型解决加法组合学中悬置五十余年的开放问题，验证了“给人工智能明确评判标准的难题并循环尝试”……",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "研究论文",
+        "开源生态"
       ],
-      "heat": 85,
+      "heat": 95,
       "image": ""
+    },
+    {
+      "id": "reddit-artificial-向元宇宙平台公司-开放人工智能公司-和苹果来自训练人工智能在数据在",
+      "title": "向元宇宙平台公司，开放人工智能公司，和苹果来自训练人工智能在数据在",
+      "url": "https://www.reddit.com/r/artificial/comments/1xlu9ui/how_to_stop_meta_openai_and_apple_from_training/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-02T11:03:37.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 90,
+      "image": "https://external-preview.redd.it/aMqNEYFVuEI9hRKI4QAg2uD5ZuZp4TkpIJeGJ-2VxgA.jpeg?width=640&crop=smart&auto=webp&s=b0ae4aaaf9fc7fe20d4aa648353d32cc46963b24"
     },
     {
       "id": "leiphone-破解智能体跨端协同办事难题-支付宝方案获世界互联网大会-新耀-场景奖",
@@ -2282,20 +2297,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-千问进苹果手机-阿里真正买到了什么",
-      "title": "千问进苹果手机，阿里真正买到了什么？",
-      "url": "https://news.cnblogs.com/n/844389/",
+      "id": "cnblogs-news-九章四号-光量子计算原型机等20项成果获2026年世界互联网大会领先科技奖",
+      "title": "“九章四号”光量子计算原型机等20项成果获2026年世界互联网大会领先科技奖",
+      "url": "https://news.cnblogs.com/n/844395/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "文，强调 10 月 31 日，苹果官宣国行苹果智能，11 月 4 日随开发者开放测试，12 月随苹果移动系统 27.3 推出，千问进入、写作工具和视觉智能。首批功能大多是海外 2024 年起陆续推出的功能，新一代人工智能不在其中。围绕这条消息，市本文链接",
+      "publishedAt": "2026-11-02T06:00:00.000Z",
+      "summary": "来源：新华社 2026 年世界互联网大会领先科技奖颁奖典礼 11 月 2 日在浙江乌镇举行。20 项成果获奖，包括“九章四号”光量子计算原型机等基础研究 2 项，面向空间量子信息的光传输技术及应用等关键技术 10 项，面向物理人工智能的整车智能体技术平台等工程研发 8 项，涵盖量子计算、人工智能、空本文链接",
       "topics": [
         "产品应用",
-        "端侧智能"
+        "研究论文"
       ],
-      "heat": 90,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2313,7 +2328,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2330,7 +2345,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2350,21 +2365,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司智能聊天助手用户",
-      "title": "开放人工智能公司智能聊天助手用户",
-      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+      "id": "the-decoder-中国人工智能模型-只是政府",
+      "title": "中国人工智能模型，只是政府",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-01T12:05:04.000Z",
-      "summary": "开放人工智能公司智能聊天助手和。用户限制新，和使用在。政策用户向。开放人工智能公司智能聊天助手用户首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-01T12:33:01.000Z",
+      "summary": "由人工智能 25 人工智能模型面向借助中国政府和。中国模型向问题，和模型。语言在。中国人工智能模型，只是政府，首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 84,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2380,7 +2394,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2487,17 +2501,17 @@
       "image": ""
     },
     {
-      "id": "ithome-上汽大众相关型号将于-11-月-12-日上市-家族首款纯电",
-      "title": "上汽大众相关型号将于 11 月 12 日上市，家族首款纯电",
-      "url": "https://www.ithome.com/1/021/261.htm",
+      "id": "ithome-谷歌上线-塞尔达传说-时之笛-彩蛋-可跳转至-1998-年复古搜索页",
+      "title": "谷歌上线《塞尔达传说：时之笛》彩蛋，可跳转至 1998 年复古搜索页",
+      "url": "https://www.ithome.com/1/021/263.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T12:35:00.000Z",
-      "summary": "科技之家 11 月 2 日消息，据汽车之家今日报道，上汽大众相关型号将于 11 月 12 日上市。新车已于此前开启盲订，车辆是序列下首款纯电，同时也是大众全球首款纯电平台搭配电子电气架构的量产车型。科技之家注意到，该车定位“超能纯电 ”，搭载激光雷达、“行云智行”智能辅助驾驶系统，拥有 2815 毫米轴距，配备宁德时代电池。相关型号配备 192 线激光雷达、地平线征程相关型号……",
+      "publishedAt": "2026-11-02T12:49:03.000Z",
+      "summary": "科技之家 11 月 2 日消息，为庆祝本周《塞尔达传说：时之笛》重制版发售，谷歌搜索上线了一个彩蛋。这款 64 经典作品的重制版将于 11 月 5 日上线，谷歌为此准备了标志性的隐藏互动彩蛋。在谷歌主页搜索框输入并搜索，屏幕角落就会出现大师剑，悬浮在时之神殿的剑台上方。原作里，成年林克将大师剑插回剑台时，就会穿越时光变回少年林克。当大师剑出现后，点击或触摸它，宝剑就会归位，同……",
       "topics": [
-        "算力芯片"
+        "人工智能动态"
       ],
       "heat": 85,
       "image": ""
@@ -2521,21 +2535,21 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-美团发布新一代大模型-国产算力赋能本地生活商家",
-      "title": "美团发布新一代大模型，国产算力赋能本地生活商家",
-      "url": "https://news.cnblogs.com/n/844388/",
+      "id": "cnblogs-news-沐曦-投了可灵",
+      "title": "沐曦，投了可灵",
+      "url": "https://news.cnblogs.com/n/844392/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T04:50:00.000Z",
-      "summary": "11 月 2 日，美团发布新一代大模型相关型号，这是一款面向长程智能体任务的原生多模态模型，总参数 1.6 万亿。美团方面强调，相关型号延续了此前系列模型的研发方向，全程在国产算力上训练，是目前国产算力上完成的最大训练任务。美团方面透露，本文链接",
+      "publishedAt": "2026-11-02T05:30:00.000Z",
+      "summary": "作者丨存薇编辑丨子钺封面图源丨人工智能生成可灵的新股东名单里，出现了一家国产图形处理器公司。10 月 30 日，快手宣布可灵人工智能本轮增资完成交割，实际到账约 198 亿元。与一众投资机构和互联网公司一道入局的，还有沐曦旗下的投资平台沐曦数智。一家研发图形处理器的公司，把钱投向了视频生成本文链接",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
+        "算力芯片",
+        "投融资",
+        "多模态"
       ],
-      "heat": 95,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2551,7 +2565,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2573,19 +2587,19 @@
       "image": ""
     },
     {
-      "id": "the-decoder-谷歌视频人工智能向作为",
-      "title": "谷歌视频人工智能向作为",
-      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+      "id": "the-decoder-开放人工智能公司智能聊天助手用户",
+      "title": "开放人工智能公司智能聊天助手用户",
+      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-01T11:25:21.000Z",
-      "summary": "谷歌，研究团队构建，视频智能体向和帮助。基准测试模型正确时刻在视频，作为和质量。谷歌视频人工智能向作为首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-01T12:05:04.000Z",
+      "summary": "开放人工智能公司智能聊天助手和。用户限制新，和使用在。政策用户向。开放人工智能公司智能聊天助手用户首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "监管安全"
       ],
       "heat": 84,
       "image": ""
@@ -2723,20 +2737,19 @@
       "image": ""
     },
     {
-      "id": "ithome-2027-财年第一财季归母净利润-3-6-亿美元-同比增长-8478-57",
-      "title": "2027 财年第一财季归母净利润 3.6 亿美元，同比增长 8478.57%",
-      "url": "https://www.ithome.com/1/021/260.htm",
+      "id": "ithome-上汽大众相关型号将于-11-月-12-日上市-家族首款纯电",
+      "title": "上汽大众相关型号将于 11 月 12 日上市，家族首款纯电",
+      "url": "https://www.ithome.com/1/021/261.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T12:31:24.000Z",
-      "summary": "科技之家 11 月 2 日消息，今日发布 2027 财年（2026年6月28日～2027年7月1日）第一财季（2026年6月28日～2026年9月26日）报告：营业总收入：12.63 亿美元 （科技之家注：现汇率约合 84.1 亿元人民币），同比增长 136.5%，环比增长 25.5% 毛利润：6.44 亿美元 （现汇率约合 42.9 亿元人民币），同比增长 254.82%，……",
+      "publishedAt": "2026-11-02T12:35:00.000Z",
+      "summary": "科技之家 11 月 2 日消息，据汽车之家今日报道，上汽大众相关型号将于 11 月 12 日上市。新车已于此前开启盲订，车辆是序列下首款纯电，同时也是大众全球首款纯电平台搭配电子电气架构的量产车型。科技之家注意到，该车定位“超能纯电 ”，搭载激光雷达、“行云智行”智能辅助驾驶系统，拥有 2815 毫米轴距，配备宁德时代电池。相关型号配备 192 线激光雷达、地平线征程相关型号……",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "算力芯片"
       ],
-      "heat": 90,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2757,20 +2770,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-蓝思科技-昆山基地日产百台人形机器人-与智元机器人协同量产-联合采集真机数据",
-      "title": "蓝思科技：昆山基地日产百台人形机器人，与智元机器人协同量产、联合采集真机数据",
-      "url": "https://news.cnblogs.com/n/844387/",
+      "id": "cnblogs-news-多项指标排名第一-全双工实时交互系统-实时发布",
+      "title": "多项指标排名第一，全双工实时交互系统-实时发布",
+      "url": "https://news.cnblogs.com/n/844391/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-02T04:42:00.000Z",
-      "summary": "近日，蓝思科技（相关型号）在投资者关系活动中介绍了其具身智能全产业链制造赋能与核心业务进展。在机器人业务上，公司集中于子公司蓝思智能，致力于打造机器人平台型企业，依托全产业链垂直整合优势提供一站式服务。在核心部件端，公司已在人形机器人头部曲面显示模组、灵巧手模组、高强度关节模组等领域配合本文链接",
+      "publishedAt": "2026-11-02T05:18:00.000Z",
+      "summary": "机器之心发布还记得电影《》里的吗？2013 年，导演斯派克・琼斯在这部电影里描绘了一个令人着迷的未来：一个没有实体的人工智能操作系统，却能像真人一样，和男主角谈天说地。她会开玩笑，会主动开启话题，能觉察到男主的情绪和意图，也能自然地转换话头。更神奇本文链接",
       "topics": [
-        "投融资",
-        "机器人"
+        "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2804,25 +2816,25 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司-和-在智能聊天助手",
-      "title": "开放人工智能公司，和，在智能聊天助手",
-      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+      "id": "the-decoder-谷歌视频人工智能向作为",
+      "title": "谷歌视频人工智能向作为",
+      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-01T09:51:06.000Z",
-      "summary": "开放人工智能公司和模式进入单个。在，专业版，和企业分享，词元，面向智能聊天助手和智能编程工具。模型，信息技术。在，向在在智能聊天助手质量面向用户在，成本。开放人工智能公司，和，在智能聊天助手首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-01T11:25:21.000Z",
+      "summary": "谷歌，研究团队构建，视频智能体向和帮助。基准测试模型正确时刻在视频，作为和质量。谷歌视频人工智能向作为首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "端侧智能"
+        "研究论文"
       ],
-      "heat": 82,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2839,22 +2851,6 @@
         "机器人"
       ],
       "heat": 64,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-数据中心向",
-      "title": "数据中心向",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-10-31T21:17:03.000Z",
-      "summary": "人工智能公司。",
-      "topics": [
-        "监管安全"
-      ],
-      "heat": 55,
       "image": ""
     }
   ]
