@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-09T14:22:11.823Z",
+  "generatedAt": "2026-11-09T14:52:20.114Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-09T14:30:00.000Z",
+  "nextUpdateHint": "2026-11-09T15:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-09T14:16:38.000Z"
+    "latestPublishedAt": "2026-11-09T14:32:49.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 74,
+      "count": 76,
       "heat": 78
     },
     {
@@ -23,13 +23,13 @@
     },
     {
       "name": "算力芯片",
-      "count": 30,
+      "count": 31,
       "heat": 89
     },
     {
       "name": "研究论文",
       "count": 28,
-      "heat": 73
+      "heat": 74
     },
     {
       "name": "监管安全",
@@ -37,14 +37,14 @@
       "heat": 78
     },
     {
-      "name": "开源生态",
-      "count": 19,
-      "heat": 69
-    },
-    {
       "name": "投融资",
       "count": 15,
       "heat": 82
+    },
+    {
+      "name": "开源生态",
+      "count": 18,
+      "heat": 68
     },
     {
       "name": "人工智能动态",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 7,
-      "heat": 81
+      "count": 6,
+      "heat": 79
     }
   ],
   "sources": [
@@ -288,9 +288,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-11-09T07:00:00.000Z",
-      "latestDisplayedAt": "2026-11-09T07:00:00.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-11-09T14:30:56.000Z",
+      "latestDisplayedAt": "2026-11-09T14:30:56.000Z"
     },
     {
       "id": "towards-data-science",
@@ -337,8 +337,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-09T12:43:52.000Z",
-      "latestDisplayedAt": "2026-11-09T12:43:52.000Z"
+      "latestFetchedAt": "2026-11-09T14:30:06.000Z",
+      "latestDisplayedAt": "2026-11-09T14:30:06.000Z"
     },
     {
       "id": "product-hunt-ai",
@@ -380,12 +380,12 @@
       "language": "zh",
       "originLanguage": "en",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 8,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "HTTP 406",
+      "itemCount": 4,
       "displayedCount": 4,
-      "latestFetchedAt": "2026-11-06T18:59:34.000Z",
+      "latestFetchedAt": "2026-11-06T18:58:06.000Z",
       "latestDisplayedAt": "2026-11-06T18:58:06.000Z"
     },
     {
@@ -431,8 +431,8 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 10,
-      "displayedCount": 7,
+      "itemCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-11-09T12:57:34.000Z",
       "latestDisplayedAt": "2026-11-09T12:57:34.000Z"
     },
@@ -449,8 +449,8 @@
       "fallbackReason": "",
       "itemCount": 22,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-09T14:16:38.000Z",
-      "latestDisplayedAt": "2026-11-09T14:16:38.000Z"
+      "latestFetchedAt": "2026-11-09T14:32:49.000Z",
+      "latestDisplayedAt": "2026-11-09T14:32:49.000Z"
     },
     {
       "id": "oschina",
@@ -490,22 +490,54 @@
   ],
   "items": [
     {
-      "id": "ithome-美团龙猫开源相关型号模型-总参数-1-6-万亿-支持百万上下文",
-      "title": "美团龙猫开源相关型号模型：总参数 1.6 万亿，支持百万上下文",
-      "url": "https://www.ithome.com/1/024/556.htm",
+      "id": "ithome-美国知名风险投资家科斯拉看好人工智能重塑互联网-能让网站-有生命",
+      "title": "美国知名风险投资家科斯拉看好人工智能重塑互联网：能让网站“有生命”",
+      "url": "https://www.ithome.com/1/024/559.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T14:16:38.000Z",
-      "summary": "科技之家 11 月 9 日消息，11 月 2 日，美团龙猫发布面向长程智能体任务的原生多模态模型相关型号。随后来到今天（9 日），美团宣布该模型正式开源。该模型采用协议，支持商用推理部署与二次训练，无需额外授权，是面向长程智能体任务的原生多模态模型。在复杂代码库开发、完整项目构建、编程与专业办公场景中，端到端交付能力均有明显提升。模型总参数 1.6 万亿，每个词元激活约 48……",
+      "publishedAt": "2026-11-09T14:32:49.000Z",
+      "summary": "科技之家 11 月 9 日消息，据《商业内幕》今天（9）日晚间报道，美国知名亿万富翁风险投资家维诺德 · 科斯拉认为，所有访客看到相同网页的时代即将过去。他最新投资的人工智能初创公司希望借助人工智能重塑互联网，为每位访客提供量身定制的网页。“人工智能让高度个性化定制成为可能，整个世界都因此改变了。” 希望打造被其称为“ 有生命的互联网 ”的网络环境。公司最近完成 2，500 ……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "多模态"
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-09T14:30:56.000Z",
+      "summary": "英伟达首席执行官借助来自作为作为 2025，时间首个向中国。",
+      "topics": [
+        "算力芯片"
       ],
       "heat": 97,
-      "image": ""
+      "image": "https://media.wired.com/photos/6af1d38e0949f43953b8f9d7/master/pass/Jensen%20Huang.jpg"
+    },
+    {
+      "id": "reddit-artificial-人工智能查看信息技术在",
+      "title": "人工智能查看信息技术在。",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrt3t4/san_franciscos_ai_boom_looks_even_more_impressive/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-09T14:30:06.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 85,
+      "image": "https://preview.redd.it/8p3mnrllkl0i1.png?width=640&crop=smart&auto=webp&s=e9bde8753d2e0daef7543285877f7233d94acae8"
     },
     {
       "id": "nvidia-blog-在-英伟达和合作伙伴机器人在仿真",
@@ -538,7 +570,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -572,7 +604,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -609,24 +641,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-作为-工程师-7-生成式人工智能训练-大语言模型-问题向解决",
-      "title": "作为，工程师 7+，生成式人工智能训练，大语言模型，问题向解决？",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrqpq1/as_an_mlcv_engineer_of_7_years_the_current/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-09T12:43:52.000Z",
-      "summary": "机器学习。训练视觉模型，借助时间，序列数据，和多模态来自。人工智能作为和大语言模型和。向构建软件创建。在科学，工作流，接口信息技术。面向工程师和研究在，:，大语言模型问题模型和？面向数据科学和在借助和图像工具？由",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 94,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-合作伙伴-面向",
       "title": "合作伙伴。面向",
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
@@ -639,7 +653,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -673,7 +687,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -689,24 +703,8 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
-    },
-    {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/welcome-to-weed-island-jersey/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-09T07:00:00.000Z",
-      "summary": "变成在，美元全球。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 83,
-      "image": "https://media.wired.com/photos/6aba9754b8c27fd4adca81cc/master/pass/092426-Jersey%20Weed%20Island.jpg"
     },
     {
       "id": "cnblogs-news-对话周镜天-生物学存在-但更大的模型能解决多少问题",
@@ -722,7 +720,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -911,21 +909,39 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/switchcarts-1152x648.jpg"
     },
     {
-      "id": "ithome-179-123-元-小米智能摄像机-3-国补新低-500-万像素-6-种人工智能灵敏检测",
-      "title": "179 → 123 元：小米智能摄像机 3 国补新低，500 万像素、6 种人工智能灵敏检测",
-      "url": "https://www.ithome.com/1/024/554.htm",
+      "id": "ithome-美团龙猫开源相关型号模型-总参数-1-6-万亿-支持百万上下文",
+      "title": "美团龙猫开源相关型号模型：总参数 1.6 万亿，支持百万上下文",
+      "url": "https://www.ithome.com/1/024/556.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T14:10:04.000Z",
-      "summary": "【京东活动可能随时变更，需以实付款为准】 小米智能摄像机 3 开售于 2026 年 10 月，500 万像素，升级相关型号超清画质，支持红外夜视，首销价 179 元。京东 11.11 大促期间，按下方步骤下单，叠加 10% 国补后仅需 123.26 元：领 200-25 元券：点此查看。会员凑单 1 件（ 示例凑单品 ），下单后可立即退款。晒单返 10 元京豆。京东小米智能摄……",
+      "publishedAt": "2026-11-09T14:16:38.000Z",
+      "summary": "科技之家 11 月 9 日消息，11 月 2 日，美团龙猫发布面向长程智能体任务的原生多模态模型相关型号。随后来到今天（9 日），美团宣布该模型正式开源。该模型采用协议，支持商用推理部署与二次训练，无需额外授权，是面向长程智能体任务的原生多模态模型。在复杂代码库开发、完整项目构建、编程与专业办公场景中，端到端交付能力均有明显提升。模型总参数 1.6 万亿，每个词元激活约 48……",
       "topics": [
+        "产品应用",
         "算力芯片",
-        "多模态",
-        "端侧智能"
+        "多模态"
       ],
       "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-作为-工程师-7-生成式人工智能训练-大语言模型-问题向解决",
+      "title": "作为，工程师 7+，生成式人工智能训练，大语言模型，问题向解决？",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrqpq1/as_an_mlcv_engineer_of_7_years_the_current/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-09T12:43:52.000Z",
+      "summary": "机器学习。训练视觉模型，借助时间，序列数据，和多模态来自。人工智能作为和大语言模型和。向构建软件创建。在科学，工作流，接口信息技术。面向工程师和研究在，:，大语言模型问题模型和？面向数据科学和在借助和图像工具？由",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1000,24 +1016,6 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-构建人工智能智能体和认为我们在",
-      "title": "构建人工智能智能体和认为我们在",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrnopm/ive_been_building_ai_agents_and_i_think_weve_been/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-09T09:52:56.000Z",
-      "summary": "认为关于构建智能体面向面向在人工智能进入，每个模型发布和基准测试和上下文视窗系统，和模型智能体只是在。实际查看模型向模型，信息技术，呼吁工具链。信息技术模型和现实世界模型，信息技术在，工具信息技术使用，工具和实际向向认为关于信息技术信息技术向。最和信息技术信息技术向，最在门，在，面向和记忆更快时间。工具链借助。工具链，工具，上下文，记忆，和构建智能体来自。智能体信息技术成本词……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 92,
-      "image": ""
-    },
-    {
       "id": "oschina-千星达成-开源终端第1代-12-发布-多租户部署-本地服务-终端录制与批量执行齐上线",
       "title": "千星达成！开源终端第1代.12 发布：多租户部署、本地服务、终端录制与批量执行齐上线",
       "url": "https://www.oschina.net/news/503487",
@@ -1050,7 +1048,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1101,7 +1099,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1135,7 +1133,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1340,19 +1338,21 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp"
     },
     {
-      "id": "ithome-自动驾驶车辆遇到校车-超车成性-展开召回整改效果调查",
-      "title": "自动驾驶车辆遇到校车“超车成性”，展开召回整改效果调查",
-      "url": "https://www.ithome.com/1/024/549.htm",
+      "id": "ithome-179-123-元-小米智能摄像机-3-国补新低-500-万像素-6-种人工智能灵敏检测",
+      "title": "179 → 123 元：小米智能摄像机 3 国补新低，500 万像素、6 种人工智能灵敏检测",
+      "url": "https://www.ithome.com/1/024/554.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T13:55:56.000Z",
-      "summary": "科技之家 11 月 9 日消息，据路透社报道，美国国家公路交通安全管理局（）今天（9 日）宣布，对谷歌母公司旗下自动驾驶公司的 2895 辆汽车展开召回整改效果调查，原因是车辆在经过校车时屡次违反交通安全规定。此次调查主要针对去年年底推出的软件修复措施是否有效。此前，曾宣布完成全部车辆的软件更新，但大多数违规事件发生在此之后，车辆仍会超越亮起闪烁红灯的校车。将重点调查在 20……",
+      "publishedAt": "2026-11-09T14:10:04.000Z",
+      "summary": "【京东活动可能随时变更，需以实付款为准】 小米智能摄像机 3 开售于 2026 年 10 月，500 万像素，升级相关型号超清画质，支持红外夜视，首销价 179 元。京东 11.11 大促期间，按下方步骤下单，叠加 10% 国补后仅需 123.26 元：领 200-25 元券：点此查看。会员凑单 1 件（ 示例凑单品 ），下单后可立即退款。晒单返 10 元京豆。京东小米智能摄……",
       "topics": [
-        "监管安全"
+        "算力芯片",
+        "多模态",
+        "端侧智能"
       ],
-      "heat": 95,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1373,21 +1373,21 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能智能体和成本关于-5",
-      "title": "人工智能智能体和成本关于 $5",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrnmer/cast_away_except_the_castaway_is_an_ai_agent_and/",
+      "id": "reddit-artificial-构建人工智能智能体和认为我们在",
+      "title": "构建人工智能智能体和认为我们在",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrnopm/ive_been_building_ai_agents_and_i_think_weve_been/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T09:48:58.000Z",
-      "summary": "构建人工智能智能体在。信息技术，和在三维。深度求索借助推理能力。构建在，开源。: 信息技术认为。信息技术面向模型，关于 4% 时间。信息技术，和关于 93%，信息技术。信息技术技能，实际在。成本关于 $5。借助智能体面向？关于，术语记忆和来自。智能体来自 :，由",
+      "publishedAt": "2026-11-09T09:52:56.000Z",
+      "summary": "认为关于构建智能体面向面向在人工智能进入，每个模型发布和基准测试和上下文视窗系统，和模型智能体只是在。实际查看模型向模型，信息技术，呼吁工具链。信息技术模型和现实世界模型，信息技术在，工具信息技术使用，工具和实际向向认为关于信息技术信息技术向。最和信息技术信息技术向，最在门，在，面向和记忆更快时间。工具链借助。工具链，工具，上下文，记忆，和构建智能体来自。智能体信息技术成本词……",
       "topics": [
         "模型发布",
         "产品应用",
-        "监管安全"
+        "研究论文"
       ],
-      "heat": 99,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1420,7 +1420,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1471,7 +1471,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1676,20 +1676,19 @@
       "image": ""
     },
     {
-      "id": "ithome-苹果苹果移动系统-27-3-代码曝光-个人记忆系统-可记录用户各类信息",
-      "title": "苹果苹果移动系统 27.3 代码曝光 “个人记忆系统”，可记录用户各类信息",
-      "url": "https://www.ithome.com/1/024/547.htm",
+      "id": "ithome-自动驾驶车辆遇到校车-超车成性-展开召回整改效果调查",
+      "title": "自动驾驶车辆遇到校车“超车成性”，展开召回整改效果调查",
+      "url": "https://www.ithome.com/1/024/549.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T13:47:17.000Z",
-      "summary": "科技之家 11 月 9 日消息，根据代码研究人员分享的最新代码发现，苹果正在开发一套个人记忆系统，有望帮助记住用户生活中的各种信息。根据相关发现，在苹果苹果移动系统 27.3 测试版中，这套系统包含一个名为“记忆图谱”（ ）的组件，旨在整理用户的人际关系、常去地点、日常习惯、健康状况、锻炼情况，以及激励用户或阻碍用户实现目标的因素。科技之家注意到，系统还设计了名为“记忆原子”……",
+      "publishedAt": "2026-11-09T13:55:56.000Z",
+      "summary": "科技之家 11 月 9 日消息，据路透社报道，美国国家公路交通安全管理局（）今天（9 日）宣布，对谷歌母公司旗下自动驾驶公司的 2895 辆汽车展开召回整改效果调查，原因是车辆在经过校车时屡次违反交通安全规定。此次调查主要针对去年年底推出的软件修复措施是否有效。此前，曾宣布完成全部车辆的软件更新，但大多数违规事件发生在此之后，车辆仍会超越亮起闪烁红灯的校车。将重点调查在 20……",
       "topics": [
-        "产品应用",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 92,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1709,15 +1708,15 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-欧盟人工智能规则-50-2-2026-和没有",
-      "title": "欧盟人工智能规则。50 2 2026，和没有",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrn91p/the_eu_ai_acts_transparency_rules_art_50_have/",
+      "id": "reddit-artificial-人工智能智能体和成本关于-5",
+      "title": "人工智能智能体和成本关于 $5",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrnmer/cast_away_except_the_castaway_is_an_ai_agent_and/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T09:24:45.000Z",
-      "summary": "持续人工智能。部件信息技术。这里部件，和 50，在。: 监管欧盟 2026，1744，在人工智能，在 24 2026 和进入在 27 2026。信息技术，风险规则面向向 2 2027。没有 :。50 来自 2 2026。113。50 在 7，和新增在。111 4 面向在在。查看 :。50 1。借助人工智能来自顺利，和，进入和上下文使用。在上下文，用户。人工智能，生成。50 4……",
+      "publishedAt": "2026-11-09T09:48:58.000Z",
+      "summary": "构建人工智能智能体在。信息技术，和在三维。深度求索借助推理能力。构建在，开源。: 信息技术认为。信息技术面向模型，关于 4% 时间。信息技术，和关于 93%，信息技术。信息技术技能，实际在。成本关于 $5。借助智能体面向？关于，术语记忆和来自。智能体来自 :，由",
       "topics": [
         "模型发布",
         "产品应用",
@@ -1825,7 +1824,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1858,7 +1857,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 57,
+      "heat": 56,
       "image": ""
     },
     {
@@ -1874,7 +1873,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": ""
     },
     {
@@ -1997,19 +1996,20 @@
       "image": ""
     },
     {
-      "id": "ithome-青少年资料填-成年人-也没用-元宇宙平台公司将在全球推广人工智能年龄估算技术",
-      "title": "青少年资料填“成年人”也没用，元宇宙平台公司将在全球推广人工智能年龄估算技术",
-      "url": "https://www.ithome.com/1/024/546.htm",
+      "id": "ithome-苹果苹果移动系统-27-3-代码曝光-个人记忆系统-可记录用户各类信息",
+      "title": "苹果苹果移动系统 27.3 代码曝光 “个人记忆系统”，可记录用户各类信息",
+      "url": "https://www.ithome.com/1/024/547.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T13:43:55.000Z",
-      "summary": "科技之家 11 月 9 日消息，据路透社报道，元宇宙平台公司今天（9 日）宣布将在全球推广人工智能年龄估算技术，把上另外数百万名青少年用户纳入“青少年账户”保护范围，即使他们填写的出生日期显示自己是成年人也不例外。在出台此项措施之际，元宇宙平台公司因旗下平台涉嫌伤害未成年用户而面临多起诉讼。“青少年账户”功能覆盖、和，内置多项保护措施，可自动限制哪些人能够联系青少年用户、他们……",
+      "publishedAt": "2026-11-09T13:47:17.000Z",
+      "summary": "科技之家 11 月 9 日消息，根据代码研究人员分享的最新代码发现，苹果正在开发一套个人记忆系统，有望帮助记住用户生活中的各种信息。根据相关发现，在苹果苹果移动系统 27.3 测试版中，这套系统包含一个名为“记忆图谱”（ ）的组件，旨在整理用户的人际关系、常去地点、日常习惯、健康状况、锻炼情况，以及激励用户或阻碍用户实现目标的因素。科技之家注意到，系统还设计了名为“记忆原子”……",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2025,7 +2025,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "reddit-artificial-欧盟人工智能规则-50-2-2026-和没有",
+      "title": "欧盟人工智能规则。50 2 2026，和没有",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrn91p/the_eu_ai_acts_transparency_rules_art_50_have/",
+      "source": "人工智能社区热议",
+      "sourceId": "reddit-artificial",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-09T09:24:45.000Z",
+      "summary": "持续人工智能。部件信息技术。这里部件，和 50，在。: 监管欧盟 2026，1744，在人工智能，在 24 2026 和进入在 27 2026。信息技术，风险规则面向向 2 2027。没有 :。50 来自 2 2026。113。50 在 7，和新增在。111 4 面向在在。查看 :。50 1。借助人工智能来自顺利，和，进入和上下文使用。在上下文，用户。人工智能，生成。50 4……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -2044,22 +2062,6 @@
         "算力芯片"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "reddit-artificial-为什么转化人工智能数据",
-      "title": "为什么转化人工智能数据？",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrkurv/why_are_americans_turning_against_ai_data_centres/",
-      "source": "人工智能社区热议",
-      "sourceId": "reddit-artificial",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-09T06:52:41.000Z",
-      "summary": "在，在数据在 40 41 本地 10，人工智能向美国。这里问题: 关于数据在法案，和本地？人工智能公司解释和帮助？信息技术，数据，人工智能公司只是向帮助向？信息技术向认为。由",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 79,
       "image": ""
     },
     {
@@ -2111,7 +2113,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2127,7 +2129,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2179,7 +2181,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2303,21 +2305,19 @@
       "image": ""
     },
     {
-      "id": "ithome-研究显示开放人工智能公司智能聊天助手占全球人工智能聊天机器人流量超-81-断层领跑",
-      "title": "研究显示开放人工智能公司智能聊天助手占全球人工智能聊天机器人流量超 81%，断层领跑",
-      "url": "https://www.ithome.com/1/024/542.htm",
+      "id": "ithome-青少年资料填-成年人-也没用-元宇宙平台公司将在全球推广人工智能年龄估算技术",
+      "title": "青少年资料填“成年人”也没用，元宇宙平台公司将在全球推广人工智能年龄估算技术",
+      "url": "https://www.ithome.com/1/024/546.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T13:32:43.000Z",
-      "summary": "科技之家 11 月 9 日消息，今年早些时候，随着谷歌和人工智能安全公司等竞争对手势头渐起，智能聊天助手在人工智能市场的主导地位一度显现出松动迹象。不过，一项最新研究显示，开放人工智能公司旗下这款旗舰产品正在意外反弹。研究与增长营销公司的一项研究显示，目前智能聊天助手占全球主要人工智能聊天机器人工具总流量的比例已超过 81%，没有任何一家竞争对手的市场份额达到 10%。考虑到……",
+      "publishedAt": "2026-11-09T13:43:55.000Z",
+      "summary": "科技之家 11 月 9 日消息，据路透社报道，元宇宙平台公司今天（9 日）宣布将在全球推广人工智能年龄估算技术，把上另外数百万名青少年用户纳入“青少年账户”保护范围，即使他们填写的出生日期显示自己是成年人也不例外。在出台此项措施之际，元宇宙平台公司因旗下平台涉嫌伤害未成年用户而面临多起诉讼。“青少年账户”功能覆盖、和，内置多项保护措施，可自动限制哪些人能够联系青少年用户、他们……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "产品应用"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2334,25 +2334,23 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
-      "id": "reddit-artificial-在-在人工智能向",
-      "title": "在，在人工智能向？",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrkixw/stuck_in_tech_marketing_next_steps_in_ai_to_excel/",
+      "id": "reddit-artificial-为什么转化人工智能数据",
+      "title": "为什么转化人工智能数据？",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrkurv/why_are_americans_turning_against_ai_data_centres/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T06:32:42.000Z",
-      "summary": "在作为和作为面向 3，4 在相关型号。借助在人工智能，2 在，和人工智能。向技能和进入，软件创业公司和面向，谷歌，产品。向和，和最信息技术自动化，研究和部件，和新，和人工智能在，信息技术正确时间向技能。人工智能在。问题，人工智能技能了解。新面向？关于，信息技术最。只是向面向。由",
+      "publishedAt": "2026-11-09T06:52:41.000Z",
+      "summary": "在，在数据在 40 41 本地 10，人工智能向美国。这里问题: 关于数据在法案，和本地？人工智能公司解释和帮助？信息技术，数据，人工智能公司只是向帮助向？信息技术向认为。由",
       "topics": [
-        "产品应用",
-        "研究论文",
-        "投融资"
+        "端侧智能"
       ],
-      "heat": 97,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2577,18 +2575,19 @@
       "image": ""
     },
     {
-      "id": "ithome-魏牌二代蓝山开启预售-定位智慧豪华方盒子-28-98-万-32-98-万元",
-      "title": "魏牌二代蓝山开启预售：定位智慧豪华方盒子，28.98 万-32.98 万元",
-      "url": "https://www.ithome.com/1/024/537.htm",
+      "id": "ithome-研究显示开放人工智能公司智能聊天助手占全球人工智能聊天机器人流量超-81-断层领跑",
+      "title": "研究显示开放人工智能公司智能聊天助手占全球人工智能聊天机器人流量超 81%，断层领跑",
+      "url": "https://www.ithome.com/1/024/542.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T13:11:36.000Z",
-      "summary": "科技之家 11 月 9 日消息，魏牌二代蓝山今天（9 日）晚间正式开启预售，新车定位智慧豪华方盒子，提供 5 座、6 座合计 4 款配置，价格区间为 28.98 万-32.98 万元。五座：登峰版 28.98 万元，巅峰版 30.98 万元六座：登峰版 30.98 万元，巅峰版 32.98 万元据科技之家了解，二代蓝山基于长城归元平台打造。新车尺寸根据座位布局有所区分。五座版……",
+      "publishedAt": "2026-11-09T13:32:43.000Z",
+      "summary": "科技之家 11 月 9 日消息，今年早些时候，随着谷歌和人工智能安全公司等竞争对手势头渐起，智能聊天助手在人工智能市场的主导地位一度显现出松动迹象。不过，一项最新研究显示，开放人工智能公司旗下这款旗舰产品正在意外反弹。研究与增长营销公司的一项研究显示，目前智能聊天助手占全球主要人工智能聊天机器人工具总流量的比例已超过 81%，没有任何一家竞争对手的市场份额达到 10%。考虑到……",
       "topics": [
         "模型发布",
-        "算力芯片"
+        "产品应用",
+        "监管安全"
       ],
       "heat": 99,
       "image": ""
@@ -2611,20 +2610,22 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
-      "title": "人工智能社区热议发布人工智能相关动态。",
-      "url": "https://www.reddit.com/r/artificial/comments/1xrie2x/runtimewire_discovers_midjourney_patent_for_an/",
+      "id": "reddit-artificial-在-在人工智能向",
+      "title": "在，在人工智能向？",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrkixw/stuck_in_tech_marketing_next_steps_in_ai_to_excel/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T04:32:19.000Z",
-      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-11-09T06:32:42.000Z",
+      "summary": "在作为和作为面向 3，4 在相关型号。借助在人工智能，2 在，和人工智能。向技能和进入，软件创业公司和面向，谷歌，产品。向和，和最信息技术自动化，研究和部件，和新，和人工智能在，信息技术正确时间向技能。人工智能在。问题，人工智能技能了解。新面向？关于，信息技术最。只是向面向。由",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "研究论文",
+        "投融资"
       ],
-      "heat": 77,
-      "image": "https://external-preview.redd.it/dBnmweJHM9R0gvwDP1-Nxl1HQZaS3zSSm4lSkTpN32Q.jpeg?width=640&crop=smart&auto=webp&s=1ff0b2a88ca3b1ed013d6722dd0f5177bb4f5475"
+      "heat": 97,
+      "image": ""
     },
     {
       "id": "cnblogs-news-持仓近-85-万枚-暗示下周披露增持",
@@ -2675,7 +2676,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2781,36 +2782,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-人工智能新增-400-十亿向-来自谷歌",
-      "title": "人工智能新增 £400 十亿向。来自谷歌",
-      "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-04T13:49:51.000Z",
-      "summary": "人工智能。研究采用。",
-      "topics": [
-        "研究论文"
-      ],
-      "heat": 57,
-      "image": "https://media.wired.com/photos/6ae4f0b834d00005a9a1a2fc/master/pass/2026-10-12T133338Z_906189115_RC2EIMAWOQ1L_RTRMADP_3_AI-BRITAIN-SAFETY.jpg"
-    },
-    {
-      "id": "ithome-特斯拉无人驾驶出租车服务落地至圣安东尼奥-成迄今规模最大运营城市",
-      "title": "特斯拉无人驾驶出租车服务落地至圣安东尼奥，成迄今规模最大运营城市",
-      "url": "https://www.ithome.com/1/024/534.htm",
+      "id": "ithome-魏牌二代蓝山开启预售-定位智慧豪华方盒子-28-98-万-32-98-万元",
+      "title": "魏牌二代蓝山开启预售：定位智慧豪华方盒子，28.98 万-32.98 万元",
+      "url": "https://www.ithome.com/1/024/537.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T13:04:02.000Z",
-      "summary": "科技之家 11 月 9 日消息，特斯拉无人驾驶出租车服务现已扩展至美国得克萨斯州圣安东尼奥市。特斯拉官方账号于当地时间周一午夜刚过在平台宣布了这一消息，无人监督的自动驾驶出行服务于当天上午 5 点（美国中部时间）正式上线。科技之家注意到，这是特斯拉连续两周开通新的运营城市。此前，该公司已于 11 月 2 日在得克萨斯州沃思堡（ ）推出无人监督的服务。迄今规模最大的服务区域圣安……",
+      "publishedAt": "2026-11-09T13:11:36.000Z",
+      "summary": "科技之家 11 月 9 日消息，魏牌二代蓝山今天（9 日）晚间正式开启预售，新车定位智慧豪华方盒子，提供 5 座、6 座合计 4 款配置，价格区间为 28.98 万-32.98 万元。五座：登峰版 28.98 万元，巅峰版 30.98 万元六座：登峰版 30.98 万元，巅峰版 32.98 万元据科技之家了解，二代蓝山基于长城归元平台打造。新车尺寸根据座位布局有所区分。五座版……",
       "topics": [
         "模型发布",
-        "机器人"
+        "算力芯片"
       ],
-      "heat": 91,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2832,20 +2817,20 @@
       "image": ""
     },
     {
-      "id": "reddit-artificial-设置向构建在代码托管平台",
-      "title": "设置向构建在代码托管平台。",
-      "url": "https://www.reddit.com/r/artificial/comments/1xri2dj/i_put_my_secret_to_building_on_github_tonight/",
+      "id": "reddit-artificial-人工智能社区热议发布人工智能相关动态",
+      "title": "人工智能社区热议发布人工智能相关动态。",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrie2x/runtimewire_discovers_midjourney_patent_for_an/",
       "source": "人工智能社区热议",
       "sourceId": "reddit-artificial",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-09T04:14:33.000Z",
-      "summary": "在面向，和向分享信息技术。信息技术信息技术。人工智能，信息技术，和构建。没有向信息技术，信息技术首个任务。只是没有，信息技术和向借助信息技术云服务向，和信息技术没有信息技术工程师，向。由",
+      "publishedAt": "2026-11-09T04:32:19.000Z",
+      "summary": "来自人工智能社区热议的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "开源生态"
+        "人工智能动态"
       ],
       "heat": 77,
-      "image": ""
+      "image": "https://external-preview.redd.it/dBnmweJHM9R0gvwDP1-Nxl1HQZaS3zSSm4lSkTpN32Q.jpeg?width=640&crop=smart&auto=webp&s=1ff0b2a88ca3b1ed013d6722dd0f5177bb4f5475"
     },
     {
       "id": "cnblogs-news-腾讯游戏陪伴应用-鹅次元-开放首测",
@@ -2862,6 +2847,22 @@
         "多模态"
       ],
       "heat": 81,
+      "image": ""
+    },
+    {
+      "id": "thirty-six-kr-香港与内地企业-拼船出海-全球人才看见更多可能",
+      "title": "香港与内地企业“拼船出海”，全球人才看见更多可能",
+      "url": "https://36kr.com/p/4054854397187205?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-09T02:25:54.000Z",
+      "summary": "国家“十五五”规划明确提出“统筹教育强国、科技强国、人才强国建设”，围绕全方位培养、引进、用好人才作出系统安排。配合国家“十五五”规划，《香港第一个五年规划》也提出打造香港为国际高端人才集聚高地，并制定了“针对性引进有助国家和香港发展所需的人才”策略。在此背景下，“香港·全球人才机遇展——伦敦站”，这个由香港人才服务办公室（香港人才办）主办、粤港澳大湾区发展办公室和香港驻伦敦……",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 78,
       "image": ""
     }
   ]
