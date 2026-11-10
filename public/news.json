@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-10T15:25:24.606Z",
+  "generatedAt": "2026-11-10T15:55:19.331Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-10T15:30:00.000Z",
+  "nextUpdateHint": "2026-11-10T16:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-10T15:17:21.000Z"
+    "latestPublishedAt": "2026-11-10T15:54:08.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 65,
-      "heat": 83
+      "heat": 82
     },
     {
       "name": "模型发布",
@@ -23,17 +23,12 @@
     },
     {
       "name": "监管安全",
-      "count": 38,
+      "count": 37,
       "heat": 91
     },
     {
       "name": "算力芯片",
       "count": 23,
-      "heat": 88
-    },
-    {
-      "name": "投融资",
-      "count": 18,
       "heat": 87
     },
     {
@@ -43,8 +38,13 @@
     },
     {
       "name": "开源生态",
-      "count": 20,
-      "heat": 72
+      "count": 21,
+      "heat": 73
+    },
+    {
+      "name": "投融资",
+      "count": 17,
+      "heat": 87
     },
     {
       "name": "人工智能动态",
@@ -53,18 +53,18 @@
     },
     {
       "name": "机器人",
-      "count": 12,
-      "heat": 83
+      "count": 11,
+      "heat": 82
     },
     {
       "name": "端侧智能",
-      "count": 11,
-      "heat": 86
+      "count": 10,
+      "heat": 85
     },
     {
       "name": "多模态",
-      "count": 9,
-      "heat": 80
+      "count": 10,
+      "heat": 81
     }
   ],
   "sources": [
@@ -175,10 +175,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 5,
-      "displayedCount": 0,
-      "latestFetchedAt": "2026-11-02T20:52:22.000Z",
-      "latestDisplayedAt": ""
+      "itemCount": 7,
+      "displayedCount": 1,
+      "latestFetchedAt": "2026-11-05T17:00:00.000Z",
+      "latestDisplayedAt": "2026-11-05T17:00:00.000Z"
     },
     {
       "id": "huggingface-blog",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-11-10T14:05:10.000Z",
-      "latestDisplayedAt": "2026-11-10T14:05:10.000Z"
+      "latestFetchedAt": "2026-11-10T15:54:08.000Z",
+      "latestDisplayedAt": "2026-11-10T15:54:08.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -432,7 +432,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 17,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-11-10T12:51:30.000Z",
       "latestDisplayedAt": "2026-11-10T12:51:30.000Z"
     },
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 23,
+      "itemCount": 24,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-10T15:17:21.000Z",
-      "latestDisplayedAt": "2026-11-10T15:17:21.000Z"
+      "latestFetchedAt": "2026-11-10T15:34:55.000Z",
+      "latestDisplayedAt": "2026-11-10T15:34:55.000Z"
     },
     {
       "id": "oschina",
@@ -490,21 +490,36 @@
   ],
   "items": [
     {
-      "id": "ithome-高盛预计人工智能安全公司-2030-年营收突破-6000-亿美元-并跻身全球营收最高企业之列",
-      "title": "高盛预计人工智能安全公司 2030 年营收突破 6000 亿美元，并跻身全球营收最高企业之列",
-      "url": "https://www.ithome.com/1/025/190.htm",
+      "id": "techcrunch-ai-谷歌人工智能借助新芯片",
+      "title": "谷歌人工智能借助新芯片",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T15:54:08.000Z",
+      "summary": "谷歌新张量处理器芯片向使用 : 模型训练和记忆。",
+      "topics": [
+        "模型发布",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "ithome-奥迪上汽战略合作首席执行官舒睿泽-未来三年将推出三款新车",
+      "title": "奥迪上汽战略合作首席执行官舒睿泽：未来三年将推出三款新车",
+      "url": "https://www.ithome.com/1/025/192.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T15:17:21.000Z",
-      "summary": "科技之家 11 月 10 日消息，据英国《金融时报》今天（10 日）晚间报道，作为人工智能安全公司上市牵头投行的高盛，对人工智能安全公司的未来给出了乐观预测：营收到 2030 年将突破 6，000 亿美元 （科技之家注：现汇率约合 4.01 万亿元人民币），是 2025 年的 130 多倍。高盛向一名潜在投资者披露的预测显示，人工智能安全公司今年的营收预计约为 520 亿美元……",
+      "publishedAt": "2026-11-10T15:34:55.000Z",
+      "summary": "科技之家 11 月 10 日消息，据第一财经今天（10 日）晚间报道，奥迪 · 上汽战略合作首席执行官舒睿泽（ ）透露，未来三年将推出三款新车，规划已进入执行阶段。此外，奥迪在相关型号级自动驾驶领域也有明确的发展目标。对于是否出口到欧洲市场，舒睿泽称，品牌车型专为中国消费者打造，全力聚焦中国市场是未来几年的核心任务。据科技之家此前报道，今年 10 月，奥迪中国宣布分别与合作伙……",
       "topics": [
-        "算力芯片",
-        "监管安全",
-        "投融资"
+        "人工智能动态"
       ],
-      "heat": 99,
+      "heat": 87,
       "image": ""
     },
     {
@@ -575,22 +590,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-带来人工智能智能体和新工具向-和",
-      "title": "带来人工智能智能体和新工具向，和",
-      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T14:05:10.000Z",
-      "summary": "在借助新原型建设者工具在。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 90,
       "image": ""
     },
     {
@@ -673,7 +672,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://media.wired.com/photos/6aea57e57882d392b9ef6dd3/master/pass/Ai-threat-level-main.jpg"
     },
     {
@@ -739,7 +738,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -898,6 +897,55 @@
       "image": ""
     },
     {
+      "id": "microsoft-ai-blog-智能体作为和作为连续",
+      "title": "智能体作为和作为连续",
+      "url": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
+      "source": "微软云与人工智能博客",
+      "sourceId": "microsoft-ai-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "summary": "人工智能，和作为连续企业，序列。智能体作为和作为连续首个在微软。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 52,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-元宇宙平台公司人工智能智能体在苹果和安卓",
+      "title": "元宇宙平台公司人工智能智能体在苹果和安卓",
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T15:29:30.000Z",
+      "summary": "用户借助元宇宙平台公司人工智能助手呼吁，在苹果。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "ithome-开源相关型号生图模型-10-秒就能生成一张相关型号图像",
+      "title": "开源相关型号生图模型，10 秒就能生成一张相关型号图像",
+      "url": "https://www.ithome.com/1/025/191.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T15:25:52.000Z",
+      "summary": "科技之家 11 月 10 日消息，今天（10 日）深夜，宣布，相关型号正式发布并开放权重。这是一款衍生自相关型号的图像生成模型，其具备文本生成图像、图像参考和图像编辑能力。科技之家从官方介绍获悉，其能够在 10 秒内生成一张 4096 4096 像素、约 16 百万像素（相关型号） 的高分辨率图像，同时呈现丰富、真实的细节，并具备优秀的指令遵循和多参考图理解能力。称，在相关型……",
+      "topics": [
+        "多模态",
+        "开源生态"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-克劳德模型-5-2-协调-1-000-人工智能智能体向构建在",
       "title": "克劳德模型 5.2 协调 1，000 人工智能智能体向构建在",
       "url": "https://www.reddit.com/r/artificial/comments/1xsoidy/claude_fable_52_coordinated_more_than_1000_ai/",
@@ -914,41 +962,6 @@
       ],
       "heat": 99,
       "image": "https://external-preview.redd.it/itdDgMjCukXMsZIq1xV1kCuHdqQ3hta_kqfEv2RYzow.jpeg?width=640&crop=smart&auto=webp&s=9d255d426d110befad7b1ba801688618064112aa"
-    },
-    {
-      "id": "ithome-云服务向第三方智能体大开城门-未来让人工智能帮你本地修图剪片",
-      "title": "云服务向第三方智能体大开城门，未来让人工智能帮你本地修图剪片",
-      "url": "https://www.ithome.com/1/025/177.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T14:27:55.000Z",
-      "summary": "科技之家 11 月 10 日消息，在今天（10 日）于迈阿密举行的旗舰版大会上，公布了一系列新功能：第三方人工智能智能体能直接访问和修改云服务项目、升级人工智能助手，支持智能体在后台持续处理定期任务。在大会上展示了云服务的本地模型上下文协议（）接入功能。用户不必局限于自己的人工智能助手，还可以调用日常使用的第三方智能体。通过，开放人工智能公司、谷歌和人工智能安全公司等公司的人……",
-      "topics": [
-        "产品应用",
-        "监管安全",
-        "端侧智能"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司首次公开募股-70-向-78-分享向-1-404",
-      "title": "人工智能安全公司首次公开募股 $70 向 $78 分享向 $1.404",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T14:01:39.000Z",
-      "summary": "公司值得 $1.404 分享在，在。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 99,
-      "image": ""
     },
     {
       "id": "the-verge-ai-在在人工智能",
@@ -1064,7 +1077,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1097,7 +1110,7 @@
         "开源生态",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1287,6 +1300,24 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgileDeliberation1_Thumbnail.png"
     },
     {
+      "id": "ithome-高盛预计人工智能安全公司-2030-年营收突破-6000-亿美元-并跻身全球营收最高企业之列",
+      "title": "高盛预计人工智能安全公司 2030 年营收突破 6000 亿美元，并跻身全球营收最高企业之列",
+      "url": "https://www.ithome.com/1/025/190.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T15:17:21.000Z",
+      "summary": "科技之家 11 月 10 日消息，据英国《金融时报》今天（10 日）晚间报道，作为人工智能安全公司上市牵头投行的高盛，对人工智能安全公司的未来给出了乐观预测：营收到 2030 年将突破 6，000 亿美元 （科技之家注：现汇率约合 4.01 万亿元人民币），是 2025 年的 130 多倍。高盛向一名潜在投资者披露的预测显示，人工智能安全公司今年的营收预计约为 520 亿美元……",
+      "topics": [
+        "算力芯片",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-信息技术面向人工智能向人工智能工具编程",
       "title": "信息技术面向人工智能向人工智能工具编程？",
       "url": "https://www.reddit.com/r/artificial/comments/1xsnu3f/is_it_unreasonable_for_ai_professors_to_ban_ai/",
@@ -1299,42 +1330,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "ithome-西门子首席执行官博乐仁-人工智能不会取代人类-会用人工智能的人却能取代不会用人工智能的人",
-      "title": "西门子首席执行官博乐仁：人工智能不会取代人类，会用人工智能的人却能取代不会用人工智能的人",
-      "url": "https://www.ithome.com/1/025/170.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T14:09:16.000Z",
-      "summary": "科技之家 11 月 10 日消息，据日经亚洲今天（10 日）下午报道，西门子首席执行官博乐仁认为，人工智能不会直接取代人类，但会使用人工智能的人将越来越多地取代不会使用人工智能的人。随着企业开始思考人工智能将如何改变就业市场和岗位技能要求，掌握人工智能技术的重要性日益凸显。博乐仁认为，随着自动化和机器人技术的发展，大量体力劳动将被取代，但拥有创造力、具备电气工程或机械工程等专……",
-      "topics": [
-        "产品应用",
-        "投融资",
-        "机器人"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-谷歌安卓借助-目标是在视窗系统面向人工智能",
-      "title": "谷歌安卓借助，目标是在视窗系统面向人工智能",
-      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "id": "techcrunch-ai-带来人工智能智能体和新工具向-和",
+      "title": "带来人工智能智能体和新工具向，和",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "summary": "向推出作为，向，使用向视窗系统，用户在人工智能模型和智能体。",
+      "publishedAt": "2026-11-10T14:05:10.000Z",
+      "summary": "在借助新原型建设者工具在。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 99,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1350,7 +1362,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1418,7 +1430,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1483,7 +1495,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1537,7 +1549,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1571,7 +1583,7 @@
         "算力芯片",
         "机器人"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/omniverse-overall-ai-day-seoul-1920x1080-1.jpeg"
     },
     {
@@ -1658,6 +1670,24 @@
       "image": ""
     },
     {
+      "id": "ithome-云服务向第三方智能体大开城门-未来让人工智能帮你本地修图剪片",
+      "title": "云服务向第三方智能体大开城门，未来让人工智能帮你本地修图剪片",
+      "url": "https://www.ithome.com/1/025/177.htm",
+      "source": "科技之家",
+      "sourceId": "ithome",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T14:27:55.000Z",
+      "summary": "科技之家 11 月 10 日消息，在今天（10 日）于迈阿密举行的旗舰版大会上，公布了一系列新功能：第三方人工智能智能体能直接访问和修改云服务项目、升级人工智能助手，支持智能体在后台持续处理定期任务。在大会上展示了云服务的本地模型上下文协议（）接入功能。用户不必局限于自己的人工智能助手，还可以调用日常使用的第三方智能体。通过，开放人工智能公司、谷歌和人工智能安全公司等公司的人……",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-我们人工智能-96-9",
       "title": "我们人工智能 96.9%。",
       "url": "https://www.reddit.com/r/artificial/comments/1xsnqgr/we_accidently_made_an_ai_that_predicted_969_of/",
@@ -1670,39 +1700,24 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能新-和面向",
-      "title": "人工智能新，和面向",
-      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "id": "techcrunch-ai-人工智能安全公司首次公开募股-70-向-78-分享向-1-404",
+      "title": "人工智能安全公司首次公开募股 $70 向 $78 分享向 $1.404",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "summary": "用户人工智能借助新借助，转化。",
+      "publishedAt": "2026-11-10T14:01:39.000Z",
+      "summary": "公司值得 $1.404 分享在，在。",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "ithome-大疆小型版-2-迷你无线麦克风-599-220-元国补新低-三种音色预设-两级降噪-续航-48-小时",
-      "title": "大疆小型版 2 迷你无线麦克风 599 → 220 元国补新低：三种音色预设、两级降噪、续航 48 小时",
-      "url": "https://www.ithome.com/1/025/165.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T13:52:30.000Z",
-      "summary": "【京东活动可能随时变更，需以实付款为准】 小型版 2 开售于 2026 年 4 月，这款轻量化无线麦克风主打多彩磁吸前盖设计和轻量化专业收音功能，起售价为 599 元。京东 11.11 大促期间，叠加 10% 国补后仅需 220.5 元：京东大疆小型版 2 迷你无线麦克风通用串行总线- 接口国补后 220.5 元直达链接京东 11.11 无门槛红包至高 26888 元，支持即……",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 86,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1788,7 +1803,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1840,7 +1855,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1857,7 +1872,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1891,7 +1906,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-sovereign-ai-nvlink-fusion.jpg"
     },
     {
@@ -1962,21 +1977,38 @@
       "image": "https://media.wired.com/photos/6aebade028f7263543de445a/master/pass/Business_Drug%20Discovery%20Is%20a%20Needle%20in%20a%20Haystack%20Problem.%20This%20AI%20Startup%20Thinks%20It%20Has%20The%20Answer_v1.jpg"
     },
     {
-      "id": "ithome-2399-2055-元-相关型号国补直降-第五代骁龙-8-与-2-亿主摄加持",
-      "title": "2399 → 2055 元：相关型号国补直降，第五代骁龙 8 与 2 亿主摄加持",
-      "url": "https://www.ithome.com/1/025/162.htm",
+      "id": "ithome-西门子首席执行官博乐仁-人工智能不会取代人类-会用人工智能的人却能取代不会用人工智能的人",
+      "title": "西门子首席执行官博乐仁：人工智能不会取代人类，会用人工智能的人却能取代不会用人工智能的人",
+      "url": "https://www.ithome.com/1/025/170.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T13:43:30.000Z",
-      "summary": "【京东活动可能随时变更，需以实付款为准】 相关型号发布于 2026 年 1 月，12 吉字节+256 吉字节首发价 2399 元。京东 11.11 大促期间，按下方步骤下单，叠加立减 + 15% 国补后仅需 2054.93 元：领 9.5 折券：商品详情页价格处下拉可领。领 2500-450 元券：点击下方卡片 → 点击右上方直播浮窗 → 找到商品可领券。京东相关型号手机 1……",
+      "publishedAt": "2026-11-10T14:09:16.000Z",
+      "summary": "科技之家 11 月 10 日消息，据日经亚洲今天（10 日）下午报道，西门子首席执行官博乐仁认为，人工智能不会直接取代人类，但会使用人工智能的人将越来越多地取代不会使用人工智能的人。随着企业开始思考人工智能将如何改变就业市场和岗位技能要求，掌握人工智能技术的重要性日益凸显。博乐仁认为，随着自动化和机器人技术的发展，大量体力劳动将被取代，但拥有创造力、具备电气工程或机械工程等专……",
       "topics": [
-        "算力芯片",
-        "端侧智能",
+        "产品应用",
+        "投融资",
         "机器人"
       ],
       "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-谷歌安卓借助-目标是在视窗系统面向人工智能",
+      "title": "谷歌安卓借助，目标是在视窗系统面向人工智能",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "summary": "向推出作为，向，使用向视窗系统，用户在人工智能模型和智能体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -1993,25 +2025,8 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://preview.redd.it/vt0ceue9as0i1.png?width=640&crop=smart&auto=webp&s=81cd82f535c3a1b4732ae780a86cfef968f61967"
-    },
-    {
-      "id": "techcrunch-ai-向打开-来源人工智能打开",
-      "title": "向打开，来源人工智能打开",
-      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T13:00:00.000Z",
-      "summary": "在打开人工智能平台安全，打开，来源向开发者。",
-      "topics": [
-        "监管安全",
-        "开源生态"
-      ],
-      "heat": 94,
-      "image": ""
     },
     {
       "id": "thirty-six-kr-人工智能安全公司第三季度算力及基础设施支出达99亿美元-占营收58",
@@ -2061,7 +2076,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2113,7 +2128,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2131,7 +2146,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2149,7 +2164,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2183,7 +2198,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2201,7 +2216,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/dynamo-korea-ai-day.jpg"
     },
     {
@@ -2272,21 +2287,35 @@
       "image": ""
     },
     {
-      "id": "ithome-谷歌深度思维用人工智能完成协议形式化验证-数学证明其端到端加密可靠性",
-      "title": "谷歌深度思维用人工智能完成协议形式化验证，数学证明其端到端加密可靠性",
-      "url": "https://www.ithome.com/1/025/161.htm",
+      "id": "techcrunch-ai-人工智能新-和面向",
+      "title": "人工智能新，和面向",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "summary": "用户人工智能借助新借助，转化。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "ithome-大疆小型版-2-迷你无线麦克风-599-220-元国补新低-三种音色预设-两级降噪-续航-48-小时",
+      "title": "大疆小型版 2 迷你无线麦克风 599 → 220 元国补新低：三种音色预设、两级降噪、续航 48 小时",
+      "url": "https://www.ithome.com/1/025/165.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T13:35:41.000Z",
-      "summary": "科技之家 11 月 10 日消息，长期以来，加密协议一直被视为端到端加密消息传递的黄金标准。如今，谷歌深度思维团队利用人工智能，对这一协议的安全性进行了正式验证（ ）。据科技之家了解，除了应用本身，这套加密协议也被和谷歌信息（谷歌 ）采用，这项研究成果被描述为“一项具有里程碑意义的进展”。所谓“形式化验证”，是指通过数学方法，严格证明或证伪某种加密算法或协议是否满足其安全性承……",
+      "publishedAt": "2026-11-10T13:52:30.000Z",
+      "summary": "【京东活动可能随时变更，需以实付款为准】 小型版 2 开售于 2026 年 4 月，这款轻量化无线麦克风主打多彩磁吸前盖设计和轻量化专业收音功能，起售价为 599 元。京东 11.11 大促期间，叠加 10% 国补后仅需 220.5 元：京东大疆小型版 2 迷你无线麦克风通用串行总线- 接口国补后 220.5 元直达链接京东 11.11 无门槛红包至高 26888 元，支持即……",
       "topics": [
-        "产品应用",
-        "监管安全",
-        "研究论文"
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2336,7 +2365,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2372,24 +2401,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-人工智能安全公司据报道向借助首次公开募股",
-      "title": "人工智能安全公司据报道向借助首次公开募股",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T01:27:12.000Z",
-      "summary": "人工智能公司向。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 92,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2425,7 +2437,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2461,7 +2473,7 @@
         "研究论文",
         "端侧智能"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2478,7 +2490,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2495,7 +2507,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2582,19 +2594,38 @@
       "image": ""
     },
     {
-      "id": "ithome-7999-4184-元-微星-流光相关型号-显示器国补直降-32-第四代面板-相关型号-240-赫兹",
-      "title": "7999 → 4184 元：微星“流光相关型号 ”显示器国补直降，32\" 第四代面板、相关型号@240 赫兹",
-      "url": "https://www.ithome.com/1/025/160.htm",
+      "id": "ithome-2399-2055-元-相关型号国补直降-第五代骁龙-8-与-2-亿主摄加持",
+      "title": "2399 → 2055 元：相关型号国补直降，第五代骁龙 8 与 2 亿主摄加持",
+      "url": "https://www.ithome.com/1/025/162.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T13:33:16.000Z",
-      "summary": "【京东活动可能随时变更，需以实付款为准】 微星“流光相关型号 ”显示器（型号：相关型号相关型号）开售于 2026 年 4 月。其搭载一块 32\" 第四代面板，支持 (3840×2160) 分辨率和 240 赫兹刷新率，表面覆盖暗影护甲保护膜，黑色深度和抗刮擦性能均得到提升。京东 11.11 大促期间，按下方步骤下单，叠加立减 + 10% 国补后仅需 4184.23 元：领 6……",
+      "publishedAt": "2026-11-10T13:43:30.000Z",
+      "summary": "【京东活动可能随时变更，需以实付款为准】 相关型号发布于 2026 年 1 月，12 吉字节+256 吉字节首发价 2399 元。京东 11.11 大促期间，按下方步骤下单，叠加立减 + 15% 国补后仅需 2054.93 元：领 9.5 折券：商品详情页价格处下拉可领。领 2500-450 元券：点击下方卡片 → 点击右上方直播浮窗 → 找到商品可领券。京东相关型号手机 1……",
       "topics": [
-        "端侧智能"
+        "算力芯片",
+        "端侧智能",
+        "机器人"
       ],
-      "heat": 86,
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-向打开-来源人工智能打开",
+      "title": "向打开，来源人工智能打开",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "summary": "在打开人工智能平台安全，打开，来源向开发者。",
+      "topics": [
+        "监管安全",
+        "开源生态"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -2610,7 +2641,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2643,7 +2674,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2661,7 +2692,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2682,22 +2713,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-09T23:28:37.000Z",
-      "summary": "2025 新企业借助，连线杂志。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 77,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-全球向使用人工智能面向",
       "title": "全球向使用人工智能面向",
       "url": "https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
@@ -2710,7 +2725,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2728,7 +2743,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2746,7 +2761,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2779,7 +2794,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2832,38 +2847,21 @@
       "image": "https://media.wired.com/photos/6aeb930828f7263543de4332/master/pass/WWF-Clement-Delangue-2.jpg"
     },
     {
-      "id": "ithome-我国算力总规模达-310-万-位居世界第二",
-      "title": "我国算力总规模达 310 万，位居世界第二",
-      "url": "https://www.ithome.com/1/025/154.htm",
+      "id": "ithome-谷歌深度思维用人工智能完成协议形式化验证-数学证明其端到端加密可靠性",
+      "title": "谷歌深度思维用人工智能完成协议形式化验证，数学证明其端到端加密可靠性",
+      "url": "https://www.ithome.com/1/025/161.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-10T13:21:22.000Z",
-      "summary": "科技之家 11 月 10 日消息，据央视新闻报道，今天，全国数据标准化技术委员会 2026 年第二次“标准周”活动在福建厦门举行。据相关负责人介绍，全国数据标准化技术委员会此次正式成立具身智能数据标准起草工作组及气象、卫生健康、电力、商务等 4 个行业应用标准起草工作组，加快推进“十五五”期间数据领域相关标准制定，赋能行业产业数字化发展。科技之家从报道中获悉，最新数据显示，我……",
+      "publishedAt": "2026-11-10T13:35:41.000Z",
+      "summary": "科技之家 11 月 10 日消息，长期以来，加密协议一直被视为端到端加密消息传递的黄金标准。如今，谷歌深度思维团队利用人工智能，对这一协议的安全性进行了正式验证（ ）。据科技之家了解，除了应用本身，这套加密协议也被和谷歌信息（谷歌 ）采用，这项研究成果被描述为“一项具有里程碑意义的进展”。所谓“形式化验证”，是指通过数学方法，严格证明或证伪某种加密算法或协议是否满足其安全性承……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全",
+        "研究论文"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-产业对接五大赛道集结-点名-速来-相关型号-产业对接-火热报名中",
-      "title": "产业对接五大赛道集结，点名！速来——相关型号「产业对接」火热报名中",
-      "url": "https://36kr.com/p/4063821771068546?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T11:06:38.000Z",
-      "summary": "不卖关子，报名通道真的已经“爆”了相关型号“世界咖啡·产业对接”开放报名的这两个星期来，后台的报名就没停过。这两天，我们梳理了前两轮报名的企业，他们的需求和能够提供的技术能力集中在以下五大赛道：工业制造与研发；商业经营与企业运营；医疗健康；具身智能与机器人产业；海外应用与产业合作。列完五大赛道，我们继续把报名公司的问题痛点和技术方案捋了一遍，发现每条赛道底下，都有人在聊真事。……",
-      "topics": [
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 89,
       "image": ""
     }
   ]
