@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-14T14:56:27.354Z",
+  "generatedAt": "2026-11-14T15:26:33.045Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-14T15:00:00.000Z",
+  "nextUpdateHint": "2026-11-14T15:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-14T13:46:56.000Z"
+    "latestPublishedAt": "2026-11-14T15:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 71,
-      "heat": 77
+      "heat": 78
     },
     {
       "name": "模型发布",
-      "count": 52,
-      "heat": 79
+      "count": 50,
+      "heat": 80
     },
     {
       "name": "算力芯片",
-      "count": 44,
+      "count": 45,
       "heat": 79
     },
     {
       "name": "研究论文",
-      "count": 29,
-      "heat": 76
+      "count": 28,
+      "heat": 75
     },
     {
       "name": "监管安全",
-      "count": 23,
-      "heat": 79
+      "count": 24,
+      "heat": 80
     },
     {
       "name": "投融资",
@@ -52,19 +52,19 @@
       "heat": 79
     },
     {
+      "name": "端侧智能",
+      "count": 8,
+      "heat": 80
+    },
+    {
       "name": "人工智能动态",
       "count": 9,
       "heat": 68
     },
     {
-      "name": "端侧智能",
-      "count": 7,
-      "heat": 77
-    },
-    {
       "name": "机器人",
-      "count": 6,
-      "heat": 76
+      "count": 5,
+      "heat": 74
     }
   ],
   "sources": [
@@ -240,9 +240,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 9,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-11-14T12:00:00.000Z",
-      "latestDisplayedAt": "2026-11-14T12:00:00.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-11-14T15:00:00.000Z",
+      "latestDisplayedAt": "2026-11-14T15:00:00.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -304,9 +304,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-11-14T13:00:00.000Z",
-      "latestDisplayedAt": "2026-11-14T13:00:00.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-11-14T15:00:00.000Z",
+      "latestDisplayedAt": "2026-11-14T15:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -447,10 +447,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 24,
+      "itemCount": 23,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-11-14T13:46:56.000Z",
-      "latestDisplayedAt": "2026-11-14T13:46:56.000Z"
+      "latestFetchedAt": "2026-11-14T14:49:44.000Z",
+      "latestDisplayedAt": "2026-11-14T14:49:44.000Z"
     },
     {
       "id": "oschina",
@@ -490,19 +490,51 @@
   ],
   "items": [
     {
-      "id": "ithome-智能体帮你联络商家或保险公司-元宇宙平台公司旗下上线代打电话功能",
-      "title": "智能体帮你联络商家或保险公司，元宇宙平台公司旗下上线代打电话功能",
-      "url": "https://www.ithome.com/1/027/238.htm",
+      "id": "the-verge-ai-开放人工智能公司我们人工智能",
+      "title": "开放人工智能公司我们人工智能",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "summary": "讨论借助，面向安全和在。部件序列在人工智能在生活。顺利，在人工智能安全和政策社区，面向在 …",
+      "topics": [
+        "监管安全"
+      ],
+      "heat": 98,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "summary": "由，指南向，和，构建。向构建在借助首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "ithome-黑苹果-有望卷土重来-新项目探索将搬上骁龙和相关型号架构电脑",
+      "title": "“黑苹果”有望卷土重来，新项目探索将搬上骁龙和相关型号架构电脑",
+      "url": "https://www.ithome.com/1/027/244.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T13:46:56.000Z",
-      "summary": "科技之家 11 月 14 日消息，元宇宙平台公司旗下人工智能智能体推出代打电话功能，开通高级付费订阅后，用户就能让代自己联系美国商家。元宇宙平台公司称，可以帮助用户处理各种烦琐事务，完成待办事项。13 日凌晨，元宇宙平台公司首席人工智能官汪滔在上发文宣布：“ 能帮你打完所有不想亲自打的电话。” 据悉，用户可以借助联系保险公司或有线电视服务商、预约美国车管部门的业务办理时间，或……",
+      "publishedAt": "2026-11-14T14:49:44.000Z",
+      "summary": "科技之家 11 月 14 日消息，过去几十年里，不想花钱买苹果电脑、却又希望使用的用户，可以通过组装“黑苹果”电脑实现。不过，自从苹果改用自研芯片后，黑苹果的安装难度大幅提高。据外媒今天（14 日）晚间报道，近期出现的至少两个新项目，则试图让登陆骁龙和相关型号平台。其中一个项目开发了转相关型号指令翻译层，计划让大多数较新的英特尔和处理器能够运行，早期版本现已开放试用。另一个项……",
       "topics": [
-        "模型发布",
         "产品应用",
-        "多模态"
+        "算力芯片",
+        "端侧智能"
       ],
       "heat": 99,
       "image": ""
@@ -526,22 +558,6 @@
       "image": "https://external-preview.redd.it/TLNkoaM8ri7DawsG3Uob7Mssf8tKUv7up5N0JMZ5NSQ.jpeg?width=640&crop=smart&auto=webp&s=5cc6aebc69cf2021d323ecc447689d0feec9ef69"
     },
     {
-      "id": "towards-data-science-数据来自-100-人工智能智能体由",
-      "title": "数据来自 100+ 人工智能智能体由",
-      "url": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-14T13:00:00.000Z",
-      "summary": "质量和词元面向 38% 智能体和面向关于 1%，借助质量，成本，和。数据来自 100+ 人工智能智能体由，首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
       "id": "cnblogs-news-新旗舰杀回第一阵营-压力来到字节这边",
       "title": "新旗舰杀回第一阵营，压力来到字节这边",
       "url": "https://news.cnblogs.com/n/846083/",
@@ -555,24 +571,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-和首席执行官",
-      "title": "和首席执行官",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-14T12:00:00.000Z",
-      "summary": "在相关型号，2025，英伟达首席执行官时刻在，机械手在，向和欢呼 14，000，借助和，在，作为在 …",
-      "topics": [
-        "算力芯片",
-        "多模态"
-      ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -638,7 +637,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -672,7 +671,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -688,7 +687,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg"
     },
     {
@@ -706,7 +705,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -774,7 +773,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png"
     },
     {
@@ -824,7 +823,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 67,
+      "heat": 66,
       "image": ""
     },
     {
@@ -897,19 +896,37 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp"
     },
     {
-      "id": "ithome-黄仁勋辞任首席执行官后-英伟达诞生地丹尼餐厅移除纪念铭牌-又宣布将重新挂回",
-      "title": "黄仁勋辞任首席执行官后，英伟达诞生地丹尼餐厅移除纪念铭牌、又宣布将重新挂回",
-      "url": "https://www.ithome.com/1/027/233.htm",
+      "id": "ithome-智能体帮你联络商家或保险公司-元宇宙平台公司旗下上线代打电话功能",
+      "title": "智能体帮你联络商家或保险公司，元宇宙平台公司旗下上线代打电话功能",
+      "url": "https://www.ithome.com/1/027/238.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T13:31:05.000Z",
-      "summary": "科技之家 11 月 14 日消息，据新闻报道，在一家丹尼餐厅（’）路边店内，硅谷历史的一角仿佛凭空消失了。30 多年前，黄仁勋与两位好友正是在这里构想出了英伟达，而如今纪念这一确切位置的牌匾已不翼而飞。牌匾上的铭文曾写道：“开启一家万亿美元公司的卡座”，如今只剩下一片空荡荡的砖墙和剥落的墙漆。两名店员证实，牌匾已被撤下。▲ 2023 年，丹尼餐厅首席执行官与英伟达创始人黄仁勋……",
+      "publishedAt": "2026-11-14T13:46:56.000Z",
+      "summary": "科技之家 11 月 14 日消息，元宇宙平台公司旗下人工智能智能体推出代打电话功能，开通高级付费订阅后，用户就能让代自己联系美国商家。元宇宙平台公司称，可以帮助用户处理各种烦琐事务，完成待办事项。13 日凌晨，元宇宙平台公司首席人工智能官汪滔在上发文宣布：“ 能帮你打完所有不想亲自打的电话。” 据悉，用户可以借助联系保险公司或有线电视服务商、预约美国车管部门的业务办理时间，或……",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "产品应用",
+        "多模态"
       ],
-      "heat": 94,
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-数据来自-100-人工智能智能体由",
+      "title": "数据来自 100+ 人工智能智能体由",
+      "url": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T13:00:00.000Z",
+      "summary": "质量和词元面向 38% 智能体和面向关于 1%，借助质量，成本，和。数据来自 100+ 人工智能智能体由，首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 87,
       "image": ""
     },
     {
@@ -925,7 +942,24 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-和首席执行官",
+      "title": "和首席执行官",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "summary": "在相关型号，2025，英伟达首席执行官时刻在，机械手在，向和欢呼 14，000，借助和，在，作为在 …",
+      "topics": [
+        "算力芯片",
+        "多模态"
+      ],
+      "heat": 99,
       "image": ""
     },
     {
@@ -1000,23 +1034,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-智能聊天助手开放人工智能公司智能体面向",
-      "title": "智能聊天助手开放人工智能公司智能体面向",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T20:45:10.000Z",
-      "summary": "人工智能智能体平台，开放人工智能公司面向智能体。智能聊天助手面向智能聊天助手专业版在 18 和和，和。新增 …",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-英伟达芯片最人工智能模型",
       "title": "英伟达芯片最人工智能模型！",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
@@ -1031,7 +1048,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1087,23 +1104,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-8-十亿向量嵌入模型在智能体工具",
-      "title": "8 十亿向量嵌入模型在智能体工具",
-      "url": "https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T16:30:00.000Z",
-      "summary": "在 200 问题和向 3，794 工具，关于相关型号更快在只是中央处理器，和工具信息技术。8 十亿向量嵌入模型在智能体工具首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 75,
-      "image": ""
-    },
-    {
       "id": "product-hunt-ai-企业在智能聊天助手",
       "title": "企业在智能聊天助手",
       "url": "https://www.producthunt.com/products/openai",
@@ -1117,7 +1117,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1287,21 +1287,19 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Flight_15_Website_Desktop_1_7111645b6d-1152x648.png"
     },
     {
-      "id": "ithome-英伟达副总裁卡坦扎罗否认签署要求前首席执行官黄仁勋复职的公开信-表态支持董事会和临时首席执行官克雷斯",
-      "title": "英伟达副总裁卡坦扎罗否认签署要求前首席执行官黄仁勋复职的公开信，表态支持董事会和临时首席执行官克雷斯",
-      "url": "https://www.ithome.com/1/027/228.htm",
+      "id": "ithome-黄仁勋辞任首席执行官后-英伟达诞生地丹尼餐厅移除纪念铭牌-又宣布将重新挂回",
+      "title": "黄仁勋辞任首席执行官后，英伟达诞生地丹尼餐厅移除纪念铭牌、又宣布将重新挂回",
+      "url": "https://www.ithome.com/1/027/233.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T12:45:55.000Z",
-      "summary": "科技之家 11 月 14 日消息，英伟达应用深度学习研究副总裁布莱恩 · 卡坦扎罗（ ）在社交平台上公开发文辟谣，否认自己参与签署网传要求前首席执行官黄仁勋复职的公开信，称该信件系伪造，并明确表态支持英伟达董事会及临时首席执行官科莱特 · 克雷斯（ ）。布莱恩 · 卡坦扎罗声称，即便（公开信）是真的，他也不会签字。科技之家注意到，黄仁勋离任后，网络上流传出一封公开信，以布莱恩……",
+      "publishedAt": "2026-11-14T13:31:05.000Z",
+      "summary": "科技之家 11 月 14 日消息，据新闻报道，在一家丹尼餐厅（’）路边店内，硅谷历史的一角仿佛凭空消失了。30 多年前，黄仁勋与两位好友正是在这里构想出了英伟达，而如今纪念这一确切位置的牌匾已不翼而飞。牌匾上的铭文曾写道：“开启一家万亿美元公司的卡座”，如今只剩下一片空荡荡的砖墙和剥落的墙漆。两名店员证实，牌匾已被撤下。▲ 2023 年，丹尼餐厅首席执行官与英伟达创始人黄仁勋……",
       "topics": [
-        "产品应用",
-        "算力芯片",
-        "研究论文"
+        "算力芯片"
       ],
-      "heat": 99,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1317,7 +1315,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1351,7 +1349,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1384,7 +1382,41 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 80,
+      "heat": 79,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-智能聊天助手开放人工智能公司智能体面向",
+      "title": "智能聊天助手开放人工智能公司智能体面向",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-13T20:45:10.000Z",
+      "summary": "人工智能智能体平台，开放人工智能公司面向智能体。智能聊天助手面向智能聊天助手专业版在 18 和和，和。新增 …",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-8-十亿向量嵌入模型在智能体工具",
+      "title": "8 十亿向量嵌入模型在智能体工具",
+      "url": "https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-13T16:30:00.000Z",
+      "summary": "在 200 问题和向 3，794 工具，关于相关型号更快在只是中央处理器，和工具信息技术。8 十亿向量嵌入模型在智能体工具首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 75,
       "image": ""
     },
     {
@@ -1401,7 +1433,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1419,42 +1451,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 80,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-克劳德模型智能体和",
-      "title": "克劳德模型智能体和",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T14:00:00.000Z",
-      "summary": "产品向帮助借助。克劳德模型人工智能安全公司人工智能智能体面向，由人工智能公司向向智能体面向代码。信息技术 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-人工智能智能体在研究-和",
-      "title": "人工智能智能体在研究，和",
-      "url": "https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T13:30:00.000Z",
-      "summary": "在和在为什么更快代码，和修复数据借助，和面向实验室。人工智能智能体在研究，和首个在数据科学实战社区。",
-      "topics": [
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 72,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1471,7 +1468,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1487,7 +1484,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -1503,7 +1500,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://media.wired.com/photos/6af5ee2157e0a3ee177875cd/master/pass/Uncanny-Valley-Jensen-Emergency-Pod.jpg"
     },
     {
@@ -1537,7 +1534,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1626,21 +1623,21 @@
       "image": ""
     },
     {
-      "id": "ithome-擅自读取意大利用户相册-元宇宙平台公司被处以-8-05-亿欧元重罚",
-      "title": "擅自读取意大利用户相册，元宇宙平台公司被处以 8.05 亿欧元重罚",
-      "url": "https://www.ithome.com/1/027/227.htm",
+      "id": "ithome-英伟达副总裁卡坦扎罗否认签署要求前首席执行官黄仁勋复职的公开信-表态支持董事会和临时首席执行官克雷斯",
+      "title": "英伟达副总裁卡坦扎罗否认签署要求前首席执行官黄仁勋复职的公开信，表态支持董事会和临时首席执行官克雷斯",
+      "url": "https://www.ithome.com/1/027/228.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T12:42:51.000Z",
-      "summary": "科技之家 11 月 14 日消息，因在未经意大利用户单独授权、也未充分告知用户的情况下，通过安卓版应用读取手机中保存的照片、视频及附带的元数据，意大利数据保护局今天（14 日）对元宇宙平台公司开出 8.05 亿欧元 （科技之家注：现汇率约合 59.36 亿元人民币） 罚单。意大利数据保护局声明指出，此次处罚针对的是于 2023 年开始提供的“ 浏览时获取相册推荐 ”功能。用户……",
+      "publishedAt": "2026-11-14T12:45:55.000Z",
+      "summary": "科技之家 11 月 14 日消息，英伟达应用深度学习研究副总裁布莱恩 · 卡坦扎罗（ ）在社交平台上公开发文辟谣，否认自己参与签署网传要求前首席执行官黄仁勋复职的公开信，称该信件系伪造，并明确表态支持英伟达董事会及临时首席执行官科莱特 · 克雷斯（ ）。布莱恩 · 卡坦扎罗声称，即便（公开信）是真的，他也不会签字。科技之家注意到，黄仁勋离任后，网络上流传出一封公开信，以布莱恩……",
       "topics": [
         "产品应用",
-        "监管安全",
-        "多模态"
+        "算力芯片",
+        "研究论文"
       ],
-      "heat": 96,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1691,7 +1688,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1708,42 +1705,42 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "id": "the-verge-ai-克劳德模型智能体和",
+      "title": "克劳德模型智能体和",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T12:00:00.000Z",
-      "summary": "我们向答案问题关于新闻，我们答案关于在在英伟达。面向在新，我们。…",
+      "publishedAt": "2026-11-13T14:00:00.000Z",
+      "summary": "产品向帮助借助。克劳德模型人工智能安全公司人工智能智能体面向，由人工智能公司向向智能体面向代码。信息技术 …",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全"
       ],
-      "heat": 80,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "towards-data-science-向本地大语言模型借助-4-和",
-      "title": "向本地大语言模型借助，4，和",
-      "url": "https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/",
+      "id": "towards-data-science-人工智能智能体在研究-和",
+      "title": "人工智能智能体在研究，和",
+      "url": "https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T12:00:00.000Z",
-      "summary": "4，实验室 9 十亿，评测，和问题。向本地大语言模型借助，4，和首个在数据科学实战社区。",
+      "publishedAt": "2026-11-13T13:30:00.000Z",
+      "summary": "在和在为什么更快代码，和修复数据借助，和面向实验室。人工智能智能体在研究，和首个在数据科学实战社区。",
       "topics": [
-        "模型发布",
         "产品应用",
-        "端侧智能"
+        "研究论文"
       ],
-      "heat": 76,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1793,7 +1790,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 54,
+      "heat": 53,
       "image": ""
     },
     {
@@ -1934,21 +1931,21 @@
       "image": ""
     },
     {
-      "id": "ithome-借助克劳德模型和开发板-达人让-1994-款切诺基通过加州排放检测",
-      "title": "借助克劳德模型和开发板，达人让 1994 款切诺基通过加州排放检测",
-      "url": "https://www.ithome.com/1/027/226.htm",
+      "id": "ithome-擅自读取意大利用户相册-元宇宙平台公司被处以-8-05-亿欧元重罚",
+      "title": "擅自读取意大利用户相册，元宇宙平台公司被处以 8.05 亿欧元重罚",
+      "url": "https://www.ithome.com/1/027/227.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T12:36:29.000Z",
-      "summary": "科技之家 11 月 14 日消息，当地时间 13 日，据外媒 ' 报道，美国的一名人工智能爱好者穆罕默德 · 祖拉利靠着人工智能和简单的电子接线操作，成功让一辆有 32 年车龄的 1994 款切诺基通过了美国加州的尾气检测。这辆老车的发动机电脑功能十分有限，但祖拉利借助开发板将其连接到笔记本电脑后，不仅能够读取车辆数据，还逐步实现了对部分参数的控制。其发布的视频记录了祖拉利解……",
+      "publishedAt": "2026-11-14T12:42:51.000Z",
+      "summary": "科技之家 11 月 14 日消息，因在未经意大利用户单独授权、也未充分告知用户的情况下，通过安卓版应用读取手机中保存的照片、视频及附带的元数据，意大利数据保护局今天（14 日）对元宇宙平台公司开出 8.05 亿欧元 （科技之家注：现汇率约合 59.36 亿元人民币） 罚单。意大利数据保护局声明指出，此次处罚针对的是于 2023 年开始提供的“ 浏览时获取相册推荐 ”功能。用户……",
       "topics": [
-        "模型发布",
-        "算力芯片",
+        "产品应用",
+        "监管安全",
         "多模态"
       ],
-      "heat": 99,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1966,7 +1963,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -1984,7 +1981,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2001,6 +1998,41 @@
         "产品应用"
       ],
       "heat": 70,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "summary": "我们向答案问题关于新闻，我们答案关于在在英伟达。面向在新，我们。…",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 80,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-向本地大语言模型借助-4-和",
+      "title": "向本地大语言模型借助，4，和",
+      "url": "https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "summary": "4，实验室 9 十亿，评测，和问题。向本地大语言模型借助，4，和首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 76,
       "image": ""
     },
     {
@@ -2035,23 +2067,6 @@
         "研究论文"
       ],
       "heat": 82,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-谷歌新双子座模型模型更好在问题",
-      "title": "谷歌新双子座模型模型更好在问题",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-12T21:55:32.000Z",
-      "summary": "谷歌新双子座模型 4 模型答案向问题，问题借助部件，向。新模型问题和部件在。信息技术可用在，双子座模型应用，谷歌 …",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 68,
       "image": ""
     },
     {
@@ -2118,23 +2133,6 @@
         "模型发布"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/are-you-sure-flipped-qwen25-15bs-right-answer-2-times-in-3/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-11T16:30:00.000Z",
-      "summary": "打开模型，150 问题，五个 : 没有，和向？正确答案 2 在 3 首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 61,
       "image": ""
     },
     {
@@ -2207,20 +2205,21 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/corl-corp-blog-promo-pack-1920x1080-1.png"
     },
     {
-      "id": "ithome-网约车平台优步遭黑客攻击-致美国多州司机驾照信息外泄",
-      "title": "网约车平台优步遭黑客攻击，致美国多州司机驾照信息外泄",
-      "url": "https://www.ithome.com/1/027/219.htm",
+      "id": "ithome-借助克劳德模型和开发板-达人让-1994-款切诺基通过加州排放检测",
+      "title": "借助克劳德模型和开发板，达人让 1994 款切诺基通过加州排放检测",
+      "url": "https://www.ithome.com/1/027/226.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T11:23:33.000Z",
-      "summary": "科技之家 11 月 14 日消息，网约车平台优步披露公司遭遇数据泄露事件，导致数千名司机的个人信息及驾照信息被盗，涉及美国马萨诸塞州、南卡罗来纳州、罗得岛州和伊利诺伊州等地。科技之家参考通报获悉，黑客首先入侵了该公司的一家第三方服务供应商，并窃取员工登录凭据，随后利用这些信息访问的系统及数据，目前已开始通知受影响司机具体信息泄露情况。目前，尚未说明此次事件中的服务供应商，也没……",
+      "publishedAt": "2026-11-14T12:36:29.000Z",
+      "summary": "科技之家 11 月 14 日消息，当地时间 13 日，据外媒 ' 报道，美国的一名人工智能爱好者穆罕默德 · 祖拉利靠着人工智能和简单的电子接线操作，成功让一辆有 32 年车龄的 1994 款切诺基通过了美国加州的尾气检测。这辆老车的发动机电脑功能十分有限，但祖拉利借助开发板将其连接到笔记本电脑后，不仅能够读取车辆数据，还逐步实现了对部分参数的控制。其发布的视频记录了祖拉利解……",
       "topics": [
-        "监管安全",
-        "开源生态"
+        "模型发布",
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 89,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2238,7 +2237,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2255,7 +2254,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2310,20 +2309,20 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能智能体没有",
-      "title": "人工智能智能体没有",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "id": "the-verge-ai-谷歌新双子座模型模型更好在问题",
+      "title": "谷歌新双子座模型模型更好在问题",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-12T19:42:40.000Z",
-      "summary": "借助团队人工智能智能体，谷歌向在。只是问题: 和在，…",
+      "publishedAt": "2026-11-12T21:55:32.000Z",
+      "summary": "谷歌新双子座模型 4 模型答案向问题，问题借助部件，向。新模型问题和部件在。信息技术可用在，双子座模型应用，谷歌 …",
       "topics": [
-        "产品应用",
-        "研究论文"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 67,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2428,21 +2427,20 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-startups-msit-1920x1080-1.jpg"
     },
     {
-      "id": "ithome-披露安全事件调查结果-恶意克劳德模型代码扩展最多波及-5000-用户",
-      "title": "披露安全事件调查结果，恶意克劳德模型代码扩展最多波及 5000 用户",
-      "url": "https://www.ithome.com/1/027/215.htm",
+      "id": "ithome-网约车平台优步遭黑客攻击-致美国多州司机驾照信息外泄",
+      "title": "网约车平台优步遭黑客攻击，致美国多州司机驾照信息外泄",
+      "url": "https://www.ithome.com/1/027/219.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T10:52:39.000Z",
-      "summary": "科技之家 11 月 14 日消息，当地时间 10 月 29 日，发布公告，称代码扩展市场中出现了一个恶意且未经授权的人工智能安全公司克劳德模型代码扩展副本。当地时间 11 月 13 日，经过过去两周的全面调查，披露了此次安全事件调查结果。官方称绝大多数客户未受影响，最多波及 5，000 名用户；对于受影响的客户，已逐一直接联系，并告知与其相关的详情。据悉，如果用户使用隐私模式……",
+      "publishedAt": "2026-11-14T11:23:33.000Z",
+      "summary": "科技之家 11 月 14 日消息，网约车平台优步披露公司遭遇数据泄露事件，导致数千名司机的个人信息及驾照信息被盗，涉及美国马萨诸塞州、南卡罗来纳州、罗得岛州和伊利诺伊州等地。科技之家参考通报获悉，黑客首先入侵了该公司的一家第三方服务供应商，并窃取员工登录凭据，随后利用这些信息访问的系统及数据，目前已开始通知受影响司机具体信息泄露情况。目前，尚未说明此次事件中的服务供应商，也没……",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
+        "监管安全",
+        "开源生态"
       ],
-      "heat": 99,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2460,7 +2458,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2478,7 +2476,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2490,7 +2488,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-11-13T07:24:03.000Z",
-      "summary": "沿着广东相关型号滨海公路从汕尾驶向深圳，晨洲蚝乡的生蚝刚出水，盐田山海���的落日正铺满车窗。撒贝宁在节目里感慨：“一脚油门踩下去，整个世界都是你的。” 这声感叹，来自神州租车联合央视频打造的中国首档自驾文化探索节目《出发吧！神州山海》。随着六期节目走过戈壁、雨林与江南古村，一种正在成型的中国自驾文化也随之清晰起来：以公路为脉络、车轮为媒介，深度融合国土山河风貌、地域民俗人文……",
+      "summary": "沿着广东相关型号滨海公路从汕尾驶向深圳，晨洲蚝乡的生蚝刚出水，盐田山海间的落日正铺满车窗。撒贝宁在节目里感慨：“一脚油门踩下去，整个世界都是你的。” 这声感叹，来自神州租车联合央视频打造的中国首档自驾文化探索节目《出发吧！神州山海》。随着六期节目走过戈壁、雨林与江南古村，一种正在成型的中国自驾文化也随之清晰起来：以公路为脉络、车轮为媒介，深度融合国土山河风貌、地域民俗人文、家……",
       "topics": [
         "研究论文",
         "投融资",
@@ -2529,7 +2527,24 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 70,
+      "heat": 69,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能智能体没有",
+      "title": "人工智能智能体没有",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-12T19:42:40.000Z",
+      "summary": "借助团队人工智能智能体，谷歌向在。只是问题: 和在，…",
+      "topics": [
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 66,
       "image": ""
     },
     {
@@ -2581,23 +2596,6 @@
       "image": ""
     },
     {
-      "id": "towards-data-science-克劳德模型代码技能来自-15-向-62",
-      "title": "克劳德模型代码技能来自 15% 向 62%",
-      "url": "https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-10T15:00:00.000Z",
-      "summary": "软件技能在，和旗舰模型; 新增 5，和技能。克劳德模型代码技能来自 15% 向 62% 首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 61,
-      "image": ""
-    },
-    {
       "id": "nvidia-blog-人工智能借助英伟达",
       "title": "人工智能借助英伟达",
       "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
@@ -2616,20 +2614,21 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/omniverse-overall-ai-day-seoul-1920x1080-1.jpeg"
     },
     {
-      "id": "ithome-黄仁勋离任首席执行官之际-英伟达品牌推广人员弗里曼称显卡不会终结",
-      "title": "黄仁勋离任首席执行官之际，英伟达品牌推广人员弗里曼称显卡不会终结",
-      "url": "https://www.ithome.com/1/027/212.htm",
+      "id": "ithome-披露安全事件调查结果-恶意克劳德模型代码扩展最多波及-5000-用户",
+      "title": "披露安全事件调查结果，恶意克劳德模型代码扩展最多波及 5000 用户",
+      "url": "https://www.ithome.com/1/027/215.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T10:43:16.000Z",
-      "summary": "科技之家 11 月 14 日消息，过去一周，英伟达接连经历重大变故。随着黄仁勋离任首席执行官，显卡乃至整个游戏业务的前景引发担忧。不过，英伟达品牌推广人员雅各布 · 弗里曼出面回应了外界的疑虑，明确否认公司将放弃游戏显卡业务，让不少考虑转投或英特尔的玩家吃下了定心丸。弗里曼在参加北美最大的局域网游戏聚会之一期间，于上发文回应公司近期的动荡，强调英伟达仍会继续支持电脑游戏业务。……",
+      "publishedAt": "2026-11-14T10:52:39.000Z",
+      "summary": "科技之家 11 月 14 日消息，当地时间 10 月 29 日，发布公告，称代码扩展市场中出现了一个恶意且未经授权的人工智能安全公司克劳德模型代码扩展副本。当地时间 11 月 13 日，经过过去两周的全面调查，披露了此次安全事件调查结果。官方称绝大多数客户未受影响，最多波及 5，000 名用户；对于受影响的客户，已逐一直接联系，并告知与其相关的详情。据悉，如果用户使用隐私模式……",
       "topics": [
-        "算力芯片",
-        "端侧智能"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -2675,7 +2674,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-11-13T03:29:10.000Z",
-      "summary": "接任临时首席执行官。文，刘思洁封面来源，网络当地时间2026年11月12日，英伟达官方宣布，联合创始人黄仁勋辞去公司总裁、首席执行官及董事会成员职务，即刻生效。英伟达同时宣布，现任执行副总裁兼首席财务官科，出任临时首席执行官，并继续担任，直至正式继任者确定。董事会将启动新任首席执行官遴选程序，同时考虑内部和外部候选人。此外，英伟达董事会还任命。担任公司首任���事会主席。公告……",
+      "summary": "接任临时首席执行官。文，刘思洁封面来源，网络当地时间2026年11月12日，英伟达官方宣布，联合创始人黄仁勋辞去公司总裁、首席执行官及董事会成员职务，即刻生效。英伟达同时宣布，现任执行副总裁兼首席财务官科，出任临时首席执行官，并继续担任，直至正式继任者确定。董事会将启动新任首席执行官遴选程序，同时考虑内部和外部候选人。此外，英伟达董事会还任命。担任公司首任董事会主席。公告没有……",
       "topics": [
         "算力芯片",
         "研究论文",
@@ -2734,21 +2733,20 @@
       "image": ""
     },
     {
-      "id": "ithome-星闪智能家电实验室正式投运-九方共建-覆盖芯片到整机全链条",
-      "title": "星闪智能家电实验室正式投运：九方共建，覆盖芯片到整机全链条",
-      "url": "https://www.ithome.com/1/027/209.htm",
+      "id": "ithome-黄仁勋离任首席执行官之际-英伟达品牌推广人员弗里曼称显卡不会终结",
+      "title": "黄仁勋离任首席执行官之际，英伟达品牌推广人员弗里曼称显卡不会终结",
+      "url": "https://www.ithome.com/1/027/212.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T10:21:50.000Z",
-      "summary": "科技之家 11 月 14 日消息，国际星闪联盟今日发文宣布，星闪智能家电（上海）创新实验室（简称星闪智能家电 ）此前以高分通过验收并获正式授牌，成为国际星闪联盟第四家官方授权，也是首个面向智能家电领域的开放创新平台。目前，实验室已正式投入运营。星闪（）作为新一代无线短距通信技术，具备低时延、高可靠、精定位、抗干扰、多并发等特性。官方表示，在智能家电领域，星闪数传、感知、定位以……",
+      "publishedAt": "2026-11-14T10:43:16.000Z",
+      "summary": "科技之家 11 月 14 日消息，过去一周，英伟达接连经历重大变故。随着黄仁勋离任首席执行官，显卡乃至整个游戏业务的前景引发担忧。不过，英伟达品牌推广人员雅各布 · 弗里曼出面回应了外界的疑虑，明确否认公司将放弃游戏显卡业务，让不少考虑转投或英特尔的玩家吃下了定心丸。弗里曼在参加北美最大的局域网游戏聚会之一期间，于上发文回应公司近期的动荡，强调英伟达仍会继续支持电脑游戏业务。……",
       "topics": [
-        "产品应用",
         "算力芯片",
-        "研究论文"
+        "端侧智能"
       ],
-      "heat": 94,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2766,7 +2764,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2784,7 +2782,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2800,7 +2798,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2836,20 +2834,21 @@
       "image": ""
     },
     {
-      "id": "ithome-2020-2025-年-我国颠覆性技术产业化指数累计增幅超五成",
-      "title": "2020-2025 年，我国颠覆性技术产业化指数累计增幅超五成",
-      "url": "https://www.ithome.com/1/027/186.htm",
+      "id": "ithome-星闪智能家电实验室正式投运-九方共建-覆盖芯片到整机全链条",
+      "title": "星闪智能家电实验室正式投运：九方共建，覆盖芯片到整机全链条",
+      "url": "https://www.ithome.com/1/027/209.htm",
       "source": "科技之家",
       "sourceId": "ithome",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-14T09:27:31.000Z",
-      "summary": "科技之家 11 月 14 日消息，据新华社报道，在 13 日至 14 日天津举办的 2026 企业科技创新发展论坛上，《颠覆性技术产业化指数报告》发布。报告显示，2020-2025 年，我国颠覆性技术产业化指数从基准值 100 稳步攀升至 158.63，累计增幅 58.63%，年均复合增长率约 9.67%。指数报告由科技部四司指导，科技日报社与中国工程科技创新战略研究院联合牵……",
+      "publishedAt": "2026-11-14T10:21:50.000Z",
+      "summary": "科技之家 11 月 14 日消息，国际星闪联盟今日发文宣布，星闪智能家电（上海）创新实验室（简称星闪智能家电 ）此前以高分通过验收并获正式授牌，成为国际星闪联盟第四家官方授权，也是首个面向智能家电领域的开放创新平台。目前，实验室已正式投入运营。星闪（）作为新一代无线短距通信技术，具备低时延、高可靠、精定位、抗干扰、多并发等特性。官方表示，在智能家电领域，星闪数传、感知、定位以……",
       "topics": [
-        "研究论文",
-        "机器人"
+        "产品应用",
+        "算力芯片",
+        "研究论文"
       ],
-      "heat": 88,
+      "heat": 93,
       "image": ""
     },
     {
