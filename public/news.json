@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T16:26:35.883Z",
+  "generatedAt": "2026-11-14T16:56:37.965Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-14T16:30:00.000Z",
+  "nextUpdateHint": "2026-11-14T17:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-14T16:22:37.000Z"
+    "latestPublishedAt": "2026-11-14T16:48:01.000Z"
   },
   "topics": [
     {
@@ -18,13 +18,18 @@
     },
     {
       "name": "模型发布",
-      "count": 50,
+      "count": 51,
       "heat": 79
     },
     {
       "name": "算力芯片",
-      "count": 45,
-      "heat": 79
+      "count": 44,
+      "heat": 78
+    },
+    {
+      "name": "监管安全",
+      "count": 25,
+      "heat": 80
     },
     {
       "name": "研究论文",
@@ -32,24 +37,19 @@
       "heat": 74
     },
     {
-      "name": "监管安全",
-      "count": 23,
-      "heat": 79
+      "name": "投融资",
+      "count": 13,
+      "heat": 77
     },
     {
       "name": "开源生态",
       "count": 15,
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "多模态",
       "count": 12,
       "heat": 78
-    },
-    {
-      "name": "投融资",
-      "count": 12,
-      "heat": 76
     },
     {
       "name": "端侧智能",
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-11-13T22:43:00.000Z",
-      "latestDisplayedAt": "2026-11-13T19:37:57.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-11-14T16:34:15.000Z",
+      "latestDisplayedAt": "2026-11-14T16:34:15.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-11-14T11:40:51.000Z",
-      "latestDisplayedAt": "2026-11-14T11:40:51.000Z"
+      "latestFetchedAt": "2026-11-14T16:48:01.000Z",
+      "latestDisplayedAt": "2026-11-14T16:48:01.000Z"
     },
     {
       "id": "wired-ai",
@@ -448,7 +448,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 23,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-11-14T15:28:14.000Z",
       "latestDisplayedAt": "2026-11-14T15:28:14.000Z"
     },
@@ -490,6 +490,42 @@
   ],
   "items": [
     {
+      "id": "the-decoder-双子座模型-4-成本-15",
+      "title": "双子座模型 4 成本 15",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T16:48:01.000Z",
+      "summary": "面向首个时间在，开放人工智能公司模型人工智能基准测试。谷歌双子座模型 4 和人工智能安全公司 5.2 来自，成本。双子座模型时间限制在和在任务。双子座模型 4 成本 15 首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-向英伟达首席执行官",
+      "title": "向英伟达首席执行官",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "summary": "向芯片，在本地。",
+      "topics": [
+        "算力芯片",
+        "投融资",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能呼吁",
       "title": "人工智能呼吁？",
       "url": "https://www.reddit.com/r/artificial/comments/1xw6eqj/could_ai_handle_public_transit_information_calls/",
@@ -502,7 +538,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -518,7 +554,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -550,7 +586,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -567,25 +603,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司机器人研究向团队作为模型可能机器人人工智能",
-      "title": "开放人工智能公司机器人研究向团队作为模型可能机器人人工智能",
-      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-14T11:40:51.000Z",
-      "summary": "开放人工智能公司机器人团队面向时间，信息技术数据。模型控制机器人。研究团队在公司作为向加速机器人。开放人工智能公司机器人研究向团队作为模型可能机器人人工智能首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
+      "heat": 95,
       "image": ""
     },
     {
@@ -601,7 +619,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif"
     },
     {
@@ -629,7 +647,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-11-14T09:34:43.000Z",
-      "summary": "微软公司表示，其旗舰软件服务已全面恢复。此前发生的故障导致全球多地政府部门、交易员和企业的工作陷入停顿。微软网站上的服务运行状况更新显示���“所有产品均已正常运行。”对于微软 365服务，微软表示，“积压的电子邮件已经处理完毕，因此该问题已得到解决。”受影响的产品包括、和智能副驾人工智能（人工智能）工具。周五，用户遭遇会议邀请收不到、网页无响应等问题。微软以往发生的服务中断……",
+      "summary": "微软公司表示，其旗舰软件服务已全面恢复。此前发生的故障导致全球多地政府部门、交易员和企业的工作陷入停顿。微软网站上的服务运行状况更新显示：“所有产品均已正常运行。”对于微软 365服务，微软表示，“积压的电子邮件已经处理完毕，因此该问题已得到解决。”受影响的产品包括、和智能副驾人工智能（人工智能）工具。周五，用户遭遇会议邀请收不到、网页无响应等问题。微软以往发生的服务中断很少……",
       "topics": [
         "产品应用"
       ],
@@ -687,24 +705,6 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg"
     },
     {
-      "id": "techcrunch-ai-人工智能智能体创业公司-3-十亿",
-      "title": "人工智能智能体创业公司 $3 十亿",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T19:37:57.000Z",
-      "summary": "7，000 客户模型和平台智能体工具。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 83,
-      "image": ""
-    },
-    {
       "id": "github-changelog-代码托管平台企业支持在代码托管平台智能编程助手应用",
       "title": "代码托管平台企业支持在代码托管平台智能编程助手应用",
       "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
@@ -718,7 +718,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -752,7 +752,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -769,7 +769,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png"
     },
     {
@@ -785,7 +785,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": ""
     },
     {
@@ -802,7 +802,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -837,7 +837,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -871,7 +871,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp"
     },
     {
@@ -890,6 +890,24 @@
       ],
       "heat": 55,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp"
+    },
+    {
+      "id": "the-decoder-人工智能安全公司克劳德模型旗舰模型-5-5",
+      "title": "人工智能安全公司克劳德模型旗舰模型 5.5",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T16:42:56.000Z",
+      "summary": "人工智能安全公司克劳德模型旗舰模型 5.5 模型在和指南借助。向认为和在内容平台。人工智能安全公司克劳德模型旗舰模型 5.5 首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
     },
     {
       "id": "ithome-黑苹果-有望卷土重来-新项目探索将搬上骁龙和相关型号架构电脑",
@@ -977,24 +995,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司借助",
-      "title": "人工智能安全公司借助",
-      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-14T11:21:41.000Z",
-      "summary": "开放人工智能公司和人工智能安全公司向来自人工智能安全公司首次公开募股作为，信息技术公司只是在。向呼吁面向在前沿模型回顾和人工智能成为。人工智能安全公司借助，首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "qbitai-史上最严-湿实验预测基准发布-推理拉满-算力翻5倍也白搭",
       "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
       "url": "https://www.qbitai.com/2026/11/510232.html",
@@ -1026,25 +1026,25 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-英伟达芯片最人工智能模型",
-      "title": "英伟达芯片最人工智能模型！",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "id": "techcrunch-ai-人工智能智能体创业公司-3-十亿",
+      "title": "人工智能智能体创业公司 $3 十亿",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T18:40:30.000Z",
-      "summary": "新研究最高级人工智能模型来自训练在英伟达芯片。",
+      "publishedAt": "2026-11-13T19:37:57.000Z",
+      "summary": "7，000 客户模型和平台智能体工具。",
       "topics": [
         "模型发布",
-        "算力芯片",
-        "研究论文"
+        "产品应用",
+        "投融资"
       ],
-      "heat": 91,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1062,7 +1062,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1130,7 +1130,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1146,7 +1146,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1180,7 +1180,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1317,6 +1317,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-开放人工智能公司机器人研究向团队作为模型可能机器人人工智能",
+      "title": "开放人工智能公司机器人研究向团队作为模型可能机器人人工智能",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T11:40:51.000Z",
+      "summary": "开放人工智能公司机器人团队面向时间，信息技术数据。模型控制机器人。研究团队在公司作为向加速机器人。开放人工智能公司机器人研究向团队作为模型可能机器人人工智能首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "reddit-artificial-人工智能",
       "title": "人工智能",
       "url": "https://www.reddit.com/r/artificial/comments/1xvzz1e/beware_of_numesai/",
@@ -1335,24 +1353,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-打开-来源转化视频人工智能进入机器人",
-      "title": "打开，来源转化视频人工智能进入机器人",
-      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-14T09:45:45.000Z",
-      "summary": "发布机器人模型借助打开和来源代码阿帕奇 2.0 许可。模型使用来自视频训练面向机器人控制和模型在英伟达基准测试。信息技术在。打开，来源转化视频人工智能进入机器人首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "thirty-six-kr-特斯拉-开始面向个人销售",
       "title": "特斯拉：开始面向个人销售",
       "url": "https://36kr.com/newsflashes/4069071474480002?f=rss",
@@ -1365,7 +1365,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1381,7 +1381,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1398,7 +1398,25 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-英伟达芯片最人工智能模型",
+      "title": "英伟达芯片最人工智能模型！",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-13T18:40:30.000Z",
+      "summary": "新研究最高级人工智能模型来自训练在英伟达芯片。",
+      "topics": [
+        "模型发布",
+        "算力芯片",
+        "研究论文"
+      ],
+      "heat": 90,
       "image": ""
     },
     {
@@ -1415,24 +1433,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 74,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-智能聊天助手新人工智能智能体和查看面向",
-      "title": "智能聊天助手新人工智能智能体和查看面向",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T16:00:12.000Z",
-      "summary": "智能聊天助手人工智能智能体和查看在用户，借助向。专业版。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 83,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1450,7 +1451,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1467,7 +1468,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -1499,7 +1500,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": "https://media.wired.com/photos/6af5ee2157e0a3ee177875cd/master/pass/Uncanny-Valley-Jensen-Emergency-Pod.jpg"
     },
     {
@@ -1516,7 +1517,7 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 55,
+      "heat": 54,
       "image": ""
     },
     {
@@ -1533,7 +1534,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1551,7 +1552,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -1654,6 +1655,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-人工智能安全公司借助",
+      "title": "人工智能安全公司借助",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T11:21:41.000Z",
+      "summary": "开放人工智能公司和人工智能安全公司向来自人工智能安全公司首次公开募股作为，信息技术公司只是在。向呼吁面向在前沿模型回顾和人工智能成为。人工智能安全公司借助，首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-中证协启动券商财务数智化应用调研-五阶段坐标勾勒智能财务路径",
       "title": "中证协启动券商财务数智化应用调研，五阶段坐标勾勒智能财务路径",
       "url": "https://36kr.com/newsflashes/4069069479826307?f=rss",
@@ -1668,7 +1687,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1685,39 +1704,22 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "the-decoder-向英伟达企业生活",
-      "title": "向英伟达企业生活",
-      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T20:07:34.000Z",
-      "summary": "英伟达企业。在。公司云服务在面向芯片，$250 十亿借助开放人工智能公司。首席执行官和向风险，和据报道没有。向英伟达企业生活首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "id": "techcrunch-ai-智能聊天助手新人工智能智能体和查看面向",
+      "title": "智能聊天助手新人工智能智能体和查看面向",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T15:58:00.000Z",
-      "summary": "来自英伟达，面向安全作为。和向最高级人工智能基础设施。",
+      "publishedAt": "2026-11-13T16:00:12.000Z",
+      "summary": "智能聊天助手人工智能智能体和查看在用户，借助向。专业版。",
       "topics": [
-        "算力芯片",
-        "监管安全"
+        "模型发布",
+        "产品应用"
       ],
       "heat": 83,
       "image": ""
@@ -1737,7 +1739,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1788,7 +1790,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1804,7 +1806,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 53,
+      "heat": 52,
       "image": ""
     },
     {
@@ -1963,6 +1965,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-打开-来源转化视频人工智能进入机器人",
+      "title": "打开，来源转化视频人工智能进入机器人",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-14T09:45:45.000Z",
+      "summary": "发布机器人模型借助打开和来源代码阿帕奇 2.0 许可。模型使用来自视频训练面向机器人控制和模型在英伟达基准测试。信息技术在。打开，来源转化视频人工智能进入机器人首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-9点1氪丨马斯克在平台公开表态-将参与要求黄仁勋重返英伟达的请愿活动",
       "title": "9点1氪丨马斯克在平台公开表态，将参与要求黄仁勋重返英伟达的请愿活动",
       "url": "https://36kr.com/p/4068905666859912?f=rss",
@@ -1981,37 +2001,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司人工智能来自借助智能聊天助手",
-      "title": "开放人工智能公司人工智能来自借助智能聊天助手",
-      "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-13T18:55:21.000Z",
-      "summary": "开放人工智能公司在人工智能，驱动借助智能聊天助手首个。用户和，词元。作为人工智能安全公司，元宇宙平台公司，和智能体。开放人工智能公司人工智能来自借助智能聊天助手首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-新应用会议和面向团队",
-      "title": "新应用会议和面向团队",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T14:44:48.000Z",
-      "summary": "新会议和应用目标是在团队和。",
+      "publishedAt": "2026-11-13T15:58:00.000Z",
+      "summary": "来自英伟达，面向安全作为。和向最高级人工智能基础设施。",
       "topics": [
-        "产品应用"
+        "算力芯片",
+        "监管安全"
       ],
-      "heat": 69,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2046,7 +2049,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2062,7 +2065,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2080,7 +2083,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2237,38 +2240,36 @@
       "image": ""
     },
     {
-      "id": "the-decoder-中国和来自人工智能安全公司首次公开募股控制",
-      "title": "中国和来自人工智能安全公司首次公开募股控制",
-      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "id": "the-decoder-向英伟达企业生活",
+      "title": "向英伟达企业生活",
+      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T18:01:53.000Z",
-      "summary": "中国人工智能安全公司首次公开募股。来自和。控制规则作为。首次公开募股，和人工智能安全公司产品可用在。中国和来自人工智能安全公司首次公开募股控制首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-13T20:07:34.000Z",
+      "summary": "英伟达企业。在。公司云服务在面向芯片，$250 十亿借助开放人工智能公司。首席执行官和向风险，和据报道没有。向英伟达企业生活首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "监管安全",
-        "投融资"
+        "算力芯片"
       ],
-      "heat": 89,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-查看面向在英伟达",
-      "title": "查看面向在英伟达",
-      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "id": "techcrunch-ai-新应用会议和面向团队",
+      "title": "新应用会议和面向团队",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T12:52:19.000Z",
-      "summary": "英伟达在人工智能和在，在创业公司生态关于。",
+      "publishedAt": "2026-11-13T14:44:48.000Z",
+      "summary": "新会议和应用目标是在团队和。",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 81,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2286,7 +2287,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -2302,7 +2303,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2319,7 +2320,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2459,21 +2460,38 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司克劳德模型面向人工智能进入软件向自动化工作流",
-      "title": "人工智能安全公司克劳德模型面向人工智能进入软件向自动化工作流",
-      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "id": "the-decoder-开放人工智能公司人工智能来自借助智能聊天助手",
+      "title": "开放人工智能公司人工智能来自借助智能聊天助手",
+      "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T16:37:01.000Z",
-      "summary": "人工智能安全公司新克劳德模型面向人工智能向，和。17 技能人工智能，和。控制，人工智能安全公司模型面向。人工智能安全公司克劳德模型面向人工智能进入软件向自动化工作流首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-13T18:55:21.000Z",
+      "summary": "开放人工智能公司在人工智能，驱动借助智能聊天助手首个。用户和，词元。作为人工智能安全公司，元宇宙平台公司，和智能体。开放人工智能公司人工智能来自借助智能聊天助手首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 89,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-查看面向在英伟达",
+      "title": "查看面向在英伟达",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-13T12:52:19.000Z",
+      "summary": "英伟达在人工智能和在，在创业公司生态关于。",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 80,
       "image": ""
     },
     {
@@ -2491,7 +2509,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2525,24 +2543,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 65,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-推出英伟达-在计划借助",
-      "title": "推出英伟达，在计划借助",
-      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-12T22:42:51.000Z",
-      "summary": "进入英伟达和借助，新闻。",
-      "topics": [
-        "算力芯片",
-        "投融资"
-      ],
-      "heat": 69,
+      "heat": 64,
       "image": ""
     },
     {
@@ -2646,19 +2647,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-70-使用生成式人工智能-和借助",
-      "title": "70 使用生成式人工智能，和借助",
-      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "id": "the-decoder-中国和来自人工智能安全公司首次公开募股控制",
+      "title": "中国和来自人工智能安全公司首次公开募股控制",
+      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T15:53:49.000Z",
-      "summary": "人工智能和自动化。在，裁员，和在驱动，呼吁。70 政府使用生成式人工智能。70 使用生成式人工智能，和借助首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-13T18:01:53.000Z",
+      "summary": "中国人工智能安全公司首次公开募股。来自和。控制规则作为。首次公开募股，和人工智能安全公司产品可用在。中国和来自人工智能安全公司首次公开募股控制首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "产品应用",
+        "监管安全",
+        "投融资"
       ],
-      "heat": 69,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2694,7 +2697,24 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 75,
+      "heat": 74,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-推出英伟达-在计划借助",
+      "title": "推出英伟达，在计划借助",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-12T22:42:51.000Z",
+      "summary": "进入英伟达和借助，新闻。",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 68,
       "image": ""
     },
     {
@@ -2765,21 +2785,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司英伟达内部中国人工智能模型",
-      "title": "开放人工智能公司英伟达内部中国人工智能模型",
-      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "id": "the-decoder-人工智能安全公司克劳德模型面向人工智能进入软件向自动化工作流",
+      "title": "人工智能安全公司克劳德模型面向人工智能进入软件向自动化工作流",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-13T15:21:04.000Z",
-      "summary": "开放人工智能公司首个深度求索，人工智能，和群组英伟达图形处理器控制。芯片来自模型。五个训练成本十亿。开放人工智能公司英伟达内部中国人工智能模型首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-13T16:37:01.000Z",
+      "summary": "人工智能安全公司新克劳德模型面向人工智能向，和。17 技能人工智能，和。控制，人工智能安全公司模型面向。人工智能安全公司克劳德模型面向人工智能进入软件向自动化工作流首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "算力芯片"
+        "监管安全"
       ],
-      "heat": 86,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2797,7 +2817,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2846,23 +2866,6 @@
         "产品应用"
       ],
       "heat": 55,
-      "image": ""
-    },
-    {
-      "id": "ithome-黄仁勋离任首席执行官之际-英伟达品牌推广人员弗里曼称显卡不会终结",
-      "title": "黄仁勋离任首席执行官之际，英伟达品牌推广人员弗里曼称显卡不会终结",
-      "url": "https://www.ithome.com/1/027/212.htm",
-      "source": "科技之家",
-      "sourceId": "ithome",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-14T10:43:16.000Z",
-      "summary": "科技之家 11 月 14 日消息，过去一周，英伟达接连经历重大变故。随着黄仁勋离任首席执行官，显卡乃至整个游戏业务的前景引发担忧。不过，英伟达品牌推广人员雅各布 · 弗里曼出面回应了外界的疑虑，明确否认公司将放弃游戏显卡业务，让不少考虑转投或英特尔的玩家吃下了定心丸。弗里曼在参加北美最大的局域网游戏聚会之一期间，于上发文回应公司近期的动荡，强调英伟达仍会继续支持电脑游戏业务。……",
-      "topics": [
-        "算力芯片",
-        "端侧智能"
-      ],
-      "heat": 96,
       "image": ""
     }
   ]
