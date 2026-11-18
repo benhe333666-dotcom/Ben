@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-18T19:36:37.498Z",
+  "generatedAt": "2026-11-18T20:06:55.088Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-18T20:00:00.000Z",
+  "nextUpdateHint": "2026-11-18T20:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
@@ -13,12 +13,12 @@
   "topics": [
     {
       "name": "产品应用",
-      "count": 69,
+      "count": 71,
       "heat": 85
     },
     {
       "name": "模型发布",
-      "count": 51,
+      "count": 52,
       "heat": 89
     },
     {
@@ -33,18 +33,13 @@
     },
     {
       "name": "研究论文",
-      "count": 18,
-      "heat": 84
+      "count": 17,
+      "heat": 85
     },
     {
       "name": "开源生态",
       "count": 17,
-      "heat": 79
-    },
-    {
-      "name": "多模态",
-      "count": 13,
-      "heat": 89
+      "heat": 78
     },
     {
       "name": "投融资",
@@ -52,14 +47,19 @@
       "heat": 89
     },
     {
+      "name": "多模态",
+      "count": 12,
+      "heat": 90
+    },
+    {
       "name": "人工智能动态",
       "count": 13,
-      "heat": 82
+      "heat": 81
     },
     {
       "name": "端侧智能",
-      "count": 8,
-      "heat": 82
+      "count": 10,
+      "heat": 85
     },
     {
       "name": "机器人",
@@ -112,7 +112,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 2,
+      "displayedCount": 1,
       "latestFetchedAt": "2026-11-13T20:47:18.000Z",
       "latestDisplayedAt": "2026-11-13T20:47:18.000Z"
     },
@@ -193,8 +193,8 @@
       "fallbackReason": "",
       "itemCount": 8,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-11-18T18:53:43.000Z",
-      "latestDisplayedAt": "2026-11-18T18:53:43.000Z"
+      "latestFetchedAt": "2026-11-18T19:54:56.000Z",
+      "latestDisplayedAt": "2026-11-18T19:54:56.000Z"
     },
     {
       "id": "techcrunch-ai",
@@ -208,9 +208,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 7,
-      "latestFetchedAt": "2026-11-18T18:04:05.000Z",
-      "latestDisplayedAt": "2026-11-18T18:04:05.000Z"
+      "displayedCount": 8,
+      "latestFetchedAt": "2026-11-18T19:56:39.000Z",
+      "latestDisplayedAt": "2026-11-18T19:56:39.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -241,8 +241,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-18T19:30:00.000Z",
-      "latestDisplayedAt": "2026-11-18T19:30:00.000Z"
+      "latestFetchedAt": "2026-11-18T19:40:36.000Z",
+      "latestDisplayedAt": "2026-11-18T19:40:36.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -396,10 +396,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 9,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-11-18T09:41:55.000Z",
       "latestDisplayedAt": "2026-11-18T09:41:55.000Z"
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 17,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-11-18T13:18:00.000Z",
       "latestDisplayedAt": "2026-11-18T13:18:00.000Z"
@@ -507,20 +507,54 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-面向英伟达",
-      "title": "面向英伟达？",
-      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+      "id": "techcrunch-ai-开发者构建借助人工智能助手克劳德模型代码和",
+      "title": "开发者构建借助人工智能助手克劳德模型代码和",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T19:56:39.000Z",
+      "summary": "在语言，和人工智能助手来自向。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
+      "title": "模型社区博客发布人工智能相关动态。",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-18T19:54:56.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-人工智能平台在",
+      "title": "人工智能平台在",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T19:30:00.000Z",
-      "summary": "$8，300 每个？英伟达。由时间，英伟达 $45，000 和。信息技术向在英伟达，公司只是首席执行官向序列 …",
+      "publishedAt": "2026-11-18T19:40:36.000Z",
+      "summary": "由五个在在，向本地新闻。作为，和，在，作为在 …",
       "topics": [
-        "算力芯片",
-        "多模态"
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 99,
+      "heat": 95,
       "image": ""
     },
     {
@@ -541,38 +575,6 @@
       "image": ""
     },
     {
-      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
-      "title": "模型社区博客发布人工智能相关动态。",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-18T18:53:43.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-谷歌人工智能功能在模式",
-      "title": "谷歌人工智能功能在模式",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T18:04:05.000Z",
-      "summary": "谷歌新用户在人工智能模式新增向未来。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 98,
-      "image": ""
-    },
-    {
       "id": "wired-ai-内部英伟达首个-机械手-和",
       "title": "内部英伟达首个，机械手: 和",
       "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
@@ -585,7 +587,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": "https://media.wired.com/photos/6afddee377c5562ae471019b/master/pass/GettyImages-2304258889.jpg"
     },
     {
@@ -603,7 +605,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -672,7 +674,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -718,7 +720,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-11-18T12:53:56.000Z",
-      "summary": "欧洲央行今日发布《2026年11月金融稳定评估报告》称，欧元区金融稳定前景正受到人工智能估值、财政失衡以及地缘经济紧张局势衍生风险的影响。欧洲央行副行长博里斯·武伊契奇表示：“受持续的地缘经济不确定性、以及人工智能相关风险敞口上升影响，欧元区金融稳定风险仍处于高位。银行抵御冲击的基础较好，但部分非银机构的脆弱性更为突出，风险持续累积，且宏观审慎防护机制尚不完善。”尽管遭遇能源……",
+      "summary": "欧洲央行今日发布《2026年11月金融稳定评估报告》称，欧元区金融稳定前景正受到人工智能估值、财政失衡以及地缘经济紧张局势衍生风险的影响。欧洲央行副行长博里斯·武伊契奇表示：“受持续的地缘经济不确定性、以及人工智能相关风险敞口上升影响，欧元区金融稳定风险仍处于高位。银行抵御冲击的基础较好，但部���非银机构的脆弱性更为突出，风险持续累积，且宏观审慎防护机制尚不完善。”尽管遭遇……",
       "topics": [
         "投融资"
       ],
@@ -821,7 +823,7 @@
         "研究论文",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -874,7 +876,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -910,19 +912,20 @@
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg"
     },
     {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+      "id": "the-verge-ai-面向英伟达",
+      "title": "面向英伟达？",
+      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T19:07:29.000Z",
-      "summary": "借助只是，立法者试图向新面向 2026，和平台用户来自。在，呼吁面向面向 …",
+      "publishedAt": "2026-11-18T19:30:00.000Z",
+      "summary": "$8，300 每个？英伟达。由时间，英伟达 $45，000 和。信息技术向在英伟达，公司只是首席执行官向序列 …",
       "topics": [
-        "监管安全"
+        "算力芯片",
+        "多模态"
       ],
-      "heat": 90,
+      "heat": 99,
       "image": ""
     },
     {
@@ -944,19 +947,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-客户人工智能智能体在",
-      "title": "客户人工智能智能体在",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "id": "techcrunch-ai-谷歌人工智能功能在模式",
+      "title": "谷歌人工智能功能在模式",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T17:32:10.000Z",
-      "summary": "重要向设置在人工智能智能体。",
+      "publishedAt": "2026-11-18T18:04:05.000Z",
+      "summary": "谷歌新用户在人工智能模式新增向未来。",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
-      "heat": 89,
+      "heat": 97,
       "image": ""
     },
     {
@@ -989,7 +992,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://media.wired.com/photos/6afcfb207b0def85d03dac43/master/pass/Thomas-Nagel-QandA-Business.jpg"
     },
     {
@@ -1137,7 +1140,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1155,7 +1158,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1173,7 +1176,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1226,7 +1229,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1242,7 +1245,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp"
     },
     {
@@ -1280,35 +1283,19 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg"
     },
     {
-      "id": "google-research-向风险性能分析面向",
-      "title": "向风险性能分析面向",
-      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-      "source": "谷歌研究院",
-      "sourceId": "google-research",
-      "sourceType": "research",
-      "language": "zh",
-      "publishedAt": "2026-11-11T19:54:00.000Z",
-      "summary": "来自谷歌研究院的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "研究论文"
-      ],
-      "heat": 52,
-      "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png"
-    },
-    {
-      "id": "the-verge-ai-英伟达人工智能在",
-      "title": "英伟达人工智能在？",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T18:34:15.000Z",
-      "summary": "人工智能在顺利，人工智能作为作为向。面向，真相，首席执行官 …",
+      "publishedAt": "2026-11-18T19:07:29.000Z",
+      "summary": "借助只是，立法者试图向新面向 2026，和平台用户来自。在，呼吁面向面向 …",
       "topics": [
-        "算力芯片"
+        "监管安全"
       ],
-      "heat": 97,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1330,17 +1317,17 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-未来人工智能-呼吁",
-      "title": "未来人工智能，呼吁",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+      "id": "techcrunch-ai-客户人工智能智能体在",
+      "title": "客户人工智能智能体在",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T16:59:00.000Z",
-      "summary": "和人工智能，高级模型控制。",
+      "publishedAt": "2026-11-18T17:32:10.000Z",
+      "summary": "重要向设置在人工智能智能体。",
       "topics": [
-        "模型发布"
+        "产品应用"
       ],
       "heat": 89,
       "image": ""
@@ -1408,7 +1395,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1477,7 +1464,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1528,7 +1515,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1562,7 +1549,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1633,20 +1620,35 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-新借助人工智能",
-      "title": "新借助人工智能",
-      "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "id": "the-verge-ai-英伟达人工智能在",
+      "title": "英伟达人工智能在？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T17:50:57.000Z",
-      "summary": "作为高级和作为在成为，向和，帮助。作为 & 新音频，原型在亚马逊 …",
+      "publishedAt": "2026-11-18T18:34:15.000Z",
+      "summary": "人工智能在顺利，人工智能作为作为向。面向，真相，首席执行官 …",
       "topics": [
-        "产品应用",
-        "多模态"
+        "算力芯片"
       ],
-      "heat": 94,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-未来人工智能-呼吁",
+      "title": "未来人工智能，呼吁",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T16:59:00.000Z",
+      "summary": "和人工智能，高级模型控制。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 88,
       "image": ""
     },
     {
@@ -1668,22 +1670,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司首席执行官信息技术向人工智能",
-      "title": "开放人工智能公司首席执行官信息技术向人工智能",
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T16:14:09.000Z",
-      "summary": "英伟达和首席执行官，借助中国。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 96,
-      "image": ""
-    },
-    {
       "id": "the-decoder-99-作为人工智能-生成-由作者",
       "title": "99 作为人工智能，生成，由作者",
       "url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
@@ -1696,7 +1682,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1762,7 +1748,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1796,7 +1782,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1863,7 +1849,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1948,6 +1934,39 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp"
     },
     {
+      "id": "the-verge-ai-新借助人工智能",
+      "title": "新借助人工智能",
+      "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T17:50:57.000Z",
+      "summary": "作为高级和作为在成为，向和，帮助。作为 & 新音频，原型在亚马逊 …",
+      "topics": [
+        "产品应用",
+        "多模态"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-开放人工智能公司首席执行官信息技术向人工智能",
+      "title": "开放人工智能公司首席执行官信息技术向人工智能",
+      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T16:14:09.000Z",
+      "summary": "英伟达和首席执行官，借助中国。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "the-decoder-人工智能安全公司-开放人工智能公司-和谷歌模型-和作为",
       "title": "人工智能安全公司，开放人工智能公司，和谷歌模型，和作为",
       "url": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
@@ -1961,24 +1980,6 @@
         "模型发布",
         "产品应用",
         "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-人工智能-芯片公司",
-      "title": "人工智能？芯片公司",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T15:44:02.000Z",
-      "summary": "开放人工智能公司训练人工智能智能体意外和模型和安全。在，人工智能安全公司首席执行官呼吁面向在最人工智能模型，使用 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
       ],
       "heat": 99,
       "image": ""
@@ -1999,22 +2000,6 @@
         "投融资"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-英伟达信息技术-和-持续",
-      "title": "英伟达信息技术，和，持续",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T13:00:00.000Z",
-      "summary": "英伟达数据中心，信息技术在和构建，借助英伟达，首席执行官解释。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 93,
       "image": ""
     },
     {
@@ -2130,7 +2115,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2147,7 +2132,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2183,7 +2168,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/master/pass/WWF-Clement-Delangue-1.jpg"
     },
     {
@@ -2239,6 +2224,24 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-人工智能-芯片公司",
+      "title": "人工智能？芯片公司",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T15:44:02.000Z",
+      "summary": "开放人工智能公司训练人工智能智能体意外和模型和安全。在，人工智能安全公司首席执行官呼吁面向在最人工智能模型，使用 …",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-数毛社实测-6-版-稳定-30-帧-掉帧明显",
       "title": "数毛社实测《 6》 版：稳定 30 帧，掉帧明显",
       "url": "https://www.ithome.com/1/029/118.htm",
@@ -2252,7 +2255,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2273,19 +2276,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-使用人工智能向",
-      "title": "使用人工智能向",
-      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
+      "id": "techcrunch-ai-英伟达信息技术-和-持续",
+      "title": "英伟达信息技术，和，持续",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T14:00:00.000Z",
-      "summary": "和，在新，和信息技术构建人工智能。新，在，呼吁，信息技术，新向探索创建在。…",
+      "publishedAt": "2026-11-18T13:00:00.000Z",
+      "summary": "英伟达数据中心，信息技术在和构建，借助英伟达，首席执行官解释。",
       "topics": [
-        "人工智能动态"
+        "算力芯片"
       ],
-      "heat": 86,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2306,25 +2309,8 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-7-5-百万在人工智能向企业由人工智能智能体",
-      "title": "$7.5 百万在人工智能向企业由人工智能智能体",
-      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T12:00:00.000Z",
-      "summary": "借助团队只是，人工智能向借助和创业公司在人工智能。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 90,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-英伟达扩大芯片供应链合作-数十亿美元支持矽品精密扩产",
-      "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
+      "id": "thirty-six-kr-英伟达扩大芯片供应链合作-数十亿美元支持矽品-密扩产",
+      "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品���密扩产",
       "url": "https://36kr.com/newsflashes/4075208479495047?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
@@ -2335,7 +2321,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2370,7 +2356,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2403,7 +2389,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2421,7 +2407,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2472,7 +2458,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": "https://media.wired.com/photos/6afb9fde88d847b7d226d42b/master/pass/AI-Told-Ex-Google-Guys-How-to-Build-Billion-Dollar-Weapons-BusinessDAAS3.png"
     },
     {
@@ -2563,35 +2549,34 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-英伟达人工智能芯片向",
-      "title": "英伟达人工智能芯片向",
-      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "id": "the-verge-ai-使用人工智能向",
+      "title": "使用人工智能向",
+      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T13:01:05.000Z",
-      "summary": "英伟达高级人工智能芯片向信息技术来自向在。由英伟达首席执行官呼吁在，面向公司，首席执行官，…",
+      "publishedAt": "2026-11-18T14:00:00.000Z",
+      "summary": "和，在新，和信息技术构建人工智能。新，在，呼吁，信息技术，新向探索创建在。…",
       "topics": [
-        "产品应用",
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 98,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-实验室-47-百万向机器人公司数据",
-      "title": "实验室 $47 百万向机器人公司数据",
-      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "id": "techcrunch-ai-7-5-百万在人工智能向企业由人工智能智能体",
+      "title": "$7.5 百万在人工智能向企业由人工智能智能体",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T11:30:00.000Z",
-      "summary": "在，实验室借助创业公司作为人工智能和，借助关于 90% 即将推出来自。",
+      "publishedAt": "2026-11-18T12:00:00.000Z",
+      "summary": "借助团队只是，人工智能向借助和创业公司在人工智能。",
       "topics": [
-        "投融资",
-        "机器人"
+        "产品应用",
+        "投融资"
       ],
       "heat": 89,
       "image": ""
@@ -2611,7 +2596,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2696,7 +2681,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2794,7 +2779,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2816,19 +2801,37 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能视频面向人工智能",
-      "title": "人工智能视频面向人工智能",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "id": "the-verge-ai-英伟达人工智能芯片向",
+      "title": "英伟达人工智能芯片向",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T11:16:53.000Z",
-      "summary": "图像和视频生成在向扩展人工智能平台。新功能，呼吁，用户向转化进入人工智能，生成视频向，图像使用作为和。…",
+      "publishedAt": "2026-11-18T13:01:05.000Z",
+      "summary": "英伟达高级人工智能芯片向信息技术来自向在。由英伟达首席执行官呼吁在，面向公司，首席执行官，…",
       "topics": [
-        "多模态"
+        "产品应用",
+        "算力芯片"
       ],
-      "heat": 83,
+      "heat": 97,
+      "image": ""
+    },
+    {
+      "id": "techcrunch-ai-实验室-47-百万向机器人公司数据",
+      "title": "实验室 $47 百万向机器人公司数据",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T11:30:00.000Z",
+      "summary": "在，实验室借助创业公司作为人工智能和，借助关于 90% 即将推出来自。",
+      "topics": [
+        "投融资",
+        "机器人"
+      ],
+      "heat": 89,
       "image": ""
     },
     {
