@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-11-19T11:38:12.361Z",
+  "generatedAt": "2026-11-19T12:08:17.609Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-19T12:00:00.000Z",
+  "nextUpdateHint": "2026-11-19T12:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-19T11:18:18.000Z"
+    "latestPublishedAt": "2026-11-19T12:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 81,
+      "count": 80,
       "heat": 81
     },
     {
       "name": "模型发布",
       "count": 54,
-      "heat": 86
+      "heat": 85
     },
     {
       "name": "算力芯片",
-      "count": 24,
+      "count": 23,
       "heat": 89
+    },
+    {
+      "name": "监管安全",
+      "count": 19,
+      "heat": 88
     },
     {
       "name": "研究论文",
@@ -32,29 +37,24 @@
       "heat": 88
     },
     {
-      "name": "监管安全",
-      "count": 18,
-      "heat": 87
-    },
-    {
       "name": "人工智能动态",
-      "count": 18,
-      "heat": 79
+      "count": 19,
+      "heat": 78
     },
     {
       "name": "投融资",
       "count": 11,
-      "heat": 93
+      "heat": 92
     },
     {
       "name": "开源生态",
-      "count": 13,
-      "heat": 75
+      "count": 12,
+      "heat": 76
     },
     {
       "name": "多模态",
       "count": 10,
-      "heat": 85
+      "heat": 84
     },
     {
       "name": "端侧智能",
@@ -63,8 +63,8 @@
     },
     {
       "name": "机器人",
-      "count": 6,
-      "heat": 82
+      "count": 5,
+      "heat": 79
     }
   ],
   "sources": [
@@ -144,7 +144,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 8,
+      "displayedCount": 7,
       "latestFetchedAt": "2026-11-19T08:27:16.000Z",
       "latestDisplayedAt": "2026-11-19T08:27:16.000Z"
     },
@@ -288,9 +288,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 5,
-      "latestFetchedAt": "2026-11-19T10:00:00.000Z",
-      "latestDisplayedAt": "2026-11-19T10:00:00.000Z"
+      "displayedCount": 6,
+      "latestFetchedAt": "2026-11-19T12:00:00.000Z",
+      "latestDisplayedAt": "2026-11-19T12:00:00.000Z"
     },
     {
       "id": "towards-data-science",
@@ -305,8 +305,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-11-18T16:30:00.000Z",
-      "latestDisplayedAt": "2026-11-18T16:30:00.000Z"
+      "latestFetchedAt": "2026-11-19T12:00:00.000Z",
+      "latestDisplayedAt": "2026-11-19T12:00:00.000Z"
     },
     {
       "id": "hacker-news-ai",
@@ -334,7 +334,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 404",
+      "fallbackReason": "HTTP 429",
       "itemCount": 6,
       "displayedCount": 6,
       "latestFetchedAt": "2026-11-17T17:23:45.000Z",
@@ -415,7 +415,7 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 17,
+      "itemCount": 16,
       "displayedCount": 8,
       "latestFetchedAt": "2026-11-19T09:08:00.000Z",
       "latestDisplayedAt": "2026-11-19T09:08:00.000Z"
@@ -481,14 +481,47 @@
       "fallbackReason": "",
       "itemCount": 15,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-19T07:33:00.000Z",
-      "latestDisplayedAt": "2026-11-19T07:33:00.000Z"
+      "latestFetchedAt": "2026-11-19T07:42:00.000Z",
+      "latestDisplayedAt": "2026-11-19T07:42:00.000Z"
     }
   ],
   "failures": [
     "hacker-news-ai: HTTP 419"
   ],
   "items": [
+    {
+      "id": "wired-ai-人工智能安全公司首次公开募股高亮人工智能",
+      "title": "人工智能安全公司首次公开募股高亮人工智能",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "summary": "$107 十亿公司人工智能安全和迈向数据中心。",
+      "topics": [
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": "https://media.wired.com/photos/6afdeccab8b6cf0d23988257/master/pass/Anthropic-IPO-Business-2297744238.jpg"
+    },
+    {
+      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
+      "title": "数据科学实战社区发布人工智能相关动态。",
+      "url": "https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T12:00:00.000Z",
+      "summary": "为什么，和企业，和来自指标。企业首个在数据科学实战社区。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
     {
       "id": "the-decoder-谷歌人工智能模型更快-和更智能来自只是",
       "title": "谷歌人工智能模型更快，和更智能来自只是",
@@ -537,7 +570,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -555,22 +588,6 @@
       ],
       "heat": 94,
       "image": ""
-    },
-    {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/shiftkey-gig-nursing/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T10:00:00.000Z",
-      "summary": "护理向向和，连线杂志和新闻。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 88,
-      "image": "https://media.wired.com/photos/6afe3417809613f3f77a2776/master/pass/Gig%20Nurses%20v2.jpg"
     },
     {
       "id": "leiphone-谷歌杀入核心赛道-双子座模型-1-五项基准领先两项落后",
@@ -604,7 +621,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -620,23 +637,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
-      "id": "cnblogs-news-腾讯不佛了-每天砸7亿-全力搞人工智能",
-      "title": "腾讯不佛了：每天砸7亿，全力搞人工智能",
-      "url": "https://news.cnblogs.com/n/846378/",
+      "id": "cnblogs-news-人工智能伴侣的孤独陷阱",
+      "title": "人工智能伴侣的孤独陷阱",
+      "url": "https://news.cnblogs.com/n/846379/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T07:33:00.000Z",
-      "summary": "文，定焦 （）原创，作者，金玙璠，编辑，魏佳 11 月 16 日，腾讯内部沟通会上，腾讯管理层抛出一系列判断：“浪已经杀过来了”；“现在进行的智能革命如果不投入拥抱，就是被颠覆，这是一个生死存亡的问题”。这些话听起来有很强的紧迫感，但资本市场最终得看你钱花到哪本文链接",
+      "publishedAt": "2026-11-19T07:42:00.000Z",
+      "summary": "文，猫头鹰科技社一个 24 小时在线、永远温柔、从不拒绝你的人工智能伴侣，听起来似乎是缓解孤独的完美方案。然而，这可能只是一种违反直觉的幻觉。2026 年 8 月 4 日，美国斯坦福大学杨迪一（ ）团队在《自然·人类行为》（ ）发表了本文链接",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -669,7 +686,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -685,7 +702,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -702,7 +719,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -738,7 +755,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -758,24 +775,6 @@
       ],
       "heat": 96,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "towards-data-science-人工智能智能体成为工具面向-和向信息技术",
-      "title": "人工智能智能体成为工具面向，和向信息技术",
-      "url": "https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T16:30:00.000Z",
-      "summary": "安全人工智能，部件 1:，来自，和为什么智能体模型数据。人工智能智能体成为工具面向，和向信息技术首个在数据科学实战社区。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 83,
-      "image": ""
     },
     {
       "id": "mit-tech-review-ai-人工智能-人工智能",
@@ -826,7 +825,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -842,7 +841,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png"
     },
     {
@@ -860,7 +859,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 68,
+      "heat": 67,
       "image": ""
     },
     {
@@ -942,7 +941,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -963,6 +962,22 @@
       "image": ""
     },
     {
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/shiftkey-gig-nursing/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T10:00:00.000Z",
+      "summary": "护理向向和，连线杂志和新闻。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 88,
+      "image": "https://media.wired.com/photos/6afe3417809613f3f77a2776/master/pass/Gig%20Nurses%20v2.jpg"
+    },
+    {
       "id": "the-decoder-模型百万面向-130-作为成本在-18",
       "title": "模型百万面向 $130 作为成本在 18",
       "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
@@ -976,7 +991,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -998,17 +1013,17 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-这届高校学生-为何选择用鸿蒙创新",
-      "title": "这届高校学生，为何选择用鸿蒙创新？",
-      "url": "https://news.cnblogs.com/n/846376/",
+      "id": "cnblogs-news-腾讯不佛了-每天砸7亿-全力搞人工智能",
+      "title": "腾讯不佛了：每天砸7亿，全力搞人工智能",
+      "url": "https://news.cnblogs.com/n/846378/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T07:18:00.000Z",
-      "summary": "在人工智能编码工具与智能体技术快速普及的今天，软件开发的门槛正在发生微妙的变化。当编写代码不再是计算机专业学生的专属技能，越来越多来自设计、物理、统计等不同学科的年轻人，开始尝试亲手将脑海里的设想变成可运行的应用。一个随之而来的问题是：当技术实现不再构成绝对阻碍，这届大学生最想用代码解决什么问题？本文链接",
+      "publishedAt": "2026-11-19T07:33:00.000Z",
+      "summary": "文，定焦 （）原创，作者，金玙璠，编辑，魏佳 11 月 16 日，腾讯内部沟通会上，腾讯管理层抛出一系列判断：“浪已经杀过来了”；“现在进行的智能革命如果不投入拥抱，就是被颠覆，这是一个生死存亡的问题”。这些话听起来有很强的紧迫感，但资本市场最终得看你钱花到哪本文链接",
       "topics": [
-        "产品应用"
+        "人工智能动态"
       ],
       "heat": 82,
       "image": ""
@@ -1026,7 +1041,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1043,7 +1058,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1061,23 +1076,6 @@
       ],
       "heat": 81,
       "image": ""
-    },
-    {
-      "id": "wired-ai-美国人工智能芯片在",
-      "title": "美国人工智能芯片在",
-      "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T21:15:00.000Z",
-      "summary": "宣布向在访问向人工智能芯片。",
-      "topics": [
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 82,
-      "image": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/master/pass/AI-Lab-US-Chip-War-Business.jpg"
     },
     {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
@@ -1128,7 +1126,25 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "towards-data-science-人工智能智能体成为工具面向-和向信息技术",
+      "title": "人工智能智能体成为工具面向，和向信息技术",
+      "url": "https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/",
+      "source": "数据科学实战社区",
+      "sourceId": "towards-data-science",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T16:30:00.000Z",
+      "summary": "安全人工智能，部件 1:，来自，和为什么智能体模型数据。人工智能智能体成为工具面向，和向信息技术首个在数据科学实战社区。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 82,
       "image": ""
     },
     {
@@ -1144,23 +1160,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 74,
-      "image": ""
-    },
-    {
-      "id": "towards-data-science-智能体解释-借助在",
-      "title": "智能体解释，借助在",
-      "url": "https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/",
-      "source": "数据科学实战社区",
-      "sourceId": "towards-data-science",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T15:00:00.000Z",
-      "summary": "来自，智能体，和亚马逊，向。智能体解释，借助在首个在数据科学实战社区。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 72,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1193,7 +1193,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1210,7 +1210,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -1330,7 +1330,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1352,19 +1352,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-相关型号刚发布即遭大量差评-实测后我觉得它有点冤",
-      "title": "相关型号刚发布即遭大量差评，实测后我觉得它有点冤",
-      "url": "https://news.cnblogs.com/n/846374/",
+      "id": "cnblogs-news-这届高校学生-为何选择用鸿蒙创新",
+      "title": "这届高校学生，为何选择用鸿蒙创新？",
+      "url": "https://news.cnblogs.com/n/846376/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T07:00:00.000Z",
-      "summary": "开放人工智能公司可能没想到，自己精心准备的新模型，刚刚发布就迎来了一场颇为热闹的舆论风波。今天凌晨，开放人工智能公司正式发布相关型号和相关型号，主打更强的专业工作能力、更高的词元效率，以及进一步降低的使用成本。按照官方公布的成绩，新模型在编程、科研、专本文链接",
+      "publishedAt": "2026-11-19T07:18:00.000Z",
+      "summary": "在人工智能编码工具与智能体技术快速普及的今天，软件开发的门槛正在发生微妙的变化。当编写代码不再是计算机专业学生的专属技能，越来越多来自设计、物理、统计等不同学科的年轻人，开始尝试亲手将脑海里的设想变成可运行的应用。一个随之而来的问题是：当技术实现不再构成绝对阻碍，这届大学生最想用代码解决什么问题？本文链接",
       "topics": [
-        "模型发布"
+        "产品应用"
       ],
-      "heat": 90,
+      "heat": 82,
       "image": ""
     },
     {
@@ -1380,7 +1380,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1396,7 +1396,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1413,8 +1413,25 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
+    },
+    {
+      "id": "wired-ai-美国人工智能芯片在",
+      "title": "美国人工智能芯片在",
+      "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T21:15:00.000Z",
+      "summary": "宣布向在访问向人工智能芯片。",
+      "topics": [
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 82,
+      "image": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/master/pass/AI-Lab-US-Chip-War-Business.jpg"
     },
     {
       "id": "the-decoder-谷歌交付双子座模型-4-新双子座模型模型在月",
@@ -1449,7 +1466,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1488,35 +1505,19 @@
       "image": ""
     },
     {
-      "id": "wired-ai-只是-在人工智能",
-      "title": "只是 : 在人工智能",
-      "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-18T15:02:40.000Z",
-      "summary": "在在 ;，百万，美元面向向。和在人工智能。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 72,
-      "image": "https://media.wired.com/photos/6afcfb207b0def85d03dac43/master/pass/Thomas-Nagel-QandA-Business.jpg"
-    },
-    {
-      "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
-      "title": "数据科学实战社区发布人工智能相关动态。",
-      "url": "https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/",
+      "id": "towards-data-science-智能体解释-借助在",
+      "title": "智能体解释，借助在",
+      "url": "https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/",
       "source": "数据科学实战社区",
       "sourceId": "towards-data-science",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-18T12:00:00.000Z",
-      "summary": "借助 200 和没有修复面向。向首个在数据科学实战社区。",
+      "publishedAt": "2026-11-18T15:00:00.000Z",
+      "summary": "来自，智能体，和亚马逊，向。智能体解释，借助在首个在数据科学实战社区。",
       "topics": [
         "产品应用"
       ],
-      "heat": 69,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1532,7 +1533,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1549,7 +1550,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1565,7 +1566,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -1704,19 +1705,19 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-即梦-2-5-大升级-人工智能视频生成终于有了自己的相关型号生产线",
-      "title": "即梦 2.5 大升级，人工智能视频生成终于有了自己的相关型号生产线",
-      "url": "https://news.cnblogs.com/n/846373/",
+      "id": "cnblogs-news-相关型号刚发布即遭大量差评-实测后我觉得它有点冤",
+      "title": "相关型号刚发布即遭大量差评，实测后我觉得它有点冤",
+      "url": "https://news.cnblogs.com/n/846374/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T06:50:00.000Z",
-      "summary": "影像江湖的金字塔尖，永远有大银幕的一席之地。所以判断一门影像手艺成没成，有个简单粗暴的试金石：敢不敢上大银幕。胶片当年闯过这关，数字摄影机也闯过，三维动画同样闯过，每闯过一关，就意味着一项新技术拿到了成熟影像工业的入场券。过去两年，人工智能视频生成你方唱罢我登场，一个比一个惊艳，可真正到了商业制作本文链接",
+      "publishedAt": "2026-11-19T07:00:00.000Z",
+      "summary": "开放人工智能公司可能没想到，自己精心准备的新模型，刚刚发布就迎来了一场颇为热闹的舆论风波。今天凌晨，开放人工智能公司正式发布相关型号和相关型号，主打更强的专业工作能力、更高的词元效率，以及进一步降低的使用成本。按照官方公布的成绩，新模型在编程、科研、专本文链接",
       "topics": [
-        "多模态"
+        "模型发布"
       ],
-      "heat": 82,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1767,7 +1768,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1784,7 +1785,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1802,7 +1803,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1842,6 +1843,22 @@
       "image": ""
     },
     {
+      "id": "wired-ai-只是-在人工智能",
+      "title": "只是 : 在人工智能",
+      "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-18T15:02:40.000Z",
+      "summary": "在在 ;，百万，美元面向向。和在人工智能。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 71,
+      "image": "https://media.wired.com/photos/6afcfb207b0def85d03dac43/master/pass/Thomas-Nagel-QandA-Business.jpg"
+    },
+    {
       "id": "openai-news-人工智能风险-来自训练向",
       "title": "人工智能风险: 来自训练向",
       "url": "https://openai.com/index/managing-frontier-ai-risk",
@@ -1870,7 +1887,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": ""
     },
     {
@@ -1922,24 +1939,6 @@
       "image": ""
     },
     {
-      "id": "wired-ai-智能体公司-为什么-é-关于人工智能",
-      "title": "智能体公司。为什么 é 关于人工智能？",
-      "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-17T11:00:00.000Z",
-      "summary": "首席执行官，平台打开，来源人工智能软件，由开放人工智能公司模型 : 人工智能由。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 67,
-      "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/master/pass/WWF-Clement-Delangue-1.jpg"
-    },
-    {
       "id": "mit-tech-review-ai-构建人工智能由信息技术在-信息技术",
       "title": "构建人工智能由信息技术在，信息技术",
       "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
@@ -1985,7 +1984,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2017,7 +2016,23 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
+      "image": ""
+    },
+    {
+      "id": "cnblogs-news-即梦-2-5-大升级-人工智能视频生成终于有了自己的相关型号生产线",
+      "title": "即梦 2.5 大升级，人工智能视频生成终于有了自己的相关型号生产线",
+      "url": "https://news.cnblogs.com/n/846373/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T06:50:00.000Z",
+      "summary": "影像江湖的金字塔尖，永远有大银幕的一席之地。所以判断一门影像手艺成没成，有个简单粗暴的试金石：敢不敢上大银幕。胶片当年闯过这关，数字摄影机也闯过，三维动画同样闯过，每闯过一关，就意味着一项新技术拿到了成熟影像工业的入场券。过去两年，人工智能视频生成你方唱罢我登场，一个比一个惊艳，可真正到了商业制作本文链接",
+      "topics": [
+        "多模态"
+      ],
+      "heat": 81,
       "image": ""
     },
     {
@@ -2034,23 +2049,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-深度求索不限额的用法-都在这里了-附指南",
-      "title": "深度求索不限额的用法，都在这里了，附指南",
-      "url": "https://news.cnblogs.com/n/846371/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T06:31:00.000Z",
-      "summary": "深度求索，开始限制使用了。过去两天，越来越多人发现，自己用了快两年的免费深度求索，突然开始弹出「使用额度已达上限」。有人的长对话无法继续，有人聊了不到两个小时就触发限制。用户彻底怒了，甚至涌入应用商店给深度求索打下差评，并表示自己在深度求索聊天窗口里已经本文链接",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 90,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2083,7 +2082,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2118,7 +2117,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2206,21 +2205,22 @@
       "image": "https://external-preview.redd.it/k-t59KHtokB0jS1mt7QdPNdEhNagUKVvb47srH9BXbc.jpeg?width=640&crop=smart&auto=webp&s=f88bfaf29ea1780f7fe0df9350db83393df94a9d"
     },
     {
-      "id": "wired-ai-人工智能-谷歌向构建十亿-美元武器企业",
-      "title": "人工智能，谷歌向构建十亿，美元武器企业",
-      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+      "id": "wired-ai-智能体公司-为什么-é-关于人工智能",
+      "title": "智能体公司。为什么 é 关于人工智能？",
+      "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-17T10:47:45.000Z",
-      "summary": "谷歌和苹果和软件公司和向致命。",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "summary": "首席执行官，平台打开，来源人工智能软件，由开放人工智能公司模型 : 人工智能由。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "端侧智能"
+        "开源生态"
       ],
-      "heat": 62,
-      "image": "https://media.wired.com/photos/6afb9fde88d847b7d226d42b/master/pass/AI-Told-Ex-Google-Guys-How-to-Build-Billion-Dollar-Weapons-BusinessDAAS3.png"
+      "heat": 67,
+      "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/master/pass/WWF-Clement-Delangue-1.jpg"
     },
     {
       "id": "mit-tech-review-ai-构建人工智能企业",
@@ -2293,6 +2293,22 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-深度求索不限额的用法-都在这里了-附指南",
+      "title": "深度求索不限额的用法，都在这里了，附指南",
+      "url": "https://news.cnblogs.com/n/846371/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T06:31:00.000Z",
+      "summary": "深度求索，开始限制使用了。过去两天，越来越多人发现，自己用了快两年的免费深度求索，突然开始弹出「使用额度已达上限」。有人的长对话无法继续，有人聊了不到两个小时就触发限制。用户彻底怒了，甚至涌入应用商店给深度求索打下差评，并表示自己在深度求索聊天窗口里已经本文链接",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 89,
+      "image": ""
+    },
+    {
       "id": "leiphone-百图生科正式发布人工智能药物安全性评价系统-从虚拟细胞走向虚拟猴-为药物研发带来全新助力",
       "title": "百图生科正式发布人工智能药物安全性评价系统，从虚拟细胞走向虚拟猴，为药物研发带来全新助力",
       "url": "https://www.leiphone.com/category/industrynews/UlpahlWOHi0OeI7Y.html",
@@ -2308,23 +2324,6 @@
         "监管安全"
       ],
       "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-深度实测相关型号-强是真强-难用也是真难用",
-      "title": "深度实测相关型号：强是真强，难用也是真难用",
-      "url": "https://news.cnblogs.com/n/846370/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T06:22:00.000Z",
-      "summary": "就在今天，开放人工智能公司正式发布了新一代旗舰模型相关型号，以及主打性价比的相关型号。从官方公布的成绩来看，相关型号在专业智能体任务上反超克劳德模型 5.2，完成同等任务的综合成本却只有后者的 5%，堪称一次漂亮的反击。本文链接",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 95,
       "image": ""
     },
     {
@@ -2390,7 +2389,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2406,7 +2405,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2474,7 +2473,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 58,
+      "heat": 57,
       "image": ""
     },
     {
@@ -2494,6 +2493,23 @@
       ],
       "heat": 99,
       "image": ""
+    },
+    {
+      "id": "wired-ai-人工智能-谷歌向构建十亿-美元武器企业",
+      "title": "人工智能，谷歌向构建十亿，美元武器企业",
+      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-17T10:47:45.000Z",
+      "summary": "谷歌和苹果和软件公司和向致命。",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 62,
+      "image": "https://media.wired.com/photos/6afb9fde88d847b7d226d42b/master/pass/AI-Told-Ex-Google-Guys-How-to-Build-Billion-Dollar-Weapons-BusinessDAAS3.png"
     },
     {
       "id": "huggingface-blog-构建机器人-和-仿真借助",
@@ -2545,6 +2561,23 @@
       "image": ""
     },
     {
+      "id": "cnblogs-news-深度实测相关型号-强是真强-难用也是真难用",
+      "title": "深度实测相关型号：强是真强，难用也是真难用",
+      "url": "https://news.cnblogs.com/n/846370/",
+      "source": "博客园新闻",
+      "sourceId": "cnblogs-news",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T06:22:00.000Z",
+      "summary": "就在今天，开放人工智能公司正式发布了新一代旗舰模型相关型号，以及主打性价比的相关型号。从官方公布的成绩来看，相关型号在专业智能体任务上反超克劳德模型 5.2，完成同等任务的综合成本却只有后者的 5%，堪称一次漂亮的反击。本文链接",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 94,
+      "image": ""
+    },
+    {
       "id": "oschina-拾趣-第0代-1-23-发布-新增应用-学单词背英语一键导入",
       "title": "🔥 拾趣 () 第0代.1.23 发布：新增应用，学单词背英语一键导入",
       "url": "https://www.oschina.net/news/503662",
@@ -2559,23 +2592,6 @@
         "多模态"
       ],
       "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "cnblogs-news-5-2开卷80-闭卷仅47-最强编程智能体遇上机器人难题",
-      "title": "5.2开卷80%，闭卷仅47%！最强编程智能体遇上机器人难题",
-      "url": "https://news.cnblogs.com/n/846369/",
-      "source": "博客园新闻",
-      "sourceId": "cnblogs-news",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T06:11:00.000Z",
-      "summary": "新智元报道编程智能体已经能在数字世界完成复杂任务。借助编程接口，它们也可以指挥物理世界中的机器人。但机器人任务和软件任务有本质不同：智能体只能通过传感器了解环境，动作做出去往往无法撤回，环境也不会停下来等它思考。于是有一个基础问题：通用编程智能体能完成哪些机器人任务？在哪些物理约束下能完成本文链接",
-      "topics": [
-        "产品应用",
-        "机器人"
-      ],
-      "heat": 86,
       "image": ""
     },
     {
@@ -2641,7 +2657,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2730,21 +2746,20 @@
       "image": ""
     },
     {
-      "id": "cnblogs-news-英伟达首次联手押注-完成第一轮融资融资-估值超230亿",
-      "title": "英伟达首次联手押注！完成第一轮融资融资，估值超230亿",
-      "url": "https://news.cnblogs.com/n/846368/",
+      "id": "cnblogs-news-5-2开卷80-闭卷仅47-最强编程智能体遇上机器人难题",
+      "title": "5.2开卷80%，闭卷仅47%！最强编程智能体遇上机器人难题",
+      "url": "https://news.cnblogs.com/n/846369/",
       "source": "博客园新闻",
       "sourceId": "cnblogs-news",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T06:04:00.000Z",
-      "summary": "发自凹非寺量子位|公众号刚刚，美国具身智能公司人工智能，完成了一笔新融资——5 亿美金第一轮融资，投后估值来到 35 亿美金。投资方阵容也是相当豪华：英伟达、前谷歌首席执行官、创始人袁征、雅虎创始人本文链接",
+      "publishedAt": "2026-11-19T06:11:00.000Z",
+      "summary": "新智元报道编程智能体已经能在数字世界完成复杂任务。借助编程接口，它们也可以指挥物理世界中的机器人。但机器人任务和软件任务有本质不同：智能体只能通过传感器了解环境，动作做出去往往无法撤回，环境也不会停下来等它思考。于是有一个基础问题：通用编程智能体能完成哪些机器人任务？在哪些物理约束下能完成本文链接",
       "topics": [
-        "算力芯片",
-        "投融资",
+        "产品应用",
         "机器人"
       ],
-      "heat": 99,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2831,24 +2846,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-代码托管平台智能编程助手应用-微软发布",
-      "title": "代码托管平台智能编程助手应用，微软发布",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "source": "代码托管平台更新日志",
-      "sourceId": "github-changelog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-17T18:03:42.000Z",
-      "summary": "智能副驾最信息技术。代码托管平台智能编程助手应用支持，代码托管平台企业，和 … 代码托管平台智能编程助手应用，微软发布首个在代码托管平台。",
-      "topics": [
-        "产品应用",
-        "开源生态"
-      ],
-      "heat": 61,
+      "heat": 90,
       "image": ""
     }
   ]
