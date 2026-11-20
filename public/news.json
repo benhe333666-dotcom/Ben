@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-11-20T12:40:35.872Z",
+  "generatedAt": "2026-11-20T13:10:56.277Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-20T13:00:00.000Z",
+  "nextUpdateHint": "2026-11-20T13:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-20T12:39:50.000Z"
+    "latestPublishedAt": "2026-11-20T12:54:34.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 74,
+      "count": 73,
       "heat": 79
     },
     {
       "name": "模型发布",
-      "count": 43,
+      "count": 44,
       "heat": 81
     },
     {
+      "name": "监管安全",
+      "count": 27,
+      "heat": 85
+    },
+    {
       "name": "研究论文",
-      "count": 26,
+      "count": 24,
       "heat": 87
     },
     {
-      "name": "监管安全",
-      "count": 26,
-      "heat": 84
-    },
-    {
       "name": "算力芯片",
-      "count": 23,
-      "heat": 84
+      "count": 22,
+      "heat": 83
     },
     {
       "name": "端侧智能",
-      "count": 19,
+      "count": 20,
       "heat": 86
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "多模态",
       "count": 11,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "开源生态",
@@ -64,7 +64,7 @@
     {
       "name": "机器人",
       "count": 8,
-      "heat": 81
+      "heat": 80
     }
   ],
   "sources": [
@@ -241,8 +241,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 7,
-      "latestFetchedAt": "2026-11-19T22:31:41.000Z",
-      "latestDisplayedAt": "2026-11-19T22:31:41.000Z"
+      "latestFetchedAt": "2026-11-20T12:30:47.000Z",
+      "latestDisplayedAt": "2026-11-20T12:30:47.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -396,9 +396,9 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-11-20T08:04:58.000Z",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 16,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-11-20T10:27:00.000Z",
       "latestDisplayedAt": "2026-11-20T10:27:00.000Z"
@@ -431,10 +431,10 @@
       "liveOk": true,
       "fallback": false,
       "fallbackReason": "",
-      "itemCount": 13,
+      "itemCount": 15,
       "displayedCount": 8,
-      "latestFetchedAt": "2026-11-20T12:39:50.000Z",
-      "latestDisplayedAt": "2026-11-20T12:39:50.000Z"
+      "latestFetchedAt": "2026-11-20T12:54:34.000Z",
+      "latestDisplayedAt": "2026-11-20T12:54:34.000Z"
     },
     {
       "id": "ithome",
@@ -490,19 +490,38 @@
   ],
   "items": [
     {
-      "id": "thirty-six-kr-多家概念股涨停-上市公司回应",
-      "title": "多家概念股涨停，上市公司回应",
-      "url": "https://36kr.com/newsflashes/4078082302481282?f=rss",
+      "id": "thirty-six-kr-美股大型科技股盘前普跌-人工智能安全公司跌超9",
+      "title": "美股大型科技股盘前普跌，人工智能安全公司跌超9%",
+      "url": "https://36kr.com/newsflashes/4078096790525063?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-20T12:39:50.000Z",
-      "summary": "概念掀涨停潮，超声电子、澳弘电子、中京电子、光华科技、满坤科技强势涨停。消息面上，11月18日，全球电子协会发布一份面向全行业的供应链警报：缺货正在从局部环节蔓延到成品板交付，汽车、工业、医疗、国防、通信等领域的客户都在面对更长的交期和更难拿到货的局面。对此，多家产业上市公司回应，下游需求整体上比较景气，供应是否出现短缺要看产品结构，与人工智能服务器领域相关的高端产品目前需求……",
+      "publishedAt": "2026-11-20T12:54:34.000Z",
+      "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，人工智能安全公司跌超9%，闪迪跌超6%，元宇宙平台公司跌超3%，英伟达、亚马逊、微软跌超2%，特斯拉跌超1%，谷歌跌0.57%，苹果涨0.15%。",
       "topics": [
+        "算力芯片",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-双子座模型和人工智能来自",
+      "title": "双子座模型和人工智能来自",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-20T12:30:47.000Z",
+      "summary": "向在安卓和苹果移动系统在向人工智能智能体来自用户和数据。人工智能构建进入在，向了解关于用户向隐私，…",
+      "topics": [
+        "模型发布",
+        "产品应用",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 99,
       "image": ""
     },
     {
@@ -636,7 +655,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": "https://media.wired.com/photos/6aff9b51715a3d6f512c8dee/master/pass/The-Boy-Who-Builds-Missiles-Business.jpg"
     },
     {
@@ -675,22 +694,6 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-苹果工程师向构建人工智能智能体",
-      "title": "苹果工程师向构建人工智能智能体",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T22:31:41.000Z",
-      "summary": "苹果在人工智能智能体任务面向，应用，代码，和呼吁服务。向由，苹果面向工程师向人工智能助手。…",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 78,
-      "image": ""
-    },
-    {
       "id": "google-research-谷歌研究院发布人工智能相关动态",
       "title": "谷歌研究院发布人工智能相关动态。",
       "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
@@ -721,7 +724,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-microsoft.png"
     },
     {
@@ -757,7 +760,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -840,7 +843,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
@@ -913,15 +916,15 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-人工智能安全公司美股盘前跌超10",
-      "title": "人工智能安全公司美股盘前跌超10%",
-      "url": "https://36kr.com/newsflashes/4078067142612097?f=rss",
+      "id": "thirty-six-kr-人工智能安全公司首次公开募股募集资金总额约为935亿美元",
+      "title": "人工智能安全公司首次公开募股募集资金总额约为935亿美元",
+      "url": "https://36kr.com/newsflashes/4078090882601862?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-20T12:24:25.000Z",
-      "summary": "36氪获悉，人工智能安全公司盘前跌幅扩大至10%，报87.5美元/股，较首次公开募股发行价83美元仅高出约5.4%。该股周四上市首日开盘报111.5美元，盘中一度冲高至115美元，收报97.17美元，较发行价上涨17.1%。按最新盘前报价计算，股价较首日开盘价已回落约21.5%，上市首日的涨幅基本回吐。",
+      "publishedAt": "2026-11-20T12:48:34.000Z",
+      "summary": "人工智能安全公司报告称首次公开募股已结束，承销商全额行使超额配售权，公司首次公开募股募集资金总额约为935亿美元。（财联社）",
       "topics": [
         "监管安全",
         "投融资"
@@ -943,7 +946,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1027,7 +1030,23 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 94,
+      "heat": 93,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-苹果工程师向构建人工智能智能体",
+      "title": "苹果工程师向构建人工智能智能体",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "summary": "苹果在人工智能智能体任务面向，应用，代码，和呼吁服务。向由，苹果面向工程师向人工智能助手。…",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 78,
       "image": ""
     },
     {
@@ -1045,7 +1064,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": "https://media.wired.com/photos/6afe24032a6a9296f65dbfa1/master/pass/Uncanny-Valley-FAA-Outage-Business.jpg"
     },
     {
@@ -1064,22 +1083,6 @@
         "监管安全"
       ],
       "heat": 94,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-元宇宙平台公司可能成本-300",
-      "title": "元宇宙平台公司可能成本 $300",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T20:22:17.000Z",
-      "summary": "元宇宙平台公司向，借助借助人工智能智能体，在 $300，向。首席执行官和公司向交付在时间面向在，…",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 76,
       "image": ""
     },
     {
@@ -1115,7 +1118,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1149,7 +1152,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp"
     },
     {
@@ -1165,7 +1168,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 72,
+      "heat": 71,
       "image": ""
     },
     {
@@ -1286,20 +1289,19 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-弘信电子-控股子公司签署7-45亿元算力技术服务协议",
-      "title": "弘信电子：控股子公司签署7.45亿元算力技术服务协议",
-      "url": "https://36kr.com/newsflashes/4078043095257989?f=rss",
+      "id": "thirty-six-kr-多家概念股涨停-上市公司回应",
+      "title": "多家概念股涨停，上市公司回应",
+      "url": "https://36kr.com/newsflashes/4078082302481282?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-20T12:19:48.000Z",
-      "summary": "36氪获悉，弘信电子公告，公司控股子公司无锡燧弘华创科技有限公司与客户公司签署《算力技术服务协议》，合同含税总金额为7.45亿元。无锡燧弘将向公司提供算力技术服务，服务期限至2028年1月29日。公司主要涉及具身智能及物理人工智能领域。",
+      "publishedAt": "2026-11-20T12:39:50.000Z",
+      "summary": "概念掀涨停潮，超声电子、澳弘电子、中京电子、光华科技、满坤科技强势涨停。消息面上，11月18日，全球电子协会发布一份面向全行业的供应链警报：缺货正在从局部环节蔓延到成品板交付，汽车、工业、医疗、国防、通信等领域的客户都在面对更长的交期和更难拿到货的局面。对此，多家产业上市公司回应，下游需求整体上比较景气，供应是否出现短缺要看产品结构，与人工智能服务器领域相关的高端产品目前需求……",
       "topics": [
-        "算力芯片",
-        "机器人"
+        "端侧智能"
       ],
-      "heat": 93,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1317,7 +1319,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1333,7 +1335,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1401,23 +1403,23 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
-      "id": "the-verge-ai-谷歌人工智能正确在",
-      "title": "谷歌人工智能正确在",
-      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "id": "the-verge-ai-元宇宙平台公司可能成本-300",
+      "title": "元宇宙平台公司可能成本 $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T20:05:06.000Z",
-      "summary": "谷歌向人工智能。在在，谷歌产品，打开向和人工智能。在分享由，信息技术打开由 …",
+      "publishedAt": "2026-11-19T20:22:17.000Z",
+      "summary": "元宇宙平台公司向，借助借助人工智能智能体，在 $300，向。首席执行官和公司向交付在时间面向在，…",
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1453,7 +1455,7 @@
         "研究论文",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1471,7 +1473,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1488,7 +1490,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1504,7 +1506,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19.jpg"
     },
     {
@@ -1554,7 +1556,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1626,6 +1628,23 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-人工智能安全公司美股盘前跌超10",
+      "title": "人工智能安全公司美股盘前跌超10%",
+      "url": "https://36kr.com/newsflashes/4078067142612097?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-20T12:24:25.000Z",
+      "summary": "36氪获悉，人工智能安全公司盘前跌幅扩大至10%，报87.5美元/股，较首次公开募股发行价83美元仅高出约5.4%。该股周四上市首日开盘报111.5美元，盘中一度冲高至115美元，收报97.17美元，较发行价上涨17.1%。按最新盘前报价计算，股价较首日开盘价已回落约21.5%，上市首日的涨幅基本回吐。",
+      "topics": [
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "ithome-三年销售目标-700-亿-京东与华为星芒达成战略合作",
       "title": "三年销售目标 700 亿，京东与华为星芒达成战略合作",
       "url": "https://www.ithome.com/1/030/227.htm",
@@ -1635,22 +1654,6 @@
       "language": "zh",
       "publishedAt": "2026-11-20T11:51:33.000Z",
       "summary": "科技之家 11 月 20 日消息，华为全新子品牌“ 星芒”今日正式亮相，“首款为人工智能而生的鸿蒙手机” 相关型号专业版同步发布，首发价 5499 元起。科技之家获悉，近日，京东与华为星芒签署战略合作协议，明确未来三年华为星芒在京东实现全品类销售额 700 亿的目标。根据协议，双方将围绕产品服务、用户运营、人工智能生态协同三大维度深化合作，助力华为星芒加速市场拓展，推动智能终……",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 87,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-一届学生60万-外国玩家-想来中国上学了-玩点好的",
-      "title": "一届学生60万？外国玩家：想来中国上学了，玩点好的",
-      "url": "https://36kr.com/p/4077807099057031?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-20T10:14:14.000Z",
-      "summary": "文丨句号编辑丨果脯 “如果我是老师，我肯定不会对学生这么坏。” 可能是在被罚站时，也可能是被老师喊来家长后，这样的想法总是会瞬间被唤醒。《我带过的最差一届》（以下简称《最差一届》），一款非对称式派对游戏，给了玩家们一次师生身份转换的机会。《我带过的最差一届》官方宣传图由站主夜之黄泉带队顽核社开发，《最差一届》在新品节上斩获超过60万下载量，发售首日销量即达成10万份。爆笑的节……",
       "topics": [
         "端侧智能"
       ],
@@ -1671,7 +1674,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1724,6 +1727,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-谷歌人工智能正确在",
+      "title": "谷歌人工智能正确在",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-19T20:05:06.000Z",
+      "summary": "谷歌向人工智能。在在，谷歌产品，打开向和人工智能。在分享由，信息技术打开由 …",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "arxiv-cs-lg-论文新进展-多模态-计算机视觉方向研究",
       "title": "论文新进展：多模态、计算机视觉方向研究",
       "url": "https://arxiv.org/abs/2611.26603v1",
@@ -1756,25 +1775,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 86,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-双子座模型在苹果电脑使用",
-      "title": "双子座模型在苹果电脑使用",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-19T18:21:13.000Z",
-      "summary": "谷歌双子座模型应用面向使用，信息技术帮助任务本地，应用，和，公司。谷歌功能可能面向工作流，在，和面向。用户 …",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "端侧智能"
-      ],
-      "heat": 93,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1859,7 +1860,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 61,
+      "heat": 60,
       "image": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/master/pass/AI-Lab-US-Chip-War-Business.jpg"
     },
     {
@@ -1964,6 +1965,23 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-弘信电子-控股子公司签署7-45亿元算力技术服务协议",
+      "title": "弘信电子：控股子公司签署7.45亿元算力技术服务协议",
+      "url": "https://36kr.com/newsflashes/4078043095257989?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-20T12:19:48.000Z",
+      "summary": "36氪获悉，弘信电子公告，公司控股子公司无锡燧弘华创科技有限公司与客户公司签署《算力技术服务协议》，合同含税总金额为7.45亿元。无锡燧弘将向公司提供算力技术服务，服务期限至2028年1月29日。公司主要涉及具身智能及物理人工智能领域。",
+      "topics": [
+        "算力芯片",
+        "机器人"
+      ],
+      "heat": 92,
+      "image": ""
+    },
+    {
       "id": "ithome-文远知行-2026-财年前三季度归母亏损-11-亿元",
       "title": "文远知行 2026 财年前三季度归母亏损 11 亿元",
       "url": "https://www.ithome.com/1/030/224.htm",
@@ -1978,25 +1996,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-人工智能安全公司上市首日涨17-市值一度冲至2万亿刀-人工智能热潮还能持续多久",
-      "title": "人工智能安全公司上市首日涨17%，市值一度冲至2万亿刀，人工智能热潮还能持续多久？",
-      "url": "https://36kr.com/p/4077873869099904?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-20T09:14:53.000Z",
-      "summary": "人工智能安全公司与科技巨头们唇齿相依文，刘思洁封面来源，11月19日，人工智能安全公司（：） 正式登陆纳斯达克，股票发行价最终定在83美元，开盘价111.50美元，盘中最高涨至115.10美元，按完全稀释口径计算，市值一度约 2.08万亿美元，按已发行股份计算约1.51万亿美元，收盘报97.17美元，收盘时较发行价高约17%。其募资额也超越，为813亿美元，刷新了全球首次公开……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "算力芯片"
-      ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2031,7 +2031,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2085,19 +2085,21 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-人工智能安全公司交易在",
-      "title": "人工智能安全公司交易在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "id": "the-verge-ai-双子座模型在苹果电脑使用",
+      "title": "双子座模型在苹果电脑使用",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T16:52:01.000Z",
-      "summary": "人工智能安全公司。信息技术交易在在 $111.50 分享，来自 $83 分享设置公司在 $1.5。月人工智能安全公司向。在，…",
+      "publishedAt": "2026-11-19T18:21:13.000Z",
+      "summary": "谷歌双子座模型应用面向使用，信息技术帮助任务本地，应用，和，公司。谷歌功能可能面向工作流，在，和面向。用户 …",
       "topics": [
-        "监管安全"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 81,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2115,7 +2117,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2149,7 +2151,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": ""
     },
     {
@@ -2182,7 +2184,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 51,
+      "heat": 50,
       "image": "https://media.wired.com/photos/6afcfb207b0def85d03dac43/master/pass/Thomas-Nagel-QandA-Business.jpg"
     },
     {
@@ -2305,6 +2307,22 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-一届学生60万-外国玩家-想来中国上学了-玩点好的",
+      "title": "一届学生60万？外国玩家：想来中国上学了，玩点好的",
+      "url": "https://36kr.com/p/4077807099057031?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-20T10:14:14.000Z",
+      "summary": "文丨句号编辑丨果脯 “如果我是老师，我肯定不会对学生这么坏。” 可能是在被罚站时，也可能是被老师喊来家长后，这样的想法总是会瞬间被唤醒。《我带过的最差一届》（以下简称《最差一届》），一款非对称式派对游戏，给了玩家们一次师生身份转换的机会。《我带过的最差一届》官方宣传图由站主夜之黄泉带队顽核社开发，《最差一届》在新品节上斩获超过60万下载量，发售首日销量即达成10万份。爆笑的节……",
+      "topics": [
+        "端侧智能"
+      ],
+      "heat": 86,
+      "image": ""
+    },
+    {
       "id": "leiphone-方程豹钛9上市-27-99万元起-折叠方向盘首次上车",
       "title": "方程豹钛9上市：27.99万元起，折叠方向盘首次上车",
       "url": "https://www.leiphone.com/category/transportation/Okzc1pyWcptuTh5J.html",
@@ -2334,7 +2352,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -2350,25 +2368,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 81,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-11月26日-相关型号商业之王大会-具身智能-文商旅分会场落地北京亦庄-首批嘉宾阵容-今日正式揭晓-欢迎扫码报名-我们现场见",
-      "title": "11月26日，相关型号商业之王大会·具身智能&文商旅分会场落地北京亦庄。首批嘉宾阵容，今日正式揭晓！欢迎扫码报名，我们现场见。",
-      "url": "https://36kr.com/p/4077464212542596?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-20T02:11:30.000Z",
-      "summary": "11月26日，36氪将联合欧氪律、氪睿研究院，在北京举办相关型号商业之王大会·具身智能分会场，以“文商旅的‘赛博场景’：具身智能激活新消费赛道”为主题，聚焦文商旅等线下消费场景，汇集头部商管集团、具身智能企业、投资机构与专业服务机构，共同探讨技术应用与商业创新的落地机会。作为36氪最重要的年度商业盛会之一，大会持续关注新技术、新产业与新商业模式的演进。当技术走向应用，法律服务……",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 97,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2407,21 +2407,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-智能聊天助手作为借助实时",
-      "title": "智能聊天助手作为借助实时",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "id": "the-verge-ai-人工智能安全公司交易在",
+      "title": "人工智能安全公司交易在",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T15:16:45.000Z",
-      "summary": "智能聊天助手音频来自更快借助实时功能作为。信息技术在智能聊天助手在，应用，和苹果移动系统和安卓应用。在智能聊天助手，…",
+      "publishedAt": "2026-11-19T16:52:01.000Z",
+      "summary": "人工智能安全公司。信息技术交易在在 $111.50 分享，来自 $83 分享设置公司在 $1.5。月人工智能安全公司向。在，…",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "多模态"
+        "监管安全"
       ],
-      "heat": 90,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2576,6 +2574,24 @@
       "image": ""
     },
     {
+      "id": "thirty-six-kr-人工智能安全公司上市首日涨17-市值一度冲至2万亿刀-人工智能热潮还能持续多久",
+      "title": "人工智能安全公司上市首日涨17%，市值一度冲至2万亿刀，人工智能热潮还能持续多久？",
+      "url": "https://36kr.com/p/4077873869099904?f=rss",
+      "source": "三十六氪",
+      "sourceId": "thirty-six-kr",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-20T09:14:53.000Z",
+      "summary": "人工智能安全公司与科技巨头们唇齿相依文，刘思洁封面来源，11月19日，人工智能安全公司（：） 正式登陆纳斯达克，股票发行价最终定在83美元，开盘价111.50美元，盘中最高涨至115.10美元，按完全稀释口径计算，市值一度约 2.08万亿美元，按已发行股份计算约1.51万亿美元，收盘报97.17美元，收盘时较发行价高约17%。其募资额也超越，为813亿美元，刷新了全球首次公开……",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "leiphone-第六代处理器技术峰会在京举行",
       "title": "第六代处理器技术峰会在京举行",
       "url": "https://www.leiphone.com/category/industrynews/TVtcS88CGW5q5JDk.html",
@@ -2606,7 +2622,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2626,24 +2642,6 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-36氪首发丨中科院博士做二维半导体制造全流程产线设备-完成数千万天使轮融资",
-      "title": "36氪首发丨中科院博士做二维半导体制造全流程产线设备，完成数千万天使轮融资",
-      "url": "https://36kr.com/p/4077431786968198?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-20T01:39:38.000Z",
-      "summary": "作者，乔钰杰编辑，袁斯来本文约2400字，建议阅读6分钟硬氪获悉，国内覆盖二维半导体集成电路制造「生长—转移—检测」全流程的专用产线设备商「基元科技」近日完成数千万元天使轮融资，由朝晖芯华基金领投（朝晖资本与中芯国际创始人张汝京博士联合管理），宁创投、常州高新投、南慧创投等跟投，云岫资本担任后续融资财务顾问。基元科技成立于2021年，是全球较早涉足二维半导体装备及材料产业化的……",
-      "topics": [
-        "产品应用",
-        "算力芯片",
-        "研究论文"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
       "id": "techcrunch-ai-元宇宙平台公司人工智能智能体和数据",
       "title": "元宇宙平台公司人工智能智能体和数据",
       "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
@@ -2656,24 +2654,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
-      "id": "the-verge-ai-借助首次公开募股时间-人工智能安全公司在",
-      "title": "借助首次公开募股时间，人工智能安全公司在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "id": "the-verge-ai-智能聊天助手作为借助实时",
+      "title": "智能聊天助手作为借助实时",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-19T14:25:37.000Z",
-      "summary": "新面向人工智能安全公司:，在，首次公开募股面向最时间，$81.3 十亿和重要面向人工智能实验室向。信息技术。人工智能安全公司在信息技术安全 …",
+      "publishedAt": "2026-11-19T15:16:45.000Z",
+      "summary": "智能聊天助手音频来自更快借助实时功能作为。信息技术在智能聊天助手在，应用，和苹果移动系统和安卓应用。在智能聊天助手，…",
       "topics": [
-        "监管安全",
-        "投融资"
+        "模型发布",
+        "产品应用",
+        "多模态"
       ],
-      "heat": 84,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2788,7 +2787,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2843,21 +2842,21 @@
       "image": ""
     },
     {
-      "id": "thirty-six-kr-耐克终于给出了增长计划-但需要一点时间-投资日现场直击",
-      "title": "耐克终于给出了增长计划，但需要一点时间｜投资日现场直击",
-      "url": "https://36kr.com/p/4076185723769984?f=rss",
+      "id": "thirty-six-kr-11月26日-相关型号商业之王大会-具身智能-文商旅分会场落地北京亦庄-首批嘉宾阵容-今日正式揭晓-欢迎扫码报名-我们现场见",
+      "title": "11月26日，相关型号商业之王大会·具身智能&文商旅分会场落地北京亦庄。首批嘉宾阵容，今日正式揭晓！欢迎扫码报名，我们现场见。",
+      "url": "https://36kr.com/p/4077464212542596?f=rss",
       "source": "三十六氪",
       "sourceId": "thirty-six-kr",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-20T01:03:18.000Z",
-      "summary": "拿回那些份额一段让人目眩的快剪视频之后，身着黑色耐克飞行夹克贺雁峰（ ）走上台，看上去精神不错。“刚才那段影片是一扇窗，”他说，“让我们看到世界顶尖运动员真实的心态：迎难而上，永不停歇，质疑只会让他们更加努力。” 11月17日，当地时间的周二早上八点30分，耐克比弗顿总部，泰格·伍兹会议中心二楼的讲堂。台下坐满了西装革履的分析师，准备好倾听这位首席执行官如何带领这家运动巨头走……",
+      "publishedAt": "2026-11-20T02:11:30.000Z",
+      "summary": "11月26日，36氪将联合欧氪律、氪睿研究院，在北京举办相关型号商业之王大会·具身智能分会场，以“文商旅的‘赛博场景’：具身智能激活新消费赛道”为主题，聚焦文商旅等线下消费场景，汇集头部商管集团、具身智能企业、投资机构与专业服务机构，共同探讨技术应用与商业创新的落地机会。作为36氪最重要的年度商业盛会之一，大会持续关注新技术、新产业与新商业模式的演进。当技术走向应用，法律服务……",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
         "研究论文"
       ],
-      "heat": 96,
+      "heat": 97,
       "image": ""
     }
   ]
