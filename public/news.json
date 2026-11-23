@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-23T17:49:15.018Z",
+  "generatedAt": "2026-11-23T18:19:06.381Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-23T18:00:00.000Z",
+  "nextUpdateHint": "2026-11-23T18:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-23T17:36:08.000Z"
+    "latestPublishedAt": "2026-11-23T18:12:22.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 59,
+      "count": 58,
       "heat": 79
+    },
+    {
+      "name": "算力芯片",
+      "count": 38,
+      "heat": 88
     },
     {
       "name": "模型发布",
       "count": 42,
-      "heat": 77
-    },
-    {
-      "name": "算力芯片",
-      "count": 36,
-      "heat": 88
+      "heat": 76
     },
     {
       "name": "研究论文",
@@ -34,12 +34,7 @@
     {
       "name": "监管安全",
       "count": 16,
-      "heat": 86
-    },
-    {
-      "name": "投融资",
-      "count": 17,
-      "heat": 79
+      "heat": 85
     },
     {
       "name": "端侧智能",
@@ -47,14 +42,19 @@
       "heat": 84
     },
     {
+      "name": "投融资",
+      "count": 16,
+      "heat": 78
+    },
+    {
       "name": "人工智能动态",
-      "count": 14,
-      "heat": 75
+      "count": 13,
+      "heat": 74
     },
     {
       "name": "多模态",
-      "count": 11,
-      "heat": 82
+      "count": 10,
+      "heat": 81
     },
     {
       "name": "机器人",
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-11-23T17:14:23.000Z",
-      "latestDisplayedAt": "2026-11-23T17:14:23.000Z"
+      "latestFetchedAt": "2026-11-23T18:12:22.000Z",
+      "latestDisplayedAt": "2026-11-23T18:12:22.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -288,9 +288,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 3,
-      "latestFetchedAt": "2026-11-23T14:27:35.000Z",
-      "latestDisplayedAt": "2026-11-23T12:00:00.000Z"
+      "displayedCount": 4,
+      "latestFetchedAt": "2026-11-23T17:52:56.000Z",
+      "latestDisplayedAt": "2026-11-23T17:52:56.000Z"
     },
     {
       "id": "towards-data-science",
@@ -334,7 +334,7 @@
       "ok": true,
       "liveOk": false,
       "fallback": true,
-      "fallbackReason": "HTTP 404",
+      "fallbackReason": "HTTP 429",
       "itemCount": 2,
       "displayedCount": 2,
       "latestFetchedAt": "2026-11-17T16:27:52.000Z",
@@ -432,7 +432,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 14,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-11-23T14:18:55.000Z",
       "latestDisplayedAt": "2026-11-23T14:18:55.000Z"
     },
@@ -490,6 +490,38 @@
   ],
   "items": [
     {
+      "id": "techcrunch-ai-向在作为英伟达首席执行官",
+      "title": "向在作为英伟达首席执行官",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T18:12:22.000Z",
+      "summary": "呼吁面向向关于借助中国。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "wired-ai-和英伟达",
+      "title": "和英伟达",
+      "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T17:52:56.000Z",
+      "summary": "首席执行官回归只是？",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 97,
+      "image": "https://media.wired.com/photos/6b0467fb5f8e6c0d7b84afc9/master/pass/Business_Nvidia%20Is%20Worth%20$1%20Trillion%20More%20Than%20It%20Was%20Yesterday.jpg"
+    },
+    {
       "id": "mit-tech-review-ai-人工智能安全公司",
       "title": "人工智能安全公司",
       "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
@@ -520,7 +552,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif"
     },
     {
@@ -536,24 +568,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 91,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-亚马逊人工智能面向-7-5-十亿作为信息技术向芯片",
-      "title": "亚马逊人工智能面向 $7.5 十亿作为信息技术向芯片",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T17:14:23.000Z",
-      "summary": "亚马逊人工智能和研究团队在 $7.5 十亿。",
-      "topics": [
-        "算力芯片",
-        "研究论文"
-      ],
-      "heat": 96,
+      "heat": 90,
       "image": ""
     },
     {
@@ -703,24 +718,8 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
-    },
-    {
-      "id": "wired-ai-问题-持续来自人工智能",
-      "title": "问题: 持续来自人工智能？",
-      "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T12:00:00.000Z",
-      "summary": "人工智能，在。关于信息技术？在 2 向问题。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 84,
-      "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg"
     },
     {
       "id": "qbitai-实测-1450亿参数塞进笔记本-每秒狂飙80-词元-国产端侧大模型杀疯了",
@@ -736,7 +735,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -753,7 +752,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -914,19 +913,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "id": "techcrunch-ai-亚马逊人工智能面向-7-5-十亿作为信息技术向芯片",
+      "title": "亚马逊人工智能面向 $7.5 十亿作为信息技术向芯片",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T16:57:40.000Z",
-      "summary": "信息技术向，回归作为首席执行官英伟达，新闻，借助和借助向中国智能服务。借助人工智能构建在英伟达人工智能基础设施，…",
+      "publishedAt": "2026-11-23T17:14:23.000Z",
+      "summary": "亚马逊人工智能和研究团队在 $7.5 十亿。",
       "topics": [
-        "算力芯片"
+        "算力芯片",
+        "研究论文"
       ],
-      "heat": 98,
+      "heat": 95,
       "image": ""
     },
     {
@@ -993,7 +993,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1011,6 +1011,22 @@
       ],
       "heat": 82,
       "image": ""
+    },
+    {
+      "id": "wired-ai-问题-持续来自人工智能",
+      "title": "问题: 持续来自人工智能？",
+      "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "summary": "人工智能，在。关于信息技术？在 2 向问题。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
+      "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg"
     },
     {
       "id": "towards-data-science-数据科学实战社区发布人工智能相关动态",
@@ -1059,24 +1075,8 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
-    },
-    {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T10:00:00.000Z",
-      "summary": "和，关于编程。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 83,
-      "image": "https://media.wired.com/photos/6afb501c3f280c58f990fcf3/master/pass/WIRED-MREnglish-AaronFernandez-01.png"
     },
     {
       "id": "qbitai-郑随兵-机器人不能只在视频里-终究要进入工厂-真干活",
@@ -1316,15 +1316,15 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-据报道呼吁进入英伟达会议向面向回归",
-      "title": "据报道呼吁进入英伟达会议向面向回归",
-      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T16:39:10.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-11-23T16:57:40.000Z",
+      "summary": "信息技术向，回归作为首席执行官英伟达，新闻，借助和借助向中国智能服务。借助人工智能构建在英伟达人工智能基础设施，…",
       "topics": [
         "算力芯片"
       ],
@@ -1344,7 +1344,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1377,7 +1377,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1411,7 +1411,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1429,6 +1429,22 @@
       ],
       "heat": 80,
       "image": ""
+    },
+    {
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T10:00:00.000Z",
+      "summary": "和，关于编程。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 82,
+      "image": "https://media.wired.com/photos/6afb501c3f280c58f990fcf3/master/pass/WIRED-MREnglish-AaronFernandez-01.png"
     },
     {
       "id": "leiphone-独家解读丨苦战三个月-人工智能办公经得起财报检验吗",
@@ -1462,7 +1478,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1480,7 +1496,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1516,22 +1532,6 @@
       ],
       "heat": 60,
       "image": ""
-    },
-    {
-      "id": "wired-ai-16-人工智能创业公司-成本",
-      "title": "16，人工智能创业公司。成本",
-      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-20T07:00:00.000Z",
-      "summary": "向创业公司。借助新，向作为高效作为面向和。",
-      "topics": [
-        "投融资"
-      ],
-      "heat": 49,
-      "image": "https://media.wired.com/photos/6aff9b51715a3d6f512c8dee/master/pass/The-Boy-Who-Builds-Missiles-Business.jpg"
     },
     {
       "id": "huggingface-blog-推出工具链-模型向工具链向改进性能和成本",
@@ -1633,20 +1633,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-回归向英伟达",
-      "title": "回归向英伟达",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "id": "techcrunch-ai-据报道呼吁进入英伟达会议向面向回归",
+      "title": "据报道呼吁进入英伟达会议向面向回归",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T15:04:01.000Z",
-      "summary": "在回归，英伟达向，控制。",
+      "publishedAt": "2026-11-23T16:39:10.000Z",
+      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -1662,7 +1661,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1710,7 +1709,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1760,7 +1759,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1776,7 +1775,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -1814,6 +1813,22 @@
       ],
       "heat": 60,
       "image": ""
+    },
+    {
+      "id": "wired-ai-16-人工智能创业公司-成本",
+      "title": "16，人工智能创业公司。成本",
+      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-20T07:00:00.000Z",
+      "summary": "向创业公司。借助新，向作为高效作为面向和。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 49,
+      "image": "https://media.wired.com/photos/6aff9b51715a3d6f512c8dee/master/pass/The-Boy-Who-Builds-Missiles-Business.jpg"
     },
     {
       "id": "nvidia-blog-英伟达官方博客发布人工智能相关动态",
@@ -1914,19 +1929,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-向-30-十亿作为需求面向人工智能在",
-      "title": "向 $30 十亿作为需求面向人工智能在",
-      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "id": "techcrunch-ai-回归向英伟达",
+      "title": "回归向英伟达",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T14:43:03.000Z",
-      "summary": "企业客户公司，由，首席执行官，在信息技术 $1.75 十亿在序列。",
+      "publishedAt": "2026-11-23T15:04:01.000Z",
+      "summary": "在回归，英伟达向，控制。",
       "topics": [
+        "算力芯片",
         "投融资"
       ],
-      "heat": 88,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1942,7 +1958,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2009,7 +2025,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2045,7 +2061,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2061,7 +2077,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2182,6 +2198,22 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-向-30-十亿作为需求面向人工智能在",
+      "title": "向 $30 十亿作为需求面向人工智能在",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T14:43:03.000Z",
+      "summary": "企业客户公司，由，首席执行官，在信息技术 $1.75 十亿在序列。",
+      "topics": [
+        "投融资"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "ithome-小鹏图灵世界模型完成重要升级-推出构建虚拟城市能力等",
       "title": "小鹏图灵世界模型完成重要升级，推出构建虚拟城市能力等",
       "url": "https://www.ithome.com/1/031/212.htm",
@@ -2196,23 +2228,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 95,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-英伟达和带来作为首席执行官",
-      "title": "英伟达和带来作为首席执行官",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T14:21:59.000Z",
-      "summary": "支持由在。政府。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 96,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2229,7 +2245,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2263,7 +2279,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2315,7 +2331,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2370,6 +2386,22 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg"
     },
     {
+      "id": "techcrunch-ai-英伟达和带来作为首席执行官",
+      "title": "英伟达和带来作为首席执行官",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T14:21:59.000Z",
+      "summary": "支持由在。政府。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "ithome-黄仁勋-很荣幸重返英伟达-迫不及待想回去工作",
       "title": "黄仁勋：很荣幸重返英伟达，迫不及待想回去工作",
       "url": "https://www.ithome.com/1/031/211.htm",
@@ -2398,7 +2430,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2416,7 +2448,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2432,7 +2464,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2450,7 +2482,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2469,23 +2501,6 @@
         "机器人"
       ],
       "heat": 96,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-和在人工智能安全公司首次公开募股",
-      "title": "和在人工智能安全公司首次公开募股",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T01:25:53.000Z",
-      "summary": "分享向在人工智能安全公司。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 90,
       "image": ""
     },
     {
@@ -2569,7 +2584,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2586,7 +2601,7 @@
         "监管安全",
         "机器人"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2604,7 +2619,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -2620,7 +2635,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -2640,19 +2655,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司在向限制人工智能",
-      "title": "开放人工智能公司在向限制人工智能",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "id": "techcrunch-ai-和在人工智能安全公司首次公开募股",
+      "title": "和在人工智能安全公司首次公开募股",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-22T21:14:07.000Z",
-      "summary": "向限制在人工智能，向在向。",
+      "publishedAt": "2026-11-23T01:25:53.000Z",
+      "summary": "分享向在人工智能安全公司。",
       "topics": [
-        "人工智能动态"
+        "监管安全",
+        "投融资"
       ],
-      "heat": 82,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2739,7 +2755,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2760,19 +2776,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-为什么数据中心在",
-      "title": "为什么数据中心在",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "id": "techcrunch-ai-开放人工智能公司在向限制人工智能",
+      "title": "开放人工智能公司在向限制人工智能",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-22T18:08:43.000Z",
-      "summary": "来自科技创投媒体人工智能的人工智能相关动态，已转写为中文摘要。",
+      "publishedAt": "2026-11-22T21:14:07.000Z",
+      "summary": "向限制在人工智能，向在向。",
       "topics": [
         "人工智能动态"
       ],
-      "heat": 71,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2806,7 +2822,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2823,24 +2839,6 @@
         "模型发布"
       ],
       "heat": 85,
-      "image": ""
-    },
-    {
-      "id": "thirty-six-kr-想让更多人了解你的项目-36氪第二期创意征集正在报名",
-      "title": "想让更多人了解你的项目？36氪第二期创意征集正在报名",
-      "url": "https://36kr.com/p/4081976421078150?f=rss",
-      "source": "三十六氪",
-      "sourceId": "thirty-six-kr",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T06:42:19.000Z",
-      "summary": "做创业项目，产品和业务要推进，对外宣传也很重要。但对很多中小团队和早期创业者来说，专门做品牌传播并不容易。没有专业的市场团队，也不一定有充足的宣传预算。项目有了产品、有了初步成果，却不知道还能通过哪些渠道让更多人了解。如果你也有类似的情况，可以关注一下36氪创意项目征集赛第二期。这次活动面向不同领域的创业项目和创新创意开放报名。无论是已经成立公司的创业团队，还是正在研发产品、……",
-      "topics": [
-        "产品应用",
-        "投融资",
-        "多模态"
-      ],
-      "heat": 89,
       "image": ""
     }
   ]
