@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T20:49:44.499Z",
+  "generatedAt": "2026-11-23T21:20:04.180Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-23T21:00:00.000Z",
+  "nextUpdateHint": "2026-11-23T21:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 25,
     "sourcesFailed": 1,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-23T20:39:18.000Z"
+    "latestPublishedAt": "2026-11-23T21:09:37.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 61,
-      "heat": 81
+      "count": 63,
+      "heat": 82
     },
     {
       "name": "模型发布",
@@ -28,12 +28,12 @@
     },
     {
       "name": "研究论文",
-      "count": 25,
+      "count": 24,
       "heat": 78
     },
     {
       "name": "监管安全",
-      "count": 20,
+      "count": 19,
       "heat": 88
     },
     {
@@ -43,8 +43,8 @@
     },
     {
       "name": "投融资",
-      "count": 16,
-      "heat": 80
+      "count": 15,
+      "heat": 79
     },
     {
       "name": "人工智能动态",
@@ -53,18 +53,18 @@
     },
     {
       "name": "多模态",
-      "count": 11,
-      "heat": 80
+      "count": 10,
+      "heat": 81
     },
     {
       "name": "机器人",
       "count": 8,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "开源生态",
-      "count": 7,
-      "heat": 78
+      "count": 8,
+      "heat": 80
     }
   ],
   "sources": [
@@ -144,9 +144,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 4,
-      "displayedCount": 1,
-      "latestFetchedAt": "2026-11-23T18:32:59.000Z",
-      "latestDisplayedAt": "2026-11-23T18:32:59.000Z"
+      "displayedCount": 2,
+      "latestFetchedAt": "2026-11-23T20:37:11.000Z",
+      "latestDisplayedAt": "2026-11-23T20:37:11.000Z"
     },
     {
       "id": "nvidia-blog",
@@ -208,7 +208,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-11-23T20:38:53.000Z",
       "latestDisplayedAt": "2026-11-23T20:38:53.000Z"
     },
@@ -241,8 +241,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 6,
-      "latestFetchedAt": "2026-11-23T20:00:00.000Z",
-      "latestDisplayedAt": "2026-11-23T20:00:00.000Z"
+      "latestFetchedAt": "2026-11-23T21:09:37.000Z",
+      "latestDisplayedAt": "2026-11-23T21:09:37.000Z"
     },
     {
       "id": "mit-tech-review-ai",
@@ -396,9 +396,9 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 8,
       "displayedCount": 8,
       "latestFetchedAt": "2026-11-23T11:01:15.000Z",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 15,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 10,
       "displayedCount": 10,
       "latestFetchedAt": "2026-11-23T10:44:00.000Z",
       "latestDisplayedAt": "2026-11-23T10:44:00.000Z"
@@ -490,6 +490,22 @@
   ],
   "items": [
     {
+      "id": "the-verge-ai-人工智能数据中心进入",
+      "title": "人工智能数据中心进入",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T21:09:37.000Z",
+      "summary": "在全球只是作为驱动，数据中心。信息技术来自向借助，呼吁，向和在，在，…",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 90,
+      "image": ""
+    },
+    {
       "id": "the-decoder-开放人工智能公司更新智能聊天助手向问题-和图像",
       "title": "开放人工智能公司更新智能聊天助手向问题，和图像",
       "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
@@ -520,42 +536,24 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
-      "id": "the-verge-ai-克劳德模型人工智能评测和交付修复在",
-      "title": "克劳德模型人工智能评测和交付修复在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T20:00:00.000Z",
-      "summary": "人工智能安全公司新克劳德模型人工智能功能向帮助软件工程师交付代码。作为部件新克劳德模型交付产品宣布，克劳德模型评测，修复，和。工程师向克劳德模型代码评测向代码评测功能，…",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
-      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
-      "title": "代码托管平台更新日志发布人工智能相关动态。",
-      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "id": "github-changelog-和仓库在公开预览",
+      "title": "和仓库在公开预览",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
       "source": "代码托管平台更新日志",
       "sourceId": "github-changelog",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-11-23T18:32:59.000Z",
-      "summary": "减少面向。减少减少面向支持。… 减少面向首个在代码托管平台。",
+      "publishedAt": "2026-11-23T20:37:11.000Z",
+      "summary": "打开。使用向团队和智能体分享上下文关于在 … 和仓库在公开预览首个在代码托管平台。",
       "topics": [
         "产品应用",
         "开源生态"
       ],
-      "heat": 94,
+      "heat": 96,
       "image": ""
     },
     {
@@ -571,7 +569,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": "https://media.wired.com/photos/6b0467fb5f8e6c0d7b84afc9/master/pass/Business_Nvidia%20Is%20Worth%20$1%20Trillion%20More%20Than%20It%20Was%20Yesterday.jpg"
     },
     {
@@ -637,7 +635,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nvidia-holiday26-gfn-nv-blog-preview-1280x680-1.jpg"
     },
     {
@@ -671,7 +669,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -704,7 +702,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -775,19 +773,20 @@
       "image": ""
     },
     {
-      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
-      "title": "开放人工智能公司发布人工智能相关动态。",
-      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "id": "openai-news-帮助公司自动化-50-支持在-30",
+      "title": "帮助公司自动化 50% 支持在 30",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
       "publishedAt": "2026-11-23T08:00:00.000Z",
-      "summary": "开放人工智能公司和，和探索人工智能帮助在，团队企业上下文，构建工作流和来自。",
+      "summary": "使用和向人工智能支持智能体借助工具和，和面向。",
       "topics": [
-        "人工智能动态"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 92,
+      "heat": 97,
       "image": ""
     },
     {
@@ -804,7 +803,7 @@
         "模型发布",
         "端侧智能"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -913,19 +912,21 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-作为英伟达首席执行官",
-      "title": "作为英伟达首席执行官",
-      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "id": "the-verge-ai-克劳德模型人工智能评测和交付修复在",
+      "title": "克劳德模型人工智能评测和交付修复在",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T19:57:18.000Z",
-      "summary": "英伟达向月，向最重要公司在人工智能，来自在相关型号。向 …",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "summary": "人工智能安全公司新克劳德模型人工智能功能向帮助软件工程师交付代码。作为部件新克劳德模型交付产品宣布，克劳德模型评测，修复，和。工程师向克劳德模型代码评测向代码评测功能，…",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "产品应用",
+        "监管安全"
       ],
-      "heat": 98,
+      "heat": 99,
       "image": ""
     },
     {
@@ -961,6 +962,23 @@
         "投融资"
       ],
       "heat": 99,
+      "image": ""
+    },
+    {
+      "id": "github-changelog-代码托管平台更新日志发布人工智能相关动态",
+      "title": "代码托管平台更新日志发布人工智能相关动态。",
+      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "source": "代码托管平台更新日志",
+      "sourceId": "github-changelog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-23T18:32:59.000Z",
+      "summary": "减少面向。减少减少面向支持。… 减少面向首个在代码托管平台。",
+      "topics": [
+        "产品应用",
+        "开源生态"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1025,7 +1043,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg"
     },
     {
@@ -1041,7 +1059,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1093,6 +1111,22 @@
         "机器人"
       ],
       "heat": 86,
+      "image": ""
+    },
+    {
+      "id": "openai-news-开放人工智能公司发布人工智能相关动态",
+      "title": "开放人工智能公司发布人工智能相关动态。",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "summary": "开放人工智能公司和，和探索人工智能帮助在，团队企业上下文，构建工作流和来自。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 92,
       "image": ""
     },
     {
@@ -1162,22 +1196,6 @@
         "投融资"
       ],
       "heat": 54,
-      "image": ""
-    },
-    {
-      "id": "openai-news-人工智能帮助",
-      "title": "人工智能帮助？",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "评估顺利人工智能模型，来自，和在。",
-      "topics": [
-        "模型发布"
-      ],
-      "heat": 55,
       "image": ""
     },
     {
@@ -1299,20 +1317,19 @@
       "image": ""
     },
     {
-      "id": "the-verge-ai-借助人工智能",
-      "title": "借助人工智能",
-      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "id": "the-verge-ai-作为英伟达首席执行官",
+      "title": "作为英伟达首席执行官",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
       "source": "前沿科技媒体人工智能",
       "sourceId": "the-verge-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T19:04:52.000Z",
-      "summary": "新人工智能，和和，借助应用向，和人工智能，生成，向苹果新功能和亚马逊。首席执行官新 …",
+      "publishedAt": "2026-11-23T19:57:18.000Z",
+      "summary": "英伟达向月，向最重要公司在人工智能，来自在相关型号。向 …",
       "topics": [
-        "产品应用",
-        "端侧智能"
+        "算力芯片"
       ],
-      "heat": 94,
+      "heat": 97,
       "image": ""
     },
     {
@@ -1346,7 +1363,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1396,7 +1413,7 @@
         "算力芯片",
         "投融资"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1412,7 +1429,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1519,6 +1536,22 @@
       "image": ""
     },
     {
+      "id": "openai-news-人工智能帮助",
+      "title": "人工智能帮助？",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "开放人工智能公司",
+      "sourceId": "openai-news",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "评估顺利人工智能模型，来自，和在。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 55,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-推出工具链-模型向工具链向改进性能和成本",
       "title": "推出工具链 : 模型向工具链向改进性能和成本",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
@@ -1569,23 +1602,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp"
     },
     {
-      "id": "openai-news-开放人工智能公司性能智能聊天助手",
-      "title": "开放人工智能公司性能智能聊天助手",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source": "开放人工智能公司",
-      "sourceId": "openai-news",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-19T08:00:00.000Z",
-      "summary": "了解开放人工智能公司构建性能，智能编程工具，驱动工作流和修复性能向帮助持续智能聊天助手。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 68,
-      "image": ""
-    },
-    {
       "id": "mit-tech-review-ai-人工智能-人工智能",
       "title": "人工智能 : 人工智能",
       "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
@@ -1618,6 +1634,23 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-借助人工智能",
+      "title": "借助人工智能",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T19:04:52.000Z",
+      "summary": "新人工智能，和和，借助应用向，和人工智能，生成，向苹果新功能和亚马逊。首席执行官新 …",
+      "topics": [
+        "产品应用",
+        "端侧智能"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "techcrunch-ai-亚马逊人工智能面向-7-5-十亿作为信息技术向芯片",
       "title": "亚马逊人工智能面向 $7.5 十亿作为信息技术向芯片",
       "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
@@ -1632,22 +1665,6 @@
         "研究论文"
       ],
       "heat": 93,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
-      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
-      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T16:30:11.000Z",
-      "summary": "信息技术在作为英伟达首席执行官，和。和决策由英伟达，在，…",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 95,
       "image": ""
     },
     {
@@ -1697,7 +1714,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1835,19 +1852,20 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19.jpg"
     },
     {
-      "id": "openai-news-探索智能编程工具安全",
-      "title": "探索智能编程工具安全",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "id": "openai-news-开放人工智能公司性能智能聊天助手",
+      "title": "开放人工智能公司性能智能聊天助手",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "演示智能编程工具安全和查看工作流实战，来自得到向在。",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "summary": "了解开放人工智能公司构建性能，智能编程工具，驱动工作流和修复性能向帮助持续智能聊天助手。",
       "topics": [
-        "监管安全"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 55,
+      "heat": 68,
       "image": ""
     },
     {
@@ -1929,7 +1947,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 88,
+      "heat": 87,
+      "image": ""
+    },
+    {
+      "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
+      "title": "前沿科技媒体人工智能发布人工智能相关动态。",
+      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T16:30:11.000Z",
+      "summary": "信息技术在作为英伟达首席执行官，和。和决策由英伟达，在，…",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 94,
       "image": ""
     },
     {
@@ -1979,7 +2013,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1995,23 +2029,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-元宇宙平台公司在",
-      "title": "元宇宙平台公司在",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T11:00:00.000Z",
-      "summary": "元宇宙平台公司在，人工智能智能体向和人工智能助手。实时智能体信息技术宣布月，帮助人工智能智能体产品面向 …",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 82,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2084,21 +2102,19 @@
       "image": ""
     },
     {
-      "id": "openai-news-生活帮助团队企业版智能聊天助手",
-      "title": "生活帮助团队企业版智能聊天助手",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "id": "openai-news-探索智能编程工具安全",
+      "title": "探索智能编程工具安全",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "source": "开放人工智能公司",
       "sourceId": "openai-news",
       "sourceType": "official",
       "language": "zh",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "summary": "生活使用企业版智能聊天助手向研究，和代码面向投资。使用由帮助采用。",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "演示智能编程工具安全和查看工作流实战，来自得到向在。",
       "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
+        "监管安全"
       ],
-      "heat": 73,
+      "heat": 55,
       "image": ""
     },
     {
@@ -2219,6 +2235,22 @@
       "image": ""
     },
     {
+      "id": "the-verge-ai-元宇宙平台公司在",
+      "title": "元宇宙平台公司在",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source": "前沿科技媒体人工智能",
+      "sourceId": "the-verge-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T11:00:00.000Z",
+      "summary": "元宇宙平台公司在，人工智能智能体向和人工智能助手。实时智能体信息技术宣布月，帮助人工智能智能体产品面向 …",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 82,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-中芯国际的毛利去哪了",
       "title": "中芯国际的毛利去哪了？",
       "url": "https://36kr.com/p/4082059413853312?f=rss",
@@ -2267,7 +2299,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2302,22 +2334,6 @@
         "算力芯片"
       ],
       "heat": 76,
-      "image": ""
-    },
-    {
-      "id": "the-verge-ai-开发者人工智能来自",
-      "title": "开发者人工智能来自",
-      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
-      "source": "前沿科技媒体人工智能",
-      "sourceId": "the-verge-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-22T17:25:20.000Z",
-      "summary": ": 得到评测，在信息技术使用人工智能。社区论坛用户使用。音频借助向 …",
-      "topics": [
-        "多模态"
-      ],
-      "heat": 67,
       "image": ""
     },
     {
@@ -2385,7 +2401,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2401,7 +2417,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2503,7 +2519,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2519,7 +2535,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -2637,7 +2653,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2653,7 +2669,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2741,7 +2757,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2773,7 +2789,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2825,24 +2841,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 72,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-和在人工智能安全公司首次公开募股",
-      "title": "和在人工智能安全公司首次公开募股",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T01:25:53.000Z",
-      "summary": "分享向在人工智能安全公司。",
-      "topics": [
-        "监管安全",
-        "投融资"
-      ],
-      "heat": 88,
+      "heat": 71,
       "image": ""
     }
   ]
