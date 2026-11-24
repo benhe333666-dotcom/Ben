@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-24T17:22:16.135Z",
+  "generatedAt": "2026-11-24T17:52:20.438Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-24T17:30:00.000Z",
+  "nextUpdateHint": "2026-11-24T18:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 24,
     "sourcesFailed": 2,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-24T17:17:09.000Z"
+    "latestPublishedAt": "2026-11-24T17:44:53.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 74,
+      "count": 73,
       "heat": 82
     },
     {
@@ -24,22 +24,22 @@
     {
       "name": "监管安全",
       "count": 32,
-      "heat": 90
+      "heat": 89
     },
     {
       "name": "算力芯片",
-      "count": 23,
+      "count": 24,
       "heat": 87
     },
     {
       "name": "研究论文",
-      "count": 20,
+      "count": 19,
       "heat": 84
     },
     {
       "name": "投融资",
       "count": 17,
-      "heat": 85
+      "heat": 84
     },
     {
       "name": "人工智能动态",
@@ -49,7 +49,7 @@
     {
       "name": "端侧智能",
       "count": 13,
-      "heat": 80
+      "heat": 81
     },
     {
       "name": "多模态",
@@ -59,12 +59,12 @@
     {
       "name": "开源生态",
       "count": 10,
-      "heat": 77
+      "heat": 76
     },
     {
       "name": "机器人",
       "count": 6,
-      "heat": 80
+      "heat": 79
     }
   ],
   "sources": [
@@ -272,7 +272,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 9,
+      "displayedCount": 8,
       "latestFetchedAt": "2026-11-24T14:28:41.000Z",
       "latestDisplayedAt": "2026-11-24T14:28:41.000Z"
     },
@@ -288,9 +288,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 10,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-11-24T16:00:00.000Z",
-      "latestDisplayedAt": "2026-11-24T16:00:00.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-11-24T17:44:53.000Z",
+      "latestDisplayedAt": "2026-11-24T17:44:53.000Z"
     },
     {
       "id": "towards-data-science",
@@ -487,9 +487,26 @@
   ],
   "failures": [
     "hacker-news-ai: HTTP 419",
-    "reddit-artificial: HTTP 404"
+    "reddit-artificial: HTTP 429"
   ],
   "items": [
+    {
+      "id": "wired-ai-向英伟达员工在首个-机械手回归",
+      "title": "向英伟达员工在首个，机械手回归",
+      "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-24T17:44:53.000Z",
+      "summary": "英伟达首席执行官公司代码和。",
+      "topics": [
+        "算力芯片",
+        "端侧智能"
+      ],
+      "heat": 99,
+      "image": "https://media.wired.com/photos/6b05ac8615bd092ec9b638cd/master/pass/GettyImages-2279157190.jpg"
+    },
     {
       "id": "the-verge-ai-人工智能-生成月",
       "title": "人工智能，生成月",
@@ -535,7 +552,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -569,23 +586,6 @@
       ],
       "heat": 99,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp"
-    },
-    {
-      "id": "wired-ai-人工智能安全公司创建向人工智能智能体进入",
-      "title": "人工智能安全公司创建向人工智能智能体进入",
-      "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-24T16:00:00.000Z",
-      "summary": "新人工智能智能体，和。",
-      "topics": [
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 99,
-      "image": "https://media.wired.com/photos/6b04bcaa13580ca4e2bfb763/master/pass/Business_Anthropic%20Created%20a%20Honeypot%20to%20Lure%20AI%20Agents%20Into%20Misbehaving_v1.jpg"
     },
     {
       "id": "github-blog-代码托管平台官方博客发布人工智能相关动态",
@@ -685,7 +685,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
     },
     {
@@ -702,7 +702,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -802,7 +802,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -838,7 +838,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -854,7 +854,7 @@
       "topics": [
         "研究论文"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif"
     },
     {
@@ -904,7 +904,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -923,6 +923,23 @@
       ],
       "heat": 99,
       "image": ""
+    },
+    {
+      "id": "wired-ai-人工智能安全公司创建向人工智能智能体进入",
+      "title": "人工智能安全公司创建向人工智能智能体进入",
+      "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "summary": "新人工智能智能体，和。",
+      "topics": [
+        "产品应用",
+        "监管安全"
+      ],
+      "heat": 99,
+      "image": "https://media.wired.com/photos/6b04bcaa13580ca4e2bfb763/master/pass/Business_Anthropic%20Created%20a%20Honeypot%20to%20Lure%20AI%20Agents%20Into%20Misbehaving_v1.jpg"
     },
     {
       "id": "ithome-鸿蒙系统终端设备数破亿-华为同步官宣注册开发者超-1200-万-可获取应用服务超-46-万",
@@ -972,7 +989,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -1006,24 +1023,8 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
-    },
-    {
-      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
-      "title": "连线杂志人工智能发布人工智能相关动态。",
-      "url": "https://www.wired.com/story/this-hollywood-star-took-on-crypto-now-hes-got-a-new-target/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-24T12:00:00.000Z",
-      "summary": "来自连线杂志人工智能的人工智能相关动态，已转写为中文摘要。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 85,
-      "image": "https://media.wired.com/photos/6b0473356fc54eec225ff48b/master/pass/Hollywood-Star-Took-on-Crypto-Politics-2287897688.jpg"
     },
     {
       "id": "oschina-3-1-0-发布-从执行架构升级-到技能经验与长任务可靠性完善",
@@ -1089,7 +1090,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -1124,7 +1125,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1159,7 +1160,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1175,7 +1176,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1192,7 +1193,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp"
     },
     {
@@ -1383,6 +1384,22 @@
       "image": ""
     },
     {
+      "id": "wired-ai-连线杂志人工智能发布人工智能相关动态",
+      "title": "连线杂志人工智能发布人工智能相关动态。",
+      "url": "https://www.wired.com/story/this-hollywood-star-took-on-crypto-now-hes-got-a-new-target/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "summary": "来自连线杂志人工智能的人工智能相关动态，已转写为中文摘要。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 84,
+      "image": "https://media.wired.com/photos/6b0473356fc54eec225ff48b/master/pass/Hollywood-Star-Took-on-Crypto-Politics-2287897688.jpg"
+    },
+    {
       "id": "oschina-第5代-2-发布-零大语言模型确定性人工智能音乐编译器与-2-0-协议引擎",
       "title": "第5代.2 发布：零大语言模型确定性人工智能音乐编译器与 2.0 协议引擎",
       "url": "https://www.oschina.net/news/503778",
@@ -1413,7 +1430,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1429,24 +1446,8 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
-    },
-    {
-      "id": "wired-ai-内部英伟达-回归",
-      "title": "内部英伟达，回归",
-      "url": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-24T01:35:38.000Z",
-      "summary": "作为面向在芯片，员工。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 84,
-      "image": "https://media.wired.com/photos/6b0489fe20864bfc4bb456b5/master/pass/Jensen-Huang-Tells-Nvidia-Employees-Business-2300373740.jpg"
     },
     {
       "id": "the-verge-ai-前沿科技媒体人工智能发布人工智能相关动态",
@@ -1498,7 +1499,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1515,7 +1516,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -1665,7 +1666,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -1715,7 +1716,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
@@ -1783,8 +1784,24 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
+    },
+    {
+      "id": "wired-ai-内部英伟达-回归",
+      "title": "内部英伟达，回归",
+      "url": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-24T01:35:38.000Z",
+      "summary": "作为面向在芯片，员工。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 84,
+      "image": "https://media.wired.com/photos/6b0489fe20864bfc4bb456b5/master/pass/Jensen-Huang-Tells-Nvidia-Employees-Business-2300373740.jpg"
     },
     {
       "id": "the-verge-ai-英伟达首席执行官",
@@ -1839,22 +1856,6 @@
       ],
       "heat": 81,
       "image": ""
-    },
-    {
-      "id": "wired-ai-和英伟达",
-      "title": "和英伟达",
-      "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
-      "source": "连线杂志人工智能",
-      "sourceId": "wired-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T17:52:56.000Z",
-      "summary": "首席执行官回归只是？",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 77,
-      "image": "https://media.wired.com/photos/6b0467fb5f8e6c0d7b84afc9/master/pass/Business_Nvidia%20Is%20Worth%20$1%20Trillion%20More%20Than%20It%20Was%20Yesterday.jpg"
     },
     {
       "id": "towards-data-science-人工智能面向数据",
@@ -1971,8 +1972,8 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-亚马逊在软件向借助英伟达在人工智能芯片",
-      "title": "亚马逊在软件向借助英伟达在人工智能芯片",
+      "id": "techcrunch-ai-亚马逊在软件向借助英伟达",
+      "title": "亚马逊在软件向借助英伟达",
       "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
@@ -1983,7 +1984,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 98,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2019,7 +2020,7 @@
         "投融资",
         "机器人"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2035,7 +2036,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2160,20 +2161,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-作为英伟达首席执行官",
-      "title": "作为英伟达首席执行官",
-      "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "id": "wired-ai-和英伟达",
+      "title": "和英伟达",
+      "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T14:27:35.000Z",
-      "summary": "公司首席执行官，借助。",
+      "publishedAt": "2026-11-23T17:52:56.000Z",
+      "summary": "首席执行官回归只是？",
       "topics": [
         "算力芯片"
       ],
-      "heat": 75,
-      "image": "https://media.wired.com/photos/6b04495d307e146147156b9d/master/pass/GettyImages-2266718431.jpg"
+      "heat": 77,
+      "image": "https://media.wired.com/photos/6b0467fb5f8e6c0d7b84afc9/master/pass/Business_Nvidia%20Is%20Worth%20$1%20Trillion%20More%20Than%20It%20Was%20Yesterday.jpg"
     },
     {
       "id": "towards-data-science-向了解在-2027-借助克劳德模型代码",
@@ -2289,7 +2290,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2305,7 +2306,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -2321,7 +2322,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2355,7 +2356,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -2389,7 +2390,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2447,20 +2448,20 @@
       "image": ""
     },
     {
-      "id": "wired-ai-问题-持续来自人工智能",
-      "title": "问题: 持续来自人工智能？",
-      "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+      "id": "wired-ai-作为英伟达首席执行官",
+      "title": "作为英伟达首席执行官",
+      "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
       "source": "连线杂志人工智能",
       "sourceId": "wired-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-23T12:00:00.000Z",
-      "summary": "人工智能，在。关于信息技术？在 2 向问题。",
+      "publishedAt": "2026-11-23T14:27:35.000Z",
+      "summary": "公司首席执行官，借助。",
       "topics": [
-        "人工智能动态"
+        "算力芯片"
       ],
-      "heat": 64,
-      "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg"
+      "heat": 74,
+      "image": "https://media.wired.com/photos/6b04495d307e146147156b9d/master/pass/GettyImages-2266718431.jpg"
     },
     {
       "id": "openai-news-探索智能编程工具安全",
@@ -2527,7 +2528,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 95,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2560,7 +2561,7 @@
         "产品应用",
         "端侧智能"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
@@ -2577,7 +2578,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": ""
     },
     {
@@ -2631,6 +2632,22 @@
       ],
       "heat": 68,
       "image": ""
+    },
+    {
+      "id": "wired-ai-问题-持续来自人工智能",
+      "title": "问题: 持续来自人工智能？",
+      "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+      "source": "连线杂志人工智能",
+      "sourceId": "wired-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "summary": "人工智能，在。关于信息技术？在 2 向问题。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 64,
+      "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg"
     },
     {
       "id": "ithome-开放人工智能公司-窃听-案更多细节浮出水面-当事沙特工程师借助智能编程工具偷录重要会议",
@@ -2698,7 +2715,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -2749,7 +2766,7 @@
         "模型发布",
         "多模态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2767,7 +2784,7 @@
         "监管安全",
         "多模态"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2784,7 +2801,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -2819,7 +2836,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 99,
+      "heat": 98,
       "image": ""
     },
     {
@@ -2836,24 +2853,6 @@
         "产品应用"
       ],
       "heat": 74,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-中国人工智能和",
-      "title": "中国人工智能和",
-      "url": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-23T14:43:23.000Z",
-      "summary": "中国研究人工智能在驱动。中国人工智能和首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "端侧智能"
-      ],
-      "heat": 77,
       "image": ""
     }
   ]
