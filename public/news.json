@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T22:36:15.645Z",
+  "generatedAt": "2026-11-25T22:55:42.144Z",
   "cadenceMinutes": 30,
   "nextUpdateHint": "2026-11-25T23:00:00.000Z",
   "stats": {
@@ -8,13 +8,13 @@
     "sourcesSucceeded": 24,
     "sourcesFailed": 2,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-25T22:18:03.000Z"
+    "latestPublishedAt": "2026-11-25T22:44:32.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
       "count": 67,
-      "heat": 83
+      "heat": 82
     },
     {
       "name": "模型发布",
@@ -27,11 +27,6 @@
       "heat": 84
     },
     {
-      "name": "监管安全",
-      "count": 19,
-      "heat": 89
-    },
-    {
       "name": "研究论文",
       "count": 21,
       "heat": 80
@@ -42,9 +37,14 @@
       "heat": 75
     },
     {
+      "name": "监管安全",
+      "count": 18,
+      "heat": 89
+    },
+    {
       "name": "投融资",
       "count": 13,
-      "heat": 79
+      "heat": 78
     },
     {
       "name": "开源生态",
@@ -54,7 +54,7 @@
     {
       "name": "多模态",
       "count": 10,
-      "heat": 84
+      "heat": 83
     },
     {
       "name": "端侧智能",
@@ -64,7 +64,7 @@
     {
       "name": "机器人",
       "count": 2,
-      "heat": 83
+      "heat": 82
     }
   ],
   "sources": [
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-11-25T20:03:27.000Z",
-      "latestDisplayedAt": "2026-11-25T20:03:27.000Z"
+      "latestFetchedAt": "2026-11-25T22:44:32.000Z",
+      "latestDisplayedAt": "2026-11-25T22:44:32.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -487,9 +487,25 @@
   ],
   "failures": [
     "hacker-news-ai: HTTP 419",
-    "reddit-artificial: HTTP 404"
+    "reddit-artificial: HTTP 429"
   ],
   "items": [
+    {
+      "id": "techcrunch-ai-英伟达和风险",
+      "title": "& 英伟达和风险",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "summary": "英伟达向。",
+      "topics": [
+        "算力芯片"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "github-changelog-智能副驾代码评测向组织",
       "title": "智能副驾代码评测向组织",
@@ -543,23 +559,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司智能聊天助手用户限制作为信息技术和",
-      "title": "开放人工智能公司智能聊天助手用户限制作为信息技术和",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T20:03:27.000Z",
-      "summary": "开放人工智能公司单个智能聊天助手作为信息技术和。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
-      "image": ""
-    },
-    {
       "id": "huggingface-blog-在人工智能智能体",
       "title": "在人工智能智能体",
       "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
@@ -604,7 +603,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png"
     },
     {
@@ -637,7 +636,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -737,7 +736,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": "https://media.wired.com/photos/6b04df84424fd4be0d579981/master/pass/How-Trump-Admin-Got-Piece-of-Intel-Business.jpg"
     },
     {
@@ -893,19 +892,20 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-英伟达代码-和员工信息技术",
-      "title": "英伟达代码，和员工信息技术",
-      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "id": "techcrunch-ai-开放人工智能公司智能聊天助手用户限制作为信息技术和",
+      "title": "开放人工智能公司智能聊天助手用户限制作为信息技术和",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T19:54:57.000Z",
-      "summary": "最作为。在英伟达。",
+      "publishedAt": "2026-11-25T20:03:27.000Z",
+      "summary": "开放人工智能公司单个智能聊天助手作为信息技术和。",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -939,7 +939,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1023,7 +1023,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1039,7 +1039,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg"
     },
     {
@@ -1055,7 +1055,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -1071,7 +1071,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 75,
+      "heat": 74,
       "image": ""
     },
     {
@@ -1105,7 +1105,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1158,7 +1158,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 74,
+      "heat": 73,
       "image": ""
     },
     {
@@ -1248,21 +1248,19 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/Copy-of-nvidia-ov-x-astra-4up-KV-r1-press-4k-r2-scaled.png"
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司呼吁控制向人工智能",
-      "title": "人工智能安全公司呼吁控制向人工智能",
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "id": "techcrunch-ai-英伟达代码-和员工信息技术",
+      "title": "英伟达代码，和员工信息技术",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T19:44:24.000Z",
-      "summary": "人工智能安全公司首席执行官向人工智能，作为人工智能公司自动化研究和模型。",
+      "publishedAt": "2026-11-25T19:54:57.000Z",
+      "summary": "最作为。在英伟达。",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
+        "算力芯片"
       ],
-      "heat": 99,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1295,7 +1293,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1312,7 +1310,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1427,7 +1425,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 69,
+      "heat": 68,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg"
     },
     {
@@ -1445,7 +1443,7 @@
         "监管安全",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1511,7 +1509,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 56,
+      "heat": 55,
       "image": ""
     },
     {
@@ -1598,21 +1596,21 @@
       "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/GFN_Thursday_November_19.jpg"
     },
     {
-      "id": "techcrunch-ai-向人工智能-在新",
-      "title": "向人工智能？在新",
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "id": "techcrunch-ai-人工智能安全公司呼吁控制向人工智能",
+      "title": "人工智能安全公司呼吁控制向人工智能",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T18:11:46.000Z",
-      "summary": "新人工智能面向五个作为新研究来自安全，向和风险向。",
+      "publishedAt": "2026-11-25T19:44:24.000Z",
+      "summary": "人工智能安全公司首席执行官向人工智能，作为人工智能公司自动化研究和模型。",
       "topics": [
-        "产品应用",
+        "模型发布",
         "监管安全",
         "研究论文"
       ],
-      "heat": 97,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1628,7 +1626,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1695,7 +1693,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -1730,7 +1728,7 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1764,7 +1762,7 @@
         "研究论文",
         "投融资"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1797,7 +1795,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -1830,7 +1828,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 62,
+      "heat": 61,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
     },
     {
@@ -1883,19 +1881,21 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp"
     },
     {
-      "id": "techcrunch-ai-人工智能向用户由",
-      "title": "人工智能向用户由",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "id": "techcrunch-ai-向人工智能-在新",
+      "title": "向人工智能？在新",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T17:35:58.000Z",
-      "summary": "人工智能数据来自 21 百万，2.1 百万向。",
+      "publishedAt": "2026-11-25T18:11:46.000Z",
+      "summary": "新人工智能面向五个作为新研究来自安全，向和风险向。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 87,
+      "heat": 97,
       "image": ""
     },
     {
@@ -2030,7 +2030,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -2136,19 +2136,19 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
     },
     {
-      "id": "techcrunch-ai-人工智能数据中心向构建-和信息技术",
-      "title": "人工智能数据中心向构建，和信息技术",
-      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "id": "techcrunch-ai-人工智能向用户由",
+      "title": "人工智能向用户由",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T15:41:43.000Z",
-      "summary": "⁠英伟达 ⁠ 信息技术人工智能数据中心信息技术向，和只是作为和。向开发者，驱动，和构建。⁠ ⁠。…",
+      "publishedAt": "2026-11-25T17:35:58.000Z",
+      "summary": "人工智能数据来自 21 百万，2.1 百万向。",
       "topics": [
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 93,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2218,7 +2218,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -2282,7 +2282,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -2300,7 +2300,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2372,19 +2372,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-亚马逊和元宇宙平台公司据报道在向在人工智能智能体",
-      "title": "亚马逊和元宇宙平台公司据报道在向在人工智能智能体",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "id": "techcrunch-ai-人工智能数据中心向构建-和信息技术",
+      "title": "人工智能数据中心向构建，和信息技术",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T14:10:18.000Z",
-      "summary": "亚马逊和元宇宙平台公司，月。",
+      "publishedAt": "2026-11-25T15:41:43.000Z",
+      "summary": "⁠英伟达 ⁠ 信息技术人工智能数据中心信息技术向，和只是作为和。向开发者，驱动，和构建。⁠ ⁠。…",
       "topics": [
-        "产品应用"
+        "算力芯片"
       ],
-      "heat": 84,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2402,7 +2402,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2469,7 +2469,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -2486,7 +2486,7 @@
         "产品应用",
         "机器人"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2554,20 +2554,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-问题和英伟达向答案关于",
-      "title": "问题和英伟达向答案关于",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "id": "techcrunch-ai-亚马逊和元宇宙平台公司据报道在向在人工智能智能体",
+      "title": "亚马逊和元宇宙平台公司据报道在向在人工智能智能体",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T13:00:00.000Z",
-      "summary": "问题面向英伟达关于芯片和借助公司向。",
+      "publishedAt": "2026-11-25T14:10:18.000Z",
+      "summary": "亚马逊和元宇宙平台公司，月。",
       "topics": [
-        "算力芯片",
-        "投融资"
+        "产品应用"
       ],
-      "heat": 96,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2584,7 +2583,7 @@
         "模型发布",
         "算力芯片"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2708,6 +2707,23 @@
       "image": "https://media.wired.com/photos/6b04495d307e146147156b9d/master/pass/GettyImages-2266718431.jpg"
     },
     {
+      "id": "techcrunch-ai-问题和英伟达向答案关于",
+      "title": "问题和英伟达向答案关于",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-25T13:00:00.000Z",
+      "summary": "问题面向英伟达关于芯片和借助公司向。",
+      "topics": [
+        "算力芯片",
+        "投融资"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
       "id": "ithome-2026-年相关型号全球纯晶圆代工市场同比增长-36-台积电份额扩大至-75",
       "title": "2026 年相关型号全球纯晶圆代工市场同比增长 36%，台积电份额扩大至 75%",
       "url": "https://www.ithome.com/1/032/477.htm",
@@ -2720,7 +2736,7 @@
       "topics": [
         "端侧智能"
       ],
-      "heat": 79,
+      "heat": 78,
       "image": ""
     },
     {
@@ -2738,7 +2754,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2772,7 +2788,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2812,23 +2828,6 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-英伟达向可能",
-      "title": ": 英伟达向可能",
-      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T00:12:02.000Z",
-      "summary": "欢呼，回归作为英伟达首席执行官和，向来自和问题公司帮助设置高级芯片在机械手。",
-      "topics": [
-        "算力芯片",
-        "监管安全"
-      ],
-      "heat": 85,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-新人工智能",
       "title": "新人工智能",
       "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
@@ -2842,7 +2841,7 @@
         "算力芯片",
         "多模态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     }
   ]
