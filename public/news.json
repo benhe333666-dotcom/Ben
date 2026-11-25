@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-25T18:25:12.845Z",
+  "generatedAt": "2026-11-25T18:55:19.228Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-25T18:30:00.000Z",
+  "nextUpdateHint": "2026-11-25T19:00:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 24,
     "sourcesFailed": 2,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-25T18:11:46.000Z"
+    "latestPublishedAt": "2026-11-25T18:52:55.000Z"
   },
   "topics": [
     {
@@ -18,23 +18,18 @@
     },
     {
       "name": "模型发布",
-      "count": 42,
+      "count": 43,
       "heat": 82
     },
     {
       "name": "算力芯片",
       "count": 35,
-      "heat": 85
+      "heat": 84
     },
     {
       "name": "研究论文",
-      "count": 23,
-      "heat": 83
-    },
-    {
-      "name": "监管安全",
-      "count": 19,
-      "heat": 91
+      "count": 22,
+      "heat": 82
     },
     {
       "name": "人工智能动态",
@@ -42,19 +37,24 @@
       "heat": 78
     },
     {
+      "name": "监管安全",
+      "count": 18,
+      "heat": 91
+    },
+    {
       "name": "投融资",
-      "count": 14,
-      "heat": 82
+      "count": 13,
+      "heat": 81
     },
     {
       "name": "开源生态",
       "count": 11,
-      "heat": 81
+      "heat": 80
     },
     {
       "name": "端侧智能",
       "count": 11,
-      "heat": 80
+      "heat": 79
     },
     {
       "name": "多模态",
@@ -192,9 +192,9 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 8,
-      "displayedCount": 6,
-      "latestFetchedAt": "2026-11-25T10:22:09.000Z",
-      "latestDisplayedAt": "2026-11-25T10:22:09.000Z"
+      "displayedCount": 7,
+      "latestFetchedAt": "2026-11-25T18:52:55.000Z",
+      "latestDisplayedAt": "2026-11-25T18:52:55.000Z"
     },
     {
       "id": "techcrunch-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 9,
-      "latestFetchedAt": "2026-11-25T16:44:37.000Z",
-      "latestDisplayedAt": "2026-11-25T16:44:37.000Z"
+      "latestFetchedAt": "2026-11-25T18:22:02.000Z",
+      "latestDisplayedAt": "2026-11-25T18:22:02.000Z"
     },
     {
       "id": "wired-ai",
@@ -416,7 +416,7 @@
       "fallback": false,
       "fallbackReason": "",
       "itemCount": 16,
-      "displayedCount": 10,
+      "displayedCount": 9,
       "latestFetchedAt": "2026-11-25T14:29:00.000Z",
       "latestDisplayedAt": "2026-11-25T14:29:00.000Z"
     },
@@ -487,9 +487,42 @@
   ],
   "failures": [
     "hacker-news-ai: HTTP 419",
-    "reddit-artificial: HTTP 404"
+    "reddit-artificial: HTTP 429"
   ],
   "items": [
+    {
+      "id": "huggingface-blog-在人工智能智能体",
+      "title": "在人工智能智能体",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 91,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-开放人工智能公司公司向信息技术借助由向在数据",
+      "title": "开放人工智能公司公司向信息技术借助由向在数据",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-25T18:22:02.000Z",
+      "summary": "开放人工智能公司新功能呼吁推理公司在最模型开放人工智能公司向访问数据。开放人工智能公司公司向信息技术借助由向在数据首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用"
+      ],
+      "heat": 99,
+      "image": ""
+    },
     {
       "id": "techcrunch-ai-向人工智能-在新",
       "title": "向人工智能？在新",
@@ -538,7 +571,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2289651678-1152x648.jpg"
     },
     {
@@ -556,22 +589,6 @@
       ],
       "heat": 92,
       "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png"
-    },
-    {
-      "id": "the-decoder-亚马逊和元宇宙平台公司在向在元宇宙平台公司人工智能智能体在亚马逊",
-      "title": "亚马逊和元宇宙平台公司在向在元宇宙平台公司人工智能智能体在亚马逊。",
-      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T16:44:37.000Z",
-      "summary": "亚马逊和元宇宙平台公司在向带来，元宇宙平台公司人工智能智能体亚马逊平台在。在和向控制。亚马逊企业生成 $68.6 十亿，和 51。亚马逊和元宇宙平台公司在向在元宇宙平台公司人工智能智能体在亚马逊。首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 88,
-      "image": ""
     },
     {
       "id": "qbitai-我以为这是摄影作品-你告诉我这是最新的国产人工智能",
@@ -635,7 +652,7 @@
       "topics": [
         "多模态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -687,23 +704,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 97,
-      "image": ""
-    },
-    {
-      "id": "huggingface-blog-智能体借助",
-      "title": "智能体借助",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-25T10:22:09.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "产品应用"
-      ],
-      "heat": 84,
+      "heat": 96,
       "image": ""
     },
     {
@@ -735,7 +736,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -786,7 +787,7 @@
         "产品应用",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -820,7 +821,7 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 80,
+      "heat": 79,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp"
     },
     {
@@ -891,6 +892,22 @@
       "image": ""
     },
     {
+      "id": "the-decoder-亚马逊和元宇宙平台公司在向在元宇宙平台公司人工智能智能体在亚马逊",
+      "title": "亚马逊和元宇宙平台公司在向在元宇宙平台公司人工智能智能体在亚马逊。",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-25T16:44:37.000Z",
+      "summary": "亚马逊和元宇宙平台公司在向带来，元宇宙平台公司人工智能智能体亚马逊平台在。在和向控制。亚马逊企业生成 $68.6 十亿，和 51。亚马逊和元宇宙平台公司在向在元宇宙平台公司人工智能智能体在亚马逊。首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 88,
+      "image": ""
+    },
+    {
       "id": "the-verge-ai-在人工智能和",
       "title": "在人工智能和",
       "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
@@ -953,7 +970,7 @@
         "多模态",
         "开源生态"
       ],
-      "heat": 88,
+      "heat": 87,
       "image": ""
     },
     {
@@ -971,7 +988,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -987,25 +1004,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 84,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-人工智能智能体控制部件深度思维面向双子座模型",
-      "title": "人工智能智能体控制部件深度思维面向双子座模型",
-      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T13:23:36.000Z",
-      "summary": "谷歌深度思维使用人工智能智能体向在面向双子座模型模型。研究实验室来自。面向，深度思维智能体。通用人工智能由用户基准测试。人工智能智能体控制部件深度思维面向双子座模型，首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 99,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1042,6 +1041,22 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg"
     },
     {
+      "id": "huggingface-blog-智能体借助",
+      "title": "智能体借助",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-25T10:22:09.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 84,
+      "image": ""
+    },
+    {
       "id": "oschina-1-10-15-正式发版-系列最好用最简单最方便的",
       "title": ":: 1.10.15 正式发版，系列最好用最简单最方便的！",
       "url": "https://www.oschina.net/news/503808",
@@ -1055,22 +1070,6 @@
         "人工智能动态"
       ],
       "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "huggingface-blog-2-小型版推理在专业版-6000",
-      "title": "2 小型版推理在专业版 6000",
-      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 75,
       "image": ""
     },
     {
@@ -1122,7 +1121,7 @@
         "产品应用",
         "研究论文"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -1139,7 +1138,7 @@
         "模型发布",
         "产品应用"
       ],
-      "heat": 71,
+      "heat": 70,
       "image": ""
     },
     {
@@ -1258,7 +1257,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 97,
+      "heat": 96,
       "image": ""
     },
     {
@@ -1291,7 +1290,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -1308,7 +1307,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1328,18 +1327,18 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司部件人工智能在向借助工具",
-      "title": "人工智能安全公司部件人工智能在向借助工具",
-      "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
+      "id": "the-decoder-人工智能智能体控制部件深度思维面向双子座模型",
+      "title": "人工智能智能体控制部件深度思维面向双子座模型",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T13:14:27.000Z",
-      "summary": "人工智能安全公司 300 人工智能 58 公司借助。在五个交付企业，由评测，和员工。研究来自公司。人工智能安全公司部件人工智能在向借助工具首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-25T13:23:36.000Z",
+      "summary": "谷歌深度思维使用人工智能智能体向在面向双子座模型模型。研究实验室来自。面向，深度思维智能体。通用人工智能由用户基准测试。人工智能智能体控制部件深度思维面向双子座模型，首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "监管安全",
         "研究论文"
       ],
       "heat": 99,
@@ -1359,7 +1358,7 @@
         "模型发布",
         "投融资"
       ],
-      "heat": 96,
+      "heat": 95,
       "image": ""
     },
     {
@@ -1392,7 +1391,23 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 78,
+      "heat": 77,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-2-小型版推理在专业版-6000",
+      "title": "2 小型版推理在专业版 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 75,
       "image": ""
     },
     {
@@ -1443,7 +1458,7 @@
         "模型发布",
         "研究论文"
       ],
-      "heat": 76,
+      "heat": 75,
       "image": ""
     },
     {
@@ -1462,22 +1477,6 @@
       ],
       "heat": 81,
       "image": "https://media.wired.com/photos/6b05ac8615bd092ec9b638cd/master/pass/GettyImages-2279157190.jpg"
-    },
-    {
-      "id": "huggingface-blog-工作流借助实验室和",
-      "title": ": 工作流借助实验室和",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-24T16:34:13.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "人工智能动态"
-      ],
-      "heat": 69,
-      "image": ""
     },
     {
       "id": "towards-data-science-向面向-智能体工作流代码",
@@ -1628,21 +1627,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能解码媒体发布人工智能相关动态",
-      "title": "人工智能解码媒体发布人工智能相关动态。",
-      "url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
+      "id": "the-decoder-人工智能安全公司部件人工智能在向借助工具",
+      "title": "人工智能安全公司部件人工智能在向借助工具",
+      "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T13:07:44.000Z",
-      "summary": "作为访问，独立在，和，在使用人工智能工具。在在，向，在和和首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-25T13:14:27.000Z",
+      "summary": "人工智能安全公司 300 人工智能 58 公司借助。在五个交付企业，由评测，和员工。研究来自公司。人工智能安全公司部件人工智能在向借助工具首个在人工智能解码媒体。",
       "topics": [
         "产品应用",
-        "投融资",
-        "端侧智能"
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 95,
+      "heat": 99,
       "image": ""
     },
     {
@@ -1659,7 +1658,7 @@
         "产品应用",
         "开源生态"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -1709,7 +1708,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -1745,6 +1744,22 @@
         "多模态"
       ],
       "heat": 75,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-工作流借助实验室和",
+      "title": ": 工作流借助实验室和",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-24T16:34:13.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "人工智能动态"
+      ],
+      "heat": 69,
       "image": ""
     },
     {
@@ -1814,23 +1829,6 @@
       "image": ""
     },
     {
-      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
-      "title": "模型社区博客发布人工智能相关动态。",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 55,
-      "image": ""
-    },
-    {
       "id": "google-ai-blog-在和在人工智能",
       "title": "在和在人工智能。",
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
@@ -1860,6 +1858,24 @@
         "模型发布",
         "产品应用",
         "算力芯片"
+      ],
+      "heat": 95,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-人工智能解码媒体发布人工智能相关动态",
+      "title": "人工智能解码媒体发布人工智能相关动态。",
+      "url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-25T13:07:44.000Z",
+      "summary": "作为访问，独立在，和，在使用人工智能工具。在在，向，在和和首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "投融资",
+        "端侧智能"
       ],
       "heat": 95,
       "image": ""
@@ -1895,25 +1911,7 @@
         "产品应用",
         "投融资"
       ],
-      "heat": 88,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-54-语言模型向-5-9-由每个向只是",
-      "title": "54 语言模型向 5.9 由每个向只是",
-      "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T11:51:49.000Z",
-      "summary": "创业公司发布 2.5 27 十亿，更新语言模型。54 语言模型向 5.9 由每个向只是首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "投融资"
-      ],
-      "heat": 94,
+      "heat": 87,
       "image": ""
     },
     {
@@ -1961,7 +1959,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2028,7 +2026,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 64,
+      "heat": 63,
       "image": "https://media.wired.com/photos/6b0473356fc54eec225ff48b/master/pass/Hollywood-Star-Took-on-Crypto-Politics-2287897688.jpg"
     },
     {
@@ -2046,6 +2044,23 @@
         "产品应用"
       ],
       "heat": 68,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-模型社区博客发布人工智能相关动态",
+      "title": "模型社区博客发布人工智能相关动态。",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "产品应用",
+        "投融资"
+      ],
+      "heat": 55,
       "image": ""
     },
     {
@@ -2083,22 +2098,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg"
     },
     {
-      "id": "huggingface-blog-2-小型版-性能面向本地",
-      "title": "2 小型版，性能面向本地",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "source": "模型社区博客",
-      "sourceId": "huggingface-blog",
-      "sourceType": "official",
-      "language": "zh",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
-      "topics": [
-        "端侧智能"
-      ],
-      "heat": 50,
-      "image": ""
-    },
-    {
       "id": "leiphone-多模型协同落地-浙江人形提升长序列任务作业稳定性",
       "title": "多模型协同落地，浙江人形提升长序列任务作业稳定性",
       "url": "https://www.leiphone.com/category/industrynews/KnGzlsg6xlU9Nnpk.html",
@@ -2129,25 +2128,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
-      "id": "the-decoder-团队训练数据人工智能",
-      "title": "团队训练数据人工智能",
-      "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+      "id": "the-decoder-54-语言模型向-5-9-由每个向只是",
+      "title": "54 语言模型向 5.9 由每个向只是",
+      "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T10:47:51.000Z",
-      "summary": "研究人工智能模型由借助单个训练向。生成借助打开模型，由时间，向研究。团队训练数据人工智能首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-25T11:51:49.000Z",
+      "summary": "创业公司发布 2.5 27 十亿，更新语言模型。54 语言模型向 5.9 由每个向只是首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
-        "研究论文"
+        "投融资"
       ],
-      "heat": 93,
+      "heat": 94,
       "image": ""
     },
     {
@@ -2197,7 +2196,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2213,7 +2212,7 @@
       "topics": [
         "开源生态"
       ],
-      "heat": 83,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2230,7 +2229,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2264,7 +2263,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 70,
+      "heat": 69,
       "image": ""
     },
     {
@@ -2280,7 +2279,7 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": "https://media.wired.com/photos/6b0489fe20864bfc4bb456b5/master/pass/Jensen-Huang-Tells-Nvidia-Employees-Business-2300373740.jpg"
     },
     {
@@ -2320,9 +2319,9 @@
       "image": ""
     },
     {
-      "id": "huggingface-blog-推出工具链-模型向工具链向改进性能和成本",
-      "title": "推出工具链 : 模型向工具链向改进性能和成本",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "id": "huggingface-blog-2-小型版-性能面向本地",
+      "title": "2 小型版，性能面向本地",
+      "url": "https://huggingface.co/blog/inkling2mini",
       "source": "模型社区博客",
       "sourceId": "huggingface-blog",
       "sourceType": "official",
@@ -2330,7 +2329,7 @@
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
       "topics": [
-        "模型发布"
+        "端侧智能"
       ],
       "heat": 50,
       "image": ""
@@ -2371,6 +2370,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-团队训练数据人工智能",
+      "title": "团队训练数据人工智能",
+      "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-25T10:47:51.000Z",
+      "summary": "研究人工智能模型由借助单个训练向。生成借助打开模型，由时间，向研究。团队训练数据人工智能首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 93,
+      "image": ""
+    },
+    {
       "id": "cnblogs-news-黄仁勋回归-人工智能泡沫是否继续",
       "title": "黄仁勋回归，人工智能泡沫是否继续？",
       "url": "https://news.cnblogs.com/n/846747/",
@@ -2383,7 +2400,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 77,
+      "heat": 76,
       "image": ""
     },
     {
@@ -2399,7 +2416,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2452,24 +2469,6 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司转化克劳德模型进入应用面向和视窗系统",
-      "title": "人工智能安全公司转化克劳德模型进入应用面向和视窗系统",
-      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-24T20:42:29.000Z",
-      "summary": "人工智能安全公司克劳德模型作为应用在苹果电脑和视窗系统，和。构建在代码，和信息技术新增，和创建视窗系统。人工智能安全公司转化克劳德模型进入应用面向和视窗系统首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 89,
-      "image": ""
-    },
-    {
       "id": "the-verge-ai-人工智能-生成月",
       "title": "人工智能，生成月",
       "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
@@ -2515,6 +2514,22 @@
         "模型发布"
       ],
       "heat": 55,
+      "image": ""
+    },
+    {
+      "id": "huggingface-blog-推出工具链-模型向工具链向改进性能和成本",
+      "title": "推出工具链 : 模型向工具链向改进性能和成本",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "source": "模型社区博客",
+      "sourceId": "huggingface-blog",
+      "sourceType": "official",
+      "language": "zh",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "来自权威公开来源的人工智能相关动态，点击原文查看完整报道。",
+      "topics": [
+        "模型发布"
+      ],
+      "heat": 50,
       "image": ""
     },
     {
@@ -2583,7 +2598,7 @@
         "产品应用",
         "多模态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2601,7 +2616,7 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 93,
+      "heat": 92,
       "image": ""
     },
     {
@@ -2617,25 +2632,25 @@
       "topics": [
         "算力芯片"
       ],
-      "heat": 82,
+      "heat": 81,
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能安全公司-700-百万开发工具包和扩展面向人工智能智能体",
-      "title": "人工智能安全公司 700 百万开发工具包和扩展面向人工智能智能体",
-      "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+      "id": "the-decoder-人工智能安全公司转化克劳德模型进入应用面向和视窗系统",
+      "title": "人工智能安全公司转化克劳德模型进入应用面向和视窗系统",
+      "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-24T19:23:41.000Z",
-      "summary": "推出，人工智能安全公司 700 百万面向。新功能作为任务，问题面向用户，和向克劳德模型。人工智能安全公司 700 百万开发工具包和扩展面向人工智能智能体首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-24T20:42:29.000Z",
+      "summary": "人工智能安全公司克劳德模型作为应用在苹果电脑和视窗系统，和。构建在代码，和信息技术新增，和创建视窗系统。人工智能安全公司转化克劳德模型进入应用面向和视窗系统首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
         "产品应用",
         "监管安全"
       ],
-      "heat": 88,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2737,7 +2752,7 @@
         "端侧智能",
         "开源生态"
       ],
-      "heat": 92,
+      "heat": 91,
       "image": ""
     },
     {
@@ -2755,7 +2770,7 @@
         "算力芯片",
         "研究论文"
       ],
-      "heat": 85,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2777,20 +2792,21 @@
       "image": ""
     },
     {
-      "id": "the-decoder-首席执行官人工智能-疾病",
-      "title": "首席执行官人工智能，疾病",
-      "url": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
+      "id": "the-decoder-人工智能安全公司-700-百万开发工具包和扩展面向人工智能智能体",
+      "title": "人工智能安全公司 700 百万开发工具包和扩展面向人工智能智能体",
+      "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-24T18:01:55.000Z",
-      "summary": "首席执行官，在人工智能安全公司，在来自人工智能安全公司首席执行官和深度思维。人工智能，信息技术在。在。首席执行官人工智能，疾病首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-24T19:23:41.000Z",
+      "summary": "推出，人工智能安全公司 700 百万面向。新功能作为任务，问题面向用户，和向克劳德模型。人工智能安全公司 700 百万开发工具包和扩展面向人工智能智能体首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
         "监管安全"
       ],
-      "heat": 82,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2807,7 +2823,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 66,
+      "heat": 65,
       "image": ""
     },
     {
@@ -2826,24 +2842,6 @@
         "端侧智能"
       ],
       "heat": 92,
-      "image": ""
-    },
-    {
-      "id": "leiphone-独家丨哥大博士创业做眼动追踪-已获-1800-万种子轮融资",
-      "title": "独家丨哥大博士创业做眼动追踪，已获 1800 万种子轮融资",
-      "url": "https://www.leiphone.com/category/weiwu/4Hb8s6tRcpRrICqZ.html",
-      "source": "雷峰网",
-      "sourceId": "leiphone",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T10:19:00.000Z",
-      "summary": "创始人贾璋曾在苹果开创“原彩显示”技术，并与联合创始人陈子泰在元宇宙平台公司共事多年。作者丨黄艳冰编辑丨姚单雷峰网·鲸犀独家获悉，观格科技已完成 1800 万元种子轮融资，并取得香港理工大学相关技术许可。目前，公司新一轮融资也即将完成，创维投资或担任领投方。观格科技成立于 2024 年，专注传感技术和人工智能算法，以及应用于装置关键技术的解决方案。核心团队横跨科技企业与高校科……",
-      "topics": [
-        "产品应用",
-        "研究论文",
-        "投融资"
-      ],
-      "heat": 99,
       "image": ""
     }
   ]
