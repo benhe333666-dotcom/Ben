@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-28T13:32:17.676Z",
+  "generatedAt": "2026-11-28T14:02:35.633Z",
   "cadenceMinutes": 30,
-  "nextUpdateHint": "2026-11-28T14:00:00.000Z",
+  "nextUpdateHint": "2026-11-28T14:30:00.000Z",
   "stats": {
     "total": 140,
     "sourceCount": 26,
     "sourcesSucceeded": 24,
     "sourcesFailed": 2,
     "windowHours": 168,
-    "latestPublishedAt": "2026-11-28T13:00:00.000Z"
+    "latestPublishedAt": "2026-11-28T14:00:00.000Z"
   },
   "topics": [
     {
       "name": "产品应用",
-      "count": 73,
+      "count": 72,
       "heat": 72
     },
     {
       "name": "模型发布",
-      "count": 44,
+      "count": 45,
       "heat": 78
     },
     {
@@ -27,19 +27,24 @@
       "heat": 77
     },
     {
-      "name": "研究论文",
+      "name": "监管安全",
       "count": 21,
-      "heat": 73
+      "heat": 80
     },
     {
-      "name": "监管安全",
-      "count": 19,
-      "heat": 78
+      "name": "研究论文",
+      "count": 20,
+      "heat": 74
     },
     {
       "name": "人工智能动态",
       "count": 17,
       "heat": 59
+    },
+    {
+      "name": "投融资",
+      "count": 11,
+      "heat": 85
     },
     {
       "name": "多模态",
@@ -57,14 +62,9 @@
       "heat": 65
     },
     {
-      "name": "投融资",
-      "count": 10,
-      "heat": 84
-    },
-    {
       "name": "机器人",
       "count": 6,
-      "heat": 85
+      "heat": 84
     }
   ],
   "sources": [
@@ -209,8 +209,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-11-26T20:03:54.000Z",
-      "latestDisplayedAt": "2026-11-26T20:03:54.000Z"
+      "latestFetchedAt": "2026-11-28T14:00:00.000Z",
+      "latestDisplayedAt": "2026-11-28T14:00:00.000Z"
     },
     {
       "id": "ars-technica-ai",
@@ -273,8 +273,8 @@
       "fallbackReason": "",
       "itemCount": 10,
       "displayedCount": 10,
-      "latestFetchedAt": "2026-11-28T11:12:30.000Z",
-      "latestDisplayedAt": "2026-11-28T11:12:30.000Z"
+      "latestFetchedAt": "2026-11-28T13:42:00.000Z",
+      "latestDisplayedAt": "2026-11-28T13:42:00.000Z"
     },
     {
       "id": "wired-ai",
@@ -396,9 +396,9 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
       "itemCount": 7,
       "displayedCount": 7,
       "latestFetchedAt": "2026-11-28T12:25:48.000Z",
@@ -412,10 +412,10 @@
       "language": "zh",
       "originLanguage": "zh",
       "ok": true,
-      "liveOk": true,
-      "fallback": false,
-      "fallbackReason": "",
-      "itemCount": 16,
+      "liveOk": false,
+      "fallback": true,
+      "fallbackReason": "fetch failed",
+      "itemCount": 10,
       "displayedCount": 10,
       "latestFetchedAt": "2026-11-28T02:40:00.000Z",
       "latestDisplayedAt": "2026-11-28T02:40:00.000Z"
@@ -491,6 +491,41 @@
   ],
   "items": [
     {
+      "id": "techcrunch-ai-人工智能首席执行官模型关于安全",
+      "title": "人工智能首席执行官模型关于安全",
+      "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-28T14:00:00.000Z",
+      "summary": "人工智能目标是向强化借助人工智能模型。",
+      "topics": [
+        "模型发布",
+        "监管安全"
+      ],
+      "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-安全人工智能安全公司最",
+      "title": "安全人工智能安全公司最",
+      "url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-28T13:42:00.000Z",
+      "summary": "转化在人工智能安全公司。安全在人工智能由 4。人工智能安全公司面向最。问题关于人工智能安全评测和在人工智能实验室。安全人工智能安全公司最首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用",
+        "监管安全",
+        "投融资"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "towards-data-science-向大语言模型借助",
       "title": "向大语言模型借助",
       "url": "https://towardsdatascience.com/how-to-test-llm-state-tracking-with-a-statebench-style-deployment-log/",
@@ -503,7 +538,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -519,7 +554,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
@@ -536,23 +571,6 @@
         "模型发布"
       ],
       "heat": 98,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-谷歌深度思维首个人工智能模型任务",
-      "title": "谷歌深度思维首个人工智能模型任务",
-      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-28T11:12:30.000Z",
-      "summary": "谷歌深度思维 18 人工智能模型借助首个。模型解决每个任务系列在，开放人工智能公司询问面向 16 答案。面向 73，和时间修复问题。谷歌深度思维首个人工智能模型任务首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用"
-      ],
-      "heat": 99,
       "image": ""
     },
     {
@@ -586,7 +604,7 @@
         "投融资",
         "端侧智能"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
@@ -620,7 +638,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 73,
+      "heat": 72,
       "image": ""
     },
     {
@@ -653,7 +671,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
@@ -687,22 +705,6 @@
         "多模态"
       ],
       "heat": 59,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-英伟达在芯片向",
-      "title": "英伟达在芯片向",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-26T20:03:54.000Z",
-      "summary": "英伟达合作伙伴向向，和作为。向持续人工智能芯片。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 64,
       "image": ""
     },
     {
@@ -868,23 +870,22 @@
       "topics": [
         "模型发布"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
-      "id": "the-decoder-机器人创业公司-110-百万在融资向构建-模型人工智能面向机器人",
-      "title": "机器人创业公司 $110 百万在融资向构建，模型人工智能面向机器人",
-      "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "id": "the-decoder-谷歌深度思维首个人工智能模型任务",
+      "title": "谷歌深度思维首个人工智能模型任务",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-28T10:48:18.000Z",
-      "summary": "$110 百万在融资向构建机器人借助模型。人工智能来自视频和技能在仿真。谷歌深度思维，元宇宙平台公司，和研究创业公司作为面向机器人人工智能加速。机器人创业公司 $110 百万在融资向构建，模型人工智能面向机器人首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-28T11:12:30.000Z",
+      "summary": "谷歌深度思维 18 人工智能模型借助首个。模型解决每个任务系列在，开放人工智能公司询问面向 16 答案。面向 73，和时间修复问题。谷歌深度思维首个人工智能模型任务首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
-        "产品应用",
-        "研究论文"
+        "产品应用"
       ],
       "heat": 99,
       "image": ""
@@ -936,7 +937,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
@@ -993,20 +994,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
-      "title": "科技创投媒体人工智能发布人工智能相关动态。",
-      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "id": "techcrunch-ai-英伟达在芯片向",
+      "title": "英伟达在芯片向",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-26T16:00:00.000Z",
-      "summary": "在人工智能安全公司，视频变成最推出时间。",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "summary": "英伟达合作伙伴向向，和作为。向持续人工智能芯片。",
       "topics": [
-        "监管安全",
-        "多模态"
+        "算力芯片"
       ],
-      "heat": 65,
+      "heat": 63,
       "image": ""
     },
     {
@@ -1233,6 +1233,24 @@
       "image": ""
     },
     {
+      "id": "the-decoder-机器人创业公司-110-百万在融资向构建-模型人工智能面向机器人",
+      "title": "机器人创业公司 $110 百万在融资向构建，模型人工智能面向机器人",
+      "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-28T10:48:18.000Z",
+      "summary": "$110 百万在融资向构建机器人借助模型。人工智能来自视频和技能在仿真。谷歌深度思维，元宇宙平台公司，和研究创业公司作为面向机器人人工智能加速。机器人创业公司 $110 百万在融资向构建，模型人工智能面向机器人首个在人工智能解码媒体。",
+      "topics": [
+        "模型发布",
+        "产品应用",
+        "研究论文"
+      ],
+      "heat": 99,
+      "image": ""
+    },
+    {
       "id": "thirty-six-kr-融资数百万美金-未来序列想让人人拥有自己的人工智能互动游戏",
       "title": "融资数百万美金，未来序列想让人人拥有自己的人工智能互动游戏",
       "url": "https://36kr.com/p/4089194455513731?f=rss",
@@ -1263,25 +1281,7 @@
       "topics": [
         "机器人"
       ],
-      "heat": 78,
-      "image": ""
-    },
-    {
-      "id": "the-decoder-开放人工智能公司苹果和分享",
-      "title": "开放人工智能公司苹果和分享",
-      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-27T19:38:37.000Z",
-      "summary": "开放人工智能公司苹果在，信息技术和分享。苹果来自。只是，公司向带来智能聊天助手向苹果手机。开放人工智能公司构建向借助苹果。开放人工智能公司苹果和分享首个在人工智能解码媒体。",
-      "topics": [
-        "模型发布",
-        "产品应用",
-        "监管安全"
-      ],
-      "heat": 92,
+      "heat": 77,
       "image": ""
     },
     {
@@ -1351,6 +1351,23 @@
       "image": ""
     },
     {
+      "id": "techcrunch-ai-科技创投媒体人工智能发布人工智能相关动态",
+      "title": "科技创投媒体人工智能发布人工智能相关动态。",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "科技创投媒体人工智能",
+      "sourceId": "techcrunch-ai",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "summary": "在人工智能安全公司，视频变成最推出时间。",
+      "topics": [
+        "监管安全",
+        "多模态"
+      ],
+      "heat": 65,
+      "image": ""
+    },
+    {
       "id": "huggingface-blog-构建在-3-5-打开数据-和更快推理",
       "title": "构建在 3.5 : 打开数据，和更快推理",
       "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
@@ -1364,22 +1381,6 @@
         "人工智能动态"
       ],
       "heat": 50,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-英伟达和风险",
-      "title": "& 英伟达和风险",
-      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "source": "科技创投媒体人工智能",
-      "sourceId": "techcrunch-ai",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-25T22:44:32.000Z",
-      "summary": "英伟达向。",
-      "topics": [
-        "算力芯片"
-      ],
-      "heat": 58,
       "image": ""
     },
     {
@@ -1548,25 +1549,25 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 78,
+      "heat": 77,
       "image": ""
     },
     {
-      "id": "the-decoder-英伟达芯片转化在数据中心向",
-      "title": "英伟达芯片转化在数据中心向",
-      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "id": "the-decoder-开放人工智能公司苹果和分享",
+      "title": "开放人工智能公司苹果和分享",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-27T18:27:02.000Z",
-      "summary": "中国公司英伟达芯片在数据中心向，向。向。芯片向许可。英伟达芯片转化在数据中心向，首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-27T19:38:37.000Z",
+      "summary": "开放人工智能公司苹果在，信息技术和分享。苹果来自。只是，公司向带来智能聊天助手向苹果手机。开放人工智能公司构建向借助苹果。开放人工智能公司苹果和分享首个在人工智能解码媒体。",
       "topics": [
+        "模型发布",
         "产品应用",
-        "算力芯片",
-        "投融资"
+        "监管安全"
       ],
-      "heat": 91,
+      "heat": 92,
       "image": ""
     },
     {
@@ -1654,20 +1655,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-开放人工智能公司智能聊天助手用户限制作为信息技术和",
-      "title": "开放人工智能公司智能聊天助手用户限制作为信息技术和",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "id": "techcrunch-ai-英伟达和风险",
+      "title": "& 英伟达和风险",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T20:03:27.000Z",
-      "summary": "开放人工智能公司单个智能聊天助手作为信息技术和。",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "summary": "英伟达向。",
       "topics": [
-        "模型发布",
-        "产品应用"
+        "算力芯片"
       ],
-      "heat": 63,
+      "heat": 58,
       "image": ""
     },
     {
@@ -1801,7 +1801,7 @@
       "topics": [
         "监管安全"
       ],
-      "heat": 84,
+      "heat": 83,
       "image": ""
     },
     {
@@ -1818,25 +1818,25 @@
         "监管安全",
         "投融资"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "the-decoder-来自元宇宙平台公司和实验室在模型大语言模型",
-      "title": "来自元宇宙平台公司和实验室在模型大语言模型",
-      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "id": "the-decoder-英伟达芯片转化在数据中心向",
+      "title": "英伟达芯片转化在数据中心向",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-27T16:58:56.000Z",
-      "summary": "借助向语言模型创业公司实验室。目标是向模型和。新在机器人，高效训练，和，向。来自元宇宙平台公司和实验室在模型大语言模型首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-27T18:27:02.000Z",
+      "summary": "中国公司英伟达芯片在数据中心向，向。向。芯片向许可。英伟达芯片转化在数据中心向，首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用",
+        "算力芯片",
         "投融资"
       ],
-      "heat": 82,
+      "heat": 91,
       "image": ""
     },
     {
@@ -1907,23 +1907,24 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 59,
+      "heat": 58,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-英伟达代码-和员工信息技术",
-      "title": "英伟达代码，和员工信息技术",
-      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "id": "techcrunch-ai-开放人工智能公司智能聊天助手用户限制作为信息技术和",
+      "title": "开放人工智能公司智能聊天助手用户限制作为信息技术和",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T19:54:57.000Z",
-      "summary": "最作为。在英伟达。",
+      "publishedAt": "2026-11-25T20:03:27.000Z",
+      "summary": "开放人工智能公司单个智能聊天助手作为信息技术和。",
       "topics": [
-        "算力芯片"
+        "模型发布",
+        "产品应用"
       ],
-      "heat": 58,
+      "heat": 63,
       "image": ""
     },
     {
@@ -2024,7 +2025,7 @@
         "算力芯片",
         "端侧智能"
       ],
-      "heat": 90,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2041,7 +2042,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2057,23 +2058,25 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 86,
+      "heat": 85,
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能解码媒体发布人工智能相关动态",
-      "title": "人工智能解码媒体发布人工智能相关动态。",
-      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "id": "the-decoder-来自元宇宙平台公司和实验室在模型大语言模型",
+      "title": "来自元宇宙平台公司和实验室在模型大语言模型",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-27T16:06:43.000Z",
-      "summary": "云服务平台。云服务平台，首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-27T16:58:56.000Z",
+      "summary": "借助向语言模型创业公司实验室。目标是向模型和。新在机器人，高效训练，和，向。来自元宇宙平台公司和实验室在模型大语言模型首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "投融资"
       ],
-      "heat": 71,
+      "heat": 82,
       "image": ""
     },
     {
@@ -2107,7 +2110,7 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2127,21 +2130,19 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能安全公司呼吁控制向人工智能",
-      "title": "人工智能安全公司呼吁控制向人工智能",
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "id": "techcrunch-ai-英伟达代码-和员工信息技术",
+      "title": "英伟达代码，和员工信息技术",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T19:44:24.000Z",
-      "summary": "人工智能安全公司首席执行官向人工智能，作为人工智能公司自动化研究和模型。",
+      "publishedAt": "2026-11-25T19:54:57.000Z",
+      "summary": "最作为。在英伟达。",
       "topics": [
-        "模型发布",
-        "监管安全",
-        "研究论文"
+        "算力芯片"
       ],
-      "heat": 68,
+      "heat": 58,
       "image": ""
     },
     {
@@ -2236,7 +2237,7 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-11-28T07:50:48.000Z",
-      "summary": "马斯克表示，谷歌已表示有兴趣从租用更多算力。用于高带宽训练、大规模连���算力集群的租赁价格正在上涨，部分时段涨幅十分明显；而小规模算力（约 5000 块图形处理器以内）的价格则在走低。整体来看，算力业务的单图形处理器平均租赁价格呈上行趋势。”此前，马斯克近已在内部向员工摊牌：公司自家的人工智能模型开发落后于竞争对手，与其拿图形处理器训练，不如直接把算力租给对手，赚得更多。这……",
+      "summary": "马斯克表示，谷歌已表示有兴趣从租用更多算力。用于高带宽训练、大规模连续算力集群的租赁价格正在上涨，部分时段涨幅十分明显；而小规模算力（约 5000 块图形处理器以内）的价格则在走低。整体来看，算力业务的单图形处理器平均租赁价格呈上行趋势。”此前，马斯克近已在内部向员工摊牌：公司自家的人工智能模型开发落后于竞争对手，与其拿图形处理器训练，不如直接把算力租给对手，赚得更多。这意味……",
       "topics": [
         "模型发布",
         "算力芯片"
@@ -2258,24 +2259,23 @@
         "模型发布",
         "监管安全"
       ],
-      "heat": 91,
+      "heat": 90,
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司构建数据平台向在人工智能智能体",
-      "title": "开放人工智能公司构建数据平台向在人工智能智能体",
-      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "id": "the-decoder-人工智能解码媒体发布人工智能相关动态",
+      "title": "人工智能解码媒体发布人工智能相关动态。",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-27T16:05:23.000Z",
-      "summary": "开放人工智能公司数据智能体在智能聊天助手，公司构建智能体面向企业指标。工具设置开放人工智能公司在借助和。开放人工智能公司构建数据平台向在人工智能智能体首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-27T16:06:43.000Z",
+      "summary": "云服务平台。云服务平台，首个在人工智能解码媒体。",
       "topics": [
-        "模型发布",
         "产品应用"
       ],
-      "heat": 84,
+      "heat": 71,
       "image": ""
     },
     {
@@ -2291,7 +2291,7 @@
       "topics": [
         "产品应用"
       ],
-      "heat": 63,
+      "heat": 62,
       "image": ""
     },
     {
@@ -2329,21 +2329,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-向人工智能-在新",
-      "title": "向人工智能？在新",
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "id": "techcrunch-ai-人工智能安全公司呼吁控制向人工智能",
+      "title": "人工智能安全公司呼吁控制向人工智能",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T18:11:46.000Z",
-      "summary": "新人工智能面向五个作为新研究来自安全，向和风险向。",
+      "publishedAt": "2026-11-25T19:44:24.000Z",
+      "summary": "人工智能安全公司首席执行官向人工智能，作为人工智能公司自动化研究和模型。",
       "topics": [
-        "产品应用",
+        "模型发布",
         "监管安全",
         "研究论文"
       ],
-      "heat": 60,
+      "heat": 68,
       "image": ""
     },
     {
@@ -2465,21 +2465,20 @@
       "image": ""
     },
     {
-      "id": "the-decoder-人工智能-6-发布模型编程智能体",
-      "title": "人工智能 : 6 发布模型编程智能体？",
-      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+      "id": "the-decoder-开放人工智能公司构建数据平台向在人工智能智能体",
+      "title": "开放人工智能公司构建数据平台向在人工智能智能体",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-27T15:37:47.000Z",
-      "summary": "40 向带来构建 6 向电脑只是 $3.79 十亿推出。人工智能编程智能体克劳德模型代码模式。电脑企业模型即将推出。人工智能 : 6 发布模型编程智能体？首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-27T16:05:23.000Z",
+      "summary": "开放人工智能公司数据智能体在智能聊天助手，公司构建智能体面向企业指标。工具设置开放人工智能公司在借助和。开放人工智能公司构建数据平台向在人工智能智能体首个在人工智能解码媒体。",
       "topics": [
         "模型发布",
-        "产品应用",
-        "端侧智能"
+        "产品应用"
       ],
-      "heat": 89,
+      "heat": 84,
       "image": ""
     },
     {
@@ -2517,19 +2516,21 @@
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能向用户由",
-      "title": "人工智能向用户由",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "id": "techcrunch-ai-向人工智能-在新",
+      "title": "向人工智能？在新",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T17:35:58.000Z",
-      "summary": "人工智能数据来自 21 百万，2.1 百万向。",
+      "publishedAt": "2026-11-25T18:11:46.000Z",
+      "summary": "新人工智能面向五个作为新研究来自安全，向和风险向。",
       "topics": [
-        "人工智能动态"
+        "产品应用",
+        "监管安全",
+        "研究论文"
       ],
-      "heat": 50,
+      "heat": 60,
       "image": ""
     },
     {
@@ -2595,7 +2596,7 @@
         "多模态",
         "端侧智能"
       ],
-      "heat": 94,
+      "heat": 93,
       "image": ""
     },
     {
@@ -2611,7 +2612,7 @@
       "topics": [
         "投融资"
       ],
-      "heat": 81,
+      "heat": 80,
       "image": ""
     },
     {
@@ -2629,23 +2630,25 @@
         "算力芯片",
         "监管安全"
       ],
-      "heat": 87,
+      "heat": 86,
       "image": ""
     },
     {
-      "id": "the-decoder-向在-10-000-作为信息技术向人工智能",
-      "title": "向在 10，000 作为信息技术向人工智能",
-      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "id": "the-decoder-人工智能-6-发布模型编程智能体",
+      "title": "人工智能 : 6 发布模型编程智能体？",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
       "source": "人工智能解码媒体",
       "sourceId": "the-decoder",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-27T14:57:25.000Z",
-      "summary": "向在 10，000 作为部件人工智能，借助。向在 10，000 作为信息技术向人工智能首个在人工智能解码媒体。",
+      "publishedAt": "2026-11-27T15:37:47.000Z",
+      "summary": "40 向带来构建 6 向电脑只是 $3.79 十亿推出。人工智能编程智能体克劳德模型代码模式。电脑企业模型即将推出。人工智能 : 6 发布模型编程智能体？首个在人工智能解码媒体。",
       "topics": [
-        "产品应用"
+        "模型发布",
+        "产品应用",
+        "端侧智能"
       ],
-      "heat": 70,
+      "heat": 89,
       "image": ""
     },
     {
@@ -2680,23 +2683,23 @@
         "算力芯片",
         "开源生态"
       ],
-      "heat": 65,
+      "heat": 64,
       "image": ""
     },
     {
-      "id": "techcrunch-ai-人工智能数据中心向构建-和信息技术",
-      "title": "人工智能数据中心向构建，和信息技术",
-      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "id": "techcrunch-ai-人工智能向用户由",
+      "title": "人工智能向用户由",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T15:41:43.000Z",
-      "summary": "⁠英伟达 ⁠ 信息技术人工智能数据中心信息技术向，和只是作为和。向开发者，驱动，和构建。⁠ ⁠。…",
+      "publishedAt": "2026-11-25T17:35:58.000Z",
+      "summary": "人工智能数据来自 21 百万，2.1 百万向。",
       "topics": [
-        "算力芯片"
+        "人工智能动态"
       ],
-      "heat": 58,
+      "heat": 50,
       "image": ""
     },
     {
@@ -2729,7 +2732,7 @@
         "产品应用",
         "算力芯片"
       ],
-      "heat": 89,
+      "heat": 88,
       "image": ""
     },
     {
@@ -2741,13 +2744,29 @@
       "sourceType": "media",
       "language": "zh",
       "publishedAt": "2026-11-28T02:00:00.000Z",
-      "summary": "作者｜黄楠编辑｜袁斯来硬氪获悉，水面智能驾驶公司「仓潮科技」近日完成数千��元天使++轮融资，由兴业证券旗下兴证资本、上市公司高华科技联合投资，这是公司2026年完成的第三轮融资。资金将重点投向近海运维场景的数据化与产品落地、海洋物理人工智能技术研发、船级社认证及行业标准建设，同时推进近海世界模型的前沿探索。本轮融资完成后，叠加此前种子轮、天使轮及天使+轮系列融资，仓潮科技累……",
+      "summary": "作者｜黄楠编辑｜袁斯来硬氪获悉，水面智能驾驶公司「仓潮科技」近日完成数千万元天使++轮融资，由兴业证券旗下兴证资本、上市公司高华科技联合投资，这是公司2026年完成的第三轮融资。资金将重点投向近海运维场景的数据化与产品落地、海洋物理人工智能技术研发、船级社认证及行业标准建设，同时推进近海世界模型的前沿探索。本轮融资完成后，叠加此前种子轮、天使轮及天使+轮系列融资，仓潮科技累计……",
       "topics": [
         "产品应用",
         "算力芯片",
         "监管安全"
       ],
       "heat": 96,
+      "image": ""
+    },
+    {
+      "id": "the-decoder-向在-10-000-作为信息技术向人工智能",
+      "title": "向在 10，000 作为信息技术向人工智能",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "source": "人工智能解码媒体",
+      "sourceId": "the-decoder",
+      "sourceType": "media",
+      "language": "zh",
+      "publishedAt": "2026-11-27T14:57:25.000Z",
+      "summary": "向在 10，000 作为部件人工智能，借助。向在 10，000 作为信息技术向人工智能首个在人工智能解码媒体。",
+      "topics": [
+        "产品应用"
+      ],
+      "heat": 70,
       "image": ""
     },
     {
@@ -2781,40 +2800,23 @@
       "topics": [
         "人工智能动态"
       ],
-      "heat": 60,
+      "heat": 59,
       "image": ""
     },
     {
-      "id": "the-decoder-开放人工智能公司人工智能信息技术",
-      "title": "开放人工智能公司人工智能信息技术",
-      "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
-      "source": "人工智能解码媒体",
-      "sourceId": "the-decoder",
-      "sourceType": "media",
-      "language": "zh",
-      "publishedAt": "2026-11-26T19:31:46.000Z",
-      "summary": "和开放人工智能公司人工智能，来自全球向生活在地球。人工智能实验室在在。开放人工智能公司人工智能信息技术首个在人工智能解码媒体。",
-      "topics": [
-        "产品应用",
-        "研究论文"
-      ],
-      "heat": 67,
-      "image": ""
-    },
-    {
-      "id": "techcrunch-ai-亚马逊和元宇宙平台公司据报道在向在人工智能智能体",
-      "title": "亚马逊和元宇宙平台公司据报道在向在人工智能智能体",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "id": "techcrunch-ai-人工智能数据中心向构建-和信息技术",
+      "title": "人工智能数据中心向构建，和信息技术",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
       "source": "科技创投媒体人工智能",
       "sourceId": "techcrunch-ai",
       "sourceType": "media",
       "language": "zh",
-      "publishedAt": "2026-11-25T14:10:18.000Z",
-      "summary": "亚马逊和元宇宙平台公司，月。",
+      "publishedAt": "2026-11-25T15:41:43.000Z",
+      "summary": "⁠英伟达 ⁠ 信息技术人工智能数据中心信息技术向，和只是作为和。向开发者，驱动，和构建。⁠ ⁠。…",
       "topics": [
-        "产品应用"
+        "算力芯片"
       ],
-      "heat": 50,
+      "heat": 58,
       "image": ""
     },
     {
